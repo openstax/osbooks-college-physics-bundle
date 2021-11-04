@@ -1,0 +1,1069 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+    <title>Flow Rate and Its Relation to Velocity</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42205</md:content-id>
+  <md:title>Flow Rate and Its Relation to Velocity</md:title>
+  <md:abstract><list>
+<item>Calculate flow rate.</item>
+<item>Define units of volume.</item>
+<item>Describe incompressible fluids.</item>
+<item>Explain the consequences of the equation of continuity.</item>
+</list></md:abstract>
+  <md:uuid>83d270f5-baa0-4bf9-a22a-539025b29180</md:uuid>
+</metadata>
+
+<content>
+        <para id="import-auto-id3151377"><term id="import-auto-id3399640">Flow rate</term><emphasis effect="italics"> <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> is defined to be the volume of fluid passing by some location through an area during a period of time, as seen in <link target-id="import-auto-id1062406"/>. In symbols, this can be written as</para>
+        <equation id="fs-id3254631"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>t</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  {V}  over  {t} } } {}</m:annotation></m:semantics></m:math></equation>
+        <para id="import-auto-id3285790">where <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math></emphasis> is the volume and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math></emphasis> is the elapsed time.</para>
+        <para id="import-auto-id2655857">The SI unit for flow rate is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>, but a number of other units for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> are in common use. For example, the heart of a resting adult pumps blood at a rate of 5.00 liters per minute (L/min). Note that a <term id="import-auto-id3112840">liter</term> (L) is 1/1000 of a cubic meter or 1000 cubic centimeters (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 3} } `m rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math><sup/> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{3} } `"cm" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>). In this text we shall use whatever metric units are most convenient for a given situation.</para><figure id="import-auto-id1062406"><media id="import-auto-id3181830" alt="The figure shows a fluid flowing through a cylindrical pipe open at both ends. A portion of the cylindrical pipe with the fluid is shaded for a length d. The velocity of the fluid in the shaded region is shown by v toward the right. The cross sections of the shaded cylinder are marked as A. This cylinder of fluid flows past a point P on the cylindrical pipe. The velocity v is equal to d over t.">
+                <image mime-type="image/jpg" src="../../media/Figure_13_01_01a.jpg" width="275"/>
+            </media>
+
+        <caption>Flow rate is the volume of fluid per unit time flowing past a point through the area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>. Here the shaded cylinder of fluid flows past point <m:math><m:semantics><m:mrow><m:mrow><m:mtext>P</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> in a uniform pipe in time <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. The volume of the cylinder is <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ad</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ad"} {}</m:annotation></m:semantics></m:math> and the average velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+
+<m:mo stretchy="false">=</m:mo><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v}} =d/t} {}</m:annotation></m:semantics></m:math> so that the flow rate is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ad</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "Ad"/t=A {overline  {v}} } {}</m:annotation></m:semantics></m:math>.</caption></figure><example id="fs-id2963224">
+        <title>Calculating Volume from Flow Rate: The Heart Pumps a Lot of Blood in a Lifetime</title>
+        <para id="import-auto-id2662952">How many cubic meters of blood does the heart pump in a 75-year lifetime, assuming the average flow rate is 5.00 L/min?</para>
+
+            <para id="import-auto-id1434803"><title>Strategy</title></para>
+            <para id="fs-id1575796">Time and flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> are given, and so the volume <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math></emphasis> can be calculated from the definition of flow rate.</para>
+
+            <para id="import-auto-id3162878"><title>Solution</title></para>
+            <para id="fs-id3397174">Solving <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=V/t} {}</m:annotation></m:semantics></m:math> for volume gives</para>
+            <equation id="fs-id2590610"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Qt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mtext>.</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "Qt"} {}</m:annotation></m:semantics></m:math></equation>
+        <para id="import-auto-id2393627">Substituting known values yields</para>
+                  <equation id="fs-id3138372"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:mi>V</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>L</m:mtext></m:mrow><m:mtext>1 min</m:mtext></m:mfrac></m:mfenced><m:mo stretchy="false">(</m:mo><m:mtext>75</m:mtext><m:mspace width="0.25em"/><m:mtext>y</m:mtext><m:mo stretchy="false">)</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>L</m:mtext></m:mrow></m:mfrac></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>26</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mfrac><m:mtext>min</m:mtext><m:mtext>y</m:mtext></m:mfrac></m:mrow></m:mfenced></m:mtd></m:mtr>
+<m:mtr>
+<m:mtd><m:mtext/></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>.</m:mtext></m:mtd>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+            size 12{V= left ( {  {5 "." "00"" L"}  over  {"1 min"} }  right ) \( "75"" y" \)  left ( {  {1" m" rSup { size 8{3} } }  over  {"10" rSup { size 8{3} } " L"} }  right ) left (5 "." "26" times "10" rSup { size 8{5} }   {  {"min"}  over  {y} }  right )}  {} #
+            "    "=2 "." 0 times "10" rSup { size 8{5} } " m" rSup { size 8{3} }  {}
+            } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2437020"><title>Discussion</title></para>
+            <para id="fs-id2950171">This amount is about 200,000 tons of blood. For comparison, this value is equivalent to about 200 times the volume of water contained in a 6-lane 50-m lap pool.</para>
+        </example>
+
+        <para id="import-auto-id2448171">Flow rate and velocity are related, but quite different, physical quantities. To make the distinction clear, think about the flow rate of a river. The greater the velocity of the water, the greater the flow rate of the river. But flow rate also depends on the size of the river. A rapid mountain stream carries far less water than the Amazon River in Brazil, for example. The precise relationship between flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> and velocity <m:math><m:semantics><m:mrow><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v}} } {}</m:annotation></m:semantics></m:math> is</para><equation id="fs-id3135337"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow>
+
+<m:mrow>
+ <m:mi>Q</m:mi>
+ <m:mo stretchy="false">=</m:mo>
+ <m:mi>A</m:mi>
+</m:mrow>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+
+
+</m:mrow></m:mrow><m:mtext>,</m:mtext>
+
+
+</m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=A {overline  {v}} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3397398">where <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math></emphasis> is the cross-sectional area and <m:math><m:semantics><m:mrow><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v}} } {}</m:annotation></m:semantics></m:math> is the average velocity. This equation seems logical enough. The relationship tells us that flow rate is directly proportional to both the magnitude of the average velocity (hereafter referred to as the speed) and the size of a river, pipe, or other conduit. The larger the conduit, the greater its cross-sectional area. <link target-id="import-auto-id1062406"/> illustrates how this relationship is obtained. The shaded cylinder has a volume</para><equation id="fs-id1867952"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ad</m:mtext></m:mrow><m:mtext>,</m:mtext></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "Ad"} {}</m:annotation></m:semantics></m:math></equation>
+        <para id="import-auto-id2381286">which flows past the point <m:math><m:semantics><m:mrow><m:mrow><m:mtext>P</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> in a time <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. Dividing both sides of this relationship by <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math></emphasis> gives</para><equation id="fs-id2668235"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mfrac><m:mi>V</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ad</m:mtext></m:mrow></m:mstyle><m:mi>t</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {V}  over  {t} } = {  { ital "Ad"}  over  {t} } } {}</m:annotation></m:semantics></m:math></equation>
+        <para id="import-auto-id2648082">We note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=V/t} {}</m:annotation></m:semantics></m:math> and the average speed is
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v}} =d/t} {}</m:annotation></m:semantics></m:math>. Thus the equation becomes <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=A {overline  {v}} } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2671288"><link target-id="fs-id3175177"/> shows an incompressible fluid flowing along a pipe of decreasing radius. Because the fluid is incompressible, the same amount of fluid must flow past any point in the tube in a given time to ensure continuity of flow. In this case, because the cross-sectional area of the pipe decreases, the velocity must necessarily increase. This logic can be extended to say that the flow rate must be the same at all points along the pipe. In particular, for points 1 and 2,</para>
+        <equation id="fs-id1546161"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>Q</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>Q</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mrow>
+                              <m:msub>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+                                    <m:mrow>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+
+                                </m:msub>
+
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>A</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                            </m:mrow>
+                            <m:msub>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mo stretchy="true">}</m:mo>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left none  matrix {
+Q rSub { size 8{1} } =Q rSub { size 8{2} }  {} ##
+A rSub { size 8{1} }  {overline  {v rSub { size 8{1} } }} =A rSub { size 8{2} }  {overline  {v rSub { size 8{2} } }}
+}  right rbrace  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3047364">This is called the equation of continuity and is valid for any incompressible fluid. The consequences of the equation of continuity can be observed when water flows from a hose into a narrow spray nozzle: it emerges with a large speed—that is the purpose of the nozzle. Conversely, when a river empties into one end of a reservoir, the water slows considerably, perhaps picking up speed again when it leaves the other end of the reservoir. In other words, speed increases when cross-sectional area decreases, and speed decreases when cross-sectional area increases.</para><figure id="fs-id3175177"><media id="fs-id3399724" alt="The figure shows a cylindrical tube broad at the left and narrow at the right. The fluid is shown to flow through the cylindrical tube toward right along the axis of the tube. A shaded area is marked on the broader cylinder on the left. A cross section is marked on it as A one. A point one is marked on this cross section. The velocity of the fluid through the shaded area on narrow tube is marked by v one as an arrow toward right. Another shaded area is marked on the narrow cylindrical on the right. The shaded area on narrow tube is longer than the one on broader tube to show that when a tube narrows, the same volume occupies a greater length. A cross section is marked on the narrow cylindrical tube as A two. A point two is marked on this cross section. The velocity of fluid through the shaded area on narrow tube is marked v two toward right. The arrow depicting v two is longer than for v one showing v two to be greater in value than v one.">
+                <image mime-type="image/jpg" src="../../media/Figure_13_01_02a.jpg" width="450"/>
+            </media>
+
+          <caption>When a tube narrows, the same volume occupies a greater length. For the same volume to pass points 1 and 2 in a given time, the speed must be greater at point 2. The process is exactly reversible. If the fluid flows in the opposite direction, its speed will decrease when the tube widens. (Note that the relative volumes of the two cylinders and the corresponding velocity vector arrows are not drawn to scale.)</caption></figure><para id="import-auto-id3358539">Since liquids are essentially incompressible, the equation of continuity is valid for all liquids. However, gases are compressible, and so the equation must be applied with caution to gases if they are subjected to compression or expansion.</para><example id="fs-id3230619">
+        <title>Calculating Fluid Speed: Speed Increases When a Tube Narrows</title>
+        <para id="import-auto-id2950524">A nozzle with a radius of 0.250 cm is attached to a garden hose with a radius of 0.900 cm. The flow rate through hose and nozzle is 0.500 L/s. Calculate the speed of the water (a) in the hose and (b) in the nozzle.</para>
+
+            <para id="import-auto-id3158568"><title>Strategy</title></para>
+            <para id="fs-id2668071">We can use the relationship between flow rate and speed to find both velocities. We will use the subscript 1 for the hose and 2 for the nozzle.</para>
+
+            <para id="import-auto-id3229579"><title>Solution for (a)</title></para>
+            <para id="fs-id1462186">First, we solve <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=A {overline  {v}} } {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and note that the cross-sectional area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=πr rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, yielding</para><equation id="fs-id1616200"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>A</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi>
+
+<m:msubsup>
+ <m:mi fontstyle="italic">πr</m:mi>
+ <m:mn>1</m:mn>
+ <m:mn>2</m:mn>
+</m:msubsup>
+
+</m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{1} } }} = {  {Q}  over  {A rSub { size 8{1} } } } = {  {Q}  over  {πr rSub { size 8{1}   rSup { size 8{2} } } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2385058">Substituting known values and making appropriate unit conversions yields</para>
+            <equation id="fs-id1537613"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mspace width="0.25em"/><m:mtext>L/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mtext>L</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>96</m:mtext><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{1} } }} = {  { \( 0 "." "500"" L/s" \)  \( "10" rSup { size 8{ - 3} } " m" rSup { size 8{3} } /L \) }  over  {π \( 9 "." "00" times "10" rSup { size 8{ - 3} } " m" \)  rSup { size 8{2} } } } =1 "." "96"" m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1386574"><title>Solution for (b)</title></para>
+            <para id="fs-id2057762">We could repeat this calculation to find the speed in the nozzle <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{2} } }} } {}</m:annotation></m:semantics></m:math>, but we will use the equation of continuity to give a somewhat different insight. Using the equation which states</para><equation id="fs-id3082712"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{1} }  {overline  {v rSub { size 8{1} } }} =A rSub { size 8{2} }  {overline  {v rSub { size 8{2} } }} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1119518">solving for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{2} } }} } {}</m:annotation></m:semantics></m:math> and substituting <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{πr rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for the cross-sectional area yields</para><equation id="fs-id2590734"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>A</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac>
+
+<m:msubsup>
+ <m:mi fontstyle="italic">πr</m:mi>
+ <m:mn>1</m:mn>
+ <m:mn>2</m:mn>
+</m:msubsup>
+<m:msubsup>
+ <m:mi fontstyle="italic">πr</m:mi>
+ <m:mn>2</m:mn>
+ <m:mn>2</m:mn>
+</m:msubsup>
+</m:mfrac></m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>r</m:mi><m:mrow><m:msup><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msub><m:msub><m:mi>r</m:mi><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msub></m:mfrac></m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{2} } }} = {  {A rSub { size 8{1} } }  over  {A rSub { size 8{2} } } }  {overline  {v rSub { size 8{1} } }} = {  {πr rSub { size 8{1}   rSup { size 8{2} } } }  over  {πr rSub { size 8{2}   rSup { size 8{2} } } } }  {overline  {v rSub { size 8{1} } }} = {  {r rSub { size 8{1}   rSup { size 8{2} } } }  over  {r rSub { size 8{2}   rSup { size 8{2} } } } }  {overline  {v rSub { size 8{1} } }} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1186311">Substituting known values,</para>
+            <equation id="fs-id3025743"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>900</m:mtext><m:mspace width="0.25em"/><m:mtext>cm</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mspace width="0.25em"/><m:mtext>cm</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>96</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>25</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>5 m/s</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{2} } }} = {  { \( 0 "." "900"" cm" \)  rSup { size 8{2} } }  over  { \( 0 "." "250"" cm" \)  rSup { size 8{2} } } } 1 "." "96"" m/s"="25" "." "5 m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3418172">
+            <title>Discussion</title>
+        </para>
+        <para id="import-auto-id1909073">A speed of 1.96 m/s is about right for water emerging from a nozzleless hose. The nozzle produces a considerably faster stream merely by constricting the flow to a narrower tube.</para>
+        </example>
+        <para id="import-auto-id1011172">The solution to the last part of the example shows that speed is inversely proportional to the <emphasis effect="italics">square</emphasis> of the radius of the tube, making for large effects when radius varies. We can blow out a candle at quite a distance, for example, by pursing our lips, whereas blowing on a candle with our mouth wide open is quite ineffective.</para>
+        <para id="import-auto-id3450198">In many situations, including in the cardiovascular system, branching of the flow occurs. The blood is pumped from the heart into arteries that subdivide into smaller arteries (arterioles) which branch into very fine vessels called capillaries. In this situation, continuity of flow is maintained but it is the <emphasis effect="italics">sum</emphasis> of the flow rates in each of the branches in any portion along the tube that is maintained. The equation of continuity in a more general form becomes</para>
+        <equation id="fs-id3026881"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>n</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{1} } A rSub { size 8{1} }  {overline  {v rSub { size 8{1} } }} =n rSub { size 8{2} } A rSub { size 8{2} }  {overline  {v rSub { size 8{2} } }} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2404447">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are the number of branches in each of the sections along the tube.</para>
+
+        <example id="fs-id1895376">
+        <title>Calculating Flow Speed and Vessel Diameter: Branching in the Cardiovascular System</title>
+        <para id="import-auto-id1824959">The aorta is the principal blood vessel through which blood leaves the heart in order to circulate around the body. (a) Calculate the average speed of the blood in the aorta if the flow rate is 5.0 L/min. The aorta has a radius of 10 mm. (b) Blood also flows through smaller blood vessels known as capillaries. When the rate of blood flow in the aorta is 5.0 L/min, the speed of blood in the capillaries is about 0.33 mm/s. Given that the average diameter of a capillary is <m:math><m:semantics><m:mrow><m:mn>8.0</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:semantics></m:math>, calculate the number of capillaries in the blood circulatory system.</para><para id="import-auto-id3181202"><title>Strategy</title></para>
+            <para id="fs-id1222304">We can use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=A {overline  {v}} } {}</m:annotation></m:semantics></m:math> to calculate the speed of flow in the aorta and then use the general form of the equation of continuity to calculate the number of capillaries as all of the other variables are known.</para><para id="import-auto-id3007976"><title>Solution for (a)</title></para>
+            <para id="fs-id1860922">The flow rate is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=A {overline  {v}} } {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v}} = {  {Q}  over  {πr rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> for a cylindrical vessel.</para><para id="import-auto-id2612267">Substituting the known values (converted to units of meters and seconds) gives</para><equation id="fs-id3104729"><m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mrow>
+           <m:mrow>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+           </m:mrow>
+           <m:mo stretchy="false">
+=
+           </m:mo>
+           <m:mrow>
+            <m:mfrac>
+             <m:mrow>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:mn>
+5.0
+                </m:mn>
+               <m:mspace width="0.25em"/>
+                <m:mtext>
+L/min
+                </m:mtext>
+               </m:mrow>
+              </m:mfenced>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:msup>
+                 <m:mtext>
+10
+                 </m:mtext>
+                 <m:mrow>
+                   <m:mrow>
+                    <m:mrow>
+                     <m:mrow>
+                      <m:mo stretchy="false">
+−
+                      </m:mo>
+                      <m:mn>
+3
+                      </m:mn>
+                     </m:mrow>
+                    </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+                </m:msup>
+                <m:mspace width="0.25em"/>
+                <m:msup>
+                 <m:mtext>
+m
+                 </m:mtext>
+                 <m:mrow>
+                   <m:mrow>
+                    <m:mrow>
+                     <m:mn>
+3
+                     </m:mn>
+                    </m:mrow>
+                   </m:mrow>
+                 </m:mrow>
+                </m:msup>
+                <m:mtext>
+/L
+                </m:mtext>
+               </m:mrow>
+              </m:mfenced>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:mn>
+1
+                </m:mn>
+              <m:mspace width="0.25em"/>
+                <m:mtext>
+min/
+                </m:mtext>
+                <m:mtext>
+60
+                </m:mtext>
+                <m:mspace width="0.25em"/>
+                <m:mtext>
+s
+                </m:mtext>
+               </m:mrow>
+              </m:mfenced>
+             </m:mrow>
+             <m:mrow>
+              <m:mi>
+π
+              </m:mi>
+              <m:msup>
+               <m:mfenced open="(" close=")">
+                <m:mrow>
+                 <m:mn>
+0
+                 </m:mn>
+                 <m:mtext>
+.
+                 </m:mtext>
+                 <m:mtext>
+010 m
+                 </m:mtext>
+                </m:mrow>
+               </m:mfenced>
+               <m:mrow>
+                 <m:mrow>
+                  <m:mrow>
+                   <m:mn>
+2
+                   </m:mn>
+                  </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+              </m:msup>
+             </m:mrow>
+            </m:mfrac>
+           </m:mrow>
+          </m:mrow>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mn>
+0
+          </m:mn>
+         </m:mrow>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mtext>
+27
+         </m:mtext>
+       <m:mspace width="0.25em"/>
+         <m:mtext>
+m/s
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+<m:mo>.</m:mo>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{ { bar  {v}}= {  { left (5 "." 0`"L/min" right ) left ("10" rSup { size 8{ - 3} } `m rSup { size 8{3} } "/L" right ) left (1`"min/""60"`s right )}  over  {π left (0 "." "010 m" right ) rSup { size 8{2} } } } =0 "." "27"`"m/s"} {}
+     </m:annotation>
+    </m:semantics>
+  </m:math></equation><para id="eip-444"><title>Solution for (b)</title></para><para id="import-auto-id3229045">Using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>A</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>n</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{1} } A rSub { size 8{1} }  {overline  {v rSub { size 8{1} } }} =n rSub { size 8{2} } A rSub { size 8{2} }  {overline  {v rSub { size 8{2} } }} } {}</m:annotation></m:semantics></m:math>, assigning the subscript 1 to the aorta and 2 to the capillaries, and solving for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> (the number of capillaries) gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>n</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>n</m:mi>
+         <m:mrow>
+          <m:mn>1</m:mn>
+         </m:mrow>
+        </m:msub>
+        <m:msub>
+         <m:mi>A</m:mi>
+         <m:mrow>
+          <m:mn>1</m:mn>
+         </m:mrow>
+        </m:msub>
+        <m:msub>
+             <m:mrow>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+             </m:mrow>
+             <m:mrow>
+          <m:mn>1</m:mn>
+         </m:mrow>
+        </m:msub>
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+        <m:mi>A</m:mi>
+        <m:mrow>
+         <m:mn>2</m:mn>
+        </m:mrow>
+       </m:msub>
+       <m:msub>
+             <m:mrow>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+             </m:mrow>
+             <m:mrow>
+          <m:mn>2</m:mn>
+         </m:mrow>
+        </m:msub>
+      </m:mrow>
+     </m:mfrac>
+    </m:mrow>
+   </m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>. Converting all quantities to units of meters and seconds and substituting into the equation above gives</para><equation id="fs-id3175565"><m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mrow>
+           <m:msub>
+            <m:mi>
+n
+            </m:mi>
+            <m:mrow>
+              <m:mrow>
+               <m:mrow>
+                <m:mn>
+2
+                </m:mn>
+               </m:mrow>
+              </m:mrow>
+            </m:mrow>
+           </m:msub>
+           <m:mo stretchy="false">
+=
+           </m:mo>
+           <m:mrow>
+            <m:mfrac>
+             <m:mrow>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:mn>
+1
+                </m:mn>
+               </m:mrow>
+              </m:mfenced>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:mi>
+π
+                </m:mi>
+               </m:mrow>
+              </m:mfenced>
+              <m:msup>
+               <m:mfenced open="(" close=")">
+                <m:mrow>
+                 <m:mrow>
+                  <m:mtext>
+10
+                  </m:mtext>
+                  <m:mo stretchy="false">
+×
+                  </m:mo>
+                  <m:msup>
+                   <m:mtext>
+10
+                   </m:mtext>
+                   <m:mrow>
+                     <m:mrow>
+                      <m:mrow>
+                       <m:mrow>
+                        <m:mo stretchy="false">
+−
+                        </m:mo>
+                        <m:mn>
+3
+                        </m:mn>
+                       </m:mrow>
+                      </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                  </m:msup>
+                 </m:mrow><m:mspace width="0.25em"/>
+                 <m:mtext>
+m
+                 </m:mtext>
+                </m:mrow>
+               </m:mfenced>
+               <m:mrow>
+                 <m:mrow>
+                  <m:mrow>
+                   <m:mn>
+2
+                   </m:mn>
+                  </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+              </m:msup>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:mn>
+0.27 m/s
+                </m:mn>
+               </m:mrow>
+              </m:mfenced>
+             </m:mrow>
+             <m:mrow>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:mi>
+π
+                </m:mi>
+               </m:mrow>
+              </m:mfenced>
+              <m:msup>
+               <m:mfenced open="(" close=")">
+                <m:mrow>
+                 <m:mn>
+4.0
+                 </m:mn>
+                 <m:mrow>
+                  <m:mo stretchy="false">
+×
+                  </m:mo>
+                  <m:msup>
+                   <m:mtext>
+10
+                   </m:mtext>
+                   <m:mrow>
+                     <m:mrow>
+                      <m:mrow>
+                       <m:mrow>
+                        <m:mo stretchy="false">
+−
+                        </m:mo>
+                        <m:mn>
+6
+                        </m:mn>
+                       </m:mrow>
+                      </m:mrow>
+                     </m:mrow>
+                   </m:mrow>
+                  </m:msup>
+                 </m:mrow><m:mspace width="0.25em"/>
+                 <m:mtext>
+m
+                 </m:mtext>
+                </m:mrow>
+               </m:mfenced>
+               <m:mrow>
+                 <m:mrow>
+                  <m:mrow>
+                   <m:mn>
+2
+                   </m:mn>
+                  </m:mrow>
+                 </m:mrow>
+               </m:mrow>
+              </m:msup>
+              <m:mfenced open="(" close=")">
+               <m:mrow>
+                <m:mn>
+0.33
+                </m:mn>
+                <m:mrow>
+                 <m:mo stretchy="false">
+×
+                 </m:mo>
+                 <m:msup>
+                  <m:mtext>
+10
+                  </m:mtext>
+                  <m:mrow>
+                    <m:mrow>
+                     <m:mrow>
+                      <m:mrow>
+                       <m:mo stretchy="false">
+−
+                       </m:mo>
+                       <m:mn>
+3
+                       </m:mn>
+                      </m:mrow>
+                     </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                 </m:msup>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext>
+m/s
+                </m:mtext>
+               </m:mrow>
+              </m:mfenced>
+             </m:mrow>
+            </m:mfrac>
+           </m:mrow>
+          </m:mrow>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mn>
+5.0
+          </m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+9
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msup>
+         </m:mrow><m:mspace width="0.25em"/>
+         <m:mtext>
+capillaries
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+<m:mo>.</m:mo>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{n rSub { size 8{2} } = {  { left (1 right ) left (π right ) left ("10" times "10" rSup { size 8{ - 3} } " m" right ) rSup { size 8{2} }  left (0 "." "27"" m/s" right )}  over  { left (π right ) left (4 "." 0 times "10" rSup { size 8{ - 6} } " m" right ) rSup { size 8{2} }  left (0 "." "33" times "10" rSup { size 8{ - 3} } " m/s" right )} } =5 "." 0 times "10" rSup { size 8{9} } " capillaries"} {}
+     </m:annotation>
+    </m:semantics>
+  </m:math></equation><para id="import-auto-id3375035"><title>Discussion</title></para>
+            <para id="fs-id2591082">Note that the speed of flow in the capillaries is considerably reduced relative to the speed in the aorta due to the significant increase in the total cross-sectional area at the capillaries. This low speed is to allow sufficient time for effective exchange to occur although it is equally important for the flow not to become stationary in order to avoid the possibility of clotting. Does this large number of capillaries in the body seem reasonable? In active muscle, one finds about 200 capillaries per <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>mm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"mm" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>, or about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>200</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"200" times "10" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math> per 1 kg of muscle. For 20 kg of muscle, this amounts to about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 times "10" rSup { size 8{9} } } {}</m:annotation></m:semantics></m:math> capillaries.</para>
+        </example>
+
+
+
+        <section id="eip-299" class="section-summary"><title>Section Summary</title><list id="eip-id2616738"><item>Flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> is defined to be the volume <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math></emphasis> flowing past a point in time
+
+<emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math></emphasis>, or
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>t</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  {V}  over  {t} } } {}</m:annotation></m:semantics></m:math> where
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is volume and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is time.</item>
+        <item>The SI unit of volume is
+<m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</item>
+        <item>Another common unit is the liter (L), which is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 3} } `m rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</item>
+        <item>Flow rate and velocity are related by
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=A {overline  {v}} } {}</m:annotation></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the cross-sectional area of the flow and
+
+<m:math><m:semantics><m:mrow><m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v}} } {}</m:annotation></m:semantics></m:math> is its average velocity.</item>
+        <item>For incompressible fluids, flow rate at various points is constant. That is,<equation id="eip-537"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+<m:mfenced open="" close="}">
+<m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>Q</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>Q</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                            </m:mrow>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mrow>
+                              <m:msub>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>A</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                            </m:mrow>
+                            <m:msub>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>n</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mrow>
+                              <m:msub>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+
+                                  <m:mrow>
+                                    <m:mn>1</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:msub>
+                                <m:mi>n</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msub>
+                            </m:mrow>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:msub>
+
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+</m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left none  matrix {
+Q rSub { size 8{1} } =Q rSub { size 8{2} }  {} ##
+A rSub { size 8{1} }  {overline  {v}}  rSub { size 8{1} } =A rSub { size 8{2} }  {overline  {v}}  rSub { size 8{2} }  {} ##
+n rSub { size 8{1} } A rSub { size 8{1} }  {overline  {v}}  rSub { size 8{1} } =n rSub { size 8{2} } A rSub { size 8{2} }  {overline  {v}}  rSub { size 8{2} }
+}  right rbrace  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+        </list></section><section id="fs-id1910291" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1549295" type="conceptual-questions"><problem id="fs-id3422246">
+        <para id="import-auto-id2346921">What is the difference between flow rate and fluid velocity? How are they related?</para>
+</problem></exercise>
+
+        <exercise id="fs-id1917833" type="conceptual-questions"><problem id="fs-id1402564">
+        <para id="import-auto-id3090033">Many figures in the text show streamlines. Explain why fluid velocity is greatest where streamlines are closest together. (Hint: Consider the relationship between fluid velocity and the cross-sectional area through which it flows.)</para>
+</problem></exercise>
+
+        <exercise id="fs-id1434712" type="conceptual-questions"><problem id="fs-id2346921">
+        <para id="import-auto-id2499530">Identify some substances that are incompressible and some that are not.</para>
+        </problem></exercise>
+        </section>
+
+        <section id="fs-id1849834" type="problems-exercises" class="problems-exercises">
+            <title>Problems &amp; Exercises</title>
+        <exercise id="fs-id2115593" type="problems-exercises"><problem id="fs-id1177794">
+            <para id="import-auto-id3163228">What is the average flow rate in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math> of gasoline to the engine of a car traveling at 100 km/h if it averages 10.0 km/L?</para>
+        </problem>
+<solution id="fs-id3130566">
+        <para id="import-auto-id3450007"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>2.78</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math></para></solution>
+        </exercise>
+
+        <exercise id="fs-id2382376" type="problems-exercises">
+            <problem id="fs-id1895566">
+                <para id="import-auto-id2445544">The heart of a resting adult pumps blood at a rate of 5.00 L/min. (a) Convert this to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>. (b) What is this rate in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>?</para>
+            </problem></exercise>
+
+        <exercise id="fs-id2017637" type="problems-exercises">
+            <problem id="fs-id3184855">
+            <para id="import-auto-id1596400">Blood is pumped from the heart at a rate of 5.0 L/min into the aorta (of radius 1.0 cm). Determine the speed of blood through the aorta.</para>
+        </problem>
+<solution id="fs-id2449465">
+        <para id="import-auto-id2688942">27 cm/s</para></solution>
+        </exercise>
+
+        <exercise id="fs-id1931967" type="problems-exercises">
+            <problem id="fs-id1174033">
+                <para id="import-auto-id1824582">Blood is flowing through an artery of radius 2 mm at a rate of 40 cm/s. Determine the flow rate and the volume that passes through the artery in a period of 30 s.</para></problem></exercise>
+
+        <exercise id="fs-id2438354" type="problems-exercises">
+            <problem id="fs-id2444640">
+                <para id="import-auto-id2017637">The Huka Falls on the Waikato River is one of New Zealand’s most visited natural tourist attractions (see <link target-id="import-auto-id953259"/>). On average the river has a flow rate of about 300,000 L/s. At the gorge, the river narrows to 20 m wide and averages 20 m deep. (a) What is the average speed of the river in the gorge? (b) What is the average speed of the water in the river downstream of the falls when it widens to 60 m and its depth increases to an average of 40 m?</para>
+
+        <figure id="import-auto-id953259"><media id="import-auto-id3353414" alt="Water rushes over a fall.">
+                <image mime-type="image/png" src="../../media/Figure_13_01_04a.jpg" width="275"/>
+            </media>
+
+        <caption>The Huka Falls in Taupo, New Zealand, demonstrate flow rate. (credit: RaviGogna, Flickr)</caption></figure></problem>
+<solution id="fs-id2681296">
+        <para id="import-auto-id3042804">(a) 0.75 m/s</para><para id="import-auto-id3181183">(b) 0.13 m/s</para></solution>
+        </exercise>
+
+        <exercise id="fs-id1909395" type="problems-exercises"><problem id="fs-id1562504">
+            <para id="import-auto-id3306781">A major artery with a cross-sectional area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> branches into 18 smaller arteries, each with an average cross-sectional area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>400</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "400"`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. By what factor is the average velocity of the blood reduced when it passes into these branches?</para></problem></exercise>
+
+        <exercise id="fs-id2677825" type="problems-exercises"><problem id="fs-id3213491">
+            <para id="import-auto-id3006657">(a) As blood passes through the capillary bed in an organ, the capillaries join to form venules (small veins). If the blood speed increases by a factor of 4.00 and the total cross-sectional area of the venules is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, what is the total cross-sectional area of the capillaries feeding these venules? (b) How many capillaries are involved if their average diameter is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>10.0</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "09" times "10" rSup { size 8{7} } } {}</m:annotation></m:semantics></m:math>?</para></problem>
+<solution id="fs-id2400374">
+        <para id="import-auto-id2962557">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>40.0</m:mn><m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "09" times "10" rSup { size 8{7} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2016935">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>09</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "09" times "10" rSup { size 8{7} } } {}</m:annotation></m:semantics></m:math></para>
+        </solution>
+        </exercise>
+
+        <exercise id="fs-id3137420" type="problems-exercises"><problem id="fs-id2005958">
+            <para id="import-auto-id2595060">The human circulation system has approximately <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 times "10" rSup { size 8{9} } } {}</m:annotation></m:semantics></m:math> capillary vessels. Each vessel has a diameter of about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "09" times "10" rSup { size 8{7} } } {}</m:annotation></m:semantics></m:math>. Assuming cardiac output is 5 L/min, determine the average velocity of blood flow through each capillary vessel.</para></problem></exercise>
+
+        <exercise id="fs-id1580788" type="problems-exercises"><problem id="fs-id2393682">
+            <para id="import-auto-id2016654">(a) Estimate the time it would take to fill a private swimming pool with a capacity of 80,000 L using a garden hose delivering 60 L/min. (b) How long would it take to fill if you could divert a moderate size river, flowing at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>5000</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"5000"`m rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>, into it?</para></problem>
+<solution id="fs-id2928667">
+        <para id="import-auto-id3080881">(a) 22 h</para><para id="import-auto-id2062601">(b) 0.016 s</para></solution>
+        </exercise>
+
+        <exercise id="fs-id3149885" type="problems-exercises"><problem id="fs-id3011861">
+            <para id="import-auto-id3114281">The flow rate of blood through a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>–6</m:mtext></m:mrow></m:msup></m:mrow><m:mtext>-m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00" times "10" rSup { size 8{"-6"} } m} {}</m:annotation></m:semantics></m:math> -radius capillary is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>80</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>-9</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "80" times "10" rSup { size 8{9} } "cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>. (a) What is the speed of the blood flow? (This small speed allows time for diffusion of materials to and from the blood.) (b) Assuming all the blood in the body passes through capillaries, how many of them must there be to carry a total flow of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>90</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{90 "." 0`"cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>? (The large number obtained is an overestimate, but it is still reasonable.)</para></problem></exercise>
+
+        <exercise id="fs-id3048002" type="problems-exercises"><problem id="fs-id1947265">
+            <para id="import-auto-id2589946">(a) What is the fluid speed in a fire hose with a 9.00-cm diameter carrying 80.0 L of water per second? (b) What is the flow rate in cubic meters per second? (c) Would your answers be different if salt water replaced the fresh water in the fire hose?</para>
+        </problem>
+<solution id="fs-id1618161">
+        <para id="import-auto-id1361504">(a) 12.6 m/s</para>
+        <para id="import-auto-id2990529">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.0800</m:mn><m:mrow/><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "80" times "10" rSup { size 8{9} } "cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3116723">(c) No, independent of density.</para>
+        </solution>
+        </exercise>
+
+        <exercise id="fs-id2658266" type="problems-exercises"><problem id="fs-id2673530">
+            <para id="import-auto-id2672070">The main uptake air duct of a forced air gas heater is 0.300 m in diameter. What is the average speed of air in the duct if it carries a volume equal to that of the house’s interior every 15 min? The inside volume of the house is equivalent to a rectangular solid 13.0 m wide by 20.0 m long by 2.75 m high.</para>
+        </problem></exercise>
+
+        <exercise id="fs-id3079662" type="problems-exercises"><problem id="fs-id3119404">
+            <para id="import-auto-id3230995">Water is moving at a velocity of 2.00 m/s through a hose with an internal diameter of 1.60 cm. (a) What is the flow rate in liters per second? (b) The fluid velocity in this hose’s nozzle is 15.0 m/s. What is the nozzle’s inside diameter?</para>
+        </problem>
+
+<solution id="eip-id3634982">
+
+<para id="eip-id2569242">(a) 0.402 L/s</para>
+<para id="eip-id2309768">(b) 0.584 cm</para>
+
+</solution></exercise><exercise id="fs-id1365720" type="problems-exercises"><problem id="fs-id3047261">
+            <para id="import-auto-id2442473">Prove that the speed of an incompressible fluid through a constriction, such as in a Venturi tube, increases by a factor equal to the square of the factor by which the diameter decreases. (The converse applies for flow out of a constriction into a larger-diameter region.)</para>
+        </problem>
+
+        </exercise><exercise id="fs-id2421219" type="problems-exercises"><problem id="fs-id2057369">
+            <para id="import-auto-id2429788">Water emerges straight down from a faucet with a 1.80-cm diameter at a speed of 0.500 m/s. (Because of the construction of the faucet, there is no variation in speed across the stream.) (a) What is the flow rate in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>? (b) What is the diameter of the stream 0.200 m below the faucet? Neglect any effects due to surface tension.</para>
+        </problem>
+
+<solution id="eip-id3242584">
+<para id="eip-id3382045">(a)
+<m:math>
+ <m:semantics>
+  <m:mrow>
+  <m:mtext>127</m:mtext>
+  <m:mspace width="0.25em"/>
+  <m:msup>
+   <m:mtext>cm</m:mtext>
+   <m:mtext>3</m:mtext>
+  </m:msup>
+  <m:mtext>/s</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="eip-id2821627">(b)  0.890 cm</para></solution></exercise><exercise id="fs-id3088759" type="problems-exercises"><problem id="fs-id1548219">
+            <para id="import-auto-id3013678"><title>Unreasonable Results</title></para>
+<para id="eip-id2447363">A mountain stream is 10.0 m wide and averages 2.00 m in depth. During the spring runoff, the flow in the stream reaches <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100,000</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100,000"`m rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>. (a) What is the average velocity of the stream under these conditions? (b) What is unreasonable about this velocity? (c) What is unreasonable or inconsistent about the premises?</para></problem></exercise></section>
+     </content>
+
+    <glossary>
+        <definition id="import-auto-id1245730"><term>flow rate</term> <meaning id="fs-id3191546">abbreviated <emphasis effect="italics">Q</emphasis>, it is the volume <emphasis effect="italics">V</emphasis> that flows past a particular point during a time <emphasis effect="italics">t</emphasis>, or <emphasis effect="italics">Q = V/t</emphasis></meaning></definition>
+        <definition id="import-auto-id3378881"><term>liter</term> <meaning id="fs-id1562453">a unit of volume, equal to 10<sup>−3</sup> m<sup>3</sup></meaning></definition>
+    </glossary>
+</document>

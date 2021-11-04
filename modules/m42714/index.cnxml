@@ -1,0 +1,981 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Electric Power and Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42714</md:content-id>
+  <md:title>Electric Power and Energy</md:title>
+  <md:abstract><list>
+<item>Calculate the power dissipated by a resistor and power supplied by a power supply.</item>
+<item>Calculate the cost of electricity under various circumstances.</item>
+</list></md:abstract>
+  <md:uuid>449b1cf7-592e-4625-8269-280bfa10d7ec</md:uuid>
+</metadata>
+
+<content>
+
+  <section id="fs-id2957708">
+    <title>Power in Electric Circuits</title>
+    <para id="import-auto-id3201698">Power is associated by many people with electricity. Knowing that power is the rate of energy use or energy conversion, what is the expression for <term>electric power</term>? Power transmission lines might come to mind. We also think of lightbulbs in terms of their power ratings in watts. Let us compare a 25-W bulb with a 60-W bulb. (See <link target-id="import-auto-id1861474"/>(a).) Since both operate on the same voltage, the 60-W bulb must draw more current to have a greater power rating. Thus the 60-W bulb’s resistance must be lower than that of a 25-W bulb. If we increase voltage, we also increase power. For example, when a 25-W bulb that is designed to operate on 120 V is connected to 240 V, it briefly glows very brightly and then burns out. Precisely how are voltage, current, and resistance related to electric power?</para><figure id="import-auto-id1861474"><media id="import-auto-id3048715" alt="Part a has two images. The image on the left is a photograph of a twenty five watt incandescent bulb emitting a dim, yellowish white color. The image on the right is a photograph of a sixty watt incandescent bulb emitting a brighter white light. Part b is a single photograph of a compact fluorescent lightbulb glowing in bright pure white color.">
+            <image mime-type="image/jpg" src="../../media/Figure_21_04_01a.jpg" width="200"/>
+          </media>
+
+        <caption>(a) Which of these lightbulbs, the 25-W bulb (upper left) or the 60-W bulb (upper right), has the higher resistance? Which draws more current? Which uses the most energy? Can you tell from the color that the 25-W filament is cooler? Is the brighter bulb a different color and if so why? (credits: Dickbauch, Wikimedia Commons; Greg Westfall, Flickr) (b) This compact fluorescent light (CFL) puts out the same intensity of light as the 60-W bulb, but at 1/4 to 1/10 the input power. (credit: dbgg1979, Flickr)</caption></figure><para id="import-auto-id1080769">Electric energy depends on both the voltage involved and the charge moved. This is expressed most simply as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>PE</m:mtext><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE"= ital "qV"} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> is the charge moved and <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is the voltage (or more precisely, the potential difference the charge moves through). Power is the rate at which energy is moved, and so electric power is</para>
+
+    <equation id="eip-517"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PE</m:mtext></m:mrow></m:mstyle><m:mi>t</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qV</m:mtext></m:mrow></m:mstyle><m:mi>t</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  {  { ital "PE"}  over  {t} }  =  {  { ital "qV"}  over  {t} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1452112">Recognizing that current is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I = q/t} {}</m:annotation></m:semantics></m:math> (note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=t} {}</m:annotation></m:semantics></m:math> here), the expression for power becomes</para><equation id="eip-489"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV.</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1034066">Electric power (<m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> ) is simply the product of current times voltage. Power has familiar units of watts. Since the SI unit for potential energy (PE) is the joule, power has units of joules per second, or watts. Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>1 A </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>V</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext> 1 W</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1 A " cdot V=" 1 W"} {}</m:annotation></m:semantics></m:math>. For example, cars often have one or more auxiliary power outlets with which you can charge a cell phone or other electronic devices. These outlets may be rated at 20 A, so that the circuit can deliver a maximum power
+<m:math><m:semantics><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mtext>IV</m:mtext></m:mstyle><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>20 A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>12 V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>240 W</m:mtext></m:mrow></m:semantics></m:math>. In some applications, electric power may be expressed as volt-amperes or even kilovolt-amperes (
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>1 kA </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>V</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext> 1 kW</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1 kA " cdot V=" 1 kW"} {}</m:annotation></m:semantics></m:math>).</para><para id="import-auto-id2601140">To see the relationship of power to resistance, we combine Ohm’s law with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV"} {}</m:annotation></m:semantics></m:math>. Substituting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>V/R</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I =  ital "V/R"} {}</m:annotation></m:semantics></m:math> gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:mi>R</m:mi></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>/</m:mtext></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  \( V/R \) V=V rSup { size 8{2} } R} {}</m:annotation></m:semantics></m:math>. Similarly, substituting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "IR"} {}</m:annotation></m:semantics></m:math> gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi>I</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =I \(  ital "IR" \) = I rSup { size 8{2} } R} {}</m:annotation></m:semantics></m:math>. Three expressions for electric power are listed together here for convenience:</para><equation id="eip-937"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>IV</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="eip-834"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msup>
+                      <m:mi>V</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mi>R</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P =  {  {V rSup { size 8{2} } }  over  {R} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="eip-572"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = I rSup { size 8{2} } R"."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1118563">Note that the first equation is always valid, whereas the other two can be used only for resistors. In a simple circuit, with one voltage source and a single resistor, the power supplied by the voltage source and that dissipated by the resistor are identical. (In more complicated circuits, <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> can be the power dissipated by a single device and not the total power in the circuit.)</para><para id="import-auto-id1401863">Different insights can be gained from the three different expressions for electric power. For example, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = V rSup { size 8{2} } /R} {}</m:annotation></m:semantics></m:math> implies that the lower the resistance connected to a given voltage source, the greater the power delivered. Furthermore, since voltage is squared in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = V rSup { size 8{2} } /R} {}</m:annotation></m:semantics></m:math>, the effect of applying a higher voltage is perhaps greater than expected. Thus, when the voltage is doubled to a 25-W bulb, its power nearly quadruples to about 100 W, burning it out. If the bulb’s resistance remained constant, its power would be exactly 100 W, but at the higher temperature its resistance is higher, too.</para>
+
+    <example id="fs-id3159338">
+    <title>Calculating Power Dissipation and Current: Hot and Cold Power</title>
+    <para id="import-auto-id2590834">(a) Consider the examples given in <link document="m42344">Ohm’s Law: Resistance and Simple Circuits</link> and <link document="m42346">Resistance and Resistivity</link>. Then find the power dissipated by the car headlight in these examples, both when it is hot and when it is cold. (b) What current does it draw when cold?</para><para id="import-auto-id1355852">
+      <title>Strategy for (a)</title>
+    </para>
+    <para id="import-auto-id1816698">For the hot headlight, we know voltage and current, so we can use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV"} {}</m:annotation></m:semantics></m:math> to find the power. For the cold headlight, we know the voltage and resistance, so we can use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = V rSup { size 8{2} } /R} {}</m:annotation></m:semantics></m:math> to find the power.</para><para id="import-auto-id2578137">
+      <title>Solution for (a)</title>
+    </para>
+    <para id="import-auto-id1403204">Entering the known values of current and voltage for the hot headlight, we obtain</para><equation id="eip-946"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50 A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>12</m:mtext><m:mtext>.</m:mtext><m:mtext>0 V</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext> 30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 W.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV" =  \( 2 "." "50 A" \)  \( "12" "." "0 V" \)  =" 30" "." "0 W."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2384482">The cold resistance was <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>350</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "350"  %OMEGA } {}</m:annotation></m:semantics></m:math>, and so the power it uses when first switched on is</para><equation id="eip-704"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>R</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>12</m:mtext><m:mtext>.</m:mtext><m:mtext>0 V</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>350</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext> 411 W.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  {  {V rSup { size 8{2} } }  over  {R} }  =  {  { \( "12" "." "0 V" \)  rSup { size 8{2} } }  over  {0 "." "350"  %OMEGA } } =" 411 W."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3245974">
+      <title>Discussion for (a)</title>
+    </para>
+    <para id="import-auto-id1958513">The 30 W dissipated by the hot headlight is typical. But the 411 W when cold is surprisingly higher. The initial power quickly decreases as the bulb’s temperature increases and its resistance increases.</para><para id="import-auto-id3079343">
+      <title>Strategy and Solution for (b)</title>
+    </para>
+    <para id="import-auto-id3008745">The current when the bulb is cold can be found several different ways. We rearrange one of the power equations, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = I rSup { size 8{2} } R} {}</m:annotation></m:semantics></m:math>, and enter known values, obtaining</para>
+
+
+      <equation id="eip-251"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mi>P</m:mi><m:mi>R</m:mi></m:mfrac></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mtext>411 W</m:mtext><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>350 </m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mfrac></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext> 34</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>3 A.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I =  sqrt { {  {P}  over  {R} } }  =  sqrt { {  {"411 W"}  over  {0 "." "350 " %OMEGA } } }  =" 34" "." "3 A."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3158597">
+      <title>Discussion for (b)</title>
+    </para>
+    <para id="import-auto-id3259488">The cold current is remarkably higher than the steady-state value of 2.50 A, but the current will quickly decline to that value as the bulb’s temperature increases. Most fuses and circuit breakers (used to limit the current in a circuit) are designed to tolerate very high currents briefly as a device comes on. In some cases, such as with electric motors, the current remains high for several seconds, necessitating special “slow blow” fuses.</para>
+    </example>
+  </section>
+
+  <section id="fs-id3093004">
+    <title>The Cost of Electricity</title>
+    <para id="import-auto-id3013970">The more electric appliances you use and the longer they are left on, the higher your electric bill. This familiar fact is based on the relationship between energy and power. You pay for the energy used. Since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=E/t} {}</m:annotation></m:semantics></m:math>, we see that</para>
+
+    <equation id="eip-9"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>E</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Pt</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{E =  ital "Pt"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3255402">is the energy used by a device using power <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> for a time interval <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. For example, the more lightbulbs burning, the greater <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> used; the longer they are on, the greater <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is. The energy unit on electric bills is the kilowatt-hour (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>kW</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"kw" cdot h} {}</m:annotation></m:semantics></m:math>), consistent with the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Pt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E =  ital "Pt"} {}</m:annotation></m:semantics></m:math>. It is easy to estimate the cost of operating electric appliances if you have some idea of their power consumption rate in watts or kilowatts, the time they are on in hours, and the cost per kilowatt-hour for your electric utility. Kilowatt-hours, like all other specialized energy units such as food calories, can be converted to joules. You can prove to yourself that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>1 kW</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>h = 3</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>6</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1"kW" cdot "h = 3" "." 6´"10" rSup { size 8{6} } " J"} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id3163065">The electrical energy (<m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> ) used can be reduced either by reducing the time of use or by reducing the power consumption of that appliance or fixture. This will not only reduce the cost, but it will also result in a reduced impact on the environment. Improvements to lighting are some of the fastest ways to reduce the electrical energy used in a home or business. About 20% of a home’s use of energy goes to lighting, while the number for commercial establishments is closer to 40%. Fluorescent lights are about four times more efficient than incandescent lights—this is true for both the long tubes and the compact fluorescent lights (CFL). (See <link target-id="import-auto-id1861474"/>(b).) Thus, a 60-W incandescent bulb can be replaced by a 15-W CFL, which has the same brightness and color. CFLs have a bent tube inside a globe or a spiral-shaped tube, all connected to a standard screw-in base that fits standard incandescent light sockets. (Original problems with color, flicker, shape, and high initial investment for CFLs have been addressed in recent years.) The heat transfer from these CFLs is less, and they last up to 10 times longer. The significance of an investment in such bulbs is addressed in the next example. New white LED lights (which are clusters of small LED bulbs) are even more efficient (twice that of CFLs) and last 5 times longer than CFLs. However, their cost is still high.</para><note id="fs-id2688679"><label/>
+    <title>Making Connections: Energy, Power, and Time</title>
+    <para id="import-auto-id3095619">The relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Pt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E =  ital "Pt"} {}</m:annotation></m:semantics></m:math> is one that you will find useful in many different contexts. The energy your body uses in exercise is related to the power level and duration of your activity, for example. The amount of heating by a power source is related to the power level and time it is applied. Even the radiation dose of an X-ray image is related to the power and time of exposure.</para>
+    </note>
+
+    <example id="fs-id3154468">
+    <title>Calculating the Cost Effectiveness of Compact Fluorescent Lights (CFL)</title>
+    <para id="import-auto-id1921038">If the cost of electricity in your area is 12 cents per kWh, what is the total cost (capital plus operation) of using a 60-W incandescent bulb for 1000 hours (the lifetime of that bulb) if the bulb cost 25 cents? (b) If we replace this bulb with a compact fluorescent light that provides the same light output, but at one-quarter the wattage, and which costs $1.50 but lasts 10 times longer (10,000 hours), what will that total cost be?</para>
+
+      <para id="import-auto-id1994300">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id3184339">To find the operating cost, we first find the energy used in kilowatt-hours and then multiply by the cost per kilowatt-hour.</para>
+
+      <para id="import-auto-id3007123">
+      <title>Solution for (a)</title>
+    </para>
+    <para id="import-auto-id1994291">The energy used in kilowatt-hours is found by entering the power and time into the expression for energy:</para>
+
+    <equation id="eip-783"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Pt</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>60 W</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>1000 h</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext> 60,000 W </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext> h.</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E =  ital "Pt" =  \( "60 W" \)  \( "1000 h" \)  =" 60,000 W " cdot " h."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2429181">In kilowatt-hours, this is</para>
+
+    <equation id="eip-379"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mtext> 60</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>0 kW </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext> h.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E =" 60" "." "0 kW " cdot " h."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2970250">Now the electricity cost is</para>
+
+    <equation id="eip-887"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>cost</m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                  </m:mrow>                  <m:mrow>
+                  <m:mtext>60.0 kW</m:mtext>
+                    <m:mo stretchy="false">⋅</m:mo>
+                    <m:mtext>h</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>$0.12</m:mtext>
+                  <m:mrow>
+                    <m:mtext>/kW</m:mtext>
+                    <m:mo stretchy="false">⋅</m:mo>
+                    <m:mtext>h</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>$</m:mtext>
+                  </m:mrow>
+                  <m:mn>7.20.</m:mn>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2667004">The total cost, including the cost of the bulb, will be $7.45 for 1000 hours (about one-half year at 5 hours per day).</para><para id="import-auto-id3009399">
+      <title>Solution for (b)</title>
+    </para>
+    <para id="import-auto-id1910703">Since the CFL uses only 15 W and not 60 W, the electricity cost will be $7.20/4 = $1.80. The CFL will last 10 times longer than the incandescent, so that the investment cost will be 1/10 of the bulb cost for that time period of use, or 0.1($1.50) = $0.15. Therefore, the total cost will be $1.95 for 1000 hours.</para>
+
+      <para id="import-auto-id2616756">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id3080596">Therefore, it is much cheaper to use the CFLs, even though the initial investment is higher. The increased cost of labor that a business must include for replacing the incandescent bulbs more often has not been figured in here.</para></example>
+
+    <note id="fs-id2621583"><label/><title>Making Connections: Take-Home Experiment—Electrical Energy Use Inventory</title>
+
+    <para id="import-auto-id3120094">1) Make a list of the power ratings on a range of appliances in your home or room. Explain why something like a toaster has a higher rating than a digital clock. Estimate the energy consumed by these appliances in an average day (by estimating their time of use). Some appliances might only state the operating current. If the household voltage is 120 V, then use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV"} {}</m:annotation></m:semantics></m:math>. 2) Check out the total wattage used in the rest rooms of your school’s floor or building. (You might need to assume the long fluorescent lights in use are rated at 32 W.) Suppose that the building was closed all weekend and that these lights were left on from 6 p.m. Friday until 8 a.m. Monday. What would this oversight cost? How about for an entire year of weekends?</para></note></section>
+
+    <section id="fs-id2401134" class="section-summary" type="section-summary"><title>Section Summary</title><list id="fs-id1598978"><item id="import-auto-id3126830">Electric power <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is the rate (in watts) that energy is supplied by a source or dissipated by a device.</item>
+    <item id="import-auto-id3172811">Three expressions for electrical power are
+
+    <equation id="eip-343"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV,</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV,"} {}</m:annotation></m:semantics></m:math></equation><equation id="eip-520"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>R</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  {  {V rSup { size 8{2} } }  over  {R} } ","} {}</m:annotation></m:semantics></m:math>
+    </equation>
+    <para id="eip-id3085592">and</para>
+    <equation id="import-auto-id2010343"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = I rSup { size 8{2} } R"."} {}</m:annotation></m:semantics></m:math></equation>
+    </item>
+    <item id="import-auto-id2055643">The energy used by a device with a power <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> over a time <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Pt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E =  ital "Pt"} {}</m:annotation></m:semantics></m:math>.</item>
+    </list>
+    </section><section id="fs-id2408059" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+      <exercise id="fs-id2409786" type="conceptual-questions"><problem id="fs-id1849523">
+    <para id="import-auto-id2578515">Why do incandescent lightbulbs grow dim late in their lives, particularly just before their filaments break?</para>
+    </problem></exercise><exercise id="fs-id1401443" type="conceptual-questions"><problem id="fs-id1371721">
+    <para id="import-auto-id3375762">The power dissipated in a resistor is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = V rSup { size 8{2} } /R} {}</m:annotation></m:semantics></m:math>, which means power decreases if resistance increases. Yet this power is also given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = I rSup { size 8{2} } R} {}</m:annotation></m:semantics></m:math>, which means power increases if resistance increases. Explain why there is no contradiction here.</para>
+    </problem></exercise>
+    </section>
+
+    <section id="fs-id1531854" class="problems-exercises" type="problems-exercises">
+      <title>Problem Exercises</title>
+    <exercise id="fs-id3223947" type="problems-exercises"><problem id="fs-id1414345">
+      <para id="import-auto-id2600755">What is the power of a
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>1.00</m:mn>
+   <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>MV</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ lightning bolt having a current of
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mn>2.00 × 10</m:mn>
+    <m:mtext>4</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>A</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>?</para></problem>
+<solution id="fs-id1463105">
+    <para id="import-auto-id1411908"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>00</m:mtext>
+                  <m:mi>×</m:mi>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+
+                      <m:mrow>
+                        <m:mtext>12</m:mtext>
+                      </m:mrow>
+
+                  </m:msup><m:mspace width="0.25em"/>
+                  <m:mtext> W</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"´"10" rSup { size 8{"12"} } " W"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+
+    <exercise id="fs-id1941660" type="problems-exercises"><problem id="fs-id2653352">
+      <para id="import-auto-id2674216">What power is supplied to the starter motor of a large truck that draws 250 A of current from a 24.0-V battery hookup?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2449702" type="problems-exercises"><problem id="fs-id1373650">
+      <para id="import-auto-id1917988">A charge of 4.00 C of charge passes through a pocket calculator’s solar cells in 4.00 h. What is the power output, given the calculator’s voltage output is 3.00 V? (See <link target-id="import-auto-id1401468"/>.)</para>
+    </problem>
+</exercise><figure id="import-auto-id1401468"><media id="import-auto-id1348480" alt="Photograph of a small calculator having a strip of solar cells just above the keys.">
+        <image mime-type="image/jpg" src="../../media/Figure_21_04_02a.jpg" width="200"/>
+      </media>
+
+    <caption>The strip of solar cells just above the keys of this calculator convert light to electricity to supply its energy needs. (credit: Evan-Amos, Wikimedia Commons)</caption></figure><exercise id="fs-id2599379" type="problems-exercises"><problem id="fs-id2654309">
+      <para id="import-auto-id2680109">How many watts does a flashlight that has
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>6.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>C</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+pass through it in 0.500 h use if its voltage is 3.00 V?</para></problem></exercise>
+
+    <exercise id="fs-id2023489" type="problems-exercises"><problem id="fs-id1362944">
+      <para id="import-auto-id1413147">Find the power dissipated in each of these extension cords: (a) an extension cord having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>0600</m:mtext><m:mspace width="0.25em"/><m:mtext>-</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "0600-" %OMEGA } {}</m:annotation></m:semantics></m:math> resistance and through which 5.00 A is flowing; (b) a cheaper cord utilizing thinner wire and with a resistance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>300</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "300"  %OMEGA } {}</m:annotation></m:semantics></m:math></para></problem>
+<solution id="fs-id1908042">
+    <para id="import-auto-id955064">(a) 1.50 W</para>
+    <para id="import-auto-id1411473">(b) 7.50 W</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id3079653" type="problems-exercises"><problem id="fs-id2668571">
+      <para id="import-auto-id3192901">Verify that the units of a volt-ampere are watts, as implied by the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV"} {}</m:annotation></m:semantics></m:math>.</para>
+    </problem></exercise>
+
+    <exercise id="fs-id1577565" type="problems-exercises"><problem id="fs-id2062788">
+      <para id="import-auto-id2585616">Show that the units <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mrow><m:mrow><m:msup><m:mtext> V</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">Ω</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext> W</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1" V" rSup { size 8{2} } / %OMEGA =1" W"} {}</m:annotation></m:semantics></m:math>, as implied by the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = V rSup { size 8{2} } /R} {}</m:annotation></m:semantics></m:math>.</para></problem>
+<solution id="fs-id1947000">
+    <para id="import-auto-id1321004"><m:math>
+    <m:semantics>
+     <m:mrow>
+<m:mstyle fontstyle="normal">
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mrow>
+           <m:mrow>
+            <m:mrow>
+             <m:mfrac>
+              <m:mrow>
+               <m:msup>
+                <m:mi>
+V
+                </m:mi>
+                <m:mrow>
+                 <m:mstyle>
+                  <m:mrow>
+                   <m:mrow>
+                    <m:mn>
+2
+                    </m:mn>
+                   </m:mrow>
+                  </m:mrow>
+                 </m:mstyle>
+                </m:mrow>
+               </m:msup>
+              </m:mrow>
+              <m:mrow>
+               <m:mo stretchy="false">
+Ω
+               </m:mo>
+              </m:mrow>
+             </m:mfrac>
+            </m:mrow>
+            <m:mo stretchy="false">
+=
+            </m:mo>
+            <m:mrow>
+             <m:mfrac>
+              <m:mrow>
+               <m:msup>
+                <m:mi>
+V
+                </m:mi>
+                <m:mrow>
+                  <m:mrow>
+                   <m:mrow>
+                    <m:mn>
+2
+                    </m:mn>
+                   </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+               </m:msup>
+              </m:mrow>
+              <m:mrow>
+               <m:mtext>
+V/A
+               </m:mtext>
+              </m:mrow>
+             </m:mfrac>
+            </m:mrow>
+           </m:mrow>
+           <m:mo stretchy="false">
+=
+           </m:mo>
+           <m:mtext>
+AV
+           </m:mtext>
+          </m:mrow>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mfenced open="(" close=")">
+           <m:mrow>
+            <m:mrow>
+             <m:mfrac>
+              <m:mrow>
+               <m:mi>
+C
+               </m:mi>
+              </m:mrow>
+              <m:mrow>
+               <m:mi>
+s
+               </m:mi>
+              </m:mrow>
+             </m:mfrac>
+            </m:mrow>
+           </m:mrow>
+          </m:mfenced>
+         </m:mrow>
+         <m:mrow>
+          <m:mrow>
+           <m:mfenced open="(" close=")">
+            <m:mrow>
+             <m:mrow>
+              <m:mfrac>
+               <m:mrow>
+                <m:mi>
+J
+                </m:mi>
+               </m:mrow>
+               <m:mrow>
+                <m:mi>
+C
+                </m:mi>
+               </m:mrow>
+              </m:mfrac>
+             </m:mrow>
+            </m:mrow>
+           </m:mfenced>
+           <m:mo stretchy="false">
+=
+           </m:mo>
+           <m:mrow>
+            <m:mfrac>
+             <m:mrow>
+              <m:mi>
+J
+              </m:mi>
+             </m:mrow>
+             <m:mrow>
+              <m:mi>
+s
+              </m:mi>
+             </m:mrow>
+            </m:mfrac>
+           </m:mrow>
+          </m:mrow>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mn>
+1
+          </m:mn>
+         </m:mrow><m:mspace width="0.25em"/>
+         <m:mtext>
+W
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+</m:mstyle>
+     </m:mrow>
+    </m:semantics>
+   </m:math></para></solution></exercise><exercise id="fs-id970126" type="problems-exercises"><problem id="fs-id1896294">
+      <para id="import-auto-id2584507">Show that the units <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mrow><m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> A</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">⋅</m:mo><m:mo stretchy="false">Ω</m:mo></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext> W</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1" V" rSup { size 8{2} } / %OMEGA =1" W"} {}</m:annotation></m:semantics></m:math>, as implied by the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = I rSup { size 8{2} } R} {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+
+    <exercise id="fs-id3244624" type="problems-exercises"><problem id="fs-id2603678">
+      <para id="import-auto-id2653832">Verify the energy unit equivalence that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mrow><m:mspace width="0.25em"/><m:mtext> kW</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>h = 3</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>60</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1" kW" cdot "h = 3" "." "60"´"10" rSup { size 8{6} } " J"} {}</m:annotation></m:semantics></m:math>.</para></problem>
+<solution id="fs-id3397406">
+    <para id="import-auto-id3176180"><m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+1
+         </m:mn>
+         <m:mrow><m:mspace width="0.25em"/>
+          <m:mtext>
+kW
+          </m:mtext>
+          <m:mo stretchy="false">
+⋅
+          </m:mo>
+          <m:mtext>
+h=
+          </m:mtext>
+         </m:mrow>
+         <m:mfenced open="(" close=")">
+          <m:mrow>
+           <m:mrow>
+            <m:mfrac>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+1
+               </m:mn>
+               <m:mo stretchy="false">
+×
+               </m:mo>
+               <m:msup>
+                <m:mtext>
+10
+                </m:mtext>
+                <m:mrow>
+                 <m:mstyle>
+                  <m:mrow>
+                   <m:mrow>
+                    <m:mn>
+3
+                    </m:mn>
+                   </m:mrow>
+                  </m:mrow>
+                 </m:mstyle>
+                </m:mrow>
+               </m:msup>
+              </m:mrow><m:mspace width="0.25em"/>
+              <m:mtext>
+J
+              </m:mtext>
+             </m:mrow>
+             <m:mrow>
+              <m:mtext>
+1 s
+              </m:mtext>
+             </m:mrow>
+            </m:mfrac>
+           </m:mrow>
+          </m:mrow>
+         </m:mfenced>
+         <m:mfenced open="(" close=")">
+          <m:mrow>
+           <m:mn>
+1 h
+           </m:mn>
+          </m:mrow>
+         </m:mfenced>
+         <m:mrow>
+          <m:mfenced open="(" close=")">
+           <m:mrow>
+            <m:mrow>
+             <m:mfrac>
+              <m:mrow>
+               <m:mtext>
+3600 s
+               </m:mtext>
+              </m:mrow>
+              <m:mrow>
+               <m:mtext>
+1 h
+               </m:mtext>
+              </m:mrow>
+             </m:mfrac>
+            </m:mrow>
+           </m:mrow>
+          </m:mfenced>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mn>
+3
+          </m:mn>
+         </m:mrow>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mtext>
+60
+          </m:mtext>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+            <m:mstyle>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+6
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+            </m:mstyle>
+           </m:mrow>
+          </m:msup>
+         </m:mrow><m:mspace width="0.25em"/>
+         <m:mtext>
+J
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{1" kW" cdot "h=" left ( {  {1 times "10" rSup { size 8{3} } " J"}  over  {"1 s"} }  right ) left (1" h" right ) left ( {  {"3600"" s"}  over  {"1 h"} }  right )=3 "." "60" times "10" rSup { size 8{6} } " J"} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></para></solution>
+    </exercise>
+
+    <exercise id="fs-id3306077" type="problems-exercises"><problem id="fs-id1947473">
+      <para id="import-auto-id1427597">Electrons in an X-ray tube are accelerated through
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>kV</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+and directed toward a target to produce X-rays. Calculate the power of the electron beam in this tube if it has a current of 15.0 mA.</para></problem></exercise>
+
+    <exercise id="fs-id2670173" type="problems-exercises"><problem id="fs-id1571753">
+      <para id="import-auto-id2604466">An electric water heater consumes 5.00 kW for 2.00 h per day. What is the cost of running it for one year if electricity costs <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>12.0 cents</m:mtext><m:mrow><m:mtext>/kW</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>h</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"12" "." 0" cents/kW" cdot h} {}</m:annotation></m:semantics></m:math>? See <link target-id="import-auto-id2956449"/>.</para>
+<figure id="import-auto-id2956449"><media id="import-auto-id3122591" alt="Photograph of an electric hot water heater connected to the electric and water supply">
+        <image mime-type="image/jpg" src="../../media/Figure_21_04_03a.jpg" width="225"/>
+      </media>
+
+    <caption>On-demand electric hot water heater. Heat is supplied to water only when needed. (credit: aviddavid, Flickr)</caption></figure>
+</problem>
+<solution id="fs-id3179636">
+    <para id="import-auto-id3045342">$438/y</para></solution>
+</exercise><exercise id="fs-id1915928" type="problems-exercises"><problem id="fs-id3012140">
+      <para id="import-auto-id1899657">With a 1200-W toaster, how much electrical energy is needed to make a slice of toast (cooking time = 1 minute)? At
+<m:math>
+ <m:semantics>
+  <m:mtext>9.0 cents/kW · h</m:mtext>
+ </m:semantics>
+</m:math>,
+how much does this cost?</para></problem></exercise>
+
+    <exercise id="fs-id3146477" type="problems-exercises"><problem id="fs-id982124">
+      <para id="import-auto-id2953409">What would be the maximum cost of a CFL such that the total cost (investment plus operating) would be the same for both CFL and incandescent 60-W bulbs? Assume the cost of the incandescent bulb is 25 cents and that electricity costs
+<m:math>
+ <m:semantics>
+  <m:mtext>10 cents/kWh</m:mtext>
+ </m:semantics>
+</m:math>.
+ Calculate the cost for 1000 hours, as in the cost effectiveness of CFL example.</para></problem>
+<solution id="fs-id1909395">
+    <para id="import-auto-id2625667">$6.25</para></solution>
+    </exercise>
+
+    <exercise id="fs-id2685078" type="problems-exercises"><problem id="fs-id3059656">
+      <para id="import-auto-id3149721">Some makes of older cars have 6.00-V electrical systems. (a) What is the hot resistance of a 30.0-W headlight in such a car? (b) What current flows through it?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id1616012" type="problems-exercises"><problem id="fs-id3101875">
+      <para id="import-auto-id2209919">Alkaline batteries have the advantage of putting out constant voltage until very nearly the end of their life. How long will an alkaline battery rated at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 A</m:mtext><m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>h</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"" A" cdot h} {}</m:annotation></m:semantics></m:math> and 1.58 V keep a 1.00-W flashlight bulb burning?</para></problem>
+<solution id="fs-id1580470">
+    <para id="import-auto-id2452455">1.58 h</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id2603647" type="problems-exercises"><problem id="fs-id2932254">
+      <para id="import-auto-id3233408">A cauterizer, used to stop bleeding in surgery, puts out 2.00 mA at 15.0 kV. (a) What is its power output? (b) What is the resistance of the path?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2383748" type="problems-exercises"><problem id="fs-id2406665">
+      <para id="import-auto-id1926483">The average television is said to be on 6 hours per day. Estimate the yearly cost of electricity to operate 100 million TVs, assuming their power consumption averages 150 W and the cost of electricity averages <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>12</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mrow><m:mspace width="0.25em"/><m:mtext> cents/kW</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>h</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"12" "." 0" cents/kW" cdot "h"} {}</m:annotation></m:semantics></m:math>.</para></problem>
+<solution id="fs-id2980135">
+    <para id="import-auto-id2688971">$3.94 billion/year</para></solution>
+    </exercise>
+
+    <exercise id="fs-id1367358" type="problems-exercises"><problem id="fs-id3093305">
+      <para id="import-auto-id1355108">An old lightbulb draws only 50.0 W, rather than its original 60.0 W, due to evaporative thinning of its filament. By what factor is its diameter reduced, assuming uniform thinning along its length? Neglect any effects caused by temperature differences.</para></problem></exercise>
+
+    <exercise id="fs-id2409598" type="problems-exercises"><problem id="fs-id3167776">
+      <para id="import-auto-id1859472">00-gauge copper wire has a diameter of 9.266 mm. Calculate the power loss in a kilometer of such wire when it carries
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>A</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>.</para></problem>
+<solution id="fs-id2679030">
+    <para id="import-auto-id1420806">25.5 W</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id3229715" type="problems-exercises"><problem id="fs-id2595298">
+      <para id="import-auto-id2688949"><title>Integrated Concepts</title></para>
+<para id="eip-id3027586">Cold vaporizers pass a current through water, evaporating it with only a small increase in temperature. One such home device is rated at 3.50 A and utilizes 120 V AC with 95.0% efficiency. (a) What is the vaporization rate in grams per minute? (b) How much water must you put into the vaporizer for 8.00 h of overnight operation? (See <link target-id="import-auto-id1578194"/>.)</para>
+
+
+    <figure id="import-auto-id1578194"><media id="import-auto-id2663150" alt="The picture shows a cold vaporizer filled with water. Vapor is shown to emerge from the vaporizer. An enlarged view of the circuit inside the vaporizer is also shown. The circuit shows an A C power source connected to the leads, which are immersed in the water of the vaporizer. The resistance of the leads is shown as R.">
+        <image mime-type="image/jpg" src="../../media/Figure_21_04_04a.jpg" width="200"/>
+      </media>
+
+    <caption>This cold vaporizer passes current directly through water, vaporizing it directly with relatively little temperature increase.</caption></figure></problem></exercise>
+
+    <exercise id="fs-id2616676" type="problems-exercises"><problem id="fs-id1930138">
+      <para id="import-auto-id1596553"><title>Integrated Concepts</title></para>
+<para id="eip-id2970422">(a) What energy is dissipated by a lightning bolt having a 20,000-A current, a voltage of
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>MV</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>,
+ and a length of 1.00 ms? (b) What mass of tree sap could be raised from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" "." 0°"C"} {}</m:annotation></m:semantics></m:math> to its boiling point and then evaporated by this energy, assuming sap has the same thermal characteristics as water?</para></problem>
+<solution id="fs-id2949904">
+    <para id="import-auto-id2658616">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"´"10" rSup { size 8{9} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3285607">(b) 769 kg</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id1994290" type="problems-exercises"><problem id="fs-id2692678">
+      <para id="import-auto-id1985957"><title>Integrated Concepts</title></para>
+<para id="eip-id1999489">What current must be produced by a 12.0-V battery-operated bottle warmer in order to heat 75.0 g of glass, 250 g of baby formula, and
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>3.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>g</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ of aluminum from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°"C"} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." 0°"C"} {}</m:annotation></m:semantics></m:math> in 5.00 min?</para></problem></exercise>
+
+    <exercise id="fs-id2382586" type="problems-exercises"><problem id="fs-id2396696">
+      <para id="import-auto-id3173088"><title>Integrated Concepts</title></para>
+<para id="eip-id3079379">How much time is needed for a surgical cauterizer to raise the temperature of 1.00 g of tissue from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>37</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"37" "." 0°"C"} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°"C"} {}</m:annotation></m:semantics></m:math> and then boil away 0.500 g of water, if it puts out 2.00 mA at 15.0 kV? Ignore heat transfer to the surroundings.</para></problem>
+<solution id="fs-id3245197">
+    <para id="import-auto-id1934184">45.0 s</para></solution>
+    </exercise>
+
+    <exercise id="fs-id2051957" type="problems-exercises"><problem id="fs-id1842786">
+      <para id="import-auto-id3105138"><title>Integrated Concepts</title></para>
+<para id="eip-id2929284">Hydroelectric generators (see <link target-id="import-auto-id2953730"/>) at Hoover Dam produce a maximum current of
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>8.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>3</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>A</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ at 250 kV. (a) What is the power output? (b) The water that powers the generators enters and leaves the system at low speed (thus its kinetic energy does not change) but loses 160 m in altitude. How many cubic meters per second are needed, assuming 85.0% efficiency?</para><figure id="import-auto-id2953730"><media id="import-auto-id3088821" alt="">
+        <image mime-type="image/jpg" src="../../media/Figure_21_04_05a.jpg" width="250"/>
+      </media>
+
+    <caption>Hydroelectric generators at the Hoover dam. (credit: Jon Sullivan)</caption></figure></problem></exercise>
+
+    <exercise id="fs-id3149527" type="problems-exercises"><problem id="fs-id3161182">
+      <para id="import-auto-id2992913"><title>Integrated Concepts</title></para>
+<para id="eip-id2979401">(a) Assuming 95.0% efficiency for the conversion of electrical power by the motor, what current must the 12.0-V batteries of a 750-kg electric car be able to supply: (a) To accelerate from rest to 25.0 m/s in 1.00 min? (b) To climb a
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>2.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mtext>-m</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>-high hill in 2.00 min at a constant 25.0-m/s speed while exerting
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>5.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>N</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ of force to overcome air resistance and friction? (c) To travel at a constant 25.0-m/s speed, exerting a
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>5.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>N</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ force to overcome air resistance and friction? See <link target-id="eip-id2454955"/>.</para>
+
+<figure id="eip-id2454955">
+<media id="eip-id2598524" alt="">
+<image mime-type="image/jpg" src="../../media/Figure_21_04_06a.jpg" width="250"/>
+</media>
+<caption>This REVAi, an electric car, gets recharged on a street in London. (credit: Frank Hebbert)</caption></figure>
+
+</problem>
+<solution id="fs-id2691986">
+    <para id="import-auto-id1373474">(a) 343 A</para>
+    <para id="import-auto-id3354053">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>17</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "17"´"10" rSup { size 8{3} } " A"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1575873">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.10</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "17"´"10" rSup { size 8{4} } " A"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise><exercise id="fs-id3046867" type="problems-exercises"><problem id="fs-id1575873">
+      <para id="import-auto-id3188800"><title>Integrated Concepts</title></para>
+<para id="eip-id1947133">A light-rail commuter train draws 630 A of 650-V DC electricity when accelerating. (a) What is its power consumption rate in kilowatts? (b) How long does it take to reach 20.0 m/s starting from rest if its loaded mass is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>30</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "30"´"10" rSup { size 8{4} } " kg"} {}</m:annotation></m:semantics></m:math>, assuming 95.0% efficiency and constant power? (c) Find its average acceleration. (d) Discuss how the acceleration you found for the light-rail train compares to what might be typical for an automobile.</para></problem></exercise>
+
+    <exercise id="fs-id3233297" type="problems-exercises"><problem id="fs-id2640101">
+      <para id="import-auto-id2422796"><title>Integrated Concepts</title></para>
+<para id="eip-id3092266">(a) An aluminum power transmission line has a resistance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0580</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">/</m:mo><m:mtext>km</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "0580"  %OMEGA /"km"} {}</m:annotation></m:semantics></m:math>. What is its mass per kilometer? (b) What is the mass per kilometer of a copper line having the same resistance? A lower resistance would shorten the heating time. Discuss the practical limits to speeding the heating by lowering the resistance.</para></problem>
+<solution id="fs-id2661478">
+    <para id="import-auto-id3417486">(a)
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.23</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>3</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>kg</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para>
+    <para id="eip-id2364236">(b)
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>2.64</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>3</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>kg</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para></solution>
+    </exercise><exercise id="fs-id3037377" type="problems-exercises"><problem id="fs-id1588356">
+      <para id="import-auto-id3229451"><title>Integrated Concepts</title></para>
+<para id="eip-id2054361">(a) An immersion heater utilizing 120 V can raise the temperature of a
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+
+   <m:mtext>-g</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> aluminum cup containing 350 g of water from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°"C"} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>95</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"95" "." 0°"C"} {}</m:annotation></m:semantics></m:math> in 2.00 min. Find its resistance, assuming it is constant during the process. (b) A lower resistance would shorten the heating time. Discuss the practical limits to speeding the heating by lowering the resistance.</para></problem></exercise>
+
+    <exercise id="fs-id3010699" type="problems-exercises"><problem id="fs-id1931314">
+      <para id="import-auto-id1843915"><title>Integrated Concepts</title></para>
+<para id="eip-id2658376">(a) What is the cost of heating a hot tub containing 1500 kg of water from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°"C"} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." 0°"C"} {}</m:annotation></m:semantics></m:math>, assuming 75.0% efficiency to account for heat transfer to the surroundings? The cost of electricity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>9</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mtext> cents/kW</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>h</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"12"" cents/kW" cdot "h"} {}</m:annotation></m:semantics></m:math>. (b) What current was used by the 220-V AC electric heater, if this took 4.00 h?</para></problem></exercise>
+
+    <exercise id="fs-id1546272" type="problems-exercises"><problem id="fs-id1845563">
+      <para id="import-auto-id1546273"><title>Unreasonable Results</title></para>
+<para id="eip-id2447676">(a) What current is needed to transmit
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>MW</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ of power at 480 V? (b) What power is dissipated by the transmission lines if they have a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>-</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00""-" %OMEGA } {}</m:annotation></m:semantics></m:math> resistance? (c) What is unreasonable about this result? (d) Which assumptions are unreasonable, or which premises are inconsistent?</para></problem>
+<solution id="fs-id2658398">
+    <para id="import-auto-id2400352">(a) <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>2.08</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>5</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>A</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="import-auto-id3203058">(b) <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>4.33</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>4</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>MW</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="eip-id1976652">(c) The transmission lines dissipate more power than they are supposed to transmit.</para>
+<para id="eip-id1906785">(d) A voltage of 480 V is unreasonably low for a transmission voltage. Long-distance transmission lines are kept at much higher voltages (often hundreds of kilovolts) to reduce power losses.</para>
+    </solution>
+    </exercise><exercise id="fs-id1517296" type="problems-exercises"><problem id="fs-id3246774">
+      <para id="import-auto-id3191645"><title>Unreasonable Results</title></para>
+<para id="eip-id3224089">(a) What current is needed to transmit
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>MW</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ of power at 10.0 kV? (b) Find the resistance of 1.00 km of wire that would cause a 0.0100% power loss. (c) What is the diameter of a 1.00-km-long copper wire having this resistance? (d) What is unreasonable about these results? (e) Which assumptions are unreasonable, or which premises are inconsistent?</para></problem></exercise>
+
+    <exercise id="fs-id2667420" type="problems-exercises"><problem id="fs-id3202966">
+      <para id="import-auto-id2667420"><title>Construct Your Own Problem</title></para>
+<para id="eip-id2410540"> Consider an electric immersion heater used to heat a cup of water to make tea. Construct a problem in which you calculate the needed resistance of the heater so that it increases the temperature of the water and cup in a reasonable amount of time. Also calculate the cost of the electrical energy used in your process. Among the things to be considered are the voltage used, the masses and heat capacities involved, heat losses, and the time over which the heating takes place. Your instructor may wish for you to consider a thermal safety switch (perhaps bimetallic) that will halt the process before damaging temperatures are reached in the immersion unit.</para>
+    </problem></exercise>
+
+    </section>
+   </content>
+<glossary><definition id="fs-id1850678"><term>electric power</term> <meaning id="fs-id1232439">the rate at which electrical energy is supplied by a source or dissipated by a device; it is the product of current times voltage</meaning></definition></glossary>
+</document>

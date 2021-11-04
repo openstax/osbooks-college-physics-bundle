@@ -1,0 +1,371 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Speed of Sound, Frequency, and Wavelength</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42256</md:content-id>
+  <md:title>Speed of Sound, Frequency, and Wavelength</md:title>
+  <md:abstract><list>
+<item>Define pitch.</item>
+<item>Describe the relationship between the speed of sound, its frequency, and its wavelength.</item>
+<item>Describe the effects on the speed of sound as it travels through various media.</item>
+<item>Describe the effects of temperature on the speed of sound.</item>
+</list></md:abstract>
+  <md:uuid>c840334f-0189-48ae-80db-a9afafa72b73</md:uuid>
+</metadata>
+
+<content>
+    <figure id="import-auto-id2399763"><media id="import-auto-id2588880" alt="A photograph of a fireworks display in the sky.">
+        <image mime-type="image/png" src="../../media/Figure_18_02_01a.jpg" width="200"/>
+      </media>
+
+    <caption>When a firework explodes, the light energy is perceived before the sound energy. Sound travels more slowly than light does. (credit: Dominic Alves, Flickr)</caption></figure><para id="import-auto-id3013063">Sound, like all waves, travels at a certain speed and has the properties of frequency and wavelength. You can observe direct evidence of the speed of sound while watching a fireworks display. The flash of an explosion is seen well before its sound is heard, implying both that sound travels at a finite speed and that it is much slower than light. You can also directly sense the frequency of a sound. Perception of frequency is called <term id="import-auto-id1588064">pitch</term>. The wavelength of sound is not directly sensed, but indirect evidence is found in the correlation of the size of musical instruments with their pitch. Small instruments, such as a piccolo, typically make high-pitch sounds, while large instruments, such as a tuba, typically make low-pitch sounds. High pitch means small wavelength, and the size of a musical instrument is directly related to the wavelengths of sound it produces. So a small instrument creates short-wavelength sounds. Similar arguments hold that a large instrument creates long-wavelength sounds.</para><para id="import-auto-id3154439">The relationship of the speed of sound, its frequency, and wavelength is the same as for all waves:</para><equation id="eip-424"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">fλ,</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}=fλ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2401892">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mn>w</m:mn></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}} {}</m:annotation></m:semantics></m:math> is the speed of sound, <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is its frequency, and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math></emphasis> is its wavelength. The wavelength of a sound is the distance between adjacent identical parts of a wave—for example, between adjacent compressions as illustrated in <link target-id="import-auto-id1538012"/>. The frequency is the same as that of the source and is the number of waves that pass a point per unit time.</para><figure id="import-auto-id1538012"><media id="import-auto-id2655120" alt="A picture of a vibrating tuning fork is shown. The sound wave compressions and rarefactions are shown to emanate from the fork on both the sides as semicircular arcs of alternate bold and dotted lines. The wavelength is marked as the distance between two successive bold arcs. The frequency of the vibrations is shown as f and velocity of the wave represented by v sub w.">
+        <image mime-type="image/jpg" src="../../media/Figure_18_02_02a.jpg" width="350"/>
+      </media>
+
+    <caption>A sound wave emanates from a source vibrating at a frequency <m:math>
+ <m:semantics>
+  <m:mi>f</m:mi>
+ </m:semantics>
+</m:math>, propagates at
+<m:math>
+ <m:semantics>
+  <m:msub>
+   <m:mi>v</m:mi>
+   <m:mtext>w</m:mtext>
+  </m:msub>
+ </m:semantics>
+</m:math>, and has a wavelength <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id3402524"><link target-id="import-auto-id3177545"/> makes it apparent that the speed of sound varies greatly in different media. The speed of sound in a medium is determined by a combination of the medium’s rigidity (or compressibility in gases) and its density. The more rigid (or less compressible) the medium, the faster the speed of sound. For materials that have similar rigidities, sound will travel faster through the one with the lower density because the sound energy is more easily transferred from particle to particle. The speed of sound in air is low, because air is compressible. Because liquids and solids are relatively rigid and very difficult to compress, the speed of sound in such media is generally greater than in gases.</para><table id="import-auto-id3177545" summary="Two-column table listing various media for sound in the first column and their speeds of sound in the second column. The list of media is divided into three groups: gases, liquids, and solids."><title>Speed of Sound in Various Media</title><tgroup cols="2">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead><row>
+            <entry>Medium</entry>
+            <entry><emphasis effect="italics">v</emphasis><sub>w</sub>(m/s)</entry>
+          </row></thead><tbody><row>
+            <entry namest="c1" nameend="c2"><emphasis effect="bold"><emphasis effect="italics">Gases at <m:math>
+ <m:semantics>
+  <m:mtext fontstyle="italic">0ºC</m:mtext>
+ </m:semantics>
+</m:math></emphasis></emphasis></entry>
+             </row><row>
+            <entry>Air</entry>
+            <entry>331</entry>
+          </row><row>
+            <entry>Carbon dioxide</entry>
+            <entry>259</entry>
+          </row><row>
+            <entry>Oxygen</entry>
+            <entry>316</entry>
+          </row><row>
+            <entry>Helium</entry>
+            <entry>965</entry>
+          </row><row>
+            <entry>Hydrogen</entry>
+            <entry>1290</entry>
+          </row><row>
+            <entry namest="c1" nameend="c2"><emphasis effect="bold"><emphasis effect="italics">Liquids at <m:math>
+ <m:semantics>
+  <m:mtext fontstyle="italic">20ºC</m:mtext>
+ </m:semantics>
+</m:math></emphasis></emphasis></entry>
+             </row><row>
+            <entry>Ethanol</entry>
+            <entry>1160</entry>
+          </row><row>
+            <entry>Mercury</entry>
+            <entry>1450</entry>
+          </row><row>
+            <entry>Water, fresh</entry>
+            <entry>1480</entry>
+          </row><row>
+            <entry>Sea water</entry>
+            <entry>1540</entry>
+          </row><row>
+            <entry>Human tissue</entry>
+            <entry>1540</entry>
+          </row><row>
+            <entry namest="c1" nameend="c2"><emphasis effect="bold"><emphasis effect="italics">Solids (longitudinal or bulk)</emphasis></emphasis></entry>
+              </row><row>
+            <entry>Vulcanized rubber</entry>
+            <entry>54</entry>
+          </row><row>
+            <entry>Polyethylene</entry>
+            <entry>920</entry>
+          </row><row>
+            <entry>Marble</entry>
+            <entry>3810</entry>
+          </row><row>
+            <entry>Glass, Pyrex</entry>
+            <entry>5640</entry>
+          </row><row>
+            <entry>Lead</entry>
+            <entry>1960</entry>
+          </row><row>
+            <entry>Aluminum</entry>
+            <entry>5120</entry>
+          </row><row>
+            <entry>Steel</entry>
+            <entry>5960</entry>
+          </row></tbody>
+      </tgroup>
+    </table><para id="import-auto-id1441562">Earthquakes, essentially sound waves in Earth’s crust, are an interesting example of how the speed of sound depends on the rigidity of the medium. Earthquakes have both longitudinal and transverse components, and these travel at different speeds. The bulk modulus of granite is greater than its shear modulus. For that reason, the speed of longitudinal or pressure waves (P-waves) in earthquakes in granite is significantly higher than the speed of transverse or shear waves (S-waves). Both components of earthquakes travel slower in less rigid material, such as sediments. P-waves have speeds of 4 to 7 km/s, and S-waves correspondingly range in speed from 2 to 5 km/s, both being faster in more rigid material. The P-wave gets progressively farther ahead of the S-wave as they travel through Earth’s crust. The time between the P- and S-waves is routinely used to determine the distance to their source, the epicenter of the earthquake.</para>
+    <para id="import-auto-id3246097">The speed of sound is affected by temperature in a given medium. For air at sea level, the speed of sound is given by</para>
+    <equation id="eip-330"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>331</m:mtext><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mfenced><m:msqrt><m:mfrac><m:mi>T</m:mi><m:mrow><m:mtext>273</m:mtext><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:msqrt></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}= left ("331"" m/s" right ) sqrt { {  {T}  over  {"273"" K"} } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1431577">where the temperature (denoted as  <m:math>
+ <m:semantics>
+  <m:mi>T</m:mi>
+ </m:semantics>
+</m:math>) is in units of kelvin.  The speed of sound in gases is related to the average speed of particles in the gas, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>rms</m:mtext></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{ ital "rms"}} {}</m:annotation></m:semantics></m:math>, and that</para><equation id="eip-97"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>rms</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mtext>3</m:mtext><m:mi fontstyle="italic">kT</m:mi></m:mrow><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow><m:mo>,</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{ ital "rms"}= sqrt { {  {"3KT"}  over  {m} } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2447377">where  <m:math>
+ <m:semantics>
+  <m:mi>k</m:mi>
+ </m:semantics>
+</m:math> is the Boltzmann constant (<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.38</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>−23</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>J/K</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>) and  <m:math>
+ <m:semantics>
+  <m:mi>m</m:mi>
+ </m:semantics>
+</m:math> is the mass of each (identical) particle in the gas. So, it is reasonable that the speed of sound in air and other gases should depend on the square root of temperature. While not negligible, this is not a strong dependence. At
+<m:math>
+ <m:semantics>
+  <m:mtext>0ºC</m:mtext>
+ </m:semantics>
+</m:math>, the speed of sound is 331 m/s, whereas at
+<m:math>
+ <m:semantics>
+  <m:mtext>20.0ºC</m:mtext>
+ </m:semantics>
+</m:math> it is 343 m/s, less than a 4% increase. <link target-id="import-auto-id1578485"/> shows a use of the speed of sound by a bat to sense distances. Echoes are also used in medical imaging.</para><figure id="import-auto-id1578485"><media id="import-auto-id1931095" alt="The picture is of a bat trying to catch its prey an insect using sound echoes. The incident sound and sound reflected from the bat are shown as semicircular arcs.">
+        <image mime-type="image/jpg" src="../../media/Figure_18_02_03a.jpg" width="250"/>
+      </media>
+
+    <caption>A bat uses sound echoes to find its way about and to catch prey. The time for the echo to return is directly proportional to the distance.</caption></figure><para id="import-auto-id2444602">One of the more important properties of sound is that its speed is nearly independent of frequency. This independence is certainly true in open air for sounds in the audible range of 20 to 20,000 Hz. If this independence were not true, you would certainly notice it for music played by a marching band in a football stadium, for example. Suppose that high-frequency sounds traveled faster—then the farther you were from the band, the more the sound from the low-pitch instruments would lag that from the high-pitch ones. But the music from all instruments arrives in cadence independent of distance, and so all frequencies must travel at nearly the same speed. Recall that</para><equation id="eip-453"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">fλ.</m:mi></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}=fλ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1856676">In a given medium under fixed conditions,
+<m:math><m:semantics><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow></m:semantics></m:math>
+is constant, so that there is a relationship between <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math></emphasis>; the higher the frequency, the smaller the wavelength. See <link target-id="import-auto-id1593942"/> and consider the following example.</para><figure id="import-auto-id1593942"><media id="import-auto-id3399108" alt="Picture of a speaker having a woofer and a tweeter. High frequency sound coming out of the woofer shown as small circles closely spaced. Low frequency sound coming out of tweeter are shown as larger circles distantly spaced.">
+        <image mime-type="image/jpg" src="../../media/Figure_18_02_04a.jpg" width="200"/>
+      </media>
+
+    <caption>Because they travel at the same speed in a given medium, low-frequency sounds must have a greater wavelength than high-frequency sounds. Here, the lower-frequency sounds are emitted by the large speaker, called a woofer, while the higher-frequency sounds are emitted by the small speaker, called a tweeter.</caption></figure><example id="fs-id2001560">
+    <title>Calculating Wavelengths: What Are the Wavelengths of Audible Sounds?</title>
+    <para id="import-auto-id1477887">Calculate the wavelengths of sounds at the extremes of the audible range, 20 and 20,000 Hz, in
+<m:math>
+ <m:semantics>
+  <m:mtext>30.0ºC</m:mtext>
+ </m:semantics>
+</m:math> air. (Assume that the frequency values are accurate to two significant figures.)</para><para id="eip-170"><title>Strategy</title></para><para id="import-auto-id3396364">To find wavelength from frequency, we can use <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mrow><m:mrow><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">fλ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}=fλ} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2381606">
+      <title>Solution</title>
+    </para>
+    <list id="fs-id2409442" list-type="enumerated" number-style="arabic"><item id="import-auto-id2010699">Identify knowns. The value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow></m:mrow><m:mrow/><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}} {}</m:annotation></m:semantics></m:math>, is given by
+    <equation id="eip-456"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>331</m:mtext><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mfenced></m:mrow><m:msqrt><m:mfrac><m:mi>T</m:mi><m:mrow><m:mtext>273</m:mtext><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:msqrt><m:mo>.</m:mo></m:mrow><m:mrow/><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}= left ("331"" m/s" right ) sqrt { {  {T}  over  {"273"" K"} } } } {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id1815176">Convert the temperature into kelvin and then enter the temperature into the equation
+    <equation id="eip-575"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>331</m:mtext><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:msqrt><m:mfrac><m:mtext>303 K</m:mtext><m:mrow><m:mtext>273</m:mtext><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:msqrt><m:mo stretchy="false">=</m:mo><m:mtext>348</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>7</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:semantics></m:math></equation></item>
+        <item id="import-auto-id2682073">Solve the relationship between speed and wavelength for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math></emphasis>:
+           <equation id="eip-850"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>v</m:mi><m:mn>w</m:mn></m:msub><m:mi>f</m:mi></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ= {  {v size 8{w}}  over  {f} } } {}</m:annotation></m:semantics></m:math></equation></item>
+            <item id="import-auto-id963388">Enter the speed and the minimum frequency to give the maximum wavelength:
+    <equation id="eip-618"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mtext>max</m:mtext></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>348</m:mtext><m:mtext>.</m:mtext><m:mn>7</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow><m:mtext>20 Hz</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>17</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ size 8{"max"}= {  {"348" "." 7" m/s"}  over  {"20 Hz"} } ="17"" m"} {}</m:annotation></m:semantics></m:math></equation></item>
+                <item id="import-auto-id1816494">Enter the speed and the maximum frequency to give the minimum wavelength:
+    <equation id="eip-862"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mtext>min</m:mtext></m:msub><m:mrow><m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>348</m:mtext><m:mtext>.</m:mtext><m:mn>7</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>,</m:mtext><m:mtext>000 Hz</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>017</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>7 cm</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ size 8{"min"}= {  {"348" "." 7" m/s"}  over  {"20" "." "000 Hz"} } =0 "." "0174"" m"=1 "." "74 cm"} {}</m:annotation></m:semantics></m:math></equation></item>
+  </list><para id="import-auto-id2991817"><title>Discussion</title></para>
+        <para id="fs-id3250053">Because the product of <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> multiplied by <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math></emphasis> equals a constant, the smaller <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is, the larger <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math></emphasis> must be, and vice versa.</para>
+    </example>
+    <para id="import-auto-id3024041">The speed of sound can change when sound travels from one medium to another. However, the frequency usually remains the same because it is like a driven oscillation and has the frequency of the original source. If
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}} {}</m:annotation></m:semantics></m:math>
+
+changes and <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> remains the same, then the wavelength
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>
+
+must change. That is, because
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">fλ</m:mi></m:mrow></m:mrow></m:semantics></m:math>,
+
+the higher the speed of a sound, the greater its wavelength for a given frequency.</para><note id="fs-id2383870"><label/><title>Making Connections: Take-Home Investigation—Voice as a Sound Wave</title>
+
+    <para id="import-auto-id1427729">Suspend a sheet of paper so that the top edge of the paper is fixed and the bottom edge is free to move. You could tape the top edge of the paper to the edge of a table. Gently blow near the edge of the bottom of the sheet and note how the sheet moves. Speak softly and then louder such that the sounds hit the edge of the bottom of the paper, and note how the sheet moves. Explain the effects.</para>
+    </note><exercise id="fs-id1437960" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id2722326">
+<para id="fs-id1622890">
+Imagine you observe two fireworks explode. You hear the explosion of one as soon as you see it. However, you see the other firework for several milliseconds before you hear the explosion. Explain why this is so.
+</para>
+</problem>
+
+<solution id="fs-id1447062" print-placement="here">
+<para id="fs-id1421271">
+Sound and light both travel at definite speeds. The speed of sound is slower than the speed of light. The first firework is probably very close by, so the speed difference is not noticeable. The second firework is farther away, so the light arrives at your eyes noticeably sooner than the sound wave arrives at your ears.
+</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1526208" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id2737920">
+<para id="fs-id2205803">
+You observe two musical instruments that you cannot identify. One plays high-pitch sounds and the other plays low-pitch sounds. How could you determine which is which without hearing either of them play?
+</para>
+</problem>
+
+<solution id="fs-id1122763" print-placement="here">
+<para id="fs-id2195046">
+Compare their sizes. High-pitch instruments are generally smaller than low-pitch instruments because they generate a smaller wavelength.
+</para>
+</solution>
+</exercise>
+
+<section id="fs-id1931189" class="section-summary"><title>Section Summary</title><para id="import-auto-id2600539">The relationship of the speed of sound <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mn>w</m:mn></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}} {}</m:annotation></m:semantics></m:math>, its frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>, and its wavelength <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math></emphasis> is given by</para><equation id="eip-263"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">fλ</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3021013">which is the same relationship given for all waves.</para>
+    <para id="import-auto-id1817286">In air, the speed of sound is related to air temperature <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis> by</para>
+    <equation id="eip-71"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>331</m:mtext><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mfenced></m:mrow><m:msqrt><m:mfrac><m:mi>T</m:mi><m:mrow><m:mtext>273</m:mtext><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mfrac></m:msqrt><m:mo>.</m:mo></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2962616"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>w</m:mtext></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{w}} {}</m:annotation></m:semantics></m:math> is the same for all frequencies and wavelengths.</para></section><section id="fs-id1386961" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id1375143" type="conceptual-questions"><problem id="fs-id1954277">
+
+    <para id="import-auto-id1410916">How do sound vibrations of atoms differ from thermal motion?</para>
+    </problem></exercise>
+        <exercise id="fs-id3008692" type="conceptual-questions"><problem id="fs-id2992665">
+
+    <para id="import-auto-id3065090">When sound passes from one medium to another where its propagation speed is different, does its frequency or wavelength change? Explain your answer briefly.</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id2591417" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id3451972" type="problems-exercises"><problem id="fs-id2931366">    <para id="import-auto-id2399660">When poked by a spear, an operatic soprano lets out a 1200-Hz shriek. What is its wavelength if the speed of sound is 345 m/s?</para>
+    </problem>
+        <solution id="fs-id1328160" type="problems-exercises">
+    <para id="import-auto-id3175746">0.288 m</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id2000830" type="problems-exercises"><problem id="fs-id1997560">    <para id="import-auto-id3110312">What frequency sound has a 0.10-m wavelength when the speed of sound is 340 m/s?</para>
+    </problem></exercise>
+    <exercise id="fs-id3043771" type="problems-exercises"><problem id="fs-id1945477">    <para id="import-auto-id1870708">Calculate the speed of sound on a day when a 1500 Hz frequency has a wavelength of 0.221 m.</para>
+    </problem>
+        <solution id="fs-id3028783" type="problems-exercises">
+    <para id="import-auto-id760991">332 m/s</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id2443672" type="problems-exercises"><problem id="fs-id3158494">    <para id="import-auto-id1549327">(a) What is the speed of sound in a medium where a 100-kHz frequency produces a 5.96-cm wavelength? (b) Which substance in <link target-id="import-auto-id3177545"/> is this likely to be?</para>
+    </problem></exercise>
+        <exercise id="fs-id1587092" type="problems-exercises"><problem id="fs-id2681777">    <para id="import-auto-id2051396">Show that the speed of sound in
+<m:math>
+ <m:semantics>
+  <m:mtext>20.0ºC</m:mtext>
+ </m:semantics>
+</m:math>
+ air is 343 m/s, as claimed in the text.</para></problem>
+            <solution id="fs-id3397939" type="problems-exercises">
+    <equation id="import-auto-id3089366"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd> <m:msub>
+                              <m:mi>v</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>w</m:mtext>
+                                </m:mrow>
+
+                            </m:msub></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+
+
+                            <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>331 m/s</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                            <m:msqrt>
+                              <m:mfrac>
+                                  <m:mi>T </m:mi>
+                                <m:mtext>273 K</m:mtext>
+                              </m:mfrac>
+                            </m:msqrt>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>331 m/s</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:msqrt>
+                            <m:mfrac>
+                              <m:mtext>293 K</m:mtext>
+                              <m:mtext>273 K</m:mtext>
+                            </m:mfrac>
+                          </m:msqrt></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+ <m:mtd><m:mo>=</m:mo></m:mtd>
+                      <m:mtd>
+                      <m:mtext>343 m/s</m:mtext>
+                     </m:mtd>
+
+
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{v rSub { size 8{w} } = \( "331 m/s" \)  sqrt { {  {"T " \( K \) }  over  {"273 K"} } } = \( "331 m/s" \)  sqrt { {  {"293 K"}  over  {"273 K"} } } }  {} #
+= {underline  {"343 m/s"}}  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></solution>
+    </exercise><exercise id="fs-id2666191" type="problems-exercises"><problem id="fs-id3116303">    <para id="import-auto-id3062563">Air temperature in the Sahara Desert can reach
+<m:math>
+ <m:semantics>
+  <m:mtext>56.0ºC</m:mtext>
+ </m:semantics>
+</m:math>
+ (about
+<m:math>
+ <m:semantics>
+  <m:mtext>134ºF</m:mtext>
+ </m:semantics>
+</m:math>). What is the speed of sound in air at that temperature?</para></problem></exercise>
+        <exercise id="fs-id2032287" type="problems-exercises"><problem id="fs-id3055563">    <para id="import-auto-id1361482">Dolphins make sounds in air and water. What is the ratio of the wavelength of a sound in air to its wavelength in seawater? Assume air temperature is
+<m:math>
+ <m:semantics>
+  <m:mtext>20.0ºC</m:mtext>
+ </m:semantics>
+</m:math>.</para></problem>
+            <solution id="fs-id1448362" type="problems-exercises">
+    <para id="import-auto-id2399752">0.223</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id1560729" type="problems-exercises"><problem id="fs-id1993467">    <para id="import-auto-id2597921">A sonar echo returns to a submarine 1.20 s after being emitted. What is the distance to the object creating the echo? (Assume that the submarine is in the ocean, not in fresh water.)</para></problem></exercise>
+        <exercise id="fs-id1986379" type="problems-exercises"><problem id="fs-id3234387">    <para id="import-auto-id2667613">(a) If a submarine’s sonar can measure echo times with a precision of 0.0100 s, what is the smallest difference in distances it can detect? (Assume that the submarine is in the ocean, not in fresh water.)</para>
+<para id="eip-id1517636">(b) Discuss the limits this time resolution imposes on the ability of the sonar system to detect the size and shape of the object creating the echo.</para>
+    </problem>
+            <solution id="fs-id2663384" type="problems-exercises">
+    <para id="import-auto-id3027585">(a) 7.70 m</para><para id="import-auto-id2669394">(b) This means that sonar is good for spotting and locating large objects, but it isn’t able to resolve smaller objects, or detect the detailed shapes of objects. Objects like ships or large pieces of airplanes can be found by sonar, while smaller pieces must be found by other means.</para>
+    </solution>
+    </exercise><exercise id="fs-id1381531" type="problems-exercises"><problem id="fs-id1849553">    <para id="import-auto-id2032403">A physicist at a fireworks display times the lag between seeing an explosion and hearing its sound, and finds it to be 0.400 s. (a) How far away is the explosion if air temperature is <m:math>
+ <m:semantics>
+  <m:mtext>24.0ºC</m:mtext>
+ </m:semantics>
+</m:math> and if you neglect the time taken for light to reach the physicist? (b) Calculate the distance to the explosion taking the speed of light into account. Note that this distance is negligibly greater.</para></problem></exercise>
+        <exercise id="fs-id1386574" type="problems-exercises"><problem id="fs-id2403356">    <para id="import-auto-id3455423">Suppose a bat uses sound echoes to locate its insect prey, 3.00 m away. (See <link target-id="import-auto-id1578485"/>.) (a) Calculate the echo times for temperatures of
+<m:math>
+ <m:semantics>
+  <m:mtext>5.00ºC</m:mtext>
+ </m:semantics>
+</m:math> and
+<m:math>
+ <m:semantics>
+  <m:mtext>35.0ºC</m:mtext>
+ </m:semantics>
+</m:math>. (b) What percent uncertainty does this cause for the bat in locating the insect? (c) Discuss the significance of this uncertainty and whether it could cause difficulties for the bat. (In practice, the bat continues to use sound as it closes in, eliminating most of any difficulties imposed by this and other effects, such as motion of the prey.)</para></problem>
+
+<solution id="eip-id2903564">
+<para id="eip-id2732260">(a) 18.0 ms, 17.1 ms</para>
+<para id="eip-id1592361">(b) 5.00%</para><para id="eip-id2908620">(c) This uncertainty could definitely cause difficulties for the bat, if it didn’t continue to use sound as it closed in on its prey. A 5% uncertainty could be the difference between catching the prey around the neck or around the chest, which means that it could miss grabbing its prey.</para>
+
+
+</solution></exercise></section>
+
+ </content>
+    <glossary>
+        <definition id="import-auto-id2442201"><term>pitch</term> <meaning id="fs-id1414345">the perception of the frequency of a sound</meaning></definition>
+    </glossary>
+</document>

@@ -1,0 +1,760 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Centripetal Force</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42086</md:content-id>
+  <md:title>Centripetal Force</md:title>
+  <md:abstract><list>
+<item>Calculate coefficient of friction on a car tire.</item>
+<item>Calculate ideal speed and angle of a car on a turn.</item>
+</list></md:abstract>
+  <md:uuid>584a0fe8-56d0-497c-8f3d-8b0e3f0359a1</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id2589409">Any force or combination of forces can cause a centripetal or radial acceleration. Just a few examples are the tension in the rope on a tether ball, the force of Earth’s gravity on the Moon, friction between roller skates and a rink floor, a banked roadway’s force on a car, and forces on the tube of a spinning centrifuge.</para>
+    <para id="import-auto-id3025916">Any net force causing uniform circular motion is called a <term id="import-auto-id3450370">centripetal force</term>. The direction of a centripetal force is toward the center of curvature, the same as the direction of centripetal acceleration. According to Newton’s second law of motion, net force is mass times acceleration: net <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>F</m:mtext><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "ma"} {}</m:annotation></m:semantics></m:math>. For uniform circular motion, the acceleration is the centripetal acceleration— <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>. Thus, the magnitude of centripetal force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is</para><equation id="eip-696"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mtext>F</m:mtext>
+
+                      <m:mrow>
+                        <m:mtext>c</m:mtext>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mrow><m:mi fontstyle="italic">m</m:mi>
+                    <m:mtext fontstyle="italic">a</m:mtext>
+                                            </m:mrow>
+                        <m:mtext>c</m:mtext>
+
+
+                  </m:msub>
+                </m:mrow><m:mo>.</m:mo>
+              </m:mrow>
+
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } =ma rSub { size 8{c} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3397174">By using the expressions for centripetal acceleration <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow><m:mi>;</m:mi><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">rω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } ;``a rSub { size 8{c} } =rω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, we get two expressions for the centripetal force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> in terms of mass, velocity, angular velocity, and radius of curvature:</para><equation id="eip-562"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+
+                        <m:mrow>
+                          <m:mi>c</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>m</m:mi>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:msup>
+                      <m:mi>v</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mi>r</m:mi>
+                  </m:mfrac>
+                  <m:mi>;</m:mi>
+<m:mspace width="0.25em"/>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+
+                        <m:mrow>
+                          <m:mi>c</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mr</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:msup>
+                    <m:mi>ω</m:mi>
+
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+
+                  </m:msup>
+                </m:mrow><m:mo>.</m:mo>
+              </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } =m {  {v rSup { size 8{2} } }  over  {r} } ;``F rSub { size 8{c} } = ital "mr"ω rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2616689">You may use whichever expression for centripetal force is more convenient. Centripetal force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is always perpendicular to the path and pointing to the center of curvature, because <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">a</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is perpendicular to the velocity and pointing to the center of curvature.</para><para id="import-auto-id3105986">Note that if you solve the first expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, you get</para>
+    <equation id="eip-58"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mi fontstyle="italic">mv</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r= {  { ital "mv" rSup { size 8{2} } }  over  {F rSub { size 8{c} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1410994">This implies that for a given mass and velocity, a large centripetal force causes a small radius of curvature—that is, a tight curve.</para>
+
+    <figure id="import-auto-id2601650"><media id="import-auto-id1581195" alt="The given figure consists of two semicircles, one over the other. The top semicircle is bigger and the one below is smaller. In both the figures, the direction of the path is given along the semicircle in the counter-clockwise direction. A point is shown on the path, where the radius from the circle, r, is shown with an arrow from the center of the circle. At the same point, the centripetal force is shown in the opposite direction to that of radius arrow. The velocity, v, is shown along this point in the left upward direction and is perpendicular to the force. In both the figures, the velocity is same, but the radius is smaller and centripetal force is larger in the lower figure.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_01a.jpg" width="200"/>
+      </media>
+
+    <caption>The frictional force supplies the centripetal force and is numerically equal to it. Centripetal force is perpendicular to velocity and causes uniform circular motion. The larger the <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, the smaller the radius of curvature <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> and the sharper the curve. The second curve has the same <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, but a larger <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> produces a smaller <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi><m:mo>′</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {r}} sup { ' }} {}</m:annotation></m:semantics></m:math>.</caption></figure><example id="fs-id3130274">
+    <title>What Coefficient of Friction Do Car Tires Need on a Flat Curve?</title>
+    <para id="import-auto-id1849101">(a) Calculate the centripetal force exerted on a 900 kg car that negotiates a 500 m radius curve at 25.0 m/s. </para>
+    <para id="import-auto-id1409542">(b) Assuming an unbanked curve, find the minimum static coefficient of friction, between the tires and the road, static friction being the reason that keeps the car from slipping (see <link target-id="import-auto-id3184285"/>).</para>
+    <para id="import-auto-id3205483">
+      <title>Strategy and Solution for (a)</title>
+    </para>
+    <para id="import-auto-id1418337">We know that
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+     <m:msub>
+      <m:mi>F</m:mi>
+      <m:mtext>c</m:mtext>
+     </m:msub>
+     <m:mo stretchy="false">=</m:mo>
+     <m:mfrac>
+      <m:msup>
+       <m:mi fontstyle="italic">mv</m:mi>
+        <m:mtext>2</m:mtext>
+      </m:msup>
+      <m:mi>r</m:mi>
+     </m:mfrac>
+    </m:mrow>
+   </m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>. Thus,</para><equation id="eip-211"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+     <m:msub>
+      <m:mi>F</m:mi>
+      <m:mtext>c</m:mtext>
+     </m:msub>
+
+     <m:mo stretchy="false">=</m:mo>
+
+     <m:mfrac>
+      <m:msup>
+       <m:mi fontstyle="italic">mv</m:mi>
+        <m:mtext>2</m:mtext>
+      </m:msup>
+      <m:mi>r</m:mi>
+     </m:mfrac>
+
+     <m:mo stretchy="false">=</m:mo>
+
+     <m:mfrac>
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo>
+       <m:mtext>900 kg</m:mtext>
+       <m:mo stretchy="false">)</m:mo>
+       <m:mo stretchy="false">(</m:mo>
+       <m:mtext>25.0 m/s</m:mtext>
+       <m:msup>
+        <m:mo stretchy="false">)</m:mo>
+        <m:mtext>2</m:mtext>
+       </m:msup>
+      </m:mrow>
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo>
+       <m:mtext>500 m</m:mtext>
+       <m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+     </m:mfrac>
+
+     <m:mo stretchy="false">=</m:mo>
+
+     <m:mtext>1125 N.</m:mtext>
+    </m:mrow>
+   </m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math></equation><para id="import-auto-id3102728"><title>Strategy for (b)</title></para>
+      <para id="fs-id3078905"><link target-id="import-auto-id3184285"/> shows the forces acting on the car on an unbanked (level ground) curve. Friction is to the left, keeping the car from slipping, and because it is the only horizontal force acting on the car, the friction is the centripetal force in this case. We know that the maximum static friction (at which the tires roll but do not slip) is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the static coefficient of friction and N is the normal force. The normal force equals the car’s weight on level ground, so that
+
+<m:math><m:semantics><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:mi mathvariant="italic">mg</m:mi></m:mrow></m:semantics></m:math>. Thus the centripetal force in this situation is</para><equation id="eip-109"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } =f=μ rSub { size 8{s} } N=μ rSub { size 8{s} }  ital "mg"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3098784">Now we have a relationship between centripetal force and the coefficient of friction. Using the first expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> from the equation</para><equation id="eip-735"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+
+                                  <m:mrow>
+                                    <m:mtext>c</m:mtext>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                            <m:mfrac>
+                              <m:msup>
+                                <m:mi>v</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                              <m:mi>r</m:mi>
+                            </m:mfrac>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+
+                                  <m:mrow>
+                                    <m:mtext>c</m:mtext>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mtext fontstyle="italic">mr</m:mtext>
+                                </m:mrow>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mi>ω</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mo stretchy="true">}</m:mo>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left none  matrix {
+F rSub { size 8{c} } =m {  {v rSup { size 8{2} } }  over  {r} }  {} ##
+F rSub { size 8{c} } = ital "mr"ω rSup { size 8{2} }
+}  right rbrace ,} {}</m:annotation>
+        </m:semantics>
+      </m:math></equation><equation id="eip-18"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mrow><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m {  {v rSup { size 8{2} } }  over  {r} } =μ rSub { size 8{s} }  ital "mg"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1467842">We solve this for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math>, noting that mass cancels, and obtain</para><equation id="eip-99"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rg</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } = {  {v rSup { size 8{2} } }  over  { ital "rg"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id937261"><title>Solution for (b)</title></para>
+        <para id="fs-id1916407">Substituting the knowns,</para>
+    <equation id="eip-971"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>25.0 m/s</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>500 m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>13</m:mtext></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } = {  { \( "25" "." 0" m/s" \)  rSup { size 8{2} } }  over  { \( "500"" m" \)  \( 9 "." "80 m/s" rSup { size 8{2} }  \) } } =0 "." "13"} {}</m:annotation></m:semantics></m:math></equation><para id="eip-508">(Because coefficients of friction are approximate, the answer is given to only two digits.)</para><para id="import-auto-id1348664"><title>Discussion</title></para>
+      <para id="fs-id2397853">We could also solve part (a) using the first expression in <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+
+                                  <m:mrow>
+                                    <m:mtext>c</m:mtext>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                            <m:mfrac>
+                              <m:msup>
+                                <m:mi>v</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                              <m:mi>r</m:mi>
+                            </m:mfrac>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+
+                                  <m:mrow>
+                                    <m:mtext>c</m:mtext>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                                <m:mrow>
+                                  <m:mtext fontstyle="italic">mr</m:mtext>
+                                </m:mrow>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mi>ω</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable>
+                    <m:mo stretchy="true">}</m:mo>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left none  matrix {
+F rSub { size 8{c} } =m {  {v rSup { size 8{2} } }  over  {r} }  {} ##
+F rSub { size 8{c} } = ital "mr"ω rSup { size 8{2} }
+}  right rbrace ,} {}</m:annotation>
+        </m:semantics>
+      </m:math> because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m,} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v,} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> are given. The coefficient of friction found in part (b) is much smaller than is typically found between tires and roads. The car will still negotiate the curve if the coefficient is greater than 0.13, because static friction is a responsive force, being able to assume a value less than but no more than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{g} } N} {}</m:annotation></m:semantics></m:math>. A higher coefficient would also allow the car to negotiate the curve at a higher speed, but if the coefficient of friction is less, the safe speed would be less than 25 m/s. Note that mass cancels, implying that in this example, it does not matter how heavily loaded the car is to negotiate the turn. Mass cancels because friction is assumed proportional to the normal force, which in turn is proportional to mass. If the surface of the road were banked, the normal force would be less as will be discussed below.</para></example>
+
+    <para id="import-auto-id2602826">
+      <figure id="import-auto-id3184285"><media id="import-auto-id3017370" alt="In the given figure, a car is shown from the back, which is turning to the left. The weight, w, of the car is shown with a down arrow and N with an up arrow at the back of the car. At the right rear wheel, centripetal force is shown along with its equation formula in a leftward horizontal arrow. The free-body diagram shows three vectors, one upward, depicting N, one downward, depicting w, and one leftward, depicting centripetal force.">
+          <image mime-type="image/jpg" src="../../media/Figure_07_03_02a.jpg" width="300"/>
+        </media>
+
+      <caption>This car on level ground is moving away and turning to the left. The centripetal force causing the car to turn in a circular path is due to friction between the tires and the road. A minimum coefficient of friction is needed, or the car will move in a larger-radius curve and leave the roadway.</caption></figure></para>
+
+      <para id="import-auto-id3200990">Let us now consider <term id="import-auto-id2403430">banked curves</term>, where the slope of the road helps you negotiate the curve. See <link target-id="import-auto-id1571739"/>. The greater the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>, the faster you can take the curve. Race tracks for bikes as well as cars, for example, often have steeply banked curves. In an “ideally banked curve,” the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is such that you can negotiate the curve at a certain speed without the aid of friction between the tires and the road. We will derive an expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> for an ideally banked curve and consider an example related to it.</para>
+    <para id="import-auto-id2441377">For <term id="import-auto-id1402139">ideal banking</term>, the net external force equals the horizontal centripetal force in the absence of friction. The components of the normal force N in the horizontal and vertical directions must equal the centripetal force and the weight of the car, respectively. In cases in which forces are not parallel, it is most convenient to consider components along perpendicular axes—in this case, the vertical and horizontal directions.</para>
+    <para id="import-auto-id1580876"><link target-id="import-auto-id1571739"/> shows a free body diagram for a car on a frictionless banked curve. If the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is ideal for the speed and radius, then the net external force will equal the necessary centripetal force. The only two external forces acting on the car are its weight <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">w</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{w} {}</m:annotation></m:semantics></m:math> and the normal force of the road <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math>. (A frictionless surface can only exert a force perpendicular to the surface—that is, a normal force.) These two forces must add to give a net external force that is horizontal toward the center of curvature and has magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>/r</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"mv" rSup { size 8{2} } "/r"} {}</m:annotation></m:semantics></m:math>. Because this is the crucial force and it is horizontal, we use a coordinate system with vertical and horizontal axes. Only the normal force has a horizontal component, and so this must equal the centripetal force—that is,</para>
+    <equation id="eip-584"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi fontstyle="italic">mv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N"sin"θ= {  { ital "mv" rSup { size 8{2} } }  over  {r} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3305945">Because the car does not leave the surface of the road, the net vertical force must be zero, meaning that the vertical components of the two external forces must be equal in magnitude and opposite in direction. From the figure, we see that the vertical component of the normal force is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N"cos"θ} {}</m:annotation></m:semantics></m:math>, and the only other vertical force is the car’s weight. These must be equal in magnitude; thus,</para><equation id="eip-125"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N"cos"θ= ital "mg"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2598289">Now we can combine the last two equations to eliminate <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> and get an expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>, as desired. Solving the second equation for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo></m:mrow></m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N= ital "mg"/ \( "cos"θ \) } {}</m:annotation></m:semantics></m:math>, and substituting this into the first yields</para><equation id="eip-713"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mg</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                        <m:mi>θ</m:mi>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                        <m:mi>θ</m:mi>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+
+                        <m:mrow>
+                          <m:msup>                      <m:mstyle fontstyle="italic">
+                            <m:mtext>mv</m:mtext>
+                                                  </m:mstyle>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+
+                      <m:mi>r</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="eip-285"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="right"><m:mtr>
+<m:mtd><m:mtext fontstyle="italic">mg</m:mtext><m:mspace width="0.25em"/><m:mtext>tan</m:mtext><m:mo stretchy="false">(</m:mo><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mfrac><m:mrow><m:msup><m:mi fontstyle="italic">mv</m:mi><m:mn>2</m:mn></m:msup></m:mrow><m:mi>r</m:mi></m:mfrac></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd><m:mtext>tan</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rg.</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mtd>
+</m:mtr></m:mtable></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1562443">Taking the inverse tangent gives</para>
+    <equation id="eip-239"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rg</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced></m:mrow></m:mrow><m:mrow/><m:mrow><m:mspace width="0.25em"/><m:mtext> (ideally banked curve, no friction).</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  left ( {  {v rSup { size 8{2} } }  over  { ital "rg"} }  right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2667857">This expression can be understood by considering how <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> depends on <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>. A large <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> will be obtained for a large <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and a small <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>. That is, roads must be steeply banked for high speeds and sharp curves. Friction helps, because it allows you to take the curve at greater or lower speed than if the curve is frictionless. Note that <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> does not depend on the mass of the vehicle.</para>
+
+    <figure id="import-auto-id1571739"><media id="import-auto-id2456078" alt="In this figure, a car from the backside is shown, turning to the left, on a slope angling downward to the left. A point in the middle of the back of the car is shown which shows one downward vector depicting weight, w, and an upward arrow depicting force N, which is a linear line along the car and is at an angle theta with the straight up arrow. The slope is at an angle theta with the horizontal surface below the slope. The force values, N multipliy sine theta equals to centripetal force, the net force on the car and N cosine theta equal to w are given below the car. ">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_03a.jpg" width="300"/>
+      </media>
+
+    <caption>The car on this banked curve is moving away and turning to the left.</caption></figure><example id="fs-id982366">
+    <title>What Is the Ideal Speed to Take a Steeply Banked Tight Curve?</title>
+    <para id="import-auto-id3062348">Curves on some test tracks and race courses, such as the Daytona International Speedway in Florida, are very steeply banked. This banking, with the aid of tire friction and very stable car configurations, allows the curves to be taken at very high speed. To illustrate, calculate the speed at which a 100 m radius curve banked at 65.0° should be driven if the road is frictionless.</para>
+    <para id="import-auto-id1927008">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id3123411">We first note that all terms in the expression for the ideal angle of a banked curve except for speed are known; thus, we need only rearrange it so that speed appears on the left-hand side and then substitute known quantities.</para>
+    <para id="import-auto-id3484355">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id2392096">Starting with</para>
+    <equation id="eip-895"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>tan</m:mtext><m:mspace width="0.25em"/>
+                  <m:mrow>
+                    <m:mi>θ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>v</m:mi>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>rg</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"tan"θ= {  {v rSup { size 8{2} } }  over  { ital "rg"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2397201">we get</para>
+    <equation id="eip-6"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>rg</m:mtext><m:mspace width="0.25em"/></m:mrow></m:mstyle><m:mtext>tan</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= \(  ital "rg""tan"θ \)  rSup { size 8{1/2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3375232">Noting that tan 65.0º = 2.14, we obtain</para>
+    <equation id="eip-571"><m:math><m:semantics><m:mrow><m:mrow>
+<m:mtable columnalign="left">
+<m:mtr><m:mtd><m:mi>v</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:msup><m:mfenced open="[" close="]"><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>100 m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.80 m</m:mn><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>14</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfenced><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow>
+</m:mtd>
+</m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mtext>45.8 m/s.</m:mtext></m:mrow></m:mtd>
+</m:mtr></m:mtable></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1995411"><title>Discussion</title></para>
+       <para id="fs-id1967548">This is just about 165 km/h, consistent with a very steeply banked and rather sharp curve. Tire friction enables a vehicle to take the curve at significantly higher speeds.</para>
+    <para id="import-auto-id3007417">Calculations similar to those in the preceding examples can be performed for a host of interesting situations in which centripetal force is involved—a number of these are presented in this chapter’s Problems and Exercises.</para></example>
+    <note id="fs-id1398255"><label/><title>Take-Home Experiment</title>
+
+    <para id="import-auto-id1446432">Ask a friend or relative to swing a golf club or a tennis racquet. Take appropriate measurements to estimate the centripetal acceleration of the end of the club or racquet. You may choose to do this in slow motion.</para>
+    </note><note id="eip-52" class="interactive"><title>Gravity and Orbits</title><para id="eip-id1169737830697">Move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths. Visualize the sizes and distances between different heavenly bodies, and turn off gravity to see what would happen without it!
+<figure id="eip-idm429701584"><media id="fs-id1167067106073" alt="This simulation allows you to move the sun, earth, moon and space station to see how it affects their gravitational forces and orbital paths">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28gravityorbit"/></media></figure>
+</para></note><section id="fs-id2604525" class="section-summary"><title>Section Summary</title><list id="fs-id1416963"><item id="import-auto-id1381455">Centripetal force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is any force causing uniform circular motion. It is a “center-seeking” force that always points toward the center of rotation. It is perpendicular to linear velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> and has magnitude
+    <equation id="eip-67"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mtext fontstyle="italic">ma</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2950190">which can also be expressed as</para>
+    <equation id="eip-967"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mfenced open="" close="}">
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtable>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+
+                                  <m:mrow>
+                                    <m:mtext>c</m:mtext>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mi>m</m:mi>
+                            </m:mrow>
+                            <m:mfrac>
+                              <m:msup>
+                                <m:mi>v</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                              <m:mi>r</m:mi>
+                            </m:mfrac>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                      <m:mtr>
+                        <m:mtd>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mtable>
+                                <m:mtr>
+                                  <m:mrow>
+
+                                      <m:mrow>
+                                        <m:mtext>or</m:mtext>
+                                      </m:mrow>
+
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtr>
+                                <m:mtr>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:msub>
+                                        <m:mi>F</m:mi>
+
+                                          <m:mrow>
+                                            <m:mtext>c</m:mtext>
+                                          </m:mrow>
+
+                                      </m:msub>
+                                      <m:mo stretchy="false">=</m:mo>
+                                        <m:mrow>
+                                          <m:mtext fontstyle="italic">mr</m:mtext>
+                                        </m:mrow>
+                                    </m:mrow>
+                                    <m:msup>
+                                      <m:mi>ω</m:mi>
+
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+
+                                    </m:msup>
+                                    <m:mrow/>
+                                  </m:mrow>
+                                </m:mtr>
+                              </m:mtable>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mtd>
+                      </m:mtr>
+                    </m:mtable><m:mi>,</m:mi>
+                  </m:mrow>
+
+                </m:mrow>
+              </m:mrow>
+
+            </m:mfenced>
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation></item></list></section><section id="fs-id1977486" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id3255120" type="conceptual-questions"><problem id="fs-id2405338"><para id="fs-id1903962">If you wish to reduce the stress (which is related to centripetal force) on high-speed tires, would you use large- or small-diameter tires? Explain.</para></problem></exercise>
+      <exercise id="fs-id3055510" type="conceptual-questions"><problem id="fs-id2449871"><para id="fs-id1452850">Define centripetal force. Can any type of force (for example, tension, gravitational force, friction, and so on) be a centripetal force? Can any combination of forces be a centripetal force?</para></problem></exercise>
+    <exercise id="fs-id3035023" type="conceptual-questions"><problem id="fs-id2447888"><para id="fs-id1332111">If centripetal force is directed toward the center, why do you feel that you are ‘thrown’ away from the center as a car goes around a curve? Explain.</para></problem></exercise>
+    <exercise id="fs-id3286004" type="conceptual-questions"><problem id="fs-id2402563"><para id="import-auto-id2655220">Race car drivers routinely cut corners as shown in <link target-id="import-auto-id2673863"/>. Explain how this allows the curve to be taken at the greatest speed.</para>
+
+    <figure id="import-auto-id2673863"><media id="import-auto-id2588311" alt="In the figure, two paths are shown inside a race track through a steep curve, approximately equal to ninety degrees. Two cars are shown. One car is on the path one, which is the inside path along the track. The path of this car is shown with an arrow through the inside path. The second car is shown overtaking the first car, while taking a left turn, showing it to be crossing into the inside path from the second path. The path of this car is also shown with an arrow throughout.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_04a.jpg" width="200"/>
+      </media>
+
+    <caption>Two paths around a race track curve are shown. Race car drivers will take the inside path (called cutting the corner) whenever possible because it allows them to take the curve at the highest speed.</caption></figure></problem></exercise>
+      <exercise id="fs-id2405334" type="conceptual-questions"><problem id="fs-id2684442">
+    <para id="import-auto-id1824608">A number of amusement parks have rides that make vertical loops like the one shown in <link target-id="import-auto-id2452691"/>. For safety, the cars are attached to the rails in such a way that they cannot fall off. If the car goes over the top at just the right speed, gravity alone will supply the centripetal force. What other force acts and what is its direction if:</para>
+      <para id="fs-id2382029">(a) The car goes over the top at faster than this speed?</para>
+      <para id="fs-id3064329">(b)The car goes over the top at slower than this speed?</para>
+
+    <figure id="import-auto-id2452691"><media id="import-auto-id3026136" alt="In the given line diagram, a circular amusement ride is shown from the front with a boat having four people seated in it going upward from the left to the right. The ride starts from the left in a horizontal direction, then goes upward, then turns sideways to the left, comes down from the right and moves horizontal to the right and then ends. It looks like a single knot of a thread, viewed from sideways. Some square iron blocks are also shown below the ride path.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_05a.jpg" width="300"/>
+      </media>
+
+    <caption>Amusement rides with a vertical loop are an example of a form of curved motion.</caption></figure></problem></exercise>
+        <exercise id="fs-id1186294" type="conceptual-questions"><problem id="fs-id1845036"><para id="fs-id2654826">What is the direction of the force exerted by the car on the passenger as the car goes over the top of the amusement ride pictured in <link target-id="import-auto-id2452691"/> under the following circumstances:</para>
+        <para id="fs-id3016908">(a) The car goes over the top at such a speed that the gravitational force is the only force acting?</para>
+        <para id="fs-id2669590">(b) The car goes over the top faster than this speed?</para>
+        <para id="fs-id982124">(c) The car goes over the top slower than this speed?</para>
+          </problem></exercise>
+    <exercise id="fs-id3011795" type="conceptual-questions"><problem id="fs-id1276085"><para id="fs-id3037465">As a skater forms a circle, what force is responsible for making her turn? Use a free body diagram in your answer.</para></problem></exercise>
+    <exercise id="fs-id3047120" type="conceptual-questions"><problem id="fs-id3064151"><para id="fs-id2392046">Suppose a child is riding on a merry-go-round at a distance about halfway between its center and edge. She has a lunch box resting on wax paper, so that there is very little friction between it and the merry-go-round. Which path shown in <link target-id="import-auto-id2990767"/> will the lunch box take when she lets go? The lunch box leaves a trail in the dust on the merry-go-round. Is that trail straight, curved to the left, or curved to the right? Explain your answer.</para>
+
+    <figure id="import-auto-id2990767"><media id="import-auto-id2658360" alt="The given figure shows the circular base of a merry-go-round, whose angular velocity is clockwise, shown here with an arrow. A single horse is shown on whom a child is sitting, with a vertical line shown passed through her, which goes from the bottom of the merry-go-round to the top of it. A point P is shown alongside the horse, through which three arrows in downward three directions are shown which depicts the three possible path of the fall of the lunch box.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_06a.jpg" width="300"/>
+      </media>
+
+    <caption>A child riding on a merry-go-round releases her lunch box at point P. This is a view from above the clockwise rotation. Assuming it slides with negligible friction, will it follow path A, B, or C, as viewed from Earth’s frame of reference? What will be the shape of the path it leaves in the dust on the merry-go-round?</caption></figure></problem></exercise>
+    <exercise id="fs-id2404351" type="conceptual-questions"><problem id="fs-id2660428"><para id="import-auto-id693773">Do you feel yourself thrown to either side when you negotiate a curve that is ideally banked for your car’s speed? What is the direction of the force exerted on you by the car seat?</para>    </problem></exercise>
+    <exercise id="fs-id3340905" type="conceptual-questions"><problem id="fs-id2530716">
+    <para id="import-auto-id3224639">Suppose a mass is moving in a circular path on a frictionless table as shown in figure. In the Earth’s frame of reference, there is no centrifugal force pulling the mass away from the centre of rotation, yet there is a very real force stretching the string attaching the mass to the nail. Using concepts related to centripetal force and Newton’s third law, explain what force stretches the string, identifying its physical origin.</para>
+
+    <figure id="import-auto-id2435986"><media id="import-auto-id2671045" alt="In the figure a table is shown. On the table a mass is attached to a nail at the center with the help of a string. The mass is moving on a circular path in counterclockwise direction.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_07a.jpg" width="250"/>
+      </media>
+
+    <caption>A mass attached to a nail on a frictionless table moves in a circular path. The force stretching the string is real and not fictional. What is the physical origin of the force on the string?</caption></figure></problem></exercise>
+    </section><section id="fs-id2687518" class="problems-exercises"><title>Problems Exercise</title><exercise id="fs-id3245705" type="problems-exercises">
+      <problem id="fs-id3035351">
+        <para id="import-auto-id2424366">(a) A 22.0 kg child is riding a playground merry-go-round that is rotating at 40.0 rev/min. What centripetal force must she exert to stay on if she is 1.25 m from its center? </para>
+    <para id="import-auto-id789255">(b) What centripetal force does she need to stay on an amusement park merry-go-round that rotates at 3.00 rev/min if she is 8.00 m from its center? </para>
+    <para id="import-auto-id2659195">(c) Compare each force with her weight.</para>
+    </problem>
+<solution id="fs-id3025606" type="problems-exercises">
+    <para id="import-auto-id2950375">a) 483 N</para><para id="import-auto-id2590108">b) 17.4 N</para><para id="import-auto-id1355232">c) 2.24 times her weight, 0.0807 times her weight</para></solution>
+    </exercise>
+    <exercise id="fs-id1586925" type="problems-exercises"><problem id="fs-id3006657">    <para id="import-auto-id2437110">Calculate the centripetal force on the end of a 100 m (radius) wind turbine blade that is rotating at 0.5 rev/s. Assume the mass is 4 kg.</para>
+    </problem></exercise>
+    <exercise id="fs-id1864125" type="problems-exercises"><problem id="fs-id3451983">    <para id="import-auto-id1900542">What is the ideal banking angle for a gentle turn of 1.20 km radius on a highway with a 105 km/h speed limit (about 65 mi/h), assuming everyone travels at the limit?</para></problem>
+      <solution id="fs-id3192173"><para id="fs-id1920896"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mtext>14º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "14"°} {}</m:annotation></m:semantics></m:math></para></solution></exercise>
+
+<exercise id="fs-id2009808" type="problems-exercises"><problem id="fs-id2662619"><para id="fs-id1849074">What is the ideal speed to take a 100 m radius curve banked at a 20.0° angle?</para></problem>
+</exercise>
+
+<exercise id="eip-id1167458029802" type="problems-exercises"><problem id="eip-id1167457015961">
+<para id="fs-id2054959">(a) What is the radius of a bobsled turn banked at 75.0° and taken at 30.0 m/s, assuming it is ideally banked?</para>
+        <para id="fs-id2663295">(b) Calculate the centripetal acceleration.</para>
+        <para id="fs-id2682824">(c) Does this acceleration seem large to you?</para>
+    </problem>
+<solution id="fs-id2053936">
+    <para id="import-auto-id1921665">a) 24.6 m</para>
+    <para id="import-auto-id3110349">b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>36.6 m</m:mn><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"36" "." 6m/s rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1917809">c) <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>c</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3.73</m:mn><m:mspace width="0.25em"/><m:mi fontstyle="italic">g.</m:mi></m:mrow></m:mrow></m:semantics></m:math>
+This does not seem too large, but it is clear that bobsledders feel a lot of force on them going through sharply banked turns.</para></solution>
+    </exercise>
+    <exercise id="fs-id2992610" type="problems-exercises">
+      <problem id="fs-id2953850">
+        <para id="import-auto-id1272129">Part of riding a bicycle involves leaning at the correct angle when making a turn, as seen in <link target-id="import-auto-id2682310"/>. To be stable, the force exerted by the ground must be on a line going through the center of gravity. The force on the bicycle wheel can be resolved into two perpendicular components—friction parallel to the road (this must supply the centripetal force), and the vertical normal force (which must equal the system’s weight).</para>
+          <para id="fs-id2032385">(a) Show that <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> (as defined in the figure) is related to the speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow>  </m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and radius of curvature <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> of the turn in the same way as for an ideally banked roadway—that is,
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>θ</m:mi>
+   <m:mo>=</m:mo>
+   <m:msup>
+    <m:mtext>tan</m:mtext>
+    <m:mtext>–1</m:mtext>
+   </m:msup>
+   <m:msup>
+    <m:mi>v</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>/</m:mo>
+   <m:mi fontstyle="italic">rg</m:mi>
+   </m:mrow>
+ </m:semantics>
+</m:math></para><para id="import-auto-id2973190">(b) Calculate <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> for a 12.0 m/s turn of radius 30.0 m (as in a race).</para>
+
+    <figure id="import-auto-id2682310"><media id="import-auto-id3259740" alt="The given figure shows a boy riding a bicycle, from the front. The boy is sliding leftward to his left. Three vectors are shown. One is from the bottom the front cycle wheel to the right depicting centripetal force, another one is from the same point drawn vertically upward showing the force N, making an angle theta with the slope of the front cycle wheel. The third vector is drawn from the chest of the boy to vertically downward to the bottom showing his weight, w. An arrow from the bottom of the wheel to the chest point of the boy is also shown depicting the slope of the bicycle with force F exerting on it. A free-body diagram is also given alongside the figure showing the direction of weight and force vectors. And the values of net F equals to sum of N and centripetal force, and N equals to weight W also given alongside on the right.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_08.jpg"/>
+      </media>
+
+    <caption>A bicyclist negotiating a turn on level ground must lean at the correct angle—the ability to do this becomes instinctive. The force of the ground on the wheel needs to be on a line through the center of gravity. The net external force on the system is the centripetal force. The vertical component of the force on the wheel cancels the weight of the system while its horizontal component must supply the centripetal force. This process produces a relationship among the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, the speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and the radius of curvature <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> of the turn similar to that for the ideal banking of roadways.</caption></figure></problem></exercise>
+    <exercise id="fs-id3424499" type="problems-exercises">
+      <problem id="fs-id1282324">
+        <para id="import-auto-id3253194">A large centrifuge, like the one shown in <link target-id="import-auto-id3099006"/>(a), is used to expose aspiring astronauts to accelerations similar to those experienced in rocket launches and atmospheric reentries.</para><para id="fs-id2929873">(a) At what angular velocity is the centripetal acceleration
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>10 </m:mi> <m:mspace width="0.25em"/>
+   <m:mi>g</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+if the rider is 15.0 m from the center of rotation?</para><para id="fs-id1431970">(b) The rider’s cage hangs on a pivot at the end of the arm, allowing it to swing outward during rotation as shown in <link target-id="import-auto-id3099006"/>(b). At what angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> below the horizontal will the cage hang when the centripetal acceleration is <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>10 </m:mi> <m:mspace width="0.25em"/>
+   <m:mi>g</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>  ? (Hint: The arm supplies centripetal force and supports the weight of the cage. Draw a free body diagram of the forces to see what the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> should be.)</para><para id="import-auto-id3163736">
+      <figure id="import-auto-id3099006"><media id="import-auto-id1932760" alt="Figure a shows a NASA centrifuge n a big hall. In figure b, there is a girl sitting in the cage of the centrifuge. The centripetal force on the cage is directed toward left. The direction of the weight of the cage is downward and the force on the arm is directed in north-west direction.">
+          <image mime-type="image/jpg" src="../../media/Figure_07_03_09a.jpg"/>
+        </media>
+
+      <caption>(a) NASA centrifuge used to subject trainees to accelerations similar to those experienced in rocket launches and reentries. (credit: NASA) (b) Rider in cage showing how the cage pivots outward during rotation. This allows the total force exerted on the rider by the cage to be along its axis at all times.</caption></figure></para>
+    </problem>
+<solution id="fs-id1344086" type="problems-exercises">
+    <para id="import-auto-id2659571">a) 2.56 rad/s</para>
+    <para id="import-auto-id2658565">b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5.71º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 cdot "71" rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+    <exercise id="fs-id2963096" type="problems-exercises"><problem id="fs-id2677993">    <para id="import-auto-id1572171">
+      <title>Integrated Concepts</title>
+    </para>
+    <para id="import-auto-id3006132">If a car takes a banked curve at less than the ideal speed, friction is needed to keep it from sliding toward the inside of the curve (a real problem on icy mountain roads). (a) Calculate the ideal speed to take a 100 m radius curve banked at 15.0º. (b) What is the minimum coefficient of friction needed for a frightened driver to take the same curve at 20.0 km/h?</para></problem>
+<solution id="fs-id1870875" type="problems-exercises">
+    <para id="import-auto-id1986122">a) 16.2 m/s</para>
+    <para id="import-auto-id2669620">b) 0.234</para></solution>
+    </exercise>
+    <exercise id="fs-id1933865" type="problems-exercises"><problem id="fs-id2673689">    <para id="import-auto-id1916232">Modern roller coasters have vertical loops like the one shown in <link target-id="import-auto-id2514816"/>. The radius of curvature is smaller at the top than on the sides so that the downward centripetal acceleration at the top will be greater than the acceleration due to gravity, keeping the passengers pressed firmly into their seats. What is the speed of the roller coaster at the top of the loop if the radius of curvature there is 15.0 m and the downward acceleration of the car is 1.50 g?</para><figure id="import-auto-id2514816"><media id="import-auto-id2681688" alt="A teardrop shaped loop of a roller coaster is shown. The car of the roller coaster starts from the point A near the right of the base and covers the teardrop portion of the roller coaster and move to a point D at the left of base. Near the top of tear drop portion an upward arrow is shown labeled as r-minimum. Also at a point near the base toward A there is a label called r-maximum. The wire frame of the base is also shown.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_03_10a.jpg" width="250"/>
+      </media>
+
+    <caption>Teardrop-shaped loops are used in the latest roller coasters so that the radius of curvature gradually decreases to a minimum at the top. This means that the centripetal acceleration builds from zero to a maximum at the top and gradually decreases again. A circular loop would cause a jolting change in acceleration at entry, a disadvantage discovered long ago in railroad curve design. With a small radius of curvature at the top, the centripetal acceleration can more easily be kept greater than <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>g</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math>  so that the passengers do not lose contact with their seats nor do they need seat belts to keep them in place.</caption></figure></problem></exercise>
+    <exercise id="fs-id2667652" type="problems-exercises"><problem id="fs-id1863783">    <para id="import-auto-id3258600">
+      <title>Unreasonable Results</title>
+    </para>
+    <para id="import-auto-id2403623">(a) Calculate the minimum coefficient of friction needed for a car to negotiate an unbanked 50.0 m radius curve at 30.0 m/s. </para>
+    <para id="import-auto-id1771358">(b) What is unreasonable about the result? </para>
+    <para id="import-auto-id2663006">(c) Which premises are unreasonable or inconsistent?</para>
+    </problem>
+<solution id="fs-id1607940">
+    <para id="import-auto-id2677862">a) 1.84</para>
+    <para id="import-auto-id2661282">b) A coefficient of friction this much greater than 1 is unreasonable .</para>
+    <para id="import-auto-id3229848">c) The assumed speed is too great for the tight curve.</para>
+    </solution>
+    </exercise>
+    </section> </content>
+  <glossary>
+    <definition id="import-auto-id2658751"><term>centripetal force</term> <meaning id="fs-id2671027">any net force causing uniform circular motion</meaning></definition>
+      <definition id="import-auto-id969602"><term>ideal banking</term> <meaning id="fs-id2673973">the sloping of a curve in a road, where the angle of the slope allows the vehicle to  negotiate the curve at a certain speed without the aid of friction between the tires and the road; the net external force on the vehicle equals the horizontal centripetal force in the absence of friction</meaning></definition>
+        <definition id="import-auto-id2384610"><term>ideal speed</term> <meaning id="fs-id1594023">the maximum safe speed at which a vehicle can turn on a curve without the aid of friction between the tire and the road</meaning></definition>
+          <definition id="import-auto-id3149885"><term>ideal angle</term> <meaning id="fs-id3225958">the angle at which a car can turn safely on a steep curve, which is in proportion to the ideal speed</meaning></definition>
+            <definition id="import-auto-id3013678"><term>banked curve</term> <meaning id="fs-id3148861"> the curve in a road that is sloping in a manner that helps a vehicle negotiate the curve</meaning></definition>
+  </glossary>
+</document>

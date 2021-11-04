@@ -1,0 +1,88 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+    <title>The First Condition for Equilibrium</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42170</md:content-id>
+  <md:title>The First Condition for Equilibrium</md:title>
+  <md:abstract><list>
+<item>State the first condition of equilibrium.</item>
+<item>Explain static equilibrium.</item>
+<item>Explain dynamic equilibrium.</item>
+</list></md:abstract>
+  <md:uuid>ee1ff255-2c04-4a6d-aa23-6d981b02ea48</md:uuid>
+</metadata>
+
+<content>
+        <para id="import-auto-id1164400872929">The first condition necessary to achieve equilibrium is the one already mentioned: the net external force on the system must be zero. Expressed as an equation, this is simply</para>
+        <equation id="eip-6"><m:math>
+                <m:semantics>
+                    <m:mrow>
+
+                            <m:mrow>
+                                <m:mrow>
+                                    <m:mtext>net</m:mtext>
+                                    <m:mspace width="0.25em"/>
+                                    <m:mrow>
+                                        <m:mi mathvariant="bold">F</m:mi>
+                                        <m:mo stretchy="false">=</m:mo>
+                                        <m:mn>0</m:mn>
+                                    </m:mrow>
+                                </m:mrow>
+                            </m:mrow>
+
+                        <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{"net "F=0} {}</m:annotation>
+                </m:semantics>
+            </m:math>
+        </equation><para id="import-auto-id1164400866198">Note that if net <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is zero, then the net external force in <emphasis effect="italics"><emphasis effect="italics">any</emphasis></emphasis> direction is zero. For example, the net external forces along the typical <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axes are zero. This is written as</para><equation id="eip-180"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>net </m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn><m:mspace width="0.25em"/></m:mrow>
+
+<m:mspace width="0.25em"/><m:mtext>and net</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"net "F rSub { size 8{y} } =0} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1164400877768"><link target-id="import-auto-id1164400876993"/> and <link target-id="import-auto-id1164400872520"/> illustrate situations where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.25em"/><m:mi/><m:mrow><m:mi mathvariant="bold">F</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"net"`F=0} {}</m:annotation></m:semantics></m:math> for both <term id="import-auto-id1164400876972">static equilibrium</term> (motionless), and <term id="import-auto-id1164400876975">dynamic equilibrium</term> (constant velocity).</para><figure id="import-auto-id1164400876993"><media id="import-auto-id1164400876994" alt="In the figure, a stationary man is standing on the ground. His feet are at a distance apart. His hands are at his waist. The left side is labeled as net F is equal to zero. At the right side a free body diagram is shown with one point and two arrows, one vertically upward labeled as N and another vertically downward labeled as W, from the point.">
+                <image mime-type="image/jpg" src="../../media/Figure_10_01_01a.jpg" width="220"/>
+            </media>
+
+        <caption>This motionless person is in static equilibrium. The forces acting on him add up to zero. Both forces are vertical in this case.</caption></figure><figure id="import-auto-id1164400872520"><media id="import-auto-id1164400872521" alt="A moving car is shown. Four normal vectors at each wheel are shown. At the rear wheel, a rightward arrow labeled as applied F is shown. Another arrow, which is labeled as f and points left, toward the front of the car, is also shown. A green vector at the top of the car shows the constant velocity vector. A free-body diagram is shown at the right with a point. From the point, the weight of the car is downward. Friction force vector f is toward left and applied force vector is toward right. Four normal vectors are shown upward above the point.">
+                <image mime-type="image/jpg" src="../../media/Figure_10_01_02a.jpg" width="375"/>
+            </media>
+
+        <caption>This car is in dynamic equilibrium because it is moving at constant velocity. There are horizontal and vertical forces, but the net external force in any direction is zero. The applied force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>  between the tires and the road is balanced by air friction, and the weight of the car is supported by the normal forces, here shown to be equal for all four tires.
+             </caption></figure><para id="import-auto-id1164400870970">However, it is not sufficient for the net external force of a system to be zero for a system to be in equilibrium. Consider the two situations illustrated in <link target-id="import-auto-id1164400871370"/> and <link target-id="import-auto-id1164400867302"/> where forces are applied to an ice hockey stick lying flat on ice. The net external force is zero in both situations shown in the figure; but in one case, equilibrium is achieved, whereas in the other, it is not. In <link target-id="import-auto-id1164400871370"/>, the ice hockey stick remains motionless. But in <link target-id="import-auto-id1164400867302"/>, with the same forces applied in different places, the stick experiences accelerated rotation. Therefore, we know that the point at which a force is applied is another factor in determining whether or not equilibrium is achieved. This will be explored further in the next section.</para>
+
+        <figure id="import-auto-id1164400871370"><media id="import-auto-id1164400871371" alt="A hockey stick is shown. At the middle point of the stick, two red colored force vectors are shown one pointing to the right and the other to the left. The line of action of the two forces is the same. The top of the figure is labeled as net force F is equal to zero. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.">
+                <image mime-type="image/jpg" src="../../media/Figure_10_01_03a.jpg" width="225"/>
+            </media>
+
+        <caption>An ice hockey stick lying flat on ice with two equal and opposite horizontal forces applied to it. Friction is negligible, and the gravitational force is balanced by the support of the ice (a normal force). Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.25em"/><m:mi/><m:mrow><m:mi mathvariant="bold">F</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"net"`F=0} {}</m:annotation></m:semantics></m:math>. Equilibrium is achieved, which is static equilibrium in this case.
+            </caption></figure><figure id="import-auto-id1164400867302"><media id="import-auto-id1164400867009" alt="A hockey stick is shown. The two force vectors acting on the hockey stick are shown, one pointing to the right and the other to the left. The lines of action of the two forces are different. Each vector is labeled as F. At the top and the bottom of the stick there are two circular arrows, showing the clockwise direction of the rotation. At the lower right side the free body diagram, a point with two horizontal vectors, each labeled F and directed away from the point, is shown.">
+                <image mime-type="image/jpg" src="../../media/Figure_10_01_04a.jpg" width="280"/>
+            </media>
+
+        <caption>The same forces are applied at other points and the stick rotates—in fact, it experiences an accelerated rotation. Here <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi mathvariant="bold">F</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"net"`F=0} {}</m:annotation></m:semantics></m:math> but the system is <emphasis effect="italics">not</emphasis> at equilibrium. Hence, the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.25em"/><m:mi/><m:mrow><m:mi mathvariant="bold">F</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"net"`F=0} {}</m:annotation></m:semantics></m:math> is a necessary—but not sufficient—condition for achieving equilibrium.</caption></figure>
+        <note id="eip-522" class="interactive"><label/><title>Torque</title>
+<para id="eip-id1169737780263">Investigate how torque causes an object to rotate. Discover the relationships between angular acceleration, moment of inertia, angular momentum and torque.
+</para>
+<media id="Torque" alt="This simulation investigates how torque causes an object to rotate.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/21angmomintsim"/>
+</media>
+</note>
+<section id="fs-id3057779" class="section-summary"><title>Section Summary</title><list id="fs-id2560599"><item id="import-auto-id1164400874565">Statics is the study of forces in equilibrium.</item>
+        <item id="import-auto-id1164400874568">Two conditions must be met to achieve equilibrium, which is defined to be motion without linear or rotational acceleration.</item>
+        <item id="import-auto-id1164400866432">The first condition necessary to achieve equilibrium is that the net external force on the system must be zero, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>net</m:mtext><m:mspace width="0.25em"/><m:mi mathvariant="bold">F</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "net"} } =0} {}</m:annotation></m:semantics></m:math>.</item>
+</list></section><section id="fs-id2601154" class="conceptual-questions" type="conceptual-questions">
+
+<title>Conceptual Questions</title>
+        <exercise id="fs-id2603151" type="conceptual-questions"><problem id="fs-id2600181">
+
+        <para id="import-auto-id1164400874369">What can you say about the velocity of a moving body that is in dynamic equilibrium? Draw a sketch of such a body using clearly labeled arrows to represent all external forces on the body.</para>
+        </problem></exercise>
+            <exercise id="fs-id2601562" type="conceptual-questions"><problem id="fs-id1285566">
+
+        <para id="import-auto-id1164400877032">Under what conditions can a rotating body be in equilibrium? Give an example.</para>
+        </problem></exercise>
+        </section>
+
+     </content>
+    <glossary>
+        <definition id="import-auto-id1164400873238"><term>static equilibrium</term> <meaning id="fs-id1111292"> a state of equilibrium in which the net external force and torque acting on a system is zero</meaning></definition>
+            <definition id="import-auto-id1164400873242"><term>dynamic equilibrium</term> <meaning id="fs-id1253954">a state of equilibrium in which the net external force and torque on a system moving with constant velocity are zero</meaning></definition>
+    </glossary>
+</document>

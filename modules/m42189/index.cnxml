@@ -1,0 +1,262 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Pressure</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42189</md:content-id>
+  <md:title>Pressure</md:title>
+  <md:abstract><list>
+<item>Define pressure.</item>
+<item>Explain the relationship between pressure and force.</item>
+<item>Calculate force given pressure and area.</item>
+</list></md:abstract>
+  <md:uuid>f713bda9-67f7-49c9-9d9d-ca2e34a202a5</md:uuid>
+</metadata>
+
+<content>
+<para id="import-auto-id3108381">You have no doubt heard the word <term id="import-auto-id1932275">pressure</term> being used in relation to blood (high or low blood pressure) and in relation to the weather (high- and low-pressure weather systems). These are only two of many examples of pressures in fluids. Pressure <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is defined as</para><equation id="eip-943"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  {F}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation><para id="eip-487">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is a force applied to an area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> that is perpendicular to the force.</para><note id="fs-id2616925"><label/>
+    <title>Pressure</title>
+    <para id="import-auto-id2929954">Pressure is defined as the force divided by the area perpendicular to the force over which the force is applied, or</para><equation id="eip-795"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  {F}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation></note>
+    <para id="import-auto-id1614126">A given force can have a significantly different effect depending on the area over which the force is exerted, as shown in <link target-id="import-auto-id3175803"/>. The SI unit for pressure is the <emphasis effect="italics">pascal</emphasis>, where <equation id="eip-id1787110"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1 Pa</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`"Pa"=1`"Nm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation></para><para id="import-auto-id1995887">In addition to the pascal, there are many other units for pressure that are in common use. In meteorology, atmospheric pressure is often described in units of millibar (mb), where</para>
+    <equation id="eip-847"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100 mb</m:mtext><m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mtext>Pa</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo> .</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"`"mb"=1 times "10" rSup { size 8{5} } `"Pa"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1571004">Pounds per square inch <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msup><m:mtext>lb/in</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>or</m:mtext><m:mspace width="0.25em"/><m:mtext>psi</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ("lb/in" rSup { size 8{2} } `"or"``"psi" right )} {}</m:annotation></m:semantics></m:math> is still sometimes used as a measure of tire pressure, and millimeters of mercury (mm Hg) is still often used in the measurement of blood pressure. Pressure is defined for all states of matter but is particularly important when discussing fluids.</para><para id="import-auto-id2673215">
+      <figure id="import-auto-id3175803"><media id="import-auto-id1487076" alt="In figure a, the person is poked with a finger exerting a small pressure due to the large area of contact and, in b, he is poked with a syringe exerting a large pressure due to the small area of contact.">
+          <image mime-type="image/jpg" src="../../media/Figure_12_03_01a.jpg" width="375"/>
+        </media>
+
+      <caption>(a) While the person being poked with the finger might be irritated, the force has little lasting effect. (b) In contrast, the same force applied to an area the size of the sharp end of a needle is great enough to break the skin.</caption></figure></para>
+    <example id="fs-id2601795"><title>Calculating Force Exerted by the Air: What Force Does a Pressure Exert?</title><para id="import-auto-id1438842">An astronaut is working outside the International Space Station where the atmospheric pressure is essentially zero. The pressure gauge on her air tank reads <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>90</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>Pa</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "90" times "10" rSup { size 8{6} } `"Pa"} {}</m:annotation></m:semantics></m:math>. What force does the air inside the tank exert on the flat end of the cylindrical tank, a disk 0.150 m in diameter?</para><para id="import-auto-id1863946"><title>Strategy</title></para>
+        <para id="import-auto-id1863947">We can find the force exerted from the definition of pressure given in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  {F}  over  {A} } } {}</m:annotation></m:semantics></m:math>, provided we can find the area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> acted upon.</para>
+    <para id="import-auto-id2599366"><title>Solution</title></para>
+        <para id="import-auto-id1863948">By rearranging the definition of pressure to solve for force, we see that</para>
+    <equation id="eip-914"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "PA"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2401938">Here, the pressure <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is given, as is the area of the end of the cylinder <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>, given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=πr rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Thus,</para>
+    <equation id="eip-775"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                            <m:mi>F</m:mi></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>6.90</m:mn>
+                                <m:mrow>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext>10</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mn>6</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mspace width="0.25em"/>
+                                <m:msup>
+                                  <m:mtext>N/m</m:mtext>
+
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>3.14</m:mn>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:msup>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>0.0750 m</m:mn>
+                              </m:mrow>
+                            </m:mfenced>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mn>1.22</m:mn>
+                    <m:mrow>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+                    </m:mrow>
+                  <m:mspace width="0.25em"/>
+                    <m:mtext>N.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{F= left (6 "." "90" times "10" rSup { size 8{6} } `"N/m" rSup { size 8{2} }  right ) left (3 "." "14" right ) left (0 "." "0750"`m right ) rSup { size 8{2} } }  {} #
+=1 "." "22" times "10" rSup { size 8{5} } `N "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1326922">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id3175478">Wow! No wonder the tank must be strong. Since we found <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "PA"} {}</m:annotation></m:semantics></m:math>, we see that the force exerted by a pressure is directly proportional to the area acted upon as well as the pressure itself.</para>
+    </example><para id="import-auto-id1004455">The force exerted on the end of the tank is perpendicular to its inside surface. This direction is because the force is exerted by a static or stationary fluid. We have already seen that fluids cannot <emphasis effect="italics">withstand</emphasis> shearing (sideways) forces; they cannot <emphasis effect="italics">exert</emphasis> shearing forces, either. Fluid pressure has no direction, being a scalar quantity. The forces due to pressure have well-defined directions: they are always exerted perpendicular to any surface. (See the tire in <link target-id="import-auto-id2055656"/>, for example.) Finally, note that pressure is exerted on all surfaces. Swimmers, as well as the tire, feel pressure on all sides. (See <link target-id="import-auto-id3130778"/>.)</para>
+
+    <figure id="import-auto-id2055656"><media id="import-auto-id2446191" alt="The forces inside a tire are shown by arrow lines. An inset shows an enlarged view of the valve in the tire. Air pressure in the tire keeps the valve closed.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_03_02a.jpg" width="300"/>
+      </media>
+
+    <caption>Pressure inside this tire exerts forces perpendicular to all surfaces it contacts. The arrows give representative directions and magnitudes of the forces exerted at various points. Note that static fluids do not exert shearing forces.</caption></figure><figure id="import-auto-id3130778"><media id="import-auto-id2689097" alt="A man swimming underwater has many arrows pointing toward him to represent the directions and magnitudes of the forces exerted on him at various points.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_03_03a.jpg" width="400"/>
+      </media>
+
+    <caption>Pressure is exerted on all sides of this swimmer, since the water would flow into the space he occupies if he were not there. The arrows represent the directions and magnitudes of the forces exerted at various points on the swimmer. Note that the forces are larger underneath, due to greater depth, giving a net upward or buoyant force that is balanced by the weight of the swimmer.</caption></figure>
+
+<note id="eip-790" class="interactive"><label/><title>Gas Properties</title>
+<para id="eip-id1323026">Pump gas molecules to a box and see what happens as you change the volume, add or remove heat, change gravity, and more. Measure the temperature and pressure, and discover how the properties of the gas vary in relation to each other.
+</para>
+<media id="GasProperties" alt="This simulation allows you to pump gas molecules to a box and see what happens as you change the volume, add or remove heat, change gravity, and more.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/16IdealGasLaw"/>
+</media>
+</note>
+<section id="fs-id1997800" class="section-summary"><title>Section Summary</title><list id="fs-id1570850"><item id="import-auto-id2602098">Pressure is the force per unit perpendicular area over which the force is applied. In equation form, pressure is defined as
+    <equation id="eip-18"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mi>F</m:mi>
+                      <m:mi>A</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P= {  {F}  over  {A} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id1228614">The SI unit of pressure is pascal and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>1 Pa</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`"Pa"=1`"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</item>
+    </list></section><section id="fs-id3449531" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id3149806" type="conceptual-questions"><problem id="fs-id3418059">
+
+    <para id="import-auto-id1390169">How is pressure related to the sharpness of a knife and its ability to cut?</para>
+    </problem></exercise>
+        <exercise id="fs-id2615691" type="conceptual-questions"><problem id="fs-id3253764">
+
+    <para id="import-auto-id1600137">Why does a dull hypodermic needle hurt more than a sharp one?</para>
+    </problem></exercise>
+        <exercise id="fs-id1034685" type="conceptual-questions"><problem id="fs-id1228592">
+
+    <para id="import-auto-id2680982">The outward force on one end of an air tank was calculated in <link target-id="fs-id2601795"/>. How is this force balanced? (The tank does not accelerate, so the force must be balanced.)</para>
+    </problem></exercise>
+        <exercise id="fs-id935474" type="conceptual-questions"><problem id="fs-id2446141">
+
+    <para id="import-auto-id2681028">Why is force exerted by static fluids always perpendicular to a surface?</para>
+    </problem></exercise>
+        <exercise id="fs-id2590796" type="conceptual-questions"><problem id="fs-id1935393">
+
+    <para id="import-auto-id1348329">In a remote location near the North Pole, an iceberg floats in a lake. Next to the lake (assume it is not frozen) sits a comparably sized glacier sitting on land. If both chunks of ice should melt due to rising global temperatures (and the melted ice all goes into the lake), which ice chunk would give the greatest increase in the level of the lake water, if any? </para>
+    </problem></exercise>
+        <exercise id="fs-id1429595" type="conceptual-questions"><problem id="fs-id2672592">
+
+    <para id="import-auto-id954471">How do jogging on soft ground and wearing padded shoes reduce the pressures to which the feet and legs are subjected? </para>
+    </problem></exercise>
+        <exercise id="fs-id2382902" type="conceptual-questions"><problem id="fs-id1569315">
+
+    <para id="import-auto-id2588349">Toe dancing (as in ballet) is much harder on toes than normal dancing or walking. Explain in terms of pressure.</para>
+    </problem></exercise>
+    <exercise id="fs-id3091727" type="conceptual-questions"><problem id="fs-id1434785">
+
+    <para id="import-auto-id3064179">How do you convert pressure units like millimeters of mercury, centimeters of water, and inches of mercury into units like newtons per meter squared without resorting to a table of pressure conversion factors? </para>
+    </problem></exercise>
+    </section><section id="fs-id981448" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id2611366" type="problems-exercises"><problem id="fs-id3122030">    <para id="import-auto-id2456066">As a woman walks, her entire weight is momentarily placed on one heel of her high-heeled shoes. Calculate the pressure exerted on the floor by the heel if it has an area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "50"`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> and the woman’s mass is 55.0 kg. Express the pressure in Pa. (In the early days of commercial flight, women were not allowed to wear high-heeled shoes because aircraft floors were too thin to withstand such large pressures.)</para></problem>
+        <solution id="fs-id3201948" type="problems-exercises">
+    <para id="import-auto-id2420502"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3.59</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mtext>Pa</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>; or <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>521</m:mtext>
+                  <m:mspace width="0.25em"/>
+                  <m:msup>
+                    <m:mtext>lb/in</m:mtext>
+
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"521"`"lb/in" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+        <exercise id="fs-id2437545" type="problems-exercises"><problem id="fs-id2663832">    <para id="import-auto-id3035903">The pressure exerted by a phonograph needle on a record is surprisingly large. If the equivalent of 1.00 g is supported by a needle, the tip of which is a circle 0.200 mm in radius, what pressure is exerted on the record in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>?</para>
+    </problem></exercise>
+        <exercise id="fs-id3051764" type="problems-exercises"><problem id="fs-id2687586">    <para id="import-auto-id3090228">Nail tips exert tremendous pressures when they are hit by hammers because they exert a large force over a small area. What force must be exerted on a nail with a circular tip of 1.00 mm diameter to create a pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mn>?</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>(This high pressure is possible because the hammer striking the nail is brought to rest in such a short distance.)</para></problem>
+            <solution id="fs-id2950005" type="problems-exercises">
+    <para id="import-auto-id2407588"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2.36</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+<m:mspace width="0.25em"/>
+                  <m:mtext>N</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "36" times "10" rSup { size 8{3} } `N} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution></exercise>
+    </section>
+
+ </content>
+    <glossary>
+        <definition id="import-auto-id1818589"><term>pressure</term> <meaning id="fs-id1917140">the force per unit area perpendicular to the force, over which the force acts</meaning></definition>
+    </glossary>
+</document>

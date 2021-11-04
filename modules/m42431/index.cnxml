@@ -1,0 +1,824 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>RLC Series AC Circuits</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42431</md:content-id>
+  <md:title>RLC Series AC Circuits</md:title>
+  <md:abstract><list>
+<item>Calculate the impedance, phase angle, resonant frequency, power, power factor, voltage, and/or current in a RLC series circuit.</item>
+<item>Draw the circuit diagram for an RLC series circuit.</item>
+<item>Explain the significance of the resonant frequency.</item>
+</list></md:abstract>
+  <md:uuid>6bf1c4dd-f641-41b2-ac66-29e159880c03</md:uuid>
+</metadata>
+
+<content>
+    <section id="fs-id1169736628865"><title>Impedance</title><para id="fs-id1169737742205">When alone in an AC circuit, inductors, capacitors, and resistors all impede current. How do they behave when all three occur together? Interestingly, their individual resistances in ohms do not simply add. Because inductors and capacitors behave in opposite ways, they partially to totally cancel each other’s effect. <link target-id="import-auto-id1169736621511"/> shows an <emphasis effect="italics">RLC </emphasis>series circuit with an AC voltage source, the behavior of which is the subject of this section. The crux of the analysis of an <emphasis effect="italics">RLC</emphasis> circuit is the frequency dependence of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>, and the effect they have on the phase of voltage versus current (established in the preceding section). These give rise to the frequency dependence of the circuit, with important “resonance” features that are the basis of many applications, such as radio tuners.</para><figure id="import-auto-id1169736621511"><media id="import-auto-id1169737820340" alt="The figure describes an R LC series circuit. It shows a resistor R connected in series with an inductor L, connected to a capacitor C in series to an A C source V. The voltage of the A C source is given by V equals V zero sine two pi f t. The voltage across R is V R, across L is V L and across C is V C.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_12_01a.jpg" width="275"/>
+      </media>
+
+    <caption>An <emphasis effect="italics">RLC</emphasis> series circuit with an AC voltage source.</caption></figure><para id="import-auto-id1169738181435">The combined effect of resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, inductive reactance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, and capacitive reactance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> is defined to be <term>impedance</term>, an AC analogue to resistance in a DC circuit. Current, voltage, and impedance in an <emphasis effect="italics">RLC</emphasis> circuit are related by an AC version of Ohm’s law:</para>
+    <equation id="eip-704"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mi>Z</m:mi>
+                    </m:mfrac>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> or </m:mtext><m:mspace width="0.25em"/>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+
+                        <m:mrow>
+                            <m:mrow>
+                              <m:mtext>rms</m:mtext>
+                            </m:mrow>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+
+                          <m:mrow>
+                              <m:mrow>
+                                <m:mtext>rms</m:mtext>
+                              </m:mrow>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mi>Z</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } = {  {V rSub { size 8{0} } }  over  {Z} } " or "I rSub { size 8{ ital "rms"} } = {  {V rSub { size 8{ ital "rms"} } }  over  {Z} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169737764601">Here <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the peak current, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> the peak source voltage, and <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ </m:semantics>
+</m:math> is the impedance of the circuit. The units of impedance are ohms, and its effect on the circuit is as you might expect: the greater the impedance, the smaller the current. To get an expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>Z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z} {}</m:annotation></m:semantics></m:math> in terms of <m:math>
+ <m:semantics>
+  <m:mi>R</m:mi>
+ </m:semantics>
+</m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>, we will now examine how the voltages across the various components are related to the source voltage. Those voltages are labeled <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>R</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id1169736621511"/>.</para><para id="import-auto-id1169738048163">Conservation of charge requires current to be the same in each part of the circuit at all times, so that we can say the currents in <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> are equal and in phase. But we know from the preceding section that the voltage across the inductor <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> leads the current by one-fourth of a cycle, the voltage across the capacitor <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> follows the current by one-fourth of a cycle, and the voltage across the resistor <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>R</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> is exactly in phase with the current. <link target-id="import-auto-id1169738164070"/> shows these relationships in one graph, as well as showing the total voltage around the circuit <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>R</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V=V rSub { size 8{R} } +V rSub { size 8{L} } +V rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>, where all four voltages are the instantaneous values. According to Kirchhoff’s loop rule, the total voltage around the circuit <m:math>
+ <m:semantics>
+  <m:mi>V</m:mi>
+ </m:semantics>
+</m:math> is also the voltage of the source.</para><para id="import-auto-id1169738092269">You can see from <link target-id="import-auto-id1169738164070"/> that while <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>R</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> is in phase with the current, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> leads by <m:math>
+ <m:semantics>
+  <m:mtext>90º</m:mtext>
+ </m:semantics>
+</m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> follows by <m:math>
+ <m:semantics>
+  <m:mtext>90º</m:mtext>
+ </m:semantics>
+</m:math>. Thus <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> are <m:math>
+ <m:semantics>
+  <m:mtext>180º</m:mtext>
+ </m:semantics>
+</m:math> out of phase (crest to trough) and tend to cancel, although not completely unless they have the same magnitude. Since the peak voltages are not aligned (not in phase), the peak voltage <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> of the source does <emphasis effect="italics">not</emphasis> equal the sum of the peak voltages across <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math>. The actual relationship is</para><equation id="eip-577"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>V</m:mi>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn><m:mi>R</m:mi>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mspace width="1.25em"/>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                        </m:msubsup>
+                        <m:mrow>
+
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+
+                              <m:mrow>
+                                <m:mn>0</m:mn><m:mi>L</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>V</m:mi>
+
+                              <m:mrow>
+                                <m:mn>0</m:mn><m:mi>C</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } = sqrt {V rSub { size 8{0R} } "" lSup { size 8{2} } + \( V rSub { size 8{0L} }  - V rSub { size 8{0C} }  \)  rSup { size 8{2} } } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169738246882">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn><m:mi>R</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0R} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0L} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0C} } } {}</m:annotation></m:semantics></m:math> are the peak voltages across <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math>, respectively. Now, using Ohm’s law and definitions from <link document="m42427">Reactance, Inductive and Capacitive</link>, we substitute <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mi>Z</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } =I rSub { size 8{0} } Z} {}</m:annotation></m:semantics></m:math> into the above, as well as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn><m:mi>R</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0R} } =I rSub { size 8{0} } R} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0L} } =I rSub { size 8{0} } X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0C} } =I rSub { size 8{0} } X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>, yielding</para><equation id="eip-971"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt>                      <m:mrow>
+                        <m:msubsup>
+                          <m:mi>I</m:mi>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mspace width="0.50em"/>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msubsup>
+                        <m:mrow>
+                         <m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+<m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } Z= sqrt {I rSub { size 8{0}   rSup { size 8{2} } } R rSup { size 8{2} } + \( I rSub { size 8{0} } X rSub { size 8{L} }  - I rSub { size 8{0} } X rSub { size 8{C} }  \)  rSup { size 8{2} } } =I rSub { size 8{0} }  sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736584681"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> cancels to yield an expression for <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ </m:semantics>
+</m:math>:</para><equation id="eip-415"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z= sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169736710957">which is the impedance of an <emphasis effect="italics">RLC</emphasis> series AC circuit. For circuits without a resistor, take <m:math>
+ <m:semantics>
+<m:mrow>
+  <m:mi>R</m:mi>
+  <m:mo>=</m:mo>
+  <m:mtext>0</m:mtext>
+</m:mrow>
+ </m:semantics>
+</m:math>; for those without an inductor, take <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =0} {}</m:annotation></m:semantics></m:math>; and for those without a capacitor, take <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } =0} {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id1169738164070"><media id="import-auto-id1169737733064" alt="The figure shows graphs showing the relationships of the voltages in an RLC circuit to the current. It has five graphs on the left and two graphs on the right. The first graph on the right is for current I versus time t. Current is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The second graph is on the right is for voltage V R versus time t. Voltage V R is plotted along Y axis and time is along X axis. The curve is a smooth progressive sine wave. The third graph is on the right is for voltage V L versus time t. Voltage V L is plotted along Y axis and time is along X axis. The curve is a smooth progressive cosine wave. The fourth graph is on the right is for voltage V C versus time t. Voltage V C is plotted along Y axis and time t is along X axis. The curve is a smooth progressive cosine wave starting from negative Y axis. The fifth graph shows the voltage V verses time t for the R L C circuit. Voltage V is plotted along Y axis and time t is along X axis. The curve is a smooth progressive sine wave starting from a point near to origin on negative X axis. The first and the fifth graphs are again shown on the right and their amplitudes and phases compared. The current graph is shown to have a lesser amplitude.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_12_02a.jpg" width="300"/>
+      </media>
+
+    <caption>This graph shows the relationships of the voltages in an <emphasis effect="italics">RLC</emphasis> circuit to the current. The voltages across the circuit elements add to equal the voltage of the source, which is seen to be out of phase with the current.</caption></figure><example id="fs-id1169737723572">
+    <title>Calculating Impedance and Current</title>
+    <para id="import-auto-id1169737041418">An <emphasis effect="italics">RLC </emphasis>series circuit has a <m:math>
+ <m:semantics>
+  <m:mtext>40.0 Ω</m:mtext>
+ </m:semantics>
+</m:math> resistor, a 3.00 mH inductor, and a
+<m:math>
+ <m:semantics>
+  <m:mtext>5.00 μF</m:mtext>
+ </m:semantics>
+</m:math> capacitor. (a) Find the circuit’s impedance at 60.0 Hz and 10.0 kHz, noting that these frequencies and the values for
+<m:math>
+ <m:semantics>
+  <m:mi>L</m:mi>
+ </m:semantics>
+</m:math> and
+<m:math>
+ <m:semantics>
+  <m:mi>C</m:mi>
+ </m:semantics>
+</m:math>
+ are the same as in <link document="m42427" target-id="fs-id1169736972664"/> and <link document="m42427" target-id="fs-id1169736597928"/>. (b) If the voltage source has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>120</m:mtext><m:mspace width="0.25em"/></m:mrow><m:mi/><m:mtext>V</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{"rms"} } ="120"`V} {}</m:annotation></m:semantics></m:math>, what is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> at each frequency?</para><para id="import-auto-id1169735477467">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1169738239044">For each frequency, we use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z= sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math> to find the impedance and then Ohm’s law to find current. We can take advantage of the results of the previous two examples rather than calculate the reactances again.</para>
+
+        <para id="import-auto-id1169738147909">
+      <title>Solution for (a)</title>
+    </para>
+    <para id="import-auto-id1169738028359">At 60.0 Hz, the values of the reactances were found in <link document="m42427" target-id="fs-id1169736972664"/> to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>13</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =1 "." "13"  %OMEGA } {}</m:annotation></m:semantics></m:math> and in <link document="m42427" target-id="fs-id1169736597928"/> to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>531 </m:mtext></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow> <m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } ="531 " %OMEGA  } {}</m:annotation></m:semantics></m:math>. Entering these and the given <m:math>
+ <m:semantics>
+  <m:mtext>40.0 Ω</m:mtext>
+ </m:semantics>
+</m:math> for resistance into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z= sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math> yields</para><equation id="eip-331"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mi>Z</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>13</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">−</m:mo><m:mtext>531</m:mtext><m:mspace width="0.25em"/></m:mrow><m:mo stretchy="false">Ω</m:mo><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mtext>531</m:mtext><m:mspace width="0.25em"/></m:mrow><m:mo stretchy="false">Ω</m:mo><m:mtext> at 60</m:mtext><m:mtext>.</m:mtext><m:mtext>0 Hz</m:mtext><m:mtext>.</m:mtext><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{Z= sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } }  {} #
+"    "= sqrt { \( "40" "." 0` %OMEGA  \)  rSup { size 8{2} } + \( 1 "." "13"  %OMEGA  - "531"  %OMEGA  \)  rSup { size 8{2} } }  {} #
+"    "="531"  %OMEGA " at 60" "." "0 Hz" {}
+} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738036576">Similarly, at 10.0 kHz, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>188</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } ="188"  %OMEGA } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>18</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } =3 "." "18"  %OMEGA  } {}</m:annotation></m:semantics></m:math>, so that</para><equation id="eip-247"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+
+<m:mtd><m:mi>Z</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>188</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>18</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr><m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mtext>190</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mtext> at 10</m:mtext><m:mtext>.</m:mtext><m:mtext>0 kHz.</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{Z= sqrt { \( "40" "." 0` %OMEGA  \)  rSup { size 8{2} } + \( "188"  %OMEGA  - 3 "." "18"  %OMEGA  \)  rSup { size 8{2} } } }  {} #
+"    "="190"  %OMEGA " at 10" "." "0 kHz" {}
+} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737738196">
+      <title>Discussion for (a)</title>
+    </para>
+    <para id="import-auto-id1169736768845">In both cases, the result is nearly the same as the largest value, and the impedance is definitely not the sum of the individual values. It is clear that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> dominates at high frequency and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> dominates at low frequency.</para>
+
+        <para id="import-auto-id1169737904584">
+      <title>Solution for (b)</title>
+    </para>
+    <para id="import-auto-id1169737710224">The current <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> can be found using the AC version of Ohm’s law in Equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:mi>Z</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } =V rSub { size 8{"rms"} } /Z} {}</m:annotation></m:semantics></m:math>:</para>
+    <para id="import-auto-id1169737882424"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mi>Z</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120</m:mtext><m:mspace width="0.25em"/><m:mtext> V</m:mtext></m:mrow><m:mrow><m:mtext>531 </m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>226</m:mtext><m:mspace width="0.25em"/><m:mtext> A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } = {  {V rSub { size 8{"rms"} } }  over  {Z} } = {  {"120"" V"}  over  {"531 " %OMEGA } } =0 "." "226"" A"} {}</m:annotation></m:semantics></m:math> at 60.0 Hz</para><para id="import-auto-id1169737758253">Finally, at 10.0 kHz, we find</para>
+    <para id="import-auto-id1169738110287"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mi>Z</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120</m:mtext><m:mspace width="0.25em"/><m:mtext> V</m:mtext></m:mrow><m:mrow><m:mtext>190 </m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>633</m:mtext><m:mspace width="0.25em"/><m:mtext> A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } = {  {V rSub { size 8{"rms"} } }  over  {Z} } = {  {"120"" V"}  over  {"190 " %OMEGA } } =0 "." "633"" A"} {}</m:annotation></m:semantics></m:math> at 10.0 kHz</para><para id="import-auto-id1169737861583">
+      <title>Discussion for (a)</title>
+    </para>
+    <para id="import-auto-id1169738198520">The current at 60.0 Hz is the same (to three digits) as found for the capacitor alone in <link document="m42427" target-id="fs-id1169736597928"/>. The capacitor dominates at low frequency. The current at 10.0 kHz is only slightly different from that found for the inductor alone in <link document="m42427" target-id="fs-id1169736972664"/>. The inductor dominates at high frequency.</para></example>
+    </section><section id="fs-id1169738011926"><title>Resonance in <emphasis effect="italics">RLC</emphasis> Series AC Circuits</title><para id="import-auto-id1169736708835">How does an <emphasis effect="italics">RLC</emphasis> circuit behave as a function of the frequency of the driving voltage source? Combining Ohm’s law, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:mi>Z</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } =V rSub { size 8{"rms"} } /Z} {}</m:annotation></m:semantics></m:math>, and the expression for impedance <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ </m:semantics>
+</m:math> from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z= sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math> gives</para><equation id="eip-6"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } = {  {V rSub { size 8{"rms"} } }  over  { sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737965627">The reactances vary with frequency, with <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> large at high frequencies and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> large at low frequencies, as we have seen in three previous examples. At some intermediate frequency <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, the reactances will be equal and cancel, giving <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z=R} {}</m:annotation></m:semantics></m:math></emphasis> —this is a minimum value for impedance, and a maximum value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> results. We can get an expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> by taking</para>
+    <equation id="eip-342"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738064647">Substituting the definitions of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>,</para>
+    <equation id="eip-109"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mi fontstyle="italic">πf</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:msub><m:mi fontstyle="italic">πf</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>C</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2πf rSub { size 8{0} } L= {  {1}  over  {2πf rSub { size 8{0} } C} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737796056">Solving this expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> yields</para>
+    <equation id="eip-362"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>LC</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } = {  {1}  over  {2π sqrt { ital "LC"} } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737949912">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id1169737994451">resonant frequency</term> of an <emphasis effect="italics">RLC</emphasis> series circuit. This is also the <emphasis effect="italics">natural frequency</emphasis> at which the circuit would oscillate if not driven by the voltage source. At <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, the effects of the inductor and capacitor cancel, so that <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z=R} {}</m:annotation></m:semantics></m:math></emphasis>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> is a maximum.</para>
+    <para id="import-auto-id1169738136783">Resonance in AC circuits is analogous to mechanical resonance, where resonance is defined to be a forced oscillation—in this case, forced by the voltage source—at the natural frequency of the system. The receiver in a radio is an <emphasis effect="italics">RLC</emphasis> circuit that oscillates best at its <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. A variable capacitor is often used to adjust <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> to receive a desired frequency and to reject others. <link target-id="import-auto-id1169738205664"/> is a graph of current as a function of frequency, illustrating a resonant peak in <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> at <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. The two curves are for two different circuits, which differ only in the amount of resistance in them. The peak is lower and broader for the higher-resistance circuit. Thus the higher-resistance circuit does not resonate as strongly and would not be as selective in a radio receiver, for example.</para>
+
+    <figure id="import-auto-id1169738205664"><media id="import-auto-id1169737919303" alt="The figure describes a graph of current I versus frequency f. Current I r m s is plotted along Y axis and frequency f is plotted along X axis. Two curves are shown. The upper curve is for small resistance and lower curve is for large resistance. Both the curves have a smooth rise and a fall. The peaks are marked for frequency f zero. The curve for smaller resistance has a higher value of peak than the curve for large resistance.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_12_03a.jpg" width="225"/>
+      </media>
+
+    <caption>A graph of current versus frequency for two <emphasis effect="italics">RLC</emphasis> series circuits differing only in the amount of resistance. Both have a resonance at <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, but that for the higher resistance is lower and broader. The driving AC voltage source has a fixed amplitude <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><example id="fs-id1169738045330">
+    <title>Calculating Resonant Frequency and Current</title>
+    <para id="import-auto-id1169738007674">For the same <emphasis effect="italics">RLC</emphasis> series circuit having a <m:math>
+ <m:semantics>
+  <m:mtext>40.0 Ω</m:mtext>
+ </m:semantics>
+</m:math> resistor, a 3.00 mH inductor, and a <m:math>
+ <m:semantics>
+  <m:mtext>5.00 μF</m:mtext>
+ </m:semantics>
+</m:math> capacitor: (a) Find the resonant frequency. (b) Calculate <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> at resonance if <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> is 120 V.</para><para id="import-auto-id1169738107664">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1169738239161">The resonant frequency is found by using the expression in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>LC</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } = {  {1}  over  {2π sqrt { ital "LC"} } } } {}</m:annotation></m:semantics></m:math>. The current at that frequency is the same as if the resistor alone were in the circuit.</para>
+
+      <para id="import-auto-id1169737853725">
+      <title>Solution for (a)</title>
+    </para>
+    <para id="import-auto-id1169738043142">Entering the given values for <m:math>
+ <m:semantics>
+  <m:mi>L</m:mi>
+ </m:semantics>
+</m:math> and <m:math>
+ <m:semantics>
+  <m:mi>C</m:mi>
+ </m:semantics>
+</m:math> into the expression given for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>LC</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } = {  {1}  over  {2π sqrt { ital "LC"} } } } {}</m:annotation></m:semantics></m:math> yields</para><equation id="eip-120"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>LC</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:msqrt><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> H</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:msqrt></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>30</m:mtext><m:mspace width="0.25em"/><m:mtext> kHz</m:mtext><m:mtext>.</m:mtext><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{f rSub { size 8{0} } = {  {1}  over  {2π sqrt { ital "LC"} } } }  {} #
+"     "= {  {1}  over  {2π sqrt { \( 3 "." "00" times "10" rSup { size 8{ - 3} } " H" \)  \( 5 "." "00" times "10" rSup { size 8{ - 6} } " F" \) } } } =1 "." "30"" kHz" {}
+} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738008646">
+      <title>Discussion for (a)</title>
+    </para>
+    <para id="import-auto-id1169738087141">We see that the resonant frequency is between 60.0 Hz and 10.0 kHz, the two frequencies chosen in earlier examples. This was to be expected, since the capacitor dominated at the low frequency and the inductor dominated at the high frequency. Their effects are the same at this intermediate frequency.</para>
+
+      <para id="import-auto-id1169736708769">
+      <title>Solution for (b)</title>
+    </para>
+    <para id="import-auto-id1169737846339">The current is given by Ohm’s law. At resonance, the two reactances are equal and cancel, so that the impedance equals the resistance alone. Thus,</para>
+
+    <equation id="eip-940"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mi>Z</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120</m:mtext><m:mspace width="0.25em"/><m:mtext> V</m:mtext></m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mtext>0 </m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext> A.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } = {  {V rSub { size 8{"rms"} } }  over  {Z} } = {  {"120"" V"}  over  {"40" "." "0 " %OMEGA } } =3 "." "00"" A"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737909774">
+      <title>Discussion for (b)</title>
+    </para>
+    <para id="import-auto-id1169736843029">At resonance, the current is greater than at the higher and lower frequencies considered for the same circuit in the preceding example.</para>
+    </example>
+  </section><section id="fs-id1169737725407">
+    <title>Power in <emphasis effect="italics">RLC</emphasis> Series AC Circuits</title>
+    <para id="import-auto-id1169737969148">If current varies with frequency in an <emphasis effect="italics">RLC</emphasis> circuit, then the power delivered to it also varies with frequency. But the average power is not simply current times voltage, as it is in purely resistive circuits. As was seen in <link target-id="import-auto-id1169738164070"/>, voltage and current are out of phase in an <emphasis effect="italics">RLC</emphasis> circuit. There is a <term id="import-auto-id1169738085250">phase angle</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>ϕ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ} {}</m:annotation></m:semantics></m:math> between the source voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> and the current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math>, which can be found from</para>
+
+    <equation id="eip-543"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>R</m:mi><m:mi>Z</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ= {  {R}  over  {Z} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738181411">For example, at the resonant frequency or in a purely resistive circuit <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z=R} {}</m:annotation></m:semantics></m:math></emphasis>, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ=1} {}</m:annotation></m:semantics></m:math>. This implies that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">º</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ=0 rSup { size 8{ circ } } } {}</m:annotation></m:semantics></m:math> and that voltage and current are in phase, as expected for resistors. At other frequencies, average power is less than at resonance. This is both because voltage and current are out of phase and because <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> is lower. The fact that source voltage and current are out of phase affects the power delivered to the circuit. It can be shown that the <emphasis effect="italics"><emphasis effect="italics">average power</emphasis></emphasis> is</para><equation id="eip-739"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>P</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>ave</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>rms</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                  <m:msub>
+                    <m:mi>V</m:mi>
+
+                      <m:mrow>
+                        <m:mtext>rms</m:mtext>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>ϕ</m:mi>
+                </m:mrow>
+<m:mo>,</m:mo>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"ave"} } =I rSub { size 8{"rms"} } V rSub { size 8{"rms"} } "cos"ϕ} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169738060586">Thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>ϕ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ} {}</m:annotation></m:semantics></m:math> is called the <term id="import-auto-id1169736719487">power factor</term>, which can range from 0 to 1. Power factors near 1 are desirable when designing an efficient motor, for example. At the resonant frequency, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ=1} {}</m:annotation></m:semantics></m:math>.</para><example id="fs-id1169737987472">
+    <title>Calculating the Power Factor and Power</title>
+    <para id="import-auto-id1169737973055">For the same <emphasis effect="italics">RLC</emphasis> series circuit having a <m:math>
+ <m:semantics>
+  <m:mi>40.0 Ω</m:mi>
+ </m:semantics>
+</m:math> resistor, a 3.00 mH inductor, a
+<m:math>
+ <m:semantics>
+  <m:mtext>5.00 μF</m:mtext>
+ </m:semantics>
+</m:math> capacitor, and a voltage source with a <m:math>
+ <m:semantics>
+<m:msub>
+  <m:mi>V</m:mi>
+<m:mtext>rms</m:mtext>
+</m:msub>
+ </m:semantics>
+</m:math> of 120 V: (a) Calculate the power factor and phase angle for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>60</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mtext>Hz</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f="60" "." 0`"Hz"} {}</m:annotation></m:semantics></m:math>. (b) What is the average power at 50.0 Hz? (c) Find the average power at the circuit’s resonant frequency.</para><para id="import-auto-id1169738250320">
+      <title>Strategy and Solution for (a)</title>
+    </para>
+    <para id="import-auto-id1169738181417">The power factor at 60.0 Hz is found from</para>
+    <equation id="eip-248"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>R</m:mi><m:mi>Z</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ= {  {R}  over  {Z} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738075830">We know <m:math>
+ <m:semantics>
+<m:mrow>
+  <m:mi>Z</m:mi>
+  <m:mtext>= 531 Ω</m:mtext>
+</m:mrow>
+ </m:semantics>
+</m:math> from <link target-id="fs-id1169737723572"/>, so that</para><equation id="eip-590"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>31 </m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>0753 at 60.0 Hz.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"Ø= {  {"40" "." 0  %OMEGA }  over  {5"31 " %OMEGA } } =0 "." "0753"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736844129">This small value indicates the voltage and current are significantly out of phase. In fact, the phase angle is</para>
+    <equation id="eip-190"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>0753</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>85.7º at 60.0 Hz.</m:mtext></m:mrow><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ="cos" rSup { size 8{ - 1} } 0 "." "0753"="85" "." 7 rSup { size 8{ circ } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738148048">
+      <title>Discussion for (a)</title>
+    </para>
+    <para id="import-auto-id1169737789995">The phase angle is close to
+<m:math>
+ <m:semantics>
+  <m:mtext>90º</m:mtext>
+ </m:semantics>
+</m:math>, consistent with the fact that the capacitor dominates the circuit at this low frequency (a pure <emphasis effect="italics">RC</emphasis> circuit has its voltage and current <m:math>
+ <m:semantics>
+  <m:mtext>90º</m:mtext>
+ </m:semantics>
+</m:math> out of phase).</para><para id="import-auto-id1169737851510">
+      <title>Strategy and Solution for (b)</title>
+    </para>
+    <para id="import-auto-id1169737851513">The average power at 60.0 Hz is</para>
+<equation id="eip-976"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>ϕ.</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"ave"} } =I rSub { size 8{"rms"} } V rSub { size 8{"rms"} } "cos"ϕ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736627643"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> was found to be 0.226 A in <link target-id="fs-id1169737723572"/>. Entering the known values gives</para><equation id="eip-180"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>226</m:mtext><m:mspace width="0.25em"/><m:mtext> A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>120</m:mtext><m:mspace width="0.25em"/><m:mtext> V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0753</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>04</m:mtext><m:mspace width="0.25em"/><m:mtext> W at 60.0 Hz.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"ave"} } = \( 0 "." "226"" A" \)  \( "120"" V" \)  \( 0 "." "0753" \) =2 "." "04"" W"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737923237"><title>Strategy and Solution for (c)</title>
+    </para><para id="import-auto-id1169737923241">At the resonant frequency, we know <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ=1} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> was found to be 6.00 A in <link target-id="fs-id1169738045330"/>. Thus,</para><para id="import-auto-id1169735477311"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext> A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>120</m:mtext><m:mspace width="0.25em"/><m:mtext> V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>360</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext> W</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"ave"} } = \( 3 "." "00"" A" \)  \( "120"" V" \)  \( 1 \) ="350"" W"} {}</m:annotation></m:semantics></m:math> at resonance (1.30 kHz)</para><para id="import-auto-id1169738080554">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1169738080557">Both the current and the power factor are greater at resonance, producing significantly greater power than at higher and lower frequencies.</para>
+    </example>
+    <para id="import-auto-id1169738164030">Power delivered to an <emphasis effect="italics">RLC</emphasis> series AC circuit is dissipated by the resistance alone. The inductor and capacitor have energy input and output but do not dissipate it out of the circuit. Rather they transfer energy back and forth to one another, with the resistor dissipating exactly what the voltage source puts into the circuit. This assumes no significant electromagnetic radiation from the inductor and capacitor, such as radio waves. Such radiation can happen and may even be desired, as we will see in the next chapter on electromagnetic radiation, but it can also be suppressed as is the case in this chapter. The circuit is analogous to the wheel of a car driven over a corrugated road as shown in <link target-id="import-auto-id1169736885804"/>. The regularly spaced bumps in the road are analogous to the voltage source, driving the wheel up and down. The shock absorber is analogous to the resistance damping and limiting the amplitude of the oscillation. Energy within the system goes back and forth between kinetic (analogous to maximum current, and energy stored in an inductor) and potential energy stored in the car spring (analogous to no current, and energy stored in the electric field of a capacitor). The amplitude of the wheels’ motion is a maximum if the bumps in the road are hit at the resonant frequency.</para>
+
+    <figure id="import-auto-id1169736885804"><media id="import-auto-id1169736885805" alt="The figure describes the path of motion of a wheel of a car. The front wheel of a car is shown. A shock absorber attached to the wheel is also shown. The path of motion is shown as vertically up and down.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_12_04a.jpg" width="225"/>
+      </media>
+
+    <caption>The forced but damped motion of the wheel on the car spring is analogous to an <emphasis effect="italics">RLC</emphasis> series AC circuit. The shock absorber damps the motion and dissipates energy, analogous to the resistance in an <emphasis effect="italics">RLC</emphasis> circuit. The mass and spring determine the resonant frequency.</caption></figure><para id="import-auto-id1169738211177">A pure <emphasis effect="italics">LC</emphasis> circuit with negligible resistance oscillates at <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, the same resonant frequency as an <emphasis effect="italics">RLC</emphasis> circuit. It can serve as a frequency standard or clock circuit—for example, in a digital wristwatch. With a very small resistance, only a very small energy input is necessary to maintain the oscillations. The circuit is analogous to a car with no shock absorbers. Once it starts oscillating, it continues at its natural frequency for some time. <link target-id="import-auto-id1169738257733"/> shows the analogy between an <emphasis effect="italics">LC</emphasis> circuit and a mass on a spring.</para>
+
+
+    <figure id="import-auto-id1169738257733"><media id="import-auto-id1169737987631" alt="The figure describes four stages of an L C oscillation circuit compared to a mass oscillating on a spring. Part a of the figure shows a mass attached to a horizontal spring. The spring is attached to a fixed support on the left. The mass is at rest as shown by velocity v equals zero. The energy of the spring is shown as potential energy. This is compared with a circuit containing a capacitor C and inductor L connected together. The energy is shown as stored in the electric field E of the capacitor between the plates. One plate is shown to have a negative polarity and other plate is shown to have a positive polarity. Part b of the figure shows a mass attached to a horizontal spring which is attached to a fixed support on the left. The mass is shown to move horizontal toward the fixed support with velocity v. The energy here is stored as the kinetic energy of the spring. This is compared with a circuit containing a capacitor C and inductor L connected together. A current is shown in the circuit and energy is stored as magnetic field B in the inductor. Part c of the figure shows a mass attached to a horizontal spring which is attached to a fixed support on the left. The spring is shown as not stretched and the energy is shown as potential energy of the spring. The mass is show to have displaced toward left. This is compared with a circuit containing a capacitor C and inductor L connected together. The energy is shown as stored in the electric field E of the capacitor between the plates. One plate is shown to have a negative polarity and other plate is shown to have a positive polarity. But the polarities are reverse of the first case in part a. Part d of the figure shows a mass attached to a horizontal spring which is attached to a fixed support on the left. The mass is shown to move toward right with velocity v. the energy of the spring is kinetic energy. This is compared with a circuit containing a capacitor C and inductor L connected together. A current is shown in the circuit opposite to that in part b and energy is stored as magnetic field B in the inductor.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_12_05a.jpg" width="350"/>
+      </media>
+
+    <caption>An <emphasis effect="italics">LC</emphasis> circuit is analogous to a mass oscillating on a spring with no friction and no driving force. Energy moves back and forth between the inductor and capacitor, just as it moves from kinetic to potential in the mass-spring system.</caption></figure></section>
+
+   <note id="eip-506" class="interactive"><label/><title>Circuit Construction Kit (AC+DC), Virtual Lab</title>
+<para id="eip-630">Build circuits with capacitors, inductors, resistors and AC or DC voltage sources, and inspect them using lab instruments such as voltmeters and ammeters.
+  <figure id="eip-idm1080984080">  <media id="eip-id1167067027672" alt="This simulation provides you with various standard circuit elements, such as batteries, AC voltage sources, resistors, capacitors, light bulbs, switches, etc., with which to build your own circuits.">
+  <iframe width="660" height="371.4" src="https://openstax.org/l/21phetcirconstr"/></media>
+</figure></para></note><section id="fs-id1169736711049" class="section-summary"><title>Section Summary</title><list id="fs-id1169738178781"><item id="import-auto-id1169737979451">The AC analogy to resistance is impedance <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ </m:semantics>
+</m:math>, the combined effect of resistors, inductors, and capacitors, defined by the AC version of Ohm’s law:
+    <equation id="eip-111"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mi>Z</m:mi>
+                    </m:mfrac>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> or </m:mtext><m:mspace width="0.25em"/>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+
+                        <m:mrow>
+
+                            <m:mrow>
+                              <m:mtext>rms</m:mtext>
+                            </m:mrow>
+
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+
+                          <m:mrow>
+                            <m:mstyle>
+                              <m:mrow>
+                                <m:mtext>rms</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mi>Z</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } = {  {V rSub { size 8{0} } }  over  {Z} } " or "I rSub { size 8{ ital "rms"} } = {  {V rSub { size 8{ ital "rms"} } }  over  {Z} } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the peak current and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the peak source voltage.</item>
+    <item id="import-auto-id1169737742046">Impedance has units of ohms and is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z= sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>.</item>
+    <item id="import-auto-id1169737961915">The resonant frequency <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, at which <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>, is
+    <equation id="eip-766"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>LC</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } = {  {1}  over  {2π sqrt { ital "LC"} } } } {}</m:annotation></m:semantics></m:math></equation>
+    </item>
+    <item id="import-auto-id1169736843344">In an AC circuit, there is a phase angle <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>ϕ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ} {}</m:annotation></m:semantics></m:math></emphasis> between source voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> and the current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math>, which can be found from
+      <equation id="eip-531"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>R</m:mi><m:mi>Z</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ= {  {R}  over  {Z} } } {}</m:annotation></m:semantics></m:math></equation>
+    </item>
+    <item id="import-auto-id1169736615857"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ϕ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ=0 rSup { size 8{ circ } } } {}</m:annotation></m:semantics></m:math> for a purely resistive circuit or an <emphasis effect="italics">RLC</emphasis> circuit at resonance.</item>
+    <item id="import-auto-id1169736821483">The average power delivered to an <emphasis effect="italics">RLC</emphasis> circuit is affected by the phase angle and is given by
+    <equation id="eip-825"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>ϕ</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"ave"} } =I rSub { size 8{"rms"} } V rSub { size 8{"rms"} } "cos"ϕ} {}</m:annotation></m:semantics></m:math></equation><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>ϕ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ} {}</m:annotation></m:semantics></m:math> is called the power factor, which ranges from 0 to 1.</item>
+    </list></section><section id="fs-id1169738150522" class="conceptual-questions" type="conceptual-questions">
+    <title>Conceptual Questions</title>
+
+      <exercise id="fs-id1169736614731" type="conceptual-questions">
+        <problem id="fs-id1169736614734">
+    <para id="import-auto-id1169737909824">Does the resonant frequency of an AC circuit depend on the peak voltage of the AC source? Explain why or why not.</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169738073810" type="conceptual-questions">
+        <problem id="fs-id1169738073813">
+    <para id="import-auto-id1169736702937">Suppose you have a motor with a power factor significantly less than 1. Explain why it would be better to improve the power factor as a method of improving the motor’s output, rather than to increase the voltage input.</para>
+    </problem></exercise>
+    </section>
+
+    <section id="fs-id1169736614490" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1169736657142" type="problems-exercises"><problem id="fs-id1169738198661">
+          <para id="import-auto-id1169737936131">An <emphasis effect="italics">RL</emphasis> circuit consists of a
+<m:math>
+ <m:semantics>
+  <m:mi>40.0 Ω</m:mi>
+ </m:semantics>
+</m:math> resistor and a
+3.00 mH inductor. (a) Find its impedance <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ </m:semantics>
+</m:math> at 60.0 Hz and 10.0 kHz. (b) Compare these values of <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ </m:semantics>
+</m:math> with those found in <link target-id="fs-id1169737723572"/> in which there was also a capacitor.</para></problem>
+<solution id="fs-id1169736895358">
+    <para id="import-auto-id1169738134318">(a) <m:math>
+ <m:semantics>
+  <m:mi>40.02 Ω</m:mi>
+ </m:semantics>
+</m:math> at 60.0 Hz, <m:math>
+ <m:semantics>
+  <m:mi>193 Ω</m:mi>
+ </m:semantics>
+</m:math> at 10.0 kHz</para><para id="eip-id3570199">(b) At 60 Hz, with a capacitor,  <m:math>
+ <m:semantics>
+<m:mi>Z=531 Ω</m:mi>
+ </m:semantics>
+</m:math>, over 13 times as high as without the capacitor. The capacitor makes a large difference at low frequencies. At 10 kHz, with a capacitor  <m:math>
+ <m:semantics>
+<m:mi>Z=190 Ω</m:mi>
+ </m:semantics>
+</m:math>, about the same as without the capacitor. The capacitor has a smaller effect at high frequencies.
+</para></solution>
+    </exercise><exercise id="fs-id1169737930730" type="problems-exercises">
+        <problem id="fs-id1169737118482">
+          <para id="import-auto-id1169738086377">An <emphasis effect="italics">RC</emphasis> circuit consists of a
+<m:math>
+ <m:semantics>
+  <m:mi>40.0 Ω</m:mi>
+ </m:semantics>
+</m:math> resistor and a
+<m:math>
+ <m:semantics>
+  <m:mtext>5.00 μF</m:mtext>
+ </m:semantics>
+</m:math> capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of <m:math>
+ <m:semantics>
+  <m:mi>Z</m:mi>
+ </m:semantics>
+</m:math> with those found in <link target-id="fs-id1169737723572"/>, in which there was also an inductor.</para></problem></exercise>
+
+      <exercise id="fs-id1169738012738" type="problems-exercises"><problem id="fs-id1169737787125">
+          <para id="import-auto-id1169738143727">An <emphasis effect="italics">LC</emphasis> circuit consists of a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>mH</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00" μH} {}</m:annotation></m:semantics></m:math> inductor and a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">μF</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" μF} {}</m:annotation></m:semantics></m:math> capacitor. (a) Find its impedance at 60.0 Hz and 10.0 kHz. (b) Compare these values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>Z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z} {}</m:annotation></m:semantics></m:math> with those found in <link target-id="fs-id1169737723572"/> in which there was also a resistor.</para></problem>
+<solution id="fs-id1169736844109">
+    <para id="import-auto-id1169738246107">(a) <m:math>
+ <m:semantics>
+  <m:mi>529 Ω</m:mi>
+ </m:semantics>
+</m:math> at 60.0 Hz, <m:math>
+ <m:semantics>
+  <m:mi>185 Ω</m:mi>
+ </m:semantics>
+</m:math> at 10.0 kHz</para><para id="eip-id2226884">(b) These values are close to those obtained in <link target-id="fs-id1169737723572"/> because at low frequency the capacitor dominates and at high frequency the inductor dominates. So in both cases the resistor makes little contribution to the total impedance.</para>
+    </solution>
+    </exercise><exercise id="fs-id1169737794135" type="problems-exercises">
+        <problem id="fs-id1169737794139">
+          <para id="import-auto-id1169737793235">What is the resonant frequency of a 0.500 mH inductor connected to a
+<m:math>
+ <m:semantics>
+  <m:mtext>40.0 μF</m:mtext>
+ </m:semantics>
+</m:math> capacitor?</para></problem></exercise>
+
+      <exercise id="fs-id1169738072090" type="problems-exercises">
+        <problem id="fs-id1169738071811">
+          <para id="import-auto-id1169737728540">To receive AM radio, you want an <emphasis effect="italics">RLC</emphasis> circuit that can be made to resonate at any frequency between 500 and 1650 kHz. This is accomplished with a fixed <m:math>
+ <m:semantics>
+  <m:mtext>1.00 μH</m:mtext>
+ </m:semantics>
+</m:math> inductor connected to a variable capacitor. What range of capacitance is needed?</para></problem>
+<solution id="fs-id1169738181296">
+    <para id="import-auto-id1169737756327">9.30 nF to 101 nF</para>
+    </solution>
+    </exercise>
+
+      <exercise id="fs-id1169737830882" type="problems-exercises">
+        <problem id="fs-id1169738086090">
+          <para id="import-auto-id1169738055925">Suppose you have a supply of inductors ranging from 1.00 nH to 10.0 H, and capacitors ranging from 1.00 pF to 0.100 F. What is the range of resonant frequencies that can be achieved from combinations of a single inductor and a single capacitor?</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169738244135" type="problems-exercises">
+        <problem id="fs-id1169738087540">
+          <para id="import-auto-id1169738043322">What capacitance do you need to produce a resonant frequency of 1.00 GHz, when using an 8.00 nH inductor?</para>
+    </problem>
+<solution id="fs-id1169737909755">
+    <para id="import-auto-id1169738043327">3.17 pF</para>
+    </solution>
+    </exercise>
+
+      <exercise id="fs-id1169737763566" type="problems-exercises">
+        <problem id="fs-id1169738007185">
+          <para id="import-auto-id1169737000533">What inductance do you need to produce a resonant frequency of 60.0 Hz, when using a <m:math>
+ <m:semantics>
+  <m:mi>2.00 μF</m:mi>
+ </m:semantics>
+</m:math> capacitor?</para></problem></exercise>
+
+      <exercise id="fs-id1169738136983" type="problems-exercises">
+        <problem id="fs-id1169737787019">
+          <para id="import-auto-id1169737939475">The lowest frequency in the FM radio band is 88.0 MHz. (a) What inductance is needed to produce this resonant frequency if it is connected to a 2.50 pF capacitor? (b) The capacitor is variable, to allow the resonant frequency to be adjusted to as high as 108 MHz. What must the capacitance be at this frequency?</para>
+    </problem>
+<solution id="fs-id1169737821329">
+    <para id="import-auto-id1169737939482">(a) <m:math>
+ <m:semantics>
+  <m:mi>1.31 μH</m:mi>
+ </m:semantics>
+</m:math></para><para id="import-auto-id1169738145328">(b) 1.66 pF</para>
+    </solution>
+    </exercise>
+
+      <exercise id="fs-id1169738187525" type="problems-exercises">
+        <problem id="fs-id1169737917711">
+          <para id="import-auto-id1169738038225">An <emphasis effect="italics">RLC</emphasis> series circuit has a
+<m:math>
+ <m:semantics>
+  <m:mi>2.50 Ω</m:mi>
+ </m:semantics>
+</m:math> resistor, a
+<m:math>
+ <m:semantics>
+  <m:mi>100 μH</m:mi>
+ </m:semantics>
+</m:math> inductor, and an
+<m:math>
+ <m:semantics>
+  <m:mi>80.0 μF</m:mi>
+ </m:semantics>
+</m:math> capacitor.(a) Find the circuit’s impedance at 120 Hz. (b) Find the circuit’s impedance at 5.00 kHz. (c) If the voltage source has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>60</m:mtext><m:mspace width="0.25em"/><m:mtext>V</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{"rms"} } =5 "." "60"`V} {}</m:annotation></m:semantics></m:math>, what is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> at each frequency? (d) What is the resonant frequency of the circuit? (e) What is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> at resonance?</para></problem></exercise>
+
+          <exercise id="fs-id1169738137511" type="problems-exercises">
+            <problem id="fs-id1169737924005">
+              <para id="import-auto-id1169737763460">An <emphasis effect="italics">RLC</emphasis> series circuit has a <m:math>
+ <m:semantics>
+  <m:mi>1.00 kΩ</m:mi>
+ </m:semantics>
+</m:math> resistor, a <m:math>
+ <m:semantics>
+  <m:mi>150 μH</m:mi>
+ </m:semantics>
+</m:math> inductor, and a 25.0 nF capacitor. (a) Find the circuit’s impedance at 500 Hz. (b) Find the circuit’s impedance at 7.50 kHz. (c) If the voltage source has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>408</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>V</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{"rms"} } ="408"`V} {}</m:annotation></m:semantics></m:math>, what is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> at each frequency? (d) What is the resonant frequency of the circuit? (e) What is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> at resonance?</para></problem>
+<solution id="fs-id1169737844573">
+    <para id="import-auto-id1169737827160">(a) <m:math>
+ <m:semantics>
+  <m:mi>12.8 kΩ</m:mi>
+ </m:semantics>
+</m:math></para><para id="import-auto-id1169737827162">(b) <m:math>
+ <m:semantics>
+  <m:mi>1.31 kΩ</m:mi>
+ </m:semantics>
+</m:math></para><para id="import-auto-id1169737827164">(c) 31.9 mA at 500 Hz, 312 mA at 7.50 kHz</para><para id="import-auto-id1169737827167">(d) 82.2 kHz</para><para id="import-auto-id1169737788984">(e) 0.408 A</para>
+    </solution>
+    </exercise>
+
+          <exercise id="fs-id1169738220311" type="problems-exercises">
+            <problem id="fs-id1169738220316">
+              <para id="import-auto-id1169737788992">An <emphasis effect="italics">RLC</emphasis> series circuit has a
+<m:math>
+ <m:semantics>
+  <m:mi>2.50 Ω</m:mi>
+ </m:semantics>
+</m:math> resistor, a
+<m:math>
+ <m:semantics>
+  <m:mi>100 μH</m:mi>
+ </m:semantics>
+</m:math> inductor, and an
+<m:math>
+ <m:semantics>
+  <m:mi>80.0 μF</m:mi>
+ </m:semantics>
+</m:math> capacitor. (a) Find the power factor at <m:math>
+ <m:semantics>
+<m:mrow>
+  <m:mi>f</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>120 Hz</m:mi>
+</m:mrow>
+ </m:semantics>
+</m:math>. (b) What is the phase angle at 120 Hz? (c) What is the average power at 120 Hz? (d) Find the average power at the circuit’s resonant frequency.</para></problem></exercise>
+
+          <exercise id="fs-id1169737939490" type="problems-exercises">
+            <problem id="fs-id1169737939495">
+              <para id="import-auto-id1169737762694">An <emphasis effect="italics">RLC</emphasis> series circuit has a
+<m:math>
+ <m:semantics>
+  <m:mi>1.00 kΩ</m:mi>
+ </m:semantics>
+</m:math> resistor, a
+<m:math>
+ <m:semantics>
+  <m:mi>150 μH</m:mi>
+ </m:semantics>
+</m:math> inductor, and a 25.0 nF capacitor. (a) Find the power factor at <m:math><m:semantics>
+<m:mrow>
+  <m:mi>f</m:mi>
+  <m:mo>=</m:mo>
+  <m:mi>7.50 Hz</m:mi>
+</m:mrow>
+ </m:semantics>
+</m:math>. (b) What is the phase angle at this frequency? (c) What is the average power at this frequency? (d) Find the average power at the circuit’s resonant frequency.</para></problem>
+<solution id="fs-id1169736621311">
+    <para id="import-auto-id1169738052466">(a) 0.159</para>
+    <para id="import-auto-id1169738052468">(b) <m:math>
+ <m:semantics>
+  <m:mi>80.9º</m:mi>
+ </m:semantics>
+</m:math></para><para id="import-auto-id1169738052470">(c) 26.4 W</para>
+    <para id="import-auto-id1169738052473">(d) 166 W</para>
+    </solution>
+    </exercise>
+
+          <exercise id="fs-id1169737047401" type="problems-exercises">
+            <problem id="fs-id1169737047405">
+              <para id="import-auto-id1169736617346">An <emphasis effect="italics">RLC</emphasis> series circuit has a
+<m:math>
+ <m:semantics>
+  <m:mi>200 Ω</m:mi>
+ </m:semantics>
+</m:math>
+ resistor and a 25.0 mH inductor. At 8000 Hz, the phase angle is <m:math>
+ <m:semantics>
+  <m:mi>45.0º</m:mi>
+ </m:semantics>
+</m:math>. (a) What is the impedance? (b) Find the circuit’s capacitance. (c) If <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>408</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>V</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{"rms"} } ="408"`V} {}</m:annotation></m:semantics></m:math> is applied, what is the average power supplied?</para></problem></exercise>
+
+          <exercise id="fs-id1169738224784" type="problems-exercises">
+            <problem id="fs-id1169737050938">
+              <para id="import-auto-id1169738038100">Referring to <link target-id="fs-id1169737987472"/>, find the average power at 10.0 kHz.</para></problem>
+<solution id="fs-id1169736932443">
+    <para id="import-auto-id1169738038104">16.0 W</para>
+    </solution>
+    </exercise>
+    </section> </content>
+  <glossary>
+    <definition id="import-auto-id1169737780982"><term>impedance</term> <meaning id="fs-id1169737764264">the AC analogue to resistance in a DC circuit; it is the combined effect of resistance, inductive reactance, and capacitive reactance in the form <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mrow><m:msup><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z= sqrt {R rSup { size 8{2} } + \( X rSub { size 8{L} }  - X rSub { size 8{C} }  \)  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id1169737780990"><term>resonant frequency</term> <meaning id="fs-id1169738011017">the frequency at which the impedance in a circuit is at a minimum, and also the frequency at which the circuit would oscillate if not driven by a voltage source; calculated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:msqrt><m:mstyle fontstyle="italic"><m:mrow><m:mtext>LC</m:mtext></m:mrow></m:mstyle></m:msqrt></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{0} } = {  {1}  over  {2π sqrt { ital "LC"} } } } {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id1169738055916"><term>phase angle</term> <meaning id="fs-id1169736622298">denoted by <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>ϕ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ϕ} {}</m:annotation></m:semantics></m:math></emphasis>, the amount by which the voltage and current are out of phase with each other in a circuit</meaning></definition>
+    <definition id="import-auto-id1169738202247"><term>power factor</term> <meaning id="fs-id1169736971054">the amount by which the power delivered in the circuit is less than the theoretical maximum of the circuit due to voltage and current being out of phase; calculated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>ϕ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"ϕ} {}</m:annotation></m:semantics></m:math></meaning></definition>
+  </glossary>
+</document>

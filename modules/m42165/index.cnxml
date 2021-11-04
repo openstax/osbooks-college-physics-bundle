@@ -1,0 +1,2167 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Collisions of Point Masses in Two Dimensions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42165</md:content-id>
+  <md:title>Collisions of Point Masses in Two Dimensions</md:title>
+  <md:abstract><list>
+<item>Discuss two dimensional collisions as an extension of one dimensional analysis.</item>
+<item>Define point masses.</item>
+<item>Derive an expression for conservation of momentum along <foreign>x</foreign>-axis and <foreign>y</foreign>-axis.</item>
+<item>Describe elastic collisions of two objects with equal mass.</item>
+<item>Determine the magnitude and direction of the final velocity given initial velocity, and scattering angle.</item>
+</list></md:abstract>
+  <md:uuid>ca0b6bf0-e249-45a5-aa43-3088b4f66739</md:uuid>
+</metadata>
+
+<content>
+
+    <para id="import-auto-id2555747">In the previous two sections, we considered only one-dimensional collisions; during such collisions, the incoming and outgoing velocities are all along the same line. But what about collisions, such as those between billiard balls, in which objects scatter to the side? These are two-dimensional collisions, and we shall see that their study is an extension of the one-dimensional analysis already presented. The approach taken (similar to the approach in discussing two-dimensional kinematics and dynamics) is to choose a convenient coordinate system and resolve the motion into components along perpendicular axes. Resolving the motion yields a pair of one-dimensional problems to be solved simultaneously.</para><para id="import-auto-id2549893">One complication arising in two-dimensional collisions is that the objects might rotate before or after their collision. For example, if two ice skaters hook arms as they pass by one another, they will spin in circles. We will not consider such rotation until later, and so for now we arrange things so that no rotation is possible. To avoid rotation, we consider only the scattering of <term id="import-auto-id1362764">point masses</term>—that is, structureless particles that cannot rotate or spin.</para><para id="import-auto-id2747275">We start by assuming that
+
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mn mathvariant="bold">F</m:mn><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, so that momentum <m:math><m:semantics><m:mrow><m:mrow><m:mn mathvariant="bold">p</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math>
+
+ is conserved. The simplest collision is one in which one of the particles is initially at rest. (See <link target-id="import-auto-id2747387"/>.) The best choice for a coordinate system is one with an axis parallel to the velocity of the incoming particle, as shown in <link target-id="import-auto-id2747387"/>. Because momentum is conserved, the components of momentum along the
+
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>- and <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axes <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>p</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mspace width="0.25em"/><m:mtext>and</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>p</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>
+
+will also be conserved, but with the chosen coordinate system,
+
+
+
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>p</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> is initially zero and
+
+
+<m:math><m:semantics><m:mrow><m:msub><m:mi>p</m:mi><m:mi>x</m:mi></m:msub></m:mrow></m:semantics></m:math>
+
+
+is the momentum of the incoming particle. Both facts simplify the analysis. (Even with the simplifying assumptions of point masses, one particle initially at rest, and a convenient coordinate system, we still gain new insights into nature from the analysis of two-dimensional collisions.)</para><figure id="import-auto-id2747387"><media id="import-auto-id1958705" alt="A purple ball of mass m1 moves with velocity V 1 toward the right side along the X direction. The orange ball of mass m 2 is initially at rest. The total momentum is the momentum possessed by purple ball only. After collision purple ball moves with velocity v 1prime in the positive X Y plane making an angle theta 1 with the x axis and the orange ball moves in the X Y plane below the x axis making an angle theta 2 with the x axis. The total momentum would be the sum of the momentum of purple ball p1 prime and the orange ball p 2 prime. In two-dimensional collision too the momentum before and after collision remains the same.">
+        <image mime-type="image/jpg" src="../../media/Figure_09_06_02a.jpg" width="420"/>
+      </media>
+
+    <caption>A two-dimensional collision with the coordinate system chosen so that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is initially at rest and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is parallel to the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> -axis. This coordinate system is sometimes called the laboratory coordinate system, because many scattering experiments have a target that is stationary in the laboratory, while particles are scattered from it to determine the particles that make-up the target and how they are bound together. The particles may not be observed directly, but their initial and final velocities are.</caption></figure><para id="import-auto-id1998280">Along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis, the equation for conservation of momentum is </para>
+    <equation id="eip-854"><m:math>
+        <m:semantics>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn><m:mi>x</m:mi>
+
+                    </m:mrow>
+                  </m:msub>
+                <m:mo stretchy="false">=</m:mo>
+                  <m:msubsup>
+
+                      <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>x</m:mi>
+
+                    </m:mrow>
+                    <m:mo>′</m:mo>
+                  </m:msubsup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msubsup>
+
+                      <m:mi>p</m:mi>
+
+                    <m:mrow>
+                     <m:mn>2</m:mn><m:mi>x</m:mi>
+                    </m:mrow>
+                    <m:mo>′</m:mo>
+                  </m:msubsup>
+<m:mo>.</m:mo>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1736119">Where the subscripts denote the particles and axes and the primes denote the situation after the collision. In terms of masses and velocities, this equation is</para>
+    <equation id="eip-881"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                    <m:mn>2</m:mn><m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msubsup>
+                      <m:mi>v</m:mi>
+
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>x</m:mi>
+                    </m:mrow>
+                      <m:mi>′</m:mi>
+                  </m:msubsup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                    <m:mi>v</m:mi>
+
+                  <m:mrow>
+                  <m:mn>2</m:mn><m:mi>x</m:mi>
+                  </m:mrow>
+                    <m:mi>′</m:mi>
+                </m:msubsup>
+              </m:mrow>
+            </m:mrow>
+<m:mo>.</m:mo>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1362746">But because particle 2 is initially at rest, this equation becomes</para>
+    <equation id="eip-166"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>x</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mrow>
+                      <m:mi>v</m:mi>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>x</m:mi>
+                    </m:mrow>
+                      <m:mo>′</m:mo>
+                  </m:msubsup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+
+                  </m:mrow>
+
+                  <m:mrow>
+                 <m:mn>2</m:mn><m:mi>x</m:mi>
+                  </m:mrow>
+                    <m:mo>′</m:mo>
+                </m:msubsup>
+              </m:mrow>
+            </m:mrow>
+<m:mo>.</m:mo>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2729005">The components of the velocities along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis have the form <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v`"cos"`θ} {}</m:annotation></m:semantics></m:math>. Because particle 1 initially moves along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis, we find <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. </para><para id="import-auto-id1011006">Conservation of momentum along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis gives the following equation:</para><equation id="eip-488"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1655839">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are as shown in <link target-id="import-auto-id2747387"/>.</para><note id="fs-id1516197"><label/><title>Conservation of Momentum along the <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></emphasis>-axis</title>
+
+    <equation id="eip-224"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                 <m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo>
+                </m:msubsup><m:mspace width="0.25em"/>
+                <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                 <m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo>
+                </m:msubsup><m:mspace width="0.25em"/>
+                <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation></note><para id="import-auto-id2690532">Along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis, the equation for conservation of momentum is</para>
+    <equation id="eip-742"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                      <m:mo>′</m:mo>
+                  </m:msubsup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msubsup>
+                    <m:mrow>
+                      <m:mi>p</m:mi>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                   <m:mo>′</m:mo>
+                  </m:msubsup>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1274422">or</para>
+    <equation id="eip-770"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mrow>
+                      <m:mi>v</m:mi>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                      <m:mo>′</m:mo>
+                  </m:msubsup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+
+                  </m:mrow>
+                  <m:mrow>
+                      <m:mn>2</m:mn><m:mi>y</m:mi>
+                  </m:mrow>
+                  <m:mo>′</m:mo>
+                </m:msubsup>
+              </m:mrow><m:mo>.</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2648775">But <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow>                      <m:mn>1</m:mn><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is zero, because particle 1 initially moves along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis. Because particle 2 is initially at rest, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow>                      <m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is also zero. The equation for conservation of momentum along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis becomes</para><equation id="eip-10"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mrow>
+                    <m:mi>v</m:mi>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn><m:mi>y</m:mi>
+                    </m:mrow>
+                   <m:mo>′</m:mo>
+                  </m:msubsup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                  <m:mi>v</m:mi>
+
+                  </m:mrow>
+                  <m:mrow>
+                      <m:mn>2</m:mn><m:mi>y</m:mi>
+                  </m:mrow>
+                 <m:mo>′</m:mo>
+                </m:msubsup>
+              </m:mrow><m:mo>.</m:mo>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id898212">The components of the velocities along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis have the form <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v`"sin"`θ} {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id1476197">Thus, conservation of momentum along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis gives the following equation:</para>
+    <equation id="eip-545"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                  <m:mi>v</m:mi>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mo>′</m:mo>
+                </m:msubsup><m:mspace width="0.25em"/>
+                <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                  <m:mi>v</m:mi>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                 <m:mo>′</m:mo>
+                </m:msubsup><m:mspace width="0.25em"/>
+                <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub><m:mo>.</m:mo>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><note id="fs-id2949472"><label/><title>Conservation of Momentum along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis</title>
+
+    <equation id="eip-860"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                  <m:mi>v</m:mi>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                 <m:mo>′</m:mo>
+                </m:msubsup><m:mspace width="0.25em"/>
+                <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                  <m:mi>v</m:mi>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                <m:mo>′</m:mo>
+                </m:msubsup><m:mspace width="0.25em"/>
+                <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation></note><para id="import-auto-id2946023">The equations of conservation of momentum along the <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></emphasis>-axis and <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis are very useful in analyzing two-dimensional collisions of particles, where one is originally stationary (a common laboratory situation). But two equations can only be used to find two unknowns, and so other data may be necessary when collision experiments are used to explore nature at the subatomic level.</para>
+    <example id="fs-id1311272">
+    <title>Determining the Final Velocity of an Unseen Object from the Scattering of Another Object</title>
+    <para id="import-auto-id3108768">Suppose the following experiment is performed. A 0.250-kg object <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfenced></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is slid on a frictionless surface into a dark room, where it strikes an initially stationary object with mass of 0.400 kg <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (m rSub { size 8{2} }  right )} {}</m:annotation></m:semantics></m:math>. The 0.250-kg object emerges from the room at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45" "." 0°} {}</m:annotation></m:semantics></m:math> with its incoming direction.</para><para id="import-auto-id3167415">The speed of the 0.250-kg object is originally 2.00 m/s and is 1.50 m/s after the collision. Calculate the magnitude and direction of the velocity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msubsup><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> of the 0.400-kg object after the collision.</para><para id="eip-943"><title>Strategy</title> </para><para id="import-auto-id2644511">Momentum is conserved because the surface is frictionless. The coordinate system shown in <link target-id="import-auto-id2747922"/> is one in which <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is originally at rest and the initial velocity is parallel to the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis, so that conservation of momentum along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>- and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math></emphasis>-axes is applicable. </para><para id="import-auto-id1364041">Everything is known in these equations except <m:math><m:semantics><m:mrow><m:mrow><m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, which are precisely the quantities we wish to find. We can find two unknowns because we have two independent equations: the equations describing the conservation of momentum in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>- and <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>-directions.</para><para id="eip-539"><title>Solution</title> </para><para id="import-auto-id1310628">Solving
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>
+</m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> for
+<m:math><m:mrow><m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>
+ and
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> for
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and taking the ratio yields an equation (in which θ<sub>2</sub> is the only unknown quantity. Applying the identity
+<m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>tan</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, we obtain:</para><equation id="eip-329"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mtext>tan</m:mtext>
+                <m:mrow><m:mspace width="0.25em"/>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mrow>
+                        <m:mi>v</m:mi>
+
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mo>′</m:mo>
+                      </m:msubsup><m:mspace width="0.25em"/>
+                      <m:mtext> sin</m:mtext><m:mspace width="0.25em"/>
+                      <m:msub>
+                        <m:mi>θ</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mrow>
+                        <m:mi>v</m:mi>
+
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                       <m:mo>′</m:mo>
+                      </m:msubsup><m:mspace width="0.25em"/>
+                      <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>θ</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>v</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow><m:mo>.</m:mo>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1550712">Entering known values into the previous equation gives</para>
+    <equation id="eip-45"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mtext>tan</m:mtext><m:mspace width="0.25em"/>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>θ</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>50</m:mtext><m:mspace width="0.25em"/>
+                            <m:mtext> m/s</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>7071</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>50</m:mtext><m:mspace width="0.25em"/>
+                            <m:mtext> m/s</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>7071</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>00</m:mtext>
+                        <m:mspace width="0.25em"/>
+                        <m:mtext>m/s</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>129</m:mtext>
+              </m:mrow><m:mo>.</m:mo>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"tan"θ rSub { size 8{2} } = {  { left (1 "." "50"" m/s" right ) left (0 "." "7071" right )}  over  { left (1 "." "50"" m/s" right ) left (0 "." "7071" right ) - 2 "." "00" "m/s"} } = - 1 "." "129"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2559751">Thus,</para>
+    <equation id="eip-532"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msup>
+                    <m:mtext>tan</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>129</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>311</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mn>5º</m:mn>
+                <m:mrow>
+                  <m:mo stretchy="false">≈</m:mo>
+                  <m:mtext>312º</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow><m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{2} } ="tan" rSup { size 8{ - 1} }  left ( - 1 "." "129" right )="311" "." 5° approx "312"°} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2720916">Angles are defined as positive in the counter clockwise direction, so this angle indicates that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is scattered to the right in <link target-id="import-auto-id2747922"/>, as expected (this angle is in the fourth quadrant). Either equation for the
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>- or
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>-axis can now be used to solve for
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, but the latter equation is easiest because it has fewer terms. </para><equation id="eip-516"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>′</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+
+                  </m:msubsup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>m</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>m</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:msubsup>
+                  <m:mrow>
+                  <m:mi>v</m:mi>
+
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mo>′</m:mo>
+                </m:msubsup>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                    <m:msub>
+                      <m:mi>θ</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                    <m:msub>
+                      <m:mi>θ</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2800662">Entering known values into this equation gives</para>
+    <equation id="eip-497"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mrow>
+                    <m:mi>v</m:mi>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                   <m:mo>′</m:mo>
+                  </m:msubsup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>0.250</m:mn><m:mspace width="0.25em"/>
+                          <m:mtext>kg</m:mtext>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>0.400</m:mn><m:mspace width="0.25em"/>
+                          <m:mtext>kg</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>50</m:mtext><m:mspace width="0.25em"/>
+                    <m:mtext>m/s</m:mtext>
+                  </m:mrow>
+                </m:mfenced>
+                <m:mfenced open="(" close=")">
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>0.7071</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>7485</m:mtext>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mfenced>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{2} } = -  left ( {  {0 "." "250"" kg"}  over  {0 "." "400"" kg"} }  right ) left (1 "." "50"" m/s" right ) left ( {  {0 "." "7071"}  over  { - 0 "." "7485"} }  right ) "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1955893">Thus,</para>
+    <equation id="eip-721"><m:math>
+        <m:semantics>
+                <m:mrow>
+                  <m:msubsup>
+                    <m:mrow>
+                    <m:mi>v</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                    <m:mo>′</m:mo>
+                  </m:msubsup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0.886</m:mn>
+                <m:mspace width="0.25em"/>
+                <m:mtext>m/s</m:mtext>
+<m:mo>.</m:mo></m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-980"><title>Discussion</title> </para><para id="import-auto-id2573336">It is instructive to calculate the internal kinetic energy of this two-object system before and after the collision. (This calculation is left as an end-of-chapter problem.) If you do this calculation, you will find that the internal kinetic energy is less after the collision, and so the collision is inelastic. This type of result makes a physicist want to explore the system further.</para></example>
+
+
+    <figure id="import-auto-id2747922"><media id="import-auto-id1945224" alt="A purple ball of mass m1 and velocity v one moves in the right direction into a dark room. It collides with an object of mass m two of value zero point four zero milligrams which was initially at rest and then leaves the dark room from the top right hand side making an angle of forty-five degrees with the horizontal and at velocity v one prime. The net external force on the system is zero. The momentum before and after collision remains the same. The velocity v two prime of the mass m two and the angle theta two it would make with the horizontal after collision not given.">
+        <image mime-type="image/jpg" src="../../media/Figure_09_06_03a.jpg" width="300"/>
+      </media>
+
+    <caption>A collision taking place in a dark room is explored in  <link target-id="fs-id1311272"/>. The incoming object <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is scattered by an initially stationary object. Only the stationary object’s mass <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is known. By measuring the angle and speed at which <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> emerges from the room, it is possible to calculate the magnitude and direction of the initially stationary object’s velocity after the collision.</caption></figure>
+  <section id="fs-id1566488">
+    <title>Elastic Collisions of Two Objects with Equal Mass</title>
+    <para id="import-auto-id1309321">Some interesting situations arise when the two colliding objects have equal mass and the collision is elastic. This situation is nearly the case with colliding billiard balls, and precisely the case with some subatomic particle collisions. We can thus get a mental image of a collision of subatomic particles by thinking about billiards (or pool). (Refer to <link target-id="import-auto-id2747387"/> for masses and angles.) First, an elastic collision conserves internal kinetic energy. Again, let us assume object 2 <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (m rSub { size 8{2} }  right )} {}</m:annotation></m:semantics></m:math> is initially at rest. Then, the internal kinetic energy before and after the collision of two objects that have equal masses is</para>
+    <equation id="eip-213"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+
+                                <m:mn>1</m:mn></m:msub>
+
+                                    <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+     <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                           <m:mo>′</m:mo>
+                         </m:mrow>
+
+                                <m:mn>1</m:mn></m:msub>
+                                      <m:mn>2</m:mn>
+
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                    <m:mrow><m:msup>
+                      <m:msub>
+                       <m:mrow>
+                        <m:mtext fontstyle="italic">mv</m:mtext>
+                       <m:mo>′</m:mo>
+                       </m:mrow>
+                       <m:mn>2</m:mn></m:msub>
+                       <m:mn>2</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                </m:mrow><m:mo>.</m:mo>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1778031">Because the masses are equal, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } =m rSub { size 8{2} } =m} {}</m:annotation></m:semantics></m:math>. Algebraic manipulation (left to the reader) of conservation of momentum in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>- and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math></emphasis>-directions can show that</para>
+    <equation id="eip-717"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+                        <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                             </m:mrow>
+                                <m:mn>1</m:mn></m:msub>
+                                      <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+                         <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                         <m:mo>′</m:mo>
+                         </m:mrow>
+                         <m:mn>1</m:mn></m:msub>
+                         <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+ <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                           <m:mo>′</m:mo>
+   </m:mrow>
+
+                                <m:mn>2</m:mn></m:msub>
+                                      <m:mn>2</m:mn>
+
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                            <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                       <m:mo>′</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow>
+
+                  <m:msub>
+                      <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>′</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+
+                  </m:msub>
+
+                  <m:mspace width="0.25em"/><m:mtext> cos</m:mtext>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>θ</m:mi>
+
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>θ</m:mi>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mrow><m:mo>.</m:mo>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2632094">(Remember that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is negative here.) The two preceding equations can both be true only if</para><equation id="eip-590"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1303827">There are three ways that this term can be zero. They are</para>
+    <list id="import-auto-id2600565" list-type="bulleted" bullet-style="bullet"><item><m:math><m:semantics><m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:semantics></m:math>: head-on collision; incoming ball stops</item>
+      <item><m:math><m:semantics><m:mrow><m:mrow><m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>: no collision; incoming ball continues unaffected</item>
+      <item><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>: angle of separation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90º</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> after the collision </item>
+    </list><para id="import-auto-id2804120">All three of these ways are familiar occurrences in billiards and pool, although most of us try to avoid the second. If you play enough pool, you will notice that the angle between the balls is very close to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>90º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90"°} {}</m:annotation></m:semantics></m:math> after the collision, although it will vary from this value if a great deal of spin is placed on the ball. (Large spin carries in extra energy and a quantity called <emphasis effect="italics">angular momentum</emphasis>, which must also be conserved.) The assumption that the scattering of billiard balls is elastic is reasonable based on the correctness of the three results it produces. This assumption also implies that, to a good approximation, momentum is conserved for the two-ball system in billiards and pool. The problems below explore these and other characteristics of two-dimensional collisions.</para><note id="fs-id2927283"><label/>
+    <title>Connections to Nuclear and Particle Physics</title>
+    <para id="import-auto-id2785946">Two-dimensional collision experiments have revealed much of what we know about subatomic particles, as we shall see in <link document="m42646">Medical Applications of Nuclear Physics</link> and <link document="m42667">Particle Physics</link>. Ernest Rutherford, for example, discovered the nature of the atomic nucleus from such experiments.</para></note>
+    </section>
+    <section id="fs-id2976431" class="section-summary"><title>Section Summary</title><list id="import-auto-id2068233" list-type="bulleted"><item>The approach to two-dimensional collisions is to choose a convenient coordinate system and break the motion into components along perpendicular axes. Choose a coordinate system with the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:semantics></m:math>-axis parallel to the velocity of the incoming particle.</item>
+<item>
+Two-dimensional collisions of point masses where mass 2 is initially at rest conserve momentum along the initial direction of mass 1 (the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:semantics></m:math>-axis), stated by
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mspace width="0.25em"/><m:mtext> cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mspace width="0.25em"/><m:mtext> cos</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and along the direction perpendicular to the initial direction (the
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow></m:mrow></m:semantics></m:math>-axis) stated by
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mi>y</m:mi></m:mrow></m:msub><m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>y</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.
+</item>
+      <item>The internal kinetic before and after the collision of two objects that have equal masses is <equation id="eip-id2398000"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                                <m:mn>1</m:mn></m:msub>
+                                      <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+                         <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                          <m:mo>′</m:mo>
+                         </m:mrow>
+                         <m:mn>1</m:mn></m:msub>
+                         <m:mn>2</m:mn>
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                      <m:mrow><m:msup>
+                        <m:msub>
+ <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                            <m:mo>′</m:mo>
+   </m:mrow>
+
+                                <m:mn>2</m:mn></m:msub>
+                                      <m:mn>2</m:mn>
+
+                        </m:msup>
+                      </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                            <m:mrow>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                          <m:mo>′</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow>
+
+                  <m:msub>
+                      <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo>′</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+
+                  </m:msub>
+
+                  <m:mspace width="0.25em"/><m:mtext> cos</m:mtext>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>θ</m:mi>
+
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>θ</m:mi>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+              </m:mrow><m:mo>.</m:mo>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+      <item>Point masses are structureless particles that cannot spin.</item>
+    </list></section>
+
+<section id="fs-id3132661" class="conceptual-questions" type="conceptual-questions">
+<title>Conceptual Questions</title>
+    <exercise id="fs-id2093269" type="conceptual-questions">
+<problem id="fs-id2113683">
+<para id="fs-id2088494">
+<link target-id="import-auto-id2692680"/> shows a cube at rest and a small object heading toward it. (a) Describe the directions (angle <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>) at which the small object can emerge after colliding elastically with the cube. How does <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> depend on <m:math><m:semantics><m:mrow><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>, the so-called impact parameter? Ignore any effects that might be due to rotation after the collision, and assume that the cube is much more massive than the small object. (b) Answer the same questions if the small object instead collides with a massive sphere.</para>
+
+<figure id="import-auto-id2692680"><media id="import-auto-id1990072" alt="A ball m one moves horizontally to the right with speed v one. It will collide with a stationary square labeled capital m two that is rotated at approximately forty-five degrees. The point of impact is on a face of the square a distance b above the center of the square. After the collision the ball is shown heading off at an angle theta one above the horizontal with a speed v one prime. The square remains essentially stationary (v 2 prime is approximately zero).">
+        <image mime-type="image/jpg" src="../../media/Figure_09_06_05a.jpg" width="400"/>
+      </media>
+
+<caption>A small object approaches a collision with a much more massive cube, after which its velocity has the direction <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>. The angles at which the small object can be scattered are determined by the shape of the object it strikes and the impact parameter <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math></emphasis>.
+</caption></figure></problem>
+</exercise>
+</section>
+
+    <section id="fs-id3155303" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title>
+    <exercise id="fs-id1596936" type="problems-exercises"><problem id="fs-id1596937">    <para id="import-auto-id3205137">Two identical pucks collide on an air hockey table. One puck was originally at rest. (a) If the incoming puck has a speed of 6.00 m/s and scatters to an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>,what is the velocity (magnitude and direction) of the second puck? (You may use the result that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>90º</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> for elastic collisions of objects that have identical masses.) (b) Confirm that the collision is elastic.</para></problem>
+<solution id="fs-id2966630">
+    <para id="import-auto-id2676096">(a) 3.00 m/s, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>60º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> below <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis</para><para id="import-auto-id1363112">(b) Find speed of first puck after collision: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mtext>30º</m:mtext><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>m</m:mi></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mtext>60º</m:mtext><m:mo stretchy="false">⇒</m:mo><m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mo stretchy="false">=</m:mo>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mi>′</m:mi></m:msubsup></m:mrow><m:mrow><m:mfrac><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mtext>60º</m:mtext></m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mtext>30º</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo></m:mrow><m:mtext>5.196 m/s</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math></para><para id="eip-id2612078">Verify that ratio of initial to final KE equals one:
+<m:math>
+ <m:semantics>
+  <m:mrow>
+<m:mfenced open="" close="}">
+<m:mtable columnalign="left">
+ <m:mtr>
+  <m:mtd>
+   <m:mtext>KE</m:mtext>
+   <m:mo>=</m:mo>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:msup><m:msub>
+    <m:mrow>
+     <m:mi fontstyle="italic">mv</m:mi>
+    </m:mrow>
+    <m:mn>1</m:mn></m:msub>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mn>18</m:mn>
+   <m:mi>m</m:mi><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mtd>
+ </m:mtr>
+ <m:mtr>
+  <m:mtd>
+   <m:mtext>KE</m:mtext>
+   <m:mo>=</m:mo>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:msup><m:msub>
+    <m:mrow>
+     <m:mi fontstyle="italic">mv</m:mi>
+    <m:mo>′</m:mo>
+    </m:mrow>
+    <m:mn>1</m:mn></m:msub>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>+</m:mo>
+   <m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:msup><m:msub>
+    <m:mrow>
+     <m:mi fontstyle="italic">mv</m:mi>
+    <m:mo>′</m:mo>
+    </m:mrow>
+    <m:mn>2</m:mn></m:msub>
+    <m:mn>2</m:mn>
+   </m:msup>
+   <m:mo>=</m:mo>
+   <m:mn>18</m:mn>
+   <m:mi>m</m:mi><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mtd>
+ </m:mtr>
+</m:mtable>
+</m:mfenced>
+
+<m:mfrac>
+ <m:mtext>KE</m:mtext>
+ <m:mtext>KE′</m:mtext>
+</m:mfrac>
+<m:mo>=</m:mo>
+<m:mn>1.00</m:mn>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></para></solution>
+    </exercise><exercise id="fs-id3179260" type="problems-exercises"><problem id="fs-id3179262">    <para id="import-auto-id1935735">Confirm that the results of the example <link target-id="fs-id1311272"/> do conserve momentum in both the <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></emphasis>- and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math></emphasis>-directions. </para></problem></exercise>
+    <exercise id="fs-id1284914" type="problems-exercises"><problem id="fs-id1284915">    <para id="import-auto-id1985625">A 3000-kg cannon is mounted so that it can recoil only in the horizontal direction. (a) Calculate its recoil velocity when it fires a 15.0-kg shell at 480 m/s at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°} {}</m:annotation></m:semantics></m:math> above the horizontal. (b) What is the kinetic energy of the cannon? This energy is dissipated as heat transfer in shock absorbers that stop its recoil. (c) What happens to the vertical component of momentum that is imparted to the cannon when it is fired? </para></problem>
+<solution id="fs-id3133924">
+    <para id="import-auto-id2945689">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>26</m:mtext><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 2 "." "26"`"m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2733514">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>63</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "63" times "10" rSup { size 8{3} } `J} {}</m:annotation></m:semantics></m:math></para><para id="eip-id2538727">(c) The ground will exert a normal force to oppose recoil of the cannon in the vertical direction. The momentum in the vertical direction is transferred to the earth. The energy is transferred into the ground, making a dent where the cannon is. After long barrages, cannon have erratic aim because the ground is full of divots.</para>
+    </solution>
+    </exercise><exercise id="fs-id2994591" type="problems-exercises"><problem id="fs-id2994592">
+<para id="eip-id1517435"><emphasis>Professional Application</emphasis> </para>
+ <para id="import-auto-id2733092">A 5.50-kg bowling ball moving at 9.00 m/s collides with a 0.850-kg bowling pin, which is scattered at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>85</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"85" "." 0°} {}</m:annotation></m:semantics></m:math> to the initial direction of the bowling ball and with a speed of 15.0 m/s. (a) Calculate the final velocity (magnitude and direction) of the bowling ball. (b) Is the collision elastic? (c) Linear kinetic energy is greater after the collision. Discuss how spin on the ball might be converted to linear kinetic energy in the collision.</para></problem></exercise><exercise id="fs-id2722872" type="problems-exercises"><problem id="fs-id2722873">
+<para id="eip-id1609237"><emphasis>Professional Application</emphasis> </para> <para id="import-auto-id3201314">Ernest Rutherford (the first New Zealander to be awarded the Nobel Prize in Chemistry) demonstrated that nuclei were very small and dense by scattering helium-4 nuclei <m:math><m:semantics><m:mrow><m:mrow><m:mo>(</m:mo><m:msup><m:mrow/><m:mn>4</m:mn></m:msup><m:mtext>He</m:mtext><m:mo>)</m:mo></m:mrow></m:mrow></m:semantics></m:math> from gold-197 nuclei
+<m:math><m:semantics><m:mrow><m:mrow><m:mo>(</m:mo><m:mrow><m:msup><m:mrow/><m:mtext>197</m:mtext></m:msup><m:mtext>Au</m:mtext></m:mrow><m:mo>)</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The energy of the incoming helium nucleus was
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8.00</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and the masses of the helium and gold nuclei were
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6.68</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>27</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3.29</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, respectively (note that their mass ratio is 4 to 197). (a) If a helium nucleus scatters to an angle of
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>120º</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> during an elastic collision with a gold nucleus, calculate the helium nucleus’s final speed and the final velocity (magnitude and direction) of the gold nucleus. (b) What is the final kinetic energy of the helium nucleus?</para></problem>
+<solution id="fs-id3169277">
+    <para id="import-auto-id2129621">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>36</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext><m:mi/></m:mrow></m:mrow></m:mrow></m:semantics></m:math> at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>29.5º</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math></para><para id="import-auto-id1537415">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>52</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "52" times "10" rSup { size 8{ - "13"} } `J} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise><exercise id="fs-id3136237" type="problems-exercises"><problem id="fs-id3136238">
+<para id="eip-id2589988"><title>Professional Application</title></para>
+   <para id="import-auto-id1527414">Two cars collide at an icy intersection and stick together afterward. The first car has a mass of 1200 kg and is approaching at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00"`"m/s"} {}</m:annotation></m:semantics></m:math> due south. The second car has a mass of 850 kg and is approaching at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>17</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"17" "." 0`"m/s"} {}</m:annotation></m:semantics></m:math> due west. (a) Calculate the final velocity (magnitude and direction) of the cars. (b) How much kinetic energy is lost in the collision? (This energy goes into deformation of the cars.) Note that because both cars have an initial velocity, you cannot use the equations for conservation of momentum along the <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></emphasis>-axis and <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis; instead, you must look for other simplifying aspects.</para></problem></exercise><exercise id="fs-id2680898" type="problems-exercises"><problem id="fs-id2680899">    <para id="import-auto-id1950890">Starting with equations
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:semantics></m:math> for conservation of momentum in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>- and <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>-directions and assuming that one object is originally stationary, prove that for an elastic collision of two objects of equal masses,</para>
+<equation id="import-auto-id2985541"><m:math>
+        <m:semantics>
+              <m:mrow><m:mtable>
+              <m:mtr><m:mtd>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                              <m:msup>
+                                <m:msub>
+                                  <m:mtext fontstyle="italic">mv</m:mtext>
+                                        <m:mn>1</m:mn>
+                                </m:msub>
+                                          <m:mn>2</m:mn>
+                              </m:msup>
+                            <m:mo stretchy="false">=</m:mo>
+             </m:mtd></m:mtr>
+            <m:mtr><m:mtd>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                            <m:msup>
+                              <m:msub>
+                                        <m:mrow>
+                                <m:mtext fontstyle="italic">mv</m:mtext>
+                                           <m:mo>′</m:mo>
+                                        </m:mrow>
+                                      <m:mn>1</m:mn>
+                              </m:msub>
+                                            <m:mn>2</m:mn>
+                              </m:msup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:msup>
+                        <m:msub>
+                        <m:mrow><m:mtext fontstyle="italic">mv</m:mtext>
+                          <m:mo>′</m:mo>
+                        </m:mrow>
+                                <m:mn>2</m:mn>
+                        </m:msub>   <m:mn>2</m:mn>
+                      </m:msup>
+</m:mtd></m:mtr>
+<m:mtr><m:mtd>
+                      <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                              <m:mrow>
+                            <m:mtext fontstyle="italic">mv</m:mtext><m:mo>′</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                          </m:msub>
+                    <m:msub>
+                        <m:mrow>
+                      <m:mi>v</m:mi>
+                  <m:mo>′</m:mo>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                    </m:msub>
+                    <m:mspace width="0.25em"/>
+                    <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                    <m:mo>(</m:mo>
+                        <m:msub>
+                          <m:mi>θ</m:mi>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>θ</m:mi>
+                              <m:mn>2</m:mn>
+                        </m:msub>
+                    <m:mo>)</m:mo>
+   </m:mtd></m:mtr></m:mtable>
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation><para id="import-auto-id1570106">as discussed in the text.</para></problem>
+<solution id="eip-id2538314">
+<para id="eip-id2538316">
+We are given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">≡</m:mo><m:mi>m</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } =m rSub { size 8{2} }  equiv m} {}</m:annotation></m:semantics></m:math>. The given equations then become:</para>
+<equation id="eip-id1899177"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext> cos </m:mtext><m:mspace width="0.25em"/>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext> cos </m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation>
+<para id="eip-id2705075">and</para>
+
+<equation id="eip-id1899459"><m:math>
+<m:semantics>
+<m:mrow><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">=</m:mo>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo>
+<m:msubsup><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow><m:mo>′</m:mo></m:msubsup></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow>
+</m:semantics>
+</m:math></equation><para id="eip-id2705141">Square each equation to get</para>
+<equation id="eip-id2304354"><m:math>
+        <m:semantics>
+<m:mtable columnalign="left">
+ <m:mtr>
+  <m:mtd>    <m:msup> <m:msub>
+                    <m:mi>v</m:mi>
+                      <m:mn>1</m:mn>
+                    </m:msub><m:mn>2</m:mn>
+                  </m:msup>
+</m:mtd>
+<m:mtd>
+                  <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                  <m:msup><m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                      <m:mn>1</m:mn></m:msub>
+                    <m:mn>2</m:mn>
+                  </m:msup>
+                <m:mspace width="0.25em"/>
+                <m:msup><m:mtext> cos </m:mtext><m:mn>2</m:mn></m:msup><m:mspace width="0.25em"/>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                   <m:msup><m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msub><m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow><m:mspace width="0.25em"/>
+               <m:msup><m:mtext> cos </m:mtext><m:mn>2</m:mn></m:msup><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mo stretchy="false">+</m:mo>
+                <m:mn>2</m:mn>
+                <m:msub>
+                  <m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:msub>
+                  <m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mspace width="0.25em"/>
+                <m:mtext> cos </m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mtext> cos </m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+
+  </m:mtd>
+ </m:mtr>
+ <m:mtr>
+  <m:mtd>
+
+                  <m:mn>0</m:mn>
+</m:mtd>
+<m:mtd>
+                  <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                  <m:msup><m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:msub><m:mn>2</m:mn>
+                  </m:msup>
+                <m:mspace width="0.25em"/>
+                <m:msup><m:mtext> sin </m:mtext><m:mn>2</m:mn></m:msup><m:mspace width="0.25em"/>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>θ</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                   <m:msup><m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:msub><m:mn>2</m:mn>
+                  </m:msup>
+                </m:mrow><m:mspace width="0.25em"/>
+               <m:msup><m:mtext> sin </m:mtext><m:mn>2</m:mn></m:msup><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+<m:mn>2</m:mn>
+ <m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+ <m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+<m:mspace width="0.25em"/>
+               <m:mtext> sin </m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+               <m:mtext> sin </m:mtext><m:mspace width="0.25em"/>
+                <m:msub>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msub>
+<m:mtext>.</m:mtext>
+
+  </m:mtd>
+ </m:mtr>
+</m:mtable>
+
+        </m:semantics>
+      </m:math></equation><para id="eip-id2611023">Add these two equations and simplify:</para>
+<equation id="eip-id1300045"><m:math>
+    <m:semantics>
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+
+             <m:msup><m:msub>
+              <m:mi>v</m:mi>
+                  <m:mn>1</m:mn></m:msub>
+                  <m:mn>2</m:mn>
+             </m:msup>
+</m:mtd>
+<m:mtd>
+             <m:mo stretchy="false">=             </m:mo>
+</m:mtd>
+<m:mtd>
+             <m:msup><m:msub>              <m:mrow>
+                <m:mi>v</m:mi><m:mo>′</m:mo> </m:mrow>
+                  <m:mn>1                  </m:mn></m:msub>
+                  <m:mn>2 </m:mn>
+             </m:msup>
+<m:mo>+</m:mo>
+            <m:msup><m:msub>
+              <m:mrow>
+               <m:mi>v</m:mi><m:mo>′</m:mo>
+              </m:mrow>                 <m:mn>2</m:mn></m:msub>
+                 <m:mn>2</m:mn>
+            </m:msup>
+<m:mo>+</m:mo>
+            <m:mn>2            </m:mn>
+            <m:msup><m:msub>
+              <m:mrow>
+               <m:mi>v               </m:mi><m:mo>′</m:mo>
+             </m:mrow>
+                 <m:mn>1</m:mn></m:msub>
+            </m:msup>
+           <m:msup> <m:msub>
+              <m:mrow>
+               <m:mi>v               </m:mi><m:mo>′</m:mo>
+             </m:mrow>
+                 <m:mn>
+2
+                 </m:mn></m:msub>
+            </m:msup>
+            <m:mfenced open="(" close=")">
+             <m:mrow><m:mspace width="0.25em"/>
+              <m:mtext>cos              </m:mtext><m:mspace width="0.25em"/>
+              <m:msub>
+               <m:mi>θ               </m:mi>
+               <m:mrow>
+                   <m:mn>
+1
+                   </m:mn>
+               </m:mrow>
+              </m:msub><m:mspace width="0.25em"/>
+              <m:mtext>cos              </m:mtext><m:mspace width="0.25em"/>
+              <m:mrow>
+               <m:msub>
+                <m:mi>θ                </m:mi>
+                <m:mrow>
+                    <m:mn>
+2
+                    </m:mn>
+                </m:mrow>
+               </m:msub>
+               <m:mo stretchy="false">+               </m:mo><m:mspace width="0.25em"/>
+               <m:mtext>sin               </m:mtext><m:mspace width="0.25em"/>
+              </m:mrow>
+              <m:msub>
+               <m:mi>θ               </m:mi>
+               <m:mrow>
+                   <m:mn>
+1
+                   </m:mn>
+               </m:mrow>
+              </m:msub><m:mspace width="0.25em"/>
+              <m:mtext>sin              </m:mtext><m:mspace width="0.25em"/>
+              <m:msub>
+               <m:mi>θ               </m:mi>
+               <m:mrow>
+                   <m:mn>2                   </m:mn>
+               </m:mrow>
+              </m:msub>
+             </m:mrow>
+            </m:mfenced>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+        <m:mrow>
+         <m:msup><m:msub>
+           <m:mrow>            <m:mi>v</m:mi><m:mo>′</m:mo>          </m:mrow>
+              <m:mn>1</m:mn></m:msub>
+              <m:mn>2</m:mn>
+         </m:msup>
+<m:mo>+</m:mo>
+         <m:msup><m:msub>
+           <m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+              <m:mn>2</m:mn></m:msub>
+              <m:mn>2</m:mn>
+         </m:msup>
+<m:mo>+</m:mo>
+         <m:mn>2         </m:mn>
+         <m:msub>
+           <m:mrow>
+            <m:mi>v</m:mi><m:mo>′</m:mo>
+          </m:mrow>
+              <m:mn>1</m:mn>
+         </m:msub>
+        <m:msub>
+           <m:mrow><m:mi>v            </m:mi><m:mo>′</m:mo></m:mrow>
+              <m:mn>2              </m:mn>
+         </m:msub>
+         <m:mfenced open="[" close="]">
+          <m:mrow>
+           <m:mrow>
+            <m:mfrac>
+                 <m:mn>1                 </m:mn>
+                 <m:mn>2                 </m:mn>
+            </m:mfrac>
+           </m:mrow><m:mspace width="0.25em"/><m:mtext>cos           </m:mtext><m:mspace width="0.25em"/>
+           <m:mrow>
+            <m:mfenced open="(" close=")">
+             <m:mrow>
+               <m:msub>
+                <m:mi>θ                </m:mi>
+                <m:mrow>
+                    <m:mn>1                    </m:mn>
+                   </m:mrow>
+               </m:msub>
+               <m:mo stretchy="false">−               </m:mo>
+               <m:msub>
+                <m:mi>θ                </m:mi>
+                <m:mrow>
+                    <m:mn>
+2
+                    </m:mn>
+                </m:mrow>
+               </m:msub>
+             </m:mrow>
+            </m:mfenced>
+            <m:mo stretchy="false">+            </m:mo>
+            <m:mrow>
+             <m:mfrac>
+                  <m:mn>1                  </m:mn>
+                  <m:mn>2                  </m:mn>
+             </m:mfrac>
+            </m:mrow>
+           </m:mrow><m:mspace width="0.25em"/>
+           <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+           <m:mrow>
+            <m:mfenced open="(" close=")">
+             <m:mrow>
+               <m:msub>
+                <m:mi>θ                </m:mi>
+                    <m:mn>1                    </m:mn>
+               </m:msub>
+               <m:mo stretchy="false">+ </m:mo>
+               <m:msub>
+                <m:mi>θ</m:mi><m:mn>2</m:mn>
+                   </m:msub>
+             </m:mrow>
+            </m:mfenced>
+            <m:mo stretchy="false">+            </m:mo>
+            <m:mrow>
+             <m:mfrac>
+                 <m:mrow>
+                  <m:mn>1                  </m:mn>
+              </m:mrow>
+                 <m:mrow>
+                  <m:mn>2                  </m:mn>
+                 </m:mrow>
+             </m:mfrac>
+            </m:mrow>
+           </m:mrow><m:mspace width="0.25em"/>
+           <m:mtext>cos           </m:mtext>
+           <m:mrow><m:mspace width="0.25em"/>
+            <m:mfenced open="(" close=")">
+             <m:mrow>
+              <m:mrow>
+               <m:msub>
+                <m:mi>θ                </m:mi>
+                   <m:mrow>
+                    <m:mn>
+1
+                    </m:mn>
+                </m:mrow>
+               </m:msub>
+               <m:mo stretchy="false">−               </m:mo>
+               <m:msub>
+                <m:mi>θ                </m:mi>
+                <m:mrow>
+                    <m:mn>
+2
+                    </m:mn>
+                </m:mrow>
+               </m:msub>
+              </m:mrow>
+             </m:mrow>
+            </m:mfenced>
+            <m:mo stretchy="false">−            </m:mo>
+            <m:mrow>
+             <m:mfrac>
+              <m:mrow>
+                  <m:mn>
+1
+                  </m:mn>
+              </m:mrow>
+              <m:mrow>
+                  <m:mn>
+2
+                  </m:mn>
+              </m:mrow>
+             </m:mfrac>
+            </m:mrow>
+           </m:mrow><m:mspace width="0.25em"/>
+           <m:mtext>
+cos
+           </m:mtext><m:mspace width="0.25em"/>
+           <m:mfenced open="(" close=")">
+            <m:mrow>
+             <m:mrow>
+              <m:msub>
+               <m:mi>
+θ
+               </m:mi>
+               <m:mrow>
+
+                   <m:mn>
+1
+                   </m:mn>
+               </m:mrow>
+              </m:msub>
+              <m:mo stretchy="false">
++
+              </m:mo>
+              <m:msub>
+               <m:mi>
+θ
+               </m:mi>
+               <m:mrow>                   <m:mn>
+2
+                   </m:mn>
+               </m:mrow>
+              </m:msub>
+             </m:mrow>
+            </m:mrow>
+           </m:mfenced>
+          </m:mrow>
+         </m:mfenced>
+        </m:mrow>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr><m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+
+       <m:mtd>
+        <m:mrow>
+         <m:msup><m:msub>
+           <m:mrow>
+            <m:mi>v            </m:mi><m:mo>′</m:mo>
+          </m:mrow>
+              <m:mn>1              </m:mn></m:msub>
+              <m:mn>2              </m:mn>
+         </m:msup>
+<m:mo>+</m:mo>
+         <m:msup><m:msub>
+          <m:mrow>
+            <m:mi>v            </m:mi><m:mo>′</m:mo>          </m:mrow>
+              <m:mn>2              </m:mn></m:msub>
+              <m:mn>2              </m:mn>
+         </m:msup>
+<m:mo>+</m:mo>
+         <m:mn>
+2
+         </m:mn>
+         <m:msub>
+          <m:mrow>
+            <m:mi>v            </m:mi><m:mo>′</m:mo>
+          </m:mrow>
+              <m:mn>1              </m:mn>
+         </m:msub>
+         <m:msub>
+           <m:mrow>
+            <m:mi>
+v
+            </m:mi><m:mo>′</m:mo>
+          </m:mrow>
+              <m:mn>
+2
+              </m:mn>
+         </m:msub><m:mspace width="0.25em"/>
+         <m:mtext>
+cos
+         </m:mtext><m:mspace width="0.25em"/>
+         <m:mfenced open="(" close=")">
+          <m:mrow>
+           <m:mrow>
+            <m:msub>
+             <m:mi>
+θ
+             </m:mi>
+             <m:mrow>
+               <m:mrow>
+                <m:mrow>
+                 <m:mn>
+1
+                 </m:mn>
+                </m:mrow>
+               </m:mrow>
+             </m:mrow>
+            </m:msub>
+            <m:mo stretchy="false">
+−
+            </m:mo>
+            <m:msub>
+             <m:mi>
+θ
+             </m:mi>
+             <m:mrow>
+                 <m:mn>
+2
+                 </m:mn>
+             </m:mrow>
+            </m:msub>
+           </m:mrow>
+          </m:mrow>
+         </m:mfenced>
+        </m:mrow><m:mo>.</m:mo>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+    </m:semantics>
+   </m:math>
+</equation><para id="eip-id2611026">Multiply the entire equation by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mi>m</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{2} } } m} {}</m:annotation></m:semantics></m:math> to recover the kinetic energy:</para>
+<equation id="eip-id2367723"><m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mfrac>
+            <m:mn>
+1
+            </m:mn>
+            <m:mn>
+2
+            </m:mn>
+          </m:mfrac>
+         </m:mrow>
+         <m:mrow>
+           <m:mrow>
+            <m:msup><m:msub>
+             <m:mtext mathvariant="italic">
+mv
+             </m:mtext>
+                 <m:mn>1                 </m:mn></m:msub>
+                 <m:mn>2                 </m:mn>
+            </m:msup>
+           </m:mrow>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+           <m:mfrac>
+            <m:mrow>
+             <m:mn>
+1
+             </m:mn>
+            </m:mrow>
+            <m:mrow>
+             <m:mn>
+2
+             </m:mn>
+            </m:mrow>
+           </m:mfrac>
+          </m:mrow>
+         </m:mrow>
+         <m:mi>
+m
+         </m:mi>
+         <m:msup><m:msub>
+           <m:mrow>
+            <m:mi>v            </m:mi><m:mo>′</m:mo>
+           </m:mrow>
+              <m:mn>1              </m:mn></m:msub>
+              <m:mn>2
+              </m:mn>         </m:msup>
+<m:mo>+</m:mo>
+         <m:mrow>
+          <m:mfrac>
+            <m:mn>
+1
+            </m:mn>
+            <m:mn>
+2
+            </m:mn>
+          </m:mfrac>
+         </m:mrow>
+         <m:mi>
+m
+         </m:mi>
+         <m:msup><m:msub>
+          <m:mrow>            <m:mi>v            </m:mi><m:mo>′</m:mo>        </m:mrow>
+              <m:mn>2              </m:mn></m:msub>
+              <m:mn>2              </m:mn>
+         </m:msup>
+<m:mo>+</m:mo>
+         <m:mi>
+m
+         </m:mi>
+        <m:msub>
+          <m:mrow>
+            <m:mi>
+v
+            </m:mi><m:mo>′</m:mo>
+           </m:mrow>
+              <m:mn>
+1
+              </m:mn></m:msub>
+         <m:msub>
+           <m:mrow>
+            <m:mi>
+v
+            </m:mi><m:mo>′</m:mo>
+          </m:mrow>
+              <m:mn>
+2
+              </m:mn>
+         </m:msub><m:mspace width="0.25em"/>
+         <m:mtext>cos         </m:mtext>
+         <m:mfenced open="(" close=")">
+          <m:mrow>
+           <m:mrow>
+            <m:msub>
+             <m:mi>
+θ
+             </m:mi>
+             <m:mrow>
+               <m:mrow>
+                <m:mrow>
+                 <m:mn>
+1
+                 </m:mn>
+                </m:mrow>
+               </m:mrow>
+             </m:mrow>
+            </m:msub>
+            <m:mo stretchy="false">
+−
+            </m:mo>
+            <m:msub>
+             <m:mi>
+θ
+             </m:mi>
+             <m:mrow>
+               <m:mrow>
+                <m:mrow>
+                 <m:mn>
+2
+                 </m:mn>
+                </m:mrow>
+               </m:mrow>
+             </m:mrow>
+            </m:msub>
+           </m:mrow>
+          </m:mrow>
+         </m:mfenced>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+    </m:semantics>
+   </m:math></equation></solution></exercise><exercise id="fs-id2947426" type="problems-exercises"><problem id="fs-id2947427">
+<para id="eip-id1675018"><title>Integrated Concepts</title></para>
+  <para id="import-auto-id2509066">A 90.0-kg ice hockey player hits a 0.150-kg puck, giving the puck a velocity of 45.0 m/s. If both are initially at rest and if the ice is frictionless, how far does the player recoil in the time it takes the puck to reach the goal 15.0 m away? </para></problem></exercise></section>
+
+ </content>
+  <glossary>
+    <definition id="import-auto-id3150716"><term>point masses</term> <meaning id="fs-id2821487">structureless particles with no rotation or spin</meaning></definition>
+  </glossary>
+</document>

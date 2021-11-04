@@ -1,0 +1,439 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Simultaneity And Time Dilation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42531</md:content-id>
+  <md:title>Simultaneity And Time Dilation</md:title>
+  <md:abstract><list>
+<item>Describe simultaneity.</item>
+<item>Describe time dilation.</item>
+<item>Calculate γ.</item>
+<item>Compare proper time and the observer’s measured time.</item>
+<item>Explain why the twin paradox is a false paradox.</item>
+</list></md:abstract>
+  <md:uuid>d6555a80-80d8-4829-9346-07ea9391f391</md:uuid>
+</metadata>
+
+<content>
+
+        <figure id="fs-id1936227"><media id="fs-id2581406" alt="A runner crossing a finishing line on a road with a clock showing his finish time.">
+        <image mime-type="image/jpg" src="../../media/Figure_28_02_01.jpg" width="250"/>
+      </media>
+
+                <caption>Elapsed time for a foot race is the same for all observers, but at relativistic speeds, elapsed time depends on the relative motion of the observer and the event that is observed. (credit: Jason Edward Scott  Bain, Flickr)</caption></figure><para id="import-auto-id2973085">Do time intervals depend on who observes them? Intuitively, we expect the time for a process, such as the elapsed time for a foot race, to be the same for all observers. Our experience has been that disagreements over elapsed time have to do with the accuracy of measuring time. When we carefully consider just how time is measured, however, we will find that elapsed time depends on the relative motion of an observer with respect to the process being measured.</para><section id="fs-id3155062">
+
+    <title>Simultaneity</title><para id="import-auto-id2533168">Consider how we measure elapsed time. If we use a stopwatch, for example, how do we know when to start and stop the watch? One method is to use the arrival of light from the event, such as observing a light turning green to start a drag race. The timing will be more accurate if some sort of electronic detection is used, avoiding human reaction times and other complications.</para><para id="import-auto-id2988234">Now suppose we use this method to measure the time interval between two flashes of light produced by flash lamps. (See <link target-id="import-auto-id3164999"/>.) Two flash lamps with observer A midway between them are on a rail car that moves to the right relative to observer B. Observer B arranges for the light flashes to be emitted just as A passes B, so that both A and B are equidistant from the lamps when the light is emitted. Observer B measures the time interval between the arrival of the light flashes. According to postulate 2, the speed of light is not affected by the motion of the lamps relative to B. Therefore, light travels equal distances to him at equal speeds. Thus observer B measures the flashes to be simultaneous.</para><figure id="import-auto-id3164999"><media id="import-auto-id2000224" alt="A girl as observer A is sitting down midway on a rail car with two flash lamps at opposite sides equidistant from her. Multiple light rays that are emitted from respective flash lamps towards observer A are shown with arrows. A velocity vector arrow for the rail car is shown towards the right. A male observer B standing on the platform is facing her. Now observer A moves with the lamps on a rail car that is as the rail car moves towards the right of observer B. Observer B receives the light flashes simultaneously, but he notes that observer A receives the flash from the right first. B observes the flashes to be simultaneous to him but not to A.">
+        <image mime-type="image/jpg" src="../../media/Figure_29_02_02a.jpg" width="350"/>
+      </media>
+
+        <caption>Observer B measures the elapsed time between the arrival of light flashes as described in the text. Observer A moves with the lamps on a rail car. Observer B views the light flashes occurring simultaneously. Observer B views the light on the right reaching observer A before the light on the left does.</caption></figure>
+
+        <para id="eip-745">Now consider what observer A sees happening. Since both lamps are the same distance from her in her reference frame and the train is moving to the right, she perceives the flash from the right-hand bulb occurring before the left-hand bulb. Here a relative velocity between observers affects whether two events are observed to be simultaneous. <emphasis effect="italics"><emphasis effect="italics">Simultaneity is not absolute.</emphasis></emphasis>.</para><para id="import-auto-id2998902">This illustrates the power of clear thinking. We might have guessed incorrectly that if light is emitted simultaneously, then two observers halfway between the sources would see the flashes simultaneously. But careful analysis shows this not to be the case. Einstein was brilliant at this type of <emphasis effect="italics"><emphasis effect="italics">thought experiment</emphasis></emphasis> (in German, “Gedankenexperiment”). He very carefully considered how an observation is made and disregarded what might seem obvious. The validity of thought experiments, of course, is determined by actual observation. The genius of Einstein is evidenced by the fact that experiments have repeatedly confirmed his theory of relativity.</para>
+    <para id="import-auto-id2906479">In summary: Two events are defined to be simultaneous if an observer measures them as occurring at the same time (such as by receiving light from the events). Two events are not necessarily simultaneous to all observers.</para>
+    </section>
+    <section id="fs-id1936300"><title>Time Dilation</title>
+    <para id="import-auto-id3105181">The consideration of the measurement of elapsed time and simultaneity leads to an important relativistic effect.</para>
+    <note id="fs-id2723484"><label/>
+    <title>Time dilation</title>
+    <para id="import-auto-id1310519"><term id="import-auto-id3199948">Time dilation</term> is the phenomenon of time passing slower for an observer who is moving relative to another observer.</para>
+    </note>
+    <para id="import-auto-id3146016">Suppose, for example, an astronaut measures the time it takes for light to cross her ship, bounce off a mirror, and return. (See <link target-id="import-auto-id1621474"/>.) How does the elapsed time the astronaut measures compare with the elapsed time measured for the same event by a person on the Earth? Asking this question (another thought experiment) produces a profound result. We find that the elapsed time for a process depends on who is measuring it. In this case, the time measured by the astronaut is smaller than the time measured by the Earth-bound observer. The passage of time is different for the observers because the distance the light travels in the astronaut’s frame is smaller than in the Earth-bound frame. Light travels at the same speed in each frame, and so it will take longer to travel the greater distance in the Earth-bound frame.</para>
+
+    <figure id="import-auto-id1621474"><media id="import-auto-id2608756" alt="For part a, an astronaut is standing inside the spaceship with an electronic timer. The timer is showing the time delta-t-zero. The astronaut has to measure time for an activity which has a mirror, the Sun as a source of light, and a receiver. A ray from the light source is striking the mirror and getting reflected back to the receiver. The distance between the source of light and mirror is given by d. For part b, the same activity is observed by a man standing on Earth. He has an electronic timer showing the time as delta-t. For the observer on earth the activity is fragmented into three portions. In the first portion, the ray of light is travelling a distance of and strikes the mirror in the second portion. The third portion shows the reflected ray of light striking the receiver represented by s and having a vertical distance of d. The horizontal distance L observed by the man from the beginning of the event till the end portion is given as L equals to velocity v into delta t upon two.">
+        <image mime-type="image/jpg" src="../../media/Figure_28_02_03.jpg" width="450"/>
+      </media>
+
+    <caption>(a) An astronaut measures the time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> for light to cross her ship using an electronic timer. Light travels a distance <m:math><m:semantics><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in the astronaut’s frame. (b) A person on the Earth sees the light follow the longer path <m:math><m:semantics><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and take a longer time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (c) These triangles are used to find the relationship between the two distances <m:math><m:semantics><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</caption></figure><para id="import-auto-id1964942">To quantitatively verify that time depends on the observer, consider the paths followed by light as seen by each observer. (See <link target-id="import-auto-id1621474"/>(c).) The astronaut sees the light travel straight across and back for a total distance of <m:math><m:semantics><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2D} {}</m:annotation></m:semantics></m:math>, twice the width of her ship. The Earth-bound observer sees the light travel a total distance <m:math><m:semantics><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2s} {}</m:annotation></m:semantics></m:math>. Since the ship is moving at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> to the right relative to the Earth, light moving to the right hits the mirror in this frame. Light travels at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> in both frames, and because time is the distance divided by speed, the time measured by the astronaut is</para><equation id="eip-392"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>D</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } = {  {2D}  over  {c} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2938056">This time has a separate name to distinguish it from the time measured by the Earth-bound observer.</para>
+    <note id="fs-id1676703"><label/>
+    <title><emphasis effect="bold">Proper Time</emphasis></title>
+    <para id="import-auto-id1678187"><term id="import-auto-id2705807">Proper time </term><m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the time measured by an observer at rest relative to the event being observed.</para></note>
+    <para id="import-auto-id3129650">In the case of the astronaut observe the reflecting light, the astronaut measures proper time. The time measured by the Earth-bound observer is</para>
+    <equation id="eip-333"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>s</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt= {  {2s}  over  {c} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2768850">To find the relationship between <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>, consider the triangles formed by <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math>. (See <link target-id="import-auto-id1621474"/>(c).) The third side of these similar triangles is <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>, the distance the astronaut moves as the light goes across her ship. In the frame of the Earth-bound observer,</para><equation id="eip-964"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi fontstyle="italic">v</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  {vΔt}  over  {2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3089525">Using the Pythagorean Theorem, the distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> is found to be</para><equation id="eip-874"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msup><m:mi>D</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mi fontstyle="italic">v</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s= sqrt {D rSup { size 8{2} } + left ( {  {vΔt}  over  {2} }  right ) rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2559713">Substituting <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> into the expression for the time interval <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> gives</para><equation id="eip-238"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>s</m:mi></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:msqrt><m:mrow><m:msup><m:mi>D</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mi fontstyle="italic">v</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow><m:mi>c</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt= {  {2s}  over  {c} } = {  {2 sqrt {D rSup { size 8{2} } + left ( {  {vΔt}  over  {2} }  right ) rSup { size 8{2} } } }  over  {c} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1327279">We square this equation, which yields</para>
+    <equation id="eip-401"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mfenced open="(" close=")"><m:mrow><m:msup><m:mi>D</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mn>4</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow>
+<m:mfrac>
+ <m:msup>
+  <m:mrow>
+   <m:mn>4</m:mn>
+   <m:mi>D</m:mi>
+  </m:mrow>
+  <m:mrow>
+   <m:mn>2</m:mn>
+  </m:mrow>
+ </m:msup>
+ <m:msup>
+  <m:mi>c</m:mi>
+  <m:mrow>
+   <m:mn>2</m:mn>
+  </m:mrow>
+ </m:msup>
+</m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δt \)  rSup { size 8{2} } = {  {4 left [D rSup { size 8{2} } + {  {v rSup { size 8{2} }  \( Δt \)  rSup { size 8{2} } }  over  {4} }  right ]}  over  {c rSup { size 8{2} } } } = {  {4D rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } + {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } }  \( Δt \)  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1578617">Note that if we square the first expression we had for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, we get <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac>
+<m:msup>
+ <m:mrow>
+  <m:mn>4</m:mn>
+  <m:mi>D</m:mi>
+ </m:mrow>
+ <m:mrow>
+  <m:mn>2</m:mn>
+ </m:mrow>
+</m:msup>
+<m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δt rSub { size 8{0} }  \)  rSup { size 8{2} } = {  {4D rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>. This term appears in the preceding equation, giving us a means to relate the two time intervals. Thus,</para><equation id="eip-784"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δt \)  rSup { size 8{2} } = \( Δt rSub { size 8{0} }  \)  rSup { size 8{2} } + {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } }  \( Δt \)  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2576000">Gathering terms, we solve for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-285"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δt \)  rSup { size 8{2} }  left (1 -  {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } }  right )= \( Δt rSub { size 8{0} }  \)  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3203835">Thus,</para>
+    <equation id="eip-927"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δt \)  rSup { size 8{2} } = {  { \( Δt rSub { size 8{0} }  \)  rSup { size 8{2} } }  over  {1 -  {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3354802">Taking the square root yields an important relationship between elapsed times:</para>
+    <equation id="eip-467"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn>
+<m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mrow><m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt= {  {Δt rSub { size 8{0} } }  over  { sqrt {1 -  {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } } } =γΔt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1059430">where</para>
+    <equation id="eip-427"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ= {  {1}  over  { sqrt {1 -  {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2533881">This equation for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> is truly remarkable. First, as contended, elapsed time is not the same for different observers moving relative to one another, even though both are in inertial frames. Proper time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> measured by an observer, like the astronaut moving with the apparatus, is smaller than time measured by other observers. Since those other observers measure a longer time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>, the effect is called time dilation. The Earth-bound observer sees time dilate (get longer) for a system moving relative to the Earth. Alternatively, according to the Earth-bound observer, time slows in the moving frame, since less time passes there. All clocks moving relative to an observer, including biological clocks such as aging, are observed to run slow compared with a clock stationary relative to the observer.</para><para id="import-auto-id1563290">Note that if the relative velocity is much less than the speed of light (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mtext>&lt;&lt;</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v"&lt;&lt;"c} {}</m:annotation></m:semantics></m:math>), then <m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is extremely small, and the elapsed times <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> are nearly equal. At low velocities, modern relativity approaches classical physics—our everyday experiences have very small relativistic effects.</para><para id="import-auto-id2921409">The equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo>
+<m:msub>
+<m:mrow>
+<m:mi fontstyle="italic">γ</m:mi>
+<m:mn>Δ</m:mn>
+<m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub>
+</m:mrow></m:mrow></m:mrow></m:semantics></m:math> also implies that relative velocity cannot exceed the speed of light. As
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> approaches <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> approaches infinity. This would imply that time in the astronaut’s frame stops at the speed of light. If <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> exceeded <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>, then we would be taking the square root of a negative number, producing an imaginary value for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id883013">There is considerable experimental evidence that the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mrow><m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is correct. One example is found in cosmic ray particles that continuously rain down on the Earth from deep space. Some collisions of these particles with nuclei in the upper atmosphere result in short-lived particles called muons. The half-life (amount of time for half of a material to decay) of a muon is
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>52</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "52"` "μs"} {}</m:annotation></m:semantics></m:math> when it is at rest relative to the observer who measures the half-life. This is the proper time
+<m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. Muons produced by cosmic ray particles have a range of velocities, with some moving near the speed of light. It has been found that the muon’s half-life as measured by an Earth-bound observer (<m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>) varies with velocity exactly as predicted by the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mrow><m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=γΔt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. The faster the muon moves, the longer it lives. We on the Earth see the muon’s half-life time dilated—as viewed from our frame, the muon decays more slowly than it does when at rest relative to us.</para><example id="fs-id3081310"><title>Calculating <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> for a Relativistic Event: How Long Does a Speedy Muon Live?</title><para id="import-auto-id3150983">Suppose a cosmic ray colliding with a nucleus in the Earth’s upper atmosphere produces a muon that has a velocity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>950</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0 "." "950"c} {}</m:annotation></m:semantics></m:math>. The muon then travels at constant velocity and lives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>52</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi fontstyle="italic">μ</m:mi><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "52"` ital "μs"} {}</m:annotation></m:semantics></m:math> as measured in the muon’s frame of reference. (You can imagine this as the muon’s internal clock.) How long does the muon live as measured by an Earth-bound observer? (See <link target-id="import-auto-id2721662"/>.)</para><figure id="import-auto-id2721662"><media id="import-auto-id1579079" alt="A muon is moving far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.">
+          <image mime-type="image/jpg" src="../../media/Figure_29_02_04a.jpg" width="200"/>
+        </media>
+
+      <caption>A muon in the Earth’s atmosphere lives longer as measured by an Earth-bound observer than measured by the muon’s internal clock.</caption></figure><!--  <figure id="import-auto-id3158056">
+        <media id="import-auto-id2550251" alt="A muon is place far above the earth. A teenage boy is looking towards the muon. A velocity vector arrow V starting from Muon is pointing toward the boy. A clock depicting time delta-t-zero is shown near the muon, and another time clock depicting the time delta-t is shown near the boy.">
+          <image mime-type="image/jpg" src="Picture 19.jpg" height="217" width="141"/>
+        </media>
+      </figure>-->
+     <para id="fs-id1494380"> <title>Strategy</title></para>
+    <para id="import-auto-id1349461">A clock moving with the system being measured observes the proper time, so the time we are given is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>52</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">μ</m:mi><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The Earth-bound observer measures
+<m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> as given by the equation
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo>
+<m:msub><m:mrow><m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub>
+</m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Since we know the velocity, the calculation is straightforward.</para><para id="import-auto-id2581300">
+      <title>Solution</title>
+    </para>
+        <para id="eip-255">1) Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>950</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>52</m:mtext><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para><para id="eip-117">2) Identify the unknown. <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para><para id="eip-214">3) Choose the appropriate equation.</para><para id="eip-571">Use,</para><equation id="eip-544"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mrow><m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="eip-95">where</para><equation id="eip-201"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo>
+<m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac>
+</m:mrow></m:msqrt></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation><para id="eip-785">4) Plug the knowns into the equation.</para><para id="eip-119">First find <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><equation id="eip-216"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                          <m:mi>γ</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:msqrt>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:msup>
+                                    <m:mi>v</m:mi>
+
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                  <m:msup>
+                                    <m:mi>c</m:mi>
+
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mfrac>
+                              </m:mrow>
+                            </m:msqrt>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>0.950</m:mn>
+                              <m:mi>c</m:mi>
+                              <m:msup>
+                                <m:mo stretchy="false">)</m:mo>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                            </m:mrow>
+                            <m:msup>
+                              <m:mi>c</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                               <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>0.950</m:mn>
+                                                            <m:msup>
+                       <m:mo stretchy="false">)</m:mo>
+
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+
+                            </m:msup>
+                            </m:mrow>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mfrac>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mn>3.20.</m:mn>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+
+        </m:semantics>
+      </m:math></equation><para id="eip-418">Use the calculated value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> to determine <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><equation id="eip-617"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd><m:mn>Δ</m:mn>
+                          <m:mi fontstyle="italic">t</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub><m:mrow>
+                            <m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi>
+                            </m:mrow>
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>3.20</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>1.52</m:mn><m:mspace width="0.25em"/>
+                    <m:mi>μ</m:mi><m:mtext> s</m:mtext>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mn>4.87</m:mn><m:mspace width="0.25em"/>
+                    <m:mi>μ</m:mi><m:mtext> s</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2510612">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2511167">One implication of this example is that since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>20</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ=3 "." "20"} {}</m:annotation></m:semantics></m:math> at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>95</m:mtext><m:mtext>.</m:mtext><m:mn>0%</m:mn><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"95" "." 0%} {}</m:annotation></m:semantics></m:math> of the speed of light (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>950</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0 "." "950"c} {}</m:annotation></m:semantics></m:math>), the relativistic effects are significant. The two time intervals differ by this factor of 3.20, where classically they would be the same. Something moving at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>950</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "950"c} {}</m:annotation></m:semantics></m:math> is said to be highly relativistic.</para>
+    </example><para id="import-auto-id2985610">Another implication of the preceding example is that everything an astronaut does when moving at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>95</m:mtext><m:mtext>.</m:mtext><m:mn>0%</m:mn><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"95" "." 0%} {}</m:annotation></m:semantics></m:math> of the speed of light relative to the Earth takes 3.20 times longer when observed from the Earth. Does the astronaut sense this? Only if she looks outside her spaceship. All methods of measuring time in her frame will be affected by the same factor of 3.20. This includes her wristwatch, heart rate, cell metabolism rate, nerve impulse rate, and so on. She will have no way of telling, since all of her clocks will agree with one another because their relative velocities are zero. Motion is relative, not absolute. But what if she does look out the window?</para><note id="fs-id1502134"><label/>
+    <title>Real-World Connections</title>
+    <para id="import-auto-id1322077">It may seem that special relativity has little effect on your life, but it is probably more important than you realize. One of the most common effects is through the Global Positioning System (GPS). Emergency vehicles, package delivery services, electronic maps, and communications devices are just a few of the common uses of GPS, and the GPS system could not work without taking into account relativistic effects. GPS satellites rely on precise time measurements to communicate. The signals travel at relativistic speeds. Without corrections for time dilation, the satellites could not communicate, and the GPS system would fail within minutes.</para>
+    </note>
+    </section>
+    <section id="fs-id2960599"><title>The Twin Paradox</title><para id="import-auto-id1495002">An intriguing consequence of time dilation is that a space traveler moving at a high velocity relative to the Earth would age less than her Earth-bound twin. Imagine the astronaut moving at such a velocity that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ="30" "." 0} {}</m:annotation></m:semantics></m:math>, as in <link target-id="import-auto-id983596"/>. A trip that takes 2.00 years in her frame would take 60.0 years in her Earth-bound twin’s frame. Suppose the astronaut traveled 1.00 year to another star system. She briefly explored the area, and then traveled 1.00 year back. If the astronaut was 40 years old when she left, she would be 42 upon her return. Everything on the Earth, however, would have aged 60.0 years. Her twin, if still alive, would be 100 years old.</para>
+    <para id="import-auto-id3143789">The situation would seem different to the astronaut. Because motion is relative, the spaceship would seem to be stationary and the Earth would appear to move. (This is the sensation you have when flying in a jet.) If the astronaut looks out the window of the spaceship, she will see time slow down on the Earth by a factor of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ="30" "." 0} {}</m:annotation></m:semantics></m:math>. To her, the Earth-bound sister will have aged only 2/30 (1/15) of a year, while she aged 2.00 years. The two sisters cannot both be correct.</para>
+
+    <figure id="import-auto-id983596"><media id="import-auto-id2759013" alt="There are two sections in this figure. In the first section a young woman is shown standing on the Earth and her twin is standing in a traveling spaceship. There is a clock beside each of the women showing equal time. In the second section of the figure it is shown that the traveling twin ages less than the Earth-bound twin and the Earth-bound twin is looking older. In the clocks it is shown that on Earth time runs faster than on the traveling spaceship.">
+        <image mime-type="image/jpg" src="../../media/Figure_29_02_05a.jpg" width="250"/>
+      </media>
+
+    <caption>The twin paradox asks why the traveling twin ages less than the Earth-bound twin. That is the prediction we obtain if we consider the Earth-bound twin’s frame. In the astronaut’s frame, however, the Earth is moving and time runs slower there. Who is correct?</caption></figure><para id="import-auto-id1343207">As with all paradoxes, the premise is faulty and leads to contradictory conclusions. In fact, the astronaut’s motion is significantly different from that of the Earth-bound twin. The astronaut accelerates to a high velocity and then decelerates to view the star system. To return to the Earth, she again accelerates and decelerates. The Earth-bound twin does not experience these accelerations. So the situation is not symmetric, and it is not correct to claim that the astronaut will observe the same effects as her Earth-bound twin. If you use special relativity to examine the twin paradox, you must keep in mind that the theory is expressly based on inertial frames, which by definition are not accelerated or rotating. Einstein developed general relativity to deal with accelerated frames and with gravity, a prime source of acceleration. You can also use general relativity to address the twin paradox and, according to general relativity, the astronaut will age less. Some important conceptual aspects of general relativity are discussed in <link document="m42689">General Relativity and Quantum Gravity</link> of this course.</para><para id="import-auto-id2722570">In 1971, American physicists Joseph Hafele and Richard Keating verified time dilation at low relative velocities by flying extremely accurate atomic clocks around the Earth on commercial aircraft. They measured elapsed time to an accuracy of a few nanoseconds and compared it with the time measured by clocks left behind. Hafele and Keating’s results were within experimental uncertainties of the predictions of relativity. Both special and general relativity had to be taken into account, since gravity and accelerations were involved as well as relative motion.</para>
+
+<exercise id="fs-id2680242" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id2600906"><para id="fs-id2600907">1. What is <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> if <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.650</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0 "." "150"c} {}</m:annotation></m:semantics></m:math>?</para>
+<para id="eip-id5698257">2. A particle travels at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>90</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "90" times "10" rSup { size 8{8} } `"m/s"} {}</m:annotation></m:semantics></m:math> and lives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mn>s</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "10" times "10" rSup { size 8{ - 8} } `s} {}</m:annotation></m:semantics></m:math> when at rest relative to an observer. How long does the particle live as viewed in the laboratory?</para></problem>
+<solution id="fs-id1599500">
+<para id="eip-id1169344662744">1. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi fontstyle="italic">c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>650</m:mtext><m:mi fontstyle="italic">c</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mi fontstyle="italic">c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>32</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ= {  {1}  over  { sqrt {1 -  {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } } } = {  {1}  over  { sqrt {1 -  {  { \( 0 "." "650"c \)  rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } } } =1 "." "32"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1744942">2. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi fontstyle="italic">c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext> s</m:mtext></m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>90</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext> m/s</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext> m/s</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>71</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt= {  {Δt rSub { size 8{0} } }  over  { sqrt {1 -  {  {v rSup { size 8{2} } }  over  {c rSup { size 8{2} } } } } } } = {  {2 "." "10" times "10" rSup { size 8{ - 8} } " s"}  over  { sqrt {1 -  {  { \( 1 "." "90" times "10" rSup { size 8{8} } " m/s" \)  rSup { size 8{2} } }  over  { \( 3 "." "00" times "10" rSup { size 8{8} } " m/s" \)  rSup { size 8{2} } } } } } } =2 "." "71" times "10" rSup { size 8{ - 8} } " s"} {}</m:annotation></m:semantics></m:math></para></solution>
+</exercise></section><section id="fs-id2911260" class="section-summary"><title>Section Summary</title><list id="fs-id1590947"><item id="import-auto-id2719975">Two events are defined to be simultaneous if an observer measures them as occurring at the same time. They are not necessarily simultaneous to all observers—simultaneity is not absolute.</item>
+    <item id="import-auto-id2800636">Time dilation is the phenomenon of time passing slower for an observer who is moving relative to another observer.</item>
+    <item id="import-auto-id3201037">Observers moving at a relative velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> do not measure the same elapsed time for an event. Proper time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the time measured by an observer at rest relative to the event being observed. Proper time is related to the time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> measured by an Earth-bound observer by the equation
+   <equation id="eip-id3262203"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mrow><m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id919129">where</para>
+<equation id="eip-id2755919"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation></item>
+    <item id="import-auto-id830409">The equation relating proper time and time measured by an Earth-bound observer implies that relative velocity cannot exceed the speed of light.</item>
+    <item id="import-auto-id2574148">The twin paradox asks why a twin traveling at a relativistic speed away and then back towards the Earth ages less than the Earth-bound twin. The premise to the paradox is faulty because the traveling twin is accelerating. Special relativity does not apply to accelerating frames of reference.</item>
+    <item id="import-auto-id2687337">Time dilation is usually negligible at low relative velocities, but it does occur, and it has been verified by experiment.</item>
+</list></section><section id="fs-id1536008" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id3159158" type="conceptual-questions"><problem id="fs-id1334316">
+    <para id="import-auto-id2657584">Does motion affect the rate of a clock as measured by an observer moving with it? Does motion affect how an observer moving relative to a clock measures its rate?</para>
+    </problem></exercise>
+    <exercise id="fs-id2725128" type="conceptual-questions"><problem id="fs-id3143366">
+    <para id="import-auto-id2555720">To whom does the elapsed time for a process seem to be longer, an observer moving relative to the process or an observer moving with the process? Which observer measures proper time?</para>
+    </problem></exercise>
+    <exercise id="fs-id2790874" type="conceptual-questions"><problem id="fs-id2009201">
+    <para id="import-auto-id2960806">How could you travel far into the future without aging significantly? Could this method also allow you to travel into the past?</para>
+    </problem></exercise>
+</section><section id="fs-id2834702" type="problems-exercises" class="problems-exercises">
+        <title>Problems &amp; Exercises</title>
+    <exercise id="fs-id1745109" type="problems-exercises"><problem id="fs-id2996495">    <para id="import-auto-id2597520">(a) What is <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> if <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0 "." "250"c} {}</m:annotation></m:semantics></m:math>? (b) If <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0 "." "500"c} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem>
+<solution id="fs-id1516876">
+    <para id="import-auto-id2800832">(a) 1.0328</para>
+    <para id="import-auto-id2820972">(b) 1.15</para></solution>
+    </exercise>
+    <exercise id="fs-id1541351" type="problems-exercises"><problem id="fs-id2988397">    <para id="import-auto-id3102775">(a) What is <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> if <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>100</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0 "." "100"c} {}</m:annotation></m:semantics></m:math>? (b) If <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>900</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0 "." "900"c} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem></exercise>
+    <exercise id="fs-id1780163" type="problems-exercises"><problem id="fs-id1780164">    <para id="import-auto-id3145691">Particles called <m:math><m:semantics><m:mrow><m:mrow><m:mi>π</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π} {}</m:annotation></m:semantics></m:math>-mesons are produced by accelerator beams. If these particles travel at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>70</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "70" times "10" rSup { size 8{8} } `"m/s"} {}</m:annotation></m:semantics></m:math> and live <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>60</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> when at rest relative to an observer, how long do they live as viewed in the laboratory?</para></problem>
+<solution id="fs-id1500109">
+    <para id="import-auto-id1356478"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>96</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>8</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> s</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{5 "." "96" times "10" rSup { size 8{ - 8} } " s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id3167345" type="problems-exercises"><problem id="fs-id1539820">    <para id="import-auto-id1534663">Suppose a particle called a kaon is created by cosmic radiation striking the atmosphere. It moves by you at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>980</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "980"c} {}</m:annotation></m:semantics></m:math>, and it lives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>24</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> when at rest relative to an observer. How long does it live as you observe it?</para></problem></exercise>
+    <exercise id="fs-id1352226" type="problems-exercises"><problem id="fs-id1352227">    <para id="import-auto-id1777643">A neutral <m:math><m:semantics><m:mrow><m:mrow><m:mi>π</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π} {}</m:annotation></m:semantics></m:math>-meson is a particle that can be created by accelerator beams. If one such particle lives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>40</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> as measured in the laboratory, and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>840</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> when at rest relative to an observer, what is its velocity relative to the laboratory?</para></problem>
+<solution id="fs-id2727877">
+    <para id="import-auto-id3102535"><m:math><m:semantics><m:mrow><m:mn>0.800</m:mn><m:mi fontstyle="italic">c</m:mi></m:mrow></m:semantics></m:math></para></solution>
+    </exercise>
+    <exercise id="fs-id2784785" type="problems-exercises"><problem id="fs-id1493552">    <para id="import-auto-id2723532">A neutron lives 900 s when at rest relative to an observer. How fast is the neutron moving relative to an observer who measures its life span to be 2065 s?</para>
+    </problem></exercise>
+    <exercise id="fs-id2944491" type="problems-exercises"><problem id="fs-id1493663">    <para id="import-auto-id3067359">If relativistic effects are to be less than 1%, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> must be less than 1.01. At what relative velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>01</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ=1 "." "01"} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem>
+<solution id="fs-id1343645">
+    <para id="import-auto-id3143849">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>140</m:mtext>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "140"c} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1326175" type="problems-exercises"><problem id="fs-id1539376">    <para id="import-auto-id2631826">If relativistic effects are to be less than 3%, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> must be less than 1.03. At what relative velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>03</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ=1 "." "03"} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem></exercise>
+    <exercise id="fs-id1310375" type="problems-exercises"><problem id="fs-id2591456">    <para id="import-auto-id1536776">(a) At what relative velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>50</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ=1 "." "50"} {}</m:annotation></m:semantics></m:math>? (b) At what relative velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>100</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ="100"} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem>
+<solution id="fs-id1437255">
+    <para id="import-auto-id3204710">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>745</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "745"c} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id3204715">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>99995</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "99995"c} {}</m:annotation></m:semantics></m:math> (to five digits to show effect)</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1349718" type="problems-exercises"><problem id="fs-id2677417">    <para id="import-auto-id1562627">(a) At what relative velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ=2 "." "00"} {}</m:annotation></m:semantics></m:math>? (b) At what relative velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ="10" "." 0} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem></exercise>
+    <exercise id="fs-id2723163" type="problems-exercises"><problem id="fs-id2799507">    <para id="import-auto-id3082333"><title>Unreasonable Results</title></para>
+<para id="eip-id1172658084168">(a) Find the value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> for the following situation. An Earth-bound observer measures 23.9 h to have passed while signals from a high-velocity space probe indicate that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>24.0 h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"24" "." 0" h"} {}</m:annotation></m:semantics></m:math> have passed on board. (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para></problem>
+<solution id="fs-id890251">
+    <para id="import-auto-id1946286">(a) 0.996</para>
+    <para id="import-auto-id1946288">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> cannot be less than 1.</para>
+    <para id="import-auto-id3159525">(c) Assumption that time is longer in moving ship is unreasonable.</para>
+    </solution>
+    </exercise></section>
+ </content>
+      <glossary>
+    <definition id="import-auto-id1954702"><term>time dilation</term> <meaning id="fs-id2559141">the phenomenon of time passing slower to an observer who is moving relative to another observer</meaning></definition>
+    <definition id="import-auto-id2749415"><term>proper time</term> <meaning id="fs-id1917294"><m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. the time measured by an observer at rest relative to the event being observed: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mrow><m:mi fontstyle="italic">γ</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, where
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id704517"><term>twin paradox</term> <meaning id="fs-id2692462">this asks why a twin traveling at a relativistic speed away and then back towards the Earth ages less than the Earth-bound twin. The premise to the paradox is faulty because the traveling twin is accelerating, and special relativity does not apply to accelerating frames of reference</meaning></definition>
+    </glossary>
+</document>

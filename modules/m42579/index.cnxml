@@ -1,0 +1,657 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Probability: The Heisenberg Uncertainty Principle</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42579</md:content-id>
+  <md:title>Probability: The Heisenberg Uncertainty Principle</md:title>
+  <md:abstract><list>
+<item>Use both versions of Heisenberg’s uncertainty principle in calculations.</item>
+<item>Explain the implications of Heisenberg’s uncertainty principle for measurements.</item>
+</list></md:abstract>
+  <md:uuid>d45b204f-4b3a-4c7a-9018-d091e9270579</md:uuid>
+</metadata>
+
+<content>
+
+    <section id="fs-id1278843">
+      <title>Probability Distribution</title>
+    <para id="import-auto-id1575044">Matter and photons are waves, implying they are spread out over some distance. What is the position of a particle, such as an electron? Is it at the center of the wave? The answer lies in how you measure the position of an electron. Experiments show that you will find the electron at some definite location, unlike a wave. But if you set up exactly the same situation and measure it again, you will find the electron in a different location, often far outside any experimental uncertainty in your measurement. Repeated measurements will display a statistical distribution of locations that appears wavelike. (See <link target-id="import-auto-id2632011"/>.)</para><figure id="import-auto-id2632011"><media id="import-auto-id1516383" alt="A graph is shown for intensity which is varying like a wave. Corresponding to the maximum point of the wave electrons are shown as small dots in three strips. These strips show different number of electrons with varying density of dots along the length of the strip. A larger number of electrons are in the first strip, a smaller number of electrons in the second strip, and very few electrons in third strip.">
+        <image mime-type="image/jpg" src="../../media/Figure 30_07_01a.jpg" width="350"/>
+      </media>
+
+        <caption>The building up of the diffraction pattern of electrons scattered from a crystal surface. Each electron arrives at a definite location, which cannot be precisely predicted. The overall distribution shown at the bottom can be predicted as the diffraction of waves having the de Broglie wavelength of the electrons.</caption></figure><figure id="fs-id1428943"><media id="fs-id2355756" alt="A double-slit interference wavelength pattern for electrons is shown in figure a and for photons in figure b.">
+          <image mime-type="image/jpg" src="../../media/Figure 30_07_02a.jpg" width="400"/>
+        </media>
+
+     <caption>Double-slit interference for electrons (a) and photons (b) is identical for equal wavelengths and equal slit separations. Both patterns are probability distributions in the sense that they are built up by individual particles traversing the apparatus, the paths of which are not individually predictable.</caption></figure><para id="import-auto-id1601236">After de Broglie proposed the wave nature of matter, many physicists, including Schrödinger and Heisenberg, explored the consequences. The idea quickly emerged that, <emphasis effect="italics"><emphasis effect="italics">because of its wave character, a particle’s trajectory and destination cannot be precisely predicted for each particle individually</emphasis></emphasis>. However, each particle goes to a definite place (as illustrated in <link target-id="import-auto-id2632011"/>). After compiling enough data, you get a distribution related to the particle’s wavelength and diffraction pattern. There is a certain <emphasis effect="italics"><emphasis effect="italics">probability</emphasis></emphasis> of finding the particle at a given location, and the overall pattern is called a <term id="import-auto-id2297801">probability distribution</term>. Those who developed quantum mechanics devised equations that predicted the probability distribution in various circumstances.</para>
+    <para id="import-auto-id2654858">It is somewhat disquieting to think that you cannot predict exactly where an individual particle will go, or even follow it to its destination. Let us explore what happens if we try to follow a particle. Consider the double-slit patterns obtained for electrons and photons in <link target-id="fs-id1428943"/>. First, we note that these patterns are identical, following <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">mλ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d"sin"θ=mλ} {}</m:annotation></m:semantics></m:math>, the equation for double-slit constructive interference developed in <link document="m42563">Photon Energies and the Electromagnetic Spectrum</link>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> is the slit separation and <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> is the electron or photon wavelength.</para><para id="import-auto-id2631949">Both patterns build up statistically as individual particles fall on the detector. This can be observed for photons or electrons—for now, let us concentrate on electrons. You might imagine that the electrons are interfering with one another as any waves do. To test this, you can lower the intensity until there is never more than one electron between the slits and the screen. The same interference pattern builds up! This implies that a particle’s probability distribution spans both slits, and the particles actually interfere with themselves. Does this also mean that the electron goes through both slits? An electron is a basic unit of matter that is not divisible. But it is a fair question, and so we should look to see if the electron traverses one slit or the other, or both. One possibility is to have coils around the slits that detect charges moving through them. What is observed is that an electron always goes through one slit or the other; it does not split to go through both. But there is a catch. If you determine that the electron went through one of the slits, you no longer get a double slit pattern—instead, you get single slit interference. There is no escape by using another method of determining which slit the electron went through. Knowing the particle went through one slit forces a single-slit pattern. If you do not observe which slit the electron goes through, you obtain a double-slit pattern.</para>
+    </section>
+
+<section id="fs-id2320174">
+  <title>Heisenberg Uncertainty</title>
+    <para id="import-auto-id1412386">How does knowing which slit the electron passed through change the pattern? The answer is fundamentally important—<emphasis effect="italics"><emphasis effect="italics">measurement affects the system being observed</emphasis></emphasis>. Information can be lost, and in some cases it is impossible to measure two physical quantities simultaneously to exact precision. For example, you can measure the position of a moving electron by scattering light or other electrons from it. Those probes have momentum themselves, and by scattering from the electron, they change its momentum <emphasis effect="italics"><emphasis effect="italics">in a manner that loses information</emphasis></emphasis>. There is a limit to absolute knowledge, even in principle.</para>
+
+
+    <figure id="import-auto-id1606394"><media id="import-auto-id2035261" alt="A photograph of a young, smiling Werner Heisenberg.">
+        <image mime-type="image/png" src="../../media/Figure 30_07_04a.jpg" height="300"/>
+      </media>
+
+<caption>Werner Heisenberg was one of the best of those physicists who developed early quantum mechanics. Not only did his work enable a description of nature on the very small scale, it also changed our view of the availability of knowledge. Although he is universally recognized for his brilliance and the importance of his work (he received the Nobel Prize in 1932, for example), Heisenberg remained in Germany during World War II and headed the German effort to build a nuclear bomb, permanently alienating himself from most of the scientific community. (credit: Author Unknown, via Wikimedia Commons)</caption></figure><para id="import-auto-id2608660">It was Werner Heisenberg who first stated this limit to knowledge in 1929 as a result of his work on quantum mechanics and the wave characteristics of all particles. (See <link target-id="import-auto-id1606394"/>). Specifically, consider simultaneously measuring the position and momentum of an electron (it could be any particle). There is an <term>uncertainty in position</term> <emphasis effect="bold"/><m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx} {}</m:annotation></m:semantics></m:math> that is approximately equal to the wavelength of the particle. That is,</para><equation id="eip-252"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mo stretchy="false">≈</m:mo><m:mi>λ</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx  approx  λ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2686072">As discussed above, a wave is not located at one point in space. If the electron’s position is measured repeatedly, a spread in locations will be observed, implying an uncertainty in position <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx} {}</m:annotation></m:semantics></m:math>. To detect the position of the particle, we must interact with it, such as having it collide with a detector. In the collision, the particle will lose momentum. This change in momentum could be anywhere from close to zero to the total momentum of the particle, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p = h/λ} {}</m:annotation></m:semantics></m:math>. It is not possible to tell how much momentum will be transferred to a detector, and so there is an <term id="import-auto-id1303661">uncertainty in momentum</term> <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp } {}</m:annotation></m:semantics></m:math>, too. In fact, the uncertainty in momentum may be as large as the momentum itself, which in equation form means that</para><equation id="eip-691"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo stretchy="false">≈</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>λ</m:mi></m:mfrac></m:mrow></m:mrow><m:mo>.</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp  approx   {  {h}  over  {λ} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1902868">The uncertainty in position can be reduced by using a shorter-wavelength electron, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mo stretchy="false">≈</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx approx λ} {}</m:annotation></m:semantics></m:math>. But shortening the wavelength increases the uncertainty in momentum, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo stretchy="false">≈</m:mo><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp approx h/λ} {}</m:annotation></m:semantics></m:math>. Conversely, the uncertainty in momentum can be reduced by using a longer-wavelength electron, but this increases the uncertainty in position. Mathematically, you can express this trade-off by multiplying the uncertainties. The wavelength cancels, leaving</para><equation id="eip-840"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mn>Δ</m:mn><m:mi>p</m:mi><m:mo stretchy="false">≈</m:mo><m:mi>h</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔxΔp  approx  h} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1434022">So if one uncertainty is reduced, the other must increase so that their product is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo>≈</m:mo><m:mi>h</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ approx h} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1285511">With the use of advanced mathematics, Heisenberg showed that the best that can be done in a <emphasis effect="italics"><emphasis effect="italics">simultaneous measurement of position and momentum</emphasis></emphasis> is</para>
+    <equation id="eip-227"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mn>Δ</m:mn><m:mi>p</m:mi><m:mo stretchy="false">≥</m:mo><m:mfrac><m:mi>h</m:mi><m:mn>4π</m:mn></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔxΔp  &gt;=   {  {h}  over  {4π} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1558492">This is known as the <term id="import-auto-id1487877">Heisenberg uncertainty principle</term>. It is impossible to measure position <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> and momentum <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> simultaneously with uncertainties <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp} {}</m:annotation></m:semantics></m:math> that multiply to be less than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mn>4π</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h/4π} {}</m:annotation></m:semantics></m:math>. Neither uncertainty can be zero. Neither uncertainty can become small without the other becoming large. A small wavelength allows accurate position measurement, but it increases the momentum of the probe to the point that it further disturbs the momentum of a system being measured. For example, if an electron is scattered from an atom and has a wavelength small enough to detect the position of electrons in the atom, its momentum can knock the electrons from their orbits in a manner that loses information about their original motion. It is therefore impossible to follow an electron in its orbit around an atom. If you measure the electron’s position, you will find it in a definite location, but the atom will be disrupted. Repeated measurements on identical atoms will produce interesting probability distributions for electrons around the atom, but they will not produce motion information. The probability distributions are referred to as electron clouds or orbitals. The shapes of these orbitals are often shown in general chemistry texts and are discussed in <link document="m42606">The Wave Nature of Matter Causes Quantization</link>.</para><example id="fs-id2686522">
+    <title>Heisenberg Uncertainty Principle in Position and Momentum for an Atom</title>
+    <para id="import-auto-id966182">(a) If the position of an electron in an atom is measured to an accuracy of 0.0100 nm, what is the electron’s uncertainty in velocity? (b) If the electron has this velocity, what is its kinetic energy in eV?</para><para id="import-auto-id1406535"><title>Strategy</title></para>
+    <para id="fs-id1516698">The uncertainty in position is the accuracy of the measurement, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>0100</m:mtext><m:mspace width="0.25em"/><m:mi/><m:mtext>nm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx=0 "." "0100"`"nm"} {}</m:annotation></m:semantics></m:math>. Thus the smallest uncertainty in momentum <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp} {}</m:annotation></m:semantics></m:math> can be calculated using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mn>Δ</m:mn><m:mi>p</m:mi><m:mo stretchy="false">≥</m:mo><m:mi>h</m:mi></m:mrow><m:mtext>/4</m:mtext><m:mi>π</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔxΔp  &gt;=  h"/4"π} {}</m:annotation></m:semantics></m:math>. Once the uncertainty in momentum <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp} {}</m:annotation></m:semantics></m:math> is found, the uncertainty in velocity can be found from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">m</m:mi><m:mn>Δ</m:mn><m:mi>v</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp=mΔv} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1777032"><title>Solution for (a)</title></para>
+    <para id="fs-id1558963">Using the equals sign in the uncertainty principle to express the minimum uncertainty, we have</para><equation id="eip-833"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mn>Δ</m:mn><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>h</m:mi><m:mn>4π</m:mn></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔxΔp =  {  {h}  over  {4π} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2626435">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp} {}</m:annotation></m:semantics></m:math> and substituting known values gives</para><equation id="eip-810"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow><m:mn>Δ</m:mn>
+                        <m:mi fontstyle="italic">p</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mi>h</m:mi>
+                          <m:mrow>
+                            <m:mn>4π</m:mn><m:mn>Δ</m:mn>
+                            <m:mi fontstyle="italic">x</m:mi>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mtext> 6.63</m:mtext>
+                          <m:mrow>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext> 10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mtext>–34</m:mtext>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                          <m:mrow><m:mspace width="0.25em"/>
+                            <m:mtext> J </m:mtext>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mtext> s</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4π</m:mn>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>1.00</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext> 10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mtext>–11</m:mtext>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mtext> m</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext> 5</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>28 </m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mtext>–24</m:mtext>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow><m:mspace width="0.25em"/>
+                    <m:mtext> kg </m:mtext>
+                    <m:mo stretchy="false">⋅</m:mo>
+                    <m:mtext> m/s </m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{Δp =  {  {h}  over  {4π Δx} }  = {  {" 6" "." "63 " times " 10" rSup { size 8{"–34"} } " J " cdot " s"}  over  {4π \( 1 "." "00"  times " 10" rSup { size 8{"–11"} } " m" \) } }  =" 5" "." "28 " times " 10" rSup { size 8{"–24"} } " kg " cdot " m/s " "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1257964">Thus,</para>
+    <equation id="eip-705"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo stretchy="false">=</m:mo><m:mtext> 5</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>28 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mtext>–24</m:mtext></m:mrow></m:msup></m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext> kg </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext> m/s </m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">m</m:mi><m:mn>Δ</m:mn><m:mi>v</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp =" 5" "." "28 " times " 10" rSup { size 8{"–24"} } " kg " cdot " m/s "= mΔv} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1288706">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv} {}</m:annotation></m:semantics></m:math> and substituting the mass of an electron gives</para><equation id="eip-899"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow><m:mn>Δ</m:mn>
+                        <m:mi fontstyle="italic">v</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac><m:mrow><m:mn>Δ</m:mn>
+                          <m:mi fontstyle="italic">p</m:mi></m:mrow>
+                          <m:mi>m</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mtext>28 </m:mtext>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext> 10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mtext>–24</m:mtext>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mrow>
+                            <m:mtext> kg </m:mtext>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mtext> m/s</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mtext>11 </m:mtext>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext> 10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mtext>–31</m:mtext>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mtext> kg</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext> 5</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>79 </m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> m/s</m:mtext>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{Δv =  {  {Δp}  over  {m} }  =  {  {5 "." "28 " times " 10" rSup { size 8{"–24"} } " kg " cdot " m/s"}  over  {9 "." "11 " times " 10" rSup { size 8{"–31"} } " kg"} } =" 5" "." "79 " times " 10" rSup { size 8{6} } " m/s" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2337482"><title>Solution for (b)</title></para>
+    <para id="fs-id986859">Although large, this velocity is not highly relativistic, and so the electron’s kinetic energy is</para>
+    <equation id="eip-669"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left">
+                <m:mtr><m:mtd><m:msub>
+                          <m:mtext>KE</m:mtext>
+
+
+                                <m:mi>e</m:mi></m:msub></m:mtd>
+
+                            <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                            <m:mtd><m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                              <m:msup>
+                                <m:mtext fontstyle="italic">mv</m:mtext>
+                                    <m:mn>2</m:mn>
+                              </m:msup></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow> <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mrow>
+                      <m:mtext>9.11 </m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext> 10</m:mtext>
+
+                          <m:mrow>
+                            <m:mtext>–31</m:mtext>
+                          </m:mrow>
+
+                      </m:msup><m:mspace width="0.25em"/>
+                    </m:mrow>
+                    <m:mtext> kg</m:mtext>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                      <m:mtext>5.79 </m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext> 10</m:mtext>
+                            <m:mn>6</m:mn>
+
+                      </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> m/s</m:mtext>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mtext>(1.53 </m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext> 10</m:mtext>
+                            <m:mtext>–17</m:mtext>
+                      </m:msup><m:mspace width="0.25em"/>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext> J)</m:mtext>
+                        <m:mo>(</m:mo>
+                        <m:mfrac>
+                          <m:mtext>1 eV</m:mtext>
+                          <m:mrow>
+                              <m:mtext>1.60 </m:mtext>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:msup>
+                                <m:mtext> 10</m:mtext>
+                                    <m:mtext>–19</m:mtext>
+                              </m:msup><m:mspace width="0.25em"/>
+                            <m:mtext> J</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>                   </m:mrow>
+                        <m:mo>)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext> 95.5 eV.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"KE" size 8{e} =  {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } }  {} #
+=" 0" "." 5 \( 9 "." "11 " times " 10" rSup { size 8{"–31"} } " kg" \)  \( 5 "." "79 " times " 10" rSup { size 8{6} } " m/s" \)  rSup { size 8{2} }  {} #
+=" 1" "." "53 " times " 10" rSup { size 8{"–17"} } " J " cdot   {  {"1eV"}  over  {1 "." "60 " times " 10" rSup { size 8{"–19"} } " J"} }  =" 95" "." "5 eV" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2054265"><title>Discussion</title></para>
+      <para id="fs-id1782120">Since atoms are roughly 0.1 nm in size, knowing the position of an electron to 0.0100 nm localizes it reasonably well inside the atom. This would be like being able to see details one-tenth the size of the atom. But the consequent uncertainty in velocity is large. You certainly could not follow it very well if its velocity is so uncertain. To get a further idea of how large the uncertainty in velocity is, we assumed the velocity of the electron was equal to its uncertainty and found this gave a kinetic energy of 95.5 eV. This is significantly greater than the typical energy difference between levels in atoms (see <link document="m42563" target-id="import-auto-id1597328"/>), so that it is impossible to get a meaningful energy for the electron if we know its position even moderately well.</para></example>
+
+    <para id="import-auto-id2054300">Why don’t we notice Heisenberg’s uncertainty principle in everyday life? The answer is that Planck’s constant is very small. Thus the lower limit in the uncertainty of measuring the position and momentum of large objects is negligible. We can detect sunlight reflected from Jupiter and follow the planet in its orbit around the Sun. The reflected sunlight alters the momentum of Jupiter and creates an uncertainty in its momentum, but this is totally negligible compared with Jupiter’s huge momentum. The correspondence principle tells us that the predictions of quantum mechanics become indistinguishable from classical physics for large objects, which is the case here.</para></section>
+
+      <section id="fs-id2734146">
+        <title>Heisenberg Uncertainty for Energy and Time</title>
+    <para id="import-auto-id1516051">There is another form of <term id="import-auto-id1743280">Heisenberg’s uncertainty principle </term><emphasis effect="bold"/>for <emphasis effect="italics">simultaneous measurements of energy and time</emphasis>. In equation form,</para><equation id="eip-283"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">≥</m:mo><m:mfrac><m:mi>h</m:mi><m:mn>4π</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mo>,</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE Δt  &gt;=   {  {h}  over  {4π} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2654806">where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id1359730">uncertainty in energy</term> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id1279884">uncertainty in time</term>. This means that within a time interval <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>, it is not possible to measure energy precisely—there will be an uncertainty <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> in the measurement. In order to measure energy more precisely (to make <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> smaller), we must increase <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>. This time interval may be the amount of time we take to make the measurement, or it could be the amount of time a particular state exists, as in the next <link target-id="fs-id1442581"/>.</para><example id="fs-id1442581">
+    <title>Heisenberg Uncertainty Principle for Energy and Time for an Atom</title>
+    <para id="import-auto-id2673495">An atom in an excited state temporarily stores energy. If the lifetime of this excited state is measured to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>1.0×10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mn>s</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "10"} } `s} {}</m:annotation></m:semantics></m:math>, what is the minimum uncertainty in the energy of the state in eV?</para><para id="import-auto-id1328225"><title>Strategy</title></para>
+          <para id="fs-id1280619">The minimum uncertainty in energy <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> is found by using the equals sign in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">≥</m:mo><m:mi>h</m:mi></m:mrow><m:mtext>/4</m:mtext><m:mi>π</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE Δt  &gt;=  h"/4"π} {}</m:annotation></m:semantics></m:math> and corresponds to a reasonable choice for the uncertainty in time. The largest the uncertainty in time can be is the full lifetime of the excited state, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>1.0×10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>s</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt="10" rSup { size 8{ - "10"} } `s} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2732284"><title>Solution</title></para>
+          <para id="fs-id1516318">Solving the uncertainty principle for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> and substituting known values gives</para><equation id="eip-453"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow><m:mn>Δ</m:mn>
+                        <m:mi fontstyle="italic">E</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mi>h</m:mi>
+                          <m:mn>4πΔt</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mtext>63 </m:mtext>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext> 10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mtext>–34</m:mtext>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                          <m:mrow><m:mspace width="0.25em"/>
+                            <m:mtext> J </m:mtext>
+                            <m:mo stretchy="false">⋅</m:mo>
+                            <m:mtext> s</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>4π</m:mn>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:msup>
+                            <m:mtext>1.0×10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>–10</m:mtext>
+                              </m:mrow>
+
+                          </m:msup><m:mspace width="0.25em"/>
+                          <m:mtext> s</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext> 5</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>3 </m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mtext>–25</m:mtext>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> J.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ΔE=  {  {h}  over  {4πΔt} }  =  {  {6 "." "63 " times " 10" rSup { size 8{"–34"} } " J " cdot " s"}  over  {4π \( "10" rSup { size 8{"–10"} } " s" \) } } =" 5" "." "3 " times " 10" rSup { size 8{"–25"} } " J" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2314786">Now converting to eV yields</para>
+    <equation id="eip-424"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow><m:mn>Δ</m:mn>
+                    <m:mi fontstyle="italic">E</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>(5.3</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mtext>–25</m:mtext>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext> J)</m:mtext>
+                      <m:mo>(</m:mo>
+                      <m:mfrac>
+                        <m:mtext>1 eV</m:mtext>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mtext>6 </m:mtext>
+<m:mo>×</m:mo>
+                            <m:msup>
+                              <m:mtext> 10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mtext>–19</m:mtext>
+                                </m:mrow>
+
+                            </m:msup><m:mspace width="0.25em"/>
+
+                          </m:mrow>
+                          <m:mtext> J</m:mtext>
+                        </m:mrow>
+
+                      </m:mfrac>
+                    </m:mrow> <m:mo>)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext> 3</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>3 </m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mtext>–6</m:mtext>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+
+                  <m:mtext> eV</m:mtext>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ΔE =" 5" "." "3 " times " 10" rSup { size 8{"–25"} } " J " cdot   {  {"1 eV"}  over  {1 "." "6 " times " 10" rSup { size 8{"–19"} } " J"} } =" 3" "." "3 " times " 10" rSup { size 8{"–6"} } " eV" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1561272"><title>Discussion</title></para>
+          <para id="fs-id1740814">The lifetime of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "10"} } `s} {}</m:annotation></m:semantics></m:math> is typical of excited states in atoms—on human time scales, they quickly emit their stored energy. An uncertainty in energy of only a few millionths of an eV results. This uncertainty is small compared with typical excitation energies in atoms, which are on the order of 1 eV. So here the uncertainty principle limits the accuracy with which we can measure the lifetime and energy of such states, but not very significantly.</para></example>
+
+    <para id="import-auto-id1741203">The uncertainty principle for energy and time can be of great significance if the lifetime of a system is very short. Then <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> is very small, and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> is consequently very large. Some nuclei and exotic particles have extremely short lifetimes (as small as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "25"} } `s} {}</m:annotation></m:semantics></m:math>), causing uncertainties in energy as great as many GeV (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>eV</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{9} } `"eV"} {}</m:annotation></m:semantics></m:math>). Stored energy appears as increased rest mass, and so this means that there is significant uncertainty in the rest mass of short-lived particles. When measured repeatedly, a spread of masses or decay energies are obtained. The spread is <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math>. You might ask whether this uncertainty in energy could be avoided by not measuring the lifetime. The answer is no. Nature knows the lifetime, and so its brevity affects the energy of the particle. This is so well established experimentally that the uncertainty in decay energy is used to calculate the lifetime of short-lived states. Some nuclei and particles are so short-lived that it is difficult to measure their lifetime. But if their decay energy can be measured, its spread is <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math>, and this is used in the uncertainty principle (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">≥</m:mo><m:mi>h</m:mi></m:mrow><m:mtext>/4</m:mtext><m:mi>π</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>) to calculate the lifetime <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1512720">There is another consequence of the uncertainty principle for energy and time. If energy is uncertain by <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math>, then conservation of energy can be violated by <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> for a time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>. Neither the physicist nor nature can tell that conservation of energy has been violated, if the violation is temporary and smaller than the uncertainty in energy. While this sounds innocuous enough, we shall see in later chapters that it allows the temporary creation of matter from nothing and has implications for how nature transmits forces over very small distances.</para><para id="import-auto-id2655656">Finally, note that in the discussion of particles and waves, we have stated that individual measurements produce precise or particle-like results. A definite position is determined each time we observe an electron, for example. But repeated measurements produce a spread in values consistent with wave characteristics. The great theoretical physicist Richard Feynman (1918–1988) commented, “What there are, are particles.” When you observe enough of them, they distribute themselves as you would expect for a wave phenomenon. However, what there are as they travel we cannot tell because, when we do try to measure, we affect the traveling.</para></section>
+
+    <section id="fs-id1742775" class="section-summary">
+<title>Section Summary</title><list id="fs-id2699134"><item id="import-auto-id2355939">Matter is found to have the same interference characteristics<emphasis effect="italics"/> as any other wave.</item>
+    <item id="import-auto-id2341500">There is now a probability distribution for the location of a particle rather than a definite position.</item>
+    <item id="import-auto-id1574201">Another consequence of the wave character of all particles is the Heisenberg uncertainty principle, which limits the precision with which certain physical quantities can be known simultaneously. For position and momentum, the uncertainty principle is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mn>Δ</m:mn><m:mi>p</m:mi><m:mo stretchy="false">≥</m:mo><m:mfrac><m:mi>h</m:mi><m:mn>4π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔxΔp  &gt;=   {  {h}  over  {4π} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx} {}</m:annotation></m:semantics></m:math> is the uncertainty in position and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp} {}</m:annotation></m:semantics></m:math> is the uncertainty in momentum.</item>
+    <item id="import-auto-id1665223">For energy and time, the uncertainty principle is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi><m:mn>Δ</m:mn><m:mi>t</m:mi><m:mo stretchy="false">≥</m:mo><m:mfrac><m:mi>h</m:mi><m:mn>4π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔEΔt  &gt;=   {  {h}  over  {4π} } } {}</m:annotation></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math> is the uncertainty in energy and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> is the uncertainty in time.</item>
+    <item id="import-auto-id1301971">These small limits are fundamentally important on the quantum-mechanical scale.</item>
+</list></section>
+
+    <section id="fs-id2007578" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1252921" type="conceptual-questions"><problem id="fs-id2404056">
+
+    <para id="import-auto-id1063107">What is the Heisenberg uncertainty principle? Does it place limits on what can be known?</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id2345932" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title>
+    <exercise id="fs-id1651737" type="problems-exercises"><problem id="fs-id2657359" type="problems-exercises">
+      <para id="import-auto-id1570007">(a) If the position of an electron in a membrane is measured to an accuracy of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00 μm"} {}</m:annotation></m:semantics></m:math>, what is the electron’s minimum uncertainty in velocity? (b) If the electron has this velocity, what is its kinetic energy in eV? (c) What are the implications of this energy, comparing it to typical molecular binding energies?</para>
+    </problem>
+<solution id="fs-id2655239">
+    <para id="import-auto-id1769306">(a) 57.9 m/s</para>
+    <para id="import-auto-id2335456">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>55</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> eV</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "55" times "10" rSup { size 8{ - 9} } " eV"} {}</m:annotation></m:semantics></m:math></para><para id="eip-id2017181">(c) From <link document="m42563" target-id="import-auto-id1597328"/>, we see that typical molecular binding energies range from about 1eV to 10 eV, therefore the result in part (b) is approximately 9 orders of magnitude smaller than typical molecular binding energies.</para></solution>
+    </exercise><exercise id="fs-id2341151" type="problems-exercises"><problem id="fs-id1388787" type="problems-exercises">
+      <para id="import-auto-id2733457">(a) If the position of a chlorine ion in a membrane is measured to an accuracy of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00 μm"} {}</m:annotation></m:semantics></m:math>, what is its minimum uncertainty in velocity, given its mass is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>86</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>26</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "86" times "10" rSup { size 8{ - "26"} } " kg"} {}</m:annotation></m:semantics></m:math>? (b) If the ion has this velocity, what is its kinetic energy in eV, and how does this compare with typical molecular binding energies?</para></problem></exercise>
+
+    <exercise id="fs-id1569524" type="problems-exercises"><problem id="fs-id1784566" type="problems-exercises">
+      <para id="import-auto-id2674320">Suppose the velocity of an electron in an atom is known to an accuracy of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." 0 times "10" rSup { size 8{3} } " m/s"} {}</m:annotation></m:semantics></m:math> (reasonably accurate compared with orbital velocities). What is the electron’s minimum uncertainty in position, and how does this compare with the approximate 0.1-nm size of the atom?</para></problem>
+<solution id="fs-id1743016">
+    <para id="import-auto-id2003928">29 nm,</para><para id="import-auto-id1660392">290 times greater</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1254116" type="problems-exercises"><problem id="fs-id1746753" type="problems-exercises">
+      <para id="import-auto-id2366976">The velocity of a proton in an accelerator is known to an accuracy of 0.250% of the speed of light. (This could be small compared with its velocity.) What is the smallest possible uncertainty in its position?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2322092" type="problems-exercises"><problem id="fs-id1564266" type="problems-exercises">
+      <para id="import-auto-id1262888">A relatively long-lived excited state of an atom has a lifetime of 3.00 ms. What is the minimum uncertainty in its energy?</para>
+    </problem>
+<solution id="fs-id1772226">
+    <para id="import-auto-id2335661"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>10</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>13</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> eV</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "10" times "10" rSup { size 8{ - "13"} } " eV"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id1309711" type="problems-exercises"><problem id="fs-id1263394" type="problems-exercises">
+      <para id="import-auto-id1791495">(a) The lifetime of a highly unstable nucleus is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "20"} } " s"} {}</m:annotation></m:semantics></m:math>. What is the smallest uncertainty in its decay energy? (b) Compare this with the rest energy of an electron.</para></problem></exercise>
+
+    <exercise id="fs-id1548241" type="problems-exercises"><problem id="fs-id1303714" type="problems-exercises">
+      <para id="import-auto-id1747519">The decay energy of a short-lived particle has an uncertainty of 1.0 MeV due to its short lifetime. What is the smallest lifetime it can have?</para>
+    </problem>
+<solution id="fs-id1457641">
+    <para id="import-auto-id2297837"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mn>3</m:mn>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>22</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> s</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{3 "." 3 times "10" rSup { size 8{ - "22"} } " s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id2715464" type="problems-exercises"><problem id="fs-id1369681" type="problems-exercises">
+      <para id="import-auto-id1792203">The decay energy of a short-lived nuclear excited state has an uncertainty of 2.0 eV due to its short lifetime. What is the smallest lifetime it can have?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2682306" type="problems-exercises"><problem id="fs-id1655813" type="problems-exercises">
+      <para id="import-auto-id1746753">What is the approximate uncertainty in the mass of a muon, as determined from its decay lifetime?</para>
+    </problem>
+<solution id="fs-id2329482">
+    <para id="import-auto-id1781967"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2.66</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>46</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> kg</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "66" times "10" rSup { size 8{ - "46"} } " kg"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id2668381" type="problems-exercises"><problem id="fs-id2690391" type="problems-exercises">
+      <para id="import-auto-id2401887">Derive the approximate form of Heisenberg’s uncertainty principle for energy and time, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">≈</m:mo><m:mi>h</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE Δt  approx h} {}</m:annotation></m:semantics></m:math>, using the following arguments: Since the position of a particle is uncertain by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mo stretchy="false">≈</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx approx λ} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> is the wavelength of the photon used to examine it, there is an uncertainty in the time the photon takes to traverse <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δx} {}</m:annotation></m:semantics></m:math>. Furthermore, the photon has an energy related to its wavelength, and it can transfer some or all of this energy to the object being examined. Thus the uncertainty in the energy of the object is also related to <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>. Find <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔE} {}</m:annotation></m:semantics></m:math>; then multiply them to give the approximate uncertainty principle.</para></problem></exercise>
+    </section>
+
+ </content>
+  <glossary>
+
+    <definition id="import-auto-id1429331"><term>Heisenberg’s uncertainty principle</term> <meaning id="fs-id2656055">a fundamental limit to the precision with which pairs of quantities (momentum and position, and energy and time) can be measured</meaning></definition>
+<definition id="fs-id2019572"><term>uncertainty in energy</term><meaning id="fs-id1322242"> lack of precision or lack of knowledge of precise results in measurements of energy</meaning></definition>
+<definition id="fs-id1539801"><term>uncertainty in time</term><meaning id="fs-id519348"> lack of precision or lack of knowledge of precise results in measurements of time</meaning></definition>
+<definition id="fs-id1902985"><term>uncertainty in momentum</term><meaning id="fs-id2715008"> lack of precision or lack of knowledge of precise results in measurements of momentum</meaning></definition>
+<definition id="fs-id1329397"><term>uncertainty in position</term><meaning id="fs-id1307460"> lack of precision or lack of knowledge of precise results in measurements of position</meaning></definition>
+<definition id="fs-id1341441"><term>probability distribution</term><meaning id="fs-id2029678"> the overall spatial distribution of probabilities to find a particle at a given location</meaning></definition>
+
+
+  </glossary>
+</document>

@@ -1,0 +1,435 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Capacitors in Series and Parallel</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42336</md:content-id>
+  <md:title>Capacitors in Series and Parallel</md:title>
+  <md:abstract><list>
+<item>Derive expressions for total capacitance in series and in parallel.</item>
+<item>Identify series and parallel parts in the combination of connection of capacitors.</item>
+<item>Calculate the effective capacitance in series and parallel given individual capacitances.</item>
+</list></md:abstract>
+  <md:uuid>f090675d-b0b4-4194-a4f0-084980010b4a</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3093738">Several capacitors may be connected together in a variety of applications. Multiple connections of capacitors act like a single equivalent capacitor. The total capacitance of this equivalent single capacitor depends both on the individual capacitors and how they are connected. There are two simple and common types of connections, called <emphasis effect="italics"><emphasis effect="italics">series</emphasis></emphasis> and <emphasis effect="italics"><emphasis effect="italics">parallel</emphasis></emphasis>, for which we can easily calculate the total capacitance. Certain more complicated connections can also be related to combinations of series and parallel.</para>
+<section id="fs-id2991721"><title>Capacitance in Series</title>
+    <para id="import-auto-id2732826"><link target-id="import-auto-id2499137"/>(a) shows a series connection of three capacitors with a voltage applied. As for any capacitor, the capacitance of the combination is related to charge and voltage by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C= {  {Q}  over  {V} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id2837917">Note in <link target-id="import-auto-id2499137"/> that opposite charges of magnitude <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> flow to either side of the originally uncharged combination of capacitors when the voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is applied. Conservation of charge requires that equal-magnitude charges be created on the plates of the individual capacitors, since charge is only being separated in these originally neutral devices. The end result is that the combination resembles a single capacitor with an effective plate separation greater than that of the individual capacitors alone. (See <link target-id="import-auto-id2499137"/>(b).) Larger plate separation means smaller capacitance. It is a general feature of series connections of capacitors that the total capacitance is less than any of the individual capacitances.</para><figure id="import-auto-id2499137"><media id="import-auto-id2949769" alt="When capacitors are connected in series, an equivalent capacitor would have a plate separation that is greater than that of any individual capacitor. Hence the series connections produce a resultant capacitance less than that of the individual capacitors.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_06_01a.jpg" width="185"/>
+      </media>
+
+    <caption>(a) Capacitors connected in series. The magnitude of the charge on each plate is  <m:math>
+ <m:semantics>
+  <m:mi>Q</m:mi>
+ </m:semantics>
+</m:math>. (b) An equivalent capacitor has a larger plate separation <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>. Series connections produce a total capacitance that is less than that of any of the individual capacitors.</caption></figure><para id="import-auto-id2677631">We can find an expression for the total capacitance by considering the voltage across the individual capacitors shown in <link target-id="import-auto-id2499137"/>. Solving <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C= {  {Q}  over  {V} } } {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>C</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= {  {Q}  over  {C} } } {}</m:annotation></m:semantics></m:math>. The voltages across the individual capacitors are thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {V}  rSub { size 8{1} } = {  {Q}  over  { {C}  rSub { size 8{1} } } } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {V}  rSub { size 8{2} } = {  {Q}  over  { {C}  rSub { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {V}  rSub { size 8{3} } = {  {Q}  over  { {C}  rSub { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>. The total voltage is the sum of the individual voltages:</para><equation id="eip-834"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= {V}  rSub { size 8{1} } + {V}  rSub { size 8{2} } + {V}  rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1559665">Now, calling the total capacitance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> for series capacitance, consider that</para><equation id="eip-384"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>V</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mi>Q</m:mi>
+                      <m:msub>
+                        <m:mi>C</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>S</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>V</m:mi>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msub>
+ <m:mn>.</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{V= {  {Q}  over  { {C}  rSub { size 8{S} } } } = {V}  rSub { size 8{1} } + {V}  rSub { size 8{2} } + {V}  rSub { size 8{3} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2676037">Entering the expressions for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>, we get</para>
+    <equation id="eip-118"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q}  over  { {C}  rSub { size 8{S} } } } = {  {Q}  over  { {C}  rSub { size 8{1} } } } + {  {Q}  over  { {C}  rSub { size 8{2} } } } + {  {Q}  over  { {C}  rSub { size 8{3} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2992874">Canceling the <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>s, we obtain the equation for the total capacitance in series <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> to be</para><equation id="eip-206"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {1}  over  { {C}  rSub { size 8{1} } } } + {  {1}  over  { {C}  rSub { size 8{2} } } } + {  {1}  over  { {C}  rSub { size 8{3} } } } + "."  "."  "." } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2586197">where “...” indicates that the expression is valid for any number of capacitors connected in series. An expression of this form always results in a total capacitance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> that is less than any of the individual capacitances <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, ..., as the next example illustrates.</para><note id="fs-id3068086"><label/><title>Total Capacitance in Series, <m:math>         <m:semantics>           <m:mrow>             <m:mrow>               <m:msub>                 <m:mi>C</m:mi>                 <m:mrow>                   <m:mtext>s</m:mtext>                 </m:mrow>               </m:msub>             </m:mrow>             <m:mrow/>           </m:mrow>           <m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation>         </m:semantics>       </m:math>     </title>
+
+    <para id="import-auto-id1559732">Total capacitance in series: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {1}  over  { {C}  rSub { size 8{1} } } } + {  {1}  over  { {C}  rSub { size 8{2} } } } + {  {1}  over  { {C}  rSub { size 8{3} } } } + "."  "."  "." } {}</m:annotation></m:semantics></m:math><emphasis effect="bold"> </emphasis></para></note><example id="fs-id2635156"><title>What Is the Series Capacitance?</title><para id="import-auto-id2601609">Find the total capacitance for three capacitors connected in series, given their individual capacitances are 1.000, 5.000, and 8.000 <m:math><m:semantics><m:mrow><m:mrow><m:mtext>µF</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{mF} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1949487"><title>Strategy</title>
+    </para><para id="eip-71">With the given information, the total capacitance can be found using the equation for capacitance in series.</para><para id="import-auto-id2721143">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id1445182">Entering the given capacitances into the expression for <m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } } {}</m:annotation></m:semantics></m:math> gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mi>S</m:mi></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {1}  over  { {C}  rSub { size 8{1} } } } + {  {1}  over  { {C}  rSub { size 8{2} } } } + {  {1}  over  { {C}  rSub { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>.</para><equation id="eip-340"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>C</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>S</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>000 µF</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:mn>5</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>000 µF</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>000 µF</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>325</m:mtext>
+                    </m:mrow>
+                   <m:mrow><m:mtext>µF</m:mtext>
+                   </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {1}  over  {1 "." "00" mF} } + {  {1}  over  {5 "." "00" mF} } + {  {1}  over  {8 "." "00" mF} } = {  {1 "." "325"}  over  {mF} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id624240">Inverting to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> yields <m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>µF</m:mtext><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>325</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>755 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } = {  {mF}  over  {1 "." "325"} } =0 "." "755" mF} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2648425">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1539528">The total series capacitance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> is less than the smallest individual capacitance, as promised. In series connections of capacitors, the sum is less than the parts. In fact, it is less than any individual. Note that it is sometimes possible, and more convenient, to solve an equation like the above by finding the least common denominator, which in this case (showing only whole-number calculations) is 40. Thus,</para><equation id="eip-247"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:mtext>40</m:mtext><m:mrow><m:mtext>40 µF</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>8</m:mn><m:mrow><m:mtext>40 µF</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>5</m:mn><m:mrow><m:mtext>40 µF</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>53</m:mtext><m:mrow><m:mtext>40 µF</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo>,</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {"40"}  over  {"40" mF} } + {  {8}  over  {"40" mF} } + {  {5}  over  {"40" mF} } = {  {"53"}  over  {"40" mF} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2972705">so that </para><equation id="eip-927"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>40 µF</m:mtext></m:mrow><m:mtext>53</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>755 µF</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } = {  {"40" µF}  over  {"53"} } =0 "." "755" µF} {}</m:annotation></m:semantics></m:math></equation></example></section>
+<section id="fs-id3065343">
+<title>Capacitors in Parallel</title>
+    <para id="import-auto-id1937104"><link target-id="import-auto-id2511423"/>(a) shows a parallel connection of three capacitors with a voltage applied. Here the total capacitance is easier to find than in the series case. To find the equivalent total capacitance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math>, we first note that the voltage across each capacitor is <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math>, the same as that of the source, since they are connected directly to it through a conductor. (Conductors are equipotentials, and so the voltage across the capacitors is the same as that across the voltage source.) Thus the capacitors have the same charges on them as they would have if connected individually to the voltage source. The total charge <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> is the sum of the individual charges:</para><equation id="eip-731"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {Q}  rSub { size 8{1} } + {Q}  rSub { size 8{2} } + {Q}  rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math></equation><figure id="import-auto-id2511423"><media id="import-auto-id1492959" alt="Part a of the figure shows three capacitors connected in parallel to each other and to the applied voltage. The total capacitance when they are connected in parallel is simply the sum of the individual capacitances. Part b of the figure shows the larger equivalent plate area of the capacitors connected in parallel, which in turn can hold more charge than the individual capacitors.">
+<image mime-type="image/jpg" src="../../media/Figure_20_06_02a.jpg" width="300"/>
+      </media>
+
+  <caption>(a) Capacitors in parallel. Each is connected directly to the voltage source just as if it were all alone, and so the total capacitance in parallel is just the sum of the individual capacitances. (b) The equivalent capacitor has a larger plate area and can therefore hold more charge than the individual capacitors. </caption></figure><para id="import-auto-id2550444">Using the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "CV"} {}</m:annotation></m:semantics></m:math>, we see that the total charge is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {C}  rSub { size 8{p} } V} {}</m:annotation></m:semantics></m:math>, and the individual charges are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {Q}  rSub { size 8{1} } = {C}  rSub { size 8{1} } V} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">, </emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {Q}  rSub { size 8{2} } = {C}  rSub { size 8{2} } V} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">,</emphasis> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {Q}  rSub { size 8{3} } = {C}  rSub { size 8{3} } V} {}</m:annotation></m:semantics></m:math>. Entering these into the previous equation gives</para><equation id="eip-560"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mi>V</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{p} } V= {C}  rSub { size 8{1} } V+ {C}  rSub { size 8{2} } V+ {C}  rSub { size 8{3} } V} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id920733">Canceling <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> from the equation, we obtain the equation for the total capacitance in parallel
+     <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math>:
+    </para><equation id="eip-975"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>p</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{p} } = {C}  rSub { size 8{1} } + {C}  rSub { size 8{2} } + {C}  rSub { size 8{3} } + "."  "."  "." } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2675960">Total capacitance in parallel is simply the sum of the individual capacitances. (Again the “<emphasis effect="italics">...</emphasis>” indicates the expression is valid for any number of capacitors connected in parallel.) So, for example, if the capacitors in the example above were connected in parallel, their capacitance would be </para><equation id="eip-198"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>000 µF</m:mtext><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>000 µF</m:mtext><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>000 µF</m:mtext><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>14</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>000 µF</m:mn></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{p} } =1 "." "00" µF+5 "." "00" µF+8 "." "00" µF="14" "." 0 µF} {}</m:annotation></m:semantics></m:math></equation><para id="eip-156">The equivalent capacitor for a parallel connection has an effectively larger plate area and, thus, a larger capacitance, as illustrated in <link target-id="import-auto-id2511423"/>(b).</para><note id="fs-id1346131"><label/><title>Total Capacitance in Parallel, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math></title>
+
+    <para id="import-auto-id1500994">Total capacitance in parallel <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{p} } = {C}  rSub { size 8{1} } + {C}  rSub { size 8{2} } + {C}  rSub { size 8{3} } + "."  "."  "." } {}</m:annotation></m:semantics></m:math></para>
+    </note><para id="import-auto-id1183848">More complicated connections of capacitors can sometimes be combinations of series and parallel. (See <link target-id="import-auto-id2506336"/>.) To find the total capacitance of such combinations, we identify series and parallel parts, compute their capacitances, and then find the total.</para><figure id="import-auto-id2506336"><media id="import-auto-id3066358" alt="The first figure has two capacitors, C sub1 and C sub2 in series and the third capacitor C sub 3 is parallel to C sub 1 and C sub 2. The second figure shows C sub S, the equivalent capacitance of C sub 1 and C sub 2, in parallel to C sub 3. The third figure represents the total capacitance of C sub S and C sub 3.">
+    <image mime-type="image/jpg" src="../../media/Figure_20_06_03a.jpg" width="500"/>
+      </media>
+
+<caption>(a) This circuit contains both series and parallel connections of capacitors. See <link target-id="fs-id1327996"/> for the calculation of the overall capacitance of the circuit. (b) <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are in series; their equivalent capacitance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> is less than either of them. (c) Note that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> is in parallel with <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>. The total capacitance is, thus, the sum of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><example id="fs-id1327996"><title>A Mixture of Series and Parallel Capacitance</title><para id="import-auto-id1544456">Find the total capacitance of the combination of capacitors shown in <link target-id="import-auto-id2506336"/>. Assume the capacitances in <link target-id="import-auto-id2506336"/> are known to three decimal places (
+<m:math><m:semantics><m:mrow><m:msub><m:mi>C</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1.000 µF</m:mn></m:mrow></m:semantics></m:math>,  <m:math><m:semantics><m:mrow><m:msub><m:mi>C</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mn>5.000 µF</m:mn></m:mrow></m:semantics></m:math>, and  <m:math><m:semantics><m:mrow><m:msub><m:mi>C</m:mi><m:mn>3</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mn>8.000 µF</m:mn></m:mrow></m:semantics></m:math>), and round your answer to three decimal places.</para><para id="import-auto-id2822372">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id953354">To find the total capacitance, we first identify which capacitors are in series and which are in parallel. Capacitors <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are in series. Their combination, labeled <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math> in the figure, is in parallel with <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id3346970"><title>Solution</title>
+    </para>
+    <para id="import-auto-id2555621">Since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are in series, their total capacitance is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {1}  over  { {C}  rSub { size 8{1} } } } + {  {1}  over  { {C}  rSub { size 8{2} } } } + {  {1}  over  { {C}  rSub { size 8{3} } } } } {}</m:annotation></m:semantics></m:math>. Entering their values into the equation gives</para><equation id="eip-70"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>C</m:mi>
+                        <m:mrow>
+                          <m:mtext>S</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>000</m:mtext><m:mspace width="0.25em"/>
+                        <m:mtext>μF</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>000</m:mtext><m:mspace width="0.25em"/>
+                        <m:mtext> μF</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>200</m:mtext>
+                  </m:mrow>
+                  <m:mtext>μF</m:mtext>
+                </m:mfrac>
+              </m:mrow>
+<m:mo>.</m:mo>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {1}  over  { {C}  rSub { size 8{1} } } } + {  {1}  over  { {C}  rSub { size 8{2} } } } = {  {1}  over  {1 "." "000"" μF"} } + {  {1}  over  {5 "." "000"" μF"} } = {  {1 "." "200"}  over  {"μF"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2910870">Inverting gives </para>
+    <equation id="eip-173"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>833 µF</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } =0 "." "833" µF} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2543801">This equivalent series capacitance is in parallel with the third capacitor; thus, the total is the sum</para>
+    <equation id="eip-844"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+
+                        <m:msub>
+                          <m:mi>C</m:mi>
+                          <m:mrow>
+                            <m:mtext>tot</m:mtext>
+                          </m:mrow>
+                        </m:msub>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>C</m:mi>
+                            <m:mrow>
+                              <m:mtext>S</m:mtext>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msub>
+                            <m:mi>C</m:mi>
+                            <m:mrow>
+                              <m:mtext>S</m:mtext>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                    <m:mn>0</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>833</m:mtext><m:mspace width="0.25em"/>
+                    <m:mrow>
+                      <m:mtext> μF </m:mtext>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mn>8</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>000</m:mtext><m:mspace width="0.25em"/>
+                    <m:mtext> μF</m:mtext>
+                    <m:mrow/>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mn>8</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>833</m:mtext><m:mspace width="0.25em"/>
+                    <m:mtext>μF</m:mtext><m:mo>.</m:mo>
+                    <m:mrow/>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{C rSub { size 8{"tot"} } =C rSub { size 8{S} } +C rSub { size 8{S} } }  {} #
+=0 "." "833"" μF "+ 8 "." "000"" μF" {} #
+=8 "." "833"" μF" {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2678852">
+      <title>Discussion</title>
+    </para>
+
+    <para id="import-auto-id1956195">This technique of analyzing the combinations of capacitors piece by piece until a total is obtained can be applied to larger combinations of capacitors.</para>
+ </example><!--
+        <figure id="import-auto-id2698061">
+      <media id="import-auto-id2720972" alt="">
+
+      </media>
+      <caption><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>1</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>2</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mi>S</m:mi></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{S} } } {}</m:annotation></m:semantics></m:math><m:math xmlns:m="http://www.w3.org/1998/Math/MathML" display="block"><m:semantics><m:mrow><m:mstyle fontsize="12pt"><m:mrow><m:msub><m:mi>C</m:mi><m:mstyle fontsize="8pt"><m:mrow><m:mn>3</m:mn></m:mrow></m:mstyle></m:msub></m:mrow></m:mstyle><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math></caption>
+      </figure>-->
+
+  </section>
+    <section id="fs-id1541571" class="section-summary"><title>Section Summary</title><list id="fs-id2836824"><item id="import-auto-id3143144">Total capacitance in series <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>S</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { {C}  rSub { size 8{S} } } } = {  {1}  over  { {C}  rSub { size 8{1} } } } + {  {1}  over  { {C}  rSub { size 8{2} } } } + {  {1}  over  { {C}  rSub { size 8{3} } } } + "."  "."  "." } {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/></item>
+    <item id="import-auto-id1988889">Total capacitance in parallel <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>C</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>C</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {C}  rSub { size 8{p} } = {C}  rSub { size 8{1} } + {C}  rSub { size 8{2} } + {C}  rSub { size 8{3} } + "."  "."  "." } {}</m:annotation></m:semantics></m:math></item>
+<item>If a circuit contains a combination of capacitors in series and parallel, identify series and parallel parts, compute their capacitances, and then find the total.</item>
+            </list></section>
+
+<section id="import-auto-id2559751" class="conceptual-questions" type="conceptual-questions">
+  <title>Conceptual Questions</title>
+      <exercise id="fs-id3075419" type="conceptual-questions"><problem id="fs-id1656533">
+
+      <para id="import-auto-id1032431">If you wish to store a large amount of energy in a capacitor bank, would you connect capacitors in series or parallel? Explain.</para>
+      </problem></exercise>
+    </section>
+      <section id="fs-id1596788" type="problems-exercises" class="problems-exercises">
+<title>Problems &amp; Exercises</title>
+<exercise id="fs-id1656785" type="problems-exercises"><problem id="fs-id2791324">
+<para id="eip-id2337212">Find the total capacitance of the combination of capacitors in <link target-id="import-auto-id1579779"/>.</para><figure id="import-auto-id1579779"><media id="import-auto-id1579780" alt="A circuit is shown with three capacitors. Two capacitors, of ten microfarad and two point five microfarad capacitance, are in parallel to each other, and their combination is in series with a zero point three zero microfarad capacitor.">
+          <image mime-type="image/jpg" src="../../media/Figure_20_05_08a.jpg" width="200"/>
+        </media>
+            <caption>A combination of series and parallel connections of capacitors.</caption></figure></problem>
+<solution id="fs-id1175338">
+      <para id="eip-id1319497"><m:math>
+ <m:semantics>
+  <m:mtext>0.293 μF</m:mtext>
+ </m:semantics>
+</m:math></para></solution>
+      </exercise><exercise id="fs-id2912478" type="problems-exercises"><problem id="fs-id2511599">      <para id="import-auto-id1999490">Suppose you want a capacitor bank with a total capacitance of 0.750 F and you possess numerous 1.50 mF capacitors. What is the smallest number you could hook together to achieve your goal, and how would you connect them? </para>
+      </problem></exercise>
+      <exercise id="fs-id1290190" type="problems-exercises"><problem id="fs-id2920194">
+
+      <para id="import-auto-id1964409">What total capacitances can you make by connecting a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" mF} {}</m:annotation></m:semantics></m:math> and an <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mtext>00 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" mF} {}</m:annotation></m:semantics></m:math> capacitor together? </para></problem>
+<solution id="fs-id1962000">
+      <para id="import-auto-id1663743"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>08 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "08" µF } {}</m:annotation></m:semantics></m:math> in series combination, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>13</m:mtext><m:mtext>.</m:mtext><m:mtext>0 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"13" "." "0 "µF} {}</m:annotation></m:semantics></m:math> in parallel combination</para></solution>
+      </exercise>
+      <exercise id="fs-id2607784" type="problems-exercises"><problem id="fs-id1998292">      <para id="import-auto-id2636632">Find the total capacitance of the combination of capacitors shown in <link target-id="import-auto-id1959375"/>.</para><figure id="import-auto-id1959375"><media id="import-auto-id1356269" alt="The circuit includes three capacitors. A zero point three zero microfarad capacitor and a ten microfarad capacitor are connected in series, and together they are connected in parallel with a two point five microfarad capacitor.">
+          <image mime-type="image/jpg" src="../../media/Figure_20_05_09a.jpg" width="200"/>
+        </media>
+        <caption>A combination of series and parallel connections of capacitors.</caption></figure></problem>
+<solution id="fs-id2749491">
+      <para id="import-auto-id1418699"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>79 µF</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{2 "." "79"" µF"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></solution>
+      </exercise>
+      <exercise id="fs-id2970272" type="problems-exercises"><problem id="fs-id2970273">      <para id="import-auto-id2643460">Find the total capacitance of the combination of capacitors shown in <link target-id="import-auto-id2695900"/>.</para><figure id="import-auto-id2695900"><media id="import-auto-id2695901" alt="The figure shows a circuit that is a combination of series and parallel connections of capacitors. On the left of the circuit is a five point zero microfarad capacitor in series with a three point five microfarad capacitor. In the middle is an eight point zero microfarad capacitor. On the right, a zero point seven five microfarad capacitor is in parallel with a fifteen microfarad capacitor, and together they are in series with a one point five microfarad capacitor. Altogether, the system of capacitors on the left, the capacitor in the middle, and the system of capacitors on the right are connected in parallel.">
+          <image mime-type="image/jpg" src="../../media/Figure_20_05_10a.jpg" width="200"/>
+        </media>
+
+       <caption>A combination of series and parallel connections of capacitors.</caption></figure></problem></exercise>
+      <exercise id="fs-id2605419" type="problems-exercises"><problem id="fs-id2129513">
+<para id="eip-871"><title>Unreasonable Results</title></para>
+<para id="import-auto-id1370920">(a) An <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mtext>00 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" mF} {}</m:annotation></m:semantics></m:math> capacitor is connected in parallel to another capacitor, producing a total capacitance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" mF} {}</m:annotation></m:semantics></m:math>. What is the capacitance of the second capacitor? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para></problem>
+
+<solution id="eip-id2393147">
+<para id="eip-851">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>–3</m:mn><m:mtext>.</m:mtext><m:mtext>00 µF</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" mF} {}</m:annotation></m:semantics></m:math></para><para id="eip-852"> (b) You cannot have a negative value of capacitance.
+</para><para id="eip-571">(c) The assumption that the capacitors were hooked up in parallel, rather than in series, was incorrect. A parallel connection always produces a greater capacitance, while here a smaller capacitance was assumed. This could happen only if the capacitors are connected in series.</para>
+</solution>
+</exercise></section>
+   </content>
+</document>

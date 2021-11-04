@@ -1,0 +1,1088 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Gauge Pressure, Absolute Pressure, and Pressure Measurement</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42195</md:content-id>
+  <md:title>Gauge Pressure, Absolute Pressure, and Pressure Measurement</md:title>
+  <md:abstract><list>
+<item>Define gauge pressure and absolute pressure.</item>
+<item>Understand the working of aneroid and open-tube barometers.</item>
+</list></md:abstract>
+  <md:uuid>a08ff613-3d40-4b34-8416-782febd89317</md:uuid>
+</metadata>
+
+<content>
+<para id="import-auto-id1474787">If you limp into a gas station with a nearly flat tire, you will notice the tire gauge on the airline reads nearly zero when you begin to fill it. In fact, if there were a gaping hole in your tire, the gauge would read zero, even though atmospheric pressure exists in the tire. Why does the gauge read zero? There is no mystery here. Tire gauges are simply designed to read zero at atmospheric pressure and positive when pressure is greater than atmospheric.</para>
+    <para id="import-auto-id1599473">Similarly, atmospheric pressure adds to blood pressure in every part of the circulatory system. (As noted in <link document="m42193">Pascal’s Principle</link>, the total pressure in a fluid is the sum of the pressures from different sources—here, the heart and the atmosphere.) But atmospheric pressure has no net effect on blood flow since it adds to the pressure coming out of the heart and going back into it, too. What is important is how much <emphasis effect="italics">greater</emphasis> blood pressure is than atmospheric pressure. Blood pressure measurements, like tire pressures, are thus made relative to atmospheric pressure.</para><para id="import-auto-id3062499">In brief, it is very common for pressure gauges to ignore atmospheric pressure—that is, to read zero at atmospheric pressure. We therefore define <term id="import-auto-id2065562">gauge pressure</term> to be the pressure relative to atmospheric pressure. Gauge pressure is positive for pressures above atmospheric pressure, and negative for pressures below it.</para>
+    <note id="fs-id2011450"><label/>
+    <title>Gauge Pressure</title>
+    <para id="import-auto-id1561911">Gauge pressure is the pressure relative to atmospheric pressure. Gauge pressure is positive for pressures above atmospheric pressure, and negative for pressures below it.</para>
+    </note>
+    <para id="import-auto-id2590438">In fact, atmospheric pressure does add to the pressure in any fluid not enclosed in a rigid container. This happens because of Pascal’s principle. The total pressure, or <term id="import-auto-id1861458">absolute pressure</term>, is thus the sum of gauge pressure and atmospheric pressure: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } =P rSub { size 8{g} } +P rSub { size 8{"atm"} } } {}</m:annotation></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> is absolute pressure, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> is gauge pressure, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"atm"} } } {}</m:annotation></m:semantics></m:math> is atmospheric pressure. For example, if your tire gauge reads 34 psi (pounds per square inch), then the absolute pressure is 34 psi plus 14.7 psi (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"atm"} } } {}</m:annotation></m:semantics></m:math> in psi), or 48.7 psi (equivalent to 336 kPa).</para><note id="fs-id930092"><label/>
+    <title>Absolute Pressure</title>
+    <para id="import-auto-id2453414">Absolute pressure is the sum of gauge pressure and atmospheric pressure.</para>
+    </note>
+    <para id="import-auto-id2409286">For reasons we will explore later, in most cases the absolute pressure in fluids cannot be negative. Fluids push rather than pull, so the smallest absolute pressure is zero. (A negative absolute pressure is a pull.) Thus the smallest possible gauge pressure is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } = - P rSub { size 8{"atm"} } } {}</m:annotation></m:semantics></m:math> (this makes <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> zero). There is no theoretical limit to how large a gauge pressure can be.</para><para id="import-auto-id3305748">There are a host of devices for measuring pressure, ranging from tire gauges to blood pressure cuffs. Pascal’s principle is of major importance in these devices. The undiminished transmission of pressure through a fluid allows precise remote sensing of pressures. Remote sensing is often more convenient than putting a measuring device into a system, such as a person’s artery.</para>
+    <para id="import-auto-id2400253"><link target-id="import-auto-id2010699"/> shows one of the many types of mechanical pressure gauges in use today. In all mechanical pressure gauges, pressure results in a force that is converted (or transduced) into some type of readout.</para>
+
+    <figure id="import-auto-id2010699"><media id="import-auto-id2930231" alt="Aneroid gauge measures pressure using a bellows and spring arrangement connected to the pointer that points to a calibrated scale.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_06_01a.jpg" width="200"/>
+      </media>
+
+    <caption>This aneroid gauge utilizes flexible bellows connected to a mechanical indicator to measure pressure.</caption></figure><para id="import-auto-id2968665">An entire class of gauges uses the property that pressure due to the weight of a fluid is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=hρg "." } {}</m:annotation></m:semantics></m:math> Consider the U-shaped tube shown in <link target-id="import-auto-id1840451"/>, for example. This simple tube is called a <emphasis effect="italics">manometer</emphasis>. In <link target-id="import-auto-id1840451"/>(a), both sides of the tube are open to the atmosphere. Atmospheric pressure therefore pushes down on each side equally so its effect cancels. If the fluid is deeper on one side, there is a greater pressure on the deeper side, and the fluid flows away from that side until the depths are equal.</para>
+    <para id="import-auto-id1609441">Let us examine how a manometer is used to measure pressure. Suppose one side of the U-tube is connected to some source of pressure <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> such as the toy balloon in <link target-id="import-auto-id1840451"/>(b) or the vacuum-packed peanut jar shown in <link target-id="import-auto-id1840451"/>(c). Pressure is transmitted undiminished to the manometer, and the fluid levels are no longer equal. In <link target-id="import-auto-id1840451"/>(b), <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> is greater than atmospheric pressure, whereas in <link target-id="import-auto-id1840451"/>(c), <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> is less than atmospheric pressure. In both cases, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> differs from atmospheric pressure by an amount <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{hρg} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the density of the fluid in the manometer. In <link target-id="import-auto-id1840451"/>(b), <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> can support a column of fluid of height <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>, and so it must exert a pressure <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{hρg} {}</m:annotation></m:semantics></m:math> greater than atmospheric pressure (the gauge pressure <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> is positive). In <link target-id="import-auto-id1840451"/>(c), atmospheric pressure can support a column of fluid of height <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>, and so <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>abs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"abs"} } } {}</m:annotation></m:semantics></m:math> is less than atmospheric pressure by an amount <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{hρg} {}</m:annotation></m:semantics></m:math> (the gauge pressure <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> is negative). A manometer with one side open to the atmosphere is an ideal device for measuring gauge pressures. The gauge pressure is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } =hρg} {}</m:annotation></m:semantics></m:math> and is found by measuring <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id1840451"><media id="import-auto-id1373539" alt="Open-tube manometers have U-shaped tubes and one end is always open. When open to atmosphere, fluid at both ends will be the same, as in the first figure. When pressure at one end is greater, the fluid level will go down on that end, as in the second figure. If the pressure at one end is less, then the height of the fluid column on that side will increase, as in the third figure.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_06_02a.jpg" width="600"/>
+      </media>
+
+    <caption>An open-tube manometer has one side open to the atmosphere. (a) Fluid depth must be the same on both sides, or the pressure each side exerts at the bottom will be unequal and there will be flow from the deeper side. (b) A positive gauge pressure <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } =hρg} {}</m:annotation></m:semantics></m:math> transmitted to one side of the manometer can support a column of fluid of height <emphasis effect="underline"/><m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>. (c) Similarly, atmospheric pressure is greater than a negative gauge pressure <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> by an amount <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{hρg} {}</m:annotation></m:semantics></m:math>. The jar’s rigidity prevents atmospheric pressure from being transmitted to the peanuts.</caption></figure><para id="import-auto-id2929826">Mercury manometers are often used to measure arterial blood pressure. An inflatable cuff is placed on the upper arm as shown in <link target-id="import-auto-id2688887"/>. By squeezing the bulb, the person making the measurement exerts pressure, which is transmitted undiminished to both the main artery in the arm and the manometer. When this applied pressure exceeds blood pressure, blood flow below the cuff is cut off. The person making the measurement then slowly lowers the applied pressure and listens for blood flow to resume. Blood pressure pulsates because of the pumping action of the heart, reaching a maximum, called <term id="import-auto-id1934980">systolic pressure</term>, and a minimum, called <term id="import-auto-id1506745">diastolic pressure</term>, with each heartbeat. Systolic pressure is measured by noting the value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> when blood flow first begins as cuff pressure is lowered. Diastolic pressure is measured by noting <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> when blood flows without interruption. The typical blood pressure of a young adult raises the mercury to a height of 120 mm at systolic and 80 mm at diastolic. This is commonly quoted as 120 over 80, or 120/80. The first pressure is representative of the maximum output of the heart; the second is due to the elasticity of the arteries in maintaining the pressure between beats. The density of the mercury fluid in the manometer is 13.6 times greater than water, so the height of the fluid will be 1/13.6 of that in a water manometer. This reduced height can make measurements difficult, so mercury manometers are used to measure larger pressures, such as blood pressure. The density of mercury is such that <m:math><m:semantics><m:mrow><m:mn>1.0 mm Hg</m:mn><m:mo>=</m:mo><m:mn>133</m:mn><m:mspace width="0.25em"/><m:mtext>Pa</m:mtext></m:mrow></m:semantics></m:math>.</para><note id="fs-id3415528"><label/>
+    <title>Systolic Pressure</title>
+    <para id="import-auto-id2398724">Systolic pressure is the maximum blood pressure.</para>
+    </note>
+    <note id="fs-id990795"><label/>
+    <title>Diastolic Pressure</title>
+    <para id="import-auto-id1561106">Diastolic pressure is the minimum blood pressure.</para>
+    </note>
+
+    <figure id="import-auto-id2688887"><media id="import-auto-id3245510" alt="U.S. Army Spc. Monica Brown takes a soldier's blood pressure reading at the hospital on Forward Operating Base Salerno, Afghanistan, March 10, 2008.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_06_03a.jpg" width="300"/>
+      </media>
+
+    <caption>In routine blood pressure measurements, an inflatable cuff is placed on the upper arm at the same level as the heart. Blood flow is detected just below the cuff, and corresponding pressures are transmitted to a mercury-filled manometer. (credit: U.S. Army photo by Spc. Micah E. Clare\4TH BCT)</caption></figure><example id="eip-121"><title>Calculating Height of IV Bag: Blood Pressure and Intravenous Infusions</title><para id="import-auto-id2968333">Intravenous infusions are usually made with the help of the gravitational force. Assuming that the density of the fluid being administered is 1.00 g/ml, at what height should the IV bag be placed above the entry point so that the fluid just enters the vein if the blood pressure in the vein is 18 mm Hg above atmospheric pressure? Assume that the IV bag is collapsible.</para>
+    <para id="import-auto-id2401134">
+      <title>Strategy for (a)</title>
+    </para>
+    <para id="import-auto-id1576476">For the fluid to just enter the vein, its pressure at entry must exceed the blood pressure in the vein (18 mm Hg above atmospheric pressure). We therefore need to find the height of fluid that corresponds to this gauge pressure.
+    </para>
+    <para id="import-auto-id1596638">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id3028767">We first need to convert the pressure into SI units. Since <m:math><m:semantics><m:mrow><m:mn>1.0 mm Hg</m:mn><m:mo stretchy="false">=</m:mo><m:mtext>133 Pa</m:mtext></m:mrow></m:semantics></m:math>,</para><equation id="eip-327"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>P</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>18 mm Hg</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mtext>133 Pa</m:mtext>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>1.0 mm Hg</m:mn>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>2400 Pa</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P="18"`"mm"`"Hg" times  {  {"133"`"Pa"}  over  {1 "." 0`"mm"`"Hg"} } ="2400"`"Pa" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3423023">Rearranging <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{g} } =hρg} {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub><m:mi fontstyle="italic">ρg</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h= {  {P rSub { size 8{g} } }  over  {ρg} } } {}</m:annotation></m:semantics></m:math>. Substituting known values into this equation gives</para><equation id="eip-321"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                          <m:mi>h</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mtext>2400 N</m:mtext>
+                              <m:msup>
+                                <m:mtext>/m</m:mtext>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mrow>
+                                    <m:mn>0</m:mn>
+                                    <m:mo stretchy="false">×</m:mo>
+                                    <m:msup>
+                                      <m:mtext>10</m:mtext>
+
+                                        <m:mrow>
+                                          <m:mn>3</m:mn>
+                                        </m:mrow>
+
+                                    </m:msup>
+                                  </m:mrow>
+                                 <m:mspace width="0.25em"/>
+                                  <m:msup>
+                                    <m:mtext>kg/m</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mn>3</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mn>9</m:mn>
+                                  <m:mtext>.</m:mtext>
+                                  <m:mtext>80</m:mtext>
+                               <m:mspace width="0.25em"/>
+                                  <m:msup>
+                                    <m:mtext>m/s</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+
+                      <m:mtext>0.24 m.</m:mtext>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{h= {  {"2400"`"N/m" rSup { size 8{2} } }  over  { left (1 "." 0 times "10" rSup { size 8{3} } `"kg/m" rSup { size 8{3} }  right ) left (9 "." "80"`"m/s" rSup { size 8{2} }  right )} } }  {} #
+"   "=" 0" "." "24"`m "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2667951">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2604011">The IV bag must be placed at 0.24 m above the entry point into the arm for the fluid to just enter the arm. Generally, IV bags are placed higher than this. You may have noticed that the bags used for blood collection are placed below the donor to allow blood to flow easily from the arm to the bag, which is the opposite direction of flow than required in the example presented here.</para>
+
+</example><para id="import-auto-id2453270">A <emphasis effect="italics">barometer</emphasis> is a device that measures atmospheric pressure. A mercury barometer is shown in <link target-id="import-auto-id2403521"/>. This device measures atmospheric pressure, rather than gauge pressure, because there is a nearly pure vacuum above the mercury in the tube. The height of the mercury is such that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">hρg</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{hρg=P rSub { size 8{"atm"} } } {}</m:annotation></m:semantics></m:math>. When atmospheric pressure varies, the mercury rises or falls, giving important clues to weather forecasters. The barometer can also be used as an altimeter, since average atmospheric pressure varies with altitude. Mercury barometers and manometers are so common that units of mm Hg are often quoted for atmospheric pressure and blood pressures. <link target-id="eip-286"/> gives conversion factors for some of the more commonly used units of pressure.</para><figure id="import-auto-id2403521"><media id="import-auto-id1398888" alt="Mercury barometer has an evacuated glass tube inverted and placed in the mercury container. The height of the mercury column in the inverted tube is determined by the atmospheric pressure.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_06_04a.jpg" width="200"/>
+      </media>
+
+    <caption>A mercury barometer measures atmospheric pressure. The pressure due to the mercury’s weight, <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{hρg} {}</m:annotation></m:semantics></m:math>, equals atmospheric pressure. The atmosphere is able to force mercury in the tube to a height <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> because the pressure above the mercury is zero.</caption></figure>
+
+<table id="eip-286" summary="Conversion Factors for Various Pressure Units"><title>Conversion Factors for Various Pressure Units</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+       <thead>
+          <row>
+            <entry>Conversion to N/m<sup>2</sup> (Pa)</entry>
+            <entry>Conversion from atm</entry>
+          </row>
+       </thead>
+ <tbody>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1.0 atm</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>013</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"=1 "." "013" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1.0 atm</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>013</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                       <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"=1 "." "013" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1.0</m:mn><m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>dyne/cm</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>10</m:mtext>
+                       <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"dyne/cm" rSup { size 8{2} } =0 "." "10"`"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                      <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:mtext>atm</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>013</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>dyne/cm</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"=1 "." "013" times "10" rSup { size 8{6} } `"dyne/cm" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                     <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>kg/cm</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                    <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"kg/cm" rSup { size 8{2} } =9 "." 8 times "10" rSup { size 8{4} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                     <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:mtext>atm</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>013</m:mtext>
+                     <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>kg/cm</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"=1 "." "013"`"kg/cm" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                    <m:mspace width="0.25em"/>
+                        <m:mtext>lb/in</m:mtext>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>.</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>90</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"lb/in" "."  rSup { size 8{2} } =6 "." "90" times "10" rSup { size 8{3} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                     <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:mtext>atm</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>14</m:mtext>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>7</m:mn>
+                     <m:mspace width="0.25em"/>
+                        <m:mtext>lb/in</m:mtext>
+                        <m:msup>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"="14" "." 7`"lb/in" "."  rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1.0 mm Hg</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>133</m:mtext>
+                        </m:mrow>
+<m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"mm"`"Hg"="133"`"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                       <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:mtext>atm</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>760 mm Hg</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"="760"`"mm"`"Hg"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0 cm Hg</m:mn>
+
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>33</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                       <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"cm"`"Hg"=1 "." "33" times "10" rSup { size 8{3} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                     <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:mtext>atm</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>76</m:mtext>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0 cm Hg</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"="76" "." 0`"cm"`"Hg"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0 cm water</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>98</m:mtext>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>1</m:mn>
+                      <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"cm"`"water"="98" "." 1`"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                       <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:mtext>atm</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>03</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                    <m:mspace width="0.25em"/>
+                        <m:mtext>cm water</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"=1 "." "03" times "10" rSup { size 8{3} } `"cm"`"water"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1.0 bar</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>000</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"bar"=1 "." "000" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>0</m:mn>
+                      <m:mspace width="0.25em"/>
+                        <m:mrow>
+                          <m:mtext>atm</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1.013 bar</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"atm"=1 "." "013"`"bar"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1.0 millibar</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>000</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      <m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext>N/m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"millibar"=1 "." "000" times "10" rSup { size 8{2} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1.0 atm</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>1013 millibar</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+        </tbody>
+
+
+
+
+
+
+</tgroup>
+</table><section id="fs-id1987977" class="section-summary"><title>Section Summary</title><list id="fs-id3197155">
+    <item id="import-auto-id2626448">Gauge pressure is the pressure relative to atmospheric pressure.</item>
+        <item id="import-auto-id3154736">Absolute pressure is the sum of gauge pressure and atmospheric pressure.</item>
+        <item id="import-auto-id2026029">Aneroid gauge measures pressure using a bellows-and-spring arrangement connected to the pointer of a calibrated scale.</item>
+        <item id="import-auto-id2603246">Open-tube manometers have U-shaped tubes and one end is always open. It is used to measure pressure.</item>
+        <item id="import-auto-id1383953">A mercury barometer is a device that measures atmospheric pressure.</item>
+</list>
+    </section><section id="fs-id1934651" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id2010871" type="conceptual-questions"><problem id="fs-id2452595">
+
+    <para id="import-auto-id2622896" fo:font-weight="normal">Explain why the fluid reaches equal levels on either side of a manometer if both sides are open to the atmosphere, even if the tubes are of different diameters.</para>
+    </problem></exercise>
+
+        <exercise id="eip-id3037483" type="conceptual-questions"><problem id="eip-id2402520">
+
+    <para id="import-auto-id1817652"><link target-id="import-auto-id2688887"/> shows how a common measurement of arterial blood pressure is made. Is there any effect on the measured pressure if the manometer is lowered? What is the effect of raising the arm above the shoulder? What is the effect of placing the cuff on the upper leg with the person standing? Explain your answers in terms of pressure created by the weight of a fluid.</para>
+    </problem></exercise><exercise id="fs-id1314393" type="conceptual-questions"><problem id="fs-id3161470">
+
+    <para id="import-auto-id2398849" fo:font-weight="normal">Considering the magnitude of typical arterial blood pressures, why are mercury rather than water manometers used for these measurements?</para>
+    </problem></exercise>
+    </section><section id="fs-id1514189" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title>
+    <exercise id="fs-id2666940" type="problems-exercises"><problem id="fs-id1448906">    <para id="import-auto-id2595275">Find the gauge and absolute pressures in the balloon and peanut jar shown in <link target-id="import-auto-id1840451"/>, assuming the manometer connected to the balloon uses water whereas the manometer connected to the jar contains mercury. Express in units of centimeters of water for the balloon and millimeters of mercury for the jar, taking <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>0500 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h=0 "." "0500"`m} {}</m:annotation></m:semantics></m:math> for each.</para></problem>
+<solution id="fs-id2931519">
+    <para id="import-auto-id1934644">Balloon:</para>
+    <para id="import-auto-id1947977" fo:font-weight="normal"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:msub>
+                              <m:mi>P</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>g</m:mtext>
+                                </m:mrow>
+
+                            </m:msub></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+                            <m:mn>5.00 cm</m:mn>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:msub>
+                            <m:mtext> H</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+               </m:msub>
+                          <m:mtext>O,</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd>
+                      <m:msub>
+                        <m:mi>P</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>abs</m:mtext>
+                          </m:mrow>
+
+                      </m:msub></m:mtd>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+
+                      <m:mn>1.035</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+                    </m:mrow>
+                   <m:mspace width="0.25em"/>
+                    <m:mtext>cm</m:mtext><m:mspace width="0.25em"/>
+                    <m:msub>
+                      <m:mtext>H</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mtext>O.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{P rSub { size 8{g} } =5 "." "00"`"cm"`H rSub { size 8{2} } "O,"}  {} #
+P rSub { size 8{"abs"} } =1 "." "035" times "10" rSup { size 8{3} } `"cm"`H rSub { size 8{2} } O "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="import-auto-id1402422" fo:font-weight="normal">Jar:</para>
+    <para id="import-auto-id1998615" fo:font-weight="normal"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:msub>
+                              <m:mi>P</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>g</m:mtext>
+                                </m:mrow>
+
+                            </m:msub></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mtext>50.0 mm Hg</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                          <m:mtext>,</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd>
+                      <m:msub>
+                        <m:mi>P</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>abs</m:mtext>
+                          </m:mrow>
+
+                      </m:msub></m:mtd>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+
+                      <m:mtext>710 mm Hg.</m:mtext>
+                    </m:mrow>
+
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{P rSub { size 8{g} } = - "50" "." 0`"mm"`"Hg,"}  {} #
+P rSub { size 8{"abs"} } ="710"`"mm"`"Hg" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+        <exercise id="fs-id2624790" type="problems-exercises"><problem id="fs-id3044129">    <para id="import-auto-id1903962">(a) Convert normal blood pressure readings of 120 over 80 mm Hg to newtons per meter squared using the relationship for pressure due to the weight of a fluid <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( P=hρg \) } {}</m:annotation></m:semantics></m:math> rather than a conversion factor. (b) Discuss why blood pressures for an infant could be smaller than those for an adult. Specifically, consider the smaller height to which blood must be pumped.</para>
+    </problem></exercise>
+        <exercise id="fs-id2594876" type="problems-exercises"><problem id="fs-id1823725">    <para id="import-auto-id1569357">How tall must a water-filled manometer be to measure blood pressures as high as 300 mm Hg?</para>
+    </problem>
+<solution id="fs-id2968654">
+    <para id="import-auto-id1576682">4.08 m</para></solution>
+    </exercise>
+        <exercise id="fs-id1405340" type="problems-exercises"><problem id="fs-id1560704">    <para id="import-auto-id3116414">Pressure cookers have been around for more than 300 years, although their use has strongly declined in recent years (early models had a nasty habit of exploding). How much force must the latches holding the lid onto a pressure cooker be able to withstand if the circular lid is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25.0 cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0`"cm"} {}</m:annotation></m:semantics></m:math> in diameter and the gauge pressure inside is 300 atm? Neglect the weight of the lid.</para></problem></exercise>
+        <exercise id="fs-id2599483" type="problems-exercises"><problem id="fs-id1419266">    <para id="import-auto-id2653337">Suppose you measure a standing person’s blood pressure by placing the cuff on his leg 0.500 m below the heart. Calculate the pressure you would observe (in units of mm Hg) if the pressure at the heart were 120 over 80 mm Hg. Assume that there is no loss of pressure due to resistance in the circulatory system (a reasonable assumption, since major arteries are large).</para>
+    </problem>
+<solution id="fs-id2053770">
+    <para id="import-auto-id1486834"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>Δ</m:mn><m:mi fontstyle="italic">P</m:mi>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mtext>38.7 mm Hg,</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>Leg blood pressure</m:mtext>
+                          <m:mrow>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mtext>159</m:mtext>
+                              <m:mtext>119</m:mtext>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ΔP="38" "." 7`"mm"`"Hg,"}  {} #
+ size 12{"Leg"`"blood"`"pressure"= {  {"159"}  over  {"119"} }  "." }  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+        <exercise id="fs-id2950488" type="problems-exercises"><problem id="fs-id1871777">    <para id="import-auto-id1825009">A submarine is stranded on the bottom of the ocean with its hatch 25.0 m below the surface. Calculate the force needed to open the hatch from the inside, given it is circular and 0.450 m in diameter. Air pressure inside the submarine is 1.00 atm.</para>
+    </problem></exercise>
+        <exercise id="fs-id2408955" type="problems-exercises"><problem id="fs-id2452392">    <para id="import-auto-id3423176">Assuming bicycle tires are perfectly flexible and support the weight of bicycle and rider by pressure alone, calculate the total area of the tires in contact with the ground. The bicycle plus rider has a mass of 80.0 kg, and the gauge pressure in the tires is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>Pa</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "50" times "10" rSup { size 8{5} } `"Pa"} {}</m:annotation></m:semantics></m:math>.</para></problem>
+<solution id="fs-id3033693">
+    <para id="import-auto-id1431652"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>22</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>4</m:mn>
+              <m:mspace width="0.25em"/>
+                  <m:msup>
+                    <m:mtext>cm</m:mtext>
+
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"22" "." 4`"cm" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    </section>
+
+ </content>
+    <glossary>
+        <definition id="import-auto-id1994361"><term>absolute pressure</term><meaning id="fs-id1916473">the sum of gauge pressure and atmospheric pressure</meaning></definition>
+        <definition id="import-auto-id3175907"><term>diastolic pressure</term> <meaning id="fs-id2604440">the minimum blood pressure in the artery</meaning></definition>
+        <definition id="import-auto-id1824959"><term>gauge pressure</term> <meaning id="fs-id2680305">the pressure relative to atmospheric pressure</meaning></definition>
+        <definition id="import-auto-id1911206"><term>systolic pressure</term> <meaning id="fs-id1411839">the maximum blood pressure in the artery</meaning></definition>
+    </glossary>
+</document>

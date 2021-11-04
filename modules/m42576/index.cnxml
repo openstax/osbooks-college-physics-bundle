@@ -1,0 +1,314 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>The Wave Nature of Matter</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42576</md:content-id>
+  <md:title>The Wave Nature of Matter</md:title>
+  <md:abstract><list>
+<item>Describe the Davisson-Germer experiment, and explain how it provides evidence for the wave nature of electrons.</item>
+</list></md:abstract>
+  <md:uuid>96938a46-e4f4-473e-825a-61e8ccb53e09</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id2665203">
+  <title>De Broglie Wavelength</title>
+    <para id="import-auto-id1558765">In 1923 a French physics graduate student named Prince Louis-Victor de Broglie (1892–1987) made a radical proposal based on the hope that nature is symmetric. If EM radiation has both particle and wave properties, then nature would be symmetric if matter also had both particle and wave properties. If what we once thought of as an unequivocal wave (EM radiation) is also a particle, then what we think of as an unequivocal particle (matter) may also be a wave. De Broglie’s suggestion, made as part of his doctoral thesis, was so radical that it was greeted with some skepticism. A copy of his thesis was sent to Einstein, who said it was not only probably correct, but that it might be of fundamental importance. With the support of Einstein and a few other prominent physicists, de Broglie was awarded his doctorate.</para>
+    <para id="import-auto-id1413420">De Broglie took both relativity and quantum mechanics into account to develop the proposal that <emphasis effect="italics"><emphasis effect="italics">all particles have a wavelength</emphasis></emphasis>, given by</para>
+    <equation id="eip-586"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>p</m:mi></m:mfrac><m:mo>(matter and photons),</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ =  {  {h}  over  {p} } } {}</m:annotation></m:semantics></m:math> </equation><para id="import-auto-id858900">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is Planck’s constant and <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> is momentum. This is defined to be the <term id="import-auto-id2686471">de Broglie wavelength</term>. (Note that we already have this for photons, from the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>λ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p = h/λ} {}</m:annotation></m:semantics></m:math>.) The hallmark of a wave is interference. If matter is a wave, then it must exhibit constructive and destructive interference. Why isn’t this ordinarily observed? The answer is that in order to see significant interference effects, a wave must interact with an object about the same size as its wavelength. Since <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is very small, <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> is also small, especially for macroscopic objects. A 3-kg bowling ball moving at 10 m/s, for example, has <equation id="eip-id1388180"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>p</m:mi></m:mrow></m:mrow><m:mo>= </m:mo><m:mo stretchy="false">(</m:mo><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>63 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mtext>–34</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J·s</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">[</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>3 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>10 m/s</m:mtext><m:mo stretchy="false">)]</m:mo><m:mrow><m:mo> =</m:mo><m:mn> 2 </m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mtext>–35</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mtext> m.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ = h/p"= " \( 6 "." "63 " times " 10" rSup { size 8{"–34"} } " J·s" \) / \[  \( "3kg" \)  \( "10 m/s" \) " = 2 " times " 10" rSup { size 8{"–35"} } " m"} {}</m:annotation></m:semantics></m:math></equation> This means that to see its wave characteristics, the bowling ball would have to interact with something about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mtext>–35</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{" 10" rSup { size 8{"–35"} } " m"} {}</m:annotation></m:semantics></m:math> in size—far smaller than anything known. When waves interact with objects much larger than their wavelength, they show negligible interference effects and move in straight lines (such as light rays in geometric optics). To get easily observed interference effects from particles of matter, the longest wavelength and hence smallest mass possible would be useful. Therefore, this effect was first observed with electrons.</para><para id="import-auto-id1617271">American physicists Clinton J. Davisson and Lester H. Germer in 1925 and, independently, British physicist G. P. Thomson (son of J. J. Thomson, discoverer of the electron) in 1926 scattered electrons from crystals and found diffraction patterns. These patterns are exactly consistent with interference of electrons having the de Broglie wavelength and are somewhat analogous to light interacting with a diffraction grating. (See <link target-id="import-auto-id925487"/>.)</para>
+
+  <note id="fs-id1734915"><label/>
+    <title>Connections: Waves</title>
+    <para id="fs-id1746856">All microscopic particles, whether massless, like photons, or having mass, like electrons, have wave properties. The relationship between momentum and wavelength is fundamental for all particles.</para>
+    </note>
+
+  <para id="import-auto-id2698113">De Broglie’s proposal of a wave nature for all particles initiated a remarkably productive era in which the foundations for quantum mechanics were laid. In 1926, the Austrian physicist Erwin Schrödinger (1887–1961) published four papers in which the wave nature of particles was treated explicitly with wave equations. At the same time, many others began important work. Among them was German physicist Werner Heisenberg (1901–1976) who, among many other contributions to quantum mechanics, formulated a mathematical treatment of the wave nature of matter that used matrices rather than wave equations. We will deal with some specifics in later sections, but it is worth noting that de Broglie’s work was a watershed for the development of quantum mechanics. De Broglie was awarded the Nobel Prize in 1929 for his vision, as were Davisson and G. P. Thomson in 1937 for their experimental verification of de Broglie’s hypothesis.</para><figure id="import-auto-id925487"><media id="import-auto-id2611093" alt="Diffraction pattern obtained for electrons diffracted by crystalline silicon is shown. The diffraction pattern has a bright spot at the center of a circle with brighter and darker regions occurring in a symmetric manner.">
+        <image mime-type="image/png" src="../../media/Figure 30_06_01a.jpg" width="300"/>
+      </media>
+
+    <caption>This diffraction pattern was obtained for electrons diffracted by crystalline silicon. Bright regions are those of constructive interference, while dark regions are those of destructive interference. (credit: Ndthe, Wikimedia Commons)</caption></figure><example id="fs-id2621262">
+    <title>Electron Wavelength versus Velocity and Energy</title>
+    <para id="import-auto-id2378653">For an electron having a de Broglie wavelength of 0.167 nm (appropriate for interacting with crystal lattice structures that are about this size): (a) Calculate the electron’s velocity, assuming it is nonrelativistic. (b) Calculate the electron’s kinetic energy in eV.</para>
+
+      <para id="import-auto-id2659440"><title>Strategy</title></para>
+     <para id="fs-id2371031">For part (a), since the de Broglie wavelength is given, the electron’s velocity can be obtained from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>p</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ = h/p} {}</m:annotation></m:semantics></m:math> by using the nonrelativistic formula for momentum, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv.</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= ital "mv"} {}</m:annotation></m:semantics></m:math> For part (b), once <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is obtained (and it has been verified that <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is nonrelativistic), the classical kinetic energy is simply <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 1/2 \)  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1579316"><title>Solution for (a)</title></para>
+      <para id="fs-id1782517">Substituting the nonrelativistic formula for momentum (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= ital "mv"} {}</m:annotation></m:semantics></m:math>) into the de Broglie wavelength gives</para>
+    <equation id="eip-81"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>p</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>h</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ =  {  {h}  over  {p} }  =  {  {h}  over  { ital "mv"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1550695">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> gives</para>
+    <equation id="eip-248"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>h</m:mi><m:mi fontstyle="italic">mλ</m:mi></m:mfrac><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v =  {  {h}  over  {mλ} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2662348">Substituting known values yields</para>
+    <equation id="eip-177"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>63 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mtext>–34</m:mtext></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext> J </m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>9.11 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mtext>–31</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>167 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mtext>–9</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext> 4</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>36 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext> 10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v =  {  {6 "." "63 " times " 10" rSup { size 8{"–34"} } " J " cdot " s"}  over  { \( 9 "." "11 " times " 10" rSup { size 8{"–31"} } " kg" \)  \( 0 "." "167 " times " 10" rSup { size 8{"–9"} } " m" \) } } =" 4" "." "36 " times " 10" rSup { size 8{6} } " m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1383220"><title>Solution for (b)</title></para>
+      <para id="fs-id1784027">While fast compared with a car, this electron’s speed is not highly relativistic, and so we can comfortably use the classical formula to find the electron’s kinetic energy and convert it to eV as requested.</para><equation id="eip-948"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+
+                            <m:mtext>KE </m:mtext></m:mtd>
+                            <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                              <m:msup>
+                                <m:mtext fontstyle="italic">mv</m:mtext>
+                                    <m:mn>2</m:mn>
+                              </m:msup></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/><m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>9.11 </m:mn>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext> 10</m:mtext>
+                            <m:mtext>–31</m:mtext></m:msup><m:mspace width="0.25em"/><m:mtext> kg</m:mtext>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                      <m:mtext>4.36 </m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup><m:mtext> 10</m:mtext>
+                            <m:mn>6</m:mn>
+                      </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> m/s</m:mtext>
+                    <m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+                          <m:mn>2</m:mn>
+                    </m:msup></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                    <m:mtext> (86.4</m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext> 10</m:mtext>
+                            <m:mtext>–18</m:mtext>
+                      </m:msup>
+<m:mspace width="0.25em"/>
+                      <m:mtext> J)</m:mtext>
+                      <m:mo>(</m:mo>
+                      <m:mfrac>
+                        <m:mtext>1 eV</m:mtext>
+                        <m:mrow>
+                          <m:mn>1.602</m:mn>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext> 10</m:mtext>
+                                  <m:mtext>–19</m:mtext>
+                            </m:msup><m:mspace width="0.25em"/>
+                          <m:mtext> J</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                      <m:mo>)</m:mo></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                    <m:mtext> 54.0 eV</m:mtext></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"KE "=  {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } }  {} #
+=" 0" "." 5 \( 9 "." "11 " times " 10" rSup { size 8{"–31"} } " kg" \)  \( 4 "." "36 " times " 10" rSup { size 8{6} } " m/s" \)  rSup { size 8{2} }  {} #
+=" 8" "." "64 " times " 10" rSup { size 8{"–18"} } " J " cdot   {  {"1eV"}  over  {1 "." "60 " times " 10" rSup { size 8{"–19"} } " J"} }  {} #
+=" 54" "." "0 eV" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2699077"><title>Discussion</title></para>
+      <para id="fs-id892474">This low energy means that these 0.167-nm electrons could be obtained by accelerating them through a 54.0-V electrostatic potential, an easy task. The results also confirm the assumption that the electrons are nonrelativistic, since their velocity is just over 1% of the speed of light and the kinetic energy is about 0.01% of the rest energy of an electron (0.511 MeV). If the electrons had turned out to be relativistic, we would have had to use more involved calculations employing relativistic formulas.</para>
+    </example>
+</section>
+
+      <section id="fs-id1682272">
+        <title>Electron Microscopes</title>
+    <para id="import-auto-id1495119">One consequence or use of the wave nature of matter is found in the electron microscope. As we have discussed, there is a limit to the detail observed with any probe having a wavelength. Resolution, or observable detail, is limited to about one wavelength. Since a potential of only 54 V can produce electrons with sub-nanometer wavelengths, it is easy to get electrons with much smaller wavelengths than those of visible light (hundreds of nanometers). Electron microscopes can, thus, be constructed to detect much smaller details than optical microscopes. (See <link target-id="fs-id1510268"/>.)</para><para id="import-auto-id1562438">There are basically two types of electron microscopes. The transmission electron microscope (TEM) accelerates electrons that are emitted from a hot filament (the cathode). The beam is broadened and then passes through the sample. A magnetic lens focuses the beam image onto a fluorescent screen, a photographic plate, or (most probably) a CCD (light sensitive camera), from which it is transferred to a computer. The TEM is similar to the optical microscope, but it requires a thin sample examined in a vacuum. However it can resolve details as small as 0.1 nm (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mn>m</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "10"} } `m} {}</m:annotation></m:semantics></m:math>), providing magnifications of 100 million times the size of the original object. The TEM has allowed us to see individual atoms and structure of cell nuclei.</para><para id="import-auto-id1442308">The scanning electron microscope (SEM) provides images by using secondary electrons produced by the primary beam interacting with the surface of the sample (see <link target-id="fs-id1510268"/>). The SEM also uses magnetic lenses to focus the beam onto the sample. However, it moves the beam around electrically to “scan” the sample in the <emphasis effect="italics">x</emphasis> and <emphasis effect="italics">y</emphasis> directions. A CCD detector is used to process the data for each electron position, producing images like the one at the beginning of this chapter. The SEM has the advantage of not requiring a thin sample and of providing a 3-D view. However, its resolution is about ten times less than a TEM.</para><figure id="fs-id1510268"><media id="import-auto-id806536" alt="Figure a shows a schematic of an electron microscope. Figure b shows an image of a shark tooth.">
+            <image mime-type="image/jpg" src="../../media/Figure 30_06_02a.jpg" width="600"/>
+          </media>
+
+<caption>Schematic of a scanning electron microscope (SEM) (a) used to observe small details, such as those seen in this image of a tooth of a <emphasis effect="italics">Himipristis</emphasis>, a type of shark (b). (credit: Dallas Krentzel, Flickr)</caption></figure><para id="import-auto-id2642493">Electrons were the first particles with mass to be directly confirmed to have the wavelength proposed by de Broglie. Subsequently, protons, helium nuclei, neutrons, and many others have been observed to exhibit interference when they interact with objects having sizes similar to their de Broglie wavelength. The de Broglie wavelength for massless particles was well established in the 1920s for photons, and it has since been observed that all massless particles have a de Broglie wavelength <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>p</m:mi><m:mi>.</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ = h/p} {}</m:annotation></m:semantics></m:math> The wave nature of all particles is a universal characteristic of nature. We shall see in following sections that implications of the de Broglie wavelength include the quantization of energy in atoms and molecules, and an alteration of our basic view of nature on the microscopic scale. The next section, for example, shows that there are limits to the precision with which we may make predictions, regardless of how hard we try. There are even limits to the precision with which we may measure an object’s location or energy.</para><note id="fs-id1477161"><label/>
+    <title>Making Connections: A Submicroscopic Diffraction Grating</title>
+          <para id="fs-id2335689">The wave nature of matter allows it to exhibit all the characteristics of other, more familiar, waves. Diffraction gratings, for example, produce diffraction patterns for light that depend on grating spacing and the wavelength of the light. This effect, as with most wave phenomena, is most pronounced when the wave interacts with objects having a size similar to its wavelength. For gratings, this is the spacing between multiple slits.) When electrons interact with a system having a spacing similar to the electron wavelength, they show the same types of interference patterns as light does for diffraction gratings, as shown at top left in <link target-id="fs-id1309356"/>.</para>
+    <para id="import-auto-id1381533">Atoms are spaced at regular intervals in a crystal as parallel planes, as shown in the bottom part of <link target-id="fs-id1309356"/>. The spacings between these planes act like the openings in a diffraction grating. At certain incident angles, the paths of electrons scattering from successive planes differ by one wavelength and, thus, interfere constructively. At other angles, the path length differences are not an integral wavelength, and there is partial to total destructive interference. This type of scattering from a large crystal with well-defined lattice planes can produce dramatic interference patterns. It is called <emphasis effect="italics"><emphasis effect="italics">Bragg reflection</emphasis></emphasis>, <emphasis effect="italics"/>for the father-and-son team who first explored and analyzed it in some detail. The expanded view also shows the path-length differences and indicates how these depend on incident angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> in a manner similar to the diffraction patterns for x rays reflecting from a crystal.</para><figure id="fs-id1309356"><media id="fs-id1359969" alt="An electron beam is striking at an angle theta on a crystal and the reflected rays are detected by a detector. A magnified view of the crystal is also shown with two rays of electrons striking the various layers of crystal at an angle theta and reflected back. A graph is shown of intensity variation versus theta. Intensity is along the y axis and theta is along the x axis.The shape of the curve is like a wave and each subsequent peak diminishes as we move out the x axis.">
+        <image mime-type="image/jpg" src="../../media/Figure 30_06_03a.jpg" width="350"/>
+      </media>
+
+        <caption>The diffraction pattern at top left is produced by scattering electrons from a crystal and is graphed as a function of incident angle relative to the regular array of atoms in a crystal, as shown at bottom. Electrons scattering from the second layer of atoms travel farther than those scattered from the top layer. If the path length difference (PLD) is an integral wavelength, there is constructive interference.</caption></figure><para id="import-auto-id2285826">Let us take the spacing between parallel planes of atoms in the crystal to be <m:math><m:mi>d</m:mi></m:math>. As mentioned, if the path length difference (PLD) for the electrons is a whole number of wavelengths, there will be constructive interference—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>PLD</m:mtext><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">nλ </m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mi>n</m:mi><m:mo>=</m:mo><m:mn> 1, 2, 3,</m:mn><m:mo stretchy="false">…</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>AB</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>BC</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo>
+<m:mi fontstyle="italic">d</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> we have constructive interference when
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">nλ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>2</m:mtext><m:mi>d</m:mi><m:mspace width="0.25em"/></m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ.</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> This relationship is called the <emphasis effect="italics">Bragg equation</emphasis> and applies not only to electrons but also to x rays.</para><para id="import-auto-id2620737">The wavelength of matter is a submicroscopic characteristic that explains a macroscopic phenomenon such as Bragg reflection. Similarly, the wavelength of light is a submicroscopic characteristic that explains the macroscopic phenomenon of diffraction patterns.</para>
+    </note>
+      </section>
+
+        <section id="fs-id2298533" class="section-summary">
+<title>Section Summary</title><list id="fs-id2662413">
+    <item id="import-auto-id1743915">Particles of matter also have a wavelength, called the de Broglie wavelength, given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>h</m:mi><m:mi>p</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ =  {  {h}  over  {p} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> is momentum.</item>
+    <item id="import-auto-id1765526">Matter is found to have the same <emphasis effect="italics"><emphasis effect="italics">interference characteristics</emphasis></emphasis> as any other wave.</item>
+    </list>
+        </section>
+
+    <section id="fs-id1516477" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id2731532" type="conceptual-questions"><problem id="fs-id1792768">
+    <para id="import-auto-id1393787">How does the interference of water waves differ from the interference of electrons? How are they analogous?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id1306355" type="conceptual-questions"><problem id="fs-id858558">
+    <para id="import-auto-id2672405">Describe one type of evidence for the wave nature of matter.</para>
+    </problem></exercise>
+
+    <exercise id="fs-id1278570" type="conceptual-questions"><problem id="fs-id1443880">
+    <para id="import-auto-id1383505">Describe one type of evidence for the particle nature of EM radiation.</para>
+    </problem></exercise>
+    </section>
+
+    <section id="fs-id1008305" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1308269" type="problems-exercises"><problem id="fs-id1771294">
+      <para id="import-auto-id1777645">At what velocity will an electron have a wavelength of 1.00 m?</para>
+    </problem>
+<solution id="fs-id1549038">
+    <para id="import-auto-id2666048"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>7.28</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+
+                            <m:mo>–4</m:mo>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> m</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{7 "." "28" times "10" rSup { size 8{–4} } " m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id864093" type="problems-exercises"><problem id="fs-id1308521">
+      <para id="import-auto-id1257261">What is the wavelength of an electron moving at 3.00% of the speed of light?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id1208943" type="problems-exercises"><problem id="fs-id1771431">
+      <para id="import-auto-id2323348">At what velocity does a proton have a 6.00-fm wavelength (about the size of a nucleus)? Assume the proton is nonrelativistic. (1 femtometer = <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>15</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>m.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "15"} } " m"} {}</m:annotation></m:semantics></m:math>)</para></problem>
+<solution id="fs-id1295719">
+    <para id="import-auto-id1238679"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>6.62</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>7</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> m/s</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{6 "." "62" times "10" rSup { size 8{7} } " m/s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id1224509" type="problems-exercises"><problem id="fs-id1389276">
+      <para id="import-auto-id1518035">What is the velocity of a 0.400-kg billiard ball if its wavelength is 7.50 cm (large enough for it to interfere with other billiard balls)?</para>
+    </problem></exercise>
+
+
+    <exercise id="fs-id1655339" type="problems-exercises"><problem id="fs-id2371058">
+      <para id="import-auto-id1487314">Find the wavelength of a proton moving at 1.00% of the speed of light.</para>
+    </problem>
+<solution id="eip-id1167896123974"><para id="eip-id1167896123975"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1.32</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>–13</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> m</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{6 "." "62" times "10" rSup { size 8{7} } " m/s"} {}</m:annotation>
+        </m:semantics>
+      </m:math> </para></solution></exercise><exercise id="fs-id1474180" type="problems-exercises"><problem id="fs-id2672742">
+      <para id="import-auto-id2298313">Experiments are performed with ultracold neutrons having velocities as small as 1.00 m/s. (a) What is the wavelength of such a neutron? (b) What is its kinetic energy in eV?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id1678654" type="problems-exercises"><problem id="fs-id629115">
+      <para id="import-auto-id1462441">(a) Find the velocity of a neutron that has a 6.00-fm wavelength (about the size of a nucleus). Assume the neutron is nonrelativistic. (b) What is the neutron’s kinetic energy in MeV?</para>
+    </problem>
+<solution id="fs-id1297062">
+    <para id="import-auto-id2299333">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6.62</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "62" times "10" rSup { size 8{7} } " m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2286104">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mn>22.9 MeV</m:mn></m:mrow></m:mrow></m:semantics></m:math></para></solution>
+    </exercise>
+
+    <exercise id="fs-id2367506" type="problems-exercises"><problem id="fs-id1743745">
+      <para id="import-auto-id1473417">What is the wavelength of an electron accelerated through a 30.0-kV potential, as in a TV tube?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id1680080" type="problems-exercises"><problem id="fs-id1459573">
+      <para id="import-auto-id1477961">What is the kinetic energy of an electron in a TEM having a 0.0100-nm wavelength?</para></problem>
+<solution id="eip-id1441290">
+<equation id="eip-id1314640">15.1 keV</equation></solution></exercise><exercise id="fs-id1471848" type="problems-exercises"><problem id="fs-id2311344">
+      <para id="import-auto-id1903964">(a) Calculate the velocity of an electron that has a wavelength of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 μm.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00 μm"} {}</m:annotation></m:semantics></m:math> (b) Through what voltage must the electron be accelerated to have this velocity?</para></problem></exercise>
+
+
+    <exercise id="fs-id1518860" type="problems-exercises"><problem id="fs-id1512405">
+      <para id="import-auto-id2709248">The velocity of a proton emerging from a Van de Graaff accelerator is 25.0% of the speed of light. (a) What is the proton’s wavelength? (b) What is its kinetic energy, assuming it is nonrelativistic? (c) What was the equivalent voltage through which it was accelerated?</para>
+    </problem>
+<solution id="fs-id1571465">
+    <para id="import-auto-id2657426">(a) 5.29 fm</para>
+    <para id="import-auto-id1518876">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>70</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>12</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "70" times "10" rSup { size 8{ - "12"} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2661484">(c) 29.4 MV</para></solution>
+    </exercise>
+
+    <exercise id="fs-id2692318" type="problems-exercises"><problem id="fs-id1556046">
+      <para id="import-auto-id1516318">The kinetic energy of an electron accelerated in an x-ray tube is 100 keV. Assuming it is nonrelativistic, what is its wavelength?</para></problem></exercise>
+
+    <exercise id="fs-id2684892" type="problems-exercises"><problem id="fs-id2681208">
+      <para id="import-auto-id1554680"><title>Unreasonable Results</title></para>
+      <para id="fs-id1777590">(a) Assuming it is nonrelativistic, calculate the velocity of an electron with a 0.100-fm wavelength (small enough to detect details of a nucleus). (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para>
+    </problem>
+<solution id="fs-id2700808">
+    <para id="import-auto-id1304157">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7.28</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>12</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "28" times "10" rSup { size 8{"12"} } " m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1439234">(b) This is thousands of times the speed of light (an impossibility).</para>
+    <para id="import-auto-id1359730">(c) The assumption that the electron is non-relativistic is unreasonable at this wavelength.</para>
+    </solution>
+    </exercise>
+   </section> </content>
+  <glossary>
+    <definition id="import-auto-id2685223"><term>de Broglie wavelength</term> <meaning id="fs-id2684614">the wavelength possessed by a particle of matter, calculated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>p</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ = h/p} {}</m:annotation></m:semantics></m:math></meaning></definition>
+  </glossary>
+</document>

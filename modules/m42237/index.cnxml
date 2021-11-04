@@ -1,0 +1,771 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42237</md:content-id>
+  <md:title>Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy</md:title>
+  <md:abstract><list>
+<item> Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes. </item>
+<item>Explain the expected fate of the universe in entropic terms.</item>
+<item>Calculate the increasing disorder of a system.</item>
+</list></md:abstract>
+  <md:uuid>15a50194-9cf1-4848-8d68-dcce5788433e</md:uuid>
+</metadata>
+
+<content>
+
+    <figure id="import-auto-id1169737779231"><media id="import-auto-id1169737805805" alt="Photograph shows a glass of a beverage with ice cubes and a straw, placed on a paper napkin on the table. There is a piece of sliced lemon at the edge of the glass. There is condensate around the outside surface of the glass, giving the appearance that the ice is melting.">
+        <image mime-type="image/png" src="../../media/Figure_16_06_01.jpg" width="200"/>
+      </media>
+
+    <caption>The ice in this drink is slowly melting. Eventually the liquid will reach thermal equilibrium, as predicted by the second law of thermodynamics. (credit: Jon Sullivan, PDPhoto.org)</caption></figure><para id="import-auto-id1169738239451">There is yet another way of expressing the second law of thermodynamics. This version relates to a concept called <term id="import-auto-id1169737708054">entropy</term>. By examining it, we shall see that the directions associated with the second law—heat transfer from hot to cold, for example—are related to the tendency in nature for systems to become disordered and for less energy to be available for use as work. The entropy of a system can in fact be shown to be a measure of its disorder and of the unavailability of energy to do work.</para>
+
+  <note id="fs-id1169738198652"><label/>
+    <title>Making Connections: Entropy, Energy, and Work</title>
+    <para id="import-auto-id1169738036913">Recall that the simple definition of energy is the ability to do work. Entropy is a measure of how much energy is not available to do work. Although all forms of energy are interconvertible, and all can be used to do work, it is not always possible, even in principle, to convert the entire available energy into work. That unavailable energy is of interest in thermodynamics, because the field of thermodynamics arose from efforts to convert heat to work.</para>
+  </note>
+
+    <para id="import-auto-id1169737795745">We can see how entropy is defined by recalling our discussion of the Carnot engine. We noted that for a Carnot cycle, and hence for any reversible processes, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } /Q rSub { size 8{h} } =T rSub { size 8{c} } /T rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>. Rearranging terms yields</para>
+    <equation id="eip-428"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>Q</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>c</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>c</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>Q</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>h</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>h</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {Q rSub { size 8{c} } }  over  {T rSub { size 8{c} } } } = {  {Q rSub { size 8{h} } }  over  {T rSub { size 8{h} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id1169737770807">for any reversible process. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math> are absolute values of the heat transfer at temperatures <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>, respectively. This ratio of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>T</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/T} {}</m:annotation></m:semantics></m:math> is defined to be the <term id="import-auto-id1169737917533">change in entropy</term> <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math> for a reversible process,</para>
+    <equation id="eip-563"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mfenced open="(" close=")"><m:mfrac><m:mi>Q</m:mi><m:mi>T</m:mi></m:mfrac></m:mfenced><m:mrow><m:mtext>rev</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS= left ( {  {Q}  over  {T} }  right ) rSub { size 8{"rev"} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737795454">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the heat transfer, which is positive for heat transfer into and negative for heat transfer out of, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> is the absolute temperature at which the reversible process takes place. The SI unit for entropy is joules per kelvin (J/K). If temperature changes during the process, then it is usually a good approximation (for small changes in temperature) to take <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> to be the average temperature, avoiding the need to use integral calculus to find <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1169738208667">The definition of <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math> is strictly valid only for reversible processes, such as used in a Carnot engine. However, we can find <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math> precisely even for real, irreversible processes. The reason is that the entropy <m:math><m:semantics><m:mrow><m:mrow><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S} {}</m:annotation></m:semantics></m:math> of a system, like internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math>, depends only on the state of the system and not how it reached that condition. Entropy is a property of state. Thus the change in entropy <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math> of a system between state 1 and state 2 is the same no matter how the change occurs. We just need to find or imagine a reversible process that takes us from state 1 to state 2 and calculate <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math> for that process. That will be the change in entropy for any process going from state 1 to state 2. (See <link target-id="import-auto-id1169738050955"/>.)</para>
+
+    <figure id="import-auto-id1169738050955"><media id="import-auto-id1169738208249" alt="The diagram shows a schematic representation of a system that goes from state one with entropy S sub one to state two with entropy S sub two. The two states are shown as two circles drawn a distance apart. Two arrows represent two different processes to take the system from state one to state two. A straight arrow pointing from state one to state two shows a reversible process. The change in entropy for this process is given by delta S equals Q divided by T. The second process is marked as a curving arrow from state one to state two, showing an irreversible process. The change in entropy for this process is given by delta S sub irreversible equals delta S sub reversible equals S sub two minus S sub one.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_06_02.jpg" width="300"/>
+      </media>
+
+    <caption>When a system goes from state 1 to state 2, its entropy changes by the same amount <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math>, whether a hypothetical reversible path is followed or a real irreversible path is taken. </caption></figure><para id="import-auto-id1169736657076">Now let us take a look at the change in entropy of a Carnot engine and its heat reservoirs for one full cycle. The hot reservoir has a loss of entropy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">/</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS rSub { size 8{h} } = - Q rSub { size 8{h} } /T rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>, because heat transfer occurs out of it (remember that when heat transfers out, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> has a negative sign). The cold reservoir has a gain of entropy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS rSub { size 8{c} } =Q rSub { size 8{c} } /T rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, because heat transfer occurs into it. (We assume the reservoirs are sufficiently large that their temperatures are constant.) So the total change in entropy is</para>
+    <equation id="eip-20"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+
+                      <m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>tot</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+
+                        <m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>h</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+
+                        <m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>c</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"tot"} } =DS rSub { size 8{h} } +DS rSub { size 8{c} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id1169738080394">Thus, since we know that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } /T rSub { size 8{h} } =Q rSub { size 8{c} } /T rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> for a Carnot engine,</para>
+
+    <equation id="eip-95"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+
+                    <m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi>
+
+                      <m:mrow>
+                        <m:mtext>tot</m:mtext>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mtext>=–</m:mtext>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>Q</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>h</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>T</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>h</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mfrac>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>Q</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>c</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>T</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>c</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"tot"} } "=-" {  {Q rSub { size 8{h} } }  over  {T rSub { size 8{h} } } } + {  {Q rSub { size 8{c} } }  over  {T rSub { size 8{c} } } } =0 "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169738182621">This result, which has general validity, means that <emphasis effect="italics">the total change in entropy for a system in any reversible process is zero.</emphasis></para>
+    <para id="import-auto-id1169736590877">The entropy of various parts of the system may change, but the total change is zero. Furthermore, the system does not affect the entropy of its surroundings, since heat transfer between them does not occur. Thus the reversible process changes neither the total entropy of the system nor the entropy of its surroundings. Sometimes this is stated as follows: <emphasis effect="italics">Reversible processes do not affect the total entropy of the universe.</emphasis> Real processes are not reversible, though, and they do change total entropy. We can, however, use hypothetical reversible processes to determine the value of entropy in real, irreversible processes. The following example illustrates this point.</para>
+
+  <example id="fs-id1169738080394"><title>Entropy Increases in an Irreversible (Real) Process</title><para id="import-auto-id1169737968593">Spontaneous heat transfer from hot to cold is an irreversible process. Calculate the total change in entropy if 4000 J of heat transfer occurs from a hot reservoir at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>600 K</m:mtext></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>327º C</m:mtext></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{h} } ="600"" K " left ("327"°C right )} {}</m:annotation></m:semantics></m:math> to a cold reservoir at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>250 K</m:mtext></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23º C</m:mtext></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{c} } ="250"" K " left (-"23" "." 0°C right )} {}</m:annotation></m:semantics></m:math>, assuming there is no temperature change in either reservoir. (See <link target-id="import-auto-id1169738087634"/>.)</para><para id="import-auto-id1169736614763">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1169737790371">How can we calculate the change in entropy for an irreversible process when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS rSub { size 8{"tot"} } =ΔS rSub { size 8{h} } +ΔS rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is valid only for reversible processes? Remember that the total change in entropy of the hot and cold reservoirs will be the same whether a reversible or irreversible process is involved in heat transfer from hot to cold. So we can calculate the change in entropy of the hot reservoir for a hypothetical reversible process in which 4000 J of heat transfer occurs from it; then we do the same for a hypothetical reversible process in which 4000 J of heat transfer occurs to the cold reservoir. This produces the same changes in the hot and cold reservoirs that would occur if the heat transfer were allowed to occur irreversibly between them, and so it also produces the same changes in entropy.</para>
+
+    <para id="import-auto-id1169738078759">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id1169738234769">We now calculate the two changes in entropy using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"tot"} } =DS rSub { size 8{h} } +DS rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>. First, for the heat transfer from the hot reservoir,</para>
+    <equation id="eip-453"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>4000 J</m:mtext></m:mrow></m:mrow><m:mtext>600 K</m:mtext></m:mfrac></m:mrow><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>67 J/K</m:mtext></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{h} } = {  {-Q rSub { size 8{h} } }  over  {T rSub { size 8{h} } } } = {  {-"4000"" J"}  over  {"600 K"} } "=-"6 "." "67"" J/K"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737819358">And for the cold reservoir,</para>
+    <equation id="eip-688"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>4000 J</m:mtext></m:mrow><m:mtext>250 K</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>16</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 J/K</m:mn></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{c} } = {  {-Q rSub { size 8{c} } }  over  {T rSub { size 8{c} } } } = {  {"4000"" J"}  over  {"250 K"} } ="16" "." 0" J/K"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738209283">Thus the total is</para>
+  <equation id="eip-462"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr><m:mtd>
+
+                            <m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi>
+
+                              <m:mrow>
+                                <m:mtext>tot</m:mtext>
+                              </m:mrow>
+
+                          </m:msub></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+
+                          <m:mrow>
+
+                              <m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>h</m:mtext>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mo stretchy="false">+</m:mo>
+
+                              <m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>c</m:mtext>
+                                </m:mrow>
+
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                    <m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mo stretchy="false">–</m:mo>
+                      <m:mn>6</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>67 +16</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>0</m:mn>
+                    <m:mo stretchy="false">)</m:mo><m:mspace width="0.25em"/>
+                    <m:mtext> J/K</m:mtext>
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                    <m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                    <m:mtext>9.33 J/K.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{DS rSub { size 8{"tot"} } =DS rSub { size 8{h} } +DS rSub { size 8{c} } }  {} #
+"        =" \(  +- 6 "." "67 +16" "." 0 \) " J/K" {} #
+"        =9" "." "33 J/K" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+  </equation><para id="import-auto-id1169737988462">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1169738110466">There is an <emphasis effect="italics">increase</emphasis> in entropy for the system of two heat reservoirs undergoing this irreversible heat transfer. We will see that this means there is a loss of ability to do work with this transferred energy. Entropy has increased, and energy has become unavailable to do work.</para>
+
+    <figure id="import-auto-id1169738087634"><media id="import-auto-id1169738188444" alt="Part a of the figure shows the irreversible heat transfer from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow from hot reservoir to cold reservoir as shown by a continuous bold arrow pointing downward. The heat is a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. Part b of the figure shows two reversible heat transfers from the hot system to the cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q is shown to flow out of the hot reservoir, and an equal amount of heat Q is shown to flow into the cold reservoir as shown by two arrows representing two reversible processes and not a direct transfer from T sub h to T sub c. The entropy change delta S for an irreversible process is shown equal to entropy change delta S for a reversible process. ">
+        <image mime-type="image/jpg" src="../../media/Figure_16_06_03.jpg" width="350"/>
+      </media>
+
+    <caption>(a) Heat transfer from a hot object to a cold one is an irreversible process that produces an overall increase in entropy. (b) The same final state and, thus, the same change in entropy is achieved for the objects if reversible heat transfer processes occur between the two objects whose temperatures are the same as the temperatures of the corresponding objects in the irreversible process. </caption></figure></example>
+
+    <para id="import-auto-id1169738129744">It is reasonable that entropy increases for heat transfer from hot to cold. Since the change in entropy is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>T</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/T} {}</m:annotation></m:semantics></m:math>, there is a larger change at lower temperatures. The decrease in entropy of the hot object is therefore less than the increase in entropy of the cold object, producing an overall increase, just as in the previous example. This result is very general:</para>
+    <para id="import-auto-id1169737821042"><emphasis effect="italics">There is an increase in entropy for any system undergoing an irreversible process.</emphasis></para>
+    <para id="import-auto-id1169737871583">With respect to entropy, there are only two possibilities: entropy is constant for a reversible process, and it increases for an irreversible process. There is a fourth version of <term id="import-auto-id1169737036046">the second law of thermodynamics stated in terms of entropy</term>:</para>
+    <para id="import-auto-id1169737777969"><emphasis effect="italics">The total entropy of a system either increases or remains constant in any process; it never decreases. </emphasis></para>
+    <para id="import-auto-id1169738135188">For example, heat transfer cannot occur spontaneously from cold to hot, because entropy would decrease.</para><para id="import-auto-id1169737818788">Entropy is very different from energy. Entropy is <emphasis effect="italics">not</emphasis> conserved but increases in all real processes. Reversible processes (such as in Carnot engines) are the processes in which the most heat transfer to work takes place and are also the ones that keep entropy constant. Thus we are led to make a connection between entropy and the availability of energy to do work.</para><section id="fs-id1169737871842">
+    <title>Entropy and the Unavailability of Energy to Do Work</title>
+    <para id="import-auto-id1169737805331">What does a change in entropy mean, and why should we be interested in it? One reason is that entropy is directly related to the fact that not all heat transfer can be converted into work. The next example gives some indication of how an increase in entropy results in less heat transfer into work.</para>
+
+    <example id="fs-id1169737762788"><title>Less Work is Produced by a Given Heat Transfer When Entropy Change is Greater</title><para id="import-auto-id1169738074696">(a) Calculate the work output of a Carnot engine operating between temperatures of 600 K and 100 K for 4000 J of heat transfer to the engine. (b) Now suppose that the 4000 J of heat transfer occurs first from the 600 K reservoir to a 250 K reservoir (without doing any work, and this produces the increase in entropy calculated above) before transferring into a Carnot engine operating between 250 K and 100 K. What work output is produced? (See <link target-id="import-auto-id1169737787906"/>.)</para><para id="import-auto-id1169737050951">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1169738081396">In both parts, we must first calculate the Carnot efficiency and then the work output.</para>
+    <para id="import-auto-id1169737761146">
+      <title>Solution (a)</title>
+    </para>
+    <para id="import-auto-id1169738211730">The Carnot efficiency is given by</para><equation id="eip-262"><m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow><m:mrow><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">Eff</m:mtext><m:mrow><m:mtext>C</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff" rSub { size 8{c} } =1- {  {T rSub { size 8{c} } }  over  {T rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738105407">Substituting the given temperatures yields</para>
+    <equation id="eip-29"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">Eff</m:mtext><m:mrow><m:mtext>C</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mtext>100 K</m:mtext></m:mrow><m:mtext>600 K</m:mtext></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>833</m:mtext></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff" rSub { size 8{C} } =1- {  {"100"" K"}  over  {"600 K"} } =0 "." "833"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737811640">Now the work output can be calculated using the definition of efficiency for any heat engine as given by</para>
+    <equation id="eip-52"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>W</m:mi><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"= {  {W}  over  {Q rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738133868">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> and substituting known terms gives</para>
+    <equation id="eip-112"><m:math>
+        <m:semantics>
+          <m:mrow>
+              <m:mtable columnalign="left">
+
+                 <m:mtr><m:mtd>                          <m:mi>W</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+
+                          <m:msub>
+                           <m:mtext fontstyle="italic">Eff</m:mtext>
+                           <m:mtext>C</m:mtext>
+                          </m:msub>
+                          <m:msub>
+                            <m:mi>Q</m:mi>
+                            <m:mtext>h</m:mtext>
+                          </m:msub>
+                 </m:mrow></m:mtd>
+                </m:mtr>
+
+                <m:mtr><m:mtd/>
+<m:mtd>                    <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0.833</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mtext>4000</m:mtext><m:mspace width="0.25em"/>
+                    <m:mtext> J</m:mtext>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>3333 J.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{W= ital "Eff" rSub { size 8{C} }  cdot Q rSub { size 8{h} } }  {} #
+"    "= \( 0 "." "833" \)  \( "4000"" J" \) "=3333 J" "."   {}
+} } {}</m:annotation>
+        </m:semantics>
+</m:math>
+    </equation><para id="import-auto-id1169737970267">
+      <title>Solution (b)</title>
+    </para>
+    <para id="import-auto-id1169737764287">Similarly,</para>
+    <equation id="eip-697"><m:math>
+ <m:semantics>
+  <m:mrow><m:msub>
+<m:mrow>
+           <m:mtext fontstyle="italic">Eff</m:mtext>
+<m:mo>′</m:mo>
+</m:mrow>
+   <m:mtext>C</m:mtext>
+          </m:msub>
+        <m:mo stretchy="false">=</m:mo>
+          <m:mn>1</m:mn>
+          <m:mo stretchy="false">−</m:mo>
+           <m:mfrac>
+            <m:msub>
+             <m:mi>T</m:mi>
+             <m:mtext>c</m:mtext>
+            </m:msub>
+            <m:msub>
+             <m:mtext fontstyle="italic">T′</m:mtext>
+             <m:mtext>c</m:mtext>
+            </m:msub>
+           </m:mfrac>
+<m:mo>=</m:mo>
+          <m:mtext>1</m:mtext>
+          <m:mo stretchy="false">−</m:mo>
+
+           <m:mfrac>
+            <m:mtext>100 K</m:mtext>
+            <m:mtext>250 K</m:mtext>
+           </m:mfrac>
+
+       <m:mo stretchy="false">=</m:mo>
+
+      <m:mn>0.600,</m:mn>
+
+  </m:mrow>
+ </m:semantics>
+</m:math></equation><para id="import-auto-id1169737788330">so that</para>
+    <equation id="eip-251"><m:math>
+        <m:semantics>
+          <m:mtable columnalign="left">
+                  <m:mtr><m:mtd>
+                      <m:mi>W</m:mi></m:mtd>
+<m:mtd>
+                       <m:mo stretchy="false">=</m:mo> </m:mtd>
+<m:mtd>
+                    <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+<m:mrow>
+                               <m:mtext fontstyle="italic">Eff</m:mtext>
+<m:mo>′</m:mo>
+</m:mrow>
+                                <m:mtext>C</m:mtext>
+                          </m:msub>
+                        </m:mrow>
+
+
+                      <m:msub>
+                        <m:mi>Q</m:mi>
+                            <m:mi>h</m:mi>
+                      </m:msub>
+                    </m:mrow></m:mtd>
+                  </m:mtr>
+            <m:mtr><m:mtd/><m:mtd>
+                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0.600</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mtext>4000 J</m:mtext>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>2400 J.</m:mtext></m:mtd>
+            </m:mtr>
+          </m:mtable>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169737927115">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1169738182739">There is 933 J less work from the same heat transfer in the second process. This result is important. The same heat transfer into two perfect engines produces different work outputs, because the entropy change differs in the two cases. In the second case, entropy is greater and less work is produced. Entropy is associated with the <emphasis effect="italics">un</emphasis>availability of energy to do work.</para>
+
+    <figure id="import-auto-id1169737787906"><media id="import-auto-id1169737711329" alt="Part a of the diagram shows a schematic diagram of a Carnot engine shown as a circle. The hot reservoir is shown as a rectangular section above the circle at temperature T sub h equals six hundred Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c equals one hundred Kelvin. A heat Q sub h from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from the hot reservoir. A part of it leaves as work W equals three thousand three hundred thirty three joules from the engine. The remaining heat Q sub c equals six hundred sixty seven joules is returned back to the cold reservoir as shown by a bold arrow toward it. Part b of the diagram shows a schematic diagram of a Carnot engine shown as a circle. This engine is shown to have a greater entropy level. An initial heat transfer of four thousand joules occurs from a hot reservoir shown as a rectangular section above the circle toward left at temperature T sub h equals six hundred Kelvin to another rectangular section above the circle at temperature T sub h prime equals two fifty Kelvin. The cold reservoir is shown as a rectangular section below the circle at temperature T sub c prime equals one hundred Kelvin. A heat Q sub h prime from the hot reservoir equals four thousand joules is shown to enter the engine as shown as a bold arrow toward the circle from this hot reservoir. A part of it leaves as work W equals two thousand four hundred joules from the engine. The remaining heat Q sub c equals one thousand six hundred joules is returned back to the cold reservoir as shown by a bold arrow toward it.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_06_04.jpg" width="400"/>
+      </media>
+
+    <caption>(a) A Carnot engine working at between 600 K and 100 K has 4000 J of heat transfer and performs 3333 J of work. (b) The 4000 J of heat transfer occurs first irreversibly to a 250 K reservoir and then goes into a Carnot engine. The increase in entropy caused by the heat transfer to a colder reservoir results in a smaller work output of 2400 J. There is a permanent loss of 933 J of energy for the purpose of doing work.</caption></figure></example><para id="import-auto-id1169737762268">When entropy increases, a certain amount of energy becomes <emphasis effect="italics">permanently</emphasis> unavailable to do work. The energy is not lost, but its character is changed, so that some of it can never be converted to doing work—that is, to an organized force acting through a distance. For instance, in the previous example, 933 J less work was done after an increase in entropy of 9.33 J/K occurred in the 4000 J heat transfer from the 600 K reservoir to the 250 K reservoir. It can be shown that the amount of energy that becomes unavailable for work is</para><equation id="eip-742"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>unavail</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:mo stretchy="false">⋅</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"unavail"} } =ΔS cdot T rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738246391">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the lowest temperature utilized. In the previous example,</para>
+    <equation id="eip-487"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>unavail</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>33 J/K</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>100 K</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>933 J</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"unavail"} } = left (9 "." "33"" J/K" right ) left ("100"" K" right )=9 "." "33"" J"} {}</m:annotation></m:semantics></m:math></equation><para id="eip-941">as found.</para></section>
+
+  <section id="fs-id1169737740109">
+    <title>Heat Death of the Universe: An Overdose of Entropy</title>
+    <para id="import-auto-id1169736659374">In the early, energetic universe, all matter and energy were easily interchangeable and identical in nature. Gravity played a vital role in the young universe. Although it may have <emphasis effect="italics">seemed</emphasis> disorderly, and therefore, superficially entropic, in fact, there was enormous potential energy available to do work—all the future energy in the universe.</para>
+    <para id="import-auto-id1169737761784" fo:font-weight="normal">As the universe matured, temperature differences arose, which created more opportunity for work. Stars are hotter than planets, for example, which are warmer than icy asteroids, which are warmer still than the vacuum of the space between them.</para>
+    <para id="import-auto-id1169737787487" fo:font-weight="normal">Most of these are cooling down from their usually violent births, at which time they were provided with energy of their own—nuclear energy in the case of stars, volcanic energy on Earth and other planets, and so on. Without additional energy input, however, their days are numbered.</para>
+    <para id="import-auto-id1169738045055">As entropy increases, less and less energy in the universe is available to do work. On Earth, we still have great stores of energy such as fossil and nuclear fuels; large-scale temperature differences, which can provide wind energy; geothermal energies due to differences in temperature in Earth’s layers; and tidal energies owing to our abundance of liquid water. As these are used, a certain fraction of the energy they contain can never be converted into doing work. Eventually, all fuels will be exhausted, all temperatures will equalize, and it will be impossible for heat engines to function, or for work to be done.</para>
+    <para id="import-auto-id1169738075514">Entropy increases in a closed system, such as the universe. But in parts of the universe, for instance, in the Solar system, it is not a locally closed system. Energy flows from the Sun to the planets, replenishing Earth’s stores of energy. The Sun will continue to supply us with energy for about another five billion years. We will enjoy direct solar energy, as well as side effects of solar energy, such as wind power and biomass energy from photosynthetic plants. The energy from the Sun will keep our water at the liquid state, and the Moon’s gravitational pull will continue to provide tidal energy. But Earth’s geothermal energy will slowly run down and won’t be replenished.</para>
+    <para id="import-auto-id1169738075516">But in terms of the universe, and the very long-term, very large-scale picture, the entropy of the universe is increasing, and so the availability of energy to do work is constantly decreasing. Eventually, when all stars have died, all forms of potential energy have been utilized, and all temperatures have equalized (depending on the mass of the universe, either at a very high temperature following a universal contraction, or a very low one, just before all activity ceases) there will be no possibility of doing work.</para>
+    <para id="import-auto-id1169737739384">Either way, the universe is destined for thermodynamic equilibrium—maximum entropy. This is often called the <emphasis effect="italics">heat death of the universe</emphasis>, and will mean the end of all activity. However, whether the universe contracts and heats up, or continues to expand and cools down, the end is not near. Calculations of black holes suggest that entropy can easily continue for at least <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>100</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"100"} } } {}</m:annotation></m:semantics></m:math> years.</para></section>
+
+  <section id="fs-id1169737763152">
+  <title>Order to Disorder</title>
+    <para id="import-auto-id1169738248900">Entropy is related not only to the unavailability of energy to do work—it is also a measure of disorder. This notion was initially postulated by Ludwig Boltzmann in the 1800s. For example, melting a block of ice means taking a highly structured and orderly system of water molecules and converting it into a disorderly liquid in which molecules have no fixed positions. (See <link target-id="import-auto-id1169737811865"/>.) There is a large increase in entropy in the process, as seen in the following example.</para><example id="fs-id1169737860640">
+    <title>Entropy Associated with Disorder</title>
+    <para id="import-auto-id1169738075338">Find the increase in entropy of 1.00 kg of ice originally at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0º C</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0°C} {}</m:annotation></m:semantics></m:math> that is melted to form water at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0º C</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0°C} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1169737965916">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1169737831138">As before, the change in entropy can be calculated from the definition of <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS} {}</m:annotation></m:semantics></m:math> once we find the energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> needed to melt the ice.</para>
+
+    <para id="import-auto-id1169737812922">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id1169738115905">The change in entropy is defined as:</para>
+    <equation id="eip-58"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi fontstyle="italic">ΔS</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS= {  {Q}  over  {T} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737813050">Here <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the heat transfer necessary to melt 1.00 kg of ice and is given by</para><equation id="eip-509"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">mL</m:mtext><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mtext>f</m:mtext></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mL" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738110201">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the mass and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math> is the latent heat of fusion. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>334</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext> kJ/kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{f} } ="334"" kJ/kg"} {}</m:annotation></m:semantics></m:math> for water, so that</para><equation id="eip-153"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>1.00 kg</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>334 kJ/kg</m:mn><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>34</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= \( 1 "." "00"" kg" \)  \( 3 "." "34"" kJ/kg" \) =3 "." "34" times "10" rSup { size 8{5} } " J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737802860">Now the change in entropy is positive, since heat transfer occurs into the ice to cause the phase change; thus,</para>
+    <equation id="eip-848"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>T</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>34</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔS= {  {Q}  over  {T} } = {  {3 "." "34" times "10" rSup { size 8{5} } " J"}  over  {T} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736582015"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> is the melting temperature of ice. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0º</m:mn></m:mrow><m:mtext>C=273 K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=0°"C=273 K"} {}</m:annotation></m:semantics></m:math>. So the change in entropy is</para><equation id="eip-195"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                          <m:mn>Δ</m:mn><m:mi>S</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>34</m:mtext>
+                              <m:mi>×</m:mi>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+
+                                  <m:mrow>
+                                    <m:mn>5</m:mn>
+                                  </m:mrow>
+
+                              </m:msup><m:mspace width="0.25em"/>
+                              <m:mtext> J</m:mtext>
+                            </m:mrow>
+                            <m:mtext>273 K</m:mtext>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd> <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mtext>1.22</m:mtext>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J/K.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{DS= {  {3 "." "34"´"10" rSup { size 8{5} } " J"}  over  {"273 K"} } }  {} #
+"     "=1 "." "22"´"10" rSup { size 8{3} } " J/K" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169737818639">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1169737772295">This is a significant increase in entropy accompanying an increase in disorder.</para>
+    </example>
+
+
+    <figure id="import-auto-id1169737811865"><media id="import-auto-id1169737811866" alt="The diagram has two images. The first image shows molecules of ice. They are represented as tiny spheres joined to form a floral pattern. The system is shown as ordered. The second image shows what happens when ice melts. The change in entropy delta S is marked between the two images shown by an arrow pointing from first image toward the second image with change in entropy delta S shown greater than zero. The second image represents water shown as tiny spheres moving in a random state. The system is marked as disordered.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_06_06.jpg" width="400"/>
+      </media>
+
+    <caption>When ice melts, it becomes more disordered and less structured. The systematic arrangement of molecules in a crystal structure is replaced by a more random and less orderly movement of molecules without fixed locations or orientations. Its entropy increases because heat transfer occurs into it. Entropy is a measure of disorder.</caption></figure><para id="import-auto-id1169738145028">In another easily imagined example, suppose we mix equal masses of water originally at two different temperatures, say <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." 0°C} {}</m:annotation></m:semantics></m:math>. The result is water at an intermediate temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30" "." 0°C} {}</m:annotation></m:semantics></m:math>. Three outcomes have resulted: entropy has increased, some energy has become unavailable to do work, and the system has become less orderly. Let us think about each of these results.</para><para id="import-auto-id1169738055123">First, entropy has increased for the same reason that it did in the example above. Mixing the two bodies of water has the same effect as heat transfer from the hot one and the same heat transfer into the cold one. The mixing decreases the entropy of the hot water but increases the entropy of the cold water by a greater amount, producing an overall increase in entropy.</para>
+    <para id="import-auto-id1169738173908">Second, once the two masses of water are mixed, there is only one temperature—you cannot run a heat engine with them. The energy that could have been used to run a heat engine is now unavailable to do work.</para>
+    <para id="import-auto-id1169738213108">Third, the mixture is less orderly, or to use another term, less structured. Rather than having two masses at different temperatures and with different distributions of molecular speeds, we now have a single mass with a uniform temperature.</para>
+    <para id="import-auto-id1169738134574">These three results—entropy, unavailability of energy, and disorder—are not only related but are in fact essentially equivalent.</para>
+  </section>
+
+  <section id="fs-id1169738072260">
+    <title>Life, Evolution, and the Second Law of Thermodynamics</title>
+    <para id="import-auto-id1169737965882">Some people misunderstand the second law of thermodynamics, stated in terms of entropy, to say that the process of the evolution of life violates this law. Over time, complex organisms evolved from much simpler ancestors, representing a large decrease in entropy of the Earth’s biosphere. It is a fact that living organisms have evolved to be highly structured, and much lower in entropy than the substances from which they grow. But it is <emphasis effect="italics">always</emphasis> possible for the entropy of one part of the universe to decrease, provided the total change in entropy of the universe increases. In equation form, we can write this as</para>
+    <equation id="eip-793"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>syst</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>envir</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"tot"} } =DS rSub { size 8{"syst"} } +DS rSub { size 8{"envir"} } &gt;0} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737787648">Thus <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>syst</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"syst"} } } {}</m:annotation></m:semantics></m:math> can be negative as long as <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>envir</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"envir"} } } {}</m:annotation></m:semantics></m:math> is positive and greater in magnitude.</para>
+    <para id="import-auto-id1169738218664">How is it possible for a system to decrease its entropy? Energy transfer is necessary. If I pick up marbles that are scattered about the room and put them into a cup, my work has decreased the entropy of that system. If I gather iron ore from the ground and convert it into steel and build a bridge, my work has decreased the entropy of that system. Energy coming from the Sun can decrease the entropy of local systems on Earth—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>syst</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"syst"} } } {}</m:annotation></m:semantics></m:math> is negative. But the overall entropy of the rest of the universe increases by a greater amount—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>envir</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"envir"} } } {}</m:annotation></m:semantics></m:math> is positive and greater in magnitude. Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>syst</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mn>Δ</m:mn><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>envir</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS rSub { size 8{"tot"} } =DS rSub { size 8{"syst"} } +DS rSub { size 8{"envir"} } &gt;0} {}</m:annotation></m:semantics></m:math>, and the second law of thermodynamics is <emphasis effect="italics">not</emphasis> violated.</para>
+    <para id="import-auto-id1169737763012">Every time a plant stores some solar energy in the form of chemical potential energy, or an updraft of warm air lifts a soaring bird, the Earth can be viewed as a heat engine operating between a hot reservoir supplied by the Sun and a cold reservoir supplied by dark outer space—a heat engine of high complexity, causing local decreases in entropy as it uses part of the heat transfer from the Sun into deep space. There is a large total increase in entropy resulting from this massive heat transfer. A small part of this heat transfer is stored in structured systems on Earth, producing much smaller local decreases in entropy. (See <link target-id="import-auto-id1169738014330"/>.)</para>
+
+
+    <figure id="import-auto-id1169738014330"><media id="import-auto-id1169738014331" alt="The figure shows the schematic diagram for heat transfer from the Sun into deep space. The picture of the Sun is shown at the left most end of the diagram. The temperature of the Sun is marked as T sub h. The heat Q is shown to flow as a bold arrow pointing till the right end of the diagram which is labeled as deep space. The temperature here is shown as T sub c equals three Kelvin. The Earth is shown as a sphere at the middle of this bold arrow stream between Sun and deep space. The Earth is shown to receive an internal energy delta U. The change in entropy of Earth delta S is shown to be less than zero with a question mark.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_06_07.jpg" width="400"/>
+      </media>
+
+    <caption>Earth’s entropy may decrease in the process of intercepting a small part of the heat transfer from the Sun into deep space. Entropy for the entire process increases greatly while Earth becomes more structured with living systems and stored energy in various forms.</caption></figure></section>
+
+    <note id="eip-732" class="interactive"><label/><title>Reversible Reactions</title>
+<para id="eip-id2872068">Watch a reaction proceed over time. How does total energy affect a reaction rate? Vary temperature, barrier height, and potential energies. Record concentrations and time in order to extract rate coefficients. Do temperature dependent studies to extract Arrhenius parameters. This simulation is best used with teacher guidance because it presents an analogy of chemical reactions.</para>
+  <media id="eip-idm994508048" alt="This simulation allows you to watch a reaction proceed over time.">
+  <iframe width="660" height="371.4" src="https://openstax.org/l/21reversereact"/>
+  </media>
+</note><section id="fs-id1169738042930" class="section-summary"><title>Section Summary</title><list id="fs-id1169737967765">
+    <item id="import-auto-id1169737973962">Entropy is the loss of energy available to do work.</item>
+    <item id="import-auto-id1169737973964" fo:font-style="normal">Another form of the second law of thermodynamics states that the total entropy of a system either increases or remains constant; it never decreases.</item>
+    <item id="import-auto-id1169737940509">Entropy is zero in a reversible process; it increases in an irreversible process.</item>
+    <item id="import-auto-id1169737786528">The ultimate fate of the universe is likely to be thermodynamic equilibrium, where the universal temperature is constant and no energy is available to do work.</item>
+    <item id="import-auto-id1169737786532">Entropy is also associated with the tendency toward disorder in a closed system.</item>
+    </list>
+    </section><section id="fs-id1169737813628" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+
+      <exercise id="fs-id1169737806756" type="conceptual-questions">
+        <problem id="fs-id1169738093380">
+    <para id="import-auto-id1169738194003">A woman shuts her summer cottage up in September and returns in June. No one has entered the cottage in the meantime. Explain what she is likely to find, in terms of the second law of thermodynamics.</para>
+        </problem></exercise>
+
+      <exercise id="fs-id1169737830797" type="conceptual-questions">
+        <problem id="fs-id1169737909592">
+    <para id="import-auto-id1169738116761">Consider a system with a certain energy content, from which we wish to extract as much work as possible. Should the system’s entropy be high or low? Is this orderly or disorderly? Structured or uniform? Explain briefly.</para>
+        </problem></exercise>
+
+      <exercise id="fs-id1169737713421" type="conceptual-questions">
+        <problem id="fs-id1169737765136">
+    <para id="import-auto-id1169738246226">Does a gas become more orderly when it liquefies? Does its entropy change? If so, does the entropy increase or decrease? Explain your answer.</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169736657600" type="conceptual-questions">
+        <problem id="fs-id1169736657603">
+    <para id="import-auto-id1169736844388">Explain how water’s entropy can decrease when it freezes without violating the second law of thermodynamics. Specifically, explain what happens to the entropy of its surroundings.</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169738046950" type="conceptual-questions">
+        <problem id="fs-id1169737712858">
+    <para id="import-auto-id1169737765453">Is a uniform-temperature gas more or less orderly than one with several different temperatures? Which is more structured? In which can heat transfer result in work done without heat transfer from another system?</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169738205677" type="conceptual-questions">
+        <problem id="fs-id1169737777328">
+    <para id="import-auto-id1169737951999">Give an example of a spontaneous process in which a system becomes less ordered and energy becomes less available to do work. What happens to the system’s entropy in this process?</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169737826678" type="conceptual-questions">
+        <problem id="fs-id1169738085207">
+    <para id="import-auto-id1169737922755">What is the change in entropy in an adiabatic process? Does this imply that adiabatic processes are reversible? Can a process be precisely adiabatic for a macroscopic system?</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169737861961" type="conceptual-questions">
+        <problem id="fs-id1169736649066">
+    <para id="import-auto-id1169738060846">Does the entropy of a star increase or decrease as it radiates? Does the entropy of the space into which it radiates (which has a temperature of about 3 K) increase or decrease? What does this do to the entropy of the universe?</para>
+    </problem></exercise>
+
+      <exercise id="fs-id1169738007382" type="conceptual-questions">
+        <problem id="fs-id1169737981203">
+    <para id="import-auto-id1169738110024">Explain why a building made of bricks has smaller entropy than the same bricks in a disorganized pile. Do this by considering the number of ways that each could be formed (the number of microstates in each macrostate).</para>
+    </problem></exercise>
+    </section>
+
+    <section id="fs-id1169736591162" type="problems-exercises" class="problems-exercises"><title>Problem Exercises</title><exercise id="fs-id1169737793331" type="problems-exercises"><problem id="fs-id1169738037139">
+        <para id="import-auto-id1169738052374">(a) On a winter day, a certain house loses <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00"´"10" rSup { size 8{8} } " J"} {}</m:annotation></m:semantics></m:math> of heat to the outside (about 500,000 Btu). What is the total change in entropy due to this heat transfer alone, assuming an average indoor temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>21.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"21" "." 0°C} {}</m:annotation></m:semantics></m:math> and an average outdoor temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5.00º C</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00"°C} {}</m:annotation></m:semantics></m:math>? (b) This large change in entropy implies a large amount of energy has become unavailable to do work. Where do we find more energy when such energy is lost to us?</para></problem>
+<solution id="fs-id1169738085457">
+    <para id="import-auto-id1169737955656">(a) <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>9.78</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> J/K</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{9 "." "79" times "10" rSup { size 8{4} } " J/K"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="eip-id1499644">(b) In order to gain more energy, we must generate it from things within the house, like a heat pump, human bodies, and other appliances. As you know, we use a lot of energy to keep our houses warm in the winter because of the loss of heat to the outside. </para>
+    </solution>
+    </exercise><exercise id="fs-id1169738239436" type="problems-exercises">
+        <problem id="fs-id1169737967174">
+          <para id="import-auto-id1169737812457">On a hot summer day, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "00"´"10" rSup { size 8{6} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer into a parked car takes place, increasing its temperature from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35" "." 0°C} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45" "." 0°C} {}</m:annotation></m:semantics></m:math>. What is the increase in entropy of the car due to this heat transfer alone?</para></problem></exercise>
+
+      <exercise id="fs-id1169738111073" type="problems-exercises">
+        <problem id="fs-id1169736624014">
+          <para id="import-auto-id1169737041371">A hot rock ejected from a volcano’s lava fountain cools from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>1100º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1100"°C} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." 0°C} {}</m:annotation></m:semantics></m:math>, and its entropy decreases by 950 J/K. How much heat transfer occurs from the rock?</para></problem>
+<solution id="fs-id1169737799329">
+    <para id="import-auto-id1169736709314"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>8.01</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> J</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{8 "." "01" times "10" rSup { size 8{5} } " J"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+
+      <exercise id="fs-id1169737869611" type="problems-exercises">
+        <problem id="fs-id1169737860474">
+          <para id="import-auto-id1169737780313">When <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>60</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "60"´"10" rSup { size 8{5} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer occurs into a meat pie initially at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math>, its entropy increases by 480 J/K. What is its final temperature?</para></problem></exercise>
+
+      <exercise id="fs-id1169737955124" type="problems-exercises">
+        <problem id="fs-id1169737754523">
+          <para id="import-auto-id1169738150518">The Sun radiates energy at the rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>26</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> W</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "80"´"10" rSup { size 8{"26"} } " W"} {}</m:annotation></m:semantics></m:math> from its <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>5500º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"5500"°C} {}</m:annotation></m:semantics></m:math> surface into dark empty space (a negligible fraction radiates onto Earth and the other planets). The effective temperature of deep space is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>270º C</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{-"270"°C} {}</m:annotation></m:semantics></m:math>. (a) What is the increase in entropy in one day due to this heat transfer? (b) How much work is made unavailable?</para></problem>
+<solution id="fs-id1169737734673">
+    <para id="import-auto-id1169737946471">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>04</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>31</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "04" times "10" rSup { size 8{"31"} } " J/K"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169736583853">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>28</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>31</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "28" times "10" rSup { size 8{"31"} } " J"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+
+      <exercise id="fs-id1169737713976" type="problems-exercises"><problem id="fs-id1169738186847">
+          <para id="import-auto-id1169738235996">(a) In reaching equilibrium, how much heat transfer occurs from 1.00 kg of water at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." 0°C} {}</m:annotation></m:semantics></m:math> when it is placed in contact with 1.00 kg of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math> water in reaching equilibrium? (b) What is the change in entropy due to this heat transfer? (c) How much work is made unavailable, taking the lowest temperature to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math>? Explicitly show how you follow the steps in the <link document="m42238" target-id="fs-id1169738068841">Problem-Solving Strategies for Entropy</link>.</para></problem></exercise><exercise id="fs-id1169737828249" type="problems-exercises">
+        <problem id="fs-id1169736611357">
+          <para id="import-auto-id1169738212505">What is the decrease in entropy of 25.0 g of water that condenses on a bathroom mirror at a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35" "." 0°C} {}</m:annotation></m:semantics></m:math>, assuming no change in temperature and given the latent heat of vaporization to be 2450 kJ/kg?</para></problem>
+<solution id="fs-id1169737740574">
+    <para id="import-auto-id1169737945837">199 J/K</para>
+    </solution>
+    </exercise>
+
+      <exercise id="fs-id1169738087184" type="problems-exercises">
+        <problem id="fs-id1169738117394">
+          <para id="import-auto-id1169738011075">Find the increase in entropy of 1.00 kg of liquid nitrogen that starts at its boiling temperature, boils, and warms to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math> at constant pressure.</para></problem></exercise>
+
+      <exercise id="fs-id1169738239396" type="problems-exercises">
+        <problem id="fs-id1169738134292">
+          <para id="import-auto-id1169738053041">A large electrical power station generates 1000 MW of electricity with an efficiency of 35.0%. (a) Calculate the heat transfer to the power station, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>, in one day. (b) How much heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> occurs to the environment in one day? (c) If the heat transfer in the cooling towers is from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35" "." 0°C} {}</m:annotation></m:semantics></m:math> water into the local air mass, which increases in temperature from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" "." 0°C} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math>, what is the total increase in entropy due to this heat transfer? (d) How much energy becomes unavailable to do work because of this increase in entropy, assuming an <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" "." 0°C} {}</m:annotation></m:semantics></m:math> lowest temperature? (Part of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> could be utilized to operate heat engines or for simply heating the surroundings, but it rarely is.)</para></problem>
+<solution id="fs-id1169737825059">
+    <para id="import-auto-id1169738013740">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>47</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "47" times "10" rSup { size 8{"14"} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169736815709">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>60</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "60" times "10" rSup { size 8{"14"} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737927419">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2.85</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "86" times "10" rSup { size 8{"10"} } " J/K"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737768981">(d) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8.29</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>12</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "31" times "10" rSup { size 8{"12"} } " J"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+
+      <exercise id="fs-id1169738036204" type="problems-exercises">
+        <problem id="fs-id1169737813906">
+          <para id="import-auto-id1169737949753">(a) How much heat transfer occurs from 20.0 kg of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." 0°C} {}</m:annotation></m:semantics></m:math> water placed in contact with 20.0 kg of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°C} {}</m:annotation></m:semantics></m:math> water, producing a final temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" "." 0°C} {}</m:annotation></m:semantics></m:math>? (b) How much work could a Carnot engine do with this heat transfer, assuming it operates between two reservoirs at constant temperatures of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." 0°C} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°C} {}</m:annotation></m:semantics></m:math>? (c) What increase in entropy is produced by mixing 20.0 kg of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." 0°C} {}</m:annotation></m:semantics></m:math> water with 20.0 kg of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°C} {}</m:annotation></m:semantics></m:math> water? (d) Calculate the amount of work made unavailable by this mixing using a low temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10.0º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°C} {}</m:annotation></m:semantics></m:math>, and compare it with the work done by the Carnot engine. Explicitly show how you follow the steps in the <link document="m42238" target-id="fs-id1169738068841">Problem-Solving Strategies for Entropy</link>. (e) Discuss how everyday processes make increasingly more energy unavailable to do work, as implied by this problem.</para></problem></exercise>
+    </section>
+ </content>
+  <glossary>
+    <definition id="import-auto-id1169738105505"><term>entropy</term> <meaning id="fs-id1169737805377">a measurement of a system's disorder and its inability to do work in a system</meaning></definition>
+    <definition id="import-auto-id1169738105508"><term>change in entropy</term> <meaning id="fs-id1169738076310">the ratio of heat transfer to temperature <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>T</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/T} {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id1169737826334"><term>second law of thermodynamics stated in terms of entropy</term> <meaning id="fs-id1169737918010">the total entropy of a system either increases or remains constant; it never decreases</meaning></definition>
+  </glossary>
+</document>

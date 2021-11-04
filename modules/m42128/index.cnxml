@@ -1,0 +1,1506 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Vector Addition and Subtraction: Analytical Methods</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42128</md:content-id>
+  <md:title>Vector Addition and Subtraction: Analytical Methods</md:title>
+  <md:abstract><list>
+<item>Understand the rules of vector addition and subtraction using analytical methods.</item>
+<item>Apply analytical methods to determine vertical and horizontal component vectors.</item>
+<item>Apply analytical methods to determine the magnitude and direction of a resultant vector.</item>
+</list></md:abstract>
+  <md:uuid>b9739bfd-dc9d-4f0a-b037-dc22884d30f3</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165298787730"><term id="import-auto-id1165298770648">Analytical methods</term> of vector addition and subtraction employ geometry and simple trigonometry rather than the ruler and protractor of graphical methods. Part of the graphical technique is retained, because vectors are still represented by arrows for easy visualization. However, analytical methods are more concise, accurate, and precise than graphical methods, which are limited by the accuracy with which a drawing can be made. Analytical methods are limited only by the accuracy and precision with which physical quantities are known.</para>
+    <section id="fs-id1472855">
+    <title>Resolving a Vector into Perpendicular Components</title>
+    <para id="import-auto-id1165298946816">Analytical techniques and right triangles go hand-in-hand in physics because (among other things) motions along perpendicular directions are independent. We very often need to separate a vector into perpendicular components. For example, given a vector like <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id1165298677803"/>, we may wish to find which two perpendicular vectors, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>, add to produce it.</para><figure id="import-auto-id1165298677803"><media id="import-auto-id1165298881389" alt="In the given figure a dotted vector A sub x is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A sub y at an angle theta from the x axis. On the graph a vector A, inclined at an angle theta with x axis is shown. Therefore vector A is the sum of the vectors A sub x and A sub y.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_01a.jpg" height="200"/>
+      </media>
+
+    <caption>The vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>, with its tail at the origin of an <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">y</emphasis>-coordinate system, is shown together with its <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>. These vectors form a right triangle. The analytical relationships among these vectors are summarized below.</caption></figure><para id="import-auto-id1165298681170"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>  are defined to be the components of <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> along the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-axes. The three vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> form a right triangle:</para>
+
+    <equation id="eip-680"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mstyle fontweight="bold"><m:mrow><m:msub><m:mtext> + A</m:mtext><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:mstyle fontweight="bold"><m:mrow><m:mtext> = A</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} }  bold " + A" rSub { size 8{y} }  bold " = A."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298754511">Note that this relationship between vector components and the resultant vector holds only for vector quantities (which include both magnitude and direction). The relationship does not apply for the magnitudes alone. For example, if <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">A</m:mtext><m:mi>x</m:mi></m:msub><m:mo>=</m:mo><m:mn>3 m</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> east,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">A</m:mtext><m:mi>y</m:mi></m:msub><m:mo>=</m:mo><m:mn>4 m</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> north, and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">A</m:mtext><m:mo>=</m:mo><m:mn>5 m</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> north-east, then it is true that the vectors <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mstyle fontweight="bold"><m:mrow><m:msub><m:mtext> + A</m:mtext><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:mstyle fontweight="bold"><m:mrow><m:mtext> = A</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} }  bold " + A" rSub { size 8{y} }  bold " = A"} {}</m:annotation></m:semantics></m:math>. However, it is <emphasis effect="italics"><emphasis effect="italics">not</emphasis></emphasis> true that the sum of the magnitudes of the vectors is also equal. That is,</para><equation id="eip-818"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>3 m</m:mtext><m:mo>+</m:mo><m:mtext>4 m </m:mtext>
+                          <m:mo stretchy="false">≠</m:mo>
+                          <m:mtext> 5 m</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow/>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"3 M + 4 M " &lt;&gt; " 5 M"}  {} #
+ {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298650894">Thus,</para>
+
+    <equation id="eip-505"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">≠</m:mo>
+                  <m:mi>A</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } +A rSub { size 8{y} }  &lt;&gt; A} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298658167">If the vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is known, then its magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> (its length) and its angle  <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> (its direction) are known. To find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> and <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>, its <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"/><emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-components, we use the following relationships for a right triangle.</para><equation id="eip-377"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>A</m:mi>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } =A"cos"θ} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-25">and</para><equation id="eip-69"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } =A"sin"θ"."} {}</m:annotation></m:semantics></m:math></equation><figure id="import-auto-id1165298704788"><media id="import-auto-id1165298871520" alt="]A dotted vector A sub x whose magnitude is equal to A cosine theta is drawn from the origin along the x axis. From the head of the vector A sub x another vector A sub y whose magnitude is equal to A sine theta is drawn in the upward direction. Their resultant vector A is drawn from the tail of the vector A sub x to the head of the vector A-y at an angle theta from the x axis. Therefore vector A is the sum of the vectors A sub x and A sub y.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_02a.jpg" height="225"/>
+      </media>
+
+    <caption>The magnitudes of the vector components <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> can be related to the resultant vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and the angle  <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> with trigonometric identities. Here we see that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } =A"cos"θ} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } =A"sin"θ} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1165298625515">Suppose, for example, that <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the vector representing the total displacement of the person walking in a city considered in <link document="m42104">Kinematics in Two Dimensions: An Introduction</link> and <link document="m42127">Vector Addition and Subtraction: Graphical Methods</link>.</para><figure id="import-auto-id1165298544262"><media id="import-auto-id1165298994353" alt="In the given figure a vector A of magnitude ten point three blocks is inclined at an angle twenty nine point one degrees to the positive x axis. The horizontal component A sub x of vector A is equal to A cosine theta which is equal to ten point three blocks multiplied to cosine twenty nine point one degrees which is equal to nine blocks east. Also the vertical component A sub y of vector A is equal to A sin theta is equal to ten point three blocks multiplied to sine twenty nine point one degrees,  which is equal to five point zero blocks north.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_03.jpg" width="425"/>
+      </media>
+
+    <caption>We can use the relationships <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } =A"cos"θ} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi><m:mspace width="0.25em"/></m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } =A"sin"θ} {}</m:annotation></m:semantics></m:math> to determine the magnitude of the horizontal and vertical component vectors in this example.</caption></figure><para id="import-auto-id1165296377568">Then <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>10.3</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> blocks and
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+    <m:mn>29.1º</m:mn>
+   </m:mrow>
+  </m:mrow>
+  <m:annotation encoding="StarMath 5.0"> size 12{"29.1º"}</m:annotation>
+ </m:semantics>
+</m:math>
+, so that
+
+<equation id="eip-id1646569"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mi>x</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>(</m:mo><m:mn/><m:mtext>10.3 blocks</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mn>29.1º</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn/><m:mtext>9.0 blocks</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{}</m:annotation></m:semantics></m:math></equation><equation id="eip-id2495034"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mi>y</m:mi></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo>=</m:mo><m:mo>(</m:mo><m:mn/><m:mtext>10.3 blocks</m:mtext><m:mo>)</m:mo><m:mo>(</m:mo><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mn>29.1º</m:mn><m:mo>)</m:mo><m:mo>=</m:mo><m:mn/><m:mtext>5.0 blocks</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{""}</m:annotation></m:semantics></m:math></equation></para></section>
+<section id="fs-id1344575">
+      <title>Calculating a Resultant Vector</title>
+    <para id="import-auto-id1165298995012">If the perpendicular components <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> of a vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> are known, then <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> can also be found analytically. To find the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and direction  <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> of a vector from its perpendicular components <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>, relative to the <emphasis effect="italics">x</emphasis>-axis, we use the following relationships:</para><equation id="eip-109"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msub></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= sqrt {A rSub { size 8{x}   rSup { size 8{2} } } +A rSub { size 8{y}   rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></equation>
+
+    <equation id="eip-750"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>θ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mtext>tan</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            <m:mtext>.</m:mtext>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( A rSub { size 8{y} } /A rSub { size 8{x} }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><figure id="import-auto-id1165298723894"><media id="import-auto-id1165296221052" alt="Vector A is shown with its horizontal and vertical components A sub x and A sub y respectively. The magnitude of vector A is equal to the square root of A sub x squared plus A sub y squared. The angle theta of the vector A with the x axis is equal to inverse tangent of A sub y over A sub x">
+        <image mime-type="image/png" src="../../media/Figure_03_03_04a.jpg" width="145"/>
+      </media>
+
+    <caption>The magnitude and direction of the resultant vector  can be determined once the horizontal and vertical components <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mi>
+A
+          </m:mi>
+          <m:mrow>
+            <m:mrow>
+             <m:mrow>
+              <m:mi>
+x
+              </m:mi>
+             </m:mrow>
+            </m:mrow>
+          </m:mrow>
+         </m:msub>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{A rSub { size 8{x} } } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math> and <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mi>
+A
+          </m:mi>
+          <m:mrow>
+            <m:mrow>
+             <m:mrow>
+              <m:mi>
+y
+              </m:mi>
+             </m:mrow>
+            </m:mrow>
+          </m:mrow>
+         </m:msub>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{A rSub { size 8{y} } } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>  have been determined.</caption></figure><para id="import-auto-id1165298666079">Note that the equation
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+     <m:mi>A</m:mi>
+     <m:mo stretchy="false">=</m:mo>
+     <m:msqrt>
+      <m:mrow>
+       <m:msubsup>
+        <m:mi>A</m:mi>
+        <m:mi>x</m:mi>
+        <m:mn>2</m:mn>
+       </m:msubsup>
+       <m:mo stretchy="false">+</m:mo>
+       <m:msubsup>
+        <m:mi>A</m:mi>
+        <m:mi>y</m:mi>
+        <m:mn>2</m:mn>
+        </m:msubsup>
+       </m:mrow>
+      </m:msqrt>
+     </m:mrow>
+    </m:mrow>
+   </m:mrow>
+   <m:annotation encoding="StarMath 5.0"> size 12{A= sqrt {A rSub { size 8{x}   rSup { size 8{2} } } +A rSub { size 8{y}   rSup { size 8{2} } } } } {}</m:annotation>
+ </m:semantics>
+</m:math> is just the Pythagorean theorem relating the legs of a right triangle to the length of the hypotenuse. For example, if <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> are 9 and 5 blocks, respectively, then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msup><m:mn>9</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mtext>+5</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow><m:mtext>=10</m:mtext><m:mtext>.</m:mtext><m:mn>3</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= sqrt {9 rSup { size 8{2} } "+5" rSup { size 8{2} } } "=10" "." 3} {}</m:annotation></m:semantics></m:math> blocks, again consistent with the example of the person walking in a city. Finally, the direction is
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+     <m:mrow>
+      <m:mi>θ</m:mi>
+      <m:mo stretchy="false">=</m:mo>
+      <m:msup>
+       <m:mtext>tan</m:mtext>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>–1</m:mn>
+        </m:mrow>
+       </m:mrow>
+      </m:msup>
+     </m:mrow>
+     <m:mo stretchy="false">(</m:mo>
+     <m:mtext>5/9</m:mtext>
+     <m:mo stretchy="false">)</m:mo>
+     <m:mn>=29.1º</m:mn>
+    </m:mrow>
+   </m:mrow>
+  </m:mrow>
+  <m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{–1} }  \( "5/9" \) "=29" "." 1 rSup { size 8{o} } } {}</m:annotation>
+ </m:semantics>
+</m:math>
+
+, as before.
+
+</para><note id="fs-id1607685"><label/>
+    <title>Determining Vectors and Vector Components with Analytical Methods</title>
+    <para id="import-auto-id1165298788924">Equations <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } =A"cos"θ} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } =A"sin"θ} {}</m:annotation></m:semantics></m:math> are used to find the perpendicular components of a vector—that is, to go from <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and  <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>. Equations <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>A</m:mi><m:mi>x</m:mi><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>A</m:mi><m:mi>y</m:mi><m:mn>2</m:mn></m:msubsup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A= sqrt {A rSub { size 8{x}   rSup { size 8{2} } } +A rSub { size 8{y}   rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mtext>–1</m:mtext></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> are used to find a vector from its perpendicular components—that is, to go from <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and  <m:math>
+        <m:semantics>
+              <m:mrow>
+                <m:mi>θ</m:mi></m:mrow>
+        </m:semantics>
+      </m:math>. Both processes are crucial to analytical methods of vector addition and subtraction.</para></note>
+</section>
+  <section id="fs-id1461904">
+    <title>Adding Vectors Using Analytical Methods</title>
+    <para id="import-auto-id1165296570122">To see how to add vectors using perpendicular components, consider <link target-id="import-auto-id1165298839640"/>, in which the vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> are added to produce the resultant <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>.</para>
+
+    <figure id="import-auto-id1165298839640"><media id="import-auto-id1165298460444" alt="Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_05a.jpg" width="300"/>
+      </media>
+
+    <caption>Vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> are two legs of a walk, and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is the resultant or total displacement. You can use analytical methods to determine the magnitude and direction of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1165298462868">If <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow></m:mrow></m:semantics></m:math> represent two legs of a walk (two displacements), then <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow></m:mrow></m:semantics></m:math> is the total displacement. The person taking the walk ends up at the tip of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:semantics></m:math> There are many ways to arrive at the same point. In particular, the person could have walked first in the <emphasis effect="italics">x</emphasis>-direction and then in the <emphasis effect="italics">y</emphasis>-direction. Those paths are the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components of the resultant, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>. If we know
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">R</m:mtext><m:mi>x</m:mi></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>, we can find
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow></m:mrow></m:semantics></m:math> and
+
+<m:math>
+        <m:semantics>
+          <m:mrow>
+              <m:mrow>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> using the equations
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi>
+<m:mo stretchy="false">=</m:mo>
+<m:msqrt><m:msup><m:msub><m:mi>A</m:mi>
+<m:mi>x</m:mi></m:msub>
+<m:mn>2</m:mn></m:msup>
+<m:mo stretchy="false">+</m:mo>
+<m:msup>
+<m:msub><m:mi>A</m:mi><m:mi>y</m:mi></m:msub>
+<m:mn>2</m:mn></m:msup>
+</m:msqrt></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi>
+<m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext>
+<m:mn>–1</m:mn></m:msup>
+<m:mo stretchy="false">(</m:mo><m:msub><m:mi>A</m:mi><m:mi>y</m:mi></m:msub>
+<m:mo stretchy="false">/</m:mo><m:msub><m:mi>A</m:mi><m:mi>x</m:mi></m:msub>
+<m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{–1} }  \( A rSub { size 8{y} } /A rSub { size 8{x} }  \) } {}</m:annotation></m:semantics></m:math>. When you use the analytical method of vector addition, you can determine the components or the magnitude and direction of a vector.</para><para id="import-auto-id1165299001803"><emphasis effect="italics"><emphasis effect="bold">Step 1.</emphasis><emphasis effect="italics"> Identify the x- and y-axes that will be used in the problem. Then, find the components of each vector to be added along the chosen perpendicular axes</emphasis>.</emphasis> Use the equations
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } =A"cos"θ} {}</m:annotation></m:semantics></m:math> and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } =A"sin"θ} {}</m:annotation></m:semantics></m:math> to find the components. In <link target-id="import-auto-id1165296674934"/>, these components are
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>, and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>. The angles that vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> make with the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>-axis are <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mtext>A</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{A} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mtext>B</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{B} } } {}</m:annotation></m:semantics></m:math>, respectively.</para><figure id="import-auto-id1165296674934"><media id="import-auto-id1165296674935" alt="Two vectors A and B are shown. The tail of the vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The horizontal and vertical components of the vectors A and B are shown with the help of dotted lines. The vectors labeled as A sub x and A sub y are the components of vector A, and B sub x and B sub y as the components of vector B..">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_06a.jpg" width="325"/>
+      </media>
+
+    <caption>To add vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>, first determine the horizontal and vertical components of each vector. These are the dotted vectors <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">B</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and  <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">B</m:mtext><m:mi>y</m:mi></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> shown in the image.</caption></figure><para id="import-auto-id1165298948327"><emphasis effect="italics"><emphasis effect="bold">Step 2.</emphasis><emphasis effect="italics"> Find the components of the resultant along each axis by adding the components of the individual vectors along that axis</emphasis>.</emphasis> That is, as shown in <link target-id="import-auto-id1165298866862"/>,</para><equation id="eip-284"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>R</m:mi>
+
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>B</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{x} } =A rSub { size 8{x} } +B rSub { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-342">and</para><equation id="eip-92"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>R</m:mi>
+
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>B</m:mi>
+
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            <m:mtext>.</m:mtext>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } =A rSub { size 8{y} } +B rSub { size 8{y} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><figure id="import-auto-id1165298866862"><media id="import-auto-id1165298866864" alt="Two vectors A and B are shown. The tail of vector B is at the head of vector A and the tail of the vector A is at origin. Both the vectors are in the first quadrant. The resultant R of these two vectors extending from the tail of vector A to the head of vector B is also shown. The vectors A and B are resolved into the horizontal and vertical components shown as dotted lines parallel to x axis and y axis respectively. The horizontal components of vector A and vector B are labeled as A sub x and B sub x and the horizontal component of the resultant R is labeled at R sub x and is equal to A sub x plus B sub x. The vertical components of vector A and vector B are labeled as A sub y and B sub y and the vertical components of the resultant R is labeled as R sub y is equal to A sub y plus B sub y.">
+		<image mime-type="image/jpg" src="../../media/Figure_03_03_07a.jpg" width="375"/>
+	</media>
+	<caption>The magnitude of the vectors <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">B</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> add to give the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> of the resultant vector in the horizontal direction. Similarly, the magnitudes of the vectors <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> and  <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">B</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> add to give the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> of the resultant vector in the vertical direction.</caption></figure><para id="import-auto-id1165296251909">Components along the same axis, say the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>-axis, are vectors along the same line and, thus, can be added to one another like ordinary numbers. The same is true for components along the <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-axis. (For example, a 9-block eastward walk could be taken in two legs, the first 3 blocks east and the second 6 blocks east, for a total of 9, because they are along the same direction.) So resolving vectors into components along common axes makes it easier to add them. Now that the components of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> are known, its magnitude and direction can be found.</para><para id="import-auto-id1165296245826"><emphasis effect="italics"><emphasis effect="bold">Step 3.</emphasis><emphasis effect="italics"> To get the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R } {}</m:annotation></m:semantics></m:math> of the resultant, use the Pythagorean theorem:</emphasis></emphasis></para><equation id="eip-960"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R= sqrt {R rSub { size 8{x} }  rSup { size 8{2} } +R rSub { size 8{y} }  rSup { size 8{2} } } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165296334432"><emphasis effect="italics"><emphasis effect="bold">Step 4.</emphasis><emphasis effect="italics"> To get the direction of the resultant relative to the <emphasis effect="italics">x</emphasis>-axis:</emphasis></emphasis></para><equation id="eip-173"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( R rSub { size 8{y} } /R rSub { size 8{x} }  \) "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298597164">The following example illustrates this technique for adding vectors using perpendicular components.</para>
+    <example id="fs-id1608746">
+    <title>Adding Vectors Using Analytical Methods</title>
+    <para id="import-auto-id1165298540622">Add the vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> to the vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> shown in <link target-id="import-auto-id1165296662297"/>, using perpendicular components along the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-axes. The <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-axes are along the east–west and north–south directions, respectively. Vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> represents the first leg of a walk in which a person walks <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>53</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"53" "." "0 m"} {}</m:annotation></m:semantics></m:math> in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0º } {}</m:annotation></m:semantics></m:math> north of east. Vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> represents the second leg, a displacement of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>34</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"34" "." "0 m"} {}</m:annotation></m:semantics></m:math> in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>63</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"63" "." 0º } {}</m:annotation></m:semantics></m:math> north of east.</para><figure id="import-auto-id1165296662297"><media id="import-auto-id1165298717013" alt="Two vectors A and B are shown. The tail of the vector A is at origin. Both the vectors are in the first quadrant. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. From the head of the vector A another vector B of magnitude 34 units is drawn and is inclined at angle sixty three degrees with the horizontal. The resultant of two vectors is drawn from the tail of the vector A to the head of the vector B.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_08a.jpg" width="325"/>
+      </media>
+
+    <caption>Vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> has magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>53</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"53" "." "0 m"} {}</m:annotation></m:semantics></m:math> and direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mrow><m:mo stretchy="false">º</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0 { size 12{ circ } }  } {}</m:annotation></m:semantics></m:math> north of the <emphasis effect="italics">x</emphasis>-axis. Vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> has magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>34</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"34" "." "0 m"} {}</m:annotation></m:semantics></m:math> and direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>63</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"63" "." 0° } {}</m:annotation></m:semantics></m:math> north of the <emphasis effect="italics">x</emphasis>-axis. You can use analytical methods to determine the magnitude and direction of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1165298560481"><title>Strategy</title> </para>
+<para id="fs-id1847310">The components of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> along the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-axes represent walking due east and due north to get to the same ending point. Once found, they are combined to produce the resultant.</para>
+    <para id="import-auto-id1165298717036"><title>Solution</title> </para>
+<para id="fs-id1805726">Following the method outlined above, we first find the components of
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> along the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-axes. Note that
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi><m:mo>=</m:mo><m:mn>53.0 m</m:mn><m:mtext/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"A" "=" "53.0 m"} {}</m:annotation></m:semantics></m:math>,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>A</m:mtext></m:msub><m:mo>=</m:mo><m:mn>20.0º</m:mn></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"θ" "subA" "=" "20.0°" } {}</m:annotation></m:semantics></m:math>,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi><m:mo>=</m:mo><m:mn>34.0 m</m:mn><m:mtext/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"B" "=" "34.0" "m"} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mtext>B</m:mtext></m:msub><m:mo>=</m:mo><m:mn>63.0º</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{B} } } {}</m:annotation></m:semantics></m:math>.
+
+ We find the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>-components by using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{x} } =A"cos"θ} {}</m:annotation></m:semantics></m:math>, which gives</para><equation id="eip-253"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+
+                            </m:msub>
+</m:mtd>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                            <m:mi>A</m:mi>
+                          <m:mspace width="0.25em"/>
+                          <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>θ</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>A</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mtext>53.</m:mtext>
+                          <m:mn>0 m</m:mn>
+                          <m:mtext/>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>cos 20.0º</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mtext>53.</m:mtext>
+                    <m:mn>0 m</m:mn>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mtext>.940</m:mtext>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>49.</m:mtext>
+                    <m:mn>8 m</m:mn>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{A rSub { size 8{x} } =A"cos"θ rSub { size 8{A} } = \( "53" "." 0" m" \)  \( "cos""20" "." 0 { size 12{ circ } }  \) }  {} #
+"     "= \( "53" "." 0" m" \)  \( 0 "." "940" \) ="49" "." 8" m" {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298793922">and</para>
+
+    <equation id="eip-356"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                            <m:msub>
+                              <m:mi>B</m:mi>
+
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+
+                            </m:msub>
+</m:mtd>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                            <m:mi>B</m:mi>
+                          <m:mspace width="0.25em"/>
+                          <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>θ</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>B</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mtext>34</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0 m</m:mn>
+                          <m:mtext/>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>cos 63.0º</m:mtext>
+
+                          <m:mo stretchy="false">)</m:mo>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext/>
+
+
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mtext>34</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>0 m</m:mn>
+                    <m:mtext/>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>454</m:mtext>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>15</m:mtext>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>4 m</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{B rSub { size 8{x} } =B"cos"θ rSub { size 8{B} } = \( "34" "." 0" m" \)  \( "cos""63" "." 0 { size 12{ circ } }  \) }  {} #
+"     "= \( "34" "." 0" m" \)  \( 0 "." "454" \) ="15" "." 4" m" {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298886736">Similarly, the <emphasis effect="italics">y</emphasis>-components are found using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>A</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{y} } =A"sin"θ rSub { size 8{A} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-802"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                </m:mrow>
+
+                            </m:msub>
+</m:mtd>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                            <m:mi>A</m:mi><m:mspace width="0.25em"/>
+
+                          <m:mtext>sin</m:mtext>
+                          <m:mrow><m:mspace width="0.25em"/>
+                            <m:msub>
+                              <m:mi>θ</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>A</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mtext>53</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0 m</m:mn>
+                          <m:mtext/>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>sin 20.0º</m:mtext>
+
+                          <m:mo stretchy="false">)</m:mo>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext/>
+
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mtext>53</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>0 m</m:mn>
+                    <m:mtext/>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>342</m:mtext>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>18</m:mtext>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>1 m</m:mn>
+                    <m:mtext/>
+                    <m:mrow/>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{A rSub { size 8{y} } =A"sin"θ rSub { size 8{A} } = \( "53" "." 0" m" \)  \( "sin""20" "." 0 { size 12{ circ } }  \) }  {} #
+"     "= \( "53" "." 0" m" \)  \( 0 "." "342" \) ="18" "." 1" m" {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298666019">and</para>
+
+    <equation id="eip-837"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+
+                            <m:msub>
+                              <m:mi>B</m:mi>
+
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                </m:mrow>
+
+                            </m:msub>
+</m:mtd>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                            <m:mi>B</m:mi><m:mspace width="0.25em"/>
+
+                          <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>θ</m:mi>
+
+                                <m:mrow>
+                                  <m:mn>B</m:mn>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mtext>34</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0 m</m:mn>
+                          <m:mtext/>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mtext>sin 63</m:mtext>
+                          <m:mtext>.</m:mtext>
+                            <m:mn>0</m:mn>
+
+                              <m:mrow>
+                                <m:mo stretchy="false">º</m:mo>
+                              </m:mrow>
+
+                          <m:mo stretchy="false">)</m:mo>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext/>
+
+                      <m:mo stretchy="false">(</m:mo>
+                    </m:mrow>
+                    <m:mtext>34</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>0 m</m:mn>
+                    <m:mtext/>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>891</m:mtext>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>30</m:mtext>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>3 m</m:mn>
+                    <m:mtext/>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{B rSub { size 8{y} } =B"sin"θ rSub { size 8{B} } = \( "34" "." 0" m" \)  \( "sin""63" "." 0 { size 12{ circ } }  \) }  {} #
+"     "= \( "34" "." 0" m" \)  \( 0 "." "891" \) ="30" "." 3" m" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165296543690">The <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-components of the resultant are thus</para>
+
+    <equation id="eip-196"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>A</m:mi>
+
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mi>B</m:mi>
+
+                            <m:mrow>
+                              <m:mi>x</m:mi>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>49</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>8 m</m:mn>
+                  <m:mrow>
+                    <m:mtext/>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mtext>15</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>4 m</m:mn>
+                  <m:mrow>
+                    <m:mtext/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>65</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>2 m</m:mn>
+                  <m:mtext/>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{x} } =A rSub { size 8{x} } +B rSub { size 8{x} } ="49" "." 8" m"+"15" "." 4" m"="65" "." 2" m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298858089">and</para>
+
+    <equation id="eip-325"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>18</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>1 m</m:mn><m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>3 m</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>48</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>4 m</m:mn><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } =A rSub { size 8{y} } +B rSub { size 8{y} } ="18" "." 1" m"+"30" "." 3" m"="48" "." 4" m."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298673237">Now we can find the magnitude of the resultant by using the Pythagorean theorem:</para>
+
+    <equation id="eip-941"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>R</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:msubsup>
+                            <m:mi>R</m:mi>
+
+                              <m:mrow>
+                                <m:mi>x</m:mi>
+                              </m:mrow>
+
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msubsup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:msubsup>
+                            <m:mi>R</m:mi>
+
+                              <m:mrow>
+                                <m:mi>y</m:mi>
+                              </m:mrow>
+
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msubsup>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mtext>65</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>2</m:mn>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mtext>48</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>4</m:mn>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+<m:mspace width="0.25em"/>
+<m:mtext> m</m:mtext>
+                    </m:msqrt>
+                  </m:mrow>
+
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R= sqrt {R rSub { size 8{x} }  rSup { size 8{2} } +R rSub { size 8{y} }  rSup { size 8{2} } } = sqrt { \( "65" "." 2 \)  rSup { size 8{2} } + \( "48" "." 4 \)  rSup { size 8{2} } } " m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298868193">so that</para>
+
+    <equation id="eip-702"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow>
+<m:mi>R</m:mi>
+<m:mo stretchy="false">=</m:mo>
+<m:mn>81.2 m.</m:mn><m:mtext/>
+</m:mrow></m:mrow></m:mrow></m:mrow></m:mrow>
+<m:annotation encoding="StarMath 5.0"> size 12{R ="81.2" "m."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298940934">Finally, we find the direction of the resultant:</para>
+
+    <equation id="eip-713"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:mtext>=+</m:mtext><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mtext>48</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">/</m:mo><m:mtext>65</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mtext>.</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( R rSub { size 8{y} } /R rSub { size 8{x} }  \) "=+""tan" rSup { size 8{ - 1} }  \( "48" "." 4/"65" "." 2 \) "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298853595">Thus,</para>
+
+
+    <equation id="eip-755"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>742</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>36</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>6</m:mn><m:mrow><m:mo stretchy="false">º</m:mo></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( 0 "." "742" \) ="36" "." 6 { size 12{ circ } } "."} {}</m:annotation></m:semantics></m:math></equation><figure id="import-auto-id1165298804108"><media id="import-auto-id1165298804109" alt="The addition of two vectors A and B is shown. Vector A is of magnitude fifty three units and is inclined at an angle of twenty degrees to the horizontal. Vector B is of magnitude thirty four units and is inclined at angle sixty three degrees to the horizontal. The components of vector A are shown as dotted vectors A X is equal to forty nine point eight meter along x axis and A Y is equal to eighteen point one meter along Y axis. The components of vector B are also shown as dotted vectors B X is equal to fifteen point four meter and B Y is equal to thirty point three meter. The horizontal component of the resultant R X is equal to A X plus B X is equal to sixty five point two meter. The vertical component of the resultant R Y is equal to A Y plus B Y is equal to forty eight point four meter. The magnitude of the resultant of two vectors is eighty one point two meters. The direction of the resultant R is in thirty six point six degree from the vector A in anticlockwise direction.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_09a.jpg" width="375"/>
+      </media>
+
+    <caption>Using analytical methods, we see that the magnitude of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>81</m:mtext><m:mtext>.</m:mtext><m:mtext>2 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"81" "." "2 m"} {}</m:annotation></m:semantics></m:math> and its direction is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>36</m:mtext><m:mtext>.</m:mtext><m:mn>6º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"36" "." 6°} {}</m:annotation></m:semantics></m:math> north of east.</caption></figure><para id="import-auto-id1165298760698">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1165298760703">This example illustrates the addition of vectors using perpendicular components. Vector subtraction using perpendicular components is very similar—it is just the addition of a negative vector.</para>
+    <para id="import-auto-id1165298781739">Subtraction of vectors is accomplished by the addition of a negative vector. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi><m:mo stretchy="false">−</m:mo><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mo stretchy="false">≡</m:mo><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi mathvariant="bold">–B</m:mi></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A – B equiv A+ \(  - B \) } {}</m:annotation></m:semantics></m:math>. Thus, <emphasis effect="italics">the method for the subtraction of vectors using perpendicular components is identical to that for addition</emphasis>. The components of
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">–B</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> are the negatives of the components of
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>. The <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-components of the resultant <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi><m:mo stretchy="false">−</m:mo><m:mstyle fontweight="bold"><m:mrow><m:mtext>B = R</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A- bold "B = R"} {}</m:annotation></m:semantics></m:math> are thus</para><equation id="eip-772"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>R</m:mi>
+
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+
+<m:mo>(</m:mo><m:mo>–</m:mo>
+                    <m:msub>
+                      <m:mi>B</m:mi> <m:mi>x</m:mi>
+
+
+                    </m:msub>
+<m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{x} } =A rSub { size 8{x} } +-B rSub { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298867012">and</para>
+
+    <equation id="eip-532"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>R</m:mi>
+
+                      <m:mrow>
+                        <m:mi>y</m:mi>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+            <m:mo>(</m:mo><m:mo>–</m:mo>
+                    <m:msub>
+                      <m:mi>B</m:mi> <m:mi>y</m:mi>
+
+
+                    </m:msub>
+<m:mo>)</m:mo>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } =A rSub { size 8{y} } +-B rSub { size 8{y} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165296249538">and the rest of the method outlined above is identical to that for addition. (See <link target-id="import-auto-id1165298841604"/>.)</para>
+    </example>
+    <para id="import-auto-id1165296249543">Analyzing vectors using perpendicular components is very useful in many areas of physics, because perpendicular quantities are often independent of one another. The next module, <link document="m42042">Projectile Motion</link>, is one of many in which using perpendicular components helps make the picture clear and simplifies the physics.</para><figure id="import-auto-id1165298841604"><media id="import-auto-id1165298841605" alt="In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_03_10a.jpg" width="300"/>
+      </media>
+
+    <caption>The subtraction of the two vectors shown in <link target-id="import-auto-id1165298839640"/>. The components of <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">–B</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> are the negatives of the components of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>. The method of subtraction is the same as that for addition.</caption></figure></section>
+<note id="eip-948" class="interactive"><title>Vector Addition</title>
+<para id="eip-id1169737855449"> Learn how to add vectors. Drag vectors onto a graph, change their length and angle, and sum them together. The magnitude, angle, and components of each vector can be displayed in several formats.
+<newline/><media id="fs-id1167066847646" alt="This simulation provides the tools to experiment with adding vectors graphically.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28vectoradd/"/></media>
+</para>
+</note><section id="fs-id1628255" class="section-summary">
+  <title>Summary</title>
+    <list id="fs-id1628261"><item id="import-auto-id1165296238488">The analytical method of vector addition and subtraction involves using the Pythagorean theorem and trigonometric identities to determine the magnitude and direction of a resultant vector.</item>
+    <item id="import-auto-id1165296238492">The steps to add vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> using the analytical method are as follows:
+    <para id="import-auto-id1165298699809">Step 1: Determine the coordinate system for the vectors. Then, determine the horizontal and vertical components of each vector using the equations</para>
+    <equation id="import-auto-id1165298699812"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mi>x</m:mi>
+                                </m:mrow>
+
+                            </m:msub>
+</m:mtd>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                            <m:mi>A</m:mi><m:mspace width="0.25em"/>
+
+                          <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                          <m:mi>θ</m:mi>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+
+                      <m:msub>
+                        <m:mi>B</m:mi>
+
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+
+                      </m:msub>
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      <m:mi>B</m:mi>
+                    <m:mspace width="0.25em"/>
+                    <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                    <m:mi>θ</m:mi>
+
+</m:mtd>
+
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{A rSub { size 8{x} } =A"cos"θ}  {} #
+B rSub { size 8{x} } =B"cos"θ {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298717987">and</para>
+    <equation id="import-auto-id1165298717989"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+
+                            <m:msub>
+                              <m:mi>A</m:mi>
+
+                                <m:mrow>
+                                  <m:mi>y</m:mi>
+                                </m:mrow>
+
+                            </m:msub>
+</m:mtd>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                            <m:mi>A</m:mi><m:mspace width="0.25em"/>
+
+                          <m:mtext> sin</m:mtext><m:mspace width="0.25em"/>
+                          <m:mi>θ</m:mi>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+
+                     <m:msub> <m:mi>B</m:mi><m:mi>y</m:mi></m:msub>
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                     <m:mi>B</m:mi>
+                    <m:mspace width="0.25em"/>
+                    <m:mtext> sin </m:mtext><m:mspace width="0.25em"/>
+                    <m:mi>θ</m:mi>
+                    <m:mrow/><m:mtext>.</m:mtext>
+
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{A rSub { size 8{y} } =A" sin"θ}  {} #
+B=B suby " sin "θ {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165296564556">Step 2: Add the horizontal and vertical components of each vector to determine the components <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math> of the resultant vector, <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">R</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>:</para><equation id="import-auto-id1165298564746">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>R</m:mi>
+
+                      <m:mrow>
+                        <m:mi>x</m:mi>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>A</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>B</m:mi>
+
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{x} } =A rSub { size 8{x} } +B rSub { size 8{x} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id1165298586325">and</para>
+    <equation id="import-auto-id1165298586327"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>B</m:mi><m:mrow><m:mi>y</m:mi><m:mo>.</m:mo></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{y} } =A rSub { size 8{y} } +B rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1165296524905">Step 3: Use the Pythagorean theorem to determine the magnitude, <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, of the resultant vector <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">R</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>:</para><equation id="import-auto-id1165298936413"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R= sqrt {R rSub { size 8{x} }  rSup { size 8{2} } +R rSub { size 8{y} }  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1165296242517">Step 4: Use a trigonometric identity to determine the direction, <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>, of <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">R</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>:</para><equation id="import-auto-id1165296245925"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( R rSub { size 8{y} } /R rSub { size 8{x} }  \) } {}</m:annotation></m:semantics></m:math></equation>
+    </item></list></section>
+  <section id="fs-id1611286" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1611291" type="conceptual-questions"><problem id="fs-id1611292">
+    <para id="import-auto-id1165296525953">Suppose you add two vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>. What relative direction between them produces the resultant with the greatest magnitude? What is the maximum magnitude? What relative direction between them produces the resultant with the smallest magnitude? What is the minimum magnitude?</para>
+    </problem></exercise>
+    <exercise id="fs-id1611340" type="conceptual-questions"><problem id="fs-id1611341">
+      <para id="fs-id1611343">Give an example of a nonzero vector that has a component of zero.</para>
+    </problem></exercise>
+    <exercise id="fs-id1611347" type="conceptual-questions"><problem id="fs-id1611348">
+    <para id="fs-id1611350">Explain why a vector cannot have a component greater than its own magnitude.</para>
+    </problem></exercise><exercise id="fs-id1611354" type="conceptual-questions"><problem id="fs-id1611356">
+     <para id="fs-id1611358">If the vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> are perpendicular, what is the component of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> along the direction of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>? What is the component of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> along the direction of <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>?
+      </para></problem></exercise>
+</section><section id="eip-18" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1611479" type="problems-exercises"><problem id="fs-id1611480">
+<para id="import-auto-id1165298863759">Find the following for path C in <link target-id="import-auto-id1165298863773"/>: (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.<figure id="import-auto-id1165298863773"><media id="import-auto-id1165296384447" alt="A map of city is shown. The houses are in form of square blocks of side one hundred and twenty meter each. Four paths A B C and D are shown in different colors. The path c shown as blue extends to one block towards north, then five blocks towards east and then two blocks towards south then one block towards west and one block towards north and finally three blocks towards west. It is asked to find out the total distance traveled the magnitude and the direction of the displacement from start to finish for path C.">
+<image mime-type="image/wmf" src="../../media/Figure_03_02_20a.jpg"/></media><caption>The various lines represent paths taken by different people walking in a city. All blocks are 120 m on a side.</caption></figure></para></problem>
+<solution id="eip-id2052721">
+     <para id="import-auto-id1165298832178">(a) 1.56 km
+
+</para><para id="import-auto-id1165296578636">(b) 120 m east</para></solution></exercise><exercise id="fs-id1876099" type="problems-exercises"><problem id="fs-id1876100">
+<para id="import-auto-id1165296578640">Find the following for path D in <link target-id="import-auto-id1165298863773"/>: (a) the total distance traveled and (b) the magnitude and direction of the displacement from start to finish. In this part of the problem, explicitly show how you follow the steps of the analytical method of vector addition.</para></problem></exercise><exercise id="fs-id1751204" type="problems-exercises"><problem id="fs-id1751205">
+<para id="import-auto-id1165296578641">Find the north and east components of the displacement from San Francisco to Sacramento shown in <link target-id="import-auto-id1165298797444"/>.
+<figure id="import-auto-id1165298797444"><media id="import-auto-id1165298797445" alt="A map of northern California with a circle with a radius of one hundred twenty three kilometers centered on San Francisco. Sacramento lies on the circumference of this circle in a direction forty-five degrees north of east from San Francisco.">
+<image mime-type="image/wmf" src="../../media/Figure_03_02_19a.jpg" width="250"/></media></figure></para></problem>
+<solution id="eip-id2406348">
+<para id="eip-id2406350">North-component 87.0 km, east-component 87.0 km</para>
+</solution></exercise><exercise id="eip-287" type="problems-exercises"><problem id="eip-61">
+    <para id="import-auto-id1165298667360">Solve the following problem using analytical techniques: Suppose you walk 18.0 m straight west and then 25.0 m straight north. How far are you from your starting point, and what is the compass direction of a line connecting your starting point to your final position? (If you represent the two legs of the walk as vector displacements <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>, as in <link target-id="import-auto-id1165298935750"/>, then this problem asks you to find their sum <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi mathvariant="bold">A</m:mi><m:mo stretchy="false">+</m:mo><m:mi mathvariant="bold">B</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R=A+B} {}</m:annotation></m:semantics></m:math>.)</para><figure id="import-auto-id1165298935750"><media id="import-auto-id1165298935751" alt="In the given figure displacement of a person is shown. First movement of the person is shown as vector A from origin along negative x axis. He then turns to his right. His movement is now shown as a vertical vector in north direction. The displacement vector R is also shown. In the question you are asked to find the displacement of the person from the start to finish.">
+        <image mime-type="image/wmf" src="../../media/Figure_03_02_21a.jpg"/>
+      </media>
+
+    <caption>The two displacements <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> add to give a total displacement <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> having magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> and direction <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1165298883930">Note that you can also solve this graphically. Discuss why the analytical technique for solving this problem is potentially more accurate than the graphical technique.</para>
+</problem>
+
+</exercise>
+
+<exercise id="eip-430" type="problems-exercises"><problem id="eip-400">
+  <para id="eip-718">Repeat <link target-id="eip-287"/> using analytical techniques, but reverse the order of the two legs of the walk and show that you get the same final result. (This problem shows that adding them in reverse order gives the same result—that is,
+<m:math>
+ <m:semantics>
+<m:mtext mathvariant="bold">B + A = A + B</m:mtext>
+ </m:semantics>
+</m:math>.)  Discuss how taking another path to reach the same point might help to overcome an obstacle blocking your other path.
+  </para></problem>
+
+<solution id="eip-24">
+  <para id="eip-157">
+    30.8 m, 35.8 west of north
+  </para>
+</solution>
+</exercise><exercise id="fs-id1862376" type="problems-exercises"><problem id="fs-id1862377">
+<para id="import-auto-id1165298883937">You drive <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50 km"} {}</m:annotation></m:semantics></m:math> in a straight line in a direction
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>15º</m:mn></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15º"} {}</m:annotation></m:semantics></m:math>  east of north. (a) Find the distances you would have to drive straight east and then straight north to arrive at the same point. (This determination is equivalent to find the components of the displacement along the east and north directions.) (b) Show that you still arrive at the same point if the east and north legs are reversed in order.</para></problem></exercise>
+<exercise id="fs-id1629683" type="problems-exercises"><problem id="fs-id1629684">
+<para id="import-auto-id1165298883936">Do <link target-id="eip-287"/> again using analytical techniques and change the second leg of the walk to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25.0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> straight south. (This is equivalent to subtracting <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> from <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> —that is, finding
+<m:math><m:semantics><m:mrow><m:mrow><m:mstyle><m:mrow><m:mtext mathvariant="bold">R</m:mtext><m:mo>′</m:mo><m:mo>=</m:mo><m:mtext mathvariant="bold">A – B</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>) (b) Repeat again, but now you first walk <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." "0 m"} {}</m:annotation></m:semantics></m:math> north and then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" "." "0 m"} {}</m:annotation></m:semantics></m:math> east. (This is equivalent to subtract <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> from <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> —that is, to find <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi mathvariant="bold">B</m:mi><m:mo stretchy="false">+</m:mo><m:mi mathvariant="bold">C</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=B+C} {}</m:annotation></m:semantics></m:math>. Is that consistent with your result?)</para></problem>
+<solution id="fs-id1822911">
+    <para id="import-auto-id1165298883928">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mtext>8 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30" "." "8 m"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>54</m:mtext><m:mtext>.</m:mtext><m:mn>2º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"54" "." 2°} {}</m:annotation></m:semantics></m:math> south of west</para><para id="import-auto-id1165298676944">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mtext>8 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30" "." "8 m"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>54</m:mtext><m:mtext>.</m:mtext><m:mn>2º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"54" "." 2°} {}</m:annotation></m:semantics></m:math> north of east</para></solution>
+</exercise><exercise id="fs-id1956316" type="problems-exercises"><problem id="fs-id1956317">
+<para id="import-auto-id1165298676945">A new landowner has a triangular piece of flat land she wishes to fence. Starting at the west corner, she measures the first side to be 80.0 m long and the next to be 105 m. These sides are represented as displacement vectors <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> from <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> in <link target-id="eip-id3165265"/>. She then correctly calculates the length and orientation of the third side <m:math><m:semantics><m:mrow><m:mrow><m:mtext>C</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math>. What is her result?
+
+<figure id="eip-id3165265"><media id="import-auto-id1165296607394" alt="In the given figure the sides of a triangular piece of land are shown in vector form. West corner is at origin. A vector starts from the origin towards south east direction and makes an angle twenty-one degrees with the horizontal. Then from the head of this vector another vector B making an angle eleven degrees with the vertical is drawn upwards. Then another vector C from the head of the vector B to the tail of the initial vector is drawn. The length and orientation of side C is indicated as unknown, represented by a question mark."><image mime-type="image/wmf" src="../../media/Figure_03_03_11a.jpg" width="250"/></media></figure></para></problem></exercise>
+
+<exercise id="fs-id1874820" type="problems-exercises"><problem id="fs-id1874821">
+<para id="import-auto-id1165298676947">You fly <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>32</m:mtext><m:mtext>.</m:mtext><m:mtext>0 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"32" "." "0 km"} {}</m:annotation></m:semantics></m:math> in a straight line in still air in the direction
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>35.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35"°} {}</m:annotation></m:semantics></m:math> south of west. (a) Find the distances you would have to fly straight south and then straight west to arrive at the same point. (This determination is equivalent to finding the components of the displacement along the south and west directions.) (b) Find the distances you would have to fly first in a direction
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>45.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45.0º"} {}</m:annotation></m:semantics></m:math> south of west and then in a direction
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>45.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45.0º"} {}</m:annotation></m:semantics></m:math> west of north. These are the components of the displacement along a different set of axes—one rotated
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>45º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45"°} {}</m:annotation></m:semantics></m:math>.</para></problem>
+<solution id="fs-id1797961"><para id="import-auto-id1165298676948">18.4 km south, then 26.2 km west(b) 31.5 km at
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>45.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45.0º"} {}</m:annotation></m:semantics></m:math> south of west, then 5.56 km at
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>45.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45.0º"} {}</m:annotation></m:semantics></m:math> west of north</para></solution></exercise>
+<exercise id="eip-379" type="problems-exercises"><problem id="eip-201">
+  <para id="eip-222">A farmer wants to fence off his four-sided plot of flat land. He measures the first three sides, shown as <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="bold">A</m:mi>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{A,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+ <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="bold">B</m:mi>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B,} {}</m:annotation>
+        </m:semantics>
+      </m:math> and <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi mathvariant="bold">C</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation>
+        </m:semantics>
+      </m:math> in <link target-id="import-auto-id1165298543237"/>, and then correctly calculates the length and orientation of the fourth side <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>.
+  What is his result?</para>
+  <para id="eip-68"><figure id="import-auto-id1165298543237"><media id="import-auto-id1165298608985" alt="A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated"><image mime-type="image/wmf" src="../../media/Figure_03_03_12a.jpg"/></media></figure></para>
+</problem>
+</exercise><exercise id="fs-id1849688" type="problems-exercises"><problem id="fs-id1849689">
+<para id="import-auto-id11652986769482">In an attempt to escape his island, Gilligan builds a raft and sets to sea. The wind shifts a great deal during the day, and he is blown along the following straight lines: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50 km"} {}</m:annotation></m:semantics></m:math>
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>45.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45.0º"} {}</m:annotation></m:semantics></m:math>
+
+ north of west; then
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mtext>70 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "70 km"} {}</m:annotation></m:semantics></m:math>
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>60.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60"°} {}</m:annotation></m:semantics></m:math> south of east; then
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.30</m:mn><m:mspace width="0.25em"/><m:mtext> km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1.30" " km"} {}</m:annotation></m:semantics></m:math>
+
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>25.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25"°} {}</m:annotation></m:semantics></m:math> south of west; then
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>10 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "10 km"} {}</m:annotation></m:semantics></m:math> straight east; then
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.70</m:mn><m:mspace width="0.25em"/><m:mtext> km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1.70" " km"} {}</m:annotation></m:semantics></m:math>
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mn>5.00º</m:mn></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 rSup { size 8{ circ } } } {}</m:annotation></m:semantics></m:math> east of north; then
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>20 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "20 km"} {}</m:annotation></m:semantics> </m:math>
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>55.0º</m:mn></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"55"°} {}</m:annotation></m:semantics></m:math> south of west; and finally
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>80 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "80 km"} {}</m:annotation></m:semantics></m:math>
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>10.0º</m:mn></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10"°} {}</m:annotation></m:semantics></m:math> north of east. What is his final position relative to the island?</para></problem>
+<solution id="fs-id1930787">
+<para id="import-auto-id11652986769483"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>34 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "97 km"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>63</m:mtext><m:mtext>.</m:mtext><m:mn>5º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"22" "." 2°} {}</m:annotation></m:semantics></m:math> south of east</para></solution></exercise>
+<exercise id="fs-id1955218" type="problems-exercises"><problem id="fs-id1955219">
+<para id="import-auto-id11652986769484">Suppose a pilot flies <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mtext>0 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." "0 km"} {}</m:annotation></m:semantics></m:math> in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>60º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60"°} {}</m:annotation></m:semantics></m:math> north of east and then flies <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mtext>0 km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30" "." "0 km"} {}</m:annotation></m:semantics></m:math> in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15"°} {}</m:annotation></m:semantics></m:math> north of east as shown in <link target-id="import-auto-id1165298708571"/>. Find her total distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> from the starting point and the direction <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> of the straight-line path to the final position. Discuss qualitatively how this flight would be altered by a wind from the north and how the effect of the wind would depend on both wind speed and the speed of the plane relative to the air mass.</para><figure id="import-auto-id1165298708571"><media id="import-auto-id1165298708572" alt="A triangle  defined by vectors A, B, and R. A begins at the origin and run forty kilometers in a direction sixty degrees north of east. B begins at the end of A and runs thirty kilometers in a direction fifteen degrees north of east. R is the resultant vector and runs from the origin (the beginning of A) to the end of B for a distance and in a direction theta that need to be calculated."><image mime-type="image/wmf" src="../../media/Figure_03_03_13a.jpg"/></media></figure></problem></exercise>
+</section>
+     </content>
+  <glossary>
+    <definition id="import-auto-id1165299001085"><term>analytical method</term> <meaning id="fs-id1544968">the method of determining the magnitude and direction of a resultant vector using the Pythagorean theorem and trigonometric identities</meaning></definition>
+    </glossary>
+
+</document>

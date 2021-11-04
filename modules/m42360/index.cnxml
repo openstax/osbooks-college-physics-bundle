@@ -1,0 +1,316 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>DC Voltmeters and Ammeters</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42360</md:content-id>
+  <md:title>DC Voltmeters and Ammeters</md:title>
+  <md:abstract><list>
+<item>Explain why a voltmeter must be connected in parallel with the circuit.</item>
+<item>Draw a diagram showing an ammeter correctly connected in a circuit.</item>
+<item>Describe how a galvanometer can be used as either a voltmeter or an ammeter.</item>
+<item>Find the resistance that must be placed in series with a galvanometer to allow it to be used as a voltmeter with a given reading.</item>
+<item>Explain why measuring the voltage or current in a circuit can never be exact.</item>
+</list></md:abstract>
+  <md:uuid>43b351e5-230d-4ad8-b8df-1b3b02cf82cc</md:uuid>
+</metadata>
+
+<content>
+<para id="import-auto-id3175065"><term id="import-auto-id2601418">Voltmeters</term> measure voltage, whereas <term>ammeters</term> measure current. Some of the meters in automobile dashboards, digital cameras, cell phones, and tuner-amplifiers are voltmeters or ammeters. (See <link target-id="import-auto-id2654311"/>.) The internal construction of the simplest of these meters and how they are connected to the system they monitor give further insight into applications of series and parallel connections.</para><figure id="import-auto-id2654311"><media id="import-auto-id2659865" alt="This photograph shows the instruments on a gray Volkswagen Vento dashboard, including the speedometer, odometer, and fuel and temperature gauges, showing some readings.">
+        <image mime-type="image/png" src="../../media/Figure_22_04_01.jpg" width="250"/>
+      </media>
+
+    <caption>The fuel and temperature gauges (far right and far left, respectively) in this 1996 Volkswagen are voltmeters that register the voltage output of “sender” units, which are hopefully proportional to the amount of gasoline in the tank and the engine temperature. (credit: Christian Giersing)</caption></figure><para id="import-auto-id2697437">Voltmeters are connected in parallel with whatever device’s voltage is to be measured. A parallel connection is used because objects in parallel experience the same potential difference. (See <link target-id="import-auto-id1934441"/>, where the voltmeter is represented by the symbol V.)</para>
+    <para id="import-auto-id1599872">Ammeters are connected in series with whatever device’s current is to be measured. A series connection is used because objects in series have the same current passing through them. (See <link target-id="import-auto-id2692802"/>, where the ammeter is represented by the symbol A.)</para>
+
+
+    <figure id="import-auto-id1934441"><media id="import-auto-id1840242" alt="Part a shows a schematic drawing of a circuit with a voltage source and its internal resistance, in series with two load resistors R sub one and R sub two having two probes of a voltmeter connected in parallel with each component. There is another resistor in series to close the circuit. Part b shows a photograph of a black voltmeter connected to two inputs on an electrical device, with a digital readout of the voltage across the source as an L E D display.">
+        <image mime-type="image/png" src="../../media/Figure_22_04_02-ea56.jpg" width="275"/>
+      </media>
+
+    <caption>(a) To measure potential differences in this series circuit, the voltmeter (V) is placed in parallel with the voltage source or either of the resistors. Note that terminal voltage is measured between points a and b. It is not possible to connect the voltmeter directly across the emf without including its internal resistance, <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>. (b) A digital voltmeter in use. (credit: Messtechniker, Wikimedia Commons)</caption></figure><figure id="import-auto-id2692802"><media id="import-auto-id2438074" alt="The diagram of an electric circuit shows a voltage source of e m f script E and internal resistance r and two resistive loads R sub one and R sub two. All are connected in series with an ammeter A.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_04_03.jpg" width="200"/>
+      </media>
+
+    <caption>An ammeter (A) is placed in series to measure current. All of the current in this circuit flows through the meter. The ammeter would have the same reading if located between points d and e or between points f and a as it does in the position shown. (Note that the script capital E stands for emf, and <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>  stands for the internal resistance of the source of potential difference.)</caption></figure>
+<section id="fs-id1614393">
+<title>Analog Meters: Galvanometers</title>
+    <para id="import-auto-id2403499"><term id="import-auto-id2687462">Analog meters</term> have a needle that swivels to point at numbers on a scale, as opposed to <term id="import-auto-id1815921">digital meters</term>, which have numerical readouts similar to a hand-held calculator. The heart of most analog meters is a device called a <term id="import-auto-id3126414">galvanometer</term>, denoted by G. Current flow through a galvanometer, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>G</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{G} } } {}</m:annotation></m:semantics></m:math>, produces a proportional needle deflection. (This deflection is due to the force of a magnetic field upon a current-carrying wire.)</para><para id="import-auto-id3163203">The two crucial characteristics of a given galvanometer are its resistance and current sensitivity. <term id="import-auto-id3112511">Current sensitivity</term> is the current that gives a <term id="import-auto-id3026908">full-scale deflection</term> of the galvanometer’s needle, the maximum current that the instrument can measure. For example, a galvanometer with a current sensitivity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> has a maximum deflection of its needle when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> flows through it, reads half-scale when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>25 μA</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2"5 "μA} {}</m:annotation></m:semantics></m:math> flows through it, and so on.</para><para id="import-auto-id2011182">If such a galvanometer has a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>5-</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2"5-" %OMEGA } {}</m:annotation></m:semantics></m:math> resistance, then a voltage of only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>25 Ω</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>25 mV</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "IR"= left ("50" μA right ) left ("25"  %OMEGA  right )=1 "." "25"" mV"} {}</m:annotation></m:semantics></m:math> produces a full-scale reading. By connecting resistors to this galvanometer in different ways, you can use it as either a voltmeter or ammeter that can measure a broad range of voltages or currents.</para><section id="fs-id1818218">
+<title>Galvanometer as Voltmeter</title>
+    <para id="import-auto-id2667111"><link target-id="import-auto-id1404084"/> shows how a galvanometer can be used as a voltmeter by connecting it in series with a large resistance, <m:math><m:semantics><m:mrow><m:mi>R</m:mi></m:mrow></m:semantics></m:math>. The value of the resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is determined by the maximum voltage to be measured. Suppose you want 10 V to produce a full-scale deflection of a voltmeter containing a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>5-Ω</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2"5-" %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50-μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> sensitivity. Then 10 V applied to the meter must produce a current of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" μA} {}</m:annotation></m:semantics></m:math>. The total resistance must be</para><equation id="eip-227"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">+</m:mo><m:mi>r</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:mi>I</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>10</m:mtext><m:mspace width="0.25em"/><m:mtext> V</m:mtext></m:mrow><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>200</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext> k</m:mtext><m:mo stretchy="false">Ω, or</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{"tot"} } =R+r= {  {V}  over  {I} } = {  {"10"" V"}  over  {"50" μA} } ="200"" k" %OMEGA } {}</m:annotation></m:semantics></m:math></equation><equation id="eip-474"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mi>r</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>200 kΩ</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">≈</m:mo><m:mtext>200</m:mtext><m:mspace width="0.25em"/><m:mtext> k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R=R rSub { size 8{"tot"} } -r="200"k %OMEGA -"25"  %OMEGA »"200"" k" %OMEGA } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2973361">(<m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is so large that the galvanometer resistance, <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>, is nearly negligible.) Note that 5 V applied to this voltmeter produces a half-scale deflection by producing a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>5-μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2"5-"μA} {}</m:annotation></m:semantics></m:math> current through the meter, and so the voltmeter’s reading is proportional to voltage as desired.</para><para id="import-auto-id1352064">This voltmeter would not be useful for voltages less than about half a volt, because the meter deflection would be small and difficult to read accurately. For other voltage ranges, other resistances are placed in series with the galvanometer. Many meters have a choice of scales. That choice involves switching an appropriate resistance into series with the galvanometer.</para>
+
+
+    <figure id="import-auto-id1404084"><media id="import-auto-id2383870" alt="The drawing shows a voltmeter, which is a circuit with a large resistance in series with a galvanometer, along with its internal resistance.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_04_04.jpg" width="200"/>
+      </media>
+
+    <caption>A large resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> placed in series with a galvanometer G produces a voltmeter, the full-scale deflection of which depends on the choice of <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>. The larger the voltage to be measured, the larger <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> must be. (Note that <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>  represents the internal resistance of the galvanometer.)</caption></figure></section>
+
+<section id="fs-id3402771">
+<title>Galvanometer as Ammeter</title>
+    <para id="import-auto-id2405338">The same galvanometer can also be made into an ammeter by placing it in parallel with a small resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, often called the <term id="import-auto-id1614455">shunt resistance</term>, as shown in <link target-id="import-auto-id2932271"/>. Since the shunt resistance is small, most of the current passes through it, allowing an ammeter to measure currents much greater than those producing a full-scale deflection of the galvanometer.</para>
+    <para id="import-auto-id2669524">Suppose, for example, an ammeter is needed that gives a full-scale deflection for 1.0 A, and contains the same <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>5-</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2"5-" %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer with its <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50-μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50"-μA} {}</m:annotation></m:semantics></m:math> sensitivity. Since <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> are in parallel, the voltage across them is the same.</para><para id="import-auto-id1229977">These <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IR"} {}</m:annotation></m:semantics></m:math> drops are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>G</m:mtext></m:mrow></m:msub></m:mrow><m:mi>r</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IR"=I rSub { size 8{G} } r} {}</m:annotation></m:semantics></m:math> so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>G</m:mtext></m:mrow></m:msub><m:mi>I</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>R</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IR"= {  {I rSub { size 8{G} } }  over  {I} } = {  {R}  over  {r} } } {}</m:annotation></m:semantics></m:math>. Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, and noting that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>G</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{G} } } {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" μA} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> is 0.999950 A, we have</para><equation id="eip-537"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mi>r</m:mi></m:mrow><m:mrow><m:mfrac><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>G</m:mtext></m:mrow></m:msub><m:mi>I</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>25</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">)</m:mo><m:mrow><m:mfrac><m:mrow><m:mtext>50 μA</m:mtext></m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>999950 A</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R=r {  {I rSub { size 8{G} } }  over  {I} } = \( "25"  %OMEGA  \)  {  {"50" mA}  over  {0 "." "999950 A"} } =1 "." "25"´"10" rSup { size 8{-3} }   %OMEGA } {}</m:annotation></m:semantics></m:math></equation><figure id="import-auto-id2932271"><media id="import-auto-id1186294" alt="A resistance R is placed in parallel with a galvanometer G having an internal resistance r to produce an ammeter.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_04_05.jpg" width="200"/>
+      </media>
+
+    <caption>A small shunt resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> placed in parallel with a galvanometer G produces an ammeter, the full-scale deflection of which depends on the choice of <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>. The larger the current to be measured, the smaller <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> must be. Most of the current (<m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math>) flowing through the meter is shunted through <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> to protect the galvanometer.  (Note that <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>  represents the internal resistance of the galvanometer.) Ammeters may also have multiple scales for greater flexibility in application. The various scales are achieved by switching various shunt resistances in parallel with the galvanometer—the greater the maximum current to be measured, the smaller the shunt resistance must be.</caption></figure></section>
+</section>
+
+<section id="fs-id1947189">
+<title>Taking Measurements Alters the Circuit</title>
+    <para id="import-auto-id1023805">When you use a voltmeter or ammeter, you are connecting another resistor to an existing circuit and, thus, altering the circuit. Ideally, voltmeters and ammeters do not appreciably affect the circuit, but it is instructive to examine the circumstances under which they do or do not interfere.</para>
+    <para id="import-auto-id1425212">First, consider the voltmeter, which is always placed in parallel with the device being measured. Very little current flows through the voltmeter if its resistance is a few orders of magnitude greater than the device, and so the circuit is not appreciably affected. (See <link target-id="import-auto-id2602156"/>(a).) (A large resistance in parallel with a small one has a combined resistance essentially equal to the small one.) If, however, the voltmeter’s resistance is comparable to that of the device being measured, then the two in parallel have a smaller resistance, appreciably affecting the circuit. (See <link target-id="import-auto-id2602156"/>(b).) The voltage across the device is not the same as when the voltmeter is out of the circuit.</para>
+
+
+      <figure id="import-auto-id2602156"><media id="import-auto-id2448060" alt="Part a shows a desired case in which the resistance of a voltmeter connected in parallel with a load resistor is essentially equivalent to the resistance of the load resistor along as long as the voltmeter’s resistance is much greater than that of the load resistor. Part b shows the case when the voltmeter’s resistance is approximately the same as that of the load resistor. This case should be avoided because the effective resistance is half that of the load resistor.">
+          <image mime-type="image/jpg" src="../../media/Figure_22_04_06.jpg" width="400"/>
+        </media>
+
+      <caption>(a) A voltmeter having a resistance much larger than the device (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>Voltmeter</m:mtext></m:msub><m:mtext>&gt;&gt;</m:mtext><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V"&gt;&gt;"R} {}</m:annotation></m:semantics></m:math>) with which it is in parallel produces a parallel resistance essentially the same as the device and does not appreciably affect the circuit being measured. (b) Here the voltmeter has the same resistance as the device (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mtext>Voltmeter</m:mtext></m:msub><m:mo stretchy="false">≅</m:mo><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V simeq R} {}</m:annotation></m:semantics></m:math>), so that the parallel resistance is half of what it is when the voltmeter is not connected. This is an example of a significant alteration of the circuit and is to be avoided.</caption></figure><para id="import-auto-id1420106">An ammeter is placed in series in the branch of the circuit being measured, so that its resistance adds to that branch. Normally, the ammeter’s resistance is very small compared with the resistances of the devices in the circuit, and so the extra resistance is negligible. (See <link target-id="import-auto-id1927668"/>(a).) However, if very small load resistances are involved, or if the ammeter is not as low in resistance as it should be, then the total series resistance is significantly greater, and the current in the branch being measured is reduced. (See <link target-id="import-auto-id1927668"/>(b).)</para><para id="import-auto-id2591544">A practical problem can occur if the ammeter is connected incorrectly. If it was put in parallel with the resistor to measure the current in it, you could possibly damage the meter; the low resistance of the ammeter would allow most of the current in the circuit to go through the galvanometer, and this current would be larger since the effective resistance is smaller.</para>
+
+
+    <figure id="import-auto-id1927668"><media id="import-auto-id2598708" alt="The figure shows two cases in which an ammeter is connected in series with a load resistor. Part a shows the desired case in which the resistance of the ammeter is much smaller than that of the load, and the total resistance is about the same as the load resistance. Part b shows the case to be avoided in which the ammeter has a resistance about the same as the load, and the total resistance is twice that of the load resistance.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_04_07.jpg" width="200"/>
+      </media>
+
+    <caption>(a) An ammeter normally has such a small resistance that the total series resistance in the branch being measured is not appreciably increased. The circuit is essentially unaltered compared with when the ammeter is absent. (b) Here the ammeter’s resistance is the same as that of the branch, so that the total resistance is doubled and the current is half what it is without the ammeter. This significant alteration of the circuit is to be avoided.</caption></figure><para id="import-auto-id1917403">One solution to the problem of voltmeters and ammeters interfering with the circuits being measured is to use galvanometers with greater sensitivity. This allows construction of voltmeters with greater resistance and ammeters with smaller resistance than when less sensitive galvanometers are used.</para>
+    <para id="import-auto-id3090432">There are practical limits to galvanometer sensitivity, but it is possible to get analog meters that make measurements accurate to a few percent. Note that the inaccuracy comes from altering the circuit, not from a fault in the meter.</para>
+
+    <note id="fs-id2990880"><label/>
+    <title>Connections: Limits to Knowledge</title>
+    <para id="import-auto-id3130295">Making a measurement alters the system being measured in a manner that produces uncertainty in the measurement. For macroscopic systems, such as the circuits discussed in this module, the alteration can usually be made negligibly small, but it cannot be eliminated entirely. For submicroscopic systems, such as atoms, nuclei, and smaller particles, measurement alters the system in a manner that cannot be made arbitrarily small. This actually limits knowledge of the system—even limiting what nature can know about itself. We shall see profound implications of this when the Heisenberg uncertainty principle is discussed in the modules on quantum mechanics.</para>
+    <para id="import-auto-id1958513">There is another measurement technique based on drawing no current at all and, hence, not altering the circuit at all. These are called null measurements and are the topic of <link document="m42362">Null Measurements</link>. Digital meters that employ solid-state electronics and null measurements can attain accuracies of one part in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math>.</para></note>
+
+
+<exercise id="eip-418" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id1090712">
+<para id="import-auto-id2032212">Digital meters are able to detect smaller currents than analog meters employing galvanometers. How does this explain their ability to measure voltage and current more accurately than analog meters?</para></problem>
+<solution id="fs-id990795" print-placement="here"><para id="import-auto-id3062238">Since digital meters require less current than analog meters, they alter the circuit less than analog meters. Their resistance as a voltmeter can be far greater than an analog meter, and their resistance as an ammeter can be far less than an analog meter. Consult <link target-id="import-auto-id1934441"/> and <link target-id="import-auto-id2692802"/> and their discussion in the text.</para></solution>
+</exercise>
+</section>
+
+    <note id="eip-327" class="interactive"><label/><title>Circuit Construction Kit (DC Only), Virtual Lab</title>
+
+      <para id="eip-928">Stimulate a neuron and monitor what happens. Pause, rewind, and move forward in time in order to observe the ions as they move across the neuron membrane. </para>
+      <figure id="CircuitConstructionKitDCOnlyVirtualLab">
+      <media id="CircuitConstructionKitVirtualLab" alt="This simulation allows you to experiment with an electronics kit and build circuits with batteries, resistors, light bulbs, fuses, and switches.">
+      <iframe width="660" height="371.4" src="https://openstax.org/l/02circuit_construction_kit_dc"/>
+      </media>
+      </figure></note>
+      <section id="fs-id955064" class="section-summary"><title>Section Summary</title><list id="fs-id1431312">
+    <item id="import-auto-id3051257">Voltmeters measure voltage, and ammeters measure current.</item>
+    <item id="import-auto-id2207403">A voltmeter is placed in parallel with the voltage source to receive full voltage and must have a large resistance to limit its effect on the circuit.</item>
+    <item id="import-auto-id2591290">An ammeter is placed in series to get the full current flowing through a branch and must have a small resistance to limit its effect on the circuit.</item>
+    <item id="import-auto-id1909073">Both can be based on the combination of a resistor and a galvanometer, a device that gives an analog reading of current.</item>
+    <item id="import-auto-id1859324">Standard voltmeters and ammeters alter the circuit being measured and are thus limited in accuracy.</item>
+    </list>
+    </section><section id="fs-id2209959" class="conceptual-questions" type="conceptual-questions">
+<title>Conceptual Questions</title>
+
+ <exercise id="fs-id1390392" type="conceptual-questions"><problem id="fs-id3093053">
+    <para id="import-auto-id3104618">Why should you not connect an ammeter directly across a voltage source as shown in <link target-id="import-auto-id2399391"/>? (Note that script E in the figure stands for emf.)</para><figure id="import-auto-id2399391"><media id="import-auto-id3254508" alt="A circuit shows a connection of a cell of e m f script E and internal resistance r. Each terminal of the cell is connected to opposite ends of the ammeter. The circuit is closed.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_04_08.jpg" width="200"/>
+      </media>
+    </figure></problem></exercise>
+
+    <exercise id="fs-id1397916" type="conceptual-questions"><problem id="fs-id2589708">
+    <para id="import-auto-id3008195">Suppose you are using a multimeter (one designed to measure a range of voltages, currents, and resistances) to measure current in a circuit and you inadvertently leave it in a voltmeter mode. What effect will the meter have on the circuit? What would happen if you were measuring voltage but accidentally put the meter in the ammeter mode?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id3149558" type="conceptual-questions"><problem id="fs-id3026201">
+    <para id="import-auto-id1381282">Specify the points to which you could connect a voltmeter to measure the following potential differences in <link target-id="import-auto-id2618382"/>: (a) the potential difference of the voltage source; (b) the potential difference across <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>; (c) across <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>; (d) across <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>; (e) across <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>. Note that there may be more than one answer to each part.</para>
+
+
+    <figure id="import-auto-id2618382"><media id="import-auto-id3244965" alt="This figure shows a circuit having a cell of e m f script E and internal resistance r connected in parallel to two arms, one arm containing resistor R sub one and a second arm containing a series of resistors R sub two and R sub three.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_04_09.jpg" width="350"/>
+      </media>
+    </figure></problem></exercise>
+
+    <exercise id="fs-id1348664" type="conceptual-questions"><problem id="fs-id3012198">
+    <para id="import-auto-id2382978">To measure currents in <link target-id="import-auto-id2618382"/>, you would replace a wire between two points with an ammeter. Specify the points between which you would place an ammeter to measure the following: (a) the total current; (b) the current flowing through <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>; (c) through <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>; (d) through <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>. Note that there may be more than one answer to each part.</para></problem></exercise>
+    </section>
+
+    <section id="fs-id2670722" type="problems-exercises" class="problems-exercises"><title>Problem Exercises</title><exercise id="fs-id2008364" type="problems-exercises"><problem id="fs-id1215925">
+<para id="import-auto-id1410916">What is the sensitivity of the galvanometer (that is, what current gives a full-scale deflection) inside a voltmeter that has a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mtext>-M</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00""-M" %OMEGA } {}</m:annotation></m:semantics></m:math> resistance on its 30.0-V scale?</para>
+    </problem>
+<solution id="fs-id3090484">
+    <para id="eip-id1554273"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>30</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi fontstyle="italic">μA</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"30" μA} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise><exercise id="fs-id2051381" type="problems-exercises">
+<problem id="fs-id1371210">
+  <para id="import-auto-id1375950">What is the sensitivity of the galvanometer (that is, what current gives a full-scale deflection) inside a voltmeter that has a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>-k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0"-k" %OMEGA } {}</m:annotation></m:semantics></m:math> resistance on its 100-V scale?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2660082" type="problems-exercises"><problem id="fs-id3121947">
+  <para id="import-auto-id2658158">Find the resistance that must be placed in series with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50.0</m:mtext><m:mrow><m:mn>-μA</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" "." 0-μA} {}</m:annotation></m:semantics></m:math> sensitivity (the same as the one discussed in the text) to allow it to be used as a voltmeter with a 0.100-V full-scale reading.</para></problem>
+<solution id="fs-id1222304">
+    <para id="eip-id1700596">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>98 k</m:mtext>
+                  <m:mo stretchy="false">Ω</m:mo>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "98 k" %OMEGA } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise><exercise id="fs-id1320313" type="problems-exercises">
+<problem id="fs-id2677348">
+   <para id="import-auto-id3161432">Find the resistance that must be placed in series with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-μA</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" "." 0-μA} {}</m:annotation></m:semantics></m:math> sensitivity (the same as the one discussed in the text) to allow it to be used as a voltmeter with a 3000-V full-scale reading. Include a circuit diagram with your solution.</para></problem></exercise>
+
+    <exercise id="fs-id1216022" type="problems-exercises">
+<problem id="fs-id1418896">
+  <para id="import-auto-id1900560">Find the resistance that must be placed in parallel with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-μA</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" "." 0-μA} {}</m:annotation></m:semantics></m:math> sensitivity (the same as the one discussed in the text) to allow it to be used as an ammeter with a 10.0-A full-scale reading. Include a circuit diagram with your solution.</para></problem>
+<solution id="fs-id1485776">
+    <equation id="eip-id1657958"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>25</m:mtext>
+                  <m:mi>×</m:mi>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">-</m:mo>
+                          <m:mn>4</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+
+                  </m:msup><m:mspace width="0.25em"/>
+                  <m:mo stretchy="false">Ω</m:mo>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "25"´"10" rSup { size 8{ +- 4} }   %OMEGA } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></solution>
+    </exercise>
+
+    <exercise id="fs-id2407481" type="problems-exercises">
+<problem id="fs-id1843715">
+  <para id="import-auto-id2452786">Find the resistance that must be placed in parallel with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-μA</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" "." 0-μA} {}</m:annotation></m:semantics></m:math> sensitivity (the same as the one discussed in the text) to allow it to be used as an ammeter with a 300-mA full-scale reading.</para></problem></exercise>
+
+    <exercise id="fs-id1389596" type="problems-exercises">
+<problem id="fs-id2672285">
+ <para id="import-auto-id3062725">Find the resistance that must be placed in series with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100-μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"-μA} {}</m:annotation></m:semantics></m:math> sensitivity to allow it to be used as a voltmeter with: (a) a 300-V full-scale reading, and (b) a 0.300-V full-scale reading.</para></problem>
+<solution id="fs-id1869365">
+    <para id="import-auto-id1380194">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00 M</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00 M" %OMEGA } {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1577741">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>99 k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "99 k" %OMEGA } {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id3233387" type="problems-exercises">
+<problem id="fs-id3022777">
+ <para id="import-auto-id1932478">Find the resistance that must be placed in parallel with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100-μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"-μA} {}</m:annotation></m:semantics></m:math> sensitivity to allow it to be used as an ammeter with: (a) a 20.0-A full-scale reading, and (b) a 100-mA full-scale reading.</para></problem></exercise>
+
+    <exercise id="fs-id1931391" type="problems-exercises">
+<problem id="fs-id2684015">
+ <para id="import-auto-id2599260">Suppose you measure the terminal voltage of a 1.585-V alkaline cell having an internal resistance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>100</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "100"  %OMEGA } {}</m:annotation></m:semantics></m:math> by placing a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mtext>-k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00""-k" %OMEGA } {}</m:annotation></m:semantics></m:math> voltmeter across its terminals. (See <link target-id="import-auto-id1349482"/>.) (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.</para><figure id="import-auto-id1349482"><media id="import-auto-id2973101" alt="The figure shows a circuit diagram that includes a battery with an internal resistance r and a voltmeter connected across its terminals. The current I is shown by an arrow pointing in a clockwise direction.">
+        <image mime-type="image/png" src="../../media/Figure_22_04_10.jpg" width="100"/>
+      </media>
+    </figure></problem>
+<solution id="fs-id957039">
+    <para id="import-auto-id1401646">(a) 1.58 mA</para>
+    <para id="import-auto-id2406258">(b) 1.5848 V (need four digits to see the difference)</para>
+    <para id="import-auto-id2423399">(c) 0.99990 (need five digits to see the difference from unity)</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id2949960" type="problems-exercises">
+<problem id="fs-id2441432">
+  <para id="import-auto-id3037003">Suppose you measure the terminal voltage of a 3.200-V lithium cell having an internal resistance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00"  %OMEGA } {}</m:annotation></m:semantics></m:math> by placing a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mtext>-k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00""-k" %OMEGA } {}</m:annotation></m:semantics></m:math> voltmeter across its terminals. (a) What current flows? (b) Find the terminal voltage. (c) To see how close the measured terminal voltage is to the emf, calculate their ratio.</para></problem></exercise>
+
+    <exercise id="fs-id1355644" type="problems-exercises"><problem id="fs-id1588097">
+  <para id="import-auto-id2055850">A certain ammeter has a resistance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00"´"10" rSup { size 8{-5} }   %OMEGA } {}</m:annotation></m:semantics></m:math> on its 3.00-A scale and contains a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer. What is the sensitivity of the galvanometer?</para></problem>
+<solution id="fs-id1921293">
+    <para id="eip-id2481891"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>15</m:mtext>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>0 μA</m:mn>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"15" "." 0 mA} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise><exercise id="fs-id1221168" type="problems-exercises">
+<problem id="fs-id1859287">
+ <para id="import-auto-id1609369">A <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mtext>-MΩ</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00""-M" %OMEGA } {}</m:annotation></m:semantics></m:math> voltmeter is placed in parallel with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>75</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>-k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"75" "." 0"-k" %OMEGA } {}</m:annotation></m:semantics></m:math> resistor in a circuit. (a) Draw a circuit diagram of the connection. (b) What is the resistance of the combination? (c) If the voltage across the combination is kept the same as it was across the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>75</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>-k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"75" "." 0"-k" %OMEGA } {}</m:annotation></m:semantics></m:math> resistor alone, what is the percent increase in current? (d) If the current through the combination is kept the same as it was through the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>75</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>-k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"75" "." 0"-k" %OMEGA } {}</m:annotation></m:semantics></m:math> resistor alone, what is the percentage decrease in voltage? (e) Are the changes found in parts (c) and (d) significant? Discuss.</para></problem></exercise>
+
+    <exercise id="fs-id3007303" type="problems-exercises"><problem id="fs-id2604466">
+ <para id="import-auto-id1350453">A <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>0200-Ω</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> ammeter is placed in series with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>00-Ω</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." "00"- %OMEGA } {}</m:annotation></m:semantics></m:math> resistor in a circuit. (a) Draw a circuit diagram of the connection. (b) Calculate the resistance of the combination. (c) If the voltage is kept the same across the combination as it was through the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>00-Ω</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." "00"- %OMEGA } {}</m:annotation></m:semantics></m:math> resistor alone, what is the percent decrease in current? (d) If the current is kept the same through the combination as it was through the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>00-Ω</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." "00"- %OMEGA } {}</m:annotation></m:semantics></m:math> resistor alone, what is the percent increase in voltage? (e) Are the changes found in parts (c) and (d) significant? Discuss.</para></problem>
+<solution id="fs-id2448770">
+    <para id="import-auto-id2393655">(a)</para>
+
+
+    <media id="import-auto-id2382627" alt="The figure shows part of a circuit that includes an ammeter with internal resistance r connected in series with a load resistance R.">
+        <image mime-type="image/png" src="../../media/Figure_22_04_11.jpg" width="200"/>
+      </media>
+   <para id="import-auto-id2684990">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>10</m:mn><m:mtext>.</m:mtext><m:mtext>02 </m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{10 "." "02 " %OMEGA } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3098684">(c) 0.9980, or a <m:math><m:semantics><m:mrow><m:mn>2.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–1</m:mn></m:msup></m:mrow></m:semantics></m:math> percent decrease</para><para id="import-auto-id1987959">(d) 1.002, or a <m:math><m:semantics><m:mrow><m:mn>2.0</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–1</m:mn></m:msup></m:mrow></m:semantics></m:math> percent increase</para><para id="import-auto-id3162329">(e) Not significant.</para>
+    </solution>
+    </exercise><exercise id="fs-id1915875" type="problems-exercises"><problem id="fs-id2381548">
+ <para id="import-auto-id3175370"><title>Unreasonable Results</title></para>
+<para id="eip-id2671829">Suppose you have a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-μA</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0-mA} {}</m:annotation></m:semantics></m:math> sensitivity. (a) What resistance would you put in series with it to allow it to be used as a voltmeter that has a full-scale deflection for 0.500 mV? (b) What is unreasonable about this result? (c) Which assumptions are responsible?</para></problem></exercise>
+
+    <exercise id="fs-id1990504" type="problems-exercises"><problem id="fs-id3094830">
+ <para id="import-auto-id1972579"><title>Unreasonable Results</title></para>
+<para id="eip-id2629742">(a) What resistance would you put in parallel with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." 0- %OMEGA } {}</m:annotation></m:semantics></m:math> galvanometer having a
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25.</m:mtext><m:mrow><m:mn>0-μA</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math> sensitivity to allow it to be used as an ammeter that has a full-scale deflection for <m:math><m:semantics><m:mrow><m:mrow><m:mrow>
+<m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0-μA</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0 μA} {}</m:annotation></m:semantics></m:math>? (b) What is unreasonable about this result? (c) Which assumptions are responsible?</para></problem>
+<solution id="fs-id2442989">
+    <para id="import-auto-id2032269">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>66</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>7</m:mn><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{-"66" "." 7  %OMEGA } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2660410">(b) You can’t have negative resistance.</para>
+    <para id="import-auto-id1245691">(c) It is unreasonable that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>G</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{G} } } {}</m:annotation></m:semantics></m:math> is greater than <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"tot"} } } {}</m:annotation></m:semantics></m:math> (see <link target-id="import-auto-id2932271"/>). You cannot achieve a full-scale deflection using a current less than the sensitivity of the galvanometer.</para></solution>
+    </exercise>
+    </section> </content>
+<glossary>
+    <definition id="import-auto-id1230282"><term>voltmeter</term> <meaning id="fs-id1916521">an instrument that measures voltage</meaning></definition>
+    <definition id="import-auto-id2445285"><term>ammeter</term> <meaning id="fs-id1349377">an instrument that measures current</meaning></definition>
+    <definition id="import-auto-id2625773"><term>analog meter</term> <meaning id="fs-id3181723">a measuring instrument that gives a readout in the form of a needle movement over a marked gauge</meaning></definition>
+    <definition id="import-auto-id1436089"><term>digital meter</term> <meaning id="fs-id3161683">a measuring instrument that gives a readout in a digital form</meaning></definition>
+    <definition id="import-auto-id2682744"><term>galvanometer</term> <meaning id="fs-id2053264">an analog measuring device, denoted by G, that measures current flow using a needle deflection caused by a magnetic field force acting upon a current-carrying wire</meaning></definition>
+    <definition id="import-auto-id1947126"><term>current sensitivity</term> <meaning id="fs-id954422">the maximum current that a galvanometer can read</meaning></definition>
+    <definition id="import-auto-id3026201"><term>full-scale deflection</term> <meaning id="fs-id2399873">the maximum deflection of a galvanometer needle, also known as current sensitivity; a galvanometer with a full-scale deflection of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" mA} {}</m:annotation></m:semantics></m:math> has a maximum deflection of its needle when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50 μA</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" μA} {}</m:annotation></m:semantics></m:math> flows through it</meaning></definition>
+    <definition id="import-auto-id1362689"><term>shunt resistance</term> <meaning id="fs-id3457954">a small resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> placed in parallel with a galvanometer G to produce an ammeter; the larger the current to be measured, the smaller <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> must be; most of the current flowing through the meter is shunted through <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> to protect the galvanometer</meaning></definition>
+    </glossary>
+</document>

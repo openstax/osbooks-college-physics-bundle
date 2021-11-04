@@ -1,0 +1,571 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Quantum Numbers and Rules</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42614</md:content-id>
+  <md:title>Quantum Numbers and Rules</md:title>
+  <md:abstract><list>
+<item>Define quantum number.</item>
+<item>Calculate angle of angular momentum vector with an axis.</item>
+<item>Define spin quantum number.</item>
+</list></md:abstract>
+  <md:uuid>c1f0576f-1366-45d2-8f18-a54b8b35c1c5</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1276239">Physical characteristics that are quantized—such as energy, charge, and angular momentum—are of such importance that names and symbols are given to them. The values of quantized entities are expressed in terms of <term id="import-auto-id2677155">quantum numbers</term>, and the rules governing them are of the utmost importance in determining what nature is and does. This section covers some of the more important quantum numbers and rules—all of which apply in chemistry, material science, and far beyond the realm of atomic physics, where they were first discovered. Once again, we see how physics makes discoveries which enable other fields to grow.</para><para id="import-auto-id2625656">The <emphasis effect="italics">energy states of bound systems are quantized</emphasis>, because the particle wavelength can fit into the bounds of the system in only certain ways. This was elaborated for the hydrogen atom, for which the allowed energies are expressed as <m:math><m:semantics><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mi>n</m:mi></m:mrow></m:msub><m:mo stretchy="false">∝</m:mo><m:mn>1/</m:mn><m:msup><m:mi>n</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1, 2, 3, ...</m:mn></m:mrow></m:semantics></m:math>. We define
+<m:math><m:semantics><m:mrow><m:mi>n</m:mi></m:mrow></m:semantics></m:math> to be the principal quantum number that labels the basic states of a system. The lowest-energy state has
+<m:math><m:semantics><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:semantics></m:math>, the first excited state has
+<m:math><m:semantics><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:semantics></m:math>, and so on. Thus the allowed values for the principal quantum number are</para><equation id="eip-742"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo></m:mrow><m:mn>1, 2, 3, ...</m:mn></m:mrow></m:mrow><m:mo>.</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=1, 2, 3,  "."   "."   "." } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1390187">This is more than just a numbering scheme, since the energy of the system, such as the hydrogen atom, can be expressed as some function of <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>, as can other characteristics (such as the orbital radii of the hydrogen atom).</para>
+    <para id="import-auto-id3063639">The fact that the <emphasis effect="italics">magnitude of angular momentum is quantized</emphasis> was first recognized by Bohr in relation to the hydrogen atom; it is now known to be true in general. With the development of quantum mechanics, it was found that the magnitude of angular momentum <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> can have only the values</para>
+    <equation id="eip-831"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt {l left (l+1 right )}  {  {h}  over  {2π} } } {}</m:annotation></m:semantics><m:semantics><m:mrow><m:mrow><m:mspace width="1.00em"/><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0, 1, 2, ...</m:mn><m:mi>,</m:mi><m:mrow><m:mspace width="0.25em"/><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/><m:mtext>,</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (l=0, 1, 2,  "."   "."   "."  ,n - 1 right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3069597">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> is defined to be the <term id="import-auto-id1432038">angular momentum quantum number</term>. The rule for <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> in atoms is given in the parentheses. Given <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>, the value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> can be any integer from zero up to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n - 1} {}</m:annotation></m:semantics></m:math>. For example, if <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=4} {}</m:annotation></m:semantics></m:math>, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> can be 0, 1, 2, or 3.</para>
+    <para id="import-auto-id3229120">Note that for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=1} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> can only be zero. This means that the ground-state angular momentum for hydrogen is actually zero, not
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>h</m:mi><m:mo>/</m:mo><m:mn>2</m:mn><m:mi>π</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math> as Bohr proposed. The picture of circular orbits is not valid, because there would be angular momentum for any circular orbit. A more valid picture is the cloud of probability shown for the ground state of hydrogen in <link document="m42606" target-id="import-auto-id2396594"/>. The electron actually spends time in and near the nucleus. The reason the electron does not remain in the nucleus is related to Heisenberg’s uncertainty principle—the electron’s energy would have to be much too large to be confined to the small space of the nucleus. Now the first excited state of hydrogen has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=2} {}</m:annotation></m:semantics></m:math>, so that <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> can be either 0 or 1, according to the rule in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt {l left (l+1 right )}  {  {h}  over  {2π} } } {}</m:annotation></m:semantics></m:math> . Similarly, for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=3} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> can be 0, 1, or 2. It is often most convenient to state the value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math>, a simple integer, rather than calculating the value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt {l left (l+1 right )}  {  {h}  over  {2π} } } {}</m:annotation></m:semantics></m:math>. For example, for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=2} {}</m:annotation></m:semantics></m:math>, we see that</para><equation id="eip-935"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mfenced open="(" close=")"><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:msqrt><m:mn>6</m:mn></m:msqrt></m:mrow><m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>390</m:mtext><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>58</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>34</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt {2 left (2+1 right )}  {  {h}  over  {2π} } = sqrt {6}  {  {h}  over  {2π} } =0 "." "390"h=2 "." "58" times "10" rSup { size 8{ - "34"} } " J" cdot s} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1220838">It is much simpler to state <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=2} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id2992778">As recognized in the Zeeman effect, the <emphasis effect="italics">direction of angular momentum is quantized</emphasis>. We now know this is true in all circumstances. It is found that the component of angular momentum along one direction in space, usually called the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis, can have only certain values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math>. The direction in space must be related to something physical, such as the direction of the magnetic field at that location. This is an aspect of relativity. Direction has no meaning if there is nothing that varies with direction, as does magnetic force. The allowed values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> are</para>
+    <equation id="eip-721"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } =m rSub { size 8{l} }  {  {h}  over  {2π} } } {}</m:annotation></m:semantics><m:semantics><m:mrow><m:mrow><m:mspace width="1.00em"/><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mi>l</m:mi></m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1, ...</m:mn></m:mrow><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mn>1, 0, 1, ...</m:mn><m:mrow><m:mspace width="0.25em"/><m:mi>l</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mi>l</m:mi></m:mrow></m:mfenced><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (m rSub { size 8{l} } = - l,  - l+1,  "."   "."   "."  ,  - 1, 0, 1,  "."   "."   "."  l - 1, l right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3053404">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id2953765"><m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-component of the angular momentum</term> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> is the angular momentum projection quantum number. The rule in parentheses for the values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> is that it can range from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - l} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> in steps of one. For example, if <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=2} {}</m:annotation></m:semantics></m:math>, then <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> can have the five values –2, –1, 0, 1, and 2. Each <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> corresponds to a different energy in the presence of a magnetic field, so that they are related to the splitting of spectral lines into discrete parts, as discussed in the preceding section. If the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-component of angular momentum can have only certain values, then the angular momentum can have only certain directions, as illustrated in <link target-id="import-auto-id1996787"/>.</para>
+
+    <figure id="import-auto-id1996787"><media id="import-auto-id2697437" alt="The image shows two possible values of component of a given angular momentum along z-axis. One circular orbit above the original circular orbit is shown for m sub l value of plus one. Another circular orbit below the original circular orbit is shown for m sub l value of minus one. The angular momentum vector for the top circular orbit makes an angle of theta sub one with the vertical axis. The horizontal angular momentum vector at original circular orbit makes an angle of theta sub two with the vertical axis. The angular momentum vector for the bottom circular orbit makes an angle of theta sub three with the vertical axis.">
+        <image mime-type="image/jpg" src="../../media/Figure_31_08_00a.jpg" width="250"/>
+      </media>
+
+    <caption>The component of a given angular momentum along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>-axis (defined by the direction of a magnetic field) can have only certain values; these are shown here for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, for which <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">−</m:mo><m:mn>1, 0,  and +1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The direction of <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow></m:mrow></m:semantics></m:math> is quantized in the sense that it can have only certain angles relative to the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>-axis.</caption></figure><example id="fs-id1419670">
+    <title>What Are the Allowed Directions?</title>
+    <para id="import-auto-id2928454">Calculate the angles that the angular momentum vector <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">L</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/> can make with the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=1} {}</m:annotation></m:semantics></m:math>, as illustrated in <link target-id="import-auto-id1996787"/>.</para><para id="import-auto-id1403686">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1350660"><link target-id="import-auto-id1996787"/> represents the vectors  <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">L</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">L</m:mtext><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> as usual, with arrows proportional to their magnitudes and pointing in the correct directions. <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">L</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">L</m:mtext><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> form a right triangle, with <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> being the hypotenuse and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">L</m:mtext><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> the adjacent side. This means that the ratio of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> is the cosine of the angle of interest. We can find <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">L</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">L</m:mtext><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt {l left (l+1 right )}  {  {h}  over  {2π} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } =m {  {h}  over  {2π} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id3093903">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id1602621">We are given <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=1} {}</m:annotation></m:semantics></m:math>, so that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> can be +1, 0, or −1. Thus <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> has the value given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt {l left (l+1 right )}  {  {h}  over  {2π} } } {}</m:annotation></m:semantics></m:math>.</para><equation id="eip-691"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt><m:mi>h</m:mi></m:mrow><m:mn>2π</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>h</m:mi></m:mrow><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= {  { sqrt {l left (l+1 right )} h}  over  {2π} } = {  { sqrt {2} h}  over  {2π} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1221990"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> can have three values, given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } =m rSub { size 8{l} }  {  {h}  over  {2π} } } {}</m:annotation></m:semantics></m:math>.</para><equation id="eip-250"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="true">{</m:mo>
+<m:mtable>
+<m:mtr><m:mtd><m:mrow><m:mspace width="0.25em"/><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:mtd>
+<m:mtd><m:mspace width="0.25em"/><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd><m:mo>+</m:mo><m:mn>1</m:mn><m:mspace width="0.25em"/></m:mtd></m:mtr>
+<m:mtr><m:mtd><m:mspace width="0.25em"/><m:mn>0,</m:mn><m:mspace width="0.25em"/></m:mtd>
+<m:mtd><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mn>0</m:mn><m:mspace width="0.25em"/></m:mtd>
+</m:mtr>
+<m:mtr><m:mtd><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mo>,</m:mo></m:mrow></m:mtd>
+<m:mtd><m:mspace width="0.25em"/><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mtd>
+</m:mtr>
+</m:mtable></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1349581">As can be seen in <link target-id="import-auto-id1996787"/>,
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mn>cos</m:mn><m:mspace width="0.25em"/><m:mi> θ</m:mi><m:mo>=</m:mo>
+   <m:msub>
+    <m:mtext>L</m:mtext>
+    <m:mi>z</m:mi>
+   </m:msub>
+   <m:mtext>/L,</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+ and so for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo>=+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } "=+"1} {}</m:annotation></m:semantics></m:math>, we have</para><equation id="eip-985"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mrow><m:mi>Z</m:mi></m:mrow></m:msub><m:mi>L</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mfrac><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>h</m:mi></m:mrow><m:mn>2π</m:mn></m:mfrac></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>707.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"θ rSub { size 8{1} } = {  {L rSub { size 8{Z} } }  over  {L} } = {  { {  {h}  over  {2π} } }  over  { {  { sqrt {2} h}  over  {2π} } } } = {  {1}  over  { sqrt {2} } } =0 "." "707"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2437142">Thus,</para>
+    <equation id="eip-589"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mrow><m:mtext>0.707</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>45</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0º.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2697885">Similarly, for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } =0} {}</m:annotation></m:semantics></m:math>, we find <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"θ rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math>; thus,</para><equation id="eip-202"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">=</m:mo><m:mtext>90</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0º.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{2} } ="cos" rSup { size 8{ - 1} } 0="90" "." 0°} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2655556">And for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } = - 1} {}</m:annotation></m:semantics></m:math>,</para>
+    <equation id="eip-607"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mrow><m:mi>Z</m:mi></m:mrow></m:msub><m:mi>L</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow><m:mfrac><m:mrow><m:msqrt><m:mn>2</m:mn></m:msqrt><m:mi>h</m:mi></m:mrow><m:mn>2π</m:mn></m:mfrac></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mn>2</m:mn></m:msqrt></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>707,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"θ rSub { size 8{3} } = {  {L rSub { size 8{Z} } }  over  {L} } = {  { -  {  {h}  over  {2π} } }  over  { {  { sqrt {2} h}  over  {2π} } } } = -  {  {1}  over  { sqrt {2} } } = - 0 "." "707"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2583456">so that</para>
+    <equation id="eip-8"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>cos</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>707</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>135</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0º.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{3} } ="cos" rSup { size 8{ - 1} }  left ( - 0 "." "707" right )="135" "." 0°} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3449507">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1864550">The angles are consistent with the figure. Only the angle relative to the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis is quantized. <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> can point in any direction as long as it makes the proper angle with the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis. Thus the angular momentum vectors lie on cones as illustrated. This behavior is not observed on the large scale. To see how the correspondence principle holds here, consider that the smallest angle (<m:math>
+ <m:semantics>
+<m:msub>
+   <m:mi>θ</m:mi>
+   <m:mtext>1</m:mtext>
+</m:msub>
+ </m:semantics>
+</m:math> in the example) is for the maximum value of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, namely <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. For that smallest angle,</para><equation id="eip-851"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub><m:mi>L</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>l</m:mi><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"θ= {  {L rSub { size 8{z} } }  over  {L} } = {  {l}  over  { sqrt {l left (l+1 right )} } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1198202">which approaches 1 as <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> becomes very large. If <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"θ=1} {}</m:annotation></m:semantics></m:math>, then <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Furthermore, for large <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, there are many values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math>, so that all angles become possible as <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> gets very large.</para></example>
+    <section id="fs-id1448501">
+    <title>Intrinsic Spin Angular Momentum Is Quantized in Magnitude and Direction</title>
+    <para id="import-auto-id3421186">There are two more quantum numbers of immediate concern. Both were first discovered for electrons in conjunction with fine structure in atomic spectra. It is now well established that electrons and other fundamental particles have <emphasis effect="italics">intrinsic spin</emphasis>, roughly analogous to a planet spinning on its axis. This spin is a fundamental characteristic of particles, and only one magnitude of intrinsic spin is allowed for a given type of particle. Intrinsic angular momentum is quantized independently of orbital angular momentum. Additionally, the direction of the spin is also quantized. It has been found that the <term id="import-auto-id2436972">magnitude of the intrinsic (internal) spin angular momentum</term>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S} {}</m:annotation></m:semantics></m:math>, of an electron is given by</para><equation id="eip-945"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>s</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mspace width="1.00em"/></m:mrow><m:mtext>(</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext> for electrons),</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s=1/2} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3161263">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> is defined to be the <term id="import-auto-id1871891">spin quantum number</term>. This is very similar to the quantization of <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> given in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>l</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= sqrt {l left (l+1 right )}  {  {h}  over  {2π} } } {}</m:annotation></m:semantics></m:math>, except that the only value allowed for <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> for electrons is 1/2.</para>
+    <para id="import-auto-id2667164">The <emphasis effect="italics">direction of intrinsic spin is quantized</emphasis>, just as is the direction of orbital angular momentum. The direction of spin angular momentum along one direction in space, again called the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis, can have only the values</para>
+    <equation id="eip-868"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>S</m:mi>
+
+                        <m:mrow>
+                          <m:mi>z</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msub>
+                      <m:mi>m</m:mi>
+
+                        <m:mrow>
+                          <m:mi>s</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mi>h</m:mi>
+                    <m:mn>2π</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{z} } =m rSub { size 8{s} }  {  {h}  over  {2π} } } {}</m:annotation>
+        </m:semantics>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+<m:mspace width="1.00em"/>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>m</m:mi>
+
+                          <m:mrow>
+                            <m:mi>s</m:mi>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>,</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mn>2</m:mn>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfenced>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left (m rSub { size 8{s} } = -  {  {1}  over  {2} } , + {  {1}  over  {2} }  right )} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3047316">for electrons. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>S</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id2973845"><m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-component of spin angular momentum</term> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id1571054">spin projection quantum number</term>. For electrons, <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> can only be 1/2, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> can be either +1/2 or –1/2. Spin projection <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mtext>=+</m:mtext><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } "=+"1/2} {}</m:annotation></m:semantics></m:math> is referred to as <emphasis effect="italics">spin up</emphasis>, whereas <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } = - 1/2} {}</m:annotation></m:semantics></m:math> is called <emphasis effect="italics">spin down</emphasis>. These are illustrated in <link document="m42609" target-id="import-auto-id1870582"/>.</para><note id="fs-id1577628"><label/>
+    <title>Intrinsic Spin</title>
+    <para id="import-auto-id1439052">In later chapters, we will see that intrinsic spin is a characteristic of all subatomic particles. For some particles <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> is half-integral, whereas for others <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> is integral—there are crucial differences between half-integral spin particles and integral spin particles. Protons and neutrons, like electrons, have <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s=1/2} {}</m:annotation></m:semantics></m:math>, whereas photons have <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s=1} {}</m:annotation></m:semantics></m:math>, and other particles called pions have <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s=0} {}</m:annotation></m:semantics></m:math>, and so on.</para>
+    </note>
+    <para id="import-auto-id2488547">To summarize, the state of a system, such as the precise nature of an electron in an atom, is determined by its particular quantum numbers. These are expressed in the form <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi fontstyle="italic">n, l,</m:mi><m:mspace width="0.25em"/><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mi>,</m:mi><m:mspace width="0.25em"/><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> —see <link target-id="import-auto-id3013526"/> <emphasis effect="italics">For electrons in atoms</emphasis>, the principal quantum number can have the values <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1, 2, 3, ...</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Once <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is known, the values of the angular momentum quantum number are limited to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1, 2, 3, ...</m:mn><m:mi>,</m:mi><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. For a given value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, the angular momentum projection quantum number can have only the values <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow><m:mrow><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mi>l</m:mi></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">+</m:mo><m:mn>1, ...</m:mn></m:mrow><m:mi>,</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1, 0, 1, ...</m:mn><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mi>l</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn><m:mspace width="0.25em"/><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Electron spin is independent of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">n, l,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, always having <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. The spin projection quantum number can have two values, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext> or </m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><table id="import-auto-id3013526" summary="Three-column table titled Atomic Quantum Numbers. The columns, from left to right, are titled Name, Symbol, and Allowed Values."><title>Atomic Quantum Numbers</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead><row>
+            <entry>Name</entry>
+            <entry>Symbol</entry>
+            <entry>Allowed values</entry>
+          </row></thead><tbody><row>
+            <entry>Principal quantum number</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                        <m:mi>n</m:mi>
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                          <m:mn>1, 2, 3, ...</m:mn>
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry>Angular momentum</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                      </m:mrow>
+
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>0, 1, 2, ...</m:mn>
+                          <m:mrow>
+                            <m:mi>n</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry>Angular momentum projection</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>m</m:mi>
+                              <m:mi>l</m:mi>
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow></m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mi>l</m:mi>
+                            <m:mi>,</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo>
+                              <m:mi>l</m:mi>
+                            </m:mrow><m:mspace width="0.25em"/>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1, ...</m:mn>
+                          </m:mrow>
+                          <m:mi>,</m:mi>
+                            <m:mspace width="0.25em"/>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1, 0, 1, ...</m:mn>
+                          <m:mi>,</m:mi>
+                          <m:mspace width="0.25em"/>
+                            <m:mi>l</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1,</m:mn>
+                         <m:mspace width="0.25em"/>
+                          <m:mi>l</m:mi><m:mspace width="0.25em"/>
+                          <m:mo>(</m:mo>
+                              <m:mtext>or</m:mtext><m:mspace width="0.25em"/>
+                              <m:mn>0, ±1, ±2, ...</m:mn>
+                              <m:mi>,</m:mi><m:mspace width="0.25em"/>
+                                <m:mo stretchy="false">±</m:mo>
+                                <m:mi>l</m:mi>
+                          <m:mo>)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry>Spin<footnote id="eip-id2990653">The spin quantum number <emphasis effect="italics">s</emphasis> is usually not stated, since it is always 1/2 for electrons</footnote></entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>   <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mtext>
+1/2
+         </m:mtext>
+         <m:mo stretchy="false">
+(
+         </m:mo>
+         <m:mtext>
+electrons
+         </m:mtext>
+         <m:mo stretchy="false">
+)
+         </m:mo>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+    </m:semantics>
+   </m:math></entry>
+          </row><row>
+            <entry>Spin projection</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>m</m:mi>
+
+                            <m:mrow>
+                              <m:mi>s</m:mi>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>   <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+           <m:mo stretchy="false">
+−
+           </m:mo>
+
+          <m:mn>
+1/2,
+          </m:mn>
+        <m:mspace width="0.25em"/>
+          <m:mo stretchy="false">
++
+          </m:mo>
+           <m:mn>
+1/2
+           </m:mn>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+    </m:semantics>
+   </m:math></entry>
+          </row></tbody>
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id3081997"><link target-id="import-auto-id1427798"/> shows several hydrogen states corresponding to different sets of quantum numbers. Note that these clouds of probability are the locations of electrons as determined by making repeated measurements—each measurement finds the electron in a definite location, with a greater chance of finding the electron in some places rather than others. With repeated measurements, the pattern of probability shown in the figure emerges. The clouds of probability do not look like nor do they correspond to classical orbits. The uncertainty principle actually prevents us and nature from knowing how the electron gets from one place to another, and so an orbit really does not exist as such. Nature on a small scale is again much different from that on the large scale.</para><figure id="import-auto-id1427798"><media id="import-auto-id1427799" alt="The image shows probability clouds for the electron in the ground state and several excited states of hydrogen. Sets of quantum numbers given as n l m subscript l are shown for each state. The ground state is zero zero zero. The probability of finding the electron is indicated by the shade of color.">
+        <image mime-type="image/jpg" src="../../media/Figure_31_08_01a.jpg" width="400"/>
+      </media>
+    <caption>Probability clouds for the electron in the ground state and several excited states of hydrogen. The nature of these states is determined by their sets of quantum numbers, here given as <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>n</m:mi><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mi>l</m:mi><m:mi>,</m:mi><m:mspace width="0.25em"/><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (n, l, m rSub { size 8{l} }  right )} {}</m:annotation></m:semantics></m:math>. The ground state is (0, 0, 0); one of the possibilities for the second excited state is (3, 2, 1). The probability of finding the electron is indicated by the shade of color; the darker the coloring the greater the chance of finding the electron.</caption></figure><para id="import-auto-id3094028">We will see that the quantum numbers discussed in this section are valid for a broad range of particles and other systems, such as nuclei. Some quantum numbers, such as intrinsic spin, are related to fundamental classifications of subatomic particles, and they obey laws that will give us further insight into the substructure of matter and its interactions.</para>
+    </section>
+        <note id="eip-891" class="interactive"><label/><title>Stern-Gerlach Experiment</title>
+<para id="eip-id1421564">The classic Stern-Gerlach Experiment shows that atoms have a property called spin. Spin is a kind of intrinsic angular momentum, which has no classical counterpart. When the z-component of the spin is measured, one always gets one of two values: spin up or spin down.</para>
+<figure id="eip-idm786561120">
+<media id="SternGerlach" alt="This simulation allows you to recreate the classic Stern-Gerlach experiment.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02sterngerlach"/>
+</media>
+</figure></note><section id="fs-id3223976" class="section-summary"><title>Section Summary</title><list id="fs-id3089619"><item id="import-auto-id3399326">Quantum numbers are used to express the allowed values of quantized entities. The principal quantum number <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> labels the basic states of a system and is given by
+        <equation id="eip-773"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mn>2,</m:mn><m:mspace width="0.25em"/><m:mn>3,</m:mn><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=1, 2, 3,  "."   "."   "." } {}</m:annotation></m:semantics></m:math></equation></item>
+        <item id="import-auto-id1506968">The magnitude of angular momentum is given by
+    <equation id="eip-368"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>L</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:mi>l</m:mi>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mi>l</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mi>h</m:mi>
+                    <m:mn>2π</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+          </m:mrow>
+        </m:semantics>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+<m:mspace width="1.00em"/>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+
+                        <m:mi>l</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mn>0, 1, 2, ...</m:mn>
+                      <m:mi>,</m:mi>
+                      <m:mrow><m:mspace width="0.25em"/>
+                        <m:mi>n</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> is the angular momentum quantum number. The direction of angular momentum is quantized, in that its component along an axis defined by a magnetic field, called the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis is given by
+<equation id="eip-982"><m:math>
+  <m:mtable>
+    <m:mtr>
+      <m:mtd>
+  <m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub>
+  <m:mo stretchy="false">=</m:mo>
+  <m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub>
+  <m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr><m:mtd>
+<m:mfenced open="(" close=")">
+  <m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub>
+<m:mo stretchy="false">=</m:mo>
+<m:mo stretchy="false">−</m:mo><m:mi>l</m:mi><m:mi>,</m:mi>
+<m:mo stretchy="false">−</m:mo><m:mi>l</m:mi><m:mo stretchy="false">+</m:mo>
+<m:mn>1, ...</m:mn>
+<m:mi>,</m:mi><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mn>1, 0, 1, ...</m:mn><m:mspace width="0.25em"/><m:mi>l</m:mi><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn><m:mspace width="0.25em"/><m:mi>l</m:mi></m:mfenced><m:mtext>,</m:mtext></m:mtd></m:mtr></m:mtable></m:math></equation><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> is the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-component of the angular momentum and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> is the angular momentum projection quantum number. Similarly, the electron’s intrinsic spin angular momentum <m:math><m:semantics><m:mrow><m:mrow><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S} {}</m:annotation></m:semantics></m:math> is given by
+    <equation id="eip-628"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>s</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mspace width="1.00em"/></m:mrow><m:mtext>(</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S= sqrt {s left (s+1 right )}  {  {h}  over  {2π} } } {}</m:annotation></m:semantics><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mtext> for electrons),</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s=1/2} {}</m:annotation></m:semantics></m:math></equation><m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> is defined to be the spin quantum number. Finally, the direction of the electron’s spin along the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis is given by
+    <equation id="eip-763"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>S</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{z} } =m rSub { size 8{s} }  {  {h}  over  {2π} } } {}</m:annotation></m:semantics><m:semantics><m:mrow><m:mrow><m:mspace width="1.00em"/><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow><m:mi>,</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mfenced><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (m rSub { size 8{s} } = -  {  {1}  over  {2} } , + {  {1}  over  {2} }  right )} {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>S</m:mi><m:mrow><m:mi>z</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math> is the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-component of spin angular momentum and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the spin projection quantum number. Spin projection <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mtext>=+</m:mtext><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } "=+"1/2} {}</m:annotation></m:semantics></m:math> is referred to as spin up, whereas <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } = - 1/2} {}</m:annotation></m:semantics></m:math> is called spin down. <link target-id="import-auto-id3013526"/> summarizes the atomic quantum numbers and their allowed values.
+        </item>
+        </list></section><section id="fs-id2514678" class="conceptual-questions" type="conceptual-questions">
+        <title>Conceptual Questions</title>
+    <exercise id="fs-id3259487" type="conceptual-questions"><problem id="fs-id3259490">
+
+    <para id="import-auto-id2453093">Define the quantum numbers <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">n, l,</m:mi><m:mspace width="0.25em"/><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mi fontstyle="italic">, s</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+        <exercise id="fs-id1859624" type="conceptual-questions"><problem id="fs-id1859626">
+
+    <para id="import-auto-id3417998">For a given value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>, what are the allowed values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem></exercise>
+        <exercise id="fs-id3033126" type="conceptual-questions"><problem id="fs-id2017403">
+
+    <para id="import-auto-id2683190">For a given value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math>, what are the allowed values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math>? What are the allowed values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> for a given value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math>? Give an example in each case.</para>
+    </problem></exercise>
+        <exercise id="fs-id3224054" type="conceptual-questions"><problem id="fs-id3081607">
+
+    <para id="import-auto-id3080460">List all the possible values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> for an electron. Are there particles for which these values are different? The same?</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id2402788" type="problems-exercises" class="problems-exercises">
+<title>Problem Exercises</title>
+    <exercise id="fs-id1599368" type="problems-exercises"><problem id="fs-id1599371">    <para id="import-auto-id3399259">If an atom has an electron in the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=5} {}</m:annotation></m:semantics></m:math> state with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } =3} {}</m:annotation></m:semantics></m:math>, what are the possible values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem>
+        <solution id="fs-id1915860" type="problems-exercises">
+    <para id="import-auto-id3250310"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4, 3</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> are possible since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">&lt;</m:mo><m:mi>n</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l&lt;n} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">∣</m:mo></m:mrow><m:mtext>≤</m:mtext><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ lline m rSub { size 8{l} }  rline  {underline  {&lt;}}  l} {}</m:annotation></m:semantics></m:math>.</para></solution>
+    </exercise>
+        <exercise id="fs-id3033541" type="problems-exercises"><problem id="fs-id3033543">    <para id="import-auto-id2011600">An atom has an electron with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } =2} {}</m:annotation></m:semantics></m:math>. What is the smallest value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> for this electron?</para>
+    </problem></exercise>
+        <exercise id="fs-id3354859" type="problems-exercises"><problem id="fs-id1972640">    <para id="import-auto-id3172796">What are the possible values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } } {}</m:annotation></m:semantics></m:math> for an electron in the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=4} {}</m:annotation></m:semantics></m:math> state?</para>
+    </problem>
+            <solution id="fs-id1427934" type="problems-exercises">
+    <para id="import-auto-id1594122"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3, 2, 1, 0</m:mn></m:mrow><m:mo stretchy="false">⇒</m:mo><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>3,</m:mn><m:mspace width="0.25em"/></m:mrow><m:mo stretchy="false">±</m:mo><m:mtext>2, </m:mtext><m:mspace width="0.25em"/></m:mrow><m:mo stretchy="false">±</m:mo><m:mtext>1, 0</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> are possible.</para></solution>
+    </exercise>
+        <exercise id="fs-id2659412" type="problems-exercises"><problem id="fs-id2659415">    <para id="import-auto-id2931417">What, if any, constraints does a value of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mi>l</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{l} } =1} {}</m:annotation></m:semantics></m:math> place on the other quantum numbers for an electron in an atom?</para>
+    </problem></exercise>
+        <exercise id="fs-id2663083" type="problems-exercises"><problem id="fs-id1921578">    <para id="import-auto-id3045575">(a) Calculate the magnitude of the angular momentum for an <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=1} {}</m:annotation></m:semantics></m:math> electron. (b) Compare your answer to the value Bohr proposed for the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n=1} {}</m:annotation></m:semantics></m:math> state.</para>
+    </problem>
+        <solution id="fs-id1870060" type="problems-exercises">
+    <para id="import-auto-id3246769">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>49</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>34</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mrow><m:mtext> J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "49" times "10" rSup { size 8{ - "34"} } " J" cdot s} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2931025">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>06</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>34</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "06" times "10" rSup { size 8{ - "34"} } " J" cdot s} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+        <exercise id="fs-id2442300" type="problems-exercises"><problem id="fs-id3063919">    <para id="import-auto-id2437604">(a) What is the magnitude of the angular momentum for an <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=1} {}</m:annotation></m:semantics></m:math> electron? (b) Calculate the magnitude of the electron’s spin angular momentum. (c) What is the ratio of these angular momenta?</para>
+    </problem></exercise>
+        <exercise id="fs-id957081" type="problems-exercises"><problem id="fs-id3154047">    <para id="import-auto-id3258505">Repeat <link target-id="fs-id2442300"/> for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=3} {}</m:annotation></m:semantics></m:math>.</para></problem>
+            <solution id="fs-id1575979" type="problems-exercises">
+    <para id="import-auto-id3356255">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>66</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>34</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "66" times "10" rSup { size 8{ - "34"} } " J" cdot s} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1449529">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>13</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>35</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s=9 "." "14" times "10" rSup { size 8{ - "35"} } " J" cdot s} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2684257">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>L</m:mi><m:mi>S</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msqrt><m:mtext>12</m:mtext></m:msqrt><m:msqrt><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">/</m:mo><m:mn>4</m:mn></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {L}  over  {S} } = {  { sqrt {"12"} }  over  { sqrt {3/4} } } =4} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id3449672" type="problems-exercises"><problem id="fs-id3449675">    <para id="import-auto-id2000896">(a) How many angles can <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> make with the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis for an <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>l</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l=2} {}</m:annotation></m:semantics></m:math> electron? (b) Calculate the value of the smallest angle.</para>
+    </problem></exercise>
+        <exercise id="fs-id2991428" type="problems-exercises"><problem id="fs-id2991431">    <para id="import-auto-id3423236">What angles can the spin <m:math><m:semantics><m:mrow><m:mrow><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S} {}</m:annotation></m:semantics></m:math> of an electron make with the <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-axis?</para>
+    </problem>
+            <solution id="fs-id2973223" type="problems-exercises">
+    <para id="import-auto-id2488510"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                    <m:mi>θ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>54.7º, 125.3º</m:mtext>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    </section>
+      </content>
+<glossary>
+    <definition id="import-auto-id2423496"><term>quantum numbers</term> <meaning id="fs-id3103481">the values of quantized entities, such as energy and angular momentum</meaning></definition>
+        <definition id="import-auto-id2423498"><term>angular momentum quantum number</term> <meaning id="fs-id1916440">a quantum number associated with the angular momentum of electrons</meaning></definition>
+            <definition id="import-auto-id2423501"><term>spin quantum number</term> <meaning id="fs-id2655822">the quantum number that parameterizes the intrinsic angular momentum (or spin angular momentum, or simply spin) of a given particle</meaning></definition>
+<definition id="fs-id2236094"><term>spin projection quantum number</term> <meaning id="fs-id1498878">quantum number that can be used to calculate the intrinsic electron angular momentum along the  <m:math>
+ <m:semantics>
+   <m:mi>z</m:mi>
+ </m:semantics>
+</m:math>-axis</meaning></definition>
+<definition id="fs-id1498882"><term>z-component of spin angular momentum</term> <meaning id="fs-id2384934">component of intrinsic electron spin along the  <m:math>
+ <m:semantics>
+   <m:mi>z</m:mi>
+ </m:semantics>
+</m:math>-axis</meaning></definition>
+<definition id="fs-id2384937"><term>magnitude of the intrinsic (internal) spin angular momentum</term> <meaning id="fs-id2384941">given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mi>s</m:mi><m:mfenced open="(" close=")"><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mfenced></m:mrow></m:msqrt></m:mrow><m:mfrac><m:mi>h</m:mi><m:mn>2π</m:mn></m:mfrac><m:mspace width="1.00em"/></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> </meaning></definition>
+<definition id="fs-id1589940"><term>z-component of the angular momentum</term> <meaning id="fs-id1589948">component of orbital angular momentum of electron along the  <m:math>
+ <m:semantics>
+   <m:mi>z</m:mi>
+ </m:semantics>
+</m:math>-axis</meaning></definition>
+</glossary>
+    </document>

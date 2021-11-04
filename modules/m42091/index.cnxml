@@ -1,0 +1,2371 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Physical Quantities and Units</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42091</md:content-id>
+  <md:title>Physical Quantities and Units</md:title>
+  <md:abstract><list>
+<item>Perform unit conversions both in the SI and English units.
+</item>
+<item>Explain the most common prefixes in the SI units and be able to write them in scientific notation.</item>
+</list></md:abstract>
+  <md:uuid>102e9604-daa7-4a09-9f9e-232251d1a4ee</md:uuid>
+</metadata>
+
+<content>
+
+    <figure id="import-auto-id2657097"><media id="import-auto-id3164906" alt="A view of Earth from the Moon.">
+        <image mime-type="image/png" src="../../media/Figure_01_02_01b.jpg" width="300"/>
+      </media>
+
+    <caption>The distance from Earth to the Moon may seem immense, but it is just a tiny fraction of the distances from Earth to other celestial bodies. (credit: NASA)</caption></figure><para id="import-auto-id2510075">The range of objects and phenomena studied in physics is immense. From the incredibly short lifetime of a nucleus to the age of the Earth, from the tiny sizes of sub-nuclear particles to the vast distance to the edges of the known universe, from the force exerted by a jumping flea to the force between Earth and the Sun, there are enough factors of 10 to challenge the imagination of even the most experienced scientist. Giving numerical values for physical quantities and equations for physical principles allows us to understand nature much more deeply than does qualitative description alone. To comprehend these vast ranges, we must also have accepted units in which to express them. And we shall find that (even in the potentially mundane discussion of meters, kilograms, and seconds) a profound simplicity of nature appears—most physical quantities can be expressed as combinations of only four fundamental physical quantities: length, mass, time, and electric current.</para><para id="import-auto-id1675918">We define a <term id="import-auto-id1536256">physical quantity</term> either by  <emphasis effect="italics">specifying how it is measured</emphasis> or by <emphasis effect="italics"><emphasis effect="italics">stating how it is calculated</emphasis></emphasis> from other measurements. For example, we define distance and time by specifying methods for measuring them, whereas we define <emphasis effect="italics"><emphasis effect="italics">average speed</emphasis></emphasis> by stating that it is calculated as distance traveled divided by time of travel.</para>
+    <para id="import-auto-id2985261">Measurements of physical quantities are expressed in terms of <term id="import-auto-id1666000">units</term>, which are standardized values. For example, the length of a race, which is a physical quantity, can be expressed in units of meters (for sprinters) or kilometers (for distance runners). Without standardized units, it would be extremely difficult for scientists to express and compare measured values in a meaningful way. (See <link target-id="import-auto-id2991258"/>.)</para>
+
+    <figure id="import-auto-id2991258"><media id="import-auto-id2750660" alt="A boy looking at a map and trying to guess distances with unit of length mentioned as cables between two points.">
+        <image mime-type="image/jpg" src="../../media/Figure_01_02_01a.jpg" height="225"/>
+      </media>
+
+    <caption>Distances given in unknown units are maddeningly useless.</caption></figure><para id="import-auto-id1284944">There are two major systems of units used in the world: <term>SI units</term> (also known as the metric system) and <term>English units</term> (also known as the customary or imperial system). <emphasis>English units</emphasis> were historically used in nations once ruled by the British Empire and are still widely used in the United States. Virtually every other country in the world now uses SI units as the standard; the metric system is also the standard system agreed upon by scientists and mathematicians. The acronym “SI” is derived from the French <emphasis effect="italics">Système International</emphasis>.</para><section id="fs-id1964667">
+ <title>SI Units: Fundamental and Derived Units</title>
+    <para id="import-auto-id2605641"><link target-id="import-auto-id3094653"/> gives the fundamental SI units that are used throughout this textbook. This text uses non-SI units in a few applications where they are in very common use, such as the measurement of blood pressure in millimeters of mercury (mm Hg). Whenever non-SI units are discussed, they will be tied to SI units through conversions.</para>
+     <table id="import-auto-id3094653" summary="A table listing fundamental S I units with two rows. One row lists the physical quantities and the other lists their units."><title>Fundamental SI Units</title>
+<tgroup cols="4"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+
+    <thead><row>
+           <entry><emphasis>Length</emphasis></entry>
+            <entry><emphasis>Mass</emphasis></entry>
+            <entry><emphasis>Time</emphasis></entry>
+            <entry>
+              <emphasis>Electric Current</emphasis>
+            </entry>
+          </row></thead><tbody><row>
+            <entry>meter (m)</entry>
+            <entry>kilogram (kg)</entry>
+            <entry>second (s)</entry>
+            <entry>ampere (A)</entry>
+          </row></tbody>
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id2729047">It is an intriguing fact that some physical quantities are more fundamental than others and that the most fundamental physical quantities can be defined <emphasis effect="italics"><emphasis effect="italics">only</emphasis></emphasis> in terms of the procedure used to measure them. The units in which they are measured are thus called <term id="import-auto-id3097983">fundamental units</term>. In this textbook, the fundamental physical quantities are taken to be length, mass, time, and electric current. (Note that electric current will not be introduced until much later in this text.) All other physical quantities, such as force and electric charge, can be expressed as algebraic combinations of length, mass, time, and current (for example, speed is length divided by time); these units are called <term id="import-auto-id1950609">derived units</term>.</para></section>
+<section id="fs-id3102294"><title>Units of Time, Length, and Mass: The Second, Meter, and Kilogram</title><section id="fs-id2929182">
+    <title>The Second</title>
+    <para id="import-auto-id1598785">The SI unit for time, the <term id="import-auto-id2526901">second</term> (abbreviated s), has a long history. For many years it was defined as 1/86,400 of a mean solar day. More recently, a new standard was adopted to gain greater accuracy and to define the second in terms of a non-varying, or constant, physical phenomenon (because the solar day is getting longer due to very gradual slowing of the Earth’s rotation). Cesium atoms can be made to vibrate in a very steady way, and these vibrations can be readily observed and counted. In 1967 the second was redefined as the time required for 9,192,631,770 of these vibrations. (See <link target-id="import-auto-id2575847"/>.) Accuracy in the fundamental units is essential, because all measurements are ultimately expressed in terms of fundamental units and can be no more accurate than are the fundamental units themselves.</para><figure id="import-auto-id2575847"><media id="import-auto-id1310868" alt="A top view of an atomic fountain is shown. It measures time using the vibration of the cesium atom.">
+        <image mime-type="image/jpg" src="../../media/Figure_01_02_02a.jpg" height="225"/>
+      </media>
+
+    <caption>An atomic clock such as this one uses the vibrations of cesium atoms to keep time to a precision of better than a microsecond per year. The fundamental unit of time, the second, is based on such clocks. This image is looking down from the top of an atomic fountain nearly 30 feet tall! (credit: Steve Jurvetson/Flickr)</caption></figure></section>
+ <section id="fs-id2998899"><title>The Meter</title><para id="import-auto-id2837009">The SI unit for length is the <term id="import-auto-id1629056">meter</term> (abbreviated m); its definition has also changed over time to become more accurate and precise. The meter was first defined in 1791 as 1/10,000,000 of the distance from the equator to the North Pole. This measurement was improved in 1889 by redefining the meter to be the distance between two engraved lines on a platinum-iridium bar now kept near Paris. By 1960, it had become possible to define the meter even more accurately in terms of the wavelength of light, so it was again redefined as 1,650,763.73 wavelengths of orange light emitted by krypton atoms. In 1983, the meter was given its present definition (partly for greater accuracy) as the distance light travels in a vacuum in 1/299,792,458 of a second. (See <link target-id="import-auto-id1381492"/>.) This change defines the speed of light to be exactly 299,792,458 meters per second. The length of the meter will change if the speed of light is someday measured with greater accuracy.</para>
+<figure id="import-auto-id1381492"><media id="import-auto-id2509382" alt="Beam of light from a flashlight is represented by an arrow pointing right, traveling the length of a meter stick.">
+        <image mime-type="image/jpg" src="../../media/Figure_01_02_03a.jpg" width="400"/>
+      </media>
+
+    <caption>The meter is defined to be the distance light travels in 1/299,792,458 of a second in a vacuum. Distance traveled is speed multiplied by time.</caption></figure></section><section id="fs-id2786029"><title>The Kilogram</title><para id="import-auto-id3204634">The SI unit for mass is the <term id="import-auto-id1989656">kilogram</term> (abbreviated kg); it was previously defined to be the mass of a platinum-iridium cylinder kept with the old meter standard at the International Bureau of Weights and Measures near Paris. Exact replicas of the previously defined kilogram are also kept at the United States’ National Institute of Standards and Technology, or NIST, located in Gaithersburg, Maryland outside of Washington D.C., and at other locations around the world. The determination of all other masses could be ultimately traced to a comparison with the standard mass. Even though the platinum-iridium cylinder was resistant to corrosion, airborne contaminants were able to adhere to its surface, slightly changing its mass over time. In May 2019, the scientific community adopted a more stable definition of the kilogram. The kilogram is now defined in terms of the second, the meter, and Planck's constant, <emphasis effect="italics">h</emphasis> (a quantum mechanical value that relates a photon's energy to its frequency).</para><para id="import-auto-id1255984">Electric current and its accompanying unit, the ampere, will be introduced in <link document="m42339">Introduction to Electric Current, Resistance, and Ohm's Law</link> when electricity and magnetism are covered. The initial modules in this textbook are concerned with mechanics, fluids, heat, and waves. In these subjects all pertinent physical quantities can be expressed in terms of the fundamental units of length, mass, and time.</para></section></section><section id="fs-id2559237">
+    <title>Metric Prefixes</title>
+    <para id="import-auto-id2789715">SI units are part of the <term id="import-auto-id2678122">metric system</term>. The metric system is convenient for scientific and engineering calculations because the units are categorized by factors of 10. <link target-id="import-auto-id2643474"/> gives metric prefixes and symbols used to denote various factors of 10.</para>
+    <para id="import-auto-id1309728">Metric systems have the advantage that conversions of units involve only powers of 10. There are 100 centimeters in a meter, 1000 meters in a kilometer, and so on. In nonmetric systems, such as the system of U.S. customary units, the relationships are not as simple—there are 12 inches in a foot, 5280 feet in a mile, and so on. Another advantage of the metric system is that the same unit can be used over extremely large ranges of values simply by using an appropriate metric prefix. For example, distances in meters are suitable in construction, while distances in kilometers are appropriate for air travel, and the tiny measure of nanometers are convenient in optical design. With the metric system there is no need to invent new units for particular applications.</para>
+    <para id="import-auto-id1577727">The term <term id="import-auto-id1363292">order of magnitude</term> refers to the scale of a value expressed in the metric system. Each power of <m:math><m:semantics><m:mrow><m:mtext>10</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10"} </m:annotation></m:semantics></m:math> in the metric system represents a different order of magnitude. For example, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msup><m:mi>,</m:mi><m:mspace width="0.25em"/><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>,</m:mi><m:mspace width="0.25em"/><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{1} } ,`"10" rSup { size 8{2} } ,`"10" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>, and so forth are all different orders of magnitude. All quantities that can be expressed as a product of a specific power of <m:math><m:semantics><m:mrow><m:mtext>10</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10"} </m:annotation></m:semantics></m:math> are said to be of the <emphasis effect="italics"><emphasis effect="italics">same</emphasis></emphasis> order of magnitude. For example, the number <m:math><m:semantics><m:mrow><m:mtext>800</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"800"} </m:annotation></m:semantics></m:math> can be written as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and the number <m:math><m:semantics><m:mrow><m:mtext>450</m:mtext></m:mrow></m:semantics></m:math> can be written as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4.</m:mn><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:semantics></m:math> Thus, the numbers <m:math><m:semantics><m:mrow><m:mtext>800</m:mtext></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mtext>450</m:mtext></m:mrow></m:semantics></m:math> are of the same order of magnitude: <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>.</m:mo></m:mrow></m:semantics></m:math> Order of magnitude can be thought of as a ballpark estimate for the scale of a value. The diameter of an atom is on the order of <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>10</m:mn></m:mrow></m:mrow></m:msup><m:mtext> m,</m:mtext></m:mrow></m:mrow></m:semantics></m:math> while the diameter of the Sun is on the order of <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup><m:mtext> m.</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para><note id="fs-id2834817"><label/>
+    <title>The Quest for Microscopic Standards for Basic Units</title>
+    <para id="import-auto-id1113253">The fundamental units described in this chapter are those that produce the greatest accuracy and precision in measurement. There is a sense among physicists that, because there is an underlying microscopic substructure to matter, it would be most satisfying to base our standards of measurement on microscopic objects and fundamental physical phenomena such as the speed of light. A microscopic standard has been accomplished for the standard of time, which is based on the oscillations of the cesium atom.</para>
+    <para id="import-auto-id2596896">The standard for length was once based on the wavelength of light (a small-scale length) emitted by a certain type of atom, but it has been supplanted by the more precise measurement of the speed of light. If it becomes possible to measure the mass of atoms or a particular arrangement of atoms such as a silicon sphere to greater precision than the kilogram standard, it may become possible to base mass measurements on the small scale. There are also possibilities that electrical phenomena on the small scale may someday allow us to base a unit of charge on the charge of electrons and protons, but at present current and charge are related to large-scale currents and forces between wires.</para></note>
+
+    <table id="import-auto-id2643474" summary="A table listing metric prefixes for powers of ten and their symbols. The table has the four columns prefix, value, symbol, and example and each row mentions one example."><title>Metric Prefixes for Powers of 10 and their Symbols</title>
+<tgroup cols="7"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <thead>
+
+          <row>
+            <entry>Prefix</entry>
+            <entry>Symbol</entry>
+            <entry>Value</entry>
+            <entry namest="c4" nameend="c7">Example (some are approximate)</entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>exa</entry>
+            <entry>E</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>18</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"18"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>exameter</entry>
+            <entry>Em</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>18</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mtext> m</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"18"} } " m"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>distance light travels in a century</entry>
+          </row>
+          <row>
+            <entry>peta</entry>
+            <entry>P</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>15</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"15"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>petasecond</entry>
+            <entry>Ps</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>15</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mtext> s</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"15"} } " s"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>30 million years</entry>
+          </row>
+          <row>
+            <entry>tera</entry>
+            <entry>T</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>12</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"12"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>terawatt</entry>
+            <entry>TW</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>12</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> W</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"12"} } `W} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>powerful laser output</entry>
+          </row>
+          <row>
+            <entry>giga</entry>
+            <entry>G</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>9</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{9} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>gigahertz</entry>
+            <entry>GHz</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>9</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> Hz</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{9} } `"Hz"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>a microwave frequency</entry>
+          </row>
+          <row>
+            <entry>mega</entry>
+            <entry>M</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>megacurie</entry>
+            <entry>MCi</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>6</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> Ci</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{6} } `"Ci"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>high radioactivity</entry>
+          </row>
+          <row>
+            <entry>kilo</entry>
+            <entry>k</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>kilometer</entry>
+            <entry>km</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mtext> m</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{3} } " m"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>about 6/10 mile</entry>
+          </row>
+          <row>
+            <entry>hecto</entry>
+            <entry>h</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>hectoliter</entry>
+            <entry>hL</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mtext> L</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{2} } " L"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>26 gallons</entry>
+          </row>
+          <row>
+            <entry>deka</entry>
+            <entry>da</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{1} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>dekagram</entry>
+            <entry>dag</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> g</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{1} } `g} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>teaspoon of butter</entry>
+          </row>
+          <row>
+            <entry>—</entry>
+            <entry>—</entry>
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> (=1)</entry>
+            <entry/>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>deci</entry>
+            <entry>d</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 1} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>deciliter</entry>
+            <entry>dL</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> L</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 1} } `L} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>less than half a soda</entry>
+          </row>
+          <row>
+            <entry>centi</entry>
+            <entry>c</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>centimeter</entry>
+            <entry>cm</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> m</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 2} } `m} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>fingertip thickness</entry>
+          </row>
+          <row>
+            <entry>milli</entry>
+            <entry>m</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>millimeter</entry>
+            <entry>mm</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> m</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 3} } `m} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>flea at its shoulders</entry>
+          </row>
+          <row>
+            <entry>micro</entry>
+            <entry>µ</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>6</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>micrometer</entry>
+            <entry>µm</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>6</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> m</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 6} } `m} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>detail in microscope</entry>
+          </row>
+          <row>
+            <entry>nano</entry>
+            <entry>n</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>9</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 9} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>nanogram</entry>
+            <entry>ng</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>9</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> g</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 9} } `g} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>small speck of dust</entry>
+          </row>
+          <row>
+            <entry>pico</entry>
+            <entry>p</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>12</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "12"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>picofarad</entry>
+            <entry>pF</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>12</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mtext> F</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "12"} } F} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>small capacitor in radio</entry>
+          </row>
+          <row>
+            <entry>femto</entry>
+            <entry>f</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>15</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "15"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>femtometer</entry>
+            <entry>fm</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>15</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> m</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "15"} } `m} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>size of a proton</entry>
+          </row>
+          <row>
+            <entry>atto</entry>
+            <entry>a</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>18</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "18"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>attosecond</entry>
+            <entry>as</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>18</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mi/>
+                          <m:mtext> s</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "18"} } `s} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>time light crosses an atom</entry>
+          </row>
+        </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1936382">
+    <title>Known Ranges of Length, Mass, and Time</title>
+    <para id="import-auto-id2688624">The vastness of the universe and the breadth over which physics applies are illustrated by the wide range of examples of known lengths, masses, and times in <link target-id="import-auto-id1677589"/>. Examination of this table will give you some feeling for the range of possible topics and numerical values. (See <link target-id="import-auto-id3143533"/> and <link target-id="import-auto-id3083060"/>.)</para>
+
+    <figure id="import-auto-id3143533"><media id="import-auto-id3440141" alt="A magnified image of tiny phytoplankton swimming among the crystal of ice.[">
+        <image mime-type="image/jpg" src="../../media/Figure_01_02_04a.jpg" width="250"/>
+      </media>
+
+    <caption>Tiny phytoplankton swims among crystals of ice in the Antarctic Sea. They range from a few micrometers to as much as 2 millimeters in length. (credit: Prof. Gordon T. Taylor, Stony Brook University; NOAA Corps Collections)</caption></figure><figure id="import-auto-id3083060"><media id="import-auto-id2822519" alt="A view of Abell Galaxy with some bright stars and some hot gases.">
+        <image mime-type="image/jpg" src="../../media/Figure_01_02_05a.jpg" height="250"/>
+      </media>
+
+    <caption>Galaxies collide 2.4 billion light years away from Earth. The tremendous range of observable phenomena in nature challenges the imagination. (credit: NASA/CXC/UVic./A. Mahdavi et al. Optical/lensing: CFHT/UVic./H. Hoekstra et al.)</caption></figure></section>
+<section id="fs-id1305702">
+    <title>Unit Conversion and Dimensional Analysis</title>
+    <para id="import-auto-id1959437">It is often necessary to convert from one type of unit to another. For example, if you are reading a European cookbook, some quantities may be expressed in units of liters and you need to convert them to cups. Or, perhaps you are reading walking directions from one location to another and you are interested in how many miles you will be walking. In this case, you will need to convert units of feet to miles.</para>
+    <para id="import-auto-id1430021">Let us consider a simple example of how to convert units. Let us say that we want to convert 80 meters (m) to kilometers (km).</para>
+    <para id="import-auto-id1595008">The first thing to do is to list the units that you have and the units that you want to convert to. In this case, we have units in <emphasis effect="italics"><emphasis effect="italics">meters</emphasis></emphasis> and we want to convert to <emphasis effect="italics"><emphasis effect="italics">kilometers</emphasis></emphasis>.</para>
+    <para id="import-auto-id3083046">Next, we need to determine a <term id="import-auto-id2657858">conversion factor</term> relating meters to kilometers. A conversion factor is a ratio expressing how many of one unit are equal to another unit. For example, there are 12 inches in 1 foot, 100 centimeters in 1 meter, 60 seconds in 1 minute, and so on. In this case, we know that there are 1,000 meters in 1 kilometer.</para>
+    <para id="import-auto-id2675967">Now we can set up our unit conversion. We will write the units that we have and then multiply them by the conversion factor so that the units cancel out, as shown:</para>
+    <equation id="eip-442"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>80</m:mn> <m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose><m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:mfrac><m:mtext>1 km</m:mtext><m:mrow><m:mn>1000</m:mn><m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.080 km.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"80"" m" times  {  {"1 km"}  over  {"1000 m"} } =0 "." "080"`"km"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3150430">Note that the unwanted m unit cancels, leaving only the desired km unit. You can use this method to convert between any types of unit.</para>
+    <para id="import-auto-id2635975">Click <link document="m42720">Appendix C</link> for a more complete list of conversion factors.</para><table id="import-auto-id1677589" summary="A table is listing approximate values of length, mass, and time with each row containing an example of these."><title>Approximate Values of Length, Mass, and Time</title>
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+<thead>
+      <row>
+            <entry namest="c1" nameend="c2">Lengths in meters</entry>
+               <entry namest="c3" nameend="c4">Masses in kilograms (more precise values in parentheses)</entry>
+            <entry namest="c5" nameend="c6">Times in seconds (more precise values in parentheses)</entry>
+           </row>
+</thead>
+<tbody>
+          <row>
+            <entry>
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>18</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Present experimental limit to smallest observable detail</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>30</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "30"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of an electron <m:math><m:semantics>
+<m:mfenced open="(" close=")">
+<m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>11</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>31</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{9 "." "11" times "10" rSup { size 8{ - "31"} } `"kg"} {}</m:annotation></m:semantics></m:math></entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>23</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "23"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Time for light to cross a proton</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>15</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "15"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Diameter of a proton</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>27</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "27"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a hydrogen atom <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>67</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>27</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{1 "." "67" times "10" rSup { size 8{ - "27"} } `"kg"} {}</m:annotation></m:semantics></m:math> </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>22</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "22"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mean life of an extremely unstable nucleus</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>14</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "14"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Diameter of a uranium nucleus</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>15</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "15"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a bacterium</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>15</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "15"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Time for one oscillation of visible light</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>10</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "10"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Diameter of a hydrogen atom</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 5} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a mosquito</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>13</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "13"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Time for one vibration of an atom in a solid</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>8</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 8} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Thickness of membranes in cells of living organisms</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a hummingbird</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>8</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 8} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Time for one oscillation of an FM radio wave</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>6</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Wavelength of visible light</entry>
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mtext>1</m:mtext>
+</m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1"} {}</m:annotation></m:semantics></m:math> </entry>
+            <entry>Mass of a liter of water (about a quart)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Duration of a nerve impulse</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Size of a grain of sand</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a person</entry>
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mtext>1</m:mtext>
+</m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1"} {}</m:annotation></m:semantics></m:math> </entry>
+            <entry>Time for one heartbeat</entry>
+          </row>
+          <row>
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mtext>1</m:mtext>
+</m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1"} {}</m:annotation></m:semantics></m:math> </entry>
+            <entry>Height of a 4-year-old child</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a car</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{5} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>One day <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>64</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{8 "." "64" times "10" rSup { size 8{4} } `s} {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Length of a football field</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>8</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{8} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a large ship </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>7</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{7} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>One year (y) <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>16</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{3 "." "16" times "10" rSup { size 8{7} } `s} {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>4</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Greatest ocean depth</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>12</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"12"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of a large iceberg</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>9</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{9} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>About half the life expectancy of a human</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>7</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{7} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Diameter of the Earth</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>15</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"15"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of the nucleus of a comet</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>11</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"11"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Recorded history</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>11</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"11"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Distance from the Earth to the Sun</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>23</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"23"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of the Moon <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>35</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{7 "." "35" times "10" rSup { size 8{"22"} } `"kg"} {}</m:annotation></m:semantics></m:math></entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>17</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"17"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Age of the Earth</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>16</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"16"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Distance traveled by light in 1 year (a light year)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>25</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"25"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of the Earth <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>97</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{5 "." "97" times "10" rSup { size 8{"24"} } `"kg"} {}</m:annotation></m:semantics></m:math></entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>18</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"18"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Age of the universe</entry>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>21</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"21"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Diameter of the Milky Way galaxy</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>30</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"30"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of the Sun <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>99</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{1 "." "99" times "10" rSup { size 8{"30"} } `"kg"} {}</m:annotation></m:semantics></m:math></entry>
+            <entry/>
+            <entry/>
+          </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>22</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"22"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Distance from the Earth to the nearest large galaxy (Andromeda)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>42</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"42"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of the Milky Way galaxy (current upper limit)</entry>
+            <entry/><entry/>
+             </row>
+          <row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>26</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"26"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Distance from the Earth to the edges of the known universe</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>53</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"53"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>Mass of the known universe (current upper limit)</entry>
+             <entry/><entry/>
+          </row>
+        </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><example id="fs-id2747928">
+    <title>Unit Conversions: A Short Drive Home</title>
+    <para id="import-auto-id3204574">Suppose that you drive the 10.0 km from your university to home in 20.0 min. Calculate your average speed (a) in kilometers per hour (km/h) and (b) in meters per second (m/s). (Note: Average speed is distance traveled divided by time of travel.)</para>
+    <para id="import-auto-id2636340">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1951954">First we calculate the average speed using the given units. Then we can get the average speed into the desired units by picking the correct conversion factor and multiplying by it. The correct conversion factor is the one that cancels the unwanted unit and leaves the desired unit in its place.</para>
+    <para id="import-auto-id1936373">
+      <title>Solution for (a)</title>
+    </para>
+    <para id="import-auto-id2002968">(1) Calculate average speed. Average speed is distance traveled divided by time of travel. (Take this definition as a given for now—average speed and other motion concepts will be covered in a later module.) In equation form,</para>
+    <equation id="eip-389"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>average speed = </m:mtext><m:mfrac><m:mtext>distance</m:mtext><m:mtext>time</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"average speed = " {  {"distance"}  over  {"time"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2546293">(2) Substitute the given values for distance and time.</para>
+    <equation id="eip-702"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>average speed = </m:mtext><m:mrow><m:mfrac><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext> km</m:mtext></m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext> min</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mfrac><m:mtext> km</m:mtext><m:mtext> min</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"average speed = " {  {"10" "." 0" km"}  over  {"20" "." 0" min"} } =0 "." "500"  {  {"km"}  over  {"min"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1342839">(3) Convert km/min to km/h: multiply by the conversion factor that will cancel minutes and leave hours. That conversion factor is <m:math><m:semantics><m:mrow><m:mrow><m:mtext>60 min/hr</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60 min/hr"}{}</m:annotation></m:semantics></m:math>. Thus,</para><equation id="eip-583"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>average speed = </m:mtext><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mrow><m:mrow><m:mfrac><m:mtext> km</m:mtext><m:mtext> min</m:mtext></m:mfrac><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mtext>60</m:mtext><m:mtext> min</m:mtext></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext> h</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mfrac><m:mtext> km</m:mtext><m:mtext> h</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"average speed = "0 "." "500"  {  {"km"}  over  {"min"} }  times  {  {"60"" min"}  over  {1" h"} } ="30" "." 0  {  {"km"}  over  {h} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2637111">
+      <title>Discussion for (a)</title>
+    </para>
+    <para id="import-auto-id3084428">To check your answer, consider the following:</para>
+    <para id="import-auto-id1533540">(1) Be sure that you have properly cancelled the units in the unit conversion. If you have written the unit conversion factor upside down, the units will not cancel properly in the equation. If you accidentally get the ratio upside down, then the units will not cancel; rather, they will give you the wrong units as follows:</para>
+    <equation id="eip-593"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mtext> km</m:mtext><m:mtext>min</m:mtext></m:mfrac><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mi/><m:mtext> hr</m:mtext></m:mrow><m:mrow><m:mtext>60</m:mtext><m:mi/><m:mtext> min</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mtext>60</m:mtext></m:mfrac></m:mrow><m:mfrac><m:mrow><m:mtext> km</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>hr</m:mtext></m:mrow><m:msup><m:mtext> min</m:mtext><m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"km"}  over  {"min"} }  times  {  {1`"hr"}  over  {"60"`"min"} } = {  {1}  over  {"60"} }  {  {"km" cdot "hr"}  over  {"min"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id704163">which are obviously not the desired units of km/h.</para>
+    <para id="import-auto-id2974712">(2) Check that the units of the final answer are the desired units. The problem asked us to solve for average speed in units of km/h and we have indeed obtained these units.</para>
+    <para id="import-auto-id1552604">(3) Check the significant figures. Because each of the values given in the problem has three significant figures, the answer should also have three significant figures. The answer 30.0 km/hr does indeed have three significant figures, so this is appropriate. Note that the significant figures in the conversion factor are not relevant because an hour is <emphasis effect="italics">defined</emphasis> to be 60 minutes, so the precision of the conversion factor is perfect.</para><para id="import-auto-id3089353">(4) Next, check whether the answer is reasonable. Let us consider some information from the problem—if you travel 10 km in a third of an hour (20 min), you would travel three times that far in an hour. The answer does seem reasonable.</para>
+    <para id="import-auto-id2609064">
+      <title>Solution for (b)</title>
+    </para>
+    <para id="import-auto-id3164730">There are several ways to convert the average speed into meters per second.</para>
+    <para id="import-auto-id3136302">(1) Start with the answer to (a) and convert km/h to m/s. Two conversion factors are needed—one to convert hours to seconds, and another to convert kilometers to meters.</para>
+    <para id="import-auto-id1324707">(2) Multiplying by these yields</para>
+    <equation id="eip-790"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Average speed</m:mtext><m:mi/><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mrow><m:mrow><m:mfrac><m:mtext>km</m:mtext><m:mtext>h</m:mtext></m:mfrac><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mtext>h</m:mtext></m:mrow><m:mtext>3,600 s</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mn>1,</m:mn><m:mtext>000</m:mtext><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow><m:mtext>1 km</m:mtext></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"Average"`"speed"="30" "." 0 {  {"km"}  over  {h} }  times  {  {1" h"}  over  {"3,600 s"} }  times  {  {1,"000"" m"}  over  {"1 km"} } } {}</m:annotation></m:semantics></m:math></equation><equation id="eip-130"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Average speed</m:mtext><m:mi/><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>33</m:mtext><m:mfrac><m:mtext>m</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"Average"`"speed"=8 "." "33" {  {m}  over  {s} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1305929">
+      <title>Discussion for (b)</title>
+    </para>
+    <para id="import-auto-id3204929">If we had started with 0.500 km/min, we would have needed different conversion factors, but the answer would have been the same: 8.33 m/s.</para><para id="import-auto-id2712034">You may have noted that the answers in the worked example just covered were given to three digits. Why? When do you need to be concerned about the number of digits in something you calculate? Why not write down all the digits your calculator produces? The module <link document="m42120">Accuracy, Precision, and Significant Figures</link> will help you answer these questions.</para></example>
+    <note id="fs-id2706300"><label/>
+    <title>Nonstandard Units</title>
+    <para id="import-auto-id1599459">While there are numerous types of units that we are all familiar with, there are others that are much more obscure. For example, a <emphasis>firkin</emphasis> is a unit of volume that was once used to measure beer. One firkin equals about 34 liters. To learn more about nonstandard units, use a dictionary or encyclopedia to research different “weights and measures.” Take note of any unusual units, such as a barleycorn, that are not listed in the text. Think about how the unit is defined and state its relationship to SI units.</para>
+    </note>
+<exercise id="fs-id1956235" print-placement="here" type="check-understanding"><label/><title>Check Your Understanding</title>
+
+<problem id="fs-id1959288"><para id="import-auto-id1279620">Some hummingbirds beat their wings more than 50 times per second. A scientist is measuring the time it takes for a hummingbird to beat its wings once. Which fundamental unit should the scientist use to describe the measurement? Which factor of 10 is the scientist likely to use to describe the motion precisely? Identify the metric prefix that corresponds to this factor of 10. </para></problem>
+    <solution id="fs-id2683424" print-placement="here">
+    <para id="import-auto-id3168169">The scientist will measure the time between each movement using the fundamental unit of seconds. Because the wings beat so fast, the scientist will probably need to measure in milliseconds, or <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 3} } } {}</m:annotation></m:semantics></m:math> seconds. (50 beats per second corresponds to 20 milliseconds per beat.)</para></solution>
+</exercise><exercise id="fs-id1780694" print-placement="here" type="check-understanding"><label/><title>Check Your Understanding</title>
+
+<problem id="fs-id2785205">
+    <para id="import-auto-id2970927">One cubic centimeter is equal to one milliliter. What does this tell you about the different units in the SI metric system?</para></problem>
+<solution id="fs-id2792998" print-placement="here">
+    <para id="import-auto-id2607441">The fundamental unit of length (meter) is probably used to create the derived unit of volume (liter). The measure of a milliliter is dependent on the measure of a centimeter.</para>
+    </solution>
+</exercise></section>
+    <section id="fs-id1448204" class="section-summary">
+    <title>Summary</title>
+    <list id="fs-id1415321"><item id="import-auto-id1958750">Physical quantities are a characteristic or property of an object that can be measured or calculated from other measurements.</item>
+	<item id="import-auto-id3143608">Units are standards for expressing and comparing the measurement of physical quantities. All units can be expressed as combinations of four fundamental units.</item>
+	<item id="import-auto-id2946026">The four fundamental units we will use in this text are the meter (for length), the kilogram (for mass), the second (for time), and the ampere (for electric current). These units are part of the metric system, which uses powers of 10 to relate quantities over the vast ranges encountered in nature.</item>
+	<item id="import-auto-id1951848">The four fundamental units are abbreviated as follows: meter, m; kilogram, kg; second, s; and ampere, A. The metric system also uses a standard set of prefixes to denote each order of magnitude greater than or lesser than the fundamental unit itself.</item>
+	<item id="import-auto-id1439000">Unit conversions involve changing a value expressed in one type of unit to another type of unit. This is done by using conversion factors, which are ratios relating equal quantities of different units.</item>
+</list></section>
+<section id="fs-id3137968" class="conceptual-questions" type="conceptual-questions">
+    <title>Conceptual Questions</title>
+    <exercise id="fs-id3143663" type="conceptual-questions"><problem id="fs-id3143664">
+    <para id="import-auto-id2596654">Identify some advantages of metric units.</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id1569485" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1434957" type="problems-exercises"><problem id="fs-id1434958">
+    <para id="import-auto-id1290809">The speed limit on some interstate highways is roughly 100 km/h. (a) What is this in meters per second? (b) How many miles per hour is this?</para>
+    </problem>
+    <solution id="fs-id2921458">
+    <list id="import-auto-id1512938" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>27</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mi/>
+                    <m:mtext>8 m/s</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"27" "." 8`"m/s"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </item>
+<item>
+ <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>62</m:mtext><m:mtext>.</m:mtext><m:mtext>1 mph</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"62" "." 1" mph"} {}</m:annotation></m:semantics></m:math>
+</item>    </list>
+
+    </solution>
+    </exercise>
+        <exercise id="fs-id1544895" type="problems-exercises"><problem id="fs-id1544896">
+    <para id="import-auto-id3146737">A car is traveling at a speed of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>33 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"33"" m/s"} {}</m:annotation></m:semantics></m:math>. (a) What is its speed in kilometers per hour? (b) Is it exceeding the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90"" km/h"} {}</m:annotation></m:semantics></m:math> speed limit?</para></problem></exercise>
+        <exercise id="fs-id1433050" type="problems-exercises"><problem id="fs-id1433051">
+    <para id="import-auto-id3195918">Show that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mi/><m:mrow><m:mtext>0 m/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"m/s"=3 "." "6 km/h"} {}</m:annotation></m:semantics></m:math>. Hint: Show the explicit steps involved in converting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mi/><m:mrow><m:mtext>0 m/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 0`"m/s"=3 "." "6 km/h"} {}</m:annotation></m:semantics></m:math></para></problem>
+    <solution id="fs-id1441485">
+    <para id="import-auto-id1430228"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mtext>1.0 m</m:mtext>
+                    </m:mrow>
+                    <m:mn>s</m:mn>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>0 m</m:mtext>
+                        </m:mrow>
+                        <m:mn>s</m:mn>
+                      </m:mfrac>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:mfrac>
+                        <m:mtext>3600 s</m:mtext>
+                        <m:mtext>1 hr</m:mtext>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1 km</m:mn>
+                      </m:mrow>
+                      <m:mtext>1000 m</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1 "." "0 m"}  over  {s} } = {  {1 "." "0 m"}  over  {s} }  times  {  {"3600 s"}  over  {"hr"} }  times  {  {1`"km"}  over  {"1000 m"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="import-auto-id2629093"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {}=3 "." 6" km/h"} {}</m:annotation></m:semantics></m:math>.</para>
+    </solution></exercise>
+        <exercise id="fs-id1434985" type="problems-exercises"><problem id="fs-id1434986">
+    <para id="import-auto-id3358370">American football is played on a 100-yd-long field, excluding the end zones. How long is the field in meters? (Assume that 1 meter equals 3.281 feet.)</para>
+    </problem></exercise>
+        <exercise id="fs-id1439792" type="problems-exercises"><problem id="fs-id1439793">
+    <para id="import-auto-id1327449">Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. What are its dimensions in feet and inches? (Assume that 1 meter equals 3.281 feet.)</para>
+    </problem>
+    <solution id="fs-id1484623">
+    <para id="import-auto-id2559751">length: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>377 ft</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"377"" ft"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>53</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mtext> in</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "53" times "10" rSup { size 8{3} } " in" "." } {}</m:annotation></m:semantics></m:math> width: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>280 ft</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"280"" ft"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mtext> in</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 3 times "10" rSup { size 8{3} } " in"} {}</m:annotation></m:semantics></m:math>.</para></solution>
+    </exercise>
+        <exercise id="fs-id3159821" type="problems-exercises"><problem id="fs-id3159822">
+    <para id="import-auto-id2723769">What is the height in meters of a person who is 6 ft 1.0 in. tall? (Assume that 1 meter equals 39.37 in.)</para>
+    </problem></exercise>
+        <exercise id="fs-id3159831" type="problems-exercises"><problem id="fs-id3159832">
+    <para id="import-auto-id1569154">Mount Everest, at 29,028 feet, is the tallest mountain on the Earth. What is its height in kilometers? (Assume that 1 kilometer equals 3,281 feet.)</para>
+    </problem>
+<solution id="fs-id3080571">
+    <para id="import-auto-id2601912"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>8</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>847 km</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{8 "." "847"" km"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id3158542" type="problems-exercises"><problem id="fs-id3158543">
+    <para id="import-auto-id2912855">The speed of sound is measured to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>342 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"342"" m/s"} {}</m:annotation></m:semantics></m:math> on a certain day. What is this in km/h?</para>
+    </problem></exercise>
+        <exercise id="fs-id3180898" type="problems-exercises"><problem id="fs-id3180900">
+    <para id="import-auto-id3164687">Tectonic plates are large segments of the Earth’s crust that move slowly. Suppose that one such plate has an average speed of 4.0 cm/year. (a) What distance does it move in 1 s at this speed? (b) What is its speed in kilometers per million years?</para>
+</problem>
+<solution id="fs-id2637777">
+    <para id="import-auto-id1951052">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mtext> m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 3 times "10" rSup { size 8{ - 9} } " m"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2632722">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40 km/My</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40"" km/My"} {}</m:annotation></m:semantics></m:math></para></solution></exercise>
+        <exercise id="fs-id1564148" type="problems-exercises"><problem id="fs-id1564149">
+    <para id="import-auto-id3143596">(a) Refer to <link target-id="import-auto-id1677589"/> to determine the average distance between the Earth and the Sun. Then calculate the average speed of the Earth in its orbit in kilometers per second. (b) What is this in meters per second?</para>
+</problem></exercise>
+</section> </content>
+<glossary>
+<definition id="import-auto-id3096670"><term>physical quantity </term><meaning id="fs-id3105089">a characteristic or property of an object that can be measured or calculated from other measurements</meaning></definition>
+    <definition id="import-auto-id3136233"><term>units </term><meaning id="fs-id3105099"> a standard used for expressing and comparing measurements</meaning></definition>
+    <definition id="import-auto-id2968885"><term>SI units </term><meaning id="fs-id1577059">the international system of units that scientists in most countries have agreed to use; includes units such as meters, liters, and grams</meaning></definition>
+    <definition id="import-auto-id2582101"><term>English units</term><meaning id="fs-id2018396"> system of measurement used in the United States; includes units of measurement such as feet, gallons, and pounds</meaning></definition>
+    <definition id="import-auto-id3401009"><term>fundamental units</term><meaning id="fs-id2991354"> units that can only be expressed relative to the procedure used to measure them</meaning></definition>
+    <definition id="import-auto-id2512053"><term>derived units</term><meaning id="fs-id3186991"> units that can be calculated using algebraic combinations of the fundamental units</meaning></definition>
+    <definition id="import-auto-id2771646"><term>second</term><meaning id="fs-id3187001"> the SI unit for time, abbreviated (s)</meaning></definition>
+    <definition id="import-auto-id2910820"><term>meter</term><meaning id="fs-id3201842"> the SI unit for length, abbreviated (m)</meaning></definition>
+    <definition id="import-auto-id2806926"><term>kilogram</term><meaning id="fs-id2573988"> the SI unit for mass, abbreviated (kg)</meaning></definition>
+    <definition id="import-auto-id1990374"><term>metric system</term><meaning id="fs-id2573998"> a system in which values can be calculated in factors of 10</meaning></definition>
+    <definition id="import-auto-id1950368"><term>order of magnitude</term><meaning id="fs-id3348791"> refers to the size of a quantity as it relates to a power of 10</meaning></definition>
+    <definition id="import-auto-id2656746"><term>conversion factor</term><meaning id="fs-id1434398"> a ratio expressing how many of one unit are equal to another unit</meaning></definition>
+</glossary>
+</document>

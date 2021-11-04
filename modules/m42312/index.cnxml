@@ -1,0 +1,284 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Electric Field Lines: Multiple Charges</title>
+  <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42312</md:content-id>
+  <md:title>Electric Field Lines: Multiple Charges</md:title>
+  <md:abstract><list>
+<item>Calculate the total force (magnitude and direction) exerted on a test charge from more than one charge</item>
+<item>Describe an electric field diagram of a positive point charge; of a negative point charge with twice the magnitude of positive charge</item>
+<item>Draw the electric field lines between two points of the same charge; between two points of opposite charge.</item>
+</list></md:abstract>
+  <md:uuid>6f4d1b30-1c7e-440d-bcb4-26f1ffebe4d3</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1350820">Drawings using lines to represent <term id="import-auto-id1116912">electric fields</term> around charged objects are very useful in visualizing field strength and direction. Since the electric field has both magnitude and direction, it is a vector. Like all <term id="import-auto-id3047260">vectors</term>, the electric field can be represented by an arrow that has length proportional to its magnitude and that points in the correct direction. (We have used arrows extensively to represent force vectors, for example.)</para>
+
+    <para id="import-auto-id3073177"><link target-id="fs-id3121967"/> shows two pictorial representations of the same electric field created by a positive point charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>. <link target-id="fs-id3121967"/> (b) shows the standard representation using continuous lines. <link target-id="fs-id3121967"/> (a) shows numerous individual arrows with each arrow representing the force on a test charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>. Field lines are essentially a map of infinitesimal force vectors.</para><figure id="fs-id3121967"><media id="fs-id2679004" alt="In part a, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space. In part b, electric field lines emanating from the charge Q are shown by the vector arrows pointing outward in every direction of two dimensional space.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_05_02a.jpg" width="300"/>
+      </media>
+
+    <caption>Two equivalent representations of the electric field due to a positive charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>. (a) Arrows representing the electric field’s magnitude and direction. (b) In the standard representation, the arrows are replaced by continuous field lines having the same direction at any point as the electric field. The closeness of the lines is directly related to the strength of the electric field. A test charge placed anywhere will feel a force in the direction of the field line; this force will have a strength proportional to the density of the lines (being greater near the charge, for example).</caption></figure><para id="import-auto-id3424254">Note that the electric field is defined for a positive test charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>, so that the field lines point away from a positive charge and toward a negative charge. (See <link target-id="import-auto-id1366643"/>.) The electric field strength is exactly proportional to the number of field lines per unit area, since the magnitude of the electric field for a point charge is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mi>k</m:mi><m:mo>|</m:mo><m:mi>Q</m:mi><m:mo>|</m:mo></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E= { ital "kQ"} slash {r rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math> and area is proportional to <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. This pictorial representation, in which field lines represent the direction and their closeness (that is, their areal density or the number of lines crossing a unit area) represents strength, is used for all fields: electrostatic, gravitational, magnetic, and others.</para><figure id="import-auto-id1366643"><media id="import-auto-id2408202" alt="In part a, electric field lines emanating from a positive charge is shown by the vector arrows in all direction of two dimensional space and the density of these field lines is less. In part b, electric field lines entering the negative charge is shown by the vector arrows coming from all direction of two dimensional space and the density of these field lines is less. In part c, electric field lines entering the negative charge is shown by the vector arrows coming from all direction of two dimensional space and the density of these field lines is large.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_05_03a.jpg" width="325"/>
+      </media>
+
+    <caption>The electric field surrounding three different point charges. (a) A positive charge. (b) A negative charge of equal magnitude. (c) A larger negative charge.</caption></figure><para id="import-auto-id1977836">In many situations, there are multiple charges. The total electric field created by multiple charges is the vector sum of the individual fields created by each charge. The following example shows how to add electric field vectors.</para>
+
+    <example id="fs-id3357076">
+      <title>Adding Electric Fields</title>
+      <para id="import-auto-id3397224">Find the magnitude and direction of the total electric field due to the two point charges, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, at the origin of the coordinate system as shown in <link target-id="import-auto-id2423523"/>.</para>
+
+
+      <figure id="import-auto-id2423523"><media id="import-auto-id2066922" alt="Two charges are placed on a coordinate axes. Q two is at the position x equals 4 and y equals 0 centimeters. Q one is at the position x equals 0 and y equals two centimeters. Charge on q one is plus five point zero nano coulomb and charge on q two is plus ten nano coulomb. The electric field, E one having a magnitude of one point one three multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow along positive y axis starting from the origin. The electric field, E two having magnitude zero point five six multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow along negative x axis starting from the origin. The resultant field makes an angle of sixty three point four degree above the negative y axis having magnitude one point two six multiplied by ten raise to the power five Newton per coulomb is represented by a vector arrow pointing away from the origin in the second quadrant.">
+          <image mime-type="image/jpg" src="../../media/Figure_19_05_04a.jpg" width="200"/>
+        </media>
+
+      <caption>The electric fields <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> at the origin O add to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{"tot"} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id3020974"><title>Strategy</title></para>
+      <para id="fs-id2209819">Since the electric field is a vector (having magnitude and direction), we add electric fields with the same vector techniques used for other types of vectors. We first must find the electric field due to each charge at the point of interest, which is the origin of the coordinate system (O) in this instance. We pretend that there is a positive test charge, <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>, at point O, which allows us to determine the direction of the fields <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Once those fields are found, the total field can be determined using <term id="import-auto-id2382760">vector addition</term>.</para><para id="import-auto-id1426888"><title>Solution</title></para>
+      <para id="fs-id2963020">The electric field strength at the origin due to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is labeled <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and is calculated:</para>
+      <equation id="eip-646"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mrow><m:mfrac><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>99</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>/C</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced></m:mrow><m:mfrac><m:mfenced open="(" close=")"><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>C</m:mtext></m:mrow></m:mfenced><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>124</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/C</m:mtext><m:mrow/><m:mo>.</m:mo></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+        size 12{E rSub { size 8{1} } =k {  {q rSub { size 8{1} } }  over  {r rSub { size 8{1} }  rSup { size 8{2} } } } = left (9 "." "00" times "10" rSup { size 8{9} } N cdot m rSup { size 8{2} } "/C" rSup { size 8{2} }  right ) {  { left (5 "." "00" times "10" rSup { size 8{ - 9} } C right )}  over  { left (2 "." "00" times "10" rSup { size 8{ - 2} } m right ) rSup { size 8{2} } } } }  {} #
+        E rSub { size 8{1} } =1 "." "125" times "10" rSup { size 8{5} } "N/C" {}
+        } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3254209">Similarly, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is</para>
+      <equation id="eip-269"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mrow><m:mfrac><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>99</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>/C</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced></m:mrow><m:mfrac><m:mfenced open="(" close=")"><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>C</m:mtext></m:mrow></m:mfenced><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>5619</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/C</m:mtext><m:mrow/><m:mo>.</m:mo></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+        size 12{E rSub { size 8{2} } =k {  {q rSub { size 8{2} } }  over  {r rSub { size 8{2} }  rSup { size 8{2} } } } = left (9 "." "00" times "10" rSup { size 8{9} } N cdot m rSup { size 8{2} } "/C" rSup { size 8{2} }  right ) {  { left ("10" "." 0 times "10" rSup { size 8{ - 9} } C right )}  over  { left (4 "." "00" times "10" rSup { size 8{ - 2} } m right ) rSup { size 8{2} } } } }  {} #
+        E rSub { size 8{2} } =0 "." "5625" times "10" rSup { size 8{5} } "N/C" {}
+        } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2423995">Four digits have been retained in this solution to illustrate that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is exactly twice the magnitude of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Now arrows are drawn to represent the magnitudes and directions of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. (See <link target-id="import-auto-id2423523"/>.) The direction of the electric field is that of the force on a positive charge so both arrows point directly away from the positive charges that create them. The arrow for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is exactly twice the length of that for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. The arrows form a right triangle in this case and can be added using the Pythagorean theorem. The magnitude of the total field <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{"tot"} } } {}</m:annotation></m:semantics></m:math> is</para><equation id="eip-458"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                          <m:msub>
+                            <m:mi>E</m:mi>
+                                    <m:mtext>tot</m:mtext>
+                          </m:msub></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                          <m:msubsup>
+                            <m:mi>E</m:mi>
+
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msubsup>
+                          <m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                          </m:mrow>
+                          <m:msubsup>
+                            <m:mi>E</m:mi>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msubsup>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                              <m:mtext>1/2</m:mtext>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mrow>
+                        <m:mo stretchy="false">{</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mtext>1.124</m:mtext>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                         <m:mspace width="0.25em"/>
+                          <m:mtext>N/C</m:mtext>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:mtext>0.5619</m:mtext>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                         <m:mspace width="0.25em"/>
+                          <m:mtext>N/C</m:mtext>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                        <m:mo stretchy="false">}</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mtext>1/2</m:mtext>
+                      </m:mrow></m:msup>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>1.26</m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                            <m:mn>5</m:mn>
+                      </m:msup>
+                    </m:mrow>
+                   <m:mspace width="0.25em"/>
+                    <m:mtext>N/C.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{E rSub { size 8{ ital "tot"} } `= \( E rSub { size 8{1} }  rSup { size 8{2} } `+`E rSub { size 8{2} }  rSup { size 8{2} }  \)  rSup { size 8{ {1} wideslash {2} } } }  {} #
+~``=` lbrace  \( 1 "." "125" times "10" rSup { size 8{5} } `"N/C" \)  rSup { size 8{2} } `+` \( 0 "." "5625" times "10" rSup { size 8{5} } `"N/C" \)  rSup { size 8{2} }  rbrace  rSup { size 8{ {1} wideslash {2} } }  {} #
+`~`=``1 "." "26" times "10" rSup { size 8{5} } `"N/C" {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3244853">The direction is</para>
+      <equation id="eip-842"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mi>θ</m:mi>
+</m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:msub><m:mi>E</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>E</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow/><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>124</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/C</m:mtext></m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>5619</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/C</m:mtext></m:mrow></m:mfrac></m:mfenced><m:mrow/></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow/><m:mtext>63</m:mtext><m:mtext>.</m:mtext><m:mn>4º</m:mn><m:mrow/><m:mo>,</m:mo></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+        size 12{θ="tan" rSup { size 8{ - 1} }  left ( {  {E rSub { size 8{1} } }  over  {E rSub { size 8{2} } } }  right )}  {} #
+        ="tan" rSup { size 8{ - 1} }  left lbrace  {  {1 "." "125" times "10" rSup { size 8{5} } " N/C"}  over  {0 "." "5625" times "10" rSup { size 8{5} } " N/C"} }  right rbrace  {} #
+        ="63" "." 4° {}title
+        } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2034911">or <m:math><m:semantics><m:mrow><m:mn>63.4º</m:mn></m:mrow></m:semantics></m:math> above the <emphasis effect="italics">x</emphasis>-axis.</para><para id="import-auto-id3449861"><title>Discussion</title></para>
+      <para id="fs-id3094888">In cases where the electric field vectors to be added are not perpendicular, vector components or graphical techniques can be used. The total electric field found in this example is the total electric field at only one point in space. To find the total electric field due to these two charges over an entire region, the same technique must be repeated for each point in the region. This impossibly lengthy task (there are an infinite number of points in space) can be avoided by calculating the total field at representative points and using some of the unifying features noted next.</para>
+    </example>
+
+    <para id="import-auto-id2681099"><link target-id="import-auto-id3285646"/> shows how the electric field from two point charges can be drawn by finding the total field at representative points and drawing electric field lines consistent with those points. While the electric fields from multiple charges are more complex than those of single charges, some simple features are easily noticed.</para>
+    <para id="import-auto-id3437592">For example, the field is weaker between like charges, as shown by the lines being farther apart in that region. (This is because the fields from each charge exert opposing forces on any charge placed between them.) (See <link target-id="import-auto-id3285646"/> and <link target-id="import-auto-id2648567"/>(a).) Furthermore, at a great distance from two like charges, the field becomes identical to the field from a single, larger charge.</para><para id="import-auto-id2402415"><link target-id="import-auto-id2648567"/>(b) shows the electric field of two unlike charges. The field is stronger between the charges. In that region, the fields from each charge are in the same direction, and so their strengths add. The field of two unlike charges is weak at large distances, because the fields of the individual charges are in opposite directions and so their strengths subtract. At very large distances, the field of two unlike charges looks like that of a smaller single charge.</para><figure id="import-auto-id3285646"><media id="import-auto-id3163763" alt="Two charges q one and q two are placed at a distance and their field lines shown by curved arrows move away from each other. At a point P on the field lines emanating from q one, the resultant electric field is represented by a vector arrow tangent to the curve representing this field line. A point P prime on a field line emanating from the charge q two and the resultant electric field is represented by a vector arrow tangent to the curve representing this field line.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_05_05a.jpg" width="200"/>
+      </media>
+
+    <caption>Two positive point charges <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> produce the resultant electric field shown. The field is calculated at representative points and then smooth field lines drawn following the rules outlined in the text.</caption></figure><figure id="import-auto-id2648567"><media id="import-auto-id1398483" alt="In part a, two negative charges of magnitude minus q are placed at some distance. Their field lines are represented by curved arrows terminating into the negative charges. The curves are divergent. In part b, two charges are placed at a distance where one is positive labeled as plus q and other is negative labeled as minus q. The field lines represented by curved arrows start from the positive charge and end at the negative charge. The curves are convergent.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_05_06a.jpg" width="200"/>
+      </media>
+
+    <caption>(a) Two negative charges produce the fields shown. It is very similar to the field produced by two positive charges, except that the directions are reversed. The field is clearly weaker between the charges. The individual forces on a test charge in that region are in opposite directions. (b) Two opposite charges produce the field shown, which is stronger in the region between the charges.</caption></figure><para id="eip-474">We use electric field lines to visualize and analyze electric fields (the lines are a pictorial tool, not a physical entity in themselves). The properties of electric field lines for any charge distribution can be summarized as follows:</para><list id="fs-id3008498" list-type="enumerated" number-style="arabic"><item id="import-auto-id3035248">Field lines must begin on positive charges and terminate on negative charges, or at infinity in the hypothetical case of isolated charges.</item>
+      <item id="import-auto-id1995990">The number of field lines leaving a positive charge or entering a negative charge is proportional to the magnitude of the charge.</item>
+      <item id="import-auto-id3119638">The strength of the field is proportional to the closeness of the field lines—more precisely, it is proportional to the number of lines per unit area perpendicular to the lines.</item>
+      <item id="import-auto-id3354685">The direction of the electric field is tangent to the field line at any point in space.</item>
+      <item id="import-auto-id1867890">Field lines can never cross.</item>
+    </list>
+
+    <para id="import-auto-id2450108">The last property means that the field is unique at any point. The field line represents the direction of the field; so if they crossed, the field would have two directions at that location (an impossibility if the field is unique).</para>
+
+    <note id="eip-338" class="interactive"><label/><title>Charges and Fields</title><para id="eip-id1492218">Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It's colorful, it's dynamic, it's free. </para><figure id="ChargesandFields">
+    <media id="fs-id1167066831384" alt="This simulation allows you to arrange positive and negative charges in space and view the resulting electric field and electrostatic potential.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28charge-field"/></media>
+    </figure></note>
+    <section id="fs-id2401527" class="section-summary"><title>Section Summary</title><list id="fs-id2415844">
+        <item id="import-auto-id2973950">Drawings of electric field lines are useful visual tools. The properties of electric field lines for any charge distribution are that:</item>
+        <item id="import-auto-id3201918">Field lines must begin on positive charges and terminate on negative charges, or at infinity in the hypothetical case of isolated charges.</item>
+        <item id="import-auto-id1023765">The number of field lines leaving a positive charge or entering a negative charge is proportional to the magnitude of the charge.</item>
+        <item id="import-auto-id3357076">The strength of the field is proportional to the closeness of the field lines—more precisely, it is proportional to the number of lines per unit area perpendicular to the lines.</item>
+        <item id="import-auto-id1917846">The direction of the electric field is tangent to the field line at any point in space.</item>
+        <item id="import-auto-id1890521">Field lines can never cross.</item>
+      </list>
+    </section><section id="fs-id1995784" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+      <exercise id="fs-id2679234" type="conceptual-questions"><problem id="fs-id3209894">
+        <para id="import-auto-id1828740">Compare and contrast the Coulomb force field and the electric field. To do this, make a list of five properties for the Coulomb force field analogous to the five properties listed for electric field lines. Compare each item in your list of Coulomb force field properties with those of the electric field—are they the same or different? (For example, electric field lines cannot cross. Is the same true for Coulomb field lines?)</para>
+      </problem></exercise>
+
+      <exercise id="fs-id3034762" type="conceptual-questions"><problem id="fs-id3176752">
+        <para id="import-auto-id2932472"><link target-id="fs-id2000875"/> shows an electric field extending over three regions, labeled I, II, and III. Answer the following questions. (a) Are there any isolated charges? If so, in what region and what are their signs? (b) Where is the field strongest? (c) Where is it weakest? (d) Where is the field the most uniform?</para>
+
+
+        <figure id="fs-id2000875"><media id="fs-id3051640" alt="Five field lines represented by long arrows horizontally from left to right are shown. Two arrows diverge from other three, one arrow runs straight toward right and two arrows end abruptly.">
+            <image mime-type="image/jpg" src="../../media/Figure_19_05_07a.jpg" width="250"/>
+          </media>
+        </figure></problem></exercise>
+    </section>
+
+    <section id="fs-id2428964" type="problems-exercises" class="problems-exercises">
+      <title>Problem Exercises</title>
+      <exercise id="fs-id1368682" type="problems-exercises"><problem id="fs-id1931576">
+        <para id="import-auto-id3009329">(a) Sketch the electric field lines near a point charge <m:math><m:semantics><m:mrow><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:semantics></m:math>. (b) Do the same for a point charge <m:math><m:semantics><m:mrow><m:mn>–3.00</m:mn><m:mi>q</m:mi></m:mrow></m:semantics></m:math>.</para></problem></exercise>
+
+      <exercise id="fs-id2403262" type="problems-exercises"><problem id="fs-id1518866">
+        <para id="import-auto-id1993742">Sketch the electric field lines a long distance from the charge distributions shown in <link target-id="import-auto-id2648567"/> (a) and (b)</para>
+      </problem></exercise>
+
+      <exercise id="fs-id1994588" type="problems-exercises"><problem id="fs-id1994592">
+        <para id="import-auto-id2679405"><link target-id="import-auto-id2625774"/> shows the electric field lines near two charges <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. What is the ratio of their magnitudes? (b) Sketch the electric field lines a long distance from the charges shown in the figure.</para>
+
+        <figure id="import-auto-id2625774"><media id="import-auto-id1907593" alt="Field lines between a positive and a negative charge represented by curved lines is shown">
+            <image mime-type="image/png" src="../../media/Figure_19_05_08a.jpg" width="250"/>
+          </media>
+
+        <caption>The electric field near two charges.</caption></figure></problem></exercise>
+
+      <exercise id="fs-id2663390" type="problems-exercises"><problem id="fs-id1397916">
+        <para id="import-auto-id1817304">Sketch the electric field lines in the vicinity of two opposite charges, where the negative charge is three times greater in magnitude than the positive. (See <link target-id="import-auto-id2625774"/> for a similar situation).</para></problem></exercise>
+    </section>
+   </content>
+  <glossary>
+    <definition id="import-auto-id3421859"><term>electric field</term> <meaning id="fs-id2057058">a three-dimensional map of the electric force extended out into space from a point charge</meaning></definition>
+    <definition id="import-auto-id2669981"><term>electric field lines</term> <meaning id="fs-id1421114">a series of lines drawn from a point charge representing the magnitude and direction of force exerted by that charge</meaning></definition>
+    <definition id="import-auto-id1549327"><term>vector</term> <meaning id="fs-id1368595">a quantity with both magnitude and direction</meaning></definition>
+    <definition id="import-auto-id1815764"><term>vector addition</term> <meaning id="fs-id1184420">mathematical combination of two or more vectors, including their magnitudes, directions, and positions</meaning></definition>
+  </glossary>
+
+</document>

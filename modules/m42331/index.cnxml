@@ -1,0 +1,182 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Equipotential Lines</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42331</md:content-id>
+  <md:title>Equipotential Lines</md:title>
+  <md:abstract><list>
+<item>Explain equipotential lines and equipotential surfaces.</item>
+<item>Describe the action of grounding an electrical appliance.</item>
+<item>Compare electric field and equipotential lines.</item>
+</list></md:abstract>
+  <md:uuid>038b3dc5-0d7f-451b-aac0-94d4bd413b45</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1955021">We can represent electric potentials (voltages) pictorially, just as we drew pictures to illustrate electric fields. Of course, the two are related. Consider <link target-id="import-auto-id1665740"/>, which shows an isolated positive point charge and its electric field lines. Electric field lines radiate out from a positive charge and terminate on negative charges. While we use blue arrows to represent the magnitude and direction of the electric field, we use green lines to represent places where the electric potential is constant. These are called <term id="import-auto-id1598142">equipotential lines</term> in two dimensions, or <emphasis effect="italics">equipotential surfaces</emphasis> in three dimensions.  The term <emphasis effect="italics">equipotential</emphasis> is also used as a noun, referring to an equipotential line or surface. The potential for a point charge is the same anywhere on an imaginary sphere of radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> surrounding the charge. This is true since the potential for a point charge is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kQ</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "kQ"/r} {}</m:annotation></m:semantics></m:math> and, thus, has the same value at any point that is a given distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> from the charge. An equipotential sphere is a circle in the two-dimensional view of <link target-id="import-auto-id1665740"/>. Since the electric field lines point radially away from the charge, they are perpendicular to the equipotential lines.</para><figure id="import-auto-id1665740"><media id="import-auto-id1537671" alt="The figure shows a positive charge Q at the center of four concentric circles of increasing radii. The electric potential is the same along each of the circles, called equipotential lines. Straight lines representing electric field lines are drawn from the positive charge to intersect the circles at various points. The equipotential lines are perpendicular to the electric field lines.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_04_01a.jpg" width="200"/>
+      </media>
+
+   <caption>An isolated point charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> with its electric field lines in blue and equipotential lines in green. The potential is the same along each equipotential line, meaning that no work is required to move a charge anywhere along one of those lines. Work is needed to move a charge from one equipotential line to another. Equipotential lines are perpendicular to electric field lines in every case.<emphasis effect="bold"/> </caption></figure><para id="import-auto-id2554466">It is important to note that <emphasis effect="italics"><emphasis effect="italics">equipotential lines are always perpendicular to electric field lines</emphasis></emphasis><emphasis effect="italics">.</emphasis> No work is required to move a charge along an equipotential, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>V</m:mi><m:mrow><m:mi/><m:mo stretchy="false">=</m:mo><m:mi/></m:mrow><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?`V`=`0} {}</m:annotation></m:semantics></m:math>. Thus the work is</para><equation id="eip-630"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">–Δ</m:mo></m:mrow></m:mrow><m:mrow><m:mrow><m:mtext>PE</m:mtext><m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">–</m:mo><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=-?"PE"=-q?V=0} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2633310">Work is zero if force is perpendicular to motion. Force is in the same direction as <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math>, so that motion along an equipotential must be perpendicular to <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math>. More precisely, work is related to the electric field by</para><equation id="eip-581"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                    <m:mi>W</m:mi>
+                    <m:mo stretchy="false"> = </m:mo>
+                    <m:mrow>
+                      <m:mtext fontstyle="italic">Fd </m:mtext>
+                    </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> cos </m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>θ</m:mi>
+                    <m:mo stretchy="false"> = </m:mo>
+                      <m:mtext fontstyle="italic">qEd</m:mtext><m:mspace width="0.25em"/>
+                  <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>θ</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false"> = </m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+<m:mo>.</m:mo>
+                </m:mrow>
+              </m:mrow>
+
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{W=`` ital "Fd""cos"?`=` ital "qEd""cos"?`=0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1584438">Note that in the above equation,  <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>E</m:mi>
+              </m:mrow>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation>
+          </m:semantics>
+        </m:math>   and   <m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>F</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation>
+          </m:semantics>
+        </m:math>  symbolize the magnitudes of the electric field strength and force, respectively. Neither <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> nor <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></emphasis> nor <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is zero, and so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> must be 0, meaning <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?} {}</m:annotation></m:semantics></m:math> must be <m:math>
+ <m:semantics>
+  <m:mtext>90º</m:mtext>
+ </m:semantics>
+</m:math>. In other words, motion along an equipotential is perpendicular to <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2010655">One of the rules for static electric fields and conductors is that the electric field must be perpendicular to the surface of any conductor. This implies that a <emphasis effect="italics"><emphasis effect="italics">conductor is an equipotential surface in static situations</emphasis></emphasis><emphasis effect="italics">.</emphasis> There can be no voltage difference across the surface of a conductor, or charges will flow. One of the uses of this fact is that a conductor can be fixed at zero volts by connecting it to the earth with a good conductor—a process called <term id="import-auto-id3098122">grounding</term>. Grounding can be a useful safety tool. For example, grounding the metal case of an electrical appliance ensures that it is at zero volts relative to the earth.</para>
+    <note id="fs-id2957782"><label/>
+    <title>Grounding</title>
+    <para id="import-auto-id2680282">A conductor can be fixed at zero volts by connecting it to the earth with a good conductor—a process called grounding.</para>
+    </note>
+    <para id="import-auto-id2509786">Because a conductor is an equipotential, it can replace any equipotential surface. For example, in <link target-id="import-auto-id1665740"/> a charged spherical conductor can replace the point charge, and the electric field and potential surfaces outside of it will be unchanged, confirming the contention that a spherical charge distribution is equivalent to a point charge at its center.</para>
+    <para id="import-auto-id1597900"><link target-id="import-auto-id2749788"/> shows the electric field and equipotential lines for two equal and opposite charges. Given the electric field lines, the equipotential lines can be drawn simply by making them perpendicular to the electric field lines. Conversely, given the equipotential lines, as in <link target-id="import-auto-id2757381"/>(a), the electric field lines can be drawn by making them perpendicular to the equipotentials, as in <link target-id="import-auto-id2757381"/>(b).</para><figure id="import-auto-id2749788"><media id="import-auto-id1628530" alt="The figure shows two sets of concentric circles, called equipotential lines, drawn with positive and negative charges at their centers. Curved electric field lines emanate from the positive charge and curve to meet the negative charge. The lines form closed curves between the charges. The equipotential lines are always perpendicular to the field lines.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_04_02a.jpg" width="250"/>
+      </media>
+
+         <caption>The electric field lines and equipotential lines for two equal but opposite charges. The equipotential lines can be drawn by making them perpendicular to the electric field lines, if those are known. Note that the potential is greatest (most positive) near the positive charge and least (most negative) near the negative charge. </caption></figure><figure id="import-auto-id2757381"><media id="import-auto-id2998902" alt="Figure (a) shows two circles, called equipotential lines, along which the potential is negative ten volts. A dumbbell-shaped surface encloses the two circles and is labeled negative five volts. This surface is surrounded by another surface labeled negative two volts. Figure (b) shows the same equipotential lines, each set with a negative charge at its center. Blue electric field lines curve toward the negative charges from all directions.">
+         <image mime-type="image/jpg" src="../../media/Figure_20_04_03a.jpg" width="400"/>
+      </media>
+
+    <caption>(a) These equipotential lines might be measured with a voltmeter in a laboratory experiment. (b) The corresponding electric field lines are found by drawing them perpendicular to the equipotentials. Note that these fields are consistent with two equal negative charges. </caption></figure><para id="import-auto-id1350356">One of the most important cases is that of the familiar parallel conducting plates shown in <link target-id="import-auto-id2004698"/>. Between the plates, the equipotentials are evenly spaced and parallel. The same field could be maintained by placing conducting plates at the equipotential lines at the potentials shown.</para><figure id="import-auto-id2004698"><media id="import-auto-id2739078" alt="The figure shows two parallel plates A and B separated by a distance d. Plate A is positively charged, and B is negatively charged. Electric field lines are parallel to one another between the plates and curved near the ends of the plates. The voltages range from a hundred volts at Plate A to zero volts at plate B.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_04_04a.jpg" width="150"/>
+      </media>
+
+          <caption>The electric field and equipotential lines between two metal plates.</caption></figure><para id="import-auto-id2606713">An important application of electric fields and equipotential lines involves the heart. The heart relies on electrical signals to maintain its rhythm. The movement of electrical signals causes the chambers of the heart to contract and relax. When a person has a heart attack, the movement of these electrical signals may be disturbed. An artificial pacemaker and a defibrillator can be used to initiate the rhythm of electrical signals. The equipotential lines around the heart, the thoracic region, and the axis of the heart are useful ways of monitoring the structure and functions of the heart. An electrocardiogram (ECG) measures the small electric signals being generated during the activity of the heart. More about the relationship between electric fields and the heart is discussed in <link document="m42395">Energy Stored in Capacitors</link>.</para>
+    <note id="eip-689" class="interactive"><label/><title>Charges and Fields</title>
+<para id="eip-idm395886480">Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It's colorful, it's dynamic, it's free.<newline/><figure id="eip-idm229666704">
+<media id="fs-id1167066831384" alt="This simulation allows you to arrange positive and negative charges in space and view the resulting electric field and electrostatic potential.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28charge-field"/></media>
+</figure></para></note><section id="fs-id2629382" class="section-summary"><title>Section Summary</title><list id="import-auto-id3146766"><item>An equipotential line is a line along which the electric potential is constant.</item>
+<item>An equipotential surface is a three-dimensional version of equipotential lines.</item>
+
+<item id="import-auto-id2908098">Equipotential lines are always perpendicular to electric field lines.</item>
+    <item id="import-auto-id1315976">The process by which a conductor can be fixed at zero volts by connecting it to the earth with a good conductor is called grounding.</item>
+    </list></section>
+
+<section id="fs-id2651897" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+    <exercise id="fs-id2664733" type="conceptual-questions"><problem id="fs-id2664787">
+
+    <para id="import-auto-id2726578">What is an equipotential line? What is an equipotential surface? </para>
+    </problem></exercise>
+    <exercise id="fs-id3105556" type="conceptual-questions"><problem id="fs-id2575515">
+
+    <para id="import-auto-id1515497">Explain in your own words why equipotential lines and surfaces must be perpendicular to electric field lines. </para>
+    </problem></exercise>
+      <exercise id="fs-id1356324" type="conceptual-questions">
+      <problem id="fs-id856980"><para id="fs-id2600986">Can different equipotential lines cross? Explain.</para></problem>
+</exercise>
+
+      </section>
+    <section id="fs-id1513691" type="problems-exercises" class="problems-exercises">
+<title>Problems &amp; Exercises</title><exercise id="fs-id2706239" type="problems-exercises"><problem id="fs-id2742439">
+
+    <para id="import-auto-id1332445">(a) Sketch the equipotential lines near a point charge + <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis>. Indicate the direction of increasing potential. (b) Do the same for a point charge <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mn>3</m:mn><m:mspace width="0.25em"/></m:mrow><m:mi>q</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 3 "." "00"q} {}</m:annotation></m:semantics></m:math>. </para></problem></exercise>
+    <exercise id="fs-id2789845" type="problems-exercises"><problem id="fs-id989848">
+
+    <para id="import-auto-id2985617">Sketch the equipotential lines for the two equal positive charges shown in <link target-id="import-auto-id1536206"/>. Indicate the direction of increasing potential.</para><figure id="import-auto-id1536206"><media id="import-auto-id2678202" alt="The figure shows two positive charges with electric field lines curving away from each of the charges.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_04_05a.jpg" width="250"/>
+      </media>
+
+    <caption>The electric field near two equal positive charges is directed away from each of the charges.</caption></figure></problem></exercise><exercise id="fs-id1292487" type="problems-exercises"><problem id="fs-id1362746">    <para id="import-auto-id1334538"><link target-id="import-auto-id2772911"/> shows the electric field lines near two charges <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, the first having a magnitude four times that of the second. Sketch the equipotential lines for these two charges, and indicate the direction of increasing potential. </para></problem></exercise>
+    <exercise id="fs-id2500526" type="problems-exercises"><problem id="fs-id1166112">
+<para id="import-auto-id2836457">Sketch the equipotential lines a long distance from the charges shown in <link target-id="import-auto-id2772911"/>. Indicate the direction of increasing potential.</para><figure id="import-auto-id2772911"><media id="import-auto-id2506280" alt="The figure shows two nearby charges, q one and q two. Electric field lines move away from q two and toward q one.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_04_06a.jpg" width="250"/>
+      </media>
+
+    <caption>The electric field near two charges.</caption></figure></problem></exercise>
+    <exercise id="fs-id1516086" type="problems-exercises"><problem id="fs-id1310961">
+
+    <para id="import-auto-id898212">Sketch the equipotential lines in the vicinity of two opposite charges, where the negative charge is three times as great in magnitude as the positive. See <link target-id="import-auto-id2772911"/> for a similar situation. Indicate the direction of increasing potential. </para></problem></exercise>
+    <exercise id="fs-id1492488" type="problems-exercises"><problem id="fs-id1996104">
+
+    <para id="import-auto-id2606798">Sketch the equipotential lines in the vicinity of the negatively charged conductor in <link target-id="import-auto-id1500503"/>. How will these equipotentials look a long distance from the object?</para>
+
+    <figure id="import-auto-id1500503"><media id="import-auto-id2820975" alt="The figure shows a negatively charged conductor that is shaped like an oblong.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_04_07a.jpg" width="200"/>
+      </media>
+
+     <caption>A negatively charged conductor.</caption></figure></problem></exercise>
+    <exercise id="fs-id1964514" type="problems-exercises"><problem id="fs-id2753675">
+
+    <para id="import-auto-id1958311">Sketch the equipotential lines surrounding the two conducting plates shown in <link target-id="import-auto-id2837614"/>, given the top plate is positive and the bottom plate has an equal amount of negative charge. Be certain to indicate the distribution of charge on the plates. Is the field strongest where the plates are closest? Why should it be?</para>
+
+    <para id="import-auto-id2822347">
+      <figure id="import-auto-id2837614"><media id="import-auto-id1291270" alt="Two conducting plates with the top one positively charged and the bottom one with an equal amount of negative charge.">
+          <image mime-type="image/jpg" src="../../media/Figure_20_04_08a.jpg" width="150"/>
+        </media>
+
+           </figure></para>
+    </problem></exercise>
+    <exercise id="fs-id1350693" type="problems-exercises"><problem id="fs-id1285265">
+
+    <para id="import-auto-id2784630">(a) Sketch the electric field lines in the vicinity of the charged insulator in <link target-id="import-auto-id1359573"/>. Note its non-uniform charge distribution. (b) Sketch equipotential lines surrounding the insulator. Indicate the direction of increasing potential.</para>
+
+    <para id="import-auto-id2643526">
+      <figure id="import-auto-id1359573"><media id="import-auto-id1177405" alt="A rod marked with many plus symbols to indicate electric charge. Most of the pluses are concentrated near one end of the rod. A few are in the middle and one is at the other end.">
+          <image mime-type="image/jpg" src="../../media/Figure_20_04_09a.jpg" width="175"/>
+        </media>
+
+      <caption>A charged insulating rod such as might be used in a classroom demonstration.</caption></figure></para>
+    </problem></exercise>
+    <exercise id="fs-id1494380" type="problems-exercises"><problem id="fs-id2996287">
+
+    <para id="import-auto-id2511998">T"he naturally occurring electrical field on the ground to an open sky point 3.00 m above is 1.13 × 10<sup>2</sup> N/C. This open point in the sky is at a greater electric potential than the ground. (a) Calculate the electric potential at this height. (b) Sketch electric field and equipotential lines for this scenario. Calculate the electric potential at this height. (c) Sketch electric field and equipotential lines for this scenario.</para></problem></exercise>
+    <exercise id="fs-id2720527" type="problems-exercises"><problem id="fs-id2532903">
+
+    <para id="import-auto-id2747313">The lesser electric ray (<emphasis effect="italics"><emphasis effect="italics">Narcine bancroftii</emphasis></emphasis>)<emphasis effect="italics"/> maintains an incredible charge on its head and a charge equal in magnitude but opposite in sign on its tail (<link target-id="import-auto-id1284133"/>). (a) Sketch the equipotential lines surrounding the ray. (b) Sketch the equipotentials when the ray is near a ship with a conducting surface. (c) How could this charge distribution be of use to the ray?</para><figure id="import-auto-id1284133"><media id="import-auto-id2722290" alt="The figure shows a photo of a Narcine bancroftii, an electric ray that maintains a strong charge on its head and a charge equal in magnitude but opposite in sign on its tail.">
+        <image mime-type="image/png" src="../../media/Figure_20_04_10a.jpg"/>
+      </media>
+
+          <caption>Lesser electric ray (<emphasis effect="italics">Narcine bancroftii</emphasis>) (credit: National Oceanic and Atmospheric Administration, NOAA's Fisheries Collection).</caption></figure></problem></exercise>
+    </section> </content>
+      <glossary>
+    <definition id="import-auto-id1726866"><term>equipotential line</term> <meaning id="fs-id882942">a line along which the electric potential is constant</meaning></definition>
+    <definition id="import-auto-id3068372"><term>grounding</term> <meaning id="fs-id1048052">fixing a conductor at zero volts by connecting it to the earth or ground</meaning></definition>
+    </glossary>
+</document>

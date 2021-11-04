@@ -1,0 +1,962 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Relativistic Addition of Velocities</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42540</md:content-id>
+  <md:title>Relativistic Addition of Velocities</md:title>
+  <md:abstract><list>
+<item>Calculate relativistic velocity addition.</item>
+<item>Explain when relativistic velocity addition should be used instead of classical addition of velocities.</item>
+<item>Calculate relativistic Doppler shift.</item>
+</list></md:abstract>
+  <md:uuid>e3a41220-af3f-40c6-b8ba-1a5d1bcbed92</md:uuid>
+</metadata>
+
+<content>
+
+   <figure id="fs-id2806897"><media id="fs-id2929473" alt="A man with oar in his hand is kayaking downstream in a shallow fast-flowing river.">
+        <image mime-type="image/jpg" src="../../media/Figure_29_04_01a.jpg" width="250"/>
+      </media>
+
+   <caption>The total velocity of a kayak, like this one on the Deerfield River in Massachusetts, is its velocity relative to the water as well as the water’s velocity relative to the riverbank. (credit: abkfenris, Flickr)</caption></figure><para id="import-auto-id3159640">If you’ve ever seen a kayak move down a fast-moving river, you know that remaining in the same place would be hard. The river current pulls the kayak along. Pushing the oars back against the water can move the kayak forward in the water, but that only accounts for part of the velocity. The kayak’s motion is an example of classical addition of velocities. In classical physics, velocities add as vectors. The kayak’s velocity is the vector sum of its velocity relative to the water and the water’s velocity relative to the riverbank.</para>
+<section id="fs-id2706396"><title>Classical Velocity Addition</title><para id="import-auto-id2677030">For simplicity, we restrict our consideration of velocity addition to one-dimensional motion. Classically, velocities add like regular numbers in one-dimensional motion. (See <link target-id="fs-id1664936"/>.) Suppose, for example, a girl is riding in a sled at a speed 1.0 m/s relative to an observer. She throws a snowball first forward, then backward at a speed of 1.5 m/s relative to the sled. We denote direction with plus and minus signs in one dimension; in this example, forward is positive. Let <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> be the velocity of the sled relative to the Earth, <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> the velocity of the snowball relative to the Earth-bound observer, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math> the velocity of the snowball relative to the sled.</para><figure id="fs-id1664936"><media id="fs-id1649221" alt="In part a, a man is pulling a sled towards the right with a velocity v equals one point zero meters per second. A girl sitting on the sled facing forward throws a snowball toward a boy on the far right of the picture. The snowball is labeled u primed equals one point five meters per second in the direction the sled is being pulled. The boy is labelled two point five meters per second. In figure b, a similar figure is shown, but the man’s velocity is one point zero meters per second, the girl is facing backward and throwing the snowball behind the sled. The snowball is labelled u primed equals negative one point five meters per second, and the boy is labelled u equals negative zero point five meters per second.">
+        <image mime-type="image/jpg" src="../../media/Figure_28_04_02.jpg" width="450"/>
+      </media>
+
+    <caption>Classically, velocities add like ordinary numbers in one-dimensional motion. Here the girl throws a snowball forward and then backward from a sled. The velocity of the sled relative to the Earth is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>v=</m:mtext></m:mrow></m:mstyle><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "v="1 "." 0`"m/s"} {}</m:annotation></m:semantics></m:math>. The velocity of the snowball relative to the sled is <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math>, while its velocity relative to the Earth is <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math>. Classically, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mtext>u=v+u</m:mtext></m:mstyle><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.</caption></figure><note id="fs-id2840110"><label/><title>Classical Velocity Addition</title>
+
+    <equation id="eip-742"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                  <m:mrow>
+                <m:mstyle fontstyle="italic">
+                      <m:mtext>u=v+u</m:mtext>
+                                      </m:mstyle>
+                        <m:mrow>
+                          <m:mo>′</m:mo>
+                        </m:mrow>
+                  </m:mrow>
+              </m:mrow>          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation></note><para id="import-auto-id1358034">Thus, when the girl throws the snowball forward, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi fontstyle="italic">u</m:mi><m:mo>=</m:mo><m:mn>1.0 m/s</m:mn><m:mo stretchy="false">+</m:mo><m:mn>1.5 m/s</m:mn><m:mo stretchy="false">=</m:mo><m:mn>2.5 m/s</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. It makes good intuitive sense that the snowball will head towards the Earth-bound observer faster, because it is thrown forward from a moving vehicle. When the girl throws the snowball backward, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mn>1.0 m/s</m:mn><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1.5 m/s</m:mn></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0.5 m/s</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. The minus sign means the snowball moves away from the Earth-bound observer.</para></section><section id="fs-id3138942"><title>Relativistic Velocity Addition</title>
+    <para id="import-auto-id1998280">The second postulate of relativity (verified by extensive experimental observation) says that classical velocity addition does not apply to light. Imagine a car traveling at night along a straight road, as in <link target-id="fs-id2834724"/>. If classical velocity addition applied to light, then the light from the car’s headlights would approach the observer on the sidewalk at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>u=v+c</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "u=v+c"} {}</m:annotation></m:semantics></m:math>. But we know that light will move away from the car at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> relative to the driver of the car, and light will move towards the observer on the sidewalk at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>, too.</para>
+
+    <figure id="fs-id2834724"><media id="fs-id2641241" alt="A car is moving towards right with velocity v. A boy standing on the side-walk observes the car. The velocity of light u primed is shown to be c as observed by the girl in the car and the velocity of light u is also c as observed by the boy.">
+        <image mime-type="image/jpg" src="../../media/Figure_29_04_03a.jpg" width="475"/>
+      </media>
+
+<caption>According to experiment and the second postulate of relativity, light from the car’s headlights moves away from the car at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> and towards the observer on the sidewalk at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>. Classical velocity addition is not valid.</caption></figure><note id="fs-id1649264"><label/>
+    <title>Relativistic Velocity Addition</title>
+    <para id="import-auto-id2747111">Either light is an exception, or the classical velocity addition formula only works at low velocities. The latter is the case. The correct formula for one-dimensional <term id="import-auto-id1247638">relativistic velocity addition</term> is</para>
+    <equation id="eip-716"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo></m:mrow><m:mfrac><m:mrow><m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi/><m:mrow><m:mstyle fontstyle="italic"><m:mtext>u</m:mtext></m:mstyle><m:mo>′</m:mo></m:mrow></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "u=" {  { ital "v+u'"}  over  {1+ {  {v` ital "u'"}  over  {c rSup { size 8{2} } } } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1342230">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the relative velocity between two observers, <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the velocity of an object relative to one observer, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mrow><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the velocity relative to the other observer. (For ease of visualization, we often choose to measure <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in our reference frame, while someone moving at <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> relative to us measures <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.) Note that the term
+
+<m:math><m:semantics><m:mrow><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi fontstyle="italic">u</m:mi><m:mo>′</m:mo></m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:semantics></m:math> becomes very small at low velocities, and
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo></m:mrow><m:mfrac><m:mrow><m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi/><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> gives a result very close to classical velocity addition. As before, we see that classical velocity addition is an excellent approximation to the correct relativistic formula for small velocities. No wonder that it seems correct in our experience.</para></note>
+    <example id="fs-id1566574"><title>Showing that the Speed of Light towards an Observer is Constant (in a Vacuum): The Speed of Light is the Speed of Light</title><para id="import-auto-id2836386">Suppose a spaceship heading directly towards the Earth at half the speed of light sends a signal to us on a laser-produced beam of light. Given that the light leaves the ship at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> as observed from the ship, calculate the speed at which it approaches the Earth.</para>
+   <figure id="fs-id2692889"><media id="fs-id2676526" alt="A spacecraft is heading towards earth v equals zero point five zero zero times c. A laser beam from the ship travels towards the Earth with velocity c as shown by a vector. A second spaceship traveling away from the Earth. The velocity of the second ship and second laser are the same as the first, but in the opposite direction.">
+        <image mime-type="image/jpg" src="../../media/Figure_29_04_04a.jpg" width="350"/>
+      </media>
+       </figure><para id="import-auto-id2596010">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1670255">Because the light and the spaceship are moving at relativistic speeds, we cannot use simple velocity addition. Instead, we can determine the speed at which the light approaches the Earth using relativistic velocity addition.</para>
+    <para id="import-auto-id1535276">
+      <title>Solution</title>
+    </para>
+      <list id="fs-id3146144" list-type="enumerated" number-style="arabic"><item id="import-auto-id2648482">Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>v=</m:mtext></m:mrow></m:mstyle><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo><m:mrow><m:mo>=</m:mo><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></item>
+    <item id="import-auto-id2656565">Identify the unknown. <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id1536985">Choose the appropriate equation. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo></m:mrow></m:mstyle><m:mfrac><m:mrow><m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi/><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "u=" {  { ital "v+u'"}  over  {1+ {  {v` ital "u'"}  over  {c rSup { size 8{2} } } } } } } {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id1988559">Plug the knowns into the equation.
+    <equation id="eip-898"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mi>u</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mfrac><m:mrow><m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi/><m:mrow><m:mi fontstyle="italic">u</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mfrac></m:mrow></m:mfrac></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mrow><m:mfrac><m:mrow><m:mtext>0.500</m:mtext><m:mi/><m:mrow><m:mi>c</m:mi><m:mo>+</m:mo><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>0.500</m:mtext><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac><m:mrow/></m:mrow></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>0.500</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mi/><m:mi>c</m:mi></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mtext>0.500</m:mtext><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac><m:mrow/></m:mrow></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mrow><m:mfrac><m:mrow><m:mtext>1.500</m:mtext><m:mi/><m:mi>c</m:mi></m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo></m:mrow><m:mtext>0.500</m:mtext></m:mrow></m:mfrac><m:mrow/></m:mrow></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mrow><m:mfrac><m:mrow><m:mtext>1.500</m:mtext><m:mi/><m:mi>c</m:mi></m:mrow><m:mrow><m:mtext>1.500</m:mtext></m:mrow></m:mfrac><m:mrow/></m:mrow></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd><m:mtd><m:mrow><m:mi>c</m:mi><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation></item></list><para id="import-auto-id1636709">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2505948">Relativistic velocity addition gives the correct result. Light leaves the ship at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> and approaches the Earth at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>. The speed of light is independent of the relative motion of source and observer, whether the observer is on the ship or Earth-bound.</para></example><para id="import-auto-id1986054">Velocities cannot add to greater than the speed of light, provided that <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is less than <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> does not exceed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The following example illustrates that relativistic velocity addition is not as symmetric as classical velocity addition.</para><example id="fs-id1363012"><title>Comparing the Speed of Light towards and away from an Observer: Relativistic Package Delivery</title><para id="import-auto-id1285265">Suppose the spaceship in the previous example is approaching the Earth at half the speed of light and shoots a canister at a speed of <m:math><m:semantics><m:mrow><m:mrow><m:mn>0.750</m:mn><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (a) At what velocity will an Earth-bound observer see the canister if it is shot directly towards the Earth? (b) If it is shot directly away from the Earth? (See <link target-id="fs-id893371"/>.)</para><figure id="fs-id893371"><media id="fs-id2985490" alt="In part a, a spaceship is moving towards the earth from left to right with a velocity v equals to zero point five zero times c. The spaceships shoots a canister towards earth with velocity u prime equals zero point seven five times c. A man stands stationary on earth observing. In part b, the spaceship shoots the canister away from earth with same velocity. In both the cases, the velocity of the ship is v equals 0 point five zero times c toward left.">
+        <image mime-type="image/jpg" src="../../media/Figure_29_04_05a.jpg" width="450"/>
+      </media>
+</figure><para id="import-auto-id1354822">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id2533066">Because the canister and the spaceship are moving at relativistic speeds, we must determine the speed of the canister by an Earth-bound observer using relativistic velocity addition instead of simple velocity addition.</para>
+    <para id="import-auto-id2984547">
+      <title>Solution for (a)</title>
+    </para>
+      <list id="fs-id1514878" list-type="enumerated" number-style="arabic"><item id="import-auto-id3108502">Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>v=</m:mtext></m:mrow></m:mstyle><m:mn>0.500</m:mn><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>;
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>0</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>750</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rSup { size 8{'} } = - 0 "." "750"c} {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id1673308">Identify the unknown. <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id2595191">Choose the appropriate equation. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>u=</m:mtext></m:mrow></m:mstyle><m:mfrac><m:mrow><m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi/><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></item>
+    <item id="import-auto-id3179032">Plug the knowns into the equation.
+<equation id="eip-609"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable columnalign="left">
+                    <m:mtr><m:mtd>
+                            <m:mi fontstyle="italic">u</m:mi></m:mtd>
+                            <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                          <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                              <m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mi>v</m:mi>
+                                  <m:mrow>
+                                    <m:mi>u</m:mi>
+<m:mo>′</m:mo>
+                                  </m:mrow>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mi>c</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr><m:mtd/> <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>0.500</m:mn>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>c +</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mn>0.750</m:mn>
+                            <m:mi>c</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>0.500</m:mn>
+                                <m:mi>c</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>0.750</m:mn>
+                                <m:mi>c</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mi>c</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr><m:mtd/><m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>1.250</m:mn>
+                            <m:mi>c</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>0.375</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr><m:mtd/><m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                      <m:mrow>
+                        <m:mn>0.909</m:mn>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>        </m:semantics>
+      </m:math>
+    </equation></item>   </list><para id="import-auto-id3079770">
+      <title>Solution for (b)</title>
+    </para>
+      <list id="fs-id2575724" list-type="enumerated" number-style="arabic"><item id="import-auto-id2693456">Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">v</m:mtext><m:mo>=</m:mo></m:mrow><m:mn>0.500</m:mn><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0.750</m:mn></m:mrow></m:mrow><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></item>
+    <item id="import-auto-id2689780">Identify the unknown. <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></item>
+    <item id="import-auto-id1745740">Choose the appropriate equation. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">u</m:mtext><m:mo>=</m:mo></m:mrow><m:mfrac><m:mrow><m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mrow><m:mtext fontstyle="italic">u</m:mtext><m:mo>′</m:mo></m:mrow></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></item>
+    <item id="import-auto-id2677611">Plug the knowns into the equation.
+    <equation id="eip-115"><m:math>
+        <m:semantics>
+          <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable columnalign="left">
+                    <m:mtr>
+                       <m:mtd>   <m:mi fontstyle="italic">u</m:mi></m:mtd><m:mtd><m:mo>=</m:mo></m:mtd>
+                      <m:mrow>
+<m:mfrac>
+                             <m:mrow> <m:mi fontstyle="italic">v+u</m:mi><m:mo>′</m:mo></m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mi>v</m:mi>
+                                <m:mi/>
+                                  <m:mrow>
+                                    <m:mi fontstyle="italic">u</m:mi><m:mo>′</m:mo>
+                                  </m:mrow>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mi>c</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr><m:mtd/>
+                       <m:mtd>   <m:mo>=</m:mo></m:mtd>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mn>0.500</m:mn>
+                              <m:mrow>
+                                <m:mi fontstyle="italic">c +</m:mi>
+                              </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>0.750</m:mn>
+                            <m:mi>c</m:mi>
+                            </m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>0.500</m:mn>
+                                <m:mi>c</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mrow>
+                                  <m:mo stretchy="false">(</m:mo>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>0.750</m:mn>
+                                </m:mrow>
+                                <m:mi>c</m:mi>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:msup>
+                                <m:mi>c</m:mi>
+
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr><m:mtd/>
+                       <m:mtd>   <m:mo>=</m:mo></m:mtd>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>0.250</m:mn>
+                            </m:mrow>
+                            <m:mi>c</m:mi>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>0.375</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr><m:mtd/>
+                       <m:mtd>   <m:mo>=</m:mo></m:mtd>
+                      <m:mrow><m:mo stretchy="false">−</m:mo>
+                        <m:mn>0.400</m:mn>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation></item></list><para id="import-auto-id1183675">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1628509">The minus sign indicates velocity away from the Earth (in the opposite direction from <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>), which means the canister is heading towards the Earth in part (a) and away in part (b), as expected. But relativistic velocities do not add as simply as they do classically. In part (a), the canister does approach the Earth faster, but not at the simple sum of  <m:math><m:semantics><m:mrow><m:mrow><m:mn>1.250</m:mn><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The total velocity is less than you would get classically. And in part (b), the canister moves away from the Earth at a velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0.400</m:mn><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, which is <emphasis effect="italics"><emphasis effect="italics">faster</emphasis></emphasis> than the <m:math><m:semantics><m:mrow><m:mrow><m:mn>−0.250</m:mn><m:mi>c</m:mi></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> you would expect classically. The velocities are not even symmetric. In part (a) the canister moves <m:math><m:semantics><m:mrow><m:mrow><m:mn>0.409</m:mn><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> faster than the ship relative to the Earth, whereas in part (b) it moves  <m:math><m:semantics><m:mrow><m:mrow><m:mn>0.900</m:mn><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> slower than the ship.</para></example></section>
+  <section id="fs-id2761415"><title>Doppler Shift</title>
+    <para id="import-auto-id1998681">Although the speed of light does not change with relative velocity, the frequencies and wavelengths of light do. First discussed for sound waves, a Doppler shift occurs in any wave when there is relative motion between source and observer.</para>
+    <note id="fs-id1956466"><label/><title>Relativistic Doppler Effects</title>
+
+    <para id="import-auto-id2633637">The observed wavelength of electromagnetic radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves towards the observer.</para>
+    <equation id="eip-158"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>=λ</m:mtext><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>=λ</m:mtext><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:msqrt><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:msqrt><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{"obs"} }  ital "=λ" rSub { size 8{s} }  sqrt { {  {1+ {  {u}  over  {c} } }  over  {1 -  {  {u}  over  {c} } } } } } {}</m:annotation></m:semantics></m:math></equation></note><para id="import-auto-id2506542">In the Doppler equation, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{"obs"} } } {}</m:annotation></m:semantics></m:math> is the observed wavelength, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the source wavelength, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> is the relative velocity of the source to the observer. The velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> is positive for motion away from an observer and negative for motion toward an observer. In terms of source frequency and observed frequency, this equation can be written</para>
+    <equation id="eip-73"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>=f</m:mtext><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:msqrt><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:msqrt><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{"obs"} }  ital "=f" rSub { size 8{s} }  sqrt { {  {1 -  {  {u}  over  {c} } }  over  {1+ {  {u}  over  {c} } } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2749641">Notice that the – and + signs are different than in the wavelength equation.</para>
+    <note id="fs-id1678414"><label/><title>Career Connection: Astronomer</title>
+     <para id="eip-id2719345">If you are interested in a career that requires a knowledge of special relativity, there’s probably no better connection than astronomy. Astronomers must take into account relativistic effects when they calculate distances, times, and speeds of black holes, galaxies, quasars, and all other astronomical objects. To have a career in astronomy, you need at least an undergraduate degree in either physics or astronomy, but a Master’s or doctoral degree is often required. You also need a good background in high-level mathematics.</para>
+    </note>
+    <example id="fs-id2961720"><title>Calculating a Doppler Shift: Radio Waves from a Receding Galaxy</title><para id="import-auto-id1341506">Suppose a galaxy is moving away from the Earth at a speed <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mtext>0.825</m:mtext>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow> </m:semantics>
+      </m:math>
+    . It emits radio waves with a wavelength of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>525</m:mtext><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "525"" m"} {}</m:annotation></m:semantics></m:math>. What wavelength would we detect on the Earth?</para><para id="import-auto-id2834232">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id2749308">Because the galaxy is moving at a relativistic speed, we must determine the Doppler shift of the radio waves using the relativistic Doppler shift instead of the classical Doppler shift.</para>
+    <para id="import-auto-id2003082">
+      <title>Solution</title>
+    </para>
+      <list id="fs-id1358705" list-type="enumerated" number-style="arabic"><item id="import-auto-id2647788">Identify the knowns. <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mstyle fontstyle="italic">
+                  <m:mrow>
+                    <m:mtext>u=</m:mtext>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mn>0</m:mn>
+                <m:mtext>.</m:mtext>
+                <m:mtext>825</m:mtext>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "u="0 "." "825"c} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>525</m:mtext><m:mspace width="0.25em"/><m:mi>m</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{s} } =0 "." "525"`m} {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id2512439">Identify the unknown. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{"obs"} } } {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id1290179">Choose the appropriate equation. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>=λ</m:mtext><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:msqrt><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{"obs"} }  ital "=λ" rSub { size 8{s} }  sqrt { {  {1+ {  {u}  over  {c} } }  over  {1 -  {  {u}  over  {c} } } } } } {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id1951392">Plug the knowns into the equation.
+    <equation id="eip-52"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left">
+<m:mtr><m:mtd>
+<m:msub><m:mi>λ</m:mi><m:mtext>obs</m:mtext></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo>
+</m:mtd>
+
+<m:mtd>
+<m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>λ</m:mtext><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:msqrt><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mi>u</m:mi><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/><m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0.525 m</m:mn><m:mo stretchy="false">)</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>825</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext> c</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>825</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext> c</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>c</m:mi></m:mfrac></m:mrow></m:mfrac></m:msqrt><m:mrow/></m:mrow></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/><m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mtext>1.70 m.</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation></item></list><para id="import-auto-id3180985">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1950309">Because the galaxy is moving away from the Earth, we expect the wavelengths of radiation it emits to be redshifted. The wavelength we calculated is 1.70 m, which is redshifted from the original wavelength of 0.525 m.</para>
+    </example><para id="import-auto-id1599132">The relativistic Doppler shift is easy to observe. This equation has everyday applications ranging from Doppler-shifted radar velocity measurements of transportation to Doppler-radar storm monitoring. In astronomical observations, the relativistic Doppler shift provides velocity information such as the motion and distance of stars.</para>
+    </section>
+    <exercise id="eip-254" type="check-understanding"><label/><title>Check Your Understanding</title><problem id="eip-id3353346"><para id="eip-id3353348">Suppose a space probe moves away from the Earth at a speed <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mtext>.</m:mtext>
+                <m:mtext>350</m:mtext>
+                <m:mi>c</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "350"c} {}</m:annotation>
+        </m:semantics>
+      </m:math>. It sends a radio wave message back to the Earth at a frequency of 1.50 GHz. At what frequency is the message received on the Earth?</para></problem>
+<solution id="eip-id2746595">
+    <equation id="eip-id2444465"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>f</m:mi>
+
+                      <m:mrow>
+                        <m:mtext>obs</m:mtext>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>=f</m:mtext>
+
+                          <m:mrow>
+                            <m:mi>s</m:mi>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mi>u</m:mi>
+                            <m:mi>c</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mi>u</m:mi>
+                            <m:mi>c</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:msqrt>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                  </m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>50 GHz</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>350</m:mtext>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext> c</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                            <m:mi>c</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>350</m:mtext>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext> c</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                            </m:mrow>
+                            <m:mi>c</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:msqrt>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>04 GHz</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{"obs"} }  ital "=f" rSub { size 8{s} }  sqrt { {  {1 -  {  {u}  over  {c} } }  over  {1+ {  {u}  over  {c} } } } } = \( 1 "." "50 GHz" \)  sqrt { {  {1 -  {  {0 "." "350" ital " c"}  over  {c} } }  over  {1+ {  {0 "." "350" ital " c"}  over  {c} } } } } =1 "." "04 GHz"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+</solution>    </exercise><section id="fs-id2507047" class="section-summary"><title>Section Summary</title><list id="fs-id2801138"><item id="import-auto-id1562297">With classical velocity addition, velocities add like regular numbers in one-dimensional motion: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">u=v+u</m:mtext><m:mrow><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "u=v+u" rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the velocity between two observers,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> is the velocity of an object relative to one observer, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math> is the velocity relative to the other observer.</item>
+    <item id="import-auto-id1618594">Velocities cannot add to be greater than the speed of light. Relativistic velocity addition describes the velocities of an object moving at a relativistic speed:
+<equation id="eip-373"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>u=</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mfrac>
+                      <m:mrow>
+                        <m:mtext fontstyle="italic">v+u</m:mtext><m:mo>′</m:mo>
+                      </m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mtext fontstyle="italic">u</m:mtext><m:mo>′</m:mo>
+                            </m:mrow>
+                        </m:mrow>
+                        <m:msup>
+                          <m:mi>c</m:mi>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation></item>
+    <item>An observer of electromagnetic radiation sees <term>relativistic Doppler effects</term> if the source of the radiation is moving relative to the observer. The wavelength of the radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves toward the observer. The shifted wavelength is described by the equation
+    <equation id="eip-823"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>λ</m:mi>
+
+                      <m:mrow>
+                        <m:mtext>obs</m:mtext>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>=λ</m:mtext>
+
+                          <m:mrow>
+                            <m:mi>s</m:mi>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:msqrt>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mi>u</m:mi>
+                          <m:mi>c</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:mi>u</m:mi>
+                          <m:mi>c</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{"obs"} }  ital "=λ" rSub { size 8{s} }  sqrt { {  {1+ {  {u}  over  {c} } }  over  {1 -  {  {u}  over  {c} } } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+   </equation><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{"obs"} } } {}</m:annotation></m:semantics></m:math> is the observed wavelength, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the source wavelength, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> is the relative velocity of the source to the observer.</item>
+ </list></section><section id="fs-id1583622" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1493354" type="conceptual-questions"><problem id="fs-id2990770">
+
+    <para id="import-auto-id1731914">Explain the meaning of the terms “red shift” and “blue shift” as they relate to the relativistic Doppler effect.</para>
+    </problem></exercise>
+    <exercise id="fs-id2679250" type="conceptual-questions"><problem id="fs-id3371148">
+
+    <para id="import-auto-id3102652">What happens to the relativistic Doppler effect when relative velocity is zero? Is this the expected result?</para>
+    </problem></exercise>
+    <exercise id="fs-id2683301" type="conceptual-questions"><problem id="fs-id2683302">
+
+    <para id="import-auto-id3444750">Is the relativistic Doppler effect consistent with the classical Doppler effect in the respect that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ rSub { size 8{"obs"} } } {}</m:annotation></m:semantics></m:math> is larger for motion away?</para>
+    </problem></exercise>
+    <exercise id="fs-id2209137" type="conceptual-questions"><problem id="fs-id1563241">
+
+    <para id="import-auto-id1566464">All galaxies farther away than about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6 </m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>ly</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" times "10" rSup { size 8{6} } `"ly"} {}</m:annotation></m:semantics></m:math> exhibit a red shift in their emitted light that is proportional to distance, with those farther and farther away having progressively greater red shifts. What does this imply, assuming that the only source of red shift is relative motion? (Hint: At these large distances, it is space itself that is expanding, but the effect on light is the same.)</para></problem></exercise>
+    </section>
+    <section id="fs-id1542037" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1357569" type="problem-exercises"><problem id="fs-id1591593">    <para id="import-auto-id2921716">Suppose a spaceship heading straight towards the Earth at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>750</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "750"c} {}</m:annotation></m:semantics></m:math> can shoot a canister at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "750"c} {}</m:annotation></m:semantics></m:math> relative to the ship. (a) What is the velocity of the canister relative to the Earth, if it is shot directly at the Earth? (b) If it is shot directly away from the Earth?</para></problem>
+<solution id="fs-id2594719">
+    <para id="import-auto-id3105149">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>909</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "909"c} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id2969179">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>400</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "400"c} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2601119" type="problem-exercises"><problem id="fs-id2601120">    <para id="import-auto-id1569340">Repeat the previous problem with the ship heading directly away from the Earth.</para>
+    </problem></exercise>
+    <exercise id="fs-id1512938" type="problem-exercises"><problem id="fs-id3083822">    <para id="import-auto-id3081399">If a spaceship is approaching the Earth at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.100</m:mn><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and a message capsule is sent toward it at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.100</m:mn><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math> relative to the Earth, what is the speed of the capsule relative to the ship?</para></problem>
+<solution id="fs-id2574346">
+    <para id="import-auto-id1780687">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>198</m:mtext>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "198"c} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1440845" type="problem-exercises"><problem id="fs-id2608940">    <para id="import-auto-id1551854">(a) Suppose the speed of light were only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>3000 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. A jet fighter moving toward a target on the ground at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>800 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> shoots bullets, each having a muzzle velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>1000 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. What are the bullets’ velocity relative to the target? (b) If the speed of light was this small, would you observe relativistic effects in everyday life? Discuss.</para></problem></exercise>
+    <exercise id="fs-id2835463" type="problem-exercises"><problem id="fs-id2835464">    <para id="import-auto-id3108581">If a galaxy moving away from the Earth has a speed of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1000 km/s</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1,"000"" m/s"} {}</m:annotation></m:semantics></m:math> and emits <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>656 nm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"656"" nm"} {}</m:annotation></m:semantics></m:math> light characteristic of hydrogen (the most common element in the universe). (a) What wavelength would we observe on the Earth? (b) What type of electromagnetic radiation is this? (c) Why is the speed of the Earth in its orbit negligible here?</para></problem>
+<solution id="fs-id704517">
+    <para id="import-auto-id3158554">a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>658 nm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"658""nm"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2703385">b) red</para>
+    <para id="import-auto-id2703387">c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">/</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>c</m:mtext><m:mo>=</m:mo></m:mrow></m:mstyle></m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>92</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v/ ital "c="9 "." "92" times "10" rSup { size 8{ - 5} } } {}</m:annotation></m:semantics></m:math> (negligible)</para></solution>
+    </exercise>
+    <exercise id="fs-id1945618" type="problem-exercises"><problem id="fs-id3068327">    <para id="import-auto-id2631462">A space probe speeding towards the nearest star moves at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "250"c} {}</m:annotation></m:semantics></m:math> and sends radio information at a broadcast frequency of 1.00 GHz. What frequency is received on the Earth?</para>
+    </problem></exercise>
+    <exercise id="fs-id1419574" type="problem-exercises"><problem id="fs-id2991825">    <para id="import-auto-id2750688">If two spaceships are heading directly towards each other at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>800</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "800"c} {}</m:annotation></m:semantics></m:math>, at what speed must a canister be shot from the first ship to approach the other at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>999</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "999"c} {}</m:annotation></m:semantics></m:math> as seen by the second ship?</para>
+    </problem>
+<solution id="fs-id2957396">
+    <para id="import-auto-id3227702">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>991</m:mtext>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "991"c} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id3255899" type="problem-exercises"><problem id="fs-id3255900">    <para id="import-auto-id3158163">Two planets are on a collision course, heading directly towards each other at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "250"c} {}</m:annotation></m:semantics></m:math>. A spaceship sent from one planet approaches the second at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>750</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "750"c} {}</m:annotation></m:semantics></m:math> as seen by the second planet. What is the velocity of the ship relative to the first planet?</para>
+    </problem></exercise>
+    <exercise id="fs-id2733177" type="problem-exercises"><problem id="fs-id2733178">    <para id="import-auto-id2644318">When a missile is shot from one spaceship towards another, it leaves the first at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>950</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "950"c} {}</m:annotation></m:semantics></m:math> and approaches the other at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>750</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "750"c} {}</m:annotation></m:semantics></m:math>. What is the relative velocity of the two ships?</para>
+    </problem>
+<solution id="fs-id1284198">
+    <para id="import-auto-id2991017"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo>−</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>696</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "696"c} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+    <exercise id="fs-id2753552" type="problem-exercises"><problem id="fs-id2753553">    <para id="import-auto-id3455646">What is the relative velocity of two spaceships if one fires a missile at the other at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.750</m:mn><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and the other observes it to approach at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.950</m:mn><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>?</para></problem></exercise>
+    <exercise id="fs-id2772904" type="problem-exercises"><problem id="fs-id2953177">    <para id="import-auto-id2558772">Near the center of our galaxy, hydrogen gas is moving directly away from us in its orbit about a black hole. We receive 1900 nm electromagnetic radiation and know that it was 1875 nm when emitted by the hydrogen gas. What is the speed of the gas?</para>
+    </problem>
+<solution id="fs-id2957807">
+    <para id="import-auto-id3039644">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>01324</m:mtext>
+                  <m:mi>c</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "01324" c} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2638027" type="problem-exercises"><problem id="fs-id1312533">    <para id="import-auto-id2988178">A highway patrol officer uses a device that measures the speed of vehicles by bouncing radar off them and measuring the Doppler shift. The outgoing radar has a frequency of 100 GHz and the returning echo has a frequency 15.0 kHz higher. What is the velocity of the vehicle? Note that there are two Doppler shifts in echoes. Be certain not to round off until the end of the problem, because the effect is small.</para>
+    </problem></exercise>
+    <exercise id="fs-id2651524" type="problem-exercises"><problem id="fs-id1612996">    <para id="import-auto-id1448672">Prove that for any relative velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> between two observers, a beam of light sent from one to the other will approach at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> (provided that <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is less than <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>, of course).</para>
+    </problem>
+<solution id="fs-id2721230">
+    <para id="import-auto-id2822242"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo><m:mspace width="0.25em"/></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, so</para><para id="import-auto-id2501716"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtable columnalign="left">
+                    <m:mtr><m:mtd>
+                            <m:mi>u</m:mi></m:mtd><m:mtd><m:mo>=</m:mo>   </m:mtd>
+
+                   <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>v+u</m:mtext><m:mo>′</m:mo>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mo stretchy="false">(</m:mo>
+                                </m:mrow>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>vu</m:mtext><m:mo>′/</m:mo>
+                                  </m:mrow>
+                                </m:mstyle>
+                                <m:msup>
+                                  <m:mi>c</m:mi>
+
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+
+                                </m:msup>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfrac>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfrac>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>v+c</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mo stretchy="false">(</m:mo>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mstyle fontstyle="italic">
+                                    <m:mrow>
+                                      <m:mtext>vc</m:mtext>
+                                    </m:mrow>
+                                  </m:mstyle>
+                                  <m:mo stretchy="false">/</m:mo>
+                                  <m:msup>
+                                    <m:mi>c</m:mi>
+
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>v+c</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mo stretchy="false">(</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mi>v</m:mi>
+                                <m:mo stretchy="false">/</m:mo>
+                                <m:mi>c</m:mi>
+                              </m:mrow>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                    <m:mtr><m:mtd/><m:mtd><m:mo>=</m:mo></m:mtd>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mi>c</m:mi>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mstyle fontstyle="italic">
+                                <m:mrow>
+                                  <m:mtext>v+c</m:mtext>
+                                </m:mrow>
+                              </m:mstyle>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>c+v</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+                          <m:mo stretchy="false">=</m:mo>
+
+                            <m:mi>c</m:mi>
+
+                        </m:mrow>
+                        <m:mrow/>
+                      </m:mrow>
+                    </m:mtr>
+                  </m:mtable>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{alignl { stack {
+ ital "u=" {  { ital "v+u'"}  over  {1+ \(  ital "vu""'/"c rSup { size 8{2} }  \) } } = {  { ital "v+c"}  over  {1+ \(  ital "vc"/c rSup { size 8{2} }  \) } } = {  { ital "v+c"}  over  {1+ \( v/c \) } }  {} #
+ {  {c \(  ital "v+c" \) }  over  { ital "c+v"} } = {underline  {c}}  {}
+} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id2996441" type="problem-exercises"><problem id="fs-id2996442">    <para id="import-auto-id2705921">Show that for any relative velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> between two observers, a beam of light projected by one directly away from the other will move away at the speed of light (provided that <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is less than <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>, of course).</para>
+    </problem></exercise>
+    <exercise id="fs-id1566424" type="problem-exercises"><problem id="fs-id1566425">    <para id="import-auto-id3142297">(a) All but the closest galaxies are receding from our own Milky Way Galaxy. If a galaxy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>12</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> ly</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"12" "." 0 times "10" rSup { size 8{9} } " ly"} {}</m:annotation></m:semantics></m:math> ly away is receding from us at 0.<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.900</m:mn><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, at what velocity relative to us must we send an exploratory probe to approach the other galaxy at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.990</m:mn><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, as measured from that galaxy? (b) How long will it take the probe to reach the other galaxy as measured from the Earth? You may assume that the velocity of the other galaxy remains constant. (c) How long will it then take for a radio signal to be beamed back? (All of this is possible in principle, but not practical.)</para></problem>
+<solution id="fs-id2905102">
+    <para id="import-auto-id3152049">a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>99947</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para><para id="import-auto-id3195462">b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>2064</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>11</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> y</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "2064" times "10" rSup { size 8{"11"} } " y"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3256118">c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>2058</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>11</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> y</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "2058" times "10" rSup { size 8{"11"} } " y"} {}</m:annotation></m:semantics></m:math> (all to sufficient digits to show effects)</para></solution>
+    </exercise>
+    </section>
+ </content>
+      <glossary>
+    <definition id="import-auto-id1780164"><term>classical velocity addition</term> <meaning id="fs-id1291443">the method of adding velocities when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mtext>&lt;&lt;</m:mtext><m:mi>c</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v"&lt;&lt;"c} {}</m:annotation></m:semantics></m:math>; velocities add like regular numbers in one-dimensional motion: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>=</m:mo><m:mi fontstyle="italic">v+u</m:mi><m:mrow><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the velocity between two observers, <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the velocity of an object relative to one observer, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the velocity relative to the other observer</meaning></definition>
+    <definition id="import-auto-id2608941">
+<term>relativistic velocity addition</term>
+<meaning id="fs-id3143898"> the method of adding velocities of an object moving at a relativistic speed: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>u=</m:mtext></m:mrow></m:mstyle><m:mfrac><m:mrow><m:mtext fontstyle="italic">v+u</m:mtext><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mi/><m:mrow><m:mtext fontstyle="italic">u</m:mtext><m:mo>′</m:mo></m:mrow></m:mrow><m:msup><m:mi>c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the relative velocity between two observers, <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> is the velocity of an object relative to one observer, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math> is the velocity relative to the other observer</meaning></definition>
+    <definition id="import-auto-id1502920">
+
+<term>relativistic Doppler effects</term> <meaning id="fs-id2687978">a change in wavelength of radiation that is moving relative to the observer; the wavelength of the radiation is longer (called a red shift) than that emitted by the source when the source moves away from the observer and shorter (called a blue shift) when the source moves toward the observer; the shifted wavelength is described by the equation
+<m:math>
+        <m:semantics>
+          <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>λ</m:mi>
+
+                      <m:mrow>
+                        <m:mtext>obs</m:mtext>
+                      </m:mrow>
+
+                  </m:msub>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>=λ</m:mtext>
+
+                          <m:mrow>
+                            <m:mi>s</m:mi>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:msqrt>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mi>u</m:mi>
+                          <m:mi>c</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:mi>u</m:mi>
+                          <m:mi>c</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mtext>obs</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the observed wavelength, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>λ</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the source wavelength, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the velocity of the source to the observer</meaning></definition>
+    </glossary>
+</document>

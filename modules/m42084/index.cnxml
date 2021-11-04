@@ -1,0 +1,583 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Centripetal Acceleration</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42084</md:content-id>
+  <md:title>Centripetal Acceleration</md:title>
+  <md:abstract><list>
+<item>Establish the expression for centripetal acceleration.</item>
+<item>Explain the centrifuge.</item>
+</list></md:abstract>
+  <md:uuid>96c50bd3-3f5f-42f6-8812-f3494e0f0888</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3008127">We know from kinematics that acceleration is a change in velocity, either in its magnitude or in its direction, or both. In uniform circular motion, the direction of the velocity changes constantly, so there is always an associated acceleration, even though the magnitude of the velocity might be constant. You experience this acceleration yourself when you turn a corner in your car. (If you hold the wheel steady during a turn and move at constant speed, you are in uniform circular motion.) What you notice is a sideways acceleration because you and the car are changing direction. The sharper the curve and the greater your speed, the more noticeable this acceleration will become. In this section we examine the direction and magnitude of that acceleration.</para><para id="import-auto-id2422195"><link target-id="import-auto-id1561888"/> shows an object moving in a circular path at constant speed. The direction of the instantaneous velocity is shown at two points along the path. Acceleration is in the direction of the change in velocity, which points directly toward the center of rotation (the center of the circular path). This pointing is shown with the vector diagram in the figure. We call the acceleration of an object moving in uniform circular motion (resulting from a net external force) the <term id="import-auto-id3108952">centripetal acceleration</term>(<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>); centripetal means “toward the center” or “center seeking.” </para><figure id="import-auto-id1561888"><media id="import-auto-id2595332" alt="The given figure shows a circle, with a triangle having vertices A B C made from the center to the boundry. A is at the center and B and C points are at the circle path. Lines A B and A C act as radii and B C is a chord. Delta theta is shown inside the triangle, and the arc length delta s and the chord length delta r are also given. At point B, velocity of object is shown as v one and at point C, velocity of object is shown as v two. Along the circle an equation is shown as delta v equals v sub 2 minus v sub 1.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_02_01a.jpg" width="250"/>
+      </media>
+
+    <caption>The directions of the velocity of an object at two different points are shown, and the change in velocity <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mtext mathvariant="bold">v</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv} {}</m:annotation></m:semantics></m:math> is seen to point directly toward the center of curvature. (See small inset.) Because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">a</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mtext mathvariant="bold">v</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> {a rSub { {c} } =Δv/Δt} {}</m:annotation></m:semantics></m:math>, the acceleration is also toward the center; <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">a</m:mtext><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is called centripetal acceleration. (Because <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δθ} {}</m:annotation></m:semantics></m:math> is very small, the arc length <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δs} {}</m:annotation></m:semantics></m:math> is equal to the chord length <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δr} {}</m:annotation></m:semantics></m:math> for small time differences.)</caption></figure><para id="import-auto-id723408">The direction of centripetal acceleration is toward the center of curvature, but what is its magnitude? Note that the triangle formed by the velocity vectors and the one formed by the radii <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δs} {}</m:annotation></m:semantics></m:math> are similar. Both the triangles ABC and PQR are isosceles triangles (two equal sides). The two equal sides of the velocity vector triangle are the speeds <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>v</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } =v rSub { size 8{2} } =v} {}</m:annotation></m:semantics></m:math>. Using the properties of two similar triangles, we obtain</para><equation id="eip-829"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mi>v</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">s</m:mi></m:mrow><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Δv}  over  {v} } = {  {Δs}  over  {r} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2588045">Acceleration is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">v</m:mi><m:mo stretchy="false">/</m:mo><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv/Δt} {}</m:annotation></m:semantics></m:math>, and so we first solve this expression for <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv} {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-0"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>v</m:mi><m:mi>r</m:mi></m:mfrac></m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">s</m:mi></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv= {  {v}  over  {r} } Δs"."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2398724">Then we divide this by <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>, yielding</para><equation id="eip-593"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mi>v</m:mi><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">s</m:mi></m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Δv}  over  {Δt} } = {  {v}  over  {r} }  times  {  {Δs}  over  {Δt} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3489731">Finally, noting that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">v</m:mi><m:mo stretchy="false">/</m:mo><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv/Δt=a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">s</m:mi><m:mo stretchy="false">/</m:mo><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>v</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δs/Δt=v} {}</m:annotation></m:semantics></m:math>, the linear or tangential speed, we see that the magnitude of the centripetal acceleration is</para><equation id="eip-684"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } ","} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2429569">which is the acceleration of an object in a circle of radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. So, centripetal acceleration is greater at high speeds and in sharp curves  (smaller radius), as you have noticed when driving a car. But it is a bit surprising that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is proportional to speed squared, implying, for example, that it is four times as hard to take a curve at 100 km/h than at 50 km/h. A sharp corner has a small radius, so that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is greater for tighter turns, as you have probably noticed.</para><para id="import-auto-id1425762">It is also useful to express <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> in terms of angular velocity. Substituting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">rω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=rω} {}</m:annotation></m:semantics></m:math> into the above expression, we find <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mi fontstyle="italic">rω</m:mi></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">rω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = left (rω right ) rSup { size 8{2} } /r=rω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. We can express the magnitude of centripetal acceleration using either of two equations:</para><equation id="eip-740"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow><m:mi/><m:mi>; </m:mi><m:mrow><m:mspace width="0.25em"/><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">rω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } `; a rSub { size 8{c} } =rω rSup { size 8{2} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3089950">Recall that the direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is toward the center. You may use whichever expression is more convenient, as illustrated in examples below.</para><para id="import-auto-id2441429">A <term id="import-auto-id3256561">centrifuge</term> (see <link target-id="import-auto-id3033074"/>b) is a rotating device used to separate specimens of different densities. High centripetal acceleration significantly decreases the time it takes for separation to occur, and makes separation possible with small samples. Centrifuges are used in a variety of applications in science and medicine, including the separation of single cell suspensions such as bacteria, viruses, and blood cells from a liquid medium and the separation of macromolecules, such as DNA and protein, from a solution. Centrifuges are often rated in terms of their centripetal acceleration relative to acceleration due to gravity <m:math><m:semantics><m:mrow><m:mrow><m:mtext>(</m:mtext><m:mi>g</m:mi><m:mtext>)</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>; maximum centripetal acceleration of several hundred thousand <m:math>
+ <m:semantics>
+  <m:mi>g</m:mi>
+ </m:semantics>
+</m:math> is possible in a vacuum. Human centrifuges, extremely large centrifuges, have been used to test the tolerance of astronauts to the effects of accelerations larger than that of Earth’s gravity.</para><example id="fs-id3386265">
+    <title>How Does the Centripetal Acceleration of a Car Around a Curve Compare with That Due to Gravity?</title>
+    <para id="import-auto-id3086245">What is the magnitude of the centripetal acceleration of a car following a curve of radius 500 m at a speed of 25.0 m/s (about 90 km/h)? Compare the acceleration with that due to gravity for this fairly gentle curve taken at highway speed. See <link target-id="import-auto-id3033074"/>(a).</para><para id="import-auto-id3079956">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id3358891">Because <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> are given, the first expression in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow><m:mi/><m:mi>; </m:mi><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">rω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } `; a rSub { size 8{c} } =rω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> is the most convenient to use.</para><para id="import-auto-id1447129">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id2057486">Entering the given values of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>25</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v="25" "." 0`"m/s"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>500 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r="500"} {}</m:annotation></m:semantics></m:math> into the first expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> gives</para><equation id="eip-122"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mtext>500 m</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } = {  { \( "25" "." 0" m/s" \)  rSup { size 8{2} } }  over  {"500 m"} } =1 "." "25"" m/s" rSup { size 8{2} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1816308">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1425882">To compare this with the acceleration due to gravity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>g</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>80</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g=9 "." 8`"m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, we take the ratio of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced><m:mo stretchy="false">/</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>128</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } /g= left (1 "." "25"`"m/s" rSup { size 8{2} }  right )/ left (9 "." "80"`"m/s" rSup { size 8{2} }  right )=0 "." "128"} {}</m:annotation></m:semantics></m:math>. Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>128 g</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } =0 "." "128"} {}</m:annotation></m:semantics></m:math> and is noticeable especially if you were not wearing a seat belt.</para></example>
+
+    <para id="import-auto-id2622363">
+      <figure id="import-auto-id3033074"><media id="import-auto-id1248074" alt="In figure a, a car shown from top is running on a circular road around a circular path. The center of the park is termed as the center of this circle and the distance from this point to the car is taken as radius r. The linear velocity is shown in perpendicular direction toward the front of the car, shown as v the centripetal acceleration is shown with an arrow pointed towards the center of rotation. In figure b, a centrifuge is shown an object of mass m is rotating in it at a constant speed. The object is at the distance equal to the radius, r, of the centrifuge. The centripetal acceleration is shown towards the center of rotation, and the velocity, v is shown perpendicular to the object in the clockwise direction.">
+          <image mime-type="image/jpg" src="../../media/Figure_07_02_02a.jpg" width="198"/>
+        </media>
+
+      <caption>(a) The car following a circular path at constant speed is accelerated perpendicular to its velocity, as shown. The magnitude of this centripetal acceleration is found in <link target-id="fs-id3386265"/>. (b) A particle of mass in a centrifuge is rotating at constant angular velocity . It must be accelerated perpendicular to its velocity or it would continue in a straight line. The magnitude of the necessary acceleration is found in <link target-id="fs-id2598952"/>.</caption></figure></para>
+       <example id="fs-id2598952">
+    <title>How Big Is the Centripetal Acceleration in an Ultracentrifuge?</title>
+    <para id="import-auto-id1410313">Calculate the centripetal acceleration of a point 7.50 cm from the axis of an <term id="import-auto-id2449410">ultracentrifuge</term> spinning at
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>7.5 × 10</m:mtext>
+    <m:mtext>4</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext> rev/min.</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+
+Determine the ratio of this acceleration to that due to gravity. See <link target-id="import-auto-id3033074"/>(b).</para><para id="import-auto-id3105981">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id3385601">The term rev/min stands for revolutions per minute. By converting this to radians per second, we obtain the angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>. Because <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is given, we can use the second expression in the equation
+
+   <m:math>
+    <m:semantics>
+     <m:mrow>
+
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:msub>
+           <m:mi>
+a
+           </m:mi>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mtext>
+c
+               </m:mtext>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msub>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+           <m:mfrac>
+            <m:mrow>
+             <m:msup>
+              <m:mi>
+v
+              </m:mi>
+              <m:mrow>
+                <m:mrow>
+                 <m:mrow>
+                  <m:mn>
+2
+                  </m:mn>
+                 </m:mrow>
+                </m:mrow>
+              </m:mrow>
+             </m:msup>
+            </m:mrow>
+            <m:mrow>
+             <m:mi>
+r
+             </m:mi>
+            </m:mrow>
+           </m:mfrac>
+          </m:mrow>
+         </m:mrow>
+         <m:mi>
+;
+         </m:mi><m:mspace width="0.25em"/>
+         <m:mrow>
+          <m:msub>
+           <m:mi>
+a
+           </m:mi>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mtext>
+c
+               </m:mtext>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msub>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:msup>
+           <m:mi mathvariant="italic">
+rω
+           </m:mi>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+2
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msup>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } `; a rSub { size 8{c} } =rω rSup { size 8{2} } } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>
+
+
+to calculate the centripetal acceleration.</para><para id="import-auto-id1140598">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id2849150">To convert    <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+7
+         </m:mn>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mtext>
+50
+          </m:mtext>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+4
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msup>
+         </m:mrow><m:mspace width="0.25em"/>
+         <m:mrow>
+          <m:mrow>
+           <m:mtext>
+rev
+           </m:mtext>
+          </m:mrow>
+          <m:mo stretchy="false">
+/
+          </m:mo>
+          <m:mrow>
+           <m:mtext>
+min
+           </m:mtext>
+          </m:mrow>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{7 "." "50" times "10" rSup { size 8{4} }   {"rev"} slash {"min"} } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math> to radians per second, we use the facts that one revolution is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2π</m:mn><m:mi/><m:mtext>rad</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2π`"rad"} {}</m:annotation></m:semantics></m:math> and one minute is 60.0 s. Thus,</para><equation id="eip-458"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo></m:mrow>
+
+<m:mtext>7.50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mtext>4</m:mtext></m:msup><m:mrow><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mfrac><m:mtext>rev</m:mtext><m:mtext>min</m:mtext></m:mfrac><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mspace width="0.25em"/><m:mtext>rad</m:mtext></m:mrow><m:mtext>1 rev</m:mtext></m:mfrac></m:mrow><m:mo stretchy="false">×</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mtext> min</m:mtext></m:mrow><m:mrow><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mtext>0 s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>7854</m:mtext></m:mrow><m:mtext> rad/s.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω="75","000"  {  {"rev"}  over  {"min"} }  times  {  {2π" rad"}  over  {"1 rev"} }  times  {  {1" min"}  over  {"60" "." "0 s"} } ="7850"" rad/s."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3191658">Now the centripetal acceleration is given by the second expression in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow><m:mi/><m:mi>; </m:mi><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">rω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } `; a rSub { size 8{c} } =rω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> as</para><equation id="eip-969"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">rω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } =rω rSup { size 8{2} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1926483">Converting 7.50 cm to meters and substituting known values gives</para>
+    <equation id="eip-576"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0750 m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>7854 rad/s</m:mtext><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>63</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = \( 0 "." "0750"" m" \)  \( "7850"" rad/s" \)  rSup { size 8{2} } =4 "." "62" times "10" rSup { size 8{6} } " m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2673973">Note that the unitless radians are discarded in order to get the correct units for centripetal acceleration. Taking the ratio of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> yields</para><equation id="eip-736"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mi>g</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>63</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>72</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {a rSub { size 8{c} } }  over  {g} } = {  {4 "." "62" times "10" rSup { size 8{6} } }  over  {9 "." "80"} } 4 "." "71" times "10" rSup { size 8{5} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id871156">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2604418">This last result means that the centripetal acceleration is 472,000 times as strong as <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>. It is no wonder that such high <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> centrifuges are called ultracentrifuges. The extremely large accelerations involved greatly decrease the time needed to cause the sedimentation of blood cells or other materials.</para></example>
+    <para id="import-auto-id2584043">Of course, a net external force is needed to cause any acceleration, just as Newton proposed in his second law of motion. So a net external force is needed to cause a centripetal acceleration. In <link document="m42086">Centripetal Force</link>, we will consider the forces involved in circular motion.</para><note id="eip-401" class="interactive"><title>Ladybug Motion 2D</title><para id="eip-id1169738009397">Learn about position, velocity and acceleration vectors. Move the ladybug by setting the position, velocity or acceleration, and see how the vectors change. Choose linear, circular or elliptical motion, and record and playback the motion to analyze the behavior.
+</para><figure id="eip-idm631437248">
+<media id="fs-id1167062339457" alt="This simulation allows you to adjust position, velocity, and acceleration of a ladybug.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28ladybug"/></media></figure></note><section id="fs-id2588123" class="section-summary"><title>Section Summary</title><list id="fs-id2407037"><item id="import-auto-id1963039">Centripetal acceleration <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>a</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is the acceleration experienced while in uniform circular motion. It always points toward the center of rotation. It is perpendicular to the linear velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and has the magnitude
+    <equation id="eip-440"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>c</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:msup>
+                        <m:mi>v</m:mi>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+                      <m:mi>r</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mi/>
+                  <m:mi>;</m:mi><m:mspace width="0.25em"/>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>a</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>c</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mi fontstyle="italic">rω</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+<m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a rSub { size 8{c} } = {  {v rSup { size 8{2} } }  over  {r} } `; a rSub { size 8{c} } =rω rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id2624755">The unit of centripetal acceleration is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m/s rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</item>
+</list></section><section id="fs-id2654169" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id1348631"><problem id="fs-id1386165">
+
+    <para id="import-auto-id1367961">Can centripetal acceleration change the speed of circular motion? Explain.</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id2601360" type="problems-exercises" class="problems-exercises">
+    <title>Problem Exercises</title>
+    <exercise id="fs-id2617114" type="problems-exercises"><problem id="fs-id3112760">    <para id="import-auto-id3055430">A fairground ride spins its occupants inside a flying saucer-shaped container. If the horizontal circular path the riders follow has an 8.00 m radius, at how many revolutions per minute will the riders be subjected to a centripetal acceleration whose magnitude is 1.50 times that due to gravity?</para></problem>
+<solution id="fs-id1216022">
+    <para id="import-auto-id2617925">12.9 rev/min</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id2936845" type="problems-exercises"><problem id="fs-id3177731">    <para id="import-auto-id1397785">A runner taking part in the 200 m dash must run around the end of a track that has a circular arc with a radius of curvature of 30 m. If he completes the 200 m dash in 23.2 s and runs at constant speed throughout the race, what is the magnitude of his centripetal acceleration as he runs the curved portion of the track?</para></problem></exercise>
+    <exercise id="fs-id3116567" type="problems-exercises"><problem id="fs-id1488579"><para id="import-auto-id2209974">Taking the age of Earth to be about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 times "10" rSup { size 8{9} } } {}</m:annotation></m:semantics></m:math> years and  assuming its orbital radius of
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+     <m:mn>1.5 ×</m:mn>
+     <m:msup>
+      <m:mtext>10</m:mtext>
+      <m:mrow>
+       <m:mn>11</m:mn>
+      </m:mrow>
+     </m:msup>
+    </m:mrow>
+   </m:mrow>
+  </m:mrow>
+  <m:annotation encoding="StarMath 5.0"> size 12{4 times "10" rSup { size 8{9} } } {}</m:annotation>
+ </m:semantics>
+ </m:math>
+m has not changed and is circular, calculate the approximate total distance Earth has traveled since its birth (in a frame of reference stationary with respect to the Sun).</para></problem>
+        <solution id="fs-id1362022"><para id="fs-id3401076"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>21</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {underline  {4 times "10" rSup { size 8{"21"} } " m"}} } {}</m:annotation></m:semantics></m:math></para></solution></exercise>
+        <exercise id="fs-id2688068" type="problems-exercises">
+          <problem id="fs-id1909383">
+            <para id="fs-id3354583">The propeller of a World War II fighter plane is 2.30 m in diameter. </para>
+            <para id="fs-id3007976">(a) What is its angular velocity in radians per second if it spins at 1200 rev/min?</para>
+            <para id="fs-id2970817">(b) What is the linear speed of its tip at this angular velocity if the plane is stationary on the tarmac?</para>
+            <para id="fs-id3047120">(c) What is the centripetal acceleration of the propeller tip under these conditions? Calculate it in meters per second squared and convert to multiples of <m:math>
+ <m:semantics>
+  <m:mi>g</m:mi>
+ </m:semantics>
+</m:math>.</para></problem></exercise>
+        <exercise id="fs-id2017206" type="problems-exercises"><problem id="fs-id2400941"><para id="fs-id2953765">An ordinary workshop grindstone has a radius of 7.50 cm and rotates at 6500 rev/min.</para>
+        <para id="fs-id1990575">(a) Calculate the magnitude of the centripetal acceleration at its edge in meters per second squared and convert it to multiples of
+<m:math>
+ <m:semantics>
+  <m:mi>g</m:mi>
+ </m:semantics>
+</m:math>.</para><para id="fs-id3122407">  (b) What is the linear speed of a point on its edge?</para></problem>
+          <solution id="fs-id2663512">
+
+<para id="fs-id3255120">a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">.</m:mo><m:mtext>47</m:mtext></m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>4</m:mtext></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 cdot "47"  times "10" rSup { size 8{"4"} } m/s rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>,
+ <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">.</m:mo><m:mtext>55</m:mtext></m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>3</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mi>g</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 cdot "55"  times "10" rSup { size 8{"3"} } g} {}</m:annotation></m:semantics></m:math></para><para id="eip-id2587151">b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>51</m:mn><m:mo stretchy="false">.</m:mo><m:mtext>1</m:mtext></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>s</m:mtext></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 cdot "75" m/s} {}</m:annotation></m:semantics></m:math></para></solution></exercise>
+            <exercise id="fs-id1474903" type="problems-exercises">
+              <problem id="fs-id1272517">
+                <para id="fs-id3424715">Helicopter blades withstand tremendous stresses. In addition to supporting the weight of a helicopter, they are spun at rapid rates and experience large centripetal accelerations, especially at the tip.</para>
+                <para id="fs-id3054343">(a) Calculate the magnitude of the centripetal acceleration at the tip of a 4.00 m long helicopter blade that rotates at 300 rev/min.</para><para id="fs-id3033654">(b) Compare the linear speed of the tip with the speed of sound (taken to be 340 m/s).</para>
+              </problem>
+            </exercise>
+               <exercise id="fs-id3224044" type="problems-exercises">
+                 <problem id="fs-id1514610">
+                   <para id="fs-id1004097">Olympic ice skaters are able to spin at about 5 rev/s.</para>
+                   <para id="fs-id3358931">(a) What is their angular velocity in radians per second?</para>
+               <para id="fs-id1355573">(b) What is the centripetal acceleration of the skater’s nose if it is 0.120 m from the axis of rotation?</para>
+               <para id="fs-id1947068">(c) An exceptional skater named Dick Button was able to spin much faster in the 1950s than anyone since—at about 9 rev/s. What was the centripetal acceleration of the tip of his nose, assuming it is at 0.120 m radius?</para>
+               <para id="fs-id2660662">(d) Comment on the magnitudes of the accelerations found. It is reputed that Button ruptured small blood vessels during his spins.</para>
+                   </problem>
+                   <solution id="fs-id2424073" type="problems-exercises">
+                   <para id="fs-id2056171">a) <m:math>
+ <m:semantics>
+  <m:mtext>31.4 rad/s</m:mtext>
+ </m:semantics>
+</m:math></para><para id="fs-id1921580">b) <m:math>
+ <m:semantics>
+  <m:mtext>118 m/s</m:mtext>
+ </m:semantics>
+</m:math></para><para id="fs-id2382113">c) <m:math>
+ <m:semantics>
+  <m:mtext>384 m/s</m:mtext>
+ </m:semantics>
+</m:math></para><para id="fs-id3121982">d)The centripetal acceleration felt by Olympic skaters is 12 times larger than the acceleration due to gravity. That’s quite a lot of acceleration in itself. The centripetal acceleration felt by Button’s nose was 39.2 times larger than the acceleration due to gravity. It is no wonder that he ruptured small blood vessels in his spins.</para>
+                   </solution>
+                 </exercise>
+                   <exercise id="fs-id3257966" type="problems-exercises">
+                     <problem id="fs-id1816930">
+                       <para id="fs-id2989950">What percentage of the acceleration at Earth’s surface is the acceleration due to gravity at the position of a satellite located 300 km above Earth?</para></problem>
+                     </exercise>
+                   <exercise id="fs-id1993714" type="problems-exercises">
+                     <problem id="fs-id1548317"><para id="fs-id3059556">Verify that the linear speed of an ultracentrifuge is about 0.50 km/s, and Earth in its orbit is about 30 km/s by calculating:</para>
+                  <para id="fs-id3138086">(a) The linear speed of a point on an ultracentrifuge 0.100 m from its center, rotating at 50,000 rev/min.</para>
+                  <para id="fs-id1595818">(b) The linear speed of Earth in its orbit about the Sun (use data from the text on the radius of Earth’s orbit and approximate it as being circular).</para>
+                     </problem>
+                     <solution id="fs-id2673216" type="problems-exercises">
+    <para id="import-auto-id2669804">a) 0.524 km/s</para>
+    <para id="import-auto-id3025746">b) 29.7 km/s</para>
+                     </solution>
+                     </exercise>
+                     <exercise id="fs-id2603647" type="problems-exercises">
+                       <problem id="fs-id1871721">
+                         <para id="fs-id2437458">A rotating space station is said to create “artificial gravity”—a loosely-defined term used for an acceleration that would be crudely similar to gravity. The outer wall of the rotating space station would become a floor for the astronauts, and centripetal acceleration supplied by the floor would allow astronauts to exercise and maintain muscle and bone strength more naturally than in non-rotating space environments. If the space station is 200 m in diameter, what angular velocity would produce an “artificial gravity” of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "80""m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> at the rim?</para></problem></exercise>
+                         <exercise id="fs-id3033187" type="problems-exercises"><problem id="fs-id1571753">
+                             <para id="fs-id2438423">At takeoff, a commercial jet has a 60.0 m/s speed. Its tires have a diameter of 0.850 m.</para>
+      <para id="fs-id1869365">(a) At how many rev/min are the tires rotating?</para>
+      <para id="fs-id1436140">(b) What is the centripetal acceleration at the edge of the tire?</para>
+      <para id="fs-id1486366">(c) With what force must a determined <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>15</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00" times "10" rSup { size 8{ - "15"} } } {}</m:annotation></m:semantics></m:math> bacterium cling to the rim?</para><para id="fs-id2400686">(d) Take the ratio of this force to the bacterium’s weight.</para>
+                             </problem>
+                             <solution id="fs-id2062788" type="problems-exercises">
+<para id="eip-id1168538769093">(a) <m:math>
+ <m:semantics>
+  <m:mrow>
+         <m:mtext>1.35</m:mtext>
+        <m:mo stretchy="false">×</m:mo>
+        <m:msup>
+         <m:mtext>10</m:mtext>
+         <m:mtext>3</m:mtext>
+        </m:msup>
+        <m:mspace width="0.25em"/>
+        <m:mtext>rpm</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="eip-id1168538769095">(b) <m:math>
+ <m:semantics>
+  <m:mrow>
+         <m:mtext>8.47</m:mtext>
+        <m:mo stretchy="false">×</m:mo>
+        <m:msup>
+         <m:mtext>10</m:mtext>
+         <m:mtext>3</m:mtext>
+        </m:msup>
+        <m:mspace width="0.25em"/>
+        <m:msup>
+         <m:mtext>m/s</m:mtext>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="eip-id1168538769097">(c) <m:math>
+ <m:semantics>
+  <m:mrow>
+         <m:mtext>8.47</m:mtext>
+        <m:mo stretchy="false">×</m:mo>
+        <m:msup>
+         <m:mtext>10</m:mtext>
+         <m:mtext>–12</m:mtext>
+        </m:msup>
+        <m:mspace width="0.25em"/>
+        <m:mtext>N</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="eip-id1168538769100">(d) <m:math>
+ <m:semantics>
+  <m:mrow>
+         <m:mtext>865</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para></solution></exercise><exercise id="fs-id1363119" type="problems-exercises"><problem id="fs-id2052918"><para id="fs-id1375950"><title>Integrated Concepts</title></para>
+                             <para id="fs-id1911278">Riders in an amusement park ride shaped like a Viking ship hung from a large pivot are rotated back and forth like a rigid pendulum. Sometime near the middle of the ride, the ship is momentarily motionless at the top of its circular arc. The ship then swings down under the influence of gravity.</para>
+                  <para id="fs-id1932647">(a) Assuming negligible friction, find the speed of the riders at the bottom of its arc, given the system's center of mass travels in an arc having a radius of 14.0 m and the riders are near the center of mass. </para><para id="fs-id1920371">(b) What is the centripetal acceleration at the bottom of the arc?</para><para id="fs-id3454986">(c) Draw a free body diagram of the forces acting on a rider at the bottom of the arc.</para><para id="fs-id3079092">(d) Find the force exerted by the ride on a 60.0 kg rider and compare it to her weight.</para><para id="eip-id1171510831484">(e) Discuss whether the answer seems reasonable.</para>
+                           </problem>
+                             <solution id="fs-id3229252">
+<para id="eip-id1168538749262">(a) <m:math>
+ <m:semantics>
+  <m:mrow>
+
+
+                          <m:mrow>
+                            <m:mtext> 16.6</m:mtext>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mrow>
+                            <m:mtext>m/s</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+ </m:semantics>
+</m:math></para><para id="import-auto-id2659125">(b) <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+                  <m:mrow>
+
+                      <m:mrow>
+
+                          <m:mrow>
+                            <m:mtext> 19.6</m:mtext>
+                          </m:mrow><m:mspace width="0.25em"/>
+                          <m:mrow>
+                            <m:mtext>m</m:mtext>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:msup>
+                              <m:mtext>s</m:mtext>
+
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                        </m:mrow>
+
+
+                  </m:mrow>
+
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{a \) " 16" cdot "6 " {m} slash {s} }  {} #
+ size 12{b \) " 19" cdot "6 " {m} slash {s rSup { size 8{2} } } }  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="import-auto-id2407806">(c) <media id="import-auto-id1861766" alt="A rectangle with a base longer than the height. A vertical line with arrowheads on both ends passes through the rectangle, bisecting the horizontal sides. The top of the arrow is labeled N, and the bottom is labeled w.">
+        <image mime-type="image/jpg" src="../../media/Figure_07_02_03a.jpg" width="150"/>
+      </media>
+</para><para id="import-auto-id3356295">(d) <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext> 1</m:mtext>
+                      <m:mo stretchy="false">.</m:mo>
+                      <m:mtext>76</m:mtext>
+                    </m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mrow>
+                    <m:mtext>N or 3</m:mtext>
+                    <m:mo stretchy="false">.</m:mo>
+                    <m:mtext>00 </m:mtext>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mi>w</m:mi>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{" 1" cdot "76" times "10" rSup { size 8{3} } " N or 3" cdot "00 "w} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    , that is, the normal force (upward) is three times her weight.</para><para id="import-auto-id3137362">(e) This answer seems reasonable, since she feels like she’s being forced into the chair MUCH stronger than just by gravity.</para></solution></exercise><exercise id="fs-id3170075" type="problems-exercises">
+     <problem id="fs-id1842848">
+       <para id="fs-id3034751"><title>Unreasonable Results</title></para>
+       <para id="fs-id1909775">A mother pushes her child on a swing so that his speed is 9.00 m/s at the lowest point of his path. The swing is suspended 2.00 m above the child’s center of mass.</para>
+      <para id="fs-id1471686">(a) What is the magnitude of the centripetal acceleration of the child at the low point?</para><para id="fs-id2383341">(b) What is the magnitude of the force the child exerts on the seat if his mass is 18.0 kg?</para><para id="fs-id3006542">(c) What is unreasonable about these results?</para>
+      <para id="fs-id3004371">(d) Which premises are unreasonable or inconsistent?</para>
+     </problem>
+     <solution id="fs-id3176552">
+        <para id="fs-id3103314">a)
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+     <m:mrow>
+      <m:mtext>40</m:mtext>
+      <m:mo stretchy="false">.</m:mo>
+      <m:mn>5</m:mn>
+     </m:mrow>
+     <m:mspace width="0.25em"/>
+     <m:mrow>
+      <m:mtext>m</m:mtext>
+      <m:mo stretchy="false">/</m:mo>
+      <m:msup>
+       <m:mtext>s</m:mtext>
+       <m:mrow>
+        <m:mn>2</m:mn>
+       </m:mrow>
+      </m:msup>
+     </m:mrow>
+    </m:mrow>
+   </m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="fs-id3180046">b) 905 N</para>
+    <para id="import-auto-id1985776">c) The force in part (b) is very large. The acceleration in part (a) is too much, about 4 g.</para><para id="import-auto-id2668617">d) The speed of the swing is too large. At the given velocity at the bottom of the swing, there is enough kinetic energy to send the child all the way over the top, ignoring friction.</para></solution></exercise>
+    </section>
+ </content>
+    <glossary>
+        <definition id="import-auto-id2577991"><term>centripetal acceleration</term> <meaning id="fs-id1549236">the acceleration of an object moving in a circle, directed toward the center</meaning></definition>
+            <definition id="import-auto-id2603595"><term>ultracentrifuge</term> <meaning id="fs-id1587970">a centrifuge optimized for spinning a rotor at very high speeds</meaning></definition>
+    </glossary>
+</document>

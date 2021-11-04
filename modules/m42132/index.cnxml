@@ -1,0 +1,812 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Further Applications of Newton’s Laws of Motion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42132</md:content-id>
+  <md:title>Further Applications of Newton’s Laws of Motion</md:title>
+  <md:abstract><list>
+<item>Apply problem-solving techniques to solve for quantities in more complex systems of forces.</item>
+<item>Integrate concepts from kinematics to solve problems using Newton's laws of motion.</item>
+</list></md:abstract>
+  <md:uuid>c372561e-08e8-41a1-ba72-9b4c00394c2d</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id2673208">There are many interesting applications of Newton’s laws of motion, a few more of which are presented in this section. These serve also to illustrate some further subtleties of physics and to help build problem-solving skills.</para>
+
+  <example id="fs-id2383966">
+      <title>Drag Force on a Barge</title>
+      <para id="import-auto-id1517248">Suppose two tugboats push on a barge at different angles, as shown in <link target-id="import-auto-id1221020"/>. The first tugboat exerts a force of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2.7</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." 7 times "10" rSup { size 8{5} } " N"} {}</m:annotation></m:semantics></m:math> in the <emphasis effect="italics">x</emphasis>-direction, and the second tugboat exerts a force of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3.6</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 6 times "10" rSup { size 8{5} } " N"} {}</m:annotation></m:semantics></m:math> in the <emphasis effect="italics">y</emphasis>-direction.</para><figure id="import-auto-id1221020"><media id="import-auto-id2935102" alt="(a) A view from above two tugboats pushing on a barge. One tugboat is pushing with the force F sub x equal to two point seven multiplied by ten to the power five newtons, shown by a vector arrow acting toward the right in the x direction. Another tugboat is pushing with a force F sub y equal to three point six multiplied by ten to the power five newtons acting upward in the positive y direction. Acceleration of the barge, a, is shown by a vector arrow directed fifty-three point one degree angle above the x axis. In the free-body diagram, F sub y is acting on a point upward, F sub x is acting toward the right, and F sub D is acting approximately southwest. (b) A right triangle is made by the vectors F sub x and F sub y. The base vector is shown by the force vector F sub x. and the perpendicular vector is shown by the force vector F sub y. The resultant is the hypotenuse of this triangle, making a fifty-three point one degree angle from the base, shown by the vector force F sub net pointing up the inclination. A vector F sub D points down the incline. ">
+          <image mime-type="image/jpg" src="../../media/Figure_04_07_01.jpg"/>
+        </media>
+
+      <caption>(a) A view from above of two tugboats pushing on a barge. (b) The free-body diagram for the ship contains only forces acting in the plane of the water. It omits the two vertical forces—the weight of the barge and the buoyant force of the water supporting it cancel and are not shown. Since the applied forces are perpendicular, the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axes are in the same direction as <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>. The problem quickly becomes a one-dimensional problem along the direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>, since friction is in the direction opposite to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1436125">If the mass of the barge is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>5.0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 times "10" rSup { size 8{6} } " kg"} {}</m:annotation></m:semantics></m:math> and its acceleration is observed to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>5</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "52" times "10" rSup { size 8{ - 2} } " m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> in the direction shown, what is the drag force of the water on the barge resisting the motion? (Note: drag force is a frictional force exerted by fluids, such as air or water. The drag force opposes the motion of the object.)</para><para id="import-auto-id3233982">
+        <title>Strategy</title>
+      </para>
+      <para id="import-auto-id1969804">The directions and magnitudes of acceleration and the applied forces are given in <link target-id="import-auto-id1221020"/><emphasis effect="bold">(a)</emphasis>. We will define the total force of the tugboats on the barge as <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math> so that:</para><para id="import-auto-id1909367"><equation id="eip-id1203757"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext mathvariant="bold">F</m:mtext>
+
+                        <m:mrow>
+                            <m:mrow>
+                              <m:mtext>app</m:mtext>
+
+                            </m:mrow>
+                        </m:mrow>
+
+                    </m:msub><m:mtext>=</m:mtext>
+
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext mathvariant="bold">F</m:mtext>
+
+                            <m:mrow>
+                              <m:mi mathvariant="italic">x</m:mi>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mrow>
+   <m:mo>+</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext mathvariant="bold"> F</m:mtext>
+
+                            <m:mrow>
+                              <m:mi mathvariant="italic">y</m:mi>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "app"} }  ital "= F" rSub { size 8{x} }  ital "+ F" rSub { size 8{y} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation></para><para id="import-auto-id2409507">Since the barge is flat bottomed, the drag of the water <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> will be in the direction opposite to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>, as shown in the free-body diagram in <link target-id="import-auto-id1221020"/>(b). The system of interest here is the barge, since the forces on <emphasis effect="italics">it</emphasis><emphasis effect="italics"/> are given as well as its acceleration. Our strategy is to find the magnitude and direction of the net applied force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>, and then apply Newton’s second law to solve for the drag force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1844688">
+        <title>Solution</title>
+      </para>
+      <para id="import-auto-id2591404">Since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> are perpendicular, the magnitude and direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math> are easily found. First, the resultant magnitude is given by the Pythagorean theorem:</para><para id="import-auto-id1844907"><equation id="eip-id2112578"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable columnalign="left">
+                  <m:mtr>
+<m:mtd>
+
+                              <m:msub>
+                                <m:mi>F</m:mi>
+                                        <m:mtext>app</m:mtext>
+                              </m:msub>
+
+</m:mtd><m:mtd>
+                              <m:mo stretchy="false">=</m:mo>
+
+</m:mtd><m:mtd>
+
+
+                            <m:mrow>
+<m:msqrt>
+                              <m:msubsup>
+                                <m:mtext>F</m:mtext>
+                                      <m:mi>x</m:mi>
+                                          <m:mn>2</m:mn>
+                              </m:msubsup>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msubsup>
+                                <m:mtext>F</m:mtext>
+                                      <m:mi>y</m:mi>
+                                          <m:mn>2</m:mn>
+                              </m:msubsup>
+</m:msqrt></m:mrow>
+</m:mtd>
+                  </m:mtr>
+                  <m:mtr><m:mtd>
+
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>F</m:mi>
+                                  <m:mtext>app</m:mtext>
+                        </m:msub></m:mrow>
+</m:mtd><m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd><m:mtd>
+
+
+<m:msqrt>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>2.7</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                              <m:mn>5</m:mn>
+                        </m:msup>
+                      </m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext> N</m:mtext>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mn>3.6</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                              <m:mn>5</m:mn>
+                        </m:msup>
+                      </m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext> N</m:mtext>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+
+</m:msqrt>
+</m:mtd><m:mtd>
+                       <m:mo stretchy="false">=</m:mo>
+</m:mtd><m:mtd>
+
+
+                        <m:mrow><m:mn>4.5</m:mn>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                              <m:mn>5</m:mn>
+                        </m:msup>
+                      </m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext> N.</m:mtext>
+                    </m:mtd>
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{F rSub { size 8{ ital "app"} } = \( F rSub { size 8{x}   rSup { size 8{2} } } + F rSub { size 8{y}   rSup { size 8{2} } }  \)  rSup { size 8{1/2} } }  {} #
+F rSub { size 8{ ital "app"} } = \(  \( 2 "." 7 times "10" rSup { size 8{5} } " N" \)  rSup { size 8{2} } +  \( 3 "." 6 times "10" rSup { size 8{5} } " N" \)  rSup { size 8{2} }  \)  rSup { size 8{1/2} } =4 "." "50" times "10" rSup { size 8{5} } " N" "."  {}
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math> </equation></para><para id="import-auto-id1381606">The angle is given by</para>
+      <para id="import-auto-id2591344"><equation id="eip-id3026466"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable columnalign="left">
+                  <m:mtr>
+
+<m:mtd>
+                              <m:mi>θ</m:mi>
+</m:mtd>
+<m:mtd>
+                              <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                              <m:msup>
+                                <m:mtext>tan</m:mtext>
+
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>1</m:mn>
+                                    </m:mrow>
+                                  </m:mrow>
+
+                              </m:msup>
+
+                            <m:mfenced open="(" close=")">
+                              <m:mfrac>
+                                <m:msub>
+                                  <m:mi>F</m:mi>
+
+                                    <m:mrow>
+                                      <m:mi>y</m:mi>
+                                    </m:mrow>
+
+                                </m:msub>
+                                <m:msub>
+                                  <m:mi>F</m:mi>
+
+                                    <m:mrow>
+                                      <m:mi>x</m:mi>
+                                    </m:mrow>
+
+                                </m:msub>
+                              </m:mfrac>
+                            </m:mfenced>
+                    </m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+
+<m:mtd>
+
+                        <m:mi>θ</m:mi>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:msup>
+                          <m:mtext>tan</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mfrac>
+                            <m:mrow>
+
+                              <m:mn>3.6</m:mn>
+
+                              <m:mrow>
+
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+
+                                    <m:mrow>
+                                      <m:mn>5</m:mn>
+                                    </m:mrow>
+
+                                </m:msup>
+                              </m:mrow><m:mspace width="0.25em"/>
+                              <m:mtext> N</m:mtext>
+
+                            </m:mrow>
+                            <m:mrow>
+
+                              <m:mn>2.7</m:mn>
+
+                              <m:mrow>
+
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+
+                                    <m:mrow>
+                                      <m:mn>5</m:mn>
+                                    </m:mrow>
+
+                                </m:msup>
+                              </m:mrow><m:mspace width="0.25em"/>
+                              <m:mtext> N</m:mtext>
+
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mfenced>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mtext>53º</m:mtext>
+                      </m:mrow>
+                      <m:mi>,</m:mi>
+                    </m:mtd>
+
+                  </m:mtr>
+                </m:mtable>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{θ="tan" rSup { size 8{ - 1} }  left ( {  {F rSub { size 8{y} } }  over  {F rSub { size 8{x} } } }  right )}  {} #
+θ="tan" rSup { size 8{ - 1} }  left ( {  { \( 2 "." 7 times "10" rSup { size 8{5} } " N" \) }  over  { \( 3 "." 6 times "10" rSup { size 8{5} } " N" \) } }  right )="53" "." 1°, {}
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation></para><para id="import-auto-id3179555">which we know, because of Newton’s first law, is the same direction as the acceleration. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> is in the opposite direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>, since it acts to slow down the acceleration. Therefore, the net external force is in the same direction as <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>, but its magnitude is slightly less than <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>. The problem is now one-dimensional. From <link target-id="import-auto-id1221020"/><emphasis effect="bold">(b)</emphasis>, we can see that</para><para id="import-auto-id2438119"><equation id="eip-id1624544"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } =F rSub { size 8{"app"} }  - F rSub { size 8{D} } } {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3047530">But Newton’s second law states that</para>
+      <para id="import-auto-id2928688"><equation id="eip-id1230866"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } = ital "ma"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3189600">Thus,</para>
+      <para id="import-auto-id1430307"><equation id="eip-id2268355"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} }  - F rSub { size 8{D} } = ital "ma"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id2588526">This can be solved for the magnitude of the drag force of the water <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> in terms of known quantities:</para><para id="import-auto-id2677835"><equation id="eip-id1464099"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } =F rSub { size 8{"app"} }  -  ital "ma"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3305491">Substituting known values gives</para>
+      <para id="import-auto-id1917379"><equation id="eip-id1715978"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>F</m:mtext><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>5</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>0</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>5</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>–2</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>5</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } = \( 4 "." "50" times "10" rSup { size 8{5} } " N" \)   -   \( 5 "." "00" times "10" rSup { size 8{6} } " kg" \)  \( 7 "." "50" times "10" rSup { size 8{"-2"} } " m/s" rSup { size 8{2} }  \) =7 "." "50" times "10" rSup { size 8{4} } " N"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id1596278">The direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> has already been determined to be in the direction opposite to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"app"} } } {}</m:annotation></m:semantics></m:math>, or at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>53º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"53" "." 1°} {}</m:annotation></m:semantics></m:math> south of west.</para><para id="import-auto-id1319463">
+        <title>Discussion</title>
+      </para>
+      <para id="import-auto-id1871331">The numbers used in this example are reasonable for a moderately large barge. It is certainly difficult to obtain larger accelerations with tugboats, and small speeds are desirable to avoid running the barge into the docks. Drag is relatively small for a well-designed hull at low speeds, consistent with the answer to this example, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> is less than 1/600th of the weight of the ship.</para></example>
+
+      <para id="import-auto-id2660794">In the earlier example of a tightrope walker we noted that the tensions in wires supporting a mass were equal only because the angles on either side were equal. Consider the following example, where the angles are not equal; slightly more trigonometry is involved.</para>
+
+      <example id="fs-id1348788">
+      <title>Different Tensions at Different Angles</title>
+      <para id="import-auto-id1941219">Consider the traffic light (mass 15.0 kg) suspended from two wires as shown in <link target-id="import-auto-id3051538"/>. Find the tension in each wire, neglecting the masses of the wires.</para>
+
+
+        <figure id="import-auto-id3051538"><media id="import-auto-id2682615" alt="A sketch of a traffic light suspended from two wires supported by two poles is shown. (b) Some forces are shown in this system. Tension T sub one pulling the top of the left-hand pole is shown by the vector arrow along the left wire from the top of the pole, and an equal but opposite tension T sub one is shown by the arrow pointing up along the left-hand wire where it is attached to the light; the wire makes a thirty-degree angle with the horizontal. Tension T sub two is shown by a vector arrow pointing downward from the top of the right-hand pole along the right-hand wire, and an equal but opposite tension T sub two is shown by the arrow pointing up along the right-hand wire, which makes a forty-five degree angle with the horizontal. The traffic light is suspended at the lower end of the wires, and its weight W is shown by a vector arrow acting downward. (c) The traffic light is the system of interest. Tension T sub one starting from the traffic light is shown by an arrow along the wire making an angle of thirty degrees with the horizontal. Tension T sub two starting from the traffic light is shown by an arrow along the wire making an angle of forty-five degrees with the horizontal. The weight W is shown by a vector arrow pointing downward from the traffic light. A free-body diagram is shown with three forces acting on a point. Weight W acts downward; T sub one and T sub two act at an angle with the vertical. (d) Forces are shown with their components T sub one y and T sub two y pointing vertically upward. T sub one x points along the negative x direction, T sub two x points along the positive x direction, and weight W points vertically downward. (e) Vertical forces and horizontal forces are shown separately. Vertical forces T sub one y and T sub two y are shown by vector arrows acting along a vertical line pointing upward, and weight W is shown by a vector arrow acting downward. The net vertical force is zero, so T sub one y plus T sub two y is equal to W. On the other hand, T sub two x is shown by an arrow pointing toward the right, and T sub one x is shown by an arrow pointing toward the left. The net horizontal force is zero, so T sub one x is equal to T sub two x.">
+		<image mime-type="image/jpg" src="../../media/Figure_04_07_02.jpg" width="475"/>
+	</media>
+	<caption>A traffic light is suspended from two wires. (b) Some of the forces involved. (c) Only forces acting on the system are shown here. The free-body diagram for the traffic light is also shown. (d) The forces projected onto vertical (<emphasis effect="italics">y</emphasis>) and horizontal (<emphasis effect="italics">x</emphasis>) axes. The horizontal components of the tensions must cancel, and the sum of the vertical components of the tensions must equal the weight of the traffic light. (e) The free-body diagram shows the vertical and horizontal forces acting on the traffic light.</caption></figure><para id="import-auto-id2391059">
+        <title>Strategy</title>
+      </para>
+      <para id="import-auto-id2659888">The system of interest is the traffic light, and its free-body diagram is shown in <link target-id="import-auto-id3051538"/>(c). The three forces involved are not parallel, and so they must be projected onto a coordinate system. The most convenient coordinate system has one axis vertical and one horizontal, and the vector projections on it are shown in part (d) of the figure. There are two unknowns in this problem (<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:msub>
+     <m:mi>T</m:mi>
+     <m:mrow>
+      <m:mn>1</m:mn>
+     </m:mrow>
+    </m:msub>
+   </m:mrow>
+   <m:mrow/>
+  </m:mrow>
+<m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>), so two equations are needed to find them. These two equations come from applying Newton’s second law along the vertical and horizontal axes, noting that the net external force is zero along each axis because acceleration is zero.</para><para id="import-auto-id1986637">
+        <title>Solution</title>
+      </para>
+      <para id="import-auto-id3178519">First consider the horizontal or <emphasis effect="italics">x</emphasis>-axis:</para><para id="import-auto-id760998"><equation id="eip-id2514755"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net </m:mtext><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>2</m:mtext><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>1</m:mtext><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net x"} } =T rSub { size 8{"2x"} }  - T rSub { size 8{"1x"} } =0} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id1419025">Thus, as you might expect,</para>
+      <para id="import-auto-id2679566"><equation id="eip-id2540452"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>1</m:mtext><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>2</m:mtext><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{"1x"} }  = T rSub { size 8{"2x"} } } {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id1996672">This gives us the following relationship between <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>:</para>
+      <para id="import-auto-id2604506"><equation id="eip-id2122298"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>30º</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>45º</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } "cos" \( "30"° \) =T rSub { size 8{2} } "cos" \( "45"° \) } {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3139151">Thus,</para>
+      <para id="import-auto-id3176056"><equation id="eip-id2577136"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>225</m:mtext><m:mo stretchy="false">)</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } = \( 1 "." "225" \) T rSub { size 8{1} } } {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id1403550">Note that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are not equal in this case, because the angles on either side are not equal. It is reasonable that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> ends up being greater than <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, because it is exerted more vertically than <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>.</para>
+      <para id="import-auto-id1945495">Now consider the force components along the vertical or <emphasis effect="italics">y</emphasis>-axis:</para><para id="import-auto-id1427838"><equation id="eip-id2308230"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net </m:mtext><m:mspace width="0.25em"/><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>1</m:mtext><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>2</m:mtext><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">−</m:mo><m:mi>w</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net y"} } =T rSub { size 8{"1y"} } +T rSub { size 8{"2y"} }  -  w=0} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id2442781">This implies</para>
+      <para id="import-auto-id3399848"><equation id="eip-id1339509"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>1</m:mtext><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>2</m:mtext><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>w</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{"1y"} } +T rSub { size 8{"2y"} } =w} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3175313">Substituting the expressions for the vertical components gives</para>
+      <para id="import-auto-id1848974"><equation id="eip-id1925561"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>30º</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>45º</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>w</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } "sin" \( "30"° \)  + T rSub { size 8{2} } "sin" \( "45"° \) =w} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3077230">There are two unknowns in this equation, but substituting the expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> in terms of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> reduces this to one equation with one unknown:</para>
+      <para id="import-auto-id1947422"><equation id="eip-id2259246"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>225</m:mtext><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>707</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mi>w</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} }  \( 0 "." "500" \) + \( 1 "." "225"T rSub { size 8{1} }  \)  \( 0 "." "707" \) =w= ital "mg"} {}</m:annotation></m:semantics><m:mo>,</m:mo></m:math></equation></para><para id="import-auto-id1413786">which yields</para>
+      <para id="import-auto-id1390130"><equation id="eip-id2556360"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>366</m:mtext></m:mrow></m:mfenced><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mtext>0 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (1 "." "366" right )T rSub { size 8{1} } = \( "15" "." "0 kg" \)  \( 9 "." "80 m/s" rSup { size 8{2} }  \) } {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3397744">Solving this last equation gives the magnitude of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/> to be</para>
+      <para id="import-auto-id1431108"><equation id="eip-id1747068"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>108 N</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } ="108"" N"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id2661337">Finally, the magnitude of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is determined using the relationship between them, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> = 1.225 <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, found above. Thus we obtain</para>
+      <para id="import-auto-id1614064"><equation id="eip-id1744019"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>132 N</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } ="132 N"} {}</m:annotation>
+          </m:semantics><m:mo>.</m:mo>
+        </m:math>
+      </equation></para><para id="import-auto-id1945834">
+        <title>Discussion</title>
+      </para>
+      <para id="import-auto-id2670363">Both tensions would be larger if both wires were more horizontal, and they will be equal if and only if the angles on either side are the same (as they were in the earlier example of a tightrope walker).</para>
+      </example>
+      <para id="import-auto-id1933271">The bathroom scale is an excellent example of a normal force acting on a body. It provides a quantitative reading of how much it must push upward to support the weight of an object. But can you predict what you would see on the dial of a bathroom scale if you stood on it during an elevator ride? Will you see a value greater than your weight when the elevator starts up? What about when the elevator moves upward at a constant speed: will the scale still read more than your weight at rest? Consider the following example.</para>
+
+  <example id="fs-id2654282">
+      <title>What Does the Bathroom Scale Read in an Elevator?</title>
+      <para id="import-auto-id3127757"><link target-id="import-auto-id347645"/> shows a 75.0-kg man (weight of about 165 lb) standing on a bathroom scale in an elevator. Calculate the scale reading: (a) if the elevator accelerates upward at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>20 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "20 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and (b) if the elevator moves upward at a constant speed of 1 m/s.</para><figure id="import-auto-id347645"><media id="import-auto-id2678543" alt="A person is standing on a bathroom scale in an elevator. His weight w is shown by an arrow pointing downward. F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. W sub s is the weight of the scale pointing vertically downward. W sub e is the weight of the elevator, shown by the broken arrow pointing vertically downward. F sub p is the force of the person on the scale, acting vertically downward. F sub t is the force of the scale on the floor of the elevator, pointing vertically downward, and N is the normal force of the floor on the scale, pointing upward. (b) The same person is shown on the scale in the elevator, but only a few forces are shown acting on the person, which is our system of interest. W is shown by an arrow acting downward, and F sub s is the force of the scale on the person, shown by a vector starting from his feet pointing vertically upward. The free-body diagram is also shown, with two forces acting on a point. F sub s acts vertically upward, and w acts vertically downward.">
+              <image mime-type="image/jpg" src="../../media/Figure 04_07_03a.jpg" width="550"/>
+            </media>
+
+          <caption>(a) The various forces acting when a person stands on a bathroom scale in an elevator. The arrows are approximately correct for when the elevator is accelerating upward—broken arrows represent forces too large to be drawn to scale. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant="bold">T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T}</m:annotation></m:semantics></m:math> is the tension in the supporting cable, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant="bold">w</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{w}</m:annotation></m:semantics></m:math> is the weight of the person, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">w</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{w rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the weight of the scale, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">w</m:mtext><m:mrow><m:mtext>e</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{w rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math> is the weight of the elevator, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the force of the scale on the person, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math> is the force of the person on the scale, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>t</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{t} } } {}</m:annotation></m:semantics></m:math> is the force of the scale on the floor of the elevator, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant="bold">N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N}</m:annotation></m:semantics></m:math> is the force of the floor upward on the scale. (b) The free-body diagram shows only the external forces acting on the designated system of interest—the person.</caption></figure><para id="import-auto-id3175384">
+        <title>Strategy</title>
+      </para>
+      <para id="import-auto-id2401336">If the scale is accurate, its reading will equal <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math>, the magnitude of the force the person exerts downward on it. <link target-id="import-auto-id347645"/>(a) shows the numerous forces acting on the elevator, scale, and person. It makes this one-dimensional problem look much more formidable than if the person is chosen to be the system of interest and a free-body diagram is drawn as in <link target-id="import-auto-id347645"/>(b). Analysis of the free-body diagram using Newton’s laws can produce answers to both parts (a) and (b) of this example, as well as some other questions that might arise. The only forces acting on the person are his weight <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">w</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{w} {}</m:annotation></m:semantics></m:math> and the upward force of the scale <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math>. According to Newton’s third law <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> are equal in magnitude and opposite in direction, so that we need to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> in order to find what the scale reads. We can do this, as usual, by applying Newton’s second law,</para><para id="import-auto-id3092572"><equation id="eip-id2548908"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } = ital "ma"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3122800">From the free-body diagram we see that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mi>w</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } =F rSub { size 8{s} }  - w} {}</m:annotation></m:semantics></m:math>, so that</para><para id="import-auto-id2682921"><equation id="eip-id2522872"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mi>w</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} }  - w= ital "ma"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3149528">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> gives an equation with only one unknown:</para><para id="import-auto-id2448613"><equation id="eip-id1957748"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi>w</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } = ital "ma"+w} {}</m:annotation></m:semantics><m:mo>,</m:mo></m:math></equation></para><para id="import-auto-id2640369">or, because <m:math><m:semantics><m:mrow><m:mi>w</m:mi><m:mo>=</m:mo><m:mi fontstyle="italic">mg</m:mi></m:mrow></m:semantics></m:math>, simply</para><para id="import-auto-id783604"><equation id="eip-id3507099"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } = ital "ma"+ ital "mg"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3356994">No assumptions were made about the acceleration, and so this solution should be valid for a variety of accelerations in addition to the ones in this exercise.</para>
+
+        <para id="import-auto-id1446881">
+        <title>Solution for (a)</title>
+      </para>
+      <para id="import-auto-id3062771">In this part of the problem, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1.20</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=1 "." "20"" m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, so that</para><para id="import-auto-id1890218"><equation id="eip-id1966528"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>75</m:mtext><m:mtext>.</m:mtext><m:mtext>0 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>20 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>75</m:mtext><m:mtext>.</m:mtext><m:mtext>0 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } = \( "75" "." "0 kg" \)  \( 1 "." "20 m/s" rSup { size 8{2} }  \) + \( "75" "." "0 kg" \)  \( 9 "." "80 m/s" rSup { size 8{2} }  \) } {}</m:annotation></m:semantics><m:mo>,</m:mo></m:math></equation></para><para id="import-auto-id2421681">yielding</para>
+      <para id="import-auto-id2660498"><equation id="eip-id1707818"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>25 N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } =8"25 N"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3025738">
+
+        <title>Discussion for (a)</title>
+      </para>
+      <para id="import-auto-id2616829">This is about 185 lb. What would the scale have read if he were stationary? Since his acceleration would be zero, the force of the scale would be equal to his weight:</para>
+      <para id="import-auto-id2616832"><equation id="eip-id2384618"><m:math>
+          <m:semantics>
+            <m:mrow>
+              <m:mrow>
+                <m:mtable columnalign="left">
+                  <m:mtr>
+<m:mtd>
+
+                                <m:msub>
+                                  <m:mi>F</m:mi>
+
+                                    <m:mrow>
+                                      <m:mtext>net</m:mtext>
+                                    </m:mrow>
+
+                                </m:msub>
+</m:mtd>
+<m:mtd>
+                                <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                                <m:mstyle fontstyle="italic">
+                                  <m:mrow>
+                                    <m:mtext>ma</m:mtext>
+                                  </m:mrow>
+                                </m:mstyle>
+
+
+                              <m:mo stretchy="false">=</m:mo>
+
+                              <m:mn>0</m:mn>
+
+
+                            <m:mo stretchy="false">=</m:mo>
+
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>F</m:mi>
+
+                                  <m:mrow>
+                                    <m:mtext>s</m:mtext>
+                                  </m:mrow>
+
+                              </m:msub>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mi>w</m:mi>
+                            </m:mrow>
+
+
+
+
+</m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+<m:mtd>
+                          <m:msub>
+                            <m:mi>F</m:mi>
+
+                              <m:mrow>
+                                <m:mtext>s</m:mtext>
+                              </m:mrow>
+
+                          </m:msub>
+</m:mtd>
+<m:mtd>
+                          <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                          <m:mi>w</m:mi>
+
+
+                        <m:mo stretchy="false">=</m:mo>
+
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>mg</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+
+</m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+<m:mtd>
+
+                        <m:msub>
+                          <m:mi>F</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>s</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">(</m:mo>
+
+                      <m:mtext>75.0 kg</m:mtext>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>9.</m:mn>
+                      <m:msup>
+                        <m:mtext>80 m/s</m:mtext>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+                      <m:mo stretchy="false">)</m:mo>
+
+</m:mtd>
+                  </m:mtr>
+                  <m:mtr>
+<m:mtd>
+
+                        <m:msub>
+                          <m:mi>F</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>s</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:mtext>735 N.</m:mtext>
+
+</m:mtd>
+                  </m:mtr>
+                </m:mtable>
+              </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{F rSub { size 8{"net"} } = ital "ma"=0=F rSub { size 8{s} }  - w}  {} #
+F rSub { size 8{s} } =w= ital "mg" {} #
+F rSub { size 8{s} } = \( "75" "." 0" kg" \)  \( 9 "." "80 m/s" rSup { size 8{2} }  \)  {} #
+F rSub { size 8{s} } ="735"" N" "."  {}
+} } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation></para><para id="import-auto-id3051286">So, the scale reading in the elevator is greater than his 735-N (165 lb) weight. This means that the scale is pushing up on the person with a force greater than his weight, as it must in order to accelerate him upward. Clearly, the greater the acceleration of the elevator, the greater the scale reading, consistent with what you feel in rapidly accelerating versus slowly accelerating elevators.</para>
+
+        <para id="import-auto-id2452922">
+        <title>Solution for (b)</title>
+      </para>
+      <para id="import-auto-id2659348">Now, what happens when the elevator reaches a constant upward velocity? Will the scale still read more than his weight? For any constant velocity—up, down, or stationary—acceleration is zero because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= {  {Δv}  over  {Δt} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv=0} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2929366">Thus,</para>
+      <para id="import-auto-id3091690"><equation id="eip-id2587837"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } = ital "ma"+ ital "mg"=0+ ital "mg"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id2678077">Now</para>
+      <para id="import-auto-id1517361"><equation id="eip-id1546720"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>75</m:mtext><m:mtext>.</m:mtext><m:mtext>0 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } = \( "75" "." "0 kg" \)  \( 9 "." "80 m/s" rSup { size 8{2} }  \) } {}</m:annotation></m:semantics><m:mo>,</m:mo></m:math></equation></para><para id="import-auto-id3094890">which gives</para>
+      <para id="import-auto-id3026210"><equation id="eip-id1499798"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>35 N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } =7"35 N"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id2677782">
+        <title>Discussion for (b)</title>
+      </para>
+      <para id="import-auto-id3122425">The scale reading is 735 N, which equals the person’s weight. This will be the case whenever the elevator has a constant velocity—moving up, moving down, or stationary.</para></example>
+      <para id="import-auto-id3098799">The solution to the previous example also applies to an elevator accelerating downward, as mentioned. When an elevator accelerates downward, <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> is negative, and the scale reading is <emphasis effect="italics">less</emphasis> than the weight of the person, until a constant downward velocity is reached, at which time the scale reading again becomes equal to the person’s weight. If the elevator is in free-fall and accelerating downward at <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>, then the scale reading will be zero and the person will <emphasis effect="italics">appear</emphasis> to be weightless.</para>
+
+  <section id="fs-id1517458">
+    <title>Integrating Concepts: Newton’s Laws of Motion and Kinematics </title>
+      <para id="import-auto-id2677992">Physics is most interesting and most powerful when applied to general situations that involve more than a narrow set of physical principles. Newton’s laws of motion can also be integrated with other concepts that have been discussed previously in this text to solve problems of motion. For example, forces produce accelerations, a topic of kinematics, and hence the relevance of earlier chapters. When approaching problems that involve various types of forces, acceleration, velocity, and/or position, use the following steps to approach the problem:</para>
+
+    <para id="import-auto-id3423090">
+        <emphasis>Problem-Solving Strategy</emphasis>
+      </para>
+<para id="eip-935">Step 1. <emphasis effect="italics">Identify which physical principles are involved</emphasis>. Listing the givens and the quantities to be calculated will allow you to identify the principles involved.
+<newline/>Step 2. <emphasis effect="italics">Solve the problem using strategies outlined in the text</emphasis>. If these are available for the specific topic, you should refer to them. You should also refer to the sections of the text that deal with a particular topic. The following worked example illustrates how these strategies are applied to an integrated concept problem.
+</para><example id="fs-id2653259">
+      <title>What Force Must a Soccer Player Exert to Reach Top Speed?</title>
+      <para id="import-auto-id3245365">A soccer player starts from rest and accelerates forward, reaching a velocity of 8.00 m/s in 2.50 s. (a) What was his average acceleration? (b) What average force did he exert backward on the ground to achieve this acceleration? The player’s mass is 70.0 kg, and air resistance is negligible.</para>
+
+        <para id="import-auto-id1569413">
+        <title>Strategy</title>
+        </para>
+      <list id="fs-id2382702" list-type="enumerated" number-style="arabic" class="stepwise"><item id="import-auto-id2956703"><emphasis effect="italics"/> To solve an <emphasis effect="italics">integrated concept problem</emphasis>, we must first identify the physical principles involved and identify the chapters in which they are found. Part (a) of this example considers <emphasis effect="italics">acceleration</emphasis> along a straight line. This is a topic of <emphasis effect="italics">kinematics</emphasis>. Part (b) deals with <emphasis effect="italics">force</emphasis>, a topic of <emphasis effect="italics">dynamics</emphasis> found in this chapter.</item>
+      <item id="import-auto-id3020678"><emphasis effect="italics"/> The following solutions to each part of the example illustrate how the specific problem-solving strategies are applied. These involve identifying knowns and unknowns, checking to see if the answer is reasonable, and so forth.</item>
+      </list>
+
+        <para id="import-auto-id2661615"><title>Solution for (a)</title></para>
+      <para id="import-auto-id3151402">We are given the initial and final velocities (zero and 8.00 m/s forward); thus, the change in velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>8.00 m/s</m:mn></m:mrow></m:mrow></m:semantics></m:math>. We are given the elapsed time, and so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2.50 s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=2 "." "50"" s"} {}</m:annotation></m:semantics></m:math>. The unknown is acceleration, which can be found from its definition:</para><para id="import-auto-id3127826"><equation id="eip-id1739294"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= {  {Δv}  over  {Δt} } } {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id2980122">Substituting the known values yields</para>
+      <para id="import-auto-id3008117"><equation id="eip-id2063281"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:mi>a</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+ <m:mfrac>
+  <m:mrow>
+   <m:mn>8.00 m/s</m:mn>
+  </m:mrow>
+  <m:mrow>
+   <m:mn>2</m:mn>
+   <m:mtext>.</m:mtext>
+   <m:mn>50 s</m:mn>
+  </m:mrow>
+ </m:mfrac></m:mtd></m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+ <m:mn>3</m:mn>
+ <m:mtext>.</m:mtext>
+ <m:msup>
+  <m:mtext>20 m/s</m:mtext>
+  <m:mrow>
+   <m:mn>2</m:mn>
+  </m:mrow>
+ </m:msup>
+ <m:mo>.</m:mo>
+</m:mtd>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation></para><para id="import-auto-id3358567">
+        <title>Discussion for (a)</title>
+      </para>
+      <para id="import-auto-id3077464">This is an attainable acceleration for an athlete in good condition.</para>
+
+        <para id="import-auto-id2666506">
+        <title>Solution for (b)</title>
+      </para>
+      <para id="import-auto-id2956626">Here we are asked to find the average force the player exerts backward to achieve this forward acceleration. Neglecting air resistance, this would be equal in magnitude to the net external force on the player, since this force causes his acceleration. Since we now know the player’s acceleration and are given his mass, we can use Newton’s second law to find the force exerted. That is,</para>
+      <para id="import-auto-id2956628"><equation id="eip-id1756199"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } = ital "ma"} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math></equation></para><para id="import-auto-id3149815">Substituting the known values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> gives</para>
+      <para id="import-auto-id2688937"><equation id="eip-id1351504"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mo stretchy="false">(</m:mo><m:mtext>70.0 kg</m:mtext><m:mo stretchy="false">)</m:mo>
+
+<m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>20 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mtd>
+</m:mtr><m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mtext> 224 N</m:mtext><m:mo>.</m:mo></m:mtd>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation></para><para id="import-auto-id2674277">
+        <title>Discussion for (b)</title>
+      </para>
+      <para id="import-auto-id2970796">This is about 50 pounds, a reasonable average force.</para>
+      <para id="import-auto-id2970798">This worked example illustrates how to apply problem-solving strategies to situations that include topics from different chapters. The first step is to identify the physical principles involved in the problem. The second step is to solve for the unknown using familiar problem-solving strategies. These strategies are found throughout the text, and many worked examples show how to use them for single topics. You will find these techniques for integrated concept problems useful in applications of physics outside of a physics course, such as in your profession, in other science disciplines, and in everyday life. The following problems will build your skills in the broad application of physical principles.</para>
+      </example>
+  </section>
+
+      <section id="fs-id1596051" class="section-summary">
+<title>Summary</title>
+<list id="fs-id2446096"><item id="import-auto-id1586681">Newton’s laws of motion can be applied in numerous situations to solve problems of motion.</item>
+      <item id="import-auto-id1586684">Some problems will contain multiple force vectors acting in different directions on an object. Be sure to draw diagrams, resolve all force vectors into horizontal and vertical components, and draw a free-body diagram. Always analyze the direction in which an object accelerates so that you can determine whether <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } = ital "ma"} {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } =0} {}</m:annotation></m:semantics></m:math> .</item>
+      <item id="import-auto-id3305501">The normal force on an object is not always equal in magnitude to the weight of the object. If an object is accelerating, the normal force will be less than or greater than the weight of the object. Also, if the object is on an inclined plane, the normal force will always be less than the full weight of the object.</item>
+      <item id="import-auto-id2653368">Some problems will contain various physical quantities, such as forces, acceleration, velocity, or position. You can apply concepts from kinematics and dynamics in order to solve these problems of motion.</item>
+      </list></section>
+
+      <section id="fs-id1549126" class="conceptual-questions" type="conceptual-questions">
+        <title>Conceptual Questions</title>
+      <exercise id="fs-id3109644" type="conceptual-questions"><problem id="fs-id3109646">
+      <para id="import-auto-id3090869">To simulate the apparent weightlessness of space orbit, astronauts are trained in the hold of a cargo aircraft that is accelerating downward at <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>. Why will they appear to be weightless, as measured by standing on a bathroom scale, in this accelerated frame of reference? Is there any difference between their apparent weightlessness in orbit and in the aircraft?</para>
+      </problem></exercise>
+
+      <exercise id="fs-id1449853" type="conceptual-questions"><problem id="fs-id3256198">
+      <para id="import-auto-id2980170">A cartoon shows the toupee coming off the head of an elevator passenger when the elevator rapidly stops during an upward ride. Can this really happen without the person being tied to the floor of the elevator? Explain your answer.</para>
+      </problem></exercise>
+ </section>
+
+      <section id="fs-id2678901" type="problems-exercises" class="problems-exercises">
+        <title>Problem Exercises</title>
+      <exercise id="fs-id2391286" type="problems-exercises"><problem id="fs-id2391288">
+        <para id="import-auto-id3177786">A flea jumps by exerting a force of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "20" times "10" rSup { size 8{ - 5} } " N"} {}</m:annotation></m:semantics></m:math> straight down on the ground. A breeze blowing on the flea parallel to the ground exerts a force of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>500</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "500" times "10" rSup { size 8{ - 6} } " N"} {}</m:annotation></m:semantics></m:math> on the flea. Find the direction and magnitude of the acceleration of the flea if its mass is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00" times "10" rSup { size 8{ - 7} } " kg"} {}</m:annotation></m:semantics></m:math>. Do not neglect the gravitational force.</para></problem>
+<solution id="fs-id1487097">
+      <para id="import-auto-id1579182"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>10.2</m:mtext><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext> m/s</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mtext>, 4.67º from vertical</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{"10" "." 2" m/s" rSup { size 8{2} } ", 4" "." "68"°" from vertical"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></solution>
+      </exercise>
+
+      <exercise id="fs-id1427030" type="problems-exercises"><problem id="fs-id2616590">
+        <para id="import-auto-id2449784">Two muscles in the back of the leg pull upward on the Achilles tendon, as shown in <link target-id="import-auto-id2667995"/>. (These muscles are called the medial and lateral heads of the gastrocnemius muscle.) Find the magnitude and direction of the total force on the Achilles tendon. What type of movement could be caused by this force?</para>
+      </problem></exercise>
+
+
+      <figure id="import-auto-id2667995"><media id="import-auto-id2667996" alt="An Achilles tendon is shown in the figure with two forces acting upward, one at an angle of plus twenty degrees, one at minus twenty degrees. F sub one, equal to two hundred newtons, is shown by a vector making an angle twenty degrees toward the right with the vertical, and F sub two, equal to two hundred newtons, is shown making an angle of twenty degrees left from the vertical.">
+          <image mime-type="image/jpg" src="../../media/Figure_04_07_04.jpg" width="150"/>
+        </media>
+
+      <caption>Achilles tendon</caption></figure><exercise id="fs-id2953749" type="problems-exercises"><problem id="fs-id2401285">
+        <para id="import-auto-id3093073">A 76.0-kg person is being pulled away from a burning building as shown in <link target-id="import-auto-id2677556"/>. Calculate the tension in the two ropes if the person is momentarily motionless. Include a free-body diagram in your solution.</para></problem>
+<solution id="fs-id2653393">
+
+
+      <media id="import-auto-id3076213" alt="An object of mass m is shown being pulled by two ropes. Tension T sub two acts toward the right at an angle of ten degrees above the horizontal. Another rope makes an angle fifteen degrees to the left of the vertical direction, and tension in the rope is T sub one, shown by a vector arrow. Weight w is acting vertically downward.">
+          <image mime-type="image/jpg" src="../../media/Figure_04_07_07.jpg" height="200"/>
+        </media>
+     <para id="import-auto-id2688927"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>T</m:mi>
+
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>736 N</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } ="736"" N"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para><para id="import-auto-id3176573">
+        <m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>T</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>194 N</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } ="194 N"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para>
+      </solution>
+      </exercise><figure id="import-auto-id2677556"><media id="import-auto-id2677557" alt="A lady is being pulled away from a burning building using a rope. She is in the middle of the rope; her weight is shown by a vector acting vertically downward. Tension, T sub one, acts upward through the left side of the rope, making an angle of fifteen degrees with the vertical. Tension T sub two acts through the right side of the rope, making an angle of ten degrees above the positive x axis.">
+          <image mime-type="image/jpg" src="../../media/Figure 04_07_08a.jpg" height="275"/>
+        </media>
+
+      <caption>The force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">T</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> needed to hold steady the person being rescued from the fire is less than her weight and less than the force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">T</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/> in the other rope, since the more vertical rope supports a greater part of her weight (a vertical force).
+        </caption></figure><exercise id="fs-id1486506" type="problems-exercises"><problem id="fs-id3036356">
+        <para id="import-auto-id2669706"><title>Integrated Concepts</title> A 35.0-kg dolphin decelerates from 12.0 to 7.50 m/s in 2.30 s to join another dolphin in play. What average force was exerted to slow him if he was moving horizontally? (The gravitational force is balanced by the buoyant force of the water.)</para>
+      </problem></exercise><exercise id="fs-id3078491" type="problems-exercises"><problem id="fs-id1614205">
+        <para id="import-auto-id3386347"><title>Integrated Concepts</title> When starting a foot race, a 70.0-kg sprinter exerts an average force of 650 N backward on the ground for 0.800 s. (a) What is his final speed? (b) How far does he travel?</para>
+      </problem>
+<solution id="fs-id1930138">
+      <para id="import-auto-id2640271">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7.43 m/s</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "43"" m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2670599">(b) 2.97 m</para>
+      </solution>
+      </exercise><exercise id="fs-id2441621" type="problems-exercises"><problem id="fs-id1446886">
+        <para id="import-auto-id3033810"><title>Integrated Concepts</title> A large rocket has a mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00" times "10" rSup { size 8{6} } " kg"} {}</m:annotation></m:semantics></m:math> at takeoff, and its engines produce a thrust of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "50" times "10" rSup { size 8{7} } " N"} {}</m:annotation></m:semantics></m:math>. (a) Find its initial acceleration if it takes off vertically. (b) How long does it take to reach a velocity of 120 km/h straight up, assuming constant mass and thrust? (c) In reality, the mass of a rocket decreases significantly as its fuel is consumed. Describe qualitatively how this affects the acceleration and time for this motion.</para></problem></exercise><exercise id="fs-id3065143" type="problems-exercises"><problem id="fs-id3065145">
+        <para id="import-auto-id3135183"><title>Integrated Concepts</title> A basketball player jumps straight up for a ball. To do this, he lowers his body 0.300 m and then accelerates through this distance by forcefully straightening his legs. This player leaves the floor with a vertical velocity sufficient to carry him 0.900 m above the floor. (a) Calculate his velocity when he leaves the floor. (b) Calculate his acceleration while he is straightening his legs. He goes from zero to the velocity found in part (a) in a distance of 0.300 m. (c) Calculate the force he exerts on the floor to do this, given that his mass is 110 kg.</para>
+      </problem>
+<solution id="fs-id3109737">
+      <para id="import-auto-id3091714">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4.20 m/s</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "20"" m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3253104">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>29.4 </m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"29" "." 4" m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2447579">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>31</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "31" times "10" rSup { size 8{3} } " N"} {}</m:annotation></m:semantics></m:math></para></solution>
+
+      </exercise><exercise id="fs-id3178018" type="problems-exercises"><problem id="fs-id2991158">
+        <para id="import-auto-id3355406"><title>Integrated Concepts</title> A 2.50-kg fireworks shell is fired straight up from a mortar and reaches a height of 110 m. (a) Neglecting air resistance (a poor assumption, but we will make it for this example), calculate the shell’s velocity when it leaves the mortar. (b) The mortar itself is a tube 0.450 m long. Calculate the average acceleration of the shell in the tube as it goes from zero to the velocity found in (a). (c) What is the average force on the shell in the mortar? Express your answer in newtons and as a ratio to the weight of the shell.</para>
+      </problem></exercise><exercise id="fs-id2963222" type="problems-exercises"><problem id="fs-id3253390">
+        <para id="import-auto-id3073354">
+        <title>Integrated Concepts</title> Repeat <link target-id="fs-id3178018"/> for a shell fired at an angle <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10.0º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°} {}</m:annotation></m:semantics></m:math> from the vertical.</para></problem>
+<solution id="fs-id3062924">
+      <para id="import-auto-id2448942">(a) 47.1 m/s</para>
+      <para id="import-auto-id2448944">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>47</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "47" times "10" rSup { size 8{3} } " m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3178526">(c)
+<m:math><m:semantics><m:mrow><m:mrow><m:mn>6.18</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mn>3</m:mn></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> </m:annotation></m:semantics></m:math>
+
+
+.  The average force is 252 times the shell’s weight.</para></solution>
+      </exercise><exercise id="fs-id3028228" type="problems-exercises"><problem id="fs-id3012359">
+        <para id="import-auto-id3035532"><title>Integrated Concepts</title> An elevator filled with passengers has a mass of 1700 kg. (a) The elevator accelerates upward from rest at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>20 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "20 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for 1.50 s. Calculate the tension in the cable supporting the elevator. (b) The elevator continues upward at constant velocity for 8.50 s. What is the tension in the cable during this time? (c) The elevator decelerates at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>600 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "600 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for 3.00 s. What is the tension in the cable during deceleration? (d) How high has the elevator moved above its original starting point, and what is its final velocity?</para>
+      </problem></exercise><exercise id="fs-id2670683" type="problems-exercises"><problem id="fs-id2670686">
+        <para id="import-auto-id2962435"><title>Unreasonable Results</title> (a) What is the final velocity of a car originally traveling at 50.0 km/h that decelerates at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>400 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "400 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for 50.0 s? (b) What is unreasonable about the result? (c) Which premise is unreasonable, or which premises are inconsistent?</para>
+      </problem></exercise><exercise id="fs-id1890360" type="problems-exercises"><problem id="fs-id1890362">
+        <para id="import-auto-id3010979"><title>Unreasonable Results</title> A 75.0-kg man stands on a bathroom scale in an elevator that accelerates from rest to 30.0 m/s in 2.00 s. (a) Calculate the scale reading in newtons and compare it with his weight. (The scale exerts an upward force on him equal to its reading.) (b) What is unreasonable about the result? (c) Which premise is unreasonable, or which premises are inconsistent?</para>
+      </problem></exercise></section>
+   </content>
+</document>

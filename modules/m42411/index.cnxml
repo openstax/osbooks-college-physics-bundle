@@ -1,0 +1,87 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+    <title>Back Emf</title>
+    <metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42411</md:content-id>
+  <md:title>Back Emf</md:title>
+  <md:abstract><list>
+<item>Explain what back emf is and how it is induced.</item>
+</list></md:abstract>
+  <md:uuid>e9e988ab-6940-444d-8879-b3cb9d3820eb</md:uuid>
+</metadata>
+
+<content>
+        <para id="import-auto-id1169736622182">It has been noted that motors and generators are very similar. Generators convert mechanical energy into electrical energy, whereas motors convert electrical energy into mechanical energy. Furthermore, motors and generators have the same construction. When the coil of a motor is turned, magnetic flux changes, and an emf (consistent with Faraday’s law of induction) is induced. The motor thus acts as a generator whenever its coil rotates. This will happen whether the shaft is turned by an external input, like a belt drive, or by the action of the motor itself. That is, when a motor is doing work and its shaft is turning, an emf is generated. Lenz’s law tells us the emf opposes any change, so that the input emf that powers the motor will be opposed by the motor’s self-generated emf, called the <term id="import-auto-id1169738200549">back emf</term> of the motor. (See <link target-id="import-auto-id1169737991643"/>.)</para>
+
+        <figure id="import-auto-id1169737991643"><media id="import-auto-id1169737870437" alt="Figure shows an electric circuit. The circuit has a cell represented as driving e m f of voltage one hundred and twenty volt is connected in series with a variable e m f source with a range of voltage from zero to one hundred twenty volts and a resistance R. The other end of resistance R is connected to an open switch. The switch is connected back to the Driving e m f cell.">
+            <image mime-type="image/jpg" src="../../media/Figure_24_06_01.jpg" width="225"/>
+        </media>
+
+       <caption>The coil of a DC motor is represented as a resistor in this schematic. The back emf is represented as a variable emf that opposes the one driving the motor. Back emf is zero when the motor is not turning, and it increases proportionally to the motor’s angular velocity.</caption></figure><para id="import-auto-id1169738131015">Back emf is the generator output of a motor, and so it is proportional to the motor’s angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>. It is zero when the motor is first turned on, meaning that the coil receives the full driving voltage and the motor draws maximum current when it is on but not turning. As the motor turns faster and faster, the back emf grows, always opposing the driving emf, and reduces the voltage across the coil and the amount of current it draws. This effect is noticeable in a number of situations. When a vacuum cleaner, refrigerator, or washing machine is first turned on, lights in the same circuit dim briefly due to the <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>I</m:mi>
+   <m:mi>R</m:mi>
+  </m:mrow>
+ </m:semantics>
+</m:math> drop produced in feeder lines by the large current drawn by the motor. When a motor first comes on, it draws more current than when it runs at its normal operating speed. When a mechanical load is placed on the motor, like an electric wheelchair going up a hill, the motor slows, the back emf drops, more current flows, and more work can be done. If the motor runs at too low a speed, the larger current can overheat it (via resistive power in the coil, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>R</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = I rSup { size 8{2} } R} {}</m:annotation></m:semantics></m:math>), perhaps even burning it out. On the other hand, if there is no mechanical load on the motor, it will increase its angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> until the back emf is nearly equal to the driving emf. Then the motor uses only enough energy to overcome friction.</para><para id="import-auto-id1169737818275">Consider, for example, the motor coils represented in <link target-id="import-auto-id1169737991643"/>. The coils have a <m:math><m:semantics><m:mrow><m:mrow><m:mtext>0.400</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA } {}</m:annotation></m:semantics></m:math> equivalent resistance and are driven by a 48.0 V emf. Shortly after being turned on, they draw a current <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>V/R</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>48</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)/</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>400</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>120</m:mtext></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I =  ital "V/R"= \( "48" "." 0`V \)  \( 0 "." "400"` %OMEGA  \) ="120"`A} {}</m:annotation></m:semantics></m:math> and, thus, dissipate <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>76</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>kW</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = I rSup { size 8{2} } R=5 "." "76"`"kW"} {}</m:annotation></m:semantics></m:math> of energy as heat transfer. Under normal operating conditions for this motor, suppose the back emf is 40.0 V. Then at operating speed, the total voltage across the coils is 8.0 V (48.0 V minus the 40.0 V back emf), and the current drawn is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>V/R</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>V</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">/(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>400</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>20</m:mtext></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I =  ital "V/R"= \( 8 "." 0`V \)  \( 0 "." "400"` %OMEGA  \) ="20"`A} {}</m:annotation></m:semantics></m:math>. Under normal load, then, the power dissipated is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>20</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>A</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>V</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>160</m:mtext></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>W</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV"= \( "20"`A \)  \( 8 "." 0`V \) ="160"`W} {}</m:annotation></m:semantics></m:math>. The latter will not cause a problem for this motor, whereas the former 5.76 kW would burn out the coils if sustained.</para><section id="fs-id1169737804196" class="section-summary"><title>Section Summary</title><list id="fs-id1169738150917">
+        <item id="import-auto-id1169737879782">Any rotating coil will have an induced emf—in motors, this is called back emf, since it opposes the emf input to the motor.</item>
+        </list>
+        </section><section id="fs-id1169737946201" class="conceptual-questions" type="conceptual-questions">
+        <title>Conceptual Questions</title>
+
+           <exercise id="fs-id1169738051900" type="conceptual-questions">
+               <problem id="fs-id1169737988090">
+        <para id="import-auto-id1169737764505">Suppose you find that the belt drive connecting a powerful motor to an air conditioning unit is broken and the motor is running freely. Should you be worried that the motor is consuming a great deal of energy for no useful purpose? Explain why or why not.</para>
+        </problem></exercise>
+        </section>
+
+        <section id="fs-id1169737910281" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1169737728029" type="problems-exercises">
+            <problem id="fs-id1169737818989">
+            <para id="import-auto-id1169737735216">Suppose a motor connected to a 120 V source draws 10.0 A when it first starts. (a) What is its resistance? (b) What current does it draw at its normal operating speed when it develops a 100 V back emf?</para>
+        </problem>
+<solution id="fs-id1169737819685">
+
+        <para id="eip-40">(a) <m:math><m:semantics><m:mrow><m:mn>12.00 Ω</m:mn></m:mrow></m:semantics></m:math></para><para id="import-auto-id1169738076654">(b) 1.67 A</para></solution>
+        </exercise>
+
+            <exercise id="fs-id1169738010283" type="problems-exercises">
+                <problem id="fs-id1169738110666">
+                    <para id="import-auto-id1169738084018">A motor operating on 240 V electricity has a 180 V back emf at operating speed and draws a 12.0 A current. (a) What is its resistance? (b) What current does it draw when it is first started?</para>
+        </problem></exercise>
+
+            <exercise id="fs-id1169737781410" type="problems-exercises">
+                <problem id="fs-id1169737918104">
+                    <para id="import-auto-id1169736863764">What is the back emf of a 120 V motor that draws 8.00 A at its normal speed and 20.0 A when first starting?</para>
+        </problem>
+<solution id="fs-id1169738088415">
+        <para id="import-auto-id1169738079877">72.0 V</para></solution>
+        </exercise>
+
+            <exercise id="fs-id1169737946132" type="problems-exercises">
+                <problem id="fs-id1169737724474">
+                    <para id="import-auto-id1169737785555">The motor in a toy car operates on 6.00 V, developing a 4.50 V back emf at normal speed. If it draws 3.00 A at normal speed, what current does it draw when starting?</para>
+        </problem></exercise>
+
+            <exercise id="fs-id1169737854685" type="problems-exercises">
+                <problem id="fs-id1169737790350">
+                    <para id="import-auto-id1169737710254"><title>Integrated Concepts</title></para>
+        <para id="eip-137">The motor in a toy car is powered by four batteries in series, which produce a total emf of 6.00 V. The motor draws 3.00 A and develops a 4.50 V back emf at normal speed. Each battery has a
+<m:math>
+ <m:semantics>
+  <m:mtext>0.100 Ω</m:mtext>
+ </m:semantics>
+</m:math>
+ internal resistance. What is the resistance of the motor?</para></problem>
+<solution id="fs-id1169737768658">
+        <para id="import-auto-id1169738211405"><m:math>
+ <m:semantics>
+  <m:mtext>0.100 Ω</m:mtext>
+ </m:semantics>
+</m:math></para></solution>
+        </exercise>
+        </section>
+     </content>
+    <glossary>
+        <definition id="import-auto-id1169736623193"><term>back emf</term> <meaning id="fs-id1169737785191">the emf generated by a running motor, because it consists of a coil turning in a magnetic field; it opposes the voltage powering the motor</meaning></definition>
+    </glossary>
+</document>

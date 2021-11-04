@@ -1,0 +1,556 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Variation of Pressure with Depth in a Fluid</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42192</md:content-id>
+  <md:title>Variation of Pressure with Depth in a Fluid</md:title>
+  <md:abstract><list>
+<item>Define pressure in terms of weight.</item>
+<item>Explain the variation of pressure with depth in a fluid.</item>
+<item>Calculate density given pressure and altitude.</item>
+</list></md:abstract>
+  <md:uuid>5f0b0e0e-e825-4aeb-9c8e-1f64a6942233</md:uuid>
+</metadata>
+
+<content>
+<para id="import-auto-id3063636">If your ears have ever popped on a plane flight or ached during a deep dive in a swimming pool, you have experienced the effect of depth on pressure in a fluid. At the Earth’s surface, the air pressure exerted on you is a result of the weight of air above you. This pressure is reduced as you climb up in altitude and the weight of air above you decreases. Under water, the pressure exerted on you increases with increasing depth. In this case, the pressure being exerted upon you is a result of both the weight of water above you <emphasis effect="italics">and</emphasis> that of the atmosphere above you. You may notice an air pressure change on an elevator ride that transports you many stories, but you need only dive a meter or so below the surface of a pool to feel a pressure increase. The difference is that water is much denser than air, about 775 times as dense.</para><para id="import-auto-id3138842">Consider the container in <link target-id="import-auto-id3190423"/>. Its bottom supports the weight of the fluid in it. Let us calculate the pressure exerted on the bottom by the weight of the fluid. That <term id="import-auto-id3285931">pressure</term> is the weight of the fluid <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mg"} {}</m:annotation></m:semantics></m:math> divided by the area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> supporting it (the area of the bottom of the container):</para>
+    <equation id="eip-764"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  { ital "mg"}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3402975">We can find the mass of the fluid from its volume and density:</para>
+    <equation id="eip-675"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">ρV</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=ρV} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2654916">The volume of the fluid <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is related to the dimensions of the container. It is</para>
+    <equation id="eip-958"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ah</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "Ah"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3245472">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the cross-sectional area and <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is the depth. Combining the last two equations gives</para>
+    <equation id="eip-476"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mi>ρ</m:mi></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ah</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=ρ ital "Ah"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3013599">If we enter this into the expression for pressure, we obtain</para>
+    <equation id="eip-58"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>ρ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ah</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfenced><m:mi>g</m:mi></m:mrow><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  { left (ρ ital "Ah" right )g}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3023111">The area cancels, and rearranging the variables yields</para><equation id="eip-232"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=hρg} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3355342">This value is the <emphasis effect="italics">pressure due to the weight of a fluid</emphasis>. The equation has general validity beyond the special conditions under which it is derived here. Even if the container were not there, the surrounding fluid would still exert this pressure, keeping the fluid static. Thus the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=hρg} {}</m:annotation></m:semantics></m:math> represents the pressure due to the weight of any fluid of <emphasis effect="italics">average density</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> at any depth <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> below its surface. For liquids, which are nearly incompressible, this equation holds to great depths. For gases, which are quite compressible, one can apply this equation as long as the density changes are small over the depth considered. <link target-id="fs-id1859777"/> illustrates this situation.</para><figure id="import-auto-id3190423"><media id="import-auto-id2401341" alt="A container with fluid filled to a depth h. The fluid’s weight w equal to m times g is shown by an arrow pointing downward. A denotes the area of the fluid at the bottom of the container and as well as on the surface.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_04_01a.jpg" width="225"/>
+      </media>
+
+    <caption>The bottom of this container supports the entire weight of the fluid in it. The vertical sides cannot exert an upward force on the fluid (since it cannot withstand a shearing force), and so the bottom must support it all.</caption></figure><example id="fs-id3077916"><title>Calculating the Average Pressure and Force Exerted: What Force Must a Dam Withstand?</title><para id="import-auto-id1004455">In <link document="m42187" target-id="fs-id2449267"/>, we calculated the mass of water in a large reservoir. We will now consider the pressure and force acting on the dam retaining water. (See <link target-id="import-auto-id1421128"/>.) The dam is 500 m wide, and the water is 80.0 m deep at the dam. (a) What is the average pressure on the dam due to the water? (b) Calculate the force exerted against the dam and compare it with the weight of water in the dam (previously found to be <m:math><m:semantics><m:mrow><m:mn>1.96</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>13</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:semantics></m:math>).</para><para id="import-auto-id3138002"><title>Strategy for (a)</title>
+    </para>
+        <para id="import-auto-id3138003">The average pressure <m:math><m:semantics><m:mrow><m:mover>
+<m:mi>P</m:mi>
+<m:mo>¯</m:mo>
+</m:mover></m:mrow></m:semantics></m:math>
+ due to the weight of the water is the pressure at the average depth <m:math><m:semantics><m:mrow><m:mover>
+<m:mi>h</m:mi>
+<m:mo>¯</m:mo>
+</m:mover></m:mrow></m:semantics></m:math>
+ of 40.0 m, since pressure increases linearly with depth.</para><para id="import-auto-id3138004"><title>Solution for (a)</title></para>
+            <para id="import-auto-id3138072">The average pressure due to the weight of a fluid is</para>
+    <equation id="eip-260"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover>
+<m:mi>P</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+<m:mo stretchy="false">=</m:mo><m:mover><m:mi fontstyle="italic">h</m:mi><m:mo>¯</m:mo>
+</m:mover><m:mi>ρg</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=hρg} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2682623">Entering the density of water from <link document="m42187" target-id="fs-id1769034"/> and taking <m:math><m:semantics><m:mrow><m:mrow><m:mover>
+<m:mi>h</m:mi>
+<m:mo>¯</m:mo>
+</m:mover>
+</m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> to be the average depth of 40.0 m, we obtain</para><equation id="eip-346"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:mover accent="true">
+                              <m:mi>P</m:mi>
+                              <m:mo>¯</m:mo>
+                            </m:mover></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mtext>40.0 m</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+
+                              </m:msup>
+<m:mspace width="0.25em"/>
+                              <m:mfrac>
+                                <m:mtext>kg</m:mtext>
+                                <m:msup>
+                                  <m:mtext>m</m:mtext>
+
+                                    <m:mrow>
+                                      <m:mn>3</m:mn>
+                                    </m:mrow>
+
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>9.80</m:mn><m:mspace width="0.25em"/>
+                              <m:mfrac>
+                                <m:mtext>m</m:mtext>
+                                <m:msup>
+                                  <m:mtext>s</m:mtext>
+
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                </m:msup>
+                              </m:mfrac>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                  <m:mrow>
+                    <m:mrow>
+
+                      <m:mn>3.92</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+
+                          <m:mrow>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+                    </m:mrow>
+                  <m:mspace width="0.25em"/>
+                    <m:mrow>
+                      <m:mfrac>
+                        <m:mtext>N</m:mtext>
+                        <m:msup>
+                          <m:mtext>m</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mfrac>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>392 kPa.</m:mtext>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1921710"><title>Strategy for (b)</title></para>
+        <para id="import-auto-id3138005">The force exerted on the dam by the water is the average pressure times the area of contact:</para>
+    <equation id="eip-49"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mi>P</m:mi><m:mo>¯</m:mo></m:mover></m:mrow><m:mi>A</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= {overline  {P}} A} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1506883"><title>Solution for (b)</title></para>
+        <para id="import-auto-id3138027">We have already found the value for <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>P</m:mi><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {P}}} {}</m:annotation></m:semantics></m:math>. The area of the dam is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>80.0 m</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:mtext>500 m</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4.00</m:mn></m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A="80" "." 0`m times "500"`m=4 "." "00" times "10" rSup { size 8{4} } `m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, so that</para><equation id="eip-208"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                            <m:mi>F</m:mi></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mn>3.92</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mn>5</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                        <m:mspace width="0.25em"/>
+                          <m:msup>
+                            <m:mtext>N/m</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>4.00</m:mn>
+                          <m:mrow>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mn>4</m:mn>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                        <m:mspace width="0.25em"/>
+                          <m:msup>
+                            <m:mtext>m</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/><m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                  <m:mrow>
+                    <m:mrow>
+
+                      <m:mn>1.57</m:mn>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mtext>10</m:mtext>
+                          </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                <m:mspace width="0.25em"/>
+                    <m:mtext>N.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{F= \( 3 "." "92" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} }  \)  \( 4 "." "00" times "10" rSup { size 8{4} } `m rSup { size 8{2} }  \) }  {} #
+"    "=1 "." "57" times "10" rSup { size 8{"10"} } `N "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3170348"><title>Discussion</title> </para>
+        <para id="import-auto-id3138006">Although this force seems large, it is small compared with the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.96</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>13</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "96" times "10" rSup { size 8{"13"} } `N} {}</m:annotation></m:semantics></m:math> weight of the water in the reservoir—in fact, it is only
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.0800%</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math> of the weight. Note that the pressure found in part (a) is completely independent of the width and length of the lake—it depends only on its average depth at the dam. Thus the force depends only on the water’s average depth and the dimensions of the dam, <emphasis effect="italics">not</emphasis> on the horizontal extent of the reservoir. In the diagram, the thickness of the dam increases with depth to balance the increasing force due to the increasing pressure.epth to balance the increasing force due to the increasing pressure.</para></example><figure id="import-auto-id1421128"><media id="import-auto-id3077267" alt="A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_04_02a.jpg"/>
+      </media>
+
+    <caption>The dam must withstand the force exerted against it by the water it retains. This force is small compared with the weight of the water behind the dam.</caption></figure><para id="import-auto-id3180776"><emphasis effect="italics">Atmospheric pressure</emphasis> is another example of pressure due to the weight of a fluid, in this case due to the weight of <emphasis effect="italics">air</emphasis> above a given height. The atmospheric pressure at the Earth’s surface varies a little due to the large-scale flow of the atmosphere induced by the Earth’s rotation (this creates weather “highs” and “lows”).  However, the average pressure at sea level is given by the <emphasis effect="italics">standard atmospheric pressure</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{"atm"} } } {}</m:annotation></m:semantics></m:math>, measured to be</para><equation id="eip-820"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>1 atmosphere (atm)</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mtext>atm</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1.01</m:mn></m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mrow><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mtext>101 kPa</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`"atmosphere"` \( "atm" \) =P rSub { size 8{"atm"} } =1 "." "01" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } ="101"`"kPa"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3093611">This relationship means that, on average, at sea level, a column of air above <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> of the Earth’s surface has a weight of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.01</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "01" times "10" rSup { size 8{5} } `N} {}</m:annotation></m:semantics></m:math>, equivalent to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>1 atm</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. (See <link target-id="import-auto-id2963597"/>.)</para><figure id="import-auto-id2963597"><media id="import-auto-id3149722" alt="Figure shows a column of air exerting a weight of one point zero one times ten to the power five newtons on a rectangular patch of ground of one square meter cross section.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_04_03a.jpg" width="250"/>
+      </media>
+
+    <caption>Atmospheric pressure at sea level averages <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>01</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext>Pa</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "01" times "10" rSup { size 8{5} } `"Pa"} {}</m:annotation></m:semantics></m:math> (equivalent to 1 atm), since the column of air over this <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/>
+<m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, extending to the top of the atmosphere, weighs <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>01</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "01" times "10" rSup { size 8{5} } " N"} {}</m:annotation></m:semantics></m:math>.</caption></figure><example id="fs-id1859777">
+    <title>Calculating Average Density: How Dense Is the Air?</title>
+    <para id="import-auto-id3163354">Calculate the average density of the atmosphere, given that it extends to an altitude of 120 km. Compare this density with that of air listed in <link document="m42187" target-id="fs-id1769034"/>.</para><para id="import-auto-id1024451"><title>Strategy</title></para>
+        <para id="import-auto-id3193247">
+        If we solve <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=hρg} {}</m:annotation></m:semantics></m:math> for density, we see that</para>
+    <equation id="eip-302"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>ρ</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>P</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hg</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {ρ}}= {  {P}  over  { ital "hg"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1318946">We then take <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> to be atmospheric pressure, <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is given, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> is known, and so we can use this to calculate <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>ρ</m:mi><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {ρ}}} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2448707"><title>Solution</title></para>
+        <para id="import-auto-id2448708">Entering known values into the expression for <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>ρ</m:mi><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {ρ}}} {}</m:annotation></m:semantics></m:math> yields</para><equation id="eip-566"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>ρ</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>01</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>120</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mspace width="0.25em"/>
+<m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>59</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:msup><m:mtext>kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {ρ}}= {  {1 "." "01" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } }  over  { \( "120" times "10" rSup { size 8{3} } `m \)  \( 9 "." "80"`"m/s" rSup { size 8{2} }  \) } } =8 "." "59" times "10" rSup { size 8{ - 2} } `"kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1473680"><title>Discussion</title></para>
+        <para id="import-auto-id3137002">This result is the average density of air between the Earth’s surface and the top of the Earth’s atmosphere, which essentially ends at 120 km. The density of air at sea level is given in <link document="m42187" target-id="fs-id1769034"/> as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>29</m:mtext><m:mspace width="0.25em"/>
+<m:msup><m:mtext>kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "29"`"kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> —about 15 times its average value. Because air is so compressible, its density has its highest value near the Earth’s surface and declines rapidly with altitude.</para></example>
+    <example id="fs-id2937185">
+    <title>Calculating Depth Below the Surface of Water: What Depth of Water Creates the Same Pressure as the Entire Atmosphere?</title>
+    <para id="import-auto-id2594601">Calculate the depth below the surface of water at which the pressure due to the weight of the water equals 1.00 atm.</para>
+    <para id="import-auto-id3385046"><title>Strategy</title></para>
+        <para id="import-auto-id2458707">We begin by solving the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=hρg} {}</m:annotation></m:semantics></m:math> for depth <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math>:</para>
+    <equation id="eip-319"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>P</m:mi><m:mi fontstyle="italic">ρg</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h= {  {P}  over  {ρg} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3225884">Then we take <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> to be 1.00 atm and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> to be the density of the water that creates the pressure.</para>
+    <para id="import-auto-id3407492"><title>Solution</title></para>
+        <para id="import-auto-id2448757">Entering the known values into the expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> gives</para>
+    <equation id="eip-169"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>01</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:msup><m:mtext>kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mspace width="0.25em"/>
+<m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>3</m:mn><m:mspace width="0.25em"/>
+<m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h= {  {1 "." "01" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } }  over  { \( 1 "." "00" times "10" rSup { size 8{3} } `"kg/m" rSup { size 8{3} }  \)  \( 9 "." "80"`"m/s" rSup { size 8{2} }  \) } } ="10" "." 3`m} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3229238"><title>Discussion</title></para>
+        <para id="import-auto-id2449707">Just 10.3 m of water creates the same pressure as 120 km of air. Since water is nearly incompressible, we can neglect any change in its density over this depth.</para>
+    </example><para id="eip-341">What do you suppose is the <emphasis effect="italics">total</emphasis> pressure at a depth of 10.3 m in a swimming pool? Does the atmospheric pressure on the water’s surface affect the pressure below? The answer is yes. This seems only logical, since both the water’s weight and the atmosphere’s weight must be supported. So the <emphasis effect="italics">total</emphasis> pressure at a depth of 10.3 m is 2 atm—half from the water above and half from the air above. We shall see in <link document="m42193">Pascal’s Principle</link> that fluid pressures always add in this way.</para>
+<section id="fs-id2382465" class="section-summary"><title>Section Summary</title><list id="fs-id1380989">
+    <item id="import-auto-id1355895">Pressure is the weight of the fluid <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mg"} {}</m:annotation></m:semantics></m:math> divided by the area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> supporting it (the area of the bottom of the container):
+    <equation id="eip-998"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  { ital "mg"}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id1871393">Pressure due to the weight of a liquid is given by
+    <equation id="eip-992"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">hρg</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P=hρg} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2397103">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is the pressure, <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is the height of the liquid, <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the density of the liquid, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> is the acceleration due to gravity.</para></item>
+        </list>
+    </section><section id="fs-id2591082" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id3073220" type="conceptual-questions"><problem id="fs-id1599362">
+
+    <para id="import-auto-id1941212">Atmospheric pressure exerts a large force (equal to the weight of the atmosphere above your body—about 10 tons) on the top of your body when you are lying on the beach sunbathing. Why are you able to get up?</para>
+    </problem></exercise>
+        <exercise id="fs-id2598964" type="conceptual-questions"><problem id="fs-id3068855">
+
+    <para id="import-auto-id2932557">Why does atmospheric pressure decrease more rapidly than linearly with altitude?</para>
+    </problem></exercise>
+        <exercise id="fs-id3045581" type="conceptual-questions"><problem id="fs-id1381125">
+
+    <para id="import-auto-id3398661">What are two reasons why mercury rather than water is used in barometers?</para>
+    </problem></exercise>
+        <exercise id="fs-id1381740" type="conceptual-questions"><problem id="fs-id2673263">
+
+    <para id="import-auto-id1184286"><link target-id="import-auto-id1195914"/> shows how sandbags placed around a leak outside a river levee can effectively stop the flow of water under the levee. Explain how the small amount of water inside the column formed by the sandbags is able to balance the much larger body of water behind the levee.</para>
+
+    <figure id="import-auto-id1195914"><media id="import-auto-id3358938" alt="The figure shows a flooding river on the extreme right, with a levee set up on its left, and sandbags are stacked on the left of the levee. The height of the levee and that of the stacked sandbags is greater than the water level of the flooding river, so the water does not flow over their tops, but a leak under the levee allows some water to flow under it and reach the sandbags.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_04_04a.jpg" width="300"/>
+      </media>
+
+    <caption>Because the river level is very high, it has started to leak under the levee. Sandbags are placed around the leak, and the water held by them rises until it is the same level as the river, at which point the water there stops rising.</caption></figure></problem></exercise>
+    <exercise id="fs-id1868222" type="conceptual-questions"><problem id="fs-id1941760">
+
+    <para id="import-auto-id2591382">Why is it difficult to swim under water in the Great Salt Lake?</para>
+    </problem></exercise>
+
+        <exercise id="eip-29" type="conceptual-questions"><problem id="eip-180">
+  <para id="eip-616">
+    Is there a net force on a dam due to atmospheric pressure? Explain your answer.
+  </para>
+</problem>
+
+</exercise><exercise id="fs-id3042305" type="conceptual-questions"><problem id="fs-id2661264">
+
+    <para id="import-auto-id3396320">Does atmospheric pressure add to the gas pressure in a rigid tank? In a toy balloon? When, in general, does atmospheric pressure <emphasis effect="italics">not</emphasis> affect the total pressure in a fluid?</para>
+    </problem></exercise>
+        <exercise id="fs-id1355852" type="conceptual-questions"><problem id="fs-id1411966">
+
+    <para id="import-auto-id2399056">You can break a strong wine bottle by pounding a cork into it with your fist, but the cork must press directly against the liquid filling the bottle—there can be no air between the cork and liquid. Explain why the bottle breaks, and why it will not if there is air between the cork and liquid. </para>
+    </problem></exercise>
+    </section><section id="fs-id2692789" type="problems-exercises" class="problems-exercises">
+        <title>Problems &amp; Exercises</title>
+    <exercise id="fs-id3210042" type="problems-exercises"><problem id="fs-id1132389">    <para id="import-auto-id2669106">What depth of mercury creates a pressure of 1.00 atm?</para>
+    </problem>
+<solution id="fs-id3256630">
+    <para id="import-auto-id2929916">0.760 m</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id3358416" type="problems-exercises"><problem id="fs-id3416345">    <para id="import-auto-id3123820">The greatest ocean depths on the Earth are found in the Marianas Trench near the Philippines. Calculate the pressure due to the ocean at the bottom of this trench, given its depth is 11.0 km and assuming the density of seawater is constant all the way down.</para>
+    </problem></exercise>
+        <exercise id="fs-id1844231" type="problems-exercises"><problem id="fs-id3098820">    <para id="import-auto-id2405922">Verify that the SI unit of <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">hρg</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{hρg} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+    </problem>
+            <solution id="fs-id2682488" type="problems-exercises">
+    <equation id="eip-id2128366"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                          <m:msub>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+
+                                  <m:mrow>
+                                    <m:mi>h</m:mi><m:mi>ρ</m:mi>
+                                  </m:mrow>
+
+                                <m:mi>g</m:mi>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mrow>
+                              <m:mtext>units</m:mtext>
+                            </m:mrow>
+                          </m:msub></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mtext>m</m:mtext>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mfenced open="(" close=")">
+                          <m:msup>
+                            <m:mtext>kg/m</m:mtext>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mfenced>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:msup>
+                              <m:mtext>m/s</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mfenced>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mtext>kg</m:mtext>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:msup>
+                                  <m:mtext>m</m:mtext>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mo stretchy="false">/</m:mo>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:msup>
+                                  <m:mtext>m</m:mtext>
+                                  <m:mrow>
+                                    <m:mn>3</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                                <m:mo stretchy="false">⋅</m:mo>
+                                <m:msup>
+                                  <m:mtext>s</m:mtext>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+
+                        <m:mtext>kg</m:mtext>
+                        <m:mo stretchy="false">⋅</m:mo>
+                        <m:msup>
+                          <m:mtext>m/s</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mfenced open="(" close=")">
+                      <m:msup>
+                        <m:mtext>1/m</m:mtext>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mfenced>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext>N/m</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+
+</equation></solution>
+    </exercise><exercise id="fs-id1842837" type="problems-exercises"><problem id="fs-id1994592">    <para id="import-auto-id1992787">Water towers store water above the level of consumers for times of heavy use, eliminating the need for high-speed pumps. How high above a user must the water level be to create a gauge pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>?</para></problem></exercise>
+        <exercise id="fs-id1931094" type="problems-exercises"><problem id="fs-id2591053">    <para id="import-auto-id969834">The aqueous humor in a person’s eye is exerting a force of 0.300 N on the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>10</m:mtext><m:msup><m:mtext>-cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "10""-cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> area of the cornea. (a) What pressure is this in mm Hg? (b) Is this value within the normal range for pressures in the eye?</para>
+    </problem>
+<solution id="fs-id2663132">
+    <para id="import-auto-id3012804">(a) 20.5 mm Hg</para>
+    <para id="import-auto-id2697600">(b) The range of pressures in the eye is 12–24 mm Hg, so the result in part (a) is within that range</para></solution>
+    </exercise>
+        <exercise id="fs-id2611667" type="problems-exercises"><problem id="fs-id3354443">    <para id="import-auto-id2057652">How much force is exerted on one side of an 8.50 cm by 11.0 cm sheet of paper by the atmosphere? How can the paper withstand such a force?</para>
+    </problem></exercise>
+        <exercise id="fs-id2437095" type="problems-exercises"><problem id="fs-id2407601">    <para id="import-auto-id2443510">What pressure is exerted on the bottom of a 0.500-m-wide by 0.900-m-long gas tank that can hold 50.0 kg of gasoline by the weight of the gasoline in it when it is full?</para>
+    </problem>
+<solution id="fs-id1927493">
+    <para id="import-auto-id2033856"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>09</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+<m:mspace width="0.25em"/>
+
+                  <m:msup>
+                    <m:mtext>N/m</m:mtext>
+
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+
+                  </m:msup>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "09" times "10" rSup { size 8{3} } `"N/m" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+        <exercise id="fs-id1917152" type="problems-exercises"><problem id="fs-id3023125">    <para id="import-auto-id1548988">Calculate the average pressure exerted on the palm of a shot-putter’s hand by the shot if the area of contact is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/>
+<m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" "." 0`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> and he exerts a force of 800 N on it. Express the pressure in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and compare it with the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
+<m:mtext>Pa</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> pressures sometimes encountered in the skeletal system.</para></problem></exercise>
+        <exercise id="fs-id1946824" type="problems-exercises"><problem id="fs-id1947282">    <para id="import-auto-id2583065">The left side of the heart creates a pressure of 120 mm Hg by exerting a force directly on the blood over an effective area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/>
+<m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15" "." 0`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> What force does it exert to accomplish this?</para></problem>
+            <solution id="fs-id1569361" type="problems-exercises">
+    <para id="import-auto-id1845036">24.0 N</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id3357018" type="problems-exercises"><problem id="fs-id2663022">    <para id="import-auto-id2623189">Show that the total force on a rectangular dam due to the water behind it increases with the <emphasis effect="italics">square</emphasis> of the water depth. In particular, show that this force is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>ρ</m:mi></m:mrow><m:mrow><m:msup><m:mi fontstyle="italic">gh</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=ρ ital "gh" rSup { size 8{2} } L/2} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the density of water, <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is its depth at the dam, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> is the length of the dam. You may assume the face of the dam is vertical. (Hint: Calculate the average pressure exerted and multiply this by the area in contact with the water. (See <link target-id="import-auto-id2629485"/>.)</para><figure id="import-auto-id2629485"><media id="import-auto-id1484992" alt="A two-dimensional view of a dam with dimensions L and h is shown. Force F at h is shown by a horizontal arrow. The force F exerted by water on the dam is F equals average pressure p bar into area A and pressure in turn is average height h bar into density rho into acceleration due to gravity g.">
+        <image mime-type="image/jpg" src="../../media/Figure_12_04_02a.jpg"/>
+      </media>
+
+    </figure></problem></exercise>
+    </section>
+
+ </content>
+    <glossary>
+        <definition id="import-auto-id3055110"><term>pressure</term> <meaning id="fs-id2928656">the weight of the fluid divided by the area supporting it</meaning></definition>
+    </glossary>
+</document>

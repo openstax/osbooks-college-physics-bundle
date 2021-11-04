@@ -1,0 +1,438 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Conduction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42228</md:content-id>
+  <md:title>Conduction</md:title>
+  <md:abstract><list>
+<item>Calculate thermal conductivity.</item>
+<item>Observe conduction of heat in collisions.</item>
+<item>Study thermal conductivities of common substances.</item>
+</list></md:abstract>
+  <md:uuid>a7beda43-2f3a-4d12-adfe-2e19c20b5e14</md:uuid>
+</metadata>
+
+<content>
+
+    <figure id="import-auto-id3229112"><media id="import-auto-id3162061" alt="The figure shows an insulated wooden partition in a house. The partition is insulated because it encapsulates a cloth-type material.">
+            <image mime-type="image/jpg" src="../../media/Figure_15_05_01a.jpg" height="250"/>
+      </media>
+
+    <caption>Insulation is used to limit the conduction of heat from the inside to the outside (in winters) and from the outside to the inside (in summers). (credit: Giles Douglas)</caption></figure><para id="import-auto-id3254132">Your feet feel cold as you walk barefoot across the living room carpet in your cold house and then step onto the kitchen tile floor. This result is intriguing, since the carpet and tile floor are both at the same temperature. The different sensation you feel is explained by the different rates of heat transfer: the heat loss during the same time interval is greater for skin in contact with the tiles than with the carpet, so the temperature drop is greater on the tiles.</para>
+    <para id="import-auto-id1954999">Some materials conduct thermal energy faster than others. In general, good conductors of electricity (metals like copper, aluminum, gold, and silver) are also good heat conductors, whereas insulators of electricity (wood, plastic, and rubber) are poor heat conductors. <link target-id="import-auto-id2663815"/> shows molecules in two bodies at different temperatures. The (average) kinetic energy of a molecule in the hot body is higher than in the colder body. If two molecules collide, an energy transfer from the molecule with greater kinetic energy to the molecule with less kinetic energy occurs. The cumulative effect from all collisions results in a net flux of heat from the hot body to the colder body. The heat flux thus depends on the temperature difference <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">Τ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Τ</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΤ=Τ rSub { size 8{"hot"} }  - T rSub { size 8{"cold"} } } {}</m:annotation></m:semantics></m:math>. Therefore, you will get a more severe burn from boiling water than from hot tap water. Conversely, if the temperatures are the same, the net heat transfer rate falls to zero, and equilibrium is achieved. Owing to the fact that the number of collisions increases with increasing area, heat conduction depends on the cross-sectional area. If you touch a cold wall with your palm, your hand cools faster than if you just touch it with your fingertip.</para><figure id="import-auto-id2663815"><media id="import-auto-id3454930" alt="The figure shows a vertical line labeled “surface” that divides the figure in two. Just below the line is a horizontal rightward wavy arrow labeled Q, heat conduction. The area left of the surface line is labeled higher temperature and the area right of the surface line is labeled lower temperature. One spherical object, labeled “high energy before collision” is on the left bottom side, with an arrow from it pointing to the right and up toward the vertical midpoint of the surface line. There is another spherical object at the top left side close to the surface line with an arrow from it pointing to the left and up. A third spherical object labeled “low energy before collision” appears on the right top side with an arrow pointing from it to the left and down toward the vertical midpoint of the surface line. There is a final spherical object at the lower right side close to the surface line with an arrow pointing from it to the right and down. There are dotted lines coming from all the four particles, merging at the midpoint on the surface line.">
+            <image mime-type="image/jpg" src="../../media/Figure_15_05_02a.jpg" height="275"/>
+      </media>
+
+    <caption>The molecules in two bodies at different temperatures have different average kinetic energies. Collisions occurring at the contact surface tend to transfer energy from high-temperature regions to low-temperature regions. In this illustration, a molecule in the lower temperature region (right side) has low energy before collision, but its energy increases after colliding with the contact surface. In contrast, a molecule in the higher temperature region (left side) has high energy before collision, but its energy decreases after colliding with the contact surface.</caption></figure><para id="import-auto-id3225958">A third factor in the mechanism of conduction is the thickness of the material through which heat transfers. The figure below shows a slab of material with different temperatures on either side. Suppose that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is greater than <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, so that heat is transferred from left to right. Heat transfer from the left side to the right side is accomplished by a series of molecular collisions. The thicker the material, the more time it takes to transfer the same amount of heat. This model explains why thick clothing is warmer than thin clothing in winters, and why Arctic mammals protect themselves with thick blubber.</para><figure id="import-auto-id3093648"><media id="import-auto-id3053997" alt="Two rectangular blocks are shown with the right one labeled T one and the left one labeled T two. The blocks are placed on a surface at a distance d from each other, so that their largest face faces the opposite block. The block T one is cold and the block T two is hot. The blocks are connected to each other with a conducting rectangular block of thermal conductivity k and cross-sectional area A. A wavy line labeled Q is inside the conducting block and points from the hot block to the cold block.">
+            <image mime-type="image/jpg" src="../../media/Figure_15_05_03a.jpg" width="422"/>
+      </media>
+
+    <caption>Heat conduction occurs through any material, represented here by a rectangular bar, whether window glass or walrus blubber. The temperature of the material is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> on the left and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> on the right, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is greater than <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>. The rate of heat transfer by conduction is directly proportional to the surface area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>, the temperature difference <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} }  - T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, and the substance’s conductivity <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math>. The rate of heat transfer is inversely proportional to the thickness <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>. </caption></figure><para id="import-auto-id3062885">Lastly, the heat transfer rate depends on the material properties described by the coefficient of thermal conductivity. All four factors are included in a simple equation that was deduced from and is confirmed by experiments. The <term id="import-auto-id1575873">rate of conductive heat transfer</term> through a slab of material, such as the one in <link target-id="import-auto-id3093648"/>, is given by</para><equation id="fs-id2449989"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kA</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q}  over  {t} } = {  { ital "kA" \( T rSub { size 8{2} }  - T rSub { size 8{1} }  \) }  over  {d} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id3076134">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/t} {}</m:annotation></m:semantics></m:math> is the rate of heat transfer in watts or kilocalories per second, <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id1871841">thermal conductivity</term> of the material, <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> are its surface area and thickness, as shown in <link target-id="import-auto-id3093648"/>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( T rSub { size 8{2} }  - T rSub { size 8{1} }  \) } {}</m:annotation></m:semantics></m:math> is the temperature difference across the slab. <link target-id="import-auto-id1245788"/> gives representative values of thermal conductivity.</para><example id="fs-id3233940">
+    <title>Calculating Heat Transfer Through Conduction: Conduction Rate Through an Ice Box</title>
+    <para id="import-auto-id3161263">A Styrofoam ice box has a total area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.950</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and walls with an average thickness of 2.50 cm. The box contains ice, water, and canned beverages at <m:math><m:semantics><m:mrow><m:mrow><m:mtext>0ºC</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The inside of the box is kept cold by melting ice. How much ice melts in one day if the ice box is kept in the trunk of a car at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35</m:mtext><m:mtext>.</m:mtext><m:mtext>0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35" "." "0°C"} {}</m:annotation></m:semantics></m:math>?</para><para id="import-auto-id3072559">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1871067">This question involves both heat for a phase change (melting of ice) and the transfer of heat by conduction. To find the amount of ice melted, we must find the net heat transferred. This value can be obtained by calculating the rate of heat transfer by conduction and multiplying by time.</para>
+
+        <para id="import-auto-id2438072">
+      <title>Solution</title>
+    </para>
+    <list id="fs-id3090457" list-type="enumerated" number-style="arabic"><item id="import-auto-id3093510">Identify the knowns. <equation id="fs-id1916108"><m:math><m:semantics>
+<m:mrow>
+<m:mtable><m:mtr><m:mtd>
+<m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0.950</m:mn><m:mspace width="0.2em"/>
+<m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>;</m:mtext></m:mtd></m:mtr>
+
+<m:mtr><m:mtd><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2.50</m:mn><m:mspace width="0.2em"/><m:mtext>cm</m:mtext>
+<m:mo stretchy="false">=</m:mo><m:mn>0.0250 m;</m:mn></m:mtd></m:mtr>
+
+<m:mtr><m:mtd>
+<m:msub><m:mi>T</m:mi><m:mn>1</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0º</m:mn><m:mtext>C;</m:mtext></m:mtd></m:mtr>
+
+<m:mtr><m:mtd><m:msub><m:mi>T</m:mi><m:mn>2</m:mn></m:msub>
+<m:mo stretchy="false">=</m:mo><m:mn>35.0º</m:mn><m:mtext>C,</m:mtext><m:mspace width="0.25em"/><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>1 day</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>24 hours</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>86,400 s.</m:mtext></m:mtd></m:mtr>
+</m:mtable>
+</m:mrow></m:semantics></m:math></equation></item><item>Identify the unknowns. We need to solve for the mass of the ice, <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>. We will also need to solve for the net heat transferred to melt the ice, <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>.</item>
+    <item id="import-auto-id3450318">Determine which equations to use. The rate of heat transfer by conduction is given by
+        <equation id="fs-id1516401"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kA</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q}  over  {t} } = {  { ital "kA" \( T rSub { size 8{2} }  - T rSub { size 8{1} }  \) }  over  {d} } } {}</m:annotation></m:semantics></m:math></equation>
+    </item>
+        <item id="import-auto-id1587803">The heat is used to melt the ice: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>mL</m:mtext></m:mstyle><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mL" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math></item>
+    <item id="import-auto-id1441842">Insert the known values:
+    <equation id="import-auto-id3034432"><m:math><m:semantics><m:mrow>
+<m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac>
+<m:mo stretchy="false">=</m:mo>
+<m:mfrac>
+<m:mrow><m:mfenced open="(" close=")">
+<m:mrow><m:mtext>0.010 J/s</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext>
+<m:mo stretchy="false">⋅º</m:mo><m:mtext>C</m:mtext></m:mrow></m:mfenced>
+<m:mfenced open="(" close=")"><m:mrow><m:mtext>0.950</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced>
+<m:mfenced open="(" close=")"><m:mrow><m:mtext>35.</m:mtext><m:mn>0º</m:mn><m:mrow><m:mtext>C</m:mtext><m:mo stretchy="false">−</m:mo><m:mn>0º</m:mn></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mfenced>
+</m:mrow><m:mrow><m:mtext>0.0250 m</m:mtext></m:mrow>
+</m:mfrac>
+<m:mo stretchy="false">=</m:mo><m:mtext>13.3 J/s.</m:mtext></m:mrow></m:semantics></m:math></equation></item>
+        <item id="import-auto-id2659945">Multiply the rate of heat transfer by the time (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/><m:mtext> day = 86,400</m:mtext><m:mi/><m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`"day=86,400"`s} {}</m:annotation></m:semantics></m:math>):
+            <equation id="import-auto-id3387697"><m:math>
+                <m:semantics>
+                    <m:mrow>
+
+                            <m:mrow>
+                                <m:mrow>
+                                    <m:mrow>
+                                        <m:mi>Q</m:mi>
+                                        <m:mo stretchy="false">=</m:mo>
+                                        <m:mfenced open="(" close=")">
+                                            <m:mrow>
+                                                <m:mi>Q</m:mi>
+                                                <m:mo stretchy="false">/</m:mo>
+                                                <m:mi>t</m:mi>
+                                            </m:mrow>
+                                        </m:mfenced>
+                                    </m:mrow>
+                                    <m:mrow>
+                                        <m:mi>t</m:mi>
+                                        <m:mo stretchy="false">=</m:mo>
+                                        <m:mfenced open="(" close=")">
+                                            <m:mrow>
+                                                <m:mtext>13</m:mtext>
+                                                <m:mtext>.</m:mtext>
+                                                <m:mn>3</m:mn>
+                                                <m:mi/>
+                                                <m:mtext> J/s</m:mtext>
+                                            </m:mrow>
+                                        </m:mfenced>
+                                    </m:mrow>
+                                    <m:mrow>
+                                        <m:mfenced open="(" close=")">
+                                            <m:mrow>
+                                                <m:mtext>86</m:mtext>
+                                                <m:mi>,</m:mi>
+                                                <m:mtext>400</m:mtext>
+                                                <m:mi/>
+                                                <m:mtext> s</m:mtext>
+                                            </m:mrow>
+                                        </m:mfenced>
+                                        <m:mo stretchy="false">=</m:mo>
+                                        <m:mn>1</m:mn>
+                                    </m:mrow>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mrow>
+                                        <m:mtext>15</m:mtext>
+                                        <m:mo stretchy="false">×</m:mo>
+                                        <m:msup>
+                                            <m:mtext>10</m:mtext>
+
+                                                <m:mrow>
+                                                    <m:mn>6</m:mn>
+                                                </m:mrow>
+
+                                        </m:msup>
+                                    </m:mrow>
+                                    <m:mi/>
+                                    <m:mtext> J.</m:mtext>
+                                </m:mrow>
+                            </m:mrow>
+
+                        <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{Q= left ( {Q} slash {t}  right )t= left ("13" "." 3`"J/s" right ) left ("86","400"`s right )=1 "." "15" times "10" rSup { size 8{6} } `J} {}</m:annotation>
+                </m:semantics>
+            </m:math>
+            </equation></item>
+            <item id="import-auto-id3217117">Set this equal to the heat transferred to melt the ice: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>mL</m:mtext></m:mstyle><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mL" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math>. Solve for the mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>:
+                <equation id="import-auto-id3209170"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>15</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mtext> J</m:mtext></m:mrow><m:mrow><m:mrow><m:mtext>334 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mtext> J/kg</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>44</m:mtext><m:mi/><m:mtext>kg.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {Q}  over  {L rSub { size 8{f} } } } = {  {1 "." "15" times "10" rSup { size 8{6} } `J}  over  {"334" times "10" rSup { size 8{3} } `"J/kg"} } =3 "." "44"`"kg"} {}</m:annotation></m:semantics></m:math></equation>
+            </item>
+    </list><para id="import-auto-id3175284">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1404093">The result of 3.44 kg, or about 7.6 lbs, seems about right, based on experience. You might expect to use about a 4 kg (7–10 lb) bag of ice per day. A little extra ice is required if you add any warm food or beverages.</para>
+    <para id="import-auto-id3017357">Inspecting the conductivities in <link target-id="import-auto-id1245788"/> shows that Styrofoam is a very poor conductor and thus a good insulator. Other good insulators include fiberglass, wool, and goose-down feathers. Like Styrofoam, these all incorporate many small pockets of air, taking advantage of air’s poor thermal conductivity.</para></example>
+
+
+    <table id="import-auto-id1245788" summary="Thermal Conductivities of Common Substances"><title>Thermal Conductivities of Common Substances<footnote id="eip-id1169738085231">At temperatures near 0ºC.</footnote></title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead><row>
+            <entry align="center">
+              <emphasis>Substance</emphasis>
+            </entry>
+            <entry align="center">
+              <emphasis>Thermal conductivity </emphasis>
+              <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+               <m:mtext mathvariant="bold"> k (J/s⋅m⋅ºC)</m:mtext>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+            </entry>
+          </row></thead><tbody><row>
+            <entry>Silver</entry>
+            <entry align="center"> 420</entry>
+          </row><row>
+            <entry>Copper</entry>
+          <entry align="center"> 390</entry>
+          </row><row>
+            <entry>Gold</entry>
+            <entry align="center"> 318</entry>
+          </row><row>
+            <entry>Aluminum</entry>
+       <entry align="center"> 220</entry>
+          </row><row>
+            <entry>Steel iron</entry>
+         <entry align="center"> 80</entry>
+          </row><row>
+            <entry>Steel (stainless)</entry>
+        <entry align="center"> 14</entry>
+          </row><row>
+            <entry>Ice</entry>
+      <entry align="center"> 2.2</entry>
+          </row><row>
+            <entry>Glass (average)</entry>
+  <entry align="center"> 0.84</entry>
+          </row><row>
+            <entry>Concrete brick</entry>
+      <entry align="center"> 0.84</entry>
+          </row><row>
+            <entry>Water</entry>
+     <entry align="center"> 0.6</entry>
+          </row><row>
+            <entry>Fatty tissue (without blood)</entry>
+        <entry align="center"> 0.2</entry>
+          </row><row>
+            <entry>Asbestos</entry>
+           <entry align="center"> 0.16</entry>
+          </row><row>
+            <entry>Plasterboard</entry>
+          <entry align="center"> 0.16</entry>
+          </row><row>
+            <entry>Wood</entry>
+           <entry align="center"> 0.08–0.16</entry>
+          </row><row>
+            <entry>Snow (dry)</entry>
+           <entry align="center"> 0.10</entry>
+          </row><row>
+            <entry>Cork</entry>
+         <entry align="center"> 0.042</entry>
+          </row><row>
+            <entry>Glass wool</entry>
+ <entry align="center"> 0.042</entry>
+          </row><row>
+            <entry>Wool</entry>
+        <entry align="center"> 0.04</entry>
+          </row><row>
+            <entry>Down feathers</entry>
+        <entry align="center"> 0.025</entry>
+          </row><row>
+            <entry>Air</entry>
+      <entry align="center"> 0.023</entry>
+          </row><row>
+            <entry>Styrofoam</entry>
+       <entry align="center"> 0.010</entry>
+          </row></tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id3291408">A combination of material and thickness is often manipulated to develop good insulators—the smaller the conductivity <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> and the larger the thickness <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>, the better. The ratio of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">/</m:mo><m:mi>k</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d/k} {}</m:annotation></m:semantics></m:math> will thus be large for a good insulator. The ratio <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">/</m:mo><m:mi>k</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d/k} {}</m:annotation></m:semantics></m:math> is called the <term><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> factor</term>.  The rate of conductive heat transfer is inversely proportional to <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>. The larger the value of <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, the better the insulation. <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> factors are most commonly quoted for household insulation, refrigerators, and the like—unfortunately, it is still in non-metric units of ft<sup>2</sup>·°F·h/Btu, although the unit usually goes unstated (1 British thermal unit [Btu] is the amount of energy needed to change the temperature of 1.0 lb of water by 1.0 °F). A couple of representative values are an <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> factor of 11 for 3.5-in-thick fiberglass batts (pieces) of insulation and an <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> factor of 19 for 6.5-in-thick fiberglass batts. Walls are usually insulated with 3.5-in batts, while ceilings are usually insulated with 6.5-in batts. In cold climates, thicker batts may be used in ceilings and walls.</para><figure id="import-auto-id2688094"><media id="import-auto-id1993752" alt="The figure shows two thick rectangular pieces of fiberglass batt lying one upon the other.">
+            <image mime-type="image/jpg" src="../../media/Figure_15_05_04a.jpg" width="150"/>
+      </media>
+
+    <caption>The fiberglass batt is used for insulation of walls and ceilings to prevent heat transfer between the inside of the building and the outside environment.</caption></figure><para id="import-auto-id1945602">Note that in <link target-id="import-auto-id1245788"/>, the best thermal conductors—silver, copper, gold, and aluminum—are also the best electrical conductors, again related to the density of free electrons in them. Cooking utensils are typically made from good conductors.</para><example id="fs-id2520944">
+    <title>Calculating the Temperature Difference Maintained by a Heat Transfer: Conduction Through an Aluminum Pan</title>
+    <para id="import-auto-id1548780">Water is boiling in an aluminum pan placed on an electrical element on a stovetop. The sauce pan has a bottom that is 0.800 cm thick and 14.0 cm in diameter. The boiling water is evaporating at the rate of 1.00 g/s. What is the temperature difference across (through) the bottom of the pan?</para>
+
+        <para id="import-auto-id2991423">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id3385706">Conduction through the aluminum is the primary method of heat transfer here, and so we use the equation for the rate of heat transfer and solve for the temperature difference<sub>.</sub></para>
+        <equation id="fs-id1381311"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mi>d</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kA</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} }  - T rSub { size 8{1} } = {  {Q}  over  {t} }  left ( {  {d}  over  { ital "kA"} }  right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1817863">
+      <title>Solution</title>
+    </para>
+    <list id="fs-id1997166" list-type="enumerated" number-style="arabic"><item id="import-auto-id2009120">Identify the knowns and convert them to the SI units.
+        <para id="fs-id2670365">The thickness of the pan, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.800 cm</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>8.0</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m,</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> the area of the pan, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mi>π</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.14</m:mtext><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mrow><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>54</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and the thermal conductivity, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>220 J/s</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mn>m⋅°</m:mn></m:mrow><m:mn>C.</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math></para></item>
+    <item id="import-auto-id1861248">Calculate the necessary heat of vaporization of 1 g of water:
+        <equation id="fs-id1889227"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>mL</m:mtext></m:mstyle><m:mrow><m:mtext>v</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>00</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mi/><m:mtext> kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mtext>2256</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mtext> J/kg</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>2256</m:mtext></m:mrow><m:mi/><m:mi> J.</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mL" rSub { size 8{v} } = left (1 "." 0 times "10" rSup { size 8{ - 3} } `"kg" right ) left ("2256" times "10" rSup { size 8{6} } `"J/kg" right )="2256"`J} {}</m:annotation></m:semantics></m:math></equation></item>
+        <item id="import-auto-id2979769">Calculate the rate of heat transfer given that 1 g of water melts in one second:
+            <equation id="fs-id2648217"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>2256</m:mtext></m:mrow><m:mi/><m:mtext> J/s or 2.26 kW.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/t="2256"`"J/s"} {}</m:annotation></m:semantics></m:math></equation></item>
+            <item id="import-auto-id2421283">Insert the knowns into the equation and solve for the temperature difference:
+                <equation id="fs-id2598964"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mi>d</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kA</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mfenced><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>2256</m:mtext><m:mi/><m:mtext> J/s</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false"> × </m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mi/><m:mtext>m</m:mtext></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>220</m:mtext><m:mi/><m:mrow><m:mrow><m:mtext> J/s</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">⋅º</m:mo></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>54</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mi/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>33º</m:mn><m:mi>C.</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation></item>
+               </list><para id="import-auto-id1614633">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id3069020">The value for the heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow><m:mtext> = 2</m:mtext><m:mtext>.</m:mtext><m:mtext>26</m:mtext><m:mi/><m:mtext>kW</m:mtext><m:mi/><m:mtext> or </m:mtext><m:mi/><m:mtext>2256</m:mtext><m:mi/><m:mtext> J/s </m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/t"=2" "." "26"`"kW"`"or"`"2256"`"J/s "} {}</m:annotation></m:semantics></m:math> is typical for an electric stove. This value gives a remarkably small temperature difference between the stove and the pan. Consider that the stove burner is red hot while the inside of the pan is nearly <m:math><m:semantics><m:mrow><m:mrow><m:mtext>100ºC</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100°C"} {}</m:annotation></m:semantics></m:math> because of its contact with boiling water. This contact effectively cools the bottom of the pan in spite of its proximity to the very hot stove burner. Aluminum is such a good conductor that it only takes this small temperature difference to produce a heat transfer of 2.26 kW into the pan.</para><para id="import-auto-id2688334">Conduction is caused by the random motion of atoms and molecules. As such, it is an ineffective mechanism for heat transport over macroscopic distances and short time distances. Take, for example, the temperature on the Earth, which would be unbearably cold during the night and extremely hot during the day if heat transport in the atmosphere was to be only through conduction. In another example, car engines would overheat unless there was a more efficient way to remove excess heat from the pistons.</para>
+    </example>
+
+<exercise id="fs-id2586676" type="check-understanding"><label/><title>Check Your Understanding</title>
+
+
+        <problem id="fs-id1320685">
+        <para id="import-auto-id1103870">How does the rate of heat transfer by conduction change when all spatial dimensions are doubled?</para>
+    </problem>
+
+
+    <solution id="fs-id2590834">
+        <para id="fs-id2000866">Because area is the product of two spatial dimensions, it increases by a factor of four when each dimension is doubled  <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn><m:msup><m:mi>d</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn><m:msub><m:mi>A</m:mi><m:mrow><m:mrow><m:mi>initial</m:mi></m:mrow></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{"final"} } = \( 2d \)  rSup { size 8{2} } =4d rSup { size 8{2} } =4A rSub { size 8{i"nitial"} } } {}</m:annotation></m:semantics></m:math>. The distance, however, simply doubles. Because the temperature difference and the coefficient of thermal conductivity are independent of the spatial dimensions, the rate of heat transfer by conduction increases by a factor of four divided by two, or two:</para><equation id="fs-id723408"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mfenced open="(" close=")"><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mfenced><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>kA</m:mtext></m:mstyle><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mfenced open="(" close=")"><m:msub><m:mtext>4A</m:mtext><m:mtext>initial</m:mtext></m:msub></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:msub><m:mn>2d</m:mn><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mfrac><m:mrow><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>kA</m:mtext></m:mstyle><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:msub><m:mfenced open="(" close=")"><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mfenced><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {Q}  over  {t} }  right ) rSub { size 8{"final"} } = {  { ital "kA" rSub { size 8{"final"} }  left (T rSub { size 8{2} }  - T rSub { size 8{1} }  right )}  over  {d rSub { size 8{"final"} } } } = {  {k left (4A rSub { size 8{"initial"} }  right ) left (T rSub { size 8{2} }  - T rSub { size 8{1} }  right )}  over  {2d rSub { size 8{"initial"} } } } =2 {  { ital "kA" rSub { size 8{"initial"} }  left (T rSub { size 8{2} }  - T rSub { size 8{1} }  right )}  over  {d rSub { size 8{"initial"} } } } =2 left ( {  {Q}  over  {t} }  right ) rSub { size 8{"initial"} } } {}</m:annotation></m:semantics></m:math>
+     </equation></solution>
+        </exercise><section id="fs-id3063733" class="section-summary">
+<title>Summary</title>
+    <list id="fs-id3385715"><item id="import-auto-id3028815">Heat conduction is the transfer of heat between two objects in direct contact with each other.</item>
+    <item id="import-auto-id2590834">The rate of heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/t} {}</m:annotation></m:semantics></m:math> (energy per unit time) is proportional to the temperature difference <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} }  - T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and the contact area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and inversely proportional to the distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> between the objects:
+        <equation id="fs-id2660428"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kA</m:mtext></m:mrow></m:mstyle><m:mi/><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:mi>d</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q}  over  {t} } = {  { ital "kA"` left (T rSub { size 8{2} }  - T rSub { size 8{1} }  right )}  over  {d} } } {}</m:annotation></m:semantics></m:math></equation>
+        </item>
+    </list></section>
+
+    <section id="fs-id1104163" class="conceptual-questions">
+        <title>Conceptual Questions</title>
+        <exercise id="fs-id3007976" type="conceptual-questions">
+        <problem id="fs-id1990575">
+    <para id="import-auto-id2406710">Some electric stoves have a flat ceramic surface with heating elements hidden beneath. A pot placed over a heating element will be heated, while it is safe to touch the surface only a few centimeters away. Why is ceramic, with a conductivity less than that of a metal but greater than that of a good insulator, an ideal choice for the stove top?</para>
+        </problem>
+    </exercise>
+
+        <exercise id="fs-id1867934" type="conceptual-questions">
+        <problem id="fs-id1402564">
+            <para id="import-auto-id2588627">Loose-fitting white clothing covering most of the body is ideal for desert dwellers, both in the hot Sun and during cold evenings. Explain how such clothing is advantageous during both day and night.</para>
+
+
+            <figure id="import-auto-id1890233"><media id="import-auto-id2025069" alt="The figure shows a group of musicians wearing long, loose-fitting lightly colored robes that go down to their feet.">
+                <image mime-type="image/png" src="../../media/Figure_15_05_05a.jpg" height="325"/>
+            </media>
+
+        <caption>A jellabiya is worn by many men in Egypt. (credit: Zerida)</caption></figure></problem>
+    </exercise>
+    </section>
+
+    <section id="fs-id1272236" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id2590717" type="problems-exercises">
+            <problem id="fs-id2589205">
+        <para id="import-auto-id2446095">(a) Calculate the rate of heat conduction through house walls that are 13.0 cm thick and that have an average thermal conductivity twice that of glass wool. Assume there are no windows or doors. The surface area of the walls is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>120</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and their inside surface is at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, while their outside surface is at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.00º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (b) How many 1-kW room heaters would be needed to balance the heat transfer due to conduction?</para></problem>
+        <solution id="fs-id3188755">
+    <para id="import-auto-id1587961">(a) <m:math><m:mrow><m:mn>1.01</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:math> W</para><para id="import-auto-id2599702">(b) One</para>
+        </solution>
+    </exercise>
+
+        <exercise id="fs-id956301" type="problems-exercises">
+            <problem id="fs-id2055274">
+                <para id="fs-id2056511">The rate of heat conduction out of a window on a winter day is rapid enough to chill the air next to it. To see just how rapidly the windows transfer heat by conduction, calculate the rate of conduction in watts through a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>00-m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> window that is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.635 cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "635"`"cm"} {}</m:annotation></m:semantics></m:math> thick (1/4 in) if the temperatures of the inner and outer surfaces are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.00ºC</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, respectively. This rapid rate will not be maintained—the inner surface will cool, and even result in frost formation.</para></problem>
+</exercise>
+
+<exercise id="eip-id1166654654652" type="problems-exercises"><problem id="eip-id1166646332006">
+<para id="fs-id2671925">Calculate the rate of heat conduction out of the human body, assuming that the core internal temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>37</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, the skin temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>34</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, the thickness of the tissues between averages <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.00 cm</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, and the surface area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para></problem>
+            <solution id="fs-id3052792">
+                <para id="fs-id2929873">84.0 W</para>
+            </solution>
+        </exercise>
+
+        <exercise id="fs-id2445988" type="problems-exercises">
+            <problem id="fs-id3027647">
+                <para id="fs-id2622363">Suppose you stand with one foot on ceramic flooring and one foot on a wool carpet, making contact over an area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>80</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> with each foot. Both the ceramic and the carpet are 2.00 cm thick and are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> on their bottom sides. At what rate must heat transfer occur from each foot to keep the top of the ceramic and carpet at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>33</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>?</para></problem>
+            </exercise>
+        <exercise id="fs-id1344840" type="problems-exercises">
+            <problem id="fs-id3188757">
+                <para id="fs-id2010380">A man consumes 3000 kcal of food in one day, converting most of it to maintain body temperature. If he loses half this energy by evaporating water (through breathing and sweating), how many kilograms of water evaporate?</para>
+            </problem>
+        <solution id="fs-id3423176">
+            <para id="fs-id1998963">2.59 kg</para>
+        </solution>
+        </exercise>
+
+        <exercise id="fs-id3112820" type="problems-exercises">
+            <problem id="fs-id1248069">
+               <para id="fs-id2448343">(a) A firewalker runs across a bed of hot coals without sustaining burns. Calculate the heat transferred by conduction into the sole of one foot of a firewalker given that the bottom of the foot is a 3.00-mm-thick callus with a conductivity at the low end of the range for wood and its density is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>300</m:mtext><m:mi/><m:msup><m:mtext> kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"300"`"kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>. The area of contact is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:msup><m:mtext> cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, the temperature of the coals is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>700º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"700"°C} {}</m:annotation></m:semantics></m:math>, and the time in contact is 1.00 s.</para><para id="fs-id2677751">(b) What temperature increase is produced in the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:msup><m:mtext> cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0`"cm" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> of tissue affected?</para><para id="fs-id2053264">(c) What effect do you think this will have on the tissue, keeping in mind that a callus is made of dead cells?</para>
+            </problem>
+        </exercise>
+
+                <exercise id="fs-id3135336" type="problems-exercises">
+                    <problem id="fs-id1431393">
+            <para id="fs-id1994566">(a) What is the rate of heat conduction through the 3.00-cm-thick fur of a large animal having a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>40-m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "40-m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> surface area? Assume that the animal’s skin temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>32</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, that the air temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 5 "." "00"°C} {}</m:annotation></m:semantics></m:math>, and that fur has the same thermal conductivity as air. (b) What food intake will the animal need in one day to replace this heat transfer?</para></problem>
+        <solution id="fs-id3399424">
+            <para id="fs-id2937257">(a) 39.7 W</para>
+            <para id="fs-id2928667">(b) 820 kcal</para>
+        </solution>
+        </exercise>
+
+        <exercise id="fs-id2051957" type="problems-exercises">
+    <problem id="fs-id2460210">
+            <para id="fs-id1933204">A walrus transfers energy by conduction through its blubber at the rate of 150 W when immersed in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.00ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> water. The walrus’s internal core temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>37.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"37" "." 0°C} {}</m:annotation></m:semantics></m:math>, and it has a surface area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.00</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. What is the average thickness of its blubber, which has the conductivity of fatty tissues without blood?</para><figure id="import-auto-id2441141"><media id="import-auto-id3127856" alt="The figure shows a walrus on an ice bank near the water. The tusks the walrus are visible.">
+                    <image mime-type="image/png" src="../../media/Figure_15_05_07a.jpg"/>
+                </media>
+
+            <caption>Walrus on ice. (credit: Captain Budd Christman, NOAA Corps)</caption></figure></problem>
+        </exercise>
+
+        <exercise id="fs-id2677123" type="problems-exercises">
+            <problem id="fs-id2663244">
+                <para id="fs-id3454211">Compare the rate of heat conduction through a 13.0-cm-thick wall that has an area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0`m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> and a thermal conductivity twice that of glass wool with the rate of heat conduction through a window that is 0.750 cm thick and that has an area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"`m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, assuming the same temperature difference across each.</para></problem>
+        <solution id="fs-id3162335">
+            <para id="fs-id2684898">35 to 1, window to wall</para></solution>
+        </exercise>
+
+        <exercise id="fs-id2663763" type="problems-exercises">
+            <problem id="fs-id1843085">
+                        <para id="fs-id2653165">Suppose a person is covered head to foot by wool clothing with average thickness of 2.00 cm and is transferring energy by conduction through the clothing at the rate of 50.0 W. What is the temperature difference across the clothing, given the surface area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mi/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "40"`m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>?</para></problem>
+        </exercise>
+
+        <exercise id="fs-id1932684" type="problems-exercises"><problem id="fs-id2658669">
+            <para id="fs-id742240">Some stove tops are smooth ceramic for easy cleaning. If the ceramic is 0.600 cm thick and heat conduction occurs through the same area and at the same rate as computed in <link target-id="fs-id2520944"/>, what is the temperature difference across it? Ceramic has the same thermal conductivity as glass and brick.</para>
+        </problem>
+  <solution id="fs-id2589113">
+            <para id="eip-id1585111"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>05</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "05" times "10" rSup { size 8{3} } `K} {}</m:annotation></m:semantics></m:math></para></solution>
+        </exercise><exercise id="fs-id1935172" type="problems-exercises">
+                <problem id="fs-id3085488">
+                    <para id="fs-id3449507">One easy way to reduce heating (and cooling) costs is to add extra insulation in the attic of a house. Suppose the house already had 15 cm of fiberglass insulation in the attic and in all the exterior surfaces. If you added an extra 8.0 cm of fiberglass to the attic, then by what percentage would the heating cost of the house drop? Take the single story house to be of dimensions 10 m by 15 m by 3.0 m. Ignore air infiltration and heat loss through windows and doors.</para>
+                </problem>
+        </exercise>
+
+        <exercise id="fs-id3306098" type="problems-exercises">
+        <problem id="fs-id1922772">
+            <para id="fs-id2056049">(a) Calculate the rate of heat conduction through a double-paned window that has a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:msup><m:mtext>-m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:semantics></m:math> area and is made of two panes of 0.800-cm-thick glass separated by a 1.00-cm air gap. The inside surface temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15" "." 0°C} {}</m:annotation></m:semantics></m:math>, while that on the outside is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "10" "." 0°C} {}</m:annotation></m:semantics></m:math>. (Hint: There are identical temperature drops across the two glass panes. First find these and then the temperature drop across the air gap. This problem ignores the increased heat transfer in the air gap due to convection.)
+            </para><para id="fs-id3385547">(b) Calculate the rate of heat conduction through a 1.60-cm-thick window of the same area and with the same temperatures. Compare your answer with that for part (a).</para>
+            </problem>
+             <solution id="fs-id1479965">
+                 <para id="fs-id2627289">(a) 83 W</para><para id="fs-id3244254">(b) 24 times that of a double pane window.</para></solution>
+            </exercise>
+
+        <exercise id="fs-id2697772" type="problems-exercises">
+    <problem id="fs-id2971422">
+        <para id="fs-id2622371">Many decisions are made on the basis of the payback period: the time it will take through savings to equal the capital cost of an investment. Acceptable payback times depend upon the business or philosophy one has. (For some industries, a payback period is as small as two years.) Suppose you wish to install the extra insulation in <link target-id="fs-id1935172"/>. If energy cost $1.00 per million joules and the insulation was $4.00 per square meter, then calculate the simple payback time. Take the average <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> for the 120 day heating season to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.</para></problem>
+</exercise>
+
+        <exercise id="fs-id2603625" type="problems-exercises">
+            <problem id="fs-id3286131">
+             <para id="fs-id1945563">For the human body, what is the rate of heat transfer by conduction through the body’s tissue with the following conditions: the tissue thickness is 3.00 cm, the change in temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"°C} {}</m:annotation></m:semantics></m:math>, and the skin area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "50"`m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. How does this compare with the average heat transfer rate to the body resulting from an energy intake of about 2400 kcal per day? (No exercise is included.)</para></problem>
+        <solution id="fs-id1922630">
+            <para id="fs-id3246031">20.0 W, 17.2% of 2400 kcal per day</para></solution>
+        </exercise>
+        </section> </content>
+    <glossary>
+        <definition id="import-auto-id2074664"><term><emphasis effect="italics">R</emphasis> factor</term> <meaning id="fs-id1870937">the ratio of thickness to the conductivity of a material</meaning></definition>
+        <definition id="import-auto-id1802495"><term>rate of conductive heat transfer</term> <meaning id="fs-id2423504">rate of heat transfer from one material to another</meaning></definition>
+        <definition id="import-auto-id1997113"><term>thermal conductivity</term> <meaning id="fs-id3102614">the property of a material’s ability to conduct heat</meaning></definition>
+    </glossary>
+
+</document>

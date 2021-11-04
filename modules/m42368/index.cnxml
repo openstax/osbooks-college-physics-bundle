@@ -1,0 +1,84 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Ferromagnets and Electromagnets</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m42368</md:content-id>
+  <md:title>Ferromagnets and Electromagnets</md:title>
+  <md:abstract><list>
+<item>Define ferromagnet.</item>
+<item>Describe the role of magnetic domains in magnetization.</item>
+<item>Explain the significance of the Curie temperature.</item>
+<item>Describe the relationship between electricity and magnetism.</item>
+</list></md:abstract>
+  <md:uuid>51c5169a-7d39-4279-9baa-625410c2546f</md:uuid>
+</metadata>
+
+<content>
+
+    <section id="fs-id1838613"><title>Ferromagnets</title>
+    <para id="import-auto-id1616101">Only certain materials, such as iron, cobalt, nickel, and gadolinium, exhibit strong magnetic effects. Such materials are called <term id="import-auto-id1897071">ferromagnetic</term>, after the Latin word for iron, <emphasis effect="italics">ferrum</emphasis>. A group of materials made from the alloys of the rare earth elements are also used as strong and permanent magnets; a popular one is neodymium. Other materials exhibit weak magnetic effects, which are detectable only with sensitive instruments. Not only do ferromagnetic materials respond strongly to magnets (the way iron is attracted to magnets), they can also be <term id="import-auto-id1838766">magnetized</term> themselves—that is, they can be induced to be magnetic or made into permanent magnets.</para><figure id="import-auto-id2093834"><media id="import-auto-id1732928" alt="An unmagnetized piece of iron is turned into a permanent magnet using heat and another magnet.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_02_01a.jpg" width="500"/>
+      </media>
+
+    <caption>An unmagnetized piece of iron is placed between two magnets, heated, and then cooled, or simply tapped when cold. The iron becomes a permanent magnet with the poles aligned as shown: its south pole is adjacent to the north pole of the original magnet, and its north pole is adjacent to the south pole of the original magnet. Note that there are attractive forces between the magnets.</caption></figure><para id="import-auto-id1515922">When a magnet is brought near a previously unmagnetized ferromagnetic material, it causes local magnetization of the material with unlike poles closest, as in <link target-id="import-auto-id2093834"/>. (This results in the attraction of the previously unmagnetized material to the magnet.) What happens on a microscopic scale is illustrated in <link target-id="import-auto-id1455300"/>. The regions within the material called <term id="import-auto-id1726851">domains</term> act like small bar magnets. Within domains, the poles of individual atoms are aligned. Each atom acts like a tiny bar magnet. Domains are small and randomly oriented in an unmagnetized ferromagnetic object. In response to an external magnetic field, the domains may grow to millimeter size, aligning themselves as shown in <link target-id="import-auto-id1455300"/>(b). This induced magnetization can be made permanent if the material is heated and then cooled, or simply tapped in the presence of other magnets.</para>
+    <figure id="import-auto-id1455300"><media id="import-auto-id1858605" alt="Three schematic diagrams of a piece of iron showing magnetic domains. In Figure a, there are many domains (tiny magnetic regions, each with a north pole and a south pole). Each domain has a slightly different orientation. In Figure b, the domains are larger. Most of the domains are oriented in roughly the same direction. In Figure c, there is a single domain for the entire piece of iron. There is a north pole and a south pole.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_02_02a.jpg" width="450"/>
+      </media>
+
+    <caption>(a) An unmagnetized piece of iron (or other ferromagnetic material) has randomly oriented domains. (b) When magnetized by an external field, the domains show greater alignment, and some grow at the expense of others. Individual atoms are aligned within domains; each atom acts like a tiny bar magnet.</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2040665">Conversely, a permanent magnet can be demagnetized by hard blows or by heating it in the absence of another magnet. Increased thermal motion at higher temperature can disrupt and randomize the orientation and the size of the domains. There is a well-defined temperature for ferromagnetic materials, which is called the <term id="import-auto-id2259734">Curie temperature</term>, above which they cannot be magnetized. The Curie temperature for iron is 1043 K <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>770ºC</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( "770"°C \) } {}</m:annotation></m:semantics></m:math>, which is well above room temperature. There are several elements and alloys that have Curie temperatures much lower than room temperature and are ferromagnetic only below those temperatures.</para></section>
+
+    <section id="fs-id1900202">
+    <title>Electromagnets</title>
+    <para id="import-auto-id1464843">Early in the 19th century, it was discovered that electrical currents cause magnetic effects. The first significant observation was by the Danish scientist Hans Christian Oersted (1777–1851), who found that a compass needle was deflected by a current-carrying wire. This was the first significant evidence that the movement of charges had any connection with magnets. <term id="import-auto-id2206858">Electromagnetism</term> is the use of electric current to make magnets. These temporarily induced magnets are called <term id="import-auto-id1476064">electromagnets</term>. Electromagnets are employed for everything from a wrecking yard crane that lifts scrapped cars to controlling the beam of a 90-km-circumference particle accelerator to the magnets in medical imaging machines (See <link target-id="import-auto-id1455228"/>).</para><figure id="import-auto-id1455228"><media id="import-auto-id1583345" alt="M R I machine at a hospital.">
+        <image mime-type="image/png" src="../../media/Figure_23_02_03a.jpg" width="300"/>
+      </media>
+
+    <caption>Instrument for magnetic resonance imaging (MRI). The device uses a superconducting cylindrical coil for the main magnetic field. The patient goes into this “tunnel” on the gurney. (credit: Bill McChesney, Flickr)</caption></figure><para id="import-auto-id2739842"><link target-id="import-auto-id2187290"/> shows that the response of iron filings to a current-carrying coil and to a permanent bar magnet. The patterns are similar. In fact, electromagnets and ferromagnets have the same basic characteristics—for example, they have north and south poles that cannot be separated and for which like poles repel and unlike poles attract.</para>
+    <figure id="import-auto-id2187290"><media id="import-auto-id996373" alt="The arrangement of iron filings as they are affected by a metal coil that is carrying an electric current and a bar magnet. At the poles of the magnet, the filings are aligned radially to the poles. Between the poles, the filings are roughly parallel to the magnet. Thus, from one pole to the other, the filings have an arcuate arrangement. The density of filings is very high at the poles and relatively low on either side of the center of the magnet. The arrangement is similar around the current-carrying coil.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_02_04a1.jpg" width="300"/>
+      </media>
+
+    <caption>Iron filings near (a) a current-carrying coil and (b) a magnet act like tiny compass needles, showing the shape of their fields. Their response to a current-carrying coil and a permanent magnet is seen to be very similar, especially near the ends of the coil and the magnet.</caption></figure><para id="import-auto-id1361787">Combining a ferromagnet with an electromagnet can produce particularly strong magnetic effects. (See <link target-id="import-auto-id2579978"/>.) Whenever strong magnetic effects are needed, such as lifting scrap metal, or in particle accelerators, electromagnets are enhanced by ferromagnetic materials. Limits to how strong the magnets can be made are imposed by coil resistance (it will overheat and melt at sufficiently high current), and so superconducting magnets may be employed. These are still limited, because superconducting properties are destroyed by too great a magnetic field.</para>
+    <figure id="import-auto-id2579978"><media id="import-auto-id2328508" alt="An electrical current runs through a metal wire that is coiled around a ferromagnet.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_02_05a.jpg" width="70"/>
+      </media>
+
+    <caption>An electromagnet with a ferromagnetic core can produce very strong magnetic effects. Alignment of domains in the core produces a magnet, the poles of which are aligned with the electromagnet.</caption></figure><para id="import-auto-id2208128"><link target-id="import-auto-id1208199"/> shows a few uses of combinations of electromagnets and ferromagnets. Ferromagnetic materials can act as memory devices, because the orientation of the magnetic fields of small domains can be reversed or erased. Magnetic information storage on videotapes and computer hard drives are among the most common applications. This property is vital in our digital world.</para><figure id="import-auto-id1208199"><media id="import-auto-id1535621" alt="Three views into a computer disk showing the magnetic portions of the recording head and the tape.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_02_06a.jpg" width="300"/>
+      </media>
+
+    <caption>An electromagnet induces regions of permanent magnetism on a floppy disk coated with a ferromagnetic material. The information stored here is digital (a region is either magnetic or not); in other applications, it can be analog (with a varying strength), such as on audiotapes.</caption></figure></section>
+    <section id="fs-id1993810">
+    <title>Current: The Source of All Magnetism</title>
+    <para id="import-auto-id2816553">An electromagnet creates magnetism with an electric current. In later sections we explore this more quantitatively, finding the strength and direction of magnetic fields created by various currents. But what about ferromagnets? <link target-id="import-auto-id2071727"/> shows models of how electric currents create magnetism at the submicroscopic level. (Note that we cannot directly observe the paths of individual electrons about atoms, and so a model or visual image, consistent with all direct observations, is made. We can directly observe the electron’s orbital angular momentum, its spin momentum, and subsequent magnetic moments, all of which are explained with electric-current-creating subatomic magnetism.) Currents, including those associated with other submicroscopic particles like protons, allow us to explain ferromagnetism and all other magnetic effects. Ferromagnetism, for example, results from an internal cooperative alignment of electron spins, possible in some materials but not in others.</para><para id="import-auto-id1564818">Crucial to the statement that electric current is the source of all magnetism is the fact that it is impossible to separate north and south magnetic poles. (This is far different from the case of positive and negative charges, which are easily separated.) A current loop always produces a magnetic dipole—that is, a magnetic field that acts like a north pole and south pole pair. Since isolated north and south magnetic poles, called <term id="import-auto-id1524979">magnetic monopoles</term>, are not observed, currents are used to explain all magnetic effects. If magnetic monopoles did exist, then we would have to modify this underlying connection that all magnetism is due to electrical current. There is no known reason that magnetic monopoles should not exist—they are simply never observed—and so searches at the subnuclear level continue. If they do <emphasis effect="italics">not</emphasis> exist, we would like to find out why not. If they <emphasis effect="italics">do</emphasis> exist, we would like to see evidence of them.</para><note id="fs-id2679100"><label/><title>Electric Currents and Magnetism</title>
+    <para id="import-auto-id1798391">Electric current is the source of all magnetism.</para>
+    </note>
+      <figure id="import-auto-id2071727"><media id="import-auto-id2096702" alt="Two atomic models that describe the relationship between the movement of electrons and magnetism.">
+          <image mime-type="image/jpg" src="../../media/Figure_23_02_07a.jpg" width="350"/>
+        </media>
+
+      <caption>(a) In the planetary model of the atom, an electron orbits a nucleus, forming a closed-current loop and producing a magnetic field with a north pole and a south pole. (b) Electrons have spin and can be crudely pictured as rotating charge, forming a current that produces a magnetic field with a north pole and a south pole. Neither the planetary model nor the image of a spinning electron is completely consistent with modern physics. However, they do provide a useful way of understanding phenomena. </caption></figure><note id="fs-id1626454" class="interactive"><label/><title>Magnets and Electromagnets</title>
+<para id="eip-idm395863632">Explore the interactions between a compass and bar magnet. Discover how you can use a battery and wire to make a magnet! Can you make it a stronger magnet? Can you make the magnetic field reverse?</para><figure id="eip-idm396035200">
+<media id="fs-id1167062389771" alt="This simulation explores the interactions between a compass and bar magnet.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/28elec_magnet"/></media>
+</figure></note></section>
+<section id="fs-id2086001" class="section-summary"><title>Section Summary</title><list id="import-auto-id1904768" list-type="bulleted">
+      <item>Magnetic poles always occur in pairs of north and south—it is not possible to isolate north and south poles. </item>
+      <item>All magnetism is created by electric current.</item>
+      <item>Ferromagnetic materials, such as iron, are those that exhibit strong magnetic effects. </item>
+      <item>The atoms in ferromagnetic materials act like small magnets (due to currents within the atoms) and can be aligned, usually in millimeter-sized regions called domains. </item>
+      <item>Domains can grow and align on a larger scale, producing permanent magnets. Such a material is magnetized, or induced to be magnetic. </item>
+      <item>Above a material’s Curie temperature, thermal agitation destroys the alignment of atoms, and ferromagnetism disappears. </item>
+      <item>Electromagnets employ electric currents to make magnetic fields, often aided by induced fields in ferromagnetic materials.</item>
+    </list>
+    </section> </content>
+    <glossary>
+    <definition id="import-auto-id1414415"><term>ferromagnetic</term> <meaning id="fs-id2071727">materials, such as iron, cobalt, nickel, and gadolinium,  that exhibit strong magnetic effects</meaning></definition>
+    <definition id="import-auto-id2660247"><term>magnetized</term> <meaning id="fs-id2112495">to be turned into a magnet; to be induced to be magnetic</meaning></definition>
+    <definition id="import-auto-id1889261"><term>domains</term> <meaning id="fs-id2026494">regions within a material that behave like small bar magnets</meaning></definition>
+    <definition id="import-auto-id1891865"><term>Curie temperature</term> <meaning id="fs-id1170503">the temperature above which a ferromagnetic material cannot be magnetized</meaning></definition>
+    <definition id="import-auto-id1115141"><term>electromagnetism</term> <meaning id="fs-id2183368">the use of electrical currents to induce magnetism</meaning></definition>
+    <definition id="import-auto-id1493258"><term>electromagnet</term> <meaning id="fs-id2081710">an object that is temporarily magnetic when an electrical current is passed through it</meaning></definition>
+    <definition id="import-auto-id1508672"><term>magnetic monopoles</term> <meaning id="fs-id1938962">an isolated magnetic pole; a south pole without a north pole, or vice versa (no magnetic monopole has ever been observed)</meaning></definition>
+
+  </glossary>
+</document>
