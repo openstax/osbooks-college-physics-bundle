@@ -1,0 +1,1172 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Convection</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61240</md:content-id>
+  <md:title>Convection</md:title>
+  <md:abstract><list>
+<item>Discuss the method of heat transfer by convection.</item>
+</list></md:abstract>
+  <md:uuid>5110a96f-dced-4c29-af98-a9fc11b69796</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3031986">Convection is driven by large-scale flow of matter. In the case of Earth, the atmospheric circulation is caused by the flow of hot air from the tropics to the poles, and the flow of cold air from the poles toward the tropics. (Note that Earth’s rotation causes the observed easterly flow of air in the northern hemisphere). Car engines are kept cool by the flow of water in the cooling system, with the water pump maintaining a flow of cool water to the pistons. The circulatory system is used the body: when the body overheats, the blood vessels in the skin expand (dilate), which increases the blood flow to the skin where it can be cooled by sweating. These vessels become smaller when it is cold outside and larger when it is hot (so more fluid flows, and more energy is transferred).</para><para id="import-auto-id3063801">The body also loses a significant fraction of its heat through the breathing process.</para>
+    <para id="import-auto-id1474103">While convection is usually more complicated than conduction, we can describe convection and do some straightforward, realistic calculations of its effects. Natural convection is driven by buoyant forces: hot air rises because density decreases as temperature increases. The house in <link target-id="import-auto-id3354638"/> is kept warm in this manner, as is the pot of water on the stove in <link target-id="import-auto-id3367347"/>. Ocean currents and large-scale atmospheric circulation transfer energy from one part of the globe to another. Both are examples of natural convection.</para><figure id="import-auto-id3354638"><media id="import-auto-id3130412" alt="A cross section of a room is shown. There is a gravity furnace at the left side. The hot air from the furnace is rising up and is shown with the help of upward-pointing arrows along the left wall that are labeled hot air rises. The arrows then become horizontal and pass just under the ceiling to the right wall. The arrows then curve downward, become blue, and pass down the right wall and are labeled air cooled by room sinks. Finally, the blue arrows curve and pass along the floor to return to the gravity furnace.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_06_01a.jpg" width="275"/>
+      </media>
+    
+    <caption>Air heated by the so-called gravity furnace expands and rises, forming a convective loop that transfers energy to other parts of the room. As the air is cooled at the ceiling and outside walls, it contracts, eventually becoming denser than room air and sinking to the floor. A properly designed heating system using natural convection, like this one, can be quite efficient in uniformly heating a home.</caption></figure><figure id="import-auto-id3367347"><media id="import-auto-id3127141" alt="The figure shows a stove burner on which is placed a pot containing water. The front of the pot is cut away to show the water. Two pairs of semicircular arrows are in the left and right regions of the water. The left pair indicates counterclockwise motion of the water on the left and the right pair indicate clockwise motion of the water on the right. Several bubbles are also shown.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_06_02a.jpg" width="200"/>
+      </media>
+ <caption>Convection plays an important role in heat transfer inside this pot of water. Once conducted to the inside, heat transfer to other parts of the pot is mostly by convection. The hotter water expands, decreases in density, and rises to transfer heat to other regions of the water, while colder water sinks to the bottom. This process keeps repeating.</caption></figure><note id="fs-id3023160"><label/><title>Take-Home Experiment: Convection Rolls in a Heated Pan</title>
+    
+    <para id="import-auto-id3065176">Take two small pots of water and use an eye dropper to place a drop of food coloring near the bottom of each. Leave one on a bench top and heat the other over a stovetop. Watch how the color spreads and how long it takes the color to reach the top. Watch how convective loops form.</para>
+  </note><example id="fs-id2594539">
+    <title>Calculating Heat Transfer by Convection: Convection of Air Through the Walls of a House</title>
+    <para id="import-auto-id2659707">Most houses are not airtight: air goes in and out around doors and windows, through cracks and crevices, following wiring to switches and outlets, and so on. The air in a typical house is completely replaced in less than an hour. Suppose that a moderately-sized house has inside dimensions <m:math>
+<m:mn>12.0</m:mn> 
+<m:mtext>m</m:mtext>
+<m:mo>×</m:mo>
+<m:mn>18.0</m:mn> 
+<m:mtext>m</m:mtext>
+<m:mo>×</m:mo>
+<m:mn>3.00</m:mn>
+<m:mtext>m</m:mtext>
+</m:math>
+high, and that all air is replaced in 30.0 min. Calculate the heat transfer per unit time in watts needed to warm the incoming cold air by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°C} {}</m:annotation></m:semantics></m:math>, thus replacing the heat transferred by convection alone.</para><para id="import-auto-id1449847"><emphasis>Strategy</emphasis></para>
+      <para id="fs-id3009581">Heat is used to raise the temperature of air so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mc</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. The rate of heat transfer is then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:semantics></m:math> is the time for air turnover. We are given that <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>
+is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, but we must still find values for the mass of air and its specific heat before we can calculate <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>. The specific heat of air is a weighted average of the specific heats of nitrogen and oxygen, which gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">≅</m:mo><m:mtext>1000</m:mtext></m:mrow><m:mi/><m:mrow><m:mtext> J/kg</m:mtext><m:mo stretchy="false">⋅º</m:mo></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> from <link target-id="import-auto-id2930894"/> (note that the specific heat at constant pressure must be used for this process).</para><para id="import-auto-id3178339">
+      <emphasis>Solution</emphasis>
+    </para>
+    <list id="fs-id1487367" list-type="enumerated" number-style="arabic"><item>Determine the mass of air from its density and the given volume of the house. The density is given from the density <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> and the volume
+    <equation id="import-auto-id742536"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>m</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>ρV</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>29</m:mtext>
+                      <m:mspace width="0.25em"/>
+                      <m:msup>
+                        <m:mtext>kg/m</m:mtext>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mtext>12</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mn>0</m:mn>
+                      <m:mspace width="0.25em"/>
+                      <m:mrow>
+                        <m:mtext>m</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mtext>18</m:mtext>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:mn>0</m:mn>
+                      <m:mspace width="0.25em"/>
+                      <m:mrow>
+                        <m:mtext>m</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:mn>3.00</m:mn>
+                      </m:mrow>
+                      <m:mspace width="0.25em"/>
+                      <m:mtext>m</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>836</m:mtext>
+                 <m:mspace width="0.25em"/>
+                </m:mrow>
+                <m:mi/>
+                <m:mtext>kg.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{m= ital "pV"= left (1 "." "29"`"kg/m" rSup { size 8{3} }  right ) left ("12" "." 0`m times "18" "." 0`m times 3 "." 0`m right )="836"`"kg"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item>Calculate the heat transferred from the change in air temperature: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mc</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mc"ΔT} {}</m:annotation></m:semantics></m:math> so that
+    <equation id="import-auto-id3423422"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>836</m:mtext><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mtext>1000 J/kg</m:mtext><m:mo stretchy="false">⋅º</m:mo></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>10.0º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mfenced><m:mtext> = 8</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mtext>36</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= left ("836"" kg" right ) left ("1000 J/kg" cdot °C right ) left ("10 "°C right )" =8" "." "36" times "10" rSup { size 8{6} } `J} {}</m:annotation></m:semantics></m:math></equation></item>
+    <item>Calculate the heat transfer from the heat <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> and the turnover time <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. Since air is turned over in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>500</m:mn><m:mspace width="0.25em"/><m:mrow><m:mtext>h</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>1800</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0 "." 5`h="1800"`s} {}</m:annotation></m:semantics></m:math>, the heat transferred per unit time is
+    <equation id="import-auto-id3085478"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>36</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6 </m:mn></m:mrow></m:msup></m:mrow><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mtext>1800 </m:mtext><m:mi/><m:mtext>s</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>64</m:mn><m:mspace width="0.25em"/><m:mtext>kW.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q}  over  {t} } = {  {8 "." "36" times "10" rSup { size 8{6} } `J}  over  {"1800"`s} } =4 "." 6`"kW"} {}</m:annotation></m:semantics></m:math></equation></item>
+    </list><para id="import-auto-id2611664"><emphasis>Discussion</emphasis></para>
+      <para id="fs-id2654024">This rate of heat transfer is equal to the power consumed by about forty-six 100-W light bulbs. Newly constructed homes are designed for a turnover time of 2 hours or more, rather than 30 minutes for the house of this example. Weather stripping, caulking, and improved window seals are commonly employed. More extreme measures are sometimes taken in very cold (or hot) climates to achieve a tight standard of more than 6 hours for one air turnover. Still longer turnover times are unhealthy, because a minimum amount of fresh air is necessary to supply oxygen for breathing and to dilute household pollutants. The term used for the process by which outside air leaks into the house from cracks around windows, doors, and the foundation is called “air infiltration.”</para>
+    </example>
+
+    <para id="import-auto-id1915964">A cold wind is much more chilling than still cold air, because convection combines with conduction in the body to increase the rate at which energy is transferred away from the body. The table below gives approximate wind-chill factors, which are the temperatures of still air that produce the same rate of cooling as air of a given temperature and speed. Wind-chill factors are a dramatic reminder of convection’s ability to transfer heat faster than conduction. For example, a 15.0 m/s wind at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> has the chilling equivalent of still air at about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>18º</m:mtext></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.</para><table id="import-auto-id2930894" summary="For a given air temperature and wind speed, the table gives apparent air temperature in degrees celcius."><title>Wind-Chill Factors</title>
+<tgroup cols="6"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+       
+<thead><row>
+            <entry>
+              <emphasis>Moving air temperature</emphasis>
+            </entry>
+            <entry namest="c2" nameend="c6">
+              <emphasis>Wind speed (m/s)</emphasis>
+            </entry>
+          </row></thead>
+<tbody>
+<row>
+            <entry>
+            
+<m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mtext mathvariant="bold">ºC</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ left (°C right )} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+          
+  </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mn mathvariant="bold">2</m:mn>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mn mathvariant="bold">5</m:mn>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{5} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mstyle fontweight="bold">
+                          <m:mrow>
+                            <m:mtext mathvariant="bold">10</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ bold "10"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mstyle fontweight="bold">
+                          <m:mrow>
+                            <m:mtext mathvariant="bold">15</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ bold "15"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mstyle fontweight="bold">
+                          <m:mrow>
+                            <m:mtext mathvariant="bold">20</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ bold "20"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row>
+
+<row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mn mathvariant="bold">5</m:mn>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{5} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 1} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 8} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>10</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "10"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>12</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "12"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row>
+
+<row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mn mathvariant="bold">2</m:mn>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{0} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>7</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 7} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>12</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "12"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>16</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "16"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>18</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "18"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row>
+<row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mn mathvariant="bold">0</m:mn>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{0} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 2} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 9} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>15</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "15"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>18</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "18"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>20</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "20"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row>
+
+
+<row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo mathvariant="bold" stretchy="false">−</m:mo>
+                          <m:mn mathvariant="bold">5</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 5} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>7</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 7} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>15</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "15"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>22</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "22"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>26</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "26"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>29</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "29"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row>
+
+
+
+<row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mstyle fontweight="bold">
+                            <m:mrow>
+                              <m:mtext>10</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -  bold "10"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>12</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "12"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>21</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "21"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>29</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "29"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>34</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "34"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>36</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "36"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mstyle fontweight="bold">
+                            <m:mrow>
+                              <m:mtext>20</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -  bold "20"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>23</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "23"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>34</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "34"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>44</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "44"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>50</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "50"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>52</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "52"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mstyle fontweight="bold">
+                            <m:mrow>
+                              <m:mtext>40</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -  bold "40"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>44</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "44"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>59</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "59"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>73</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "73"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>82</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "82"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>84</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "84"} {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row>
+</tbody>
+      
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id2054431">Although air can transfer heat rapidly by convection, it is a poor conductor and thus a good insulator. The amount of available space for airflow determines whether air acts as an insulator or conductor. The space between the inside and outside walls of a house, for example, is about 9 cm (3.5 in) —large enough for convection to work effectively. The addition of wall insulation prevents airflow, so heat loss (or gain) is decreased. Similarly, the gap between the two panes of a double-paned window is about 1 cm, which prevents convection and takes advantage of air’s low conductivity to prevent greater loss. Fur, fiber, and fiberglass also take advantage of the low conductivity of air by trapping it in spaces too small to support convection, as shown in the figure. Fur and feathers are lightweight and thus ideal for the protection of animals.</para>
+   
+  
+    <figure id="import-auto-id1997153"><media id="import-auto-id3037253" alt="The figure shows a cross-sectional view of a body covered by a fur layer. A number of convection loops are shown in the fur. The air outside the fur is cold and the body beneath the fur is warm.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_06_03a.jpg" height="250"/>
+      </media>
+  
+    <caption>Fur is filled with air, breaking it up into many small pockets. Convection is very slow here, because the loops are so small. The low conductivity of air makes fur a very good lightweight insulator.</caption></figure><para id="import-auto-id3091301">Some interesting phenomena happen <emphasis effect="italics">when convection is accompanied by a phase change</emphasis>. It allows us to cool off by sweating, even if the temperature of the surrounding air exceeds body temperature. Heat from the skin is required for sweat to evaporate from the skin, but without air flow, the air becomes saturated and evaporation stops. Air flow caused by convection replaces the saturated air by dry air and evaporation continues.</para>
+    
+  <example id="fs-id3092745"><title>Calculate the Flow of Mass during Convection: Sweat-Heat Transfer away from the Body</title><para id="import-auto-id2514332">The average person produces heat at the rate of about 120 W when at rest. At what rate must water evaporate from the body to get rid of all this energy? (This evaporation might occur when a person is sitting in the shade and surrounding temperatures are the same as skin temperature, eliminating heat transfer by other methods.)</para>
+    
+    <para id="import-auto-id3078752">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2991884">Energy is needed for a phase change (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>mL</m:mtext></m:mstyle><m:mrow><m:mtext>v</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mL" rSub { size 8{v} } } {}</m:annotation></m:semantics></m:math>). Thus, the energy loss per unit time is</para>
+
+<equation id="import-auto-id2420524"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>mL</m:mtext></m:mstyle><m:mrow><m:mtext>v</m:mtext></m:mrow></m:msub></m:mrow><m:mi>t</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>120  W</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>120 J/s.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2973542">We divide both sides of the equation by <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>v</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{v} } } {}</m:annotation></m:semantics></m:math> to find that the mass evaporated per unit time is</para>
+
+<equation id="import-auto-id1438952"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120</m:mtext><m:mi/><m:mtext> J/s</m:mtext></m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>v</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {m}  over  {t} } = {  {"120"`"J/s"}  over  {L rSub { size 8{v} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2623199">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2991394">(1) Insert the value of the latent heat from <link document="m61222" target-id="import-auto-id3260303"/>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mtext>v</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>2430</m:mtext></m:mrow><m:mi/><m:mrow><m:mtext> kJ/kg</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>2430</m:mtext></m:mrow><m:mi/><m:mtext> J/g</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{v} } ="2430"`"kJ/kg"="2430"`"J/g"} {}</m:annotation></m:semantics></m:math>. This yields</para><equation id="import-auto-id3033754"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>m</m:mi><m:mi>t</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120</m:mtext><m:mi/><m:mtext> J/s</m:mtext></m:mrow><m:mrow><m:mtext>2430</m:mtext><m:mi/><m:mtext> J/g</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>0494</m:mtext><m:mi/><m:mrow><m:mtext> g/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>96</m:mtext><m:mi/><m:mtext> g/min.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {m}  over  {t} } = {  {"120"`"J/s"}  over  {"2430"`"J/g"} } =0 "." "044"`"g/s"=2 "." "96"`"g/min"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1547880">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2679303">Evaporating about 3 g/min seems reasonable. This would be about 180 g (about 7 oz) per hour. If the air is very dry, the sweat may evaporate without even being noticed. A significant amount of evaporation also takes place in the lungs and breathing passages.</para>
+    </example><para id="import-auto-id2659829">Another important example of the combination of phase change and convection occurs when water evaporates from the oceans. Heat is removed from the ocean when water evaporates. If the water vapor condenses in liquid droplets as clouds form, heat is released in the atmosphere. Thus, there is an overall transfer of heat from the ocean to the atmosphere. This process is the driving power behind thunderheads, those great cumulus clouds that rise as much as 20.0 km into the stratosphere. Water vapor carried in by convection condenses, releasing tremendous amounts of energy. This energy causes the air to expand and rise, where it is colder. More condensation occurs in these colder regions, which in turn drives the cloud even higher. Such a mechanism is called positive feedback, since the process reinforces and accelerates itself. These systems sometimes produce violent storms, with lightning and hail, and constitute the mechanism driving hurricanes.</para>
+ 
+  
+    <figure id="import-auto-id3109731"><media id="import-auto-id2016260" alt="The figure shows a cumulus cloud in a blue sky.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_06_04a.jpg" height="250"/>
+      </media>
+ 
+    <caption>Cumulus clouds are caused by water vapor that rises because of convection. The rise of clouds is driven by a positive feedback mechanism. (credit: Mike Love)</caption></figure><figure id="import-auto-id2674300"><media id="import-auto-id3017877" alt="The figure shows lightning strikes from thunderclouds above an urban area.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_06_05a.jpg" height="297" width="213"/>
+      </media>
+  
+    <caption>Convection accompanied by a phase change releases the energy needed to drive this thunderhead into the stratosphere. (credit: Gerardo García Moretti )</caption></figure><figure id="import-auto-id2673072"><media id="import-auto-id1024430" alt="The figure shows some blue-colored icebergs floating in the water beneath snow-capped mountains and a cloudy sky. Some of the icebergs at front are melting.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_06_06a.jpg" height="148" width="227"/>
+      </media>
+   
+    <caption>The phase change that occurs when this iceberg melts involves tremendous heat transfer. (credit: Dominic Alves)</caption></figure><para id="import-auto-id3062606">The movement of icebergs is another example of convection accompanied by a phase change. Suppose an iceberg drifts from Greenland into warmer Atlantic waters. Heat is removed from the warm ocean water when the ice melts and heat is released to the land mass when the iceberg forms on Greenland.</para>
+  
+  <exercise id="fs-id2586676" type="check-understanding">
+<label/>
+<title>Check Your Understanding</title>
+
+      <problem id="fs-id3233241">
+    <para id="import-auto-id2611980">Explain why using a fan in the summer feels refreshing!</para>
+    </problem>
+<solution id="fs-id3359283">
+    <para id="import-auto-id2682488">Using a fan increases the flow of air: warm air near your body is replaced by cooler air from elsewhere. Convection increases the rate of heat transfer so that moving air “feels” cooler than still air.</para>
+</solution>
+    </exercise>
+
+  
+    <section id="fs-id1988132" class="section-summary">
+<title>Summary</title>
+    <list id="fs-id2673169"><item>Convection is heat transfer by the macroscopic movement of mass. Convection can be natural or forced and generally transfers thermal energy faster than conduction. <link target-id="import-auto-id2930894"/> gives wind-chill factors, indicating that moving air has the same chilling effect of much colder stationary air. <emphasis effect="italics">Convection that occurs along with a phase change</emphasis> can transfer energy from cold regions to warm ones.</item>
+</list></section>
+  
+  <section id="fs-id3078687" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id3069600" type="conceptual-questions">
+      <problem id="fs-id1394834">
+    <para id="import-auto-id2453018">One way to make a fireplace more energy efficient is to have an external air supply for the combustion of its fuel. Another is to have room air circulate around the outside of the fire box and back into the room. Detail the methods of heat transfer involved in each.</para>
+</problem></exercise>
+
+    <exercise id="fs-id2402776" type="conceptual-questions">
+      <problem id="fs-id1977486">
+    <para id="import-auto-id3253117">On cold, clear nights horses will sleep under the cover of large trees. How does this help them keep warm?</para>
+    </problem></exercise>
+  </section>
+
+  <section id="fs-id1574893" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id3090099" type="problems-exercises">  
+    <problem id="fs-id2053601">
+      <para id="fs-id2407281">At what wind speed does <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10º</m:mtext></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> air cause the same chill factor as still air at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>29º</m:mtext></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "29"°C} {}</m:annotation></m:semantics></m:math>?
+      </para></problem>
+      <solution id="fs-id3121545">
+        <para id="fs-id3092913">10 m/s</para>
+      </solution>
+    </exercise>
+    
+    <exercise id="fs-id1103870" type="problems-exercises">  
+      <problem id="fs-id1827503">
+        <para id="fs-id2953850">At what temperature does still air cause the same chill factor as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5º</m:mn></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 5°C} {}</m:annotation></m:semantics></m:math> air moving at 15 m/s?
+        </para></problem>
+    </exercise>
+    
+    <exercise id="fs-id3044160" type="problems-exercises"><problem id="fs-id2041455">
+        <para id="fs-id2603647">The “steam” above a freshly made cup of instant coffee is really water vapor droplets condensing after evaporating from the hot coffee. What is the final temperature of 250 g of hot coffee initially at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90</m:mtext><m:mtext>.</m:mtext><m:mtext>0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." "0°C"} {}</m:annotation></m:semantics></m:math> if 2.00 g evaporates from it? The coffee is in a Styrofoam cup, so other methods of heat transfer can be neglected.</para></problem>
+        <solution id="fs-id3415500">
+          <para id="eip-id2650385"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>85</m:mtext><m:mtext>.</m:mtext><m:mn>7º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"85" "." 7°C} {}</m:annotation></m:semantics></m:math></para></solution>
+        </exercise><exercise id="fs-id1864446" type="problems-exercises"><problem id="fs-id1104163">
+          <para id="fs-id1817421">(a) How many kilograms of water must evaporate from a 60.0-kg woman to lower her body temperature by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>750ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "750°C"} {}</m:annotation></m:semantics></m:math>?</para><para id="eip-id3385616">(b) Is this a reasonable amount of water to evaporate in the form of perspiration, assuming the relative humidity of the surrounding air is low?</para>
+        </problem>
+        </exercise>
+    
+        <exercise id="fs-id1890173" type="problems-exercises">
+      <problem id="fs-id2415312">
+        <para id="fs-id3364750">On a hot dry day, evaporation from a lake has just enough heat transfer to balance the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi/><m:msup><m:mtext> kW/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"`"kW/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> of incoming heat from the Sun. What mass of water evaporates in 1.00 h from each square meter? Explicitly show how you follow the steps in the <link document="m61222" target-id="fs-id1844931">Problem-Solving Strategies for the Effects of Heat Transfer</link>.</para></problem>
+       <solution id="fs-id2025176">
+         <para id="fs-id1930201">1.48 kg</para>
+       </solution>
+        </exercise>
+        
+    <exercise id="fs-id1967616" type="problems-exercises">
+      <problem id="fs-id2965667">
+        <para id="fs-id2423185">One winter day, the climate control system of a large university classroom building malfunctions. As a result, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>500 </m:mtext><m:mi/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"500"`m rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> of excess cold air is brought in each minute. At what rate in kilowatts must heat transfer occur to warm this air by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mtext>0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." "0°C"} {}</m:annotation></m:semantics></m:math> (that is, to bring the air to room temperature)?</para></problem>
+        </exercise>
+        
+        <exercise id="fs-id3437564" type="problems-exercises"><problem id="fs-id1375950">
+          <para id="fs-id1947540">The Kilauea volcano in Hawaii is the world’s most active, disgorging about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>5 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> of <m:math><m:semantics><m:mrow><m:mrow><m:mtext>1200ºC </m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> lava per day. What is the rate of heat transfer out of Earth by convection if this lava has a density of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>2700</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and eventually cools to <m:math><m:semantics><m:mrow><m:mrow><m:mtext>30ºC</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>? Assume that the specific heat of lava is the same as that of granite.</para><figure id="fs-id1546643"><media id="fs-id2617953" alt="A view of a lava flow on the Kilauea volcano of Hawaii.">
+          <image mime-type="image/jpg" src="../../media/Figure_15_06_07a-4206.jpg" width="350"/>
+        </media>
+        
+      <caption>Lava flow on Kilauea volcano in Hawaii. (credit: J. P. Eaton, U.S. Geological Survey)</caption></figure></problem>  
+  <solution id="fs-id1933887">
+    <para id="eip-id1170927"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mtext> MW</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 times "10" rSup { size 8{4} } `"MW"} {}</m:annotation></m:semantics></m:math></para></solution>
+ </exercise><exercise id="fs-id1526706" type="problems-exercises">
+      <problem id="fs-id2390283">
+        <para id="fs-id3146377">During heavy exercise, the body pumps 2.00 L of blood per minute to the surface, where it is cooled by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00°C"} {}</m:annotation></m:semantics></m:math>. What is the rate of heat transfer from this forced convection alone, assuming blood has the same specific heat as water and its density is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>1050</m:mtext><m:mi/><m:msup><m:mtext> kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"1050"`"kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>?</para></problem>
+       </exercise>
+      
+    <exercise id="fs-id3095359" type="problems-exercises"><problem id="fs-id3416629">
+        <para id="fs-id3358361">A person inhales and exhales 2.00 L of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>37</m:mtext><m:mtext>.</m:mtext><m:mtext>0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> air, evaporating <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mi/><m:mtext> g</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> of water from the lungs and breathing passages with each breath.</para><para id="eip-id2937250">(a) How much heat transfer occurs due to evaporation in each breath?</para>
+<para id="eip-id3422903">(b) What is the rate of heat transfer in watts if the person is breathing at a moderate rate of 18.0 breaths per minute?</para>
+<para id="eip-id3175592">(c) If the inhaled air had a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math>, what is the rate of heat transfer for warming the air?</para><para id="eip-id2684468">(d) Discuss the total rate of heat transfer as it relates to typical metabolic rates. Will this breathing be a major form of heat transfer for this person?</para>
+        </problem>
+        <solution id="fs-id3209918">
+          <para id="fs-id2697885">(a) 97.2 J</para><para id="eip-id2991706">(b) 29.2 W</para><para id="eip-id2677777">(c) 9.49 W</para><para id="eip-id3094276">(d) The total rate of heat loss would be <m:math><m:semantics><m:mrow>
+<m:mn>29.2 W</m:mn>
+<m:mo> +</m:mo>
+<m:mn> 9.49 W</m:mn>
+<m:mo>=</m:mo>
+<m:mn> 38.7 W</m:mn></m:mrow></m:semantics>
+</m:math>. While sleeping, our body consumes 83 W of power, while sitting it consumes 120 to 210 W. Therefore, the total rate of heat loss from breathing will not be a major form of heat loss for this person.</para></solution>
+            </exercise>
+      
+    <exercise id="fs-id1095106" type="problems-exercises"><problem id="fs-id2445988">
+        <para id="fs-id1596073">A glass coffee pot has a circular bottom with a 9.00-cm diameter in contact with a heating element that keeps the coffee warm with a continuous heat transfer rate of 50.0 W</para><para id="eip-id2980176">(a) What is the temperature of the bottom of the pot, if it is 3.00 mm thick and the inside temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mtext>0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60" "." "0°C"} {}</m:annotation></m:semantics></m:math>?</para><para id="eip-id2403896">(b) If the temperature of the coffee remains constant and all of the heat transfer is removed by evaporation, how many grams per minute evaporate? Take the heat of vaporization to be 2340 kJ/kg.
+          </para></problem>
+ </exercise>
+
+  </section></content>
+</document>

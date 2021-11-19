@@ -1,0 +1,629 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Image Formation by Lenses</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61369</md:content-id>
+  <md:title>Image Formation by Lenses</md:title>
+  <md:abstract><list>
+<item>List the rules for ray tracking for thin lenses.</item>
+<item>Illustrate the formation of images using the technique of ray tracking.</item>
+<item>Determine power of a lens given the focal length.</item>
+</list></md:abstract>
+  <md:uuid>8dce827b-73c2-4a1e-a800-ca1e9bf61b6b</md:uuid>
+</metadata>
+
+<content>
+   <para id="import-auto-id2543433">Lenses are found in a huge array of optical instruments, ranging from a simple magnifying glass to the eye to a camera’s zoom lens. In this section, we will use the law of refraction to explore the properties of lenses and how they form images.</para>
+    <para id="import-auto-id1726936">The word <emphasis effect="italics"><emphasis effect="italics">lens</emphasis></emphasis> derives from the Latin word for a lentil bean, the shape of which is similar to the convex lens in <link target-id="import-auto-id2606346"/>. The convex lens shown has been shaped so that all light rays that enter it parallel to its axis cross one another at a single point on the opposite side of the lens. (The axis is defined to be a line normal to the lens at its center, as shown in <link target-id="import-auto-id2606346"/>.) Such a lens is called a <term id="import-auto-id2209199">converging (or convex) lens</term> for the converging effect it has on light rays. An expanded view of the path of one ray through the lens is shown, to illustrate how the ray changes direction both as it enters and as it leaves the lens. Since the index of refraction of the lens is greater than that of air, the ray moves towards the perpendicular as it enters and away from the perpendicular as it leaves. (This is in accordance with the law of refraction.) Due to the lens’s shape, light is thus bent toward the axis at both surfaces. The point at which the rays cross is defined to be the <term id="import-auto-id2733222">focal point</term><emphasis effect="bold"/> F of the lens. The distance from the center of the lens to its focal point is defined to be the <term id="import-auto-id2733766">focal length</term><m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> of the lens. <link target-id="import-auto-id3067527"/> shows how a converging lens, such as that in a magnifying glass, can converge the nearly parallel light rays from the sun to a small spot.</para>
+
+
+      <figure id="import-auto-id2606346"><media id="import-auto-id1538887" alt="The figure on the right shows a convex lens. Three rays heading from left to right, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. The distance from the center of the lens to the focal point F is small f on the right side of the lens. Rays 1 and 3 after refraction converge at F on the axis. Ray 2 on the axis goes undeviated. The figure on the left shows an expanded view of refraction for ray 1. The angle of incidence is theta 1 and angle of refraction theta 2 and a dotted line is the perpendicular drawn to the surface of the lens at the point of incidence. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. The perpendiculars are shown as dotted lines.">
+          <image mime-type="image/jpg" src="../../media/Figure 26_06_01.jpg" width="475"/>
+        </media>
+
+      <caption>Rays of light entering a converging lens parallel to its axis converge at its focal point F. (Ray 2 lies on the axis of the lens.) The distance from the center of the lens to the focal point is the lens’s focal length <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.</caption></figure><note id="fs-id2977043"><label/>
+    <title>Converging or Convex Lens</title>
+    <para id="import-auto-id3044915">The lens in which light rays that enter it parallel to its axis cross one another at a single point on the opposite side with a converging effect is called converging lens.</para>
+    </note>
+    <note id="fs-id1357430"><label/>
+    <title>Focal Point F</title>
+    <para id="import-auto-id2988377">The point at which the light rays cross is called the focal point F of the lens.</para>
+    </note>
+    <note id="fs-id1326234"><label/>
+    <title>Focal Length <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math></title>
+    <para id="import-auto-id2511898">The distance from the center of the lens to its focal point is called focal length <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>.</para>
+    </note>
+
+    <figure id="import-auto-id3067527"><media id="import-auto-id1957709" alt="A person’s hand is holding a magnifying glass to focus the sunlight to a point. The magnifying glass focuses the sunlight to burn paper.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_02.jpg" width="225"/>
+      </media>
+
+    <caption>Sunlight focused by a converging magnifying glass can burn paper. Light rays from the sun are nearly parallel and cross at the focal point of the lens. The more powerful the lens, the closer to the lens the rays will cross. </caption></figure><para id="import-auto-id1954731">The greater effect a lens has on light rays, the more powerful it is said to be. For example, a powerful converging lens will focus parallel light rays closer to itself and will have a smaller focal length than a weak lens. The light will also focus into a smaller and more intense spot for a more powerful lens. The <term id="import-auto-id1513957">power</term>  <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> of a lens is defined to be the inverse of its focal length. In equation form, this is</para><equation id="eip-559"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>P</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>f</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{P= {  {1}  over  {f} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></equation><note id="fs-id2014392"><label/>
+    <title>Power <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math></title>
+    <para id="import-auto-id1570075">The <emphasis effect="bold">power</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> of a lens is defined to be the inverse of its focal length. In equation form, this is</para><equation id="eip-860"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  {1}  over  {f} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2574606">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is the focal length of the lens, which must be given in meters (and not cm or mm). The power of a lens <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math><emphasis effect="italics"/> has the unit diopters (D), provided that the focal length is given in meters. That is,   <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>1 D</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mtext>m</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, or   <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>1 m</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:semantics></m:math>. (Note that this power (optical power, actually) is not the same as power in watts defined in <link document="m60827">Work, Energy, and Energy Resources</link>. It is a concept related to the effect of optical devices on light.) Optometrists prescribe common spectacles and contact lenses in units of diopters.</para></note>
+    <example id="fs-id1435978">
+    <title>What is the Power of a Common Magnifying Glass?</title>
+    <para id="import-auto-id1302618">Suppose you take a magnifying glass out on a sunny day and you find that it concentrates sunlight to a small spot 8.00 cm away from the lens. What are the focal length and power of the lens?</para>
+    <para id="import-auto-id2630064">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2591523">The situation here is the same as those shown in <link target-id="import-auto-id2606346"/> and <link target-id="import-auto-id3067527"/>. The Sun is so far away that the Sun’s rays are nearly parallel when they reach Earth. The magnifying glass is a convex (or converging) lens, focusing the nearly parallel rays of sunlight. Thus the focal length of the lens is the distance from the lens to the spot, and its power is the inverse of this distance (in m).</para><para id="import-auto-id2581426">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2559802">The focal length of the lens is the distance from the center of the lens to the spot, given to be 8.00 cm. Thus,</para>
+    <equation id="eip-955"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mn>8.00 cm.</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2590189">To find the power of the lens, we must first convert the focal length to meters; then, we substitute this value into the equation for power. This gives</para>
+    <equation id="eip-213"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0800 m</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>12</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>5 D.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  {1}  over  {f} } = {  {1}  over  {0 "." "0800"" m"} } ="12" "." 5" D"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1497489">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1574697">This is a relatively powerful lens. The power of a lens in diopters should not be confused with the familiar concept of power in watts. It is an unfortunate fact that the word “power” is used for two completely different concepts. If you examine a prescription for eyeglasses, you will note lens powers given in diopters. If you examine the label on a motor, you will note energy consumption rate given as a power in watts.</para>
+    </example>
+    <para id="import-auto-id1356532"><link target-id="import-auto-id1625442"/> shows a concave lens and the effect it has on rays of light that enter it parallel to its axis (the path taken by ray 2 in the figure is the axis of the lens). The concave lens is a <term id="import-auto-id1332382">diverging lens</term>, because it causes the light rays to bend away (diverge) from its axis. In this case, the lens has been shaped so that all light rays entering it parallel to its axis appear to originate from the same point, <m:math><m:semantics><m:mrow><m:mrow><m:mtext>F</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math>, defined to be the focal point of a diverging lens. The distance from the center of the lens to the focal point is again called the focal length <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> of the lens. Note that the focal length and power of a diverging lens are defined to be negative. For example, if the distance to <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id1625442"/> is 5.00 cm, then the focal length is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mn>–5.00 cm</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and the power of the lens is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo>=</m:mo><m:mtext>–20 D</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P"=-""20"" D"} {}</m:annotation></m:semantics></m:math>. An expanded view of the path of one ray through the lens is shown in the figure to illustrate how the shape of the lens, together with the law of refraction, causes the ray to follow its particular path and be diverged.</para><figure id="import-auto-id1625442"><media id="import-auto-id1625119" alt="The figure on the top shows an expanded view of refraction for ray 1 falling on a concave lens. The angle of incidence is theta 1 and angle of refraction theta 2. The ray after the refraction at the second surface emerges with an angle equal to theta 1 prime with the perpendicular drawn at that point. Perpendiculars are shown as dotted lines. The figure at the bottom shows a concave lens. Three rays, 1, 2, and 3, are considered. Ray 2 falls on the axis and rays 1 and 3 are parallel to the axis. Rays 1 and 3 after refraction appear to come from a point F on the axis. The distance from the center of the lens to F is small f and is measured from the same side as the incident rays. Ray 2 on the axis goes undeviated.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_03.jpg" width="250"/>
+      </media>
+
+    <caption>Rays of light entering a diverging lens parallel to its axis are diverged, and all appear to originate at its focal point <m:math><m:semantics><m:mrow><m:mrow><m:mtext>F</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math>. The dashed lines are not rays—they indicate the directions from which the rays appear to come. The focal length <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> of a diverging lens is negative. An expanded view of the path taken by ray 1 shows the perpendiculars and the angles of incidence and refraction at both surfaces.</caption></figure><note id="fs-id1333369"><label/>
+    <title>Diverging Lens</title>
+    <para id="import-auto-id2992731">A lens that causes the light rays to bend away from its axis is called a diverging lens. </para>
+    </note>
+    <para id="import-auto-id1600063">As noted in the initial discussion of the law of refraction in <link document="m61376">The Law of Refraction</link>, the paths of light rays are exactly reversible. This means that the direction of the arrows could be reversed for all of the rays in <link target-id="import-auto-id2606346"/> and <link target-id="import-auto-id1625442"/>. For example, if a point light source is placed at the focal point of a convex lens, as shown in <link target-id="import-auto-id1505889"/>, parallel light rays emerge from the other side.</para><figure id="import-auto-id1505889"><media id="import-auto-id1636709" alt="Three light rays coming from a light bulb filament are incident on a convex lens and the rays after refraction are rendered parallel.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_04.jpg" width="225"/>
+      </media>
+
+    <caption>A small light source, like a light bulb filament, placed at the focal point of a convex lens, results in parallel rays of light emerging from the other side. The paths are exactly the reverse of those shown in <link target-id="import-auto-id2606346"/>. This technique is used in lighthouses and sometimes in traffic lights to produce a directional beam of light from a source that emits light in all directions. </caption></figure><section id="fs-id898212">
+        <title>Ray Tracing and Thin Lenses</title>
+    <para id="import-auto-id887713"><term id="import-auto-id1009505">Ray tracing</term> is the technique of determining or following (tracing) the paths that light rays take. For rays passing through matter, the law of refraction is used to trace the paths. Here we use ray tracing to help us understand the action of lenses in situations ranging from forming images on film to magnifying small print to correcting nearsightedness. While ray tracing for complicated lenses, such as those found in sophisticated cameras, may require computer techniques, there is a set of simple rules for tracing rays through thin lenses. A <term id="import-auto-id920232">thin lens</term> is defined to be one whose thickness allows rays to refract, as illustrated in <link target-id="import-auto-id2606346"/>, but does not allow properties such as dispersion and aberrations. An ideal thin lens has two refracting surfaces but the lens is thin enough to assume that light rays bend only once. A thin symmetrical lens has two focal points, one on either side and both at the same distance from the lens. (See <link target-id="import-auto-id2723160"/>.) Another important characteristic of a thin lens is that light rays through its center are deflected by a negligible amount, as seen in <link target-id="import-auto-id2576078"/>.</para><note id="fs-id2606148"><label/>
+    <title>Thin Lens</title>
+    <para id="import-auto-id1511754">A thin lens is defined to be one whose thickness allows rays to refract but does not allow properties such as dispersion and aberrations.</para>
+    </note>
+   <note id="fs-id1356344"><label/><title>Take-Home Experiment: A Visit to the Optician</title>
+
+    <para id="import-auto-id1346812">Look through your eyeglasses (or those of a friend) backward and forward and comment on whether they act like thin lenses. </para>
+    </note><figure id="import-auto-id2723160"><media id="import-auto-id2638241" alt="Figure (a) shows three parallel rays incident on the right side of a convex lens; after refraction they converge at F on the left side of the lens. The distance from the center of the lens to F is small f. Figure (b) shows three parallel rays incident on the right side of a concave lens; after refraction they appear to have come from F on the right side of the lens. The distance from the center of the lens to F is small f.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_05.jpg" width="250"/>
+      </media>
+
+    <caption>Thin lenses have the same focal length on either side. (a) Parallel light rays entering a converging lens from the right cross at its focal point on the left. (b) Parallel light rays entering a diverging lens from the right seem to come from the focal point on the right. </caption></figure><figure id="import-auto-id2576078"><media id="import-auto-id2746571" alt="Figure (a) shows a light ray passing through the center of a convex lens without any deviation. Figure (b) shows a light ray passing through the center of a concave lens go without any deviation.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_06.jpg" width="125"/>
+      </media>
+
+    <caption>The light ray through the center of a thin lens is deflected by a negligible amount and is assumed to emerge parallel to its original path (shown as a shaded line). </caption></figure><para id="import-auto-id1033258">Using paper, pencil, and a straight edge, ray tracing can accurately describe the operation of a lens. The rules for ray tracing for thin lenses are based on the illustrations already discussed:</para>
+<list id="fs-id3089990" list-type="enumerated" number-style="arabic"><item id="import-auto-id1726929">A ray entering a converging lens parallel to its axis passes through the focal point F of the lens on the other side. (See rays 1 and 3 in <link target-id="import-auto-id2606346"/>.)</item>
+    <item id="import-auto-id1673530">A ray entering a diverging lens parallel to its axis seems to come from the focal point F. (See rays 1 and 3 in <link target-id="import-auto-id1625442"/>.)</item>
+    <item id="import-auto-id1515092">A ray passing through the center of either a converging or a diverging lens does not change direction. (See <link target-id="import-auto-id2576078"/>, and see ray 2 in <link target-id="import-auto-id2606346"/> and <link target-id="import-auto-id1625442"/>.)</item>
+    <item id="import-auto-id1552899">A ray entering a converging lens through its focal point exits parallel to its axis. (The reverse of rays 1 and 3 in <link target-id="import-auto-id2606346"/>.)</item>
+    <item id="import-auto-id3163350">A ray that enters a diverging lens by heading toward the focal point on the opposite side exits parallel to the axis. (The reverse of rays 1 and 3 in <link target-id="import-auto-id1625442"/>.)</item>
+    </list><note id="fs-id2017726"><label/>
+    <title>Rules for Ray Tracing</title>
+            <list id="fs-id2602869" list-type="enumerated" number-style="arabic"><item id="import-auto-id2601887">A ray entering a converging lens parallel to its axis passes through the focal point F of the lens on the other side. </item>
+    <item id="import-auto-id1502054" fo:font-weight="normal">A ray entering a diverging lens parallel to its axis seems to come from the focal point F. </item>
+    <item id="import-auto-id889795">A ray passing through the center of either a converging or a diverging lens does not change direction. </item>
+    <item id="import-auto-id2543718" fo:font-weight="normal">A ray entering a converging lens through its focal point exits parallel to its axis. </item>
+    <item id="import-auto-id1611116" fo:font-weight="normal">A ray that enters a diverging lens by heading toward the focal point on the opposite side exits parallel to the axis. </item>
+    </list></note>
+    </section>
+    <section id="fs-id977377">
+    <title>Image Formation by Thin Lenses</title>
+    <para id="import-auto-id2604356">In some circumstances, a lens forms an obvious image, such as when a movie projector casts an image onto a screen. In other cases, the image is less obvious. Where, for example, is the image formed by eyeglasses? We will use ray tracing for thin lenses to illustrate how they form images, and we will develop equations to describe the image formation quantitatively.</para>
+    <para id="import-auto-id2678316">Consider an object some distance away from a converging lens, as shown in <link target-id="import-auto-id2631957"/>. To find the location and size of the image formed, we trace the paths of selected light rays originating from one point on the object, in this case the top of the person’s head. The figure shows three rays from the top of the object that can be traced using the ray tracing rules given above. (Rays leave this point going in many directions, but we concentrate on only a few with paths that are easy to trace.) The first ray is one that enters the lens parallel to its axis and passes through the focal point on the other side (rule 1). The second ray passes through the center of the lens without changing direction (rule 3). The third ray passes through the nearer focal point on its way into the lens and leaves the lens parallel to its axis (rule 4). The three rays cross at the same point on the other side of the lens. The image of the top of the person’s head is located at this point. All rays that come from the same point on the top of the person’s head are refracted in such a way as to cross at the point shown. Rays from another point on the object, such as her belt buckle, will also cross at another common point, forming a complete image, as shown. Although three rays are traced in <link target-id="import-auto-id2631957"/>, only two are necessary to locate the image. It is best to trace rays for which there are simple ray tracing rules. Before applying ray tracing to other situations, let us consider the example shown in <link target-id="import-auto-id2631957"/> in more detail.</para>
+
+    <figure id="import-auto-id2631957"><media id="import-auto-id2985436" alt="First of four images shows an incident ray 1 coming from an object (a girl ) placed on the axis. After refraction, the ray passes through F on other side of the lens. Second of four images shows an incident ray 2 passing through the center without any deviation. Third of four images shows an incident ray passing through F, which after refraction goes parallel to the axis. Fourth image shows a combination of all three rays, 1, 2, and 3, incident on a convex lens; after refraction, they converge or cross at a point below the axis at some distance from F. Here the height of the object h sub o is the height of the girl above the axis and h sub i is the height of the image below the axis. The distance from the center to point F is small f. The distance from the center to the girl is d sub o and that to the image is d sub i.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_07.jpg" width="250"/>
+      </media>
+
+    <caption>Ray tracing is used to locate the image formed by a lens. Rays originating from the same point on the object are traced—the three chosen rays each follow one of the rules for ray tracing, so that their paths are easy to determine. The image is located at the point where the rays cross. In this case, a real image—one that can be projected on a screen—is formed.  </caption></figure><para id="import-auto-id890041">The image formed in <link target-id="import-auto-id2631957"/> is a <term id="import-auto-id1284763">real image</term>, meaning that it can be projected. That is, light rays from one point on the object actually cross at the location of the image and can be projected onto a screen, a piece of film, or the retina of an eye, for example. <link target-id="import-auto-id2657760"/> shows how such an image would be projected onto film by a camera lens. This figure also shows how a real image is projected onto the retina by the lens of an eye. Note that the image is there whether it is projected onto a screen or not.</para>
+    <note id="fs-id1559732"><label/>
+    <title>Real Image</title>
+    <para id="import-auto-id1998022">The image in which light rays from one point on the object actually cross at the location of the image and can be projected onto a screen, a piece of film, or the retina of an eye is called a real image.</para>
+    </note>
+
+    <figure id="import-auto-id2657760"><media id="import-auto-id2004291" alt="Figure (a) shows incident rays coming from an object (a girl) and falling on a convex lens in a camera. The rays after refraction produce an inverted, real, and diminished image on the film of the camera. Figure (b) shows the same object in front of a human eye. The rays from the object fall on the convex lens and on refraction produce a real, inverted, and diminished image on the retina of the eyeball.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_08.jpg" width="250"/>
+      </media>
+
+    <caption>Real images can be projected. (a) A real image of the person is projected onto film. (b) The converging nature of the multiple surfaces that make up the eye result in the projection of a real image on the retina.</caption></figure><para id="import-auto-id2676149">Several important distances appear in <link target-id="import-auto-id2631957"/>. We define <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to be the object distance, the distance of an object from the center of a lens. <term id="import-auto-id952304">Image distance </term><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is defined to be the distance of the image from the center of a lens. The height of the object and height of the image are given the symbols <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, respectively. Images that appear upright relative to the object have heights that are positive and those that are inverted have negative heights. Using the rules of ray tracing and making a scale drawing with paper and pencil, like that in <link target-id="import-auto-id2631957"/>, we can accurately describe the location and size of an image. But the real benefit of ray tracing is in visualizing how images are formed in a variety of situations. To obtain numerical information, we use a pair of equations that can be derived from a geometric analysis of ray tracing for thin lenses. The <term id="import-auto-id924522">thin lens equations</term><emphasis effect="bold"/> are</para><equation id="eip-957"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>d</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>o</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>d</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>i</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>f</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation><para id="import-auto-id2560868">and</para>
+    <equation id="eip-677"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">m.</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1667289">We define the ratio of image height to object height (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h rSub { size 8{i} } /h rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math>) to be the <term id="import-auto-id1442661">magnification</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>. (The minus sign in the equation above will be discussed shortly.) The thin lens equations are broadly applicable to all situations involving thin lenses (and “thin” mirrors, as we will see later). We will explore many features of image formation in the following worked examples.</para><note id="fs-id1362746"><label/>
+    <title>Image Distance</title>
+    <para id="import-auto-id2510542">The distance of the image from the center of the lens is called image distance. </para>
+    </note>
+    <note id="fs-id1536985"><label/>
+    <title>Thin Lens Equations and Magnification</title>
+    <equation id="eip-845"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>d</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>o</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:msub>
+                        <m:mi>d</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>i</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>f</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation><equation id="eip-340"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:msub>
+                        <m:mi>h</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>i</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>h</m:mi>
+
+                          <m:mrow>
+                            <m:mtext>o</m:mtext>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:msub>
+                          <m:mi>d</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>i</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                        <m:msub>
+                          <m:mi>d</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>o</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>m</m:mi>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation></note>
+    <example id="fs-id2606058">
+    <title>Finding the Image of a Light Bulb Filament by Ray Tracing and by the Thin Lens Equations</title>
+    <para id="import-auto-id2994348">A clear glass light bulb is placed 0.750 m from a convex lens having a 0.500 m focal length, as shown in <link target-id="import-auto-id2555289"/>. Use ray tracing to get an approximate location for the image. Then use the thin lens equations to calculate (a) the location of the image and (b) its magnification. Verify that ray tracing and the thin lens equations produce consistent results.</para>
+
+    <figure id="import-auto-id2555289"><media id="import-auto-id1175106" alt="A light bulb at d sub o equals 0.75 m is placed in front of a convex lens of f equals 0.50 meter. The convex lens produces a real, inverted, and enlarged image on a screen at d sub I equals 1.50 meters.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_09.jpg" width="425"/>
+      </media>
+
+    <caption>A light bulb placed 0.750 m from a lens having a 0.500 m focal length produces a real image on a poster board as discussed in the example above. Ray tracing predicts the image location and size. </caption></figure><para id="import-auto-id1992739">
+      <emphasis>Strategy and Concept</emphasis>
+    </para>
+    <para id="import-auto-id2003390">Since the object is placed farther away from a converging lens than the focal length of the lens, this situation is analogous to those illustrated in <link target-id="import-auto-id2631957"/> and <link target-id="import-auto-id2657760"/>. Ray tracing to scale should produce similar results for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Numerical solutions for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> can be obtained using the thin lens equations, noting that
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0.750 m and </m:mn></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0.500 m</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id2946114">
+      <emphasis>Solutions (Ray tracing)</emphasis>
+    </para>
+    <para id="import-auto-id2960686">The ray tracing to scale in <link target-id="import-auto-id2555289"/> shows two rays from a point on the bulb’s filament crossing about 1.50 m on the far side of the lens. Thus the image distance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is about 1.50 m. Similarly, the image height based on ray tracing is greater than the object height by about a factor of 2, and the image is inverted. Thus <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is about –2. The minus sign indicates that the image is inverted.</para><para id="import-auto-id1603026">The thin lens equations can be used to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> from the given information:</para><equation id="eip-399"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2757310">Rearranging to isolate <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> gives</para><equation id="eip-983"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {d rSub { size 8{i} } } } = {  {1}  over  {f} }  -  {  {1}  over  {d rSub { size 8{o} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2542760">Entering known quantities gives a value for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>:</para><equation id="eip-79"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500 m</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>750 m</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>0.667</m:mtext></m:mrow><m:mtext>m</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {d rSub { size 8{i} } } } = {  {1}  over  {0 "." "500"" m"} }  -  {  {1}  over  {0 "." "750"" m"} } = {  {0 "." "667"}  over  {m} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1579349">This must be inverted to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-410"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mtext>m</m:mtext><m:mrow><m:mn>0.667</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>50 m</m:mtext></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id933802">Note that another way to find  <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> is to rearrange the equation:</para><equation id="eip-516"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {d rSub { size 8{i} } } } = {  {1}  over  {f} }  -  {  {1}  over  {d rSub { size 8{o} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2721474">This yields the equation for the image distance as: </para>
+    <equation id="eip-397"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mtext fontstyle="italic">fd</m:mtext><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2608845">Note that there is no inverting here.</para>
+    <para id="import-auto-id1438971">The thin lens equations can be used to find the magnification <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>, since both <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math> are known. Entering their values gives</para><equation id="eip-790"><m:math><m:semantics><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>i</m:mtext></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mo>–</m:mo><m:mfrac><m:mn>1.50 m</m:mn><m:mn>0.750 m</m:mn></m:mfrac><m:mo>=</m:mo><m:mo>–</m:mo><m:mn>2.00</m:mn><m:mo>.</m:mo></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2732144">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1580323">Note that the minus sign causes the magnification to be negative when the image is inverted. Ray tracing and the use of the thin lens equations produce consistent results. The thin lens equations give the most precise results, being limited only by the accuracy of the given information. Ray tracing is limited by the accuracy with which you can draw, but it is highly useful both conceptually and visually.</para>
+    </example>
+    <para id="import-auto-id2601450">Real images, such as the one considered in the previous example, are formed by converging lenses whenever an object is farther from the lens than its focal length. This is true for movie projectors, cameras, and the eye. We shall refer to these as <emphasis effect="italics">case 1</emphasis> images. A case 1 image is formed when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">&gt;</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{o} } &gt;f} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is positive, as in <link target-id="import-auto-id2724314"/>(a). (A summary of the three cases or types of image formation appears at the end of this section.)</para><para id="import-auto-id1136772">A different type of image is formed when an object, such as a person's face, is held close to a convex lens. The image is upright and larger than the object, as seen in <link target-id="import-auto-id2724314"/>(b), and so the lens is called a magnifier. If you slowly pull the magnifier away from the face, you will see that the magnification steadily increases until the image begins to blur. Pulling the magnifier even farther away produces an inverted image as seen in <link target-id="import-auto-id2724314"/>(a). The distance at which the image blurs, and beyond which it inverts, is the focal length of the lens. To use a convex lens as a magnifier, the object must be closer to the converging lens than its focal length. This is called a <emphasis effect="italics">case 2</emphasis> image. A case 2 image is formed when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">&lt;</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is positive.</para><figure id="import-auto-id2724314"><media id="import-auto-id2660531" alt="Figure a shows a lens forming an inverted image of a person’s face when it is held far away from his face. Figure b shows a magnified image of the person’s eye when viewed through a magnifying glass when the lens is placed close to the eye of the person.">
+        <image mime-type="image/png" src="../../media/Figure 26_06_10.jpg" width="225"/>
+      </media><caption>(a) When a converging lens is held farther away from the face than the lens’s focal length, an inverted image is formed. This is a case 1 image. Note that the image is in focus but the face is not, because the image is much closer to the camera taking this photograph than the face. (credit: DaMongMan, Flickr) (b) A magnified image of a face is produced by placing it closer to the converging lens than its focal length. This is a case 2 image. (credit: Casey Fleser, Flickr)</caption></figure><para id="import-auto-id2609048"><link target-id="import-auto-id2998230"/> uses ray tracing to show how an image is formed when an object is held closer to a converging lens than its focal length. Rays coming from a common point on the object continue to diverge after passing through the lens, but all appear to originate from a point at the location of the image. The image is on the same side of the lens as the object and is farther away from the lens than the object. This image, like all case 2 images, cannot be projected and, hence, is called a <term id="import-auto-id2702624">virtual image</term>. Light rays only appear to originate at a virtual image; they do not actually pass through that location in space. A screen placed at the location of a virtual image will receive only diffuse light from the object, not focused rays from the lens. Additionally, a screen placed on the opposite side of the lens will receive rays that are still diverging, and so no image will be projected on it. We can see the magnified image with our eyes, because the lens of the eye converges the rays into a real image projected on our retina. Finally, we note that a virtual image is upright and larger than the object, meaning that the magnification is positive and greater than 1.</para>
+
+    <figure id="import-auto-id2998230"><media id="import-auto-id1362599" alt="">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_11.jpg" width="250"/>
+      </media>
+
+    <caption>Ray tracing predicts the image location and size for an object held closer to a converging lens than its focal length. Ray 1 enters parallel to the axis and exits through the focal point on the opposite side, while ray 2 passes through the center of the lens without changing path. The two rays continue to diverge on the other side of the lens, but both appear to come from a common point, locating the upright, magnified, virtual image. This is a case 2 image. </caption></figure><note id="fs-id1352242"><label/>
+    <title>Virtual Image</title>
+    <para id="import-auto-id2905045">An image that is on the same side of the lens as the object and cannot be projected on a screen is called a virtual image.</para>
+    </note>
+    <example id="fs-id3204645">
+    <title>Image Produced by a Magnifying Glass</title>
+    <para id="import-auto-id2753717">Suppose the book page in <link target-id="import-auto-id2998230"/> (a) is held 7.50 cm from a convex lens of focal length 10.0 cm, such as a typical magnifying glass might have. What magnification is produced?</para><para id="import-auto-id2750740">
+      <emphasis>Strategy and Concept</emphasis>
+    </para>
+    <para id="import-auto-id2631984">We are given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>50 cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, so we have a situation where the object is placed closer to the lens than its focal length. We therefore expect to get a case 2 virtual image with a positive magnification that is greater than 1. Ray tracing produces an image like that shown in <link target-id="import-auto-id2998230"/>, but we will use the thin lens equations to get numerical solutions in this example.</para><para id="import-auto-id1511870">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id1540581">To find the magnification
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:semantics></m:math>, we try to use magnification equation,
+<m:math><m:semantics><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo>
+<m:msub><m:mi fontstyle="italic">–d</m:mi><m:mtext>i</m:mtext></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>d</m:mi><m:mtext>o</m:mtext></m:msub></m:mrow></m:semantics></m:math>. We do not have a value for
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, so that we must first find the location of the image using lens equation. (The procedure is the same as followed in the preceding example, where
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> were known.) Rearranging the magnification equation to isolate
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> gives</para><equation id="eip-454"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id888393">Entering known values, we obtain a value for <m:math><m:semantics><m:mrow><m:mrow><m:mn>1/</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-694"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mtext>10.0 cm</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50 cm</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>0333</m:mtext></m:mrow><m:mtext>cm</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2649263">This must be inverted to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-22"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mtext>cm</m:mtext><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0333</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>30.0 cm</m:mtext></m:mrow></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2169264">Now the thin lens equation can be used to find the magnification <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>, since both <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> are known. Entering their values gives</para><equation id="eip-302"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 cm</m:mn></m:mrow><m:mrow><m:mtext>7</m:mtext><m:mtext>.</m:mtext><m:mn>50 cm</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= -  {  {d rSub { size 8{i} } }  over  {d rSub { size 8{o} } } } = -  {  { - "30" "." 0`"cm"}  over  {"7" "." 50`"cm"} } =4 "." "00"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1205363">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1936373">A number of results in this example are true of all case 2 images, as well as being consistent with <link target-id="import-auto-id2998230"/>. Magnification is indeed positive (as predicted), meaning the image is upright. The magnification is also greater than 1, meaning that the image is larger than the object—in this case, by a factor of 4. Note that the image distance is negative. This means the image is on the same side of the lens as the object. Thus the image cannot be projected and is virtual. (Negative values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> occur for virtual images.) The image is farther from the lens than the object, since the image distance is greater in magnitude than the object distance. The location of the image is not obvious when you look through a magnifier. In fact, since the image is bigger than the object, you may think the image is closer than the object. But the image is farther away, a fact that is useful in correcting farsightedness, as we shall see in a later section.</para></example>
+    <para id="import-auto-id3153851">A third type of image is formed by a diverging or concave lens. Try looking through eyeglasses meant to correct nearsightedness. (See <link target-id="import-auto-id3136351"/>.) You will see an image that is upright but smaller than the object. This means that the magnification is positive but less than 1. The ray diagram in <link target-id="import-auto-id1492572"/> shows that the image is on the same side of the lens as the object and, hence, cannot be projected—it is a virtual image. Note that the image is closer to the lens than the object. This is a <emphasis effect="italics">case 3</emphasis> image, formed for any object by a negative focal length or diverging lens.</para><figure id="import-auto-id3136351"><media id="import-auto-id1637493" alt="A car when viewed through a concave lens looks upright.">
+        <image mime-type="image/png" src="../../media/Figure 26_06_12.jpg" width="250"/>
+      </media>
+
+    <caption>A car viewed through a concave or diverging lens looks upright. This is a case 3 image. (credit: Daniel Oines, Flickr)</caption></figure><figure id="import-auto-id1492572"><media id="import-auto-id1951731" alt="Figure (a) shows an upright object placed at d sub o equals seven point five cm and in front of a concave lens of on its left side. Parallel ray 1 falls on the lens and gets refracted and dotted backwards to pass through point F on the left side. Figure (b) shows ray 2 going straight through the center of the lens.  Figure (c) combines both figures (a) and (b) and the dotted line and the solid line meet at a point on the left side of the lens forming a virtual image which is erect and diminished. Here h sub o is the height of the object above the axis and h sub i is the height of the image above the axis. The distance from the center to the image is d sub i equals 4.29 cm.">
+        <image mime-type="image/jpg" src="../../media/Figure 26_06_13.jpg" width="325"/>
+      </media>
+
+    <caption>Ray tracing predicts the image location and size for a concave or diverging lens. Ray 1 enters parallel to the axis and is bent so that it appears to originate from the focal point. Ray 2 passes through the center of the lens without changing path. The two rays appear to come from a common point, locating the upright image. This is a case 3 image, which is closer to the lens than the object and smaller in height. </caption></figure><example id="fs-id1539820">
+    <title>Image Produced by a Concave Lens</title>
+    <para id="import-auto-id1332803">Suppose an object such as a book page is held 7.50 cm from a concave lens of focal length –10.0 cm. Such a lens could be used in eyeglasses to correct pronounced nearsightedness. What magnification is produced?</para><para id="import-auto-id1946593">
+      <emphasis>Strategy and Concept</emphasis>
+    </para>
+    <para id="import-auto-id1538857">This example is identical to the preceding one, except that the focal length is negative for a concave or diverging lens. The method of solution is thus the same, but the results are different in important ways.</para>
+    <para id="import-auto-id2014024">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2804118">To find the magnification <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>, we must first find the image distance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> using  thin lens equation </para><equation id="eip-590"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2984867">or its alternative rearrangement</para>
+    <equation id="eip-95"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi fontstyle="italic">fd</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mi>f</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } = {  { ital "fd" rSub { size 8{o} } }  over  {d rSub { size 8{o} }  - f} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3068455">We are given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo>=</m:mo><m:mtext>–10.0 cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>50 cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{o} } =7 "." "50"" cm"} {}</m:annotation></m:semantics></m:math>. Entering these yields a value for <m:math><m:semantics><m:mrow><m:mrow><m:mn>1/</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-145"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mtext>−10.0 cm</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50 cm</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>2333</m:mtext></m:mrow><m:mtext>cm</m:mtext></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {d rSub { size 8{i} } } } = {  {1}  over  { - "10" "." 0" cm"} }  -  {  {1}  over  {7 "." "50"" cm"} } = {  { - 0 "." "2333"}  over  {"cm"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1564089">This must be inverted to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-850"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mtext>cm</m:mtext><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>2333</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>29 cm</m:mtext></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } = -  {  {"cm"}  over  {0 "." "2333"} } = - 4 "." "29"" cm"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1544925">Or</para>
+    <equation id="eip-950"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mn>5</m:mn></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mfenced></m:mrow></m:mrow></m:mfenced></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>75</m:mtext></m:mrow><m:mo stretchy="false">/</m:mo><m:mrow><m:mtext>17</m:mtext><m:mtext>.</m:mtext><m:mn>5</m:mn></m:mrow></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>29 cm</m:mtext></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1355297">Now the magnification equation can be used to find the magnification <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>, since both <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> are known. Entering their values gives</para><equation id="eip-869"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>29 cm</m:mtext></m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50 cm</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>571</m:mtext></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= -  {  {d rSub { size 8{i} } }  over  {d rSub { size 8{o} } } } = -  {  { - 4 "." "29"`"cm"}  over  {7 "." "50"`"cm"} } =0 "." "571"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2507944">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1425477">A number of results in this example are true of all case 3 images, as well as being consistent with <link target-id="import-auto-id1492572"/>. Magnification is positive (as predicted), meaning the image is upright. The magnification is also less than 1, meaning the image is smaller than the object—in this case, a little over half its size. The image distance is negative, meaning the image is on the same side of the lens as the object. (The image is virtual.) The image is closer to the lens than the object, since the image distance is smaller in magnitude than the object distance. The location of the image is not obvious when you look through a concave lens. In fact, since the image is smaller than the object, you may think it is farther away. But the image is closer than the object, a fact that is useful in correcting nearsightedness, as we shall see in a later section.</para></example>
+    <para id="import-auto-id2594702"><link target-id="import-auto-id3075384"/> summarizes the three types of images formed by single thin lenses. These are referred to as case 1, 2, and 3 images. Convex (converging) lenses can form either real or virtual images (cases 1 and 2, respectively), whereas concave (diverging) lenses can form only virtual images (always case 3). Real images are always inverted, but they can be either larger or smaller than the object. For example, a slide projector forms an image larger than the slide, whereas a camera makes an image smaller than the object being photographed. Virtual images are always upright and cannot be projected. Virtual images are larger than the object only in case 2, where a convex lens is used. The virtual image produced by a concave lens is always smaller than the object—a case 3 image. We can see and photograph virtual images only by using an additional lens to form a real image.</para>
+
+    <table id="import-auto-id3075384" summary="THREE TYPES OF IMAGES FORMED BY THIN LENSES"><title>Three Types of Images Formed By Thin Lenses</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+
+        <thead><row>
+            <entry>Type</entry>
+            <entry>Formed when</entry>
+            <entry>Image type</entry>
+            <entry><emphasis effect="italics">d</emphasis><sub>i</sub>
+            </entry>
+            <entry><emphasis effect="italics">m</emphasis></entry>
+          </row></thead><tbody><row>
+            <entry>Case 1</entry>
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> positive, <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">&gt;</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{o} } &gt;f} {}</m:annotation></m:semantics></m:math></entry>
+            <entry>real</entry>
+            <entry>positive</entry>
+            <entry>negative</entry>
+          </row><row>
+            <entry>Case 2</entry>
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> positive, <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub><m:mo stretchy="false">&lt;</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{o} } &lt;f} {}</m:annotation></m:semantics></m:math></entry>
+            <entry>virtual</entry>
+            <entry>negative</entry>
+            <entry>positive  <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>m</m:mi>
+                          <m:mo stretchy="false">&gt;</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow>
+                </m:semantics>
+              </m:math> </entry>
+          </row><row>
+            <entry>Case 3</entry>
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> negative</entry>
+            <entry>virtual</entry>
+            <entry>negative</entry>
+            <entry>positive <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>m</m:mi>
+                          <m:mo stretchy="false">&lt;</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{m&lt;1} {}</m:annotation>
+                </m:semantics>
+              </m:math> </entry>
+          </row></tbody>
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id2966113">In <link document="m61398">Image Formation by Mirrors</link>, we shall see that mirrors can form exactly the same types of images as lenses.</para><note id="fs-id2914346"><label/><title>Take-Home Experiment: Concentrating Sunlight</title>
+
+    <para id="import-auto-id2542076">Find several lenses and determine whether they are converging or diverging. In general those that are thicker near the edges are diverging and those that are thicker near the center are converging. On a bright sunny day take the converging lenses outside and try focusing the sunlight onto a piece of paper. Determine the focal lengths of the lenses. Be careful because the paper may start to burn, depending on the type of lens you have selected. </para>
+    </note></section>
+        <section id="fs-id2212849">
+        <title>Problem-Solving Strategies for Lenses</title>
+    <para id="import-auto-id3195875">Step 1. Examine the situation to determine that image formation by a lens is involved.</para>
+    <para id="import-auto-id3195878">Step 2. Determine whether ray tracing, the thin lens equations, or both are to be employed. A sketch is very useful even if ray tracing is not specifically required by the problem. Write symbols and values on the sketch.</para>
+    <para id="import-auto-id2300913">Step 3. Identify exactly what needs to be determined in the problem (identify the unknowns).</para>
+    <para id="import-auto-id2300915">Step 4. Make a<emphasis effect="italics"/>list of what is given or can be inferred from the problem as stated (identify the knowns). It is helpful to determine whether the situation involves a case 1, 2, or 3 image. While these are just names for types of images, they have certain characteristics (given in <link target-id="import-auto-id3075384"/>) that can be of great use in solving problems.</para>
+    <para id="import-auto-id2991316">Step 5. If ray tracing is required, use the ray tracing rules listed near the beginning of this section.</para>
+    <para id="import-auto-id2996351">Step 6. Most quantitative problems require the use of the thin lens equations. These are solved in the usual manner by substituting knowns and solving for unknowns. Several worked examples serve as guides.</para>
+    <para id="import-auto-id2676414">Step 7. Check to see if the answer is reasonable: Does it make sense<emphasis effect="italics">?</emphasis> If you have identified the type of image (case 1, 2, or 3), you should assess whether your answer is consistent with the type of image, magnification, and so on.</para>
+    <note id="fs-id2705843"><label/><title>Misconception Alert</title>
+
+    <para id="import-auto-id2692624">We do not realize that light rays are coming from every part of the object, passing through every part of the lens, and all can be used to form the final image.</para>
+    <para id="import-auto-id2555653">We generally feel the entire lens, or mirror, is needed to form an image. Actually, half a lens will form the same, though a fainter, image.</para>
+    </note></section>
+<note id="fs-id1169082561600" class="watch-physics">
+<label/>
+<title>Watch Physics: Thin Lens Equation and Problem Solving</title>
+<para id="fs-id1169082533462">This video gives examples using the thin lens equation.</para>
+<media id="fs-id1169082533465" alt="This tutorial demonstrates how to use the thin lens equation.">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02thinlens"/>
+</media>
+</note>
+ <section id="fs-id1551041" class="section-summary"><title>Section Summary</title><list id="fs-id1949629"><item id="import-auto-id3163834">Light rays entering a converging lens parallel to its axis cross one another at a single point on the opposite side.</item>
+    <item id="import-auto-id2773095">For a converging lens, the focal point is the point at which converging light rays cross; for a diverging lens, the focal point is the point from which diverging light rays appear to originate.</item>
+    <item id="import-auto-id1636863">The distance from the center of the lens to its focal point is called the focal length <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>.</item>
+    <item id="import-auto-id2822659">Power <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math><emphasis effect="bold"/> of a lens is defined to be the inverse of its focal length, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  {1}  over  {f} } } {}</m:annotation></m:semantics></m:math>.</item>
+    <item id="import-auto-id2656646">A lens that causes the light rays to bend away from its axis is called a diverging lens.</item>
+    <item id="import-auto-id2528070">Ray tracing is the technique of graphically determining the paths that light rays take.</item>
+    <item id="import-auto-id2528072">The image in which light rays from one point on the object actually cross at the location of the image and can be projected onto a screen, a piece of film, or the retina of an eye is called a real image.</item>
+    <item id="import-auto-id3341227">Thin lens equations are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>f</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>h</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {h rSub { size 8{i} } }  over  {h rSub { size 8{o} } } } = -  {  {d rSub { size 8{i} } }  over  {d rSub { size 8{o} } } } =m} {}</m:annotation></m:semantics></m:math> (magnification).</item>
+    <item id="import-auto-id1998720">The distance of the image from the center of the lens is called image distance.</item>
+    <item id="import-auto-id1998722">An image that is on the same side of the lens as the object and cannot be projected on a screen is called a virtual image.</item>
+    </list></section><section id="fs-id3167738" class="conceptual-questions" type="conceptual-questions">
+    <title>Conceptual Questions</title>
+    <exercise id="fs-id2633637" type="conceptual-questions"><problem id="fs-id2633638">
+    <para id="import-auto-id1570587">It can be argued that a flat piece of glass, such as in a window, is like a lens with an infinite focal length. If so, where does it form an image? That is, how are <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rSub { size 8{o} } } {}</m:annotation></m:semantics></m:math> related?</para></problem></exercise>
+    <exercise id="fs-id2678508" type="conceptual-questions"><problem id="fs-id2678510">
+    <para id="import-auto-id2636340">You can often see a reflection when looking at a sheet of glass, particularly if it is darker on the other side. Explain why you can often see a double image in such circumstances. </para>
+    </problem></exercise>
+    <exercise id="fs-id2506828" type="conceptual-questions"><problem id="fs-id2506830">
+    <para id="import-auto-id1573732" fo:font-weight="normal">When you focus a camera, you adjust the distance of the lens from the film. If the camera lens acts like a thin lens, why can it not be a fixed distance from the film for both near and distant objects? </para>
+    </problem></exercise>
+    <exercise id="fs-id2003119" type="conceptual-questions"><problem id="fs-id2003120">
+    <para id="import-auto-id1746905" fo:font-weight="normal">A thin lens has two focal points, one on either side, at equal distances from its center, and should behave the same for light entering from either side. Look through your eyeglasses (or those of a friend) backward and forward and comment on whether they are thin lenses. </para>
+    </problem></exercise>
+    <exercise id="fs-id3094309" type="conceptual-questions"><problem id="fs-id3094310">
+    <para id="import-auto-id2806924" fo:font-weight="normal">Will the focal length of a lens change when it is submerged in water? Explain. </para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id3205290" type="problems-exercises" class="problems-exercises">
+<title>Problems &amp; Exercises</title>
+    <exercise id="fs-id2638147" type="problems-exercises"><problem id="fs-id2638148">
+    <para id="import-auto-id3158339" fo:font-weight="normal">What is the power in diopters of a camera lens that has a 50.0 mm focal length?</para>
+    </problem></exercise>
+    <exercise id="fs-id2677903" type="problems-exercises"><problem id="fs-id2606797">
+    <para id="import-auto-id3088610" fo:font-weight="normal">Your camera’s zoom lens has an adjustable focal length ranging from 80.0 to 200 mm. What is its range of powers?</para>
+    </problem>
+        <solution id="fs-id2206201">
+    <para id="import-auto-id3099912"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>5.00 to 12.5 D</m:mtext>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id2017716" type="problems-exercises"><problem id="fs-id2017717">
+    <para id="import-auto-id2809912" fo:font-weight="normal">What is the focal length of 1.75 D reading glasses found on the rack in a pharmacy? </para>
+    </problem></exercise>
+    <exercise id="fs-id857005" type="problems-exercises"><problem id="fs-id857006">
+    <para id="import-auto-id2573398" fo:font-weight="normal">You note that your prescription for new eyeglasses is –4.50 D. What will their focal length be?</para>
+    </problem>
+        <solution id="fs-id3097770">
+    <para id="import-auto-id2585866"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>0.222 m</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - 0 "." "222"" m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id2609001" type="problems-exercises"><problem id="fs-id2609002">
+    <para id="import-auto-id2810771">How far from the lens must the film in a camera be, if the lens has a 35.0 mm focal length and is being used to photograph a flower 75.0 cm away? Explicitly show how you follow the steps in the Problem-Solving Strategy for lenses.</para>
+        </problem></exercise>
+    <exercise id="fs-id1511783" type="problems-exercises"><problem id="fs-id1511784">
+    <para id="import-auto-id2509853">A certain slide projector has a 100 mm focal length lens. (a) How far away is the screen, if a slide is placed 103 mm from the lens and produces a sharp image? (b) If the slide is 24.0 by 36.0 mm, what are the dimensions of the image? Explicitly show how you follow the steps in the Problem-Solving Strategy for lenses.</para>
+    </problem>
+        <solution id="fs-id2963526">
+    <para id="import-auto-id952980">(a) 3.43 m</para>
+    <para id="import-auto-id1514307">(b) 0.800 by 1.20 m</para>
+</solution></exercise>
+    <exercise id="fs-id1551768" type="problems-exercises"><problem id="fs-id1551770">
+    <para id="import-auto-id2687571" fo:font-weight="normal">A doctor examines a mole with a 15.0 cm focal length magnifying glass held 13.5 cm from the mole (a) Where is the image? (b) What is its magnification? (c) How big is the image of a 5.00 mm diameter mole?</para></problem>
+        <solution id="fs-id3159566">
+    <para id="import-auto-id2129620">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>35 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{-1 "." "35"" m"} {}</m:annotation></m:semantics></m:math> (on the object side of the lens).</para><para id="import-auto-id1533530">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+"10" "." 0} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1945026">(c) 5.00 cm</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2999113" type="problems-exercises"><problem id="fs-id2999114">
+    <para id="import-auto-id2631218" fo:font-weight="normal">How far from a piece of paper must you hold your father’s 2.25 D reading glasses to try to burn a hole in the paper with sunlight?</para>
+    </problem>
+<solution id="eip-id1551072"><para id="eip-id1551073">44.4 cm</para></solution></exercise><exercise id="fs-id2910732" type="problems-exercises"><problem id="fs-id2910733">
+    <para id="import-auto-id882323" fo:font-weight="normal">A camera with a 50.0 mm focal length lens is being used to photograph a person standing 3.00 m away. (a) How far from the lens must the film be? (b) If the film is 36.0 mm high, what fraction of a 1.75 m tall person will fit on it? (c) Discuss how reasonable this seems, based on your experience in taking or posing for photographs. </para>
+    </problem></exercise>
+    <exercise id="fs-id2937990" type="problems-exercises"><problem id="fs-id2937992">
+    <para id="import-auto-id2998100" fo:font-weight="normal">A camera lens used for taking close-up photographs has a focal length of 22.0 mm. The farthest it can be placed from the film is 33.0 mm. (a) What is the closest object that can be photographed? (b) What is the magnification of this closest object?</para>
+    </problem><solution id="fs-id1949959">
+    <para id="import-auto-id2836823">(a) 6.60 cm</para>
+    <para id="import-auto-id2836825" fo:font-weight="normal">(b) –0.500</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2785052" type="problems-exercises"><problem id="fs-id2785053">
+    <para id="import-auto-id2606450">Suppose your 50.0 mm focal length camera lens is 51.0 mm away from the film in the camera. (a) How far away is an object that is in focus? (b) What is the height of the object if its image is 2.00 cm high? </para>
+    </problem></exercise>
+    <exercise id="fs-id2938156" type="problems-exercises"><problem id="fs-id2938157">
+    <para id="import-auto-id1596424">(a) What is the focal length of a magnifying glass that produces a magnification of 3.00 when held 5.00 cm from an object, such as a rare coin? (b) Calculate the power of the magnifier in diopters. (c) Discuss how this power compares to those for store-bought reading glasses (typically 1.0 to 4.0 D). Is the magnifier’s power greater, and should it be?</para>
+    </problem>
+        <solution id="fs-id2597202">
+    <para id="import-auto-id3154714">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>50 cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+7 "." "50"" cm"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1535342">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>13</m:mtext><m:mtext>.</m:mtext><m:mtext>3 D</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"13" "." "3 D"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id3108948">(c) Much greater</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2512413" type="problems-exercises"><problem id="fs-id2512414">
+    <para id="import-auto-id1949959">What magnification will be produced by a lens of power –4.00 D (such as might be used to correct myopia) if an object is held 25.0 cm away? </para>
+    </problem></exercise>
+    <exercise id="fs-id1942256" type="problems-exercises"><problem id="fs-id1942257">
+    <para id="import-auto-id1997386">In <link target-id="fs-id3204645"/>, the magnification of a book held 7.50 cm from a 10.0 cm focal length lens was found to be 3.00. (a) Find the magnification for the book when it is held 8.50 cm from the magnifier. (b) Do the same for when it is held 9.50 cm from the magnifier. (c) Comment on the trend in m as the object distance increases as in these two calculations. </para></problem>
+        <solution id="fs-id2526999">
+            <para id="import-auto-id2758938">(a) +6.67</para><para id="import-auto-id2957902">(b) +20.0</para><para id="import-auto-id1551668">(c) The magnification increases without limit (to infinity) as the object distance increases to the limit of the focal distance. </para>
+    </solution></exercise>
+        <exercise id="fs-id2506991" type="problems-exercises"><problem id="fs-id2506992">
+    <para id="import-auto-id1663883">Suppose a 200 mm focal length telephoto lens is being used to photograph mountains 10.0 km away. (a) Where is the image? (b) What is the height of the image of a 1000 m high cliff on one of the mountains? </para>
+    </problem></exercise>
+    <exercise id="fs-id3200951" type="problems-exercises"><problem id="fs-id3200952">
+    <para id="import-auto-id2986387">A camera with a 100 mm focal length lens is used to photograph the sun and moon. What is the height of the image of the sun on the film, given the sun is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "40"´"10" rSup { size 8{6} } " km"} {}</m:annotation></m:semantics></m:math> in diameter and is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "50"´"10" rSup { size 8{8} } " km"} {}</m:annotation></m:semantics></m:math> away?</para></problem>
+        <solution id="fs-id2932618">
+    <para id="import-auto-id2921252"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>933 mm</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - 0 "." "933"" mm"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution></exercise>
+    <exercise id="fs-id2764641" type="problems-exercises"><problem id="fs-id2764642">
+    <para id="import-auto-id2915408">Combine thin lens equations to show that the magnification for a thin lens is determined by its focal length and the object distance and is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">/</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>o</m:mtext></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=f/ left (f-d rSub { size 8{o} }  right )} {}</m:annotation></m:semantics></m:math>. </para></problem></exercise></section>
+</content>
+    <glossary>
+<definition id="fs-id2361299"><term>converging lens</term> <meaning id="fs-id2375757">a convex lens in which light rays that enter it parallel to its axis converge at a single point on the opposite side</meaning></definition>
+<definition id="fs-id2361310"><term>diverging lens</term> <meaning id="fs-id2375765">a concave lens in which light rays that enter it parallel to its axis bend away (diverge) from its axis</meaning></definition>
+    <definition id="import-auto-id2645078"><term>focal point</term> <meaning id="fs-id3143930">for a converging lens or mirror, the point at which converging light rays cross; for a diverging lens or mirror, the point from which diverging light rays appear to originate</meaning></definition>
+<definition id="fs-id1803376"><term>focal length</term> <meaning id="fs-id2455479">distance from the center of a lens or curved mirror to its focal point</meaning></definition>
+    <definition id="import-auto-id2645080"><term>magnification</term> <meaning id="fs-id2649153">ratio of image height to object height</meaning></definition>
+    <definition id="import-auto-id3068382"><term>power</term> <meaning id="fs-id2738054">inverse of focal length</meaning></definition>
+    <definition id="import-auto-id1356324"><term>real image</term> <meaning id="fs-id2997597">image that can be projected</meaning></definition>
+    <definition id="import-auto-id1356326"><term>virtual image</term> <meaning id="fs-id1569411">image that cannot be projected</meaning></definition>
+    </glossary>
+</document>

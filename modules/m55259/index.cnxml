@@ -1,0 +1,1158 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The First Law of Thermodynamics and Some Simple Processes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55259</md:content-id>
+  <md:title>The First Law of Thermodynamics and Some Simple Processes</md:title>
+  <md:abstract/>
+  <md:uuid>d25883e8-2a6b-4afa-9f40-46f116461546</md:uuid>
+</metadata>
+
+<content>
+
+
+<section id="fs-id2431864" class="learning-objectives">
+<title>Learning Objectives</title>
+<para id="fs-id2296327">By the end of this section, you will be able to:</para>
+<list id="fs-id2624273">
+<item>Describe the processes of a simple heat engine.</item>
+<item>Explain the differences among the simple thermodynamic processes—isobaric, isochoric, isothermal, and adiabatic.</item>
+<item>Calculate total work done in a cyclical thermodynamic process.</item>
+</list>
+<para id="fs-id3277033">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id2186822">
+<item><emphasis effect="bold">5.B.5.6</emphasis> The student is able to design an experiment and analyze graphical data in which interpretations of the area under a pressure-volume curve are needed to determine the work done on or by the object or system. <emphasis effect="bold">(S.P. 4.2, 5.1)</emphasis></item>
+<item><emphasis effect="bold">5.B.7.2</emphasis> The student is able to create a plot of pressure versus volume for a thermodynamic process from given data. <emphasis effect="bold">(S.P. 1.1)</emphasis></item>
+<item><emphasis effect="bold">5.B.7.3</emphasis> The student is able to use a plot of pressure versus volume for a thermodynamic process to make calculations of internal energy changes, heat, or work, based upon conservation of energy principles (i.e., the first law of thermodynamics). <emphasis effect="bold">(S.P. 1.1, 1.4, 2.2)</emphasis></item>
+</list></section>
+
+
+    <figure id="import-auto-id1169738145359"><media id="import-auto-id1169737869776" alt="An old photo of a steam turbine at a turbine production plant. People are shown working on the turbine.">
+        <image mime-type="image/png" src="../../media/Figure_16_02_01a.jpg"/>
+      </media>
+ <caption>Beginning with the Industrial Revolution, humans have harnessed power through the use of the first law of thermodynamics, before we even understood it completely. This photo, of a steam engine at the Turbinia Works, dates from 1911, a mere 61 years after the first explicit statement of the first law of thermodynamics by Rudolph Clausius. (credit: public domain; author unknown)</caption></figure><para id="import-auto-id1169737715853">One of the most important things we can do with heat transfer is to use it to do work for us. Such a device is called a <term id="import-auto-id1169738183063">heat engine</term>. Car engines and steam turbines that generate electricity are examples of heat engines. <link target-id="import-auto-id1169737781930"/> shows schematically how the first law of thermodynamics applies to the typical heat engine.</para>
+
+
+    <figure id="import-auto-id1169737781930"><media id="import-auto-id1169736581897" alt="The figure shows a schematic representation of a heat engine. The heat engine is represented by a circle. The heat entering the system is shown as Q sub in, represented as a bold arrow toward the circle, and the heat coming out of the heat engine is shown as Q sub out, represented by a narrower bold arrow leaving the circle. The work labeled as W is shown to leave the heat engine as represented by another bold arrow leaving the circle. At the center of the circle are two equations. First, the change in internal energy of the system, delta U, equals zero. Consequently, W equals Q sub in minus Q sub out.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_02a.jpg"/>
+      </media>
+
+    <caption>Schematic representation of a heat engine, governed, of course, by the first law of thermodynamics. It is impossible to devise a system where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{"out"} } =0} {}</m:annotation></m:semantics></m:math>, that is, in which no heat transfer occurs to the environment.</caption></figure><figure id="import-auto-id1169737757532"><media id="import-auto-id1169737895034" alt="Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_03a.jpg"/>
+      </media>
+
+    <caption>(a) Heat transfer to the gas in a cylinder increases the internal energy of the gas, creating higher pressure and temperature. (b) The force exerted on the movable cylinder does work as the gas expands. Gas pressure and temperature decrease when it expands, indicating that the gas's internal energy has been decreased by doing work. (c) Heat transfer to the environment further reduces pressure in the gas so that the piston can be more easily returned to its starting position.</caption></figure><para id="import-auto-id1169737979358">The illustrations above show one of the ways in which heat transfer does work. Fuel combustion produces heat transfer to a gas in a cylinder, increasing the pressure of the gas and thereby the force it exerts on a movable piston. The gas does work on the outside world, as this force moves the piston through some distance. Heat transfer to the gas cylinder results in work being done. To repeat this process, the piston needs to be returned to its starting point. Heat transfer now occurs from the gas to the surroundings so that its pressure decreases, and a force is exerted by the surroundings to push the piston back through some distance. Variations of this process are employed daily in hundreds of millions of heat engines. We will examine heat engines in detail in the next section. In this section, we consider some of the simpler underlying processes on which heat engines are based.</para>
+
+  <section id="fs-id1169738074443">
+  <title><emphasis effect="italics">PV</emphasis>  Diagrams and their Relationship to Work Done on or by a Gas</title><para id="import-auto-id1169737795645">A process by which a gas does work on a piston at constant pressure is called an <term id="import-auto-id1169737786623">isobaric process</term>. Since the pressure is constant, the force exerted is constant and the work done is given as</para><equation id="fs-id1169738204673"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{PΔV} {}</m:annotation></m:semantics></m:math></equation>
+
+
+    <figure id="import-auto-id1169738117758"><media id="import-auto-id1169738009329" alt="The diagram shows an isobaric expansion of a gas filled cylinder held vertically. V is the volume of gas in the cylinder. A is the area of cross section of the cylinder. The cylinder has a movable piston with a rod attached to it at the top of the cylinder. A heat Q sub in is shown to enter the cylinder from below. A force F equals P times A is shown to act upward from the bottom of the cylinder. The piston is shown to have been displaced by a vertical distance d upward. The volume displaced is given by delta V equals A times d. The work output shown as W sub out is equal to F times d, which is also equal to P times A times d, which in turn equals P times delta V.">
+        <image mime-type="image/png" src="../../media/Figure_16_02_04a.jpg"/>
+      </media>
+ <caption>An isobaric expansion of a gas requires heat transfer to keep the pressure constant. Since pressure is constant, the work done is <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{PΔV} {}</m:annotation></m:semantics></m:math>.</caption></figure><equation id="fs-id1169736619217">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>W</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Fd</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id1169736629145">See the symbols as shown in <link target-id="import-auto-id1169738117758"/>. Now <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "PA"} {}</m:annotation></m:semantics></m:math>, and so</para>
+    <equation id="fs-id1169738176429"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PAd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= ital "PAd"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738200039">Because the volume of a cylinder is its cross-sectional area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> times its length <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>, we see that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ad</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Ad"=ΔV} {}</m:annotation></m:semantics></m:math>, the change in volume; thus,</para>
+    <equation id="fs-id1169737994453"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow><m:mtext> (isobaric process).</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=PΔV} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737794212">Note that if <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔV} {}</m:annotation></m:semantics></m:math> is positive, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is positive, meaning that work is done <emphasis effect="italics">by</emphasis> the gas on the outside world.</para>
+    <para id="eip-122">(Note that the pressure involved in this work that we've called    <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mi>
+P
+         </m:mi>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{P} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math> is the pressure of the gas <emphasis effect="italics">inside</emphasis> the tank.  If we call the pressure outside the tank     <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:msub>
+          <m:mi>
+P
+          </m:mi>
+          <m:mrow>
+           <m:mstyle>
+            <m:mrow>
+             <m:mrow>
+              <m:mtext>
+ext
+              </m:mtext>
+             </m:mrow>
+            </m:mrow>
+           </m:mstyle>
+          </m:mrow>
+         </m:msub>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{P rSub { size 8{"ext"} } } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>, an expanding gas would be working <emphasis effect="italics">against</emphasis> the external pressure; the work done would therefore be    <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mi>
+W
+          </m:mi>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+           <m:mo stretchy="false">
+−
+           </m:mo>
+           <m:msub>
+            <m:mi>
+P
+            </m:mi>
+            <m:mrow>
+             <m:mstyle>
+              <m:mrow>
+               <m:mrow>
+                <m:mtext>
+ext
+                </m:mtext>
+               </m:mrow>
+              </m:mrow>
+             </m:mstyle>
+            </m:mrow>
+           </m:msub>
+          </m:mrow>
+         </m:mrow>
+         <m:mtext>
+Δ
+         </m:mtext>
+         <m:mi mathvariant="italic">
+V
+         </m:mi>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{W= - P rSub { size 8{"ext"} } ΔV} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>  (isobaric process). Many texts use this definition of work, and not the definition based on internal pressure, as the basis of the First Law of Thermodynamics.  This definition reverses the sign conventions for work, and results in a statement of the first law that becomes  <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+<m:mtext>Δ</m:mtext>
+          <m:mi mathvariant="italic">
+U
+          </m:mi>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+           <m:mi>
+Q
+           </m:mi>
+           <m:mo stretchy="false">
++
+           </m:mo>
+           <m:mi>
+W
+           </m:mi>
+          </m:mrow>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{ΔU=Q+W} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>.)</para><para id="import-auto-id1169738219750">It is not surprising that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=PΔV} {}</m:annotation></m:semantics></m:math>, since we have already noted in our treatment of fluids that pressure is a type of potential energy per unit volume and that pressure in fact has units of energy divided by volume. We also noted in our discussion of the ideal gas law that <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> has units of energy. In this case, some of the energy associated with pressure becomes work.</para>
+    <para id="import-auto-id1169736621040"><link target-id="import-auto-id1169737742078"/> shows a graph of pressure versus volume (that is, a <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram for an isobaric process. You can see in the figure that the work done is the area under the graph. This property of <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagrams is very useful and broadly applicable: <emphasis effect="italics">the work done on or by a system in going from one state to another equals the area under the curve on a <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram</emphasis>.</para>
+
+
+    <figure id="import-auto-id1169737742078"><media id="import-auto-id1169737812109" alt="The graph of pressure verses volume is shown for a constant pressure. The pressure P is along the Y axis and the volume is along the X axis. The graph is a straight line parallel to the X axis for a value of pressure P. Two points are marked on the graph at either end of the line as A and B. A is the starting point of the graph and B is the end point of graph. There is an arrow pointing from A to B. The term isobaric is written on the graph. For a length of graph equal to delta V the area of the graph is shown as a shaded area given by P times delta V which is equal to work W.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_05a.jpg"/>
+      </media>
+
+    <caption>A graph of pressure versus volume for a constant-pressure, or isobaric, process, such as the one shown in <link target-id="import-auto-id1169738117758"/>. The area under the curve equals the work done by the gas, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=PΔV} {}</m:annotation></m:semantics></m:math>.</caption></figure><figure id="import-auto-id1169738072579"><media id="import-auto-id1169737802956" alt="The diagram in part a shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve is a smooth falling curve from the highest point A to the lowest point B. The curve is segmented into small vertical rectangular sections of equal width. One of the sections is marked as width of delta V sub one along the X axis. The pressure P sub one average multiplied by delta V sub one gives the work done for that strip of the graph. Part b of the figure shows a similar graph for the reverse path. The curve now slopes upward from point A to point B. An equation in the top right of the graph reads W sub in equals the opposite of W sub out for the same path.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_06abc.jpg"/>
+      </media>
+
+    <caption>(a) A <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram in which pressure varies as well as volume. The work done for each interval is its average pressure times the change in volume, or the area under the curve over that interval. Thus the total area under the curve equals the total work done. (b) Work must be done on the system to follow the reverse path. This is interpreted as a negative area under the curve.</caption></figure><para id="import-auto-id1169737805419">We can see where this leads by considering <link target-id="import-auto-id1169738072579"/>(a), which shows a more general process in which both pressure and volume change. The area under the curve is closely approximated by dividing it into strips, each having an average constant pressure <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{i \( "ave" \) } } } {}</m:annotation></m:semantics></m:math>. The work done is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub></m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>V</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{i} } =P rSub { size 8{i \( "ave" \) } } DV rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> for each strip, and the total work done is the sum of the <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>. Thus the total work done is the total area under the curve. If the path is reversed, as in <link target-id="import-auto-id1169738072579"/>(b), then work is done on the system. The area under the curve in that case is negative, because <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔV} {}</m:annotation></m:semantics></m:math> is negative.</para><para id="import-auto-id1169737795258"><m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagrams clearly illustrate that <emphasis effect="italics">the work done depends on the path taken and not just the endpoints</emphasis>. This path dependence is seen in <link target-id="import-auto-id1169738251372"/>(a), where more work is done in going from A to C by the path via point B than by the path via point D. The vertical paths, where volume is constant, are called <term id="import-auto-id1169737793733">isochoric</term> processes. Since volume is constant, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔV=0} {}</m:annotation></m:semantics></m:math>, and no work is done in an isochoric process. Now, if the system follows the cyclical path ABCDA, as in <link target-id="import-auto-id1169738251372"/>(b), then the total work done is the area inside the loop. The negative area below path CD subtracts, leaving only the area inside the rectangle. In fact, the work done in any cyclical process (one that returns to its starting point) is the area inside the loop it forms on a <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram, as <link target-id="import-auto-id1169738251372"/>(c) illustrates for a general cyclical process. Note that the loop must be traversed in the clockwise direction for work to be positive—that is, for there to be a net work output.</para><figure id="import-auto-id1169738251372"><media id="import-auto-id1169738063855" alt="Part a of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve has a rectangular shape. The curve is labeled A B C D. The paths A B and D C represent isobaric processes as shown by lines pointing toward the right, and A D and B C represent isochoric processes, as shown by lines pointing vertically downward. W sub A B C is shown greater than W sub A D C. The area below the curve A B C D, filling the rectangle A B C D, and the area immediately below path D C are also shaded. Part b of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The curve has a rectangular shape and is labeled A B C D. The paths A B and C D represent isobaric processes; A B is a line pointing to the right, and C D is a line pointing to the left. The paths B C and D A represent isochoric processes; B C points vertically downward, and D A points vertically upward. The length of the graph along A B is marked as delta V equals five hundred centimeters cubed. The line A B on the graph is shown to have a pressure P sub A B equals one point five multiplied by ten to the power six Newtons per meter square. The line D on the graph is shown to have a pressure P sub C D equals one point two multiplied by ten to the power five Newtons per meter squared. The total work is marked as W sub tot equals W sub out plus W sub in. Part c of the diagram shows a pressure versus volume graph. The pressure is along the Y axis and the volume is along the X axis. The graph is a closed loop in the form of an ellipse with the arrow pointing in clockwise direction. The shaded area inside the ellipse represents the work done.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_07a.jpg"/>
+      </media>
+
+    <caption>(a) The work done in going from A to C depends on path. The work is greater for the path ABC than for the path ADC, because the former is at higher pressure. In both cases, the work done is the area under the path. This area is greater for path ABC. (b) The total work done in the cyclical process ABCDA is the area inside the loop, since the negative area below CD subtracts out, leaving just the area inside the rectangle. (The values given for the pressures and the change in volume are intended for use in the example below.)  (c) The area inside any closed loop is the work done in the cyclical process. If the loop is traversed in a clockwise direction, <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is positive—it is work done on the outside environment. If the loop is traveled in a counter-clockwise direction, <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is negative—it is work that is done to the system.</caption></figure></section>
+
+   <example id="eip-62"><title>Total Work Done in a Cyclical Process Equals the Area Inside the Closed Loop on a <emphasis effect="italics">PV</emphasis> Diagram</title><para id="import-auto-id1169737790420">Calculate the total work done in the cyclical process ABCDA shown in <link target-id="import-auto-id1169738251372"/>(b) by the following two methods to verify that work equals the area inside the closed loop on the <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram. (Take the data in the figure to be precise to three significant figures.) (a) Calculate the work done along each segment of the path and add these values to get the total work. (b) Calculate the area inside the rectangle ABCDA.</para><para id="import-auto-id1169737827425"><title>Strategy</title></para>
+    <para id="eip-239">To find the work along any path on a <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram, you use the fact that work is pressure times change in volume, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=PΔV} {}</m:annotation></m:semantics></m:math>. So in part (a), this value is calculated for each leg of the path around the closed loop.</para><para id="import-auto-id1169737980620"><title>Solution for (a)</title></para><para id="eip-680">The work along path AB is</para>
+     <equation id="fs-id1169738212534"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:msub>
+                              <m:mi>W</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>AB</m:mtext>
+                                </m:mrow>
+
+                            </m:msub></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+                            <m:msub>
+                              <m:mi>P</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>AB</m:mtext>
+                                </m:mrow>
+
+                            </m:msub>
+                          </m:mrow>
+
+                            <m:mn>Δ</m:mn><m:msub><m:mi>V</m:mi>
+
+                              <m:mrow>
+                                <m:mtext>AB</m:mtext>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>         <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow/>
+
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>1</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>50</m:mtext>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext> N/m</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>00</m:mtext>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>–4</m:mn>
+                        </m:mrow>
+
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext> m</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mrow>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>750</m:mtext>
+                    </m:mrow><m:mspace width="0.25em"/>
+                    <m:mtext> J.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{W rSub { size 8{"AB"} } =P rSub { size 8{"AB"} } DV rSub { size 8{"AB"} } }  {} #
+= \( 1 "." "50"´"10" rSup { size 8{6} } " N/m" rSup { size 8{2} }  \)  \( 5 "." "00"´"10" rSup { size 8{4} } " m" rSup { size 8{3} }  \) ="750"" J" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1169737952076">Since the path BC is isochoric, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>BC</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DV rSub { size 8{"BC"} } =0} {}</m:annotation></m:semantics></m:math>, and so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>BC</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"BC"} } =0} {}</m:annotation></m:semantics></m:math>. The work along path CD is negative, since <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>CD</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DV rSub { size 8{"CD"} } } {}</m:annotation></m:semantics></m:math> is negative (the volume decreases). The work is</para>
+     <equation id="fs-id1169737967309"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:msub>
+                              <m:mi>W</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>CD</m:mtext>
+                                </m:mrow>
+
+                            </m:msub></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+                            <m:msub>
+                              <m:mi>P</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>CD</m:mtext>
+                                </m:mrow>
+
+                            </m:msub>
+                          </m:mrow>
+
+                            <m:mn>Δ</m:mn><m:msub><m:mi>V</m:mi>
+
+                              <m:mrow>
+                                <m:mtext>CD</m:mtext>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>         <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>2</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>00</m:mtext>
+                  <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext> N/m</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>–5</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>00</m:mtext>
+                  <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>–4</m:mn>
+                        </m:mrow>
+
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext> m</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+<m:mspace width="0.25em"/>
+                    <m:mtext>=</m:mtext>
+<m:mspace width="0.25em"/>
+<m:mtext>–</m:mtext>
+                    <m:mtext>100</m:mtext><m:mspace width="0.25em"/>
+                    <m:mtext> J</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{W rSub { size 8{"CD"} } =P rSub { size 8{"CD"} } DV rSub { size 8{"CD"} } }  {} #
+= \( 2 "." "00"´"10" rSup { size 8{5} } " N/m" rSup { size 8{2} }  \)  \( 5 "." "00"´"10" rSup { size 8{4} } " m" rSup { size 8{3} }  \) "=-""100"" J" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     </equation><para id="import-auto-id1169736659581">Again, since the path DA is isochoric, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>DA</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DV rSub { size 8{"DA"} } =0} {}</m:annotation></m:semantics></m:math>, and so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>DA</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"DA"} } =0} {}</m:annotation></m:semantics></m:math>. Now the total work is</para><equation id="fs-id1169737734761"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                          <m:mi>W</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+
+
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mrow>
+                                <m:msub>
+                                  <m:mi>W</m:mi>
+
+                                    <m:mrow>
+                                      <m:mtext>AB</m:mtext>
+                                    </m:mrow>
+
+                                </m:msub>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:msub>
+                                  <m:mi>W</m:mi>
+
+                                    <m:mrow>
+                                      <m:mtext>BC</m:mtext>
+                                    </m:mrow>
+
+                                </m:msub>
+                              </m:mrow>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>W</m:mi>
+
+                                  <m:mrow>
+                                    <m:mtext>CD</m:mtext>
+                                  </m:mrow>
+
+                              </m:msub>
+                            </m:mrow>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:msub>
+                              <m:mi>W</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>DA</m:mtext>
+                                </m:mrow>
+
+                            </m:msub>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>         <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mtext>750 J</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>100</m:mtext>
+                    </m:mrow>
+                    <m:mtext> J</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">)</m:mo>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>650 J.</m:mtext>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+     </equation><para id="import-auto-id1169738118029"><title>Solution for (b)</title></para><para id="eip-804">The area inside the rectangle is its height times its width, or</para>
+     <equation id="fs-id1169738074651"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                            <m:mtext>area</m:mtext></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>P</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>AB</m:mtext>
+                                </m:mrow>
+
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>P</m:mi>
+
+                                <m:mrow>
+                                  <m:mtext>CD</m:mtext>
+                                </m:mrow>
+
+                            </m:msub>
+                          </m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mn>Δ</m:mn><m:mi>V</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>         <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mfenced open="[" close="]">
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mtext>1.50</m:mtext>
+                        <m:mi>×</m:mi>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+
+                        </m:msup><m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext> N/m</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                        <m:mrow>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mo stretchy="false">(</m:mo>
+                        </m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>00</m:mtext>
+                    <m:mi>×</m:mi>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+
+                        </m:msup><m:mspace width="0.25em"/>
+                        <m:msup>
+                          <m:mtext> N/m</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mn>5</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>00</m:mtext>
+              <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext> m</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mo stretchy="false">)</m:mo>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>         <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                    <m:mtext>650 J.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"area"= \( P rSub { size 8{"AB"} } -P rSub { size 8{"CD"} }  \) DV}  {} #
+= left [ \( 1 "." "50"´"10" rSup { size 8{6} } " N/m" rSup { size 8{2} }  \) - \( 2 "." "00"´"10" rSup { size 8{5} } " N/m" rSup { size 8{2} }  \)  right ]´ \( 5 "." "00"´"10" rSup { size 8{-4} } " m" rSup { size 8{3} }  \)  {} #
+="750"" J" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     </equation><para id="import-auto-id1169736709297">Thus,</para>
+     <equation id="fs-id1169738089571"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>area</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>650</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext> J</m:mtext><m:mo stretchy="false">=</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"area"="650"" J"=W} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737769612"><title>Discussion</title></para>
+    <para id="eip-774">The result, as anticipated, is that the area inside the closed loop equals the work done. The area is often easier to calculate than is the work done along each path. It is also convenient to visualize the area inside different curves on <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagrams in order to see which processes might produce the most work. Recall that work can be done to the system, or by the system, depending on the sign of <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>. A positive <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is work that is done by the system on the outside environment; a negative <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> represents work done by the environment on the system.</para><para id="import-auto-id1169737847242"><link target-id="import-auto-id1169736581959"/>(a) shows two other important processes on a <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram. For comparison, both are shown starting from the same point A. The upper curve ending at point B is an <term id="import-auto-id1169737754472">isothermal</term> process—that is, one in which temperature is kept constant. If the gas behaves like an ideal gas, as is often the case, and if no phase change occurs, then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nRT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= ital "nRT"} {}</m:annotation></m:semantics></m:math>. Since <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> is constant, <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> is a constant for an isothermal process. We ordinarily expect the temperature of a gas to decrease as it expands, and so we correctly suspect that heat transfer must occur from the surroundings to the gas to keep the temperature constant during an isothermal expansion. To show this more rigorously for the special case of a monatomic ideal gas, we note that the average kinetic energy of an atom in such a gas is given by</para><equation id="fs-id1169737806404"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mover accent="true">
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="true">¯</m:mo>
+                      </m:mover>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>3</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>kT</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } m { bar  {v}} rSup { size 8{2} } = {  {3}  over  {2} }  ital "kT" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+     </equation><para id="import-auto-id1169737910232">The kinetic energy of the atoms in a monatomic ideal gas is its only form of internal energy, and so its total internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> is</para>
+     <equation id="fs-id1169737796383"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>N</m:mi><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mi>m</m:mi><m:mrow><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">¯</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow><m:mtext> (monatomic ideal gas),</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U=N cdot  {  {1}  over  {2} } m { bar  {v}} rSup { size 8{2} } = {  {3}  over  {2} }  ital "NkT",} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737803307">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> is the number of atoms in the gas. This relationship means that the internal energy of an ideal monatomic gas is constant during an isothermal process—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=0} {}</m:annotation></m:semantics></m:math>. If the internal energy does not change, then the net heat transfer into the gas must equal the net work done by the gas. That is, because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W=0} {}</m:annotation></m:semantics></m:math> here, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=W} {}</m:annotation></m:semantics></m:math>. We must have just enough heat transfer to replace the work done. An isothermal process is inherently slow, because heat transfer occurs continuously to keep the gas temperature constant at all times and must be allowed to spread through the gas so that there are no hot or cold regions.</para>
+    <para id="import-auto-id1169737822180">Also shown in <link target-id="import-auto-id1169736581959"/>(a) is a curve AC for an <term id="import-auto-id1169737822182">adiabatic</term> process, defined to be one in which there is no heat transfer—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=0} {}</m:annotation></m:semantics></m:math>. Processes that are nearly adiabatic can be achieved either by using very effective insulation or by performing the process so fast that there is little time for heat transfer. Temperature must decrease during an adiabatic expansion process, since work is done at the expense of internal energy:</para><equation id="fs-id1169737980933"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U= {  {3}  over  {2} }  ital "NkT"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738045112">(You might have noted that a gas released into atmospheric pressure from a pressurized cylinder is substantially colder than the gas in the cylinder.) In fact, because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0, </m:mn></m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=0, DU"=-"W} {}</m:annotation></m:semantics></m:math> for an adiabatic process. Lower temperature results in lower pressure along the way, so that curve AC is lower than curve AB, and less work is done. If the path ABCA could be followed by cooling the gas from B to C at constant volume (isochorically), <link target-id="import-auto-id1169736581959"/>(b), there would be a net work output.</para><figure id="import-auto-id1169736581959"><media id="import-auto-id1169737805498" alt="Part a of the figure shows a graph for pressure versus volume. The pressure is along the y axis and the volume is along the x axis. There are two curves. The first curve begins at point A and falls smoothly downward to point B. The graph is shown for an isothermal process. The second curve also begins at point A but falls below the first curve and ends at point C vertically below point B. This graph is shown for an adiabatic process. A line joins point B and C to meet on the X axis. Also a line is drawn from point A to meet the X axis. The area under both the curves is shaded. The graph in figure b is similar to the graph in figure a. Only the directions of the curves are changed. The graph begins from A and moves downward to point B. Then from point B the curve drops vertically downward to C. From point C the graph has a smooth rise back to point A. All directions represented using arrows.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_08a.jpg"/>
+      </media>
+
+    <caption>(a) The upper curve is an isothermal process (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔT=0} {}</m:annotation></m:semantics></m:math>), whereas the lower curve is an adiabatic process (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=0} {}</m:annotation></m:semantics></m:math>). Both start from the same point A, but the isothermal process does more work than the adiabatic because heat transfer into the gas takes place to keep its temperature constant. This keeps the pressure higher all along the isothermal path than along the adiabatic path, producing more work. The adiabatic path thus ends up with a lower pressure and temperature at point C, even though the final volume is the same as for the isothermal process. (b) The cycle ABCA produces a net work output.</caption></figure></example>
+
+<note id="fs-id1812229"><title>Applying the Science Practices: Work in a Potato Cannon</title><para id="fs-id1309467">Plan an experiment using a potato cannon, meter stick, and pressure gauge to measure the work done by a potato cannon. Your experiment should produce P–V diagrams to analyze and determine the work done on a gas or by a gas. What do you need to measure? How will you measure it? Can you modify the potato cannon to make your measurements easier? When you perform multiple trials, what variables do you need to keep fixed between each trial? Which variables will you change?</para>
+<para id="fs-id1297572">One class decides to use a heavy piston, capable of being latched in place, to replace the potato. They latch the piston in place so that the contained volume is 0.50 L, load the cannon with fuel, and close the cannon with their pressure gauge, which reads 101 kPa. Then they light the fuel, and the pressure jumps to 405 kPa. Next, they release the latch, and the piston moves out until the internal volume is 2.0 L. The pressure is measured at this point to be 101 kPa again. Finally, they release the pressure gauge, and move the piston back down to 0.50 L, still at atmospheric pressure. Draw a diagram of this process, and calculate the net work performed by this system. Can you think of any ways to improve the measurements?</para>
+<para id="fs-id3155887">You should find that you have a right triangle on a P–V diagram, the area of which is the net work done by the system. Using a pressure gauge that can take continuous measurements during the expansion phase might be useful, as it is unlikely that this would actually be a linear process.</para>
+</note><section id="fs-id1169738250571">
+    <title>Reversible Processes</title>
+ <para id="import-auto-id1169737770282">Both isothermal and adiabatic processes such as shown in <link target-id="import-auto-id1169736581959"/> are reversible in principle. A <term id="import-auto-id1169738250360">reversible process</term> is one in which both the system and its environment can return to exactly the states they were in by following the reverse path. The reverse isothermal and adiabatic paths are BA and CA, respectively. Real macroscopic processes are never exactly reversible. In the previous examples, our system is a gas (like that in <link target-id="import-auto-id1169738117758"/>), and its environment is the piston, cylinder, and the rest of the universe. If there are any energy-dissipating mechanisms, such as friction or turbulence, then heat transfer to the environment occurs for either direction of the piston. So, for example, if the path BA is followed and there is friction, then the gas will be returned to its original state but the environment will not—it will have been heated in both directions. Reversibility requires the direction of heat transfer to reverse for the reverse path. Since dissipative mechanisms cannot be completely eliminated, real processes cannot be reversible.</para><para id="import-auto-id1169738005781">There must be reasons that real macroscopic processes cannot be reversible. We can imagine them going in reverse. For example, heat transfer occurs spontaneously from hot to cold and never spontaneously the reverse. Yet it would not violate the first law of thermodynamics for this to happen. In fact, all spontaneous processes, such as bubbles bursting, never go in reverse. There is a second thermodynamic law that forbids them from going in reverse. When we study this law, we will learn something about nature and also find that such a law limits the efficiency of heat engines. We will find that heat engines with the greatest possible theoretical efficiency would have to use reversible processes, and even they cannot convert all heat transfer into doing work. <link target-id="import-auto-id1169738075975"/> summarizes the simpler thermodynamic processes and their definitions.</para>
+
+
+
+    <table id="import-auto-id1169738075975" summary="The table shows a summary of simple thermodynamic processes. There are two columns. The first column represents various thermodynamic process and the second column has an explanation for each."><title>Summary of Simple Thermodynamic Processes</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/><tbody>
+
+           <row><entry>Isobaric</entry>
+            <entry>Constant pressure <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">P</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=PΔV} {}</m:annotation></m:semantics></m:math></entry>
+          </row>
+
+           <row><entry>Isochoric</entry>
+            <entry>Constant volume <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=0} {}</m:annotation></m:semantics></m:math></entry>
+          </row><row>
+            <entry>Isothermal</entry>
+            <entry>Constant temperature <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=W} {}</m:annotation></m:semantics></m:math></entry>
+          </row><row>
+            <entry>Adiabatic</entry>
+            <entry>No heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=0} {}</m:annotation></m:semantics></m:math></entry>
+          </row></tbody>
+
+
+
+
+</tgroup>
+</table></section>
+
+    <note id="eip-786" class="interactive"><label/><title>States of Matter</title>
+<para id="eip-idm234755536">Watch different types of molecules form a solid, liquid, or gas. Add or remove heat and watch the phase change. Change the temperature or volume of a container and see a pressure-temperature diagram respond in real time. Relate the interaction potential to the forces between molecules.</para><figure id="eip-idm1045971872">
+<media id="eip-idm994508048" alt="This simulation allows you to explore how different types of molecules form a solid, liquid, or gas.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02statematter"/>
+</media>
+</figure></note>
+<section id="fs-id2543930" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+<exercise id="fs-id2539531" type="ap-test-prep"><problem id="fs-id2142842">
+<para id="fs-id2023760">In <link target-id="import-auto-id1169737882796"/>, how much work is done by the system in process AB?</para><list id="fs-id1436268" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>4.5 × 10<sup>3</sup> J</item>
+<item>6.0 × 10<sup>3</sup> J</item>
+<item>6.9 × 10<sup>3</sup> J</item>
+<item>7.8 × 10<sup>3</sup> J</item>
+</list>
+</problem>
+<solution id="fs-id3585429">
+<para id="fs-id3563725">(c)</para></solution>
+</exercise><exercise id="fs-id2328663" type="ap-test-prep">
+<problem id="fs-id2805363">
+<para id="fs-id2703231">Consider process CD in <link target-id="import-auto-id1169737882796"/>. Does this represent work done by or on the system, and how much?</para></problem>
+<!--<solution id="fs-id1407544">
+<para id="fs-id3237963">This represents work done on the system, 2.4 &#215; 10<sup>3</sup> J</para>
+</solution>--></exercise>
+
+<exercise id="fs-id2200650" type="ap-test-prep"><problem id="fs-id2040265">
+<para id="fs-id1973991">A thermodynamic process begins at 1.2 × 10<sup>6</sup> N/m<sup>2</sup> and 5 L. The state then changes to 1.2 × 10<sup>6</sup> N/m<sup>2</sup> and 2 L. Next it becomes 2.2 × 10<sup>6</sup> N/m<sup>2</sup> and 2 L. The next change is 2.2 × 10<sup>6</sup> N/m<sup>2</sup> and 5 L. Finally, the system ends at 1.0 × 10<sup>6</sup> N/m<sup>2</sup> and 5 L.</para><para id="fs-id1810714">On <link target-id="import-auto-id1169737933362"/>, this process is best described by</para><list id="fs-id1765748" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>EFCDB</item>
+<item>DEFCD</item>
+<item>CFABC</item>
+<item>CFABD</item>
+</list>
+</problem>
+<solution id="fs-id1948521">
+<para id="fs-id3652609">(d)</para>
+</solution>
+</exercise><exercise id="fs-id2150466" type="ap-test-prep">
+<problem id="fs-id2869175">
+<para id="fs-id2717714">The first step of a thermodynamic cycle is an isobaric process with increasing volume. The second is an isochoric process, with decreasing pressure. The last step may be either an isothermal or adiabatic process, ending at the starting point of the isobaric process. Sketch a graph of these two possibilities, and comment on which will have greater net work per cycle.</para>
+</problem>
+<!--<solution id="fs-id2691042">
+<para id="fs-id2181571">The sketch should have an upper right corner and a lower left curve on a P&#8211;V graph. The isothermal process curve is inside the adiabatic curve. Hence the cycle with the adiabatic process covers more area and does more work per cycle.</para>
+</solution>-->
+</exercise>
+
+<exercise id="fs-id1738036" type="ap-test-prep"><problem id="fs-id2718774">
+<para id="fs-id2563820">In <link target-id="import-auto-id1169737882796"/>, which of the following cycles has the greatest net work output?</para><list id="fs-id2169967" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>ABDA</item>
+<item>BCDB</item>
+<item>(a) and (b) are equal</item>
+<item>ADCBA</item>
+</list></problem>
+<solution id="fs-id1382192">
+<para id="fs-id1891937">(a)</para></solution>
+</exercise><exercise id="fs-id2537938" type="ap-test-prep">
+<problem id="fs-id1476177">
+<para id="fs-id2374987">Look at <link target-id="import-auto-id1169737933362"/>, and assign values to the three pressures and two volumes given in the graph. Then calculate the net work for the cycle ABCFEDCFA using those values. How does this work compare to the heat output or input of the system? Which value(s) would you change to maximize the net work per cycle?</para></problem>
+<!--<solution id="fs-id2328018"><para id="fs-id2328020">Actual calculations should be straightforward given that we have two rectangles. Note that the result is ABCF &#8211; FCDE. The heat input should be equal to the net work. To maximize net work, increase AB, make FC=ED, and decrease ED.</para></solution>-->
+</exercise>
+</section>
+
+
+<section id="fs-id1169737779631" class="section-summary"><title>Section Summary</title><list id="fs-id1169738077844"><item id="import-auto-id1169736609278">One of the important implications of the first law of thermodynamics is that machines can be harnessed to do work that humans previously did by hand or by external energy supplies such as running water or the heat of the Sun. A machine that uses heat transfer to do work is known as a heat engine.</item>
+    <item id="import-auto-id1169737050912">There are several simple processes, used by heat engines, that flow from the first law of thermodynamics. Among them are the isobaric, isochoric, isothermal and adiabatic processes.</item>
+    <item id="import-auto-id1169737846866">These processes differ from one another based on how they affect pressure, volume, temperature, and heat transfer.</item>
+    <item id="import-auto-id1169737988065">If the work done is performed on the outside environment, work (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) will be a positive value. If the work done is done to the heat engine system, work (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) will be a negative value.</item>
+    <item id="import-auto-id1169737787905">Some thermodynamic processes, including isothermal and adiabatic processes, are reversible in theory; that is, both the thermodynamic system and the environment can be returned to their initial states. However, because of loss of energy owing to the second law of thermodynamics, complete reversibility does not work in practice.</item>
+    </list></section><section id="fs-id1169737995034" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+      <exercise id="fs-id1169737813337" type="conceptual-questions">
+      <problem id="fs-id1169737813341">
+    <para id="import-auto-id1169737998461">A great deal of effort, time, and money has been spent in the quest for the so-called perpetual-motion machine, which is defined as a hypothetical machine that operates or produces useful work indefinitely and/or a hypothetical machine that produces more work or energy than it consumes. Explain, in terms of heat engines and the first law of thermodynamics, why or why not such a machine is likely to be constructed.</para>
+      </problem></exercise>
+
+      <exercise id="fs-id1169737777774" type="conceptual-questions">
+        <problem id="fs-id1169737777777">
+    <para id="import-auto-id1169736656618">One method of converting heat transfer into doing work is for heat transfer into a gas to take place, which expands, doing work on a piston, as shown in the figure below. (a) Is the heat transfer converted directly to work in an isobaric process, or does it go through another form first? Explain your answer. (b) What about in an isothermal process? (c) What about in an adiabatic process (where heat transfer occurred prior to the adiabatic process)?</para>
+
+
+<figure id="fs-id1169737705524"><media id="fs-id1169737705526" alt="Figure a shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The heat Q sub in is shown to be transferred to the gas in the cylinder as shown by a bold arrow toward it. The force of the gas on the moving cylinder with the piston is shown as F equals P times A shown as a vector arrow pointing toward the right. The change in internal energy is marked in the diagram as delta U sub a equals Q sub in. Figure b shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The force of the gas has moved the cylinder with the piston by a distance d toward the right. The change in internal energy is marked in the diagram as delta U sub b equals negative W sub out. The piston is shown to have done work by change in position, marked as F d equal to W sub out. Figure c shows a piston attached to a movable cylinder which is attached to the right of another gas filled cylinder. The piston attached to the cylinder is shown to reach back to the initial position shown in figure a. The distance d is traveled back and heat Q sub out is shown to leave the system as represented by an outward arrow. The force driving backward is shown as a vector arrow pointing to the left, labeled F prime. F prime is shown less than F. The work done by the force F prime is shown by the equation W sub in equal to F prime times d.">
+  <image mime-type="image/jpg" src="../../media/Figure_16_02_09a.jpg"/>
+</media>
+</figure></problem>
+      </exercise>
+
+      <exercise id="fs-id1169738164305" type="conceptual-questions">
+        <problem id="fs-id1169738164308">
+    <para id="import-auto-id1169737814781">Would the previous question make any sense for an isochoric process? Explain your answer.</para>
+        </problem></exercise>
+
+      <exercise id="fs-id1169738243863" type="conceptual-questions">
+        <problem id="fs-id1169738257427">
+    <para id="import-auto-id1169736634079">We ordinarily say that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU=0} {}</m:annotation></m:semantics></m:math> for an isothermal process. Does this assume no phase change takes place? Explain your answer.</para>
+        </problem></exercise>
+
+      <exercise id="fs-id1169737927114" type="conceptual-questions">
+        <problem id="fs-id1169737980092">
+    <para id="import-auto-id1169736675911">The temperature of a rapidly expanding gas decreases. Explain why in terms of the first law of thermodynamics. (Hint: Consider whether the gas does work and whether heat transfer occurs rapidly into the gas through conduction.)</para>
+        </problem></exercise>
+
+      <exercise id="fs-id1169736657271" type="conceptual-questions">
+        <problem id="fs-id1169736657275">
+    <para id="import-auto-id1169736815856">Which cyclical process represented by the two closed loops, ABCFA and ABDEA, on the <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram in the figure below produces the greatest <emphasis effect="italics">net</emphasis> work? Is that process also the one with the smallest work input required to return it to point A? Explain your responses.</para>
+
+
+    <figure id="import-auto-id1169737933362"><media id="import-auto-id1169737700652" alt="The figure shows a graph of pressure versus volume. The pressure is along the Y axis and the volume is plotted along the X axis. The graph consists of a rectangle, A B C F, superimposed on a slightly larger rectangle, A B D E. The lines A B, C F, and D E are parallel to the X axis and lines B C D and A F E are parallel to the Y axis.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_10a.jpg"/>
+      </media>
+    <caption>The two cyclical processes shown on this <m:math>
+ <m:semantics>
+  <m:mi fontstyle="italic">PV</m:mi>
+ </m:semantics>
+</m:math>  diagram start with and return the system to the conditions at point A, but they follow different paths and produce different amounts of work.</caption></figure></problem></exercise>
+
+      <exercise id="fs-id1169737980711" type="conceptual-questions">
+        <problem id="fs-id1169737980715">
+    <para id="import-auto-id1169738106264">A real process may be nearly adiabatic if it occurs over a very short time. How does the short time span help the process to be adiabatic?</para>
+        </problem></exercise>
+
+      <exercise id="fs-id1169737826122" type="conceptual-questions">
+        <problem id="fs-id1169738218730">
+    <para id="import-auto-id1169738073552">It is unlikely that a process can be isothermal unless it is a very slow process. Explain why. Is the same true for isobaric and isochoric processes? Explain your answer.</para>
+    </problem></exercise>
+    </section>
+
+    <section id="fs-id1169738092073" class="problems-exercises"><title>Problem Exercises</title><exercise id="fs-id1169738045355" type="problems-exercises"><problem id="fs-id1169738045359">
+          <para id="import-auto-id1169737874350">A car tire contains <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0380</m:mtext><m:msup><m:mo>m</m:mo><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "0380"" m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> of nitrogen at a pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>20</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "20"´"10" rSup { size 8{5} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> (about 32 psi). How much more internal energy does this gas have than the same volume has at zero gauge pressure (which is equivalent to normal atmospheric pressure)?</para></problem>
+<solution id="fs-id1169738088297">
+
+    <para id="import-auto-id1169738109654"><m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+6
+         </m:mn>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mtext>
+77
+          </m:mtext>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+            <m:mstyle>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+3
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+            </m:mstyle>
+           </m:mrow>
+          </m:msup>
+         </m:mrow>
+   <m:mspace width="0.25em"/>
+         <m:mtext>
+J
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{6 "." "77" times "10" rSup { size 8{3} } `J} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></para></solution>
+      </exercise><exercise id="fs-id1169737805440" type="problems-exercises">
+        <problem id="fs-id1169737712992">
+      <para id="import-auto-id1169738137226">A helium-filled toy balloon has a gauge pressure of 0.200 atm and a volume of 10.0 L. How much greater is the internal energy of the helium in the balloon than it would be at zero gauge pressure?</para>
+        </problem></exercise>
+
+
+      <exercise id="fs-id1169737713001" type="problems-exercises"><problem id="fs-id1169737713004">
+      <para id="import-auto-id1169738212725">Steam to drive an old-fashioned steam locomotive is supplied at a constant gauge pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>75</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "75"´"10" rSup { size 8{6} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> (about 250 psi) to a piston with a 0.200-m radius. (a) By calculating <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">P</m:mi><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{PDV} {}</m:annotation></m:semantics></m:math>, find the work done by the steam when the piston moves 0.800 m. Note that this is the net work output, since gauge pressure is used. (b) Now find the amount of work by calculating the force exerted times the distance traveled. Is the answer the same as in part (a)?</para></problem>
+<solution id="fs-id1169737940202">
+    <para id="import-auto-id1169737917759">(a)    <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mrow>
+           <m:mi>
+W
+           </m:mi>
+           <m:mo stretchy="false">
+=
+           </m:mo>
+           <m:mi fontstyle="italic">P</m:mi><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">V</m:mi>
+          </m:mrow>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+
+            <m:mrow>
+             <m:mn>
+1
+             </m:mn>
+             <m:mtext>
+.
+             </m:mtext>
+             <m:mrow>
+              <m:mtext>
+76
+              </m:mtext>
+              <m:mo>
+×
+              </m:mo>
+              <m:msup>
+               <m:mtext>
+10
+               </m:mtext>
+               <m:mrow>
+                <m:mstyle>
+                 <m:mrow>
+                  <m:mrow>
+                   <m:mn>
+5
+                   </m:mn>
+                  </m:mrow>
+                 </m:mrow>
+                </m:mstyle>
+               </m:mrow>
+              </m:msup>
+             </m:mrow><m:mspace width="0.25em"/>
+             <m:mtext>
+J
+             </m:mtext>
+            </m:mrow>
+
+          </m:mrow>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{W=PΔV= {underline  {1 "." "76" times "10" rSup { size 8{5} } " J"}} } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></para><para id="import-auto-id1169738013198">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>76</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd"= ital "PAd"= {underline  {1 "." "76" times "10" rSup { size 8{5} } " J"}} } {}</m:annotation></m:semantics></m:math>. Yes, the answer is the same.</para></solution>
+      </exercise>
+
+
+      <exercise id="fs-id1169737780474" type="problems-exercises">
+        <problem id="fs-id1169737780478">
+    <para id="import-auto-id1169738077207">A hand-driven tire pump has a piston with a 2.50-cm diameter and a maximum stroke of 30.0 cm. (a) How much work do you do in one stroke if the average gauge pressure is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "40"´"10" rSup { size 8{5} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> (about 35 psi)? (b) What average force do you exert on the piston, neglecting friction and gravitational force?</para></problem></exercise>
+
+
+      <exercise id="fs-id1169737041721" type="problems-exercises">
+        <problem id="fs-id1169737041724">
+      <para id="import-auto-id1169738033916">Calculate the net work output of a heat engine following path ABCDA in the figure below.</para>
+
+
+    <figure id="import-auto-id1169737882796"><media id="import-auto-id1169737882797" alt="A graph is shown of pressure versus volume, with pressure on the Y axis and volume on the X axis. A parallelogram connects four points are on the graph, A, B, C, and D. A is at y equals 2 point 6 times 10 to the six newtons per meter squared and x equals 1 point zero times ten to the minus three meters cubed. A downward sloping line connects A to B. B is at y equals 2 point zero, x equals four. A vertical line connects B to C. C is at y equals zero point 6, x equals 4. A line connects C to D. D is at y equals one point zero, x equals one point zero. A vertical line connects D to A. A diagonal line also connects D and B.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_02_11a-b903.jpg"/>
+      </media>
+
+    </figure></problem>
+
+    <solution id="fs-id1169736672856">
+    <para id="import-auto-id1169737087079"><m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mi>
+W
+          </m:mi>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mn>
+4
+          </m:mn>
+         </m:mrow>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mn>
+5
+          </m:mn>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+            <m:mstyle>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+3
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+            </m:mstyle>
+           </m:mrow>
+          </m:msup>
+         </m:mrow>
+         <m:mspace width="0.25em"/>
+         <m:mtext>
+J
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{W=4 "." 5 times "10" rSup { size 8{3} } `J} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></para></solution>
+      </exercise>
+
+
+      <exercise id="fs-id1169737002182" type="problems-exercises">
+        <problem id="fs-id1169737002187">
+      <para id="import-auto-id1169738091042">What is the net work output of a heat engine that follows path ABDA in the figure above, with a straight line from B to D? Why is the work output less than for path ABCDA? Explicitly show how you follow the steps in the <link document="m55266" target-id="fs-id1169738116696">Problem-Solving Strategies for Thermodynamics</link>.</para></problem></exercise>
+
+
+      <exercise id="fs-id1169737818589" type="problems-exercises">
+        <problem id="fs-id1169737818594">
+      <para id="import-auto-id1169737961767">
+      <title>Unreasonable Results</title>
+    </para>
+    <para id="import-auto-id1169738073395">What is wrong with the claim that a cyclical heat engine does 4.00 kJ of work on an input of 24.0 kJ of heat transfer while 16.0 kJ of heat transfers to the environment?</para>
+    </problem>
+<solution id="fs-id1169738186541">
+    <para id="import-auto-id1169738073401"><m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is not equal to the difference between the heat input and the heat output.</para></solution>
+      </exercise>
+
+
+      <exercise id="fs-id1169738036310" type="problems-exercises">
+        <problem id="fs-id1169738036315">
+    <para id="import-auto-id1169737813971">(a) A cyclical heat engine, operating between temperatures of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>450º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"450"°C} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>150º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"150"°C} {}</m:annotation></m:semantics></m:math> produces 4.00 MJ of work on a heat transfer of 5.00 MJ into the engine. How much heat transfer occurs to the environment? (b) What is unreasonable about the engine? (c) Which premise is unreasonable?</para></problem></exercise>
+
+      <exercise id="fs-id1169737860358" type="problems-exercises">
+    <problem id="fs-id1169737803608">
+    <para id="import-auto-id1169738218731">
+      <title>Construct Your Own Problem</title>
+    </para>
+    <para id="import-auto-id1169738218734">Consider a car's gasoline engine. Construct a problem in which you calculate the maximum efficiency this engine can have. Among the things to consider are the effective hot and cold reservoir temperatures. Compare your calculated efficiency with the actual efficiency of car engines.</para>
+    </problem></exercise>
+
+
+      <exercise id="fs-id1169737781729" type="problems-exercises"><problem id="fs-id1169737781734">
+      <para id="import-auto-id1169736591092"><title>Construct Your Own Problem</title> </para>
+<para id="eip-id1169738106619">Consider a car trip into the mountains. Construct a problem in which you calculate the overall efficiency of the car for the trip as a ratio of kinetic and potential energy gained to fuel consumed. Compare this efficiency to the thermodynamic efficiency quoted for gasoline engines and discuss why the thermodynamic efficiency is so much greater. Among the factors to be considered are the gain in altitude and speed, the mass of the car, the distance traveled, and typical fuel economy.</para>
+    </problem></exercise>
+    </section>
+ </content>
+  <glossary>
+    <definition id="import-auto-id1169738105624"><term>heat engine</term> <meaning id="fs-id1169737003437">a machine that uses heat transfer to do work</meaning></definition>
+    <definition id="import-auto-id1169737939642"><term>isobaric process</term> <meaning id="fs-id1169737003447">constant-pressure process in which a gas does work</meaning></definition>
+    <definition id="import-auto-id1169737939644"><term>isochoric process</term> <meaning id="fs-id1169738037322"> a constant-volume process</meaning></definition>
+    <definition id="import-auto-id1169738137014"><term>isothermal process</term> <meaning id="fs-id1169738037331">a constant-temperature process</meaning></definition>
+    <definition id="import-auto-id1169738137016"><term>adiabatic process</term> <meaning id="fs-id1169737757629">a process in which no heat transfer takes place</meaning></definition>
+    <definition id="import-auto-id1169737882835"><term>reversible process</term> <meaning id="fs-id1169737757639">a process in which both the heat engine system and the external environment theoretically can be returned to their original states</meaning></definition>
+  </glossary>
+</document>

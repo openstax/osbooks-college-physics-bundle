@@ -1,0 +1,596 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Friction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60727</md:content-id>
+  <md:title>Friction</md:title>
+  <md:abstract><list>
+<item>Discuss the general characteristics of friction.</item>
+<item>Describe the various types of friction.</item>
+<item>Calculate the magnitude of static and kinetic friction.</item>
+</list></md:abstract>
+  <md:uuid>a78a8432-5d68-4476-8fbb-5ae4bfe71d68</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165298998704"><term id="import-auto-id1165298484489">Friction</term> is a force that is around us all the time that opposes relative motion between surfaces in contact but also allows us to move (which you have discovered if you have ever tried to walk on ice). While a common force, the behavior of friction is actually very complicated and is still not completely understood. We have to rely heavily on observations for whatever understandings we can gain. However, we can still deal with its more elementary general characteristics and understand the circumstances in which it behaves.</para><note id="fs-id1737207"><label/>
+      <title>Friction</title>
+      <para id="import-auto-id1165298838484">Friction is a force that opposes relative motion between surfaces in contact.</para></note>
+      <para id="import-auto-id1165298642426">One of the simpler characteristics of friction is that it is parallel to the contact surface between systems and always in a direction that opposes motion or attempted motion of the surfaces relative to each other. If two surfaces are in contact and moving relative to one another, then the friction between them is called <term id="import-auto-id1165296294917">kinetic friction</term>. For example, friction slows a hockey puck sliding on ice. But when objects are stationary, <term id="import-auto-id1165298806829">static friction</term><emphasis effect="bold"/> can act between them; the static friction is usually greater than the kinetic friction between the surfaces.</para><note id="fs-id1529028"><label/>
+      <title>Kinetic Friction</title>
+      <para id="import-auto-id1165298716875">If two surfaces are in contact and moving relative to one another, then the friction between them is called kinetic friction.</para></note>
+      <para id="import-auto-id1165298931746">Imagine, for example, trying to slide a heavy crate across a concrete floor—you may push harder and harder on the crate and not move it at all. This means that the static friction responds to what you do—it increases to be equal to and in the opposite direction of your push. But if you finally push hard enough, the crate seems to slip suddenly and starts to move. Once in motion it is easier to keep it in motion than it was to get it started, indicating that the kinetic friction force is less than the static friction force. If you add mass to the crate, say by placing a box on top of it, you need to push even harder to get it started and also to keep it moving. Furthermore, if you oiled the concrete you would find it to be easier to get the crate started and keep it going (as you might expect).</para>
+      <para id="import-auto-id1165298771731"><link target-id="import-auto-id1165298476574"/> <emphasis effect="bold"/>is a crude pictorial representation of how friction occurs at the interface between two objects. Close-up inspection of these surfaces shows them to be rough. So when you push to get an object moving (in this case, a crate), you must raise the object until it can skip along with just the tips of the surface hitting, break off the points, or do both. A considerable force can be resisted by friction with no apparent motion. The harder the surfaces are pushed together (such as if another box is placed on the crate), the more force is needed to move them. Part of the friction is due to adhesive forces between the surface molecules of the two objects, which explain the dependence of friction on the nature of the substances. Adhesion varies with substances in contact and is a complicated aspect of surface physics. Once an object is moving, there are fewer points of contact (fewer molecules adhering), so less force is required to keep the object moving. At small but nonzero speeds, friction is nearly independent of speed.</para>
+
+      <figure id="import-auto-id1165298476574"><media id="import-auto-id1165298795114" alt="The figure shows a crate on a flat surface, and a magnified view of a bottom corner of the crate and the supporting surface. The magnified view shows that there is roughness in the two surfaces in contact with each other. A black arrow points toward the right, away from the crate, and it is labeled as the direction of motion or attempted motion. A red arrow pointing toward the left is located near the bottom left corner of the crate, at the interface between that corner and the supporting surface. The red arrow is labeled as f, representing friction between the two surfaces in contact with each other.">
+          <image mime-type="image/jpg" src="../../media/Figure_06_01_01a.jpg" width="375"/>
+        </media>
+
+              <caption>Frictional forces, such as <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>, always oppose motion or attempted motion between surfaces in contact. Friction arises in part because of the roughness of the surfaces in contact, as seen in the expanded view. In order for the object to move, it must rise to where the peaks can skip along the bottom surface. Thus a force is required just to set the object in motion. Some of the peaks will be broken off, also requiring a force to maintain motion. Much of the friction is actually due to attractive forces between molecules making up the two objects, so that even perfectly smooth surfaces are not friction-free. Such adhesive forces also depend on the substances the surfaces are made of, explaining, for example, why rubber-soled shoes slip less than those with leather soles.</caption></figure><para id="import-auto-id1165298678893">The magnitude of the frictional force has two forms: one for static situations (static friction), the other for when there is motion (kinetic friction).</para>
+      <para id="import-auto-id1165298731824">When there is no motion between the objects, the <term id="import-auto-id1165298867639">magnitude of static friction <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:msub>
+                  <m:mi mathvariant="bold">f</m:mi>
+
+                    <m:mrow>
+                      <m:mtext>s</m:mtext>
+                    </m:mrow>
+
+                </m:msub>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></term> is</para><equation id="eip-70"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s} }  &lt;= μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298478066">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math>  is the coefficient of static friction and <m:math>
+ <m:semantics>
+  <m:mi>N</m:mi>
+ </m:semantics>
+</m:math> is the magnitude of the normal force <emphasis effect="bold"/>(the force perpendicular to the surface).</para><note id="fs-id1911080"><label/>
+      <title>Magnitude of Static Friction</title>
+      <para id="import-auto-id1165298879711">Magnitude of static friction <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is</para><equation id="eip-213"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s} }  &lt;= μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298870758">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the coefficient of static friction and <m:math>
+ <m:semantics>
+  <m:mi>N</m:mi>
+ </m:semantics>
+</m:math> is the magnitude of the normal force.</para></note>
+      <para id="import-auto-id1165298673107">The symbol <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow/>
+                    <m:mo stretchy="false">≤</m:mo>
+                  <m:mrow/>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ &lt;= {}} {}</m:annotation>
+        </m:semantics>
+      </m:math> means <emphasis effect="italics">less than or equal to</emphasis>, implying that static friction can have a minimum and a maximum value of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math>. Static friction is a responsive force that increases to be equal and opposite to whatever force is exerted, up to its maximum limit. Once the applied force exceeds <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>max</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s \( "max" \) } } } {}</m:annotation></m:semantics></m:math>, the object will move. Thus</para><equation id="eip-410"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>max</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s \( "max" \) } } =μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298533444">Once an object is moving, the <term id="import-auto-id1165298998067">magnitude of kinetic friction <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:msub>
+                  <m:mi mathvariant="bold">f</m:mi>
+
+                    <m:mrow>
+                      <m:mtext>k</m:mtext>
+                    </m:mrow>
+
+                </m:msub>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></term> is given by</para><equation id="eip-98"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165296391412">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math> is the coefficient of kinetic friction. A system in which <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow><m:mspace width="0.25em"/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation></m:semantics></m:math>is described as a system in which <emphasis effect="italics">friction behaves simply</emphasis>.</para><note id="fs-id1318642"><label/>
+      <title>Magnitude of Kinetic Friction</title>
+      <para id="import-auto-id1165296246489">The magnitude of kinetic friction <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math> is given by</para><equation id="eip-40"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298978993">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math> is the coefficient of kinetic friction.</para></note>
+      <para id="import-auto-id1165296268476">As seen in <link target-id="import-auto-id1165298658126"/>, the coefficients of kinetic friction are less than their static counterparts. That values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> in <link target-id="import-auto-id1165298658126"/> are stated to only one or, at most, two digits is an indication of the approximate description of friction given by the above two equations.</para>
+
+      <table id="import-auto-id1165298658126" summary="The table shows the values of coefficients of static and kinetic friction for various materials, and it demonstrates that the coefficients of kinetic friction are less than their static counterparts."><title>Coefficients of Static and Kinetic Friction</title><tgroup cols="1">
+          <colspec colnum="1" colname="c1"/>
+            <colspec colnum="2" colname="c2"/>
+                <colspec colnum="3" colname="c3"/>
+                      <thead>
+                  <row>
+                    <entry>System</entry>
+                    <entry>Static friction<m:math display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math></entry>
+                    <entry>Kinetic friction<m:math display="block"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math></entry>
+                  </row>
+</thead>
+                      <tbody>
+                  <row>
+                    <entry>Rubber on dry concrete</entry>
+                    <entry align="center">1.0</entry>
+                    <entry align="center">0.7</entry>
+                  </row>
+                  <row>
+                    <entry>Rubber on wet concrete</entry>
+                    <entry align="center">0.7</entry>
+                    <entry align="center">0.5</entry>
+                  </row>
+                  <row>
+                    <entry>Wood on wood</entry>
+                    <entry align="center">0.5</entry>
+                    <entry align="center">0.3</entry>
+                  </row>
+                  <row>
+                    <entry>Waxed wood on wet snow</entry>
+                    <entry align="center">0.14</entry>
+                    <entry align="center">0.1</entry>
+                  </row>
+                  <row>
+                    <entry>Metal on wood</entry>
+                    <entry align="center">0.5</entry>
+                    <entry align="center">0.3</entry>
+                  </row>
+                  <row>
+                    <entry>Steel on steel (dry)</entry>
+                    <entry align="center">0.6</entry>
+                    <entry align="center">0.3</entry>
+                  </row>
+                  <row>
+                    <entry>Steel on steel (oiled)</entry>
+                    <entry align="center">0.05</entry>
+                    <entry align="center">0.03</entry>
+                  </row>
+                  <row>
+                    <entry>Teflon on steel</entry>
+                    <entry align="center">0.04</entry>
+                   <entry align="center">0.04</entry>
+                  </row>
+                  <row>
+                    <entry>Bone lubricated by synovial fluid</entry>
+                    <entry align="center">0.016</entry>
+                    <entry align="center">0.015</entry>
+                  </row>
+                  <row>
+                    <entry>Shoes on wood</entry>
+                    <entry align="center">0.9</entry>
+                    <entry align="center">0.7</entry>
+                  </row>
+                  <row>
+                    <entry>Shoes on ice</entry>
+                    <entry align="center">0.1</entry>
+                    <entry align="center">0.05</entry>
+                  </row>
+                  <row>
+                    <entry>Ice on ice</entry>
+                    <entry align="center">0.1</entry>
+                    <entry align="center">0.03</entry>
+                  </row>
+                  <row>
+                    <entry>Steel on ice</entry>
+                    <entry align="center">0.04</entry>
+                    <entry align="center">0.02</entry>
+                  </row>
+                </tbody>
+        </tgroup>
+      </table><para id="import-auto-id1165298919534">The equations given earlier <emphasis effect="bold"/>include the dependence of friction on materials and the normal force. The direction of friction is always opposite that of motion, parallel to the surface between objects, and perpendicular to the normal force. For example, if the crate you try to push (with a force parallel to the floor) has a mass of 100 kg, then the normal force would be equal to its weight, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">mg</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>100 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>980 N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W="mg"= \( "100""kg" \)  \( 9 "." "80"`"m/s" rSup { size 8{2} }  \) ="980"N} {}</m:annotation></m:semantics></m:math>, perpendicular to the floor. If the coefficient of static friction is 0.45, you would have to exert a force parallel to the floor greater than
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mrow><m:mtext>s</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>max</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo></m:mrow>
+
+<m:mfenced open="(" close=")"><m:mn>0.45</m:mn></m:mfenced><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>980</m:mtext></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>440</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{S \( "max" \) } } =μ rSub { size 8{S} } N=0 "." "45" times "980"N="440"N} {}</m:annotation></m:semantics></m:math>to move the crate. Once there is motion, friction is less and the coefficient of kinetic friction might be 0.30, so that a force of only 290 N
+(<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>30</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>980</m:mtext><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>290</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N= left (0 "." "30" right ) left ("980"" N" right )="290"" N"} {}</m:annotation></m:semantics></m:math>)
+ would keep it moving at a constant speed. If the floor is lubricated, both coefficients are considerably less than they would be without lubrication. Coefficient of friction is a unit less quantity with a magnitude usually between 0 and 1.0. The coefficient of the friction depends on the two surfaces that are in contact.</para><note id="fs-id1528330"><label/><title>Take-Home Experiment</title>
+
+      <para id="import-auto-id1165296246259">Find a small plastic object (such as a food container) and slide it on a kitchen table by giving it a gentle tap. Now spray water on the table, simulating a light shower of rain. What happens now when you give the object the same-sized tap? Now add a few drops of (vegetable or olive) oil on the surface of the water and give the same tap. What happens now? This latter situation is particularly important for drivers to note, especially after a light rain shower. Why?</para>
+      </note><para id="import-auto-id1165296297562">Many people have experienced the slipperiness of walking on ice. However, many parts of the body, especially the joints, have much smaller coefficients of friction—often three or four times less than ice. A joint is formed by the ends of two bones, which are connected by thick tissues. The knee joint is formed by the lower leg bone (the tibia) and the thighbone (the femur). The hip is a ball (at the end of the femur) and socket (part of the pelvis) joint. The ends of the bones in the joint are covered by cartilage, which provides a smooth, almost glassy surface. The joints also produce a fluid (synovial fluid) that reduces friction and wear. A damaged or arthritic joint can be replaced by an artificial joint (<link target-id="import-auto-id1165296217318"/>). These replacements can be made of metals (stainless steel or titanium) or plastic (polyethylene), also with very small coefficients of friction.</para><figure id="import-auto-id1165296217318"><media id="import-auto-id1165298928247" alt="Two X-X-rays of an artificial knee replacement are shown.">
+          <image mime-type="image/png" src="../../media/Figure_06_01_02a.jpg" width="250"/>
+        </media>
+      <caption>Artificial knee replacement is a procedure that has been performed for more than 20 years. In this figure, we see the post-op X-rays of the right knee joint replacement. (credit: Mike Baird, Flickr)</caption></figure><para id="import-auto-id1165298941006">Other natural lubricants include saliva produced in our mouths to aid in the swallowing process, and the slippery mucus found between organs in the body, allowing them to move freely past each other during heartbeats, during breathing, and when a person moves. Artificial lubricants are also common in hospitals and doctor’s clinics. For example, when ultrasonic imaging is carried out, the gel that couples the transducer to the skin also serves to to lubricate the surface between the transducer and the skin—thereby reducing the coefficient of friction between the two surfaces. This allows the transducer to move freely over the skin.</para><example id="fs-id1169082424376" class="example-video">
+<title>Applying Newton's Laws of Motion and Friction</title>
+<para id="fs-id1169085915720">A musician leans against a trumpet case on a brick wall as shown in the video. The trumpet case has a mass of <emphasis effect="bold">9.00 kg</emphasis>. The coefficient of friction between the wall and the case is <emphasis effect="bold">0.800</emphasis>. What is the minimum force that the musician must apply to keep his trumpet case from slipping? Study the problem and its solution in this video.</para>
+<media id="fs-id1169086126672" alt="">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02applawmotion"/>
+</media>
+</example>
+
+<example id="fs-id1704828"><title>Skiing Exercise</title><para id="import-auto-id1165298997470">A skier with a mass of 62 kg is sliding down a snowy slope. Find the coefficient of kinetic friction for the skier if friction is known to be 45.0 N.</para><para id="eip-790"><emphasis>Strategy</emphasis></para><para id="import-auto-id1165298681226">The magnitude of kinetic friction was given in to be 45.0 N. Kinetic friction is related to the normal force
+<m:math><m:semantics><m:mrow><m:mrow><m:mo>N</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation></m:semantics></m:math>; thus, the coefficient of kinetic friction can be found if we can find the normal force of the skier on a slope. The normal force is always perpendicular to the surface, and since there is no motion perpendicular to the surface, the normal force should equal the component of the skier’s weight perpendicular to the slope. (See the skier and free-body diagram in <link target-id="import-auto-id1165296217411"/>.)</para><figure id="import-auto-id1165296217411"><media id="import-auto-id1165298678464" alt="The figure shows a skier going down a slope that forms an angle of 25 degrees with the horizontal. The weight of the skier, labeled w, is represented by a red arrow pointing vertically downward. This weight is divided into two components, w perpendicular is perpendicular to the slope, and w parallel is parallel to the slope. The normal force, labeled N, is also perpendicular to the slope, equal in magnitude but opposite in direction to w perpendicular. The friction, f, is represented by a red arrow pointing upslope. In addition, the figure shows a free body diagram that shows the relative magnitudes and directions of w, f, and N.">
+          <image mime-type="image/jpg" src="../../media/Figure_06_01_03a.jpg" width="400"/>
+        </media>
+
+      <caption>The motion of the skier and friction are parallel to the slope and so it is most convenient to project all forces onto a coordinate system where one axis is parallel to the slope and the other is perpendicular (axes shown to left of skier). <m:math><m:semantics><m:mrow><m:mtext mathvariant="bold">N</m:mtext></m:mrow></m:semantics></m:math> (the normal force) is perpendicular to the slope, and <m:math><m:semantics><m:mrow><m:mtext mathvariant="bold">f</m:mtext></m:mrow></m:semantics></m:math> (the friction) is parallel to the slope, but <m:math><m:semantics><m:mrow><m:mtext mathvariant="bold">w</m:mtext></m:mrow></m:semantics></m:math> (the skier’s weight) has components along both axes, namely <m:math><m:semantics><m:mrow><m:mrow>
+<m:msub>
+ <m:mtext mathvariant="bold">w</m:mtext>
+ <m:mtext>⊥</m:mtext>
+</m:msub>
+</m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow>
+<m:msub>
+ <m:mtext mathvariant="bold">W</m:mtext>
+ <m:mo>//</m:mo>
+</m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. <m:math><m:semantics><m:mrow><m:mrow><m:mn mathvariant="bold">N</m:mn></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is equal in magnitude to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mn mathvariant="bold">w</m:mn><m:mo>⊥</m:mo><m:mrow/></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, so there is no motion perpendicular to the slope. However, <m:math><m:semantics><m:mrow><m:mrow><m:mn mathvariant="bold">f</m:mn></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is less than
+
+<m:math>
+ <m:semantics><m:mrow><m:mrow><m:msub><m:mn mathvariant="bold">W</m:mn><m:mrow><m:mrow><m:mtext>//</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in magnitude, so there is acceleration down the slope (along the <emphasis effect="italics">x</emphasis>-axis).
+</caption></figure><para id="import-auto-id1165298555250">That is,</para>
+      <equation id="eip-302"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>w</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>w</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.15em"/><m:mrow><m:mtext>25º</m:mtext><m:mrow/><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext fontstyle="italic">mg</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext></m:mrow><m:mspace width="0.15em"/><m:mtext>25º</m:mtext><m:mrow/></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N=w rSub { size 8{ ortho } } =w"cos""25" rSup { size 8{ circ } } = ital "mg""cos""25" rSup { size 8{ circ } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165296347846">Substituting this into our expression for kinetic friction, we get</para>
+      <equation id="eip-134"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.15em"/><m:mtext>25º</m:mtext><m:mrow/></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} }  ital "mg""cos""25" rSup { size 8{ circ } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165296267504">which can now be solved for the coefficient of kinetic friction <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} } } {}</m:annotation></m:semantics></m:math>.</para><para id="eip-327"><emphasis>Solution</emphasis></para><para id="import-auto-id1165296257588">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} } } {}</m:annotation></m:semantics></m:math> gives</para><equation id="eip-322"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mi>N</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mrow><m:mi>w</m:mi><m:mspace width="0.15em"/><m:mtext>cos</m:mtext><m:mspace width="0.15em"/><m:mtext>25º</m:mtext><m:mrow/></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.15em"/><m:mtext>cos</m:mtext><m:mspace width="0.15em"/><m:mtext>25º</m:mtext><m:mrow/><m:mo>.</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} } = {  {f rSub { size 8{k} } }  over  {N} } = {  {f rSub { size 8{k} } }  over  {w"cos""25" rSup { size 8{ circ } } } } = {  {f rSub { size 8{k} } }  over  { ital "mg""cos""25" rSup { size 8{ circ } } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298920861">Substituting known values on the right-hand side of the equation,</para>
+      <equation id="eip-97"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>45.0 N</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>62 kg</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80 m</m:mtext><m:mi/><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>906</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>082</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} } = {  {"45" "." 0N}  over  { \( "60"`"kg" \)  \( 9 "." "80"`"m/s" rSup { size 8{2} }  \)  \( 0 "." "906" \) } } =0 "." "084"} {}</m:annotation></m:semantics></m:math></equation><para id="eip-343"><emphasis>Discussion</emphasis></para><para id="import-auto-id1165298727755">This result is a little smaller than the coefficient listed in <link target-id="import-auto-id1165298658126"/> for waxed wood on snow, but it is still reasonable since values of the coefficients of friction can vary greatly. In situations like this, where an object of mass <m:math>
+ <m:semantics>
+  <m:mi>m</m:mi>
+ </m:semantics>
+</m:math> slides down a slope that makes an angle <m:math>
+<m:semantics>
+<m:mrow>
+
+<m:mrow>
+<m:mrow>
+<m:mi>θ</m:mi></m:mrow></m:mrow>
+
+</m:mrow>
+<m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+</m:semantics>
+</m:math>
+ with the horizontal, friction is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.15em"/><m:mtext>cos</m:mtext><m:mspace width="0.15em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} }  ital "mg""cos"θ} {}</m:annotation></m:semantics></m:math>. All objects will slide down a slope with constant acceleration under these circumstances. Proof of this is left for this chapter’s Problems and Exercises.</para></example><note id="fs-id1244089"><label/><title>Take-Home Experiment</title>
+
+      <para id="import-auto-id1165298740778">An object will slide down an inclined plane at a constant velocity if the net force on the object is zero. We can use this fact to measure the coefficient of kinetic friction between two surfaces. As shown in <link target-id="fs-id1704828"/>, the kinetic friction on a slope <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.15em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} }  ital "mg""cos"θ} {}</m:annotation></m:semantics></m:math>. The component of the weight down the slope is equal to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.15em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mg""sin"θ} {}</m:annotation></m:semantics></m:math> (see the free-body diagram in <link target-id="import-auto-id1165296217411"/>). These forces act in opposite directions, so when they have equal magnitude, the acceleration is zero. Writing these out:</para><equation id="eip-387"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>f</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>k</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:msub>
+                        <m:mtext>mg</m:mtext>
+                        <m:mtext>x</m:mtext>
+                      </m:msub>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } = ital "Fgx"} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation id="eip-368"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} }  ital "mg""cos"θ= ital "mg""sin"θ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298535121">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} } } {}</m:annotation></m:semantics></m:math>, we find that</para><equation id="eip-680"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>tan</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} } = {  { ital "mg""sin"θ}  over  { ital "mg""cos"θ} } ="tan"θ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298860484">Put a coin on a book and tilt it until the coin slides at a constant velocity down the book. You might need to tap the book lightly to get the coin to move. Measure the angle of tilt relative to the horizontal and find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math>. Note that the coin will not start to slide at all until an angle greater than <m:math>
+<m:semantics>
+<m:mrow>
+
+<m:mrow>
+<m:mrow>
+<m:mi>θ</m:mi></m:mrow></m:mrow>
+
+</m:mrow>
+<m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+</m:semantics>
+</m:math> is attained, since the coefficient of static friction is larger than the coefficient of kinetic friction. Discuss how this may affect the value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math> and its uncertainty.</para></note><para id="import-auto-id1165298670384">We have discussed that when an object rests on a horizontal surface, there is a normal force supporting it equal in magnitude to its weight. Furthermore, simple friction is always proportional to the normal force.</para>
+      <note id="fs-id1529687"><label/>
+      <title>Making Connections: Submicroscopic Explanations of Friction</title>
+      <para id="import-auto-id1165296217841">The simpler aspects of friction dealt with so far are its macroscopic (large-scale) characteristics. Great strides have been made in the atomic-scale explanation of friction during the past several decades. Researchers are finding that the atomic nature of friction seems to have several fundamental characteristics. These characteristics not only explain some of the simpler aspects of friction—they also hold the potential for the development of nearly friction-free environments that could save hundreds of billions of dollars in energy which is currently being converted (unnecessarily) to heat.</para>
+      </note>
+      <para id="import-auto-id1165298600220"><link target-id="import-auto-id1165298530900"/> illustrates one macroscopic characteristic of friction that is explained by microscopic (small-scale) research. We have noted that friction is proportional to the normal force, but not to the area in contact, a somewhat counterintuitive notion. When two rough surfaces are in contact, the actual contact area is a tiny fraction of the total area since only high spots touch. When a greater normal force is exerted, the actual contact area increases, and it is found that the friction is proportional to this area.</para><figure id="import-auto-id1165298530900"><media id="import-auto-id1165298713443" alt="This figure has two parts, each of which shows two rough surfaces in close proximity to each other. In the first part, the normal force is small, so that the area of contact between the two surfaces is much smaller than their total area. In the second part, the normal force is large, so that the area of contact between the two surfaces has increased. As a result, the friction between the two surfaces in the second part is also greater than the friction in the first part.">
+          <image mime-type="image/jpg" src="../../media/Figure_06_01_04a.jpg" width="250"/>
+        </media>
+
+      <caption>Two rough surfaces in contact have a much smaller area of actual contact than their total area. When there is a greater normal force as a result of a greater applied force, the area of actual contact increases as does friction.</caption></figure><para id="import-auto-id1165298600224">But the atomic-scale view promises to explain far more than the simpler features of friction. The mechanism for how heat is generated is now being determined. In other words, why do surfaces get warmer when rubbed? Essentially, atoms are linked with one another to form lattices. When surfaces rub, the surface atoms adhere and cause atomic lattices to vibrate—essentially creating sound waves that penetrate the material. The sound waves diminish with distance and their energy is converted into heat. Chemical reactions that are related to frictional wear can also occur between atoms and molecules on the surfaces. <link target-id="import-auto-id1165298744656"/> shows how the tip of a probe drawn across another material is deformed by atomic-scale friction. The force needed to drag the tip can be measured and is found to be related to shear stress, which will be discussed later in this chapter. The variation in shear stress is remarkable (more than a factor of <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msup>
+                <m:mtext>10</m:mtext>
+                <m:mrow>
+                  <m:mtext>12</m:mtext>
+                </m:mrow>
+              </m:msup>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"12"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    ) and difficult to predict theoretically, but shear stress is yielding a fundamental understanding of a large-scale phenomenon known since ancient times—friction.</para><figure id="import-auto-id1165298744656"><media id="import-auto-id1165298744657" alt="This figure shows a molecular model of a probe that is dragged over the surface of a substrate. The substrate is represented by a rectangular prism, made up of a grid of small spheres, each sphere representing an atom. The probe, made up of a different grid of small spheres, is in the form of an inverted pyramid with a flattened peak. The pyramid is somewhat distorted because of friction.">
+          <image mime-type="image/jpg" src="../../media/Figure_06_01_05a.jpg" width="300"/>
+        </media>
+
+      <caption>The tip of a probe is deformed sideways by frictional force as the probe is dragged across a surface. Measurements of how the force varies for different materials are yielding fundamental insights into the atomic nature of friction.</caption></figure>
+      <note id="eip-440" class="interactive"><label/><title>PhET Explorations: Forces and Motion</title>
+<para id="eip-id1169737853775">Explore the forces at work when you try to push a filing cabinet. Create an applied force and see the resulting friction force and total force acting on the cabinet. Charts show the forces, position, velocity, and acceleration vs. time. Draw a free-body diagram of all the forces (including gravitational and normal forces).</para><figure id="eip-id1733668">
+<media id="fs-id1167067199007" alt="...">
+<iframe width="660" height="371.4" src="https://openstax.org/l/forcesandmotion"/></media></figure></note>
+<section id="fs-id1388312" class="section-summary"><title>Section Summary</title><list id="fs-id1335163"><item id="import-auto-id1165296328554">Friction is a contact force between surfaces that opposes the motion or attempted motion between them. Simple friction is proportional to the normal force <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> pushing the systems together. (A normal force is always perpendicular to the contact surface between systems.) Friction depends on both of the materials involved. The magnitude of static friction<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> between systems stationary relative to one another is given by
+<equation id="eip-940"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s} }  &lt;= μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is the coefficient of static friction, which depends on both of the materials.</item>
+<item id="import-auto-id1165298621900">The kinetic friction force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } } {}</m:annotation></m:semantics></m:math> between systems moving relative to one another is given by
+<equation id="eip-799"><m:math>
+            <m:semantics>
+              <m:mrow>
+
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>f</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>k</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:msub>
+                          <m:mi>μ</m:mi>
+
+                            <m:mrow>
+                              <m:mtext>k</m:mtext>
+                            </m:mrow>
+
+                        </m:msub>
+                      </m:mrow>
+                      <m:mi>N</m:mi>
+                    </m:mrow><m:mo>,</m:mo>
+                  </m:mrow>
+
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation>
+            </m:semantics>
+          </m:math>
+   </equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math> is the coefficient of kinetic friction, which also depends on both materials.</item>
+</list></section><section id="fs-id1296538" class="conceptual-questions" type="conceptual-questions">
+          <title>Conceptual Questions</title>
+      <exercise id="fs-id1320466" type="conceptual-questions"><problem id="fs-id1320468">
+      <para id="import-auto-id1165298600178">Define normal force. What is its relationship to friction when friction behaves simply?</para>
+      </problem></exercise>
+      <exercise id="fs-id1748990" type="conceptual-questions"><problem id="fs-id1748991">
+      <para id="import-auto-id1165298579201">The glue on a piece of tape can exert forces. Can these forces be a type of simple friction? Explain, considering especially that tape can stick to vertical walls and even to ceilings.</para>
+      </problem></exercise>
+      <exercise id="fs-id1425681" type="conceptual-questions"><problem id="fs-id1425682">
+      <para id="import-auto-id1165298541602" fo:font-weight="normal">When you learn to drive, you discover that you need to let up slightly on the brake pedal as you come to a stop or the car will stop with a jerk. Explain this in terms of the relationship between static and kinetic friction.</para>
+      </problem></exercise>
+      <exercise id="fs-id1272970" type="conceptual-questions"><problem id="fs-id1345599">
+      <para id="import-auto-id1165296347715" fo:font-weight="normal">When you push a piece of chalk across a chalkboard, it sometimes screeches because it rapidly alternates between slipping and sticking to the board. Describe this process in more detail, in particular explaining how it is related to the fact that kinetic friction is less than static friction. (The same slip-grab process occurs when tires screech on pavement.)</para>
+      </problem></exercise>
+      </section>
+    <section id="fs-id1288634" type="problems-exercises" class="problems-exercises">
+      <title>Problems &amp; Exercises</title>
+      <exercise id="fs-id1462497" type="problem-exercises"><problem id="fs-id1462498">
+      <para id="import-auto-id1165298621165" fo:font-weight="normal">A physics major is cooking breakfast when he notices that the frictional force between his steel spatula and his Teflon frying pan is only 0.200 N. Knowing the coefficient of kinetic friction between the two materials, he quickly calculates the normal force. What is it?</para>
+      </problem>
+          <solution id="fs-id1319223">
+      <para id="import-auto-id1165296313418" fo:font-weight="normal"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>5.00 N</m:mn>
+                  </m:mrow>
+                </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{5 "." "00"`N} {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </para></solution>
+      </exercise>
+      <exercise id="fs-id1534547" type="problem-exercises"><problem id="fs-id1319741">
+      <para id="import-auto-id1165298771813" fo:font-weight="normal">(a) When rebuilding her car’s engine, a physics major must exert 300 N of force to insert a dry steel piston into a steel cylinder. What is the magnitude of the normal force between the piston and cylinder? (b) What is the magnitude of the force would she have to exert if the steel parts were oiled?</para></problem></exercise>
+      <exercise id="fs-id1250006" type="problem-exercises"><problem id="fs-id1250007">
+      <para id="import-auto-id1165298998592" fo:font-weight="normal">(a) What is the maximum frictional force in the knee joint of a person who supports 66.0 kg of her mass on that knee? (b) During strenuous exercise it is possible to exert forces to the joints that are easily ten times greater than the weight being supported. What is the maximum force of friction under such conditions? The frictional forces in joints are relatively small in all circumstances except when the joints deteriorate, such as from injury or arthritis. Increased frictional forces can cause further damage and pain.</para>
+      </problem></exercise>
+      <exercise id="fs-id1550746" type="problem-exercises"><problem id="fs-id1341396">
+      <para id="import-auto-id1165298491367" fo:font-weight="normal">Suppose you have a 120-kg wooden crate resting on a wood floor. (a) What maximum force can you exert horizontally on the crate without moving it? (b) If you continue to exert this force once the crate starts to slip, what will the magnitude of its acceleration then be?</para></problem>
+          <solution id="fs-id1500174">
+      <para id="import-auto-id1165298806801">(a) 588 N </para>
+      <para id="import-auto-id1165298597759">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>96 m</m:mtext><m:mi/><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`1 "." "96"`"m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para></solution></exercise>
+          <exercise id="fs-id1294152" type="problem-exercises"><problem id="fs-id1294153">      <para id="import-auto-id1165298667151">(a) If half of the weight of a small <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mi/>
+                <m:mn>1</m:mn>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>00</m:mtext>
+                  <m:mo stretchy="false">×</m:mo>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    <m:mrow>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext>kg</m:mtext><m:mspace width="0.25em"/>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{`1 "." "00" times "10" rSup { size 8{3} } " kg"} {}</m:annotation>
+        </m:semantics>
+      </m:math>utility truck is supported by its two drive wheels, what is the magnitude of the maximum acceleration it can achieve on dry concrete? (b) Will a metal cabinet lying on the wooden bed of the truck slip if it accelerates at this rate? (c) Solve both problems assuming the truck has four-wheel drive.</para></problem>  </exercise>
+        <exercise id="fs-id1294370" type="problem-exercises"><problem id="fs-id1792256">
+      <para id="import-auto-id1165298873172">A team of eight dogs pulls a sled with waxed wood runners on wet snow (mush!). The dogs have average masses of 19.0 kg, and the loaded sled with its rider has a mass of 210 kg. (a) Calculate the magnitude of the acceleration starting from rest if each dog exerts an average force of 185 N backward on the snow. (b) What is the magnitude of the acceleration once the sled starts to move? (c) For both situations, calculate the magnitude of the force in the coupling between the dogs and the sled.</para></problem>
+          <solution id="fs-id1279708">
+      <para id="import-auto-id1165298714068">(a) 3.29 m/s<sup>2</sup></para>
+      <para id="import-auto-id1165296310052">(b) 3.52 m/s<sup>2</sup></para>
+      <para id="import-auto-id1165298873262">(c) 980 N; 945 N</para></solution>
+      </exercise>
+      <exercise id="fs-id1452889" type="problem-exercises"><problem id="fs-id1282329">
+      <para id="import-auto-id1165298809071">Consider the 65.0-kg ice skater being pushed by two others shown in <link target-id="eip-id1992243"/>.  (a) Find the direction and magnitude of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"tot"} } } {}</m:annotation></m:semantics></m:math>, the total force exerted on her by the others, given that the magnitudes <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are 26.4 N and 18.6 N, respectively. (b) What is her initial acceleration if she is initially stationary and wearing steel-bladed skates that point in the direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"tot"} } } {}</m:annotation></m:semantics></m:math>? (c) What is her acceleration assuming she is already moving in the direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"tot"} } } {}</m:annotation></m:semantics></m:math>? (Remember that friction always acts in the direction opposite that of motion or attempted motion between surfaces in contact.)</para><figure id="eip-id1992243"><media id="eip-id1992244" alt="(a) Overhead view of two ice skaters pushing on a third. One skater pushes with a force F two, represented by an arrow pointing up, and a second skater pushes with a force F one, represented by an arrow pointing from left to right. Vector F one and vector F two are along the arms of the two skaters acting on the third skater. A vector diagram is shown in the form of a right triangle in which the base is vector F one pointing east, and perpendicular to F one is vector F two pointing north. The resultant vector is shown by the hypotenuse pointing northeast. (b) Free-body diagram showing only the forces acting on the skater.">
+            <image mime-type="image/jpg" src="../../media/Figure 04_01_01a-d542.jpg" width="425"/>
+          </media>
+
+      </figure></problem></exercise><exercise id="fs-id1426454" type="problem-exercises"><problem id="fs-id1426455">
+      <para id="import-auto-id1165298863622" fo:font-weight="normal">Show that the acceleration of any object down a frictionless incline that makes an angle <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>θ</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> with the horizontal is <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>g</m:mi>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a=g"sin"θ} {}</m:annotation>
+        </m:semantics>
+      </m:math>. (Note that this acceleration is independent of mass.)</para></problem></exercise>
+      <exercise id="fs-id1395614" type="problem-exercises"><problem id="fs-id1395616">
+      <para id="import-auto-id1165298717342">Show that the acceleration of any object down an incline where friction behaves simply (that is, where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation></m:semantics></m:math>) is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">(</m:mo><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo stretchy="false">).</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=g \( "sin"θ - μ rSub { size 8{k} } "cos"θ \) } {}</m:annotation></m:semantics></m:math> Note that the acceleration is independent of mass and reduces to the expression found in the previous problem when friction becomes negligibly small <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">).</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( μ rSub { size 8{k} } =0 \)  "." } {}</m:annotation></m:semantics></m:math></para></problem></exercise>
+      <exercise id="fs-id1555366" type="problem-exercises"><problem id="fs-id1555367">
+      <para id="import-auto-id1165296214212">Calculate the deceleration of a snow boarder going up a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." 0°} {}</m:annotation></m:semantics></m:math>, slope assuming the coefficient of friction for waxed wood on wet snow. The result of <link target-id="fs-id1395614"/> may be useful, but be careful to consider the fact that the snow boarder is going uphill. Explicitly show how you follow the steps in <link document="m60679">Problem-Solving Strategies</link>.</para></problem>
+          <solution id="fs-id1311021">
+      <para id="import-auto-id1165298477986"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>83</m:mtext><m:mspace width="0.25em"/>
+                <m:msup>
+                <m:mtext>m/s</m:mtext>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msup>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - 1 "." "83"" m/s" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution></exercise>
+      <exercise id="fs-id1453574" type="problem-exercises"><problem id="fs-id1329159">
+      <para id="import-auto-id1165298579891">(a) Calculate the acceleration of a skier heading down a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0°} {}</m:annotation></m:semantics></m:math> slope, assuming the coefficient of friction for waxed wood on wet snow. (b) Find the angle of the slope down which this skier could coast at a constant velocity. You can neglect air resistance in both parts, and you will find the result of <link target-id="fs-id1395614"/> to be useful. Explicitly show how you follow the steps in the <link document="m60679">Problem-Solving Strategies</link>.</para></problem></exercise>
+      <exercise id="fs-id1736769" type="problem-exercises"><problem id="fs-id1300112">
+      <para id="import-auto-id1165298556017">If an object is to rest on an incline without slipping, then friction must equal the component of the weight of the object parallel to the incline. This requires greater and greater friction for steeper slopes. Show that the maximum angle of an incline above the horizontal for which an object will not slide down is
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mi>θ</m:mi>
+    <m:mo>=</m:mo>
+   <m:msup>
+    <m:mtext>tan</m:mtext>
+    <m:mtext>–1</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:msub>
+    <m:mtext>μ</m:mtext>
+    <m:mtext>s</m:mtext>
+   </m:msub>
+  </m:mrow>
+ </m:semantics>
+</m:math>. You may use the result of the previous problem. Assume that <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mi>a</m:mi>
+    <m:mo>=</m:mo>
+   <m:mtext>0</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> and that static friction has reached its maximum value.</para></problem></exercise>
+      <exercise id="fs-id855543" type="problem-exercises"><problem id="fs-id1244141">
+      <para id="import-auto-id1165298621156">Calculate the maximum deceleration of a car that is heading down a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6°} {}</m:annotation></m:semantics></m:math> slope (one that makes an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6°} {}</m:annotation></m:semantics></m:math> with the horizontal) under the following road conditions. You may assume that the weight of the car is evenly distributed on all four tires and that the coefficient of static friction is involved—that is, the tires are not allowed to slip during the deceleration. (Ignore rolling.) Calculate for a car: (a) On dry concrete. (b) On wet concrete. (c) On ice, assuming that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>100</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{s} } =0 "." "100"} {}</m:annotation></m:semantics></m:math>, the same as for shoes on ice.</para></problem></exercise>
+      <exercise id="fs-id1924033" type="problem-exercises"><problem id="fs-id1924034">
+      <para id="import-auto-id1165298682131">Calculate the maximum acceleration of a car that is heading up a
+<m:math>
+ <m:semantics>
+  <m:mtext>4º</m:mtext>
+ </m:semantics>
+</m:math> slope (one that makes an angle of
+<m:math>
+ <m:semantics>
+  <m:mtext>4º</m:mtext>
+ </m:semantics>
+</m:math> with the horizontal) under the following road conditions. Assume that only half the weight of the car is supported by the two drive wheels and that the coefficient of static friction is involved—that is, the tires are not allowed to slip during the acceleration. (Ignore rolling.) (a) On dry concrete. (b) On wet concrete. (c) On ice, assuming that
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mtext>μ</m:mtext>
+    <m:mtext>s</m:mtext>
+   </m:msub>
+    <m:mo>=</m:mo>
+   <m:mspace width="0.25em"/>
+   <m:mtext>0.100</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>, the same as for shoes on ice.</para></problem>
+          <solution id="fs-id2126956">
+      <para id="import-auto-id1165296310039">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>20 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "20 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-id1165298842992">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>74 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "74 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+      <para id="import-auto-id1165298876485">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>–0</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>195 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"-0" "." "195 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para></solution></exercise>
+      <exercise id="fs-id1742423" type="problem-exercises"><problem id="fs-id1742424">
+      <para id="import-auto-id1165296306152">Repeat <link target-id="fs-id1924033"/> for a car with four-wheel drive.
+</para></problem></exercise>
+          <exercise id="fs-id1439017" type="problem-exercises"><problem id="fs-id1279893">
+      <para id="import-auto-id1165298789190">A freight train consists of two <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mtext>-kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" times "10" rSup { size 8{5} } "-kg"} {}</m:annotation></m:semantics></m:math> engines and 45 cars with average masses of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "50" times "10" rSup { size 8{5} } " kg"} {}</m:annotation></m:semantics></m:math>. (a) What force must each engine exert backward on the track to accelerate the train at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mn>m</m:mn><m:mo stretchy="false">/</m:mo><m:msup><m:mn>s</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{ - 2} } m/s rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> if the force of friction is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mn>N</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50" times "10" rSup { size 8{5} } N} {}</m:annotation></m:semantics></m:math>, assuming the engines exert identical forces? This is not a large frictional force for such a massive system. Rolling friction for trains is small, and consequently trains are very energy-efficient transportation systems. (b) What is the magnitude of the force in the coupling between the 37th and 38th cars (this is the force each exerts on the other), assuming all cars have the same mass and that friction is evenly distributed among all of the cars and engines?</para></problem>
+              <solution id="fs-id1440508">
+      <para id="import-auto-id1165298727539">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>03</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mn>N</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "91" times "10" rSup { size 8{5} } `N} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1165298552633">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>48</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>N</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "98" times "10" rSup { size 8{5} } `N} {}</m:annotation></m:semantics></m:math></para></solution>
+      </exercise>
+      <exercise id="fs-id1615856" type="problem-exercises"><problem id="fs-id1615857">
+      <para id="import-auto-id1165296266231">Consider the 52.0-kg mountain climber in <link target-id="fs-id1165296580243"/>. (a) Find the tension in the rope and the force that the mountain climber must exert with her feet on the vertical rock face to remain stationary. Assume that the force is exerted parallel to her legs. Also, assume negligible force exerted by her arms. (b) What is the minimum coefficient of friction between her shoes and the cliff?</para>
+
+      <figure id="fs-id1165296580243"><media id="import-auto-id1165298619772" alt="A mountain climber with a mass of fifty two kilograms exerts force with her feet parallel to her legs on a vertical rock face to remain stationary. The angle between her legs and the rock face is fifteen degrees, whereas the angle between the rope and the cliff is thirty one degrees.">
+            <image mime-type="image/jpg" src="../../media/Figure_06_01_06.jpg" width="200"/>
+          </media>
+
+      <caption>Part of the climber’s weight is supported by her rope and part by friction between her feet and the rock face.</caption></figure></problem>
+      </exercise>
+      <exercise id="fs-id1531145" type="problem-exercises"><problem id="fs-id1531146">
+      <para id="import-auto-id1165298998504">A contestant in a winter sporting event pushes a 45.0-kg block of ice across a frozen lake as shown in <link target-id="import-auto-id1165298619770"/>(a). (a) Calculate the minimum force <m:math>
+ <m:semantics>
+  <m:mi>F</m:mi>
+ </m:semantics>
+</m:math> he must exert to get the block moving. (b) What is the magnitude of its acceleration once it starts to move, if that force is maintained?</para></problem>
+          <solution id="fs-id1465087">
+      <para id="import-auto-id1165298744665">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>51</m:mtext><m:mtext>.</m:mtext><m:mn>0 N</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"51" "." 0`N} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1165296217698">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>720 m</m:mtext><m:mi/><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "720"`"m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para></solution>
+      </exercise>
+      <exercise id="fs-id1529666" type="problem-exercises"><problem id="fs-id1529667">
+      <para id="import-auto-id1165298928227">Repeat <link target-id="fs-id1531145"/> with the contestant pulling the block of ice with a rope over his shoulder at the same angle above the horizontal as shown in <link target-id="import-auto-id1165298619770"/>(b).</para><figure id="import-auto-id1165298619770"><media id="import-auto-id1165298619771" alt="(a) A block of ice is being pushed by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees. (b) A block of ice is being pulled by a contestant in a winter sporting event across a frozen lake at an angle of twenty five degrees.">
+            <image mime-type="image/jpg" src="../../media/Figure_06_01_07a.jpg" height="304" width="234"/>
+          </media>
+
+        <caption>Which method of sliding a block of ice requires less force—(a) pushing or (b) pulling at the same angle above the horizontal?</caption></figure></problem></exercise></section>
+</content>
+    <glossary>
+      <definition id="import-auto-id1165298863624"><term>friction</term> <meaning id="fs-id1617065">a force that opposes relative motion or attempts at motion between systems in contact</meaning></definition>
+      <definition id="import-auto-id1165298540973"><term>kinetic friction</term> <meaning id="fs-id1334613"> a force that opposes the motion of two systems that are in contact and moving relative to one another</meaning></definition>
+  <definition id="fs-id1763916"><term>static friction</term> <meaning id="fs-id1350812"> a force that opposes the motion of two systems that are in contact and are not moving relative to one another</meaning></definition>
+      <definition id="import-auto-id1165298540975"><term>magnitude of static friction</term> <meaning id="fs-id1522740"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub><m:mo stretchy="false">≤</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub></m:mrow><m:mspace width="0.25em"/><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{s} }  &lt;= μ rSub { size 8{s} } N} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the coefficient of static friction and <m:math><m:semantics><m:mi>N</m:mi></m:semantics></m:math> is the magnitude of the normal force</meaning></definition>
+      <definition id="import-auto-id1165298541210"><term>magnitude of kinetic friction</term><meaning id="fs-id1791136"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub></m:mrow><m:mi>N</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{k} } =μ rSub { size 8{k} } N} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{K} } } {}</m:annotation></m:semantics></m:math> is the coefficient of kinetic friction</meaning></definition>
+      </glossary>
+</document>

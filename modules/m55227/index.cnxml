@@ -1,0 +1,829 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Viscosity and Laminar Flow; Poiseuille’s Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55227</md:content-id>
+  <md:title>Viscosity and Laminar Flow; Poiseuille’s Law</md:title>
+  <md:abstract/>
+  <md:uuid>d289d85f-5322-45e4-b511-ebe2af877f5a</md:uuid>
+</metadata>
+
+<content>
+
+	<section id="fs-id3246210" class="learning-objectives">
+          <title>Learning Objectives</title>
+	   <para id="fs-id1532356">By the end of this section, you will be able to:</para>
+	     <list id="fs-id1812908">
+		<item>Define laminar flow and turbulent flow.</item>
+		<item>Explain what viscosity is.</item>
+		<item>Calculate flow and resistance with Poiseuille's law.</item>
+		<item>Explain how pressure drops due to resistance.</item>
+	     </list>
+	</section>
+
+<section id="fs-id3125212">
+<title>Laminar Flow and Viscosity</title>
+    <para id="import-auto-id3154476">When you pour yourself a glass of juice, the liquid flows freely and quickly. But when you pour syrup on your pancakes, that liquid flows slowly and sticks to the pitcher. The difference is fluid friction, both within the fluid itself and between the fluid and its surroundings. We call this property of fluids <emphasis effect="italics">viscosity</emphasis>. Juice has low viscosity, whereas syrup has high viscosity. In the previous sections we have considered ideal fluids with little or no viscosity. In this section, we will investigate what factors, including viscosity, affect the rate of fluid flow.</para>
+    <para id="import-auto-id2615833">The precise definition of viscosity is based on <emphasis effect="italics">laminar</emphasis>, or nonturbulent, flow. Before we can define viscosity, then, we need to define laminar flow and turbulent flow. <link target-id="import-auto-id3356410"/> shows both types of flow. <term id="import-auto-id1473823">Laminar</term> flow is characterized by the smooth flow of the fluid in layers that do not mix. Turbulent flow, or <term id="import-auto-id2688377">turbulence</term>, is characterized by eddies and swirls that mix layers of fluid together.</para>
+
+
+    <figure id="import-auto-id3356410"><media id="import-auto-id2672640" alt="Photograph of smoke rising smoothly for a while and then beginning to form swirls and eddies.">
+        <image mime-type="image/png" src="../../media/Figure_13_04_01a.jpg"/>
+      </media>
+
+    <caption>Smoke rises smoothly for a while and then begins to form swirls and eddies. The smooth flow is called laminar flow, whereas the swirls and eddies typify turbulent flow. If you watch the smoke (being careful not to breathe on it), you will notice that it rises more rapidly when flowing smoothly than after it becomes turbulent, implying that turbulence poses more resistance to flow. (credit: Creativity103)</caption></figure><para id="import-auto-id2717271"><link target-id="fs-id3007528"/> shows schematically how laminar and turbulent flow differ. Layers flow without mixing when flow is laminar. When there is turbulence, the layers mix, and there are significant velocities in directions other than the overall direction of flow. The lines that are shown in many illustrations are the paths followed by small volumes of fluids. These are called <emphasis effect="italics">streamlines</emphasis>. Streamlines are smooth and continuous when flow is laminar, but break up and mix when flow is turbulent. Turbulence has two main causes. First, any obstruction or sharp corner, such as in a faucet, creates turbulence by imparting velocities perpendicular to the flow. Second, high speeds cause turbulence. The drag both between adjacent layers of fluid and between the fluid and its surroundings forms swirls and eddies, if the speed is great enough. We shall concentrate on laminar flow for the remainder of this section, leaving certain aspects of turbulence for later sections.</para>
+
+
+<figure id="fs-id3007528"><media id="fs-id1951496" alt="Part a of the figure shows a laminar flow on a fixed smooth surface. The different layers of the liquid are shown as different colored bands along the horizontal surface. The friction is shown to act all along the line separating two layers. The direction of flow of the fluid is toward right and the velocity is shown as v b for layers at the bottom and v t for layers on top. Part b of the figure shows turbulent flow on a surface with some obstruction. The fluid directions are horizontal on smooth path and irregular near the area of the obstruction. The velocity is v on top as well as at the bottom of the fluid.">
+<image mime-type="image/jpg" src="../../media/Figure_13_04_02a.jpg"/></media>
+
+<caption>(a) Laminar flow occurs in layers without mixing. Notice that viscosity causes drag between layers as well as with the fixed surface. (b) An obstruction in the vessel produces turbulence. Turbulent flow mixes the fluid. There is more interaction, greater heating, and more resistance than in laminar flow.</caption></figure><note id="fs-id1921189"><label/><title>Making Connections: Take-Home Experiment: Go Down to the River</title>
+<para id="import-auto-id2648120">Try dropping simultaneously two sticks into a flowing river, one near the edge of the river and one near the middle. Which one travels faster? Why?</para>
+    </note><para id="import-auto-id2422429"><link target-id="import-auto-id1580837"/> shows how viscosity is measured for a fluid. Two parallel plates have the specific fluid between them. The bottom plate is held fixed, while the top plate is moved to the right, dragging fluid with it. The layer (or lamina) of fluid in contact with either plate does not move relative to the plate, and so the top layer moves at <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis> while the bottom layer remains at rest. Each successive layer from the top down exerts a force on the one below it, trying to drag it along, producing a continuous variation in speed from <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis> to 0 as shown. Care is taken to insure that the flow is laminar; that is, the layers do not mix. The motion in <link target-id="import-auto-id1580837"/> is like a continuous shearing motion. Fluids have zero shear strength, but the <emphasis effect="italics">rate</emphasis> at which they are sheared is related to the same geometrical factors <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math></emphasis> and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math></emphasis> as is shear deformation for solids.</para>
+
+
+    <figure id="import-auto-id1580837"><media id="import-auto-id3112924" alt="The figure shows the laminar flow of fluid between two rectangular plates each of area A. The bottom plate is shown as fixed. The distance between the plates is L. The top plate is shown to be pushed to right with a force F. The direction of movement of the layer of fluid in contact with the top plate is also toward right with velocity v. The fluid in contact with the plate in the bottom is shown to be in rest with v equals zero. As we see through the layers above the one on the bottom plate, each show a small displacement toward right in increasing order of value with the topmost layer showing the maximum.">
+        <image mime-type="image/jpg" src="../../media/Figure_13_04_03a.jpg"/>
+      </media>
+
+    <caption>The graphic shows laminar flow of fluid between two plates of area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>. The bottom plate is fixed. When the top plate is pushed to the right, it drags the fluid along with it.</caption></figure><para id="import-auto-id3094752">A force <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math></emphasis> is required to keep the top plate in <link target-id="import-auto-id1580837"/> moving at a constant velocity <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis>, and experiments have shown that this force depends on four factors. First, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math></emphasis> is directly proportional to <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis> (until the speed is so high that turbulence occurs—then a much larger force is needed, and it has a more complicated dependence on <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis>). Second, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math></emphasis> is proportional to the area <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math></emphasis> of the plate. This relationship seems reasonable, since <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math></emphasis> is directly proportional to the amount of fluid being moved. Third, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math></emphasis> is inversely proportional to the distance between the plates <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math></emphasis>. This relationship is also reasonable; <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math></emphasis> is like a lever arm, and the greater the lever arm, the less force that is needed. Fourth, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math></emphasis> is directly proportional to <emphasis effect="italics">the <emphasis effect="italics"/>coefficient of viscosity</emphasis>, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math></emphasis>. The greater the viscosity, the greater the force required. These dependencies are combined into the equation</para><equation id="import-auto-id2408773"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo></m:mrow><m:mi>η</m:mi><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vA</m:mtext></m:mrow></m:mstyle><m:mi>L</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=η {  { ital "vA"}  over  {L} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3013962">which gives us a working definition of fluid <term id="import-auto-id3157304">viscosity</term><emphasis effect="bold"/><emphasis effect="italics"> <m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math></emphasis>.<emphasis effect="bold"/> Solving for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math></emphasis> gives</para>
+    <equation id="import-auto-id2598252"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>η</m:mi><m:mo stretchy="false">=</m:mo></m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>FL</m:mtext></m:mrow></m:mstyle><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vA</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=η {  { ital "FL"}  over  { ital "vA"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1615409">which defines viscosity in terms of how it is measured. The SI unit of viscosity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m/</m:mtext></m:mrow><m:mo stretchy="false">[</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mo stretchy="false">]</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mtext>s or Pa</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N cdot "m/" \[  \( "m/s" \) m rSup { size 8{2} }  \] = \( "N/m" rSup { size 8{2} }  \) "sorPa" cdot s} {}</m:annotation></m:semantics></m:math>. <link target-id="import-auto-id3073392"/> lists the coefficients of viscosity for various fluids.</para><para id="import-auto-id1198223">Viscosity varies from one fluid to another by several orders of magnitude. As you might expect, the viscosities of gases are much less than those of liquids, and these viscosities are often temperature dependent. The viscosity of blood can be reduced by aspirin consumption, allowing it to flow more easily around the body. (When used over the long term in low doses, aspirin can help prevent heart attacks, and reduce the risk of blood clotting.)</para>
+  </section>
+
+<section id="fs-id2670160"><title>Laminar Flow Confined to Tubes—Poiseuille's Law</title>
+    <para id="import-auto-id1816428">What causes flow? The answer, not surprisingly, is pressure difference. In fact, there is a very simple relationship between horizontal flow and pressure. Flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> is in the direction from high to low pressure. The greater the pressure differential between two points, the greater the flow rate. This relationship can be stated as</para>
+    <equation id="import-auto-id1514558"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  {P rSub { size 8{2} }  - P rSub { size 8{1} } }  over  {R} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1518906">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> are the pressures at two points, such as at either end of a tube, and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis> is the resistance to flow. The resistance <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis> includes everything, except pressure, that affects flow rate. For example, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis> is greater for a long tube than for a short one. The greater the viscosity of a fluid, the greater the value of <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis>. Turbulence greatly increases <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis>, whereas increasing the diameter of a tube decreases <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis>.</para><para id="import-auto-id3158695">If viscosity is zero, the fluid is frictionless and the resistance to flow is also zero. Comparing frictionless flow in a tube to viscous flow, as in <link target-id="import-auto-id2578515"/>, we see that for a viscous fluid, speed is greatest at midstream because of drag at the boundaries. We can see the effect of viscosity in a Bunsen burner flame, even though the viscosity of natural gas is small.</para>
+    <para id="import-auto-id1276292">The resistance <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis> to laminar flow of an incompressible fluid having viscosity <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math></emphasis> through a horizontal tube of uniform radius <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math></emphasis> and length <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math></emphasis>, such as the one in <link target-id="import-auto-id1462104"/>, is given by</para><equation id="import-auto-id3068689"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>R</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>8</m:mn>
+                      <m:mi>η</m:mi>
+                      <m:mi>l</m:mi>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mi>π</m:mi>
+                      <m:msup>
+                        <m:mi>r</m:mi>
+
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+<m:mtext>.</m:mtext>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{R= {  {8η l}  over  {π r rSup { size 8{4} } } } "."} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2660240">This equation is called <term id="import-auto-id2057762">Poiseuille's law for resistance</term> after the French scientist J. L. Poiseuille (1799–1869), who derived it in an attempt to understand the flow of blood, an often turbulent fluid.</para>
+
+
+    <figure id="import-auto-id2578515"><media id="import-auto-id1022905" alt="Part a of the diagram shows a fluid flow across a rectangular non viscous medium. The speed of the fluid is shown to be same across the tube represented as same length of vertical rising arrows. Part b of the diagram shows a fluid flow across a rectangular viscous medium. The speed of the fluid speed at the walls is zero, increasing steadily to its maximum at the center of the tube represented as wave like variation for length of vertical rising arrows. Part c of the figure shows a burning Bunsen burner.">
+        <image mime-type="image/jpg" src="../../media/Figure_13_04_04a.jpg"/>
+      </media>
+
+    <caption>(a) If fluid flow in a tube has negligible resistance, the speed is the same all across the tube. (b) When a viscous fluid flows through a tube, its speed at the walls is zero, increasing steadily to its maximum at the center of the tube. (c) The shape of the Bunsen burner flame is due to the velocity profile across the tube. (credit: Jason Woodhead)</caption></figure><para id="import-auto-id3026892">Let us examine Poiseuille's expression for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis> to see if it makes good intuitive sense. We see that resistance is directly proportional to both fluid viscosity <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math></emphasis> and the length <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math></emphasis> of a tube. After all, both of these directly affect the amount of friction encountered—the greater either is, the greater the resistance and the smaller the flow. The radius <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math></emphasis> of a tube affects the resistance, which again makes sense, because the greater the radius, the greater the flow (all other factors remaining the same). But it is surprising that <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math></emphasis> is raised to the <emphasis effect="italics">fourth</emphasis> power in Poiseuille's law. This exponent means that any change in the radius of a tube has a very large effect on resistance. For example, doubling the radius of a tube decreases resistance by a factor of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mn>2</m:mn><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 rSup { size 8{4} } ="16"} {}</m:annotation></m:semantics></m:math>.</para>
+
+    <para id="eip-677">Taken together, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  {P rSub { size 8{2} }  - P rSub { size 8{1} } }  over  {R} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow><m:mrow><m:mi>π</m:mi><m:mi/><m:msup><m:mi>r</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R= {  {8ηl}  over  {π`r rSup { size 8{4} } } } } {}</m:annotation></m:semantics></m:math> give the following expression for flow rate:
+    </para><equation id="import-auto-id3012113"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  { \( P rSub { size 8{2} }  - P rSub { size 8{1} }  \) πr rSup { size 8{4} } }  over  {8ηl} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2062110">This equation describes laminar flow through a tube. It is sometimes called Poiseuille's law for laminar flow, or simply <term id="import-auto-id1816387">Poiseuille's law</term>.</para>
+
+   <example id="fs-id2993051">
+    <title>Using Flow Rate: Plaque Deposits Reduce Blood Flow </title>
+    <para id="import-auto-id3255940">Suppose the flow rate of blood in a coronary artery has been reduced to half its normal value by plaque deposits. By what factor has the radius of the artery been reduced, assuming no turbulence occurs?</para>
+
+<para id="import-auto-id2444990"><title>Strategy</title></para>
+<para id="fs-id956232">Assuming laminar flow, Poiseuille's law states that</para>
+    <equation id="fs-id1448448"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  { \( P rSub { size 8{2} }  - P rSub { size 8{1} }  \) πr rSup { size 8{4} } }  over  {8ηl} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2979833">We need to compare the artery radius before and after the flow rate reduction.</para>
+    <para id="import-auto-id1418896"><title>Solution</title></para>
+<para id="fs-id3013096">With a constant pressure difference assumed and the same length and viscosity, along the artery we have</para>
+    <equation id="import-auto-id3036414"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:msubsup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:msubsup></m:mfrac></m:mrow></m:mrow><m:mtext>.</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {Q rSub { size 8{1} } }  over  {r rSub { size 8{1} }  rSup { size 8{4} } } } = {  {Q rSub { size 8{2} } }  over  {r rSub { size 8{2} }  rSup { size 8{4} } } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id2420541">So, given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>5</m:mtext><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{2} } =0 "." 5Q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, we find that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msubsup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:msubsup><m:mrow><m:mn>5</m:mn><m:mi>r</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>4</m:mn></m:mrow></m:msubsup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{2} }  rSup { size 8{4} } =0 "." 5r rSub { size 8{1} }  rSup { size 8{4} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2678330">Therefore, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mn>5</m:mn></m:mrow></m:mfenced><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>25</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>841</m:mtext><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{2} } = left (0 "." 5 right ) rSup { size 8{0 "." "25"} } r rSub { size 8{1} } =0 "." "841"r rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, a decrease in the artery radius of 16%.</para>
+    <para id="import-auto-id1411473"><title>Discussion</title></para>
+<para id="fs-id1381143">This decrease in radius is surprisingly small for this situation. To restore the blood flow in spite of this buildup would require an increase in the pressure difference <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (P rSub { size 8{2} }  - P rSub { size 8{1} }  right )} {}</m:annotation></m:semantics></m:math> of a factor of two, with subsequent strain on the heart.</para>
+    </example>
+
+
+
+    <table id="import-auto-id3073392" summary="Coefficients of Viscosity of Various Fluids"><title>Coefficients of Viscosity of Various Fluids</title><tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead><row>
+            <entry>Fluid</entry>
+            <entry>Temperature (ºC)</entry>
+            <entry>Viscosity
+<m:math>
+ <m:semantics>
+<m:mrow>
+  <m:mi>η</m:mi><m:mspace width="0.25em"/><m:mtext>(mPa·s)</m:mtext>
+</m:mrow>
+ </m:semantics>
+</m:math></entry>
+          </row></thead><tbody><row>
+            <entry><emphasis><emphasis effect="italics">Gases</emphasis></emphasis></entry>
+            <entry/>
+            <entry/>
+          </row><row>
+            <entry morerows="3">Air</entry>
+            <entry>0</entry>
+            <entry>0.0171</entry>
+          </row><row>
+
+            <entry>20</entry>
+            <entry>0.0181</entry>
+          </row><row>
+
+            <entry>40</entry>
+            <entry>0.0190</entry>
+          </row><row>
+
+            <entry>100</entry>
+            <entry>0.0218</entry>
+          </row><row>
+            <entry>Ammonia</entry>
+            <entry>20</entry>
+            <entry>0.00974</entry>
+          </row><row>
+            <entry>Carbon dioxide</entry>
+            <entry>20</entry>
+            <entry>0.0147</entry>
+          </row><row>
+            <entry>Helium</entry>
+            <entry>20</entry>
+            <entry>0.0196</entry>
+          </row><row>
+            <entry>Hydrogen</entry>
+            <entry>0</entry>
+            <entry>0.0090</entry>
+          </row><row>
+            <entry>Mercury</entry>
+            <entry>20</entry>
+            <entry>0.0450</entry>
+          </row><row>
+            <entry>Oxygen</entry>
+            <entry>20</entry>
+            <entry>0.0203</entry>
+          </row><row>
+            <entry>Steam</entry>
+            <entry>100</entry>
+            <entry>0.0130</entry>
+          </row><row>
+            <entry><emphasis><emphasis effect="italics">Liquids</emphasis></emphasis></entry>
+            <entry/>
+            <entry/>
+          </row><row>
+            <entry morerows="4">Water</entry>
+            <entry>0</entry>
+            <entry>1.792</entry>
+          </row><row>
+
+            <entry>20</entry>
+            <entry>1.002</entry>
+          </row><row>
+
+            <entry>37</entry>
+            <entry>0.6947</entry>
+          </row><row>
+
+            <entry>40</entry>
+            <entry>0.653</entry>
+          </row><row>
+
+            <entry>100</entry>
+            <entry>0.282</entry>
+          </row><row>
+            <entry morerows="1">Whole blood<footnote id="eip-id1488195">The ratios of the viscosities of blood to water are nearly constant between 0°C and 37°C.</footnote></entry>
+            <entry>20</entry>
+            <entry>3.015 </entry>
+          </row><row>
+
+            <entry>37</entry>
+            <entry>2.084</entry>
+          </row><row>
+            <entry morerows="1">Blood plasma<footnote id="eip-id1956858">See note on Whole Blood.</footnote></entry>
+            <entry>20</entry>
+            <entry>1.810 </entry>
+          </row><row>
+
+            <entry>37</entry>
+            <entry>1.257</entry>
+          </row><row>
+            <entry>Ethyl alcohol</entry>
+            <entry>20</entry>
+            <entry>1.20 </entry>
+          </row><row>
+            <entry>Methanol</entry>
+            <entry>20</entry>
+            <entry>0.584</entry>
+          </row><row>
+            <entry>Oil (heavy machine)</entry>
+            <entry>20</entry>
+            <entry>660</entry>
+          </row><row>
+            <entry>Oil (motor, SAE 10)</entry>
+            <entry>30</entry>
+            <entry>200</entry>
+          </row><row>
+            <entry>Oil (olive)</entry>
+            <entry>20</entry>
+            <entry>138</entry>
+          </row><row>
+            <entry>Glycerin</entry>
+            <entry>20</entry>
+            <entry>1500</entry>
+          </row><row>
+            <entry>Honey</entry>
+            <entry>20</entry>
+            <entry>2000–10000</entry>
+          </row><row>
+            <entry>Maple Syrup</entry>
+            <entry>20</entry>
+            <entry>2000–3000</entry>
+          </row><row>
+            <entry>Milk</entry>
+            <entry>20</entry>
+            <entry>3.0</entry>
+          </row><row>
+            <entry>Oil (Corn)</entry>
+            <entry>20</entry>
+            <entry>65</entry>
+          </row></tbody>
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id2429055">The circulatory system provides many examples of Poiseuille's law in action—with blood flow regulated by changes in vessel size and blood pressure. Blood vessels are not rigid but elastic. Adjustments to blood flow are primarily made by varying the size of the vessels, since the resistance is so sensitive to the radius. During vigorous exercise, blood vessels are selectively dilated to important muscles and organs and blood pressure increases. This creates both greater overall blood flow and increased flow to specific areas. Conversely, decreases in vessel radii, perhaps from plaques in the arteries, can greatly reduce blood flow. If a vessel's radius is reduced by only 5% (to 0.95 of its original value), the flow rate is reduced to about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>95</m:mtext><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>81</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "95" \)  rSup { size 8{4} } =0 "." "81"} {}</m:annotation></m:semantics></m:math> of its original value. A 19% decrease in flow is caused by a 5% decrease in radius. The body may compensate by increasing blood pressure by 19%, but this presents hazards to the heart and any vessel that has weakened walls. Another example comes from automobile engine oil. If you have a car with an oil pressure gauge, you may notice that oil pressure is high when the engine is cold. Motor oil has greater viscosity when cold than when warm, and so pressure must be greater to pump the same amount of cold oil.</para>
+
+
+    <figure id="import-auto-id1462104"><media id="import-auto-id2448419" alt="The figure shows a section of a cylindrical tube of length l. The two end cross section are shown to have pressure P two and P one respectively. The radius of the cylindrical tube is given by r. The direction of flow is shown by horizontal arrows toward right end of the tube. The flow rate is marked as Q.">
+        <image mime-type="image/jpg" src="../../media/Figure_13_04_05a.jpg"/>
+      </media>
+
+    <caption>Poiseuille's law applies to laminar flow of an incompressible fluid of viscosity <m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math> through a tube of length <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> and radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>. The direction of flow is from greater to lower pressure. Flow rate <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is directly proportional to the pressure difference <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} }  - P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, and inversely proportional to the length <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> of the tube and viscosity <m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math> of the fluid. Flow rate increases with <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSup { size 8{4} } } {}</m:annotation></m:semantics></m:math>, the fourth power of the radius.</caption></figure><example id="fs-id1969731">
+    <title>What Pressure Produces This Flow Rate? </title>
+    <para id="import-auto-id1609210">An intravenous (IV) system is supplying saline solution to a patient at the rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>120</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "120"``"cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math> through a needle of radius 0.150 mm and length 2.50 cm. What pressure is needed at the entrance of the needle to cause this flow, assuming the viscosity of the saline solution to be the same as that of water? The gauge pressure of the blood in the patient's vein is 8.00 mm Hg.  (Assume that the temperature is
+<m:math>
+ <m:semantics>
+  <m:mtext>20ºC</m:mtext>
+ </m:semantics>
+</m:math>
+.)</para><para id="import-auto-id1546475"><title>Strategy</title></para>
+<para id="fs-id2654260">Assuming laminar flow, Poiseuille's law applies. This is given by</para>
+    <equation id="import-auto-id2953372"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:mi/><m:msup><m:mi>r</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  { \( P rSub { size 8{2} }  - P rSub { size 8{1} }  \) π`r rSup { size 8{4} } }  over  {8ηl} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3180466">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is the pressure at the entrance of the needle and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is the pressure in the vein. The only unknown is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id2514434"><title>Solution</title></para>
+<para id="fs-id2452595">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> yields</para>
+    <equation id="import-auto-id2401979"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">+</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} } = {  {8ηl}  over  {πr rSup { size 8{4} } } } Q+P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1187842"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is given as 8.00 mm Hg, which converts to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>066</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "066" times "10" rSup { size 8{3} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Substituting this and the other known values yields</para><equation id="import-auto-id1133273"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfenced open="[" close="]"><m:mfrac><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>s/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mi>π</m:mi><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>150</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mfrac></m:mfenced><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>066</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd>
+</m:mtr><m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>62</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>.</m:mtext></m:mtd>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1575305"><title>Discussion</title></para>
+<para id="fs-id3138086">This pressure could be supplied by an IV bottle with the surface of the saline solution 1.61 m above the entrance to the needle (this is left for you to solve in this chapter's Problems and Exercises), assuming that there is negligible pressure drop in the tubing leading to the needle.</para></example>
+</section>
+
+<section id="fs-id2684549">
+<title>Flow and Resistance as Causes of Pressure Drops</title>
+    <para id="import-auto-id2671388">You may have noticed that water pressure in your home might be lower than normal on hot summer days when there is more use. This pressure drop occurs in the water main before it reaches your home. Let us consider flow through the water main as illustrated in <link target-id="import-auto-id3191604"/>. We can understand why the pressure <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> to the home drops during times of heavy use by rearranging</para>
+    <equation id="import-auto-id3230032">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>Q</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>P</m:mi>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>P</m:mi>
+
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>R</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{Q= {  {P rSub { size 8{2} }  - P rSub { size 8{1} } }  over  {R} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2421131">to</para>
+    <equation id="fs-id2681296"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow><m:mi/><m:mi>Q</m:mi></m:mrow></m:mrow><m:mtext>,</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} }  - P rSub { size 8{1} } =R`Q} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1920546">where, in this case, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is the pressure at the water works and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis> is the resistance of the water main. During times of heavy use, the flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> is large. This means that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} }  - P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> must also be large. Thus <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> must decrease. It is correct to think of flow and resistance as causing the pressure to drop from <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow><m:mi/><m:mi>Q</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} }  - P rSub { size 8{1} } =R`Q} {}</m:annotation></m:semantics></m:math> is valid for both laminar and turbulent flows.</para>
+
+
+    <figure id="import-auto-id3191604"><media id="import-auto-id2654260" alt="Figure shows the water distribution system from a water works to homes around that area. The pressure at the pipeline near the water works is shown to have a pressure P two and the pressure at the dividing point were the pipe line splits to corresponding houses the pressure is shown as P one.">
+        <image mime-type="image/jpg" src="../../media/Figure_13_04_06a.jpg"/>
+      </media>
+
+    <caption>During times of heavy use, there is a significant pressure drop in a water main, and <m:math>
+ <m:semantics>
+<m:msub>
+  <m:mi>P</m:mi>
+<m:mtext>1</m:mtext>
+</m:msub>
+ </m:semantics>
+</m:math> supplied to users is significantly less than
+<m:math>
+ <m:semantics>
+<m:msub>
+  <m:mi>P</m:mi>
+<m:mtext>2</m:mtext>
+</m:msub>
+ </m:semantics>
+</m:math> created at the water works. If the flow is very small, then the pressure drop is negligible, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">≈</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} }  approx P rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id3008789">We can use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow><m:mi/><m:mi>Q</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} }  - P rSub { size 8{1} } =R`Q} {}</m:annotation></m:semantics></m:math> to analyze pressure drops occurring in more complex systems in which the tube radius is not the same everywhere. Resistance will be much greater in narrow places, such as an obstructed coronary artery. For a given flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis>, the pressure drop will be greatest where the tube is most narrow. This is how water faucets control flow. Additionally, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> is greatly increased by turbulence, and a constriction that creates turbulence greatly reduces the pressure downstream. Plaque in an artery reduces pressure and hence flow, both by its resistance and by the turbulence it creates.</para><para id="import-auto-id1609528"><link target-id="fs-id2660781"/> is a schematic of the human circulatory system, showing average blood pressures in its major parts for an adult at rest. Pressure created by the heart's two pumps, the right and left ventricles, is reduced by the resistance of the blood vessels as the blood flows through them. The left ventricle increases arterial blood pressure that drives the flow of blood through all parts of the body except the lungs. The right ventricle receives the lower pressure blood from two major veins and pumps it through the lungs for gas exchange with atmospheric gases – the disposal of carbon dioxide from the blood and the replenishment of oxygen. Only one major organ is shown schematically, with typical branching of arteries to ever smaller vessels, the smallest of which are the capillaries, and rejoining of small veins into larger ones. Similar branching takes place in a variety of organs in the body, and the circulatory system has considerable flexibility in flow regulation to these organs by the dilation and constriction of the arteries leading to them and the capillaries within them. The sensitivity of flow to tube radius makes this flexibility possible over a large range of flow rates.</para>
+
+
+<figure id="fs-id2660781"><media id="fs-id2970414" alt="Figure is a schematic diagram of the circulatory system. The lungs, heart, arteries and vein systems are shown. The blood is shown to flow from the left atrium through the arteries, then through the veins and back to the right atrium. The flow is also shown from right atrium to the lungs and from lungs back to left atrium. All parts of the system are labeled. Pressure various points of the system all along the movement of blood across various parts are also marked.">
+<image mime-type="image/jpg" src="../../media/Figure_13_04_07a.jpg"/>
+</media>
+
+<caption>Schematic of the circulatory system. Pressure difference is created by the two pumps in the heart and is reduced by resistance in the vessels. Branching of vessels into capillaries allows blood to reach individual cells and exchange substances, such as oxygen and waste products, with them. The system has an impressive ability to regulate flow to individual organs, accomplished largely by varying vessel diameters.</caption></figure><para id="import-auto-id3101875">Each branching of larger vessels into smaller vessels increases the total cross-sectional area of the tubes through which the blood flows. For example, an artery with a cross section of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> may branch into 20 smaller arteries, each with cross sections of
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0.5</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." 5`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, with a total of
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10"`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. In that manner, the resistance of the branchings is reduced so that pressure is not entirely lost. Moreover, because
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow>
+<m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mi>A</m:mi></m:mrow>
+
+<m:mrow>
+<m:mover>
+ <m:mi>v</m:mi>
+ <m:mo>¯</m:mo>
+</m:mover>
+</m:mrow>
+
+</m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=A { bar  {v}}} {}</m:annotation></m:semantics></m:math> and <m:math>
+ <m:semantics>
+  <m:mi>A</m:mi>
+ </m:semantics>
+</m:math> increases through branching, the average velocity of the blood in the smaller vessels is reduced. The blood velocity in the aorta (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>diameter</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext>cm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"diameter"=1`"cm"} {}</m:annotation></m:semantics></m:math>) is about 25 cm/s, while in the capillaries (<m:math>
+ <m:semantics>
+<m:mrow>
+  <m:mtext>20 </m:mtext><m:mi>μ</m:mi><m:mtext>m</m:mtext>
+</m:mrow>
+ </m:semantics>
+</m:math> in diameter) the velocity is about 1 mm/s. This reduced velocity allows the blood to exchange substances with the cells in the capillaries and alveoli in particular.</para></section>
+
+<section id="fs-id1336364" class="section-summary"><title>Section Summary</title><list id="fs-id1395110"><item id="import-auto-id1997134">Laminar flow is characterized by smooth flow of the fluid in layers that do not mix.</item>
+    <item id="import-auto-id1995521">Turbulence is characterized by eddies and swirls that mix layers of fluid together.</item>
+    <item id="import-auto-id1538950">Fluid viscosity <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math></emphasis> is due to friction within a fluid. Representative values are given in <link target-id="import-auto-id3073392"/>. Viscosity has units of <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mo stretchy="false">
+(
+         </m:mo>
+         <m:msup>
+          <m:mtext>
+N/m
+          </m:mtext>
+          <m:mrow>
+            <m:mrow>
+             <m:mrow>
+              <m:mn>
+2
+              </m:mn>
+             </m:mrow>
+            </m:mrow>
+          </m:mrow>
+         </m:msup>
+         <m:mo stretchy="false">
+)
+         </m:mo>
+         <m:mtext>
+s
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{ \( "N/m" rSup { size 8{2} }  \) s} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math> or <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mtext>
+Pa
+          </m:mtext>
+          <m:mo stretchy="false">
+⋅
+          </m:mo>
+          <m:mtext>
+s
+          </m:mtext>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{"Pa" cdot s} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>.</item>
+    <item id="import-auto-id2653755">Flow is proportional to pressure difference and inversely proportional to resistance:
+    <equation id="eip-472"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mi>R</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  {P rSub { size 8{2} }  - P rSub { size 8{1} } }  over  {R} } } {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id1936008">For laminar flow in a tube, Poiseuille's law for resistance states that
+    <equation id="eip-18"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R= {  {8ηl}  over  {πr rSup { size 8{4} } } } } {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id2446122">Poiseuille's law for flow in a tube is
+    <equation id="eip-46"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>π</m:mi><m:mi/><m:msup><m:mi>r</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>8</m:mn><m:mi>η</m:mi><m:mi>l</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= {  { \( P rSub { size 8{2} }  - P rSub { size 8{1} }  \) π`r rSup { size 8{4} } }  over  {8ηl} } } {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id3034519">The pressure drop caused by flow and resistance is given by
+    <equation id="eip-515"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow><m:mi/><m:mi>Q</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{2} }  - P rSub { size 8{1} } =R`Q} {}</m:annotation></m:semantics></m:math></equation></item>
+    </list></section><section id="fs-id2654211" class="conceptual-questions" type="conceptual-questions">
+<title>Conceptual Questions</title>
+
+    <exercise id="fs-id2016654" type="conceptual-questions"><problem id="fs-id3175118">
+
+    <para id="import-auto-id1828674">Explain why the viscosity of a liquid decreases with temperature—that is, how might increased temperature reduce the effects of cohesive forces in a liquid? Also explain why the viscosity of a gas increases with temperature—that is, how does increased gas temperature create more collisions between atoms and molecules?</para>
+    </problem></exercise>
+
+<exercise id="fs-id1390466" type="conceptual-questions"><problem id="fs-id3018299">
+    <para id="import-auto-id1486833">When paddling a canoe upstream, it is wisest to travel as near to the shore as possible. When canoeing downstream, it may be best to stay near the middle. Explain why.</para>
+    </problem></exercise>
+
+<exercise id="fs-id2442163" type="conceptual-questions"><problem id="fs-id3053479">
+    <para id="import-auto-id1578426">Why does flow decrease in your shower when someone flushes the toilet?</para>
+    </problem></exercise>
+
+<exercise id="fs-id1528282" type="conceptual-questions"><problem id="fs-id2929368">
+    <para id="import-auto-id3399792">Plumbing usually includes air-filled tubes near water faucets, as shown in <link target-id="import-auto-id3154513"/>. Explain why they are needed and how they work.</para>
+
+
+    <figure id="import-auto-id3154513"><media id="import-auto-id2382749" alt="The picture shows water gushing out of a water tap. The faucet in the tap is marked. A pipe connected vertically filled with air is shown at an opening on the water pipe before the tap.">
+        <image mime-type="image/jpg" src="../../media/Figure_13_04_08a.jpg"/>
+      </media>
+
+    <caption>The vertical tube near the water tap remains full of air and serves a useful purpose.</caption></figure></problem></exercise>
+</section>
+
+    <section id="fs-id2679283" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1011276" type="problems-exercises">
+<problem id="fs-id1562414">
+   <para id="import-auto-id1933599">(a) Calculate the retarding force due to the viscosity of the air layer between a cart and a level air track given the following information—air temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" rSup { size 8{ circ } } C} {}</m:annotation></m:semantics></m:math>, the cart is moving at 0.400 m/s, its surface area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>−2</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50" times "10" rSup { size 8{2} } `m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and the thickness of the air layer is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6.00</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00" times "10" rSup { size 8{ - 5} } `m} {}</m:annotation></m:semantics></m:math>. (b) What is the ratio of this force to the weight of the 0.300-kg cart?</para></problem>
+<solution id="fs-id2429079">
+    <para id="import-auto-id3035480">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>02</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "02" times "10" rSup { size 8{ - 3} } " N"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2930356">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>03</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "03" times "10" rSup { size 8{ - 3} } } {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id1845376" type="problems-exercises">
+<problem id="fs-id2659095">
+<para id="import-auto-id3119337">What force is needed to pull one microscope slide over another at a speed of 1.00 cm/s, if there is a 0.500-mm-thick layer of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20º C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" rSup { size 12{ circ } } C} {}</m:annotation></m:semantics></m:math> water between them and the contact area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8.00</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00"`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>?</para></problem></exercise>
+
+    <exercise id="fs-id1585889" type="problems-exercises">
+<problem id="fs-id1870502">
+<para id="import-auto-id3138195">A glucose solution being administered with an IV has a flow rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/min</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "00"`"cm" rSup { size 8{3} } "/min"} {}</m:annotation></m:semantics></m:math>. What will the new flow rate be if the glucose is replaced by whole blood having the same density but a viscosity 2.50 times that of the glucose? All other factors remain constant.</para></problem>
+<solution id="fs-id1579503">
+    <para id="import-auto-id3356330">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:msup>
+                    <m:mtext>60 cm</m:mtext>
+
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+
+                  </m:msup>
+                  <m:mtext>/min</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "60 cm" rSup { size 8{3} } "/min"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id1562200" type="problems-exercises">
+<problem id="fs-id2052284">
+<para id="import-auto-id3255137">The pressure drop along a length of artery is 100 Pa, the radius is 10 mm, and the flow is laminar. The average speed of the blood is 15 mm/s. (a) What is the net force on the blood in this section of artery? (b) What is the power expended maintaining the flow?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2392198" type="problems-exercises">
+<problem id="fs-id1932684">
+ <para id="import-auto-id1867019">A small artery has a length of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 1 times "10" rSup { size 8{ - 3} } `m} {}</m:annotation></m:semantics></m:math> and a radius of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2.5</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." 5 times "10" rSup { size 8{ - 5} } `m} {}</m:annotation></m:semantics></m:math>. If the pressure drop across the artery is 1.3 kPa, what is the flow rate through the artery? (Assume that the temperature is <span><m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mtext>
+37º C
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{"37"°C} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>.)</span></para></problem>
+<solution id="fs-id1427401">
+    <para id="import-auto-id2962651"><m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+8.7
+         </m:mn>
+         <m:mrow>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mrow>
+                <m:mo stretchy="false">
+−
+                </m:mo>
+                <m:mtext>
+11
+                </m:mtext>
+               </m:mrow>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msup>
+         </m:mrow>
+<m:mspace width="0.25em"/>
+         <m:msup>
+          <m:mtext>
+m
+          </m:mtext>
+          <m:mrow>
+            <m:mrow>
+             <m:mrow>
+              <m:mn>
+3
+              </m:mn>
+             </m:mrow>
+            </m:mrow>
+          </m:mrow>
+         </m:msup>
+         <m:mtext>
+/s
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{8 "." 7 times "10" rSup { size 8{ - "11"} } `m rSup { size 8{3} } "/s"} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></para></solution>
+    </exercise>
+
+    <exercise id="fs-id2423387" type="problems-exercises">
+<problem id="fs-id2139880">
+  <para id="import-auto-id2410017">Fluid originally flows through a tube at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"`"cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math>. To illustrate the sensitivity of flow rate to various factors, calculate the new flow rate for the following changes with all other factors remaining the same as in the original conditions. (a) Pressure difference increases by a factor of 1.50. (b) A new fluid with 3.00 times greater viscosity is substituted. (c) The tube is replaced by one having 4.00 times the length. (d) Another tube is used with a radius 0.100 times the original. (e) Yet another tube is substituted with a radius 0.100 times the original and half the length, <emphasis effect="italics">and</emphasis> the pressure difference is increased by a factor of 1.50.</para></problem></exercise>
+
+    <exercise id="fs-id3385463" type="problems-exercises"><problem id="fs-id1922772">
+  <para id="import-auto-id3138501">The arterioles (small arteries) leading to an organ, constrict in order to decrease flow to the organ. To shut down an organ, blood flow is reduced naturally to 1.00% of its original value. By what factor did the radii of the arterioles constrict? Penguins do this when they stand on ice to reduce the blood flow to their feet.</para>
+    </problem>
+<solution id="fs-id2670602">
+    <para id="import-auto-id2930076">0.316</para>
+    </solution>
+    </exercise><exercise id="fs-id3125888" type="problems-exercises">
+<problem id="fs-id1945563">
+   <para id="import-auto-id1859605">Angioplasty is a technique in which arteries partially blocked with plaque are dilated to increase blood flow. By what factor must the radius of an artery be increased in order to increase blood flow by a factor of 10?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2639230" type="problems-exercises"><problem id="fs-id2917418">
+  <para id="import-auto-id3085591">(a) Suppose a blood vessel's radius is decreased to 90.0% of its original value by plaque deposits and the body compensates by increasing the pressure difference along the vessel to keep the flow rate constant. By what factor must the pressure difference increase? (b) If turbulence is created by the obstruction, what additional effect would it have on the flow rate?</para>
+    </problem>
+<solution id="fs-id957033">
+    <para id="import-auto-id2666551">(a) 1.52</para>
+    <para id="eip-id1588848">(b) Turbulence will decrease the flow rate of the blood, which would require an even larger increase in the pressure difference, leading to higher blood pressure.</para>
+    </solution>
+    </exercise><exercise id="fs-id2401743" type="problems-exercises"><problem id="fs-id3173408">
+   <para id="import-auto-id3110878">A spherical particle falling at a terminal speed in a liquid must have the gravitational force balanced by the drag force and the buoyant force. The buoyant force is equal to the weight of the displaced fluid, while the drag force is assumed to be given by Stokes Law, <m:math style="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mi>s</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>6</m:mtext><m:mi>π</m:mi><m:mi>r</m:mi><m:mi>η</m:mi><m:mi>v</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } =6πrηv} {}</m:annotation></m:semantics></m:math>. Show that the terminal speed is given by</para><equation id="eip-id3232061" class="unnumbered"><label/><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>g</m:mi></m:mrow><m:mrow><m:mn>9</m:mn><m:mi>η</m:mi></m:mrow></m:mfrac></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>ρ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= {  {2R rSup { size 8{2} } g}  over  {9η} }  left (ρ rSub { size 8{s} }  - ρ rSub { size 8{1} }  right )} {}</m:annotation></m:semantics></m:math></equation><para id="eip-id1621956">where <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math></emphasis> is the radius of the sphere, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ rSub { size 8{s} } } {}</m:annotation></m:semantics></m:math> is its density, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is the density of the fluid and <m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math> the coefficient of viscosity.
+</para></problem></exercise><exercise id="fs-id1427261" type="problems-exercises"><problem id="fs-id3052728">
+ <para id="import-auto-id3246906">Using the equation of the previous problem, find the viscosity of motor oil in which a steel ball of radius 0.8 mm falls with a terminal speed of 4.32 cm/s. The densities of the ball and the oil are 7.86 and 0.88 g/mL, respectively.</para>
+    </problem>
+<solution id="fs-id1999971">
+    <para id="eip-id3109092">
+<m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle mathsize="12pt">
+       <m:mrow>
+        <m:mrow>
+         <m:mtext>
+225
+         </m:mtext>
+        <m:mspace width="0.25em"/>
+         <m:mrow>
+          <m:mtext>
+mPa
+          </m:mtext>
+          <m:mo stretchy="false">
+⋅
+          </m:mo>
+          <m:mtext>
+s
+          </m:mtext>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{"225"`"mPa" cdot s} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>
+</para></solution>
+    </exercise><exercise id="fs-id3054572" type="problems-exercises">
+<problem id="fs-id3244737">
+ <para id="import-auto-id1899852">A skydiver will reach a terminal velocity when the air drag equals their weight. For a skydiver with high speed and a large body, turbulence is a factor. The drag force then is approximately proportional to the square of the velocity. Taking the drag force to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow><m:mi>ρ</m:mi><m:mrow><m:msup><m:mi fontstyle="italic">Av</m:mi><m:mrow><m:mtext>2</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } = {  { size 8{1} }  over  { size 8{2} } } ρ ital "Av" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> and setting this equal to the person's weight, find the terminal speed for a person falling “spread eagle.” Find both a formula and a number for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext fontstyle="normal">t</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{t} } } {}</m:annotation></m:semantics></m:math>, with assumptions as to size.</para></problem></exercise>
+
+    <exercise id="fs-id3034936" type="problems-exercises"><problem id="fs-id2406920">
+<para id="import-auto-id3356820">A layer of oil 1.50 mm thick is placed between two microscope slides. Researchers find that a force of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "50" times "10" rSup { size 8{ - 4} } `N} {}</m:annotation></m:semantics></m:math> is required to glide one over the other at a speed of 1.00 cm/s when their contact area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00"`"cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. What is the oil's viscosity? What type of oil might it be?</para></problem>
+<solution id="fs-id2206610">
+<para id="eip-id2474027">
+<m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+0
+         </m:mn>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mtext>
+138 Pa
+          </m:mtext>
+          <m:mo stretchy="false">
+⋅
+          </m:mo>
+          <m:mtext>
+s,
+          </m:mtext>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{0 "." "138 Pa" cdot s} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>
+</para>
+    <para id="import-auto-id3159329">or</para>
+
+<para id="import-auto-id3101965">Olive oil.</para>
+    </solution>
+    </exercise><exercise id="fs-id3025375" type="problems-exercises">
+<problem id="fs-id3211252">
+  <para id="import-auto-id3154707">(a) Verify that a 19.0% decrease in laminar flow through a tube is caused by a 5.00% decrease in radius, assuming that all other factors remain constant, as stated in the text. (b) What increase in flow is obtained from a 5.00% increase in radius, again assuming all other factors remain constant?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2683828" type="problems-exercises">
+<problem id="fs-id3225864">
+ <para id="import-auto-id2409861"><link target-id="fs-id1969731"/> dealt with the flow of saline solution in an IV system. (a) Verify that a pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>62</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "62" times "10" rSup { size 8{4} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> is created at a depth of 1.61 m in a saline solution, assuming its density to be that of sea water. (b) Calculate the new flow rate if the height of the saline solution is decreased to 1.50 m. (c) At what height would the direction of flow be reversed? (This reversal can be a problem when patients stand up.)</para></problem>
+<solution id="fs-id1574881">
+    <para id="import-auto-id347682">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>62</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>4 </m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "62" times "10" rSup { size 8{"4 "} } "N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1846207">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>111 cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "111 cm" rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id2640522">(c)10.6 cm</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id2442683" type="problems-exercises">
+<problem id="fs-id2452711">
+ <para id="import-auto-id1577562">When physicians diagnose arterial blockages, they quote the reduction in flow rate. If the flow rate in an artery has been reduced to 10.0% of its normal value by a blood clot and the average pressure difference has increased by 20.0%, by what factor has the clot reduced the radius of the artery?</para>
+    </problem></exercise>
+
+    <exercise id="fs-id742312" type="problems-exercises">
+<problem id="fs-id3418450">
+ <para id="import-auto-id1999971">During a marathon race, a runner's blood flow increases to 10.0 times her resting rate. Her blood's viscosity has dropped to 95.0% of its normal value, and the blood pressure difference across the circulatory system has increased by 50.0%. By what factor has the average radii of her blood vessels increased?</para>
+    </problem>
+<solution id="fs-id3008926">
+    <para id="import-auto-id1575376">1.59</para></solution>
+    </exercise>
+
+    <exercise id="fs-id3358894" type="problems-exercises">
+<problem id="fs-id2402436">
+  <para id="import-auto-id2991396">Water supplied to a house by a water main has a pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> early on a summer day when neighborhood use is low. This pressure produces a flow of 20.0 L/min through a garden hose. Later in the day, pressure at the exit of the water main and entrance to the house drops, and a flow of only 8.00 L/min is obtained through the same hose. (a) What pressure is now being supplied to the house, assuming resistance is constant? (b) By what factor did the flow rate in the water main increase in order to cause this decrease in delivered pressure? The pressure at the entrance of the water main is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{5} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and the original flow rate was 200 L/min. (c) How many more users are there, assuming each would consume 20.0 L/min in the morning?</para></problem></exercise>
+
+    <exercise id="fs-id2400972" type="problems-exercises">
+<problem id="fs-id1374043">
+  <para id="import-auto-id3092985">An oil gusher shoots crude oil 25.0 m into the air through a pipe with a 0.100-m diameter. Neglecting air resistance but not the resistance of the pipe, and assuming laminar flow, calculate the gauge pressure at the entrance of the 50.0-m-long vertical pipe. Take the density of the oil to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>900</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"900"`"kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> and its viscosity to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"` \( "N/m" rSup { size 8{2} }  \)  cdot s} {}</m:annotation></m:semantics></m:math> (or  <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+1.00
+         </m:mn>
+        <m:mspace width="0.25em"/>
+         <m:mrow>
+          <m:mtext>
+Pa
+          </m:mtext>
+          <m:mo stretchy="false">
+⋅
+          </m:mo>
+          <m:mtext>
+s
+          </m:mtext>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{1 "." "00"`"Pa" cdot s} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>). Note that you must take into account the pressure due to the 50.0-m column of oil in the pipe.</para></problem>
+<solution id="fs-id1412798">
+    <para id="import-auto-id2626182"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>95</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "21" times "10" rSup { size 8{6} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>(gauge pressure)</para></solution>
+    </exercise>
+
+    <exercise id="fs-id1373292" type="problems-exercises">
+<problem id="fs-id1974468">
+  <para id="import-auto-id2990771">Concrete is pumped from a cement mixer to the place it is being laid, instead of being carried in wheelbarrows. The flow rate is 200.0 L/min through a 50.0-m-long, 8.00-cm-diameter hose, and the pressure at the pump is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" times "10" rSup { size 8{6} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. (a) Calculate the resistance of the hose. (b) What is the viscosity of the concrete, assuming the flow is laminar? (c) How much power is being supplied, assuming the point of use is at the same level as the pump? You may neglect the power supplied to increase the concrete's velocity.</para></problem></exercise>
+
+    <exercise id="fs-id2446855" type="problems-exercises">
+<problem id="fs-id3452632">
+<para id="import-auto-id1933987">
+      <title>Construct Your Own Problem</title>
+    </para>
+    <para id="import-auto-id3417498">Consider a coronary artery constricted by arteriosclerosis. Construct a problem in which you calculate the amount by which the diameter of the artery is decreased, based on an assessment of the decrease in flow rate.</para>
+    </problem></exercise>
+
+    <exercise id="fs-id2053879" type="problems-exercises">
+<problem id="fs-id3224292">
+   <para id="import-auto-id3011338">Consider a river that spreads out in a delta region on its way to the sea. Construct a problem in which you calculate the average speed at which water moves in the delta region, based on the speed at which it was moving up river. Among the things to consider are the size and flow rate of the river before it spreads out and its size once it has spread out. You can construct the problem for the river spreading out into one large river or into multiple smaller rivers.</para>
+    </problem></exercise>
+    </section>
+
+   </content>
+<glossary>
+    <definition id="import-auto-id3034330"><term>laminar</term> <meaning id="fs-id3117802">a type of fluid flow in which layers do not mix</meaning></definition>
+    <definition id="import-auto-id1484995"><term>turbulence</term> <meaning id="fs-id2025066">fluid flow in which layers mix together via eddies and swirls</meaning></definition>
+    <definition id="import-auto-id1932760"><term>viscosity</term> <meaning id="fs-id3304322">the friction in a fluid, defined in terms of the friction between layers</meaning></definition>
+    <definition id="import-auto-id3179474"><term>Poiseuille's law for resistance</term> <meaning id="fs-id3136162">the resistance to laminar flow of an incompressible fluid in a tube: <emphasis effect="italics">R</emphasis> = 8<emphasis effect="italics">ηl</emphasis>/<emphasis effect="italics">πr</emphasis><sup>4</sup></meaning></definition>
+    <definition id="import-auto-id2005999"><term>Poiseuille's law</term> <meaning id="fs-id3119126">the rate of laminar flow of an incompressible fluid in a tube: <emphasis effect="italics">Q</emphasis> = (<emphasis effect="italics">P</emphasis><sub>2</sub> − <emphasis effect="italics">P</emphasis><sub>1</sub>)<emphasis effect="italics">πr</emphasis><sup>4</sup>/8<emphasis effect="italics">ηl</emphasis></meaning></definition>
+    </glossary>
+</document>

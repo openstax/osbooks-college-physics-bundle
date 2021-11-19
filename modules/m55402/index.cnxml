@@ -1,0 +1,366 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Magnetic Force between Two Parallel Conductors</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55402</md:content-id>
+  <md:title>Magnetic Force between Two Parallel Conductors</md:title>
+  <md:abstract/>
+  <md:uuid>aef280b2-5c8b-4d5b-994a-30ff0ea1adb6</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id2717704" class="learning-objectives">
+  <title>Learning Objectives</title>
+  <para id="fs-id2428156">By the end of this section, you will be able to:</para>
+<list id="fs-id2329838">
+<item>Describe the effects of the magnetic force between two conductors.</item>
+<item>Calculate the force between two parallel conductors.</item>
+</list>
+<para id="fs-id4590810">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id3170729">
+<item><emphasis effect="bold">2.D.2.1</emphasis> The student is able to create a verbal or visual representation of a magnetic field around a long straight wire or a pair of parallel wires. <emphasis effect="bold">(S.P. 1.1)</emphasis></item>
+<item><emphasis effect="bold">3.C.3.1</emphasis> The student is able to use right-hand rules to analyze a situation involving a current-carrying conductor and a moving electrically charged object to determine the direction of the magnetic force exerted on the charged object due to the magnetic field created by the current-carrying conductor. <emphasis effect="bold">(S.P. 1.4)</emphasis></item>
+</list>
+</section>
+
+
+
+
+
+
+    <para id="import-auto-id1898715">You might expect that there are significant forces between current-carrying wires, since ordinary currents produce significant magnetic fields and these fields exert significant forces on ordinary currents. But you might not expect that the force between wires is used to <emphasis effect="italics">define</emphasis> the ampere. It might also surprise you to learn that this force has something to do with why large circuit breakers burn up when they attempt to interrupt large currents.</para><para id="import-auto-id1268790">The force between two long straight and parallel conductors separated by a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> can be found by applying what we have developed in preceding sections. <link target-id="import-auto-id1368658"/> shows the wires, their currents, the fields they create, and the subsequent forces they exert on one another. Let us consider the field produced by wire 1 and the force it exerts on wire 2 (call the force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>). The field due to <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> at a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is given to be</para><equation id="eip-335"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>B</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow><m:mrow>
+                    <m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{1} } = {  {μ rSub { size 8{0} } I rSub { size 8{1} } }  over  {2πr} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><figure id="import-auto-id1368658"><media id="import-auto-id2004669" alt="Figure a shows two parallel wires, both with currents going up. The magnetic field lines of the first wire are shown as concentric circles centered on wire 1 and in a plane perpendicular to the wires. The magnetic field is in the counter clockwise direction as viewed from above. Figure b shows a view from above and shows the current-carrying wires as two dots. Around wire one is a circle that represents a magnetic field line due to that wire. The magnetic field passes directly through wire two. The magnetic field is in the counter clockwise direction. The force on wire two is to the left, toward wire one.">
+    <image mime-type="image/jpg" src="../../media/Figure_23_10_01a.jpg"/></media>
+    
+    <caption>(a) The magnetic field produced by a long straight conductor is perpendicular to a parallel conductor, as indicated by RHR-2. (b) A view from above of the two wires shown in (a), with one magnetic field line shown for each wire. RHR-1 shows that the force between the parallel conductors is attractive when the currents are in the same direction. A similar analysis shows that the force is repulsive between currents in opposite directions.</caption></figure><para id="import-auto-id1524675">This field is uniform along wire 2 and perpendicular to it, and so the force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> it exerts on wire 2 is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IlB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "IlB""sin"θ} {}</m:annotation></m:semantics></m:math> with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"θ=1} {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-325"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">lB</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{2} } =I rSub { size 8{2} }  ital "lB" rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id939121">By Newton’s third law, the forces on the wires are equal in magnitude, and so we just write <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> for the magnitude of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. (Note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{1} } = - F rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.) Since the wires are very long, it is convenient to think in terms of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F/l} {}</m:annotation></m:semantics></m:math>, the force per unit length. Substituting the expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> into the last equation and rearranging terms gives</para><equation id="eip-968"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>F</m:mi>
+                    <m:mi>l</m:mi>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>μ</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow><m:mrow>
+                    <m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {F}  over  {l} } = {  {μ rSub { size 8{0} } I rSub { size 8{1} } I rSub { size 8{2} } }  over  {2πr} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2594340"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F/l} {}</m:annotation></m:semantics></m:math> is the force per unit length between two parallel currents <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> separated by a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>. The force is attractive if the currents are in the same direction and repulsive if they are in opposite directions.</para>
+
+<note id="fs-id2278065"><title>Making Connections: Field Canceling</title><para id="fs-id1458240">For two parallel wires, the fields will tend to cancel out in the area between the wires.</para>
+
+<figure id="fs-id2192477"><media id="fs-id1539324" alt="There are two small circles with dots in the center representing wires going in the same direction. Each circle has three progressively larger circles with arrows pointing in counter-clockwise positions representing the magnetic fields going in the same direction. The center circles are close enough that the first outer circle is between the two circles and the second outer circle bisects the other’s center circle.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M10_wiresA.jpg"/>
+</media>
+
+<caption>Two parallel wires have currents pointing in the same direction, out of the page. The direction of the magnetic fields induced by each wire is shown.</caption></figure><para id="fs-id3242461">Note that the magnetic influence of the wire on the left-hand side extends beyond the wire on the right-hand side. To the right of both wires, the total magnetic field is directed toward the top of the page and is the result of the sum of the fields of both wires. Obviously, the closer wire has a greater effect on the overall magnetic field, but the more distant wire also contributes. One wire cannot block the magnetic field of another wire any more than a massive stone floor beneath you can block the gravitational field of the Earth.</para>
+<para id="fs-id1291522">Parallel wires with currents in the same direction attract, as you can see if we isolate the magnetic field lines of wire 2 influencing the current in wire 1. Right-hand rule 1 tells us the direction of the resulting magnetic force.</para><figure id="fs-id2213483">
+<media id="fs-id2716115" alt="The two small circles with dots representing wires are shown again in this diagram without the circles representing the magnetic fields. A blue arrow pointing down going through wire 1 is labeled Magnetic field due to wire 2. A red line from the center of wire 1 pointing to the right toward Wire 2 is labeled Magnetic force on wire 1 due to magnetic field of wire 2.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M10_wiresB.jpg"/>
+</media>
+<caption>The same two wires are shown, but now only a part of the magnetic field due to wire 2 is shown in order to demonstrate how the magnetic force from wire 2 affects wire 1.</caption>
+</figure>
+
+<para id="fs-id2759192">When the currents point in opposite directions as shown, the magnetic field in between the two wires is augmented. In the region outside of the two wires, along the horizontal line connecting the wires, the magnetic fields partially cancel.</para>
+
+<figure id="fs-id1998476">
+<media id="fs-id3541591" alt="There are two small circles with the one on the left having an X and the one on the right having a dot (representing opposite directions). Each circle has three progressively larger circles with the arrows on the left pointing clockwise and the arrows on the right pointing counter-clockwise. The center circles are close enough that the first outer circle is between the two circles and the second outer circle bisects the other’s center circle.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M10_wiresC.jpg"/>
+</media>
+<caption>Two wires with parallel currents pointing in opposite directions are shown. The direction of the magnetic field due to each wire is indicated.</caption>
+</figure>
+
+<para id="fs-id1887267">Parallel wires with currents in opposite directions repel, as you can see if we isolate the magnetic field lines of wire 2 influencing the current in wire 1. Right-hand rule 1 tells us the direction of the resulting magnetic force.</para><figure id="fs-id2516096">
+<media id="fs-id2059573" alt="The two small circles with an x on the left and dot on the right representing wires with opposite currents are shown in this diagram. A blue arrow pointing down going through wire 1 is labeled Magnetic field due to wire 2. A red line from the center of wire 1 pointing to the left away from wire Wire 2 is labeled Magnetic force on wire 1 due to magnetic field of wire 2.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M10_wiresD.jpg"/>
+</media>
+<caption>The same two wires with opposite currents are shown, but now only a part of the magnetic field due to wire 2 is shown in order to demonstrate how the magnetic force from wire 2 affects wire 1.</caption>
+</figure>
+</note><para id="import-auto-id1368891">This force is responsible for the <emphasis effect="italics">pinch effect</emphasis> in electric arcs and plasmas. The force exists whether the currents are in wires or not. In an electric arc, where currents are moving parallel to one another, there is an attraction that squeezes currents into a smaller tube. In large circuit breakers, like those used in neighborhood power distribution systems, the pinch effect can concentrate an arc between plates of a switch trying to break a large current, burn holes, and even ignite the equipment. Another example of the pinch effect is found in the solar plasma, where jets of ionized material, such as solar flares, are shaped by magnetic forces.</para><para id="import-auto-id1893405">The <emphasis effect="italics">operational definition of the ampere</emphasis> is based on the force between current-carrying wires. Note that for parallel wires separated by 1 meter with each carrying 1 ampere, the force per meter is</para>
+    <equation id="eip-769"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>F</m:mi>
+                      <m:mi>l</m:mi>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>4π</m:mn>
+                              <m:mo stretchy="false">×</m:mo>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>7</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                           <m:mspace width="0.25em"/>
+                            <m:mrow>
+                              <m:mn>T</m:mn>
+                              <m:mo stretchy="false">⋅</m:mo>
+                              <m:mtext>m/A</m:mtext>
+                            </m:mrow>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:msup>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>1 A</m:mn>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mfenced open="(" close=")">
+                     <m:mrow><m:mn>2</m:mn><m:mi>π</m:mi>   </m:mrow>
+                        </m:mfenced>
+                        <m:mfenced open="(" close=")">
+
+                            <m:mn>1 m</m:mn>
+                       
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>7</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext> N/m.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {F}  over  {l} } = {  { left (4π times "10" rSup { size 8{ - 7} } `T cdot "m/A" right ) left (1`A right ) rSup { size 8{2} } }  over  { left (2π right ) left (1" m" right )} } =2 times "10" rSup { size 8{ - 7} } " N/m" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1126435">Since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is exactly <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>4π</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> by definition, and because 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>1 T</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>1 N/</m:mtext></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>A</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>m</m:mn></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1" T"=" 1N/" left (A cdot m right )} {}</m:annotation></m:semantics></m:math>, the force per meter is exactly <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 times "10" rSup { size 8{ - 7} } `"N/m"} {}</m:annotation></m:semantics></m:math>. This is the basis of the operational definition of the ampere.</para><note id="fs-id2292438"><label/>
+    <title>The Ampere</title>
+    <para id="import-auto-id1484016">The official definition of the ampere is:</para>
+    <para id="import-auto-id1744601">One ampere of current through each of two parallel conductors of infinite length, separated by one meter in empty space free of other magnetic fields, causes a force of exactly <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 times "10" rSup { size 8{ - 7} } " N/m"} {}</m:annotation></m:semantics></m:math> on each conductor.</para></note>
+    <para id="import-auto-id2021393">Infinite-length straight wires are impractical and so, in practice, a current balance is constructed with coils of wire separated by a few centimeters. Force is measured to determine current. This also provides us with a method for measuring the coulomb. We measure the charge that flows for a current of one ampere in one second. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1 C</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1 A</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`C=1`A cdot s} {}</m:annotation></m:semantics></m:math>. For both the ampere and the coulomb, the method of measuring force between conductors is the most accurate in practice.</para>
+
+<section id="fs-id2377008" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+<exercise id="fs-id1555084" type="ap-test-prep">
+<problem id="fs-id2008807">
+<para id="fs-id2432274">Two parallel wires carry equal currents in the same direction and are separated by a small distance. What is the direction of the magnetic force exerted by the two wires on each other?</para>
+<list id="fs-id2762912" list-type="enumerated" number-style="lower-alpha">
+<item>No force since the wires are parallel.</item>
+<item>No force since the currents are in the same direction.</item>
+<item>The force is attractive.</item>
+<item>The force is repulsive.</item>
+</list>
+</problem>
+<solution id="fs-id3976635">
+<para id="fs-id2203249">(c)</para></solution>
+</exercise>
+
+<exercise id="fs-id3298204" type="ap-test-prep"><problem id="fs-id3332339">
+<para id="fs-id3156668">A wire along the <emphasis effect="italics">y</emphasis>-axis carries current in the +<emphasis effect="italics">y</emphasis>-direction. An experimenter would like to arrange a second wire parallel to the first wire and crossing the <emphasis effect="italics">x</emphasis>-axis at the coordinate
+
+<m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>2.0 </m:mn><m:mtext> m</m:mtext>
+ </m:mrow>
+</m:math>
+
+ so that the total magnetic field at the coordinate
+
+<m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1.0</m:mn><m:mtext> m</m:mtext>
+ </m:mrow>
+</m:math>
+
+
+ is zero. In what direction must the current flow in the second wire, assuming it is equal in magnitude to the current in the first wire? Explain.</para></problem>
+<!--<solution id="fs-id1928512">
+<para id="fs-id2623450">The second wire must carry a current in the same direction as the first wire. The magnetic field at
+
+<m:math>
+ <m:mrow>
+  <m:mi>x</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>1.0</m:mn><m:mtext>m</m:mtext>
+ </m:mrow>
+</m:math>
+
+ due to the first wire points into the page. In order to have a net magnetic field of zero, the magnetic field of the second wire to the left of the second wire must point out of the page, which implies a current flowing in the +<emphasis effect="italics">y</emphasis>-direction.</para>
+</solution>-->
+</exercise></section>
+
+<section id="fs-id2265366" class="section-summary"><title>Section Summary</title><list id="eip-92"><item>The force between two parallel currents <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, separated by a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, has a magnitude per unit length given by
+
+<equation id="eip-id1168951408757"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>l</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {F}  over  {l} } = {  {μ rSub { size 8{0} } I rSub { size 8{1} } I rSub { size 8{2} } }  over  {2πr} } } {}</m:annotation></m:semantics></m:math></equation></item>
+<item>The force is attractive if the currents are in the same direction, repulsive if they are in opposite directions.</item>
+</list></section><section id="fs-id1067367" type="conceptual-questions" class="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id2228629" type="conceptual-questions"><problem id="fs-id1066460">
+<para id="import-auto-id1993013">Is the force attractive or repulsive between the hot and neutral lines hung from power poles? Why? </para>
+</problem></exercise>
+    <exercise id="fs-id2334083" type="conceptual-questions"><problem id="fs-id2012407">
+<para id="import-auto-id1474106">If you have three parallel wires in the same plane, as in <link target-id="import-auto-id2395111"/>, with currents in the outer two running in opposite directions, is it possible for the middle wire to be repelled by both? Attracted by both? Explain.</para><figure id="import-auto-id2395111"><media id="import-auto-id2135717" alt="Diagram showing three wires parallel to each other and in the same plane. The currents in wire 1 on the left side of the diagram and wire 3 on the right side of the diagram run opposite each other: I 1 runs form the top right to the lower left; I 3 runs from the lower left to the top right. Wire 2 is between the two, slightly closer to wire 3 than to wire 1.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_99_03a.jpg"/>
+      </media>
+    <caption>Three parallel coplanar wires with currents in the outer two in opposite directions.</caption></figure></problem></exercise>
+    <exercise id="fs-id2521716" type="conceptual-questions"><problem id="fs-id1847616">
+<para id="import-auto-id1621552">Suppose two long straight wires run perpendicular to one another without touching. Does one exert a net force on the other? If so, what is its direction? Does one exert a net torque on the other? If so, what is its direction? Justify your responses by using the right hand rules. </para>
+</problem></exercise>
+    <exercise id="fs-id1893895" type="conceptual-questions"><problem id="fs-id2026593">
+<para id="import-auto-id1704469">Use the right hand rules to show that the force between the two loops in <link target-id="import-auto-id1455228"/> is attractive if the currents are in the same direction and repulsive if they are in opposite directions. Is this consistent with like poles of the loops repelling and unlike poles of the loops attracting? Draw sketches to justify your answers. </para><figure id="import-auto-id1455228"><media id="import-auto-id2487029" alt="Diagram showing two current-carrying loops. The planes of the loops are parallel and horizontal, one above the other. In both loops, the current runs counterclockwise.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_99_04a.jpg"/>
+      </media>
+    <caption>Two loops of wire carrying currents can exert forces and torques on one another.</caption></figure></problem></exercise>
+    <exercise id="fs-id1555849" type="conceptual-questions"><problem id="fs-id2345081">
+<para id="import-auto-id2008704">If one of the loops in <link target-id="import-auto-id1455228"/> is tilted slightly relative to the other and their currents are in the same direction, what are the directions of the torques they exert on each other? Does this imply that the poles of the bar magnet-like fields they create will line up with each other if the loops are allowed to rotate? </para></problem></exercise>
+    <exercise id="fs-id1798773" type="conceptual-questions"><problem id="fs-id1911727">
+<para id="import-auto-id2019579">Electric field lines can be shielded by the Faraday cage effect.  Can we have magnetic shielding? Can we have gravitational shielding?  </para>
+</problem></exercise>
+</section>
+    <section id="fs-id2241645" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1745122" type="problems-exercises"><problem id="fs-id2810576"><para id="import-auto-id2750203">(a) The hot and neutral wires supplying DC power to a light-rail commuter train carry 800 A and are separated by 75.0 cm. What is the magnitude and direction of the force between 50.0 m of these wires? (b) Discuss the practical consequences of this force, if any.</para>
+    </problem>
+<solution id="fs-id1976598">
+ <para id="eip-id1168951520496"> (a) 8.53 N, repulsive</para>
+<para id="eip-id1168951520499">(b) This
+force
+is
+repulsive
+and
+therefore
+there
+is
+never
+a
+risk
+that
+the
+two
+wires
+will
+touch
+and
+short
+circuit.</para></solution>
+    </exercise><exercise id="fs-id2114109" type="problems-exercises"><problem id="fs-id2866997"><para id="import-auto-id2730936">The force per meter between the two wires of a jumper cable being used to start a stalled car is 0.225 N/m. (a) What is the current in the wires, given they are separated by 2.00 cm? (b) Is the force attractive or repulsive?</para>
+    </problem></exercise>
+    <exercise id="fs-id2007732" type="problems-exercises"><problem id="fs-id1793709"><para id="import-auto-id1508643">A 2.50-m segment of wire supplying current to the motor of a submerged submarine carries 1000 A and feels a 4.00-N repulsive force from a parallel wire 5.00 cm away. What is the direction and magnitude of the current in the other wire?</para>
+    </problem>
+<solution id="fs-id1789111">
+    <para id="import-auto-id1833386">400 A in the opposite direction</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1583081" type="problems-exercises"><problem id="fs-id2018444"><para id="import-auto-id2492847">The wire carrying 400 A to the motor of a commuter train feels an attractive force of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "00" times "10" rSup { size 8{ - 3} } `"N/m"} {}</m:annotation></m:semantics></m:math> due to a parallel wire carrying 5.00 A to a headlight. (a) How far apart are the wires? (b) Are the currents in the same direction?</para></problem></exercise>
+    <exercise id="fs-id2099909" type="problems-exercises"><problem id="fs-id1726851"><para id="import-auto-id2521751">An AC appliance cord has its hot and neutral wires separated by 3.00 mm and carries a 5.00-A current. (a) What is the average force per meter between the wires in the cord? (b) What is the maximum force per meter between the wires? (c) Are the forces attractive or repulsive? (d) Do appliance cords need any special design features to compensate for these forces?</para>
+    </problem>
+<solution id="fs-id1005394">
+    
+    <para id="import-auto-id2413207">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>67</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "67" times "10" rSup { size 8{ - 3} } `"N/m"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1993134">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>33</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "33" times "10" rSup { size 8{ - 3} } " N/m"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1536971">(c) Repulsive</para>
+<para id="eip-id1216161">(d) No, these are very small forces</para>
+    </solution>
+    </exercise><exercise id="fs-id1646035" type="problems-exercises"><problem id="fs-id2099955"><para id="import-auto-id2044076"><link target-id="import-auto-id1906678"/> shows a long straight wire near a rectangular current loop. What is the direction and magnitude of the total force on the loop?</para><figure id="import-auto-id1906678"><media id="import-auto-id2609317" alt="Diagram showing two current-carrying wires. Wire 1 is at the top and runs left to right with the current I 1 of fifteen amps also running left to right. Wire 2 makes a square circuit ten point zero centimeters in the vertical dimension and thirty point zero centimeters in the horizontal dimension. The top side of Wire 2 is seven point five zero centimeters below wire 1. The current in wire 2 is thirty point zero amps and runs counterclockwise: left to right along the bottom, up the right side, right to left along the top, and down the left side.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_10_03a-e5de.jpg"/>
+      </media>
+    </figure></problem></exercise>
+    <exercise id="fs-id2009199" type="problems-exercises"><problem id="fs-id1544653"><para id="import-auto-id1451404">Find the direction and magnitude of the force that each wire experiences in <link target-id="import-auto-id2069440"/>(a) by, using vector addition.</para><figure id="import-auto-id2069440"><media id="import-auto-id1522646" alt="Figure a shows the cross sections of three wires that are parallel to each other and arranged in an equilateral triangle. The bottom left wire has current of ten point zero amps into the page. The bottom right wire has a current of twenty point zero amps also into the page. The wire at the top of the triangle has current five point zero amps out of the page. The triangle that the wires make with each other is ten point zero centimeters on each side. Figure b shows four parallel wires arranged in a square that is twenty point zero centimeters on a side. The top two wires have current of ten point zero amps out of the page. The bottom two wires have current of five point zero amps into the page.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_11_10a-a431.jpg"/>
+      </media>
+</figure></problem>
+<solution id="fs-id1655300">
+    <para id="import-auto-id1467260">(a) Top wire: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>65</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> s, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>9º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 9°} {}</m:annotation></m:semantics></m:math> to left of up</para><para id="import-auto-id1946034">(b) Lower left wire: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>61</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "61" times "10" rSup { size 8{ - 4} } `"N/m"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>13</m:mtext><m:mtext>.</m:mtext><m:mn>9º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"13" "." 9°} {}</m:annotation></m:semantics></m:math> down from right</para><para id="import-auto-id1697906">(c) Lower right wire: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>46</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "46" times "10" rSup { size 8{ - 4} } `"N/m"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30" "." 0°} {}</m:annotation></m:semantics></m:math> down from left</para></solution>
+    </exercise>
+    <exercise id="fs-id1700044" type="problems-exercises"><problem id="fs-id1547266"><para id="import-auto-id1917162">Find the direction and magnitude of the force that each wire experiences in <link target-id="import-auto-id2069440"/>(b), using vector addition.</para>
+    </problem></exercise>
+    </section>
+   </content>
+</document>

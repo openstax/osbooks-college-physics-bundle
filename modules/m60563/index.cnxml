@@ -1,0 +1,2018 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Motion Equations for Constant Acceleration in One Dimension</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60563</md:content-id>
+  <md:title>Motion Equations for Constant Acceleration in One Dimension</md:title>
+  <md:abstract><list>
+<item>Calculate displacement of an object that is not accelerating, given initial position and velocity.</item>
+<item>Calculate final velocity of an accelerating object, given initial velocity, acceleration, and time.</item>
+<item>Calculate displacement and final position of an accelerating object, given initial position, initial velocity, time, and acceleration.</item>
+</list></md:abstract>
+  <md:uuid>f7beeb18-e02d-47d0-ab7a-faa79b7f315c</md:uuid>
+</metadata>
+
+<content>
+    <figure id="import-auto-id1489960"><media id="import-auto-id4027289" alt="Four men racing up a river in their kayaks.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_05_00.jpg" width="300"/>
+      </media>
+
+    <caption>Kinematic equations can help us describe and predict the motion of moving objects such as these kayaks racing in Newbury, England. (credit: Barry Skeates, Flickr)</caption></figure><para id="import-auto-id1418893">We might know that the greater the acceleration of, say, a car moving away from a stop sign, the greater the displacement in a given time. But we have not developed a specific equation that relates acceleration and displacement. In this section, we develop some convenient equations for kinematic relationships, starting from the definitions of displacement, velocity, and acceleration already covered.</para>
+   <section id="fs-id1164906436587">
+<title>Notation: <emphasis effect="italics">t</emphasis>, <emphasis effect="italics">x</emphasis>, <emphasis effect="italics">v</emphasis>, <emphasis effect="italics">a</emphasis></title>
+
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1389449">First, let us make some simplifications in notation. Taking the initial time to be zero, as if time is measured with a stopwatch, is a great simplification. Since elapsed time is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, taking <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> means that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, the final time on the stopwatch. When initial time is taken to be zero, we use the subscript 0 to denote initial values of position and velocity. That is, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> <emphasis effect="italics">is the initial position</emphasis>  and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> <emphasis effect="italics">is the initial velocity</emphasis>. We put no subscripts on the final values. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:semantics></m:math> <emphasis effect="italics"> is the final time</emphasis>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> <emphasis effect="italics"> is the final position</emphasis>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:semantics></m:math> <emphasis effect="italics">is the final velocity</emphasis>. This gives a simpler expression for elapsed time—now, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. It also simplifies the expression for displacement, which is now <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. Also, it simplifies the expression for change in velocity, which is now <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. To summarize, using the simplified notation, with the initial time taken to be zero,</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2563693"><m:math>
+        <m:semantics><m:mrow><m:mfenced open="" close="}">
+          <m:mtable columnalign="left">
+            <m:mtr><m:mtd><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mtd>
+<m:mtd>                  <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mrow></m:mtd>
+            </m:mtr>
+            <m:mtr><m:mtd> <m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mtd>
+<m:mtd> <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                        <m:mn>0</m:mn>
+                    </m:msub>
+              </m:mrow></m:mtd>
+            </m:mtr>
+            <m:mtr><m:mtd> <m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+              <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                        <m:mn>0</m:mn>
+                    </m:msub>
+              </m:mrow></m:mtd>
+            </m:mtr>
+          </m:mtable>
+</m:mfenced>
+</m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2011798">where <emphasis effect="italics">the subscript 0 denotes an initial value and the absence of a subscript denotes a final value</emphasis> in whatever motion is under consideration.</para>
+    <para id="import-auto-id2016762">We now make the important assumption that <emphasis effect="italics">acceleration is constant</emphasis>. This assumption allows us to avoid using calculus to find instantaneous acceleration. Since acceleration is constant, the average and instantaneous accelerations are equal. That is,</para>
+    <equation id="import-auto-id1819116"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>constant</m:mtext></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {a}}=a="constant"} {}</m:annotation></m:semantics></m:math> </equation>
+    <para id="import-auto-id1548325">so we use the symbol <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> for acceleration at all times. Assuming acceleration to be constant does not seriously limit the situations we can study nor degrade the accuracy of our treatment. For one thing, acceleration <emphasis effect="italics">is</emphasis> constant in a great number of situations. Furthermore, in many other situations we can accurately describe motion by assuming a constant acceleration equal to the average acceleration for that motion. Finally, in motions where acceleration changes drastically, such as a car accelerating to top speed and then braking to a stop, the motion can be considered in separate parts, each of which has its own constant acceleration.</para>
+    <note xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906424651"><label/><title>Solving for Displacement (<m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow></m:mrow></m:semantics></m:math>) and Final Position (<m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>) from Average Velocity when Acceleration (<m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>) is Constant</title>
+
+    <para id="import-auto-id951702">To get our first two new equations, we start with the definition of average velocity:</para>
+    <equation id="import-auto-id1782525"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mover accent="true">
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="true">-</m:mo>
+                  </m:mover>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                   <m:mrow> <m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow>
+                   <m:mrow> <m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {Δt} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2169768">Substituting the simplified notation for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:semantics></m:math> yields</para><equation id="import-auto-id4145482">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mover accent="true">
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="true">-</m:mo>
+                  </m:mover>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>x</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>x</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>t</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {x - x rSub { size 8{0} } }  over  {t} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2169154">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> yields</para>
+    <equation id="import-auto-id2297251"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="true">-</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mrow>
+                <m:mi>t</m:mi>
+                <m:mtext>,</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t"  " \( "constant a" \) ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1339980">where the average velocity is</para>
+    <equation id="import-auto-id2086556"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mover accent="true">
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="true">-</m:mo>
+                  </m:mover>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>v</m:mi>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+               <m:mspace width="0.25em"/>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mtext>constant </m:mtext><m:mspace width="0.25em"/>
+                <m:mi>a</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {v rSub { size 8{0} } +v}  over  {2} } "  " \( "constant "a \)  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></note><para id="import-auto-id4111588">The equation <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mi>v</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {v rSub { size 8{0} } +v}  over  {2} } } {}</m:annotation></m:semantics></m:math> reflects the fact that, when acceleration is constant, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is just the simple average of the initial and final velocities. For example, if you steadily increase your velocity (that is, with constant acceleration) from 30 to 60 km/h, then your average velocity during this steady increase is 45 km/h. Using the equation <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mi>v</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {v rSub { size 8{0} } +v}  over  {2} } } {}</m:annotation></m:semantics></m:math> to check this, we see that</para>
+    <equation id="import-auto-id4152098">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mover accent="true">
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="true">-</m:mo>
+                    </m:mover>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>v</m:mi>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mi>v</m:mi>
+                      </m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mtext>30 km/h</m:mtext>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mtext>60 km/h</m:mtext>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mtext>45 km/h,</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {v rSub { size 8{0} } +v}  over  {2} } = {  {"30 km/h"+"60 km/h"}  over  {2} } ="45 km/h,"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2297106">which seems logical.</para>
+    <example id="fs-id1164906442368">
+    <title>Calculating Displacement: How Far does the Jogger Run?</title>
+    <para id="import-auto-id2173108">A jogger runs down a straight stretch of road with an average velocity of 4.00 m/s for 2.00 min. What is his final position, taking his initial position to be zero?</para>
+    <para id="import-auto-id2296944">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2326067">Draw a sketch.</para>
+    <figure id="import-auto-id2297327"><media id="import-auto-id4166596" alt="Velocity vector arrow labeled v equals 4 point zero zero meters per second over an x axis displaying initial and final positions. Final position is labeled x equals question mark.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_05_00a.jpg" width="400"/>
+      </media>
+    </figure><para id="import-auto-id2300390">The final position <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is given by the equation</para>
+    <equation id="import-auto-id2168543"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mi>t</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id2365230">To find <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, we identify the values of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, <emphasis effect="italics"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math></emphasis>, and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> from the statement of the problem and substitute them into the equation.</para>
+    <para id="import-auto-id1962069">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2169540">1. Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 min</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=2 "." "00 min"} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } ="0 m"} {}</m:annotation></m:semantics></m:math>.<emphasis effect="italics"/></para><para id="import-auto-id2300750">2. Enter the known values into the equation.</para>
+    <equation id="import-auto-id2300752">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="true">-</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>00 m/s</m:mtext>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mtext>120 s</m:mtext>
+                  </m:mfenced>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>480 m</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t=0+ left (4 "." "00 m/s" right ) left ("120 s" right )="480 m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id1961990">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2366848">Velocity and final displacement are both positive, which means they are in the same direction.</para>
+    </example>
+
+<note id="ave_vel_2_5" class="interactive"><label/><title>PhET Explorations: Displacement</title>
+
+<figure id="fs-id1164076295954">
+<media id="fs-id1164070933130" alt="This simulation allows you to manipulate the displacement of a moving man.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02moving_man"/>
+</media>
+</figure>
+</note><para id="import-auto-id2365282">The equation <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t} {}</m:annotation></m:semantics></m:math> gives insight into the relationship between displacement, average velocity, and time. It shows, for example, that displacement is a linear function of average velocity. (By linear function, we mean that displacement depends on <emphasis effect="italics"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math></emphasis> rather than on <emphasis effect="italics"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math></emphasis> raised to some other power, such as <emphasis effect="italics"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}} rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></emphasis>. When graphed, linear functions look like straight lines with a constant slope.) On a car trip, for example, we will get twice as far in a given time if we average 90 km/h than if we average 45 km/h.</para>
+ <figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1962019"><media id="import-auto-id1962020" alt="Line graph showing displacement in meters versus average velocity in meters per second. The line is straight with a positive slope. Displacement x increases linearly with increase in average velocity v.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_05_00b-112a.jpg" width="300"/>
+      </media>
+
+    <caption>There is a linear relationship between displacement and average velocity. For a given time <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>, an object moving twice as fast as another object will move twice as far as the other object.
+      </caption></figure><note id="fs-id1164906431223">
+<label/>
+    <title>Solving for Final Velocity</title>
+    <para id="import-auto-id2366009">We can derive another useful equation by manipulating the definition of acceleration.</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2366011"><m:math>
+        <m:semantics>
+          <m:mrow>
+                <m:mi>a</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mrow>
+                  <m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi> </m:mrow>
+                </m:mfrac>
+          </m:mrow></m:semantics>
+      </m:math>
+    </equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2326019">Substituting the simplified notation for <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:semantics></m:math> gives us</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1962571"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>t</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext/><m:mspace width="0.25em"/>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mtext>constant</m:mtext>
+<m:mspace width="0.25em"/>
+                <m:mi>a</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a= {  {v - v rSub { size 8{0} } }  over  {t} } "  " \( "constant "a \)  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2365496">Solving for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> yields</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2168495"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>at</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                </m:mrow>
+                <m:mtext/><m:mspace width="0.25em"/>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mtext>constant</m:mtext>
+<m:mspace width="0.25em"/>
+                <m:mi>a</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at""  " \( "constant "a \)  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></note>
+    <example id="fs-id1164906431414">
+    <title>Calculating Final Velocity: An Airplane Slowing Down after Landing</title>
+    <para id="import-auto-id2366638">An airplane lands with an initial velocity of 70.0 m/s and then decelerates at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>50 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "50 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for 40.0 s. What is its final velocity? </para>
+    <para id="import-auto-id2293451">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2293355">Draw a sketch. We draw the acceleration vector in the direction opposite the velocity vector because the plane is decelerating. </para>
+    <figure id="import-auto-id2300963"><media id="import-auto-id2169377" alt="Velocity vector arrow pointing toward the right in the positive x direction. Initial velocity equals seventy meters per second. Final velocity equals question mark. An acceleration vector arrow pointing toward the left labeled a equals negative 1 point 50 meters per second squared.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_05_00c.jpg" width="350"/>
+      </media>
+    </figure><para id="import-auto-id2300994">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2300998">1. Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow>
+<m:msub>
+<m:mi fontstyle="italic">v</m:mi>
+<m:mrow>
+<m:mn>0</m:mn>
+</m:mrow>
+</m:msub>
+<m:mo stretchy="false">=</m:mo><m:mtext>70</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δv="70" "." "0 m/s"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>50 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= - 1 "." "50 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>40</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1680359">2. Identify the unknown. In this case, it is final velocity, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math><sub>.</sub></para><para id="import-auto-id2177846">3. Determine which equation to use. We can calculate the final velocity using the equation <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id2175011">4. Plug in the known values and solve. </para>
+    <equation id="import-auto-id2177855">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>at</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>70</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>0 m/s</m:mtext>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                      <m:mtext>.</m:mtext>
+                      <m:msup>
+                        <m:mtext>50 m/s</m:mtext>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mtext>40</m:mtext>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>0 s</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>10</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>0 m/s</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"="70" "." "0 m/s"+ left ( - 1 "." "50 m/s" rSup { size 8{2} }  right ) left ("40" "." "0 s" right )="10" "." "0 m/s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2171815">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2177766">The final velocity is much less than the initial velocity, as desired when slowing down, but still positive. With jet engines, reverse thrust could be maintained long enough to stop the plane and start moving it backward. That would be indicated by a negative final velocity, which is not the case here.</para>
+    <figure id="import-auto-id2173965"><media id="import-auto-id2175003" alt="An airplane moving toward the right at two points in time. At time equals 0 the velocity vector arrow points toward the right and is labeled seventy meters per second. The acceleration vector arrow points toward the left and is labeled negative 1 point 5 meters per second squared. At time equals forty seconds, the velocity arrow is shorter, points toward the right, and is labeled ten meters per second. The acceleration vector arrow is still pointing toward the left and is labeled a equals negative 1 point 5 meters per second squared.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_01.jpg" width="600"/>
+      </media>
+
+    <caption>The airplane lands with an initial velocity of 70.0 m/s and slows to a final velocity of 10.0 m/s before heading for the terminal. Note that the acceleration is negative because its direction is opposite to its velocity, which is positive.</caption></figure></example>
+    <para id="import-auto-id2301109">In addition to being useful in problem solving, the equation <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"} {}</m:annotation></m:semantics></m:math> gives us insight into the relationships among velocity, acceleration, and time. From it we can see, for example, that </para>
+    <list id="fs-id1164906429447">
+    <item id="import-auto-id2180047">final velocity depends on how large the acceleration is and how long it lasts</item>
+    <item id="import-auto-id2180050">if the acceleration is zero, then the final velocity equals the initial velocity <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( v=v rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math>, as expected (i.e., velocity is constant)</item>
+    <item id="import-auto-id2175665">if <emphasis effect="italics"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math></emphasis> is negative, then the final velocity is less than the initial velocity</item>
+    </list>
+    <para id="import-auto-id2171739">(All of these observations fit our intuition, and it is always useful to examine basic equations in light of our intuition and experiences to check that they do indeed describe nature accurately.)</para>
+    <note id="fs-id1164906437247"><label/><title>Making Connections: Real-World Connection</title>
+    <newline/>
+    <figure id="import-auto-id2180893"><media id="import-auto-id2180894" alt="Space shuttle blasting off at night.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_01a.jpg" width="300"/>
+      </media>
+
+    <caption>The Space Shuttle <emphasis effect="italics">Endeavor</emphasis> blasts off from the Kennedy Space Center in February 2010. (credit: Matthew Simantov, Flickr)</caption></figure><para id="import-auto-id2180915">An intercontinental ballistic missile (ICBM) has a larger average acceleration than the Space Shuttle and achieves a greater velocity in the first minute or two of flight (actual ICBM burn times are classified—short-burn-time missiles are more difficult for an enemy to destroy). But the Space Shuttle obtains a greater final velocity, so that it can orbit the earth rather than come directly back down as an ICBM does. The Space Shuttle does this by accelerating for a longer time.</para>
+    </note>
+
+<example xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1169083501829" class="example-video">
+<title>Finding Time and Velocity Using Equations for Constant Acceleration</title>
+<para id="fs-id1169084815212">The fastest class of drag racing cars are called Top Fuel. They start from rest and have an average acceleration <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mn>39</m:mn><m:mspace width="0.2em"/><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:math> over the course of completing a lap around a <emphasis effect="bold">305 m</emphasis> track.</para>
+<para id="fs-id1169081187165">(a) Determine the time it takes to complete one lap around the track.</para>
+<para id="fs-id1169084668201">(b) Find the final velocity of the car in <emphasis effect="bold">m/s</emphasis> and <emphasis effect="bold">mph</emphasis>.</para>
+<para id="fs-id1169084678809">Study the problem and its solution in this video: </para>
+<media id="fs-id1169084879736" alt="">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02constantaccel"/>
+</media>
+</example>
+
+<note xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906444525"><label/><title>Solving for Final Position When Velocity is Not Constant (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>)</title>
+
+    <para id="import-auto-id2166959">We can combine the equations above to find a third equation that allows us to calculate the final position of an object experiencing constant acceleration. We start with</para>
+    <equation id="import-auto-id2166975"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1689629">Adding <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> to each side of this equation and dividing by 2 gives</para>
+    <equation id="import-auto-id1689620">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:mi>v</m:mi>
+                    </m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mstyle fontstyle="italic">
+                  <m:mrow>
+                    <m:mtext>at</m:mtext>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {v rSub { size 8{0} } +v}  over  {2} } =v rSub { size 8{0} } + {  {1}  over  {2} }  ital "at" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2301368">Since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mi>v</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {v rSub { size 8{0} } +v}  over  {2} } = { bar  {v}}} {}</m:annotation></m:semantics></m:math> for constant acceleration, then</para>
+    <equation id="import-auto-id2301379">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mover accent="true">
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="true">-</m:mo>
+                  </m:mover>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mstyle fontstyle="italic">
+                  <m:mrow>
+                    <m:mtext>at</m:mtext>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}=v rSub { size 8{0} } + {  {1}  over  {2} }  ital "at" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2171291">Now we substitute this expression for <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math> into the equation for displacement, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t} {}</m:annotation></m:semantics></m:math>, yielding</para>
+    <equation id="import-auto-id1807031"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">at</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mtext>constant </m:mtext><m:mspace width="0.25em"/>
+                <m:mi>a</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } "  " \( "constant "a \)  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></note><example id="fs-id1164906457202">
+    <title>Calculating Displacement of an Accelerating Object: Dragsters</title>
+    <para id="import-auto-id2356587">Dragsters can achieve average accelerations of  <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>26</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>0 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"26" "." "0 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Suppose such a dragster accelerates from rest at this rate for 5.56 s. How far does it travel in this time?</para>
+<figure id="import-auto-id2356722"><media id="import-auto-id2356723" alt="Dragster accelerating down a race track.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_02.jpg" width="250"/>
+      </media>
+
+    <caption>U.S. Army Top Fuel pilot Tony “The Sarge” Schumacher begins a race with a controlled burnout. (credit: Lt. Col. William Thurmond. Photo Courtesy of U.S. Army.)  </caption></figure><para id="import-auto-id2171693">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2168036">Draw a sketch. </para>
+    <figure id="import-auto-id2168040"><media id="import-auto-id2168041" alt="Acceleration vector arrow pointing toward the right in the positive x direction, labeled a equals twenty-six point 0 meters per second squared. x position graph with initial position at the left end of the graph. The right end of the graph is labeled x equals question mark.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_02a.jpg" width="350"/>
+      </media>
+    </figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2168059">We are asked to find displacement, which is <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:semantics></m:math> if we take <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> to be zero. (Think about it like the starting line of a race. It can be anywhere, but we call it 0 and measure all other positions relative to it.) We can use the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">at</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/>once we identify <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> from the statement of the problem. </para><para id="import-auto-id2168061">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1771802">1. Identify the knowns. <emphasis effect="bold"/>Starting from rest means that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>, <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> is given as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>26</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"26" "." 0`"m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> is given as 5.56 s.</para><para id="import-auto-id2169726">2. Plug the known values into the equation to solve for the unknown <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>:</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2171407"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mstyle>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">at</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2171413">Since the initial position and velocity are both zero, this simplifies to</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2171445"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mstyle>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">at</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= {  {1}  over  {2} }  ital "at" rSup { size 8{2} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2171210">Substituting the identified values of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> gives</para>
+    <equation id="import-auto-id2169820">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mtext>26</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>0 m/s</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfenced>
+                <m:msup>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mn>5</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>56 s</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>,</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x= {  {1}  over  {2} }  left ("26" "." "0 m/s" rSup { size 8{2} }  right ) left (5 "." "56 s" right ) rSup { size 8{2} } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2169829">yielding</para>
+    <equation id="import-auto-id2171362"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>402 m.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="402 m"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id2169842">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2180271">If we convert 402 m to miles, we find that the distance covered is very close to one quarter of a mile, the standard distance for drag racing. So the answer is reasonable. This is an impressive displacement in only 5.56 s, but top-notch dragsters can do a quarter mile in even less time than this.</para>
+    </example>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2180290">What else can we learn by examining the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">at</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mo>?</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> We see that:</para><list xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906435134"><item id="import-auto-id2166810">displacement depends on the square of the elapsed time when acceleration is not zero. In <link target-id="fs-id1164906457202"/>, the dragster covers only one fourth of the total distance in the first half of the elapsed time</item>
+    <item id="import-auto-id2167534">if acceleration is zero, then the initial velocity equals average velocity (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } = { bar  {v}}} {}</m:annotation></m:semantics></m:math>) and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">at</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> becomes <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t} {}</m:annotation></m:semantics></m:math></item>
+    </list><note xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906460433"><label/><title>Solving for Final Velocity when Velocity Is Not Constant  (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo>≠</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>)</title>
+
+    <para id="import-auto-id2293216">A fourth useful equation can be obtained from another algebraic manipulation of previous equations. </para>
+    <para id="import-auto-id2301249">If we solve <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"} {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>, we get </para>
+    <equation id="import-auto-id2365760">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                    <m:mi>a</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{t= {  {v - v rSub { size 8{0} } }  over  {a} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2169890">Substituting this and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mi>v</m:mi></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {v rSub { size 8{0} } +v}  over  {2} } } {}</m:annotation></m:semantics></m:math> into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t} {}</m:annotation></m:semantics></m:math>, we get</para>
+    <equation id="import-auto-id1659227"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msubsup>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msubsup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn><m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfenced>
+                <m:mtext/><m:mspace width="0.25em"/>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mtext>constant</m:mtext>
+<m:mspace width=".25 em"/>                <m:mi>a</m:mi>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =v rSub { size 8{0} }  rSup { size 8{2} } +2a left (x - x rSub { size 8{0} }  right )"  " \( "constant "a \)  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></note>
+<example id="fs-id1169084629709" class="example-video">
+<title>Finding Displacement and Velocity at Constant Acceleration</title>
+<para id="fs-id1169083892176">A construction worker accidentally drops his lunchbox from the top of the Hoover Dam. He estimates that it falls for about <emphasis effect="bold">6.5 seconds</emphasis>. Neglecting any effects due to air resistance, calculate the following:</para>
+<para id="fs-id1169084544469">(a) The height of the worker above the water.</para>
+<para id="fs-id1169083557419">(b) The velocity of the lunch box just before it hits.</para>
+<para id="fs-id1169084523100">Study the problem and its solution in this video:</para>
+<media id="fs-id1169084666582" alt="">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02displacvelo"/>
+</media>
+</example>
+
+<example id="fs-id1164906443776">
+    <title>Calculating Final Velocity: Dragsters</title>
+    <para id="import-auto-id2300243">Calculate the final velocity of the dragster in <link target-id="fs-id1164906457202"/> without using information about time.</para><para id="import-auto-id2300246">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id4179111">Draw a sketch.</para>
+    <figure id="import-auto-id4179116"><media id="import-auto-id4179117" alt="Acceleration vector arrow pointing toward the right, labeled twenty-six point zero meters per second squared. Initial velocity equals 0. Final velocity equals question mark.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_02b.jpg" width="350"/>
+      </media>
+    </figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2167525">The equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is ideally suited to this task because it relates velocities, acceleration, and displacement, and no time information is required. </para><para id="import-auto-id1658917">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4152018">1. Identify the known values. We know that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>, since the dragster starts from rest. Then we note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>402 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - x rSub { size 8{0} } ="402 m"} {}</m:annotation></m:semantics></m:math> (this was the answer in <link target-id="fs-id1164906457202"/>). Finally, the average acceleration was given to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>26</m:mtext></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>0 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a="26" "." "0 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4152013">2. Plug the knowns into the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:semantics></m:math> </para><equation id="import-auto-id1680164"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>26</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>0 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mtext>402 m</m:mtext></m:mfenced></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =0+2 left ("26" "." "0 m/s" rSup { size 8{2} }  right ) left ("402 m" right )} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id2167211">Thus</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2177794"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>09</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =2 "." "09" times "10" rSup { size 8{4} } `m rSup { size 8{2} } "/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1680130">To get <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, we take the square root:</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2177812"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>09</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>145 m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id4179173">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id4179167">145 m/s is about 522 km/h or about 324 mi/h, but even this breakneck speed is short of the record for the quarter mile. Also, note that a square root has two values; we took the positive value to indicate a velocity in the same direction as the acceleration.</para>
+    </example>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2300225">An examination of the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =v rSub { size 8{0} }  rSup { size 8{2} } +2a \( x - x rSub { size 8{0} }  \) } {}</m:annotation></m:semantics></m:math> can produce further insights into the general relationships among physical quantities:</para><list id="fs-id1164906429873">
+    <item id="import-auto-id1680053">The final velocity depends on how large the acceleration is and the distance over which it acts</item>
+    <item id="import-auto-id1680020">For a fixed deceleration, a car that is going twice as fast doesn’t simply stop in twice the distance—it takes much further to stop. (This is why we have reduced speed zones near schools.) </item>
+    </list>
+</section>
+<section id="fs-id1164906446591">
+<title>Putting Equations Together</title>
+
+    <para id="import-auto-id1680027">In the following examples, we further explore one-dimensional motion, but in situations requiring slightly more algebraic manipulation. The examples also give insight into problem-solving techniques. The box below provides easy reference to the equations needed. </para>
+    <note id="fs-id1164906460309"><label/>
+    <title>Summary of Kinematic Equations (constant <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>)</title>
+    <equation id="import-auto-id1771742">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi/>
+                </m:mrow>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:mi/>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mi/>
+                </m:mrow>
+                <m:mover accent="true">
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="true">-</m:mo>
+                </m:mover>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=`x rSub { size 8{0} } `+` { bar  {v}}t} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="import-auto-id4178996">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mover accent="true">
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="true">-</m:mo>
+                  </m:mover>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi/>
+                </m:mrow>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mi>v</m:mi>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}=` {  {v rSub { size 8{0} } +v}  over  {2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="import-auto-id1680040">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>at</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1680037"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mstyle>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">at</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mstyle>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2178979"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msubsup>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msubsup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn><m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfenced>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =v rSub { size 8{0} }  rSup { size 8{2} } +2a left (x - x rSub { size 8{0} }  right )} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></note>
+    <example id="fs-id1164906424692">
+    <title>Calculating Displacement: How Far Does a Car Go When Coming to a Halt?</title>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2366749">On dry concrete, a car can decelerate at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>00 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "00 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, whereas on wet concrete it can decelerate at only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>00 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Find the distances necessary to stop a car moving at 30.0 m/s<emphasis effect="italics"/> (about 110 km/h) (a) on dry concrete and (b) on wet concrete. (c) Repeat both calculations, finding the displacement from the point where the driver sees a traffic light turn red, taking into account his reaction time of 0.500 s to get his foot on the brake. </para><para id="import-auto-id2173990">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2174015">Draw a sketch.</para>
+    <figure id="import-auto-id2174020"><media id="import-auto-id2174021" alt="Initial velocity equals thirty meters per second. Final velocity equals 0. Acceleration dry equals negative 7 point zero zero meters per second squared. Acceleration wet equals negative 5 point zero zero meters per second squared.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_02c.jpg" width="350"/>
+      </media>
+    </figure><para id="import-auto-id2180620">In order to determine which equations are best to use, we need to list all of the known values and identify exactly what we need to solve for. We shall do this explicitly in the next several examples, using tables to set them off.</para>
+    <para id="import-auto-id2180624">
+      <emphasis>Solution for (a)</emphasis>
+    </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2180627">1. Identify the knowns and what we want to solve for. We know that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } ="30" "." "0 m/s"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>0 </m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v="0 "} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> (<m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mrow></m:semantics></m:math> is negative because it is in a direction opposite to velocity). We take <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to be 0. We are looking for displacement <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x - x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id2180630">2. Identify the equation that will help up solve the problem. The best equation to use is </para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2180580"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =v rSub { size 8{0} }  rSup { size 8{2} } +2a left (x - x rSub { size 8{0} }  right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2180570">This equation is best because it includes only one unknown, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. We know the values of all the other variables in this equation. (There are other equations that would allow us to solve for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, but they require us to know the stopping time, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>, which we do not know. We could use them but it would entail additional calculations.)</para>
+    <para id="import-auto-id4179275">3. Rearrange the equation to solve for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>. </para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4179294"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:msub><m:mi>x</m:mi>
+                      <m:mn>0</m:mn></m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msubsup>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msubsup>
+                    </m:mrow>
+                    <m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2293140">4. Enter known values.</para>
+    <equation id="import-auto-id2293184">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mn>0</m:mn>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mtext>30</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>0 m/s</m:mtext>
+                        </m:mrow>
+                      </m:mfenced>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>7</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:msup>
+                          <m:mtext>00 m/s</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x - 0= {  {0 rSup { size 8{2} }  -  left ("30" "." "0 m/s" right ) rSup { size 8{2} } }  over  {2 left ( - 7 "." "00 m/s" rSup { size 8{2} }  right )} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id4179308">Thus,</para>
+    <equation id="import-auto-id2293155">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>64</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>3 m on dry concrete</m:mtext>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x="64" "." "3 m on dry concrete" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2178651">
+      <emphasis>Solution for (b)</emphasis>
+    </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4179312">This part can be solved in exactly the same manner as Part A. The only difference is that the deceleration is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>00 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- 5 "." "00 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. The result is</para><equation id="import-auto-id2178635">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mtext>wet</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>90</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>0 m on wet concrete</m:mtext>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{"wet"} } ="90" "." "0 m on wet concrete" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id1659436">
+      <emphasis>Solution for (c)</emphasis>
+    </para>
+    <para id="import-auto-id2167058">Once the driver reacts, the stopping distance is the same as it is in Parts A and B for dry and wet concrete. So to answer this question, we need to calculate how far the car travels during the reaction time, and then add that to the stopping time. It is reasonable to assume that the velocity remains constant during the driver’s reaction time. </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2167063">1. Identify the knowns and what we want to solve for. We know that <m:math><m:semantics><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mtext>30.0 m/s</m:mtext></m:mrow></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mtext>reaction</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0.500</m:mn><m:mspace width="0.15em"/><m:mtext>s</m:mtext></m:mrow></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:msub><m:mi>a</m:mi><m:mtext>reaction</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:semantics></m:math>. We take
+<m:math><m:semantics><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:mtext>reaction</m:mtext></m:mrow></m:msub></m:mrow></m:semantics></m:math> to be 0. We are looking for
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>reaction</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. </para><para id="import-auto-id2300866">2. Identify the best equation to use.</para>
+    <para id="import-auto-id2300871"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t} {}</m:annotation></m:semantics></m:math> works well because the only unknown value is <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, which is what we want to solve for.</para>
+    <para id="import-auto-id2175304">3. Plug in the knowns to solve the equation.</para>
+    <equation id="import-auto-id2175306"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500 s</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>15</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0+ left ("30" "." "0 m/s" right ) left (0 "." "500 s" right )="15" "." "0 m"} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1658823">This means the car travels 15.0 m while the driver reacts, making the total displacements in the two cases of dry and wet concrete 15.0 m greater than if he reacted instantly.</para>
+    <para id="import-auto-id2175326">4. Add the displacement during the reaction time to the displacement when braking.</para>
+    <equation id="import-auto-id1658817">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mtext>braking</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mtext>reaction</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:msub>
+                  <m:mi>x</m:mi>
+                  <m:mrow>
+                    <m:mtext>total</m:mtext>
+                  </m:mrow>
+                </m:msub>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{"braking"} } +x rSub { size 8{"reaction"} } =x rSub { size 8{"total"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <list id="fs-id1164906447377" list-type="enumerated" number-style="lower-alpha"><item id="import-auto-id1658854">64.3 m + 15.0 m = 79.3 m when dry</item>
+    <item id="import-auto-id1658828">90.0 m + 15.0 m = 105 m when wet</item>
+    </list><figure id="import-auto-id1658840"><media id="import-auto-id1658841" alt="Diagram showing the various braking distances necessary for stopping a car. With no reaction time considered, braking distance is 64 point 3 meters on a dry surface and 90 meters on a wet surface. With reaction time of 0 point 500 seconds, braking distance is 79 point 3 meters on a dry surface and 105 meters on a wet surface.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_03.jpg" width="600"/>
+      </media>
+
+    <caption>The distance necessary to stop a car varies greatly, depending on road conditions and driver reaction time. Shown here are the braking distances for dry and wet pavement, as calculated in this example,  for a car initially traveling at 30.0 m/s. Also shown are the total distances traveled from the point where the driver first sees a light turn red, assuming a 0.500 s reaction time. </caption></figure><para id="import-auto-id1772063">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1772066">The displacements found in this example seem reasonable for stopping a fast-moving car. It should take longer to stop a car on wet rather than dry pavement. It is interesting that reaction time adds significantly to the displacements. But more important is the general approach to solving problems. We identify the knowns and the quantities to be determined and then find an appropriate equation. There is often more than one way to solve a problem. The various parts of this example can in fact be solved by other methods, but the solutions presented above are the shortest.</para>
+    </example>
+    <example id="fs-id1164906470852">
+    <title>Calculating Time: A Car Merges into Traffic</title>
+    <para id="import-auto-id1772080">Suppose a car merges into freeway traffic on a 200-m-long ramp. If its initial velocity is 10.0 m/s and it accelerates at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>00 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, how long does it take to travel the 200 m up the ramp? (Such information might be useful to a traffic engineer.)</para>
+    <para id="import-auto-id2296869">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1772095">Draw a sketch.</para>
+    <figure id="import-auto-id2296882"><media id="import-auto-id2296883" alt="A line segment with ends labeled x subs zero equals zero and x = two hundred. Above the line segment, the equation t equals question mark indicates that time is unknown. Three vectors, all pointing in the direction of x equals 200, represent the other knowns and unknowns. They are labeled v sub zero equals ten point zero meters per second, v equals question mark, and a equals two point zero zero meters per second squared.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_04_03a.jpg" width="250"/>
+      </media>
+    </figure><para id="import-auto-id2296904">We are asked to solve for the time <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. As before, we identify the known quantities in order to choose a convenient physical relationship (that is, an equation with one unknown, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>). </para>
+    <para id="import-auto-id2179085">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2179088">1. Identify the knowns and what we want to solve for. We know that <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>10 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } ="10 m/s"} {}</m:annotation></m:semantics></m:math>; <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>00 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=2 "." "00 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>; and <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>200 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x="200 m"} {}</m:annotation></m:semantics></m:math>. </para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2179141">2. We need to solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. Choose the best equation. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">at</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> works best because the only unknown in the equation is the variable <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> for which we need to solve.</para><para id="import-auto-id2178998">3. We will need to rearrange the equation to solve for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. In this case, it will be easier to plug in the knowns first. </para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2179013"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>200 m</m:mtext>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mtext>0 m</m:mtext>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mtext>10</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>0 m/s</m:mtext>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:msup>
+                      <m:mtext>00 m/s</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfenced>
+<m:mspace width="0.15em"/>
+<m:mrow>
+                <m:msup>
+                  <m:mi>t</m:mi>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msup>
+</m:mrow>
+      </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"200 m"="0 m"+ left ("10" "." "0 m/s" right )t+ {  {1}  over  {2} }  left (2 "." "00 m/s" rSup { size 8{2} }  right )t rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2297462">4. Simplify the equation. The units of meters (m) cancel because they are in each term. We can get the units of seconds (s) to cancel by taking <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=t" s"} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is the magnitude of time and s is the unit. Doing so leaves</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-635"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>200</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mi>t</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"200"="10"t+t rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1680182">5. Use the quadratic formula to solve for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">. </emphasis></para>
+    <para id="import-auto-id1680206">(a) Rearrange the equation to get 0 on one side of the equation. </para>
+    <equation id="import-auto-id1680208">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>t</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mtext>10</m:mtext>
+                </m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>200</m:mtext>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{t rSup { size 8{2} } +"10"t - "200"=0} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id1680218">This is a quadratic equation of the form</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1680214"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">at</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle><m:mrow><m:mtext fontstyle="italic">bt</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mi>c</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1680245">where the constants are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00,</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mrow><m:mi>b</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0,</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>and</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>200</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=1 "." "00,"`b="10" "." "0,"`"and"`c= - "200"} {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id2367268">(b) Its solutions are given by the quadratic formula:</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2367246"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mi>b</m:mi>
+                      </m:mrow>
+                      <m:mo stretchy="false">±</m:mo>
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mi>b</m:mi>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>ac</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mrow>
+                    <m:mrow><m:mn>2</m:mn><m:mi>a</m:mi>     </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2367266">This yields two solutions for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>, which are</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1772100"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>and</m:mtext><m:mrow><m:mi/><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t="10" "." 0``"and"`` - "20" "." 0} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2177357">In this case, then, the time is <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=t} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> in<emphasis effect="italics"/> seconds, or</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2175275"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>s</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mrow><m:mtext>and</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>20</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t="10" "." 0``s`"and" - "20" "." 0`s} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2177292">A negative value for time is unreasonable, since it would mean that the event happened 20 s before the motion began. We can discard that solution. Thus,</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2177316"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t="10" "." 0`s} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2177300">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2177305">Whenever an equation contains an unknown squared, there will be two solutions. In some problems both solutions are meaningful, but in others, such as the above, only one solution is reasonable. The 10.0 s answer seems reasonable for a typical freeway on-ramp.</para>
+    </example>
+    <para id="import-auto-id2177311">With the basics of kinematics established, we can go on to many other interesting examples and applications. In the process of developing kinematics, we have also glimpsed a general approach to problem solving that produces both correct answers and insights into physical relationships. <link document="m60541">Problem-Solving Basics</link> discusses problem-solving basics and outlines an approach that will help you succeed in this invaluable task.</para><note id="fs-id1164906508057"><label/>
+    <title>Making Connections: Take-Home Experiment—Breaking News</title>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2170315">We have been using SI units of meters per second squared to describe some examples of acceleration or deceleration of cars, runners, and trains. To achieve a better feel for these numbers, one can measure the braking deceleration of a car doing a slow (and safe) stop. Recall that, for average acceleration, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi><m:mo stretchy="false">/</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {a}}=Δv/Δt} {}</m:annotation></m:semantics></m:math>. While traveling in a car, slowly apply the brakes as you come up to a stop sign. Have a passenger note the initial speed in miles per hour and the time taken (in seconds) to stop. From this, calculate the deceleration in miles per hour per second. Convert this to meters per second squared and compare with other decelerations mentioned in this chapter. Calculate the distance traveled in braking.</para></note>
+  <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906434690" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id1164906434693">
+    <para id="import-auto-id2180082">A rocket accelerates at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>20 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> during launch. How long does it take the rocket to reach a velocity of 400 m/s?</para></problem><solution id="fs-id1164906458555">
+    <para id="import-auto-id2180140">To answer this, choose an equation that allows you to solve for time <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math></emphasis>, given only <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>.</para>
+    <equation id="import-auto-id2168910"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>v</m:mi><m:mspace width="0.15em"/>
+                  <m:mo stretchy="false">=</m:mo><m:mspace width="0.15em"/>
+                  <m:msub><m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow></m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>at</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v=v"" lSub { size 8{0} } + ital "at"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2168192">Rearrange to solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">. </emphasis></para>
+    <equation id="import-auto-id2168930">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>v</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>v</m:mi>
+                        </m:mrow>
+                        <m:mmultiscripts>
+                          <m:mtext/>
+                          <m:mprescripts/>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                          <m:none/>
+                        </m:mmultiscripts>
+                      </m:mrow>
+                      <m:mi>a</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mtext>400 m/s</m:mtext>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>0 m/s</m:mtext>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mtext>20 m/s</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mtext>20 s</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{t= {  {v - v"" lSub { size 8{0} } }  over  {a} } = {  {"400 m/s" - "0 m/s"}  over  {"20 m/s" rSup { size 8{2} } } } ="20 s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    </solution>
+    </exercise></section>
+    <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906426121" class="section-summary"><title>Section Summary</title><list id="fs-id1164906426128">
+    <item id="import-auto-id2171459">To simplify calculations we take acceleration to be constant, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mi>a</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {a}}=a} {}</m:annotation></m:semantics></m:math> at all times. </item>
+    <item id="import-auto-id2168260">We also take initial time to be zero. </item>
+    <item id="import-auto-id2167408">Initial position and velocity are given a subscript 0; final values have no subscript. Thus,
+    <equation id="import-auto-id2168257"><m:math>
+        <m:semantics><m:mrow><m:mfenced open="" close="}">
+          <m:mtable columnalign="left">
+            <m:mtr><m:mtd><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mtd>
+<m:mtd>                  <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                </m:mrow>
+              </m:mrow></m:mtd>
+            </m:mtr>
+            <m:mtr><m:mtd> <m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mtd>
+<m:mtd> <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                        <m:mn>0</m:mn>
+                    </m:msub>
+              </m:mrow></m:mtd>
+            </m:mtr>
+            <m:mtr><m:mtd> <m:mn>Δ</m:mn><m:mi fontstyle="italic">v</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+              <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                        <m:mn>0</m:mn>
+                    </m:msub>
+              </m:mrow></m:mtd>
+            </m:mtr>
+          </m:mtable>
+</m:mfenced>
+</m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id2175179">The following kinematic equations for motion with constant <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> are useful:
+    <equation id="import-auto-id2175197">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mover accent="true">
+                      <m:mi>v</m:mi>
+                      <m:mo stretchy="true">-</m:mo>
+                    </m:mover>
+                  </m:mrow>
+                </m:mrow>
+                <m:mi>t</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } + { bar  {v}}t} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="import-auto-id2175206">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mover accent="true">
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="true">-</m:mo>
+                </m:mover>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mi>v</m:mi>
+                  </m:mrow>
+                  <m:mn>2</m:mn>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {v rSub { size 8{0} } +v}  over  {2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="import-auto-id2175249">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>at</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <equation id="import-auto-id2176087"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mstyle>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">at</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mstyle>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x=x rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="import-auto-id2175231"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msubsup>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msubsup>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mn>2</m:mn><m:mi>a</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>x</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfenced>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =v rSub { size 8{0} }  rSup { size 8{2} } +2a left (x - x rSub { size 8{0} }  right )} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id2176131">In vertical motion, <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> is substituted for <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>.</item>
+    </list>
+    </section><section id="fs-id1164906440394" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title>
+    <exercise id="fs-id1164906440403" type="problems-exercises"><problem id="fs-id1164906435871"><para id="import-auto-id2170125">An Olympic-class sprinter starts a race with an acceleration of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>50 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "50 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. (a) What is her speed 2.40 s later? (b) Sketch a graph of her position vs. time for this period.</para>
+    </problem>
+<solution id="fs-id1164906440054">
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2170203">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>8</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 8" m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2179857">(b)</para><figure id="import-auto-id2179859"><media id="import-auto-id2179860" alt="Line graph of position in meters versus time in seconds. The line begins at the origin and is concave up, with its slope increasing over time.">
+        <image mime-type="image/jpg" src="../../media/unnumbered_art_p44.jpg" width="350"/>
+      </media>
+    </figure></solution>
+    </exercise>
+    <exercise id="fs-id1164906478917" type="problems-exercises"><problem id="fs-id1164906478920">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2179906">A well-thrown ball is caught in a well-padded mitt. If the deceleration of the ball is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>10</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and 1.85 ms <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>1 ms</m:mtext><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( "1 ms"="10" rSup { size 8{-3} } " s" \) } {}</m:annotation></m:semantics></m:math> elapses from the time the ball first touches the mitt until it stops, what was the initial velocity of the ball?</para></problem>
+<solution id="fs-id1164906499124">
+    <para id="import-auto-id2173379">38.9 m/s (about 87 miles per hour)</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1164906452216" type="problems-exercises"><problem id="fs-id1164906452219">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2173397">A bullet in a gun is accelerated from the firing chamber to the end of the barrel at an average rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.20</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "20"´"10" rSup { size 8{5} } " m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mtext>10</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. What is its muzzle velocity (that is, its final velocity)?</para></problem></exercise>
+    <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906424347" type="problems-exercises"><problem id="fs-id1164906424350">    <para id="import-auto-id2173446">(a) A light-rail commuter train accelerates at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>35 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "35 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. How long does it take to reach its top speed of 80.0 km/h, starting from rest? (b) The same train ordinarily decelerates at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>65 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "65 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. How long does it take to come to a stop from its top speed? (c) In emergencies the train can decelerate more rapidly, coming to rest from 80.0 km/h in 8.30 s. What is its emergency deceleration in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>?</para>
+    </problem>
+<solution id="fs-id1164906496443">
+  <para id="eip-id2188056">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:mtext>16</m:mtext><m:mtext>.</m:mtext><m:mtext>5 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`"16" "." "5 s"} {}</m:annotation></m:semantics></m:math></para>
+<para id="eip-id2299451">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>13</m:mtext><m:mtext>.</m:mtext><m:mtext>5 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"13" "." "5 s"} {}</m:annotation></m:semantics></m:math></para>
+<para id="eip-id2138718">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi/><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>68 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{` - 2 "." "68 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise><exercise id="fs-id1164906441407" type="problems-exercises"><problem id="fs-id1164906441410">    <para id="import-auto-id1659096">While entering a freeway, a car accelerates from rest at a rate of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>40 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "40 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for 12.0 s. (a) Draw a sketch of the situation. (b) List the knowns in this problem. (c) How far does the car travel in those 12.0 s? To solve this part, first identify the unknown, and then discuss how you chose the appropriate equation to solve for it. After choosing the equation, show your steps in solving for the unknown, check your units, and discuss whether the answer is reasonable. (d) What is the car’s final velocity? Solve for this unknown in the same manner as in part (c), showing all steps explicitly.</para>
+    </problem></exercise>
+    <exercise id="fs-id1164906459799" type="problems-exercises"><problem id="fs-id1164906444281">    <para id="import-auto-id1659183">At the end of a race, a runner decelerates from a velocity of 9.00 m/s at a rate of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>00 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. (a) How far does she travel in the next 5.00 s? (b) What is her final velocity? (c) Evaluate the result. Does it make sense?</para>
+    </problem>
+<solution id="fs-id1164906453162">
+    <para id="import-auto-id2178203">(a) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." "0 m"} {}</m:annotation></m:semantics></m:math></para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2178239">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1 "." "00"`"m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2178260">(c) This result does not really make sense. If the runner starts at 9.00 m/s and decelerates at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>00 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, then she will have stopped after 4.50 s. If she continues to decelerate, she will be running backwards. </para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1164906435065" type="problems-exercises"><problem id="fs-id1164906435068"><para id="eip-id2358193"><emphasis>Professional Application:</emphasis></para>    <para id="import-auto-id2173851"> Blood is accelerated from rest to 30.0 cm/s in a distance of 1.80 cm by the left ventricle of the heart. (a) Make a sketch of the situation. (b) List the knowns in this problem. (c) How long does the acceleration take? To solve this part, first identify the unknown, and then discuss how you chose the appropriate equation to solve for it. After choosing the equation, show your steps in solving for the unknown, checking your units. (d) Is the answer reasonable when compared with the time for a heartbeat?</para>
+    </problem></exercise><exercise id="fs-id1164906467421" type="problems-exercises"><problem id="fs-id1164906467424">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2173871">In a slap shot, a hockey player accelerates the puck from a velocity of 8.00 m/s to 40.0 m/s in the same direction. If this shot takes <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>33</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "33"´"10" rSup { size 8{-2} } " s"} {}</m:annotation></m:semantics></m:math>, calculate the distance over which the puck accelerates.</para></problem>
+<solution id="fs-id1164906461971">
+    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2173894" fo:font-weight="normal">
+      <m:math xmlns:m="http://www.w3.org/1998/Math/MathML">
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mtext>.</m:mtext>
+                <m:mtext>799 m</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "799 m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1164906508513" type="problems-exercises"><problem id="fs-id1164906508516">    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2174660" fo:font-weight="normal">A powerful motorcycle can accelerate from rest to 26.8 m/s (100 km/h) in only 3.90 s. (a) What is its average acceleration? (b) How far does it travel in that time?</para>
+    </problem></exercise>
+    <exercise id="fs-id1164906451358" type="problems-exercises"><problem id="fs-id1164906451361">    <para id="import-auto-id2174680">Freight trains can produce only relatively small accelerations and decelerations. (a) What is the final velocity of a freight train that accelerates at a rate of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>0500 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "0500 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math><sup/> for 8.00 min, starting with an initial velocity of 4.00 m/s? (b) If the train can slow down at a rate of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>550 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "550 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, how long will it take to come to a stop from this velocity? (c) How far will it travel in each case?</para>
+    </problem>
+<solution id="fs-id1164906495779">
+    <para id="import-auto-id2174738">(a) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>28</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"28" "." "0 m/s"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id2176429">(b) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50</m:mtext><m:mtext>.</m:mtext><m:mtext>9 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50" "." "9 s"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id2176453">(c) 7.68 km to accelerate and 713 m to decelerate</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1164906430928" type="problems-exercises"><problem id="fs-id1164906430931">    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2176478" fo:font-weight="normal">A fireworks shell is accelerated from rest to a velocity of 65.0 m/s over a distance of 0.250 m. (a) How long did the acceleration last? (b) Calculate the acceleration.</para>
+    </problem></exercise>
+    <exercise id="fs-id1164906453058" type="problems-exercises"><problem id="fs-id1164906453061">    <para id="import-auto-id2176496">A swan on a lake gets airborne by flapping its wings and running on top of the water. (a) If the swan must reach a velocity of 6.00 m/s to take off and it accelerates from rest at an average rate of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>350 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "350 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, how far will it travel before becoming airborne? (b) How long does this take?</para>
+    </problem>
+<solution id="fs-id1164906478379">
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2176522">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>51</m:mn><m:mtext>.</m:mtext><m:mn>4</m:mn><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{51 "." 4" m"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2366334">(b) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>17</m:mtext><m:mtext>.</m:mtext><m:mtext>1 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"17" "." "1 s"} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+    <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1164906459326" type="problems-exercises"><problem id="fs-id1164906459329">  <para id="eip-id2188555"><emphasis>Professional Application:</emphasis> </para> <para id="import-auto-id2366380">A woodpecker’s brain is specially protected from large decelerations by tendon-like attachments inside the skull. While pecking on a tree, the woodpecker’s head comes to a stop from an initial velocity of 0.600 m/s in a distance of only 2.00 mm. (a) Find the acceleration in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow></m:semantics></m:math><sup/> and in multiples of  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mspace width="0.25em"/><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g  left (g=9 "." "80"" m/s" rSup { size 8{2} }  right )} {}</m:annotation></m:semantics></m:math>. (b) Calculate the stopping time. (c) The tendons cradling the brain stretch, making its stopping distance 4.50 mm (greater than the head and, hence, less deceleration of the brain). What is the brain’s deceleration, expressed in multiples of <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow></m:mrow></m:semantics></m:math>?</para></problem></exercise><exercise id="fs-id1164906466373" type="problems-exercises"><problem id="fs-id1164906466376">    <para id="import-auto-id2179431">An unwary football player collides with a padded goalpost while running at a velocity of 7.50 m/s and comes to a full stop after compressing the padding and his body 0.350 m. (a) What is his deceleration? (b) How long does the collision last? </para>
+    </problem>
+<solution id="fs-id1164906466801">
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2179440">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>80</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>4</m:mn><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "80" "." 4" m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>
+</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2179468">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>33</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "33" times "10" rSup { size 8{ - 2} } " s"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+    <exercise id="fs-id1164906495926" type="problems-exercises"><problem id="fs-id1164906495929">    <para id="import-auto-id2179464">In World War II, there were several reported cases of airmen who jumped from their flaming airplanes with no parachute to escape certain death. Some fell about 20,000 feet (6000 m), and some of them survived, with few life-threatening injuries. For these lucky pilots, the tree branches and snow drifts on the ground allowed their deceleration to be relatively small. If we assume that a pilot’s speed upon impact was 123 mph (54 m/s), then what was his deceleration? Assume that the trees and snow stopped him over a distance of 3.0 m.</para>
+    </problem></exercise>
+    <exercise id="fs-id1164906495944" type="problems-exercises"><problem id="fs-id1164906495948">    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id1771622" fo:font-weight="normal">Consider a grey squirrel falling out of a tree to the ground. (a) If we ignore air resistance in this case (only for the sake of this problem), determine a squirrel’s velocity just before hitting the ground, assuming it fell from a height of 3.0 m. (b) If the squirrel stops in a distance of 2.0 cm through bending its limbs, compare its deceleration with that of the airman in the previous problem. </para>
+    </problem>
+<solution id="fs-id1164906459010">
+    <para id="import-auto-id1771637">(a) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>7 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "7 m/s"} {}</m:annotation></m:semantics></m:math></para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1771654">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>15</m:mtext></m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - "15" times "10" rSup { size 8{2} } " m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. This is about 3 times the deceleration of the pilots, who were falling from thousands of meters high!</para></solution>
+    </exercise>
+    <exercise id="fs-id1164906433746" type="problems-exercises"><problem id="fs-id1164906433747">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1771834">An express train passes through a station. It enters with an initial velocity of 22.0 m/s and decelerates at a rate of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>150 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "150 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> as it goes through. The station is 210 m long. (a) How long did the nose of the train stay in the station? (b) How fast is it going when the nose leaves the station? (c) If the train is 130 m long, when does the end of the train leave the station? (d) What is the velocity of the end of the train as it leaves?</para></problem></exercise>
+    <exercise id="fs-id1164906502756" type="problems-exercises"><problem id="fs-id1164906502757">    <para id="import-auto-id1771924">Dragsters can actually reach a top speed of 145 m/s in only 4.45 s—considerably less time than given in <link target-id="fs-id1164906457202"/> and <link target-id="fs-id1164906443776"/>. (a) Calculate the average acceleration for such a dragster. (b) Find the final velocity of this dragster starting from rest and accelerating at the rate found in (a) for 402 m (a quarter mile) without using any information on time. (c) Why is the final velocity greater than that used to find the average acceleration? <emphasis effect="italics">Hint</emphasis>: Consider whether the assumption of constant acceleration is valid for a dragster. If not, discuss whether the acceleration would be greater at the beginning or end of the run and what effect that would have on the final velocity.</para></problem>
+<solution id="fs-id1164906446759">
+    <para id="import-auto-id1771939">(a) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>32</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>6 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"32" "." "6 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id2173364">(b) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mtext>162 m/s</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"162 m/s"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1771952">(c) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">&gt;</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v&gt;v rSub { size 8{"max"} } } {}</m:annotation></m:semantics></m:math>, because the assumption of constant acceleration is not valid for a dragster. A dragster changes gears, and would have a greater acceleration in first gear than second gear than third gear, etc. The acceleration would be greatest at the beginning, so it would not be accelerating at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>32</m:mtext><m:mtext>.</m:mtext><m:msup><m:mtext>6 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"32" "." "6 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> during the last few meters, but substantially less, and the final velocity would be less than 162 m/s.</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1164906479070" type="problems-exercises"><problem id="fs-id1164906479073">    <para id="import-auto-id2177982">A bicycle racer sprints at the end of a race to clinch a victory. The racer has an initial velocity of 11.5 m/s and accelerates at the rate of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>500 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "500 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for 7.00 s. (a) What is his final velocity? (b) The racer continues at this velocity to the finish line. If he was 300 m from the finish line when he started to accelerate, how much time did he save? (c) One other racer was 5.00 m ahead when the winner started to accelerate, but he was unable to accelerate, and traveled at 11.8 m/s until the finish line. How far ahead of him (in meters and in seconds) did the winner finish?</para>
+    </problem></exercise>
+    <exercise id="fs-id1164906433774" type="problems-exercises"><problem id="fs-id1164906433777">
+<para id="import-auto-id2175053">In 1967, New Zealander Burt Munro set the world record for an Indian motorcycle, on the Bonneville Salt Flats in Utah, with a maximum speed of 183.58 mi/h. The one-way course was 5.00 mi long. Acceleration rates are often described by the time it takes to reach 60.0 mi/h from rest. If this time was 4.00 s, and Burt accelerated at this rate until he reached his maximum speed, how long did it take Burt to complete the course?</para></problem>
+<solution id="fs-id1164906433797">
+    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2175065" fo:font-weight="normal">104 s</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1164906508150" type="problems-exercises"><problem id="fs-id1164906508153">    <para id="import-auto-id2175084">(a) A world record was set for the men’s 100-m dash in the 2008 Olympic Games in Beijing by Usain Bolt of Jamaica. Bolt “coasted” across the finish line with a time of 9.69 s. If we assume that Bolt accelerated for 3.00 s to reach his maximum speed, and maintained that speed for the rest of the race, calculate his maximum speed and his acceleration. (b) During the same Olympics, Bolt also set the world record in the 200-m dash with a time of 19.30 s. Using the same assumptions as for the 100-m dash, what was his maximum speed for this race? </para>
+    </problem>
+<solution id="fs-id1164906508162">
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2175096">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>12</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>2 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v="12" "." "2 m/s"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>07 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=4 "." "06 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2181457">(b) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>11</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>2 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v="11" "." "2 m/s"} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+    </section>
+  </content>
+</document>

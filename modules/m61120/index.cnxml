@@ -1,0 +1,958 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Inelastic Collisions in One Dimension</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61120</md:content-id>
+  <md:title>Inelastic Collisions in One Dimension</md:title>
+  <md:abstract><list>
+<item>Define inelastic collision.</item>
+<item>Explain perfectly inelastic collision.</item>
+<item>Apply an understanding of collisions to sports.</item>
+<item>Determine recoil velocity and loss in kinetic energy given mass and initial velocity.</item>
+</list></md:abstract>
+  <md:uuid>393ade91-3c7c-43d5-9b66-5018ee059ae2</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1688263">We have seen that in an elastic collision, internal kinetic energy is conserved. An <term id="import-auto-id1572341">inelastic collision</term> is one in which the internal kinetic energy changes (it is not conserved). This lack of conservation means that the forces between colliding objects may remove or add internal kinetic energy. Work done by internal forces may change the forms of energy within a system. For inelastic collisions, such as when colliding objects stick together, this internal work may transform some internal kinetic energy into heat transfer. Or it may convert stored energy into internal kinetic energy, such as when exploding bolts separate a satellite from its launch vehicle.</para><note id="fs-id3158693"><label/>
+    <title>Inelastic Collision</title>
+    <para id="import-auto-id1757960">An inelastic collision is one in which the internal kinetic energy changes (it is not conserved).</para>
+    </note>
+    <para id="import-auto-id1498819"><link target-id="import-auto-id1354002"/> shows an example of an inelastic collision. Two objects that have equal masses head toward one another at equal speeds and then stick together. Their total internal kinetic energy is initially 
+<m:math><m:semantics><m:mrow>
+<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac>
+<m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup>
+<m:mo stretchy="false">+</m:mo>
+<m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac>
+
+<m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup>
+<m:mo>=</m:mo>
+<m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup>
+</m:mrow></m:semantics></m:math>.  The two objects come to rest after sticking together, conserving momentum. But the internal kinetic energy is zero after the collision. A collision in which the objects stick together is sometimes called a <term id="import-auto-id1401573">perfectly inelastic collision</term> because it reduces internal kinetic energy more than does any other type of inelastic collision. In fact, such a collision reduces internal kinetic energy to the minimum it can have while still conserving momentum.</para><note id="fs-id3084340"><label/><title>Perfectly Inelastic Collision</title>
+    
+    <para id="import-auto-id1126810">A collision in which the objects stick together is sometimes called “perfectly inelastic.”</para>
+    </note><figure id="import-auto-id1354002"><media id="import-auto-id1811051" alt="The system of interest contains two equal masses with mass m. One moves to the right and the other moves to the left with the same magnitude of velocity represented by V. Due to this their total momentum and net force remains zero. The internal kinetic energy is mv power 2. After collision the system of interest has no net velocity, no total momentum and no internal kinetic energy. This is true for all inelastic collisions.">
+        <image mime-type="image/jpg" src="../../media/Figure_09_05_01a.jpg" width="520"/>
+      </media>
+
+    <caption>An inelastic one-dimensional two-object collision. Momentum is conserved, but internal kinetic energy is not conserved. (a) Two objects of equal mass initially head directly toward one another at the same speed. (b) The objects stick together (a perfectly inelastic collision), and so their final velocity is zero. The internal kinetic energy of the system changes in any inelastic collision and is reduced to zero in this example.</caption></figure>
+
+<example id="fs-id1169084895403" class="example-video">
+<title>Analyzing another Inelastic Collision</title>
+<para id="fs-id1169084678426">Suppose a clay model of a koala bear has a mass of <emphasis effect="bold">0.200 kg</emphasis> and slides on ice at a speed of <emphasis effect="bold">0.750 m/s</emphasis>. It runs into another clay model, which is initially at rest and has a mass of <emphasis effect="bold">0.350 kg</emphasis>. Both being soft clay, they naturally stick together. What is their final velocity? Study the problem and its solution in this video.</para>
+<media id="fs-id1169084865194" alt="">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02inelascolli"/>
+</media>
+</example>
+
+<example id="fs-id1169084997931" class="example-video">
+<title>Analyzing an Inelastic Collision</title>
+<para id="fs-id1169084660505">Train cars are coupled together by being bumped into one another. Suppose two loaded train cars are moving toward one another, the first having a mass of <emphasis effect="bold">150,000 kg</emphasis> and velocity of <emphasis effect="bold">0.300 m/s</emphasis>. The second has a mass of <emphasis effect="bold">110,000 kg</emphasis> and a velocity of <emphasis effect="bold">–0.120 m/s</emphasis>. What is their final velocity? Study the problem and its solution in this video.</para>
+<media id="fs-id1169084561742" alt="">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02inelascoll"/>
+</media>
+</example>
+<note id="fs-id1169084856746" class="watch-physics">
+<label/>
+<title>Watch Physics: Introduction to momentum</title>
+<para id="fs-id1169083681026">This video presents and explains how to solve a simple problem involving momentum.</para>
+<media id="fs-id1169084636571" alt="This tutorial introduces and explains the concept of momentum.">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02introtwomom"/>
+</media>
+</note>
+
+<example id="fs-id3270178"><title>Calculating Velocity and Change in Kinetic Energy: Inelastic Collision of a Puck and a Goalie</title><para id="import-auto-id1548782">(a) Find the recoil velocity of a 70.0-kg ice hockey goalie, originally at rest, who catches a 0.150-kg hockey puck slapped at him at a velocity of 35.0 m/s. (b) How much kinetic energy is lost during the collision? Assume friction between the ice and the puck-goalie system is negligible. (See <link target-id="import-auto-id1578036"/> )</para>
+ <figure id="import-auto-id1578036"><media id="import-auto-id1674779" alt="The first picture shows an ice hockey goal keeper of mass m 2 bent on his knees, turning to the left on a frictionless ice surface with zero velocity and a hockey puck of mass m 1 and velocity V 1 moving toward the right. The total momentum of the system is p 1 which is the momentum of the puck and the net force is zero. The second picture shows the goalie to catch the puck. The puck moves with velocity V 1prime and the goalie with velocity V 2 prime and their magnitudes are equal. The momentum of the puck is p 1 prime and the goalie is p 2 prime. The total momentum remains same as before collision. But the kinetic energy after collision is lesser than the kinetic energy before collision. This is true for inelastic collisions.">
+		<image mime-type="image/jpg" src="../../media/Figure_09_05_02a.jpg" width="500"/>
+	</media>
+	<caption>An ice hockey goalie catches a hockey puck and recoils backward. The initial kinetic energy of the puck is almost entirely converted to thermal energy and sound in this inelastic collision.</caption></figure><para id="eip-292"><emphasis>Strategy</emphasis></para><para id="import-auto-id1444716">Momentum is conserved because the net external force on the puck-goalie system is zero. We can thus use conservation of momentum to find the final velocity of the puck and goalie system. Note that the initial velocity of the goalie is zero and that the final velocity of the puck and goalie are the same. Once the final velocity is found, the kinetic energies can be calculated before and after the collision and compared as requested.</para><para id="eip-156"><emphasis>Solution for (a)</emphasis> </para><para id="import-auto-id1151005">Momentum is conserved because the net external force on the puck-goalie system is zero.</para><para id="import-auto-id1212193">Conservation of momentum is</para><equation id="eip-46"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>p</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mrow>
+                  <m:msub><m:mrow>
+                    <m:mi>p</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>                  <m:msub><m:mrow>
+                    <m:mi>p</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{p rSub { size 8{1} } +p rSub { size 8{2} } = { {p}} sup { ' } rSub { size 8{1} } + { {p}} sup { ' } rSub { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1700777">or</para>
+    <equation id="eip-225"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>                  <m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>                  <m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub><m:mo>.</m:mo>
+              </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } v rSub { size 8{1} } +m rSub { size 8{2} } v rSub { size 8{2} } =m rSub { size 8{1} }  { {v}} sup { ' } rSub { size 8{1} } +m rSub { size 8{2} }  { {v}} sup { ' } rSub { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1698449">Because the goalie is initially at rest, we know <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math>. Because the goalie catches the puck, the final velocities are equal, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow>                  <m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub><m:mo stretchy="false">=</m:mo>                  <m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo></m:mrow>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{1} } = { {v}} sup { ' } rSub { size 8{2} } =v'} {}</m:annotation></m:semantics></m:math>. Thus, the conservation of momentum equation simplifies to</para><equation id="eip-125"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } v rSub { size 8{1} } = left (m rSub { size 8{1} } +m rSub { size 8{2} }  right )v'} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1764487">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v'} {}</m:annotation></m:semantics></m:math> yields</para><equation id="eip-370"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v'= {  {m rSub { size 8{1} } }  over  {m rSub { size 8{1} } +m rSub { size 8{2} } } } v rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1290108">Entering known values in this equation, we get</para><equation id="eip-777"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>v</m:mi><m:mo>′</m:mo>
+                <m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfenced open="(" close=")">
+                    <m:mfrac>
+                        <m:mtext>0.150 kg</m:mtext>
+                                      <m:mrow>
+                        <m:mtext>0.150 kg</m:mtext>
+                          <m:mo stretchy="false">+</m:mo>
+                        <m:mtext>70.0 kg</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mfenced>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mtext>35</m:mtext>
+                      <m:mtext>.0 m/s</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>7</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>48</m:mtext>
+                  <m:mo stretchy="false">×</m:mo>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+               <m:mspace width="0.25em"/>
+                <m:mtext>m/s</m:mtext>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v'= left ( {  {0 "." "0.15"`"kg"}  over  {"70" "." 0`"kg"+0 "." "150"`"kg"} }  right ) left ("35" "." 0`"m/s" right )=7 "." "48" times "10" rSup { size 8{ - 2} } `"m/s" "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-289"><emphasis>Discussion for (a)</emphasis> </para><para id="import-auto-id1688149">This recoil velocity is small and in the same direction as the puck’s original velocity, as we might expect.</para><para id="eip-451"><emphasis>Solution for (b)</emphasis> </para><para id="import-auto-id1502572">Before the collision, the internal kinetic energy <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"int"} } } {}</m:annotation></m:semantics></m:math> of the system is that of the hockey puck, because the goalie is initially at rest. Therefore, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"int"} } } {}</m:annotation></m:semantics></m:math> is initially</para><equation id="eip-672"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                          <m:msub>
+                            <m:mtext>KE</m:mtext>
+                            <m:mrow>
+                              <m:mtext>int</m:mtext>
+                            </m:mrow>
+                          </m:msub>
+</m:mtd>
+<m:mtd>
+                          <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                    
+                        <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mtext fontstyle="italic">mv</m:mtext>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                            </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>150 kg</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:msup>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mtext>35</m:mtext>
+                              <m:mtext>.0 m/s</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                   
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+                 
+                      <m:mtext/>
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      <m:mtext>91</m:mtext>
+                   
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>9 J</m:mtext>
+                    <m:mtext>.</m:mtext>
+                  
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1807711">After the collision, the internal kinetic energy is</para>
+    <equation id="eip-440"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                 
+                          <m:msub><m:mrow>
+                            <m:mtext>KE</m:mtext><m:mo>′</m:mo></m:mrow>
+                            <m:mrow>
+                              <m:mtext>int</m:mtext>
+                            </m:mrow>
+                          </m:msub>
+</m:mtd>
+<m:mtd>
+                          <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                  
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mi>m</m:mi>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mi>M</m:mi>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>v</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>2</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mtext>70</m:mtext>
+                            <m:mtext>.</m:mtext>
+                            <m:mtext>15 kg</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                        <m:msup>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>7</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mrow>
+                                <m:mtext>48</m:mtext>
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                  <m:mrow>
+                                    <m:mrow>
+                                      <m:mo stretchy="false">−</m:mo>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow><m:mspace width="0.25em"/>
+                              <m:mtext> m/s</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                    
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+           
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                    <m:mtext>0.196 J.</m:mtext>
+                  
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+
+        </m:semantics>
+      </m:math></equation><para id="import-auto-id1841115">The change in internal kinetic energy is thus</para><equation id="eip-172"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+               
+                            <m:msub>
+                              <m:mrow>
+                              <m:mn>KE</m:mn><m:mo>′</m:mo>
+                              </m:mrow>
+                                <m:mtext>int</m:mtext>
+
+                            </m:msub>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mtext>KE</m:mtext>
+                              <m:mrow>
+                                <m:mtext>int</m:mtext>
+                              </m:mrow>
+                            </m:msub>
+                          
+</m:mtd>
+<m:mtd>
+                          <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      
+                        <m:mtext>0.196 J</m:mtext>
+                        <m:mi/>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                        </m:mrow>
+                        <m:mtext>91.9 J</m:mtext>
+                    
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+                    
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                      </m:mrow>
+                    <m:mtext>91.7 J</m:mtext>
+                
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-251">where the minus sign indicates that the energy was lost.</para><para id="eip-76"><emphasis>Discussion for (b) </emphasis></para><para id="import-auto-id1344192">Nearly all of the initial internal kinetic energy is lost in this perfectly inelastic collision. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"int"} } } {}</m:annotation></m:semantics></m:math> is mostly converted to thermal energy and sound.</para><para id="import-auto-id1671077">During some collisions, the objects do not stick together and less of the internal kinetic energy is removed—such as happens in most automobile accidents. Alternatively, stored energy may be converted into internal kinetic energy during a collision. <link target-id="import-auto-id1258204"/> shows a one-dimensional example in which two carts on an air track collide, releasing potential energy from a compressed spring. <link target-id="fs-id1487104"/> deals with data from such a collision.</para><figure id="import-auto-id1258204"><media id="import-auto-id1771991" alt="An uncoiled spring is connected to a glider with triangular cross sectional area of mass m 1 which moves with velocity v 1 toward the right. Another solid glider of mass m 2 and triangular cross sectional area moves toward the left with velocity V 2 on a frictionless surface. The total momentum is the sum of their individual momentum p 1 and p 2. After collision m 1 moves to the left with velocity V 1 prime and momentum p 1prime. M 2 moves to the right with velocity V 2 prime. Their individual momentum becomes p 1prime and p 2 prime but the total momentum remains the same. The internal kinetic energy after collision is greater than the kinetic energy before collision.">
+          <image mime-type="image/jpg" src="../../media/Figure_09_05_03a.jpg" width="450"/>
+        </media>
+      <caption>An air track is nearly frictionless, so that momentum is conserved. Motion is one-dimensional. In this collision, examined in <link target-id="fs-id1487104"/>, the potential energy of a compressed spring is released during the collision and is converted to internal kinetic energy.</caption></figure><para id="import-auto-id1803854">Collisions are particularly important in sports and the sporting and leisure industry utilizes elastic and inelastic collisions. Let us look briefly at tennis. Recall that in a collision, it is momentum and not force that is important. So, a heavier tennis racquet will have the advantage over a lighter one. This conclusion also holds true for other sports—a lightweight bat (such as a softball bat) cannot hit a hardball very far. </para><para id="import-auto-id1698667" fo:font-weight="bold">The location of the impact of the tennis ball on the racquet is also important, as is the part of the stroke during which the impact occurs. A smooth motion results in the maximizing of the velocity of the ball after impact and reduces sports injuries such as tennis elbow. A tennis player tries to hit the ball on the “sweet spot” on the racquet, where the vibration and impact are minimized and the ball is able to be given more velocity. Sports science and technologies also use physics concepts such as momentum and rotational motion and vibrations.</para></example><note id="fs-id3138592"><label/><title>Take-Home Experiment—Bouncing of Tennis Ball</title>
+	<list id="eip-814" list-type="enumerated" number-style="arabic"><item>Find a racquet (a tennis, badminton, or other racquet will do). Place the racquet on the floor and stand on the handle. Drop a tennis ball on the strings from a measured height. Measure how high the ball bounces. Now ask a friend to hold the racquet firmly by the handle and drop a tennis ball from the same measured height above the racquet. Measure how high the ball bounces and observe what happens to your friend’s hand during the collision. Explain your observations and measurements.</item>
+		<item>
+The coefficient of restitution <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>c</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( c \) } {}</m:annotation></m:semantics></m:math> is a measure of the elasticity of a collision between a ball and an object, and is defined as the ratio of the speeds after and before the collision. A perfectly elastic collision has a <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> of 1. For a ball bouncing off the floor (or a racquet on the floor), <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math></emphasis> can be shown to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">/</m:mo><m:mi>H</m:mi></m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c= \( h/H \)  rSup { size 8{1/2} } } {}</m:annotation></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>h</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h} {}</m:annotation></m:semantics></m:math> is the height to which the ball bounces and <m:math><m:semantics><m:mrow><m:mrow><m:mi>H</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{H} {}</m:annotation></m:semantics></m:math> is the height from which the ball is dropped. Determine <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math></emphasis> for the cases in Part 1 and for the case of a tennis ball bouncing off a concrete or wooden floor (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>85</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c=0 "." "85"} {}</m:annotation></m:semantics></m:math> for new tennis balls used on a tennis court).
+</item></list></note><example id="fs-id1487104">
+    <title>Calculating Final Velocity and Energy Release: Two Carts Collide</title>
+    <para id="import-auto-id1690330">In the collision pictured in <link target-id="import-auto-id1258204"/>, two carts collide inelastically. Cart 1 (denoted <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> carries a spring which is initially compressed. During the collision, the spring releases its potential energy and converts it to internal kinetic energy. The mass of cart 1 and the spring is 0.350 kg, and the cart and the spring together have an initial velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"`"m/s"} {}</m:annotation></m:semantics></m:math>. Cart 2 (denoted <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id1258204"/>) has a mass of 0.500 kg and an initial velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>500 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 0 "." "500"`"m/s"} {}</m:annotation></m:semantics></m:math>. After the collision, cart 1 is observed to recoil with a velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 4 "." "00"`"m/s"} {}</m:annotation></m:semantics></m:math>. (a) What is the final velocity of cart 2? (b) How much energy was released by the spring (assuming all of it was converted into internal kinetic energy)?</para><para id="eip-217"><emphasis>Strategy</emphasis> </para><para id="import-auto-id1804241">We can use conservation of momentum to find the final velocity of cart 2, because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } =0} {}</m:annotation></m:semantics></m:math> (the track is frictionless and the force of the spring is internal). Once this velocity is determined, we can compare the internal kinetic energy before and after the collision to see how much energy was released by the spring.</para><para id="eip-513"><emphasis> Solution for (a) </emphasis></para><para id="import-auto-id1509615">As before, the equation for conservation of momentum in a two-object system is</para><equation id="eip-473"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mi>m</m:mi>
+                  <m:mrow>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:msub>                    <m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                    </m:mrow>
+                      <m:mn>1</m:mn>
+
+                  </m:msub>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:msub>
+                    <m:mi>m</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>                  <m:msub>                    <m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                    </m:mrow>
+                      <m:mn>2</m:mn>
+
+                  </m:msub>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1691094">The only unknown in this equation is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                    </m:mrow>
+                      <m:mn>2</m:mn>
+
+                  </m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Solving for <m:math><m:semantics><m:mrow><m:mrow>                  <m:msub>                    <m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                    </m:mrow>
+                      <m:mn>2</m:mn>
+
+                  </m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and substituting known values into the previous equation yields</para><equation id="eip-999"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                  <m:msub>
+                    <m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                    </m:mrow>
+                      <m:mn>2</m:mn>
+
+                  </m:msub>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msub>
+                              <m:mi>m</m:mi>
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                              </m:mrow>
+                            </m:msub>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>v</m:mi>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:msub>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msub>
+                                <m:mi>m</m:mi>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msub>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:msub>
+                                <m:mi>v</m:mi>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msub>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msub>
+                                <m:mi>m</m:mi>
+                                <m:mrow>
+                                  <m:mn>1</m:mn>
+                                </m:mrow>
+                              </m:msub>
+                           
+                  <m:msub>
+                    <m:mrow>
+                    <m:mi>v</m:mi><m:mo>′</m:mo>
+                    </m:mrow>
+                      <m:mn>1</m:mn>
+
+                  </m:msub>
+                          </m:mrow></m:mrow>
+                          <m:msub>
+                            <m:mi>m</m:mi>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msub> 
+                        </m:mfrac>
+                
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+               
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      <m:mrow>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mtext>0.350 kg</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mrow>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mtext>2.00 m/s</m:mtext>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mtext>0.500 kg</m:mtext>
+                                </m:mrow>
+                              </m:mfenced>
+                            </m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>0.500 m/s</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mtext>0.500 kg</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mtext>0.350 kg</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>4.00 m/s</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mtext>0.500 kg</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                  
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+                 
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>            
+                    <m:mtext>3.70 m/s.</m:mtext>         
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-332"><emphasis>Solution for (b)</emphasis> </para><para id="import-auto-id1138962">The internal kinetic energy before the collision is</para><equation id="eip-530"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow>
+<m:msubsup><m:mi>v</m:mi><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow>
+<m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>
+<m:msubsup><m:mi>v</m:mi><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>350 kg</m:mtext></m:mrow></m:mfenced><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mtext>2.00 m/s</m:mtext></m:mfenced><m:mn>2</m:mn></m:msup><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>500 kg</m:mtext></m:mrow></m:mfenced><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>500 m/s</m:mtext></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>763 J</m:mtext><m:mrow/><m:mo>.</m:mo></m:mtd>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1164541">After the collision, the internal kinetic energy is</para>
+    <equation id="eip-626"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:msub><m:mrow><m:mtext>KE</m:mtext><m:mo>′</m:mo></m:mrow><m:mrow><m:mtext>int</m:mtext></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msubsup><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn><m:mn>2</m:mn></m:msubsup><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac>
+<m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msubsup><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn><m:mn>2</m:mn></m:msubsup></m:mtd>
+</m:mtr><m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+ <m:mfrac>
+  <m:mn>1</m:mn>
+  <m:mn>2</m:mn>
+ </m:mfrac>
+ <m:mfenced open="(" close=")">
+  <m:mrow>
+   <m:mtext>0.350 kg</m:mtext>
+  </m:mrow>
+ </m:mfenced>
+ <m:msup>
+  <m:mfenced open="(" close=")">
+   <m:mrow>
+    <m:mo stretchy="false">-</m:mo>
+    <m:mtext>4.00 m/s</m:mtext>
+   </m:mrow>
+  </m:mfenced>
+  <m:mrow>
+   <m:mn>2</m:mn>
+  </m:mrow>
+ </m:msup>
+ <m:mo stretchy="false">+</m:mo>
+ <m:mfrac>
+  <m:mn>1</m:mn>
+  <m:mn>2</m:mn>
+ </m:mfrac>
+ <m:mfenced open="(" close=")">
+  <m:mtext>0.500 kg</m:mtext>
+ </m:mfenced>
+ <m:msup>
+  <m:mfenced open="(" close=")">
+   <m:mrow>
+    <m:mtext>3.70 m/s</m:mtext>
+   </m:mrow>
+  </m:mfenced>
+  <m:mrow>
+   <m:mn>2</m:mn>
+  </m:mrow>
+ </m:msup>
+</m:mtd>
+</m:mtr><m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mtext>6.22 J.</m:mtext></m:mtd>
+</m:mtr></m:mtable></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1764898">The change in internal kinetic energy is thus</para>
+    <equation id="eip-246"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                
+                          <m:msub>
+                            <m:mrow>
+                            <m:mn>KE</m:mn><m:mo>′</m:mo>
+                            </m:mrow>
+                              <m:mtext>int</m:mtext>
+
+                          </m:msub>
+                          <m:mo stretchy="false">−</m:mo>
+                         <m:msub> <m:mtext> KE</m:mtext>
+                            <m:mrow>
+                              <m:mtext>int</m:mtext>
+                            </m:mrow></m:msub>
+</m:mtd>
+<m:mtd>
+                          <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                      
+                        <m:mtext>6.22 J</m:mtext>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>0</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>763 J</m:mtext>
+                    
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd>
+                  
+</m:mtd>
+<m:mtd>
+                      <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                  
+                    <m:mtext>5.46 J.</m:mtext>
+                 
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-127"><emphasis>Discussion</emphasis></para><para id="import-auto-id1811301">The final velocity of cart 2 is large and positive, meaning that it is moving to the right after the collision. The internal kinetic energy in this collision increases by 5.46 J. That energy was released by the spring.</para></example>
+<section id="fs-id2209262" class="section-summary">
+    <title>Section Summary</title><list id="fs-id2648571"><item id="import-auto-id1657908">An inelastic collision is one in which the internal kinetic energy changes (it is not conserved).</item>
+    <item id="import-auto-id1497618">A collision in which the objects stick together is sometimes called perfectly inelastic because it reduces internal kinetic energy more than does any other type of inelastic collision.</item>
+    <item id="import-auto-id1705204">Sports science and technologies also use physics concepts such as momentum and rotational motion and vibrations.</item>
+    </list></section>
+<section id="fs-id2910566" class="conceptual-questions" type="conceptual-questions">
+    <title>Conceptual Questions</title>
+    <exercise id="fs-id1603604" type="conceptual-questions"><problem id="fs-id3143884">
+    <para id="import-auto-id1180605"><emphasis effect="bold"/>What is an inelastic collision? What is a perfectly inelastic collision?</para>
+    </problem></exercise>
+    <exercise id="fs-id1672056" type="conceptual-questions"><problem id="fs-id2944292">
+    <para id="import-auto-id1668347">Mixed-pair ice skaters performing in a show are standing motionless at arms length just before starting a routine. They reach out, clasp hands, and pull themselves together by only using their arms. Assuming there is no friction between the blades of their skates and the ice, what is their velocity after their bodies meet?</para></problem></exercise>
+    <exercise id="fs-id3106058" type="conceptual-questions"><problem id="fs-id1950980">
+    <para id="import-auto-id1668351">A small pickup truck that has a camper shell slowly coasts toward a red light with negligible friction. Two dogs in the back of the truck are moving and making various inelastic collisions with each other and the walls. What is the effect of the dogs on the motion of the center of mass of the system (truck plus entire load)? What is their effect on the motion of the truck?</para>
+    </problem></exercise>
+    </section>
+<section id="fs-id2067918" type="problems-exercises" class="problems-exercises">
+    <title>Problems &amp; Exercises</title>
+    <exercise id="fs-id2504992" type="problems-exercises"><problem id="fs-id2641326">
+    <para id="import-auto-id1096786">A 0.240-kg billiard ball that is moving at 3.00 m/s strikes the bumper of a pool table and bounces straight back at 2.40 m/s (80% of its original speed). The collision lasts 0.0150 s. (a) Calculate the average force exerted on the ball by the bumper. (b) How much kinetic energy in joules is lost during the collision? (c) What percent of the original energy is left? </para>
+    </problem>
+    <solution id="fs-id2800052">
+    <para id="import-auto-id1731775">(a) 86.4 N perpendicularly away from the bumper</para><para id="import-auto-id1731777">(b) 0.389 J</para><para id="import-auto-id1669824" fo:font-weight="normal">(c) 64.0%</para></solution></exercise>
+    <exercise id="fs-id1495002" type="problems-exercises"><problem id="fs-id882758">
+    <para id="import-auto-id1612550">During an ice show, a 60.0-kg skater leaps into the air and is caught by an initially stationary 75.0-kg skater. (a) What is their final velocity assuming negligible friction and that the 60.0-kg skater’s original horizontal velocity is 4.00 m/s? (b) How much kinetic energy is lost? </para>
+    </problem></exercise>
+    <exercise id="fs-id1664993" type="problems-exercises"><problem id="fs-id1591801">
+<para id="eip-id2484503"><emphasis>Professional Application</emphasis></para>
+    <para id="import-auto-id1487365">Using mass and speed data from <link document="m61109" target-id="fs-id1356444"/> and assuming that the football player catches the ball with his feet off the ground with both of them moving horizontally, calculate: (a) the final velocity if the ball and player are going in the same direction and (b) the loss of kinetic energy in this case. (c) Repeat parts (a) and (b) for the situation in which the ball and the player are going in opposite directions. Might the loss of kinetic energy be related to how much it hurts to catch the pass? </para></problem>
+    <solution id="fs-id2961734">
+    <para id="import-auto-id1704496">(a) 8.06 m/s</para><para id="import-auto-id1704498">(b) -56.0 J</para><para id="eip-id1165415886001">(c)(i) 7.88 m/s; (ii) -223 J</para></solution></exercise><exercise id="fs-id1956748" type="problems-exercises"><problem id="fs-id3084622">
+    <para id="import-auto-id1459168">A  battleship that is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00" times "10" rSup { size 8{7} } `"kg"} {}</m:annotation></m:semantics></m:math> and is originally at rest fires a 1100-kg artillery shell horizontally with a velocity of 575 m/s. (a) If the shell is fired straight aft (toward the rear of the ship), there will be negligible friction opposing the ship’s recoil. Calculate its recoil velocity. (b) Calculate the increase in internal kinetic energy (that is, for the ship and the shell). This energy is less than the energy released by the gun powder—significant heat transfer occurs.</para></problem></exercise>
+    <exercise id="fs-id3107456" type="problems-exercises"><problem id="fs-id1489256">
+<para id="eip-id2449793"><emphasis>Professional Application</emphasis></para>
+    <para id="import-auto-id1638074">Two piloted satellites approaching one another, at a relative speed of 0.250 m/s, intending to dock. The first has a mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and the second a mass of  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>7.50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (a) Calculate the final velocity (after docking) by using the frame of reference in which the first satellite was originally at rest. (b) What is the loss of kinetic energy in this inelastic collision? (c) Repeat both parts by using the frame of reference in which the second satellite was originally at rest. Explain why the change in velocity is different in the two frames, whereas the change in kinetic energy is the same in both.</para></problem>
+    <solution id="fs-id1319164">
+    <para id="import-auto-id1133178">(a) 0.163 m/s in the direction of motion of the more massive satellite</para><para id="import-auto-id1133180">(b) 81.6 J</para><para id="import-auto-id1824744">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>70</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "70" times "10" rSup { size 8{ - 2} } `"m/s"} {}</m:annotation></m:semantics></m:math> in the direction of motion of the less massive satellite, 81.5 J. Because there are no external forces, the velocity of the center of mass of the two-satellite system is unchanged by the collision. The two velocities calculated above are the velocity of the center of mass in each of the two different individual reference frames. The loss in KE is the same in both reference frames because the KE lost to internal forces (heat, friction, etc.) is the same regardless of the coordinate system chosen.</para></solution></exercise><exercise id="eip-384" type="problems-exercises"><problem id="eip-id2465154">
+<para id="eip-id2465156"><emphasis>Professional Application</emphasis></para>
+  <para id="eip-id2465160">
+    A 30,000-kg freight car is coasting at 0.850 m/s with negligible friction under a hopper that dumps 110,000 kg of scrap metal into it. (a) What is the final velocity of the loaded freight car? (b) How much kinetic energy is lost? 
+  </para>
+</problem>
+
+
+</exercise><exercise id="fs-id2679105" type="problems-exercises"><problem id="fs-id2607912">
+<para id="eip-id2514088"><emphasis>Professional Application </emphasis> </para>
+    <para id="import-auto-id1581851">Space probes may be separated from their launchers by exploding bolts. (They bolt away from one another.) Suppose a 4800-kg satellite uses this method to separate from the 1500-kg remains of its launcher, and that 5000 J of kinetic energy is supplied to the two parts. What are their subsequent velocities using the frame of reference in which they were at rest before separation? 
+</para>
+    
+    </problem>
+    <solution id="fs-id3341848">
+    <para id="import-auto-id1510491">0.704 m/s</para>
+    <para id="import-auto-id1510493">–2.25 m/s</para>
+    </solution>
+    </exercise><exercise id="fs-id3094767" type="problems-exercises"><problem id="fs-id2543801">
+    <para id="import-auto-id1678794">A 0.0250-kg bullet is accelerated from rest to a speed of 550 m/s in a 3.00-kg rifle. The pain of the rifle’s kick is much worse if you hold the gun loosely a few centimeters from your shoulder rather than holding it tightly against your shoulder. (a) Calculate the recoil velocity of the rifle if it is held loosely away from the shoulder. (b) How much kinetic energy does the rifle gain? (c) What is the recoil velocity if the rifle is held tightly against the shoulder, making the effective mass 28.0 kg? (d) How much kinetic energy is transferred to the rifle-shoulder combination? The pain is related to the amount of kinetic energy, which is significantly less in this latter situation. (e) Calculate the momentum of a 110-kg football player running at 8.00 m/s. Compare the player’s momentum with the momentum of a hard-thrown 0.410-kg football that has a speed of 25.0 m/s. Discuss its relationship to this problem.</para>
+    </problem>
+    <solution id="fs-id3084653">
+    <para id="import-auto-id1508659">(a) 4.58 m/s away from the bullet</para><para id="import-auto-id1508662">(b) 31.5 J</para>
+    <para id="import-auto-id1508664">(c) –0.491 m/s</para><para id="import-auto-id1769684">(d) 3.38 J</para>
+    </solution>
+    </exercise><exercise id="fs-id1284886" type="problems-exercises"><problem id="fs-id1570853">
+<para id="eip-id1167215024445"><emphasis>Professional  Application</emphasis></para> 
+    <para id="import-auto-id1740464">One of the waste products of a nuclear reactor is plutonium-239 <m:math><m:semantics><m:mrow><m:mo>(</m:mo><m:msup><m:mrow/><m:mtext>239</m:mtext></m:msup><m:mtext>Pu</m:mtext><m:mo>)</m:mo></m:mrow></m:semantics></m:math>. This nucleus is radioactive and decays by splitting into a helium-4 nucleus and a uranium-235 nucleus 
+<m:math><m:semantics><m:mrow>
+<m:mo>(</m:mo>
+<m:msup><m:mrow/><m:mn>4</m:mn></m:msup>
+<m:msup><m:mtext>He</m:mtext></m:msup><m:mo>+</m:mo>
+<m:msup><m:mrow/><m:mtext>235</m:mtext></m:msup>
+<m:mn>U</m:mn><m:mo>)</m:mo>
+</m:mrow></m:semantics></m:math>, the latter of which is also radioactive and will itself decay some time later. The energy emitted in the plutonium decay is 
+<m:math><m:semantics><m:mrow><m:mtext>8.40</m:mtext><m:mrow><m:mi/><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>13</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>J</m:mn></m:mrow></m:semantics></m:math> and is entirely converted to kinetic energy of the helium and uranium nuclei. The mass of the helium nucleus is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>6.68</m:mtext><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>27</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, while that of the uranium is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>92</m:mtext><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "92"` times "10" rSup { size 8{ - "25"} } `"kg"} {}</m:annotation></m:semantics></m:math>  (note that the ratio of the masses is 4 to 235). (a) Calculate the velocities of the two nuclei, assuming the plutonium nucleus is originally at rest. (b) How much kinetic energy does each nucleus carry away? Note that the data given here are accurate to three digits only.</para></problem></exercise><exercise id="eip-558" type="problems-exercises"><problem id="eip-id2217805">
+<para id="eip-id2217807"><emphasis>Professional Application</emphasis></para>
+  <para id="eip-id2217811">The Moon’s craters are remnants of meteorite collisions. Suppose a fairly large asteroid that has a mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>12</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times 10 rSup { size 8{"12"} } " kg"} {}</m:annotation></m:semantics></m:math> (about a kilometer across) strikes the Moon at a speed of 15.0 km/s. (a) At what speed does the Moon recoil after the perfectly inelastic collision (the mass of the Moon is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>36</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mn>10</m:mn><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "36" times 10 rSup { size 8{"22"} } " kg"} {}</m:annotation></m:semantics></m:math>) ? (b) How much kinetic energy is lost in the collision? Such an event may have been observed by medieval English monks who reported observing a red glow and subsequent haze about the Moon. (c) In October 2009, NASA crashed a rocket into the Moon, and analyzed the plume produced by the impact. (Significant amounts of water were detected.) Answer part (a) and (b) for this real-life experiment. The mass of the rocket was 2000 kg and its speed upon impact was 9000 km/h. How does the plume produced alter these results? 
+  </para></problem>
+
+<solution id="eip-id2466104">
+  <para id="eip-id2466106">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>02</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "02" times "10" rSup { size 8{ - 6} } " m/s"} {}</m:annotation></m:semantics></m:math>
+  </para><para id="eip-id2515727">(b) <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>63</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>20</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>J</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "63" times "10" rSup { size 8{"20"} } `J} {}</m:annotation></m:semantics></m:math></emphasis> (almost all KE lost)
+</para><para id="eip-id2515855">(c) Recoil speed is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>79</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>17</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "79" times "10" rSup { size 8{ - "17"} } `"m/s"} {}</m:annotation></m:semantics></m:math>, energy lost is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>25</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>J</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "25" times "10" rSup { size 8{9} } `J} {}</m:annotation></m:semantics></m:math>. The plume will not affect the momentum result because the plume is still part of the Moon system. The plume may affect the kinetic energy result because a significant part of the initial kinetic energy may be transferred to the kinetic energy of the plume particles.</para></solution>
+</exercise><exercise id="eip-24" type="problems-exercises"><problem id="eip-989">
+<para id="eip-id2436480"><emphasis>Professional Application</emphasis></para>
+  <para id="eip-659">
+  Two football players collide head-on in midair while trying to catch a thrown football. The first player is 95.0 kg and has an initial velocity of 6.00 m/s, while the second player is 115 kg and has an initial velocity of –3.50 m/s. What is their velocity just after impact if they cling together? 
+  </para>
+</problem>
+
+</exercise><exercise id="eip-826" type="problems-exercises"><problem id="eip-605">
+  <para id="eip-343">What is the speed of a garbage truck that is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "20" times "10" rSup { size 8{4} } " kg"} {}</m:annotation></m:semantics></m:math> and is initially moving at 25.0 m/s just after it hits and adheres to a trash can that is 80.0 kg and is initially at rest? 
+  </para></problem>
+<solution id="eip-id1729789">
+<para id="eip-id1729791">
+24.8 m/s
+</para>
+</solution>
+</exercise><exercise id="eip-414" type="problems-exercises"><problem id="eip-486">
+  <para id="eip-299">
+During a circus act, an elderly performer thrills the crowd by catching a cannon ball shot at him. The cannon ball has a mass of 10.0 kg and the horizontal component of its velocity is 8.00 m/s when the 65.0-kg performer catches it. If the performer is on nearly frictionless roller skates, what is his recoil velocity?
+  </para>
+</problem>
+
+</exercise><exercise id="eip-765" type="problems-exercises"><problem id="eip-591">
+  <para id="eip-495">
+  (a) During an ice skating performance, an initially motionless 80.0-kg clown throws a fake barbell away. The clown’s ice skates allow her to recoil frictionlessly. If the clown recoils with a velocity of 0.500 m/s and the barbell is thrown with a velocity of 10.0 m/s, what is the mass of the barbell? (b) How much kinetic energy is gained by this maneuver? (c) Where does the kinetic energy come from? 
+  </para>
+</problem>
+
+<solution id="eip-97">
+  <para id="eip-850">
+   (a) 4.00 kg </para>
+<para id="eip-id1677203">(b) 210 J</para>
+<para id="eip-id1677206">(c) The clown does work to throw the barbell, so the kinetic energy comes from the muscles of the clown. The muscles convert the chemical potential energy of ATP into kinetic energy. 
+ </para>
+</solution>
+</exercise></section>
+    </content>
+<glossary>
+    <definition id="import-auto-id1488639"><term>inelastic collision</term> <meaning id="fs-id2806721">a collision in which internal kinetic energy is not conserved</meaning></definition>
+    <definition id="import-auto-id1512865"><term>perfectly inelastic collision</term> <meaning id="fs-id3167167">a collision in which the colliding objects stick together</meaning></definition>
+    </glossary>
+</document>

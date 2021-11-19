@@ -1,0 +1,566 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The First Law of Thermodynamics</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55269</md:content-id>
+  <md:title>The First Law of Thermodynamics</md:title>
+  <md:abstract/>
+  <md:uuid>2499fe6d-41be-4e32-83b0-d93bf558ae47</md:uuid>
+</metadata>
+
+<content>
+
+
+<section id="fs-id2315967" class="learning-objectives">
+  <title>Learning Objectives</title>
+  <para id="fs-id1523355">By the end of this section, you will be able to:</para>
+<list id="fs-id2496562">
+<item>Define the first law of thermodynamics.</item>
+<item>Describe how conservation of energy relates to the first law of thermodynamics.</item>
+<item>Identify instances of the first law of thermodynamics working in everyday situations, including biological metabolism.</item>
+<item>Calculate changes in the internal energy of a system, after accounting for heat transfer and work done.</item>
+</list>
+<para id="fs-id2756158">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id1304033">
+<item><emphasis effect="bold">4.C.3.1</emphasis> The student is able to make predictions about the direction of energy transfer due to temperature differences based on interactions at the microscopic level. <emphasis effect="bold">(S.P. 6.1)</emphasis></item>
+<item><emphasis effect="bold">5.B.4.1</emphasis> The student is able to describe and make predictions about the internal energy of systems. <emphasis effect="bold">(S.P. 6.4, 7.2)</emphasis></item>
+<item><emphasis effect="bold">5.B.7.1</emphasis> The student is able to predict qualitative changes in the internal energy of a thermodynamic system involving transfer of energy due to heat or work done and justify those predictions in terms of conservation of energy principles. <emphasis effect="bold">(S.P. 6.4, 7.2)</emphasis></item>
+</list></section>
+
+
+    <figure id="import-auto-id1169737786104"><media id="import-auto-id1169737755410" alt="The photograph shows water boiling in a tea kettle kept on a stove. The water vapor is shown to emerge out of the nozzle of the kettle.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_01_01b.jpg"/>
+      </media>
+
+    <caption>This boiling tea kettle represents energy in motion. The water in the kettle is turning to water vapor because heat is being transferred from the stove to the kettle. As the entire system gets hotter, work is done—from the evaporation of the water to the whistling of the kettle. (credit: Gina Hamilton)</caption></figure><para id="import-auto-id1169737860425">If we are interested in how heat transfer is converted into doing work, then the conservation of energy principle is important. The first law of thermodynamics applies the conservation of energy principle to systems where heat transfer and doing work are the methods of transferring energy into and out of the system. The <term id="import-auto-id1169737753839">first law of thermodynamics</term> states that the change in internal energy of a system equals the net heat transfer <emphasis effect="italics"><emphasis effect="italics">into</emphasis></emphasis> the system minus the net work done <emphasis effect="italics"><emphasis effect="italics">by</emphasis></emphasis> the system. In equation form, the first law of thermodynamics is</para>
+    <equation id="fs-id1169737787594"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737803043">Here <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> is the <emphasis effect="italics">change in internal energy</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> of the system. <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the <emphasis effect="italics"><emphasis effect="italics">net heat transferred into the system</emphasis></emphasis>—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the sum of all heat transfer into and out of the system. <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is the <emphasis effect="italics"><emphasis effect="italics">net work done by the system</emphasis></emphasis>—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is the sum of all work done on or by the system. We use the following sign conventions: if <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is positive, then there is a net heat transfer into the system; if <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is positive, then there is net work done by the system. So positive <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> adds energy to the system and positive <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> takes energy from the system. Thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math>. Note also that if more heat transfer into the system occurs than work done, the difference is stored as internal energy. Heat engines are a good example of this—heat transfer into them takes place so that they can do work. (See <link target-id="import-auto-id1169738092310"/>.) We will now examine <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> further.</para><figure id="import-auto-id1169738092310"><media id="import-auto-id1169737813073" alt="The figure shows a schematic diagram of a system shown by an ellipse. Heat Q is shown to enter the system as shown by a bold arrow toward the ellipse. The work done is shown pointing away from the system. The internal energy of the system is marked as delta U equals Q minus W. The second part of the figure shows two arrow diagrams for the heat change Q and work W. Q is shown as Q in minus Q out. W is shown as W out minus W in.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_01_02b.jpg"/>
+      </media>
+
+    <caption>The first law of thermodynamics is the conservation-of-energy principle stated for a system where heat and work are the methods of transferring energy for a system in thermal equilibrium. <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> represents the net heat transfer—it is the sum of all heat transfers into and out of the system. <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is positive for net heat transfer <emphasis effect="italics">into</emphasis> the system. <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is the total work done on and by the system. <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is positive when more work is done <emphasis effect="italics">by</emphasis> the system than on it. The change in the internal energy of the system, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math>, is related to heat and work by the first law of thermodynamics, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math>.</caption></figure><note id="fs-id1169737907379"><label/><title>Making Connections: Law of Thermodynamics and Law of Conservation of Energy</title>
+
+    <para id="import-auto-id1169737906168">The first law of thermodynamics is actually the law of conservation of energy stated in a form most useful in thermodynamics. The first law gives the relationship between heat transfer, work done, and the change in internal energy of a system.</para>
+    </note>
+
+  <section id="fs-id1169738025510">
+    <title>Heat <emphasis effect="italics">Q</emphasis> and Work <emphasis effect="italics">W</emphasis></title><para id="import-auto-id1169736614686">Heat transfer (<m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>) and doing work (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) are the two everyday means of bringing energy into or taking energy out of a system. The processes are quite different. Heat transfer, a less organized process, is driven by temperature differences. Work, a quite organized process, involves a macroscopic force exerted through a distance. Nevertheless, heat and work can produce identical results. <emphasis effect="italics"/>For example, both can cause a temperature increase. Heat transfer into a system, such as when the Sun warms the air in a bicycle tire, can increase its temperature, and so can work done on the system, as when the bicyclist pumps air into the tire. Once the temperature increase has occurred, it is impossible to tell whether it was caused by heat transfer or by doing work. This uncertainty is an important point. Heat transfer and work are both energy in transit—neither is stored as such in a system. However, both can change the internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> of a system. Internal energy is a form of energy completely different from either heat or work.</para></section>
+
+  <section id="fs-id1169738198415">
+    <title>Internal Energy <emphasis effect="italics">U</emphasis></title><para id="import-auto-id1169737795608">We can think about the internal energy of a system in two different but consistent ways. The first is the atomic and molecular view, which examines the system on the atomic and molecular scale. The <term id="import-auto-id1169737763498">internal energy</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> of a system is the sum of the kinetic and potential energies of its atoms and molecules. Recall that kinetic plus potential energy is called mechanical energy. Thus internal energy is the sum of atomic and molecular mechanical energy. Because it is impossible to keep track of all individual atoms and molecules, we must deal with averages and distributions. A second way to view the internal energy of a system is in terms of its macroscopic characteristics, which are very similar to atomic and molecular average values.</para>
+    <para id="import-auto-id1169737754060">Macroscopically, we define the change in internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> to be that given by the first law of thermodynamics:</para>
+    <equation id="fs-id1169738046146"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738144580">Many detailed experiments have verified that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> is the change in total kinetic and potential energy of all atoms and molecules in a system. It has also been determined experimentally that the internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> of a system depends only on the state of the system and <emphasis effect="italics"><emphasis effect="italics">not how it reached that state</emphasis>.</emphasis> More specifically, <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> is found to be a function of a few macroscopic quantities (pressure, volume, and temperature, for example), independent of past history such as whether there has been heat transfer or work done. This independence means that if we know the state of a system, we can calculate changes in its internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> from a few macroscopic variables.</para>
+
+
+<note id="fs-id2799694"><title>Real World Connections: Pistons</title><para id="fs-id2018712">In a previous chapter, temperature was related to the average kinetic energy of the individual molecules in the material. This relates to the concept of total internal energy in a system. Recall that the total internal energy of a system is defined as the sum of all the kinetic energies of all the elements of the system, plus the sum of all the potential energies of interactions between all of the pairs of elements in the system. For example, consider an internal combustion engine utilizing a piston in a cylinder. First, the piston compresses the gas in the cylinder, forcing the molecules closer to each other and changing their potential energy by an outside force doing work on the system. This is the compression stroke, <link target-id="fs-id2023040"/>(b). Then fuel is burned in the cylinder, raising the temperature and hence kinetic energy of all of the molecules. Therefore, the internal energy of the system has had chemical potential energy converted into kinetic energy. This occurs between the compression and power strokes in the figure. Then the piston is pushed back out, using some of the internal energy of the system to do work on an outside system, as shown in the power stroke in the figure.</para><figure id="fs-id2023040">
+<media id="fs-id1514109" alt="There are two illustrations representing an engine cylinder with a piston. The first figure is labeled Work done on a system (a) and has a piston at the top of the stroke with a black arrow pointing up toward the top of the cylinder. The second figures is labeled Work done by system (b) and has the cylinder moving down and clockwise around the center of the cylinder. At the top of the second diagram is red arrow pointing down toward the bottom of the cylinder and the equation F = PA.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_15_M1_WorkPist.jpg"/>
+</media>
+<caption>Internal combustion engine pistons in cylinder. </caption>
+</figure>
+</note><note id="fs-id1169738068843"><label/>
+
+<title>Making Connections: Macroscopic and Microscopic</title>
+
+    <para id="import-auto-id1169737923795">In thermodynamics, we often use the macroscopic picture when making calculations of how a system behaves, while the atomic and molecular picture gives underlying explanations in terms of averages and distributions. We shall see this again in later sections of this chapter. For example, in the topic of entropy, calculations will be made using the atomic and molecular view.</para>
+    </note><para id="import-auto-id1169738138646">To get a better idea of how to think about the internal energy of a system, let us examine a system going from State 1 to State 2. The system has internal energy <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> in State 1, and it has internal energy <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> in State 2, no matter how it got to either state. So the change in internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>U</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>U</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=U rSub { size 8{2} }  - U rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is independent of what caused the change. In other words, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> <emphasis effect="italics">is independent of path</emphasis>. By path, we mean the method of getting from the starting point to the ending point. Why is this independence important? Note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math>. Both <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">depend on path</emphasis>, but <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> does not. This path independence means that internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> is easier to consider than either heat transfer or work done.</para>
+
+    <example id="fs-id1169738246688">
+    <title>Calculating Change in Internal Energy: The Same Change in <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> is Produced by Two Different Processes</title>
+    <para id="import-auto-id1169738093020">(a) Suppose there is heat transfer of 40.00 J to a system, while the system does 10.00 J of work. Later, there is heat transfer of 25.00 J out of the system while 4.00 J of work is done on the system. What is the net change in internal energy of the system?</para>
+    <para id="import-auto-id1169738137775">(b) What is the change in internal energy of a system when a total of 150.00 J of heat transfer occurs out of (from) the system and 159.00 J of work is done on the system? (See <link target-id="import-auto-id1169738082268"/>).</para>
+
+      <para id="import-auto-id1169737785919"><title>Strategy</title></para>
+      <para id="fs-id1169737741669">In part (a), we must first find the net heat transfer and net work done from the given information. Then the first law of thermodynamics <m:math><m:mo>(</m:mo><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics><m:mo>)</m:mo></m:math> can be used to find the change in internal energy. In part (b), the net heat transfer and work done are given, so the equation can be used directly.</para><para id="import-auto-id1169738245990"><title>Solution for (a)</title></para>
+      <para id="fs-id1169737777233">The net heat transfer is the heat transfer into the system minus the heat transfer out of the system, or</para>
+    <equation id="fs-id1169738073160"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>40</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J</m:mtext><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>15</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mo>J.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q="40" "." "00"" J"-"25" "." "00"" J"="15" "." "00"" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737705641">Similarly, the total work is the work done by the system minus the work done on the system, or</para>
+      <equation id="fs-id1169738219750"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W="10" "." "00"" J"-4 "." "00"" J"=6 "." "00"" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737939774">Thus the change in internal energy is given by the first law of thermodynamics:</para>
+      <equation id="fs-id1169738087195"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>15</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU=Q-W="15" "." "00"" J"-6 "." "00"" J"=9 "." "00"" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737786171">We can also find the change in internal energy for each of the two steps. First, consider 40.00 J of heat transfer in and 10.00 J of work out, or</para>
+      <equation id="fs-id1169738251868"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>U</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>40</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU rSub { size 8{1} } =Q rSub { size 8{1} } -W rSub { size 8{1} } ="40" "." "00"" J"-"10" "." "00"" J"="30" "." "00"" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737787988">Now consider 25.00 J of heat transfer out and 4.00 J of work in, or</para>
+      <equation id="fs-id1169737968568"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>U</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mtext>=</m:mtext><m:mo>-</m:mo><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mo>J</m:mo><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mtext>–21.00 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU rSub { size 8{2} } =Q rSub { size 8{2} } -W rSub { size 8{2} } "=-""25" "." "00"" J"- \( -4 "." "00"" J" \) "=-""21" "." "00"" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737718997">The total change is the sum of these two steps, or</para>
+      <equation id="fs-id1169738176369"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>U</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mn>Δ</m:mn><m:msub><m:mi>U</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mrow><m:mrow><m:mo>J</m:mo><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>21</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mo>J</m:mo></m:mrow></m:mfenced></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU=DU rSub { size 8{1} } +DU rSub { size 8{2} } ="30" "." "00"" J"+ left (-"21" "." "00"" J" right )=9 "." "00"" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737909434"><title>Discussion on (a)</title></para>
+    <para id="eip-666">No matter whether you look at the overall process or break it into steps, the change in internal energy is the same.</para>
+
+      <para id="import-auto-id1169737968976"><title>Solution for (b)</title></para>
+    <para id="eip-471">Here the net heat transfer and total work are given directly to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mtext>150</m:mtext><m:mtext>.</m:mtext><m:mtext>00 J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q"=-""150" "." "00"" J"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo>=</m:mo><m:mo>–</m:mo><m:mtext>159</m:mtext><m:mtext>.</m:mtext><m:mtext>00 J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W"=-""159" "." "00"" J"} {}</m:annotation></m:semantics></m:math>, so that</para><equation id="eip-625"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">–</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mo>=</m:mo><m:mo>–</m:mo><m:mtext>150</m:mtext><m:mtext>.</m:mtext><m:mtext>00 J</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>159</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU=Q-W"=-""150" "." "00"" J"- \( -"159" "." "00"" J" \) =9 "." "00"" J"} {}</m:annotation></m:semantics></m:math>
+    </equation><para id="import-auto-id1169737711330"><title>Discussion on (b)</title></para><para id="eip-46">A very different process in part (b) produces the same 9.00-J change in internal energy as in part (a). Note that the change in the system in both parts is related to <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> and not to the individual <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>s or <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>s involved. The system ends up in the <emphasis effect="italics"><emphasis effect="italics">same</emphasis></emphasis> state in both (a) and (b). Parts (a) and (b) present two different paths for the system to follow between the same starting and ending points, and the change in internal energy for each is the same—it is independent of path.</para></example>
+
+
+<figure id="import-auto-id1169738082268"><media id="import-auto-id1169737951554" alt="The first part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A quantity of heat Q in equals forty joules, is shown to enter the system and Q out equals negative twenty five joules is shown to leave the system. The energy of the system in is marked as fifteen joules. At the right-hand side of the circle, a work W in equals negative four joules is shown to be applied on the system and a work W out equals ten joules is shown to leave the system. The energy of the system out is marked as six joules. The second part of the picture shows a system in the form of a circle for explanation purposes. The heat entering and work done are represented by bold arrows. A work of negative one hundred fifty nine is shown to enter the system. The energy in the system is shown as one hundred fifty nine joules. The out energy of the system is one hundred fifty joules. A heat Q out of negative one hundred fifty joules is shown to leave the system as an outward arrow.">
+    <image mime-type="image/jpg" src="../../media/Figure_16_01_03b.jpg"/></media>
+
+<caption>Two different processes produce the same change in a system. (a) A total of 15.00 J of heat transfer occurs into the system, while work takes out a total of 6.00 J. The change in internal energy is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DU=Q-W=9 "." "00"" J"} {}</m:annotation></m:semantics></m:math>. (b) Heat transfer removes 150.00 J from the system while work puts 159.00 J into it, producing an increase of 9.00 J in internal energy. If the system starts out in the same state in (a) and (b), it will end up in the same final state in either case—its final state is related to internal energy, not how that energy was acquired.</caption></figure>
+
+<note id="fs-id1390866"><title>Applying the Science Practices: Energy in a Potato Cannon</title><para id="eip-id2375060"/><para id="fs-id3921326">Plan and design an experiment to measure the total energy out of a potato cannon. How will you measure how much work was done? How will you calculate the energy put in? How can you then estimate how much heat was output? What variables do you need to hold constant over multiple trials for the best results?</para>
+<para id="fs-id2374910">The trajectory of the projectile should be measurable and provide a means of calculating the work done. The energy input should be calculable from the type of fuel used. Using the same amount of fuel in each trial would be helpful. The heat output can be estimated by comparing the energy input with the energy required to do the work.</para>
+</note><section id="fs-id1169737734826">
+  <title>Human Metabolism and the First Law of Thermodynamics</title>
+    <para id="import-auto-id1169738059863"><term id="import-auto-id1169738059864">Human metabolism</term> is the conversion of food into heat transfer, work, and stored fat. Metabolism is an interesting example of the first law of thermodynamics in action. We now take another look at these topics via the first law of thermodynamics. Considering the body as the system of interest, we can use the first law to examine heat transfer, doing work, and internal energy in activities ranging from sleep to heavy exercise. What are some of the major characteristics of heat transfer, doing work, and energy in the body? For one, body temperature is normally kept constant by heat transfer to the surroundings. This means <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is negative. Another fact is that the body usually does work on the outside world. This means <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is positive. In such situations, then, the body loses internal energy, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math> is negative.</para>
+    <para id="import-auto-id1169737930252">Now consider the effects of eating. Eating increases the internal energy of the body by adding chemical potential energy (this is an unromantic view of a good steak). The body <emphasis effect="italics"><emphasis effect="italics">metabolizes</emphasis></emphasis> all the food we consume. Basically, metabolism is an oxidation process in which the chemical potential energy of food is released. This implies that food input is in the form of work. Food energy is reported in a special unit, known as the Calorie. This energy is measured by burning food in a calorimeter, which is how the units are determined.</para><para id="eip-17">In chemistry and biochemistry, one calorie (spelled with a <emphasis effect="italics">lowercase</emphasis> c) is defined as the energy (or heat transfer) required to raise the temperature of one gram of pure water by one degree Celsius.  Nutritionists and weight-watchers tend to use the <emphasis effect="italics">dietary</emphasis> calorie, which is frequently called a Calorie (spelled with a <emphasis effect="italics">capital</emphasis> C). One food Calorie is the energy needed to raise the temperature of one <emphasis effect="italics">kilogram</emphasis> of water by one degree Celsius. This means that one dietary Calorie is equal to one kilocalorie for the chemist, and one must be careful to avoid confusion between the two.</para><para id="import-auto-id1169737923881">Again, consider the internal energy the body has lost. There are three places this internal energy can go—to heat transfer, to doing work, and to stored fat (a tiny fraction also goes to cell repair and growth). Heat transfer and doing work take internal energy out of the body, and food puts it back. If you eat just the right amount of food, then your average internal energy remains constant. Whatever you lose to heat transfer and doing work is replaced by food, so that, in the long run, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=0} {}</m:annotation></m:semantics></m:math>. If you overeat repeatedly, then <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> is always positive, and your body stores this extra internal energy as fat. The reverse is true if you eat too little. If <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> is negative for a few days, then the body metabolizes its own fat to maintain body temperature and do work that takes energy from the body. This process is how dieting produces weight loss.</para><para id="import-auto-id1169736610633">Life is not always this simple, as any dieter knows. The body stores fat or metabolizes it only if energy intake changes for a period of several days. Once you have been on a major diet, the next one is less successful because your body alters the way it responds to low energy intake. Your basal metabolic rate (BMR) is the rate at which food is converted into heat transfer and work done while the body is at complete rest. The body adjusts its basal metabolic rate to partially compensate for over-eating or under-eating. The body will decrease the metabolic rate rather than eliminate its own fat to replace lost food intake. You will chill more easily and feel less energetic as a result of the lower metabolic rate, and you will not lose weight as fast as before. Exercise helps to lose weight, because it produces both heat transfer from your body and work, and raises your metabolic rate even when you are at rest. Weight loss is also aided by the quite low efficiency of the body in converting internal energy to work, so that the loss of internal energy resulting from doing work is much greater than the work done. <emphasis effect="italics"/>It should be noted, however, that living systems are not in thermal<sup/>equilibrium. </para><para id="eip-777">The body provides us with an excellent indication that many thermodynamic processes are <emphasis effect="italics"><emphasis effect="italics">irreversible</emphasis></emphasis>. An irreversible process can go in one direction but not the reverse, under a given set of conditions. For example, although body fat can be converted to do work and produce heat transfer, work done on the body and heat transfer into it cannot be converted to body fat. Otherwise, we could skip lunch by sunning ourselves or by walking down stairs. Another example of an irreversible thermodynamic process is photosynthesis. This process is the intake of one form of energy—light—by plants and its conversion to chemical potential energy. Both applications of the first law of thermodynamics are illustrated in <link target-id="import-auto-id1169737762762"/>. One great advantage of conservation laws such as the first law of thermodynamics is that they accurately describe the beginning and ending points of complex processes, such as metabolism and photosynthesis, without regard to the complications in between. <link target-id="import-auto-id1169738198965"/> presents a summary of terms relevant to the first law of thermodynamics.</para><figure id="import-auto-id1169737762762"><media id="import-auto-id1169737762763" alt="Part a of the figure is a pictorial representation of metabolism in a human body. The food is shown to enter the body as shown by a bold arrow toward the body. Work W and heat Q leave the body as shown by bold arrows pointing outward from the body. Delta U is shown as the stored food energy. Part b of the figure shows the metabolism in plants .The heat from the sunlight is shown to fall on a plant represented as Q in. The heat given out by the plant is shown as Q out by an arrow pointing away from the plant.">
+            <image mime-type="image/jpg" src="../../media/Figure_16_01_04a.jpg"/>
+          </media>
+
+        <caption>(a) The first law of thermodynamics applied to metabolism. Heat transferred out of the body (<m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>) and work done by the body (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) remove internal energy, while food intake replaces it. (Food intake may be considered as work done on the body.) (b) Plants convert part of the radiant heat transfer in sunlight to stored chemical energy, a process called photosynthesis.</caption></figure><table id="import-auto-id1169738198965" summary="The table shows summary of terms for the first law of thermodynamics. The first column shows the terms and the second column shows their definitions."><title>Summary of Terms for the First Law of Thermodynamics, <emphasis effect="italics">ΔU=Q−W</emphasis></title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead>
+             <row>
+            <entry>Term</entry>
+            <entry>Definition</entry>
+            </row>
+</thead><tbody>
+              <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+
+                        <m:mrow>
+                          <m:mi>U</m:mi>
+                        </m:mrow>
+
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>Internal energy—the sum of the kinetic and potential energies of a system's atoms and molecules. Can be divided into many subcategories, such as thermal and chemical energy. Depends only on the state of a system (such as its <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>), not on how the energy entered the system. Change in internal energy is path independent.</entry>
+            </row>
+
+             <row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+
+                        <m:mrow>
+                          <m:mi>Q</m:mi>
+                        </m:mrow>
+
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>Heat—energy transferred because of a temperature difference. Characterized by random molecular motion. Highly dependent on path. <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> entering a system is positive.</entry>
+            </row><row>
+              <entry>
+                <m:math>
+                  <m:semantics>
+                    <m:mrow>
+
+                        <m:mrow>
+                          <m:mi>W</m:mi>
+                        </m:mrow>
+
+                      <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation>
+                  </m:semantics>
+                </m:math>
+              </entry>
+              <entry>Work—energy transferred by a force moving through a distance. An organized, orderly process. Path dependent. <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> done by a system (either against an external force or to increase the volume of the system) is positive.</entry>
+            </row></tbody>
+</tgroup>
+</table></section>
+  </section>
+
+
+
+<section id="fs-id1832467" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+<exercise id="fs-id2216854" type="ap-test-prep"><problem id="fs-id2216858">
+<para id="fs-id2216860">A cylinder is divided in half by a movable disk in the middle. Each half is filled with an equal number of gas molecules, but one half is at a higher temperature than the other. Which choice best describes what happens next?</para>
+<list id="fs-id1859997" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>Nothing.</item>
+<item>The high temperature side expands, compressing the low temperature side.</item>
+<item>Heat moves from hot to cold, so the low temperature side will gradually increase in temperature and expand</item>
+<item>(b) happens quickly, but after that (c) happens more slowly.</item>
+</list></problem>
+<solution id="fs-id3179586">
+<para id="fs-id3179588">(d)</para></solution>
+</exercise><exercise id="fs-id2211820" type="ap-test-prep">
+<problem id="fs-id2211823">
+<para id="fs-id2663508">Imagine a solid material at the molecular level as consisting of a bunch of billiard balls connected to each other by springs (this is actually a surprisingly useful approximation). If we have two blocks of the same material, but in one the billiard balls are shaking back and forth on their springs a great deal, and in the other they are barely moving, which block is at the higher temperature? Using what you know about conservation of momentum in collisions, describe which block will transfer energy to the other, and justify your answer.</para>
+</problem>
+<!--<solution id="fs-id2329353">
+<para id="fs-id2329356">The block with the balls shaking a lot is at a higher temperature. From conservation of momentum and energy, we know that when a moving mass hits a stationary (or slower) one, energy gets transferred to the ball with less kinetic energy. When the two blocks are in contact, the process transfers energy from the higher temperature one to the lower temperature one.</para>
+</solution>-->
+</exercise>
+<exercise id="fs-id2218737" type="ap-test-prep"><problem id="fs-id2218740">
+<para id="fs-id2061280">A system has 300 J of work done on it, and has a heat transfer of -320 J. Compared to prior to these processes, the internal energy is:</para>
+<list id="fs-id2061284" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>20 J less</item>
+<item>20 J more</item>
+<item>620 J more</item>
+<item>620 J less</item>
+</list>
+</problem>
+<solution id="fs-id1897307">
+<para id="fs-id884481">(a)</para></solution>
+</exercise><exercise id="fs-id884487" type="ap-test-prep">
+<problem id="fs-id1533768">
+<para id="fs-id1533770">Find a snack or drink item in the classroom, or at your next meal. Find the total Calories (kilocalories) in the item, and calculate how long it would take exercising at 150 W (moderately, climbing stairs) at 20% efficiency to burn off this energy.</para>
+</problem>
+<!--<solution id="fs-id3184148">
+<para id="fs-id3184150">A 350 kcal item would be 1470 kJ, which would take ~ 32 minutes.</para>
+</solution>-->
+</exercise>
+
+<exercise id="fs-id3184155" type="ap-test-prep"><problem id="fs-id2402283">
+<para id="fs-id2402285">A potato cannon has the fuel combusted, generating a lot of heat and pressure, which launch a potato. The combustion process _____ the internal energy, while launching the potato _____ the internal energy of the potato cannon.</para>
+<list id="fs-id2834318" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>increases, increases</item>
+<item>increases, decreases</item>
+<item>decreases, increases</item>
+<item>decreases, decreases</item>
+</list>
+</problem>
+<solution id="fs-id2462305">
+<para id="fs-id2462307">(b)</para></solution>
+</exercise><exercise id="fs-id3826091" type="ap-test-prep"><problem id="fs-id3826094">
+<para id="fs-id3826096">Describe what happens to the system inside of a refrigerator or freezer in terms of heat transfer, work, and conservation of energy. Confine yourself to time periods in which the door is closed.</para>
+</problem>
+<!--<solution id="fs-id2642010">
+<para id="fs-id2642012">Work is done on this system, to transfer even more heat out, for a net reduction in internal energy.</para></solution>-->
+</exercise></section>
+
+
+
+    <section id="fs-id1169738146732" class="section-summary"><title>Section Summary</title><list id="fs-id1169737724456"><item id="import-auto-id1169737723973">The first law of thermodynamics is given as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> is the change in internal energy of a system, <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the net heat transfer (the sum of all heat transfer into and out of the system), and <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is the net work done (the sum of all work done on or by the system).</item>
+    <item id="import-auto-id1169738082355">Both <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> are energy in transit; only <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> represents an independent quantity capable of being stored.</item>
+    <item id="import-auto-id1169738068753">The internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> of a system depends only on the state of the system and not how it reached that state.</item>
+    <item id="import-auto-id1169737826464">Metabolism of living organisms, and photosynthesis of plants, are specialized types of heat transfer, doing work, and internal energy of systems.</item>
+    </list></section><section id="fs-id1169737972465" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+
+      <exercise id="fs-id1169737771878" type="conceptual-questions">
+      <problem id="fs-id1169737777898">
+   <para id="import-auto-id1169737788592">Describe the photo of the tea kettle at the beginning of this section in terms of heat transfer, work done, and internal energy. How is heat being transferred? What is the work done and what is doing it? How does the kettle maintain its internal energy?</para>
+      </problem></exercise>
+
+      <exercise id="fs-id1169736613764" type="conceptual-questions"><problem id="fs-id1169738073970">
+    <para id="import-auto-id1169738150470">The first law of thermodynamics and the conservation of energy, as discussed in <link document="m55049">Conservation of Energy</link>, are clearly related. How do they differ in the types of energy considered?</para></problem>
+      </exercise><exercise id="fs-id1169737795632" type="conceptual-questions">
+            <problem id="fs-id1169738146713">
+    <para id="import-auto-id1169738081394">Heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> and work done <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> are always energy in transit, whereas internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> is energy stored in a system. Give an example of each type of energy, and state specifically how it is either in transit or resides in a system.</para>
+            </problem>
+          </exercise>
+
+      <exercise id="fs-id1169738066105" type="conceptual-questions">
+        <problem id="fs-id1169737981007">
+    <para id="import-auto-id1169736581937">How do heat transfer and internal energy differ? In particular, which can be stored as such in a system and which cannot?</para>
+        </problem>
+      </exercise>
+
+      <exercise id="fs-id1169737981273" type="conceptual-questions">
+        <problem id="fs-id1169737991688">
+    <para id="import-auto-id1169738249056">If you run down some stairs and stop, what happens to your kinetic energy and your initial gravitational potential energy?</para>
+        </problem>
+        </exercise>
+
+      <exercise id="fs-id1169736609392" type="conceptual-questions">
+        <problem id="fs-id1169737806110">
+    <para id="import-auto-id1169737923800">Give an explanation of how food energy (calories) can be viewed as molecular potential energy (consistent with the atomic and molecular definition of internal energy).</para>
+        </problem>
+      </exercise>
+
+      <exercise id="fs-id1169738111986" type="conceptual-questions">
+        <problem id="fs-id1169738011981">
+    <para id="import-auto-id1169737723470">Identify the type of energy transferred to your body in each of the following as either internal energy, heat transfer, or doing work: (a) basking in sunlight; (b) eating food; (c) riding an elevator to a higher floor.</para>
+        </problem>
+        </exercise>
+    </section>
+
+    <section id="fs-id1169738082282" type="problems-exercises" class="problems-exercises">
+<title>Problems &amp; Exercises</title><exercise id="fs-id1169738251354" type="problems-exercises">
+      <problem id="fs-id1169738135242">
+        <para id="import-auto-id1169737795100">What is the change in internal energy of a car if you put 12.0 gal of gasoline into its tank? The energy content of gasoline is  <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+1
+         </m:mn>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mn>
+3
+          </m:mn>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+8
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msup>
+         </m:mrow><m:mspace width="0.25em"/>
+         <m:mtext>
+J/gal
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{1 "." 3 times "10" rSup { size 8{8} } " J/gal"} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>. All other factors, such as the car's temperature, are constant.</para></problem>
+    <solution id="fs-id1169738163695">
+    <para id="import-auto-id1169737827147"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mn>6</m:mn>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> J</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 "." 6 times "10" rSup { size 8{9} } " J"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+      </exercise>
+
+      <exercise id="fs-id1169737930376" type="problems-exercises">
+        <problem id="fs-id1169737792639">
+    <para id="import-auto-id1169737854764">How much heat transfer occurs from a system, if its internal energy decreased by 150 J while it was doing 30.0 J of work?</para>
+        </problem>
+      </exercise>
+
+      <exercise id="fs-id1169738061831" type="problems-exercises">
+        <problem id="fs-id1169738052855">
+    <para id="import-auto-id1169737882378">A system does <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>80</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "80"´"10" rSup { size 8{8} } " J"} {}</m:annotation></m:semantics></m:math> of work while <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50"´"10" rSup { size 8{8} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer occurs to the environment. What is the change in internal energy of the system assuming no other changes (such as in temperature or by the addition of fuel)?</para></problem>
+    <solution id="fs-id1169737779588">
+    <para id="import-auto-id1169738006792"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">-</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>30</m:mtext>
+                  <m:mi>×</m:mi>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+
+                      <m:mrow>
+                        <m:mn>8</m:mn>
+                      </m:mrow>
+
+                  </m:msup><m:mspace width="0.25em"/>
+                  <m:mtext> J</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ +- 9 "." "30"´"10" rSup { size 8{8} } " J"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+        </exercise>
+
+      <exercise id="fs-id1169737725397" type="problems-exercises">
+        <problem id="fs-id1169738048114">
+    <para id="import-auto-id1169737812232">What is the change in internal energy of a system which does <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "50"´"10" rSup { size 8{5} } " J"} {}</m:annotation></m:semantics></m:math> of work while <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00"´"10" rSup { size 8{6} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer occurs into the system, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00"´"10" rSup { size 8{6} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer occurs to the environment?</para></problem>
+      </exercise>
+
+      <exercise id="fs-id1169738072326" type="problems-exercises"><problem id="fs-id1169738131479">
+    <para id="import-auto-id1169737723570">Suppose a woman does 500 J of work and 9500 J of heat transfer occurs into the environment in the process. (a) What is the decrease in her internal energy, assuming no change in temperature or consumption of food? (That is, there is no other energy transfer.) (b) What is her efficiency?</para>
+</problem>
+          <solution id="fs-id1169738205808">
+    <para id="import-auto-id1169738208033">(a) <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mo stretchy="false">
+−
+          </m:mo>
+          <m:mn>
+1
+          </m:mn>
+         </m:mrow>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mn>
+0
+          </m:mn>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+4
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msup>
+         </m:mrow><m:mspace width="0.25em"/>
+         <m:mtext>
+J
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{ - 1 "." 0 times "10" rSup { size 8{4} } " J"} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math>
+
+, or
+
+   <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mrow>
+          <m:mo stretchy="false">
+−
+          </m:mo>
+          <m:mn>
+2
+          </m:mn>
+         </m:mrow>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mtext>
+39 kcal
+         </m:mtext>
+
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+    </m:semantics>
+   </m:math></para><para id="eip-id1169738181124">(b) 5.00%</para>
+</solution>
+      </exercise>
+
+      <exercise id="fs-id1169737755290" type="problems-exercises"><problem id="fs-id1169736610393">
+    <para id="import-auto-id1169737964958">(a) How much food energy will a man metabolize in the process of doing 35.0 kJ of work with an efficiency of 5.00%? (b) How much heat transfer occurs to the environment to keep his temperature constant? Explicitly show how you follow the steps in the Problem-Solving Strategy for thermodynamics found in <link document="m55266" target-id="fs-id1169738116696">Problem-Solving Strategies for Thermodynamics</link>.</para></problem>
+      </exercise><exercise id="fs-id1169738011987" type="problems-exercises">
+          <problem id="fs-id1169737898383">
+    <para id="import-auto-id1169737820005">(a) What is the average metabolic rate in watts of a man who metabolizes 10,500 kJ of food energy in one day? (b) What is the maximum amount of work in joules he can do without breaking down fat, assuming a maximum efficiency of 20.0%? (c) Compare his work output with the daily output of a 187-W (0.250-horsepower) motor.</para>
+</problem>
+    <solution id="fs-id1169737795677">
+    <para id="import-auto-id1169736598423">(a) 122 W</para><para id="import-auto-id1169737770764">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "09" times "10" rSup { size 8{6} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737909423">(c) Work done by the motor is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>61</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "61" times "10" rSup { size 8{7} } " J"} {}</m:annotation></m:semantics></m:math> ;thus the motor produces 7.67 times the work done by the man</para></solution>
+          </exercise>
+
+        <exercise id="fs-id1169737713466" type="problems-exercises">
+          <problem id="fs-id1169738257682">
+    <para id="import-auto-id1169738187854">(a) How long will the energy in a 1470-kJ (350-kcal) cup of yogurt last in a woman doing work at the rate of 150 W with an efficiency of 20.0% (such as in leisurely climbing stairs)? (b) Does the time found in part (a) imply that it is easy to consume more food energy than you can reasonably expect to work off with exercise?</para>
+          </problem>
+        </exercise>
+
+        <exercise id="fs-id1169737799530" type="problems-exercises"><problem id="fs-id1169738113674">
+    <para id="import-auto-id1169737967820">(a) A woman climbing the Washington Monument metabolizes <m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+6
+         </m:mn>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mtext>
+00
+          </m:mtext>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+2
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+           </m:mrow>
+          </m:msup>
+         </m:mrow><m:mspace width="0.25em"/>
+         <m:mtext>
+kJ
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{6 "." "00" times "10" rSup { size 8{2} } " kJ"} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math> of food energy. If her efficiency is 18.0%, how much heat transfer occurs to the environment to keep her temperature constant? (b) Discuss the amount of heat transfer found in (a). Is it consistent with the fact that you quickly warm up when exercising?</para></problem>
+            <solution id="fs-id1169737830824">
+    <para id="import-auto-id1169738224711">(a) 492 kJ</para>
+
+<para id="eip-id1169723184118">(b) This amount of heat is consistent with the fact that you warm quickly when exercising. Since the body is inefficient, the excess heat produced must be dissipated through sweating, breathing, etc.
+</para>  </solution>
+          </exercise></section>
+ </content>
+
+
+  <glossary>
+    <definition id="import-auto-id1169737714704"><term>first law of thermodynamics</term> <meaning id="fs-id1169737940510">states that the change in internal energy of a system equals the net heat transfer <emphasis effect="italics"><emphasis effect="italics">into</emphasis></emphasis> the system minus the net work done <emphasis effect="italics"><emphasis effect="italics">by</emphasis></emphasis> the system</meaning></definition>
+    <definition id="import-auto-id1169737086937"><term>internal energy</term> <meaning id="fs-id1169737764302">the sum of the kinetic and potential energies of a system's atoms and molecules</meaning></definition>
+    <definition id="import-auto-id1169737741959"><term>human metabolism</term> <meaning id="fs-id1169738137757">conversion of food into heat transfer, work, and stored fat</meaning></definition>
+  </glossary>
+</document>

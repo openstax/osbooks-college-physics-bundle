@@ -1,0 +1,675 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Collisions of Extended Bodies in Two Dimensions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55192</md:content-id>
+  <md:title>Collisions of Extended Bodies in Two Dimensions</md:title>
+  <md:abstract/>
+  <md:uuid>02c6e7b2-1614-4fc3-a850-4381bef8ba91</md:uuid>
+</metadata>
+
+<content>
+
+<section id="fs-id2691738" class="learning-objectives">
+<title>Learning Objectives</title>
+<para id="fs-id2733514">By the end of this section, you will be able to:</para>
+<list id="fs-id2185676">
+<item>Observe collisions of extended bodies in two dimensions.</item>
+<item>Examine collisions at the point of percussion.</item>
+</list>
+<para id="fs-id2729399">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id2997784">
+<item><emphasis effect="bold">3.F.3.1</emphasis> The student is able to predict the behavior of rotational collision situations by the same processes that are used to analyze linear collision situations using an analogy between impulse and change of linear momentum and angular impulse and change of angular momentum. <emphasis effect="bold">(S.P. 6.4, 7.2)</emphasis></item>
+<item><emphasis effect="bold">3.F.3.2</emphasis> In an unfamiliar context or using representations beyond equations, the student is able to justify the selection of a mathematical routine to solve for the change in angular momentum of an object caused by torques exerted on the object. <emphasis effect="bold">(S.P. 2.1)</emphasis></item>
+<item><emphasis effect="bold">3.F.3.3</emphasis> The student is able to plan data collection and analysis strategies designed to test the relationship between torques exerted on an object and the change in angular momentum of that object. <emphasis effect="bold">(S.P. 4.1, 4.2,, 5.1, 5.3)</emphasis></item>
+<item><emphasis effect="bold">4.D.2.1</emphasis> The student is able to describe a model of a rotational system and use that model to analyze a situation in which angular momentum changes due to interaction with other objects or systems. <emphasis effect="bold">(S.P. 1.2, 1.4)</emphasis></item>
+<item><emphasis effect="bold">4.D.2.2</emphasis> The student is able to plan a data collection and analysis strategy to determine the change in angular momentum of a system and relate it to interactions with other objects and systems. <emphasis effect="bold">(S.P. 2.2)</emphasis></item>
+</list></section>
+
+    <para id="import-auto-id1868644">Bowling pins are sent flying and spinning when hit by a bowling ball—angular momentum as well as linear momentum and energy have been imparted to the pins. (See <link target-id="import-auto-id1930706"/>). Many collisions involve angular momentum. Cars, for example, may spin and collide on ice or a wet surface. Baseball pitchers throw curves by putting spin on the baseball. A tennis player can put a lot of top spin on the tennis ball which causes it to dive down onto the court once it crosses the net. We now take a brief look at what happens when objects that can rotate collide.</para><para id="import-auto-id1849029">Consider the relatively simple collision shown in <link target-id="import-auto-id2932439"/>, in which a disk strikes and adheres to an initially motionless stick nailed at one end to a frictionless surface. After the collision, the two rotate about the nail. There is an unbalanced external force on the system at the nail. This force exerts no torque because its lever arm <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is zero. Angular momentum is therefore conserved in the collision. Kinetic energy is not conserved, because the collision is inelastic. It is possible that momentum is not conserved either because the force at the nail may have a component in the direction of the disk's initial velocity. Let us examine a case of rotation in a collision in <link target-id="fs-id3007371"/>.</para><figure id="import-auto-id1930706"><media id="import-auto-id2624851" alt="A bowling ball, just as it is striking the pins.">
+        <image mime-type="image/png" src="../../media/Figure_11_06_01a.jpg"/>
+      </media>
+      
+    <caption>The bowling ball causes the pins to fly, some of them spinning violently. (credit: Tinou Bao, Flickr)</caption></figure><figure id="import-auto-id2932439"><media id="import-auto-id2442687" alt="Figure a shows a disc m sliding toward a motionless stick M of length r pivoted about a nail, on a frictionless surface. In figure b, a disk hits the stick at one end and adheres to it, and the stick rotates, pivoting around the nail in a direction shown by the arrow in the clockwise direction and angular velocity omega.">
+        <image mime-type="image/jpg" src="../../media/Figure_11_06_02a.jpg"/>
+      </media>
+      
+    <caption>(a) A disk slides toward a motionless stick on a frictionless surface. 
+        (b) The disk hits the stick at one end and adheres to it, and they rotate together, pivoting around the nail. Angular momentum is conserved for this inelastic collision because the surface is frictionless and the unbalanced external force at the nail exerts no torque.</caption></figure><example id="fs-id3007371">
+    <title>Rotation in a Collision</title> 
+    <para id="import-auto-id2931609">Suppose the disk in <link target-id="import-auto-id2932439"/> has a mass of 50.0 g and an initial velocity of 30.0 m/s when it strikes the stick that is 1.20 m long and 2.00 kg.</para><para id="import-auto-id2973408">(a) What is the angular velocity of the two after the collision? </para>
+    <para id="import-auto-id3069611">(b) What is the kinetic energy before and after the collision?</para>
+    <para id="import-auto-id1475284">(c) What is the total linear momentum before and after the collision?</para>
+    <para id="import-auto-id2444947">
+      <title>Strategy for (a)</title>
+    </para>
+    <para id="import-auto-id2070967">We can answer the first question using conservation of angular momentum as noted. Because angular momentum is <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">Iω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Iω} {}</m:annotation></m:semantics></m:math>, we can solve for angular velocity.</para>
+    <para id="import-auto-id1596588">
+      <title>Solution for (a)</title>
+    </para>
+    <para id="import-auto-id1421543">Conservation of angular momentum states</para>
+    <equation id="eip-546"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mi>L</m:mi></m:mrow><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=L'} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1350820">where primed quantities stand for conditions after the collision and both momenta are calculated relative to the pivot point. The initial angular momentum of the system of stick-disk is that of the disk just before it strikes the stick. That is,</para>
+    <equation id="eip-376"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Iω</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=Iω} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1071853">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> is the moment of inertia of the disk and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> is its angular velocity around the pivot point. Now, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mtext fontstyle="italic">mr</m:mtext><m:mrow><m:mtext mathvariant="normal">2</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= ital "mr" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> (taking the disk to be approximately a point mass) and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω=v/r} {}</m:annotation></m:semantics></m:math>, so that</para><equation id="eip-881"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mtext fontstyle="italic">mr</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow><m:mfrac><m:mi>v</m:mi><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mvr</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L= ital "mr" rSup { size 8{2} }  {  {v}  over  {r} } = ital "mvr"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2680415">After the collision,</para>
+    <equation id="eip-513"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mi>I</m:mi></m:mrow><m:mi>′</m:mi><m:mi>ω</m:mi><m:mi>′</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L'=I'ω'} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1344056">It is <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                  <m:mi>ω</m:mi>
+                  
+                    <m:mrow>
+<m:mo>′</m:mo>
+                    </m:mrow>              </m:mrow>          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ω rSup { size 8{'} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+        that we wish to find. Conservation of angular momentum gives</para><equation id="eip-525"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo>′</m:mo><m:mi>ω</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mvr</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I'ω'= ital "mvr"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1524955">Rearranging the equation yields</para><equation id="eip-17"><m:math display="block">
+ <m:mrow>
+  <m:msup>
+   <m:mi>ω</m:mi>
+   <m:mo>′</m:mo>
+  </m:msup>
+  <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:mi>v</m:mi><m:mi>r</m:mi>
+   </m:mrow>
+   <m:msup>
+    <m:mi>I</m:mi>
+    <m:mo>′</m:mo>
+   </m:msup>
+   
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+</equation><para id="import-auto-id2662830">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I'} {}</m:annotation></m:semantics></m:math> is the moment of inertia of the stick and disk stuck together, which is the sum of their individual moments of inertia about the nail. <link document="m55186" target-id="fs-id1838666"/> gives the formula for a rod rotating around one end to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mtext fontstyle="italic">Mr</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">/</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= ital "Mr" rSup { size 8{2} } /3} {}</m:annotation></m:semantics></m:math>. Thus,</para><equation id="eip-920"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mrow><m:mrow><m:mi>′</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msup><m:mtext fontstyle="italic">mr</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:msup><m:mtext fontstyle="italic">Mr</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>M</m:mi><m:mn>3</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I'= ital "mr" rSup { size 8{2} } + {  { ital "Mr" rSup { size 8{2} } }  over  {3} } = left (m+ {  {M}  over  {3} }  right )r rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1999783">Entering known values in this equation yields,</para>
+    <equation id="eip-177"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mrow><m:mtext>′</m:mtext><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0500</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">+</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>667 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>20</m:mtext><m:mspace width="0.25em"/><m:mtext> m</m:mtext></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>032</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I'= left (0 "." "0500"" kg"+0 "." "667 kg" right ) left (1 "." "20"" m" right ) rSup { size 8{2} } =1 "." "032"" kg" cdot m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3033358">The value of <m:math><m:semantics><m:mrow><m:mi>I</m:mi><m:mo>′</m:mo></m:mrow></m:semantics></m:math> is now entered into the expression for 
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo>′</m:mo></m:mrow></m:mrow></m:semantics></m:math>, which yields</para><equation id="eip-74"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mi>ω</m:mi><m:mo>′</m:mo></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mvr</m:mtext></m:mrow></m:mstyle><m:mrow><m:mi>I</m:mi><m:mo>′</m:mo></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0500 kg</m:mtext></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mn>0 m/s</m:mn></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>20 m</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>032 kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>744 rad/s</m:mtext><m:mo stretchy="false">≈</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>74 rad/s</m:mtext><m:mrow/><m:mo>.</m:mo></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2052193">
+      <title>Strategy for (b)</title>
+    </para>
+    <para id="import-auto-id1272267">The kinetic energy before the collision is the incoming disk's translational kinetic energy, and after the collision, it is the rotational kinetic energy of the two stuck together.</para>
+    <para id="import-auto-id1973036">
+      <title>Solution for (b)</title>
+    </para>
+    <para id="import-auto-id2599970">First, we calculate the translational kinetic energy by entering given values for the mass and speed of the incoming disk. </para>
+    <equation id="eip-27"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>KE</m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                  
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                          
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          
+                        </m:msup>
+                      </m:mrow>
+                   
+                    <m:mo stretchy="false">=</m:mo>
+<m:mo stretchy="false">(</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>500</m:mtext>
+<m:mo stretchy="false">)</m:mo>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>0500</m:mtext><m:mspace width="0.25em"/>
+                      <m:mtext> kg</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mtext>30</m:mtext>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0</m:mn><m:mspace width="0.25em"/>
+                          <m:mtext> m/s</m:mtext>
+                        </m:mrow>
+                      </m:mfenced>
+                      
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                       </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>22.5 J</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"KE"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } =0 "." "500" left (0 "." "0500"" kg" right ) left ("30" "." 0" m/s" right ) rSup { size 8{2} } ="22" "." 5" J"} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2421283">After the collision, the rotational kinetic energy can be found because we now know the final angular velocity and the final moment of inertia. Thus, entering the values into the rotational kinetic energy equation gives</para>
+    <equation id="eip-100"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:mtext>KE′</m:mtext></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>I</m:mi><m:mo>′</m:mo><m:msup><m:mrow><m:mi>ω</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo stretchy="false">=</m:mo>
+
+<m:mo stretchy="false">(</m:mo>
+<m:mn>0.5</m:mn>
+<m:mo stretchy="false">)</m:mo>
+</m:mrow>
+<m:mfenced open="(" close=")"><m:mrow><m:mn>1.032</m:mn><m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mfenced><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>744</m:mtext><m:mfrac><m:mtext>rad</m:mtext><m:mtext>s</m:mtext></m:mfrac></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mrow><m:mrow/><m:mtext>1.57 J.</m:mtext><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3257631">
+      <title>Strategy for (c)</title>
+    </para>
+    <para id="import-auto-id2397877">The linear momentum before the collision is that of the disk. After the collision, it is the sum of the disk's momentum and that of the center of mass of the stick.</para>
+    <para id="import-auto-id1409968">
+      <emphasis>Solution of (c)</emphasis>
+    </para>
+    <para id="import-auto-id2588636">Before the collision, then, linear momentum is</para>
+    <equation id="eip-283"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0500</m:mtext><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:mrow></m:mrow><m:mo>.</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= ital "mv"= left (0 "." "0500"" kg" right ) left ("30" "." 0" m/s" right )=1 "." "50"" kg" cdot "m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2595124">After the collision, the disk and the stick's center of mass move in the same direction. The total linear momentum is that of the disk moving at a new velocity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">rω</m:mi></m:mrow><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v'=rω'} {}</m:annotation></m:semantics></m:math> plus that of the stick's center of mass, </para><para id="import-auto-id1449854">which moves at half this speed because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mi>r</m:mi><m:mn>2</m:mn></m:mfrac></m:mfenced></m:mrow><m:mi>ω</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"CM"} } = left ( {  {r}  over  {2} }  right )ω'= {  {v'}  over  {2} } } {}</m:annotation></m:semantics></m:math>. Thus,</para><equation id="eip-953"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">+</m:mo><m:mrow><m:msub><m:mtext fontstyle="italic">Mv</m:mtext><m:mrow><m:mtext>CM</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Mv</m:mtext></m:mrow></m:mstyle><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p'= ital "mv"'+ ital "Mv" rSub { size 8{"CM"} } '= ital "mv"'+ {  { ital "Mv"'}  over  {2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1998491">Gathering similar terms in the equation yields,</para>
+    <equation id="eip-699"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>p</m:mi>
+                  <m:mrow>
+                    <m:mo>′</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mi>m</m:mi>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mi>M</m:mi>
+                          <m:mn>2</m:mn>
+                        </m:mfrac>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                  <m:mi>v</m:mi>
+                <m:mo>′</m:mo>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{p'= left (m+ {  {M}  over  {2} }  right )v'} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id3089578">so that</para>
+    <equation id="eip-915"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mi>M</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mi fontstyle="italic">rω</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p'= left (m+ {  {M}  over  {2} }  right )rω'} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2616017">Substituting known values into the equation,</para>
+    <equation id="eip-1000"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mrow><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>050 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>20</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext> m</m:mtext></m:mrow></m:mfenced><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>744 rad/s</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>2.20 kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3277582">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id3277573">First note that the kinetic energy is less after the collision, as predicted, because the collision is inelastic. More surprising is that the momentum after the collision is actually greater than before the collision. This result can be understood if you consider how the nail affects the stick and vice versa. Apparently, the stick pushes backward on the nail when first struck by the disk. The nail's reaction (consistent with Newton's third law) is to push forward on the stick, imparting momentum to it in the same direction in which the disk was initially moving, thereby increasing the momentum of the system.</para>
+    </example>
+
+<note id="fs-id2010387"><title>Applying the Science Practices: Rotational Collisions</title><para id="fs-id1336844">When the disk in <link target-id="fs-id3007371" document=""/> strikes the stick, it exerts a torque on the stick. It is this torque that changes the angular momentum of the stick. A greater torque would produce a greater increase in angular momentum. As you saw in <link target-id="fs-id3253985" document="m55189"/>, the relationship between net torque and angular momentum can be expressed as
+
+<m:math display="inline">
+ <m:mrow>
+  <m:mi>τ</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>L</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>, where
+<m:math display="inline">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>L</m:mi>
+ </m:mrow>
+</m:math> represents the change in angular momentum and 
+<m:math display="inline">
+ <m:mrow>
+  <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+ </m:mrow>
+</m:math> represents the time interval that it took for the angular momentum to change. How can you test this? Design an experiment in which you apply different measurable torques to a simple system. The torque applied to the stick can be varied by changing the mass of the disk, the initial velocity of the disk, or the radius of the impact of the disk on the stick. How will you measure changes to angular momentum? Recall that angular momentum is defined as
+<m:math display="inline">
+ <m:mrow>
+  <m:mi>L</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mi>I</m:mi><m:mi>ω</m:mi>
+ </m:mrow>
+</m:math>.</para></note><para id="import-auto-id2932287">The above example has other implications. For example, what would happen if the disk hit very close to the nail? Obviously, a force would be exerted on the nail in the forward direction. So, when the stick is struck at the end farthest from the nail, a backward force is exerted on the nail, and when it is hit at the end nearest the nail, a forward force is exerted on the nail. Thus, striking it at a certain point in between produces no force on the nail. This intermediate point is known as the <emphasis effect="italics">percussion point</emphasis>.</para>
+    <para id="import-auto-id2511878">An analogous situation occurs in tennis as seen in <link target-id="import-auto-id3078115"/>. If you hit a ball with the end of your racquet, the handle is pulled away from your hand. If you hit a ball much farther down, for example, on the shaft of the racquet, the handle is pushed into your palm. And if you hit the ball at the racquet's percussion point (what some people call the “sweet spot”), then little or <emphasis effect="italics">no</emphasis> force is exerted on your hand, and there is less vibration, reducing chances of a tennis elbow. The same effect occurs for a baseball bat.</para><para id="import-auto-id3112181"><figure id="import-auto-id3078115"><media id="import-auto-id1480513" alt="In figure a, a disk hitting a stick is compared to a tennis ball being hit by a racquet. When the ball strikes the racquet near the end with a force denoted by f ball as shown by the direction of the arrow, a backward force, f hand is exerted on the hand, In figure b, when the racquet is struck much farther down by a force F ball, a forward force, f hand is exerted on the hand as shown by the arrows. In figure (c), when the racquet is struck by the ball with a force f ball at the percussion point, no force is delivered to the hand. This implies that f hand is equal to zero.">
+        <image mime-type="image/jpg" src="../../media/Figure_11_06_03.jpg"/>
+      </media>
+      
+    <caption>A disk hitting a stick is compared to a tennis ball being hit by a racquet. (a) When the ball strikes the racquet near the end, a backward force is exerted on the hand. (b) When the racquet is struck much farther down, a forward force is exerted on the hand. (c) When the racquet is struck at the percussion point, no force is delivered to the hand.</caption></figure></para>    
+    <exercise id="fs-id2672292" type="check-understanding">
+    <label/>
+      <title>Check Your Understanding</title>
+    <problem id="fs-id2680762"><para id="import-auto-id2973765">Is rotational kinetic energy a vector? Justify your answer.</para></problem>
+    <solution id="fs-id1409689" print-placement="here"><para id="import-auto-id2398762">No, energy is always scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion.</para></solution>
+    </exercise>
+
+
+
+<section id="fs-id1350335" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+<exercise id="fs-id1664450" type="ap-test-prep">
+<problem id="fs-id1536064">
+<para id="fs-id1931773">A box with a mass of 2.0 kg rests on one end of a seesaw. The seesaw is 6.0 m long, and we can assume it has negligible mass. Approximately what angular momentum will the box have if someone with a mass of 65 kg sits on the other end of the seesaw quickly, with a velocity of 1.2 m/s?</para><list id="fs-id1838365" list-type="enumerated" number-style="lower-alpha"><item>702 kg•m<sup>2</sup>/s</item>
+<item>39 kg•m<sup>2</sup>/s</item>
+<item>18 kg•m<sup>2</sup>/s</item>
+<item>1.2 kg•m<sup>2</sup>/s</item>
+</list></problem>
+<solution id="fs-id1513218">
+<para id="fs-id1564356">(b)</para></solution>
+</exercise>
+
+<exercise id="fs-id1623831" type="ap-test-prep">
+<problem id="fs-id1523247">
+<para id="fs-id1719075">A spinner in a board game can be thought of as a thin rod that spins about an axis at its center. The spinner in a certain game is 12 cm long and has a mass of 10 g. How will its angular velocity change when it is flicked at one end with a force equivalent to 15 g travelling at 5.0 m/s if all the energy of the collision is transferred to the spinner? (You can use the table in <link document="m55186" target-id="fs-id1838666">Figure 10.12</link> to estimate the rotational inertia of the spinner.)</para></problem>
+<!--<solution id="fs-id2009368">
+<para id="fs-id2011491">From <link document="m55186" target-id="fs-id1838666">Figure 10.12</link>, the rotational inertia of the spinner can be calculated using
+<m:math display="inline">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mi>M</m:mi><m:msup>
+     <m:mi>&#8467;</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+
+, where <emphasis effect="italics">M</emphasis> is the mass of the spinner and <emphasis effect="italics">R</emphasis> is the radius of the circle it creates when it spins.</para><para id="fs-id1447980">Since angular momentum is conserved,
+<m:math display="block">
+ <m:mrow>
+  <m:mi>L</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>L</m:mi><m:mo>&#8242;</m:mo>
+ </m:mrow>
+</m:math>
+
+<m:math display="block">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>I</m:mi><m:mo>&#8242;</m:mo><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+ </m:mrow>
+</m:math>
+
+<m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:msup>
+     <m:mi>&#8467;</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:msup>
+     <m:mi>&#8467;</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+ </m:mrow>
+</m:math>
+
+<m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:msup>
+     <m:mi>&#8467;</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>&#8201;</m:mtext><m:mfrac>
+   <m:mi>v</m:mi>
+   <m:mi>r</m:mi>
+  </m:mfrac>
+  <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mi>m</m:mi><m:msup>
+     <m:mi>&#8467;</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+ </m:mrow>
+</m:math>
+
+
+<m:math display="block">
+ <m:mrow>
+  <m:mfrac>
+   <m:mrow>
+    <m:mn>0.015</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.12</m:mn><m:mtext>&#8201;</m:mtext><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+      
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>&#8901;</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>5.0</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m/s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0.06</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  <m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>0.01</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>0.12</m:mn><m:mtext>&#8201;</m:mtext><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mtext>2</m:mtext>
+      </m:msup>
+      
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>12</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+ </m:mrow>
+</m:math>
+
+<m:math display="block">
+ <m:mrow>
+  <m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo><m:mo>=</m:mo><m:mfrac>
+   <m:mrow>
+    <m:mn>0.015</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:mn>5.0</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>s</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>0.01</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+   </m:mrow>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+
+<m:math display="block">
+ <m:mrow>
+  <m:mo>=</m:mo><m:mn>7.5</m:mn><m:msup>
+   <m:mtext>&#8201;</m:mtext>
+   <m:mrow>
+    <m:mtext>rad/s</m:mtext>
+   </m:mrow>
+  </m:msup>
+  
+ </m:mrow>
+</m:math></para><para id="fs-id1635885">The angular momentum of the spinner is 7.5 rad/s.</para>
+</solution>-->
+</exercise>
+
+<exercise id="fs-id2159515" type="ap-test-prep">
+<problem id="fs-id1297087">
+<para id="fs-id1548820">A cyclist pedals to exert a torque on the rear wheel of the bicycle. When the cyclist changes to a higher gear, the torque increases. Which of the following would be the most effective strategy to help you determine the change in angular momentum of the bicycle wheel?</para>
+<list id="fs-id2137662" list-type="enumerated" number-style="lower-alpha"><item>multiplying the ratio between the two torques by the mass of the bicycle and rider</item>
+<item>adding the two torques together, and multiplying by the time for which both torques are applied</item>
+<item>multiplying the difference in the two torques by the time for which the new torque is applied</item>
+<item>multiplying both torques by the mass of the bicycle and rider</item>
+</list></problem>
+<solution id="fs-id2161839">
+<para id="fs-id1383559">(c)</para></solution>
+</exercise>
+
+<exercise id="fs-id1526286" type="ap-test-prep">
+<problem id="fs-id1608790">
+<para id="fs-id1559470">An electric screwdriver has two speeds, each of which exerts a different torque on a screw. Describe what calculations you could use to help you compare the angular momentum of a screw at each speed. What measurements would you need to make in order to calculate this?</para>
+</problem>
+<!--<solution id="fs-id1568492">
+<para id="fs-id1619499">Angular momentum is directly proportional to the torque exerted on the object. In the case of the electric screwdriver, the torque provided at each speed is probably unknown. Angular momentum is also the product of rotational inertia and angular velocity. It would be possible to calculate it from these two values. </para>
+<para id="fs-id1481256">Although it is an approximation, a screw can be thought of as a solid cylinder, spinning about the cylinder axis. From <link document="m55186" target-id="fs-id1838666">Figure 10.12</link>, the rotational inertia of such a shape can be found using 
+<m:math display="inline">
+ <m:mrow>
+  <m:mi>I</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mi>M</m:mi><m:msup>
+     <m:mi>R</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  
+ </m:mrow>
+</m:math>
+
+
+. You would need to measure the radius and the mass of the screw.</para><para id="fs-id1402483">Angular velocity in rad/s could be calculated from a measure of revolutions per second. While this might be difficult to measure directly, it could be measured by analyzing a videotape of the screwdriver in motion. It could also be measured by how many threads of the screw were buried in wood after 1 s.</para>
+</solution>-->
+</exercise>
+
+<exercise id="fs-id1519591" type="ap-test-prep">
+<problem id="fs-id2174977">
+<para id="fs-id1354575">Why is it important to consider the shape of an object when determining the object's angular momentum?</para>
+<list id="fs-id1390414" list-type="enumerated" number-style="lower-alpha"><item>The shape determines the location of the center of mass. The location of the center of mass in turn determines the angular velocity of the object.</item>
+<item>The shape helps you determine the location of the object's outer edge, where rotational velocity will be greatest.</item>
+<item>The shape helps you determine the location of the center of rotation.</item>
+<item>The shape determines the location of the center of mass. The location of the center of mass contributes to the object's rotational inertia, which contributes to its angular momentum.</item>
+</list></problem>
+<solution id="fs-id1880102">
+<para id="fs-id1355595">(d)</para></solution>
+</exercise>
+
+<exercise id="fs-id1581467" type="ap-test-prep">
+<problem id="fs-id1901971">
+<para id="fs-id1583738">How could you collect and analyze data to test the difference between the torques provided by two speeds on a tabletop fan?</para>
+</problem>
+<!--<solution id="fs-id1308975">
+<para id="fs-id2137540">Since torque is equal to change in angular momentum over time, you could collect data to determine the average angular momentum of the fan blades at both speeds over a controlled period of time. Counting the revolutions of a marked fan blade for the first 2 s of revolution and dividing by 2 would help you determine their angular velocity. Since the fan blades themselves have very little mass, you could attach a mass to the end of one blade for both tests, and calculate angular momentum as the product of mass, radius, and angular velocity. If the times in both tests are the same, then you could compare the angular momenta for both speeds to compare the torques.</para>
+</solution>-->
+</exercise>
+
+<exercise id="fs-id1686879" type="ap-test-prep">
+<problem id="fs-id1372436">
+<para id="fs-id1454531">Describe a rotational system you could use to demonstrate the effect on the system's angular momentum of applying different amounts of external torque.</para>
+</problem>
+<solution id="fs-id1530124">
+<para id="fs-id1482538">A door on hinges is a rotational system. When you push or pull on the door handle, the angular momentum of the system changes. If a weight is hung on the door handle, then pushing on the door with the same force will cause a different increase in angular momentum. If you push or pull near the hinges with the same force, the resulting angular momentum of the system will also be different.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1501033" type="ap-test-prep">
+<problem id="fs-id1860091">
+<para id="fs-id1152548">How could you use simple equipment such as balls and string to study the changes in angular momentum of a system when it interacts with another system?</para>
+</problem>
+<!--<solution id="fs-id1482669">
+<para id="fs-id1653649">You could suspend two balls from the same point to act as a double pendulum. Lifting ball A and releasing it would cause it to strike ball B. You could measure the mass of ball A, the radius of the pendulum, and the height from which you dropped ball A to calculate the torque that was applied to ball B. You could measure time and the arc length to calculate the rotational velocity of ball B and then calculate its angular momentum. By varying the mass of ball A you could test how the angular momentum of ball B varied when different amounts of torque were applied to it.</para>
+</solution>-->
+</exercise>
+</section>
+
+
+      <section id="fs-id2396853" class="section-summary"><title>Section Summary</title><list id="fs-id2420457"><item id="import-auto-id3089539">Angular momentum <m:math><m:semantics><m:mrow><m:mi>L</m:mi></m:mrow></m:semantics></m:math> is analogous to linear momentum and is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Iω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=Iω} {}</m:annotation></m:semantics></m:math>.</item>
+
+<item>Angular momentum is changed by torque, following the relationship
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mtext>net</m:mtext>
+   <m:mspace width="0.25em"/>
+   <m:mi>τ</m:mi>
+   <m:mo stretchy="false">=</m:mo>
+<m:mfrac>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext>
+     <m:mi fontstyle="italic">L</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:mtext>Δ</m:mtext>
+     <m:mi fontstyle="italic">t</m:mi>
+    </m:mrow>
+</m:mfrac>
+<m:mo>.</m:mo>
+  </m:mrow>
+ </m:semantics>
+</m:math>
+</item>
+    
+    <item id="import-auto-id2603851">Angular momentum is conserved if the net torque is zero <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>L</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>constant</m:mtext>
+<m:mspace width="0.25em"/>
+                </m:mrow>
+                <m:mi/>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mtext>net </m:mtext><m:mspace width="0.25em"/>
+                    <m:mrow>
+                      <m:mi>τ</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+
+<m:mtext>0</m:mtext>
+
+                   
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfenced>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> or
+
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>L</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mi>L</m:mi>
+                </m:mrow>
+                <m:mo>′</m:mo>
+                <m:mi/>
+<m:mspace width="0.25em"/>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mtext>net </m:mtext>
+<m:mspace width="0.25em"/>
+                    <m:mrow>
+                      <m:mi>τ</m:mi>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mfenced>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    
+    . This equation is known as the law of conservation of angular momentum, which may be conserved in collisions.</item>
+    </list></section><section id="fs-id3420143" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id1575956" type="conceptual-questions"><problem id="fs-id3025927">
+<para id="import-auto-id1954347">Describe two different collisions—one in which angular momentum is conserved, and the other in which it is not. Which condition determines whether or not angular momentum is conserved in a collision?</para>    
+</problem></exercise>
+
+<exercise id="fs-id3225926" type="conceptual-questions"><problem id="fs-id2681681">
+  <para id="import-auto-id2602849">Suppose an ice hockey puck strikes a hockey stick that lies flat on the ice and is free to move in any direction. Which quantities are likely to be conserved: angular momentum, linear momentum, or kinetic energy (assuming the puck and stick are very resilient)?</para>
+</problem></exercise>
+      
+      <exercise id="fs-id2578076" type="conceptual-questions"><problem id="fs-id2445345">
+
+    <para id="import-auto-id1447196">While driving his motorcycle at highway speed, a physics student notices that pulling back lightly on the right handlebar tips the cycle to the left and produces a left turn. Explain why this happens.</para>
+    </problem></exercise>
+    </section>
+  
+    <section id="fs-id2055435" type="problems-exercises" class="problems-exercises">
+
+<title>Problems &amp; Exercises</title>
+    <exercise id="fs-id2578283" type="problems-exercises"><problem id="fs-id952989"><para id="import-auto-id3102373">Repeat <link target-id="fs-id3007371"/> in which the disk strikes and adheres to the stick 0.100 m from the nail.</para></problem>
+      <solution id="fs-id1418827">
+    <para id="import-auto-id1974400">(a) <m:math><m:semantics><m:mrow><m:mn>0.156 rad/s</m:mn></m:mrow></m:semantics></m:math></para><para id="import-auto-id1352137">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>17</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "17" times "10" rSup { size 8{ - 2} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3255887">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>188 kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "188 kg" cdot "m/s"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+      <exercise id="fs-id2578396" type="problems-exercises"><problem id="fs-id1999419">
+    
+    <para id="import-auto-id2397003">Repeat <link target-id="fs-id3007371"/> in which the disk originally spins clockwise at 1000 rpm and has a radius of 1.50 cm.</para></problem></exercise>
+      
+    <exercise id="fs-id2026029" type="problems-exercises"><problem id="fs-id2697452"><para id="import-auto-id3177714">Twin skaters approach one another as shown in <link target-id="import-auto-id2558735"/> and lock hands. (a) Calculate their final angular velocity, given each had an initial speed of 2.50 m/s relative to the ice. Each has a mass of 70.0 kg, and each has a center of mass located 0.800 m from their locked hands. You may approximate their moments of inertia to be that of point masses at this radius. (b) Compare the initial kinetic energy and final kinetic energy. </para><figure id="import-auto-id2558735"><media id="import-auto-id3229254" alt="Figure a shows two skaters from the top view approaching each other from opposite directions with velocity v. In figure b two skaters then lock their right hands and start to spin in the clockwise direction with angular velocity omega.">
+        <image mime-type="image/jpg" src="../../media/Figure_11_06_04a.jpg"/>
+      </media>
+      
+    <caption>Twin skaters approach each other with identical speeds. Then, the skaters lock hands and spin.</caption></figure></problem>
+      <solution id="fs-id3244520">
+    <para id="import-auto-id3285253">(a) 3.13 rad/s</para><para id="import-auto-id2423185">(b) Initial KE = 438 J, final KE = 438 J</para></solution></exercise>
+       <exercise id="fs-id1048149"><problem id="fs-id3386185"><para id="import-auto-id2603798">Suppose a 0.250-kg ball is thrown at 15.0 m/s to a motionless person standing on ice who catches it with an outstretched arm as shown in <link target-id="import-auto-id2514290"/>. </para><para id="import-auto-id2679588">(a) Calculate the final linear velocity of the person, given his mass is 70.0 kg. </para>
+    <para id="import-auto-id3422557">(b) What is his angular velocity if each arm is 5.00 kg? You may treat the ball as a point mass and treat the person's arms as uniform rods (each has a length of 0.900 m) and the rest of his body as a uniform cylinder of radius 0.180 m. Neglect the effect of the ball on his center of mass so that his center of mass remains in his geometrical center. </para><para id="import-auto-id3172442">(c) Compare the initial and final total kinetic energies.</para>
+    
+    <figure id="import-auto-id2514290"><media id="import-auto-id2653823" alt="Figure a shows a skater through an overhead view with both his hands outstretched. A ball is seen approaching toward him in air with velocity v. Figure b shows that skater catching two balls in his left hand, and then, recoiling toward the left, in clockwise direction, with angular velocity omega and finally, the balls have velocity v prime.">
+        <image mime-type="image/jpg" src="../../media/Figure_11_06_05a.jpg"/>
+      </media>
+      
+    <caption>The figure shows the overhead view of a person standing motionless on ice about to catch a ball. Both arms are outstretched. After catching the ball, the skater recoils and rotates.</caption></figure></problem></exercise>
+    <exercise id="fs-id1848842" type="problems-exercises"><problem id="fs-id2670415"><para id="import-auto-id2658916">Repeat <link target-id="fs-id3007371"/> in which the stick is free to have translational motion as well as rotational motion.</para></problem>
+<solution id="eip-id1884339"><para id="import-auto-id1486027">(a) 1.70 rad/s</para><para id="fs-id2400867">(b) Initial KE = 22.5 J, final KE = 2.04 J </para><para id="fs-id1921017">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50 kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m/s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "50 kg" cdot "m/s"} {}</m:annotation></m:semantics></m:math> 
+</para></solution></exercise></section>
+ </content>
+</document>

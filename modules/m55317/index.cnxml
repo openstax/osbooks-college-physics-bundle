@@ -1,0 +1,730 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Coulomb’s Law</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55317</md:content-id>
+  <md:title>Coulomb’s Law</md:title>
+  <md:abstract/>
+  <md:uuid>bcdc3467-bd9f-4c74-bc7f-af17af26e973</md:uuid>
+</metadata>
+
+<content>
+
+<section id="fs-id2174861" class="learning-objectives">
+  <title>Learning Objectives</title>
+<para id="fs-id2533864">By the end of this section, you will be able to:</para>
+<list id="fs-id1140627">
+<item>State Coulomb's law in terms of how the electrostatic force changes with the distance between two objects.</item>
+<item>Calculate the electrostatic force between two point charges, such as electrons or protons.</item>
+<item>Compare the electrostatic force to the gravitational attraction for a proton and an electron; for a human and the Earth.</item>
+</list>
+<para id="fs-id1773883">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id1809874"><item><emphasis effect="bold">3.A.3.3</emphasis> The student is able to describe a force as an interaction between two objects and identify both objects for any force. <emphasis effect="bold">(S.P. 1.4)</emphasis></item>
+<item><emphasis effect="bold">3.A.3.4</emphasis> The student is able to make claims about the force on an object due to the presence of other objects with the same property: mass, electric charge. <emphasis effect="bold">(S.P. 6.1, 6.4)</emphasis></item>
+<item><emphasis effect="bold">3.C.2.1</emphasis> The student is able to use Coulomb's law qualitatively and quantitatively to make predictions about the interaction between two electric point charges (interactions between collections of electric point charges are not covered in Physics 1 and instead are restricted to Physics 2). <emphasis effect="bold">(S.P. 2.2, 6.4)</emphasis></item>
+<item><emphasis effect="bold">3.C.2.2</emphasis> The student is able to connect the concepts of gravitational force and electric force to compare similarities and differences between the forces. <emphasis effect="bold">(S.P. 7.2)</emphasis></item>
+</list></section>
+
+        <figure id="import-auto-id1411473"><media id="import-auto-id3109340" alt="Two spiral galaxies show the strong gravitational attraction between them as their arms appear to reach out toward one another.">
+            <image mime-type="image/png" src="../../media/Figure_19_03_01a.jpg"/>
+        </media>
+
+            <caption>This NASA image of Arp 87 shows the result of a strong gravitational attraction between two galaxies. In contrast, at the subatomic level, the electrostatic attraction between two objects, such as an electron and a proton, is far greater than their mutual attraction due to gravity. (credit: NASA/HST)</caption></figure><para id="import-auto-id2680205">Through the work of scientists in the late 18th century, the main features of the <term id="import-auto-id2001043">electrostatic force</term>—the existence of two types of charge, the observation that like charges repel, unlike charges attract, and the decrease of force with distance—were eventually refined, and expressed as a mathematical formula. The mathematical formula for the electrostatic force is called <term id="import-auto-id3209871">Coulomb's law</term> after the French physicist Charles Coulomb (1736–1806), who performed experiments and first proposed a formula to calculate it.</para>
+        <note id="fs-id3165164"><label/><title>Coulomb's Law</title>
+
+            <equation id="eip-575"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mfrac><m:mrow><m:mo>|</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo>|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mo>.</m:mo><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=k {  {q rSub { size 8{1} } q rSub { size 8{2} } }  over  {r rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1571093">Coulomb's law calculates the magnitude of the force <m:math><m:semantics><m:mrow><m:mi>F</m:mi></m:mrow></m:semantics></m:math> between two point charges,
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, separated by a distance <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>. In SI units, the constant <m:math><m:semantics><m:mrow><m:mi>k</m:mi></m:mrow></m:semantics></m:math> is equal to</para><equation id="eip-538"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>988</m:mtext>
+
+<m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow>
+
+<m:mrow><m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac>
+
+<m:mo stretchy="false">≈</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>99</m:mtext>
+<m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup></m:mrow>
+
+<m:mfrac><m:mrow><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>C</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=8 "." "988" times "10" rSup { size 8{9} }  {  {N cdot m rSup { size 8{2} } }  over  {C rSup { size 8{2} } } }  approx 9 "." "00" times "10" rSup { size 8{9} }  {  {N cdot m rSup { size 8{2} } }  over  {C rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1828612">The electrostatic force is a vector quantity and is expressed in units of newtons. The force is understood to be along the line joining the two charges. (See <link target-id="import-auto-id3397088"/>.)</para>
+        </note><para id="import-auto-id1447116">Although the formula for Coulomb's law is simple, it was no mean task to prove it. The experiments Coulomb did, with the primitive equipment then available, were difficult. Modern experiments have verified Coulomb's law to great precision. For example, it has been shown that the force is inversely proportional to distance between two objects squared <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">∝</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (F prop  {1} slash {r rSup { size 8{2} } }  right )} {}</m:annotation></m:semantics></m:math> to an accuracy of 1 part in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>16</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"16"} } } {}</m:annotation></m:semantics></m:math>. No exceptions have ever been found, even at the small distances within the atom.</para>
+
+          <para id="import-auto-id3010726"><figure id="import-auto-id3397088"><media id="import-auto-id2653996" alt="In part a, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward left and acts on q one. Force vector arrow F two one points toward right and acts on q two. Both forces act in opposite directions and are represented by arrows of same length. In part b, two charges q one and q two are shown at a distance r. Force vector arrow F one two points toward right and acts on q one. Force vector arrow F two one points toward left and acts on q two. Both forces act toward each other and are represented by arrows of same length. ">
+            <image mime-type="image/jpg" src="../../media/Figure_19_03_02a.jpg"/>
+        </media>
+
+            <caption>The magnitude of the electrostatic force <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> between point charges <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> separated by a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is given by Coulomb's law. Note that Newton's third law (every force exerted creates an equal and opposite force) applies as usual—the force on <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is equal in magnitude and opposite in direction to the force it exerts on <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. (a) Like charges. (b) Unlike charges.</caption></figure></para>
+
+<note id="fs-id1514278"><title>Making Connections: Comparing Gravitational and Electrostatic Forces</title><para id="fs-id1433220">Recall that the gravitational force (Newton's law of gravitation) quantifies force as <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>s</m:mi></m:msub><m:mo>=</m:mo><m:mi>G</m:mi><m:mfrac><m:mrow><m:mi>m</m:mi><m:mi>M</m:mi></m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac></m:mrow></m:math>.</para>
+<para id="fs-id1736862">The comparison between the two forces—gravitational and electrostatic—shows some similarities and differences. Gravitational force is proportional to the masses of interacting objects, and the electrostatic force is proportional to the magnitudes of the charges of interacting objects. Hence both forces are proportional to a property that represents the strength of interaction for a given field. In addition, both forces are inversely proportional to the square of the distances between them. It may seem that the two forces are related but that is not the case. In fact, there are huge variations in the magnitudes of the two forces as they depend on different parameters and different mechanisms. For electrons (or protons), electrostatic force is dominant and is much greater than the gravitational force. On the other hand, gravitational force is generally dominant for objects with large masses. Another major difference between the two forces is that gravitational force can only be attractive, whereas electrostatic could be attractive or repulsive (depending on the sign of charges; unlike charges attract and like charges repel).</para>
+</note><example id="fs-id1945968"><title>How Strong is the Coulomb Force Relative to the Gravitational Force?</title><para id="import-auto-id3250393">Compare the electrostatic force between an electron and proton separated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>530</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "530" times "10" rSup { size 8{ - "10"} } m} {}</m:annotation></m:semantics></m:math> with the gravitational force between them. This distance is their average separation in a hydrogen atom.</para><para id="import-auto-id2000888"><title>Strategy</title></para>
+            <para id="import-auto-id2000878">To compare the two forces, we first compute the electrostatic force using Coulomb's law, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mfrac><m:mrow><m:mo>|</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo>|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=k {  {q rSub { size 8{1} } q rSub { size 8{2} } }  over  {r rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math>. We then calculate the gravitational force using Newton's universal law of gravitation. Finally, we take a ratio to see how the forces compare in magnitude.</para><para id="import-auto-id1118563"><title>Solution</title></para>
+            <para id="import-auto-id2000889">Entering the given and known information about the charges and separation of the electron and proton into the expression of Coulomb's law yields</para>
+            <equation id="eip-793"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>F</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>k</m:mi>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mrow><m:mo>|</m:mo>
+                      <m:msub>
+                        <m:mi>q</m:mi>
+
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+
+                      </m:msub>
+                      <m:msub>
+                        <m:mi>q</m:mi>
+
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+
+                      </m:msub><m:mo>|</m:mo>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mi>r</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F=k {  {q rSub { size 8{1 } } q rSub { size 8{2} } }  over  {r rSup { size 8{2} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+</equation><equation id="eip-947"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>8.99</m:mn>
+                                <m:mrow>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext> 10</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mn>9</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow><m:mspace width="0.25em"/>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mtext>N</m:mtext>
+                                    <m:mo stretchy="false">⋅</m:mo>
+                                    <m:msup>
+                                      <m:mtext> m</m:mtext>
+
+                                        <m:mrow>
+                                          <m:mn>2</m:mn>
+                                        </m:mrow>
+
+                                    </m:msup>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">/</m:mo>
+                                  <m:msup>
+                                    <m:mtext>C</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mn>2</m:mn>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mtext>1.60</m:mtext>
+                                <m:mrow>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext> 10</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mtext>–19</m:mtext>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow><m:mspace width="0.25em"/>
+                                <m:mtext>C</m:mtext>
+                                <m:mo stretchy="false">)</m:mo>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>1.60</m:mn>
+                                <m:mrow>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext> 10</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mtext>–19 </m:mtext>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow><m:mspace width="0.25em"/>
+                                <m:mtext>C</m:mtext>
+                                <m:mo stretchy="false">)</m:mo>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">(</m:mo>
+                                <m:mn>0.530</m:mn>
+                                <m:mrow>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext> 10</m:mtext>
+
+                                      <m:mrow>
+                                        <m:mtext>–10</m:mtext>
+                                      </m:mrow>
+
+                                  </m:msup>
+                                </m:mrow><m:mspace width="0.25em"/>
+                                <m:mtext>m</m:mtext>
+                                <m:msup>
+                                  <m:mo stretchy="false">)</m:mo>
+
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"     "=  left (9 "." "00 " times " 10" rSup { size 8{9} } N cdot " m" rSup { size 8{2} } /C rSup { size 8{2} }  right )  times  {  { \( "-1" "." "60 " times " 10" rSup { size 8{"-19"} } C \)  \( 1 "." "60"  times " 10" rSup { size 8{"-19 "} } C \) }  over  { \( 0 "." "530 " times " 10" rSup { size 8{"-10"} } m \)  rSup { size 8{2} } } } }  {} #
+ {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2957474">Thus the Coulomb force is</para>
+            <equation id="eip-589"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>F</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>8.19</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mtext>–8</m:mtext>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext>N</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+<m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F=" -8" "." "20 " times " 10" rSup { size 8{"-8"} } N} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3026205">The charges are opposite in sign, so this is an attractive force. This is a very large force for an electron—it would cause an acceleration of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8.99</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext>m</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "00" times "10" rSup { size 8{"22"} }  {m} slash {s rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>(verification is left as an end-of-section problem).The gravitational force is given by Newton's law of gravitation as:</para><equation id="eip-272"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+
+                        <m:mrow>
+                          <m:mi>G</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi> G </m:mi>
+                  </m:mrow>
+                  <m:mfrac>
+                    <m:mi fontstyle="italic">mM</m:mi>
+                    <m:msup>
+                      <m:mi>r</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+<m:mo>,</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{G} } =" G " {  {"mM"}  over  {r rSup { size 8{2} } } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1418827">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6.67</m:mn></m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>11</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">/</m:mo>
+<m:mrow><m:msup><m:mtext>kg</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G=6 "." "67" times "10" rSup { size 8{ - "11"} }  {N cdot m rSup { size 8{2} } } slash { ital "kg" rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. Here <m:math><m:semantics><m:mrow><m:mi>m</m:mi></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mi>M</m:mi></m:mrow></m:semantics></m:math> represent the electron and proton masses, which can be found in the appendices. Entering values for the knowns yields</para><equation id="eip-142"><m:math>
+        <m:semantics>
+          <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+                        <m:mrow>
+                          <m:mi>G</m:mi>
+                        </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mo stretchy="false">(</m:mo>
+                  </m:mrow>
+                  <m:mn>6.67</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+                        <m:mrow>
+<m:mo>–</m:mo>
+                          <m:mtext>11</m:mtext>
+                        </m:mrow>
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>N</m:mtext>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:msup>
+                        <m:mtext>m</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">/</m:mo>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>kg</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>9.11</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext> 10</m:mtext>
+                            <m:mrow>
+                              <m:mtext>–31</m:mtext>
+                            </m:mrow>
+                        </m:msup>
+                      </m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext>kg</m:mtext>
+                      <m:mo stretchy="false">)</m:mo>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>1.67</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mtext>–27</m:mtext>
+                            </m:mrow>
+                        </m:msup>
+                      </m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext>kg</m:mtext>
+                      <m:mo stretchy="false">)</m:mo>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>0.530</m:mn>
+                      <m:mrow>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext> 10</m:mtext>
+                            <m:mrow>
+                              <m:mtext>–10</m:mtext>
+                            </m:mrow>
+                        </m:msup>
+                      </m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext>m</m:mtext>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+
+  <m:mn>3.61</m:mn>
+                  <m:mrow>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+                        <m:mrow>
+                          <m:mtext>–47</m:mtext>
+                        </m:mrow>
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                      <m:mtext>N</m:mtext>
+
+
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1487281">This is also an attractive force, although it is traditionally shown as positive since gravitational force is always attractive. The ratio of the magnitude of the electrostatic force to gravitational force in this case is, thus,</para>
+            <equation id="eip-601"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mi>F</m:mi>
+                      <m:msub>
+                        <m:mi>F</m:mi>
+
+                          <m:mrow>
+                            <m:mi>G</m:mi>
+                          </m:mrow>
+
+                      </m:msub>
+                    </m:mfrac>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext> 2</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>27 </m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mtext>39</m:mtext>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+<m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {F}  over  {F rSub { size 8{G} } } }  =" 2" "." "27 " times " 10" rSup { size 8{"39"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1446884"><title>Discussion</title></para>
+            <para id="import-auto-id2000788">This is a remarkably large ratio! Note that this will be the ratio of electrostatic force to gravitational force for an electron and a proton at any distance (taking the ratio before entering numerical values shows that the distance cancels). This ratio gives some indication of just how much larger the Coulomb force is than the gravitational force between two of the most common particles in nature.</para>
+        </example><para id="import-auto-id1431660">As the example implies, gravitational force is completely negligible on a small scale, where the interactions of individual charged particles are important. On a large scale, such as between the Earth and a person, the reverse is true. Most objects are nearly electrically neutral, and so attractive and repulsive <term id="import-auto-id1844389">Coulomb forces</term> nearly cancel. Gravitational force on a large scale dominates interactions between large objects because it is always attractive, while Coulomb forces tend to cancel.</para>
+
+<section id="fs-id2169417" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id2543029" type="ap-test-prep">
+    <problem id="fs-id3184354">
+<para id="fs-id2317824">For questions 25–27, suppose that the electrostatics force between two charges is <emphasis effect="italics">F</emphasis>.</para><para id="fs-id2799717">What will be the force if the distance between them is halved?</para>
+<list id="fs-id2066826" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>4<emphasis effect="italics">F</emphasis></item>
+<item>2<emphasis effect="italics">F</emphasis></item>
+<item><emphasis effect="italics">F</emphasis>/4</item>
+<item><emphasis effect="italics">F</emphasis>/2</item>
+</list>
+</problem>
+<solution id="fs-id2217893"><para id="fs-id1722068">(a)</para></solution>
+</exercise>
+  <exercise id="fs-id2453947" type="ap-test-prep"><problem id="fs-id1812620">
+<para id="fs-id1908965">Which of the following is false?</para>
+<list id="fs-id1478456" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>If the charge of one of the particles is doubled and that of the second is unchanged, the force will become 2<emphasis effect="italics">F</emphasis>.</item>
+<item>If the charge of one of the particles is doubled and that of the second is halved, the force will remain <emphasis effect="italics">F</emphasis>.</item>
+<item>If the charge of both the particles is doubled, the force will become 4<emphasis effect="italics">F</emphasis>.</item>
+<item>None of the above.</item>
+</list>
+</problem>
+<!--
+<solution id="fs-id1539897">
+<para id="fs-id2186815">(d)</para>
+<para id="eip-id1364458"/>
+</solution>
+--></exercise><exercise id="fs-id1185370" type="ap-test-prep">
+    <problem id="fs-id2221070">
+<para id="fs-id1550933">Which of the following is true about the gravitational force between the particles?</para>
+<list id="fs-id1908871" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>It will be 3.25×10<sup>−38</sup> <emphasis effect="italics">F</emphasis>.</item>
+<item>It will be 3.25×10<sup>38</sup> <emphasis effect="italics">F</emphasis>.</item>
+<item>It will be equal to <emphasis effect="italics">F</emphasis>.</item>
+<item>It is not possible to determine the gravitational force as the masses of the particles are not given.</item>
+</list>
+</problem>
+<solution id="fs-id2543314"><para id="fs-id3219419">(d)</para>
+</solution>
+</exercise>
+  <exercise id="fs-id1758033" type="ap-test-prep"><problem id="fs-id1496968">
+<para id="fs-id2547520">Two massive, positively charged particles are initially held a fixed distance apart. When they are moved farther apart, the magnitude of their mutual gravitational force changes by a factor of <emphasis effect="italics">n</emphasis>. Which of the following indicates the factor by which the magnitude of their mutual electrostatic force changes?</para>
+
+<list id="fs-id2400850" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>1/<emphasis effect="italics">n</emphasis><sup>2</sup></item>
+<item>1/<emphasis effect="italics">n</emphasis></item>
+<item><emphasis effect="italics">n</emphasis></item>
+<item><emphasis effect="italics">n</emphasis><sup>2</sup></item>
+</list>
+</problem>
+<!--
+<solution id="fs-id1850934">
+<para id="fs-id2380208">(c)</para>
+<para id="eip-id2268726"/>
+</solution>
+--></exercise><exercise id="fs-id1469886" type="ap-test-prep">
+    <problem id="fs-id1538265">
+<list id="fs-id1366541" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>What is the electrostatic force between two charges of 1 C each, separated by a distance of 0.5 m?</item>
+<item>How will this force change if the distance is increased to 1 m?</item>
+</list>
+</problem>
+<solution id="fs-id1886859"><para id="fs-id2664736">(a) 3.60×10<sup>10</sup> N, (b) It will become 1/4 of the original value; hence it will be equal to 8.99×10<sup>9</sup> N</para>
+</solution>
+</exercise>
+  <exercise id="fs-id3202845" type="ap-test-prep"><problem id="fs-id1257761">
+<list id="fs-id1866476" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Find the ratio of the electrostatic force to the gravitational force between two electrons.</item>
+<item>Will this ratio change if the two electrons are replaced by protons? If yes, find the new ratio.</item>
+</list>
+</problem>
+<!--
+<solution id="fs-id2869478">
+<para id="fs-id1419916">a) 4.16&#215;10<sup>42</sup>, b) yes, because the masses are different, 1.24&#215;10<sup>36</sup></para>
+<para id="eip-id1826054"/>
+</solution>
+--></exercise></section><section id="fs-id3122801" class="section-summary"><title>Section Summary</title><list id="fs-id1587020"><item id="import-auto-id1355992">Frenchman Charles Coulomb was the first to publish the mathematical equation that describes the electrostatic force between two objects.</item>
+                <item id="import-auto-id3081048">Coulomb's law gives the magnitude of the force between point charges. It is
+                <equation id="eip-467"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mfrac><m:mrow><m:mo>|</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo>|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=k {  {q rSub { size 8{1} } q rSub { size 8{2} } }  over  {r rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> </equation><para id="import-auto-id1818591">where <m:math><m:semantics><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:semantics></m:math> are two point charges separated by a distance <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>, and
+<m:math><m:semantics><m:mrow><m:mi>k</m:mi><m:mo>≈</m:mo><m:mn>8.99</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup> <m:mspace width="0.25em"/><m:mtext>N</m:mtext><m:mo>·</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>/</m:mo><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math></para></item>
+                <item id="import-auto-id3358578">This Coulomb force is extremely basic, since most charges are due to point-like particles. It is responsible for all electrostatic effects and underlies most macroscopic forces.</item>
+                <item id="import-auto-id969559">The Coulomb force is extraordinarily strong compared with the gravitational force, another basic force—but unlike gravitational force it can cancel, since it can be either attractive or repulsive.</item>
+                <item id="import-auto-id1411966">The electrostatic force between two subatomic particles is far greater than the gravitational force between the same two particles.</item>
+            </list></section><section id="fs-id1998248" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id3146449" type="conceptual-questions"><problem id="fs-id969808">
+                <para id="import-auto-id3036709"><link target-id="import-auto-id3397078"/> shows the charge distribution in a water molecule, which is called a polar molecule because it has an inherent separation of charge. Given water's polar character, explain what effect humidity has on removing excess charge from objects.</para>
+
+                <para id="import-auto-id3010826">
+                    <figure id="import-auto-id3397078"><media id="import-auto-id2654997" alt="A schematic representation of the outer electron cloud of a neutral water molecule is shown. Three atoms are placed on the vertices of a triangle. The hydrogen atom has positive q charge and the oxygen atom has minus two q charge, and the angle between the line joining each hydrogen atom with the oxygen atom is one hundred and four degrees. The cloud density is shown more at the oxygen atom.">
+                    <image mime-type="image/jpg" src="../../media/Figure_19_03_03a.jpg"/>
+                </media>
+                        <caption>Schematic representation of the outer electron cloud of a neutral water molecule. The electrons spend more time near the oxygen than the hydrogens, giving a permanent charge separation as shown. Water is thus a <emphasis effect="italics">polar molecule</emphasis>. It is more easily affected by electrostatic forces than molecules with uniform charge distributions.</caption></figure></para>
+            </problem></exercise>
+            <exercise id="fs-id2420925" type="conceptual-questions"><problem id="fs-id3103718">
+
+                <para id="import-auto-id2595455">Using <link target-id="import-auto-id3397078"/>, explain, in terms of Coulomb's law, why a polar molecule (such as in <link target-id="import-auto-id3397078"/>) is attracted by both positive and negative charges.</para>
+            </problem></exercise>
+            <exercise id="fs-id1215964" type="conceptual-questions"><problem id="fs-id2403296">
+
+                <para id="import-auto-id1909395">Given the polar character of water molecules, explain how ions in the air form nucleation centers for rain droplets.</para>
+                </problem></exercise>
+        </section>
+        <section id="fs-id3260705" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id3063257" type="problems-exercises"><problem id="fs-id3175132">        <para id="import-auto-id1576722">What is the repulsive force between two pith balls that are 8.00 cm apart and have equal charges of – 30.0 nC?</para>
+            </problem></exercise>
+            <exercise id="fs-id2670145" type="problems-exercises"><problem id="fs-id1425309">        <para id="import-auto-id1935840">(a) How strong is the attractive force between a glass rod with a <m:math><m:semantics><m:mrow><m:mn>0.700</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> charge and a silk cloth with a <m:math><m:semantics><m:mrow><m:mn>–0.600</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> charge, which are 12.0 cm apart, using the approximation that they act like point charges? (b) Discuss how the answer to this problem might be affected if the charges are distributed over some area and do not act like point charges.</para></problem>
+                <solution id="fs-id2621989">
+                    <para id="import-auto-id3020972">(a) 0.263 N </para>
+                    <para id="import-auto-id3450121">(b) If the charges are distributed over some area, there will be a concentration of charge along the side closest to the oppositely charged object. This effect will increase the net force.</para></solution>
+            </exercise>
+            <exercise id="fs-id1403550" type="problems-exercises"><problem id="fs-id1395304">        <para id="import-auto-id1576452">Two point charges exert a 5.00 N force on each other. What will the force become if the distance between them is increased by a factor of three?</para>
+            </problem></exercise>
+            <exercise id="fs-id1411839" type="problems-exercises"><problem id="fs-id1348664">        <para id="import-auto-id1425862">Two point charges are brought closer together, increasing the force between them by a factor of 25. By what factor was their separation decreased?</para>
+            </problem>
+                <solution id="fs-id2032403">
+                    <para id="import-auto-id1586969">The separation decreased by a factor of 5.</para>
+                </solution>
+            </exercise>
+            <exercise id="fs-id954471" type="problems-exercises"><problem id="fs-id1981139">        <para id="import-auto-id2598920">How far apart must two point charges of 75.0 nC (typical of static electricity) be to have a force of 1.00 N between them?</para>
+            </problem></exercise>
+            <exercise id="fs-id2057379" type="problems-exercises"><problem id="fs-id3203053">        <para id="import-auto-id2043029">If two equal charges each of 1 C each are separated in air by a distance of 1 km, what is the magnitude of the force acting between them? You will see that even at a distance as large as 1 km, the repulsive force is substantial because 1 C is a very significant amount of charge.</para>
+            </problem></exercise>
+            <exercise id="fs-id3189377" type="problems-exercises"><problem id="fs-id2590962">        <para id="import-auto-id2660345">A test charge of <m:math><m:semantics><m:mrow><m:mn>+2</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> is placed halfway between a charge of <m:math><m:semantics><m:mrow><m:mn>+6</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> and another of <m:math><m:semantics><m:mrow><m:mn>+4</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> separated by 10 cm. (a) What is the magnitude of the force on the test charge? (b) What is the direction of this force (away from or toward the <m:math><m:semantics><m:mrow><m:mn>+6</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> charge)?</para></problem></exercise>
+            <exercise id="fs-id2384303" type="problems-exercises"><problem id="fs-id1999093">        <para id="import-auto-id1319182">Bare free charges do not remain stationary when close together. To illustrate this, calculate the acceleration of two isolated protons separated by 2.00 nm (a typical distance between gas atoms). Explicitly show how you follow the steps in the Problem-Solving Strategy for electrostatics.</para>
+            </problem>
+                <solution id="fs-id1355992">
+                    <para id="import-auto-id1916504"><m:math><m:semantics><m:mrow>
+<m:mtable columnalign="left">
+
+<m:mtr>
+<m:mtd><m:mi>F</m:mi>
+</m:mtd>
+<m:mtd><m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mi>k</m:mi><m:mfrac><m:mrow><m:mo>|</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo>|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac>
+<m:mo>=</m:mo>
+<m:mi fontstyle="italic">ma</m:mi><m:mo>⇒ </m:mo><m:mi fontstyle="italic">a</m:mi><m:mo>=</m:mo>
+<m:mfrac><m:mrow><m:mi>k</m:mi><m:msup><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mi>m</m:mi><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac>
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd>
+</m:mtd>
+<m:mtd><m:mo>=</m:mo>
+</m:mtd>
+<m:mtd>
+<m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>9.00</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>N</m:mtext>   <m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo>/</m:mo><m:msup><m:mtext>C</m:mtext><m:mn>2</m:mn></m:msup><m:mo>)</m:mo>
+
+<m:msup>
+<m:mrow><m:mo>(</m:mo>
+<m:mn>1.60</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–19</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup>
+</m:mrow>
+
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mn>1.67</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–27</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>kg</m:mtext><m:mo>)</m:mo>
+
+<m:msup>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–9</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup>
+
+</m:mrow></m:mfrac>
+
+</m:mtd>
+</m:mtr>
+
+<m:mtr>
+<m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+<m:mn>3.45</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>16</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>m/</m:mtext><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup>
+</m:mtd>
+</m:mtr>
+</m:mtable>
+
+</m:mrow></m:semantics></m:math></para></solution>
+            </exercise>
+            <exercise id="fs-id2595116" type="problems-exercises"><problem id="fs-id2971431">        <para id="import-auto-id2397519">(a) By what factor must you change the distance between two point charges to change the force between them by a factor of 10? (b) Explain how the distance can either increase or decrease by this factor and still cause a factor of 10 change in the force.</para>
+            </problem>
+                <solution id="fs-id3055502">
+                    <para id="import-auto-id1934482">(a) 3.2</para>
+                    <para id="import-auto-id2595537">(b) If the distance increases by 3.2, then the force will decrease by a factor of 10 ; if the distance decreases by 3.2, then the force will increase by a factor of 10. Either way, the force changes by a factor of 10.</para>
+                </solution>
+            </exercise>
+            <exercise id="fs-id3034287" type="problems-exercises"><problem id="fs-id3004277">        <para id="import-auto-id1980179">Suppose you have a total charge <m:math><m:semantics><m:mrow><m:msub><m:mi fontstyle="italic">q</m:mi><m:mtext>tot</m:mtext></m:msub></m:mrow></m:semantics></m:math> that you can split in any manner. Once split, the separation distance is fixed. How do you split the charge to achieve the greatest force?</para></problem></exercise>
+            <exercise id="fs-id3123949" type="problems-exercises"><problem id="fs-id2000785">        <para id="import-auto-id2673105">(a) Common transparent tape becomes charged when pulled from a dispenser. If one piece is placed above another, the repulsive force can be great enough to support the top piece's weight. Assuming equal point charges (only an approximation), calculate the magnitude of the charge if electrostatic force is great enough to support the weight of a 10.0 mg piece of tape held 1.00 cm above another. (b) Discuss whether the magnitude of this charge is consistent with what is typical of static electricity.</para>
+            </problem>
+                <solution id="fs-id3203059">
+                    <para id="import-auto-id1845049">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>04</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "04" times "10" rSup { size 8{ - 9} } } {}</m:annotation></m:semantics></m:math> C</para>
+                    <para id="import-auto-id1598948">(b) This charge is approximately 1 nC, which is consistent with the magnitude of charge typical for static electricity</para></solution>
+            </exercise>
+            <exercise id="fs-id1861080" type="problems-exercises"><problem id="fs-id1389499">        <para id="import-auto-id1037692">(a) Find the ratio of the electrostatic to gravitational force between two electrons. (b) What is this ratio for two protons? (c) Why is the ratio different for electrons and protons?</para>
+            </problem></exercise>
+            <exercise id="fs-id3250393" type="problems-exercises"><problem id="fs-id2598678">        <para id="import-auto-id913080">At what distance is the electrostatic force between two protons equal to the weight of one proton?</para>
+            </problem></exercise>
+            <exercise id="fs-id2604205" type="problems-exercises"><problem id="fs-id1818591">        <para id="import-auto-id2670366">A certain five cent coin contains 5.00 g of nickel. What fraction of the nickel atoms' electrons, removed and placed 1.00 m above it, would support the weight of this coin? The atomic mass of nickel is 58.7, and each nickel atom contains 28 electrons and 28 protons.</para>
+            </problem>
+                <solution id="fs-id2688535">
+                    <para id="import-auto-id1569391">
+                        <m:math>
+                            <m:semantics>
+                                <m:mrow>
+
+                                        <m:mrow>
+                                            <m:mrow>
+                                                <m:mn>1</m:mn>
+                                                <m:mtext>.</m:mtext>
+                                                <m:mrow>
+                                                    <m:mtext>02</m:mtext>
+                                                    <m:mo stretchy="false">×</m:mo>
+                                                    <m:msup>
+                                                        <m:mtext>10</m:mtext>
+
+                                                            <m:mrow>
+                                                                <m:mrow>
+                                                                    <m:mo stretchy="false">−</m:mo>
+                                                                    <m:mtext>11</m:mtext>
+                                                                </m:mrow>
+                                                            </m:mrow>
+
+                                                    </m:msup>
+                                                </m:mrow>
+                                            </m:mrow>
+                                        </m:mrow>
+
+                                    <m:mrow/>
+                                </m:mrow>
+                                <m:annotation encoding="StarMath 5.0"> size 12{1 "." "02" times "10" rSup { size 8{ - "11"} } } {}</m:annotation>
+                            </m:semantics>
+                        </m:math>
+                    </para>
+                </solution>
+            </exercise>
+            <exercise id="fs-id1362193" type="problems-exercises"><problem id="fs-id2598838">        <para id="import-auto-id2684000">(a) Two point charges totaling <m:math><m:semantics><m:mrow><m:mn>8.00</m:mn><m:mspace width="0.25em"/><m:mi>µ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> exert a repulsive force of 0.150 N on one another when separated by 0.500 m. What is the charge on each? (b) What is the charge on each if the force is attractive?</para></problem></exercise>
+            <exercise id="fs-id2622925" type="problems-exercises"><problem id="fs-id2209862">        <para id="import-auto-id1889286">Point charges of <m:math><m:semantics><m:mrow><m:mn>5.00</m:mn><m:mspace width="0.25em"/><m:mi>µ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mn>–3.00</m:mn><m:mspace width="0.25em"/><m:mi>µ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> are placed 0.250 m apart. (a) Where can a third charge be placed so that the net force on it is zero? (b) What if both charges are positive?</para></problem>
+                <solution id="fs-id2449909">
+                    <list id="import-auto-id1571813" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+                        <item>0.859 m beyond negative charge on line connecting two charges</item>
+                        <item>0.109 m from lesser charge on line connecting two charges</item>
+                    </list>
+                </solution>
+            </exercise>
+            <exercise id="fs-id1995832" type="problems-exercises"><problem id="fs-id1390619">        <para id="import-auto-id3119635">Two point charges <m:math><m:semantics><m:mrow><m:msub><m:mi fontstyle="italic">q</m:mi><m:mtext>1</m:mtext></m:msub></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:msub><m:mi fontstyle="italic">q</m:mi><m:mtext>2</m:mtext></m:msub></m:mrow></m:semantics></m:math> are
+
+<m:math><m:semantics><m:mrow><m:mn>3.00 m</m:mn></m:mrow></m:semantics></m:math> apart, and their total charge is <m:math><m:semantics><m:mrow><m:mn>20</m:mn><m:mspace width="0.25em"/><m:mi>µ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math>. (a) If the force of repulsion between them is 0.075N, what are magnitudes of the two charges? (b) If one charge attracts the other with a force of 0.525N, what are the magnitudes of the two charges? Note that you may need to solve a quadratic equation to reach your answer.</para></problem></exercise>
+        </section>
+     </content>
+    <glossary>
+        <definition id="import-auto-id1998111"><term>Coulomb's law</term> <meaning id="fs-id1381777">the mathematical equation calculating the electrostatic force vector between two charged particles</meaning></definition>
+        <definition id="import-auto-id1409671"><term>Coulomb force</term> <meaning id="fs-id2001373">another term for the electrostatic force</meaning></definition>
+        <definition id="import-auto-id982366"><term>electrostatic force</term> <meaning id="fs-id3027727">the amount and direction of attraction or repulsion between two charged bodies</meaning></definition>
+    </glossary>
+</document>

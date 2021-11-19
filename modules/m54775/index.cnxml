@@ -1,0 +1,1364 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Falling Objects</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54775</md:content-id>
+  <md:title>Falling Objects</md:title>
+  <md:abstract/>
+  <md:uuid>34176c43-5a3b-4e21-950d-3b724e819b15</md:uuid>
+</metadata>
+
+<content>
+
+
+	<section id="fs-id3275688" class="learning-objectives">
+	  <title>Learning Objectives</title>
+	  <para id="fs-id2339799">By the end of this section, you will be able to:</para>
+	  <list id="fs-id2720751">
+		<item>Describe the effects of gravity on objects in motion.</item>
+		<item>Describe the motion of objects that are in free fall.</item>
+		<item>Calculate the position and velocity of objects in free fall.</item>
+	  </list>
+	  <para id="fs-id2400182">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id2142699"><item><emphasis effect="bold">3.A.1.1</emphasis> The student is able to express the motion of an object using narrative, mathematical, or graphical representations.<emphasis effect="bold"> (S.P. 1.5, 2.1, 2.2)</emphasis></item>
+		<item><emphasis effect="bold">3.A.1.2</emphasis> The student is able to design an experimental investigation of the motion of an object.<emphasis effect="bold"> (S.P. 4.2)</emphasis></item>
+		<item><emphasis effect="bold">3.A.1.3</emphasis> The student is able to analyze experimental data describing the motion of an object and is able to express the results of the analysis using narrative, mathematical, and graphical representations.<emphasis effect="bold"> (S.P. 5.1)</emphasis></item>
+	  </list></section>
+
+    <para id="import-auto-id2295392">Falling objects form an interesting class of motion problems. For example, we can estimate the depth of a vertical mine shaft by dropping a rock into it and listening for the rock to hit the bottom. By applying the kinematics developed so far to falling objects, we can examine some interesting situations and learn much about gravity in the process.</para>
+<section id="fs-id4178141"><title>Gravity</title>
+    <para id="import-auto-id2006874">The most remarkable and unexpected fact about falling objects is that, if air resistance and friction are negligible, then in a given location all objects fall toward the center of Earth with the <emphasis effect="italics">same constant acceleration</emphasis>, <emphasis effect="italics">independent of their mass</emphasis>. This experimentally determined fact is unexpected, because we are so accustomed to the effects of air resistance and friction that we expect light objects to fall slower than heavy ones. </para>
+    <figure id="import-auto-id4126662"><media id="import-auto-id2553814" alt="Positions of a feather and hammer over time as they fall on the Moon. The feather and hammer are at the exact same position at each moment in time.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_07_00a.jpg"/>
+      </media>
+
+    <caption>A hammer and a feather will fall with the same constant acceleration if air resistance is considered negligible. This is a general characteristic of gravity not unique to Earth, as astronaut David R. Scott demonstrated on the Moon in 1971, where the acceleration due to gravity is only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>67 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "67 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.
+      </caption></figure><para id="import-auto-id4066514">In the real world, air resistance can cause a lighter object to fall slower than a heavier object of the same size. A tennis ball will reach the ground after a hard baseball dropped at the same time. (It might be difficult to observe the difference if the height is not large.) Air resistance opposes the motion of an object through the air, while friction between objects—such as between clothes and a laundry chute or between a stone and a pool into which it is dropped—also opposes motion between them. For the ideal situations of these first few chapters, an object <emphasis effect="italics">falling without air resistance or friction</emphasis> is defined to be in <term id="import-auto-id1714641">free-fall</term>.</para>
+    <para id="import-auto-id4141851">The force of gravity causes objects to fall toward the center of Earth. The acceleration of free-falling objects is therefore called the <term id="import-auto-id1707599">acceleration due to gravity</term>. The acceleration due to gravity is <emphasis effect="italics">constant</emphasis>, which means we can apply the kinematics equations to any falling object where air resistance and friction are negligible. This opens a broad class of interesting situations to us. The acceleration due to gravity is so important that its magnitude is given its own symbol, <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>. It is constant at any given location on Earth and has the average value</para>
+    <equation id="eip-636"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g=9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3504907">Although <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> varies from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>78 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "78 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>83 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "83 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, depending on latitude, altitude, underlying geological formations, and local topography, the average value of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> will be used in this text unless otherwise specified. The direction of the acceleration due to gravity is <emphasis effect="italics">downward (towards the center of Earth)</emphasis>. In fact, its direction <emphasis effect="italics">defines</emphasis> what we call vertical. Note that whether the acceleration <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> in the kinematic equations has the value <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+g} {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - g} {}</m:annotation></m:semantics></m:math> depends on how we define our coordinate system. If we define the upward direction as positive, then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= - g= - 9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and if we define the downward direction as negative, then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mi>g</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=g=9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+</section>
+<section id="fs-id2854808">
+<title>One-Dimensional Motion Involving Gravity</title>
+    <para id="import-auto-id1354046">The best way to see the basic features of motion involving gravity is to start with the simplest situations and then progress toward more complex ones. So we start by considering straight up and down motion with no air resistance or friction. These assumptions mean that the velocity (if there is any) is vertical. If the object is dropped, we know the initial velocity is zero. Once the object has left contact with whatever held or threw it, the object is in free-fall. Under these circumstances, the motion is one-dimensional and has constant acceleration of magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>. We will also represent vertical displacement with the symbol <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> and use <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> for horizontal displacement.</para>
+    <note id="fs-id1931991"><label/><title>Kinematic Equations for Objects in Free-Fall where Acceleration = -<emphasis effect="italics">g</emphasis></title>
+
+    <equation id="import-auto-id2222965"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>v</m:mi>
+                <m:mo>=</m:mo>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                 <m:mo stretchy="false">−</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>gt</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "gt"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="import-auto-id4048491"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mstyle>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">gt</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mstyle>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=y rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "gt" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><equation id="import-auto-id4019890"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msubsup>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msubsup>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>2</m:mn><m:mi>g</m:mi>
+                  </m:mrow>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mi>y</m:mi>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mfenced>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =v rSub { size 8{0} }  rSup { size 8{2} } +2g left (y - y rSub { size 8{0} }  right )} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></note><example id="fs-id4067058">
+    <title>Calculating Position and Velocity of a Falling Object: A Rock Thrown Upward</title>
+    <para id="import-auto-id4149723">A person standing on the edge of a high cliff throws a rock straight up with an initial velocity of 13.0 m/s. The rock misses the edge of the cliff as it falls back to Earth. Calculate the position and velocity of the rock 1.00 s, 2.00 s, and 3.00 s after it is thrown, neglecting the effects of air resistance.</para>
+    <para id="import-auto-id4127381">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1451572">Draw a sketch.</para>
+      <figure id="import-auto-id2188586"><media id="import-auto-id3561557" alt="Velocity vector arrow pointing up in the positive y direction, labeled v sub 0 equals thirteen point 0 meters per second. Acceleration vector arrow pointing down in the negative y direction, labeled a equals negative 9 point 8 meters per second squared.">
+          <image mime-type="image/jpg" src="../../media/Figure_02_07_00b.jpg"/>
+        </media>
+      </figure><para id="import-auto-id1345513">We are asked to determine the position <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> at various times. It is reasonable to take the initial position <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> to be zero. This problem involves one-dimensional motion in the vertical direction. We use plus and minus signs to indicate direction, with up being positive and down negative. Since up is positive, and the rock is thrown upward, the initial velocity must be positive too. The acceleration due to gravity is downward, so <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> is negative. It is crucial that the initial velocity and the acceleration due to gravity have opposite signs. Opposite signs indicate that the acceleration due to gravity opposes the initial motion and will slow and eventually reverse it. </para>
+    <para id="import-auto-id4095755">Since we are asked for values of position and velocity at three times, we will refer to these as <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>; <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></emphasis> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>; and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id2217851">
+      <emphasis>Solution for Position </emphasis>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>y</m:mi>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    <para id="import-auto-id1659278">1. Identify the knowns. We know that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } ="13" "." "0 m/s"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= - g= - 9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>; and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=1 "." "00 s"} {}</m:annotation></m:semantics></m:math>. </para>
+    <para id="import-auto-id3627669">2. Identify the best equation to use. We will use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">at</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y=y rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> because it includes only one unknown, <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> (or <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, here),<emphasis effect="italics"/> which is the value we want to find.</para><para id="import-auto-id3602200">3. Plug in the known values and solve for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>.</para>
+    <equation id="import-auto-id2302522"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mi>y</m:mi>
+                <m:mrow>
+                  <m:mmultiscripts>
+                    <m:mtext/>
+                    <m:mprescripts/>
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                    </m:mrow>
+                    <m:none/>
+                  </m:mmultiscripts>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mn>0</m:mn>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mtext>13</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>0 m/s</m:mtext>
+                      </m:mrow>
+                    </m:mfenced>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>00 s</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>9</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>80</m:mtext><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mtext>m/s</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mfenced>
+                <m:mrow>
+                  <m:msup>
+                    <m:mfenced open="(" close=")">
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>00 s</m:mtext>
+                      </m:mrow>
+                    </m:mfenced>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>8</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>10</m:mtext>
+                <m:mi/><m:mspace width="0.25em"/>
+                <m:mtext>m</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y"" lSub { size 8{1} } =0+ left ("13" "." "0 m/s" right ) left (1 "." "00 s" right )+ {  {1}  over  {2} }  left ( - 9 "." "80"" m/s" rSup { size 8{2} }  right ) left (1 "." "00 s" right ) rSup { size 8{2} } =8 "." "10"`m} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1772102">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2111072">The rock is 8.10 m above its starting point at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=1 "." "00"} {}</m:annotation></m:semantics></m:math> s, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">&gt;</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } &gt;y rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. It could be <emphasis effect="italics">moving</emphasis> up or down; the only way to tell is to calculate <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and find out if it is positive or negative. </para>
+   <para id="import-auto-id2223740"><emphasis>Solution for Velocity </emphasis>
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:msub>
+                <m:mi>v</m:mi>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+              </m:msub>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="import-auto-id4138785">1. Identify the knowns. We know that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } ="13" "." "0 m/s"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= - g= - 9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>; and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=1 "." "00 s"} {}</m:annotation></m:semantics></m:math>. We also know from the solution above that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>10 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } =8 "." "10 m"} {}</m:annotation></m:semantics></m:math>.</para>
+    <para id="import-auto-id4138788">2. Identify the best equation to use. The most straightforward is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gt</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} }  -  ital "gt"} {}</m:annotation></m:semantics></m:math> (from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>at</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=v rSub { size 8{0} } + ital "at"} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>gravitational acceleration</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a="gravitational acceleration"= - g} {}</m:annotation></m:semantics></m:math>).</para>
+    <para id="import-auto-id1688801">3. Plug in the knowns and solve. </para>
+    <equation id="import-auto-id1688803">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>gt</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mtext>13</m:mtext>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>0 m/s</m:mtext>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mn>9</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:msup>
+                        <m:mtext>80 m/s</m:mtext>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                  </m:mfenced>
+                </m:mrow>
+                <m:mrow>
+                  <m:mfenced open="(" close=")">
+                    <m:mrow>
+                      <m:mn>1</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>00 s</m:mtext>
+                    </m:mrow>
+                  </m:mfenced>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>3</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>20 m/s</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } =v rSub { size 8{0} }  -  ital "gt"="13" "." "0 m/s" -  left (9 "." "80 m/s" rSup { size 8{2} }  right ) left (1 "." "00 s" right )=3 "." "20 m/s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id2025041">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id3524154">The positive value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> means that the rock is still heading upward at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. However, it has slowed from its original 13.0<emphasis effect="italics"/> m/s, as expected.</para><para id="import-auto-id2034327">
+      <emphasis>Solution for Remaining Times</emphasis>
+    </para>
+    <para id="import-auto-id2001485">The procedures for calculating the position and velocity at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=2 "." "00"`s} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00 s"} {}</m:annotation></m:semantics></m:math> are the same as those above. The results are summarized in <link target-id="eip-304"/> and illustrated in <link target-id="import-auto-id4064055"/>.</para><table id="eip-304" summary="Table with four columns showing the time, position, velocity, and acceleration of a rock thrown in the air. Times are listed in column one, and corresponding position, velocity, and acceleration are listed in the next three columns."><title>Results</title>
+<tgroup cols="4"><thead>
+          <row>
+            <entry align="center">
+            Time, <emphasis effect="italics">t</emphasis>
+            </entry>
+            <entry align="center">
+              Position, <emphasis effect="italics">y</emphasis>
+            </entry>
+            <entry align="center">
+              Velocity, <emphasis effect="italics">v</emphasis>
+            </entry>
+            <entry align="center">
+              Acceleration, <emphasis effect="italics">a</emphasis>
+            </entry>
+          </row></thead>
+<tbody>
+          <row>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>00 s</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "00 s"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>8</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>10 m</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{8 "." "10 m"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>20 m/s</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." "20 m/s"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:msup>
+                          <m:mtext>80 m/s</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{-9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>00 s</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2 "." "00 s"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>40 m</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{6 "." "40 m"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>60 m/s</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 6 "." "60 m/s"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:msup>
+                          <m:mtext>80 m/s</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{-9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>00 s</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." "00 s"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>5</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>10 m</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - 5 "." "10 m"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mtext>16</m:mtext>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>4 m/s</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ - "16" "." "4 m/s"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry align="center">
+              <m:math>
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>9</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:msup>
+                          <m:mtext>80 m/s</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{-9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+        </tbody>
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id3537673">Graphing the data helps us understand it more clearly.</para>
+    <figure id="import-auto-id4064055"><media id="import-auto-id4064056" alt="Three panels showing three graphs. The top panel shows a graph of vertical position in meters versus time in seconds. The line begins at the origin and has a positive slope that decreases over time until it hits a turning point between seconds 1 and 2. After that it has a negative slope that increases over time. The middle panel shows a graph of velocity in meters per second versus time in seconds. The line is straight, with a negative slope, beginning at time zero velocity of thirteen meters per second and ending at time 3 seconds with a velocity just over negative sixteen meters per second. The bottom panel shows a graph of acceleration in meters per second squared versus time in seconds. The line is straight and flat at a y value of negative 9 point 80 meters per second squared from time 0 to time 3 seconds.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_06_01.jpg"/>
+      </media>
+
+    <caption>Vertical position, vertical velocity, and vertical acceleration vs. time for a rock thrown vertically up at the edge of a cliff. Notice that velocity changes linearly with time and that acceleration is constant. <emphasis effect="italics">Misconception Alert!</emphasis> Notice that the position vs. time graph shows vertical position only. It is easy to get the impression that the graph shows some horizontal motion—the shape of the graph looks like the path of a projectile. But this is not the case; the horizontal axis is <emphasis effect="italics">time</emphasis>, not space. The actual path of the rock in space is straight up, and straight down.
+      </caption></figure><para id="import-auto-id1681385">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2220081">The interpretation of these results is important. At 1.00 s the rock is above its starting point and heading upward, since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> are both positive. At 2.00 s, the rock is still above its starting point, but the negative velocity means it is moving downward. At 3.00 s, both <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math> are negative, meaning the rock is below its starting point and continuing to move downward. Notice that when the rock is at its highest point (at 1.5 s), its velocity is zero, but its acceleration is still <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{-9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Its acceleration is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{-9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math><sup/> for the whole trip—while it is moving up and while it is moving down. Note that the values for <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> are the positions (or displacements) of the rock, not the total distances traveled. Finally, note that free-fall applies to upward motion as well as downward. Both have the same acceleration—the acceleration due to gravity, which remains constant the entire time. Astronauts training in the famous Vomit Comet, for example, experience free-fall while arcing up as well as down, as we will discuss in more detail later.</para>
+    </example>
+    <note id="fs-id1773192"><label/>
+    <title>Making Connections: Take-Home Experiment—Reaction Time</title>
+    <para id="import-auto-id2293959">A simple experiment can be done to determine your reaction time. Have a friend hold a ruler between your thumb and index finger, separated by about 1 cm. Note the mark on the ruler that is right between your fingers. Have your friend drop the ruler unexpectedly, and try to catch it between your two fingers. Note the new reading on the ruler. Assuming acceleration is that due to gravity, calculate your reaction time. How far would you travel in a car (moving at 30 m/s) if the time it took your foot to go from the gas pedal to the brake was twice this reaction time?</para>
+    </note>
+    <example id="fs-id2186600">
+    <title>Calculating Velocity of a Falling Object: A Rock Thrown Down</title>
+    <para id="import-auto-id4097406">What happens if the person on the cliff throws the rock straight down, instead of straight up? To explore this question, calculate the velocity of the rock when it is 5.10 m below the starting point, and has been thrown downward with an initial speed of 13.0 m/s.</para><para id="import-auto-id4097414">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id2150745">Draw a sketch. </para>
+    <figure id="import-auto-id2150750"><media id="import-auto-id2150751" alt="Velocity vector arrow pointing down in the negative y direction and labeled v sub zero equals negative thirteen point 0 meters per second. Acceleration vector arrow also pointing down in the negative y direction, labeled a equals negative 9 point 80 meters per second squared.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_06_01a.jpg"/>
+      </media>
+    </figure><para id="import-auto-id3604721">Since up is positive, the final position of the rock will be negative because it finishes below the starting point at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>. Similarly, the initial velocity is downward and therefore negative, as is the acceleration due to gravity. We expect the final velocity to be negative since the rock will continue to move downward.</para>
+    <para id="import-auto-id4110111">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id1788409">1. Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mn>0</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mn>1</m:mn></m:msub><m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>10 m</m:mtext></m:mrow></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.0 m/s</m:mtext></m:mrow></m:mrow></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>80 m</m:mtext><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= - g= - 9 "." "80"" m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1782245">2. Choose the kinematic equation that makes it easiest to solve the problem. The equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> works well because the only unknown in it is <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (We will plug <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in for <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.)</para><para id="import-auto-id2025015">3. Enter the known values</para>
+    <equation id="import-auto-id2025017"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>10 m</m:mtext><m:mo stretchy="false">−</m:mo><m:mtext>0 m</m:mtext></m:mrow></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>268</m:mtext></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>96 m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } = left ( - "13" "." "0 m/s" right ) rSup { size 8{2} } +2 left ( - 9 "." "80 m/s" rSup { size 8{2} }  right ) left ( - 5 "." "10 m" - "0 m" right )="268" "." "96 m" rSup { size 8{2} } "/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1763708">where we have retained extra significant figures because this is an intermediate result.</para>
+    <para id="import-auto-id1763705">Taking the square root, and noting that a square root can be positive or negative, gives</para>
+    <equation id="import-auto-id1763704"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">±</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow><m:mtext>.4 m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1797916">The negative root is chosen to indicate that the rock is still heading down. Thus,</para>
+    <equation id="import-auto-id2563747"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow><m:mtext>.4 m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= - "16" "." 4`"m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2561834">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2563753">Note that <emphasis effect="italics">this is exactly the same velocity the rock had at this position when it was thrown straight upward with the same initial speed</emphasis>. (See <link target-id="fs-id4067058"/> and <link target-id="import-auto-id4173440"/>(a).) This is not a coincidental result. Because we only consider the acceleration due to gravity in this problem, the <emphasis effect="italics">speed</emphasis> of a falling object depends only on its initial speed and its vertical position relative to the starting point. For example, if the velocity of the rock is calculated at a height of 8.10 m above the starting point (using the method from <link target-id="fs-id4067058"/>) when the initial velocity is 13.0 m/s straight up, a result of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>20 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- 3 "." "20"`"m/s"} {}</m:annotation></m:semantics></m:math> is obtained. Here both signs are meaningful; the positive value occurs when the rock is at 8.10 m and heading up, and the negative value occurs when the rock is at 8.10 m and heading back down. It has the same <emphasis effect="italics">speed</emphasis> but the opposite direction. </para><figure id="import-auto-id4173440"><media id="import-auto-id4173441" alt="Two figures are shown. At left, a man standing on the edge of a cliff throws a rock straight up with an initial speed of thirteen meters per second. At right, the man throws the rock straight down with a speed of thirteen meters per second. In both figures, a line indicates the rock's trajectory. When the rock is thrown straight up, it has a speed of minus sixteen point four meters per second at minus five point one zero meters below the point where the man released the rock. When the rock is thrown straight down, the velocity is the same at this position.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_06_00b.jpg"/>
+      </media>
+
+    <caption>(a) A person throws a rock straight up, as explored in <link target-id="fs-id4067058"/>. The arrows are velocity vectors at 0, 1.00, 2.00, and 3.00 s. (b) A person throws a rock straight down from a cliff with the same initial speed as before, as in <link target-id="fs-id2186600"/>. Note that at the same distance below the point of release, the rock has the same velocity in both cases. </caption></figure><para id="import-auto-id4180408">Another way to look at it is this: In <link target-id="fs-id4067058"/>, the rock is thrown up with an initial velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>13</m:mtext><m:mtext>.0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. It rises and then falls back down. When its position is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math> on its way back down, its velocity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. That is, it has the same speed on its way down as on its way up. We would then expect its velocity at a position of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>10 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to be the same whether we have thrown it upwards at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.0 m/s</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> or thrown it downwards at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.0 m/s</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. The velocity of the rock on its way down from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math> is the same whether we have thrown it up or down to start with, as long as the speed with which it was initially thrown is the same. </para></example>
+    <example id="fs-id3526422">
+    <title>Find <emphasis effect="italics">g</emphasis> from Data on a Falling Object</title>
+    <para id="import-auto-id2585093">The acceleration due to gravity on Earth differs slightly from place to place, depending on topography (e.g., whether you are on a hill or in a valley) and subsurface geology (whether there is dense rock like iron ore as opposed to light rock like salt beneath you.) The precise acceleration due to gravity can be calculated from data taken in an introductory physics laboratory course. An object, usually a metal ball for which air resistance is negligible, is dropped and the time it takes to fall a known distance is measured. See, for example, <link target-id="import-auto-id4097254"/>. Very precise results can be produced with this method if sufficient care is taken in measuring the distance fallen and the elapsed time. </para><figure id="import-auto-id4097254"><media id="import-auto-id4097255" alt="Figure has four panels. The first panel (on the top) is an illustration of a ball falling toward the ground at intervals of one tenth of a second. The space between the vertical position of the ball at one time step and the next increases with each time step. At time equals 0, position and velocity are also 0. At time equals 0 point 1 seconds, y position equals negative 0 point 049 meters and velocity is negative 0 point 98 meters per second. At 0 point 5 seconds, y position is negative 1 point 225 meters and velocity is negative 4 point 90 meters per second. The second panel (in the middle) is a line graph of position in meters versus time in seconds. Line begins at the origin and slopes down with increasingly negative slope. The third panel (bottom left) is a line graph of velocity in meters per second versus time in seconds. Line is straight, beginning at the origin and with a constant negative slope. The fourth panel (bottom right) is a line graph of acceleration in meters per second squared versus time in seconds. Line is flat, at a constant y value of negative 9 point 80 meters per second squared.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_06_02.jpg"/>
+      </media>
+
+    <caption>Positions and velocities of a metal ball released from rest when air resistance is negligible. Velocity is seen to increase linearly with time while displacement increases with time squared. Acceleration is a constant and is equal to gravitational acceleration.</caption></figure><para id="import-auto-id4146639">Suppose the ball falls 1.0000 m in 0.45173 s. Assuming the ball is not affected by air resistance, what is the precise acceleration due to gravity at this location?</para>
+    <para id="import-auto-id4146642">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id4051154">Draw a sketch. </para>
+    <figure id="import-auto-id4051158"><media id="import-auto-id4051159" alt="The figure shows a green dot labeled v sub zero equals zero meters per second, a purple downward pointing arrow labeled a equals question mark, and an x y coordinate system with the y axis pointing vertically up and the x axis pointing horizontally to the right.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_06_02b.jpg"/>
+      </media>
+    </figure><para id="import-auto-id4025931">We need to solve for acceleration <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>. Note that in this case, displacement is downward and therefore negative, as is acceleration. </para>
+    <para id="import-auto-id1551030">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id1551034">1. Identify the knowns. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mn>–1</m:mn><m:mtext>.0000 m</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>;
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.45173</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id4043850">2. Choose the equation that allows you to solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> using the known values.</para>
+    <equation id="import-auto-id3578358"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>t</m:mi>
+                  <m:mo stretchy="false">+</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mstyle>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">at</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mstyle>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=y rSub { size 8{0} } +v rSub { size 8{0} } t+ {  {1}  over  {2} }  ital "at" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id4160974">3. Substitute 0 for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> and rearrange the equation to solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math>. Substituting 0 for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> yields</para>
+    <equation id="import-auto-id3538274"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>y</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>y</m:mi>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                      </m:mrow>
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                <m:mstyle>
+                  <m:mrow>
+                    <m:msup>
+                      <m:mtext fontstyle="italic">at</m:mtext>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y=y rSub { size 8{0} } + {  {1}  over  {2} }  ital "at" rSup { size 8{2} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id3504490">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> gives</para>
+    <equation id="import-auto-id3504484">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                      <m:mfenced open="(" close=")">
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                        </m:mrow>
+                      </m:mfenced>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mi>t</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a= {  {2 left (y - y rSub { size 8{0} }  right )}  over  {t rSup { size 8{2} } } }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation>
+    <para id="import-auto-id4128814">4. Substitute known values yields</para>
+    <equation id="import-auto-id2571438"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>a</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>0000 m – 0</m:mtext>
+                        <m:mo stretchy="false">)</m:mo>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">(</m:mo>
+                        <m:mn>0</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>45173 s</m:mtext>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:msup>
+                  <m:mtext>8010 m/s</m:mtext>
+                  <m:mrow>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                </m:msup>
+                <m:mi>,</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a= {  {2 \(  - 1 "." "0000 m–0" \) }  over  { \( 0 "." "45173 s" \)  rSup { size 8{2} } } } = - 9 "." "8010 m/s" rSup { size 8{2} } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id4129554">so, because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= - g} {}</m:annotation></m:semantics></m:math> with the directions we have chosen,</para>
+    <equation id="import-auto-id1706716"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>8010 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g=9 "." "8010 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id2018012">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id2007329">The negative value for <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> indicates that the gravitational acceleration is downward, as expected. We expect the value to be somewhere around the average value of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>8010 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "8010 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> makes sense. Since the data going into the calculation are relatively precise, this value for <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> is more precise than the average value of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>; it represents the local value for the acceleration due to gravity.</para>
+    </example>
+
+
+<note id="fs-id2149869"><title>Applying the Science Practices: Finding Acceleration Due to Gravity</title><para id="fs-id1320974">While it is well established that the acceleration due to gravity is quite nearly 9.8 m/s<sup>2</sup> at all locations on Earth, you can verify this for yourself with some basic materials. </para>
+<para id="fs-id1321180">Your task is to find the acceleration due to gravity at your location. Achieving an acceleration of precisely 9.8 m/s<sup>2</sup> will be difficult. However, with good preparation and attention to detail, you should be able to get close. Before you begin working, consider the following questions. </para>
+<para id="fs-id3318051"><emphasis effect="italics">What measurements will you need to take in order to find the acceleration due to gravity?</emphasis></para>
+<para id="fs-id1844525"><emphasis effect="italics">What relationships and equations found in this chapter may be useful in calculating the acceleration?</emphasis></para>
+<para id="fs-id1757614"><emphasis effect="italics">What variables will you need to hold constant?</emphasis></para>
+<para id="fs-id2173328"><emphasis effect="italics">What materials will you use to record your measurements?</emphasis></para>
+<para id="fs-id1689217">Upon completing these four questions, record your procedure. Once recorded, you may carry out the experiment. If you find that your experiment cannot be carried out, you may revise your procedure. </para>
+<para id="fs-id1784592">Once you have found your experimental acceleration, compare it to the assumed value of 9.8 m/s<sup>2</sup>. If error exists, what were the likely sources of this error? How could you change your procedure in order to improve the accuracy of your findings?</para>
+
+</note><exercise id="fs-id4172780" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id1747475">
+    <para id="import-auto-id2325444">A chunk of ice breaks off a glacier and falls 30.0 meters before it hits the water. Assuming it falls freely (there is no air resistance), how long does it take to hit the water?</para>
+</problem>
+<solution id="fs-id1652531">
+    <para id="import-auto-id2358780">We know that initial position <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, final position <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo>=</m:mo><m:mtext>−30</m:mtext><m:mtext>.</m:mtext><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. We can then use the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msup>
+<m:mtext fontstyle="italic">at</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:semantics></m:math> to solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:semantics></m:math>. Inserting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, we obtain</para><equation id="import-auto-id2358783"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                          <m:mi>y</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>2</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                            <m:msup>
+                              <m:mtext fontstyle="italic">gt</m:mtext>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd>
+                      <m:msup>
+                        <m:mi>t</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup></m:mtd>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mfrac>
+                       <m:mrow> <m:mn>2</m:mn><m:mi>y</m:mi></m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:mi>g</m:mi>
+                        </m:mrow>
+                      </m:mfrac>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd>                            <m:mi>t</m:mi></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                              <m:mo stretchy="false">±</m:mo>
+                              <m:msqrt>
+                                <m:mfrac>
+                                 <m:mrow> <m:mn>2</m:mn><m:mi>y</m:mi></m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mi>g</m:mi>
+                                  </m:mrow>
+                                </m:mfrac>
+                              </m:msqrt>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow>
+                            <m:mo stretchy="false">±</m:mo>
+                            <m:msqrt>
+                              <m:mfrac>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                    <m:mo stretchy="false">(</m:mo>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mtext>30.0 m</m:mtext>
+                                  <m:mo stretchy="false">)</m:mo>
+                                </m:mrow>
+                                <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>9.80 m</m:mn>
+                                  <m:msup>
+                                    <m:mtext>/s</m:mtext>
+                                      <m:mn>2</m:mn>
+                                  </m:msup>
+                                </m:mrow>
+                              </m:mfrac>
+                            </m:msqrt>
+                          </m:mrow>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:msqrt>
+                            <m:mrow>
+                              <m:mtext>6.12</m:mtext><m:mspace width="0.25em"/>
+                              <m:msup>
+                                <m:mn>s</m:mn>
+                                  <m:mn>2</m:mn>
+                              </m:msup>
+                            </m:mrow>
+                          </m:msqrt>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext>2.47 s</m:mtext>
+                      <m:mo stretchy="false">≈</m:mo>
+                    </m:mrow>
+                    <m:mtext>2.5 s</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation><para id="import-auto-id2307769">where we take the positive value as the physically relevant answer. Thus, it takes about 2.5 seconds for the piece of ice to hit the water.</para>
+    </solution>
+    </exercise><note id="fs-id2006949" class="interactive"><label/><title>Equation Grapher</title><para id="import-auto-id2044902">Learn about graphing polynomials. The shape of the curve changes as the constants are adjusted. View the curves for the individual terms (e.g. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>bx</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "bx"} {}</m:annotation></m:semantics></m:math>) to see how they add to generate the polynomial curve.
+<figure id="eip-idm245656144"><media id="graphing_polynomials" alt="Learn about graphing polynomials.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02equation_grapher"/>
+</media>
+</figure></para></note></section>
+    <section id="fs-id1822906" class="section-summary"><title>Section Summary</title><list id="fs-id3611205"><item id="import-auto-id1715211">An object in free-fall experiences constant acceleration if air resistance is negligible.</item>
+    <item id="import-auto-id1715213">On Earth, all free-falling objects have an acceleration due to gravity <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math>, which averages
+    <equation id="import-auto-id3547826"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>g</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g=9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation></item>
+    <item id="import-auto-id2150922">Whether the acceleration <emphasis effect="italics">a </emphasis>should be taken as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+g} {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is determined by your choice of coordinate system. If you choose the upward direction as positive, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>80 m</m:mtext><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:semantics></m:math> is negative. In the opposite case, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mrow><m:mi>+g</m:mi><m:mo stretchy="false">=</m:mo><m:mn>9</m:mn></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is positive. Since acceleration is constant, the kinematic equations above can be applied with the appropriate <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> or
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>g</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> substituted for <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</item>
+    <item id="import-auto-id4051701">For objects in free-fall, up is normally taken as positive for displacement, velocity, and acceleration.</item>
+    </list></section><section id="fs-id1358164" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id1427339" type="conceptual-questions"><problem id="fs-id4095246">
+    <para id="import-auto-id2271017">What is the acceleration of a rock thrown straight upward on the way up? At the top of its flight? On the way down?  </para>
+    </problem></exercise>
+    <exercise id="fs-id3606158" type="conceptual-questions"><problem id="fs-id1713184">
+    <para id="import-auto-id2271030">An object that is thrown straight up falls back to Earth. This is one-dimensional motion. (a) When is its velocity zero? (b) Does its velocity change direction? (c) Does the acceleration due to gravity have the same sign on the way up as on the way down? </para>
+    </problem></exercise>
+    <exercise id="fs-id2044867" type="conceptual-questions"><problem id="fs-id2006404">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2281895" fo:font-weight="normal">Suppose you throw a rock nearly straight up at a coconut in a palm tree, and the rock misses on the way up but hits the coconut on the way down. Neglecting air resistance, how does the speed of the rock when it hits the coconut on the way down compare with what it would have been if it had hit the coconut on the way up? Is it more likely to dislodge the coconut on the way up or down? Explain. </para>
+    </problem></exercise>
+    <exercise id="fs-id1773324" type="conceptual-questions"><problem id="fs-id2300211">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id3728320" fo:font-weight="normal">If an object is thrown straight up and air resistance is negligible, then its speed when it returns to the starting point is the same as when it was released. If air resistance were not negligible, how would its speed upon return compare with its initial speed? How would the maximum height to which it rises be affected? </para>
+    </problem></exercise>
+    <exercise id="fs-id1776230" type="conceptual-questions"><problem id="fs-id2158441">
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id3639568" fo:font-weight="normal">The severity of a fall depends on your speed when you strike the ground. All factors but the acceleration due to gravity being the same, how many times higher could a safe fall on the Moon be than on Earth (gravitational acceleration on the Moon is about 1/6 that of the Earth)? </para>
+    </problem></exercise>
+    <exercise id="fs-id2271654" type="conceptual-questions"><problem id="fs-id4018154">
+<para id="import-auto-id3547965">How many times higher could an astronaut jump on the Moon than on Earth if his takeoff speed is the same in both locations (gravitational acceleration on the Moon is about 1/6 of <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{g} {}</m:annotation></m:semantics></m:math> on Earth)? </para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id3514521" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><para id="eip-150">Assume air resistance is negligible unless otherwise stated.</para><exercise id="fs-id1516821" type="problems-exercises"><problem id="fs-id2558696"><para id="import-auto-id1658423">Calculate the displacement and velocity at times of (a) 0.500, (b) 1.00, (c) 1.50, and (d) 2.00 s for a ball thrown straight up with an initial velocity of 15.0 m/s. Take the point of release to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math>.</para>
+    </problem>
+<solution id="fs-id1722520">
+    <para id="import-auto-id2303239">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>28 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{1} } =6 "." "28 m"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>1 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{1} } ="10" "." "1 m/s"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1725030">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>1 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{2} } ="10" "." "1 m"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>20 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{2} } =5 "." "20 m/s"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1658704">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>11</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>5  m</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.300 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{3} } =0 "." "300"" m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1725057">(d) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>10</m:mn></m:mrow><m:mtext>.4 m</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>4</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mtext>.60 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{4} } = - 4 "." "60"" m/s"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+    <exercise id="fs-id1746555" type="problems-exercises"><problem id="fs-id4057791"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id3728159" fo:font-weight="normal">Calculate the displacement and velocity at times of (a) 0.500, (b) 1.00, (c) 1.50, (d) 2.00, and (e) 2.50 s for a rock thrown straight down with an initial velocity of 14.0 m/s from the Verrazano Narrows Bridge in New York City. The roadway of this bridge is 70.0 m above the water.</para>
+    </problem></exercise>
+    <exercise id="fs-id1781525" type="problems-exercises"><problem id="fs-id1781526"><para id="import-auto-id2354922">A basketball referee tosses the ball straight up for the starting tip-off. At what velocity must a basketball player leave the ground to rise 1.25 m above the floor in an attempt to get the ball?</para>
+    </problem>
+<solution id="fs-id2300377">
+    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2354930" fo:font-weight="normal">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>4</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mtext>95 m/s</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } =4 "." "95 m/s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1582773" type="problems-exercises"><problem id="fs-id2593341"><para id="import-auto-id1590258">A rescue helicopter is hovering over a person whose boat has sunk. One of the rescuers throws a life preserver straight down to the victim with an initial velocity of 1.40 m/s and observes that it takes 1.8 s to reach the water. (a) List the knowns in this problem. (b) How high above the water was the preserver released? Note that the downdraft of the helicopter reduces the effects of air resistance on the falling life preserver, so that an acceleration equal to that of gravity is reasonable.</para>
+    </problem></exercise>
+    <exercise id="fs-id1788413" type="problems-exercises"><problem id="fs-id1757046"><para id="import-auto-id3572487">A dolphin in an aquatic show jumps straight up out of the water at a velocity of 13.0 m/s. (a) List the knowns in this problem. (b) How high does his body rise above the water? To solve this part, first note that the final velocity is now a known and identify its value. Then identify the unknown, and discuss how you chose the appropriate equation to solve for it. After choosing the equation, show your steps in solving for the unknown, checking units, and discuss whether the answer is reasonable. (c) How long is the dolphin in the air? Neglect any effects due to his size or orientation.</para>
+    </problem>
+<solution id="fs-id1722491">
+    <para id="import-auto-id2589095">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:msup><m:mtext>80 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a= - 9 "." "80 m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>13</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>0 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } ="13" "." "0 m/s"} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>0 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{0} } ="0 m"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id2589119">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mi/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Unknown is distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to top of trajectory, where velocity is zero. Use equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } =v rSub { size 8{0} }  rSup { size 8{2} } +2a left (y - y rSub { size 8{0} }  right )} {}</m:annotation></m:semantics></m:math> because it contains all known values except for <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, so we can solve for <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>. Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math> gives</para>
+<equation id="eip-id2418613" class="unnumbered"><label/><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:msup>
+                              <m:mi>v</m:mi>
+                                <m:mn>2</m:mn>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msubsup>
+                              <m:mi>v</m:mi>
+                                <m:mn>0</m:mn>
+                                <m:mn>2</m:mn>
+                            </m:msubsup></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                          <m:mn>2</m:mn><m:mi>a</m:mi>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msub>
+                              <m:mi>y</m:mi>
+                                <m:mn>0</m:mn>
+                            </m:msub>
+                          </m:mrow>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd> <m:mfrac>
+                        <m:mrow>
+                          <m:msup>
+                            <m:mi>v</m:mi>
+                              <m:mn>2</m:mn>
+                          </m:msup>
+                          <m:mo stretchy="false">−</m:mo>
+                          <m:msubsup>
+                            <m:mi>v</m:mi>
+                              <m:mn>0</m:mn>
+                              <m:mn>2</m:mn>
+                          </m:msubsup>
+                        </m:mrow>
+                        <m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow>
+                      </m:mfrac></m:mtd>
+<m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                        <m:mi>y</m:mi>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>y</m:mi>
+                            <m:mn>0</m:mn>
+                        </m:msub>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd>                        <m:mi>y</m:mi></m:mtd>
+<m:mtd>                        <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>y</m:mi>
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+                          </m:msub>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mi>v</m:mi>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:msubsup>
+                                <m:mi>v</m:mi>
+                                <m:mrow>
+                                  <m:mn>0</m:mn>
+                                </m:mrow>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msubsup>
+                            </m:mrow>
+                            <m:mrow><m:mn>2</m:mn><m:mi>a</m:mi></m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0 m</m:mn>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                  <m:mtext>0 m/s</m:mtext>
+                              </m:mfenced>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:msup>
+                              <m:mfenced open="(" close=")">
+                                <m:mrow>
+                                  <m:mtext>13.0 m/s</m:mtext>
+                                </m:mrow>
+                              </m:mfenced>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            </m:msup>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>9.80 m</m:mtext>
+                                <m:msup>
+                                  <m:mtext>/s</m:mtext>
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                </m:msup>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                    </m:mrow>
+                    <m:mtext>8.62 m</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+
+        </m:semantics>
+      </m:math>
+    </equation>
+<para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id3567611" fo:font-weight="normal">Dolphins measure about 2 meters long and can jump several times their length out of the water, so this is a reasonable result.</para>
+    <para id="import-auto-id3567615">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>65 s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "65 s"} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise><exercise id="fs-id1818111" type="problems-exercises"><problem id="fs-id1758954"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id3567649" fo:font-weight="normal">A swimmer bounces straight up from a diving board and falls feet first into a pool. She starts with a velocity of 4.00 m/s, and her takeoff point is 1.80 m above the pool. (a) How long are her feet in the air? (b) What is her highest point above the board? (c) What is her velocity when her feet hit the water?</para>
+    </problem></exercise>
+    <exercise id="fs-id4035152" type="problems-exercises"><problem id="fs-id1746294"><para id="import-auto-id1658343">(a) Calculate the height of a cliff if it takes 2.35 s for a rock to hit the ground when it is thrown straight up from the cliff with an initial velocity of 8.00 m/s. (b) How long would it take to reach the ground if it is thrown straight down with the same speed?</para>
+    </problem>
+<solution id="fs-id2367879">
+    <figure id="import-auto-id1658354"><media id="import-auto-id1658355" alt="Path of a rock being thrown off of cliff. The rock moves up from the cliff top, reaches a transition point, and then falls down to the ground.">
+        <image mime-type="image/jpg" src="../../media/Figure_02_07_05.jpg"/>
+      </media>
+    </figure><para id="import-auto-id1658374">(a) 8.26 m</para>
+    <para id="import-auto-id1658376">(b) 0.717 s</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2576295" type="problems-exercises"><problem id="fs-id1742640"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id1658283" fo:font-weight="normal">A very strong, but inept, shot putter puts the shot straight up vertically with an initial velocity of 11.0 m/s. How long does he have to get out of the way if the shot was released at a height of 2.20 m, and he is 1.80 m tall?</para>
+    </problem></exercise>
+    <exercise id="fs-id3543404" type="problems-exercises"><problem id="fs-id1471620"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id1658299" fo:font-weight="normal">You throw a ball straight up with an initial velocity of 15.0 m/s. It passes a tree branch on the way up at a height of 7.00 m. How much additional time will pass before the ball passes the tree branch on the way back down?</para>
+    </problem>
+<solution id="fs-id2042262">
+    <para id="import-auto-id1658312">1.91 s</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id4076783" type="problems-exercises"><problem id="fs-id1544876"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id1658327" fo:font-weight="normal">A kangaroo can jump over an object 2.50 m high. (a) Calculate its vertical speed when it leaves the ground. (b) How long is it in the air? </para>
+    </problem></exercise>
+    <exercise id="fs-id4073110" type="problems-exercises"><problem id="fs-id2360908"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4110058" fo:font-weight="normal">Standing at the base of one of the cliffs of Mt. Arapiles in Victoria, Australia, a hiker hears a rock break loose from a height of 105 m. He can't see the rock right away but then does, 1.50 s later. (a) How far above the hiker is the rock when he can see it? (b) How much time does he have to move before the rock hits his head?</para>
+    </problem>
+<solution id="fs-id4065048">
+    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4110070" fo:font-weight="normal">(a) 94.0 m </para>
+    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4110075" fo:font-weight="normal">(b) 3.13 s</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id776278" type="problems-exercises"><problem id="fs-id3510883"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4110092" fo:font-weight="normal">An object is dropped from a height of 75.0 m above ground level. (a) Determine the distance traveled during the first second. (b) Determine the final velocity at which the object hits the ground. (c) Determine the distance traveled during the last second of motion before hitting the ground.</para>
+    </problem></exercise>
+    <exercise id="fs-id1798285" type="problems-exercises"><problem id="fs-id1757237"><para id="import-auto-id1893264">There is a 250-m-high cliff at Half Dome in Yosemite National Park in California. Suppose a boulder breaks loose from the top of this cliff. (a) How fast will it be going when it strikes the ground? (b) Assuming a reaction time of 0.300 s, how long will a tourist at the bottom have to get out of the way after hearing the sound of the rock breaking loose (neglecting the height of the tourist, which would become negligible anyway if hit)? The speed of sound is 335 m/s on this day.</para>
+    </problem>
+<solution id="fs-id1465838">
+    <para id="import-auto-id1893277">(a) -70.0 m/s (downward)</para>
+    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id1893279" fo:font-weight="normal">(b) 6.10 s</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id4044798" type="problems-exercises"><problem id="fs-id1758045"><para id="import-auto-id1893300">A ball is thrown straight up. It passes a 2.00-m-high window 7.50 m off the ground on its path up and takes .310 s to go past the window. What was the ball's initial velocity?</para></problem></exercise>
+    <exercise id="fs-id4048528" type="problems-exercises"><problem id="fs-id4122121"><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id1893315" fo:font-weight="normal">Suppose you drop a rock into a dark well and, using precision equipment, you measure the time for the sound of a splash to return. (a) Neglecting the time required for sound to travel up the well, calculate the distance to the water if the sound returns in 2.0000 s. (b) Now calculate the distance taking into account the time for sound to travel up the well. The speed of sound is 332.00 m/s in this well.</para>
+    </problem>
+<solution id="fs-id1772027">
+    <para id="import-auto-id1724786">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>19</m:mtext><m:mtext>.</m:mtext><m:mtext>6 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"19" "." "6 m"} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1724802">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>18</m:mtext><m:mtext>.</m:mtext><m:mtext>5 m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"18" "." "5 m"} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2561073" type="problems-exercises"><problem id="fs-id4020060"><para id="import-auto-id2282109">A steel ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.45 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 0.0800 ms <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 8 "." "00" times "10" rSup { size 8{ - 5} } " s" \) } {}</m:annotation></m:semantics></m:math>. (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?</para></problem></exercise>
+    <exercise id="fs-id2227967" type="problems-exercises"><problem id="fs-id1934778"><para id="import-auto-id2589141">A coin is dropped from a hot-air balloon that is 300 m above the ground and rising at 10.0 m/s upward. For the coin, find (a) the maximum height reached, (b) its position and velocity 4.00 s after being released, and (c) the time before it hits the ground.</para>
+    </problem>
+<solution id="fs-id3557416">
+    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2282130" fo:font-weight="normal">(a) 305 m</para>
+    <para id="import-auto-id2282135">(b) 262 m, -29.2 m/s </para>
+    <para id="import-auto-id2282137">(c) 8.91 s</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id3597625" type="problems-exercises"><problem id="fs-id3502580"><para id="import-auto-id1590185">A soft tennis ball is dropped onto a hard floor from a height of 1.50 m and rebounds to a height of 1.10 m. (a) Calculate its velocity just before it strikes the floor. (b) Calculate its velocity just after it leaves the floor on its way back up. (c) Calculate its acceleration during contact with the floor if that contact lasts 3.50 ms <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 3 "." "50" times "10" rSup { size 8{ - 3} } " s" \) } {}</m:annotation></m:semantics></m:math>. (d) How much did the ball compress during its collision with the floor, assuming the floor is absolutely rigid?</para></problem></exercise>
+    </section>
+
+<section id="fs-id2378715" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title><exercise id="fs-id2378722" type="ap-test-prep"><problem id="fs-id2378725">
+      <para id="fs-id1978654">Observing a spacecraft land on a distant asteroid, scientists notice that the craft is falling at a rate of 5 m/s. When it is 100 m closer to the surface of the asteroid, the craft reports a velocity of 8 m/s. According to their data, what is the approximate gravitational acceleration on this asteroid?</para>
+      <list id="fs-id1978660" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>0 m/s<sup>2</sup></item>
+	<item>0.03 m/s<sup>2</sup></item>
+	<item>0.20 m/s<sup>2</sup></item>
+	<item>0.65 m/s<sup>2</sup></item>
+	<item>33 m/s<sup>2</sup></item>
+	</list></problem>
+    <solution id="fs-id2346806">
+      <para id="fs-id2346808">(c)</para></solution>
+  </exercise></section>
+
+ </content>
+ <glossary>
+    <definition id="import-auto-id2801708"><term>free-fall</term> <meaning id="fs-id4121187">the state of movement that results from gravitational force only</meaning></definition>
+    <definition id="import-auto-id2801710"><term>acceleration due to gravity</term> <meaning id="fs-id2255729">acceleration of an object as a result of gravity </meaning></definition>
+    </glossary>
+</document>

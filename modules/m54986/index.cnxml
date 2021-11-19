@@ -1,0 +1,59 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" class="introduction">
+
+<title>Connection for AP® Courses</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54986</md:content-id>
+  <md:title>Connection for AP® Courses</md:title>
+  <md:abstract/>
+  <md:uuid>9f074aaf-1d3a-4477-bed2-e585c2545498</md:uuid>
+</metadata>
+
+<content>
+<figure id="import-auto-id3121980" class="splash"><media id="import-auto-id2679274" alt="The figure shows, from front, a red and silver coloured Formula One car turning through a curve in a race on the Melbourne Grand Prix track, with the driver in seat.">
+                    <image mime-type="image/jpg" src="../../media/Figure_07_00_01a-aadf.jpg"/>
+                </media>
+                
+            <caption>This Australian Grand Prix Formula 1 race car moves in a circular path as it makes the turn. Its wheels also spin rapidly—the latter completing many revolutions, the former only part of one (a circular arc). The same physical principles are involved in each. (credit: Richard Munckton)</caption></figure>
+<!--
+Chapter 6 Outline
+6.1 Rotation Angle and Angular Velocity
+6.2 Centripetal Acceleration
+6.3 Centripetal Force
+6.4 Fictitious Forces and Non-inertial Frames: The Coriolis Force
+6.5 Newton's Universal Law of Gravitation
+6.6 Satellites and Kepler's Laws: An Argument for Simplicity
+-->
+
+<para id="import-auto-id3130527">Many motions, such as the arc of a bird's flight or Earth's path around the Sun, are curved. Recall that Newton's first law tells us that motion is along a straight line at constant speed unless there is a net external force. We will therefore study not only motion along curves, but also the forces that cause it, including gravitational forces. This chapter supports Big Idea 3 that interactions between objects are described by forces, and thus change in motion is a result of a net force exerted on an object. In this chapter, this idea is applied to uniform circular motion. In some ways, this chapter is a continuation of <link document="m54802">Dynamics: Newton's Laws of Motion</link> as we study more applications of Newton's laws of motion.</para><para id="import-auto-id3172430">This chapter deals with the simplest form of curved motion, <emphasis effect="bold">uniform circular motion</emphasis>, which is motion in a circular path at constant speed. As an object moves on a circular path, the magnitude of its velocity remains constant, but the direction of the velocity is changing. This means there is an acceleration that we will refer to as a “centripetal” acceleration caused by a net external force, also called the “centripetal” force (Enduring Understanding 3.B). The centripetal force is the net force totaling all external forces acting on the object (Essential Knowledge 3.B.1). In order to determine the net force, a free-body diagram may be useful (Essential Knowledge 3.B.2).</para><para id="fs-id1511746">Studying this topic illustrates most of the concepts associated with rotational motion and leads to many new topics we group under the name <emphasis effect="italics">rotation</emphasis>. This motion can be described using kinematics variables (Essential Knowledge 3.A.1), but in addition to linear variables, we will introduce angular variables. We use various ways to describe motion, namely, verbally, algebraically and graphically (Learning Objective 3.A.1.1). Pure <emphasis effect="italics">rotational motion</emphasis> occurs when points in an object move in circular paths centered on one point. Pure <emphasis effect="italics">translational motion</emphasis> is motion with no rotation. Some motion combines both types, such as a rotating hockey puck moving over ice. Some combinations of both types of motion are conveniently described with fictitious forces which appear as a result of using a non-inertial frame of reference (Enduring Understanding 3.A).</para><para id="fs-id2006291">Furthermore, the properties of uniform circular motion can be applied to the motion of massive objects in a gravitational field. Thus, this chapter supports Big Idea 1 that gravitational mass is an important property of an object or a system.</para>
+<para id="fs-id1662029">We have experimental evidence that gravitational and inertial masses are equal (Enduring Understanding 1.C), and that gravitational mass is a measure of the strength of the gravitational interaction (Essential Knowledge 1.C.2). Therefore, this chapter will support Big Idea 2 that fields existing in space can be used to explain interactions, because any massive object creates a gravitational field in space (Enduring Understanding 2.B). Mathematically, we use Newton's universal law of gravitation to provide a model for the gravitational interaction between two massive objects (Essential Knowledge 2.B.2). We will discover that this model describes the interaction of one object with mass with another object with mass (Essential Knowledge 3.C.1), and also that gravitational force is a long-range force (Enduring Understanding 3.C).</para>
+<para id="fs-id1468857a">The concepts in this chapter support:</para>
+<para id="fs-id1468857"><emphasis effect="bold">Big Idea 1</emphasis> Objects and systems have properties such as mass and charge. Systems may have internal structure.</para>
+<para id="fs-id1959259">Enduring Understanding 1.C Objects and systems have properties of inertial mass and gravitational mass that are experimentally verified to be the same and that satisfy conservation principles.</para>
+<para id="fs-id1723344">Essential Knowledge 1.C.2 Gravitational mass is the property of an object or a system that determines the strength of the gravitational interaction with other objects, systems, or gravitational fields.</para>
+<para id="fs-id1479250">Essential Knowledge 1.C.3 Objects and systems have properties of inertial mass and gravitational mass that are experimentally verified to be the same and that satisfy conservation principles.</para>
+<para id="fs-id2003640"><emphasis effect="bold">Big Idea 2</emphasis> Fields existing in space can be used to explain interactions.</para>
+<para id="fs-id1561062">Enduring Understanding 2.B A gravitational field is caused by an object with mass.</para><para id="fs-id2177626">Essential Knowledge 2.B.2. The gravitational field caused by a spherically symmetric object with mass is radial and, outside the object, varies as the inverse square of the radial distance from the center of that object.</para>
+<para id="fs-id1301033"><emphasis effect="bold">Big Idea 3</emphasis> The interactions of an object with other objects can be described by forces.</para>
+<para id="fs-id1594852">Enduring Understanding 3.A All forces share certain common characteristics when considered by observers in inertial reference frames.</para>
+<para id="fs-id1803487">Essential Knowledge 3.A.1. An observer in a particular reference frame can describe the motion of an object using such quantities as position, displacement, distance, velocity, speed, and acceleration.</para>
+<para id="fs-id1534097">Essential Knowledge 3.A.3. A force exerted on an object is always due to the interaction of that object with another object.</para>
+<para id="fs-id1994600">Enduring Understanding 3.B Classically, the acceleration of an object interacting with other objects can be predicted by using 
+
+<m:math display="inline">
+ <m:mrow>
+  <m:mi>a</m:mi><m:mo>=</m:mo>
+<m:mstyle displaystyle="true">
+   <m:mo>∑</m:mo> <m:mrow>
+    <m:mi>F</m:mi><m:mo>/</m:mo><m:mi>m</m:mi>
+   </m:mrow>
+  </m:mstyle>
+ </m:mrow>
+</m:math>.</para>
+<para id="fs-id1355798">Essential Knowledge 3.B.1 If an object of interest interacts with several other objects, the net force is the vector sum of the individual forces.</para>
+<para id="fs-id1680661">Essential Knowledge 3.B.2 Free-body diagrams are useful tools for visualizing forces being exerted on a single object and writing the equations that represent a physical situation.</para>
+<para id="fs-id1477775">Enduring Understanding 3.C At the macroscopic level, forces can be categorized as either long-range (action-at-a-distance) forces or contact forces.</para><para id="fs-id1478552">Essential Knowledge 3.C.1. Gravitational force describes the interaction of one object that has mass with another object that has mass.</para>
+ </content>
+    <glossary>
+        <definition id="import-auto-id2679165"><term>uniform circular motion</term> <meaning id="fs-id2639919">the motion of an object in a circular path at constant speed</meaning></definition>
+    </glossary>
+</document>

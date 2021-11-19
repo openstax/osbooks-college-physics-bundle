@@ -1,0 +1,383 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Electric Generators</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61586</md:content-id>
+  <md:title>Electric Generators</md:title>
+  <md:abstract><list>
+<item>Calculate the emf induced in a generator.</item>
+<item>Calculate the peak emf which can be induced in a particular generator system.</item>
+</list></md:abstract>
+  <md:uuid>a7a37214-9827-4d48-8e31-7c644b1ba14d</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169738234742"><term id="import-auto-id1169737781922">Electric generators</term> induce an emf by rotating a coil in a magnetic field, as briefly discussed in <link document="m61573">Induced Emf and Magnetic Flux</link>. We will now explore generators in more detail. Consider the following example.</para><example id="fs-id1169737058290">
+    <title>Calculating the Emf Induced in a Generator Coil</title>
+    <para id="import-auto-id1169736989391">The generator coil shown in <link target-id="import-auto-id1169737979702"/> is rotated through one-fourth of a revolution (from <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>θ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0º</m:mn>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+     to <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>θ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>90º</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    ) in 15.0 ms. The 200-turn circular coil has a 5.00 cm radius and is in a uniform 1.25 T magnetic field. What is the average emf induced?</para><figure id="import-auto-id1169737979702"><media id="import-auto-id1169738036496" alt="The figure shows a schematic diagram of an electric generator. It consists of a rotating rectangular coil placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this coil are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The coil is attached to an axle with a handle at the other end. Outer ends of the two brushes are connected to the galvanometer. The axle is mechanically rotated from outside by an angle of ninety degree that is a one fourth revolution, to rotate the coil inside the magnetic field. A current is shown to flow in the coil in clockwise direction and the galvanometer shows a deflection to left.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_05_01.jpg" width="250"/>
+      </media>
+    
+    <caption>When this generator coil is rotated through one-fourth of a revolution, the magnetic flux <m:math>
+ <m:semantics>
+  <m:mi>Φ</m:mi> 
+ </m:semantics>
+</m:math>  changes from its maximum to zero, inducing an emf.</caption></figure><para id="import-auto-id1169738004634">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1169737828119">We use Faraday’s law of induction to find the average emf induced over a time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>:</para>
+    <equation id="eip-60"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>N</m:mi></m:mrow></m:mrow><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi>Φ</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"= - N {  {ΔΦ}  over  {Δt} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738014514">We know that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>200</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N="200"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>15</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>ms</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt="15" "." 0`"ms"} {}</m:annotation></m:semantics></m:math>, and so we must determine the change in flux <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ} {}</m:annotation></m:semantics></m:math> to find emf.</para>
+    
+    <para id="import-auto-id1169736671221">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id1169738053024">Since the area of the loop and the magnetic field strength are constant, we see that</para>
+    <equation id="eip-332"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>Φ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>Δ</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle><m:mrow><m:mtext fontstyle="italic">BA</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mstyle><m:mrow><m:mtext fontstyle="italic">AB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mn>Δ</m:mn><m:mo stretchy="false">(</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ=Δ \(  ital "BA""cos"θ \) = ital "AB"Δ \( "cos"θ \) } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738144711">Now, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mo stretchy="false">(</m:mo><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ \( "cos"θ \) = - 1 "." 0} {}</m:annotation></m:semantics></m:math>, since it was given that <m:math>
+ <m:semantics>
+  <m:mi>θ</m:mi> 
+ </m:semantics>
+</m:math>  goes from  <m:math>
+ <m:semantics>
+  <m:mtext>0º</m:mtext> 
+ </m:semantics>
+</m:math> to <m:math>
+ <m:semantics>
+  <m:mtext>90º</m:mtext> 
+ </m:semantics>
+</m:math> . Thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>Φ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ= -  ital "AB"} {}</m:annotation></m:semantics></m:math>, and</para><equation id="eip-175"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mi>N</m:mi></m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>AB</m:mtext></m:mrow></m:mstyle><m:mrow><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"=N {  { ital "AB"}  over  {Δt} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738146690">The area of the loop is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>14</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0500</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>m</m:mtext><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>7</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>85</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=πr rSup { size 8{2} } = \( 3 "." "14" "."  "."  "."  \)  \( 0 "." "0500"`m \)  rSup { size 8{2} } =7 "." "85" times "10" rSup { size 8{ - 3} } `m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Entering this value gives</para>
+    <equation id="eip-949"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>200</m:mtext></m:mrow><m:mrow><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>85</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mspace width="0.25em"/><m:mtext> T</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> s</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mtext>131</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>V.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"="200" {  { \( 7 "." "85" times "10" rSup { size 8{ - 3} } " m" rSup { size 8{2} }  \)  \( 1 "." "25"" T" \) }  over  {"15" "." 0 times "10" rSup { size 8{ - 3} } " s"} } ="131"" V"} {}</m:annotation></m:semantics></m:math></equation>
+    
+    <para id="import-auto-id1169738082778">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1169737967901">This is a practical average value, similar to the 120 V used in household power.</para>
+    </example>
+    
+  <para id="import-auto-id1169737966380">The emf calculated in <link target-id="fs-id1169737058290"/> is the average over one-fourth of a revolution. What is the emf at any given instant? It varies with the angle between the magnetic field and a perpendicular to the coil. We can get an expression for emf <emphasis effect="italics"/>as a function of time by considering the motional emf on a rotating rectangular coil of width <m:math><m:semantics><m:mrow><m:mrow><m:mi>w</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{w} {}</m:annotation></m:semantics></m:math> and height <m:math><m:semantics><m:mrow><m:mrow><m:mi>ℓ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> in a uniform magnetic field, as illustrated in <link target-id="import-auto-id1169738035840"/>.</para><figure id="import-auto-id1169738035840"><media id="import-auto-id1169738250176" alt="The figure shows a schematic diagram of an electric generator with a single rectangular coil. The rotating rectangular coil is placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the coil. The magnetic field B is shown pointing from the North to the South Pole. The North Pole is on the left and the South Pole is to the right and hence the direction of field is from left to right. The angular velocity of the coil is given as omega. The velocity vector v of the coil makes an angle theta with the direction of field.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_05_02.jpg" width="225"/>
+      </media>
+    
+    <caption>A generator with a single rectangular coil rotated at constant angular velocity in a uniform magnetic field produces an emf that varies sinusoidally in time. Note the generator is similar to a motor, except the shaft is rotated to produce a current rather than the other way around.</caption></figure><para id="import-auto-id1169738224715">Charges in the wires of the loop experience the magnetic force, because they are moving in a magnetic field. Charges in the vertical wires experience forces parallel to the wire, causing currents. But those in the top and bottom segments feel a force perpendicular to the wire, which does not cause a current. We can thus find the induced emf by considering only the side wires. Motional emf is given to be <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Bℓv</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"=Bℓv} {}</m:annotation></m:semantics></m:math>, where the velocity <emphasis effect="italics">v</emphasis> is perpendicular to the magnetic field <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>. Here the velocity is at an angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> with <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>, so that its component perpendicular to <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+<m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v"sin"θ} {}</m:annotation></m:semantics></m:math> (see <link target-id="import-auto-id1169738035840"/>). Thus in this case the emf induced on each side is <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Bℓv</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"=Bℓv"sin"θ} {}</m:annotation></m:semantics></m:math>, and they are in the same direction. The total emf around the loop is then</para><equation id="eip-258"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn><m:mi fontstyle="italic">Bℓv</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"=2Bℓv"sin"θ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738010685">This expression is valid, but it does not give emf as a function of time. To find the time dependence of emf, we assume the coil rotates at a constant angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>. The angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is related to angular velocity by <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">ωt</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ=ωt} {}</m:annotation></m:semantics></m:math></emphasis>, so that</para>
+    <equation id="eip-892"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>2</m:mtext><m:mi fontstyle="italic">Bℓv</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">ωt</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"=Bℓv"sin"ωt} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738210166">Now, linear velocity 
+<m:math>
+ <m:semantics>
+  <m:mi>v</m:mi> 
+ </m:semantics>
+</m:math>
+ is related to angular velocity 
+<m:math>
+ <m:semantics>
+  <m:mi>ω</m:mi> 
+ </m:semantics>
+</m:math> by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">rω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=rω} {}</m:annotation></m:semantics></m:math>. Here <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>w</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r=w/2} {}</m:annotation></m:semantics></m:math>, so that <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mi>w</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mi>ω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= \( w/2 \) ω} {}</m:annotation></m:semantics></m:math></emphasis>, and</para><equation id="eip-667"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn><m:mi fontstyle="italic">Bℓ</m:mi></m:mrow><m:mfrac><m:mi>w</m:mi><m:mn>2</m:mn></m:mfrac><m:mi>ω</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi fontstyle="italic">ωt</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi fontstyle="italic">ℓ</m:mi><m:mi>w</m:mi><m:mo stretchy="false">)</m:mo><m:mi fontstyle="italic">Bω</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">ωt</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"=2Bℓ {  {w}  over  {2} } ω"sin"ωt= \( ℓw \) Bω"sin"ωt} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737854695">Noting that the area of the loop is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">ℓ</m:mi><m:mi>w</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=ℓw} {}</m:annotation></m:semantics></m:math>, and allowing for <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> loops, we find that</para>
+    <equation id="eip-959"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mtext>emf</m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>NAB</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mi>ω</m:mi><m:mspace width="0.25em"/>
+                  <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi fontstyle="italic">ωt</m:mi>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"emf"= ital "NAB"ω"sin"ωt} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation>
+    <para id="import-auto-id1169737909866">is the <term id="import-auto-id1169738251318">emf induced in a generator coil</term> of <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> turns and area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> rotating at a constant angular velocity 
+<m:math>
+ <m:semantics>
+  <m:mi>ω</m:mi> 
+ </m:semantics>
+</m:math>
+ in a uniform magnetic field <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>. This can also be expressed as</para><equation id="eip-944"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">ωt</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"="emf" rSub { size 8{0} } "sin"ωt} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738006731">where</para>
+    <equation id="eip-420"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>emf</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>NAB</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mi>ω</m:mi>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } = ital "NAB"ω} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation>
+    <para id="import-auto-id1169737779231">is the maximum <term id="import-auto-id1169738185659">(peak) emf</term>. Note that the frequency of the oscillation is <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2π</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f=ω/2π} {}</m:annotation></m:semantics></m:math></emphasis>, and the period is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2π</m:mn><m:mo stretchy="false">/</m:mo><m:mi>ω</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=1/f=2π/ω} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">.</emphasis> <link target-id="import-auto-id1169737911320"/> shows a graph of emf as a function of time, and it now seems reasonable that AC voltage is sinusoidal.</para>
+    
+       <figure id="import-auto-id1169737911320"><media id="import-auto-id1169737725453" alt="The first part of the figure shows a schematic diagram of a single coil electric generator. It consists of a rotating rectangular loop placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the loop. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this loop are connected to the two small rings. The two conducting carbon brushes are kept pressed separately on both the rings. The loop is rotated in the field with an angular velocity omega. Outer ends of the two brushes are connected to an electric bulb which is shown to glow brightly. The second part of the figure shows the graph for e m f generated E as a function of time t. The e m f is along the Y axis and the time t is along the X axis. The graph is a progressive sine wave with a time period T. The crest maxima are at E zero and trough minima are at negative E zero.">
+          <image mime-type="image/jpg" src="../../media/Figure_24_05_03.jpg" width="350"/>
+        </media>
+      
+       <caption>The emf of a generator is sent to a light bulb with the system of rings and brushes shown. The graph gives the emf of the generator as a function of time. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the peak emf. The period is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>f</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2π</m:mn><m:mo stretchy="false">/</m:mo><m:mi>ω</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=1/f=2π/ω} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is the frequency. Note that the script E stands for emf.</caption></figure><para id="import-auto-id1169736584596">The fact that the peak emf, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } = ital "NAB"ω} {}</m:annotation></m:semantics></m:math>, makes good sense. The greater the number of coils, the larger their area, and the stronger the field, the greater the output voltage. It is interesting that the faster the generator is spun (greater <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>), the greater the emf. This is noticeable on bicycle generators—at least the cheaper varieties. One of the authors as a juvenile found it amusing to ride his bicycle fast enough to burn out his lights, until he had to ride home lightless one dark night.</para>
+    <para id="import-auto-id1169738011296"><link target-id="import-auto-id1169738092356"/> shows a scheme by which a generator can be made to produce pulsed DC. More elaborate arrangements of multiple coils and split rings can produce smoother DC, although electronic rather than mechanical means are usually used to make ripple-free DC.</para>
+    
+    <figure id="import-auto-id1169738092356"><media id="import-auto-id1169737994365" alt="The first part of the figure shows a schematic diagram of a single coil D C electric generator. It consists of a rotating rectangular loop placed between the two poles of a permanent magnet shown as two rectangular blocks curved on side facing the loop. The magnetic field B is shown pointing from the North to the South Pole. The two ends of this loop are connected to the two sides of a split ring. The two conducting carbon brushes are kept pressed separately on both sides of the split rings. The loop is rotated in the field with an angular velocity w. Outer ends of the two brushes are connected to an electric bulb which is shown to glow brightly. The second part of the figure shows the graph for e m f generated as a function of time. The e m f is along the Y axis and the time t is along the X axis. The graph is a progressive and rectified sine wave with a time period T. The sine wave has only positive pulses. The crest maxima are at E zero.">
+        <image mime-type="image/jpg" src="../../media/Figure_24_05_04.jpg" width="225"/>
+      </media>
+    
+    <caption>Split rings, called commutators, produce a pulsed DC emf output in this configuration.</caption></figure><example id="fs-id1169737945918">
+    <title>Calculating the Maximum Emf of a Generator</title>
+    <para id="import-auto-id1169736623434">Calculate the maximum emf, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>, of the generator that was the subject of <link target-id="fs-id1169737058290"/>.</para><para id="import-auto-id1169737818182">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1169737768099">Once <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>, the angular velocity, is determined, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } = ital "NAB"ω} {}</m:annotation></m:semantics></m:math> can be used to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>. All other quantities are known.</para>
+    
+      <para id="import-auto-id1169738181060">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id1169738110190">Angular velocity is defined to be the change in angle per unit time:</para>
+    <equation id="eip-121"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi>θ</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω= {  {Δθ}  over  {Δt} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738110977">One-fourth of a revolution is <m:math><m:semantics><m:mrow><m:mrow><m:mi>π/2</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> radians, and the time is 0.0150 s; thus,</para><equation id="eip-135"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:mi>ω</m:mi></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mrow><m:mi>π</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext> rad</m:mtext></m:mrow><m:mrow><m:mtext>0.0150 s</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:mtd></m:mtr>
+
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>104</m:mtext><m:mo>.</m:mo></m:mrow><m:mtext>7 rad/s</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1169738223574">104.7 rad/s is exactly 1000 rpm. We substitute this value for <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> and the information from the previous example into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } = ital "NAB"ω} {}</m:annotation></m:semantics></m:math>, yielding</para>
+    <equation id="eip-910"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">NAB</m:mtext></m:mrow></m:mrow><m:mi>ω</m:mi></m:mrow></m:mrow></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mtext>200</m:mtext></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>85</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mspace width="0.25em"/><m:mtext>T</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>104</m:mtext><m:mtext>.</m:mtext><m:mn>7</m:mn><m:mspace width="0.25em"/><m:mtext>rad/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mrow/></m:mrow></m:mtd></m:mtr>
+<m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mrow><m:mrow><m:mtext>206</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>V</m:mtext><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"emf" rSub { size 8{0} } = ital "NAB"ω}  {} # 
+"     "="200" \( 7 "." "85" times "10" rSup { size 8{ - 3} } " m" rSup { size 8{2} }  \)  \( 1 "." "25"" T" \)  \( "104" "." 7" rad/s" \)  {} # 
+"     "="206"" V" {} 
+} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738052308">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1169738134592">The maximum emf is greater than the average emf of 131 V found in the previous example, as it should be.</para>
+    </example>
+  
+    <para id="import-auto-id1169737738211">In real life, electric generators look a lot different than the figures in this section, but the principles are the same. The source of mechanical energy that turns the coil can be falling water (hydropower), steam produced by the burning of fossil fuels, or the kinetic energy of wind. <link target-id="import-auto-id1169737786586"/> shows a cutaway view of a steam turbine; steam moves over the blades connected to the shaft, which rotates the coil within the generator.</para>
+    
+    <figure id="import-auto-id1169737786586"><media id="import-auto-id1169736614504" alt="Photograph of a steam turbine connected to a generator.">
+        <image mime-type="image/png" src="../../media/Figure_24_05_05.jpg" width="300"/>
+      </media>
+
+    <caption>Steam turbine/generator. The steam produced by burning coal impacts the turbine blades, turning the shaft which is connected to the generator. (credit: Nabonaco, Wikimedia Commons)</caption></figure><para id="import-auto-id1169736709619">Generators illustrated in this section look very much like the motors illustrated previously. This is not coincidental. In fact, a motor becomes a generator when its shaft rotates. Certain early automobiles used their starter motor as a generator. In <link document="m61582">Back Emf</link>, we shall further explore the action of a motor as a generator.</para><section id="fs-id1169737793828" class="section-summary"><title>Section Summary</title><list id="fs-id1169735522958">
+    <item id="import-auto-id1169737786699">An electric generator rotates a coil in a magnetic field, inducing an emf<emphasis effect="italics"/>given as a function of time by
+      <equation id="eip-841"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">ωt</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"= ital "NAB"ω"sin"ωt} {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the area of an <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math>-turn coil rotated at a constant angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> in a uniform magnetic field <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>.</item>
+    <item id="import-auto-id1169737786855">The peak emf <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> of a generator is
+          <equation id="eip-714"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } = ital "NAB"ω} {}</m:annotation></m:semantics></m:math></equation> 
+    </item>
+    </list>
+      </section><section id="fs-id1169738138901" class="conceptual-questions" type="conceptual-questions">
+    <title>Conceptual Questions</title>
+    
+    <exercise id="fs-id1169736737112" type="conceptual-questions">
+      <problem id="fs-id1169738010597">
+    <para id="import-auto-id1169736672997">Using RHR-1, show that the emfs in the sides of the generator loop in <link target-id="import-auto-id1169738092356"/> are in the same sense and thus add.</para>
+    </problem></exercise>
+    
+    <exercise id="fs-id1169738117063" type="conceptual-questions">
+      <problem id="fs-id1169737861678">
+    <para id="import-auto-id1169738136915">The source of a generator’s electrical energy output is the work done to turn its coils. How is the work needed to turn the generator related to Lenz’s law?</para>
+    </problem></exercise>
+      </section>
+  
+    <section id="fs-id1169738074007" type="problems-exercises" class="problems-exercises">
+        <title>Problems &amp; Exercises</title><exercise id="fs-id1169736999795" type="problems-exercises">
+        <problem id="fs-id1169737980744"> 
+          <para id="import-auto-id1169736581779">Calculate the peak voltage of a generator that rotates its 200-turn, 0.100 m diameter coil at 3600 rpm in a 0.800 T field.</para>
+    </problem>
+<solution id="fs-id1169736739920">
+    <para id="import-auto-id1169737944263">474 V</para>
+    </solution>
+    </exercise>
+      
+      <exercise id="fs-id1169738093195" type="problems-exercises">
+        <problem id="fs-id1169737818461"> 
+          <para id="import-auto-id1169737724398">At what angular velocity in rpm will the peak voltage of a generator be 480 V, if its 500-turn, 8.00 cm diameter coil rotates in a 0.250 T field?</para>
+    </problem></exercise>
+      
+      <exercise id="fs-id1169738080660" type="problems-exercises">
+        <problem id="fs-id1169737820173"> 
+          <para id="import-auto-id1169737994419">What is the peak emf generated by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{ - 5} } `T} {}</m:annotation></m:semantics></m:math> magnetic field, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?</para></problem>
+<solution id="fs-id1169738117295">
+    <para id="import-auto-id1169736814736">0.247 V</para>
+    </solution>
+    </exercise>
+      
+      <exercise id="fs-id1169737795654" type="problems-exercises">
+        <problem id="fs-id1169737714880"> 
+          <para id="import-auto-id1169738089766">What is the peak emf generated by a 0.250 m radius, 500-turn coil is rotated one-fourth of a revolution in 4.17 ms, originally having its plane perpendicular to a uniform magnetic field. (This is 60 rev/s.)</para>
+        </problem>
+      </exercise>
+      
+    <exercise id="fs-id1169737905343" type="problems-exercises"><problem id="fs-id1169737905344">    <para id="import-auto-id1169737967108">(a) A bicycle generator rotates at 1875 rad/s, producing an 18.0 V peak emf. It has a 1.00 by 3.00 cm rectangular coil in a 0.640 T field. How many turns are in the coil? (b) Is this number of turns of wire practical for a 1.00 by 3.00 cm coil?</para>
+    </problem>
+<solution id="fs-id1169738111041">
+    <para id="import-auto-id1169737966412">(a) 50</para>
+    <para id="import-auto-id1169737729500">(b) yes</para>
+    </solution>
+    </exercise>
+          
+          <exercise id="fs-id1169738116938" type="problems-exercises">
+            <problem id="fs-id1169738077205"> 
+              <para id="import-auto-id1169736623490"><emphasis>Integrated Concepts</emphasis> </para>
+    <para id="eip-329">This problem refers to the bicycle generator considered in the previous problem. It is driven by a 1.60 cm diameter wheel that rolls on the outside rim of the bicycle tire. (a) What is the velocity of the bicycle if the generator’s angular velocity is 1875 rad/s? (b) What is the maximum emf of the generator when the bicycle moves at 10.0 m/s, noting that it was 18.0 V under the original conditions? (c) If the sophisticated generator can vary its own magnetic field, what field strength will it need at 5.00 m/s to produce a 9.00 V maximum emf?</para></problem></exercise>
+          
+          <exercise id="fs-id1169736729580" type="problems-exercises">
+            <problem id="fs-id1169738110302"> 
+              <para id="import-auto-id1169737918086">(a) A car generator turns at 400 rpm when the engine is idling. Its 300-turn, 5.00 by 8.00 cm rectangular coil rotates in an adjustable magnetic field so that it can produce sufficient voltage even at low rpms. What is the field strength needed to produce a 24.0 V peak emf? (b) Discuss how this required field strength compares to those available in permanent and electromagnets.</para>
+    </problem>
+<solution id="fs-id1169737767969">
+    <para id="import-auto-id1169737779308">(a) 0.477 T</para>
+<para id="fs-id1584015">
+(b) This field strength is small enough that it can be obtained using either a permanent magnet or an electromagnet.</para>
+    </solution>
+    </exercise>
+          
+          <exercise id="fs-id1169738048359" type="problems-exercises">
+            <problem id="fs-id1169737702514"> 
+              <para id="import-auto-id1169737904896">Show that if a coil rotates at an angular velocity <m:math>
+ <m:semantics>
+  <m:mi>ω</m:mi> 
+ </m:semantics>
+</m:math>, the period of its AC output is 
+<m:math>
+ <m:semantics>
+  <m:mi>2π/ω</m:mi> 
+ </m:semantics>
+</m:math>.</para></problem></exercise>
+          
+          <exercise id="fs-id1169737719383" type="problems-exercises">
+            <problem id="fs-id1169737803232"> 
+              <para id="import-auto-id1169737716982">A 75-turn, 10.0 cm diameter coil rotates at an angular velocity of 8.00 rad/s in a 1.25 T field, starting with the plane of the coil parallel to the field. (a) What is the peak emf? (b) At what time is the peak emf first reached? (c) At what time is the emf first at its most negative? (d) What is the period of the AC voltage output?</para>
+    </problem>
+<solution id="fs-id1169736584642">
+    <para id="import-auto-id1169737764824">(a) 5.89 V</para>
+    <para id="import-auto-id1169737758030">(b) At t=0</para>
+    <para id="import-auto-id1169737966439">(c) 0.393 s</para>
+    <para id="import-auto-id1169738208681">(d) 0.785 s</para>
+    </solution>
+    </exercise>
+          
+          <exercise id="fs-id1169738007419" type="problems-exercises">
+            <problem id="fs-id1169737722927"> 
+              <para id="import-auto-id1169738010596">(a) If the emf of a coil rotating in a magnetic field is zero at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0} {}</m:annotation></m:semantics></m:math>, and increases to its first peak at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>100</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>ms</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0 "." "100"`"ms"} {}</m:annotation></m:semantics></m:math>, what is the angular velocity of the coil? (b) At what time will its next maximum occur? (c) What is the period of the output? (d) When is the output first one-fourth of its maximum? (e) When is it next one-fourth of its maximum?</para>
+    </problem></exercise>
+          
+          <exercise id="fs-id1169738092977" type="problems-exercises">
+            <problem id="fs-id1169737824901"> 
+              <para id="import-auto-id1169738116479"><emphasis>Unreasonable Results</emphasis> </para>
+    <para id="eip-37">A 500-turn coil with a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "250"`m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> area is spun in the Earth’s <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{ - 5} } `T} {}</m:annotation></m:semantics></m:math> field, producing a 12.0 kV maximum emf. (a) At what angular velocity must the coil be spun? (b) What is unreasonable about this result? (c) Which assumption or premise is responsible?</para></problem>
+<solution id="fs-id1169736815274">
+  <para id="eip-496">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>92</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>rad/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "92" times "10" rSup { size 8{6} } `"rad/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169738074345">(b) This angular velocity is unreasonably high, higher than can be obtained for any mechanical system.</para>
+    <para id="import-auto-id1169737778808">(c) The assumption that a voltage as great as 12.0 kV could be obtained is unreasonable.</para>
+    </solution>
+    </exercise>
+    </section>
+</content>
+  <glossary>
+    <definition id="import-auto-id1169737794903"><term>electric generator</term> <meaning id="fs-id1169738208029">a device for converting mechanical work into electric energy; it induces an emf by rotating a coil in a magnetic field</meaning></definition>
+    <definition id="import-auto-id1169737700502"><term>emf induced in a generator coil</term> <meaning id="fs-id1169737955433"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">ωt</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"= ital "NAB"ω"sin"ωt} {}</m:annotation></m:semantics></m:math>, where <m:math>
+ <m:semantics>
+  <m:mi>A</m:mi> 
+ </m:semantics>
+</m:math>  is the area of an  <m:math>
+ <m:semantics>
+  <m:mi>N</m:mi> 
+ </m:semantics>
+</m:math>-turn coil rotated at a constant angular velocity 
+<m:math>
+ <m:semantics>
+  <m:mi>ω</m:mi> 
+ </m:semantics>
+</m:math>  in a uniform magnetic field  <m:math>
+ <m:semantics>
+  <m:mi>B</m:mi> 
+ </m:semantics>
+</m:math>, over a period of time  <m:math>
+ <m:semantics>
+  <m:mi>t</m:mi> 
+ </m:semantics>
+</m:math></meaning></definition>
+    <definition id="import-auto-id1169737804955"><term>peak emf</term> <meaning id="fs-id1169737769264"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" rSub { size 8{0} } = ital "NAB"ω} {}</m:annotation></m:semantics></m:math></meaning></definition>
+  </glossary>
+</document>

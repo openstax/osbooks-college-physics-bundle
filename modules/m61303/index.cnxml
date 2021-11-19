@@ -1,0 +1,400 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Sound Intensity and Sound Level</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61303</md:content-id>
+  <md:title>Sound Intensity and Sound Level</md:title>
+  <md:abstract><list>
+<item>Define intensity, sound intensity, and sound pressure level.</item>
+<item>Calculate sound intensity levels in decibels (dB).</item>
+</list></md:abstract>
+  <md:uuid>5c130275-5283-49e9-8932-9dd427e28bf9</md:uuid>
+</metadata>
+
+<content>
+    <figure id="import-auto-id2009984"><media id="import-auto-id1932310" alt="Photograph of a road jammed with traffic of all types of vehicles.">
+        <image mime-type="image/png" src="../../media/Figure_18_03_01aa.jpg" width="250"/>
+      </media>
+      
+    <caption>Noise on crowded roadways like this one in Delhi makes it hard to hear others unless they shout. (credit: Lingaraj G J, Flickr)</caption></figure><para id="import-auto-id2591664">In a quiet forest, you can sometimes hear a single leaf fall to the ground. After settling into bed, you may hear your blood pulsing through your ears. But when a passing motorist has his stereo turned up, you cannot even hear what the person next to you in your car is saying. We are all very familiar with the loudness of sounds and aware that they are related to how energetically the source is vibrating. In cartoons depicting a screaming person (or an animal making a loud noise), the cartoonist often shows an open mouth with a vibrating uvula, the hanging tissue at the back of the mouth, to suggest a loud sound coming from the throat <link target-id="import-auto-id3151414"/>. High noise exposure is hazardous to hearing, and it is common for musicians to have hearing losses that are sufficiently severe that they interfere with the musicians’ abilities to perform. The relevant physical quantity is sound intensity, a concept that is valid for all sounds whether or not they are in the audible range.</para><para id="import-auto-id2949930">Intensity is defined to be the power per unit area carried by a wave. Power is the rate at which energy is transferred by the wave. In equation form, <term id="import-auto-id3062860">intensity</term> <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math></emphasis> is</para>
+    <equation id="eip-994"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>P</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {P}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2600881">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is the power through an area <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math></emphasis>. The SI unit for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math></emphasis> is <m:math><m:semantics><m:mrow><m:msup><m:mn>W/m</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>. The intensity of a sound wave is related to its amplitude squared by the following relationship:</para><equation id="eip-865"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mrow><m:mo>(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mrow><m:mn>2</m:mn><m:mrow><m:msub><m:mi fontstyle="italic">ρv</m:mi><m:mn>w</m:mn></m:msub></m:mrow></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  { left (Δp right )}  over  {2 ital "pv" size 8{m}} }  rSup {2} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1561978">Here <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow></m:mrow></m:semantics></m:math> is the pressure variation or pressure amplitude (half the difference between the maximum and minimum pressure in the sound wave) in units of pascals (Pa) or <m:math><m:semantics><m:mrow><m:msup><m:mn>N/m</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>. (We are using a lower case <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">p</m:mi></m:mrow></m:mrow></m:semantics></m:math>  for pressure to distinguish it from power, denoted by  <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">P</m:mi></m:mrow></m:mrow></m:semantics></m:math> above.) The energy (as kinetic energy 
+<m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:mrow><m:msup><m:mi fontstyle="italic">mv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>) of an oscillating element of air due to a traveling sound wave is proportional to its amplitude squared. In this equation, 
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow></m:mrow></m:semantics></m:math> is the density of the material in which the sound wave travels, in units of <m:math><m:semantics><m:mrow><m:msup><m:mn>kg/m</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the speed of sound in the medium, in units of m/s. The pressure variation is proportional to the amplitude of the oscillation, and so <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math></emphasis> varies as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Λp \)  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> (<link target-id="import-auto-id3151414"/>). This relationship is consistent with the fact that the sound wave is produced by some vibration; the greater its pressure amplitude, the more the air is compressed in the sound it creates.</para><figure id="import-auto-id3151414"><media id="import-auto-id1525181" alt="The image shows two graphs, with a bird positioned to the left of each one. The first graph represents a low frequency sound of a bird. The pressure variation shows small amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a small amplitude. The second graph represents a high frequency sound of a screaming bird. The pressure variation shows large amplitude maxima and minima, represented by a sine curve of gauge pressure versus position with a large amplitude.">
+        <image mime-type="image/jpg" src="../../media/Figure_18_03_01ab.jpg" width="200"/>
+      </media>
+      
+    <caption>Graphs of the gauge pressures in two sound waves of different intensities. The more intense sound is produced by a source that has larger-amplitude oscillations and has greater pressure maxima and minima. Because pressures are higher in the greater-intensity sound, it can exert larger forces on the objects it encounters.</caption></figure><para id="import-auto-id1449810">Sound intensity levels are quoted in decibels (dB) much more often than sound intensities in watts per meter squared. Decibels are the unit of choice in the scientific literature as well as in the popular media. The reasons for this choice of units are related to how we perceive sounds. How our ears perceive sound can be more accurately described by the logarithm of the intensity rather than directly to the intensity. The <term id="import-auto-id1428164">sound intensity level</term> <emphasis effect="bold"/><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β} {}</m:annotation></m:semantics></m:math></emphasis> in decibels of a sound having an intensity <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> in watts per meter squared is defined to be</para><equation id="eip-313"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>β</m:mi><m:mspace width="0.25em"/><m:mrow><m:mfenced open="(" close=")"><m:mtext>dB</m:mtext></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mspace width="0.25em"/><m:msub><m:mtext>log</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msub><m:mfenced open="(" close=")"><m:mfrac><m:mi>I</m:mi><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β left ("dB" right )="10""log" rSub { size 8{"10"} }  left ( {  {I}  over  {I rSub { size 8{0} } } }  right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2680632">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mtext>–12</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>W/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } ="10" rSup { size 8{ - "12"} } "W/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> is a reference intensity. In particular, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the lowest or threshold intensity of sound a person with normal hearing can perceive at a frequency of 1000 Hz. Sound intensity level is not the same as intensity. Because <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β} {}</m:annotation></m:semantics></m:math></emphasis> is defined in terms of a ratio, it is a unitless quantity telling you the <emphasis effect="italics">level</emphasis> of the sound relative to a fixed standard (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mtext>–12</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext>W/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "12"} } "W/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, in this case). The units of decibels (dB) are used to indicate this ratio is multiplied by 10 in its definition. The bel, upon which the decibel is based, is named for Alexander Graham Bell, the inventor of the telephone.</para><table id="import-auto-id3250463" summary="A table of Sound Intensity Levels and Intensities. There are three columns. The first column gives a range of sound intensity levels in decibels, the second column gives the intensities in watts per meter squared, and the third column gives examples or effects. Rows containing notes about hearing damage are inserted before one hundred, one hundred ten, and one hundred twenty decibels."><title>Sound Intensity Levels and Intensities</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead><row>
+            <entry>Sound intensity level <emphasis effect="italics">β</emphasis> (dB)</entry>
+              <entry>Intensity <emphasis effect="italics">I</emphasis>(W/m<sup>2</sup>)
+</entry>
+<entry>Example/effect</entry>           
+          </row></thead><tbody><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>0</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–12</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Threshold of hearing at 1000 Hz</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>10</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–11</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Rustle of leaves</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>20</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–10</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Whisper at 1 m distance</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>30</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–9</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Quiet home</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>40</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–8</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Average home</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>50</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–7</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Average office, soft music</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>60</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–6</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Normal conversation</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>70</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–5</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Noisy office, busy traffic</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>80</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–4</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Loud radio, classroom lecture</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>90</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–3</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Inside a heavy truck; damage from prolonged exposure<footnote id="eip-id2316148">  Several government agencies and health-related professional associations recommend that 85 dB not be exceeded for 8-hour daily exposures in the absence of hearing protection.</footnote></entry>
+          </row>
+<row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>100</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–2</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Noisy factory, siren at 30 m; damage from 8 h per day exposure</entry>
+          </row>
+<row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>110</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–1</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Damage from 30 min per day exposure</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>120</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry>Loud rock concert, pneumatic chipper at 2 m; threshold of pain</entry>
+          </row>
+<row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>140</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Jet airplane at 30 m; severe pain, damage in seconds</entry>
+          </row><row>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>160</m:mn></m:mrow></m:semantics></m:math></entry>
+            <entry align="center"><m:math><m:semantics><m:mrow><m:mn>1</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>4</m:mn></m:msup></m:mrow></m:semantics></m:math></entry>
+            <entry>Bursting of eardrums</entry>
+          </row></tbody>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id1389876">The decibel level of a sound having the threshold intensity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>12</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext>W/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "12"} } "W/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>β</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext>dB</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β=0"dB"} {}</m:annotation></m:semantics></m:math>, because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>log</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msub><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"log" rSub { size 8{"10"} } 1=0} {}</m:annotation></m:semantics></m:math>. That is, the threshold of hearing is 0 decibels. <link target-id="import-auto-id3250463"/> gives levels in decibels and intensities in watts per meter squared for some familiar sounds.</para><para id="import-auto-id1954831">One of the more striking things about the intensities in <link target-id="import-auto-id3250463"/> is that the intensity in watts per meter squared is quite small for most sounds. The ear is sensitive to as little as a trillionth of a watt per meter squared—even more impressive when you realize that the area of the eardrum is only about <m:math><m:semantics><m:mrow><m:msup><m:mn>1 cm</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>, so that only <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>16</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - "16"} } } {}</m:annotation></m:semantics></m:math> W falls on it at the threshold of hearing! Air molecules in a sound wave of this intensity vibrate over a distance of less than one molecular diameter, and the gauge pressures involved are less than <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 9} } } {}</m:annotation></m:semantics></m:math> atm.</para><para id="import-auto-id1910945">Another impressive feature of the sounds in <link target-id="import-auto-id3250463"/> is their numerical range. Sound intensity varies by a factor of <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>12</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"12"} } } {}</m:annotation></m:semantics></m:math> from threshold to a sound that causes damage in seconds. You are unaware of this tremendous range in sound intensity because how your ears respond can be described approximately as the logarithm of intensity. Thus, sound intensity levels in decibels fit your experience better than intensities in watts per meter squared. The decibel scale is also easier to relate to because most people are more accustomed to dealing with numbers such as 0, 53, or 120 than numbers such as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>11</m:mtext></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00" times "10" rSup { size 8{ - "11"} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1324041">One more observation readily verified by examining <link target-id="import-auto-id3250463"/> or using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mfrac><m:mrow><m:mo>(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn><m:msub><m:mrow><m:mtext fontstyle="italic">ρv</m:mtext></m:mrow><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mn>2</m:mn></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is that each factor of 10 in intensity corresponds to 10 dB. For example, a 90 dB sound compared with a 60 dB sound is 30 dB greater, or three factors of 10 (that is, <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:semantics></m:math> times) as intense. Another example is that if one sound is <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:semantics></m:math> as intense as another, it is 70 dB higher. See <link target-id="import-auto-id2681584"/>.</para><table id="import-auto-id2681584" summary="This table gives ratios of intensities and corresponding differences in sound intensity levels in two columns."><title>Ratios of Intensities and Corresponding Differences in Sound Intensity Levels</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead><row>
+            <entry><m:math><m:semantics><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo>/</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:semantics></m:math></entry>
+            <entry><m:math><m:semantics><m:mrow><m:msub><m:mi>β</m:mi><m:mn>2</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>β</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:semantics></m:math></entry>
+          </row></thead><tbody><row>
+            <entry>2.0</entry>
+            <entry>
+           3.0 dB
+            </entry>
+          </row><row>
+            <entry>5.0</entry>
+            <entry>
+              7.0 dB
+            </entry>
+          </row><row>
+            <entry>10.0</entry>
+            <entry>
+10.0 dB
+            </entry>
+          </row></tbody>
+      
+
+
+
+
+
+
+</tgroup>
+</table><example id="fs-id1037648">
+    <title>Calculating Sound Intensity Levels: Sound Waves</title>
+    <para id="import-auto-id2402376">Calculate the sound intensity level in decibels for a sound wave traveling in air at <m:math><m:semantics><m:mrow><m:mn>0ºC</m:mn></m:mrow></m:semantics></m:math>
+ and having a pressure amplitude of 0.656 Pa.</para><para id="import-auto-id2453058">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2402933">We are given <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δp} {}</m:annotation></m:semantics></m:math>, so we can calculate <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> using the equation 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mrow><m:mo>(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo>)</m:mo></m:mrow><m:mn>2</m:mn></m:msup>
+
+<m:mo stretchy="false">/</m:mo>
+<m:msup>
+<m:mrow>
+<m:mo>(</m:mo>
+<m:mn>2</m:mn>
+<m:msub><m:mtext fontstyle="italic">pv</m:mtext><m:mn>w</m:mn></m:msub>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn>
+</m:mrow>
+</m:msup>
+
+</m:mrow></m:mrow></m:mrow></m:semantics></m:math>. Using <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math>, we can calculate 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow></m:mrow></m:semantics></m:math> straight from its definition in 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>β</m:mi><m:mspace width="0.25em"/><m:mrow><m:mfenced open="(" close=")"><m:mtext>dB</m:mtext></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mspace width="0.25em"/><m:msub><m:mtext>log</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msub><m:mo>(</m:mo><m:mi>I</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id1414434">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id1942711">(1) Identify knowns:</para>
+    <para id="import-auto-id1933065">Sound travels at 331 m/s in air at <m:math><m:semantics><m:mrow><m:mn>0ºC</m:mn></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id2407481">Air has a density of <m:math><m:semantics><m:mrow><m:mn>1.29 kg</m:mn><m:msup><m:mn>/m</m:mn><m:mn>3</m:mn></m:msup></m:mrow></m:semantics></m:math> at atmospheric pressure and <m:math><m:semantics><m:mrow><m:mn>0ºC</m:mn></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id3032923">(2) Enter these values and the pressure amplitude into 
+<m:math><m:semantics><m:mrow>
+<m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mrow>
+<m:mo>(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo>)</m:mo>
+</m:mrow>
+<m:mrow><m:mn>2</m:mn></m:mrow>
+</m:msup>
+<m:mo stretchy="false">/</m:mo>
+<m:mrow><m:mo>(</m:mo>
+<m:msub><m:mrow><m:mn>2</m:mn><m:mtext fontstyle="italic">ρv</m:mtext></m:mrow><m:mn>w</m:mn></m:msub>
+<m:mo>)</m:mo></m:mrow>
+</m:mrow></m:semantics></m:math>:</para><equation id="eip-969"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow>
+<m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo>
+<m:mfrac><m:mrow><m:msup><m:mrow><m:mo>(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo>)</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow>
+<m:mrow><m:mn>2</m:mn>
+<m:msub>
+<m:mrow><m:mtext fontstyle="italic">ρv</m:mtext></m:mrow><m:mrow><m:mn>w</m:mn></m:mrow>
+</m:msub>
+</m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mfenced open="(" close=")"><m:mrow><m:mn>0.656 Pa</m:mn></m:mrow></m:mfenced><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mn>2</m:mn><m:mfenced open="(" close=")"><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>29</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>331 m/s</m:mtext></m:mrow></m:mfenced></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>04</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> W/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  { left (Δp right ) rSup { size 8{2} } }  over  {2 ital "pv" size 8{m}} } = {  { left (0 "." "656"" Pa" right ) rSup { size 8{2} } }  over  {2 left (1 "." "29"" kg/m" rSup { size 8{3} }  right ) left ("331"" m/s" right )} } =5 "." "04" times "10" rSup { size 8{ - 4} } " W/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1981097">(3) Enter the value for <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> and the known value for <m:math><m:semantics><m:mrow><m:msub><m:mi>I</m:mi><m:mn>0</m:mn></m:msub></m:mrow></m:semantics></m:math> into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>β</m:mi><m:mspace width="0.25em"/><m:mrow><m:mfenced open="(" close=")"><m:mtext>dB</m:mtext></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mspace width="0.25em"/><m:msub><m:mtext>log</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msub><m:mo>(</m:mo><m:mi>I</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Calculate to find the sound intensity level in decibels:</para><equation id="eip-273"><m:math><m:semantics><m:mrow><m:msub><m:mn>10 log</m:mn><m:mn>10</m:mn></m:msub><m:mo>(</m:mo><m:mn>5.04</m:mn><m:mo> × </m:mo><m:msup><m:mn>10</m:mn><m:mn>8</m:mn></m:msup><m:mo>)</m:mo><m:mo>=</m:mo><m:mn>10</m:mn><m:mspace width="0.25em"/><m:mo>(</m:mo><m:mn>8.70</m:mn><m:mo>)</m:mo><m:mspace width="0.25em"/><m:mn>dB</m:mn><m:mo>=</m:mo><m:mn>87 dB.</m:mn></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1994498">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1428083">This 87 dB sound has an intensity five times as great as an 80 dB sound. So a factor of five in intensity corresponds to a difference of 7 dB in sound intensity level. This value is true for any intensities differing by a factor of five.</para></example>
+    <example id="fs-id3260260"><title>Change Intensity Levels of a Sound: What Happens to the Decibel Level?</title><para id="import-auto-id1578067">Show that if one sound is twice as intense as another, it has a sound level about 3 dB higher.</para>
+    <para id="eip-291"><emphasis>Strategy</emphasis></para><para id="import-auto-id2025069">You are given that the ratio of two intensities is 2 to 1, and are then asked to find the difference in their sound levels in decibels. You can solve this problem using of the properties of logarithms.</para><para id="import-auto-id2931095">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2055656">(1) Identify knowns:</para>
+    <para id="import-auto-id2591307">The ratio of the two intensities is 2 to 1, or:</para>
+    <equation id="eip-696"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {I rSub { size 8{2} } }  over  {I rSub { size 8{1} } } } =2 "." "00"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2456258">We wish to show that the difference in sound levels is about 3 dB. That is, we want to show:</para><equation id="eip-722"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>β</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>β</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext> dB</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{2} }  - β rSub { size 8{1} } =3" dB"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2688887">Note that:</para>
+    <equation id="eip-281"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:msub>
+                  <m:mtext>log</m:mtext>
+                  <m:mrow>
+                    <m:mtext>10</m:mtext>
+                  </m:mrow>
+                </m:msub>
+                <m:mrow>
+                  <m:mi>b</m:mi>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:msub>
+                    <m:mtext>log</m:mtext>
+                    <m:mrow>
+                      <m:mtext>10</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mtext>log</m:mtext>
+                    <m:mrow>
+                      <m:mtext>10</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mfrac>
+                    <m:mi>b</m:mi>
+                    <m:mi>a</m:mi>
+                  </m:mfrac>
+                </m:mfenced>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"log" rSub { size 8{"10"} } b - "log" rSub { size 8{"10"} } a="log" rSub { size 8{"10"} }  left ( {  {b}  over  {a} }  right ) "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1599781">(2) Use the definition of <m:math><m:semantics><m:mrow><m:mi>β</m:mi></m:mrow></m:semantics></m:math> to get:</para><equation id="eip-123"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>β</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>β</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mtext>10 log</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mspace width="0.25em"/><m:msub><m:mtext>log</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msub><m:mn>2.00</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>301</m:mtext></m:mrow></m:mfenced><m:mspace width="0.25em"/><m:mtext>dB</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{2} }  - β rSub { size 8{1} } ="10 log" rSub { size 8{"10"} }  left ( {  {I rSub { size 8{2} } }  over  {I rSub { size 8{1} } } }  right )="10"" log" rSub { size 8{"10"} } 2 "." "00"="10" "."  left (0 "." "301" right )"dB"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3137611">Thus,</para>
+    <equation id="eip-410"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>β</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>β</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.01 dB</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSub { size 8{2} }  - β rSub { size 8{1} } =3 "." "01"" dB"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2598678"><emphasis>Discussion</emphasis></para>
+        <para id="fs-id3130382">This means that the two sound intensity levels differ by 3.01 dB, or about 3 dB, as advertised. Note that because only the ratio <m:math><m:semantics><m:mrow><m:msub><m:mi>I</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>I</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:semantics></m:math> is given (and not the actual intensities), this result is true for any intensities that differ by a factor of two. For example, a 56.0 dB sound is twice as intense as a 53.0 dB sound, a 97.0 dB sound is half as intense as a 100 dB sound, and so on.</para></example><para id="import-auto-id3229188">It should be noted at this point that there is another decibel scale in use, called the <term id="import-auto-id1980999">sound pressure level</term>, based on the ratio of the pressure amplitude to a reference pressure. This scale is used particularly in applications where sound travels in water. It is beyond the scope of most introductory texts to treat this scale because it is not commonly used for sounds in air, but it is important to note that very different decibel levels may be encountered when sound pressure levels are quoted. For example, ocean noise pollution produced by ships may be as great as 200 dB expressed in the sound pressure level, where the more familiar sound intensity level we use here would be something under 140 dB for the same sound.</para>
+    <note id="fs-id2055656"><label/><title>Take-Home Investigation: Feeling Sound</title>
+    
+    <para id="import-auto-id959530">Find a CD player and a CD that has rock music. Place the player on a light table, insert the CD into the player, and start playing the CD. Place your hand gently on the table next to the speakers. Increase the volume and note the level when the table just begins to vibrate as the rock music plays. Increase the reading on the volume control until it doubles. What has happened to the vibrations?</para>
+    </note><exercise id="fs-id3022970" type="check-understanding"><label/><title>Check Your Understanding</title><problem id="fs-id1828092"> <para id="import-auto-id1487338" fo:font-weight="normal">Describe how amplitude is related to the loudness of a sound.</para></problem>
+    <solution id="fs-id3254295" print-placement="here"><para id="import-auto-id1917956" fo:font-weight="normal">Amplitude is directly proportional to the experience of loudness. As amplitude increases, loudness increases.</para></solution>
+    </exercise><exercise id="fs-id1282140" type="check-understanding"><label/><title>Check Your Understanding</title><problem id="fs-id2591382"><para id="import-auto-id3046289" fo:font-weight="normal">Identify common sounds at the levels of 10 dB, 50 dB, and 100 dB.</para></problem>
+    <solution id="fs-id2663390"><para id="import-auto-id1562524" fo:font-weight="normal">10 dB: Running fingers through your hair.</para><para id="eip-id2373999">50 dB: Inside a quiet home with no television or radio.</para><para id="eip-id2374002">100 dB: Take-off of a jet plane.</para></solution>
+</exercise>
+
+<section id="fs-id2666762" class="section-summary"><title>Section Summary</title><list id="fs-id1420870">
+    <item id="import-auto-id1438955">
+<para id="eip-id1168466572368">Intensity is the same for a sound wave as was defined for all waves; it is
+    <equation id="eip-122"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>P</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {P}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mi>P</m:mi></m:mrow></m:semantics></m:math> is the power crossing area <m:math><m:semantics><m:mrow><m:mi>A</m:mi></m:mrow></m:semantics></m:math>. The SI unit for <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> is watts per meter squared. The intensity of a sound wave is also related to the pressure amplitude <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>
+<equation id="eip-25"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo>
+
+<m:mfrac>
+<m:mrow>
+
+<m:msup>
+<m:mrow>
+<m:mo>(</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">p</m:mi><m:mo>)</m:mo>
+</m:mrow>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn>
+<m:msub><m:mrow><m:mtext fontstyle="italic">ρv</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mn>w</m:mn>
+</m:mrow>
+</m:msub>
+</m:mrow>
+</m:mfrac>
+
+
+</m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  { left (Δp right )}  over  {2 ital "pv" size 8{m}} }  rSup {2} } {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> is the density of the medium in which the sound wave travels and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mn>w</m:mn></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation></m:semantics></m:math> is the speed of sound in the medium.</para></item>
+        <item id="import-auto-id1448826"><para id="eip-id1168466596301">Sound intensity level in units of decibels (dB) is
+    <equation id="eip-756"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>β</m:mi><m:mspace width="0.25em"/><m:mrow><m:mfenced open="(" close=")"><m:mtext>dB</m:mtext></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>10</m:mtext></m:mrow><m:mspace width="0.25em"/><m:msub><m:mtext>log</m:mtext><m:mrow><m:mtext>10</m:mtext></m:mrow></m:msub><m:mfenced open="(" close=")"><m:mfrac><m:mi>I</m:mi><m:msub><m:mi>I</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β left ("dB" right )="10""log" rSub { size 8{"10"} }  left ( {  {I}  over  {I rSub { size 8{0} } } }  right )} {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow>
+<m:msub>
+<m:mi>I</m:mi><m:mn>0</m:mn>
+</m:msub>
+<m:mo>=</m:mo>
+<m:msup>
+<m:mn>10</m:mn>
+<m:mn>–12</m:mn>
+</m:msup>
+<m:mspace width="0.25em"/><m:mn>W/</m:mn>
+<m:msup>
+<m:mtext>m</m:mtext><m:mn>2</m:mn>
+</m:msup>
+</m:mrow></m:semantics></m:math> is the threshold intensity of hearing. </para></item>
+    </list>
+    </section><section id="fs-id3062411" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id2023489" type="conceptual-questions"><problem id="fs-id1942528">
+    <para id="import-auto-id1578272">Six members of a synchronized swim team wear earplugs to protect themselves against water pressure at depths, but they can still hear the music and perform the combinations in the water perfectly. One day, they were asked to leave the pool so the dive team could practice a few dives, and they tried to practice on a mat, but seemed to have a lot more difficulty. Why might this be?</para>
+    </problem></exercise>
+        <exercise id="fs-id2010060" type="conceptual-questions"><problem id="fs-id3285981">
+    <para id="import-auto-id2603366">A community is concerned about a plan to bring train service to their downtown from the town’s outskirts. The current sound intensity level, even though the rail yard is blocks away, is 70 dB downtown. The mayor assures the public that there will be a difference of only 30 dB in sound in the downtown area. Should the townspeople be concerned? Why?</para></problem></exercise>
+    </section>
+    <section id="fs-id2660520" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id3387710" type="problems-exercises"><problem id="fs-id2595262">    <para id="import-auto-id1864197">What is the intensity in watts per meter squared of 85.0-dB sound?</para>
+    </problem>
+        <solution id="fs-id2406144">
+    <equation id="import-auto-id3077432"><m:math><m:semantics><m:mrow><m:mn>3.16</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–4</m:mn></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext>W/m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>
+</equation></solution>
+    </exercise><exercise id="fs-id1917720" type="problems-exercises"><problem id="fs-id2032385">    <para id="import-auto-id1282324">The warning tag on a lawn mower states that it produces noise at a level of 91.0 dB. What is this in watts per meter squared?</para>
+    </problem></exercise>
+        <exercise id="fs-id2450132" type="problems-exercises"><problem id="fs-id1561873">    <para id="import-auto-id1367619">A sound wave traveling in <m:math><m:semantics><m:mrow><m:mn>20ºC</m:mn></m:mrow></m:semantics></m:math> air has a pressure amplitude of 0.5 Pa. What is the intensity of the wave?</para></problem>
+
+
+<solution id="eip-id2181138"><equation id="eip-id2181139"><m:math><m:semantics><m:mrow><m:mn>3.04</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–4</m:mn></m:msup><m:mspace width="0.25em"/><m:msup><m:mtext>W/m</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math></equation></solution></exercise><exercise id="fs-id1011837" type="problems-exercises"><problem id="fs-id2452839">    <para id="import-auto-id1380989">What intensity level does the sound in the preceding problem correspond to?</para>
+    </problem></exercise>
+        <exercise id="fs-id1947000" type="problems-exercises"><problem id="fs-id1120192">    <para id="import-auto-id1915710">What sound intensity level in dB is produced by earphones that create an intensity of  
+<m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>4.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>−2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:msup>
+    <m:mtext>W/m</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+  </m:mrow>
+ </m:semantics>
+</m:math>?</para></problem>
+<solution id="fs-id3245974">
+    <para id="import-auto-id2016943">106 dB</para></solution>
+    </exercise>
+    <exercise id="fs-id3257384" type="problems-exercises"><problem id="fs-id1019760">    <para id="import-auto-id3250393">Show that an intensity of <m:math><m:semantics><m:mrow><m:msup><m:mn>10</m:mn><m:mn>–12</m:mn></m:msup><m:mspace width="0.25em"/><m:msup><m:mn>W/m</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math> is the same as <m:math><m:semantics><m:mrow><m:msup><m:mn>10</m:mn><m:mn>–16</m:mn></m:msup><m:mspace width="0.25em"/><m:msup><m:mn>W/cm</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>.</para></problem></exercise>
+    <exercise id="fs-id3028387" type="problems-exercises"><problem id="fs-id2000742">    <para id="import-auto-id2384775">(a) What is the decibel level of a sound that is twice as intense as a 90.0-dB sound? (b) What is the decibel level of a sound that is one-fifth as intense as a 90.0-dB sound?</para>
+    </problem>
+<solution id="fs-id2600322">
+    <para id="import-auto-id3025215">(a) 93 dB</para><para id="import-auto-id2603647">(b) 83 dB</para></solution>
+    </exercise>
+        <exercise id="fs-id1335022" type="problems-exercises"><problem id="fs-id1344789">    <para id="import-auto-id3149885">(a) What is the intensity of a sound that has a level 7.00 dB lower than a <m:math><m:semantics><m:mrow><m:mn>4.00</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–9</m:mn></m:msup><m:mspace width="0.25em"/><m:msup><m:mn>W/m</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math> sound? (b) What is the intensity of a sound that is 3.00 dB higher than a <m:math><m:semantics><m:mrow><m:mn>4.00</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–9</m:mn></m:msup><m:mspace width="0.25em"/><m:msup><m:mn>W/m</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math> sound?</para></problem></exercise>
+        <exercise id="fs-id3076842" type="problems-exercises"><problem id="fs-id3254894">    <para id="import-auto-id1405846">(a) How much more intense is a sound that has a level 17.0 dB higher than another? (b) If one sound has a level 23.0 dB less than another, what is the ratio of their intensities?</para>
+    </problem>
+<solution id="fs-id1412690">
+    <para id="import-auto-id1888988">(a) 50.1</para><para id="eip-id1172656450759">(b) <m:math><m:semantics><m:mrow><m:mn>5.01</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–3</m:mn></m:msup></m:mrow></m:semantics></m:math>
+ or <m:math><m:semantics><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>200</m:mn></m:mfrac></m:mrow></m:semantics></m:math></para></solution>
+    </exercise><exercise id="fs-id2514370" type="problems-exercises"><problem id="fs-id2456093">    <para id="import-auto-id1413418">People with good hearing can perceive sounds as low in level as <m:math><m:semantics><m:mrow><m:mn>–8.00 dB</m:mn></m:mrow></m:semantics></m:math> at a frequency of 3000 Hz. What is the intensity of this sound in watts per meter squared?</para></problem></exercise>
+        <exercise id="fs-id3017588" type="problems-exercises"><problem id="fs-id1861080">    <para id="import-auto-id1934620">If a large housefly 3.0 m away from you makes a noise of 40.0 dB, what is the noise level of 1000 flies at that distance, assuming interference has a negligible effect?</para>
+    </problem>
+<solution id="fs-id3398696">
+    <para id="import-auto-id3190427">70.0 dB</para></solution>
+    </exercise>
+        <exercise id="fs-id2626138" type="problems-exercises"><problem id="fs-id1561415">    <para id="import-auto-id3388894">Ten cars in a circle at a boom box competition produce a 120-dB sound intensity level at the center of the circle. What is the average sound intensity level produced there by each stereo, assuming interference effects can be neglected?</para>
+    </problem></exercise>
+        <exercise id="fs-id3356163" type="problems-exercises"><problem id="fs-id2653514">    <para id="import-auto-id1418758">The amplitude of a sound wave is measured in terms of its maximum gauge pressure. By what factor does the amplitude of a sound wave increase if the sound intensity level goes up by 40.0 dB?</para>
+    </problem>
+            <solution id="fs-id2968545">
+    <para id="import-auto-id2970378">100</para></solution>
+    </exercise>
+    <exercise id="fs-id2451889" type="problems-exercises"><problem id="fs-id2598804">    <para id="import-auto-id1618210">If a sound intensity level of 0 dB at 1000 Hz corresponds to a maximum gauge pressure (sound amplitude) of <m:math><m:semantics><m:mrow><m:msup><m:mn>10</m:mn><m:mn>–9</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>atm</m:mtext></m:mrow></m:semantics></m:math>, what is the maximum gauge pressure in a 60-dB sound? What is the maximum gauge pressure in a 120-dB sound?</para></problem></exercise>
+    <exercise id="fs-id2448344" type="problems-exercises"><problem id="fs-id2448345">    <para id="import-auto-id3398777">An 8-hour exposure to a sound intensity level of 90.0 dB may cause hearing damage. What energy in joules falls on a 0.800-cm-diameter eardrum so exposed?</para>
+    </problem>
+<solution id="fs-id2931191">
+  <equation id="eip-id1172656387014"><m:math display="block"><m:semantics><m:mrow><m:mn>1.45</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–3</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:semantics></m:math></equation></solution>
+    </exercise><exercise id="fs-id2612930" type="problems-exercises"><problem id="fs-id2591168">    <para id="import-auto-id3201441">(a) Ear trumpets were never very common, but they did aid people with hearing losses by gathering sound over a large area and concentrating it on the smaller area of the eardrum. What decibel increase does an ear trumpet produce if its sound gathering area is <m:math><m:semantics><m:mrow><m:msup><m:mn>900 cm</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math> and the area of the eardrum is <m:math><m:semantics><m:mrow><m:msup><m:mn>0.500 cm</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>, but the trumpet only has an efficiency of 5.00% in transmitting the sound to the eardrum? (b) Comment on the usefulness of the decibel increase found in part (a).</para></problem></exercise>
+        <exercise id="fs-id1382514" type="problems-exercises"><problem id="fs-id1383388">    <para id="import-auto-id3286446">Sound is more effectively transmitted into a stethoscope by direct contact than through the air, and it is further intensified by being concentrated on the smaller area of the eardrum. It is reasonable to assume that sound is transmitted into a stethoscope 100 times as effectively compared with transmission though the air. What, then, is the gain in decibels produced by a stethoscope that has a sound gathering area of <m:math><m:semantics><m:mrow><m:msup><m:mn>15.0 cm</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math>, and concentrates the sound onto two eardrums with a total area of <m:math><m:semantics><m:mrow><m:msup><m:mn>0.900 cm</m:mn><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math> with an efficiency of 40.0%?</para></problem>
+            <solution id="fs-id1931253" type="problems-exercises">
+    <para id="import-auto-id3017629">28.2 dB</para></solution>
+    </exercise>
+        <exercise id="fs-id3291429" type="problems-exercises"><problem id="fs-id3285737">    <para id="import-auto-id3032369">Loudspeakers can produce intense sounds with surprisingly small energy input in spite of their low efficiencies. Calculate the power input needed to produce a 90.0-dB sound intensity level for a 12.0-cm-diameter speaker that has an efficiency of 1.00%. (This value is the sound intensity level right at the speaker.)</para>
+    </problem>
+    
+</exercise></section>
+   
+</content>
+    <glossary>
+        <definition id="import-auto-id2057913"><term>intensity</term> <meaning id="fs-id1562455">the power per unit area carried by a wave</meaning></definition>
+            <definition id="import-auto-id2678275"><term>sound intensity level</term> <meaning id="fs-id3013676">a unitless quantity telling you the level of the sound relative to a fixed standard</meaning></definition>
+                <definition id="import-auto-id1368792"><term>sound pressure level</term> <meaning id="fs-id2662501">the ratio of the pressure amplitude to a reference pressure</meaning></definition>
+    </glossary>
+</document>

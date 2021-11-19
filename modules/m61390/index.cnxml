@@ -1,0 +1,1131 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Electric Potential Energy: Potential Difference</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61390</md:content-id>
+  <md:title>Electric Potential Energy: Potential Difference</md:title>
+  <md:abstract><list>
+<item>Define electric potential and electric potential energy.</item>
+<item>Describe the relationship between potential difference and electrical potential energy.</item>
+<item>Explain electron volt and its usage in submicroscopic process.</item>
+<item>Determine electric potential energy given potential difference and amount of charge.</item>
+</list></md:abstract>
+  <md:uuid>daae5893-18f3-4e62-9d77-764436b63ef3</md:uuid>
+</metadata>
+
+<content>
+  <para id="import-auto-id1950471">When a free positive charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> is accelerated by an electric field, such as shown in <link target-id="import-auto-id1576902"/>, it is given kinetic energy. The process is analogous to an object being accelerated by a gravitational field. It is as if the charge is going down an electrical hill where its electric potential energy is converted to kinetic energy. Let us explore the work done on a charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> by the electric field in this process, so that we may develop a definition of electric potential energy.</para><figure id="import-auto-id1576902"><media id="import-auto-id1935736" alt="A charge plus q moves from a positive to a negative sheet of charge. The change in the electric potential energy equals the change in kinetic energy. This is similar to the change from gravitational potential energy to kinetic energy when an object of mass m rolls downhill.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_01_01a-5929.jpg" width="200"/>
+      </media>
+
+           <caption>A charge accelerated by an electric field is analogous to a mass going down a hill. In both cases potential energy is converted to another form. Work is done by a force, but since this force is conservative, we can write <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false"> = </m:mo><m:mrow><m:mn>–Δ</m:mn></m:mrow></m:mrow><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= - ?"PE"} {}</m:annotation></m:semantics></m:math>.</caption></figure>
+<note id="fs-id1169082534963" class="watch-physics">
+<label/>
+<title>Watch Physics: Electric Potential Energy</title>
+<para id="fs-id1169085867009">This video introduces and explains the concept of electric potential energy.</para>
+<media id="fs-id1169082712207" alt="This tutorial is an introduction electric potential energy.">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02elecpotnrgz"/>
+</media>
+</note>
+
+<para id="import-auto-id1727053">The electrostatic or Coulomb force is conservative, which means that the work done on <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> is independent of the path taken. This is exactly analogous to the gravitational force in the absence of dissipative forces such as friction. When a force is conservative, it is possible to define a potential energy associated with the force, and it is usually easier to deal with the potential energy (because it depends only on position) than to calculate the work directly.</para>
+    <para id="import-auto-id1355552">We use the letters PE to denote electric potential energy, which has units of joules (J). The change in potential energy, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?"PE"} {}</m:annotation></m:semantics></m:math>, is crucial, since the work done by a conservative force is the negative of the change in potential energy; that is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W  </m:mi><m:mo>=</m:mo><m:mtext>–Δ</m:mtext><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W"=-"?"PE"} {}</m:annotation></m:semantics></m:math>. For example, work <m:math>
+ <m:semantics>
+  <m:mi>W</m:mi>
+ </m:semantics>
+</m:math> done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?"PE"} {}</m:annotation></m:semantics></m:math>. There must be a minus sign in front of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?"PE"} {}</m:annotation></m:semantics></m:math> to make <m:math>
+ <m:semantics>
+  <m:mi>W</m:mi>
+ </m:semantics>
+</m:math> positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.</para><note id="fs-id1310036"><label/>
+    <title>Potential Energy</title>
+    <para id="import-auto-id1936584"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W </m:mi><m:mo>=</m:mo><m:mtext>–ΔPE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W" = -"?"PE"} {}</m:annotation></m:semantics></m:math>. For example, work <m:math>
+ <m:semantics>
+  <m:mi>W</m:mi>
+ </m:semantics>
+</m:math> done to accelerate a positive charge from rest is positive and results from a loss in PE, or a negative <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo><m:mrow/></m:mrow></m:semantics></m:math> There must be a minus sign in front of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to make <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> positive. PE can be found at any point by taking one point as a reference and calculating the work needed to move a charge to the other point.</para></note>
+    <para id="import-auto-id1319050">Gravitational potential energy and electric potential energy are quite analogous. Potential energy accounts for work done by a conservative force and gives added insight regarding energy and energy transformation without the necessity of dealing with the force directly. It is much more common, for example, to use the concept of voltage (related to electric potential energy) than to deal with the Coulomb force directly. </para>
+<note id="electric-potential-energy-19-1" class="watch-physics">
+<label/>
+<title>Watch Physics: 19.1 Electric Potential Energy: Potential Difference</title>
+<media id="fs-id1169082377256" alt="Video introduces and explains electric potential energy.">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02elecpotnrg"/>
+</media>
+</note>
+
+    <para id="import-auto-id1330950">Calculating the work directly is generally difficult, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false"> = </m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and the direction and magnitude of <m:math><m:semantics><m:mrow><m:mrow><m:mi>F </m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> can be complex for multiple charges, for odd-shaped objects, and along arbitrary paths. But we do know that, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F </m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "qE"} {}</m:annotation></m:semantics></m:math>, the work, and hence <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, is proportional to the test charge <m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">q.</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> To have a physical quantity that is independent of test charge, we define <term id="import-auto-id1311838">electric potential</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> (or simply potential, since electric is understood) to be the potential energy per unit charge: </para><equation id="eip-17"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>V</m:mi>
+                    <m:mo stretchy="false"> = </m:mo>
+                    <m:mfrac>
+                      <m:mtext>PE</m:mtext>
+                      <m:mi>q</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{V= {  {"PE"}  over  {q} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><note id="fs-id1516159"><label/>
+    <title>Electric Potential</title>
+    <para id="import-auto-id1501691">This is the electric potential energy per unit charge.</para>
+    <equation id="eip-564"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>V </m:mi>
+                  <m:mo stretchy="false"> = </m:mo>
+                  <m:mfrac>
+                    <m:mtext>PE</m:mtext>
+                    <m:mi>q</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{V= {  {"PE"}  over  {q} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation>
+    </note>
+      <para id="import-auto-id1514122">Since PE is proportional to <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> , the dependence on <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> cancels. Thus <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> does not depend on <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis>. The change in potential energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?"PE"} {}</m:annotation></m:semantics></m:math> is crucial, and so we are concerned with the difference in potential or potential difference <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?V} {}</m:annotation></m:semantics></m:math> between two points, where</para><equation id="eip-723"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mrow>
+                          <m:mtext>B</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>V</m:mi>
+                        <m:mrow>
+                          <m:mtext>A</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>Δ</m:mn>
+                      <m:mtext>PE</m:mtext>
+                    </m:mrow>
+                    <m:mi>q</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ΔV=V rSub { size 8{B} }  - V rSub { size 8{A} } = {  {Δ"PE"}  over  {q} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2574252">The <term id="import-auto-id2678176">potential difference</term> between points A and B, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>B</m:mtext></m:mrow></m:msub><m:mspace width="0.25em"/><m:mo stretchy="false">–</m:mo><m:mspace width="0.25em"/><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>A</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{B} } -V rSub { size 8{A} } } {}</m:annotation></m:semantics></m:math>, is thus defined to be the change in potential energy of a charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q </m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta.</para><equation id="eip-449"><m:math>
+    <m:semantics>
+     <m:mrow>
+       <m:mrow>
+        <m:mrow>
+         <m:mtext>
+1 V = 1
+         </m:mtext><m:mspace width="0.25em"/>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mn>
+J
+            </m:mn>
+           </m:mrow>
+           <m:mrow>
+            <m:mn>
+C
+            </m:mn>
+           </m:mrow>
+          </m:mfrac>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{1" V=1 " {  {J}  over  {C} } } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></equation><note id="fs-id1117934"><label/>
+    <title>Potential Difference</title>
+    <para id="import-auto-id1998422">The potential difference between points A and B, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>B</m:mn></m:mrow></m:msub><m:mo stretchy="false">-</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mn>A</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{B} } -V rSub { size 8{A} } } {}</m:annotation></m:semantics></m:math>, is defined to be the change in potential energy of a charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi> q </m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></emphasis> moved from A to B, divided by the charge. Units of potential difference are joules per coulomb, given the name volt (V) after Alessandro Volta.</para>
+    <equation id="eip-601"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>1 V = 1</m:mtext><m:mspace width="0.25em"/>
+                  <m:mfrac>
+                    <m:mn>J</m:mn>
+                    <m:mn>C</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation></note><para id="import-auto-id1349212">The familiar term <term>voltage</term> is the common name for potential difference. Keep in mind that whenever a voltage is quoted, it is understood to be the potential difference between two points. For example, every battery has two terminals, and its voltage is the potential difference between them. More fundamentally, the point you choose to be zero volts is arbitrary. This is analogous to the fact that gravitational potential energy has an arbitrary zero, such as sea level or perhaps a lecture hall floor.</para><para id="import-auto-id1677289">In summary, the relationship between potential difference (or voltage) and electrical potential energy is given by</para><equation id="eip-652"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow><m:mn>Δ</m:mn>
+                    <m:mi fontstyle="italic">V </m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>ΔPE</m:mtext>
+                      </m:mrow>
+                      <m:mi>q</m:mi>
+                    </m:mfrac>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext>and ΔPE =</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{?V= {  {?"PE"}  over  {q} } "  and  "D"PE="q?V "." } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><note id="fs-id1577463"><label/><title>Potential Difference and Electrical Potential Energy</title>
+    
+    <para id="import-auto-id1312440">The relationship between potential difference (or voltage) and electrical potential energy is given by</para><equation id="eip-864"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow><m:mn>Δ</m:mn>
+                    <m:mi fontstyle="italic">V </m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>ΔPE</m:mtext>
+                      </m:mrow>
+                      <m:mi>q</m:mi>
+                    </m:mfrac>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext>and ΔPE =</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{?V= {  {?"PE"}  over  {q} } "  and  "D"PE="q?V "." } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    
+    </equation><para id="eip-40">The second equation is equivalent to the first.</para></note><para id="import-auto-id1545041">Voltage is not the same as energy. Voltage is the energy per unit charge. Thus a motorcycle battery and a car battery can both have the same voltage (more precisely, the same potential difference between battery terminals), yet one stores much more energy than the other since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE =</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The car battery can move more charge than the motorcycle battery, although both are 12 V batteries.</para>
+<note id="voltage-v-electric-potential-19-1" class="watch-physics">
+<label/>
+<title>Watch Physics: 19.1 Electric Potential Energy: Potential Difference</title>
+<media id="fs-id1169082460837" alt="Video introduces and explains electric potential or voltage.">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02spacenrg"/>
+</media>
+</note>
+
+<example id="fs-id896246">
+    <title>Calculating Energy</title>
+    <para id="eip-818">Suppose you have a 12.0 V motorcycle battery that can move 5000 C of charge, and a 12.0 V car battery that can move 60,000 C of charge. How much energy does each deliver? (Assume that the numerical value of each charge is accurate to three significant figures.)</para>
+        <para id="import-auto-id1673765">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1667482">To say we have a 12.0 V battery means that its terminals have a 12.0 V potential difference. When such a battery moves charge, it puts the charge through a potential difference of 12.0 V, and the charge is given a change in potential energy equal to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE =</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id1610201">So to find the energy output, we multiply the charge moved by the potential difference.</para>
+    <para id="import-auto-id2656774">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id1514850">For the motorcycle battery, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>5000 C</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>12.0 V</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. The total energy delivered by the motorcycle battery is </para><equation id="eip-758"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                            <m:msub>
+                              <m:mtext>ΔPE</m:mtext>
+                              
+                                  <m:mtext>cycle</m:mtext>
+                              
+                            </m:msub></m:mtd>
+                            <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                            <m:mfenced open="(" close=")">
+                                <m:mtext>5000 C</m:mtext>
+                            </m:mfenced>
+                          <m:mfenced open="(" close=")">
+                              <m:mtext>12.0 V</m:mtext>
+                          </m:mfenced></m:mtd>
+                    
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                    <m:mfenced open="(" close=")">
+                        <m:mtext>5000 C</m:mtext>
+                    </m:mfenced>
+                    <m:mfenced open="(" close=")">
+                        <m:mtext>12.0 J/C</m:mtext>
+                    </m:mfenced></m:mtd>
+                </m:mtr>
+
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>                    <m:mn>6.00</m:mn>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                          <m:mn>4</m:mn>
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J.</m:mtext></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2601820">Similarly, for the car battery, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>60</m:mtext></m:mrow><m:mi>,</m:mi><m:mtext>000</m:mtext><m:mspace width="0.25em"/><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q="60","000"" C"} {}</m:annotation></m:semantics></m:math> and</para><equation id="eip-367"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+                            <m:mtd><m:msub><m:mtext>ΔPE</m:mtext>
+                                  <m:mtext>car</m:mtext></m:msub></m:mtd>
+                            <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+                            <m:mtd><m:mfenced open="(" close=")">
+                                <m:mtext>60,000 C</m:mtext>
+                            </m:mfenced>
+                          <m:mfenced open="(" close=")">
+                              <m:mtext>12.0 V</m:mtext>
+                          </m:mfenced></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>
+<m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                    <m:mn>7.20</m:mn>
+                    <m:mi>×</m:mi>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                          <m:mn>5</m:mn>
+                      
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J.</m:mtext></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1281228">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1673169">While voltage and energy are related, they are not the same thing. The voltages of the batteries are identical, but the energy supplied by each is quite different. Note also that as a battery is discharged, some of its energy is used internally and its terminal voltage drops, such as when headlights dim because of a low car battery. The energy supplied by the battery is still calculated as in this example, but not all of the energy is available for external use.</para>
+    </example>
+    <para id="import-auto-id2508347">Note that the energies calculated in the previous example are absolute values. The change in potential energy for the battery is negative, since it loses energy. These batteries, like many electrical systems, actually move negative charge—electrons in particular. The batteries repel electrons from their negative terminals (A) through whatever circuitry is involved and attract them to their positive terminals (B) as shown in <link target-id="import-auto-id2721459"/>. The change in potential is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>B</m:mtext></m:mrow></m:msub><m:msub><m:mi fontstyle="italic">–V</m:mi><m:mrow><m:mtext>A</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo>=</m:mo><m:mtext>+12 V</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and the charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is negative, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext><m:mo>=</m:mo><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is negative, meaning the potential energy of the battery has decreased when <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow></m:mrow></m:semantics></m:math></emphasis> has moved from A to B.</para><figure id="import-auto-id2721459"><media id="import-auto-id1594590" alt="A headlight is connected to a 12 V battery. Negative charges move from the negative terminal of the battery to the positive terminal, resulting in a current flow and making the headlight glow. However, the positive terminal is at a greater potential than the negative terminal.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_01_02a.jpg" width="225"/>
+      </media>
+
+     <caption>A battery moves negative charge from its negative terminal through a headlight to its positive terminal. Appropriate combinations of chemicals in the battery separate charges so that the negative terminal has an excess of negative charge, which is repelled by it and attracted to the excess positive charge on the other terminal. In terms of potential, the positive terminal is at a higher voltage than the negative. Inside the battery, both positive and negative charges move.</caption></figure><example id="fs-id2719282"><title>How Many Electrons Move through a Headlight Each Second?</title><para id="import-auto-id1350109">When a 12.0 V car battery runs a single 30.0 W headlight, how many electrons pass through it each second?</para>
+    <para id="import-auto-id1665067">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1584994">To find the number of electrons, we must first find the charge that moved in 1.00 s. The charge moved is related to voltage and energy through the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext><m:mo>=</m:mo><m:mi fontstyle="italic">  q</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. A 30.0 W lamp uses 30.0 joules per second. Since the battery loses energy, we have 
+<m:math><m:semantics><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext><m:mo>=</m:mo><m:mtext>–30.0 J</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and, since the electrons are going from the negative terminal to the positive, we see that 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi><m:mo>=</m:mo><m:mtext>+12.0 V</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id2558866">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id1957359">To find the charge  <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi> q </m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> moved, we solve the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext><m:mo>=</m:mo><m:mi fontstyle="italic">  q</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>:</para><equation id="eip-794"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>q</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>ΔPE</m:mtext>
+                      </m:mrow><m:mrow>
+                      <m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi></m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1335867">Entering the values for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?"PE"} {}</m:annotation></m:semantics></m:math>  and  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, we get</para><equation id="eip-53"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mtext>–30.0 J</m:mtext></m:mrow></m:mrow><m:mrow><m:mtext>+12.0 V</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:mtext>–30.0 J</m:mtext></m:mrow></m:mrow><m:mrow><m:mtext>+12.0 J/C</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>=</m:mo><m:mn>–2.50 C.</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1528285">The number of electrons <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>n</m:mtext><m:mrow><m:mtext>e</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math> is the total charge divided by the charge per electron. That is,</para><equation id="eip-25"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>n</m:mtext><m:mtext>e </m:mtext>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mrow>
+                            <m:mn>–2.50 C</m:mn>
+                        </m:mrow>
+                        <m:mrow>
+                            <m:mn>–1.60</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                                  <m:mtext>–19</m:mtext>
+                          </m:msup><m:mspace width="0.25em"/>
+                          <m:msup>
+                          <m:mtext>C/e</m:mtext>
+                                  <m:mo stretchy="false">–</m:mo>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1.56</m:mn>
+                  </m:mrow>
+                  <m:mi>×</m:mi>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    
+                        <m:mtext>19</m:mtext>
+                    
+                  </m:msup><m:mspace width="0.25em"/>
+                  <m:mtext> electrons.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1232818">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2724194">This is a very large number. It is no wonder that we do not ordinarily observe individual electrons with so many being present in ordinary systems. In fact, electricity had been in use for many decades before it was determined that the moving charges in many circumstances were negative. Positive charge moving in the opposite direction of negative charge often produces identical effects; this makes it difficult to determine which is moving or whether both are moving. </para>
+    </example><section id="fs-id1348783">
+    <title>The Electron Volt</title>
+    <para id="import-auto-id1951305">The energy per electron is very small in macroscopic situations like that in the previous example—a tiny fraction of a joule. But on a submicroscopic scale, such energy per particle (electron, proton, or ion) can be of great importance. For example, even a tiny fraction of a joule can be great enough for these particles to destroy organic molecules and harm living tissue. The particle may do its damage by direct collision, or it may create harmful X-rays, which can also inflict damage. It is useful to have an energy unit related to submicroscopic effects. <link target-id="fs-id1493012"/> shows a situation related to the definition of such an energy unit. An electron is accelerated between two charged metal plates as it might be in an old-model television tube or oscilloscope. The electron is given kinetic energy that is later converted to another form—light in the television tube, for example. (Note that downhill for the electron is uphill for a positive charge.) Since energy is related to voltage by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔPE</m:mtext><m:mo>=</m:mo><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:semantics></m:math> we can think of the joule as a coulomb-volt.</para><figure id="fs-id1493012"><media id="fs-id885336" alt="In an electron gun the electrons move from the negatively charged plate to the positively charged plate. Their kinetic energy will be equal to the potential energy.">
+        <image mime-type="image/jpg" src="../../media/Figure_20_01_03a.jpg" width="200"/>
+      </media>
+
+          <caption>A typical electron gun accelerates electrons using a potential difference between two metal plates. The energy of the electron in electron volts is numerically the same as the voltage between the plates. For example, a 5000 V potential difference produces 5000 eV electrons.</caption></figure><para id="import-auto-id1539181">On the submicroscopic scale, it is more convenient to define an energy unit called the <term id="import-auto-id2511005">electron volt</term> (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V.  In equation form,</para>
+    <equation id="eip-835"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd><m:mtext>1 eV</m:mtext></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>1.60</m:mn>
+                              <m:mo>×</m:mo>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                      <m:mtext>–19</m:mtext>
+                              </m:msup><m:mspace width="0.25em"/>
+                              <m:mtext> C</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                                <m:mn>1 V</m:mn>
+                            </m:mfenced>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1.60</m:mn>
+                                <m:mi>×</m:mi>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                        <m:mtext>–19</m:mtext>
+                                </m:msup><m:mspace width="0.25em"/>
+                                <m:mtext>C</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1 J/C</m:mn>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mn>1.60</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                            <m:mtext>–19</m:mtext>
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> </equation><note id="fs-id2500129"><label/>
+    <title> Electron Volt</title>
+    <para id="import-auto-id2560216">On the submicroscopic scale, it is more convenient to define an energy unit called the electron volt (eV), which is the energy given to a fundamental charge accelerated through a potential difference of 1 V<emphasis effect="italics">.</emphasis> In equation form, </para><equation id="eip-829"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd><m:mtext>1 eV</m:mtext></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>1.60</m:mn>
+                              <m:mo>×</m:mo>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                      <m:mtext>–19</m:mtext>
+                              </m:msup><m:mspace width="0.25em"/>
+                              <m:mtext> C</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                                <m:mn>1 V</m:mn>
+                            </m:mfenced>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1.60</m:mn>
+                                <m:mi>×</m:mi>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                        <m:mtext>–19</m:mtext>
+                                </m:msup><m:mspace width="0.25em"/>
+                                <m:mtext>C</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1 J/C</m:mn>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mn>1.60</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                            <m:mtext>–19</m:mtext>
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> </equation></note>
+    <para id="import-auto-id2575301">An electron accelerated through a potential difference of 1 V is given an energy of 1 eV. It follows that an electron accelerated through 50 V is given 50 eV. A potential difference of 100,000 V (100 kV) will give an electron an energy of 100,000 eV (100 keV), and so on. Similarly, an ion with a double positive charge accelerated through 100 V will be given 200 eV of energy. These simple relationships between accelerating voltage and particle charges make the electron volt a simple and convenient energy unit in such circumstances.</para>
+    <note id="fs-id1309270"><label/>
+    <title>Connections: Energy Units</title>
+    <para id="import-auto-id2581684">The electron volt (eV) is the most common energy unit for submicroscopic processes. This will be particularly noticeable in the chapters on modern physics. Energy is so important to so many subjects that there is a tendency to define a special energy unit for each major topic. There are, for example, calories for food energy, kilowatt-hours for electrical energy, and therms for natural gas energy.</para></note>
+    <para id="import-auto-id2511397">The electron volt is commonly employed in submicroscopic processes—chemical valence energies and molecular and nuclear binding energies are among the quantities often expressed in electron volts. For example, about 5 eV of energy is required to break up certain organic molecules. If a proton is accelerated from rest through a potential difference of 30 kV, it is given an energy of 30 keV (30,000 eV) and it can break up as many as 6000 of these molecules (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30,000 eV </m:mtext><m:mo>÷ </m:mo><m:mtext> 5 eV per molecule</m:mtext><m:mo>=</m:mo><m:mtext> 6000 molecules</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>). Nuclear decay energies are on the order of 1 MeV (1,000,000 eV) per event and can, thus, produce significant biological damage.</para></section>
+    <section id="fs-id2600986">
+  <title>Conservation of Energy</title>
+    <para id="import-auto-id2511841">The total energy of a system is conserved if there is no net addition (or subtraction) of work or heat transfer. For conservative forces, such as the electrostatic force, conservation of energy states that mechanical energy is a constant.</para>
+    <para id="import-auto-id1955232"><term id="import-auto-id2129804">Mechanical energy</term> is the sum of the kinetic energy and potential energy of a system; that is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>PE = constant</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"+"PE=constant"} {}</m:annotation></m:semantics></m:math>. A loss of PE of a charged particle becomes an increase in its KE. Here PE is the electric potential energy. Conservation of energy is stated in equation form as</para><equation id="eip-394"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>PE = constant</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"+"PE=constant"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2638250">or</para>
+    <equation id="eip-645"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>KE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>i </m:mn>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false"> + </m:mo>
+                    <m:msub>
+                      <m:mtext> PE </m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>i</m:mn>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext> = KE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mo>f</m:mo>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false"> + </m:mo>
+                    <m:msub>
+                      <m:mtext>PE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mo>f</m:mo>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{i} } +"PE" rSub { size 8{i} } "=KE" rSub { size 8{f} } +"PE" rSub { size 8{f} } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2603407">where i and f stand for initial and final conditions. As we have found many times before, considering energy can give us insights and facilitate problem solving.</para>
+    <example id="fs-id2602613"><title>Electrical Potential Energy Converted to Kinetic Energy</title><para id="import-auto-id2551568">Calculate the final speed of a free electron accelerated from rest through a potential difference of 100 V. (Assume that this numerical value is accurate to three significant figures.)</para><para id="import-auto-id2651748">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2648870">We have a system with only conservative forces. Assuming the electron is accelerated in a vacuum, and neglecting the gravitational force (we will check on this assumption later), all of the electrical potential energy is converted into kinetic energy. We can identify the initial and final forms of energy to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mn>i </m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0, </m:mn><m:mspace width="0.25em"/></m:mrow><m:mrow>
+<m:msub><m:mtext> KE</m:mtext><m:mrow><m:mn>f</m:mn></m:mrow></m:msub>
+<m:mo stretchy="false">=</m:mo><m:mn>½</m:mn><m:msup><m:mi fontstyle="italic">mv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mi>, </m:mi><m:mspace width="0.25em"/><m:mrow><m:msub><m:mtext> PE</m:mtext><m:mrow><m:mn>i</m:mn></m:mrow></m:msub>
+<m:mo stretchy="false">=</m:mo><m:mrow><m:mi fontstyle="italic">qV</m:mi></m:mrow><m:msub><m:mtext>, and PE</m:mtext><m:mn>f</m:mn></m:msub>
+<m:mo stretchy="false">=</m:mo><m:mn>0.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para><para id="import-auto-id2574836">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2703220">Conservation of energy states that </para>
+    <equation id="eip-584"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext>KE</m:mtext>
+                      
+                          <m:mn>i</m:mn>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mtext>PE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>i</m:mn>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mtext> = KE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>f</m:mn>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mtext>PE</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>f</m:mn>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2602721">Entering the forms identified above, we obtain</para>
+    <equation id="eip-366"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mstyle>
+                      <m:mrow>
+                        <m:mtext fontstyle="italic">qV</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false"> = </m:mo>
+                  </m:mrow>
+                  <m:mstyle>
+                   <m:mfrac>
+                    <m:mrow>
+                      <m:msup>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                            <m:mn>2</m:mn>
+                          
+                      </m:msup>
+                    </m:mrow>
+                    <m:mtext>2</m:mtext>
+                   </m:mfrac>
+                  </m:mstyle>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "qV"= { size 8{1} } wideslash { size 8{2} }  ital "mv" rSup { size 8{2} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2600536">We solve this for <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">:</emphasis></para>
+    <equation id="eip-54"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msqrt>
+                      <m:mfrac>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mstyle fontstyle="italic">
+                            <m:mrow>
+                              <m:mtext>qV</m:mtext>
+                            </m:mrow>
+                          </m:mstyle>
+                        </m:mrow>
+                        <m:mi>m</m:mi>
+                      </m:mfrac>
+                    </m:msqrt>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v= sqrt { {  {2 ital "qV"}  over  {m} } }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2560592">Entering values for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mi>, </m:mi><m:mspace width="0.25em"/><m:mi>V</m:mi><m:mtext>, and  </m:mtext><m:mspace width="0.25em"/><m:mi> m </m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q, V", and "m} {}</m:annotation></m:semantics></m:math> gives</para><equation id="eip-209"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+                          <m:mi>v</m:mi></m:mtd>
+                          <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                          <m:msqrt>
+                            <m:mfrac>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                                <m:mfenced open="(" close=")">
+                                  <m:mrow>
+                                      <m:mn>–1.60</m:mn>
+                                    <m:mi>×</m:mi>
+                                    <m:msup>
+                                      <m:mtext>10</m:mtext>
+                                      
+                                            <m:mtext>–19</m:mtext>
+                                      
+                                    </m:msup><m:mspace width="0.25em"/>
+                                    <m:mtext> C</m:mtext>
+                                  </m:mrow>
+                                </m:mfenced>
+                                <m:mfenced open="(" close=")">
+                                    <m:mtext>–100 J/C</m:mtext>
+                                </m:mfenced>
+                              </m:mrow>
+                              <m:mrow>
+                                <m:mn>9.11</m:mn>
+                                <m:mo>×</m:mo>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                        <m:mtext>–31</m:mtext>
+                                </m:msup><m:mspace width="0.25em"/>
+                                <m:mtext> kg</m:mtext>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:msqrt></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/><m:mtd>
+                    <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                    <m:mn>5.93</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      
+                          <m:mn>6</m:mn>
+                      
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> m/s.</m:mtext></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2560069">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2560073">Note that both the charge and the initial voltage are negative, as in <link target-id="fs-id1493012"/>. From the discussions in <link document="m61344">Electric Charge and Electric Field</link>, we know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns. Those higher voltages produce electron speeds so great that relativistic effects must be taken into account. That is why a low voltage is considered (accurately) in this example. </para></example></section>
+    <section id="fs-id2605865" class="section-summary"><title>Section Summary</title><list id="import-auto-id2694245"><item id="import-auto-id2694247">Electric potential is potential energy per unit charge.<emphasis effect="bold"/></item>
+    <item id="import-auto-id2694252">The potential difference between points A and B, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>B</m:mn></m:mrow></m:msub><m:mo stretchy="false">–</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mn>A</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{B} } -V rSub { size 8{A} } } {}</m:annotation></m:semantics></m:math>, defined to be the change in potential energy of a charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> moved from A to B, is equal to the change in potential energy divided by the charge, Potential difference is commonly called voltage, represented by the symbol  
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= {  {"PE"}  over  {q} }  "." } {}</m:annotation></m:semantics></m:math>.<equation id="eip-id1820754"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow><m:mn>Δ</m:mn>
+                    <m:mi fontstyle="italic">V </m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>ΔPE</m:mtext>
+                      </m:mrow>
+                      <m:mi>q</m:mi>
+                    </m:mfrac>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext>and ΔPE = </m:mtext><m:mspace width="0.25em"/>
+                  <m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{?V= {  {?"PE"}  over  {q} } "  and  "D"PE="q?V "." } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    
+    </equation></item>
+
+    <item id="import-auto-id2555666">An electron volt is the energy given to a fundamental charge accelerated through a potential difference of 1 V. In equation form,
+    <equation id="eip-998"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd><m:mtext>1 eV</m:mtext></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mn>1.60</m:mn>
+                              <m:mo>×</m:mo>
+                              <m:msup>
+                                <m:mtext>10</m:mtext>
+                                      <m:mtext>–19</m:mtext>
+                              </m:msup><m:mspace width="0.25em"/>
+                              <m:mtext> C</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                                <m:mn>1 V</m:mn>
+                            </m:mfenced>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1.60</m:mn>
+                                <m:mi>×</m:mi>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                        <m:mtext>–19</m:mtext>
+                                </m:msup><m:mspace width="0.25em"/>
+                                <m:mtext>C</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1 J/C</m:mn>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>
+                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mn>1.60</m:mn>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                            <m:mtext>–19</m:mtext>
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J.</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> </equation></item>
+    <item>Mechanical energy is the sum of the kinetic energy and potential energy of a system, that is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>PE</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"+"PE"} {}</m:annotation></m:semantics></m:math> This sum is a constant.</item>
+</list></section><section id="fs-id2660778" type="conceptual-questions" class="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id2660782" type="conceptual-questions"><problem id="fs-id2660783">
+
+    <para id="import-auto-id2724146">Voltage is the common word for potential difference. Which term is more descriptive, voltage or potential difference?</para>
+    </problem></exercise>
+    <exercise id="fs-id2681166" type="conceptual-questions"><problem id="fs-id2681167">
+
+    <para id="import-auto-id2573648">If the voltage between two points is zero, can a test charge be moved between them with zero net work being done? Can this necessarily be done without exerting a force? Explain.</para>
+    </problem></exercise>
+    <exercise id="fs-id1350416" type="conceptual-questions"><problem id="fs-id1350417">
+
+    <para id="import-auto-id2632743">What is the relationship between voltage and energy? More precisely, what is the relationship between potential difference and electric potential energy?</para>
+    </problem></exercise>
+    <exercise id="fs-id2339284" type="conceptual-questions"><problem id="fs-id2339285">
+
+    <para id="import-auto-id2632751">Voltages are always measured between two points. Why?</para>
+    </problem></exercise>
+    <exercise id="fs-id2000410" type="conceptual-questions"><problem id="fs-id2000411">
+
+    <para id="import-auto-id2573988">How are units of volts and electron volts related? How do they differ?</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id2551536" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title>
+    <exercise id="fs-id1350363" type="problems-exercises"><problem id="fs-id1350364">    <para id="import-auto-id2602267">Find the ratio of speeds of an electron and a negative hydrogen ion (one having an extra electron) accelerated through the same voltage, assuming non-relativistic final speeds. Take the mass of the hydrogen ion to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>67</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>27</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "67"×"10" rSup { size 8{-"27"} } " kg" "." } {}</m:annotation></m:semantics></m:math></para></problem>
+<solution id="eip-id2393274">
+<para id="eip-id2393276">42.8</para>
+</solution></exercise><exercise id="fs-id2607118" type="problems-exercises"><problem id="fs-id2607119">    <para id="import-auto-id2657982">An evacuated tube uses an accelerating voltage of 40 kV to accelerate electrons to hit a copper plate and produce X-rays.  Non-relativistically, what would be the maximum speed of these electrons?  </para></problem></exercise>
+    <exercise id="fs-id2595258" type="problems-exercises"><problem id="fs-id2595259">    <para id="import-auto-id2694260">A bare helium nucleus has two positive charges and a mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>64</m:mtext><m:mi> × </m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mtext>–27</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "64"×"10" rSup { size 8{-"27"} } " kg" "." } {}</m:annotation></m:semantics></m:math> (a) Calculate its kinetic energy in joules at 2.00% of the speed of light. (b) What is this in electron volts? (c) What voltage would be needed to obtain this energy?</para></problem></exercise>
+    <exercise id="fs-id2574445" type="problems-exercises"><problem id="fs-id2574446">    
+<para id="eip-id1972816"><emphasis>Integrated Concepts</emphasis> </para>
+
+<para id="import-auto-id2694470" fo:font-weight="normal">Singly charged gas ions are accelerated from rest through a voltage of 13.0 V. At what temperature will the average kinetic energy of gas molecules be the same as that given these ions? </para>
+    </problem>
+<solution id="fs-id2574052">
+    <para id="import-auto-id2694479"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>1</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>00</m:mtext>
+                  <m:mi>×</m:mi>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                      </m:mrow>
+                    
+                  </m:msup><m:mspace width="0.25em"/>
+                  <m:mtext> K</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"×"10" rSup { size 8{5} } " K"} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </para></solution>
+    </exercise><exercise id="fs-id2634581" type="problems-exercises"><problem id="fs-id2634582"> 
+<para id="eip-id2513581"><emphasis>Integrated Concepts</emphasis> </para>
+   <para id="import-auto-id2550479">The temperature near the center of the Sun is thought to be 15 million degrees Celsius <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>1.5</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mn>ºC</m:mn></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (3 "." 0×"10" rSup { size 8{7} } °C right )} {}</m:annotation></m:semantics></m:math>. Through what voltage must a singly charged ion be accelerated to have the same energy as the average kinetic energy of ions at this temperature?</para></problem></exercise><exercise id="fs-id2677893" type="problems-exercises"><problem id="fs-id2637475">  <para id="eip-id600704"><emphasis>Integrated Concepts</emphasis> </para>  <para id="import-auto-id2508460" fo:font-weight="normal">(a) What is the average power output of a heart defibrillator that dissipates 400 J of energy in 10.0 ms? (b) Considering the high-power output, why doesn’t the defibrillator produce serious burns?</para>
+    </problem>
+<solution id="fs-id2648832">
+    <para id="import-auto-id2693575">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> W</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4×"10" rSup { size 8{4} } " W"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2603394" fo:font-weight="normal">(b) A defibrillator does not cause serious burns because the skin conducts electricity well at high voltages, like those used in defibrillators. The gel used aids in the transfer of energy to the body, and the skin doesn’t absorb the energy, but rather lets it pass through to the heart.</para></solution>
+    </exercise><exercise id="fs-id2511020" type="problems-exercises"><problem id="fs-id2594663">  <para id="eip-id1351326"><emphasis>Integrated Concepts</emphasis> </para>  <para id="import-auto-id2595144">A lightning bolt strikes a tree, moving 20.0 C of charge through a potential difference of <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>MV</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>. (a) What energy was dissipated? (b) What mass of water could be raised from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15"°C} {}</m:annotation></m:semantics></m:math> to the boiling point and then boiled by this energy? (c) Discuss the damage that could be caused to the tree by the expansion of the boiling steam.</para></problem></exercise><exercise id="fs-id2003316" type="problems-exercises"><problem id="fs-id2003317"> <para id="eip-id2825325"><emphasis>Integrated Concepts</emphasis> </para>   <para id="import-auto-id2637890">A 12.0 V battery-operated bottle warmer heats 50.0 g of glass, <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>2.50</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>g</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> of baby formula, and <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>2.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>g</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> of aluminum from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>90.0ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" "." 0°C} {}</m:annotation></m:semantics></m:math>. (a) How much charge is moved by the battery? (b) How many electrons per second flow if it takes 5.00 min to warm the formula? (Hint: Assume that the specific heat of baby formula is about the same as the specific heat of water.)</para></problem>
+<solution id="fs-id2595204">
+    <para id="import-auto-id1356494">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "40"×"10" rSup { size 8{3} } " C"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2635608">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>54</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>20</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>  electrons per second</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "54"×"10" rSup { size 8{"20"} } " electrons"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise><exercise id="fs-id2606659" type="problems-exercises"><problem id="fs-id2554470">  <para id="eip-id1505062"><emphasis>Integrated Concepts</emphasis></para>   <para id="import-auto-id2693826">A battery-operated car utilizes a 12.0 V system. Find the charge the batteries must be able to move in order to accelerate the 750 kg car from rest to 25.0 m/s, make it climb a <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>2.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>m</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> high hill, and then cause it to travel at a constant 25.0 m/s by exerting a <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>5.00</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>2</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>N</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> force for an hour.</para></problem>
+<solution id="fs-id2576330">
+    <para id="import-auto-id2693835"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                
+                
+                  <m:mn>3.89</m:mn>
+                  <m:mi>×</m:mi>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                      </m:mrow>
+                    
+                  </m:msup><m:mspace width="0.25em"/>
+                  <m:mtext> C</m:mtext>
+                </m:mrow>
+              </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </para></solution>
+    </exercise><exercise id="fs-id1362960" type="problems-exercises"><problem id="fs-id1362962"> <para id="eip-id1759475"> <emphasis>Integrated Concepts</emphasis> </para>  <para id="import-auto-id2694668">Fusion probability is greatly enhanced when appropriate nuclei are brought close together, but mutual Coulomb repulsion must be overcome. This can be done using the kinetic energy of high-temperature gas ions or by accelerating the nuclei toward one another. (a) Calculate the potential energy of two singly charged nuclei separated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mtext>–12</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"×"10" rSup { size 8{-"12"} } " m"} {}</m:annotation></m:semantics></m:math> by finding the voltage of one at that distance and multiplying by the charge of the other. (b) At what temperature will atoms of a gas have an average kinetic energy equal to this needed electrical potential energy?</para></problem></exercise><exercise id="fs-id2723641" type="problems-exercises"><problem id="fs-id2723642"> <para id="eip-id2898897"><emphasis>Unreasonable Results</emphasis>   </para><para id="import-auto-id2693464">(a) Find the voltage near a 10.0 cm diameter metal sphere that has 8.00 C of excess positive charge on it. (b) What is unreasonable about this result? (c) Which assumptions are responsible?</para>
+    </problem>
+<solution id="eip-id2082835">
+<para id="eip-id2082838">(a) <m:math>
+ <m:semantics>
+  <m:mrow>
+    <m:mn>1.44</m:mn>
+    <m:mo>×</m:mo>
+   <m:msup>
+    <m:mtext>10</m:mtext>
+    <m:mtext>12</m:mtext>
+   </m:msup>
+   <m:mspace width="0.25em"/>
+   <m:mtext>V</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="eip-id1787039">(b) This voltage is very high. A 10.0 cm diameter sphere could never maintain this voltage; it would discharge.</para>
+<para id="eip-id1787044">(c) An 8.00 C charge is more charge than can reasonably be accumulated on a sphere of that size.</para>
+
+</solution></exercise><exercise id="fs-id2678910" type="problems-exercises"><problem id="fs-id2678911">  <para id="eip-id1660661"><emphasis>Construct Your Own Problem</emphasis></para>  <para id="import-auto-id2693475">Consider a battery used to supply energy to a cellular phone. Construct a problem in which you determine the energy that must be supplied by the battery, and then calculate the amount of charge it must be able to move in order to supply this energy. Among the things to be considered are the energy needs and battery voltage. You may need to look ahead to interpret manufacturer’s battery ratings in ampere-hours as energy in joules.</para>
+    </problem></exercise></section>
+</content>
+  <glossary>
+    <definition id="import-auto-id2559409"><term>electric potential</term><meaning id="fs-id1297960">potential energy per unit charge</meaning></definition>
+
+    <definition id="import-auto-id2559416"><term>potential difference (or voltage)</term><meaning id="fs-id2630010">change in potential energy of a charge moved from one point to another, divided by the charge; units of potential difference are joules per coulomb, known as volt</meaning></definition>
+
+<definition id="fs-id1910222"><term>electron volt</term><meaning id="fs-id1347374">the energy given to a fundamental charge accelerated through a potential difference of one volt</meaning></definition>
+
+    <definition id="import-auto-id2648495"><term>mechanical energy</term><meaning id="fs-id2690484">sum of the kinetic energy and potential energy of a system; this sum is a constant</meaning></definition>
+    </glossary>
+</document>

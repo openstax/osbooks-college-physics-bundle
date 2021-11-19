@@ -1,0 +1,453 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61248</md:content-id>
+  <md:title>Introduction to the Second Law of Thermodynamics: Heat Engines and Their Efficiency</md:title>
+  <md:abstract><list>
+<item>State the expressions of the second law of thermodynamics.</item>
+<item>Calculate the efficiency and carbon dioxide emission of a coal-fired electricity plant, using second law characteristics.</item>
+<item>Describe and define the Otto cycle.</item>
+</list></md:abstract>
+  <md:uuid>ed5a4287-94eb-4889-b028-69e3363eb378</md:uuid>
+</metadata>
+
+<content>
+    
+    <figure id="import-auto-id1169737958580"><media id="import-auto-id1169738055149" alt="Photograph of melting ice floes in the Arctic.">
+        <image mime-type="image/png" src="../../media/Figure_16_03_01-747f.jpg" width="350"/>
+      </media>
+    
+    <caption>These ice floes melt during the Arctic summer. Some of them refreeze in the winter, but the second law of thermodynamics predicts that it would be extremely unlikely for the water molecules contained in these particular floes to reform the distinctive alligator-like shape they formed when the picture was taken in the summer of 2009. (credit: Patrick Kelley, U.S. Coast Guard, U.S. Geological Survey) </caption></figure><para id="import-auto-id1169738147207">The second law of thermodynamics deals with the direction taken by spontaneous processes. Many processes occur spontaneously in one direction only—that is, they are irreversible, under a given set of conditions. Although irreversibility is seen in day-to-day life—a broken glass does not resume its original state, for instance—complete irreversibility is a statistical statement that cannot be seen during the lifetime of the universe. More precisely, an <term id="import-auto-id1169737952026">irreversible process</term> is one that depends on path. If the process can go in only one direction, then the reverse path differs fundamentally and the process cannot be reversible. For example, as noted in the previous section, heat involves the transfer of energy from higher to lower temperature. A cold object in contact with a hot one never gets colder, transferring heat to the hot object and making it hotter. Furthermore, mechanical energy, such as kinetic energy, can be completely converted to thermal energy by friction, but the reverse is impossible. A hot stationary object never spontaneously cools off and starts moving. Yet another example is the expansion of a puff of gas introduced into one corner of a vacuum chamber. The gas expands to fill the chamber, but it never regroups in the corner. The random motion of the gas molecules could take them all back to the corner, but this is never observed to happen. (See <link target-id="import-auto-id1169737796666"/>.)</para>
+    
+    <figure id="import-auto-id1169737796666"><media id="import-auto-id1169737828119" alt="Part a of the figure shows spontaneous heat transfers. A rectangular section is divided down the center, and then marked hot on the left end and cold on the right. Heat Q is shown to flow from the hot end to the cold end as shown by a bold arrow toward the right. Part b of the figure shows a car moving on a horizontal road toward the right with initial velocity v. The car brake is applied after some time. The final velocity v sub f is shown equal to zero. Heat is released by the car. Part c of the figure shows two parts. The first part shows a burst of gas let into a vacuum chamber using a sprayer. The molecules of gas are shown to move in a random manner shown as dashed zigzag arrows. The second part of the same diagram shows the next stage after the air burst is sprayed. The molecules of air are shown to be arranged in uniform distribution as shown by horizontal, parallel dashed curves in the medium.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_03_02-53bf.jpg" width="400"/>
+      </media>
+    
+    <caption>Examples of one-way processes in nature. (a) Heat transfer occurs spontaneously from hot to cold and not from cold to hot. (b) The brakes of this car convert its kinetic energy to heat transfer to the environment. The reverse process is impossible. (c) The burst of gas let into this vacuum chamber quickly expands to uniformly fill every part of the chamber. The random motions of the gas molecules will never return them to the corner.</caption></figure><para id="import-auto-id1169738011296">The fact that certain processes never occur suggests that there is a law forbidding them to occur. The first law of thermodynamics would allow them to occur—none of those processes violate conservation of energy. The law that forbids these processes is called the second law of thermodynamics. We shall see that the second law can be stated in many ways that may seem different, but which in fact are equivalent. Like all natural laws, the second law of thermodynamics gives insights into nature, and its several statements imply that it is broadly applicable, fundamentally affecting many apparently disparate processes.</para>
+    <para id="import-auto-id1169737940030">The already familiar direction of heat transfer from hot to cold is the basis of our first version of the <term id="import-auto-id1169736619361">second law of thermodynamics</term>.</para>
+    
+  <note id="eip-626"><label/><title>The Second Law of Thermodynamics (first expression)</title>
+<para id="eip-id1497249">Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction.</para></note><para id="import-auto-id1169736623913">Another way of stating this: It is impossible for any process to have as its sole result heat transfer from a cooler to a hotter object.</para>
+  
+  <section id="fs-id1169737906213">
+    <title>Heat Engines</title>
+    <para id="import-auto-id1169738251486">Now let us consider a device that uses heat transfer to do work. As noted in the previous section, such a device is called a heat engine, and one is shown schematically in <link target-id="import-auto-id1169736606615"/>(b). Gasoline and diesel engines, jet engines, and steam turbines are all heat engines that do work by using part of the heat transfer from some source. Heat transfer from the hot object (or hot reservoir) is denoted as <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>, while heat transfer into the cold object (or cold reservoir) is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, and the work done by the engine is <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>. The temperatures of the hot and cold reservoirs are <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, respectively.</para><figure id="import-auto-id1169736606615"><media id="import-auto-id1169737965977" alt="Part a of the figure shows the spontaneous heat transfer from a hot system to a cold system. The hot reservoir at temperature T sub h is represented by a rectangular section in the top and the cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat is shown to flow from hot reservoir to cold reservoir as shown by a bold arrow pointing downward. Part b of the figure shows a heat engine represented as a circle. The hot reservoir at temperature T sub h is represented by a rectangular section at the top and a cold reservoir at temperature T sub c is shown as a rectangular section at the bottom. Heat Q sub h is transferred out of the hot reservoir, work W is the output equals Q sub h minus Q sub c, and heat Q sub c is the heat transferred into the cold reservoir. All these are shown using bold arrows.">
+          <image mime-type="image/jpg" src="../../media/Figure_16_03_03-c0d4.jpg" width="350"/>
+        </media>
+      
+      <caption>(a) Heat transfer occurs spontaneously from a hot object to a cold one, consistent with the second law of thermodynamics. (b) A heat engine, represented here by a circle, uses part of the heat transfer to do work. The hot and cold objects are called the hot and cold reservoirs. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math> is the heat transfer out of the hot reservoir, <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is the work output, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is the heat transfer into the cold reservoir.</caption></figure><para id="import-auto-id1169737905785">Because the hot reservoir is heated externally, which is energy intensive, it is important that the work is done as efficiently as possible. In fact, we would like <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> to equal <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>, and for there to be no heat transfer to the environment (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } =0} {}</m:annotation></m:semantics></m:math>). Unfortunately, this is impossible. The <term id="import-auto-id1169738137833">second law of thermodynamics</term> also states, with regard to using heat transfer to do work (the second expression of the second law):</para>
+
+    <note id="eip-497"><label/><title>The Second Law of Thermodynamics (second expression)</title><para id="eip-id1423437">It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state.</para></note><para id="import-auto-id1169736677795">A <term id="import-auto-id1169738074674">cyclical process</term> brings a system, such as the gas in a cylinder, back to its original state at the end of every cycle. Most heat engines, such as reciprocating piston engines and rotating turbines, use cyclical processes. The second law, just stated in its second form, clearly states that such engines cannot have perfect conversion of heat transfer into work done. Before going into the underlying reasons for the limits on converting heat transfer into work, we need to explore the relationships among <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, and to define the efficiency of a cyclical heat engine. As noted, a cyclical process brings the system back to its original condition at the end of every cycle. Such a system’s internal energy <m:math><m:semantics><m:mi>U</m:mi></m:semantics></m:math> is the same at the beginning and end of every cycle—that is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=0} {}</m:annotation></m:semantics></m:math>. The first law of thermodynamics states that</para><equation id="eip-36"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169736629320">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the <emphasis effect="italics">net</emphasis> heat transfer during the cycle (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=Q rSub { size 8{h} }  - Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>) and <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is the net work done by the system. Since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=0} {}</m:annotation></m:semantics></m:math> for a complete cycle, we have</para><equation id="eip-946"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0=Q - W} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169736584184">so that</para>
+    <equation id="eip-118"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mi>Q</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=Q} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738092064">Thus the net work done by the system equals the net heat transfer into the system, or</para>
+    <equation id="eip-263"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>(cyclical process),</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=Q rSub { size 8{h} }  - Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737992344">just as shown schematically in <link target-id="import-auto-id1169736606615"/>(b). The problem is that in all processes, there is some heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> to the environment—and usually a very significant amount at that.</para><para id="import-auto-id1169737966671">In the conversion of energy to work, we are always faced with the problem of getting less out than we put in. We define <emphasis effect="italics">conversion efficiency</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"} {}</m:annotation></m:semantics></m:math> to be the ratio of useful work output to the energy input (or, in other words, the ratio of what we get to what we spend). In that spirit, we define the efficiency of a heat engine to be its net work output <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> divided by heat transfer to the engine <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>; that is,</para>
+    <equation id="eip-480"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>W</m:mi><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"= {  {W}  over  {Q rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737725205">Since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=Q rSub { size 8{h} } -Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> in a cyclical process, we can also express this as</para>
+    <equation id="eip-807"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>(cyclical process),</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"= {  {Q rSub { size 8{h} }  - Q rSub { size 8{c} } }  over  {Q rSub { size 8{h} } } } =1 -  {  {Q rSub { size 8{c} } }  over  {Q rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738014694">making it clear that an efficiency of 1, or 100%, is possible only if there is no heat transfer to the environment (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } =0} {}</m:annotation></m:semantics></m:math>). Note that all <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math>s are positive. The direction of heat transfer is indicated by a plus or minus sign. For example, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> is out of the system and so is preceded by a minus sign.</para><example id="fs-id1169737966074"><title>Daily Work Done by a Coal-Fired Power Station, Its Efficiency and Carbon Dioxide Emissions</title><para id="import-auto-id1169737780262">A coal-fired power station is a huge heat engine. It uses heat transfer from burning coal to do work to turn turbines, which are used to generate electricity. In a single day, a large coal power station has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50" times "10" rSup { size 8{"14"} } J} {}</m:annotation></m:semantics></m:math> of heat transfer from coal and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>48</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "48" times "10" rSup { size 8{"14"} } J} {}</m:annotation></m:semantics></m:math> of heat transfer into the environment. (a) What is the work done by the power station? (b) What is the efficiency of the power station? (c) In the combustion process, the following chemical reaction occurs: <sub><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>C</m:mtext><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>O</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">→</m:mo><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C+O rSub { size 8{2} }  rightarrow "CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></sub>. This implies that every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of carbon dioxide into the atmosphere. Assuming that 1 kg of coal can provide <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." 5 times "10" rSup { size 8{6} } J} {}</m:annotation></m:semantics></m:math> of heat transfer upon combustion, how much <sub><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></sub> is emitted per day by this power plant?</para><para id="import-auto-id1169736617670"><emphasis> Strategy for (a)</emphasis></para><para id="eip-74">We can use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=Q rSub { size 8{h} }  - Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> to find the work output <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>, assuming a cyclical process is used in the power station. In this process, water is boiled under pressure to form high-temperature steam, which is used to run steam turbine-generators, and then condensed back to water to start the cycle again.</para>
+        
+    <para id="import-auto-id1169737860562"><emphasis>Solution for (a)</emphasis></para><para id="eip-183">Work output is given by:</para>
+        <equation id="eip-29"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=Q rSub { size 8{h} }  - Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737713949">Substituting the given values:</para>
+    <equation id="eip-957"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                            <m:mi>W</m:mi></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>50</m:mtext>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>14</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup><m:mspace width="0.25em"/>
+                          <m:mrow>
+                            <m:mtext>J</m:mtext>
+                            <m:mo stretchy="false">–</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>48</m:mtext>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>14</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup><m:mspace width="0.25em"/>
+                          <m:mtext>J</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                    <m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                    <m:mn>1</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>02</m:mtext>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mtext>14</m:mtext>
+                        </m:mrow>
+                      
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext>J</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{W=2 "." "50"´"10" rSup { size 8{"14"} } " J" +- 1 "." "48"´"10" rSup { size 8{"14"} } " J"}  {} # 
+=1 "." "02"´"10" rSup { size 8{"14"} } " J" "."  {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math></equation><para id="import-auto-id1169737724890"><emphasis> Strategy for (b)</emphasis></para><para id="eip-686">The efficiency can be calculated with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>W</m:mi><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"= {  {W}  over  {Q rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math> since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math> is given and work <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> was found in the first part of this example.</para>
+        
+    <para id="import-auto-id1169738156231"><emphasis>Solution for (b)</emphasis></para><para id="eip-994">Efficiency is given by: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>W</m:mi><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"= {  {W}  over  {Q rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math>. The work  <m:math>
+ <m:semantics>
+  <m:mi>W</m:mi> 
+ </m:semantics>
+</m:math> was just found to be  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>1.02 × 10</m:mtext>
+    <m:mtext>14</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math>  is given, so the efficiency is</para><equation id="eip-607"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                              <m:mtext fontstyle="italic">Eff</m:mtext></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mrow>
+                                <m:mtext>02</m:mtext>
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                  
+                                    <m:mrow>
+                                      <m:mtext>14</m:mtext>
+                                    </m:mrow>
+                                  
+                                </m:msup>
+                              </m:mrow><m:mspace width="0.25em"/>
+                              <m:mtext>J</m:mtext>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mrow>
+                                <m:mtext>50</m:mtext>
+                                <m:mo stretchy="false">×</m:mo>
+                                <m:msup>
+                                  <m:mtext>10</m:mtext>
+                                  
+                                    <m:mrow>
+                                      <m:mtext>14</m:mtext>
+                                    </m:mrow>
+                                  
+                                </m:msup>
+                              </m:mrow><m:mspace width="0.25em"/>
+                              <m:mtext>J</m:mtext>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                        <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow/>
+
+                    <m:mn>0</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>408</m:mtext>
+                    <m:mtext>, or </m:mtext>
+                    <m:mtext>40</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mn>8%</m:mn>
+                    <m:mtext/>
+                    <m:mrow/>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ ital "Eff"= {  {1 "." "02" times "10" rSup { size 8{"14"} } J}  over  {2 "." "50" times "10" rSup { size 8{"14"} } J} } }  {} # 
+=0 "." "408"", or ""40" "." 8% {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1169736584465"><emphasis>Strategy for (c)</emphasis></para><para id="eip-825">The daily consumption of coal is calculated using the information that each day there is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50"´"10" rSup { size 8{"14"} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer from coal. In the combustion process, we have <sub><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>C</m:mtext><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>O</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">→</m:mo><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C+O rSub { size 8{2} }  rightarrow "CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></sub>. So every 12 kg of coal puts 12 kg + 16 kg + 16 kg = 44 kg of <sub><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></sub> into the atmosphere.</para><para id="import-auto-id1169738125083"><emphasis>Solution for (c)</emphasis></para><para id="eip-238">The daily coal consumption is</para><equation id="eip-792"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>J/kg</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>kg.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {2 "." "50"´"10" rSup { size 8{"14"} } " J"}  over  {2 "." "50"´"10" rSup { size 8{6} } " J/kg"} } =1 "." 0´"10" rSup { size 8{7} } " J/kg"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737739559">Assuming that the coal is pure and that all the coal goes toward producing carbon dioxide, the carbon dioxide produced per day is</para>
+    <equation id="eip-975"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>kg coal</m:mtext><m:mi>×</m:mi><m:mrow><m:mfrac><m:msub><m:mtext>44 kg CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mtext>12 kg coal</m:mtext></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>7</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:msub><m:mtext>kg CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 0´"10" rSup { size 8{7} } " kg coal"´ {  {"44 kg CO" rSub { size 8{2} } }  over  {"12 kg coal"} } =3 "." 7´"10" rSup { size 8{7} } " kg CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738213149">This is 370,000 metric tons of <sub><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></sub> produced every day.</para><para id="import-auto-id1169737883717"><emphasis>Discussion</emphasis></para>
+    <para id="eip-567">If all the work output is converted to electricity in a period of one day, the average power output is 1180 MW (this is left to you as an end-of-chapter problem). This value is about the size of a large-scale conventional power plant. The efficiency found is acceptably close to the value of 42% given for coal power stations. It means that fully 59.2% of the energy is heat transfer to the environment, which usually results in warming lakes, rivers, or the ocean near the power station, and is implicated in a warming planet generally. While the laws of thermodynamics limit the efficiency of such plants—including plants fired by nuclear fuel, oil, and natural gas—the heat transfer to the environment could be, and sometimes is, used for heating homes or for industrial processes. The generally low cost of energy has not made it economical to make better use of the waste heat transfer from most heat engines. Coal-fired power plants produce the greatest amount of <sub><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></sub> per unit energy output (compared to natural gas or oil), making coal the least efficient fossil fuel.</para></example><para id="import-auto-id1169736614771">With the information given in <link target-id="fs-id1169737966074"/>, we can find characteristics such as the efficiency of a heat engine without any knowledge of how the heat engine operates, but looking further into the mechanism of the engine will give us greater insight. <link target-id="import-auto-id1169738202073"/> illustrates the operation of the common four-stroke gasoline engine. The four steps shown complete this heat engine’s cycle, bringing the gasoline-air mixture back to its original condition.</para><para id="import-auto-id1169737933345">The <term id="import-auto-id1169737845754">Otto cycle</term> shown in <link target-id="import-auto-id1169738036935"/>(a) is used in four-stroke internal combustion engines, although in fact the true Otto cycle paths do not correspond exactly to the strokes of the engine.</para>
+    <para id="import-auto-id1169738110852">The adiabatic process AB corresponds to the nearly adiabatic compression stroke of the gasoline engine. In both cases, work is done on the system (the gas mixture in the cylinder), increasing its temperature and pressure. Along path BC of the Otto cycle, heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{h} } } {}</m:annotation></m:semantics></m:math> into the gas occurs at constant volume, causing a further increase in pressure and temperature. This process corresponds to burning fuel in an internal combustion engine, and takes place so rapidly that the volume is nearly constant. Path CD in the Otto cycle is an adiabatic expansion that does work on the outside world, just as the power stroke of an internal combustion engine does in its nearly adiabatic expansion. The work done by the system along path CD is greater than the work done on the system along path AB, because the pressure is greater, and so there is a net work output. Along path DA in the Otto cycle, heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> from the gas at constant volume reduces its temperature and pressure, returning it to its original state. In an internal combustion engine, this process corresponds to the exhaust of hot gases and the intake of an air-gasoline mixture at a considerably lower temperature. In both cases, heat transfer into the environment occurs along this final path.</para>
+    <para id="import-auto-id1169736654385">The net work done by a cyclical process is the area inside the closed path on a <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram, such as that inside path ABCDA in <link target-id="import-auto-id1169738036935"/>. Note that in every imaginable cyclical process, it is absolutely necessary for heat transfer from the system to occur in order to get a net work output. In the Otto cycle, heat transfer occurs along path DA. If no heat transfer occurs, then the return path is the same, and the net work output is zero. The lower the temperature on the path AB, the less work has to be done to compress the gas. The area inside the closed path is then greater, and so the engine does more work and is thus more efficient. Similarly, the higher the temperature along path CD, the more work output there is. (See <link target-id="import-auto-id1169738093819"/>.) So efficiency is related to the temperatures of the hot and cold reservoirs. In the next section, we shall see what the absolute limit to the efficiency of a heat engine is, and how it is related to temperature.</para><figure id="import-auto-id1169738202073"><media id="import-auto-id1169738202074" alt="The figure shows four diagrams a, b, c, and d representing four stages of a four stroke gasoline engine. The construction of the engine has the base chamber whose cross section is in the shape of a square with flat corners, the top portion of the chamber is extended into a cylindrical section. The cylindrical section ends in the upper section with two valves, an inlet and an outlet. The cylindrical section has a movable cylinder with a piston attached to it. The piston is connected to the crank shaft in the base gas chamber. There is a spark plug on the top most part of the cylinder between the two valves. The four parts of the diagram show various stages of this four stoke engine. Part a of the diagram shows the air fuel mixture enters through the inlet valve in the upper section of the engine. The outlet valve is shown to be closed. The air and fuel is shown to exert a pressure on the piston acting downward. This force is shown to move the rotating crank shaft in clockwise direction in the gas chamber. This is the intake stroke. Part b of the diagram shows the compression stroke. Both the inlet and outlet valves are closed. The air and fuel mixture is shown to be compressed. The piston is shown to rise up as shown by a vertically pointing arrow. The piston is at the edge of the cylinder near the valves. The crankshaft in the gas chamber has shown to complete one complete cycle of rotation in the gas chamber. Part c of the diagram shows the power stroke. It has two parts, first the ignition stroke. This shows ignition of the fuel in the cylinder and pressure buildup in the region. Then in the second part the piston is shown to descend down the cylinder moving the crankshaft in the gas chamber in the clockwise direction. Part d of the figure shows the exhaust stroke. The piston expels the hot gas by moving upward and the gas is expelled through the exhaust valve.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_03_04-beb2.jpg" width="350"/>
+      </media>
+    
+    <caption>In the four-stroke internal combustion gasoline engine, heat transfer into work takes place in the cyclical process shown here. The piston is connected to a rotating crankshaft, which both takes work out of and does work on the gas in the cylinder. (a) Air is mixed with fuel during the intake stroke. (b) During the compression stroke, the air-fuel mixture is rapidly compressed in a nearly adiabatic process, as the piston rises with the valves closed. Work is done on the gas. (c) The power stroke has two distinct parts. First, the air-fuel mixture is ignited, converting chemical potential energy into thermal energy almost instantaneously, which leads to a great increase in pressure. Then the piston descends, and the gas does work by exerting a force through a distance in a nearly adiabatic process. (d) The exhaust stroke expels the hot gas to prepare the engine for another cycle, starting again with the intake stroke.</caption></figure><figure id="import-auto-id1169738036935"><media id="import-auto-id1169738182567" alt="Part a of the figure shows a graph of pressure P versus volume V for an Otto cycle. The pressure P is along the Y axis and the volume V is along the X axis. The graph shows a complete cycle A B C D.  The path begins at point A; the curve rises upward from point A to point B along the direction of the negative X axis. This is marked as an adiabatic process. Then the curve rises vertically up from point B to point C in a direction perpendicular to the X axis. Then the curve moves smoothly down to point D along the direction of the positive X axis. This is also marked as an adiabatic process. The last part of the curve drops vertically down from point D back to point A. The path A B is slightly lower than path C D. Heat Q sub h is shown to enter the system as shown by a bold arrow to the curve B C. Heat Q sub c is shown to leave the system as shown by a bold arrow near D A. The area inside A B C D is shaded, and the area of the shaded region is shown proportional to the work W. Part b of the diagram shows an internal combustion engine represented as a circle. The hot reservoir is a rectangular section at the top of the circle shown at temperature T sub h. A cold reservoir is shown as a rectangular section in the bottom part of the circle at temperature T sub c. Heat Q sub h is shown to enter the heat engine, as shown by a bold arrow. Work W is produced as output, shown to leave the system, and the remaining heat Q sub c is returned back to the cold reservoir as shown by bold arrow toward it.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_03_05-1a6a.jpg" width="400"/>
+      </media>
+      
+    <caption><m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram for a simplified Otto cycle, analogous to that employed in an internal combustion engine. Point A corresponds to the start of the compression stroke of an internal combustion engine. Paths AB and CD are adiabatic and correspond to the compression and power strokes of an internal combustion engine, respectively. Paths BC and DA are isochoric and accomplish similar results to the ignition and exhaust-intake portions, respectively, of the internal combustion engine’s cycle. Work is done on the gas along path AB, but more work is done by the gas along path CD, so that there is a net work output.</caption></figure><figure id="import-auto-id1169738093819"><media id="import-auto-id1169738093820" alt="Part a of the figure shows a graph of pressure P versus volume V for an Otto cycle. The pressure P is along the Y axis and the volume V is along the X axis. The graph shows a complete cycle A B C D. The path begins at point A; the curve rises upward from point A to point B along the direction of the negative X axis. This is marked as an adiabatic process. Then the curve rises vertically up from point B to point C in a direction perpendicular to the X axis. Then the curve moves smoothly down to point D along the direction of the positive X axis. This is also marked as an adiabatic process. The last part of the curve drops vertically down from point D back to point A. The path A B is much lower than path C D, which shows that the starting temperature of path C D is higher than A B. Heat Q sub h prime enters the system as shown by a bold arrow to the curve B C. Heat Q sub c prime leaves the system, as shown by a bold arrow near D A. The area inside A B C D is shaded. Part b of the diagram shows an internal combustion engine represented as a circle. The hot reservoir is a rectangular section at the top of the circle shown at temperature T sub h prime. A cold reservoir is shown as a rectangular section in the bottom part of the circle at temperature T sub c prime. Heat Q sub h prime enters the heat engine as shown by a bold arrow, a work W prime is produced as output, shown to leave the system, and the remaining heat Q sub c prime is returned back to the cold reservoir, as shown by a bold arrow toward it.">
+        <image mime-type="image/jpg" src="../../media/Figure_16_03_06-064b.jpg" width="300"/>
+      </media>
+     
+    <caption>This Otto cycle produces a greater work output than the one in <link target-id="import-auto-id1169738036935"/>, because the starting temperature of path CD is higher and the starting temperature of path AB is lower. The area inside the loop is greater, corresponding to greater net work output.</caption></figure></section>
+    
+    <section id="fs-id1169738031850" class="section-summary"><title>Section Summary</title><list id="fs-id1169737768304"><item id="import-auto-id1169738234744">The two expressions of the second law of thermodynamics are: (i) Heat transfer occurs spontaneously from higher- to lower-temperature bodies but never spontaneously in the reverse direction; and (ii) It is impossible in any system for heat transfer from a reservoir to completely convert to work in a cyclical process in which the system returns to its initial state.</item>
+
+    <item id="import-auto-id1169738025939">Irreversible processes depend on path and do not return to their original state. Cyclical processes are processes that return to their original state at the end of every cycle.</item>
+
+    <item id="import-auto-id1169736623646">In a cyclical process, such as a heat engine, the net work done by the system equals the net heat transfer into the system, or 
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mi>W</m:mi>
+   <m:mo stretchy="true">=</m:mo>
+   <m:msub>
+    <m:mi>Q</m:mi>
+    <m:mtext>h</m:mtext>
+   </m:msub>
+   <m:mo stretchy="true">–</m:mo>
+   <m:msub>
+    <m:mi>Q</m:mi>
+    <m:mtext>c</m:mtext>
+   </m:msub><m:mspace width="0.25em"/>
+  </m:mrow>
+ </m:semantics>
+</m:math> , where  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>Q</m:mi>
+    <m:mtext>h</m:mtext>
+   </m:msub>
+  </m:mrow>
+ </m:semantics>
+</m:math> is the heat transfer from the hot object (hot reservoir), and  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msub>
+    <m:mi>Q</m:mi>
+    <m:mtext>c</m:mtext>
+   </m:msub>
+  </m:mrow>
+ </m:semantics>
+</m:math> is the heat transfer into the cold object (cold reservoir).</item>
+<item>Efficiency can be expressed as 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>W</m:mi><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>h</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"= {  {W}  over  {Q rSub { size 8{h} } } } } {}</m:annotation></m:semantics></m:math>,
+
+ the ratio of work output divided by the amount of energy input.</item>
+    <item id="import-auto-id1169738086592">The four-stroke gasoline engine is often explained in terms of the Otto cycle, which is a repeating sequence of processes that convert heat into work.</item>
+  </list></section><section id="fs-id1169737905272" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+      
+      
+    <exercise id="fs-id1169736669581" type="conceptual-questions">
+      <problem id="fs-id1169738085260">
+    <para id="import-auto-id1169738113847">Imagine you are driving a car up Pike’s Peak in Colorado. To raise a car weighing 1000 kilograms a distance of 100 meters would require about a million joules. You could raise a car 12.5 kilometers with the energy in a gallon of gas. Driving up Pike's Peak (a mere 3000-meter climb) should consume a little less than a quart of gas. But other considerations have to be taken into account. Explain, in terms of efficiency, what factors may keep you from realizing your ideal energy use on this trip.</para>
+      </problem>
+    </exercise>
+      
+      <exercise id="fs-id1169737937019" type="conceptual-questions">
+        <problem id="fs-id1169737942827">
+    <para id="import-auto-id1169738113928">Is a temperature difference necessary to operate a heat engine? State why or why not.</para>
+        </problem>
+      </exercise>
+      
+      <exercise id="fs-id1169738074321" type="conceptual-questions">
+        <problem id="fs-id1169736677845">
+    <para id="import-auto-id1169737784779">Definitions of efficiency vary depending on how energy is being converted. Compare the definitions of efficiency for the human body and heat engines. How does the definition of efficiency in each relate to the type of energy being converted into doing work?</para>
+        </problem>
+        </exercise>
+    
+      <exercise id="fs-id1169738209764" type="conceptual-questions">
+        <problem id="fs-id1169737969024">
+    <para id="import-auto-id1169738189350">Why—other than the fact that the second law of thermodynamics says reversible engines are the most efficient—should heat engines employing reversible processes be more efficient than those employing irreversible processes? Consider that dissipative mechanisms are one cause of irreversibility.</para>
+        </problem>
+      </exercise>
+      </section>
+    
+    <section id="fs-id1169738065057" type="problems-exercises" class="problems-exercises">
+<title>Problem Exercises</title><exercise id="fs-id1169737820977" type="problems-exercises">
+      <problem id="fs-id1169736615870">  
+      <para id="import-auto-id1169736611260">A certain heat engine does 10.0 kJ of work and 8.50 kJ of heat transfer occurs to the environment in a cyclical process. (a) What was the heat transfer into this engine? (b) What was the engine’s efficiency?</para>
+    </problem>
+<solution id="fs-id1169737945621">
+    <para id="import-auto-id1169738146480">(a)  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>18.5</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>kJ</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="import-auto-id1169737910372">(b) 54.1%</para></solution>
+    </exercise>
+      
+      <exercise id="fs-id1169738072279" type="problems-exercises">
+      <problem id="fs-id1169738072282">   
+        <para id="import-auto-id1169738077851">With <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>56</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "56"´"10" rSup { size 8{6} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer into this engine, a given cyclical heat engine can do only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "50"´"10" rSup { size 8{5} } " J"} {}</m:annotation></m:semantics></m:math> of work. (a) What is the engine’s efficiency? (b) How much heat transfer to the environment takes place?</para></problem>
+    </exercise>
+      
+      <exercise id="fs-id1169738238293" type="problems-exercises">
+      <problem id="fs-id1169738238296">    
+        <para id="import-auto-id1169737922574">(a) What is the work output of a cyclical heat engine having a 22.0% efficiency and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00"´"10" rSup { size 8{9} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer into the engine? (b) How much heat transfer occurs to the environment?</para></problem>
+        <solution id="fs-id1169737787952">
+    <para id="import-auto-id1169737967326">(a) <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>1.32 × 10</m:mtext>
+    <m:mtext>9</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="import-auto-id1169738208080">(b) <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>4.68 × 10</m:mtext>
+    <m:mtext>9</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para></solution>
+    </exercise>
+      
+      <exercise id="fs-id1169737950653" type="problems-exercises">
+        <problem id="fs-id1169737869740">  
+        <para id="import-auto-id1169737804161">(a) What is the efficiency of a cyclical heat engine in which 75.0 kJ of heat transfer occurs to the environment for every 95.0 kJ of heat transfer into the engine? (b) How much work does it produce for 100 kJ of heat transfer into the engine?</para>
+      </problem></exercise>
+      
+      <exercise id="fs-id1169738005780" type="problems-exercises">
+        <problem id="fs-id1169738144329">   
+        <para id="import-auto-id1169738028396">The engine of a large ship does <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"´"10" rSup { size 8{8} } " J"} {}</m:annotation></m:semantics></m:math> of work with an efficiency of 5.00%. (a) How much heat transfer occurs to the environment? (b) How many barrels of fuel are consumed, if each barrel produces <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>9</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00"´"10" rSup { size 8{9} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer when burned?</para></problem>
+<solution id="fs-id1169737757796">
+    <para id="import-auto-id1169737944522">(a)  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>3.80 × 10</m:mtext>
+    <m:mtext>9</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math></para><para id="import-auto-id1169738061914">(b) 0.667 barrels</para></solution>
+    </exercise>
+      
+    <exercise id="fs-id1169737794772" type="problems-exercises">
+      <problem id="fs-id1169737922653">  
+        <para id="import-auto-id1169737998276">(a) How much heat transfer occurs to the environment by an electrical power station that uses <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "25"´"10" rSup { size 8{"14"} } " J"} {}</m:annotation></m:semantics></m:math> of heat transfer into the engine with an efficiency of 42.0%? (b) What is the ratio of heat transfer to the environment to work output? (c) How much work is done?</para></problem>
+    </exercise>
+      
+      <exercise id="fs-id1169736621436" type="problems-exercises"><problem id="fs-id1169736621439">  
+        <para id="import-auto-id1169738081840">Assume that the turbines at a coal-powered power plant were upgraded, resulting in an improvement in efficiency of 3.32%. Assume that prior to the upgrade the power station had an efficiency of 36% and that the heat transfer into the engine in one day is still the same at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50"´"10" rSup { size 8{"14"} } " J"} {}</m:annotation></m:semantics></m:math>. (a) How much more electrical energy is produced due to the upgrade? (b) How much less heat transfer occurs to the environment due to the upgrade?</para></problem>
+<solution id="eip-id1772203">
+<para id="eip-id3012416">(a)  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>8.30 × 10</m:mtext>
+    <m:mtext>12</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>, 
+
+which is 3.32% of 
+
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>2.50 × 10</m:mtext>
+    <m:mtext>14</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math> .</para><para id="eip-id2991875">(b)  <m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:msup>
+    <m:mtext>–8.30 × 10</m:mtext>
+    <m:mtext>12</m:mtext>
+   </m:msup><m:mspace width="0.25em"/>
+   <m:mtext>J</m:mtext>
+  </m:mrow>
+ </m:semantics>
+</m:math>, where the negative sign indicates a reduction in heat transfer to the environment.</para></solution>
+    </exercise><exercise id="fs-id1169736895699" type="problems-exercises">
+        <problem id="fs-id1169738113985">   
+          <para id="import-auto-id1169738150740">This problem compares the energy output and heat transfer to the environment by two different types of nuclear power stations—one with the normal efficiency of 34.0%, and another with an improved efficiency of 40.0%. Suppose both have the same heat transfer into the engine in one day, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>14</m:mtext></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50"´"10" rSup { size 8{"14"} } " J"} {}</m:annotation></m:semantics></m:math>. (a) How much more electrical energy is produced by the more efficient power station? (b) How much less heat transfer occurs to the environment by the more efficient power station? (One type of more efficient nuclear power station, the gas-cooled reactor, has not been reliable enough to be economically feasible in spite of its greater efficiency.)</para></problem>
+      </exercise>
+    </section>
+</content>
+  <glossary>
+    <definition id="import-auto-id1169737778790"><term>irreversible process</term> <meaning id="fs-id1169737907449">any process that depends on path direction</meaning></definition>
+    <definition id="import-auto-id1169737777378"><term>second law of thermodynamics</term> <meaning id="fs-id1169738014671">heat transfer flows from a hotter to a cooler object, never the reverse, and some heat energy in any process is lost to available work in a cyclical process</meaning></definition>
+    <definition id="import-auto-id1169737786562"><term>cyclical process</term> <meaning id="fs-id1169737813370">a process in which the path returns to its original state at the end of every cycle</meaning></definition>
+    <definition id="import-auto-id1169738086776"><term>Otto cycle</term> <meaning id="fs-id1169737949805">a thermodynamic cycle, consisting of a pair of adiabatic processes and a pair of isochoric processes, that converts heat into work, e.g., the four-stroke engine cycle of intake, compression, ignition, and exhaust</meaning></definition>
+  </glossary>
+</document>

@@ -1,0 +1,796 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+  <title>Phase Changes</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m62031</md:content-id>
+  <md:title>Phase Changes</md:title>
+  <md:abstract><list>
+<item>Interpret a phase diagram.</item>
+<item>State Dalton’s law.</item>
+<item>Identify and describe the triple point of a gas from its phase diagram.</item>
+<item>Describe the state of equilibrium between a liquid and a gas, a liquid and a solid, and a gas and a solid.</item>
+</list></md:abstract>
+  <md:uuid>44b68507-981c-4dc8-9683-0a65f9b69c2f</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1860596">Up to now, we have considered the behavior of ideal gases. Real gases are like ideal gases at high temperatures. At lower temperatures, however, the interactions between the molecules and their volumes cannot be ignored. The molecules are very close (condensation occurs) and there is a dramatic decrease in volume, as seen in <link target-id="import-auto-id1661806"/>. The substance changes from a gas to a liquid. When a liquid is cooled to even lower temperatures, it becomes a solid. The volume never reaches zero because of the finite volume of the molecules.</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1661806"><media id="import-auto-id2259406" alt="Line graph of volume versus temperature showing the relationship for an ideal gas and a real gas. The line for an ideal gas is linear starting at absolute zero showing a linear increase in volume with temperature. The line for a real gas is linear above a temperature of negative one hundred ninety degrees Celsius and follows that of the ideal gas. But below that temperature, the graph shows an almost vertical drop in volume with temperature as the temperature drops and the gas condenses.">
+        <image mime-type="image/jpg" src="../../media/Figure_14_05_01.jpg" width="250"/>
+      </media>
+
+    <caption>A sketch of volume versus temperature for a real gas at constant pressure. The linear (straight line) part of the graph represents ideal gas behavior—volume and temperature are directly and positively related and the line extrapolates to zero volume at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>273</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>15</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- "273" "." "15"°C} {}</m:annotation></m:semantics></m:math>, or absolute zero. When the gas becomes a liquid, however, the volume actually decreases precipitously at the liquefaction point. The volume decreases slightly once the substance is solid, but it never becomes zero.</caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2040502">High pressure may also cause a gas to change phase to a liquid. Carbon dioxide, for example, is a gas at room temperature and atmospheric pressure, but becomes a liquid under sufficiently high pressure. If the pressure is reduced, the temperature drops and the liquid carbon dioxide solidifies into a snow-like substance at the temperature <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>78</m:mtext></m:mrow><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- "78"°C} {}</m:annotation></m:semantics></m:math>. Solid <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is called “dry ice.” Another example of a gas that can be in a liquid phase is liquid nitrogen <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mtext>LN</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( "LN" rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math>. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>LN</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"LN" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is made by liquefaction of atmospheric air (through compression and cooling). It boils at 77 K <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>–</m:mi><m:mtext>196</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( –"196"°C \) } {}</m:annotation></m:semantics></m:math> at atmospheric pressure. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>LN</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"LN" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is useful as a refrigerant and allows for the preservation of blood, sperm, and other biological materials. It is also used to reduce noise in electronic sensors and equipment, and to help cool down their current-carrying wires. In dermatology, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>LN</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"LN" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is used to freeze and painlessly remove warts and other growths from the skin. </para><section id="fs-id2717964">
+     <title><emphasis effect="italics">PV</emphasis> Diagrams</title>
+    <para id="import-auto-id2713186">We can examine aspects of the behavior of a substance by plotting a graph of pressure versus volume, called a <term id="import-auto-id2194661"><emphasis effect="italics">PV</emphasis> diagram</term>. When the substance behaves like an ideal gas, the ideal gas law describes the relationship between its pressure and volume. That is,</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2669968"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic"><m:mspace width="0.25em"/>
+                    <m:mrow>
+                      <m:mtext>PV</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>NkT</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow>
+                <m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo>
+                <m:mtext>ideal gas</m:mtext>
+                <m:mo stretchy="false">)</m:mo>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= ital "NkT"``` \( "ideal gas" \)  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1407583">Now, assuming the number of molecules and the temperature are fixed,</para>
+    <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1013186"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>PV</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>constant</m:mtext>
+                  </m:mrow>
+                  <m:mspace width="0.25em"/>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mtext>ideal gas, constant temperature</m:mtext>
+                  <m:mo stretchy="false">)</m:mo>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ size 11{ ital "PV"="constant"``` \( "ideal gas, constant temperature" \)  "." }} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2083983">For example, the volume of the gas will decrease as the pressure increases. If you plot the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mtext>constant</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ size 11{ ital "PV"="constant"}} {}</m:annotation></m:semantics></m:math> on a <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram, you find a hyperbola. <link target-id="import-auto-id1935285"/> shows a graph of pressure versus volume. The hyperbolas represent ideal-gas behavior at various fixed temperatures, and are called <emphasis effect="italics">isotherms</emphasis>. At lower temperatures, the curves begin to look less like hyperbolas—the gas is not behaving ideally and may even contain liquid. There is a <term id="import-auto-id1851315">critical point</term>—that is, a <term id="import-auto-id1899473">critical temperature</term>—above which liquid cannot exist. At sufficiently high pressure above the critical point, the gas will have the density of a liquid but will not condense. Carbon dioxide, for example, cannot be liquefied at a temperature above <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>31</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"31" "." 0°C} {}</m:annotation></m:semantics></m:math>. <term id="import-auto-id2722088">Critical pressure</term> is the minimum pressure needed for liquid to exist at the critical temperature. <link target-id="import-auto-id2709714"/> lists representative critical temperatures and pressures.</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1935285"><media id="import-auto-id2133800" alt="Graphs of pressure versus volume at six different temperatures, T one through T five and T critical. T one is the lowest temperature and T five is the highest. T critical is in the middle. Graphs show that pressure per unit volume is greater for greater temperatures. Pressure decreases with increasing volume for all temperatures, except at low temperatures when pressure is constant with increasing volume during a phase change.">
+        <image mime-type="image/jpg" src="../../media/Figure_14_05_04.jpg" width="600"/>
+      </media>
+
+    <caption><m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagrams. (a) Each curve (isotherm) represents the relationship between <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> at a fixed temperature; the upper curves are at higher temperatures. The lower curves are not hyperbolas, because the gas is no longer an ideal gas. (b) An expanded portion of the <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"} {}</m:annotation></m:semantics></m:math> diagram for low temperatures, where the phase can change from a gas to a liquid. The term “vapor” refers to the gas phase when it exists at a temperature below the boiling temperature.
+      </caption></figure><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2709714" summary="Table gives the critical temperature and critical pressure values for various substances. Each temperature value is given in kelvin and degrees Celsius. Each pressure value is given in pascals and atmospheres."><title>Critical Temperatures and Pressures</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+          <row>
+            <entry>Substance</entry>
+            <entry namest="c2" nameend="c3">Critical temperature</entry>
+            <entry namest="c4" nameend="c5">Critical pressure</entry>
+          </row>
+<row>
+<entry/>
+<entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>K</m:mtext>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{K} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>º</m:mtext>
+                        <m:mtext>C</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{°C} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>Pa</m:mtext>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"Pa"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>atm</m:mtext>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"atm"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+              <emphasis effect="bold"/>
+            </entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>Water</entry>
+            <entry>647.4</entry>
+            <entry>374.3</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>22</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>12</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"22" "." "12"×"10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>219.0</entry>
+          </row>
+          <row>
+            <entry>Sulfur dioxide</entry>
+            <entry>430.7</entry>
+            <entry>157.6</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>88</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." "88" times "10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>78.0</entry>
+          </row>
+          <row>
+            <entry>Ammonia</entry>
+            <entry>405.5</entry>
+            <entry>132.4</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>11</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>28</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"11" "." "28"×"10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>111.7</entry>
+          </row>
+          <row>
+            <entry>Carbon dioxide</entry>
+            <entry>304.2</entry>
+            <entry>31.1</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>39</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." "39"×"10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>73.2</entry>
+          </row>
+          <row>
+            <entry>Oxygen</entry>
+            <entry>154.8</entry>
+            <entry>−118.4</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>08</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{5 "." "08"×"10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>50.3</entry>
+          </row>
+          <row>
+            <entry>Nitrogen</entry>
+            <entry>126.2</entry>
+            <entry>−146.9</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>39</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." "39"×"10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>33.6</entry>
+          </row>
+          <row>
+            <entry>Hydrogen</entry>
+            <entry>33.3</entry>
+            <entry>−239.9</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>30</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>6</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "30"×"10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>12.9</entry>
+          </row>
+          <row>
+            <entry>Helium</entry>
+            <entry>5.3</entry>
+            <entry>−267.9</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>0</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>229</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{0 "." "229" times "10" rSup { size 8{6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>2.27</entry>
+          </row>
+        </tbody>
+
+
+
+
+
+</tgroup>
+</table></section>
+<section id="fs-id1539769">
+    <title>Phase Diagrams</title>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1318456">The plots of pressure versus temperatures provide considerable insight into thermal properties of substances. There are well-defined regions on these graphs that correspond to various phases of matter, so <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PT"} {}</m:annotation></m:semantics></m:math> graphs are called <term id="import-auto-id2627050">phase diagrams</term>. <link target-id="import-auto-id2045521"/> shows the phase diagram for water. Using the graph, if you know the pressure and temperature you can determine the phase of water. The solid lines—boundaries between phases—indicate temperatures and pressures at which the phases coexist (that is, they exist together in ratios, depending on pressure and temperature). For example, the boiling point of water is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°C} {}</m:annotation></m:semantics></m:math> at 1.00 atm. As the pressure increases, the boiling temperature rises steadily to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>374</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"374"°C} {}</m:annotation></m:semantics></m:math> at a pressure of 218 atm. A pressure cooker (or even a covered pot) will cook food faster because the water can exist as a liquid at temperatures greater than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°C} {}</m:annotation></m:semantics></m:math> without all boiling away. The curve ends at a point called the <emphasis effect="italics">critical point</emphasis>, because at higher temperatures the liquid phase does not exist at any pressure. The critical point occurs at the critical temperature, as you can see for water from <link target-id="import-auto-id2709714"/>. The critical temperature for oxygen is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>118</m:mtext></m:mrow><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- "118"°C} {}</m:annotation></m:semantics></m:math>, so oxygen cannot be liquefied above this temperature.</para><figure id="import-auto-id2045521">
+      <media id="import-auto-id1525448" alt="Graph of pressure versus temperature showing the boundaries of the three phases of water, along with the triple point and critical point. The triple point, where all three phases exist, is at 0 point 006 atmospheres and 0 point 01 degrees C. The critical point is at two hundred eighteen atmospheres and three hundred seventy four degrees C. Solid water is in the P T region generally to the left (lower temperature, lower or higher pressure, from the triple point). Liquid water is generally above and to the right of the triple point (higher pressure, higher temperature). The region of water vapor is to the lower right of the triple point (lower pressure and temperature to higher temperature and pressure).">
+        <image mime-type="image/jpg" src="../../media/Figure_14_05_05.jpg" width="250"/>
+      </media>
+      <caption>The phase diagram (<m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PT"} {}</m:annotation></m:semantics></m:math> graph) for water. Note that the axes are nonlinear and the graph is not to scale. This graph is simplified—there are several other exotic phases of ice at higher pressures.</caption>
+    </figure>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1848208">Similarly, the curve between the solid and liquid regions in <link target-id="import-auto-id2045521"/> gives the melting temperature at various pressures. For example, the melting point is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0°C} {}</m:annotation></m:semantics></m:math> at 1.00 atm, as expected. Note that, at a fixed temperature, you can change the phase from solid (ice) to liquid (water) by increasing the pressure. Ice melts from pressure in the hands of a snowball maker. From the phase diagram, we can also say that the melting temperature of ice falls with increased pressure. When a car is driven over snow, the increased pressure from the tires melts the snowflakes; afterwards the water refreezes and forms an ice layer. </para><para id="import-auto-id1518525">At sufficiently low pressures there is no liquid phase, but the substance can exist as either gas or solid. For water, there is no liquid phase at pressures below 0.00600 atm. The phase change from solid to gas is called <term id="import-auto-id1568662">sublimation</term>. It accounts for large losses of snow pack that never make it into a river, the routine automatic defrosting of a freezer, and the freeze-drying process applied to many foods. Carbon dioxide, on the other hand, sublimates at standard atmospheric pressure of 1 atm. (The solid form of <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>CO</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"CO" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is known as dry ice because it does not melt. Instead, it moves directly from the solid to the gas state.)</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1848839">All three curves on the phase diagram meet at a single point, the <term id="import-auto-id2723366">triple point</term>, where all three phases exist in equilibrium. For water, the triple point occurs at 273.16 K <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>01</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." "01"°C \) } {}</m:annotation></m:semantics></m:math>, and is a more accurate calibration temperature than the melting point of water at 1.00 atm, or 273.15 K <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 0 "." 0°C \) } {}</m:annotation></m:semantics></m:math>. See <link target-id="import-auto-id2387893"/> for the triple point values of other substances.</para></section>
+<section id="fs-id1329879">
+<title>Equilibrium</title>
+    <para id="import-auto-id1358200">Liquid and gas phases are in equilibrium at the boiling temperature. (See <link target-id="import-auto-id2705569"/>.) If a substance is in a closed container at the boiling point, then the liquid is boiling and the gas is condensing at the same rate without net change in their relative amount. Molecules in the liquid escape as a gas at the same rate at which gas molecules stick to the liquid, or form droplets and become part of the liquid phase. The combination of temperature and pressure has to be “just right”; if the temperature and pressure are increased, equilibrium is maintained by the same increase of boiling and condensation rates.</para><figure id="import-auto-id2705569">
+      <media id="import-auto-id1806154" alt="Figure a shows a closed system containing a liquid and a gas. A thermometer with one end in the liquid indicates an unspecified temperature, and a pressure gauge indicates an unspecified pressure. A vector from the liquid to the gas represents the rate of vaporization, and a vector from the gas into the liquid represents the rate of condensation. The two vectors are equal in length, illustrating that the two rates are equal. Figure b is essentially the same as figure a, except that the pressure, temperature, and rates of condensation and vaporization are all greater than in figure a. The rates of vaporization and condensation in figure b are equal to each other, even though they are greater than the rates in figure a.">
+        <image mime-type="image/jpg" src="../../media/Figure_14_05_06.jpg" width="250"/>
+      </media>
+      <caption>Equilibrium between liquid and gas at two different boiling points inside a closed container. (a) The rates of boiling and condensation are equal at this combination of temperature and pressure, so the liquid and gas phases are in equilibrium. (b) At a higher temperature, the boiling rate is faster and the rates at which molecules leave the liquid and enter the gas are also faster. Because there are more molecules in the gas, the gas pressure is higher and the rate at which gas molecules condense and enter the liquid is faster. As a result the gas and liquid are in equilibrium at this higher temperature.</caption>
+    </figure>
+    <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2387893" summary="Table gives the temperature and pressure values for the triple points of various substances. Each temperature value is given in kelvin and degrees Celsius. Each pressure value is given in pascals and atmospheres."><title>Triple Point Temperatures and Pressures</title>
+<tgroup cols="5"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <thead>
+<row>
+          <entry>Substance</entry>
+            <entry namest="c2" nameend="c3">Temperature</entry>
+           <entry namest="c4" nameend="c5">Pressure</entry>
+          </row>
+          <row>
+            <entry/>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>K</m:mtext>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{K} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mtext>º</m:mtext>
+                        <m:mtext>C</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{°C} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>Pa</m:mtext>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"Pa"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mtext>atm</m:mtext>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"atm"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+</thead>
+<tbody>
+          <row>
+            <entry>Water</entry>
+            <entry>273.16</entry>
+            <entry>0.01</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>10</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{6 "." "10"×"10" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0.00600</entry>
+          </row>
+          <row>
+            <entry>Carbon dioxide</entry>
+            <entry>216.55</entry>
+            <entry>−56.60</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>5</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>16</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>5</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{5 "." "16" times "10" rSup { size 8{5} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>5.11</entry>
+          </row>
+          <row>
+            <entry>Sulfur dioxide</entry>
+            <entry>197.68</entry>
+            <entry>−75.47</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>67</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "67"×"10" rSup { size 8{3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0.0167</entry>
+          </row>
+          <row>
+            <entry>Ammonia</entry>
+            <entry>195.40</entry>
+            <entry>−77.75</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>06</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{6 "." "06"×"10" rSup { size 8{3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0.0600</entry>
+          </row>
+          <row>
+            <entry>Nitrogen</entry>
+            <entry>63.18</entry>
+            <entry>−210.0</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>25</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "25"×"10" rSup { size 8{4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0.124</entry>
+          </row>
+          <row>
+            <entry>Oxygen</entry>
+            <entry>54.36</entry>
+            <entry>−218.8</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>1</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>52</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "52" times "10" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0.00151</entry>
+          </row>
+          <row>
+            <entry>Hydrogen</entry>
+            <entry>13.84</entry>
+            <entry>−259.3</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mn>7</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mtext>04</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." "04"×"10" rSup { size 8{3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0.0697</entry>
+          </row>
+        </tbody>
+
+
+
+</tgroup>
+</table><para id="import-auto-id2063479">One example of equilibrium between liquid and gas is that of water and steam at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°C} {}</m:annotation></m:semantics></m:math> and 1.00 atm. This temperature is the boiling point at that pressure, so they should exist in equilibrium. Why does an open pot of water at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°C} {}</m:annotation></m:semantics></m:math> boil completely away? The gas surrounding an open pot is not pure water: it is mixed with air. If pure water and steam are in a closed container at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>100</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"100"°C} {}</m:annotation></m:semantics></m:math> and 1.00 atm, they would coexist—but with air over the pot, there are fewer water molecules to condense, and water boils. What about water at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math> and 1.00 atm? This temperature and pressure correspond to the liquid region, yet an open glass of water at this temperature will completely evaporate. Again, the gas around it is air and not pure water vapor, so that the reduced evaporation rate is greater than the condensation rate of water from dry air. If the glass is sealed, then the liquid phase remains. We call the gas phase a <term id="import-auto-id1442062">vapor</term> when it exists, as it does for water at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math>, at a temperature below the boiling temperature. </para>
+    <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id2259406" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id2710072">
+    <para id="import-auto-id2302591">Explain why a cup of water (or soda) with ice cubes stays at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0°C} {}</m:annotation></m:semantics></m:math>, even on a hot summer day. </para>
+</problem>
+<solution id="fs-id2811357">
+    <para id="import-auto-id1899669">The ice and liquid water are in thermal equilibrium, so that the temperature stays at the freezing temperature as long as ice remains in the liquid. (Once all of the ice melts, the water temperature will start to rise.)</para>
+    </solution>
+    </exercise></section>
+<section id="fs-id1668159">
+    <title>Vapor Pressure, Partial Pressure, and Dalton’s Law</title>
+    <para id="import-auto-id2107288"><term id="import-auto-id2316384">Vapor pressure</term> is defined as the pressure at which a gas coexists with its solid or liquid phase. Vapor pressure is created by faster molecules that break away from the liquid or solid and enter the gas phase. The vapor pressure of a substance depends on both the substance and its temperature—an increase in temperature increases the vapor pressure.</para>
+    <para id="import-auto-id2695411"><term id="import-auto-id1543763">Partial pressure</term> is defined as the pressure a gas would create if it occupied the total volume available. In a mixture of gases, <emphasis effect="italics">the total pressure is the sum of partial pressures of the component gases</emphasis>, assuming ideal gas behavior and no chemical reactions between the components. This law is known as <term id="import-auto-id1698453">Dalton’s law of partial pressures</term>, after the English scientist John Dalton (1766–1844), who proposed it. Dalton’s law is based on kinetic theory, where each gas creates its pressure by molecular collisions, independent of other gases present. It is consistent with the fact that pressures add according to <link document="m61174">Pascal’s Principle</link>. Thus water evaporates and ice sublimates when their vapor pressures exceed the partial pressure of water vapor in the surrounding mixture of gases. If their vapor pressures are less than the partial pressure of water vapor in the surrounding gas, liquid droplets or ice crystals (frost) form. </para><exercise id="fs-id2635559" type="check-understanding"><label/><title>Check Your Understanding</title>
+<problem id="fs-id2713215">
+    <para id="import-auto-id1610440">Is energy transfer involved in a phase change? If so, will energy have to be supplied to change phase from solid to liquid and liquid to gas? What about gas to liquid and liquid to solid? Why do they spray the orange trees with water in Florida when the temperatures are near or just below freezing?</para>
+    </problem>
+<solution id="fs-id2669351">
+    <para id="import-auto-id1660527">Yes, energy transfer is involved in a phase change. We know that atoms and molecules in solids and liquids are bound to each other because we know that force is required to separate them. So in a phase change from solid to liquid and liquid to gas, a force must be exerted, perhaps by collision, to separate atoms and molecules. Force exerted through a distance is work, and energy is needed to do work to go from solid to liquid and liquid to gas. This is intuitively consistent with the need for energy to melt ice or boil water. The converse is also true. Going from gas to liquid or liquid to solid involves atoms and molecules pushing together, doing work and releasing energy. </para>
+</solution>
+</exercise><note id="fs-id1170832402183" class="interactive"><label/><title>PhET Explorations: States of Matter</title>
+<para id="eip-id1172594485414">
+Heat, cool, and compress atoms and molecules and watch as they change between solid, liquid, and gas phases.</para>
+<figure id="fs-id1170832563542"><media id="eip-idm994508048" alt="This simulation allows you to explore how different types of molecules form a solid, liquid, or gas.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02statematter"/>
+</media>
+</figure>
+</note></section>
+    <section id="fs-id1443095" class="section-summary">
+<title>Section Summary</title>
+    <list id="fs-id2670128"><item id="import-auto-id1696228">Most substances have three distinct phases: gas, liquid, and solid. </item>
+    <item id="import-auto-id1909979">Phase changes among the various phases of matter depend on temperature and pressure. </item>
+    <item id="import-auto-id1864142">The existence of the three phases with respect to pressure and temperature can be described in a phase diagram.</item>
+    <item id="import-auto-id2233410">Two phases coexist (i.e., they are in thermal equilibrium) at a set of pressures and temperatures. These are described as a line on a phase diagram.</item>
+    <item id="import-auto-id2250702">The three phases coexist at a single pressure and temperature. This is known as the triple point and is described by a single point on a phase diagram.</item>
+    <item id="import-auto-id1490804">A gas at a temperature below its boiling point is called a vapor. </item>
+    <item id="import-auto-id1588975">Vapor pressure is the pressure at which a gas coexists with its solid or liquid phase. </item>
+    <item id="import-auto-id2711103">Partial pressure is the pressure a gas would create if it existed alone. </item>
+    <item id="import-auto-id2905244">Dalton’s law states that the total pressure is the sum of the partial pressures of all of the gases present.</item>
+    </list></section>
+    <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1856505" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1060374" type="conceptual-questions"><problem id="fs-id1611471">
+<para id="import-auto-id312724">A pressure cooker contains water and steam in equilibrium at a pressure greater than atmospheric pressure. How does this greater pressure increase cooking speed? </para>
+    </problem></exercise>
+<exercise id="eip-id3197306" type="conceptual-questions">
+<problem id="eip-id3197309">
+<para id="eip-id3197311">Why does condensation form most rapidly on the coldest object in a room—for example, on a glass of ice water?
+</para>
+</problem>
+</exercise>
+    <exercise id="fs-id2808785" type="conceptual-questions"><problem id="fs-id1611431">
+<para id="import-auto-id1610474">What is the vapor pressure of solid carbon dioxide (dry ice) at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>78</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>5</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- "78" "." 5°C} {}</m:annotation></m:semantics></m:math>? </para><figure id="import-auto-id2298789"><media id="import-auto-id2244840" alt="The phase diagram (pressure versus temperature graph showing the three phases) for carbon dioxide. The triple point is five point one one atmospheres and negative fifty-six point six degrees Celsius. The critical point is seventy-three atmospheres and thirty-one degrees C. The phase change from solid to vapor at standard pressure of one atmosphere is negative seventy-eight point five degrees C.">
+        <image mime-type="image/jpg" src="../../media/Figure_14_05_08.jpg" width="250"/>
+      </media>
+
+ <caption>The phase diagram for carbon dioxide. The axes are nonlinear, and the graph is not to scale. Dry ice is solid carbon dioxide and has a sublimation temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>78</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>5</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- "78" "." 5°C} {}</m:annotation></m:semantics></m:math>.</caption></figure></problem></exercise>
+    <exercise id="fs-id1847607" type="conceptual-questions"><problem id="fs-id2018285">
+<para id="import-auto-id1380093">Can carbon dioxide be liquefied at room temperature (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20"°C} {}</m:annotation></m:semantics></m:math>)? If so, how? If not, why not? (See <link target-id="import-auto-id2298789"/>.)</para></problem></exercise>
+    <exercise id="fs-id1592769" type="conceptual-questions"><problem id="fs-id1055965">
+<para id="import-auto-id1559630">Oxygen cannot be liquefied at room temperature by placing it under a large enough pressure to force its molecules together. Explain why this is.</para>
+    </problem></exercise>
+    <exercise id="fs-id2404335" type="conceptual-questions"><problem id="fs-id1568623">
+<para id="import-auto-id2248732">What is the distinction between gas and vapor?</para>
+    </problem></exercise>
+    </section></content>
+<glossary>
+    <definition id="import-auto-id1631899"><term><emphasis effect="italic">PV</emphasis> diagram</term><meaning id="fs-id1478190">a graph of pressure vs. volume</meaning></definition>
+    <definition id="import-auto-id2623111"><term>critical point</term><meaning id="fs-id1636690">the temperature above which a liquid cannot exist</meaning></definition>
+    <definition id="import-auto-id1563919"><term>critical temperature</term><meaning id="fs-id1329232">the temperature above which a liquid cannot exist</meaning></definition>
+    <definition id="import-auto-id1394915"><term>critical pressure</term><meaning id="fs-id2689748">the minimum pressure needed for a liquid to exist at the critical temperature</meaning></definition>
+    <definition id="import-auto-id2248818"><term>vapor</term><meaning id="fs-id1499929">a gas at a temperature below the boiling temperature</meaning></definition>
+    <definition id="import-auto-id1615123"><term>vapor pressure</term><meaning id="fs-id1517914">the pressure at which a gas coexists with its solid or liquid phase</meaning></definition>
+    <definition id="import-auto-id2351879"><term>phase diagram</term><meaning id="fs-id2069732">a graph of pressure vs. temperature of a particular substance, showing at which pressures and temperatures the three phases of the substance occur</meaning></definition>
+    <definition id="import-auto-id1613867"><term>triple point</term><meaning id="fs-id1661372">the pressure and temperature at which a substance exists in equilibrium as a solid, liquid, and gas</meaning></definition>
+    <definition id="import-auto-id1628523"><term>sublimation</term><meaning id="fs-id1645084">the phase change from solid to gas</meaning></definition>
+    <definition id="import-auto-id1391042"><term>partial pressure</term><meaning id="fs-id2100245">the pressure a gas would create if it occupied the total volume of space available</meaning></definition>
+    <definition id="import-auto-id1907470"><term>Dalton’s law of partial pressures</term><meaning id="fs-id1508264">the physical law that states that the total pressure of a gas is the sum of partial pressures of the component gases</meaning></definition>
+    </glossary>
+</document>

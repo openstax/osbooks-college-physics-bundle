@@ -1,0 +1,851 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Kirchhoff’s Rules</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55367</md:content-id>
+  <md:title>Kirchhoff’s Rules</md:title>
+  <md:abstract/>
+  <md:uuid>e52ffa90-8dae-47d8-8967-abd8827ce7b4</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id3106141" class="learning-objectives">
+<title>Learning Objectives</title>
+<para id="fs-id3933748">By the end of this section, you will be able to:</para>
+<list id="fs-id1370719">
+<item>Analyze a complex circuit using Kirchhoff’s rules, applying the conventions for determining the correct signs of various terms.</item>
+</list>
+<para id="fs-id2526883">The information presented in this section supports the following AP® learning objectives and science practices:</para>
+<list id="fs-id1774873">
+<item><emphasis effect="bold">5.B.9.1</emphasis> The student is able to construct or interpret a graph of the energy changes within an electrical circuit with only a single battery and resistors in series and/or in, at most, one parallel branch as an application of the conservation of energy (Kirchhoff’s loop rule).<emphasis effect="bold"> (S.P. 1.1, 1.4)</emphasis></item>
+<item><emphasis effect="bold">5.B.9.2</emphasis> The student is able to apply conservation of energy concepts to the design of an experiment that will demonstrate the validity of Kirchhoff’s loop rule in a circuit with only a battery and resistors either in series or in, at most, one pair of parallel branches.<emphasis effect="bold"> (S.P. 4.2, 6.4, 7.2)</emphasis></item>
+<item><emphasis effect="bold">5.B.9.3</emphasis> The student is able to apply conservation of energy (Kirchhoff’s loop rule) in calculations involving the total electric potential difference for complete circuit loops with only a single battery and resistors in series and/or in, at most, one parallel branch.<emphasis effect="bold"> (S.P. 2.2, 6.4, 7.2)</emphasis></item>
+<item><emphasis effect="bold">5.B.9.4</emphasis> The student is able to analyze experimental data including an analysis of experimental uncertainty that will demonstrate the validity of Kirchhoff’s loop rule.<emphasis effect="bold"> (S.P. 5.1)</emphasis></item>
+<item><emphasis effect="bold">5.B.9.5</emphasis> The student is able to use conservation of energy principles (Kirchhoff’s loop rule) to describe and make predictions regarding electrical potential difference, charge, and current in steady-state circuits composed of various combinations of resistors and capacitors.<emphasis effect="bold"> (S.P. 6.4)</emphasis></item>
+<item><emphasis effect="bold">5.C.3.1</emphasis> The student is able to apply conservation of electric charge (Kirchhoff’s junction rule) to the comparison of electric current in various segments of an electrical circuit with a single battery and resistors in series and in, at most, one parallel branch and predict how those values would change if configurations of the circuit are changed.<emphasis effect="bold"> (S.P. 6.4, 7.2)</emphasis></item>
+<item><emphasis effect="bold">5.C.3.2</emphasis> The student is able to design an investigation of an electrical circuit with one or more resistors in which evidence of conservation of electric charge can be collected and analyzed.<emphasis effect="bold"> (S.P. 4.1, 4.2, 5.1)</emphasis></item>
+<item><emphasis effect="bold">5.C.3.3</emphasis> The student is able to use a description or schematic diagram of an electrical circuit to calculate unknown values of current in various segments or branches of the circuit.<emphasis effect="bold"> (S.P. 1.4, 2.2)</emphasis></item>
+<item><emphasis effect="bold">5.C.3.4</emphasis> The student is able to predict or explain current values in series and parallel arrangements of resistors and other branching circuits using Kirchhoff’s junction rule and relate the rule to the law of charge conservation.<emphasis effect="bold"> (S.P. 6.4, 7.2)</emphasis></item>
+<item><emphasis effect="bold">5.C.3.5</emphasis> The student is able to determine missing values and direction of electric current in branches of a circuit with resistors and NO capacitors from values and directions of current in other branches of the circuit through appropriate selection of nodes and application of the junction rule.<emphasis effect="bold"> (S.P. 1.4, 2.2)</emphasis></item>
+</list>
+</section>
+
+
+
+  <para id="import-auto-id2677155">Many complex circuits, such as the one in <link target-id="import-auto-id1907339"/>, cannot be analyzed with the series-parallel techniques developed in <link document="m55365">Resistors in Series and Parallel</link> and <link document="m55366">Electromotive Force: Terminal Voltage</link>. There are, however, two circuit analysis rules that can be used to analyze any circuit, simple or complex. These rules are special cases of the laws of conservation of charge and conservation of energy. The rules are known as <term id="import-auto-id3202695">Kirchhoff’s rules</term>, after their inventor Gustav Kirchhoff (1824–1887).</para><figure id="import-auto-id1907339"><media id="import-auto-id2436227" alt="A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_03_01.jpg"/>
+      </media>
+      
+    <caption>This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff’s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)</caption></figure><note id="fs-id3042736"><label/><title>Kirchhoff’s Rules</title>
+<para id="eip-id3013706">    
+    <list id="fs-id3010984">
+    <item id="import-auto-id953301">Kirchhoff’s first rule—the junction rule. The sum of all currents entering a junction must equal the sum of all currents leaving the junction.</item>
+    <item id="import-auto-id2971586">Kirchhoff’s second rule—the loop rule. The algebraic sum of changes in potential around any closed circuit path (loop) must be zero.</item>
+
+</list>
+</para>    </note><para id="import-auto-id2447320">Explanations of the two rules will now be given, followed by problem-solving hints for applying Kirchhoff’s rules, and a worked example that uses them.</para>
+
+  <section id="fs-id2446266">
+    <title>Kirchhoff’s First Rule</title>
+    <para id="import-auto-id1348368">Kirchhoff’s first rule (the <term id="import-auto-id2680883">junction rule</term>) is an application of the conservation of charge to a junction; it is illustrated in <link target-id="import-auto-id2052595"/>. Current is the flow of charge, and charge is conserved; thus, whatever charge flows into the junction must flow out. Kirchhoff’s first rule requires that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } =I rSub { size 8{2} } +I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math> (see figure). Equations like this can and will be used to analyze circuits and to solve circuit problems.</para>
+
+    <note id="fs-id1845242"><label/>
+    <title>Making Connections: Conservation Laws</title>
+    <para id="import-auto-id1910724">Kirchhoff’s rules for circuit analysis are applications of <term id="import-auto-id3260670">conservation laws</term> to circuits. The first rule is the application of conservation of charge, while the second rule is the application of conservation of energy. Conservation laws, even used in a specific application, such as circuit analysis, are so basic as to form the foundation of that application.</para>
+    </note>
+  
+    
+    <figure id="import-auto-id2052595"><media id="import-auto-id1598851" alt="This schematic drawing shows a T-junction, with one current I sub one flowing into the T and two currents I sub two and I sub three flowing out of the T junction.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_03_02.jpg"/>
+      </media>
+      
+    <caption>The junction rule. The diagram shows an example of Kirchhoff’s first rule where the sum of the currents into a junction equals the sum of the currents out of a junction. In this case, the current going into the junction splits and comes out as two currents, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } =I rSub { size 8{2} } +I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>. Here <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> must be 11 A, since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> is 7 A and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math> is 4 A.</caption></figure></section>
+  
+  <section id="fs-id1094796">
+    <title>Kirchhoff’s Second Rule</title>
+    <para id="import-auto-id3154834">Kirchhoff’s second rule (the <term id="import-auto-id2598920">loop rule</term>) is an application of conservation of energy. The loop rule is stated in terms of potential, <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math>, rather than potential energy, but the two are related since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>elec</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PE" rSub { size 8{"elec"} } = ital "qV"} {}</m:annotation></m:semantics></m:math>. Recall that <term>emf</term> is the potential difference of a source when no current is flowing.  In a closed loop, whatever energy is supplied by emf must be transferred into other forms by devices in the loop, since there are no other ways in which energy can be transferred into or out of the circuit. <link target-id="import-auto-id1024606"/> illustrates the changes in potential in a simple series circuit loop.</para><para id="import-auto-id2057294">Kirchhoff’s second rule requires <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ir</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>IR</m:mtext></m:mstyle><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">−</m:mo><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>IR</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf" -  ital "Ir" -  ital "IR" rSub { size 8{1} }  -  ital "IR" rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math>. Rearranged, this is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Ir</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mrow><m:msub><m:mtext fontstyle="italic">IR</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:msub><m:mtext fontstyle="italic">IR</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"= ital "Ir"+ ital "IR" rSub { size 8{1} } + ital "IR" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, which means the emf equals the sum of the <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IR"} {}</m:annotation></m:semantics></m:math> (voltage) drops in the loop.</para><figure id="import-auto-id1024606"><media id="import-auto-id1486530" alt="Part a shows a schematic of a simple circuit that has a voltage source in series with two load resistors. The voltage source has an e m f, labeled script E, of eighteen volts. The voltage drops are one volt across the internal resistance and twelve volts and five volts across the two load resistances. Part b is a perspective drawing corresponding to the circuit in part a. The charge is raised in potential by the e m f and lowered by the resistances.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_03_03.jpg"/>
+        </media>
+      
+    <caption>The loop rule. An example of Kirchhoff’s second rule where the sum of the changes in potential around a closed loop must be zero. (a) In this standard schematic of a simple series circuit, the emf supplies 18 V, which is reduced to zero by the resistances, with 1 V across the internal resistance, and 12 V and 5 V across the two load resistances, for a total of 18 V. (b) This perspective view represents the potential as something like a roller coaster, where charge is raised in potential by the emf and lowered by the resistances. (Note that the script E stands for emf.)</caption></figure></section>
+  
+  <section id="fs-id3397875">
+    <title>Applying Kirchhoff’s Rules</title>
+    <para id="import-auto-id2075129">By applying Kirchhoff’s rules, we generate equations that allow us to find the unknowns in circuits. The unknowns may be currents, emfs, or resistances. Each time a rule is applied, an equation is produced. If there are as many independent equations as unknowns, then the problem can be solved. There are two decisions you must make when applying Kirchhoff’s rules. These decisions determine the signs of various quantities in the equations you obtain from applying the rules.</para>
+
+    <list id="fs-id871159" list-type="enumerated" number-style="arabic"><item id="import-auto-id2594136">When applying Kirchhoff’s first rule, the junction rule, you must label the current in each branch and decide in what direction it is going. For example, in <link target-id="import-auto-id1907339"/>, <link target-id="import-auto-id2052595"/>, and <link target-id="import-auto-id1024606"/>, currents are labeled <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math>, and arrows indicate their directions. There is no risk here, for if you choose the wrong direction, the current will be of the correct magnitude but negative.</item>
+    <item id="import-auto-id2584409">When applying Kirchhoff’s second rule, the loop rule, you must identify a closed loop and decide in which direction to go around it, clockwise or counterclockwise. For example, in <link target-id="import-auto-id1024606"/> the loop was traversed in the same direction as the current (clockwise). Again, there is no risk; going around the circuit in the opposite direction reverses the sign of every term in the equation, which is like multiplying both sides of the equation by <m:math><m:semantics><m:mrow><m:mn>–1.</m:mn></m:mrow></m:semantics></m:math></item>
+</list><para id="import-auto-id3104600"><link target-id="import-auto-id3116736"/> and the following points will help you get the plus or minus signs right when applying the loop rule. Note that the resistors and emfs are traversed by going from a to b. In many circuits, it will be necessary to construct more than one loop. In traversing each loop, one needs to be consistent for the sign of the change in potential. (See <link target-id="fs-id3008416"/>.)</para><figure id="import-auto-id3116736"><media id="import-auto-id3172372" alt="This figure shows four situations where current flows through either a resistor or a source, and the calculation of the potential change across each. The first two diagrams show the potential drop across a resistor, with the current flowing from left to right or right to left. The other two diagrams show a potential drop across a voltage source, when the terminals are in one orientation and then another.">
+          <image mime-type="image/jpg" src="../../media/Figure_22_03_04.jpg"/>
+        </media>
+        
+      <caption>Each of these resistors and voltage sources is traversed from a to b. The potential changes are shown beneath each element and are explained in the text. (Note that the script E stands for emf.)</caption></figure><list id="fs-id1920261"><item id="import-auto-id1418233">When a resistor is traversed in the same direction as the current, the change in potential is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{- ital "IR"} {}</m:annotation></m:semantics></m:math>. (See <link target-id="import-auto-id3116736"/>.)</item>
+    <item id="import-auto-id1934212">When a resistor is traversed in the direction opposite to the current, the change in potential is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ ital "IR"} {}</m:annotation></m:semantics></m:math>. (See <link target-id="import-auto-id3116736"/>.)</item>
+    <item id="import-auto-id3144926">When an emf is traversed from <m:math><m:semantics><m:mrow><m:mo>–</m:mo></m:mrow></m:semantics></m:math> to + (the same direction it moves positive charge), the change in potential is +emf. (See <link target-id="import-auto-id3116736"/>.)</item>
+    <item id="import-auto-id2680713">When an emf is traversed from + to <m:math><m:semantics><m:mrow><m:mo>–</m:mo></m:mrow></m:semantics></m:math> (opposite to the direction it moves positive charge), the change in potential is <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mrow/>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - {}} {}</m:annotation>
+        </m:semantics>
+      </m:math>emf. (See <link target-id="import-auto-id3116736"/>.)</item>
+</list><example id="fs-id3008416">
+    <title>Calculating Current: Using Kirchhoff’s Rules</title>
+    <para id="import-auto-id1389596">Find the currents flowing in the circuit in <link target-id="import-auto-id2440725"/>.</para>
+ 
+      
+    <figure id="import-auto-id2440725"><media id="import-auto-id1888839" alt="The diagram shows a complex circuit with two voltage sources E sub one and E sub two and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_03_05.jpg"/>
+      </media>
+      
+    <caption>This circuit is similar to that in <link target-id="import-auto-id1907339"/>, but the resistances and emfs are specified. (Each emf is denoted by script E.) The currents in each branch are labeled and assumed to move in the directions shown. This example uses Kirchhoff’s rules to find the currents.</caption></figure><para id="import-auto-id1997134"><title>Strategy</title></para>
+      <para id="fs-id1972718">This circuit is sufficiently complex that the currents cannot be found using Ohm’s law and the series-parallel techniques—it is necessary to use Kirchhoff’s rules. Currents have been labeled <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math> in the figure and assumptions have been made about their directions. Locations on the diagram have been labeled with letters a through h. In the solution we will apply the junction and loop rules, seeking three independent equations to allow us to solve for the three unknown currents.</para><para id="import-auto-id1403204"><title>Solution</title></para>
+      <para id="fs-id1236412">We begin by applying Kirchhoff’s first or junction rule at point a. This gives</para>
+    <equation id="eip-893"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } =I rSub { size 8{2} } +I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1995951">since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> flows into the junction, while <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math> flow out. Applying the junction rule at e produces exactly the same equation, so that no new information is obtained. This is a single equation with three unknowns—three independent equations are needed, and so the loop rule must be applied.</para>
+    <para id="import-auto-id2449410">Now we consider the loop abcdea. Going from a to b, we traverse <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> in the same (assumed) direction of the current <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and so the change in potential is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - I rSub { size 8{2} } R rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Then going from b to c, we go from <m:math><m:semantics><m:mrow><m:mo>–</m:mo></m:mrow></m:semantics></m:math> to +, so that the change in potential is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+"emf" rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>. Traversing the internal resistance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> from c to d gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - I rSub { size 8{2} } r rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>. Completing the loop by going from d to a again traverses a resistor in the same direction as its current, giving a change in potential of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - I rSub { size 8{1} } R rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id956498">The loop rule states that the changes in potential sum to zero. Thus,</para>
+    <equation id="eip-476"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - I rSub { size 8{2} } R rSub { size 8{2} } +"emf" rSub { size 8{1} }  - I rSub { size 8{2} } r rSub { size 8{1} }  - I rSub { size 8{1} } R rSub { size 8{1} } = - I rSub { size 8{2} }  \( R rSub { size 8{2} } +r rSub { size 8{1} }  \) +"emf" rSub { size 8{1} }  - I rSub { size 8{1} } R rSub { size 8{1} } =0} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1366686">Substituting values from the circuit diagram for the resistances and emf, and canceling the ampere unit gives</para><equation id="eip-366"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mrow><m:mn>3</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>18</m:mtext></m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mrow><m:mn>6</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 3I rSub { size 8{2} } +"18" - 6I rSub { size 8{1} } =0} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2668900">Now applying the loop rule to aefgha (we could have chosen abcdefgha as well) similarly gives</para>
+    <equation id="eip-222"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mtext>= +</m:mtext><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfenced><m:mo stretchy="false">−</m:mo><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+I rSub { size 8{1} } R rSub { size 8{1} } +I rSub { size 8{3} } R rSub { size 8{3} } +I rSub { size 8{3} } r rSub { size 8{2} }  - "emf" rSub { size 8{2} } "=+"I rSub { size 8{1} } R rSub { size 8{1} } +I rSub { size 8{3} }  left (R rSub { size 8{3} } +r rSub { size 8{2} }  right ) - "emf" rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2671698">Note that the signs are reversed compared with the other loop, because elements are traversed in the opposite direction. With values entered, this becomes</para>
+    <equation id="eip-54"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/><m:msub><m:mrow><m:mn>6</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>45</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+6I rSub { size 8{1} } +2I rSub { size 8{3} }  - "45"=0} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1402503">These three equations are sufficient to solve for the three unknown currents. First, solve the second equation for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>:</para>
+    <equation id="eip-949"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>6</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } =6 - 2I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1828658">Now solve the third equation for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>:</para>
+    <equation id="eip-614"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>22</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mrow><m:mn>3</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } ="22" "." 5 - 3I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3422547">Substituting these two new equations into the first one allows us to find a value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>:</para>
+    <equation id="eip-531"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>6</m:mn><m:mo stretchy="false">−</m:mo><m:msub><m:mrow><m:mn>2</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>22</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo>
+<m:msub><m:mrow><m:mn>3</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>28</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">−</m:mo>
+<m:msub><m:mrow><m:mn>5</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } =I rSub { size 8{2} } +I rSub { size 8{3} } = \( 6 - 2I rSub { size 8{1} }  \) + \( "22" "." 5 - 3I rSub { size 8{1} }  \) ="28" "." 5 - 5I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3098835">Combining terms gives</para>
+    <equation id="eip-223"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mn>6</m:mn><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>28</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>5, and</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6I rSub { size 8{1} } ="28" "." 5} {}</m:annotation></m:semantics></m:math></equation><equation id="eip-552"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>75 A</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } =4 "." "75"" A"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3103406">Substituting this value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> back into the fourth equation gives</para>
+    <equation id="eip-905"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub><m:mrow>
+                          <m:mn>2</m:mn><m:mi>I</m:mi>
+                          </m:mrow>
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mn>6</m:mn>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mn>9.50</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } =6 - 2I rSub { size 8{1} } =6 - 9 "." "50"} {}</m:annotation>
+        </m:semantics>
+      </m:math></equation><equation id="eip-882"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>50 A</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } = - 3 "." "50"" A"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2597782">The minus sign means <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> flows in the direction opposite to that assumed in <link target-id="import-auto-id2440725"/>.</para>
+    <para id="import-auto-id2578578">Finally, substituting the value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> into the fifth equation gives</para>
+    <equation id="eip-996"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>I</m:mi>
+                      
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>22.5</m:mtext>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub><m:mrow>
+                        <m:mn>3</m:mn><m:mi>I</m:mi></m:mrow>
+                        
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>22.5</m:mtext>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mtext>14</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>25</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } ="22" "." 5 - 3I rSub { size 8{1} } ="22" "." 5 - "14" "." "25"} {}</m:annotation>
+        </m:semantics>
+      </m:math></equation><equation id="eip-109"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>25 A</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } =8 "." "25"" A"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1921413"><title>Discussion</title></para>
+      <para id="fs-id1120192">Just as a check, we note that indeed <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } =I rSub { size 8{2} } +I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>. The results could also have been checked by entering all of the values into the equation for the abcdefgha loop.</para>
+    </example>
+    
+    <note id="fs-id2672424"><label/><title>Problem-Solving Strategies for Kirchhoff’s Rules</title>
+ <para id="eip-id2221563">   
+    <list id="fs-id1931967" list-type="enumerated" number-style="arabic"><item id="import-auto-id3245843">Make certain there is a clear circuit diagram on which you can label all known and unknown resistances, emfs, and currents. If a current is unknown, you must assign it a direction. This is necessary for determining the signs of potential changes. If you assign the direction incorrectly, the current will be found to have a negative value—no harm done.</item>
+    <item id="import-auto-id2062624">Apply the junction rule to any junction in the circuit. Each time the junction rule is applied, you should get an equation with a current that does not appear in a previous application—if not, then the equation is redundant.</item>
+    <item id="import-auto-id1815013">Apply the loop rule to as many loops as needed to solve for the unknowns in the problem. (There must be as many independent equations as unknowns.) To apply the loop rule, you must choose a direction to go around the loop. Then carefully and consistently determine the signs of the potential changes for each element using the four bulleted points discussed above in conjunction with <link target-id="import-auto-id3116736"/>.</item>
+    <item id="import-auto-id1425727">Solve the simultaneous equations for the unknowns. This may involve many algebraic steps, requiring careful checking and rechecking.</item>
+    <item id="import-auto-id2963669">Check to see whether the answers are reasonable and consistent. The numbers should be of the correct order of magnitude, neither exceedingly large nor vanishingly small. The signs should be reasonable—for example, no resistance should be negative. Check to see that the values obtained satisfy the various equations obtained from applying the rules. The currents should satisfy the junction rule, for example.</item>
+    </list>
+</para></note><para id="import-auto-id1473365">The material in this section is correct in theory. We should be able to verify it by making measurements of current and voltage. In fact, some of the devices used to make such measurements are straightforward applications of the principles covered so far and are explored in the next modules. As we shall see, a very basic, even profound, fact results—making a measurement alters the quantity being measured.</para>
+
+<exercise id="fs-id2296992" type="check-understanding">
+<label/>
+<title>Check Your Understanding</title>
+<problem id="fs-id1727745">
+<para id="fs-id2731619">Can Kirchhoff’s rules be applied to simple series and parallel circuits or are they restricted for use in more complicated circuits that are not combinations of series and parallel?
+</para>
+</problem>
+<solution id="fs-id1507469" print-placement="here">
+<para id="fs-id1280735">Kirchhoff's rules can be applied to any circuit since they are applications to circuits of two conservation laws. Conservation laws are the most broadly applicable principles in physics. It is usually mathematically simpler to use the rules for series and parallel in simpler circuits so we emphasize Kirchhoff’s rules for use in more complicated situations. But the rules for series and parallel can be derived from Kirchhoff’s rules. Moreover, Kirchhoff’s rules can be expanded to devices other than resistors and emfs, such as capacitors, and are one of the basic analysis devices in circuit analysis.
+</para>
+</solution>
+</exercise>
+</section>  
+
+
+<note id="fs-id2318775"><label/><title>Making Connections: Parallel Resistors</title>
+
+<para id="fs-id2548139">A simple circuit shown below – with two parallel resistors and a voltage source – is implemented in a laboratory experiment with <emphasis effect="italics">ɛ</emphasis> = 6.00 ± 0.02 V and <emphasis effect="italics">R<sub>1</sub></emphasis> = 4.8 ± 0.1 Ω and <emphasis effect="italics">R<sub>2</sub></emphasis> = 9.6 ± 0.1 Ω. The values include an allowance for experimental uncertainties as they cannot be measured with perfect certainty. For example if you measure the value for a resistor a few times, you may get slightly different results. Hence values are expressed with some level of uncertainty.</para>
+<figure id="fs-id1270938"><media id="fs-id1350978" alt="A circuit with nothing on the top or bottom, but a battery marked E on the left, a resistor marked R1 in the middle, and a resistor marked R2 on the right.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S05.jpg"/>
+</media>
+</figure><para id="fs-id1505617">In the laboratory experiment the currents measured in the two resistors are <emphasis effect="italics">I<sub>1</sub></emphasis> = 1.27 A and <emphasis effect="italics">I<sub>2</sub></emphasis> = 0.62 A respectively. Let us examine these values using Kirchhoff’s laws.</para>
+<para id="fs-id2541084">For the two loops,</para>
+<para id="fs-id1336319"><emphasis effect="italics">E - I<sub>1</sub>R<sub>1</sub></emphasis> = 0 or <emphasis effect="italics">I<sub>1</sub> = E/R<sub>1</sub></emphasis></para>
+<para id="fs-id3167489"><emphasis effect="italics">E - I<sub>2</sub>R<sub>2</sub></emphasis> = 0 or <emphasis effect="italics">I<sub>2</sub> = E/R<sub>2</sub></emphasis></para>
+<para id="fs-id1381578">Converting the given uncertainties for voltage and resistances into percentages, we get</para>
+<para id="fs-id2331403"><emphasis effect="italics">E</emphasis> = 6.00 V ± 0.33%</para>
+<para id="fs-id2345731"><emphasis effect="italics">R<sub>1</sub></emphasis> = 4.8 Ω ± 2.08%</para>
+<para id="fs-id2598659"><emphasis effect="italics">R<sub>2</sub></emphasis> = 9.6 Ω ± 1.04%</para>
+<para id="fs-id1326414">We now find the currents for the two loops. While the voltage is divided by the resistance to find the current, uncertainties in voltage and resistance are directly added to find the uncertainty in the current value.</para>
+<para id="fs-id1640310"><emphasis effect="italics">I<sub>1</sub></emphasis> = (6.00/4.8) ± (0.33%+2.08%)</para>
+<para id="fs-id1348452"> = 1.25 ± 2.4%</para>
+<para id="fs-id1230132"> = 1.25 ± 0.03 A</para>
+<para id="fs-id1347099"><emphasis effect="italics">I<sub>2</sub></emphasis> = (6.00/9.6) ± (0.33%+1.04%)</para>
+<para id="fs-id2531168"> = 0.63 ± 1.4%</para>
+<para id="fs-id1596792"> = 0.63 ± 0.01 A</para>
+<para id="fs-id2530701">Finally you can check that the two measured values in this case are within the uncertainty ranges found for the currents. However there can also be additional experimental uncertainty in the measurements of currents.</para>
+</note><section id="fs-id1417284" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+
+<exercise id="fs-id1561181" type="ap-test-prep"><problem id="fs-id3171563">
+<para id="fs-id741153">An experiment was set up with the circuit diagram shown. Assume <emphasis effect="italics">R<sub>1</sub></emphasis> = 10 Ω, <emphasis effect="italics">R<sub>2</sub></emphasis> = <emphasis effect="italics">R<sub>3</sub></emphasis> = 5 Ω,<emphasis effect="italics"> r</emphasis> = 0 Ω and <emphasis effect="italics">E</emphasis> = 6 V.</para>
+<figure id="fs-id2570729"><media id="fs-id1328360" alt="A circuit is drawn with points a, b, and c across the top from left to right and points h, g, and f across the bottom from left to right. Segment ah from top to bottom has a battery with voltage E and a resistor with resistance r. Segment bg from top to bottom has point i, a resistor marked R1, and point j. Segment cf from top to bottom has resistor with resistance R2, point d, point e, and a resistor with resistance R3.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S06.jpg"/>
+</media>
+</figure>
+
+<list id="fs-id3941761" list-type="enumerated" number-style="lower-alpha">
+<item>
+<para id="fs-id1975573">One of the steps to examine the set-up is to test points with the same potential. Which of the following points can be tested?</para>
+<list id="fs-id2794040" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Points <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>.</item>
+<item>Points <emphasis effect="italics">d</emphasis>, <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">f</emphasis>.</item>
+<item>Points <emphasis effect="italics">f</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">j</emphasis>.</item>
+<item>Points <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">i</emphasis>.</item>
+</list>
+</item>
+<item><para id="fs-id1361445">At which three points should the currents be measured so that Kirchhoff’s junction rule can be directly confirmed?</para>
+<list id="fs-id1334177" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Points <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>.</item>
+<item>Points <emphasis effect="italics">d</emphasis>, <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">f</emphasis>.</item>
+<item>Points <emphasis effect="italics">f</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">j</emphasis>.</item>
+<item>Points <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">i</emphasis>.</item>
+</list>
+</item>
+
+<item>
+<para id="fs-id1391524">If the current in the branch with the voltage source is upward and currents in the other two branches are downward, i.e. <emphasis effect="italics">I<sub>a</sub> = I<sub>i</sub> + I<sub>c</sub></emphasis>, identify which of the following can be true? Select <emphasis effect="italics">two</emphasis> answers.</para>
+<list id="fs-id1686931" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item><emphasis effect="italics"> I<sub>i</sub> = I<sub>j</sub> - I<sub>f</sub></emphasis></item>
+<item><emphasis effect="italics"> I<sub>e</sub> = I<sub>h</sub> - I<sub>i</sub></emphasis></item>
+<item><emphasis effect="italics"> I<sub>c</sub> = I<sub>j</sub> - I<sub>a</sub></emphasis></item>
+<item><emphasis effect="italics"> I<sub>d</sub> = I<sub>h</sub> - I<sub>j</sub></emphasis></item>
+</list>
+</item>
+
+<item>
+<para id="fs-id1394702">The measurements reveal that the current through <emphasis effect="italics">R</emphasis><sub>1</sub> is 0.5 A and <emphasis effect="italics">R</emphasis><sub>3</sub> is 0.6 A. Based on your knowledge of Kirchoff’s laws, confirm which of the following statements are true.</para>
+<list id="fs-id1747210" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The measured current for <emphasis effect="italics">R</emphasis><sub>1</sub> is correct but for <emphasis effect="italics">R</emphasis><sub>3</sub> is incorrect.</item>
+<item>The measured current for <emphasis effect="italics">R</emphasis><sub>3</sub> is correct but for <emphasis effect="italics">R</emphasis><sub>1</sub> is incorrect.</item>
+<item>Both the measured currents are correct.</item>
+<item>Both the measured currents are incorrect.</item>
+</list>
+</item>
+
+<item>
+<para id="fs-id1581085">The graph shown in the following figure is the energy dissipated at <emphasis effect="italics">R</emphasis><sub>1</sub> as a function of time.</para><figure id="fs-id1673098"><media id="fs-id1251325" alt="Plot of t versus E with a solid line drawn from the origin O to (E1, t1).">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S07_img.jpg"/>
+</media>
+</figure><para id="fs-id1595569">Which of the following shows the graph for energy dissipated at <emphasis effect="italics">R</emphasis><sub>2</sub> as a function of time?</para>
+<list id="fs-id1244945" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>
+<figure id="fs-id2020388"><media id="fs-id1240982" alt="Plot of t versus E with a solid line drawn from the origin O to (2E1, t1).">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08a_img.jpg"/>
+</media>
+</figure></item>
+<item>
+<figure id="fs-id1869983"><media id="fs-id1303018" alt="Plot of t versus E with a solid line drawn from the origin O to (E1, t1).">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08b_img.jpg"/>
+</media>
+</figure></item>
+<item>
+<figure id="fs-id1241643"><media id="fs-id2000004" alt="Plot of t versus E with a solid line drawn from the origin O to (E1/2, t1).">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08c_img.jpg"/>
+</media>
+</figure></item>
+<item>
+<figure id="fs-id1648620"><media id="fs-id3485727" alt="Plot of t versus E with a solid line drawn from the origin O to (E1/4, t1).">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08d_img.jpg"/>
+</media>
+</figure></item>
+</list>
+</item>
+</list>
+</problem></exercise><exercise id="fs-id1222161" type="ap-test-prep"><problem id="fs-id2338713">
+<para id="fs-id2978282">For this question, consider the circuit shown in the following figure.</para><figure id="fs-id3917009"><media id="fs-id2043967" alt="Circuit that across the top from left to right goes point b, battery with voltage E1, point c, resistor with resistance r1, and point d; across the middle goes point a, battery with voltage E2, point k, resistor with resistance r2, point l, resistor with resistance R2, and point e; across the bottom goes point j, battery with voltage E3, point i, resistor with resistance r3, and point h; along the left side from top to bottom goes a resistor with resistance R1, point a, and a resistor with resistance R3; and along the right side goes a resistor with resistance R5, point e, a resistor with resistance r4, point f, a battery with voltage E4, and point g. Additionally, there are three arrows showing the direction of the current: one between point a and the resistor with resistance R1 pointing up; another between point a and the battery with voltage E2 pointing right; and another between point j and the resistor with resistance R3 pointing up.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S09_img.jpg"/>
+</media>
+</figure>
+<list id="fs-id1182192" list-type="enumerated" number-style="lower-alpha">
+<item>
+<para id="fs-id1975359">Assuming that none of the three currents (<emphasis effect="italics">I</emphasis><sub>1</sub>, <emphasis effect="italics">I</emphasis><sub>2</sub>, and <emphasis effect="italics">I</emphasis><sub>3</sub>) are equal to zero, which of the following statements is false?</para>
+<list id="fs-id3003668" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item><emphasis effect="italics"> I</emphasis><sub>3</sub> = <emphasis effect="italics">I</emphasis><sub>1</sub> + <emphasis effect="italics">I</emphasis><sub>2</sub> at point <emphasis effect="italics">a</emphasis>.</item>
+<item><emphasis effect="italics"> I</emphasis><sub>2</sub> = <emphasis effect="italics">I</emphasis><sub>3</sub> <emphasis effect="bold">-</emphasis> <emphasis effect="italics">I</emphasis><sub>1</sub> at point <emphasis effect="italics">e</emphasis>.</item>
+<item>The current through <emphasis effect="italics">R<sub>3</sub></emphasis> is equal to the current through <emphasis effect="italics">R<sub>5.</sub></emphasis></item>
+<item>The current through <emphasis effect="italics">R<sub>1</sub></emphasis> is equal to the current through <emphasis effect="italics">R</emphasis><sub>5.</sub></item>
+</list>
+</item>
+<item>
+<para id="fs-id3304953">Which of the following statements is true?</para>
+<list id="fs-id1762004" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item><emphasis effect="italics"> E<sub>1</sub> + E<sub>2</sub> + I<sub>1</sub>R<sub>1</sub> - I<sub>2</sub>R<sub>2</sub> + I<sub>1</sub>r<sub>1</sub> - I<sub>2</sub>r<sub>2</sub> + I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+<item><emphasis effect="italics"> - E<sub>1</sub> + E<sub>2</sub> + I<sub>1</sub>R<sub>1</sub> - I<sub>2</sub>R<sub>2</sub> + I<sub>1</sub>r<sub>1</sub> - I<sub>2</sub>r<sub>2</sub> - I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+<item><emphasis effect="italics"> E<sub>1</sub> - E<sub>2</sub> - I<sub>1</sub>R<sub>1</sub> + I<sub>2</sub>R<sub>2</sub> - I<sub>1</sub>r<sub>1</sub> +<sub/> I<sub>2</sub>r<sub>2</sub> - I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+<item><emphasis effect="italics"> E<sub>1</sub> + E<sub>2</sub> - I<sub>1</sub>R<sub>1</sub> + I<sub>2</sub>R<sub>2</sub> - I<sub>1</sub>r<sub>1</sub> + I<sub>2</sub>r<sub>2</sub> + I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+</list>
+</item>
+<item>
+<para id="fs-id1795105">If <emphasis effect="italics">I</emphasis><sub>1</sub> = 5 A and <emphasis effect="italics">I</emphasis><sub>3</sub> = -2 A, which of the following statements is false?</para>
+<list id="fs-id4173166" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The current through <emphasis effect="italics">R<sub>1</sub></emphasis> will flow from <emphasis effect="italics">a</emphasis> to <emphasis effect="italics">b</emphasis> and will be equal to 5 A.</item>
+<item>The current through <emphasis effect="italics">R<sub>3</sub></emphasis> will flow from <emphasis effect="italics">a</emphasis> to <emphasis effect="italics">j</emphasis> and will be equal to 2 A.</item>
+<item>The current through <emphasis effect="italics">R<sub>5</sub></emphasis> will flow from <emphasis effect="italics">d</emphasis> to <emphasis effect="italics">e</emphasis> and will be equal to 5 A.</item>
+<item>None of the above.</item>
+</list>
+</item>
+<item>
+<para id="fs-id1825494">If <emphasis effect="italics">I<sub>1</sub></emphasis> = 5 A and <emphasis effect="italics">I<sub>3</sub></emphasis> = -2 A, <emphasis effect="italics">I<sub>2</sub></emphasis> will be equal to</para>
+<list id="fs-id1404199" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>3 A</item>
+<item>-3 A</item>
+<item>7 A</item>
+<item>-7 A</item>
+</list>
+</item>
+</list>
+</problem>
+<solution id="fs-id1641070">
+<para id="fs-id1394205">a. (c)</para>
+<para id="fs-id998606">b. (c)</para>
+<para id="fs-id1182842">c. (d)</para>
+<para id="fs-id1549411">d. (d)</para>
+</solution>
+</exercise><exercise id="fs-id4214079" type="ap-test-prep">
+<problem id="fs-id1226067">
+<figure id="fs-id2538394"><media id="fs-id3916166" alt="A circuit with nothing on the top or bottom, but a battery marked E on the left, a resistor marked R1 in the middle, and a resistor marked R2 on the right.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S10.jpg"/>
+</media>
+</figure><para id="fs-id1875798">In an experiment this circuit is set up. Three ammeters are used to record the currents in the three vertical branches (with <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, and <emphasis effect="italics">E)</emphasis>. The readings of the ammeters in the resistor branches (i.e. currents in <emphasis effect="italics">R</emphasis><sub>1</sub> and <emphasis effect="italics">R</emphasis><sub>2</sub>) are 2 A and 3 A respectively.</para><list id="fs-id1272232" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>Find the equation obtained by applying Kirchhoff’s loop rule in the loop involving <emphasis effect="italics">R</emphasis><sub>1</sub> and <emphasis effect="italics">R</emphasis><sub>2</sub>.</item>
+<item>What will be the reading of the third ammeter (i.e. the branch with <emphasis effect="italics">E</emphasis>)? If <emphasis effect="italics">E</emphasis> were replaced by 3<emphasis effect="italics">E</emphasis>, how would this reading change?</item>
+<item>If the original circuit is modified by adding another voltage source (as shown in the following circuit), find the readings of the three ammeters.</item>
+</list><figure id="fs-id1956475"><media id="fs-id544674" alt="A circuit a battery marked E on the left, a resistor marked R1 in the middle, and a resistor marked R2 on the right. There is nothing on the bottom, and on the top, there is a battery marked 2E between the two resistors.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S11.jpg"/>
+</media>
+</figure></problem>
+<!--<solution id="fs-id1140635">
+<para id="fs-id1177607">a) 2<emphasis effect="italics">R</emphasis><sub>1</sub><emphasis effect="italics"> =</emphasis> 3<emphasis effect="italics">R</emphasis><sub>2</sub>, b) 5 A, it will become 15 A, c) 2 A in branch with <emphasis effect="italics">R</emphasis><sub>1</sub>, 9 A in branch with <emphasis effect="italics">R</emphasis><sub>2</sub>, 11 A in branch with <emphasis effect="italics">E</emphasis></para>
+</solution>-->
+</exercise>
+
+<exercise id="fs-id1175790" type="ap-test-prep"><problem id="fs-id823771">
+<figure id="fs-id1698711"><media id="fs-id2037926" alt="Circuit with a battery with voltage E1 and resistor with resistance r1 across the top from left to right; point A, a resistor with resistance R1, and point B across the middle; and a battery marked E2 and a resistor with resistance r2 across the bottom. Additionally, on the left, from top to bottom there is a resistor with resistance R2 and point A; on the right, from top to bottom there is point B and a resistor with resistance R3.">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S12_img.jpg"/>
+</media>
+</figure>
+<para id="fs-id1224003">In this circuit, assume the currents through <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub> and <emphasis effect="italics">R</emphasis><sub>3</sub> are <emphasis effect="italics">I</emphasis><sub>1</sub>, <emphasis effect="italics">I</emphasis><sub>2</sub> and <emphasis effect="italics">I</emphasis><sub>3</sub> respectively and all are flowing in the clockwise direction.</para><list id="fs-id1182587" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>Find the equation obtained by applying Kirchhoff’s junction rule at point A.</item>
+<item>Find the equations obtained by applying Kirchhoff’s loop rule in the upper and lower loops.</item>
+<item>Assume <emphasis effect="italics">R</emphasis><sub>1</sub> = <emphasis effect="italics">R</emphasis><sub>2</sub> = 6 Ω, <emphasis effect="italics">R</emphasis><sub>3</sub> = 12 Ω, <emphasis effect="italics">r</emphasis><sub>1</sub> = <emphasis effect="italics">r</emphasis><sub>2</sub> = 0 Ω, <emphasis effect="italics">E</emphasis><sub>1</sub> = 6 V and <emphasis effect="italics">E</emphasis><sub>2</sub> = 4 V. Calculate <emphasis effect="italics">I</emphasis><sub>1</sub>, <emphasis effect="italics">I</emphasis><sub>2</sub> and <emphasis effect="italics">I</emphasis><sub>3</sub>.</item>
+<item>For the situation in which <emphasis effect="italics">E</emphasis><sub>2</sub> is replaced by a closed switch, repeat parts (a) and (b). Using the values for <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, <emphasis effect="italics">R</emphasis><sub>3</sub>, <emphasis effect="italics">r</emphasis><sub>1</sub> and <emphasis effect="italics">E</emphasis><sub>1</sub> from part (c) calculate the currents through the three resistors.</item>
+<item>For the circuit in part (d) calculate the output power of the voltage source and across all the resistors. Examine if energy is conserved in the circuit.</item>
+<item>A student implemented the circuit of part (d) in the lab and measured the current though one of the resistors as 0.19 A. According to the results calculated in part (d) identify the resistor(s). Justify any difference in measured and calculated value.</item>
+</list></problem>
+<solution id="fs-id2871827">
+<list id="fs-id1292284" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item><emphasis effect="italics">I<sub>1</sub> + I<sub>3</sub> = I<sub>2</sub></emphasis></item>
+<item><emphasis effect="italics">E<sub>1</sub> - I<sub>1</sub>R<sub>1</sub> - I<sub>2</sub>R<sub>2</sub> - I<sub>1</sub>r<sub>1</sub></emphasis> = 0; <emphasis effect="bold">-</emphasis> <emphasis effect="italics">E<sub>2</sub> + I<sub>1</sub>R<sub>1</sub> - I<sub>3</sub>R<sub>3</sub> - I<sub>3</sub>r<sub>2</sub></emphasis> = 0</item>
+<item><emphasis effect="italics">I<sub>1</sub></emphasis> = 8/15 A, <emphasis effect="italics">I<sub>2</sub></emphasis> = 7/15 A and <emphasis effect="italics">I<sub>3</sub></emphasis> = <emphasis effect="bold">-</emphasis>1/15 A</item>
+<item><emphasis effect="italics">I<sub>1</sub></emphasis> = 2/5 A, <emphasis effect="italics">I<sub>2</sub></emphasis> = 3/5 A and <emphasis effect="italics">I<sub>3</sub></emphasis> = 1/5 A</item>
+<item><emphasis effect="italics">P<sub>E1</sub></emphasis> = 18/5 W and <emphasis effect="italics">P<sub>R1</sub></emphasis> = 24/25 W, <emphasis effect="italics">P<sub>R2</sub></emphasis> = 54/25 W, <emphasis effect="italics">P<sub>R3</sub></emphasis> = 12/25 W. Yes, <emphasis effect="italics">P<sub>E1</sub></emphasis> =<emphasis effect="italics"> P<sub>R1</sub></emphasis>+<emphasis effect="italics"> P<sub>R2</sub></emphasis> +<emphasis effect="italics"> P<sub>R3</sub></emphasis></item>
+<item><emphasis effect="italics">R<sub>3,</sub></emphasis> losses in the circuit</item>
+</list>
+</solution></exercise></section>
+
+
+<section id="fs-id1909383" class="section-summary"><title>Section Summary</title><list id="fs-id2599702">
+    <item id="import-auto-id1899657">Kirchhoff’s rules can be used to analyze any circuit, simple or complex.</item>
+    <item id="import-auto-id1954890">Kirchhoff’s first rule—the junction rule: The sum of all currents entering a junction must equal the sum of all currents leaving the junction.</item>
+    <item id="import-auto-id2670222">Kirchhoff’s second rule—the loop rule: The algebraic sum of changes in potential around any closed circuit path (loop) must be zero.</item>
+    <item id="import-auto-id2683482">The two rules are based, respectively, on the laws of conservation of charge and energy.</item>
+    <item id="import-auto-id2595427">When calculating potential and current using Kirchhoff’s rules, a set of conventions must be followed for determining the correct signs of various terms.</item>
+    <item id="import-auto-id2639010">The simpler series and parallel rules are special cases of Kirchhoff’s rules.</item>
+</list>
+    </section><section id="fs-id3286336" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+    <exercise id="fs-id1525010" type="conceptual-questions"><problem id="fs-id3028767">
+    <para id="import-auto-id2438477">Can all of the currents going into the junction in <link target-id="import-auto-id3353151"/> be positive? Explain.</para>
+    </problem></exercise>
+      
+    
+    <figure id="import-auto-id3353151"><media id="import-auto-id3256034" alt="The diagram shows a T junction with currents I sub one, I sub two, and I sub three entering the T junction.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_03_06.jpg"/>
+      </media>
+    </figure><exercise id="fs-id3137904" type="conceptual-questions">
+      <problem id="fs-id3386465">
+    <para id="import-auto-id1969714">Apply the junction rule to junction b in <link target-id="import-auto-id2616676"/>. Is any new information gained by applying the junction rule at e? (In the figure, each emf is represented by script E.)</para></problem></exercise>
+  
+      
+    <figure id="import-auto-id2616676"><media id="import-auto-id3085522" alt="The diagram shows a complex circuit with four voltage sources: E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through g. The current in each branch is labeled separately.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_03_07-c222.jpg"/>
+      </media>
+    </figure><exercise id="fs-id3154834" type="conceptual-questions">
+      <problem id="fs-id2598683">
+    <para id="import-auto-id3354220">(a) What is the potential difference going from point a to point b in <link target-id="import-auto-id2616676"/>? (b) What is the potential difference going from c to b? (c) From e to g? (d) From e to d?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2383320" type="conceptual-questions"><problem id="fs-id3449473">
+    <para id="import-auto-id1486027">Apply the loop rule to loop afedcba in <link target-id="import-auto-id2616676"/>.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2402513" type="conceptual-questions"><problem id="fs-id1907750">
+    <para id="import-auto-id2056751">Apply the loop rule to loops abgefa and cbgedc in <link target-id="import-auto-id2616676"/>.</para>
+    </problem></exercise>
+    </section>
+  
+    <section id="fs-id3229781" type="problems-exercises" class="problems-exercises"><title>Problem Exercises</title><exercise id="fs-id2074624" type="problems-exercises"><problem id="fs-id1571055">  
+      <para id="import-auto-id2010292">Apply the loop rule to loop abcdefgha in <link target-id="import-auto-id2440725"/>.</para>
+    </problem>
+<solution id="fs-id2950068">
+    <para id="eip-id1171677716483"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+              
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>R</m:mi>
+                          
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:msub>
+                          <m:mtext>emf</m:mtext>
+                          
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+
+                        <m:mrow>
+                          <m:msub>                      <m:mstyle fontstyle="italic">
+                            <m:mtext> I</m:mtext>
+                                                  </m:mstyle>
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            
+                          </m:msub>
+                        </m:mrow>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>r</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+
+                        <m:mrow>
+                          <m:msub>                      <m:mstyle fontstyle="italic">
+                            <m:mtext> I</m:mtext>
+                                                  </m:mstyle>
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            
+                          </m:msub>
+                        </m:mrow>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+
+                        <m:mrow>
+                          <m:msub>                      <m:mstyle fontstyle="italic">
+                            <m:mtext> I</m:mtext>
+                                                  </m:mstyle>
+                              <m:mrow>
+                                <m:mn>3</m:mn>
+                              </m:mrow>
+                            
+                          </m:msub>
+                        </m:mrow>
+
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>r</m:mi>
+                          
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                        <m:mo stretchy="false">-</m:mo>
+                        <m:msub>
+                          <m:mtext>emf</m:mtext>
+                          
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mtext> 0</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+               
+              </m:mrow>
+            
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {underline  {-I rSub { size 8{2} } R rSub { size 8{3} } + "emf" rSub { size 8{1} } - ital " I" rSub { size 8{2} } r rSub { size 8{1} }  + ital " I" rSub { size 8{3} } r rSub { size 8{3} }  + ital " I" rSub { size 8{3} } r rSub { size 8{2} }   +-  "emf" rSub { size 8{2} } =" 0"}} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </para></solution>
+    </exercise><exercise id="fs-id1936059" type="problems-exercises"><problem id="fs-id1947540">  
+      <para id="import-auto-id2692678">Apply the loop rule to loop aedcba in <link target-id="import-auto-id2440725"/>.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id3191561" type="problems-exercises"><problem id="fs-id3116753">    
+      <para id="import-auto-id2054617">Verify the second equation in <link target-id="fs-id3008416"/> by substituting the values found for the currents <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+      
+    <exercise id="fs-id3454951" type="problems-exercises"><problem id="fs-id2449986">  
+      <para id="import-auto-id1488374">Verify the third equation in <link target-id="fs-id3008416"/> by substituting the values found for the currents <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+      
+    <exercise id="fs-id3199702" type="problems-exercises"><problem id="fs-id1102779">  
+      <para id="import-auto-id2670518">Apply the junction rule at point a in <link target-id="import-auto-id3173348"/>.</para>
+    
+      
+    <figure id="import-auto-id3173348"><media id="import-auto-id3397076" alt="The diagram shows a complex circuit with four voltage sources E sub one, E sub two, E sub three, E sub four and several resistive loads, wired in two loops and many junctions. Several points on the diagram are marked with letters a through j. The current in each branch is labeled separately.">
+        <image mime-type="image/jpg" src="../../media/Figure_22_03_08-2d35.jpg"/>
+      </media>
+    </figure></problem>
+<solution id="fs-id2973253">
+    <para id="eip-id1290088"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>I</m:mi>
+                    
+                      <m:mrow>
+                        <m:mn>3</m:mn>
+                      </m:mrow>
+                    
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:mstyle>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext fontstyle="italic"> I</m:mtext>
+                          
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mo stretchy="false">+</m:mo>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mtext fontstyle="italic"> I</m:mtext>
+                          
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                      </m:mrow>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} }  = ital " I" rSub { size 8{1} }  + ital " I" rSub { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </para></solution>
+    </exercise><exercise id="fs-id1993566" type="problems-exercises"><problem id="fs-id1585889">  
+      <para id="import-auto-id1972579">Apply the loop rule to loop abcdefghija in <link target-id="import-auto-id3173348"/>.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2601229" type="problems-exercises"><problem id="fs-id2448536">    
+      <para id="import-auto-id1948688">Apply the loop rule to loop akledcba in <link target-id="import-auto-id3173348"/>.</para>
+    </problem>
+<solution id="fs-id2583497">
+    <para id="eip-id1172327884480"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+           
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mtext>emf</m:mtext>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">-</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext fontstyle="italic"> I</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            
+                          </m:msub>
+                        </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>r</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">-</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext fontstyle="italic"> I</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            
+                          </m:msub>
+                        </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext fontstyle="italic"> I</m:mtext>
+                            
+                                <m:mn>1</m:mn>
+                            
+                          </m:msub>
+                        </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>5</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msub>
+                        <m:mi>I</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:msub>
+                          <m:mi>r</m:mi>
+                          
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                        <m:mo stretchy="false">-</m:mo>
+                        <m:msub>
+                          <m:mtext>emf</m:mtext>
+                          
+                            <m:mrow>
+                              <m:mn>1</m:mn>
+                            </m:mrow>
+                          
+                        </m:msub>
+                      </m:mrow>
+                      <m:mo stretchy="false">+</m:mo>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mtext fontstyle="italic"> I</m:mtext>
+                            
+                                <m:mn>1</m:mn>
+                          </m:msub>
+                        </m:mrow>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>R</m:mi>
+                        
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0</m:mn>
+                    </m:mrow>
+                  </m:mrow>
+                 
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {underline  { "emf" rSub { size 8{2} }   +-  ital " I" rSub { size 8{2} } r rSub { size 8{2} }   +-  ital " I" rSub { size 8{2} } R rSub { size 8{2} }  + ital " I" rSub { size 8{1} } R rSub { size 8{5} }  +I rSub { size 8{1} } r rSub { size 8{1} }   +-  "emf" rSub { size 8{1} }  + ital " I" rSub { size 8{1} } R rSub { size 8{1} }  = 0}} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </para></solution>
+    </exercise><exercise id="fs-id2601260" type="problems-exercises"><problem id="fs-id3421211">   
+      <para id="import-auto-id3163699">Find the currents flowing in the circuit in <link target-id="import-auto-id3173348"/>. Explicitly show how you follow the steps in the <link document="m55365" target-id="fs-id2401854">Problem-Solving Strategies for Series and Parallel Resistors</link>.</para></problem></exercise>
+      
+    <exercise id="fs-id3080612" type="problems-exercises"><problem id="fs-id1849687">  
+      <para id="import-auto-id2674744">Solve <link target-id="fs-id3008416"/>, but use loop abcdefgha instead of loop akledcba. Explicitly show how you follow the steps in the <link document="m55365" target-id="fs-id2401854">Problem-Solving Strategies for Series and Parallel Resistors</link>.</para></problem>
+<solution id="fs-id1616720">
+    <para id="import-auto-id1996431">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>I</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>4.75 A</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} }  =4 cdot "75 A"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2661329">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>I</m:mtext><m:mrow><m:mtext>2 </m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">-</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>5 A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"2 "} }  =  +- 3 "." "5 A"} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1349721">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>I</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>8</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>25 A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } =8 "." "25"" A"} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+      
+    <exercise id="fs-id3260674" type="problems-exercises"><problem id="fs-id3054950"> 
+      <para id="import-auto-id3201685">Find the currents flowing in the circuit in <link target-id="import-auto-id2616676"/>.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2057574" type="problems-exercises"><problem id="fs-id2055424">   
+      <para id="import-auto-id2381389"><title>Unreasonable Results</title></para>
+<para id="eip-id2630197">Consider the circuit in <link target-id="fs-id1947335"/>, and suppose that the emfs are unknown and the currents are given to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.0 A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } =3 "." 0" A"} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub><m:mo>=</m:mo><m:mn>–2</m:mn><m:mtext>.</m:mtext><m:mtext>00 A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{3} } "=-"2 "." "00"" A"} {}</m:annotation></m:semantics></m:math>. (a) Could you find the emfs? (b) What is wrong with the assumptions?</para><figure id="fs-id1947335"><media id="fs-id2402951" alt="The diagram shows a complex circuit with two voltage sources E sub one and E sub two, and three resistive loads, wired in two loops and two junctions. Several points on the diagram are marked with letters a through h. The current in each branch is labeled separately.">
+          <image mime-type="image/jpg" src="../../media/Figure_22_03_09.jpg"/>
+        </media>
+        
+      </figure></problem>
+      
+<solution id="fs-id3449782">
+    <para id="import-auto-id3044256">(a) No, you would get inconsistent equations to solve.</para>
+    <para id="import-auto-id1861422">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">≠</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} }  &lt;&gt; I rSub { size 8{2} } +I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math>. The assumed currents violate the junction rule.</para>
+</solution>
+    </exercise>      
+    </section> </content>
+  <glossary>
+    <definition id="import-auto-id2930940"><term>Kirchhoff’s rules</term> <meaning id="fs-id2640471">a set of two rules, based on conservation of charge and energy, governing current and changes in potential in an electric circuit</meaning></definition>
+    <definition id="import-auto-id1571021"><term>junction rule</term> <meaning id="fs-id1842665">Kirchhoff’s first rule, which applies the conservation of charge to a junction; current is the flow of charge; thus, whatever charge flows into the junction must flow out; the rule can be stated <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>I</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } =I rSub { size 8{2} } +I rSub { size 8{3} } } {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id2423277"><term>loop rule</term> <meaning id="fs-id2962439">Kirchhoff’s second rule, which states that in a closed loop, whatever energy is supplied by emf must be transferred into other forms by devices in the loop, since there are no other ways in which energy can be transferred into or out of the circuit. Thus, the emf equals the sum of the <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IR</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "IR"} {}</m:annotation></m:semantics></m:math> (voltage) drops in the loop and can be stated: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mstyle><m:mrow><m:mtext fontstyle="italic">Ir</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">IR</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">IR</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"= ital "Ir"+ ital "IR" rSub { size 8{1} } + ital "IR" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id2405199"><term>conservation laws</term> <meaning id="fs-id1823118">require that energy and charge be conserved in a system</meaning></definition>
+  </glossary>
+</document>

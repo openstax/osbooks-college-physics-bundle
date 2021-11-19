@@ -1,0 +1,721 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+  <title>Drag Forces</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60730</md:content-id>
+  <md:title>Drag Forces</md:title>
+  <md:abstract><list>
+<item>Express mathematically the drag force.</item>
+<item>Discuss the applications of drag force.</item>
+<item>Define terminal velocity.</item>
+<item>Determine the terminal velocity given mass.</item>
+</list></md:abstract>
+  <md:uuid>48fe7831-5221-4284-a7d7-af6af0193f30</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1165298462418">Another interesting force in everyday life is the force of drag on an object when it is moving in a fluid (either a gas or a liquid). You feel the drag force when you move your hand through water. You might also feel it if you move your hand during a strong wind. The faster you move your hand, the harder it is to move. You feel a smaller drag force when you tilt your hand so only the side goes through the air—you have decreased the area of your hand that faces the direction of motion. Like friction, the <term id="import-auto-id1165298930276">drag force</term> always opposes the motion of an object. Unlike simple friction, the drag force is proportional to some function of the velocity of the object in that fluid. This functionality is complicated and depends upon the shape of the object, its size, its velocity, and the fluid it is in. For most large objects such as bicyclists, cars, and baseballs not moving too slowly, the magnitude of the drag force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> is found to be proportional to the square of the speed of the object. We can write this relationship mathematically as <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo>∝</m:mo><m:mi/><m:mspace width="0.15em"/><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } α`v rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></emphasis>. When taking into account other factors, this relationship becomes</para><equation id="eip-871"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo></m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mn>Cρ</m:mn><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">Av</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/><m:mtext>,</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } =0 "." 5Cρ ital "Av" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298478066">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> is the drag coefficient, <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the area of the object facing the fluid, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the density of the fluid. (Recall that density is mass per unit volume.) This equation can also be written in a more generalized fashion as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">bv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math><emphasis effect="italics"/> is a constant equivalent to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.5</m:mtext><m:mi fontstyle="italic">CρA</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. We have set the exponent for these equations as 2 because, when an object is moving at high velocity through air, the magnitude of the drag force is proportional to the square of the speed. As we shall see in a few pages on fluid dynamics, for small particles moving at low speeds in a fluid, the exponent is equal to 1.</para><note id="fs-id1165298785006"><label/>
+      <title>Drag Force</title>
+      <para id="import-auto-id1165298800826">Drag force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> is found to be proportional to the square of the speed of the object. Mathematically</para><equation id="eip-4"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>F</m:mi>
+
+                        <m:mrow>
+                          <m:mtext>D</m:mtext>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mo>∝</m:mo>
+                    <m:mi/><m:mspace width="0.25em"/>
+                    <m:msup>
+                      <m:mi>v</m:mi>
+
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } α`v rSup { size 8{2} } } {}</m:annotation>
+          </m:semantics>
+        </m:math>
+      </equation><equation id="eip-833"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo></m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi fontstyle="italic">Cρ</m:mi><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">Av</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/><m:mtext>,</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } =0 "." 5Cρ ital "Av" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298452502">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> is the drag coefficient, <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the area of the object facing the fluid, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the density of the fluid.</para></note>
+
+      <para id="import-auto-id1165298661519">Athletes as well as car designers seek to reduce the drag force to lower their race times. (See <link target-id="import-auto-id1165298931800"/>). “Aerodynamic” shaping of an automobile can reduce the drag force and so increase a car’s gas mileage.</para><figure id="import-auto-id1165298931800"><media id="import-auto-id1165298771305" alt="A two-person team in a bobsled race. The bobsled has an aerodynamic design and smooth runners so it can go as fast as possible.">
+          <image mime-type="image/png" src="../../media/Figure_06_02_02a.jpg" width="250"/>
+        </media>
+
+      <caption>From racing cars to bobsled racers, aerodynamic shaping is crucial to achieving top speeds. Bobsleds are designed for speed. They are shaped like a bullet with tapered fins. (credit: U.S. Army, via Wikimedia Commons) </caption></figure><para id="import-auto-id1165298760790">The value of the drag coefficient, <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> , is determined empirically, usually with the use of a wind tunnel. (See <link target-id="import-auto-id1165298787035"/>).</para><figure id="import-auto-id1165298787035"><media id="import-auto-id1165298848953" alt="A model plane is can be seen being tested in a wind tunnel.">
+          <image mime-type="image/png" src="../../media/Figure_06_02_03a.jpg" width="200"/>
+        </media>
+
+      <caption>NASA researchers test a model plane in a wind tunnel. (credit: NASA/Ames)</caption></figure><para id="import-auto-id1165298550622">The drag coefficient can depend upon velocity, but we will assume that it is a constant here. <link target-id="import-auto-id1165298535568"/> lists some typical drag coefficients for a variety of objects. Notice that the drag coefficient is a dimensionless quantity. At highway speeds, over 50% of the power of a car is used to overcome air drag. The most fuel-efficient cruising speed is about 70–80 km/h (about 45–50 mi/h). For this reason, during the 1970s oil crisis in the United States, maximum speeds on highways were set at about 90 km/h (55 mi/h).
+
+</para><table id="import-auto-id1165298535568" summary="A table lists typical values of draft coefficient C for different objects. Values include 0.28 for a Toyota Camry, 0.64 for a Hummer H2 SUV, 0.7 for a skydiver feet first, and 1.0 for a horizontal skydiver."><title>Drag Coefficient Values </title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+          <colspec colnum="2" colname="c2"/>
+          <thead><row>
+              <entry>Object</entry>
+              <entry>
+              <emphasis effect="italics">C</emphasis>
+              </entry>
+            </row></thead><tbody><row>
+              <entry>Airfoil</entry>
+              <entry>0.05</entry>
+            </row><row>
+              <entry>Toyota Camry</entry>
+              <entry>0.28</entry>
+            </row><row>
+              <entry>Ford Focus</entry>
+              <entry>0.32</entry>
+            </row><row>
+              <entry>Honda Civic</entry>
+              <entry>0.36</entry>
+            </row><row>
+              <entry>Ferrari Testarossa</entry>
+              <entry>0.37</entry>
+            </row><row>
+              <entry>Dodge Ram pickup</entry>
+              <entry>0.43</entry>
+            </row><row>
+              <entry>Sphere</entry>
+              <entry>0.45</entry>
+            </row><row>
+              <entry>Hummer H2 SUV</entry>
+              <entry>0.64</entry>
+            </row><row>
+              <entry>Skydiver (feet first)</entry>
+              <entry>0.70</entry>
+            </row><row>
+              <entry>Bicycle</entry>
+              <entry>0.90</entry>
+            </row><row>
+              <entry>Skydiver (horizontal)</entry>
+              <entry>1.0</entry>
+            </row><row>
+              <entry>Circular flat plate</entry>
+              <entry>1.12</entry>
+            </row></tbody>
+
+
+
+
+
+
+
+</tgroup><caption>Typical values of drag coefficient <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math>.</caption>
+</table><para id="import-auto-id1165296244845">Substantial research is under way in the sporting world to minimize drag. The dimples on golf balls are being redesigned as are the clothes that athletes wear. Bicycle racers and some swimmers and runners wear full bodysuits. Australian Cathy Freeman wore a full body suit in the 2000 Sydney Olympics, and won the gold medal for the 400 m race. Many swimmers in the 2008 Beijing Olympics wore (Speedo) body suits; it might have made a difference in breaking many world records (See <link target-id="import-auto-id1165298678773"/>). Most elite swimmers (and cyclists) shave their body hair. Such innovations can have the effect of slicing away milliseconds in a race, sometimes making the difference between a gold and a silver medal. One consequence is that careful and precise guidelines must be continuously developed to maintain the integrity of the sport.</para><figure id="import-auto-id1165298678773"><media id="import-auto-id1165298779094" alt="Three swimmers with are each wearing an L Z R Racer Suit, which is a swimsuit composed of elastane nylon and polyurethane. The seams of the suit are ultrasonically welded to reduce drag.">
+          <image mime-type="image/png" src="../../media/Figure_06_02_05a.jpg" width="250"/>
+        </media>
+
+      <caption>Body suits, such as this LZR Racer Suit, have been credited with many world records after their release in 2008. Smoother “skin” and more compression forces on a swimmer’s body provide at least 10% less drag. (credit: NASA/Kathy Barnstorff)</caption></figure><para id="import-auto-id1165296242565">Some interesting situations connected to Newton’s second law occur when considering the effects of drag forces upon a moving object. For instance, consider a skydiver falling through air under the influence of gravity. The two forces acting on him are the force of gravity and the drag force (ignoring the buoyant force). The downward force of gravity remains constant regardless of the velocity at which the person is moving. However, as the person’s velocity increases, the magnitude of the drag force increases until the magnitude of the drag force is equal to the gravitational force, thus producing a net force of zero. A zero net force means that there is no acceleration, as given by Newton’s second law. At this point, the person’s velocity remains constant and we say that the person has reached his <emphasis effect="italics">terminal velocity</emphasis> (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>t</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{t} } } {}</m:annotation></m:semantics></m:math>). Since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> is proportional to the speed, a heavier skydiver must go faster for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math> to equal his weight. Let’s see how this works out more quantitatively.</para><para id="import-auto-id1165296262829">At the terminal velocity,</para>
+      <equation id="eip-303"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>F</m:mi>
+                        <m:mrow>
+                          <m:mtext>net</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>mg</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:msub>
+                          <m:mi>F</m:mi>
+                          <m:mrow>
+                            <m:mtext>D</m:mtext>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mrow>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>ma</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>0</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } = ital "mg" - F rSub { size 8{D} } = ital "ma"=0 "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-958">Thus,</para><equation id="eip-38"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>mg</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>F</m:mi>
+                    <m:mrow>
+                      <m:mtext>D</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "mg"=F rSub { size 8{D} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298828158">Using the equation for drag force, we have</para><equation id="eip-19"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>ρ</m:mi><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">CAv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mg"= {  {1}  over  {2} } ρ ital "CAv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="eip-183">Solving for the velocity, we obtain</para><equation id="eip-545"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mi>ρ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>CA</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:msqrt></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= sqrt { {  {2 ital "mg"}  over  {ρ ital "CA"} } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298858144">Assume the density of air is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>21 kg</m:mtext><m:msup><m:mtext>/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ=1 "." "21"" kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>. A 75-kg skydiver descending head first will have an area approximately <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>18</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and a drag coefficient of approximately <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>70</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C=0 "." "70"} {}</m:annotation></m:semantics></m:math>. We find that</para><equation id="eip-981"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+
+                        <m:mi>v</m:mi>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:msqrt>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mtext>75 kg</m:mtext>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>9</m:mn>
+                              <m:mtext>.80 m</m:mtext>
+                              <m:msup>
+                                <m:mtext>/s</m:mtext>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>1</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>21 kg</m:mtext>
+                              <m:msup>
+                                <m:mtext>/m</m:mtext>
+                                <m:mrow>
+                                  <m:mn>3</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>0</m:mn>
+                              <m:mtext>.</m:mtext>
+                              <m:mtext>70</m:mtext>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>                              <m:mtext>0.18</m:mtext>
+                            <m:mspace width="0.25em"/>
+                              <m:msup>
+                                <m:mtext>m</m:mtext>
+                                <m:mrow>
+                                  <m:mn>2</m:mn>
+                                </m:mrow>
+                              </m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:msqrt>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+
+                    <m:mtext>98 m/s</m:mtext>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mtext>350 km/h</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{v= sqrt { {  {2 \( "75"`"kg" \)  \( 9 "." "80"" m/s" rSup { size 8{2} }  \) }  over  { \( 1 "." "21"" kg/m" rSup { size 8{3} }  \)  \( 0 "." "70" \)  \( 0 "." "18"`m rSup { size 8{2} }  \) } } } }  {} #
+="98"`"m/s" {} #
+="350"`"km/h" "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1165298993982">This means a skydiver with a mass of 75 kg achieves a maximum terminal velocity of about 350 km/h while traveling in a headfirst position, minimizing the area and his drag. In a spread-eagle position, that terminal velocity may decrease to about 200 km/h as the area increases. This terminal velocity becomes much smaller after the parachute opens.</para><note id="fs-id1165298779158"><label/><title>Take-Home Experiment</title>
+
+      <para id="import-auto-id1165298650437">This interesting activity examines the effect of weight upon terminal velocity. Gather together some nested coffee filters. Leaving them in their original shape, measure the time it takes for one, two, three, four, and five nested filters to fall to the floor from the same height (roughly 2 m). (Note that, due to the way the filters are nested, drag is constant and only mass varies.) They obtain terminal velocity quite quickly, so find this velocity as a function of mass. Plot the terminal velocity <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis> versus mass. Also plot <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></emphasis> versus mass. Which of these relationships is more linear? What can you conclude from these graphs?</para>
+      </note><example id="fs-id1165298642932">
+      <title>A Terminal Velocity</title>
+      <para id="import-auto-id1165298998033">Find the terminal velocity of an 85-kg skydiver falling in a spread-eagle position.</para><para id="eip-963"><emphasis>Strategy</emphasis></para><para id="import-auto-id1165298670363">At terminal velocity, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } =0} {}</m:annotation></m:semantics></m:math>. Thus the drag force on the skydiver must equal the force of gravity (the person’s weight). Using the equation of drag force, we find <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo></m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:msup><m:mtext fontstyle="italic">ρCAv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mg"=0 "." 5ρ ital "CAv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1165298597766">Thus the terminal velocity <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>t</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{t} } } {}</m:annotation></m:semantics></m:math> can be written as</para><equation id="eip-306"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>t</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">ρCA</m:mtext></m:mrow></m:mrow></m:mfrac></m:msqrt></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= sqrt { {  {2 ital "mg"}  over  {ρ ital "CA"} } } } {}</m:annotation></m:semantics></m:math></equation><para id="eip-916"><emphasis>Solution</emphasis></para><para id="import-auto-id1165296309549">All quantities are known except the person’s projected area. This is an adult (85 kg) falling spread eagle. We can estimate the frontal area as</para><equation id="eip-769"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2 m</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>35 m</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>70</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2`m times `0 "." "35"`m=0 "." "70"`m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298744226">Using our equation for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>t</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{t} } } {}</m:annotation></m:semantics></m:math>, we find that</para><equation id="eip-656"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+
+                       <m:msub>
+                        <m:mi>v</m:mi>
+                        <m:mtext>t</m:mtext>
+                       </m:msub>
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:msqrt>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mtext>85</m:mtext>
+                              <m:mspace width="0.25em"/>
+                              <m:mtext>kg</m:mtext>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>9.80</m:mn>
+                              <m:mspace width="0.25em"/>
+                              <m:msup>
+                                <m:mtext> m/s</m:mtext>
+                                <m:mn>2</m:mn>
+                              </m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>1.21</m:mn><m:mspace width="0.25em"/>
+                              <m:msup>
+                                <m:mtext> kg/m</m:mtext>
+                                <m:mn>3</m:mn>
+                              </m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>1.0</m:mn>
+                              <m:mo stretchy="false">)</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mn>0.70</m:mn>
+                              <m:mspace width="0.25em"/>
+                              <m:msup>
+                                <m:mtext>m</m:mtext>
+                                <m:mn>2</m:mn>
+                              </m:msup>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:msqrt>
+
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mtext>44 m/s.</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math>
+    </equation><para id="eip-130"><emphasis>Discussion</emphasis></para><para id="import-auto-id1165298994032">This result is consistent with the value for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>t</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{t} } } {}</m:annotation></m:semantics></m:math> mentioned earlier. The 75-kg skydiver going feet first had a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>98 m</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v="94"`m/s} {}</m:annotation></m:semantics></m:math>. He weighed less but had a smaller frontal area and so a smaller drag due to the air.</para></example>
+
+<example id="fs-id1169085965992" class="example-video">
+<title>Finding Drag Force and Terminal Velocity</title>
+<para id="fs-id1169076841829">A squirrel with a surface area of <emphasis effect="bold">930 cm</emphasis><sup>2</sup>, falls from a <emphasis effect="bold">5.0 m</emphasis> tree to the ground. Estimate its terminal velocity. Use a drag coefficient of <m:math><m:mrow><m:mi>C</m:mi><m:mo>=</m:mo><m:mn>1.0</m:mn></m:mrow></m:math>. Study the problem and its solution in this video.</para>
+<media id="fs-id1169085745936" alt="">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02dragforvel"/>
+</media>
+</example>
+
+      <para id="import-auto-id1165298872963">The size of the object that is falling through air presents another interesting application of air drag. If you fall from a 5-m high branch of a tree, you will likely get hurt—possibly fracturing a bone. However, a small squirrel does this all the time, without getting hurt. You don’t reach a terminal velocity in such a short distance, but the squirrel does.</para>
+      <para id="import-auto-id1165298579899">The following interesting quote on animal size and terminal velocity is from a 1928 essay by a British biologist, J.B.S. Haldane, titled “On Being the Right Size.”</para>
+      <para id="import-auto-id1165298667110"><emphasis effect="italics">To the mouse and any smaller animal, [gravity] presents practically no dangers. You can drop a mouse down a thousand-yard mine shaft; and, on arriving at the bottom, it gets a slight shock and walks away, provided that the ground is fairly soft. A rat is killed, a man is broken, and a horse splashes. For the resistance presented to movement by the air is proportional to the surface of the moving object. Divide an animal’s length, breadth, and height each by ten; its weight is reduced to a thousandth, but its surface only to a hundredth. So the resistance to falling in the case of the small animal is relatively ten times greater than the driving force.</emphasis></para>
+      <para id="import-auto-id1165298666978">The above quadratic dependence of air drag upon velocity does not hold if the object is very small, is going very slow, or is in a denser medium than air. Then we find that the drag force is proportional just to the velocity. This relationship is given by <term id="import-auto-id1165298672873">Stokes’ law</term>, which states that</para><equation id="eip-798"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn><m:mi fontstyle="italic">πrηv</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } =6πrηv} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298708907">where
+<m:math>
+ <m:semantics>
+  <m:mi>r</m:mi>
+ </m:semantics>
+</m:math> is the radius of the object,
+<m:math>
+ <m:semantics>
+  <m:mi>η</m:mi>
+ </m:semantics>
+</m:math> is the viscosity of the fluid, and
+<m:math>
+ <m:semantics>
+  <m:mi>v</m:mi>
+ </m:semantics>
+</m:math> is the object’s velocity.</para><note id="fs-id1165296679489"><label/>
+      <title>Stokes’ Law</title>
+      <equation id="eip-271"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn><m:mi fontstyle="italic">πrηv</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } =6πrηv} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1165298748707">where
+<m:math>
+ <m:semantics>
+  <m:mi>r</m:mi>
+ </m:semantics>
+</m:math> is the radius of the object,
+<m:math>
+ <m:semantics>
+  <m:mi>η</m:mi>
+ </m:semantics>
+</m:math> is the viscosity of the fluid, and
+<m:math>
+ <m:semantics>
+  <m:mi>v</m:mi>
+ </m:semantics>
+</m:math> is the object’s velocity.</para></note>
+      <para id="import-auto-id1165298539015">Good examples of this law are provided by microorganisms, pollen, and dust particles. Because each of these objects is so small, we find that many of these objects travel unaided only at a constant (terminal) velocity. Terminal velocities for bacteria (size about
+<m:math>
+ <m:semantics>
+   <m:mtext>1 μm</m:mtext>
+ </m:semantics>
+</m:math>) can be about
+<m:math>
+ <m:semantics>
+   <m:mtext>2 μm/s</m:mtext>
+ </m:semantics>
+</m:math>. To move at a greater speed, many bacteria swim using flagella (organelles shaped like little tails) that are powered by little motors embedded in the cell. Sediment in a lake can move at a greater terminal velocity (about
+<m:math>
+ <m:semantics>
+   <m:mtext>5 μm/s</m:mtext>
+ </m:semantics>
+</m:math>), so it can take days to reach the bottom of the lake after being deposited on the surface.</para><para id="import-auto-id1165298745270">If we compare animals living on land with those in water, you can see how drag has influenced evolution. Fishes, dolphins, and even massive whales are streamlined in shape to reduce drag forces. Birds are streamlined and migratory species that fly large distances often have particular features such as long necks. Flocks of birds fly in the shape of a spear head as the flock forms a streamlined pattern (see <link target-id="import-auto-id1165298645387"/>). In humans, one important example of streamlining is the shape of sperm, which need to be efficient in their use of energy.</para>
+
+      <figure id="import-auto-id1165298645387"><media id="import-auto-id1165298645388" alt="Geese flying across the sky in a V formation.">
+          <image mime-type="image/png" src="../../media/Figure_06_02_06a.jpg" width="250"/>
+        </media>
+
+      <caption>Geese fly in a V formation during their long migratory travels. This shape reduces drag and energy consumption for individual birds, and also allows them a better way to communicate. (credit: Julo, Wikimedia Commons)</caption></figure><note id="fs-id1165298544129"><label/>
+      <title>Galileo’s Experiment</title>
+      <para id="import-auto-id1165298883818">Galileo is said to have dropped two objects of different masses from the Tower of Pisa. He measured how long it took each to reach the ground. Since stopwatches weren’t readily available, how do you think he measured their fall time? If the objects were the same size, but with different masses, what do you think he should have observed? Would this result be different if done on the Moon?</para></note>
+<note id="fs-id2848537" class="interactive"><label/><title>PhET Explorations: Masses and Springs</title>
+<para id="eip-id1169737844972">A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.</para>
+<figure id="fs-id2854462">
+  <media id="MassesandSprings" alt="This simulation allows you to explore a mass and spring laboratory.">
+  <iframe width="660" height="371.4" src="https://openstax.org/l/02masses_springs"/>
+  </media>
+</figure>
+</note>
+
+<section id="fs-id1165298931707" class="section-summary"><title>Section Summary</title><list id="fs-id1165298821367"><item id="import-auto-id1165298595649">Drag forces acting on an object moving in a fluid oppose the motion. For larger objects (such as a baseball) moving at a velocity
+<m:math>
+ <m:semantics>
+   <m:mi>v</m:mi>
+ </m:semantics>
+</m:math> in air, the drag force is given by
+      <equation id="eip-233"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>F</m:mi>
+                    <m:mrow>
+                      <m:mtext>D</m:mtext>
+                    </m:mrow>
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2</m:mn>
+                  </m:mfrac>
+                </m:mrow>
+
+                  <m:mrow>
+                    <m:msup>
+                <m:mi fontstyle="italic">CρAv</m:mi>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+              </m:mrow>
+            </m:mrow><m:mo>,</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } = {  {1}  over  {2} } Cρ ital "Av" rSup { size 8{2} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> is the drag coefficient (typical values are given in <link target-id="import-auto-id1165298535568"/>), <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the area of the object facing the fluid, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the fluid density.</item>
+
+      <item id="import-auto-id1165298748357">For small objects (such as a bacterium) moving in a denser medium (such as water), the drag force is given by Stokes’ law,
+      <equation id="eip-307"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>πηrv</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } =6 ital "πη" ital "rv"} {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is the radius of the object, <emphasis effect="italics"/><m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math> is the fluid viscosity, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the object’s velocity.</item>
+</list></section><section id="fs-id1165298645318" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+      <exercise id="fs-id1165298899670" type="conceptual-questions"><problem id="fs-id1165298822562">
+      <para id="import-auto-id1165298491349">Athletes such as swimmers and bicyclists wear body suits in competition. Formulate a list of pros and cons of such suits.</para>
+        </problem></exercise>
+      <exercise id="fs-id1165298622189" type="conceptual-questions"><problem id="fs-id1165296540091">
+      <para id="import-auto-id1165298868512">Two expressions were used for the drag force experienced by a moving object in a liquid. One depended upon the speed, while the other was proportional to the square of the speed. In which types of motion would each of these expressions be more applicable than the other one?</para></problem></exercise>
+        <exercise id="fs-id1165296261672" type="conceptual-questions"><problem id="fs-id1165298797706">
+      <para id="import-auto-id1165298990230">As cars travel, oil and gasoline leaks onto the road surface. If a light rain falls, what does this do to the control of the car? Does a heavy rain make any difference?</para>
+      </problem></exercise>
+      <exercise id="fs-id1165296346967" type="conceptual-questions"><problem id="fs-id1165298550956">
+      <para id="import-auto-id1165298552552" fo:font-weight="normal">Why can a squirrel jump from a tree branch to the ground and run away undamaged, while a human could break a bone in such a fall?</para>
+      </problem></exercise>
+      </section>
+      <section id="fs-id1165298548394" type="problems-exercises" class="problems-exercises">
+        <title>Problems &amp; Exercise</title>
+      <exercise id="fs-id1165298861311" type="problem-exercises"><problem id="fs-id1165298992884">
+      <para id="import-auto-id1165298849374">The terminal velocity of a person falling in air depends upon the weight and the area of the person facing the fluid. Find the terminal velocity (in meters per second and kilometers per hour) of an 80.0-kg skydiver falling in a headfirst position with a surface area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>140</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "140"" m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></problem>
+<solution id="eip-id1170075023622">
+<para id="eip-id1170075023625"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mtext>115</m:mtext><m:mspace width="0.25em"/>
+                <m:mtext>m/s;</m:mtext><m:mspace width="0.25em"/>
+                <m:mtext>414</m:mtext><m:mspace width="0.25em"/>
+                <m:mtext>km/hr</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"115"" m/s; ""414"" km/hr"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution></exercise><exercise id="fs-id1165298948219" type="problem-exercises"><problem id="fs-id1165298671940">
+      <para id="import-auto-id1165298597760">A 60-kg and a 90-kg skydiver jump from an airplane at an altitude of 6000 m, both falling in a headfirst position. Make some assumption on their frontal areas and calculate their terminal velocities. How long will it take for each skydiver to reach the ground (assuming the time to reach terminal velocity is small)? Assume all values are accurate to three significant digits.</para></problem></exercise>
+        <exercise id="fs-id1165298835347" type="problem-exercises"><problem id="fs-id1165298642067">
+      <para id="import-auto-id1165298723101">A 560-g squirrel with a surface area of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>144</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext> cm</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"930"" cm" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> falls from a 5.0-m tree to the ground. Estimate its terminal velocity. (Use a drag coefficient for a horizontal skydiver.) What will be the velocity of a 56-kg person hitting the ground, assuming no drag contribution in such a short distance? </para></problem>
+<solution id="eip-id1170075018299">
+<para id="eip-id1170075018301"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mtext>25.1 m/s; 9.90 m/s</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"23" "." "7 m/s; 9" "." "9 m/s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution></exercise><exercise id="fs-id1165298803376" type="problem-exercises"><problem id="fs-id1165298609030">
+      <para id="import-auto-id1165298797549">To maintain a constant speed, the force provided by a car’s engine must equal the drag force plus the force of friction of the road (the rolling resistance). (a) What are the magnitudes of drag forces at 70 km/h and 100 km/h for a Toyota Camry? (Drag area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>0.70 m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "70"" m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>) (b) What is the magnitude of drag force at 70 km/h and 100 km/h for a Hummer H2? (Drag area is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>44 m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "44 m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>) Assume all values are accurate to three significant digits.</para></problem></exercise>
+      <exercise id="fs-id1165298726139" type="problem-exercises"><problem id="fs-id1165298713942">
+      <para id="import-auto-id1165296240361">By what factor does the drag force on a car increase as it goes from 65 to 110 km/h? </para></problem>
+<solution id="eip-id1626548">
+<para id="eip-id1992633"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mn>2</m:mn>
+                <m:mtext>.</m:mtext>
+                <m:mn>9</m:mn>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 "." 9} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution></exercise><exercise id="fs-id1165298928445" type="problem-exercises"><problem id="fs-id1165296715659">
+      <para id="import-auto-id1165298867517">Calculate the speed a spherical rain drop would achieve falling from 5.00 km (a) in the absence of air drag (b) with air drag. Take the size across of the drop to be 4 mm, the density to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00" times "10" rSup { size 8{3} } " kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>, and the surface area to be <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{πr rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. </para></problem></exercise>
+      <exercise id="fs-id1165296534353" type="problem-exercises"><problem id="fs-id1165298597665">
+      <para id="import-auto-id1165298751309">Using Stokes’ law, verify that the units for viscosity are kilograms per meter per second.</para>
+      </problem>
+<solution id="eip-id1351403">
+<equation id="eip-id1168951431445"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfenced open="[" close="]">
+                      <m:mi>η</m:mi>
+                    </m:mfenced>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mfenced open="[" close="]">
+                        <m:msub>
+                          <m:mi>F</m:mi>
+                          <m:mrow>
+                            <m:mtext>s</m:mtext>
+                          </m:mrow>
+                        </m:msub>
+                      </m:mfenced>
+                      <m:mrow>
+                        <m:mfenced open="[" close="]">
+                          <m:mi>r</m:mi>
+                        </m:mfenced>
+                        <m:mi/>
+                        <m:mfenced open="[" close="]">
+                          <m:mi>v</m:mi>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mtext>kg</m:mtext>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:msup>
+                        <m:mtext>m/s</m:mtext>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mrow>
+                      <m:mtext>m</m:mtext>
+                      <m:mo stretchy="false">⋅</m:mo>
+                      <m:mtext>m/s</m:mtext>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mo stretchy="false">=</m:mo>
+                <m:mfrac>
+                  <m:mtext>kg</m:mtext>
+                  <m:mrow>
+                    <m:mtext>m</m:mtext>
+                    <m:mo stretchy="false">⋅</m:mo>
+                    <m:mtext>s</m:mtext>
+                  </m:mrow>
+                </m:mfrac>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ left [η right ]= {  { left [F rSub { size 8{s} }  right ]}  over  { left [r right ]` left [v right ]} } = {  {"kg" cdot "m/s" rSup { size 8{2} } }  over  {m cdot "m/s"} } = {  {"kg"}  over  {m cdot s} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></solution></exercise><exercise id="fs-id1165298534706" type="problem-exercises"><problem id="fs-id1165296377552">
+      <para id="import-auto-id1165298799559">Find the terminal velocity of a spherical bacterium (diameter <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2.00 μm</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"" μm"} {}</m:annotation></m:semantics></m:math>) falling in water. You will first need to note that the drag force is equal to the weight at terminal velocity. Take the density of the bacterium to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:msup><m:mtext> kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "10" times "10" rSup { size 8{3} } " kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+      <exercise id="fs-id1165298696745" type="problem-exercises"><problem id="fs-id1165298937224">
+      <para id="import-auto-id1165298452252">Stokes’ law describes sedimentation of particles in liquids and can be used to measure viscosity. Particles in liquids achieve terminal velocity quickly. One can measure the time it takes for a particle  to fall a certain distance and then use Stokes’ law to calculate the viscosity of the liquid. Suppose a steel ball bearing (density <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>8</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." 8 times "10" rSup { size 8{3} } " kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>, diameter <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.0  mm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 0" mm"} {}</m:annotation></m:semantics></m:math>) is dropped in a container of motor oil. It takes 12 s to fall a distance of 0.60 m. Calculate the viscosity of the oil. </para></problem>
+<solution id="eip-id1586160">
+<para id="eip-id1586162"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mn>0</m:mn>
+                <m:mtext>.</m:mtext>
+                <m:mtext>76 kg/m</m:mtext>
+                  <m:mo stretchy="false">⋅</m:mo>
+                  <m:mn>s</m:mn>
+              </m:mrow>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "76"" kg/m" cdot s} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution></exercise></section>
+    </content>
+  <glossary>
+
+<definition id="fs-id1871378">
+<term>drag force</term>
+<meaning id="fs-id1362788">
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } } {}</m:annotation></m:semantics></m:math>, found to be proportional to the square of the speed of the object; mathematically
+<equation id="fs-id2600233">
+          <m:math>
+            <m:semantics>
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>F</m:mi>
+                        <m:mrow>
+                          <m:mtext>D</m:mtext>
+                        </m:mrow>
+                      </m:msub>
+                      <m:mo stretchy="false">∝</m:mo>
+                      <m:mi/>
+                    </m:mrow>
+                    <m:msup>
+                      <m:mi>v</m:mi>
+                      <m:mrow>
+                        <m:mtext>2</m:mtext>
+                      </m:mrow>
+                    </m:msup>
+                  </m:mrow>
+                </m:mrow>
+                <m:mrow/>
+              </m:mrow>
+              <m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} }  prop `v rSup { size 8{2} } } {}</m:annotation>
+            </m:semantics>
+          </m:math>
+</equation>
+    <equation id="fs-id2594583">
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>D</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi fontstyle="italic">Cρ</m:mi>
+<m:mrow><m:msup><m:mi fontstyle="italic">Av</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{D} } = {  {1}  over  {2} } Cρ ital "Av" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation>
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> is the drag coefficient, <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is the area of the object facing the fluid, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the density of the fluid</meaning></definition>
+
+
+              <definition id="import-auto-id1165298997412"><term>Stokes’ law</term> <meaning id="fs-id1165298481238"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>s</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn><m:mi fontstyle="italic">πrηv</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{s} } =6πrηv} {}</m:annotation></m:semantics></m:math>, where
+<m:math>
+ <m:semantics>
+   <m:mi>r</m:mi>
+ </m:semantics>
+</m:math> is the radius of the object,
+<m:math>
+ <m:semantics>
+   <m:mi>η</m:mi>
+ </m:semantics>
+</m:math> is the viscosity of the fluid, and
+<m:math>
+ <m:semantics>
+   <m:mi>v</m:mi>
+ </m:semantics>
+</m:math> is the object’s velocity</meaning></definition>
+      </glossary>
+
+</document>

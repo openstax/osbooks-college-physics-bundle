@@ -1,0 +1,170 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>The Onset of Turbulence</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55228</md:content-id>
+  <md:title>The Onset of Turbulence</md:title>
+  <md:abstract/>
+  <md:uuid>f9bcec50-b383-4699-bccf-0376f51baa46</md:uuid>
+</metadata>
+
+<content>
+
+	<section id="fs-id1358339" class="learning-objectives">
+          <title>Learning Objectives</title>
+	   <para id="fs-id2434320">By the end of this section, you will be able to:</para>
+	     <list id="fs-id1461579">
+		<item>Calculate Reynolds number.</item>
+		<item>Use the Reynolds number for a system to determine whether it is laminar or turbulent.</item>
+	     </list>
+	</section>
+
+    <para id="import-auto-id2448419">Sometimes we can predict if flow will be laminar or turbulent. We know that flow in a very smooth tube or around a smooth, streamlined object will be laminar at low velocity. We also know that at high velocity, even flow in a smooth tube or around a smooth object will experience turbulence. In between, it is more difficult to predict. In fact, at intermediate velocities, flow may oscillate back and forth indefinitely between laminar and turbulent.</para>
+    <para id="import-auto-id2660519">An occlusion, or narrowing, of an artery, such as shown in <link target-id="import-auto-id3342274"/>, is likely to cause turbulence because of the irregularity of the blockage, as well as the complexity of blood as a fluid. Turbulence in the circulatory system is noisy and can sometimes be detected with a stethoscope, such as when measuring diastolic pressure in the upper arm's partially collapsed brachial artery. These turbulent sounds, at the onset of blood flow when the cuff pressure becomes sufficiently small, are called <emphasis effect="italics">Korotkoff sounds</emphasis>. Aneurysms, or ballooning of arteries, create significant turbulence and can sometimes be detected with a stethoscope. Heart murmurs, consistent with their name, are sounds produced by turbulent flow around damaged and insufficiently closed heart valves. Ultrasound can also be used to detect turbulence as a medical indicator in a process analogous to Doppler-shift radar used to detect storms.</para><figure id="import-auto-id3342274"><media id="import-auto-id2989840" alt="Figure shows a rectangular section of a blood vessel. The blood flow is shown toward right. The blood vessel is shown to be broader at one end and narrow toward the opposite end. The flow is shown to be laminar as shown by horizontal parallel lines. The velocity is v one in the broader section of blood vessel. The junction where the tube narrows the velocity is v two. The lines of flow are shown to bend. The regions where the blood vessels are narrow, the flow is shown to be turbulent as shown to by curling arrows. The velocity is given by v three toward right. The length of the arrows depicting the velocities represent that v three is greater than v two greater than v one.">
+        <image mime-type="image/jpg" src="../../media/Figure_13_05_01a.jpg"/>
+      </media>
+
+    <caption>Flow is laminar in the large part of this blood vessel and turbulent in the part narrowed by plaque, where velocity is high. In the transition region, the flow can oscillate chaotically between laminar and turbulent flow.</caption></figure><para id="import-auto-id3206693">An indicator called the <term id="import-auto-id2891021">Reynolds number</term> <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> can reveal whether flow is laminar or turbulent. For flow in a tube of uniform diameter, the Reynolds number is defined as</para>
+    <equation id="import-auto-id1607540"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vr</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>η</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext> (flow in tube),</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } = {  {2ρ ital "vr"}  over  {η} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1930624">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the fluid density, <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> its speed, <m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math> its viscosity, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> the tube radius. The Reynolds number is a unitless quantity. Experiments have revealed that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> is related to the onset of turbulence. For <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> below about 2000, flow is laminar. For <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> above about 3000, flow is turbulent. For values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> between about 2000 and 3000, flow is unstable—that is, it can be laminar, but small obstructions and surface roughness can make it turbulent, and it may oscillate randomly between being laminar and turbulent. The blood flow through most of the body is a quiet, laminar flow. The exception is in the aorta, where the speed of the blood flow rises above a critical value of 35 m/s and becomes turbulent.</para><example id="fs-id1473754">
+    <title>Is This Flow Laminar or Turbulent? </title>
+    <para id="import-auto-id2973652">Calculate the Reynolds number for flow in the needle considered in <link document="m55227" target-id="fs-id1969731">Example 12.8</link> to verify the assumption that the flow is laminar. Assume that the density of the saline solution is <m:math><m:semantics><m:mrow><m:mn>1025 kg/</m:mn><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id3213811"><title>Strategy</title></para>
+<para id="fs-id1462911">We have all of the information needed, except the fluid speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, which can be calculated from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow>
+ <m:mrow>
+ <m:mover>
+  <m:mi>v</m:mi>
+  <m:mo>¯</m:mo>
+ </m:mover>
+</m:mrow>
+</m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>A</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1.70 m/s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v}} =Q/A=1 "." "70"" m/s"} {}</m:annotation></m:semantics></m:math> (verification of this is in this chapter's Problems and Exercises).</para><para id="import-auto-id3028138"><title>Solution</title></para>
+<para id="fs-id3303888">Entering the known values into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vr</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>η</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } = {  {2ρ ital "vr"}  over  {η} } } {}</m:annotation></m:semantics></m:math> gives</para><equation id="import-auto-id2447591"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vr</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>η</m:mi></m:mfrac></m:mtd>
+</m:mtr><m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mfrac><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>1025 kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>1.70 m/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.150</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext> N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>s/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mfrac></m:mtd>
+</m:mtr><m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd><m:mtext>523</m:mtext><m:mtext>.</m:mtext></m:mtd>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1526604"><title>Discussion</title></para>
+<para id="fs-id3192576">Since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> is well below 2000, the flow should indeed be laminar.</para>
+    </example>
+
+    <note id="fs-id1861353"><label/><title>Take-Home Experiment: Inhalation </title>
+
+    <para id="import-auto-id1941929">Under the conditions of normal activity, an adult inhales about 1 L of air during each inhalation. With the aid of a watch, determine the time for one of your own inhalations by timing several breaths and dividing the total length by the number of breaths. Calculate the average flow rate <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> of air traveling through the trachea during each inhalation.</para>
+    </note><para id="import-auto-id2487325">The topic of chaos has become quite popular over the last few decades. A system is defined to be <emphasis effect="italics">chaotic</emphasis> when its behavior is so sensitive to some factor that it is extremely difficult to predict. The field of <emphasis effect="italics">chaos</emphasis> is the study of chaotic behavior. A good example of chaotic behavior is the flow of a fluid with a Reynolds number between 2000 and 3000. Whether or not the flow is turbulent is difficult, but not impossible, to predict—the difficulty lies in the extremely sensitive dependence on factors like roughness and obstructions on the nature of the flow. A tiny variation in one factor has an exaggerated (or nonlinear) effect on the flow. Phenomena as disparate as turbulence, the orbit of Pluto, and the onset of irregular heartbeats are chaotic and can be analyzed with similar techniques.</para>
+
+<section id="fs-id1977681" class="section-summary"><title>Section Summary</title><list id="fs-id1580814"><item id="import-auto-id1355852">The Reynolds number <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> can reveal whether flow is laminar or turbulent. It is<equation id="eip-414"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mi>ρ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vr</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>η</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } = {  {2ρ ital "vr"}  over  {η} } } {}</m:annotation></m:semantics></m:math></equation></item>
+
+<item id="import-auto-id953571">For <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> below about 2000, flow is laminar. For <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> above about 3000, flow is turbulent. For values of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> between 2000 and 3000, it may be either or both.</item>
+   </list>
+</section><section id="fs-id3078779" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id3387532" type="conceptual-questions"><problem id="fs-id3389119">
+
+    <para id="import-auto-id2392671">Doppler ultrasound can be used to measure the speed of blood in the body. If there is a partial constriction of an artery, where would you expect blood speed to be greatest, at or nearby the constriction? What are the two distinct causes of higher resistance in the constriction?</para>
+
+
+
+</problem></exercise>
+
+    <exercise id="eip-948" type="conceptual-questions"><problem id="eip-80">
+  <para id="eip-488">Sink drains often have a device such as that shown in <link target-id="eip-id1419266"/> to help speed the flow of water. How does this work?
+  </para>
+
+
+<figure id="eip-id1419266"><media id="eip-id2669809" alt="Shows a picture of a small ring shaped section of a cylinder. It is shown to be partitioned in to four equal portions.">
+<image mime-type="image/jpg" src="../../media/Figure_13_05_02a.jpg"/>
+</media>
+<caption>You will find devices such as this in many drains. They significantly increase flow rate.</caption></figure></problem>
+
+
+</exercise><exercise id="fs-id2616341" type="conceptual-questions"><problem id="fs-id1577689">
+    <para id="import-auto-id990795">Some ceiling fans have decorative wicker reeds on their blades. Discuss whether these fans are as quiet and efficient as those with smooth blades.</para></problem>
+</exercise>
+</section><section id="fs-id3285757" type="problems-exercises" class="problems-exercises">
+<title>Problems &amp; Exercises</title>
+    <exercise id="fs-id2054433" type="problems-exercises">
+<problem id="fs-id1931165">
+  <para id="import-auto-id2979392">Verify that the flow of oil is laminar (barely) for an oil gusher that shoots crude oil 25.0 m into the air through a pipe with a 0.100-m diameter. The vertical pipe is 50 m long. Take the density of the oil to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>900 kg</m:mtext><m:msup><m:mtext>/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"900"`"kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> and its viscosity to be
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.00</m:mn><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"` \( "N/m" rSup { size 8{2} }  \)  cdot s} {}</m:annotation></m:semantics></m:math>  (or <m:math><m:semantics><m:mrow><m:mn>1.00 Pa</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:semantics></m:math>).</para></problem>
+<solution id="fs-id3202800">
+    <para id="import-auto-id3385830"><m:math><m:semantics><m:mrow><m:msub><m:mi>N</m:mi><m:mtext>R</m:mtext></m:msub><m:mo>=</m:mo><m:mn>1.99</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>2</m:mn></m:msup><m:mn> &lt; 2000</m:mn></m:mrow></m:semantics></m:math></para></solution>
+    </exercise>
+
+    <exercise id="fs-id1236511" type="problems-exercises">
+<problem id="fs-id1349636">
+ <para id="import-auto-id2408233">Show that the Reynolds number <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math> is unitless by substituting units for all the quantities in its definition and cancelling.</para>
+    </problem></exercise>
+    <exercise id="fs-id1908770" type="problems-exercises"><problem id="fs-id3229182"><para id="import-auto-id1773064">Calculate the Reynolds numbers for the flow of water through (a) a nozzle with a radius of 0.250 cm and (b) a garden hose with a radius of 0.900 cm, when the nozzle is attached to the hose. The flow rate through hose and nozzle is 0.500 L/s. Can the flow in either possibly be laminar?</para></problem>
+<solution id="fs-id1426827">
+    <para id="import-auto-id1427431">(a) nozzle: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>27</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "27" times "10" rSup { size 8{5} } } {}</m:annotation></m:semantics></m:math> , not laminar</para><para id="import-auto-id2625786">(b) hose: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>51</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "27" times "10" rSup { size 8{5} } } {}</m:annotation></m:semantics></m:math>, not laminar.</para></solution>
+    </exercise>
+
+    <exercise id="fs-id1999575" type="problems-exercises">
+<problem id="fs-id1888358">
+  <para id="import-auto-id3192000">A fire hose has an inside diameter of 6.40 cm. Suppose such a hose carries a flow of 40.0 L/s starting at a gauge pressure of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>62</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "62" times "10" rSup { size 8{6} } `"N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. The hose goes 10.0 m up a ladder to a nozzle having an inside diameter of 3.00 cm. Calculate the Reynolds numbers for flow in the fire hose and nozzle to show that the flow in each must be turbulent.</para></problem></exercise>
+
+    <exercise id="fs-id3047968" type="problems-exercises">
+<problem id="fs-id2577620">
+  <para id="import-auto-id3299322">Concrete is pumped from a cement mixer to the place it is being laid, instead of being carried in wheelbarrows. The flow rate is 200.0 L/min through a 50.0-m-long, 8.00-cm-diameter hose, and the pressure at the pump is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Verify that the flow of concrete is laminar taking concrete's viscosity to be
+
+<m:math><m:semantics>
+<m:mrow><m:mn>48.0</m:mn><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>N/</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>2</m:mn></m:msup><m:mo stretchy="false">)</m:mo><m:mo>·</m:mo><m:mtext>s</m:mtext></m:mrow></m:semantics></m:math>, and given its density is
+
+<m:math><m:semantics><m:mrow><m:mn>2300 kg/</m:mn><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:semantics></m:math>.</para></problem>
+<solution id="fs-id3254227">
+    <para id="import-auto-id3173345">2.54 &lt;&lt; 2000, laminar.</para>
+    </solution>
+    </exercise>
+
+    <exercise id="fs-id2489688" type="problems-exercises">
+<problem id="fs-id1890319">
+  <para id="import-auto-id1941543">At what flow rate might turbulence begin to develop in a water main with a 0.200-m diameter? Assume a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20º C</m:mtext><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" rSup { size 12{ circ } } C} {}</m:annotation></m:semantics></m:math> temperature.</para></problem></exercise>
+
+    <exercise id="fs-id3418228" type="problems-exercises">
+<problem id="fs-id2626395">
+ <para id="import-auto-id2442549">What is the greatest average speed of blood flow at <m:math><m:semantics><m:mrow><m:mtext>37º C</m:mtext></m:mrow></m:semantics></m:math> in an artery of radius 2.00 mm if the flow is to remain laminar? What is the corresponding flow rate? Take the density of blood to be
+
+<m:math><m:semantics><m:mrow><m:mn>1025 kg</m:mn><m:mo stretchy="false">/</m:mo><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:semantics></m:math>.</para></problem>
+<solution id="fs-id2682850">
+    <para id="import-auto-id2448091">1.02 m/s</para><para id="import-auto-id2680677"><m:math><m:semantics><m:mrow><m:mn>1.28</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mn>–2</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>L/s</m:mtext></m:mrow></m:semantics></m:math></para></solution>
+    </exercise>
+
+    <exercise id="fs-id3305938" type="problems-exercises">
+<problem id="fs-id1471750">
+ <para id="import-auto-id1571625">In <link target-id="fs-id1861353">Take-Home Experiment: Inhalation</link>, we measured the average flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> of air traveling through the trachea during each inhalation. Now calculate the average air speed in meters per second through your trachea during each inhalation. The radius of the trachea in adult humans is approximately <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 2} } `m} {}</m:annotation></m:semantics></m:math>. From the data above, calculate the Reynolds number for the air flow in the trachea during inhalation. Do you expect the air flow to be laminar or turbulent?</para></problem></exercise>
+
+    <exercise id="fs-id1431732" type="problems-exercises">
+<problem id="fs-id3158811">
+ <para id="import-auto-id1615463">Gasoline is piped underground from refineries to major users. The flow rate is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>–2</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00" times "10" rSup { size 8{2} } `m rSup { size 8{3} } "/s"} {}</m:annotation></m:semantics></m:math> (about 500 gal/min), the viscosity of gasoline is
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.00</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>–3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00" times "10" rSup { size 8{5} } ` \( "N/m" rSup { size 8{2} }  \)  cdot s} {}</m:annotation></m:semantics></m:math>, and its density is
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>680</m:mtext><m:mspace width="0.25em"/><m:msup><m:mtext>kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"680"`"kg/m" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math>. (a) What minimum diameter must the pipe have if the Reynolds number is to be less than 2000? (b) What pressure difference must be maintained along each kilometer of the pipe to maintain this flow rate?</para></problem>
+<solution id="fs-id2674800">
+    <para id="import-auto-id2071835">(a)<m:math><m:semantics><m:mrow><m:mtext>≥ 13.0 m</m:mtext></m:mrow></m:semantics></m:math></para><para id="import-auto-id3397274">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>68</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext> N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "68" times "10" rSup { size 8{ - 6} } " N/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+
+    <exercise id="fs-id1974364" type="problems-exercises">
+<problem id="fs-id1383105">
+  <para id="import-auto-id2953395">Assuming that blood is an ideal fluid, calculate the critical flow rate at which turbulence is a certainty in the aorta. Take the diameter of the aorta to be 2.50 cm. (Turbulence will actually occur at lower average flow rates, because blood is not an ideal fluid. Furthermore, since blood flow pulses, turbulence may occur during only the high-velocity part of each heartbeat.)</para>
+    </problem></exercise>
+
+    <exercise id="fs-id3385130" type="problems-exercises"><problem id="fs-id1824438">
+ <para id="import-auto-id2639431"><title>Unreasonable Results</title></para>
+<para id="eip-id3007900">A fairly large garden hose has an internal radius of 0.600 cm and a length of 23.0 m. The nozzleless horizontal hose is attached to a faucet, and it delivers 50.0 L/s. (a) What water pressure is supplied by the faucet? (b) What is unreasonable about this pressure? (c) What is unreasonable about the premise? (d) What is the Reynolds number for the given flow? (Take the viscosity of water as <m:math><m:semantics><m:mrow><m:mn>1.005</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–3</m:mn></m:msup><m:mspace width="0.25em"/><m:mo>(</m:mo><m:mtext>N</m:mtext><m:mo stretchy="false">/</m:mo><m:msup><m:mn>m</m:mn><m:mn>2</m:mn></m:msup><m:mo>)</m:mo><m:mo>⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:semantics></m:math>.)</para></problem>
+<solution id="fs-id3163961">
+    <para id="import-auto-id2436655">(a) 23.7 atm or <m:math><m:semantics><m:mrow><m:mtext>344 lb/</m:mtext><m:msup><m:mtext>in</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:semantics></m:math></para><para id="import-auto-id2456070">(b) The pressure is much too high.</para>
+    <para id="import-auto-id3449810">(c) The assumed flow rate is very high for a garden hose.</para>
+    <para id="import-auto-id3103315">(d) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5.27</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "27" times "10" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math> &gt; &gt; 3000, turbulent, contrary to the assumption of laminar flow when using this equation.</para></solution>
+    </exercise>
+
+    </section>
+   </content>
+<glossary>
+    <definition id="import-auto-id1486366"><term>Reynolds number</term> <meaning id="fs-id3053411">a dimensionless parameter that can reveal whether a particular flow is laminar or turbulent</meaning></definition>
+    </glossary>
+</document>

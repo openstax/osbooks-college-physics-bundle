@@ -1,0 +1,967 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Conservation of Energy</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60912</md:content-id>
+  <md:title>Conservation of Energy</md:title>
+  <md:abstract><list>
+<item>Explain the law of the conservation of energy.</item>
+<item>Describe some of the many forms of energy.</item>
+<item>Define efficiency of an energy conversion process as the fraction left as useful energy or work, rather than being transformed, for example, into thermal energy.</item>
+</list></md:abstract>
+  <md:uuid>79447c2d-a842-4328-b91f-2a53b15782d4</md:uuid>
+</metadata>
+
+<content>
+    <section id="fs-id2568702"><title>Law of Conservation of Energy</title><para id="import-auto-id2610565">Energy, as we have noted, is conserved, making it one of the most important physical quantities in nature. The <term id="import-auto-id2096012">law of conservation of energy</term> can be stated as follows:</para><para id="import-auto-id2689220"><emphasis effect="italics">Total energy is constant in any process. It may change in form or be transferred from one system to another, but the total remains the same.</emphasis></para><para id="import-auto-id1957364">We have explored some forms of energy and some ways it can be transferred from one system to another. This exploration led to the definition of two major types of energy—mechanical energy <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>PE</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ("KE"+"PE" right )} {}</m:annotation></m:semantics></m:math> and energy transferred via work done by nonconservative forces <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( W rSub { size 8{"nc"} }  \) } {}</m:annotation></m:semantics></m:math>. But energy takes <emphasis effect="italics">many</emphasis> other forms, manifesting itself in <emphasis effect="italics">many</emphasis> different ways, and we need to be able to deal with all of these before we can write an equation for the above general statement of the conservation of energy.</para></section>
+    <section id="fs-id2206024"><title>Other Forms of Energy than Mechanical Energy</title>
+    <para id="import-auto-id1698850">At this point, we deal with all other forms of energy by lumping them into a single group called other energy (<m:math><m:semantics><m:mrow><m:mrow><m:mtext>OE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"OE"} {}</m:annotation></m:semantics></m:math>). Then we can state the conservation of energy in equation form as</para><equation id="fs-id2198866"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>OE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>OE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{i} } +"PE" rSub { size 8{i} } +W rSub { size 8{"nc"} } +"OE" rSub { size 8{i} } ="KE" rSub { size 8{f} } +"PE" rSub { size 8{f} } +"OE" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1466947">All types of energy and work can be included in this very general statement of conservation of energy. Kinetic energy is <m:math><m:semantics><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"} {}</m:annotation></m:semantics></m:math>, work done by a conservative force is represented by <m:math><m:semantics><m:mrow><m:mrow><m:mtext>PE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE"} {}</m:annotation></m:semantics></m:math>, work done by nonconservative forces is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"nc"} } } {}</m:annotation></m:semantics></m:math>, and all other energies are included as <m:math><m:semantics><m:mrow><m:mrow><m:mtext>OE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"OE"} {}</m:annotation></m:semantics></m:math>. This equation applies to all previous examples; in those situations <m:math><m:semantics><m:mrow><m:mrow><m:mtext>OE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"OE"} {}</m:annotation></m:semantics></m:math> was constant, and so it subtracted out and was not directly considered.</para><note id="fs-id2580294"><label/><title>Making Connections: Usefulness of the Energy Conservation Principle</title>
+    <para id="import-auto-id1158363">The fact that energy is conserved and has many forms makes it very important. You will find that energy is discussed in many contexts, because it is involved in all processes. It will also become apparent that many situations are best understood in terms of energy and that problems are often most easily conceptualized and solved by considering energy.</para>
+    </note><para id="import-auto-id2198022">When does <m:math><m:semantics><m:mrow><m:mrow><m:mtext>OE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"OE"} {}</m:annotation></m:semantics></m:math> play a role? One example occurs when a person eats. Food is oxidized with the release of carbon dioxide, water, and energy. Some of this chemical energy is converted to kinetic energy when the person moves, to potential energy when the person changes altitude, and to thermal energy (another form of <m:math><m:semantics><m:mrow><m:mrow><m:mtext>OE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"OE"} {}</m:annotation></m:semantics></m:math>). </para></section>
+    <section id="fs-id2166527"><title>Some of the Many Forms of Energy</title>
+    <para id="import-auto-id1895848">What are some other forms of energy? You can probably name a number of forms of energy not yet discussed. Many of these will be covered in later chapters, but let us detail a few here. <term id="import-auto-id2771762">Electrical energy</term> is a common form that is converted to many other forms and does work in a wide range of practical situations. Fuels, such as gasoline and food, carry <term id="import-auto-id2094176">chemical energy</term> that can be transferred to a system through oxidation. Chemical fuel can also produce electrical energy, such as in batteries. Batteries can in turn produce light, which is a very pure form of energy. Most energy sources on Earth are in fact stored energy from the energy we receive from the Sun. We sometimes refer to this as <term id="import-auto-id2739439">radiant energy</term>, or electromagnetic radiation, which includes visible light, infrared, and ultraviolet radiation. <term id="import-auto-id2580734">Nuclear energy</term> comes from processes that convert measurable amounts of mass into energy. Nuclear energy is transformed into the energy of sunlight, into electrical energy in power plants, and into the energy of the heat transfer and blast in weapons. Atoms and molecules inside all objects are in random motion. This internal mechanical energy from the random motions is called <term id="import-auto-id2393416">thermal energy</term>, because it is related to the temperature of the object. These and all other forms of energy can be converted into one another and can do work.</para>
+    <para id="import-auto-id2568214"><link target-id="import-auto-id2866785"/> gives the amount of energy stored, used, or released from various objects and in various phenomena. The range of energies and the variety of types and situations is impressive.</para>
+    </section>
+    <note id="fs-id2025907"><label/><title>Problem-Solving Strategies for Energy</title>
+    <para id="import-auto-id1804285">You will find the following problem-solving strategies useful whenever you deal with energy. The strategies help in organizing and reinforcing energy concepts. In fact, they are used in the examples presented in this chapter. The familiar general problem-solving strategies presented earlier—involving identifying physical principles, knowns, and unknowns, checking units, and so on—continue to be relevant here.</para>
+    <para id="import-auto-id2212236"><emphasis>Step 1.</emphasis> Determine the system of interest and identify what information is given and what quantity is to be calculated. A sketch will help.</para>
+    <para id="import-auto-id1703790"><emphasis>Step 2.</emphasis> Examine all the forces involved and determine whether you know or are given the potential energy from the work done by the forces. Then use step 3 or step 4.</para>
+    <para id="import-auto-id2905674"><emphasis>Step 3.</emphasis> If you know the potential energies for the forces that enter into the problem, then forces are all conservative, and you can apply conservation of mechanical energy simply in terms of potential and kinetic energy. The equation expressing conservation of energy is </para>
+    <equation id="eip-423"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{i} } +"PE" rSub { size 8{i} } ="KE" rSub { size 8{f} } +"PE" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1989715"><emphasis>Step 4.</emphasis> If you know the potential energy for only some of the forces, possibly because some of them are nonconservative and do not have a potential energy, or if there are other energies that are not easily treated in terms of force and work, then the conservation of energy law in its most general form must be used. </para>
+    <equation id="fs-id2884767"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>OE</m:mtext><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>OE</m:mtext><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{i} } +"PE" rSub { size 8{i} } +W rSub { size 8{"nc"} } +"OE" rSub { size 8{i} } ="KE" rSub { size 8{f} } +"PE" rSub { size 8{f} } +"OE" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1337667">In most problems, one or more of the terms is zero, simplifying its solution. Do not calculate <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mn>c</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, the work done by conservative forces; it is already incorporated in the <m:math><m:semantics><m:mrow><m:mrow><m:mtext>PE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE"} {}</m:annotation></m:semantics></m:math> terms. </para><para id="import-auto-id2003386"><emphasis>Step 5.</emphasis> You have already identified the types of work and energy involved (in step 2). Before solving for the unknown, <emphasis effect="italics">eliminate terms wherever possible</emphasis> to simplify the algebra. For example, choose <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h=0} {}</m:annotation></m:semantics></m:math> at either the initial or final point, so that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mtext>g</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> is zero there. Then solve for the unknown in the customary manner.</para>
+    <para id="import-auto-id1388656"><emphasis>Step 6.</emphasis> <emphasis effect="italics">Check the answer to see if it is reasonable</emphasis>. Once you have solved a problem, reexamine the forms of work and energy to see if you have set up the conservation of energy equation correctly. For example, work done against friction should be negative, potential energy at the bottom of a hill should be less than that at the top, and so on. Also check to see that the numerical value obtained is reasonable. For example, the final speed of a skateboarder who coasts down a 3-m-high ramp could reasonably be 20 km/h, but <emphasis effect="italics">not</emphasis> 80 km/h.</para>
+    </note><section id="fs-id1758251"><title>Transformation of Energy</title>
+    <para id="import-auto-id2697601">The transformation of energy from one form into others is happening all the time. The chemical energy in food is converted into thermal energy through metabolism; light energy is converted into chemical energy through photosynthesis. In a larger example, the chemical energy contained in coal is converted into thermal energy as it burns to turn water into steam in a boiler. This thermal energy in the steam in turn is converted to mechanical energy as it spins a turbine, which is connected to a generator to produce electrical energy. (In all of these examples, not all of the initial energy is converted into the forms mentioned. This important point is discussed later in this section.)</para>
+    <para id="import-auto-id1453387">Another example of energy conversion occurs in a solar cell. Sunlight impinging on a solar cell (see <link target-id="import-auto-id1626980"/>) produces electricity, which in turn can be used to run an electric motor. Energy is converted from the primary source of solar energy into electrical energy and then into mechanical energy. </para>
+    <figure id="import-auto-id1626980"><media id="import-auto-id1575297" alt="A solar-powered aircraft flying over the sea. Solar cells are on the upper surface of the wings, where they are exposed to sunlight.">
+    <image mime-type="image/jpg" src="../../media/Figure_08_06_01a.jpg" width="300"/>
+    </media>
+
+    <caption>Solar energy is converted into electrical energy by solar cells, which is used to run a motor in this solar-power aircraft. (credit: NASA)</caption></figure><table id="import-auto-id2866785" summary="A table listing various energies containing two columns. One column lists an object or a phenomenon and the corresponding cell in the next column lists the energy associated with the object or phenomenon in joules."><title>Energy of Various Objects and Phenomena </title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+<thead>
+     <row>
+            <entry>Object/phenomenon</entry>
+            <entry align="center">Energy in joules</entry>
+          </row>
+</thead>
+        <tbody>
+          <row>
+            <entry>Big Bang</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>68</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"68"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Energy released in a supernova</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>44</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"44"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Fusion of all the hydrogen in Earth’s oceans</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>34</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"34"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Annual world energy use</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>20</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{4 times "10" rSup { size 8{"20"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Large fusion bomb (9 megaton)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>8</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>16</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." 8 times "10" rSup { size 8{"16"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 kg hydrogen (fusion to helium)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>4</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>14</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{6 "." 4 times "10" rSup { size 8{"14"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 kg uranium (nuclear fission)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>13</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{8 "." 0 times "10" rSup { size 8{"13"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Hiroshima-size fission bomb (10 kiloton)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>2</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>13</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{4 "." 2 times "10" rSup { size 8{"13"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>90,000-metric ton aircraft carrier at 30 knots</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>1</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mtext>10</m:mtext>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 1 times "10" rSup { size 8{"10"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 barrel crude oil</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>5</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>9</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>9</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{5 "." 9 times "10" rSup { size 8{9} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 metric ton TNT</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>2</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>9</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{4 "." 2 times "10" rSup { size 8{9} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 gallon of gasoline</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>2</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>8</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 2 times "10" rSup { size 8{8} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Daily home electricity use (developed countries)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>7</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>7</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{7 times "10" rSup { size 8{7} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Daily adult food intake (recommended)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>2</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>7</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 2 times "10" rSup { size 8{7} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1000-kg car at 90 km/h</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>1</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>5</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." 1 times "10" rSup { size 8{5} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 g fat (9.3 kcal)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>9</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." 9 times "10" rSup { size 8{4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>ATP hydrolysis reaction</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>2</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." 2 times "10" rSup { size 8{4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 g carbohydrate (4.1 kcal)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>7</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 7 times "10" rSup { size 8{4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>1 g protein (4.1 kcal)</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>7</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 7 times "10" rSup { size 8{4} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Tennis ball at 100 km/h</entry>
+            <entry>
+<m:math display="block">
+<m:mtext>22</m:mtext>
+ </m:math>
+</entry>
+          </row>
+          <row>
+            <entry>Mosquito <m:math><m:semantics><m:mrow><m:mo>(</m:mo><m:msup><m:mn>10</m:mn><m:mn>–2</m:mn></m:msup><m:mspace width="0.25em"/><m:mn>g at 0.5 m/s</m:mn><m:mo>)</m:mo></m:mrow></m:semantics></m:math></entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>3</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mn>6</m:mn>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 3 times "10" rSup { size 8{-6} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+          <row>
+            <entry>Single electron in a TV tube beam</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>4</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mtext>15</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{4 "." 0 times "10" rSup { size 8{-"15"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+
+          <row>
+            <entry>Energy to break one DNA strand</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mtext>19</m:mtext>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{-"19"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row>
+
+
+        </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table></section>
+    <section id="fs-id1309904"><title>Efficiency</title>
+    <para id="import-auto-id2061613">Even though energy is conserved in an energy conversion process, the output of <emphasis effect="italics">useful energy</emphasis> or work will be less than the energy input. The <term id="import-auto-id2408157">efficiency</term> <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"} {}</m:annotation></m:semantics></m:math> of an energy conversion process is defined as </para><equation id="fs-id2849499"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mtext>Efficiency </m:mtext>
+                <m:mo stretchy="false">(</m:mo>
+                <m:mstyle fontstyle="italic">
+                  <m:mrow>
+                    <m:mtext>Eff</m:mtext>
+                  </m:mrow>
+                </m:mstyle>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mtext>useful energy or work output</m:mtext>
+                      <m:mtext>total energy input</m:mtext>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:msub>
+                      <m:mi>W</m:mi>
+                      <m:mrow>
+                        <m:mtext>out</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                    <m:msub>
+                      <m:mi>E</m:mi>
+                      <m:mrow>
+                        <m:mtext>in</m:mtext>
+                      </m:mrow>
+                    </m:msub>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"Efficiency " \(  ital "Eff" \) = {  {"useful energy or work output"}  over  {"total energy input"} } = {  {W rSub { size 8{"out"} } }  over  {E rSub { size 8{"in"} } } }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1615246"><link target-id="import-auto-id1330125"/> lists some efficiencies of mechanical devices and human activities. In a coal-fired power plant, for example, about 40% of the chemical energy in the coal becomes useful electrical energy. The other 60% transforms into other (perhaps less useful) energy forms, such as thermal energy, which is then released to the environment through combustion gases and cooling towers.</para>
+    <table id="import-auto-id1330125" summary="A table titled efficiency of the human body and mechanical devices, containing two columns. One column lists a human activity or a mechanical device and the corresponding cell in the next column lists the efficiency in percentage associated with the respective human activity or mechanical device."><title>Efficiency of the Human Body and Mechanical Devices</title>
+<tgroup cols="2"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <thead>
+          <row>
+            <entry>Activity/device</entry>
+            <entry align="center">Efficiency (%)<footnote id="eip-id2150183">Representative values</footnote></entry>
+          </row>
+        </thead>
+        <tbody>
+          <row>
+            <entry>Cycling and climbing</entry>
+            <entry align="center">20</entry>
+          </row>
+          <row>
+            <entry>Swimming, surface</entry>
+            <entry align="center">2</entry>
+          </row>
+          <row>
+            <entry>Swimming, submerged</entry>
+            <entry align="center">4</entry>
+          </row>
+          <row>
+            <entry>Shoveling</entry>
+            <entry align="center">3</entry>
+          </row>
+          <row>
+            <entry>Weightlifting</entry>
+            <entry align="center">9</entry>
+          </row>
+          <row>
+            <entry>Steam engine</entry>
+            <entry align="center">17</entry>
+          </row>
+          <row>
+            <entry>Gasoline engine</entry>
+            <entry align="center">30</entry>
+          </row>
+          <row>
+            <entry>Diesel engine</entry>
+            <entry align="center">35</entry>
+          </row>
+          <row>
+            <entry>Nuclear power plant</entry>
+            <entry align="center">35</entry>
+          </row>
+          <row>
+            <entry>Coal power plant</entry>
+            <entry align="center">42</entry>
+          </row>
+          <row>
+            <entry>Electric motor</entry>
+            <entry align="center">98</entry>
+          </row>
+          <row>
+            <entry>Compact fluorescent light</entry>
+            <entry align="center">20</entry>
+          </row>
+          <row>
+            <entry>Gas heater (residential)</entry>
+            <entry align="center">90</entry>
+          </row>
+          <row>
+            <entry>Solar cell</entry>
+            <entry align="center">10</entry>
+          </row>
+                </tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table>
+<note id="fs-id3224724" class="interactive"><label/><title>PhET Explorations: Masses and Springs</title>
+<para id="eip-id1169737844972">A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.</para>
+<figure id="fs-id2942123">
+  <media id="MassesandSprings" alt="This simulation allows you to explore a mass and spring laboratory.">
+  <iframe width="660" height="371.4" src="https://openstax.org/l/02masses_springs"/>
+  </media>
+</figure>
+</note></section>
+<section id="fs-id1911538" class="section-summary">
+<title>Section Summary</title><list id="fs-id1897388"><item id="import-auto-id1537867">The law of conservation of energy states that the total energy is constant in any process. Energy may change in form or be transferred from one system to another, but the total remains the same.</item>
+    <item id="import-auto-id1839690">When all forms of energy are considered, conservation of energy is written in equation form as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mn>i</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mn>i</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>OE</m:mtext><m:mrow><m:mn>i</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mtext>OE</m:mtext><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{i} } +"PE" rSub { size 8{i} } +W rSub { size 8{"nc"} } +"OE" rSub { size 8{i} } ="KE" rSub { size 8{f} } +"PE" rSub { size 8{f} } +"OE" rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mtext>OE</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"OE"} {}</m:annotation></m:semantics></m:math> is all <emphasis>other forms of energy</emphasis> besides mechanical energy.</item>
+    <item id="import-auto-id1317294">Commonly encountered forms of energy include electric energy, chemical energy, radiant energy, nuclear energy, and thermal energy.</item>
+    <item id="import-auto-id1787512">Energy is often utilized to do work, but it is not possible to convert all the energy of a system to work.</item>
+    <item id="import-auto-id1628394">The efficiency <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"} {}</m:annotation></m:semantics></m:math> of a machine or human is defined to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Eff</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Eff"= {  {W rSub { size 8{"out"} } }  over  {E rSub { size 8{"in"} } } } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>out</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"out"} } } {}</m:annotation></m:semantics></m:math><sub/> is useful work output and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mtext>in</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{"in"} } } {}</m:annotation></m:semantics></m:math><sub/> is the energy consumed.</item>
+</list></section><section id="fs-id1758921" type="conceptual-questions" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id2075302" type="conceptual-questions"><problem id="fs-id1537953">
+    <para id="import-auto-id1788146">Consider the following scenario. A car for which friction is <emphasis effect="italics">not</emphasis> negligible accelerates from rest down a hill, running out of gasoline after a short distance. The driver lets the car coast farther down the hill, then up and over a small crest. He then coasts down that hill into a gas station, where he brakes to a stop and fills the tank with gasoline. Identify the forms of energy the car has, and how they are changed and transferred in this series of events. (See <link target-id="import-auto-id2100801"/>.)</para><figure id="import-auto-id2100801"><media id="import-auto-id2626392" alt="A car coasting downhill, moving over a crest then again moving downhill and finally stopping at a gas station. Each of these positions is labeled with an arrow pointing downward.">
+        <image mime-type="image/jpg" src="../../media/Figure_08_06_02a.jpg" width="500"/>
+      </media>
+
+    <caption>A car experiencing non-negligible friction coasts down a hill, over a small crest, then downhill again, and comes to a stop at a gas station.</caption></figure></problem></exercise>
+<exercise id="fs-id1471362" type="conceptual-questions"><problem id="fs-id1698457">
+    <para id="import-auto-id1848389">Describe the energy transfers and transformations for a javelin, starting from the point at which an athlete picks up the javelin and ending when the javelin is stuck into the ground after being thrown. </para>
+</problem></exercise>
+<exercise id="fs-id2098120" type="conceptual-questions"><problem id="fs-id1910498">
+    <para id="import-auto-id1452674">Do devices with efficiencies of less than one violate the law of conservation of energy? Explain. </para></problem></exercise>
+<exercise id="fs-id1172158" type="conceptual-questions"><problem id="fs-id1451196">
+    <para id="import-auto-id1389143">List four different forms or types of energy. Give one example of a conversion from each of these forms to another form. </para>
+</problem></exercise>
+<exercise id="fs-id1528780" type="conceptual-questions"><problem id="fs-id2045976">
+    <para id="import-auto-id1502617">List the energy conversions that occur when riding a bicycle. </para>
+</problem></exercise>
+</section>
+
+<section id="fs-id1703148" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1626731" type="problems-exercises"><problem id="fs-id1925506">
+    <para id="import-auto-id1844287">Using values from <link target-id="import-auto-id2866785"/>, how many DNA molecules could be broken by the energy carried by a single electron in the beam of an old-fashioned TV tube? (These electrons were not dangerous in themselves, but they did create dangerous X-rays. Later model tube TVs had shielding that absorbed X-rays before they escaped and exposed viewers.)</para></problem><solution id="fs-id1980787">
+    <para id="import-auto-id1572328"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mi>×</m:mi>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+
+                      <m:mrow>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+
+                  </m:msup>
+                  <m:mtext> molecules</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{4 times "10" rSup { size 8{4} } " molecules"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+<exercise id="eip-309" type="problems-exercises"><problem id="eip-267">
+  <para id="eip-829">
+    Using energy considerations and assuming negligible air resistance, show that a rock thrown from a bridge 20.0 m above water with an initial speed of 15.0 m/s strikes the water with a speed of 24.8 m/s independent of the direction thrown.
+  </para>
+</problem>
+
+<solution id="eip-232">
+  <para id="eip-426">Equating <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>ΔPE</m:mtext><m:mrow><m:mn>g</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ΔKE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ"KE"} {}</m:annotation></m:semantics></m:math>, we obtain <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle>
+<m:mo stretchy="false">+</m:mo><m:msup>
+<m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mtext>9.80 m</m:mtext><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>20.0 m</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>15.0 m/s</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msqrt></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>24.8 m/s</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= sqrt {2 ital "gh"+v rSub { size 8{0}   rSup { size 8{2} } } } = sqrt {2 \( 9 "." "80"" m/s" rSup { size 8{2} }  \)  \( "20" "." 0" m" \) + \( "15" "." "0 m/s" \)  rSup { size 8{2} } } ="24" "." 8" m/s"} {}</m:annotation></m:semantics></m:math>
+  </para></solution>
+</exercise><exercise id="fs-id1594186" type="problems-exercises"><problem id="fs-id1889416">
+    <para id="import-auto-id1089686">If the energy in fusion bombs were used to supply the energy needs of the world, how many of the 9-megaton variety would be needed for a year’s supply of energy (using data from <link target-id="import-auto-id2866785"/>)? This is not as far-fetched as it may sound—there are thousands of nuclear bombs, and their energy can be trapped in underground explosions and converted to electricity, as natural geothermal energy is.</para>
+    </problem></exercise>
+<exercise id="fs-id1523087" type="problems-exercises"><problem id="fs-id1415852">
+    <para id="import-auto-id1999125">(a) Use of hydrogen fusion to supply energy is a dream that may be realized in the next century. Fusion would be a relatively clean and almost limitless supply of energy, as can be seen from <link target-id="import-auto-id2866785"/>. To illustrate this, calculate how many years the present energy needs of the world could be supplied by one millionth of the oceans’ hydrogen fusion energy. (b) How does this time compare with historically significant events, such as the duration of stable economic systems?</para>
+    </problem>
+<solution id="eip-id1855045">
+<para id="eip-id1855047">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>years</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" times "10" rSup { size 8{6} } `"years"} {}</m:annotation></m:semantics></m:math></para><para id="eip-id2068924">(b) This is much, much longer than human time scales.</para>
+
+</solution></exercise></section>
+  </content>
+    <glossary>
+    <definition id="import-auto-id2748477"><term id="import-auto-id2866094">law of conservation of energy</term> <meaning id="fs-id1455501">the general law that total energy is constant in any process; energy may change in form or be transferred from one system to another, but the total remains the same</meaning></definition>
+    <definition id="import-auto-id2101389"><term id="import-auto-id2187394">electrical energy</term> <meaning id="fs-id1593493">the energy carried by a flow of charge</meaning></definition>
+    <definition id="import-auto-id2688755"><term id="import-auto-id684982">chemical energy</term> <meaning id="fs-id2012484">the energy in a substance stored in the bonds between atoms and molecules that can be released in a chemical reaction</meaning></definition>
+    <definition id="import-auto-id2584269"><term id="import-auto-id1856658">radiant energy</term> <meaning id="fs-id1964070">the energy carried by electromagnetic waves</meaning></definition>
+    <definition id="import-auto-id1582487"><term id="import-auto-id1389125">nuclear energy</term> <meaning id="fs-id1745402">energy released by changes within atomic nuclei, such as the fusion of two light nuclei or the fission of a heavy nucleus</meaning></definition>
+    <definition id="import-auto-id2009020"><term id="import-auto-id2582378">thermal energy</term> <meaning id="fs-id2187325">the energy within an object due to the random motion of its atoms and molecules that accounts for the object's temperature</meaning></definition>
+<definition id="fs-id1636613"><term id="import-auto-id1290297">efficiency</term> <meaning id="fs-id1116189">a measure of the effectiveness of the input of energy to do work; useful energy or work divided by the total input of energy</meaning></definition>
+    </glossary>
+
+</document>

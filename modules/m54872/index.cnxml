@@ -1,0 +1,2285 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Quarks: Is That All There Is?</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m54872</md:content-id>
+  <md:title>Quarks: Is That All There Is?</md:title>
+  <md:abstract/>
+  <md:uuid>e2c852b6-a97f-45bc-898a-229aa2f10c8f</md:uuid>
+</metadata>
+
+<content>
+
+<section id="fs-id2192895" class="learning-objectives">
+  <title>Learning Objectives</title>
+  <para id="fs-id2867366">By the end of this section, you will be able to:</para>
+  <list id="fs-id2181302"><item>Define fundamental particle.</item>
+<item>Describe quark and antiquark.</item>
+<item>List the flavors of quarks.</item>
+<item>Outline the quark composition of hadrons.</item>
+<item>Determine quantum numbers from quark composition.</item>
+  </list><para id="fs-id1418120">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id2000092"><item><emphasis effect="bold">1.A.2.1</emphasis>: The student is able to construct representations of the differences between a fundamental particle and a system composed of fundamental particles and to relate this to the properties and scales of the systems being investigated.</item>
+
+  </list></section>
+
+    <para id="import-auto-id1169737966010">Quarks have been mentioned at various points in this text as fundamental building blocks and members of the exclusive club of truly elementary particles. Note that an elementary or <term id="import-auto-id1169738051993">fundamental particle</term> has no substructure (it is not made of other particles) and has no finite size other than its wavelength. This does not mean that fundamental particles are stable—some decay, while others do not. Keep in mind that <emphasis effect="italics">all</emphasis> leptons seem to be fundamental, whereas<emphasis effect="italics">no</emphasis> hadrons are fundamental. There is strong evidence that <term id="import-auto-id1169738116422">quarks</term> are the fundamental building blocks of hadrons as seen in <link target-id="import-auto-id1169737965898"/>. Quarks are the second group of fundamental particles (leptons are the first). The third and perhaps final group of fundamental particles is the carrier particles for the four basic forces. Leptons, quarks, and carrier particles may be all there is. In this module we will discuss the quark substructure of hadrons and its relationship to forces as well as indicate some remaining questions and problems.</para><figure id="import-auto-id1169737965898"><media id="import-auto-id1169738219892" alt="The figure shows four spheres that are labeled proton, neutron, positive pion, and negative pion. The proton sphere contains a blue up quark with spin up, a green down quark with spin down, and a red up quark with spin up. Below the figure are two equations. The upper equation is labeled spin and reads one half plus one half minus one half equals one half, and the lower equation is labeled charge and reads plus two thirds plus two thirds minus one third equals one. The neutron sphere contains a green up quark with spin down, a blue down quark with spin up, and a red down quark with spin up. The corresponding spin equation reads minus one half plus one half plus one half equals one half, and the charge equation reads plus two thirds minus one third minus one third equals zero. The positive pion sphere contains a red up quark with spin up and an anti red anti down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads plus two thirds plus one third equals plus one. The negative pion sphere contains a green anti up quark with spin up and an anti green down quark with spin down. The corresponding spin equation reads plus one half minus one half equals zero, and the charge equation reads minus two thirds minus one third equals minus one.">
+        <image mime-type="image/jpg" src="../../media/Figure_34_05_01.jpg"/>
+      </media>
+
+    <caption>All baryons, such as the proton and neutron shown here, are composed of three quarks. All mesons, such as the pions shown here, are composed of a quark-antiquark pair. Arrows represent the spins of the quarks, which, as we shall see, are also colored. The colors are such that they need to add to white for any possible combination of quarks.</caption></figure><section id="fs-id1169738010685">
+    <title>Conception of Quarks</title>
+    <para id="import-auto-id1169736627488">Quarks were first proposed independently by American physicists Murray Gell-Mann and George Zweig in 1963. Their quaint name was taken by Gell-Mann from a James Joyce novel—Gell-Mann was also largely responsible for the concept and name of strangeness. (Whimsical names are common in particle physics, reflecting the personalities of modern physicists.) Originally, three quark types—or <term id="import-auto-id1169737980329">flavors</term>—were proposed to account for the then-known mesons and baryons. These quark flavors are named <term id="import-auto-id1169738117705">up</term> (<emphasis effect="italics">u</emphasis>), <term id="import-auto-id1169738086585">down</term> (<emphasis effect="italics">d</emphasis>), and <term id="import-auto-id1169738116986">strange</term> (<emphasis effect="italics">s</emphasis>). All quarks have half-integral spin and are thus fermions. All mesons have integral spin while all baryons have half-integral spin. Therefore, mesons should be made up of an even number of quarks while baryons need to be made up of an odd number of quarks. <link target-id="import-auto-id1169737965898"/> shows the quark substructure of the proton, neutron, and two pions. The most radical proposal by Gell-Mann and Zweig is the fractional charges of quarks, which are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +-  left ( {  {2}  over  {3} }  right )q rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {1}  over  {3} }  right )q rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math>, whereas all directly observed particles have charges that are integral multiples of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math>. Note that the fractional value of the quark does not violate the fact that the <emphasis effect="italics">e</emphasis> is the smallest unit of charge that is observed, because a free quark cannot exist. <link target-id="import-auto-id1169738110830"/> lists characteristics of the six quark flavors that are now thought to exist. Discoveries made since 1963 have required extra quark flavors, which are divided into three families quite analogous to leptons. </para>
+    </section>
+    <section id="fs-id1169737918086">
+    <title>How Does it Work?</title><para id="import-auto-id1169737819809">To understand how these quark substructures work, let us specifically examine the proton, neutron, and the two pions pictured in <link target-id="import-auto-id1169737965898"/> before moving on to more general considerations. First, the proton <emphasis effect="italics">p</emphasis> is composed of the three quarks <emphasis effect="italics">uud</emphasis>, so that its total charge is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ left ( {  {2}  over  {3} }  right )q rSub { size 8{e} } + left ( {  {2}  over  {3} }  right )q rSub { size 8{e} }  -  left ( {  {1}  over  {3} }  right )q rSub { size 8{e} } =q rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math>, as expected. With the spins aligned as in the figure, the proton's intrinsic spin is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mfenced></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ left ( {  {1}  over  {2} }  right )+ left ( {  {1}  over  {2} }  right ) -  left ( {  {1}  over  {2} }  right )= left ( {  {1}  over  {2} }  right )} {}</m:annotation></m:semantics></m:math>, also as expected. Note that the spins of the up quarks are aligned, so that they would be in the same state except that they have different colors (another quantum number to be elaborated upon a little later). Quarks obey the Pauli exclusion principle. Similar comments apply to the neutron <emphasis effect="italics">n</emphasis>, which is composed of the three quarks <emphasis effect="italics">udd</emphasis>. Note also that the neutron is made of charges that add to zero but move internally, producing its well-known magnetic moment. When the neutron <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> decays, it does so by changing the flavor of one of its quarks. Writing neutron <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> decay in terms of quarks,</para><para id="import-auto-id1169738136741"><equation id="eip-id1169611872229">
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rightarrow p+β rSup { size 8{ - {}} } + { bar  {v}} rSub { size 8{e} } } {}</m:annotation></m:semantics><m:mtext>  becomes  </m:mtext><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>udd</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>uud</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "udd" rightarrow  ital "uud"+β rSup { size 8{ - {}} } + { bar  {v}} rSub { size 8{e} } } {}</m:annotation></m:semantics><m:mtext>.</m:mtext></m:math></equation></para><para id="import-auto-id1169737758093">We see that this is equivalent to a down quark changing flavor to become an up quark:</para>
+    <para id="import-auto-id1169737923626"><equation id="eip-id1761747">
+<m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>d</m:mi>
+                  <m:mo stretchy="false">→</m:mo>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mi>u</m:mi>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msup>
+                        <m:mi>β</m:mi>
+
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mrow/>
+                            </m:mrow>
+                          </m:mrow>
+
+                      </m:msup>
+                    </m:mrow>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mover accent="true">
+                        <m:mi>v</m:mi>
+                        <m:mo stretchy="true">-</m:mo>
+                      </m:mover>
+
+                        <m:mrow>
+                          <m:mi>e</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{d rightarrow u+β rSup { size 8{ - {}} } + { bar  {v}} rSub { size 8{e} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></para><table id="import-auto-id1169738110830" summary="Quarks and Antiquarks"><title>Quarks and Antiquarks<footnote id="eip-id2676012">The lower of the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- {}} {}</m:annotation></m:semantics></m:math> symbols are the values for antiquarks.</footnote></title><tgroup cols="11"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <colspec colnum="4" colname="c4"/>
+        <colspec colnum="5" colname="c5"/>
+        <colspec colnum="6" colname="c6"/>
+        <colspec colnum="7" colname="c7"/>
+        <colspec colnum="8" colname="c8"/>
+        <colspec colnum="9" colname="c9"/>
+        <colspec colnum="10" colname="c10"/>
+        <colspec colnum="11" colname="c11"/>
+<thead>
+<row>
+            <entry>
+              <emphasis>Name</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Symbol</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Antiparticle</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Spin</emphasis>
+            </entry>
+            <entry>
+              <emphasis>Charge</emphasis>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>B</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+
+<footnote id="eip-id1980217"><m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> is baryon number, <emphasis effect="italics">S</emphasis> is strangeness, <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> is charm, <m:math><m:semantics><m:mrow><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> is bottomness, <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is topness.</footnote>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>S</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{S} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>b</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              Mass <m:math>
+<m:mo stretchy="false">(</m:mo>
+<m:mtext>GeV</m:mtext>
+<m:mo stretchy="false">/</m:mo>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo stretchy="false">)</m:mo>
+</m:math><footnote id="eip-id2598220">Values are approximate, are not directly observable, and vary with model.</footnote>
+
+            </entry>
+          </row>
+</thead>
+<tbody>
+<row>
+            <entry>Up</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>u</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mover accent="true">
+                          <m:mi>u</m:mi>
+                          <m:mo stretchy="true">-</m:mo>
+                        </m:mover>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {u}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+<entry>1/2</entry>
+                               <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">±</m:mo>
+                            <m:mfrac>
+                              <m:mn>2</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>q</m:mi>
+
+                              <m:mrow>
+                                <m:mi>e</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {2}  over  {3} } q rSub { size 8{e} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+                          <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {1}  over  {3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0.005</entry>
+          </row><row>
+            <entry>Down</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>d</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mover accent="true">
+                          <m:mi>d</m:mi>
+                          <m:mo stretchy="true">-</m:mo>
+                        </m:mover>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {d}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+              <entry>1/2</entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∓</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>q</m:mi>
+
+                              <m:mrow>
+                                <m:mi>e</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -+  {  {1}  over  {3} } q rSub { size 8{e} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {1}  over  {3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0.008</entry>
+          </row>
+            <row>
+            <entry namest="c1" nameend="c11"/>
+            </row>
+             <row>
+            <entry>Strange</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>s</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{s} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mover accent="true">
+                          <m:mi>s</m:mi>
+                          <m:mo stretchy="true">-</m:mo>
+                        </m:mover>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {s}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+              <entry>1/2</entry>
+                        <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∓</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>q</m:mi>
+
+                              <m:mrow>
+                                <m:mi>e</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -+  {  {1}  over  {3} } q rSub { size 8{e} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {1}  over  {3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∓</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -+ 1} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0.50</entry>
+          </row><row>
+            <entry>Charmed</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>c</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mover accent="true">
+                          <m:mi>c</m:mi>
+                          <m:mo stretchy="true">-</m:mo>
+                        </m:mover>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {c}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+              <entry>1/2</entry>
+                        <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">±</m:mo>
+                            <m:mfrac>
+                              <m:mn>2</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>q</m:mi>
+
+                              <m:mrow>
+                                <m:mi>e</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {2}  over  {3} } q rSub { size 8{e} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {1}  over  {3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +- 1} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>1.6</entry>
+          </row>
+           <row>
+            <entry namest="c1" nameend="c11"/>
+            </row>           <row>
+            <entry>Bottom</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>b</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mover accent="true">
+                          <m:mi>b</m:mi>
+                          <m:mo stretchy="true">-</m:mo>
+                        </m:mover>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {b}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+              <entry>1/2</entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">∓</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>q</m:mi>
+
+                              <m:mrow>
+                                <m:mi>e</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -+  {  {1}  over  {3} } q rSub { size 8{e} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {1}  over  {3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">∓</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ -+ 1} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>5</entry>
+          </row><row>
+            <entry>Top</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>t</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mover accent="true">
+                          <m:mi>t</m:mi>
+                          <m:mo stretchy="true">-</m:mo>
+                        </m:mover>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {t}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+              <entry>1/2</entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">±</m:mo>
+                            <m:mfrac>
+                              <m:mn>2</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:msub>
+                            <m:mi>q</m:mi>
+
+                              <m:mrow>
+                                <m:mi>e</m:mi>
+                              </m:mrow>
+
+                          </m:msub>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {2}  over  {3} } q rSub { size 8{e} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +-  {  {1}  over  {3} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>0</entry>
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mo stretchy="false">±</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ +- 1} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+            <entry>173</entry>
+          </row></tbody>
+
+</tgroup>
+</table><table id="import-auto-id1169737909561" summary=""><title>Quark Composition of Selected Hadrons<footnote id="eip-id2821515">These two mesons are different mixtures, but each is its own antiparticle, as indicated by its quark composition.</footnote></title><tgroup cols="3">
+        <colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead><row>
+            <entry>
+              <emphasis>Particle</emphasis>
+            </entry>
+            <entry namest="c2" nameend="c3">
+              <emphasis>Quark Composition</emphasis>
+            </entry>
+          </row></thead><tbody><row>
+            <entry namest="c1" nameend="c3">
+              <emphasis><emphasis effect="italics">Mesons</emphasis></emphasis>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>π</m:mi>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>u</m:mi>
+                          <m:mover accent="true">
+                            <m:mi>d</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{u { bar  {d}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>π</m:mi>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{ - {}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mover accent="true">
+                            <m:mi>u</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                          <m:mi>d</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {u}}d} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>π</m:mi>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u { bar  {u}}} {}</m:annotation></m:semantics></m:math>, <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d { bar  {d}}} {}</m:annotation></m:semantics></m:math> mixture<footnote id="eip-id2821506">These two mesons are different mixtures, but each is its own antiparticle, as indicated by its quark composition.</footnote></entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>η</m:mi>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{η rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry><m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u { bar  {u}}} {}</m:annotation></m:semantics></m:math>, <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d { bar  {d}}} {}</m:annotation></m:semantics></m:math> mixture<footnote id="eip-id2821527">These two mesons are different mixtures, but each is its own antiparticle, as indicated by its quark composition.</footnote></entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>K</m:mi>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{K rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>d</m:mi>
+                          <m:mover accent="true">
+                            <m:mi>s</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{d { bar  {s}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mover accent="true">
+                            <m:mi>K</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {K}} rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mover accent="true">
+                            <m:mi>d</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                          <m:mi>s</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {d}}s} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>K</m:mi>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{K rSup { size 8{+{}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>u</m:mi>
+                          <m:mover accent="true">
+                            <m:mi>s</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{u { bar  {s}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mi>K</m:mi>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{K rSup { size 8{ - {}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mover accent="true">
+                            <m:mi>u</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                          <m:mi>s</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {u}}s} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>J</m:mi>
+                          <m:mo stretchy="false">/</m:mo>
+                          <m:mi>ψ</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{J/ψ} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>c</m:mi>
+                          <m:mover accent="true">
+                            <m:mi>c</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{c { bar  {c}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2"><m:math>
+<m:mi>ϒ</m:mi>
+</m:math></entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>b</m:mi>
+                          <m:mover accent="true">
+                            <m:mi>b</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{b { bar  {b}}} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c3">
+              <emphasis><emphasis effect="italics">Baryons<footnote id="eip-id1277462">Antibaryons have the antiquarks of their counterparts. The antiproton <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {p}}} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {u}} { bar  {u}} { bar  {d}}} {}</m:annotation></m:semantics></m:math>, for example.</footnote>,<footnote id="eip-id2525378">Baryons composed of the same quarks are different states of the same particle. For example, the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> is an excited state of the proton.</footnote> </emphasis>
+              <emphasis/></emphasis>
+            </entry>
+
+
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>p</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{p} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uud</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uud"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mi>n</m:mi>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>udd</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uud"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Δ</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>udd</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uud"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Δ</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{+{}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uud</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uud"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Δ</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{ - {}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>ddd</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "ddd"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Δ</m:mtext>
+
+                            <m:mrow>
+                              <m:mtext>++</m:mtext>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uuu</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uuu"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Λ</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Λ rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uds</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uds"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Σ</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Σ rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uds</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uds"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Σ</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">+</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Σ rSup { size 8{+{}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uus</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uus"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Σ</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Σ rSup { size 8{ - {}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dds</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "dds"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Ξ</m:mtext>
+
+                            <m:mrow>
+                              <m:mn>0</m:mn>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Ξ rSup { size 8{0} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+                       <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>uss</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "uss"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext>Ξ</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{Ξ rSup { size 8{ - {}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>dss</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "dss"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row><row>
+            <entry namest="c1" nameend="c2">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">Ω</m:mo>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mrow/>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+
+            <entry>
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>sss</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{ ital "sss"} {}</m:annotation>
+                </m:semantics>
+              </m:math>
+            </entry>
+          </row></tbody>
+      </tgroup>
+    </table><para id="import-auto-id1169736614539">This is an example of the general fact that <emphasis>the weak nuclear force can change the flavor of a quark</emphasis>. By general, we mean that any quark can be converted to any other (change flavor) by the weak nuclear force. Not only can we get <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">→</m:mo><m:mi>u</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rightarrow u} {}</m:annotation></m:semantics></m:math>, we can also get <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo><m:mi>d</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rightarrow d} {}</m:annotation></m:semantics></m:math>. Furthermore, the strange quark can be changed by the weak force, too, making <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">→</m:mo><m:mi>u</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s rightarrow u} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>s</m:mi><m:mo stretchy="false">→</m:mo><m:mi>d</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{s rightarrow d} {}</m:annotation></m:semantics></m:math> possible. This explains the violation of the conservation of strangeness by the weak force noted in the preceding section. Another general fact is that <emphasis>the strong nuclear force cannot change the flavor of a quark.</emphasis></para>
+    <para id="import-auto-id1169736814482">Again, from <link target-id="import-auto-id1169737965898"/>, we see that the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> meson (one of the three pions) is composed of an up quark plus an antidown quark, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u { bar  {d}}} {}</m:annotation></m:semantics></m:math>. Its total charge is thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ left ( {  {2}  over  {3} }  right )q rSub { size 8{e} } + left ( {  {1}  over  {3} }  right )q rSub { size 8{e} } =q rSub { size 8{e} } } {}</m:annotation></m:semantics></m:math>, as expected. Its baryon number is 0, since it has a quark and an antiquark with baryon numbers <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ left ( {  {1}  over  {3} }  right ) -  left ( {  {1}  over  {3} }  right )=0} {}</m:annotation></m:semantics></m:math>. The <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> half-life is relatively long since, although it is composed of matter and antimatter, the quarks are different flavors and the weak force should cause the decay by changing the flavor of one into that of the other. The spins of the <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {d}}} {}</m:annotation></m:semantics></m:math> quarks are antiparallel, enabling the pion to have spin zero, as observed experimentally. Finally, the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> meson shown in <link target-id="import-auto-id1169737965898"/> is the antiparticle of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> meson, and it is composed of the corresponding quark antiparticles. That is, the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> meson is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u { bar  {d}}} {}</m:annotation></m:semantics></m:math>, while the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> meson is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mi>d</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {u}}d} {}</m:annotation></m:semantics></m:math>. These two pions annihilate each other quickly, because their constituent quarks are each other's antiparticles.</para>
+    <para id="import-auto-id1169737991376">Two general rules for combining quarks to form hadrons are:</para>
+    <list id="fs-id1169736588803" list-type="enumerated" number-style="arabic"><item id="import-auto-id1169737713616">Baryons are composed of three quarks, and antibaryons are composed of three antiquarks.</item>
+    <item id="import-auto-id1169738052552">Mesons are combinations of a quark and an antiquark.</item>
+    </list>
+    <para id="import-auto-id1169737988891">One of the clever things about this scheme is that only integral charges result, even though the quarks have fractional charge.</para>
+    </section>
+    <section id="fs-id1169738084019">
+        <title>All Combinations are Possible</title>
+    <para id="import-auto-id1169738144883">All quark combinations are possible. <link target-id="import-auto-id1169737909561"/> lists some of these combinations. When Gell-Mann and Zweig proposed the original three quark flavors, particles corresponding to all combinations of those three had not been observed. The pattern was there, but it was incomplete—much as had been the case in the periodic table of the elements and the chart of nuclides. The <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> particle, in particular, had not been discovered but was predicted by quark theory. Its combination of three strange quarks, <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>sss</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "sss"} {}</m:annotation></m:semantics></m:math>, gives it a strangeness of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 3} {}</m:annotation></m:semantics></m:math> (see <link document="m54868" target-id="import-auto-id1169736657305"/>) and other predictable characteristics, such as spin, charge, approximate mass, and lifetime. If the quark picture is complete, the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> should exist. It was first observed in 1964 at Brookhaven National Laboratory and had the predicted characteristics as seen in <link target-id="fs-id1853299"/>. The discovery of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> was convincing indirect evidence for the existence of the three original quark flavors and boosted theoretical and experimental efforts to further explore particle physics in terms of quarks.</para><note id="fs-id1169738193593"><label/>
+    <title>Patterns and Puzzles: Atoms, Nuclei, and Quarks</title>
+    <para id="import-auto-id1169737958637">Patterns in the properties of atoms allowed the periodic table to be developed. From it, previously unknown elements were predicted and observed. Similarly, patterns were observed in the properties of nuclei, leading to the chart of nuclides and successful predictions of previously unknown nuclides. Now with particle physics, patterns imply a quark substructure that, if taken literally, predicts previously unknown particles. These have now been observed in another triumph of underlying unity.</para>
+    </note>
+
+    <figure id="fs-id1853299"><media id="fs-id3322898" alt="The figure shows a trace of a bubble chamber picture that shows the first observation of an omega minus particle. The trace looks like the branch of a small bush. There is a stem at the bottom labeled K minus, then a vertex from which comes a short arched segment labeled omega minus. This segment branches into a dashed line labeled xi zero and an arched line labeled pie minus. Various other solid and dashed lines continue upwards with various labels, such as lambda zero, gamma, K plus, and so on. From the scale bar in the figure, the sigma minus segment is about five centimeters long, which is much shorter than most of the other segments.">
+        <image mime-type="image/png" src="../../media/Figure_34_05_02.jpg"/>
+      </media>
+
+    <caption>The image relates to the discovery of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math>. It is a secondary reaction in which an accelerator-produced <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>K</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{K rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> collides with a proton via the strong force and conserves strangeness to produce the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> with characteristics predicted by the quark model. As with other predictions of previously unobserved particles, this gave a tremendous boost to quark theory. (credit: Brookhaven National Laboratory)
+      </caption></figure><example id="fs-id1169738247115">
+    <title>Quantum Numbers From Quark Composition</title>
+    <para id="import-auto-id1169737757477">Verify the quantum numbers given for the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Ξ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Ξ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> particle in <link document="m54868" target-id="import-auto-id1169736657305"/> by adding the quantum numbers for its quark composition as given in <link target-id="import-auto-id1169737909561"/>.</para><para id="import-auto-id1169736673396">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1169738209975">The composition of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Ξ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Ξ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> is given as <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>uss</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "uss"} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id1169737909561"/>. The quantum numbers for the constituent quarks are given in <link target-id="import-auto-id1169738110830"/>. We will not consider spin, because that is not given for the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Ξ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Ξ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>. But we can check on charge and the other quantum numbers given for the quarks.</para>
+    <para id="eip-971"><title>Solution</title></para><para id="import-auto-id1169738198222">The total charge of <emphasis effect="italics">uss</emphasis> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>2</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ left ( {  {2}  over  {3} }  right )q rSub { size 8{e} }  -  left ( {  {1}  over  {3} }  right )q rSub { size 8{e} }  -  left ( {  {1}  over  {3} }  right )q rSub { size 8{e} } =0} {}</m:annotation></m:semantics></m:math>, which is correct for the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Ξ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Ξ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>. The baryon number is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mfenced></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ left ( {  {1}  over  {3} }  right )+ left ( {  {1}  over  {3} }  right )+ left ( {  {1}  over  {3} }  right )=1} {}</m:annotation></m:semantics></m:math>, also correct since the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Ξ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Ξ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> is a matter baryon and has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=1} {}</m:annotation></m:semantics></m:math>, as listed in <link document="m54868" target-id="import-auto-id1169736657305"/>. Its strangeness is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S=0 - 1 - 1= - 2} {}</m:annotation></m:semantics></m:math>, also as expected from <link document="m54868" target-id="import-auto-id1169736657305"/>. Its charm, bottomness, and topness are 0, as are its lepton family numbers (it is not a lepton).</para><para id="import-auto-id1169737754258">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1169738013425">This procedure is similar to what the inventors of the quark hypothesis did when checking to see if their solution to the puzzle of particle patterns was correct. They also checked to see if all combinations were known, thereby predicting the previously unobserved <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> as the completion of a pattern.</para>
+      </example>
+    </section>
+    <section id="fs-id1169738135217">
+    <title>Now, Let Us Talk About Direct Evidence</title>
+    <para id="import-auto-id1169737819014">At first, physicists expected that, with sufficient energy, we should be able to free quarks and observe them directly. This has not proved possible. There is still no direct observation of a fractional charge or any isolated quark. When large energies are put into collisions, other particles are created—but no quarks emerge. There is nearly direct evidence for quarks that is quite compelling. By 1967, experiments at SLAC scattering 20-GeV electrons from protons had produced results like Rutherford had obtained for the nucleus nearly 60 years earlier. The SLAC scattering experiments showed unambiguously that there were three pointlike (meaning they had sizes considerably smaller than the probe's wavelength) charges inside the proton as seen in <link target-id="import-auto-id1169737729575"/>. This evidence made all but the most skeptical admit that there was validity to the quark substructure of hadrons.</para>
+
+    <figure id="import-auto-id1169737729575"><media id="import-auto-id1169737729576" alt="The image shows a big sphere labeled proton. Five electrons are shown impinging on the proton from the left. Two pass directly through the proton, one electron scatters back and down from a green up quark, another electron scatters back and up from a blue up quark, and the last electron scatters up and forward from a red down quark.">
+        <image mime-type="image/jpg" src="../../media/Figure_34_05_03.jpg"/>
+      </media>
+
+    <caption>Scattering of high-energy electrons from protons at facilities like SLAC produces evidence of three point-like charges consistent with proposed quark properties. This experiment is analogous to Rutherford's discovery of the small size of the nucleus by scattering α particles. High-energy electrons are used so that the probe wavelength is small enough to see details smaller than the proton.</caption></figure><para id="import-auto-id1169738135134">More recent and higher-energy experiments have produced jets of particles in collisions, highly suggestive of three quarks in a nucleon. Since the quarks are very tightly bound, energy put into separating them pulls them only so far apart before it starts being converted into other particles. More energy produces more particles, not a separation of quarks. Conservation of momentum requires that the particles come out in jets along the three paths in which the quarks were being pulled. Note that there are only three jets, and that other characteristics of the particles are consistent with the three-quark substructure.</para>
+<figure id="fs-id2400100"><media id="fs-id1448348" alt="In the figure the track of particles in electron-positron collider is shown/">
+    <image mime-type="image/jpeg" src="../../media/Figure_34_05_04.jpg"/>
+  </media>
+
+<caption>Simulation of a proton-proton collision at 14-TeV center-of-mass energy in the ALICE detector at CERN LHC. The lines follow particle trajectories and the cyan dots represent the energy depositions in the sensitive detector elements. (credit: Matevž Tadel)
+  </caption></figure></section>
+    <section id="fs-id1169737779428">
+        <title>Quarks Have Their Ups and Downs</title>
+    <para id="import-auto-id1169737805919">The quark model actually lost some of its early popularity because the original model with three quarks had to be modified. The up and down quarks seemed to compose normal matter as seen in <link target-id="import-auto-id1169737909561"/>, while the single strange quark explained strangeness. Why didn't it have a counterpart? A fourth quark flavor called <term id="import-auto-id1169737793391">charm</term> (<emphasis effect="italics">c</emphasis>) was proposed as the counterpart of the strange quark to make things symmetric—there would be two normal quarks (<emphasis effect="italics">u</emphasis> and <emphasis effect="italics">d</emphasis>) and two exotic quarks (<emphasis effect="italics">s</emphasis> and <emphasis effect="italics">c</emphasis>). Furthermore, at that time only four leptons were known, two normal and two exotic. It was attractive that there would be four quarks and four leptons. The problem was that no known particles contained a charmed quark. Suddenly, in November of 1974, two groups (one headed by C. C. Ting at Brookhaven National Laboratory and the other by Burton Richter at SLAC) independently and nearly simultaneously discovered a new meson with characteristics that made it clear that its substructure is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mover accent="true"><m:mi>c</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c { bar  {c}}} {}</m:annotation></m:semantics></m:math>. It was called <emphasis effect="italics">J</emphasis> by one group and psi (<m:math><m:semantics><m:mrow><m:mrow><m:mi>ψ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ψ} {}</m:annotation></m:semantics></m:math>) by the other and now is known as the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>J</m:mi><m:mo stretchy="false">/</m:mo><m:mi>ψ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{J/ψ} {}</m:annotation></m:semantics></m:math> meson. Since then, numerous particles have been discovered containing the charmed quark, consistent in every way with the quark model. The discovery of the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>J</m:mi><m:mo stretchy="false">/</m:mo><m:mi>ψ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{J/ψ} {}</m:annotation></m:semantics></m:math> meson had such a rejuvenating effect on quark theory that it is now called the November Revolution. Ting and Richter shared the 1976 Nobel Prize.</para>
+    <para id="import-auto-id1169737760526">History quickly repeated itself. In 1975, the tau (<m:math><m:semantics><m:mrow><m:mrow><m:mi>τ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ} {}</m:annotation></m:semantics></m:math>) was discovered, and a third family of leptons emerged as seen in <link document="m54868" target-id="import-auto-id1169736657305"/>). <emphasis effect="bold"/> Theorists quickly proposed two more quark flavors called <term id="import-auto-id1169737762258">top</term> (<emphasis effect="italics">t</emphasis>) or truth and <term id="import-auto-id1169737952045">bottom</term> (<emphasis effect="italics">b</emphasis>) or beauty to keep the number of quarks the same as the number of leptons. And in 1976, the upsilon (<m:math>
+<m:mi>ϒ</m:mi></m:math>) meson was discovered and shown to be composed of a bottom and an antibottom quark or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>b</m:mi><m:mover accent="true"><m:mi>b</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b { bar  {b}}} {}</m:annotation></m:semantics></m:math>, quite analogous to the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>J</m:mi><m:mo stretchy="false">/</m:mo><m:mi>ψ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{J/ψ} {}</m:annotation></m:semantics></m:math> being <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mover accent="true"><m:mi>c</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c { bar  {c}}} {}</m:annotation></m:semantics></m:math> as seen in <link target-id="import-auto-id1169737909561"/>. Being a single flavor, these mesons are sometimes called bare charm and bare bottom and reveal the characteristics of their quarks most clearly. Other mesons containing bottom quarks have since been observed. In 1995, two groups at Fermilab confirmed the top quark's existence, completing the picture of six quarks listed in <link target-id="import-auto-id1169738110830"/>. Each successive quark discovery—first <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math>, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math>, and finally <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> —has required higher energy because each has higher mass. Quark masses in <link target-id="import-auto-id1169738110830"/> are only approximately known, because they are not directly observed. They must be inferred from the masses of the particles they combine to form.</para></section>
+    <section id="fs-id1169737883137">
+        <title>What's Color got to do with it?—A Whiter Shade of Pale</title><para id="import-auto-id1169738086749">As mentioned and shown in <link target-id="import-auto-id1169737965898"/>, quarks carry another quantum number, which we call <term id="import-auto-id1169737796366">color</term>. Of course, it is not the color we sense with visible light, but its properties are analogous to those of three primary and three secondary colors. Specifically, a quark can have one of three color values we call <emphasis>red</emphasis> (<m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>), <emphasis>green</emphasis> (<m:math><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G} {}</m:annotation></m:semantics></m:math>), and <emphasis>blue</emphasis> (<m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>) in analogy to those primary visible colors. Antiquarks have three values we call <emphasis>antired or cyan</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mover accent="true"><m:mi>R</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( { bar  {R}} right )} {}</m:annotation></m:semantics></m:math>, <emphasis>antigreen or magenta</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mover accent="true"><m:mi>G</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( { bar  {G}} right )} {}</m:annotation></m:semantics></m:math>, and <emphasis>antiblue or yellow</emphasis><m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( { bar  {B}} right )} {}</m:annotation></m:semantics></m:math> in analogy to those secondary visible colors. The reason for these names is that when certain visual colors are combined, the eye sees white. The analogy of the colors combining to white is used to explain why baryons are made of three quarks, why mesons are a quark and an antiquark, and why we cannot isolate a single quark. The force between the quarks is such that their combined colors produce white. This is illustrated in <link target-id="import-auto-id1169737796363"/>. A baryon must have one of each primary color or RGB, which produces white. A meson must have a primary color and its anticolor, also producing white.</para>
+
+    <figure id="import-auto-id1169737796363"><media id="import-auto-id1169737796364" alt="The first image shows a big circle labeled baryon that contains three quarks represented as smaller red, green, and blue circles. The combination of red, green, and blue makes the bigger baryon circle white. The second image shows a big circle labeled meson that contains a quark represented by a small red circle and an anti quark represented by a small cyan circle. The combination of red and cyan makes the bigger meson circle white.">
+        <image mime-type="image/jpg" src="../../media/Figure_34_05_05.jpg"/>
+      </media>
+
+    <caption>The three quarks composing a baryon must be RGB, which add to white. The quark and antiquark composing a meson must be a color and anticolor, here <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mover accent="true"><m:mi>R</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R { bar  {R}}} {}</m:annotation></m:semantics></m:math> also adding to white. The force between systems that have color is so great that they can neither be separated nor exist as colored.
+      </caption></figure><para id="import-auto-id1169737813357">Why must hadrons be white? The color scheme is intentionally devised to explain why baryons have three quarks and mesons have a quark and an antiquark. Quark color is thought to be similar to charge, but with more values. An ion, by analogy, exerts much stronger forces than a neutral molecule. When the color of a combination of quarks is white, it is like a neutral atom. The forces a white particle exerts are like the polarization forces in molecules, but in hadrons these leftovers are the strong nuclear force. When a combination of quarks has color other than white, it exerts <emphasis effect="italics">extremely</emphasis> large forces—even larger than the strong force—and perhaps cannot be stable or permanently separated. This is part of the <term id="import-auto-id1169737813358">theory of quark confinement</term>, which explains how quarks can exist and yet never be isolated or directly observed. Finally, an extra quantum number with three values (like those we assign to color) is necessary for quarks to obey the Pauli exclusion principle. Particles such as the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math>, which is composed of three strange quarks, <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>sss</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "sss"} {}</m:annotation></m:semantics></m:math>, and the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math>, which is three up quarks, <emphasis effect="italics">uuu</emphasis>, can exist because the quarks have different colors and do not have the same quantum numbers. Color is consistent with all observations and is now widely accepted. Quark theory including color is called <term id="import-auto-id1169736844515">quantum chromodynamics</term> (QCD), also named by Gell-Mann.</para></section>
+<section id="fs-id2873392"><title>The Three Families</title>
+
+    <para id="import-auto-id1169738117787">Fundamental particles are thought to be one of three types—leptons, quarks, or carrier particles. Each of those three types is further divided into three analogous families as illustrated in <link target-id="import-auto-id1169737830993"/>. We have examined leptons and quarks in some detail. Each has six members (and their six antiparticles) divided into three analogous families. The first family is normal matter, of which most things are composed. The second is exotic, and the third more exotic and more massive than the second. The only stable particles are in the first family, which also has unstable members.</para>
+    <para id="import-auto-id1169738117789">Always searching for symmetry and similarity, physicists have also divided the carrier particles into three families, omitting the graviton. Gravity is special among the four forces in that it affects the space and time in which the other forces exist and is proving most difficult to include in a Theory of Everything or TOE (to stub the pretension of such a theory). Gravity is thus often set apart. It is not certain that there is meaning in the groupings shown in <link target-id="import-auto-id1169737830993"/>, but the analogies are tempting. In the past, we have been able to make significant advances by looking for analogies and patterns, and this is an example of one under current scrutiny. There are connections between the families of leptons, in that the <m:math><m:semantics><m:mrow><m:mrow><m:mi>τ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ} {}</m:annotation></m:semantics></m:math> decays into the <m:math><m:semantics><m:mrow><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math> and the <m:math><m:semantics><m:mrow><m:mrow><m:mi>μ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ} {}</m:annotation></m:semantics></m:math> into the <emphasis effect="italics">e</emphasis>. Similarly for quarks, the higher families eventually decay into the lowest, leaving only <emphasis effect="italics">u</emphasis> and <emphasis effect="italics">d</emphasis> quarks. We have long sought connections between the forces in nature. Since these are carried by particles, we will explore connections between gluons, <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>W</m:mi><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSup { size 8{ +- {}} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>, and photons as part of the search for unification of forces discussed in <link document="m54874">GUTs: The Unification of Forces</link>..</para><figure id="import-auto-id1169737830993"><media id="import-auto-id1169737830994" alt="This figure shows three types of particles arranged in three rows. In the top row are leptons, in the middle row are quarks, and in the bottom row are carrier particles. The rows are divided into three columns, with the columns labeled family one, family two, and family three, from left to right. In family one are the electron and electron neutrino, the up and down quarks, and the photon and upsilon. In family two are the muon and muon neutrino, the strange and charmed quarks, and the W plus, W minus, and Z zero. In family three are the tau and tau neutrino, the top and bottom quarks, and gluons.">
+        <image mime-type="image/jpg" src="../../media/Figure_34_05_06.jpg"/>
+      </media>
+
+    <caption>The three types of particles are leptons, quarks, and carrier particles. Each of those types is divided into three analogous families, with the graviton left out.</caption></figure></section>
+
+<section id="fs-id3184085" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id3323573" type="ap-test-prep"><problem id="fs-id3762629">
+      <para id="fs-id3762632">How many pointlike particles would an experiment scattering high energy electrons from any meson discover within the meson?</para>
+	<list id="fs-id3365844" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+	  <item>1</item>
+ 	  <item>2</item>
+	  <item>3</item>
+	  <item>4</item>
+	</list>
+    </problem>
+    <solution id="fs-id2329370">
+      <para id="fs-id2329372">(b)</para></solution>
+  </exercise><exercise id="fs-id1742950" type="ap-test-prep"><problem id="fs-id1742953">
+    <figure id="fs-id2856112"><media id="import-auto-id1169738251647" alt="">
+        <image mime-type="image/png" src="../../media/Figure_34_05_02.jpg"/>
+      </media>
+
+    <caption/>
+</figure>
+     <para id="fs-id2401574">In this figure, a K<sup>-</sup> initially hits a proton, and creates three new particles. Identify them, and explain how quark flavors are conserved.</para></problem>
+</exercise></section>
+
+   <section id="fs-id1169738076622" class="section-summary">
+<title>Summary</title>
+    <list id="fs-id1169738076627"><item id="import-auto-id1169737848096">Hadrons are thought to be composed of quarks, with baryons having three quarks and mesons having a quark and an antiquark. </item>
+        <item id="import-auto-id1169737764243">The characteristics of the six quarks and their antiquark counterparts are given in <link target-id="import-auto-id1169738110830"/>, and the quark compositions of certain hadrons are given in <link target-id="import-auto-id1169737909561"/>. </item>
+            <item id="import-auto-id1169737709559">Indirect evidence for quarks is very strong, explaining all known hadrons and their quantum numbers, such as strangeness, charm, topness, and bottomness. </item>
+                <item id="import-auto-id1169737709563">Quarks come in six flavors and three colors and occur only in combinations that produce white.</item>
+                    <item id="import-auto-id1169737966530">Fundamental particles have no further substructure, not even a size beyond their de Broglie wavelength. </item>
+                        <item id="import-auto-id1169737966533">There are three types of fundamental particles—leptons, quarks, and carrier particles. Each type is divided into three analogous families as indicated in <link target-id="import-auto-id1169737830993"/>.</item>
+    </list>
+    </section>
+    <section id="fs-id1169738182585" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id1169738182589" type="conceptual-questions"><problem id="fs-id1169738176661">
+
+    <para id="import-auto-id1169736622113">The quark flavor change <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">→</m:mo><m:mi>u</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d rightarrow u} {}</m:annotation></m:semantics></m:math> takes place in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> decay. Does this mean that the reverse quark flavor change <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>u</m:mi><m:mo stretchy="false">→</m:mo><m:mi>d</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rightarrow d} {}</m:annotation></m:semantics></m:math> takes place in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> decay? Justify your response by writing the decay in terms of the quark constituents, noting that it looks as if a proton is converted into a neutron in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> decay.</para>
+    </problem></exercise>
+
+
+           <exercise id="fs-id1169737818614" type="conceptual-questions"><problem id="fs-id1169737818617"><para id="fs-id1169736617937">Explain how the weak force can change strangeness by changing quark flavor.</para></problem></exercise>
+            <exercise id="fs-id1169736617940" type="conceptual-questions"><problem id="fs-id1169737905429"><para id="fs-id1169737905430">Beta decay is caused by the weak force, as are all reactions in which strangeness changes. Does this imply that the weak force can change quark flavor? Explain.</para></problem></exercise>
+            <exercise id="fs-id1169737905434" type="conceptual-questions"><problem id="fs-id1169738052957"><para id="fs-id1169738052958">Why is it easier to see the properties of the <emphasis effect="italics">c</emphasis>, <emphasis effect="italics">b</emphasis>, and <emphasis effect="italics">t</emphasis> quarks in mesons having composition <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>W</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mover accent="true"><m:mi>t</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t { bar  {t}}} {}</m:annotation></m:semantics></m:math> rather than in baryons having a mixture of quarks, such as <emphasis effect="italics">udb</emphasis>?</para></problem></exercise>
+            <exercise id="fs-id1169737804930" type="conceptual-questions"><problem id="fs-id1169738136325"><para id="fs-id1169738136326">How can quarks, which are fermions, combine to form bosons? Why must an even number combine to form a boson? Give one example by stating the quark substructure of a boson.</para></problem></exercise>
+            <exercise id="fs-id1169737818508" type="conceptual-questions"><problem id="fs-id1169737818512"><para id="fs-id1169737818513">What evidence is cited to support the contention that the gluon force between quarks is greater than the strong nuclear force between hadrons? How is this related to color? Is it also related to quark confinement?</para></problem></exercise>
+           <exercise id="fs-id1169737711921" type="conceptual-questions"><problem id="fs-id1169738197692"><para id="fs-id1169738197693">Discuss how we know that <m:math><m:mi>π</m:mi><m:mtext>-mesons</m:mtext>
+</m:math> (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mi>,</m:mi><m:mi/><m:mi>π</m:mi><m:mi>,</m:mi><m:mi/><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } ,`π,`π rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>) are not fundamental particles and are not the basic carriers of the strong force.</para></problem></exercise>
+            <exercise id="fs-id1169738050639" type="conceptual-questions"><problem id="fs-id1169738050642"><para id="fs-id1169738014504">An antibaryon has three antiquarks with colors <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>R</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true"><m:mi>G</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true"><m:mi>B</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {R}} { bar  {G}} { bar  {B}}} {}</m:annotation></m:semantics></m:math>. What is its color?</para></problem></exercise>
+            <exercise id="fs-id1169737819983" type="conceptual-questions"><problem id="fs-id1169738093310"><para id="fs-id1169738093311">Suppose leptons are created in a reaction. Does this imply the weak force is acting? (for example, consider <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β} {}</m:annotation></m:semantics></m:math> decay.)</para></problem></exercise>
+            <exercise id="fs-id1169736627484" type="conceptual-questions"><problem id="fs-id1169736627487"><para id="fs-id1169738062728">How can the lifetime of a particle indicate that its decay is caused by the strong nuclear force? How can a change in strangeness imply which force is responsible for a reaction? What does a change in quark flavor imply about the force that is responsible?</para></problem></exercise>
+            <exercise id="fs-id1169738062734" type="conceptual-questions"><problem id="fs-id1169736609105"><para id="fs-id1169736609106">(a) Do all particles having strangeness also have at least one strange quark in them?</para>
+<para id="eip-id1706872">(b) Do all hadrons with a strange quark also have nonzero strangeness?</para>
+</problem></exercise>
+            <exercise id="fs-id1169736609111" type="conceptual-questions"><problem id="fs-id1169737812695"><para id="fs-id1169737812696">The sigma-zero particle decays mostly via the reaction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>Σ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mtext>Λ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>γ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Σ rSup { size 8{0} }  rightarrow Λ rSup { size 8{0} } +γ} {}</m:annotation></m:semantics></m:math>. Explain how this decay and the respective quark compositions imply that the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Σ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Σ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> is an excited state of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Λ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Λ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+            <exercise id="fs-id1169737805722" type="conceptual-questions"><problem id="fs-id1169737758220"><para id="fs-id1169737758221">What do the quark compositions and other quantum numbers imply about the relationships between the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> and the proton? The <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> and the neutron?</para></problem></exercise>
+            <exercise id="fs-id1169738089998" type="conceptual-questions"><problem id="fs-id1169736619656"><para id="fs-id1169736619657">Discuss the similarities and differences between the photon and the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>Z</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> in terms of particle properties, including forces felt.</para></problem></exercise>
+            <exercise id="fs-id1169738156095" type="conceptual-questions"><problem id="fs-id1169738156098"><para id="fs-id1169738156099">Identify evidence for electroweak unification.</para></problem></exercise>
+            <exercise id="fs-id1169737762764" type="conceptual-questions"><problem id="fs-id1169737762768"><para id="fs-id1169737762769">The quarks in a particle are confined, meaning individual quarks cannot be directly observed. Are gluons confined as well? Explain</para></problem></exercise>
+
+
+    </section>
+    <section id="fs-id1169738105414" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title>
+    <exercise id="fs-id1169737796129" type="problems-exercises"><problem id="fs-id1169737796131"><para id="import-auto-id1169737906269">(a) Verify from its quark composition that the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> particle could be an excited state of the proton.</para>
+<para id="eip-id1743040">(b) There is a spread of about 100 MeV in the decay energy of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>, interpreted as uncertainty due to its short lifetime. What is its approximate lifetime?</para>
+    <para id="import-auto-id1169737761955">(c) Does its decay proceed via the strong or weak force?</para>
+    </problem>
+        <solution id="fs-id1169737041393" type="problems-exercises">
+    <para id="import-auto-id1169737814241">(a) The <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>uud</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "uud"} {}</m:annotation></m:semantics></m:math> composition is the same as for a proton.</para>
+    <para id="import-auto-id1169737939590">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>24</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 3 times "10" rSup { size 8{ - "24"} } `s} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737820538">(c) Strong (short lifetime)</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id1169738092971" type="problems-exercises"><problem id="fs-id1169738092974"><para id="import-auto-id1169737767854">Accelerators such as the Triangle Universities Meson Facility (TRIUMF) in British Columbia produce secondary beams of pions by having an intense primary proton beam strike a target. Such “meson factories” have been used for many years to study the interaction of pions with nuclei and, hence, the strong nuclear force. One reaction that occurs is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>p</m:mi></m:mrow><m:mo stretchy="false">→</m:mo><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>p</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } +p rightarrow Δ rSup { size 8{"++"} }  rightarrow π rSup { size 8{+{}} } +p} {}</m:annotation></m:semantics></m:math>, where the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math> is a very short-lived particle. The graph in <link target-id="import-auto-id1169737802702"/> shows the probability of this reaction as a function of energy. The width of the bump is the uncertainty in energy due to the short lifetime of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id1169737718608">(a) Find this lifetime. </para>
+    <para id="import-auto-id1169737718611">(b) Verify from the quark composition of the particles that this reaction annihilates and then re-creates a <emphasis effect="italics">d</emphasis> quark and a <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {d}}} {}</m:annotation></m:semantics></m:math> antiquark by writing the reaction and decay in terms of quarks.</para>
+    <para id="import-auto-id1169738011413">(c) Draw a Feynman diagram of the production and decay of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math> showing the individual quarks involved.</para>
+
+    <figure id="import-auto-id1169737802702"><media id="import-auto-id1169737802703" alt="The figure shows a graph of number of interactions on the y axis versus kinetic energy of pion on the x axis. The number of interactions reaches a peak at two hundred mega electron volts where the short lived particle delta plus plus is generated. The width of this peak is approximately hundred mega electron volts.">
+        <image mime-type="image/jpg" src="../../media/Figure_34_05_07.jpg"/>
+      </media>
+
+    <caption>This graph shows the probability of an interaction between a <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> and a proton as a function of energy. The bump is interpreted as a very short lived particle called a <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math>. The approximately 100-MeV width of the bump is due to the short lifetime of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math>.
+              </caption></figure></problem></exercise>
+        <exercise id="fs-id1169738209045" type="problems-exercises"><problem id="fs-id1169738209048"><para id="import-auto-id1169737817219">The reaction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>p</m:mi></m:mrow><m:mo stretchy="false">→</m:mo><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{+{}} } +p rightarrow Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math> (described in the preceding problem) takes place via the strong force. (a) What is the baryon number of the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} } } {}</m:annotation></m:semantics></m:math> particle? </para>
+    <para id="import-auto-id1169737786052">(b) Draw a Feynman diagram of the reaction showing the individual quarks involved.</para>
+    </problem>
+            <solution id="fs-id1169737758184" type="problems-exercises">
+    <para id="import-auto-id1169737786057">a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>Δ</m:mtext><m:mrow><m:mtext>++</m:mtext></m:mrow></m:msup><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>uuu</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo><m:mi>;</m:mi><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ rSup { size 8{"++"} }  \(  ital "uuu" \) ; B= {  {1}  over  {3} } + {  {1}  over  {3} } + {  {1}  over  {3} } = {underline  {1}} } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737779928">b)  <figure id="eip-id2028683"><media id="import-auto-id1169736673412" alt="">
+        <image mime-type="image/wmf" src="../../media/graphics1-5623.jpg"/>
+      </media>
+    </figure></para></solution>
+    </exercise>
+        <exercise id="fs-id1169737821465" type="problems-exercises"><problem id="fs-id1169738163868"><para id="import-auto-id1169738068757">One of the decay modes of the omega minus is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mtext>Ξ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} }  rightarrow Ξ rSup { size 8{0} } +π rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math>. </para>
+    <para id="import-auto-id1169738249206">(a) What is the change in strangeness? </para>
+    <para id="import-auto-id1169738086569">(b) Verify that baryon number and charge are conserved, while lepton numbers are unaffected. </para>
+    <para id="import-auto-id1169738086572">(c) Write the equation in terms of the constituent quarks, indicating that the weak force is responsible.</para>
+    </problem></exercise>
+        <exercise id="fs-id1169737780424" type="problems-exercises"><problem id="fs-id1169737780427"><para id="import-auto-id1169737726971">Repeat the previous problem for the decay mode <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mtext>Λ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>K</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{ - {}} }  rightarrow Λ rSup { size 8{0} } +K rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math></para></problem>
+            <solution id="fs-id1169737802701" type="problems-exercises">
+    <para id="import-auto-id1169738052357">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+1} {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1169737806148">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>0,  </m:mn></m:mrow></m:mrow><m:mi/><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:mrow/></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=1=1+0,`Z= - 1=0+ \(  - 1 \) } {}</m:annotation></m:semantics></m:math>, all lepton numbers are 0 before and after </para><para id="import-auto-id1169738086938">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>sss</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>uds</m:mtext></m:mrow></m:mstyle><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mi>s</m:mi></m:mrow></m:mfenced></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  ital "sss" \)  rightarrow  \(  ital "uds" \) + left ( { bar  {u}}s right )} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id1169737827156" type="problems-exercises"><problem id="fs-id1169737827160"><para id="import-auto-id1169738202010">One decay mode for the eta-zero meson is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>η</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">+</m:mo><m:mi>γ.</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η rSup { size 8{0} }  rightarrow γ+γ} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737805212">(a) Find the energy released. </para>
+    <para id="import-auto-id1169737805214">(b) What is the uncertainty in the energy due to the short lifetime? </para>
+    <para id="import-auto-id1169737805216">(c) Write the decay in terms of the constituent quarks. </para>
+    <para id="import-auto-id1169738174745">(d) Verify that baryon number, lepton numbers, and charge are conserved.</para>
+    </problem></exercise>
+        <exercise id="fs-id1169737798978" type="problems-exercises"><problem id="fs-id1169738029388"><para id="import-auto-id1169738174751">One decay mode for the eta-zero meson is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>η</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η rSup { size 8{0} }  rightarrow π rSup { size 8{0} } +π rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math>. </para>
+    <para id="import-auto-id1169737930398">(a) Write the decay in terms of the quark constituents.</para>
+    <para id="import-auto-id1169737930400">(b) How much energy is released? </para>
+    <para id="import-auto-id1169737930402">(c) What is the ultimate release of energy, given the decay mode for the pi zero is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">+</m:mo><m:mi>γ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{0} }  rightarrow γ+γ} {}</m:annotation></m:semantics></m:math>?</para>
+    </problem>
+<solution id="fs-id1169737848608">
+    <para id="import-auto-id1169736658991">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mrow><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">+</m:mo><m:mi>d</m:mi></m:mrow><m:mover accent="true"><m:mi>d</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">→</m:mo><m:mo stretchy="false">(</m:mo><m:mi>u</m:mi><m:mrow><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">+</m:mo><m:mi>d</m:mi></m:mrow><m:mover accent="true"><m:mi>d</m:mi><m:mo>¯</m:mo></m:mover><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mi>u</m:mi><m:mrow><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">+</m:mo><m:mi>d</m:mi></m:mrow><m:mover accent="true"><m:mi>d</m:mi><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( u { bar  {u}}+d {overline  {d}}  \)  rightarrow  \( u { bar  {u}}+d {overline  {d}}  \) + \( u { bar  {u}}+d {overline  {d}}  \) } {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1169738074550">(b) 277.9 MeV</para><para id="import-auto-id1169738074552">(c) 547.9 MeV</para></solution>
+    </exercise>
+        <exercise id="fs-id1169737767952" type="problems-exercises"><problem id="fs-id1169737767955"><para id="import-auto-id1169736611038">Is the decay <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n rightarrow e rSup { size 8{+{}} } +e rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> possible considering the appropriate conservation laws? State why or why not.</para>
+    </problem></exercise>
+        <exercise id="fs-id1169736617938" type="problems-exercises"><problem id="fs-id1169736617941"><para id="import-auto-id1169738164644">Is the decay <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>μ</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msub><m:mi>ν</m:mi><m:mrow><m:mi>e</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>ν</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSup { size 8{ - {}} }  rightarrow e rSup { size 8{ - {}} } +ν rSub { size 8{e} } +ν rSub { size 8{μ} } } {}</m:annotation></m:semantics></m:math> possible considering the appropriate conservation laws? State why or why not.</para>
+    </problem>
+            <solution id="fs-id1169738052960" type="problems-exercises">
+    <para id="import-auto-id1169738072174">No. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Charge</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"Charge"= - 1} {}</m:annotation></m:semantics></m:math> is conserved. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">≠</m:mo><m:msub><m:mi>L</m:mi><m:msub><m:mi>e</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:msub></m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{e rSub { size 6{i} } } } =0 &lt;&gt; L rSub {e rSub { size 6{f} } }  size 12{ {}=2}} {}</m:annotation></m:semantics></m:math> is not conserved. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>L</m:mi><m:mrow><m:mi>μ</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{μ} } =1} {}</m:annotation></m:semantics></m:math> is conserved.</para></solution>
+    </exercise>
+        <exercise id="fs-id1169737700767" type="problems-exercises"><problem id="fs-id1169737826987"><para id="import-auto-id1169737965096">(a) Is the decay <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>Λ</m:mtext><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Λ rSup { size 8{0} }  rightarrow n+π rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> possible considering the appropriate conservation laws? State why or why not.</para>
+    <para id="import-auto-id1169737769883">(b) Write the decay in terms of the quark constituents of the particles.</para>
+    </problem></exercise>
+        <exercise id="fs-id1169736583840" type="problems-exercises"><problem id="fs-id1169736583843"><para id="import-auto-id1169737761874">(a) Is the decay <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>Σ</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup><m:mo stretchy="false">→</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">+</m:mo><m:msup><m:mi>π</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Σ rSup { size 8{ - {}} }  rightarrow n+π rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> possible considering the appropriate conservation laws? State why or why not. (b) Write the decay in terms of the quark constituents of the particles.</para>
+    </problem>
+            <solution id="fs-id1169738016077" type="problems-exercises">
+    <para id="import-auto-id1169737805707">(a)Yes. <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Z</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Z= - 1=0+ \(  - 1 \) } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">+</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=1=1+0} {}</m:annotation></m:semantics></m:math>, all lepton family numbers are 0 before and after, spontaneous since mass greater before reaction.</para>
+    <para id="import-auto-id1169737909487">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>dds</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">→</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>udd</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mi>d</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "dds" rightarrow  ital "udd"+ { bar  {u}}d} {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id1169737909340" type="problems-exercises"><problem id="fs-id1169737909343"><para id="import-auto-id1169737812984">The only combination of quark colors that produces a white baryon is <emphasis effect="italics">RGB</emphasis>. Identify all the color combinations that can produce a white meson.</para>
+    </problem></exercise>
+        <exercise id="fs-id1169737845007" type="problems-exercises"><problem id="fs-id1169737002374"><para id="import-auto-id1169737002420">(a) Three quarks form a baryon. How many combinations of the six known quarks are there if all combinations are possible? </para>
+    <para id="import-auto-id1169737002424">(b) This number is less than the number of known baryons. Explain why.</para>
+    </problem>
+            <solution id="fs-id1169737719389" type="problems-exercises">
+    <para id="import-auto-id1169737002428">(a) 216</para>
+    <para id="import-auto-id1169738046201">(b) There are more baryons observed because we have the 6 antiquarks and various mixtures of quarks (as for the π-meson) as well.</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id1169738035761" type="problems-exercises"><problem id="fs-id1169737844716"><para id="import-auto-id1169738083622">(a) Show that the conjectured decay of the proton, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p rightarrow π rSup { size 8{0} } +e rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>, violates conservation of baryon number and conservation of lepton number.</para>
+    <para id="import-auto-id1169738182690">(b) What is the analogous decay process for the antiproton?</para>
+    </problem></exercise>
+        <exercise id="fs-id1169737860358" type="problems-exercises"><problem id="fs-id1169738137971"><para id="import-auto-id1169736988722">Verify the quantum numbers given for the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mo stretchy="false">Ω</m:mo><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA  rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> in <link document="m54868" target-id="import-auto-id1169736657305"/> by adding the quantum numbers for its quark constituents as inferred from <link target-id="import-auto-id1169737909561"/>.</para></problem>
+            <solution id="fs-id1169738110608" type="problems-exercises">
+    <para id="import-auto-id1169738243538"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>
+
+                          <m:msup>
+                            <m:mo stretchy="false">Ω</m:mo>
+
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">+</m:mo>
+                                  <m:mrow/>
+                                </m:mrow>
+                              </m:mrow>
+
+                          </m:msup>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mover accent="true">
+                            <m:mi>s</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                          <m:mover accent="true">
+                            <m:mi>s</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                          <m:mover accent="true">
+                            <m:mi>s</m:mi>
+                            <m:mo stretchy="true">-</m:mo>
+                          </m:mover>
+                          <m:mo stretchy="false">)</m:mo>
+</m:mtd></m:mtr>
+<m:mtr><m:mtd>
+
+
+                              <m:mi>B</m:mi>
+                              <m:mo stretchy="false">=</m:mo>
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mfrac>
+                                      <m:mn>1</m:mn>
+                                      <m:mn>3</m:mn>
+                                    </m:mfrac>
+                                  </m:mrow>
+                                  <m:mo stretchy="false">−</m:mo>
+                                  <m:mfrac>
+                                    <m:mn>1</m:mn>
+                                    <m:mn>3</m:mn>
+                                  </m:mfrac>
+                                </m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mfrac>
+                                  <m:mn>1</m:mn>
+                                  <m:mn>3</m:mn>
+                                </m:mfrac>
+                              </m:mrow>
+
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>1,</m:mn>
+                            </m:mrow>
+
+
+               </m:mtd> </m:mtr>
+                <m:mtr><m:mtd>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>L</m:mi>
+
+                        <m:mrow>
+                          <m:mi>e</m:mi>
+                        </m:mrow>
+
+                    </m:msub>
+                    <m:mi>,</m:mi>
+                    <m:mspace width="0.25em"/>
+                    <m:mi>μ</m:mi>
+                    <m:mi>,</m:mi>
+                    <m:mspace width="0.25em"/>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>τ</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>0</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>0</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>0</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>0,</m:mn>
+                    </m:mrow>
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtd></m:mtr>
+                <m:mtr><m:mtd>
+
+                      <m:mrow>
+                        <m:mi>Q</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mfrac>
+                              <m:mn>1</m:mn>
+                              <m:mn>3</m:mn>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mn>3</m:mn>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>1,</m:mn>
+
+             </m:mtd></m:mtr>
+             <m:mtr><m:mtd>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>S</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mn>1</m:mn>
+                            <m:mo stretchy="false">+</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                          <m:mo stretchy="false">+</m:mo>
+                          <m:mn>1</m:mn>
+                        </m:mrow>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mn>3</m:mn>
+                    </m:mrow>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow/>
+                 </m:mtd></m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{ %OMEGA  rSup { size 8{+{}} }  \(  { bar  {s}} { bar  {s}} { bar  {s}} \) ,~B= -  {  {1}  over  {3} }  -  {  {1}  over  {3} }  -  {  {1}  over  {3} } = - 1,}  {} #
+L rSub { size 8{e} } ,`μ,`τ=0+0+0=0, {} #
+ Q= {  {1}  over  {3} } + {  {1}  over  {3} } + {  {1}  over  {3} } =1,~S=1+1+1=3 "."  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+        <exercise id="fs-id1169738029353" type="problems-exercises"><problem id="fs-id1169738029355"><para id="import-auto-id1169737880132">Verify the quantum numbers given for the proton and neutron in <link document="m54868" target-id="import-auto-id1169736657305"/> by adding the quantum numbers for their quark constituents as given in <link target-id="import-auto-id1169737909561"/>.</para></problem></exercise>
+        <exercise id="fs-id1169738129887" type="problems-exercises"><problem id="fs-id1169738129891"><para id="import-auto-id1169738257511">(a) How much energy would be released if the proton did decay via the conjectured reaction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p rightarrow π rSup { size 8{0} } +e rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>?</para>
+    <para id="import-auto-id1169738072530">(b) Given that the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{π rSup { size 8{0} } } {}</m:annotation></m:semantics></m:math> decays to two <m:math><m:semantics><m:mrow><m:mrow><m:mi>γ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{γ} {}</m:annotation></m:semantics></m:math> s and that the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{e rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> will find an electron to annihilate, what total energy is ultimately produced in proton decay? </para>
+    <para id="import-auto-id1169737806922">(c) Why is this energy greater than the proton's total mass (converted to energy)?</para>
+    </problem>
+            <solution id="fs-id1169736583783" type="problems-exercises">
+    <para id="import-auto-id1169737811447">(a)803 MeV</para>
+    <para id="import-auto-id1169737811449">(b) 938.8 MeV</para>
+    <para id="import-auto-id1169737811451">(c) The annihilation energy of an extra electron is included in the total energy.</para></solution>
+    </exercise>
+        <exercise id="fs-id1169737786195" type="problems-exercises"><problem id="fs-id1169737786198"><para id="import-auto-id1169737794122">(a) Find the charge, baryon number, strangeness, charm, and bottomness of the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>J</m:mi><m:mo stretchy="false">/</m:mo><m:mi>Ψ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{J/Ψ} {}</m:annotation></m:semantics></m:math> particle from its quark composition. </para>
+    <para id="import-auto-id1169737861775">(b) Do the same for the <m:math>
+<m:mi>ϒ</m:mi>
+</m:math> particle.</para></problem></exercise>
+        <exercise id="fs-id1169737803621" type="problems-exercises"><problem id="fs-id1169737803625"><para id="import-auto-id1169737861782">There are particles called <emphasis effect="italics">D</emphasis>-mesons. One of them is the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>D</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> meson, which has a single positive charge and a baryon number of zero, also the value of its strangeness, topness, and bottomness. It has a charm of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>1.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+1} {}</m:annotation></m:semantics></m:math> What is its quark configuration?</para></problem>
+            <solution id="fs-id1169738105430" type="problems-exercises">
+    <para id="import-auto-id1169737820224">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>c</m:mi>
+                  <m:mover accent="true">
+                    <m:mi>d</m:mi>
+                    <m:mo>¯</m:mo>
+                  </m:mover>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{c {overline  {d}} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id1169736590893" type="problems-exercises"><problem id="fs-id1169736590896"><para id="import-auto-id1169737794416">There are particles called bottom mesons or <emphasis effect="italics">B</emphasis>-mesons. One of them is the <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>B</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math> meson, which has a single negative charge; its baryon number is zero, as are its strangeness, charm, and topness. It has a bottomness of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 1} {}</m:annotation></m:semantics></m:math>. What is its quark configuration?</para>
+    </problem></exercise>
+        <exercise id="fs-id1169737724461" type="problems-exercises"><problem id="fs-id1169737724464"><para id="import-auto-id1169736627468">(a) What particle has the quark composition <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true"><m:mi>u</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mover accent="true"><m:mi>d</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {u}} { bar  {u}} { bar  {d}}} {}</m:annotation></m:semantics></m:math>? </para>
+    <para id="import-auto-id1169736611585">(b) What should its decay mode be?</para>
+    </problem>
+            <solution id="fs-id1169738034190" type="problems-exercises">
+    <para id="import-auto-id1169736611590">a)The antiproton</para>
+    <para id="import-auto-id1169736611592">b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>p</m:mi><m:mo stretchy="true">-</m:mo></m:mover><m:mo stretchy="false">→</m:mo><m:mrow><m:msup><m:mi>π</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:msup><m:mi>e</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {p}} rightarrow π rSup { size 8{0} } +e rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math></para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id1169737796216" type="problems-exercises"><problem id="fs-id1169737796219"><para id="import-auto-id1169737793230">(a) Show that all combinations of three quarks produce integral charges. Thus baryons must have integral charge. </para>
+    <para id="import-auto-id1169737793233">(b) Show that all combinations of a quark and an antiquark produce only integral charges. Thus mesons must have integral charge.</para>
+    </problem></exercise>
+    </section>
+
+ </content>
+    <glossary>
+        <definition id="import-auto-id1169738059062"><term>bottom</term> <meaning id="fs-id1169737817529">a quark flavor</meaning></definition>
+            <definition id="import-auto-id1169738059064"><term>charm</term> <meaning id="fs-id1169737789534">a quark flavor, which is the counterpart of the strange quark</meaning></definition>
+                <definition id="import-auto-id1169738059066"><term>color</term> <meaning id="fs-id1169737789252">a quark flavor</meaning></definition>
+                    <definition id="import-auto-id1169738249668"><term>down</term> <meaning id="fs-id1169738124884">the second-lightest of all quarks</meaning></definition>
+                        <definition id="import-auto-id1169738249670"><term>flavors</term> <meaning id="fs-id1169738219746">quark type</meaning></definition>
+                            <definition id="import-auto-id1169738249673"><term>fundamental particle</term> <meaning id="fs-id1169737831381">particle with no substructure</meaning></definition>
+                                <definition id="import-auto-id1169738249675"><term>quantum chromodynamics</term> <meaning id="fs-id1169737930651">quark theory including color</meaning></definition>
+                                    <definition id="import-auto-id1169738249677"><term>quark</term> <meaning id="fs-id1169738232714">an elementary particle and a fundamental constituent of matter</meaning></definition>
+                                        <definition id="import-auto-id1169738129067"><term>strange</term> <meaning id="fs-id1169738012988">the third lightest of all quarks</meaning></definition>
+                                            <definition id="import-auto-id1169738129070"><term>theory of quark confinement</term> <meaning id="fs-id1169737777019">explains how quarks can exist and yet never be isolated or directly observed</meaning></definition>
+                                                <definition id="import-auto-id1169738129073"><term>top</term> <meaning id="fs-id1169737905246">a quark flavor</meaning></definition>
+                                                    <definition id="import-auto-id1169738129075"><term>up</term> <meaning id="fs-id1169738091104">the lightest of all quarks</meaning></definition>
+    </glossary>
+</document>

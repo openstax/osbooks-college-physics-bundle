@@ -1,0 +1,267 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Single Slit Diffraction</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m60697</md:content-id>
+  <md:title>Single Slit Diffraction</md:title>
+  <md:abstract><list><item>Discuss the single slit diffraction pattern.</item></list></md:abstract>
+  <md:uuid>a4b7184e-4595-4041-b53b-59a1d2a859b5</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1169737846310">Light passing through a single slit forms a diffraction pattern somewhat different from those formed by double slits or diffraction gratings. <link target-id="import-auto-id1169737803391"/> shows a single slit diffraction pattern. Note that the central maximum is larger than those on either side, and that the intensity decreases rapidly on either side. In contrast, a diffraction grating produces evenly spaced lines that dim slowly on either side of center.</para>
+    
+    <figure id="import-auto-id1169737803391"><media id="import-auto-id1169738136247" alt="Part a of the figure shows a slit in a vertical bar. To the right of the bar is a graph of intensity versus height. The graph is turned ninety degrees counterclockwise so that the intensity scale increases to the left and the height increases as you go up the page. Just in front of the gap, a strong central peak extends leftward from the graph’s baseline, and many smaller satellite peaks appear above and below this central peak. Part b of the figure shows a drawing of the two-dimensional intensity pattern that is observed from single slit diffraction. The central stripe is quite broad compared to the satellite stripes, and there are dark areas between all the stripes.">
+        <image mime-type="image/png" src="../../media/Figure_28_05_01a.jpg" width="160"/>
+      </media>
+    
+    <caption>(a) Single slit diffraction pattern. Monochromatic light passing through a single slit has a central maximum and many smaller and dimmer maxima on either side. The central maximum is six times higher than shown. (b) The drawing shows the bright central maximum and dimmer and thinner maxima on either side.</caption></figure><para id="import-auto-id1169737084441">The analysis of single slit diffraction is illustrated in <link target-id="import-auto-id1169737758062"/>. Here we consider light coming from different parts of the <emphasis effect="italics">same</emphasis> slit. According to Huygens’s principle, every part of the wavefront in the slit emits wavelets. These are like rays that start out in phase and head in all directions. (Each ray is perpendicular to the wavefront of a wavelet.) Assuming the screen is very far away compared with the size of the slit, rays heading toward a common destination are nearly parallel. When they travel straight ahead, as in <link target-id="import-auto-id1169737758062"/>(a), they remain in phase, and a central maximum is obtained. However, when rays travel at an angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> relative to the original direction of the beam, each travels a different distance to a common location, and they can arrive in or out of phase. In <link target-id="import-auto-id1169737758062"/>(b), the ray from the bottom travels a distance of one wavelength <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> farther than the ray from the top. Thus a ray from the center travels a distance <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ/2} {}</m:annotation></m:semantics></m:math> farther than the one on the left, arrives out of phase, and interferes destructively. A ray from slightly above the center and one from slightly above the bottom will also cancel one another. In fact, each ray from the slit will have another to interfere destructively, and a minimum in intensity will occur at this angle. There will be another minimum at the same angle to the right of the incident direction of the light.</para><figure id="import-auto-id1169737758062"><media id="import-auto-id1169737923880" alt="The figure shows four schematics of a ray bundle passing through a single slit. The slit is represented as a gap in a vertical line. In the first schematic, the ray bundle passes horizontally through the slit. This schematic is labeled theta equals zero and bright. The second schematic is labeled dark and shows the ray bundle passing through the slit an angle of roughly fifteen degrees above the horizontal. The path length difference between the top and bottom ray is lambda, and the schematic is labeled sine theta equals lambda over d. The third schematic is labeled bright and shows the ray bundle passing through the slit at an angle of about twenty five degrees above the horizontal. The path length difference between the top and bottom rays is three lambda over two d, and the schematic is labeled sine theta equals three lambda over two d. The final schematic is labeled dark and shows the ray bundle passing through the slit at an angle of about forty degrees above the horizontal. The path length difference between the top and bottom rays is two lambda over d, and the schematic is labeled sine theta equals two lambda over d.">
+          <image mime-type="image/jpg" src="../../media/Figure_28_05_02a.jpg" width="400"/>
+        </media>
+      
+          <caption>Light passing through a single slit is diffracted in all directions and may interfere constructively or destructively, depending on the angle. The difference in path length for rays from either side of the slit is seen to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mi/><m:mtext>sin </m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"`θ} {}</m:annotation></m:semantics></m:math>.</caption></figure><para id="import-auto-id1169736915926">At the larger angle shown in <link target-id="import-auto-id1169737758062"/>(c), the path lengths differ by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3λ</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3λ/2} {}</m:annotation></m:semantics></m:math> for rays from the top and bottom of the slit. One ray travels a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> different from the ray from the bottom and arrives in phase, interfering constructively. Two rays, each from slightly above those two, will also add constructively. Most rays from the slit will have another to interfere with constructively, and a maximum in intensity will occur at this angle. However, all rays do not interfere constructively for this situation, and so the maximum is not as intense as the central maximum. Finally, in <link target-id="import-auto-id1169737758062"/>(d), the angle shown is large enough to produce a second minimum. As seen in the figure, the difference in path length for rays from either side of the slit is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mi/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"θ} {}</m:annotation></m:semantics></m:math>, and we see that a destructive minimum is obtained when this distance is an integral multiple of the wavelength.</para><figure id="import-auto-id1169736768648"><media id="import-auto-id1169737812150" alt="The graph shows the variation of intensity as a function of sine theta. The curve has a strong peak at sine theta equals zero, then has small oscillations spreading symmetrically to the left and right of this central peak. The oscillations all appear to be of the same height. Between each oscillation, the curve appears to go to zero, and each zero is labeled. The first zero to the left of the main peak is labeled minus lambda over d and the first zero to the right is labeled lambda over d. The second zero to the left is labeled minus two lambda over d and the second zero to the right is labeled two lambda over d. The third zero to the left is labeled minus three lambda over d and the third zero to the right is labeled three lambda over d.">
+        <image mime-type="image/jpg" src="../../media/Figure_28_05_03a.jpg" width="165"/>
+      </media>
+     
+    <caption>A graph of single slit diffraction intensity showing the central maximum to be wider and much more intense than those to the sides. In fact the central maximum is six times higher than shown here.</caption></figure><para id="eip-934">Thus, to obtain <term>destructive interference for a single slit</term>,</para><equation id="eip-635"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mi/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi fontstyle="italic">mλ</m:mi></m:mrow></m:mrow><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mtext>for</m:mtext><m:mspace width="0.25em"/><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>1,</m:mtext><m:mspace width="0.25em"/><m:mtext>–1,</m:mtext><m:mspace width="0.25em"/><m:mtext>2,</m:mtext><m:mspace width="0.25em"/><m:mtext>–2,</m:mtext><m:mspace width="0.25em"/><m:mtext>3,</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">…</m:mo></m:mrow></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext> (destructive),</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"θ= ital "mλ",~m="1,"`"2,"`"3,"` dotslow } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737718569">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> is the slit width, <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> is the light’s wavelength, <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle relative to the original direction of the light, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the order of the minimum. <link target-id="import-auto-id1169736768648"/> shows a graph of intensity for single slit interference, and it is apparent that the maxima on either side of the central maximum are much less intense and not as wide. This is consistent with the illustration in <link target-id="import-auto-id1169737803391"/>(b).</para>
+<note id="fs-id1169082532595" class="watch-physics">
+<label/>
+<title>Watch Physics: Single Slit Interference</title>
+<para id="fs-id1169086038350">This video explains diffraction of light through a single slit.</para>
+<media id="fs-id1169082811284" alt="This tutorial explains single slit interference.">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02singleslit"/>
+</media>
+</note>
+
+<example id="fs-id1169736671221">
+    <title>Calculating Single Slit Diffraction</title>
+    <para id="import-auto-id1169737770998">Visible light of wavelength 550 nm falls on a single slit and produces its second diffraction minimum at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45.0º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45" "." 0°} {}</m:annotation></m:semantics></m:math> relative to the incident direction of the light. (a) What is the width of the slit? (b) At what angle is the first minimum produced?</para><figure id="import-auto-id1169738117859"><media id="import-auto-id1169738093631" alt="The schematic shows a single slit to the left and the resulting intensity pattern on a screen is graphed on the right. The single slit is represented by a gap of size d in a vertical line. A ray of wavelength lambda enters the gap from the left, then five rays leave from the gap center and head to the right. One ray continues on the horizontal centerline of the schematic. Two rays angle upward: the first at an unknown angle theta one above the horizontal and the second at an angle theta two equals forty five degrees above the horizontal. The final two rays angle downward at the same angles, so that they are symmetric about the horizontal with respect to the two rays that angle upward. The intensity on the screen is a maximum where the central ray hits the screen, whereas it is a minimum where the angled rays hit the screen.">
+        <image mime-type="image/jpg" src="../../media/Figure_28_05_04a.jpg" width="190"/>
+      </media>
+ 
+    <caption>A graph of the single slit diffraction pattern is analyzed in this example.</caption></figure><para id="import-auto-id1169737929961">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1169737719202">From the given information, and assuming the screen is far away from the slit, we can use the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mi/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mλ</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"θ= ital "mλ"} {}</m:annotation></m:semantics></m:math> first to find <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math>, and again to find the angle for the first minimum <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1169737825123">
+      <emphasis>Solution for (a)</emphasis>
+    </para>
+    <para id="import-auto-id1169737785516">We are given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>λ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>550 nm</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ="500"`"nm"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=2} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>45.0º</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Solving the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mλ</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"θ= ital "mλ"} {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> and substituting known values gives</para><equation id="eip-6"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                            <m:mi>D</m:mi></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd><m:mtd>
+                  <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+ <m:mfrac>
+                              <m:mi fontstyle="italic">mλ</m:mi>
+                              <m:mrow><m:mspace width="0.25em"/>
+                                <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                                <m:msub>
+                                  <m:mi>θ</m:mi>
+                                  
+                                    <m:mrow>
+                                      <m:mn>2</m:mn>
+                                    </m:mrow>
+                                  
+                                </m:msub>
+                              </m:mrow>
+                            </m:mfrac>
+                          </m:mrow>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                              <m:mo stretchy="false">(</m:mo>
+                              <m:mtext>550 nm</m:mtext>
+                              <m:mo stretchy="false">)</m:mo>
+                            </m:mrow>
+                            <m:mrow>
+                              <m:mtext>sin 45.0º</m:mtext>
+                            </m:mrow>
+                          </m:mfrac>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>              <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>1100</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+                          
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>9</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mn>0.707</m:mn>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>              <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mn>1.56</m:mn>
+                    <m:mrow>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                        
+                          <m:mrow>
+                            <m:mrow>
+                              <m:mo stretchy="false">−</m:mo>
+                              <m:mn>6</m:mn>
+                            </m:mrow>
+                          </m:mrow>
+                      </m:msup><m:mo>.</m:mo>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math></equation><para id="import-auto-id1169737041872">
+      <emphasis>Solution for (b)</emphasis>
+    </para>
+    <para id="import-auto-id1169738178728">Solving the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext fontstyle="italic">mλ</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"θ= ital "mλ"} {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"θ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and substituting the known values gives</para><equation id="eip-125"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi fontstyle="italic">mλ</m:mi><m:mi>D</m:mi></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mtext>550</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>56</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"θ rSub { size 8{1} } = {  {mλ}  over  {D} } = {  {1 left ("550" times "10" rSup { size 8{ - 9} } m right )}  over  {1 "." "56" times "10" rSup { size 8{ - 6} } m} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738067909">Thus the angle <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is</para>
+    <equation id="eip-677"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mtext>0.354</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>20.7º.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{1} } ="sin" rSup { size 8{ - 1} } 0 "." "354"="20" "." 7°} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737764993">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id1169737706061">We see that the slit is narrow (it is only a few times greater than the wavelength of light). This is consistent with the fact that light must interact with an object comparable in size to its wavelength in order to exhibit significant wave effects such as this single slit diffraction pattern. We also see that the central maximum extends <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.7º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> on either side of the original beam, for a width of about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>41º</m:mtext><m:mspace width="0.25em"/></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The angle between the first and second minima is only about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>24º</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>45.0º</m:mtext><m:mrow><m:mo stretchy="false">−</m:mo></m:mrow><m:mn>20.7º</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"24"°` \( "45" "." 0° - "20" "." 7° \) } {}</m:annotation></m:semantics></m:math>. Thus the second maximum is only about half as wide as the central maximum.</para></example>
+  
+    <section id="fs-id1169737786359" class="section-summary">
+<title>Section Summary</title><list id="fs-id1169737711904"><item id="import-auto-id1169735535460">A single slit produces an interference pattern characterized by a broad central maximum with narrower and dimmer maxima to the sides.</item>
+    <item id="import-auto-id1169738249784">There is destructive interference for a single slit when 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext fontstyle="italic">mλ</m:mtext></m:mrow></m:mrow><m:mi>,</m:mi>
+<m:mspace width="0.25em"/><m:mtext>(for</m:mtext><m:mspace width="0.25em"/><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>1,</m:mtext><m:mspace width="0.25em"/><m:mtext>–1,</m:mtext><m:mspace width="0.25em"/>
+<m:mtext>2,</m:mtext><m:mspace width="0.25em"/><m:mtext>–2,</m:mtext><m:mspace width="0.25em"/><m:mtext>3,</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">…)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"θ= ital "mλ",~m="1,"`"2,"`"3,"` dotslow } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the slit width, 
+<m:math><m:semantics><m:mrow><m:mi>λ</m:mi></m:mrow></m:semantics></m:math>  is the light’s wavelength, 
+<m:math><m:semantics><m:mrow><m:mi>θ</m:mi></m:mrow></m:semantics></m:math>  is the angle relative to the original direction of the light, and 
+<m:math><m:semantics><m:mrow><m:mi>m</m:mi></m:mrow></m:semantics></m:math>  is the order of the minimum. Note that there is no 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=0} {}</m:annotation></m:semantics></m:math> minimum.</item>
+</list></section>
+    
+    <section id="fs-id1169737994616" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+      
+      <exercise id="fs-id1169738014394" type="conceptual-questions">
+      <problem id="fs-id1169738107799">
+    <para id="import-auto-id1169737718217">As the width of the slit producing a single-slit diffraction pattern is reduced, how will the diffraction pattern produced change?</para>
+    </problem></exercise>
+    </section>
+  
+  
+    <section id="fs-id1169738114765" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1169737804202" type="problems-exercises">
+      <problem id="fs-id1169737711176">  
+        <para id="import-auto-id1169737725267">(a) At what angle is the first minimum for 550-nm light falling on a single slit of width <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"`"μm"} {}</m:annotation></m:semantics></m:math>? (b) Will there be a second minimum?</para></problem>
+<solution id="fs-id1169737819532">
+    <para id="import-auto-id1169736590573">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>33</m:mtext><m:mtext>.</m:mtext><m:mn>4º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"33" "." 4°} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737741226">(b) No</para>
+    </solution>
+    </exercise>
+      
+      <exercise id="fs-id1169737904925" type="problems-exercises">
+        <problem id="fs-id1169738069573">  
+          <para id="import-auto-id1169737854279">(a) Calculate the angle at which a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mtext>-μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00""-μm"} {}</m:annotation></m:semantics></m:math>-wide slit produces its first minimum for 410-nm violet light. (b) Where is the first minimum for 700-nm red light?</para>
+    </problem></exercise>
+      
+      <exercise id="fs-id1169737804903" type="problems-exercises">
+        <problem id="fs-id1169737725564">  
+          <para id="import-auto-id1169737787892">(a) How wide is a single slit that produces its first minimum for 633-nm light at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>28</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"28" "." 0°} {}</m:annotation></m:semantics></m:math>? (b) At what angle will the second minimum be?</para></problem>
+<solution id="fs-id1169738091510">
+    <para id="import-auto-id1169737831367">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>35</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>6</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "35" times "10" rSup { size 8{ - 6} } `m} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169738052241">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>69</m:mtext><m:mtext>.</m:mtext><m:mn>9º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"69" "." 9°} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+      
+      <exercise id="fs-id1169737949745" type="problems-exercises">
+        <problem id="fs-id1169737806606">  
+          <para id="import-auto-id1169738224206">(a) What is the width of a single slit that produces its first minimum at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60" "." 0°} {}</m:annotation></m:semantics></m:math> for 600-nm light? (b) Find the wavelength of light that has its first minimum at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>62</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"62" "." 0°} {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+      
+      <exercise id="fs-id1169737760884" type="problems-exercises">
+        <problem id="fs-id1169737768452">  
+          <para id="import-auto-id1169737946039">Find the wavelength of light that has its third minimum at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>48</m:mtext><m:mtext>.</m:mtext><m:mn>6º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"48" "." 6°} {}</m:annotation></m:semantics></m:math> when it falls on a single slit of width <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00"`"μm"} {}</m:annotation></m:semantics></m:math>.</para></problem>
+<solution id="fs-id1169736773426">
+    <para id="import-auto-id1169738109660">750 nm</para>
+    </solution>
+    </exercise>
+      
+      <exercise id="fs-id1169737945583" type="problems-exercises">
+        <problem id="fs-id1169738144424">  
+          <para id="import-auto-id1169737802289">Calculate the wavelength of light that produces its first minimum at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>36</m:mtext><m:mtext>.</m:mtext><m:mn>9º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"36" "." 9°} {}</m:annotation></m:semantics></m:math> when falling on a single slit of width <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"`"μm"} {}</m:annotation></m:semantics></m:math>.</para></problem></exercise>
+      
+      <exercise id="fs-id1169736634099" type="problems-exercises">
+        <problem id="fs-id1169737723042">  
+          <para id="import-auto-id1169736611323">(a) Sodium vapor light averaging 589 nm in wavelength falls on a single slit of width <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mspace width="0.25em"/><m:mtext>μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50"`"μm"} {}</m:annotation></m:semantics></m:math>. At what angle does it produces its second minimum? (b) What is the highest-order minimum produced?</para></problem>
+<solution id="fs-id1169738087506">
+    <para id="import-auto-id1169738063727">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>04º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{9 "." "04"°} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737818461">(b) 12</para>
+    </solution>
+    </exercise>
+      
+      <exercise id="fs-id1169736753357" type="problems-exercises">
+        <problem id="fs-id1169737760783">  
+          <para id="import-auto-id1169738208811">(a) Find the angle of the third diffraction minimum for 633-nm light falling on a slit of width <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0`"μm"} {}</m:annotation></m:semantics></m:math>. (b) What slit width would place this minimum at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>85</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"85" "." 0°} {}</m:annotation></m:semantics></m:math>? Explicitly show how you follow the steps in <link document="m60706" target-id="fs-id1169737988256">Problem-Solving Strategies for Wave Optics</link></para></problem></exercise>
+      
+      <exercise id="fs-id1169737875290" type="problems-exercises">
+        <problem id="fs-id1169738138502">  
+          <para id="import-auto-id1169738065036">(a) Find the angle between the first minima for the two sodium vapor lines, which have wavelengths of 589.1 and 589.6 nm, when they fall upon a single slit of width <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μm</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00"`"μm"} {}</m:annotation></m:semantics></m:math>. (b) What is the distance between these minima if the diffraction pattern falls on a screen 1.00 m from the slit? (c) Discuss the ease or difficulty of measuring such a distance.</para></problem>
+<solution id="fs-id1169738077420">
+    <para id="import-auto-id1169738083231">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0150º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "0150"°} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737725592">(b) 0.262 mm</para>
+    <para id="import-auto-id1169737760665">(c) This distance is not easily measured by human eye, but under a microscope or magnifying glass it is quite easily measurable.</para>
+    </solution>
+    </exercise>
+      
+      <exercise id="fs-id1169737709995" type="problems-exercises">
+        <problem id="fs-id1169738069811">  
+          <para id="import-auto-id1169737755656">(a) What is the minimum width of a single slit (in multiples of <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>) that will produce a first minimum for a wavelength <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>? (b) What is its minimum width if it produces 50 minima? (c) 1000 minima?</para>
+    </problem></exercise>
+      
+      <exercise id="fs-id1169737739352" type="problems-exercises">
+        <problem id="fs-id1169736623295">  
+          <para id="import-auto-id1169736770872">(a) If a single slit produces a first minimum at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>14</m:mtext><m:mtext>.</m:mtext><m:mn>5º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"14" "." 5°} {}</m:annotation></m:semantics></m:math>, at what angle is the second-order minimum? (b) What is the angle of the third-order minimum? (c) Is there a fourth-order minimum? (d) Use your answers to illustrate how the angular width of the central maximum is about twice the angular width of the next maximum (which is the angle between the first and second minima).</para></problem>
+<solution id="fs-id1169737786928">
+    <para id="import-auto-id1169737803296">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30</m:mtext><m:mtext>.</m:mtext><m:mn>1º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30" "." 1°} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737967074">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>48</m:mtext><m:mtext>.</m:mtext><m:mn>7º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"48" "." 7°} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169737861902">(c) No</para>
+    <para id="import-auto-id1169738085033">(d) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mn>2θ</m:mn><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>14.5º</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>29º</m:mtext></m:mrow><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>30</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mtext>05º</m:mtext><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>14</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>5º</m:mn><m:mtext>=</m:mtext><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mtext>56º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2θ rSub { size 8{1} } = \( 2 \)  \( "14" "." 5° \) ="29"°,~θ rSub { size 8{2} }  - θ rSub { size 8{1} } ="30" "." "05"° - "14" "." 5"°=""15" "." "56"°} {}</m:annotation></m:semantics></m:math>. Thus, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>29º</m:mtext><m:mrow><m:mo stretchy="false">≈</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mtext>56º</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>31</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>1º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"29"° approx  \( 2 \)  \( "15" "." "56"° \) ="31" "." 1°} {}</m:annotation></m:semantics></m:math>.</para></solution>
+    </exercise>
+      
+      <exercise id="fs-id1169735485072" type="problems-exercises">
+        <problem id="fs-id1169738214501">  
+          <para id="import-auto-id1169738090155">A double slit produces a diffraction pattern that is a combination of single and double slit interference. Find the ratio of the width of the slits to the separation between them, if the first minimum of the single slit pattern falls on the fifth maximum of the double slit pattern. (This will greatly reduce the intensity of the fifth maximum.)</para>
+    </problem></exercise>
+      
+      <exercise id="fs-id1169737725313" type="problems-exercises">
+        <problem id="fs-id1169737828056">  
+          <para id="import-auto-id1169738007419">
+      <emphasis>Integrated Concepts</emphasis>
+    </para>
+    <para id="import-auto-id1169736586225">A water break at the entrance to a harbor consists of a rock barrier with a 50.0-m-wide opening. Ocean waves of 20.0-m wavelength approach the opening straight on. At what angle to the incident direction are the boats inside the harbor most protected against wave action?</para>
+    </problem>
+<solution id="fs-id1169737713126">
+    <para id="import-auto-id1169738072085"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>23</m:mtext><m:mtext>.</m:mtext><m:mn>6º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"23" "." 6°} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>53</m:mtext><m:mtext>.</m:mtext><m:mn>1º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"53" "." 1°} {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+      
+      <exercise id="fs-id1169738138337" type="problems-exercises">
+        <problem id="fs-id1169738085032">  
+          <para id="import-auto-id1169737874374">
+      <emphasis>Integrated Concepts</emphasis>
+    </para>
+    <para id="import-auto-id1169738086510">An aircraft maintenance technician walks past a tall hangar door that acts like a single slit for sound entering the hangar. Outside the door, on a line perpendicular to the opening in the door, a jet engine makes a 600-Hz sound. At what angle with the door will the technician observe the first minimum in sound intensity if the vertical opening is 0.800 m wide and the speed of sound is 340 m/s?</para>
+    </problem></exercise>
+    </section>
+</content>
+  <glossary>
+    <definition id="import-auto-id1169737771745"><term>destructive interference for a single slit</term> <meaning id="fs-id1169736719615">occurs when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">D</m:mo><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mλ</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mtext>(for</m:mtext><m:mspace width="0.25em"/><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>1,</m:mtext><m:mspace width="0.25em"/><m:mtext>–1,</m:mtext><m:mspace width="0.25em"/><m:mtext>2,</m:mtext><m:mspace width="0.25em"/><m:mtext>–2,</m:mtext><m:mspace width="0.25em"/><m:mtext>3,</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">…)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D`"sin"θ= ital "mλ",~m="1,"`"2,"`"3,"` dotslow } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> is the slit width, <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> is the light’s wavelength, <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle relative to the original direction of the light, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the order of the minimum</meaning></definition>
+  </glossary>
+</document>

@@ -1,0 +1,419 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Force on a Moving Charge in a Magnetic Field: Examples and Applications</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61526</md:content-id>
+  <md:title>Force on a Moving Charge in a Magnetic Field: Examples and Applications</md:title>
+  <md:abstract><list>
+<item>Describe the effects of a magnetic field on a moving charge.</item>
+<item>Calculate the radius of curvature of the path of a charge that is moving in a magnetic field.</item>
+</list></md:abstract>
+  <md:uuid>c6d72384-3571-43e0-accd-3f9c738e2691</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id1896280">Magnetic force can cause a charged particle to move in a circular or spiral path. Cosmic rays are energetic charged particles in outer space, some of which approach the Earth. They can be forced into spiral paths by the Earth’s magnetic field. Protons in giant accelerators are kept in a circular path by magnetic force. The bubble chamber photograph in <link target-id="import-auto-id1499498"/> shows charged particles moving in such curved paths. The curved paths of charged particles in magnetic fields are the basis of a number of phenomena and can even be used analytically, such as in a mass spectrometer.</para><figure id="import-auto-id1499498"><media id="import-auto-id1454664" alt="A drawing representing trails of bubbles in a bubble chamber.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_05_01a.jpg" width="250"/>
+      </media>
+
+    <caption>Trails of bubbles are produced by high-energy charged particles moving through the superheated liquid hydrogen in this artist’s rendition of a bubble chamber. There is a strong magnetic field perpendicular to the page that causes the curved paths of the particles. The radius of the path can be used to find the mass, charge, and energy of the particle.</caption></figure><para id="import-auto-id2060636">So does the magnetic force cause circular motion? Magnetic force is always perpendicular to velocity, so that it does no work on the charged particle. The particle’s kinetic energy and speed thus remain constant. The direction of motion is affected, but not the speed. This is typical of uniform circular motion. The simplest case occurs when a charged particle moves perpendicular to a uniform <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>-field, such as shown in <link target-id="import-auto-id1898240"/>. (If this takes place in a vacuum, the magnetic field is the dominant factor determining the motion.) Here, the magnetic force supplies the centripetal force <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>c</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } = ital "mv" rSup { size 8{2} } /r} {}</m:annotation></m:semantics></m:math>. Noting that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"θ=1} {}</m:annotation></m:semantics></m:math>, we see that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qvB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "qvB"} {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id1898240"><media id="import-auto-id2731607" alt="Diagram showing an electrical charge moving clockwise in the plane of the page. Velocity vectors are tangent to the circular path. The magnetic field B is oriented into the page. Force vectors show that the force on the charge is toward the center of the charge’s circular path as the charge moves.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_05_02a.jpg" width="400"/>
+      </media>
+
+    <caption>A negatively charged particle moves in the plane of the page in a region where the magnetic field is perpendicular into the page (represented by the small circles with x’s—like the tails of arrows). The magnetic force is perpendicular to the velocity, and so velocity changes in direction but not magnitude. Uniform circular motion results.</caption></figure><para id="import-auto-id1938442">Because the magnetic force <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math><emphasis effect="italics"/> supplies the centripetal force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>c</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, we have</para><equation id="eip-251"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>qvB</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mstyle>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mtext fontstyle="italic">mv</m:mtext>
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        </m:msup>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mi>r</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ ital "qvB"= {  { ital "mv" rSup { size 8{2} } }  over  {r} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1789051">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> yields</para><equation id="eip-873"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>r</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mv</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>qB</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{r= {  { ital "mv"}  over  { ital "qB"} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1449719">Here, <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is the radius of curvature of the path of a charged particle with mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> and charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>, moving at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> perpendicular to a magnetic field of strength <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>. If the velocity is not perpendicular to the magnetic field, then <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the component of the velocity perpendicular to the field. The component of the velocity parallel to the field is unaffected, since the magnetic force is zero for motion parallel to the field. This produces a spiral motion rather than a circular one.</para><example id="fs-id2585919"><title>Calculating the Curvature of the Path of an Electron Moving in a Magnetic Field: A Magnet on a TV Screen</title><para id="import-auto-id2207846">A magnet brought near an old-fashioned TV screen such as in <link target-id="import-auto-id1233890"/> (TV sets with cathode ray tubes instead of LCD screens) severely distorts its picture by altering the path of the electrons that make its phosphors glow. <emphasis><emphasis effect="italics">(Don’t try this at home, as it will permanently magnetize and ruin the TV.)</emphasis></emphasis> To illustrate this, calculate the radius of curvature of the path of an electron having a velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00" times "10" rSup { size 8{7} } `"m/s"} {}</m:annotation></m:semantics></m:math> (corresponding to the accelerating voltage of about 10.0 kV used in some TVs) perpendicular to a magnetic field of strength <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.500 T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=0 "." "500" T} {}</m:annotation></m:semantics></m:math> (obtainable with permanent magnets).</para><figure id="import-auto-id1233890"><media id="import-auto-id1746160" alt="A bar magnet with the north pole set against the glass of a computer monitor. The magnetic field lines are shown running from the south pole through the magnet to the north pole. Paths of electrons that are emanating from the computer monitor are shown moving in straight lines until they encounter the magnetic field of the magnet. At that point, they change course and spiral around the magnetic field lines and toward the magnet.">
+        <image mime-type="image/wmf" src="../../media/Figure_23_05_03a.jpg" width="350"/>
+      </media>
+
+    <caption>Side view showing what happens when a magnet comes in contact with a computer monitor or TV screen. Electrons moving toward the screen spiral about magnetic field lines, maintaining the component of their velocity parallel to the field lines. This distorts the image on the screen.</caption></figure><para id="import-auto-id2872525">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1300889">We can find the radius of curvature
+<m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> directly from the equation
+<m:math>
+ <m:semantics>
+  <m:mrow>
+   <m:mrow>
+    <m:mrow>
+     <m:mi>r</m:mi>
+     <m:mo stretchy="false">=</m:mo>
+     <m:mfrac>
+      <m:mrow>
+       <m:mi>m</m:mi>
+       <m:mi>v</m:mi>
+      </m:mrow>
+      <m:mrow>
+       <m:mi>q</m:mi>
+       <m:mi>B</m:mi>
+      </m:mrow>
+     </m:mfrac>
+    </m:mrow>
+   </m:mrow>
+  </m:mrow>
+ </m:semantics>
+</m:math>, since all other quantities in it are given or known.</para><para id="import-auto-id1626565">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id2568258">Using known values for the mass and charge of an electron, along with the given values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> gives us</para><equation id="eip-738"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr>
+<m:mtd>
+                          <m:mi>r</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>mv</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                            <m:mstyle fontstyle="italic">
+                              <m:mrow>
+                                <m:mtext>qB</m:mtext>
+                              </m:mrow>
+                            </m:mstyle>
+                          </m:mfrac>
+
+</m:mtd>
+<m:mtd>
+                        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+                        <m:mfrac>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>9</m:mn>
+                                <m:mtext>.</m:mtext>
+                                <m:mrow>
+                                  <m:mtext>11</m:mtext>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext>10</m:mtext>
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:mtext>31</m:mtext>
+                                      </m:mrow>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mspace width="0.25em"/>
+                                <m:mtext>kg</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>6</m:mn>
+                                <m:mtext>.</m:mtext>
+                                <m:mrow>
+                                  <m:mtext>00</m:mtext>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext>10</m:mtext>
+                                    <m:mrow>
+                                      <m:mn>7</m:mn>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mspace width="0.25em"/>
+                                <m:mtext>m/s</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                          <m:mrow>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>1</m:mn>
+                                <m:mtext>.</m:mtext>
+                                <m:mrow>
+                                  <m:mtext>60</m:mtext>
+                                  <m:mo stretchy="false">×</m:mo>
+                                  <m:msup>
+                                    <m:mtext>10</m:mtext>
+                                    <m:mrow>
+                                      <m:mrow>
+                                        <m:mo stretchy="false">−</m:mo>
+                                        <m:mtext>19</m:mtext>
+                                      </m:mrow>
+                                    </m:mrow>
+                                  </m:msup>
+                                </m:mrow>
+                                <m:mspace width="0.25em"/>
+                                <m:mtext>C</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                            <m:mfenced open="(" close=")">
+                              <m:mrow>
+                                <m:mn>0</m:mn>
+                                <m:mtext>.</m:mtext>
+                                <m:mtext>500</m:mtext>
+                                <m:mspace width="0.25em"/>
+                                <m:mtext>T</m:mtext>
+                              </m:mrow>
+                            </m:mfenced>
+                          </m:mrow>
+                        </m:mfrac>
+</m:mtd>
+                </m:mtr>
+                <m:mtr>
+<m:mtd/>
+<m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow/>
+                    <m:mn>6</m:mn>
+                    <m:mtext>.</m:mtext>
+                    <m:mrow>
+                      <m:mtext>83</m:mtext>
+                      <m:mo stretchy="false">×</m:mo>
+                      <m:msup>
+                        <m:mtext>10</m:mtext>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:msup>
+                    </m:mrow>
+                    <m:mspace width="0.25em"/>
+                    <m:mtext>m</m:mtext>
+                    <m:mrow/>
+                  </m:mrow>
+</m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{r= {  { ital "mv"}  over  { ital "qB"} } = {  { left (9 "." "11" times "10" rSup { size 8{ - "31"} } `"kg" right ) left (6 "." "00" times "10" rSup { size 8{7} } `"m/s" right )}  over  { left (1 "." "60" times "10" rSup { size 8{ - "19"} } `C right ) left (0 "." "500"`T right )} } }  {} #
+=6 "." "83" times "10" rSup { size 8{ - 4} } `m {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1299469">or</para>
+    <equation id="eip-73"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>r</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>683 mm</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r=0 "." "683"" mm"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2085488">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2113762">The small radius indicates a large effect. The electrons in the TV picture tube are made to move in very tight circles, greatly altering their paths and distorting the image.</para>
+    </example><para id="import-auto-id2757904"><link target-id="import-auto-id2565110"/> shows how electrons not moving perpendicular to magnetic field lines follow the field lines. The component of velocity parallel to the lines is unaffected, and so the charges spiral along the field lines. If field strength increases in the direction of motion, the field will exert a force to slow the charges, forming a kind of magnetic mirror, as shown below.</para><figure id="import-auto-id2565110"><media id="import-auto-id2604435" alt="Diagram showing charged particles moving with velocity v along magnetic field lines. The velocity vector of a particle is parallel to the field line when it is in a region of weak magnetic field. When it moves into a stronger region, where field lines are denser, the vector is oriented at an angle to the field lines.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_05_04a.jpg" width="250"/>
+      </media>
+
+    <caption>When a charged particle moves along a magnetic field line into a region where the field becomes stronger, the particle experiences a force that reduces the component of velocity parallel to the field. This force slows the motion along the field line and here reverses it, forming a “magnetic mirror.”</caption></figure><para id="import-auto-id1537867">The properties of charged particles in magnetic fields are related to such different things as the Aurora Australis or Aurora Borealis and particle accelerators. <emphasis effect="italics">Charged particles approaching magnetic field lines may get trapped in spiral orbits about the lines rather than crossing them</emphasis>, as seen above. Some cosmic rays, for example, follow the Earth’s magnetic field lines, entering the atmosphere near the magnetic poles and causing the southern or northern lights through their ionization of molecules in the atmosphere. Those particles that approach middle latitudes must cross magnetic field lines, and many are prevented from penetrating the atmosphere. Cosmic rays are a component of background radiation; consequently, they give a higher radiation dose at the poles than at the equator.</para><figure id="import-auto-id1796004"><media id="import-auto-id1349018" alt="Diagram of the Earth showing its magnetic field lines running from the south pole, out around the Earth and to the north pole, and then through Earth back to the south pole. Charged particles travel on straight line.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_05_05a.jpg" width="300"/>
+      </media>
+
+    <caption>Energetic electrons and protons, components of cosmic rays, from the Sun and deep outer space often follow the Earth’s magnetic field lines rather than cross them. (Recall that the Earth’s north magnetic pole is really a south pole in terms of a bar magnet.)</caption></figure><para id="import-auto-id1912939">Some incoming charged particles become trapped in the Earth’s magnetic field, forming two belts above the atmosphere known as the Van Allen radiation belts after the discoverer James A. Van Allen, an American astrophysicist. (See <link target-id="import-auto-id1912925"/>.) Particles trapped in these belts form radiation fields (similar to nuclear radiation) so intense that piloted space flights avoid them and satellites with sensitive electronics are kept out of them. In the few minutes it took lunar missions to cross the Van Allen radiation belts, astronauts received radiation doses more than twice the allowed annual exposure for radiation workers. Other planets have similar belts, especially those having strong magnetic fields like Jupiter.</para><figure id="import-auto-id1912925"><media id="import-auto-id2241460" alt="Diagram showing the Earth with magnetic field lines running from the south pole around to the north pole. A region near the Earth circling the equatorial to mid-latitudes and oriented along a magnetic field line is highlighted and labeled Inner Van Allen radiation belt. A region farther out circles the Earth, except in the polar regions, also following the magnetic field lines, and is labeled Outer Van Allen radiation belt.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_05_06a.jpg" width="300"/>
+      </media>
+
+    <caption>The Van Allen radiation belts are two regions in which energetic charged particles are trapped in the Earth’s magnetic field. One belt lies about 300 km above the Earth’s surface, the other about 16,000 km. Charged particles in these belts migrate along magnetic field lines and are partially reflected away from the poles by the stronger fields there. The charged particles that enter the atmosphere are replenished by the Sun and sources in deep outer space.</caption></figure><para id="import-auto-id2034828">Back on Earth, we have devices that employ magnetic fields to contain charged particles. Among them are the giant particle accelerators that have been used to explore the substructure of matter. (See <link target-id="import-auto-id1516062"/>.) Magnetic fields not only control the direction of the charged particles, they also are used to focus particles into beams and overcome the repulsion of like charges in these beams.</para>
+    <figure id="import-auto-id1516062"><media id="import-auto-id1583244" alt="A view of a section of the accelerator at Fermilab. Down each side of a long corridor are tubes surrounded by orange magnets. Lots of tubes and wires and other electronics are visible.">
+        <image mime-type="image/png" src="../../media/Figure_23_05_07a.jpg" width="250"/>
+      </media>
+
+    <caption>The Fermilab facility in Illinois has a large particle accelerator (the most powerful in the world until 2008) that employs magnetic fields (magnets seen here in orange) to contain and direct its beam. This and other accelerators have been in use for several decades and have allowed us to discover some of the laws underlying all matter. (credit: ammcrim, Flickr)</caption></figure><para id="import-auto-id952675">Thermonuclear fusion (like that occurring in the Sun) is a hope for a future clean energy source. One of the most promising devices is the <emphasis effect="italics">tokamak</emphasis>, which uses magnetic fields to contain (or trap) and direct the reactive charged particles. (See <link target-id="import-auto-id1697141"/>.) Less exotic, but more immediately practical, amplifiers in microwave ovens use a magnetic field to contain oscillating electrons. These oscillating electrons generate the microwaves sent into the oven.</para><para id="import-auto-id1701591">
+
+      <figure id="import-auto-id1697141"><media id="import-auto-id2097567" alt="Figure a shows a tokamak in a lab. Figure b is a diagram of a tokamak. A current-carrying wire wraps around a donut-shaped vacuum chamber. Inside the chamber is plasma. The magnetic field has a toroidal and poloidal shape inside the chamber.">
+          <image mime-type="image/jpg" src="../../media/Figure_23_05_08a.jpg" width="450"/>
+        </media>
+
+      <caption>Tokamaks such as the one shown in the figure are being studied with the goal of economical production of energy by nuclear fusion. Magnetic fields in the doughnut-shaped device contain and direct the reactive charged particles. (credit: David Mellis, Flickr)</caption></figure></para>
+    <para id="import-auto-id1089734">Mass spectrometers have a variety of designs, and many use magnetic fields to measure mass. The curvature of a charged particle’s path in the field is related to its mass and is measured to obtain mass information. (See <link document="m61563">More Applications of Magnetism</link>.) Historically, such techniques were employed in the first direct observations of electron charge and mass. Today, mass spectrometers (sometimes coupled with gas chromatographs) are used to determine the make-up and sequencing of large biological molecules.</para><section id="fs-id2150775" class="section-summary"><title>Section Summary</title><list id="eip-617"><item>Magnetic force can supply centripetal force and cause a charged particle to move in a circular path of radius
+<equation id="eip-id1079399">
+<m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>r</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mv</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>qB</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mfrac>
+                </m:mrow>
+                <m:mi>,</m:mi>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{r= {  { ital "mv"}  over  { ital "qB"} } ,} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+
+</equation>
+
+where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the component of the velocity perpendicular to <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> for a charged particle with mass <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math></emphasis> and charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis>.</item>
+</list></section><section id="fs-id1592962" type="conceptual-questions" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1900640" type="conceptual-questions"><problem id="fs-id1279120">
+<para id="import-auto-id2296478">How can the motion of a charged particle be used to distinguish between a magnetic and an electric field? </para>
+</problem></exercise>
+    <exercise id="fs-id1172179" type="conceptual-questions"><problem id="fs-id1858661">
+<para id="import-auto-id1655532">High-velocity charged particles can damage biological cells and are a component of radiation exposure in a variety of locations ranging from research facilities to natural background. Describe how you could use a magnetic field to shield yourself. </para>
+</problem></exercise>
+    <exercise id="fs-id2017025" type="conceptual-questions"><problem id="fs-id1494050">
+<para id="import-auto-id2101560">If a cosmic ray proton approaches the Earth from outer space along a line toward the center of the Earth that lies in the plane of the equator, in what direction will it be deflected by the Earth’s magnetic field? What about an electron? A neutron? </para></problem></exercise>
+    <exercise id="fs-id1466692" type="conceptual-questions"><problem id="fs-id1555849">
+<para id="import-auto-id3035842">What are the signs of the charges on the particles in <link target-id="import-auto-id2026635"/>?</para><figure id="import-auto-id2026635"><media id="import-auto-id1635413" alt="Diagram showing magnetic field lines into the page. Charges are moving from the bottom to the top of the diagram and thus perpendicular to the field lines. Charge a curves to the left. Charge b moves in a straight line from bottom to top. Charge c curves to the right.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_99_01a.jpg" width="150"/>
+      </media>
+    </figure></problem></exercise>
+    <exercise id="fs-id1222134" type="conceptual-questions"><problem id="fs-id2097299">
+<para id="import-auto-id1523715">Which of the particles in <link target-id="import-auto-id2208173"/> has the greatest velocity, assuming they have identical charges and masses?</para><figure id="import-auto-id2208173"><media id="import-auto-id1525240" alt="Diagram showing magnetic field lines out of the page. Charge a curves clockwise with a large radius as it moves from the bottom to the top of the diagram. Charge b curves clockwise with a much smaller radius as it moves from lower middle to upper middle of the diagram.">
+        <image mime-type="image/jpg" src="../../media/Figure_23_99_02a.jpg" width="150"/>
+      </media>
+    </figure></problem></exercise>
+    <exercise id="fs-id2746930" type="conceptual-questions"><problem id="fs-id2450682">
+<para id="import-auto-id1699197">Which of the particles in <link target-id="import-auto-id2208173"/> has the greatest mass, assuming all have identical charges and velocities? </para></problem></exercise>
+    <exercise id="fs-id2083803" type="conceptual-questions"><problem id="fs-id1541500">
+<para id="import-auto-id2029188">While operating, a high-precision TV monitor is placed on its side during maintenance. The image on the monitor changes color and blurs slightly. Discuss the possible relation of these effects to the Earth’s magnetic field. </para></problem></exercise>
+</section>
+    <section id="fs-id2212999" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><para id="import-auto-id1171838">If you need additional support for these problems, see <link document="m61563">More Applications of Magnetism</link>.</para><exercise id="fs-id1702844" type="problems-exercises"><problem id="fs-id1586065">
+<para id="import-auto-id2417655">A cosmic ray electron moves at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50" times "10" rSup { size 8{6} } `"m/s"} {}</m:annotation></m:semantics></m:math> perpendicular to the Earth’s magnetic field at an altitude where field strength is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mspace width="0.25em"/><m:mn>T</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00" times "10" rSup { size 8{ - 5} } `T} {}</m:annotation></m:semantics></m:math>. What is the radius of the circular path the electron follows?</para></problem>
+<solution id="fs-id1321590">
+    <para id="import-auto-id2207058">4.27 m</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1347796" type="problems-exercises"><problem id="fs-id1980422">
+<para id="import-auto-id1312259">A proton moves at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50" times "10" rSup { size 8{7} } `"m/s"} {}</m:annotation></m:semantics></m:math> perpendicular to a magnetic field. The field causes the proton to travel in a circular path of radius 0.800 m. What is the field strength?</para></problem></exercise>
+    <exercise id="fs-id1649236" type="problems-exercises"><problem id="fs-id2126946">
+<para id="import-auto-id2345081">(a) Viewers of <emphasis effect="italics">Star Trek</emphasis> hear of an antimatter drive on the Starship <emphasis effect="italics">Enterprise</emphasis>. One possibility for such a futuristic energy source is to store antimatter charged particles in a vacuum chamber, circulating in a magnetic field, and then extract them as needed. Antimatter annihilates with normal matter, producing pure energy. What strength magnetic field is needed to hold antiprotons, moving at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{7} } `"m/s"} {}</m:annotation></m:semantics></m:math> in a circular path 2.00 m in radius? Antiprotons have the same mass as protons but the opposite (negative) charge. (b) Is this field strength obtainable with today’s technology or is it a futuristic possibility?</para></problem>
+<solution id="eip-id1164037415438">
+<para id="eip-id1164037415440">(a) 0.261 T</para>
+<para id="eip-id1164037415443">(b) This strength is definitely obtainable with today’s technology. Magnetic field strengths of 0.500 T are obtainable with permanent magnets.</para>
+    </solution>
+    </exercise><exercise id="fs-id2771802" type="problems-exercises"><problem id="fs-id1957708">
+<para id="import-auto-id1616115">(a) An oxygen-16 ion with a mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>66</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>26</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "66" times "10" rSup { size 8{ - "26"} } `"kg"} {}</m:annotation></m:semantics></m:math> travels at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{6} } `"m/s"} {}</m:annotation></m:semantics></m:math> perpendicular to a 1.20-T magnetic field, which makes it move in a circular arc with a 0.231-m radius. What positive charge is on the ion? (b) What is the ratio of this charge to the charge of an electron? (c) Discuss why the ratio found in (b) should be an integer.</para></problem></exercise>
+    <exercise id="fs-id1534496" type="problems-exercises"><problem id="fs-id2131499">
+<para id="import-auto-id1181779">What radius circular path does an electron travel if it moves at the same speed and in the same magnetic field as the proton in <link target-id="fs-id1347796"/>?</para></problem>
+<solution id="fs-id1848160">
+    <para id="import-auto-id1955318"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>4</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>36</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>4</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> m</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{4 "." "36" times "10" rSup { size 8{ - 4} } " m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id2655108" type="problems-exercises"><problem id="fs-id1751097">
+<para id="import-auto-id2334078">A velocity selector in a mass spectrometer uses a 0.100-T magnetic field. (a) What electric field strength is needed to select a speed of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "00" times "10" rSup { size 8{6} } `"m/s"} {}</m:annotation></m:semantics></m:math>? (b) What is the voltage between the plates if they are separated by 1.00 cm? </para></problem></exercise>
+    <exercise id="fs-id1411417" type="problems-exercises"><problem id="fs-id1701444">
+<para id="import-auto-id2092579">An electron in a TV CRT moves with a speed of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00" times "10" rSup { size 8{7} } `"m/s"} {}</m:annotation></m:semantics></m:math>, in a direction perpendicular to the Earth’s field, which has a strength of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>T</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{ - 5} } `T} {}</m:annotation></m:semantics></m:math>. (a) What strength electric field must be applied perpendicular to the Earth’s field to make the electron moves in a straight line? (b) If this is done between plates separated by 1.00 cm, what is the voltage applied? (Note that TVs are usually surrounded by a ferromagnetic material to shield against external magnetic fields and avoid the need for such a correction.)</para></problem>
+<solution id="fs-id1780181">
+  <para id="eip-id1164037405315">(a) 3.00 kV/m</para>
+ <para id="eip-id1164037405318">(b) 30.0 V</para>
+    </solution>
+    </exercise><exercise id="fs-id1649282" type="problems-exercises"><problem id="fs-id1565165">
+<para id="import-auto-id1555849">(a) At what speed will a proton move in a circular path of the same radius as the electron in <link target-id="fs-id1702844"/>? (b) What would the radius of the path be if the proton had the same speed as the electron? (c) What would the radius be if the proton had the same kinetic energy as the electron? (d) The same momentum?</para></problem></exercise>
+    <exercise id="fs-id1515291" type="problems-exercises"><problem id="fs-id2418687">
+<para id="import-auto-id2895343">A mass spectrometer is being used to separate common oxygen-16 from the much rarer oxygen-18, taken from a sample of old glacial ice. (The relative abundance of these oxygen isotopes is related to climatic temperature at the time the ice was deposited.) The ratio of the masses of these two ions is 16 to 18, the mass of oxygen-16 is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>66</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>26</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "66" times "10" rSup { size 8{ - "26"} } `"kg"} {}</m:annotation></m:semantics></m:math> and they are singly charged and travel at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{6} } `"m/s"} {}</m:annotation></m:semantics></m:math> in a 1.20-T magnetic field. What is the separation between their paths when they hit a target after traversing a semicircle?</para></problem>
+<solution id="fs-id1773890">
+    <para id="import-auto-id2026310">0.173 m</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2418854" type="problems-exercises"><problem id="fs-id1528805">
+<para id="import-auto-id2025165">(a) Triply charged uranium-235 and uranium-238 ions are being separated in a mass spectrometer. (The much rarer uranium-235 is used as reactor fuel.) The masses of the ions are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>90</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "90" times "10" rSup { size 8{ - "25"} } `"kg"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>95</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>25</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "95" times "10" rSup { size 8{ - "25"} } `"kg"} {}</m:annotation></m:semantics></m:math>, respectively, and they travel at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "00" times "10" rSup { size 8{5} } `"m/s"} {}</m:annotation></m:semantics></m:math> in a 0.250-T field. What is the separation between their paths when they hit a target after traversing a semicircle? (b) Discuss whether this distance between their paths seems to be big enough to be practical in the separation of uranium-235 from uranium-238.</para></problem></exercise>
+    </section>
+  </content>
+</document>

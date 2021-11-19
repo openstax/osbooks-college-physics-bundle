@@ -1,0 +1,505 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Period and Frequency in Oscillations</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55272</md:content-id>
+  <md:title>Period and Frequency in Oscillations</md:title>
+  <md:abstract/>
+  <md:uuid>5a95780f-9ba4-4d27-a7ec-690a042864cb</md:uuid>
+</metadata>
+
+<content>
+
+<section id="fs-id1339442" class="learning-objectives">
+  <title>Learning Objectives</title>
+<para id="fs-id1865251">By the end of this section, you will be able to:</para>
+<list id="fs-id1301957">
+<item>Relate recurring mechanical vibrations to the frequency and period of harmonic motion, such as the motion of a guitar string.</item>
+<item>Compute the frequency and period of an oscillation.</item>
+</list>
+<para id="fs-id1413485">The information presented in this section supports the following AP® learning objectives and science practices:</para>
+<list id="fs-id1962708">
+<item><emphasis effect="bold">3.B.3.3</emphasis> The student can analyze data to identify qualitative or quantitative relationships between given values and variables (i.e., force, displacement, acceleration, velocity, period of motion, frequency, spring constant, string length, mass) associated with objects in oscillatory motion to use that data to determine the value of an unknown.<emphasis effect="bold"> (S.P. 2.2, 5.1)</emphasis></item>
+</list>
+</section>
+
+
+    <figure id="import-auto-id2420237"><media id="import-auto-id2953405" alt="The given figure shows a closed zoom view of the strings of a guitar. There are two slanting white colored strings in the picture. In the nearer string, the gaps between the circular threads of the string are visible, whereas the second white string at the back looks like a white thin stick.">
+        <image mime-type="image/jpeg" src="../../media/Figure_17_02_01a.jpg"/>
+      </media>
+
+    <caption>The strings on this guitar vibrate at regular time intervals. (credit: JAR)</caption></figure><para id="import-auto-id2639405">When you pluck a guitar string, the resulting sound has a steady tone and lasts a long time. Each successive vibration of the string takes the same time as the previous one. We define <term id="import-auto-id1910734">periodic motion</term> to be a motion that repeats itself at regular time intervals, such as exhibited by the guitar string or by an object on a spring moving up and down. The time to complete one oscillation remains constant and is called the <term id="import-auto-id2999877">period</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>. Its units are usually seconds, but may be any convenient unit of time. The word period refers to the time for some event whether repetitive or not; but we shall be primarily interested in periodic motion, which is by definition repetitive. A concept closely related to period is the frequency of an event. For example, if you get a paycheck twice a month, the frequency of payment is two per month and the period between checks is half a month. <term id="import-auto-id1907896">Frequency</term><m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is defined to be the number of events per unit time. For periodic motion, frequency is the number of oscillations per unit time. The relationship between frequency and period is</para><equation id="eip-768"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {T} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2402363">The SI unit for frequency is the <emphasis effect="italics">cycle per second</emphasis>, which is defined to be a <emphasis effect="italics">hertz</emphasis> (Hz):</para>
+    <equation id="eip-880"><m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle mathsize="12pt">
+       <m:mrow>
+        <m:mrow>
+         <m:mi/>
+         <m:mrow>
+          <m:mtext>
+1 Hz
+          </m:mtext>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mn>
+1
+          </m:mn>
+         </m:mrow>
+         <m:mi/>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mtext>
+cycle
+            </m:mtext>
+           </m:mrow>
+           <m:mrow>
+            <m:mtext>
+sec
+            </m:mtext>
+           </m:mrow>
+          </m:mfrac>
+         </m:mrow>
+         <m:mi/>
+         <m:mrow>
+          <m:mtext>
+or 1 Hz
+          </m:mtext>
+          <m:mo stretchy="false">
+=
+          </m:mo>
+          <m:mrow>
+           <m:mfrac>
+            <m:mrow>
+             <m:mn>
+1
+             </m:mn>
+            </m:mrow>
+            <m:mrow>
+             <m:mtext>
+s
+             </m:mtext>
+            </m:mrow>
+           </m:mfrac>
+          </m:mrow>
+         </m:mrow>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{1`"Hz"=1` {  {"cycle"}  over  {"sec"} } ``"or 1 Hz"= {  {1}  over  {s} } } {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></equation><para id="import-auto-id2980173">A cycle is one complete oscillation. Note that a vibration can be a single or multiple event, whereas oscillations are usually repetitive for a significant number of cycles.</para>
+    <example id="fs-id3397394"><title>Determine the Frequency of Two Oscillations: Medical Ultrasound and the Period of Middle C</title><para id="import-auto-id3062499">We can use the formulas presented in this module to determine both the frequency based on known oscillations and the oscillation based on a known frequency. Let’s try one example of each. (a) A medical imaging device produces ultrasound by oscillating with a period of 0.400 µs. What is the frequency of this oscillation? (b) The frequency of middle C on a typical musical instrument is 264 Hz. What is the time for one complete oscillation?</para>
+    <para id="import-auto-id3037764"><title>Strategy</title></para>
+        <para id="import-auto-id3037765">Both questions (a) and (b) can be answered using the relationship between period and frequency. In question (a), the period <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis> is given and we are asked to find frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>. In question (b), the frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is given and we are asked to find the period <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis>.</para>
+    <para id="import-auto-id1514315">
+      <emphasis>Solution a</emphasis>
+    </para>
+    <list id="fs-id3162993" list-type="enumerated" number-style="arabic"><item id="import-auto-id2206459">Substitute <m:math>
+    <m:semantics>
+     <m:mrow>
+
+       <m:mrow>
+        <m:mrow>
+         <m:mn>
+0
+         </m:mn>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mtext>
+400
+         </m:mtext>
+
+<m:mspace width="0.25em"/>
+         <m:mstyle fontstyle="normal"><m:mtext mathvariant="normal">
+μ
+         </m:mtext></m:mstyle>
+<m:mtext>
+s</m:mtext>
+       </m:mrow>
+       </m:mrow>
+
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{0 "." "400"`"μs"} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math> for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis> in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {T} } } {}</m:annotation></m:semantics></m:math>:
+    <equation id="eip-666"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mi>T</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mrow>
+                        <m:mtext>400</m:mtext>
+                        <m:mo stretchy="false">×</m:mo>
+                        <m:msup>
+                          <m:mtext>10</m:mtext>
+
+                            <m:mrow>
+                              <m:mrow>
+                                <m:mo stretchy="false">−</m:mo>
+                                <m:mn>6</m:mn>
+                              </m:mrow>
+                            </m:mrow>
+
+                        </m:msup>
+                      </m:mrow><m:mspace width="0.25em"/>
+                      <m:mn>s</m:mn>
+                    </m:mrow>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {T} } = {  {1}  over  {0 "." "400" times "10" rSup { size 8{ - 6} } s} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> </equation><para id="import-auto-id2979900">Solve to find</para><equation id="eip-520"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>50</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext> 10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+<m:mspace width="0.25em"/>
+                  <m:mtext>Hz</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f=2 "." "50"  times " 10" rSup { size 8{6} } "Hz"} {}</m:annotation>
+        </m:semantics>
+      </m:math> </equation></item>
+        </list><para id="import-auto-id2683550"><title>Discussion a</title></para>
+        <para id="import-auto-id2683551">The frequency of sound found in (a) is much higher than the highest frequency that humans can hear and, therefore, is called ultrasound. Appropriate oscillations at this frequency generate ultrasound used for noninvasive medical diagnoses, such as observations of a fetus in the womb.</para>
+    <para id="import-auto-id3116694">
+      <emphasis>Solution b</emphasis>
+    </para>
+ <list id="fs-id2399993" list-type="enumerated" number-style="arabic"><item id="import-auto-id2659586">Identify the known values:
+    <para id="import-auto-id1994588">The time for one complete oscillation is the period <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis>:</para>
+    <equation id="eip-605"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>T</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {T} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id1909739">Solve for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis>:
+    <equation id="eip-600"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>T</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>f</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            <m:mrow/>
+            <m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{T= {  {1}  over  {f} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id1931109">Substitute the given value for the frequency into the resulting expression:
+    <equation id="eip-663"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mi>T</m:mi>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mfrac>
+                            <m:mn>1</m:mn>
+                            <m:mi>f</m:mi>
+                          </m:mfrac>
+                        </m:mrow>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mrow>
+                            <m:mtext>264</m:mtext>
+<m:mspace width="0.25em"/>
+                            <m:mtext> Hz</m:mtext>
+                          </m:mrow>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mrow>
+                          <m:mtext>264</m:mtext><m:mspace width="0.25em"/>
+                          <m:mtext> cycles/s</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>79</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>3</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+<m:mspace width="0.25em"/>
+                    <m:mtext>s</m:mtext>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>3</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>79</m:mtext><m:mspace width="0.25em"/>
+                  <m:mtext> ms</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{T= {  {1}  over  {f} } = {  {1}  over  {"264"" Hz"} } = {  {1}  over  {"264"" cycles/s"} } =3 "." "79" times "10" rSup { size 8{ - 3} } s=3 "." "79"" ms"} {}</m:annotation>
+        </m:semantics>
+      </m:math> </equation></item>
+    </list>
+    <para id="import-auto-id3077931"><title>Discussion</title></para>
+        <para id="import-auto-id3077932">The period found in (b) is the time per cycle, but this value is often quoted as simply the time in convenient units (ms or milliseconds in this case).</para>
+    </example><exercise id="fs-id2401394" type="check-understanding">
+<label/>
+                <title>Check your Understanding</title>
+                <problem id="fs-id3454521">
+    <para id="import-auto-id2639826">Identify an event in your life (such as receiving a paycheck) that occurs regularly. Identify both the period and frequency of this event.</para></problem>
+                <solution id="fs-id3105489" print-placement="here">
+    <para id="import-auto-id3103253">I visit my parents for dinner every other Sunday. The frequency of my visits is 26 per calendar year. The period is two weeks.</para></solution>
+
+
+        </exercise>
+
+<section id="fs-id1357054" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+<exercise id="fs-id2524521" type="ap-test-prep">
+<problem id="fs-id1946352">
+<para id="fs-id1258963">A mass attached to a spring oscillates and completes 50 full cycles in 30 s. What is the time period and frequency of this system?</para></problem>
+<solution id="fs-id1240580">
+<para id="fs-id1567379">The frequency is given by</para>
+<para id="fs-id1305271"><m:math display="block">
+ <m:mrow>
+  <m:mi>f</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>T</m:mi>
+  </m:mfrac>
+  <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mrow>
+    <m:mn>50</m:mn><m:mtext> </m:mtext><m:mi>c</m:mi><m:mi>y</m:mi><m:mi>c</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mi>s</m:mi>
+   </m:mrow>
+   <m:mrow>
+    <m:mn>30</m:mn><m:mi>s</m:mi>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1.66</m:mn><m:mtext> </m:mtext><m:mi>H</m:mi><m:mi>z</m:mi>
+ </m:mrow>
+</m:math>
+</para><para id="fs-id1327778">Time period is:</para>
+<para id="fs-id1944596"><m:math display="block">
+ <m:mrow>
+  <m:mi>T</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mi>f</m:mi>
+  </m:mfrac>
+  <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:mn>1.66</m:mn>
+   </m:mrow>
+  </m:mfrac>
+  <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0.6</m:mn><m:mtext> </m:mtext><m:mtext>s</m:mtext>
+ </m:mrow>
+</m:math>
+
+</para></solution>
+</exercise>
+</section>
+
+
+    <section id="fs-id3112543" class="section-summary"><title>Section Summary</title><list id="fs-id2399846">
+        <item id="import-auto-id3437496">Periodic motion is a repetitious oscillation.</item>
+        <item id="import-auto-id1904875">The time for one oscillation is the period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>.</item>
+        <item id="import-auto-id2931325">The number of oscillations per unit time is the frequency <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math></emphasis>.</item>
+                <item id="import-auto-id2382777">These quantities are related by
+    <equation id="eip-794"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>f</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mi>T</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            <m:mrow/>
+            <m:mo>.</m:mo>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {T} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item></list>
+    </section><section id="fs-id1941066" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id2409820" type="problems-exercises"><problem id="fs-id3046355"><para id="import-auto-id1091158">What is the period of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>Hz</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60" "." 0`"Hz"} {}</m:annotation></m:semantics></m:math> electrical power?</para></problem>
+<solution id="fs-id2391328">
+    <para id="import-auto-id1941607">16.7 ms</para></solution>
+    </exercise>
+    <exercise id="fs-id2952945" type="problems-exercises"><problem id="fs-id1413589"><para id="import-auto-id2449410">If your heart rate is 150 beats per minute during strenuous exercise, what is the time per beat in units of seconds?</para>
+    </problem>
+<solution id="fs-id2053610">
+    <para id="fs-id3053411"><m:math><m:semantics><m:mrow><m:mn>0.400 s</m:mn><m:mo stretchy="false">/</m:mo><m:mtext>beats</m:mtext></m:mrow></m:semantics></m:math></para></solution>
+    </exercise>
+    <exercise id="fs-id1863946" type="problems-exercises"><problem id="fs-id1848636"><para id="import-auto-id3105518">Find the frequency of a tuning fork that takes <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "50" times "10" rSup { size 8{ - 3} } s} {}</m:annotation></m:semantics></m:math> to complete one oscillation.</para></problem>
+<solution id="fs-id3013159">
+    <para id="fs-id1917220">400 Hz</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1402085" type="problems-exercises"><problem id="fs-id1404551"><para id="import-auto-id701556">A stroboscope is set to flash every <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" times "10" rSup { size 8{ - 5} } `s} {}</m:annotation></m:semantics></m:math>. What is the frequency of the flashes?</para></problem>
+<solution id="fs-id1869736">
+    <para id="fs-id2384713">12,500 Hz</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id2421181" type="problems-exercises"><problem id="fs-id3013679"><para id="import-auto-id3229120">A tire has a tread pattern with a crevice every 2.00 cm. Each crevice makes a single vibration as the tire moves. What is the frequency of these vibrations if the car moves at 30.0 m/s?</para></problem>
+<solution id="fs-id2442107">
+    <para id="import-auto-id3046355">1.50 kHz</para></solution>
+    </exercise>
+    <exercise id="fs-id1011966" type="problems-exercises"><problem id="fs-id3229120"><para id="import-auto-id2674203"><title>Engineering Application</title></para>
+<para id="eip-id1472446">Each piston of an engine makes a sharp sound every other revolution of the engine. (a) How fast is a race car going if its eight-cylinder engine emits a sound of frequency 750 Hz, given that the engine makes 2000 revolutions per kilometer? (b) At how many revolutions per minute is the engine rotating?</para></problem>
+<solution id="fs-id3045334">
+    <para id="import-auto-id3135232">(a) 93.8 m/s</para><para id="eip-id1625911">(b) <m:math>
+    <m:semantics>
+     <m:mrow>
+      <m:mstyle mathsize="12pt">
+       <m:mrow>
+        <m:mrow>
+         <m:mtext>
+11
+         </m:mtext>
+         <m:mtext>
+.
+         </m:mtext>
+         <m:mrow>
+          <m:mn>
+3
+          </m:mn>
+          <m:mo stretchy="false">
+×
+          </m:mo>
+          <m:msup>
+           <m:mtext>
+10
+           </m:mtext>
+           <m:mrow>
+            <m:mstyle mathsize="8pt">
+             <m:mrow>
+              <m:mrow>
+               <m:mn>
+3
+               </m:mn>
+              </m:mrow>
+             </m:mrow>
+            </m:mstyle>
+           </m:mrow>
+          </m:msup>
+         </m:mrow>
+         <m:mi/><m:mspace width="0.25em"/>
+         <m:mtext>
+rev/min
+         </m:mtext>
+        </m:mrow>
+       </m:mrow>
+      </m:mstyle>
+      <m:mrow/>
+     </m:mrow>
+     <m:annotation encoding="StarMath 5.0">
+size 12{"11" "." 3 times "10" rSup { size 8{3} } `"rev/min"} {}
+     </m:annotation>
+    </m:semantics>
+   </m:math></para></solution>
+    </exercise></section> </content>
+    <glossary>
+        <definition id="import-auto-id2931652"><term>period</term> <meaning id="fs-id2674381">time it takes to complete one oscillation</meaning></definition>
+        <definition id="import-auto-id2435584"><term>periodic motion</term><meaning id="fs-id1438866">motion that repeats itself at regular time intervals</meaning></definition>
+        <definition id="import-auto-id2653491"><term>frequency</term><meaning id="fs-id2931175">number of events per unit of time</meaning></definition>
+    </glossary>
+</document>

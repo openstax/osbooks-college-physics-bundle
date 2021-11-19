@@ -1,0 +1,993 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55268</md:content-id>
+  <md:title>Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation</md:title>
+  <md:abstract/>
+  <md:uuid>49ecea37-06be-48bb-b87c-2c442efa62bb</md:uuid>
+</metadata>
+
+<content>
+
+<section id="fs-id890267" class="learning-objectives">
+  <title>Learning Objectives</title>
+  <para id="fs-id2002883">By the end of this section, you will be able to:</para>
+  <list id="fs-id3324659">
+<item>Identify probabilities in entropy.</item>
+<item>Analyze statistical probabilities in entropic systems.</item>
+</list>
+<para id="fs-id2695754">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id1684365">
+<item><emphasis effect="bold">7.B.1.1</emphasis> The student is able to construct an explanation, based on atomic-scale interactions and probability, of how a system approaches thermal equilibrium when energy is transferred to it or from it in a thermal process. <emphasis effect="bold">(S.P. 6.2)</emphasis></item>
+</list>
+   </section>
+
+    <figure id="import-auto-id1169738148002"><media id="import-auto-id1169737715203" alt="Photograph of many coins laid down on a surface, some with heads shown up and some with tails shown up.">
+        <image mime-type="image/png" src="../../media/Figure_16_07_01.jpg"/>
+      </media>    
+    
+    <caption>When you toss a coin a large number of times, heads and tails tend to come up in roughly equal numbers. Why doesn't heads come up 100, 90, or even 80% of the time? (credit: Jon Sullivan, PDPhoto.org)</caption></figure><para id="import-auto-id1169737762485">The various ways of formulating the second law of thermodynamics tell what happens rather than why it happens. Why should heat transfer occur only from hot to cold? Why should energy become ever less available to do work? Why should the universe become increasingly disorderly? The answer is that it is a matter of overwhelming probability. Disorder is simply vastly more likely than order.</para>
+    <para id="import-auto-id1169738082621">When you watch an emerging rain storm begin to wet the ground, you will notice that the drops fall in a disorganized manner both in time and in space. Some fall close together, some far apart, but they never fall in straight, orderly rows. It is not impossible for rain to fall in an orderly pattern, just highly unlikely, because there are many more disorderly ways than orderly ones. To illustrate this fact, we will examine some random processes, starting with coin tosses.</para>
+  
+  <section id="fs-id1169737911144">
+    <title>Coin Tosses</title>
+    <para id="import-auto-id1169737818690">What are the possible outcomes of tossing 5 coins? Each coin can land either heads or tails. On the large scale, we are concerned only with the total heads and tails and not with the order in which heads and tails appear. The following possibilities exist:</para>
+    <equation id="fs-id1169737756205">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable>
+                <m:mtr>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mtext>5 heads, 0 tails</m:mtext>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mtext>4 heads, 1 tail</m:mtext>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mtext>3 heads, 2 tails</m:mtext>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mtext>2 heads, 3 tails</m:mtext>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mtext>1 head, 4 tails</m:mtext>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+                <m:mtr>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mtext>0 head, 5 tails</m:mtext>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{"5 heads, 0 tails"}  {} # 
+ size 12{"4 heads, 1 tail"}  {} # 
+ size 12{"3 heads, 2 tails"}  {} # 
+ size 12{"2 heads, 3 tails"}  {} # 
+ size 12{"1 head, 4 tails"}  {} # 
+ size 12{"0 head, 5 tails"}  {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation>
+    <para id="import-auto-id1169738137712">These are what we call macrostates. A <term id="import-auto-id1169738144323">macrostate</term> is an overall property of a system. It does not specify the details of the system, such as the order in which heads and tails occur or which coins are heads or tails.</para>
+    <para id="import-auto-id1169737969172">Using this nomenclature, a system of 5 coins has the 6 possible macrostates just listed. Some macrostates are more likely to occur than others. For instance, there is only one way to get 5 heads, but there are several ways to get 3 heads and 2 tails, making the latter macrostate more probable. <link target-id="import-auto-id1169738164494"/> lists of all the ways in which 5 coins can be tossed, taking into account the order in which heads and tails occur. Each sequence is called a <term id="import-auto-id1169736609346">microstate</term>—a detailed description of every element of a system.</para>
+  
+  
+ <table id="import-auto-id1169738164494" summary="A table with combinations of five coins tossed together five times is shown. The first column shows different toss results. The second column represents individual microstates, and the third column represents the number of microstates."><title>5-Coin Toss</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead><row>
+            <entry/>
+            <entry>Individual microstates</entry>
+            <entry>Number of microstates</entry>
+          </row></thead><tbody><row>
+            <entry>5 heads, 0 tails</entry>
+            <entry>HHHHH</entry>
+            <entry align="center">1</entry>
+          </row><row>
+            <entry>4 heads, 1 tail</entry>
+            <entry>HHHHT, HHHTH, HHTHH, HTHHH, THHHH</entry>
+            <entry align="center">5</entry>
+          </row><row>
+            <entry>3 heads, 2 tails</entry>
+            <entry>HTHTH, THTHH, HTHHT, THHTH, THHHT HTHTH, THTHH, HTHHT, THHTH, THHHT</entry>
+            <entry align="center">10</entry>
+          </row><row>
+            <entry>2 heads, 3 tails</entry>
+            <entry>TTTHH, TTHHT, THHTT, HHTTT, TTHTH, THTHT, HTHTT, THTTH, HTTHT, HTTTH</entry>
+            <entry align="center">10</entry>
+          </row><row>
+            <entry>1 head, 4 tails</entry>
+            <entry>TTTTH, TTTHT, TTHTT, THTTT, HTTTT</entry>
+            <entry align="center">5</entry>
+          </row><row>
+            <entry>0 heads, 5 tails</entry>
+            <entry>TTTTT</entry>
+            <entry align="center">1</entry>
+          </row><row>
+            <entry/>
+            <entry/>
+            <entry align="center">Total: 32</entry>
+          </row></tbody>
+
+
+</tgroup>
+</table><para id="import-auto-id1169737980730">The macrostate of 3 heads and 2 tails can be achieved in 10 ways and is thus 10 times more probable than the one having 5 heads. Not surprisingly, it is equally probable to have the reverse, 2 heads and 3 tails. Similarly, it is equally probable to get 5 tails as it is to get 5 heads. Note that all of these conclusions are based on the crucial assumption that each microstate is equally probable. With coin tosses, this requires that the coins not be asymmetric in a way that favors one side over the other, as with loaded dice. With any system, the assumption that all microstates are equally probable must be valid, or the analysis will be erroneous.</para>
+    <para id="import-auto-id1169737927504">The two most orderly possibilities are 5 heads or 5 tails. (They are more structured than the others.) They are also the least likely, only 2 out of 32 possibilities. The most disorderly possibilities are 3 heads and 2 tails and its reverse. (They are the least structured.) The most disorderly possibilities are also the most likely, with 20 out of 32 possibilities for the 3 heads and 2 tails and its reverse. If we start with an orderly array like 5 heads and toss the coins, it is very likely that we will get a less orderly array as a result, since 30 out of the 32 possibilities are less orderly. So even if you start with an orderly state, there is a strong tendency to go from order to disorder, from low entropy to high entropy. The reverse can happen, but it is unlikely.</para>
+    
+  
+  <table id="import-auto-id1169738223876" summary="A table is shown for hundred coin toss with three columns. The first two columns are for the microstate heads and tails and the third column is for number of microstates W."><title>100-Coin Toss</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead><row>
+            <entry namest="c1" nameend="c2">Macrostate</entry>
+            <entry>Number of microstates</entry>
+          </row></thead><tbody><row>
+            <entry align="center">Heads</entry>
+            <entry align="center">Tails</entry>
+            <entry align="center">(<emphasis effect="italics">W</emphasis>)</entry>
+          </row><row>
+            <entry align="center">100</entry>
+            <entry align="center">0</entry>
+            <entry align="center">1</entry>
+          </row><row>
+            <entry align="center">99</entry>
+            <entry align="center">1</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0´"10" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">95</entry>
+            <entry align="center">5</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>7</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mn>7</m:mn>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." 5´"10" rSup { size 8{7} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">90</entry>
+            <entry align="center">10</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>7</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>13</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 7´"10" rSup { size 8{"13"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">75</entry>
+            <entry align="center">25</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>4</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>23</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2 "." 4´"10" rSup { size 8{"23"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">60</entry>
+            <entry align="center">40</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>4</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>28</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 4´"10" rSup { size 8{"28"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">55</entry>
+            <entry align="center">45</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>1</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>28</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{6 "." 1´"10" rSup { size 8{"28"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">51</entry>
+            <entry align="center">49</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>9</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>28</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{9 "." 9´"10" rSup { size 8{"28"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">50</entry>
+            <entry align="center">50</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>29</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0´"10" rSup { size 8{"29"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">49</entry>
+            <entry align="center">51</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>9</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>9</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>28</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{9 "." 9´"10" rSup { size 8{"28"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">45</entry>
+            <entry align="center">55</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>1</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>28</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{6 "." 1´"10" rSup { size 8{"28"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">40</entry>
+            <entry align="center">60</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>4</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>28</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 4´"10" rSup { size 8{"28"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">25</entry>
+            <entry align="center">75</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>4</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>23</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{2 "." 4´"10" rSup { size 8{"23"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">10</entry>
+            <entry align="center">90</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>7</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>13</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 7´"10" rSup { size 8{"13"} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">5</entry>
+            <entry align="center">95</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>7</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>5</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mn>7</m:mn>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{7 "." 5´"10" rSup { size 8{7} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">1</entry>
+            <entry align="center">99</entry>
+            <entry align="center">
+              <m:math display="block">
+                <m:semantics>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0</m:mn>
+                          <m:mi>×</m:mi>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." 0´"10" rSup { size 8{2} } } {}</m:annotation>
+                </m:semantics>
+              </m:math> 
+            </entry>
+          </row><row>
+            <entry align="center">0</entry>
+            <entry align="center">100</entry>
+            <entry align="center">1</entry>
+          </row><row>
+            <entry/>
+            <entry/>
+            <entry/>
+          </row><row>
+            <entry/>
+            <entry/>
+            <entry align="center">Total: <m:math display="block"><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>27</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "27"´"10" rSup { size 8{"30"} } } {}</m:annotation></m:semantics></m:math></entry>
+          </row></tbody>
+      
+
+
+
+</tgroup>
+</table><para id="import-auto-id1169737802488">This result becomes dramatic for larger systems. Consider what happens if you have 100 coins instead of just 5. The most orderly arrangements (most structured) are 100 heads or 100 tails. The least orderly (least structured) is that of 50 heads and 50 tails. There is only 1 way (1 microstate) to get the most orderly arrangement of 100 heads. There are 100 ways (100 microstates) to get the next most orderly arrangement of 99 heads and 1 tail (also 100 to get its reverse). And there are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1.0</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>29</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 0 times "10" rSup { size 8{"29"} } } {}</m:annotation></m:semantics></m:math> ways to get 50 heads and 50 tails, the least orderly arrangement. <link target-id="import-auto-id1169738223876"/> is an abbreviated list of the various macrostates and the number of microstates for each macrostate. The total number of microstates—the total number of different ways 100 coins can be tossed—is an impressively large <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>27</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "27" times "10" rSup { size 8{"30"} } } {}</m:annotation></m:semantics></m:math>. Now, if we start with an orderly macrostate like 100 heads and toss the coins, there is a virtual certainty that we will get a less orderly macrostate. If we keep tossing the coins, it is possible, but exceedingly unlikely, that we will ever get back to the most orderly macrostate. If you tossed the coins once each second, you could expect to get either 100 heads or 100 tails once in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 times "10" rSup { size 8{"22"} } } {}</m:annotation></m:semantics></m:math> years! This period is 1 trillion (<m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>12</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"12"} } } {}</m:annotation></m:semantics></m:math>) times longer than the age of the universe, and so the chances are essentially zero. In contrast, there is an 8% chance of getting 50 heads, a 73% chance of getting from 45 to 55 heads, and a 96% chance of getting from 40 to 60 heads. Disorder is highly likely.</para></section>
+  
+  <section id="fs-id1169737793266">
+    <title>Disorder in a Gas</title>
+    <para id="import-auto-id1169737882693">The fantastic growth in the odds favoring disorder that we see in going from 5 to 100 coins continues as the number of entities in the system increases. Let us now imagine applying this approach to perhaps a small sample of gas. Because counting microstates and macrostates involves statistics, this is called <term id="import-auto-id1169738257471">statistical analysis</term>. The macrostates of a gas correspond to its macroscopic properties, such as volume, temperature, and pressure; and its microstates correspond to the detailed description of the positions and velocities of its atoms. Even a small amount of gas has a huge number of atoms: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mn>0</m:mn><m:msup><m:mtext> cm</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 0" cm" rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math> of an ideal gas at 1.0 atm and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0º C</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0°C} {}</m:annotation></m:semantics></m:math> has <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>7</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>19</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." 7 times "10" rSup { size 8{"19"} } } {}</m:annotation></m:semantics></m:math> atoms. So each macrostate has an immense number of microstates. In plain language, this means that there are an immense number of ways in which the atoms in a gas can be arranged, while still having the same pressure, temperature, and so on.</para><para id="import-auto-id1169738209745">The most likely conditions (or macrostates) for a gas are those we see all the time—a random distribution of atoms in space with a Maxwell-Boltzmann distribution of speeds in random directions, as predicted by kinetic theory. This is the most disorderly and least structured condition we can imagine. In contrast, one type of very orderly and structured macrostate has all of the atoms in one corner of a container with identical velocities. There are very few ways to accomplish this (very few microstates corresponding to it), and so it is exceedingly unlikely ever to occur. (See <link target-id="import-auto-id1169738137203"/>(b).) Indeed, it is so unlikely that we have a law saying that it is impossible, which has never been observed to be violated—the second law of thermodynamics.</para><figure id="import-auto-id1169738137203"><media id="import-auto-id1169736629497" alt="Two states of a container of gas are shown. In state a, the gas molecules, depicted as small green spheres, are randomly distributed in the container, with random velocities (an arrow is attached to each sphere, and the arrows vary in length and direction). This state is labeled likely. In state b, the molecules are clustered in the lower left-hand corner of the container and the arrows are much shorter. This state is labeled highly unlikely."><image mime-type="image/jpg" src="../../media/Figure_16_07_02.jpg"/></media>
+      
+    <caption>(a) The ordinary state of gas in a container is a disorderly, random distribution of atoms or molecules with a Maxwell-Boltzmann distribution of speeds. It is so unlikely that these atoms or molecules would ever end up in one corner of the container that it might as well be impossible. (b) With energy transfer, the gas can be forced into one corner and its entropy greatly reduced. But left alone, it will spontaneously increase its entropy and return to the normal conditions, because they are immensely more likely.</caption></figure><para id="import-auto-id1169738060603">The disordered condition is one of high entropy, and the ordered one has low entropy. With a transfer of energy from another system, we could force all of the atoms into one corner and have a local decrease in entropy, but at the cost of an overall increase in entropy of the universe. If the atoms start out in one corner, they will quickly disperse and become uniformly distributed and will never return to the orderly original state (<link target-id="import-auto-id1169738137203"/>(b)). Entropy will increase. With such a large sample of atoms, it is possible—but unimaginably unlikely—for entropy to decrease. Disorder is vastly more likely than order.</para><para id="import-auto-id1169738010932">The arguments that disorder and high entropy are the most probable states are quite convincing. The great Austrian physicist Ludwig Boltzmann (1844–1906)—who, along with Maxwell, made so many contributions to kinetic theory—proved that the entropy of a system in a given state (a macrostate) can be written as</para>
+    <equation id="eip-291"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> ln</m:mtext><m:mi>W</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{S=k" ln"W} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169737709995">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>38</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=1 "." "38" times "10" rSup { size 8{ - "23"} } "J/K"} {}</m:annotation></m:semantics></m:math> is Boltzmann's constant, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>ln</m:mtext><m:mi>W</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"ln" W} {}</m:annotation></m:semantics></m:math> is the natural logarithm of the number of microstates <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ W} {}</m:annotation></m:semantics></m:math> corresponding to the given macrostate. <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ W} {}</m:annotation></m:semantics></m:math> is proportional to the probability that the macrostate will occur. Thus entropy is directly related to the probability of a state—the more likely the state, the greater its entropy. Boltzmann proved that this expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>S</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ S} {}</m:annotation></m:semantics></m:math> is equivalent to the definition <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>T</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ΔS=Q/T} {}</m:annotation></m:semantics></m:math>, which we have used extensively.</para><para id="import-auto-id1169736801299">Thus the second law of thermodynamics is explained on a very basic level: entropy either remains the same or increases in every process. This phenomenon is due to the extraordinarily small probability of a decrease, based on the extraordinarily larger number of microstates in systems with greater entropy. Entropy <emphasis effect="italics">can</emphasis> decrease, but for any macroscopic system, this outcome is so unlikely that it will never be observed.</para>
+  </section>
+  
+    <example id="fs-id1169738180472">
+    <title>Entropy Increases in a Coin Toss</title>
+    <para id="import-auto-id1169737780734">Suppose you toss 100 coins starting with 60 heads and 40 tails, and you get the most likely result, 50 heads and 50 tails. What is the change in entropy?</para>
+   
+      <para id="import-auto-id1169737704912">
+      <title>Strategy</title>
+    </para>
+    <para id="import-auto-id1169737795101">Noting that the number of microstates is labeled <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id1169738223876"/> for the 100-coin toss, we can use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> ln</m:mtext><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">-</m:mo><m:mi>k</m:mi></m:mrow><m:mtext>ln</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS=S rSub { size 8{f} } -S rSub { size 8{i} } =k" ln"W rSub { size 8{f} }  +- k"ln"W rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> to calculate the change in entropy.</para><para id="import-auto-id1169737785361">
+      <title>Solution</title>
+    </para>
+    <para id="import-auto-id1169737895337">The change in entropy is</para>
+    <equation id="eip-822"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">–</m:mo><m:msub><m:mi>S</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mtext> ln</m:mtext><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">–</m:mo><m:mi>k</m:mi></m:mrow><m:mtext>ln</m:mtext><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>i</m:mtext><m:mo>,</m:mo></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS=S rSub { size 8{f} } -S rSub { size 8{i} } =k" ln"W rSub { size 8{f} }  +- k"ln"W rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738155874">where the subscript i stands for the initial 60 heads and 40 tails state, and the subscript f for the final 50 heads and 50 tails state. Substituting the values for <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> from <link target-id="import-auto-id1169738223876"/> gives</para><equation id="eip-827"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                            <m:mn>Δ</m:mn><m:mi>S</m:mi></m:mtd>
+<m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mrow>
+
+
+                            <m:mo stretchy="false">(</m:mo>
+                          </m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>38</m:mtext>
+                          <m:mo>×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mrow>
+                                  <m:mo stretchy="false">–</m:mo>
+                                  <m:mtext>23</m:mtext>
+                                </m:mrow>
+                              </m:mrow>
+                            
+                          </m:msup><m:mspace width="0.25em"/>
+                          <m:mtext> J/K</m:mtext>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">[</m:mo>
+                          <m:mtext>ln</m:mtext>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0</m:mn>
+                          <m:mo>×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>29</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                          <m:mrow>
+                            <m:mo stretchy="false">)</m:mo>
+                            <m:mo stretchy="false">–</m:mo>
+                            <m:mtext>ln </m:mtext>
+                          </m:mrow>
+                          <m:mo stretchy="false">(</m:mo>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>4</m:mn>
+                          <m:mo>×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            
+                              <m:mrow>
+                                <m:mtext>28</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          <m:mo stretchy="false">]</m:mo>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd><m:mo>=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mtext>2.7</m:mtext>
+                    <m:mo>×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">–</m:mo>
+                            <m:mtext>23</m:mtext>
+                          </m:mrow>
+                        </m:mrow>
+                      
+                    </m:msup><m:mspace width="0.25em"/>
+                    <m:mtext> J/K</m:mtext>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{DS= \( 1 "." "38"´"10" rSup { size 8{-"23"} } " J/K" \)  \[ "ln" \( 1 "." 0´"10" rSup { size 8{"29"} }  \)  +- "ln " \( 1 "." 4´"10" rSup { size 8{"28"} }  \)  \] }  {} # 
+"     =2" "." 7´"10" rSup { size 8{ +- "23"} } " J/K" {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1169736615730">
+      <title>Discussion</title>
+    </para>
+    <para id="import-auto-id1169737967292">This increase in entropy means we have moved to a less orderly situation. It is not impossible for further tosses to produce the initial state of 60 heads and 40 tails, but it is less likely. There is about a 1 in 90 chance for that decrease in entropy (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mn>7</m:mn><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- 2 "." 7´"10" rSup { size 8{ +- "23"} } " J/K"} {}</m:annotation></m:semantics></m:math>) to occur. If we calculate the decrease in entropy to move to the most orderly state, we get <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>92</m:mtext></m:mrow></m:mrow><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS= +- "92"´"10" rSup { size 8{ +- "23"} } " J/K"} {}</m:annotation></m:semantics></m:math>. There is about a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext> in </m:mtext><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1" in ""10" rSup { size 8{"30"} } } {}</m:annotation></m:semantics></m:math> chance of this change occurring. So while very small decreases in entropy are unlikely, slightly greater decreases are impossibly unlikely. These probabilities imply, again, that for a macroscopic system, a decrease in entropy is impossible. For example, for heat transfer to occur spontaneously from 1.00 kg of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0ºC} {}</m:annotation></m:semantics></m:math> ice to its <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0°C} {}</m:annotation></m:semantics></m:math> environment, there would be a decrease in entropy of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>22</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "22" times "10" rSup { size 8{3} } " J/K"} {}</m:annotation></m:semantics></m:math>. Given that a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>S</m:mi><m:msup><m:mtext> of 10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>21</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DS" of 10" rSup { size 8{ +- "21"} } " J/K"} {}</m:annotation></m:semantics></m:math> corresponds to about a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext> in </m:mtext><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> chance, a decrease of this size (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{3} } " J/K"} {}</m:annotation></m:semantics></m:math>) is an <emphasis effect="italics">utter</emphasis> impossibility. Even for a milligram of melted ice to spontaneously refreeze is impossible.</para></example>
+  
+    <note id="fs-id1169738068841"><label/><title>Problem-Solving Strategies for Entropy</title>
+    
+    <list id="fs-id1169738116732" list-type="enumerated" number-style="arabic"><item id="import-auto-id1169738012863"><emphasis effect="italics">Examine the situation to determine if entropy is involved.</emphasis></item>
+    <item id="import-auto-id1169738249054"><emphasis effect="italics">Identify the system of interest and draw a labeled diagram of the system showing energy flow.</emphasis></item>
+    <item id="import-auto-id1169738249056"><emphasis effect="italics">Identify exactly what needs to be determined in the problem (identify the unknowns).</emphasis> A written list is useful.</item>
+    <item id="import-auto-id1169737769982"><emphasis effect="italics">Make a list of what is given or can be inferred from the problem as stated (identify the knowns).</emphasis> You must carefully identify the heat transfer, if any, and the temperature at which the process takes place. It is also important to identify the initial and final states.</item>
+    <item id="import-auto-id1169736622277"><emphasis effect="italics">Solve the appropriate equation for the quantity to be determined (the unknown).</emphasis> Note that the change in entropy can be determined between any states by calculating it for a reversible process.</item>
+    <item id="import-auto-id1169737951074"><emphasis effect="italics">Substitute the known value along with their units into the appropriate equation, and obtain numerical solutions complete with units.</emphasis></item>
+    <item id="import-auto-id1169738138484"><emphasis effect="italics">To see if it is reasonable: Does it make sense?</emphasis> For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states.</item>
+    </list></note>
+
+<section id="fs-id3270527" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+<exercise id="fs-id2253927" type="ap-test-prep"><problem id="fs-id675935">
+<para id="fs-id1345044">A piston is resting halfway into a cylinder containing gas in thermal equilibrium. The layer of molecules next to the closed end of the cylinder is suddenly flash-heated to a very high temperature. Which best describes what happens next?</para>
+<list id="fs-id1383676" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The high temperature molecules push out the piston until their energy is reduced enough that the system is in equilibrium.</item>
+<item>The molecules with the highest temperature bounce off their neighbors, losing energy to them, and so on until the system is at a new equilibrium with the piston moved out.</item>
+<item>The molecules with the highest temperature bounce off their neighbors, losing energy to them, and so on until the system is at a new equilibrium with the piston where it started.</item>
+<item>The high temperature molecules push out the piston until their energy is reduced enough that the system is in equilibrium, and then the piston gets sucked back in.</item>
+</list>
+</problem>
+<solution id="fs-id2400145">
+<para id="fs-id1465822">(b)</para></solution></exercise><exercise id="fs-id3590952" type="ap-test-prep">
+<problem id="fs-id1442937">
+<para id="fs-id2544420">Design a macroscopic simulation using reasonably common materials to represent one very high energy particle gradually transferring energy to a bunch of lower energy particles, and determine if you end up with some sort of equilibrium.</para></problem>
+<!--<solution id="fs-id2315056">
+<para id="fs-id3921332">Using a checkers set, place all of the black pieces onto the board. Stack all of the red pieces on one of the black pieces. All pieces move one space each turn. If they would bump into each other, they each move to the nearest open space. When this happens, if one has more red pieces than the other, give the piece with fewer red pieces one from the piece with more.</para>
+</solution>-->
+</exercise></section>
+
+
+<section id="fs-id1169737728173" class="section-summary"><title>Section Summary</title><list id="fs-id1169737713969"><item id="import-auto-id1169737780420">Disorder is far more likely than order, which can be seen statistically.</item>
+<item>The entropy of a system in a given state (a macrostate) can be written as <equation id="eip-id1923841"><m:math><m:semantics><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mn>ln</m:mn><m:mi>W</m:mi><m:mo>,</m:mo></m:mrow></m:semantics></m:math></equation>
+where 
+<m:math><m:semantics><m:mrow><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>–23</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>J/K</m:mtext></m:mrow></m:semantics></m:math>  is Boltzmann's constant, and <m:math><m:semantics><m:mrow><m:mn>ln</m:mn><m:mi>W</m:mi></m:mrow></m:semantics></m:math> is the natural logarithm of the number of microstates <m:math><m:semantics><m:mrow><m:mi>W</m:mi></m:mrow></m:semantics></m:math>  corresponding to the given macrostate.</item>
+    </list></section><section id="eip-110" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="eip-558"><problem id="eip-25">
+  <para id="eip-447">
+    Explain why a building made of bricks has smaller entropy than the same bricks in a disorganized pile. Do this by considering the number of ways that each could be formed (the number of microstates in each macrostate).
+  </para>
+</problem>
+
+
+</exercise></section><section id="fs-id1169737988414" type="problems-exercises" class="problems-exercises"><title>Problem Exercises</title><exercise id="fs-id1169737789408" type="problems-exercises">
+      <problem id="fs-id1169737777965">
+        <para id="import-auto-id1169738246622">Using <link target-id="import-auto-id1169738223876"/>, verify the contention that if you toss 100 coins each second, you can expect to get 100 heads or 100 tails once in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2´"10" rSup { size 8{"22"} } } {}</m:annotation></m:semantics></m:math> years; calculate the time to two-digit accuracy.</para>
+    </problem>
+<solution id="fs-id1169736658961">
+    <para id="import-auto-id1169737760758">It should happen twice in every <m:math>
+        <m:semantics>
+                <m:mrow>
+                  <m:mn>1.27</m:mn>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext><m:mtext>30</m:mtext></m:msup><m:mspace width="0.25em"/><m:mtext> s</m:mtext>
+          </m:mrow></m:semantics></m:math> 
+    or once in every <m:math>
+        <m:semantics><m:mrow><m:mn>6.35</m:mn><m:mo stretchy="false">×</m:mo>
+ <m:msup><m:mtext>10</m:mtext><m:mtext>29</m:mtext></m:msup>
+<m:mspace width="0.25em"/><m:mtext> s</m:mtext></m:mrow></m:semantics></m:math> 
+
+<m:math>
+        <m:semantics>
+          <m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mo>(</m:mo><m:mn>6.35</m:mn>
+                    <m:mo stretchy="false">×</m:mo>
+ <m:msup> <m:mtext>10</m:mtext>                          <m:mtext>29</m:mtext>
+                        </m:msup>
+<m:mspace width="0.25em"/>
+                  <m:mtext> s</m:mtext><m:mo>)</m:mo>
+
+<m:mo>(</m:mo><m:mfrac><m:mtext>1 h</m:mtext><m:mtext> 3600 s</m:mtext></m:mfrac><m:mo>)</m:mo></m:mtd>
+<m:mtd>
+<m:mo>(</m:mo><m:mfrac><m:mtext>1 d</m:mtext><m:mtext>24 h</m:mtext></m:mfrac><m:mo>)</m:mo>
+<m:mo>(</m:mo><m:mfrac><m:mtext>1 y</m:mtext><m:mtext>365.25 d</m:mtext></m:mfrac><m:mo>)</m:mo></m:mtd></m:mtr>
+<m:mtr><m:mtd>
+<m:mo>=</m:mo></m:mtd>
+<m:mtd><m:mn>2.0</m:mn><m:mo stretchy="false">×</m:mo><m:msup>
+                      <m:mtext>10</m:mtext><m:mtext>22</m:mtext></m:msup>
+<m:mspace width="0.25em"/><m:mtext> y</m:mtext></m:mtd>
+</m:mtr>
+</m:mtable></m:mrow> </m:semantics></m:math> </para></solution>
+      </exercise>
+      
+      <exercise id="fs-id1169738131468" type="problems-exercises">
+        <problem id="fs-id1169738175965">   
+      <para id="import-auto-id1169737779623">What percent of the time will you get something in the range from 60 heads and 40 tails through 40 heads and 60 tails when tossing 100 coins? The total number of microstates in that range is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>22</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "22"´"10" rSup { size 8{"30"} } } {}</m:annotation></m:semantics></m:math>. (Consult <link target-id="import-auto-id1169738223876"/>.)</para>
+        </problem></exercise>
+      
+      <exercise id="fs-id1169738042871" type="problems-exercises">
+        <problem id="fs-id1169738146567">
+      <para id="import-auto-id1169738011524">(a) If tossing 100 coins, how many ways (microstates) are there to get the three most likely macrostates of 49 heads and 51 tails, 50 heads and 50 tails, and 51 heads and 49 tails? (b) What percent of the total possibilities is this? (Consult <link target-id="import-auto-id1169738223876"/>.)</para></problem>
+<solution id="fs-id1169737787751">
+    <para id="import-auto-id1169738164101">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>29</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 0 times "10" rSup { size 8{"29"} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1169737861744">(b) 24%</para></solution>
+      </exercise>
+      
+      <exercise id="fs-id1169737772142" type="problems-exercises">
+        <problem id="fs-id1169738075597">  
+      <para id="import-auto-id1169738164157">(a) What is the change in entropy if you start with 100 coins in the 45 heads and 55 tails macrostate, toss them, and get 51 heads and 49 tails? (b) What if you get 75 heads and 25 tails? (c) How much more likely is 51 heads and 49 tails than 75 heads and 25 tails? (d) Does either outcome violate the second law of thermodynamics?</para>
+        </problem></exercise>
+      
+      <exercise id="fs-id1169737855554" type="problems-exercises"><problem id="fs-id1169737855558"> 
+      <para id="import-auto-id1169738072210">(a) What is the change in entropy if you start with 10 coins in the 5 heads and 5 tails macrostate, toss them, and get 2 heads and 8 tails? (b) How much more likely is 5 heads and 5 tails than 2 heads and 8 tails? (Take the ratio of the number of microstates to find out.) (c) If you were betting on 2 heads and 8 tails would you accept odds of 252 to 45? Explain why or why not.</para>
+    </problem>
+<solution id="fs-id1169736581965">
+    <para id="import-auto-id1169737861844">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">-</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>38</m:mtext><m:mi>×</m:mi><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>23</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> J/K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ +- 2 "." "38"´"10" rSup { size 8{ +- "23"} } " J/K"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1169738164438">(b) 5.6 times more likely</para>
+<para id="eip-id1693063">(c) If you were betting on two heads and 8 tails, the odds of breaking even are 252 to 45, so on average you would break even. So, no, you wouldn't bet on odds of 252 to 45.</para>
+    </solution>
+      </exercise><table id="import-auto-id1169738011783" summary="10-COIN TOSS"><title>10-Coin Toss</title><tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+<thead><row>
+            <entry namest="c1" nameend="c2">Macrostate</entry>
+        
+            <entry>Number of Microstates (<emphasis effect="italics">W</emphasis>)</entry>
+          </row></thead>
+        <tbody><row>
+            <entry>Heads</entry>
+            <entry>Tails</entry>
+            <entry/>
+          </row><row>
+            <entry>10</entry>
+            <entry>0</entry>
+            <entry>1</entry>
+          </row><row>
+            <entry>9</entry>
+            <entry>1</entry>
+            <entry>10</entry>
+          </row><row>
+            <entry>8</entry>
+            <entry>2</entry>
+            <entry>45</entry>
+          </row><row>
+            <entry>7</entry>
+            <entry>3</entry>
+            <entry>120</entry>
+          </row><row>
+            <entry>6</entry>
+            <entry>4</entry>
+            <entry>210</entry>
+          </row><row>
+            <entry>5</entry>
+            <entry>5</entry>
+            <entry>252</entry>
+          </row><row>
+            <entry>4</entry>
+            <entry>6</entry>
+            <entry>210</entry>
+          </row><row>
+            <entry>3</entry>
+            <entry>7</entry>
+            <entry>120</entry>
+          </row><row>
+            <entry>2</entry>
+            <entry>8</entry>
+            <entry>45</entry>
+          </row><row>
+            <entry>1</entry>
+            <entry>9</entry>
+            <entry>10</entry>
+          </row><row>
+            <entry>0</entry>
+            <entry>10</entry>
+            <entry>1</entry>
+          </row><row>
+            <entry/>
+            <entry/>
+            <entry>Total: 1024</entry>
+          </row></tbody>
+      
+</tgroup>
+</table>
+</section>
+<exercise id="fs-id1169738199118" type="problems-exercises">
+        <problem id="fs-id1169738249311"> 
+      <para id="import-auto-id1169737908963">(a) If you toss 10 coins, what percent of the time will you get the three most likely macrostates (6 heads and 4 tails, 5 heads and 5 tails, 4 heads and 6 tails)? (b) You can realistically toss 10 coins and count the number of heads and tails about twice a minute. At that rate, how long will it take on average to get either 10 heads and 0 tails or 0 heads and 10 tails?</para>
+        </problem></exercise>
+      
+      <exercise id="fs-id1169738036628" type="problems-exercises">
+        <problem id="fs-id1169738036632">
+      <para id="import-auto-id1169738109918">(a) Construct a table showing the macrostates and all of the individual microstates for tossing 6 coins. (Use <link target-id="import-auto-id1169738011783"/> as a guide.) (b) How many macrostates are there? (c) What is the total number of microstates? (d) What percent chance is there of tossing 5 heads and 1 tail? (e) How much more likely are you to toss 3 heads and 3 tails than 5 heads and 1 tail? (Take the ratio of the number of microstates to find out.)</para>
+    </problem>
+<solution id="fs-id1169737936059">
+    <para id="import-auto-id1169737803407">(b) 7</para>
+    <para id="import-auto-id1169737803409">(c) 64</para>
+    <para id="import-auto-id1169737754112">(d) 9.38%</para>
+    <para id="import-auto-id1169737910428">(e) 3.33 times more likely (20 to 6)</para>
+    </solution>
+      </exercise>
+      
+      <exercise id="fs-id1169738218686" type="problems-exercises">
+        <problem id="fs-id1169738218689"> 
+      <para id="import-auto-id1169737701966">In an air conditioner, 12.65 MJ of heat transfer occurs from a cold environment in 1.00 h. (a) What mass of ice melting would involve the same heat transfer? (b) How many hours of operation would be equivalent to melting 900 kg of ice? (c) If ice costs 20 cents per kg, do you think the air conditioner could be operated more cheaply than by simply using ice? Describe in detail how you evaluate the relative costs.</para>
+    </problem></exercise>
+   
+ </content>
+  <glossary>
+    <definition id="import-auto-id1169737817608"> <term>macrostate</term> <meaning id="fs-id1169736621446">an overall property of a system</meaning></definition>
+    <definition id="import-auto-id1169737770337"><term>microstate</term> <meaning id="fs-id1169736620556">each sequence within a larger macrostate</meaning></definition>
+    <definition id="import-auto-id1169737770339"><term>statistical analysis</term> <meaning id="fs-id1169737939801">using statistics to examine data, such as counting microstates and macrostates</meaning></definition>
+  </glossary>
+</document>

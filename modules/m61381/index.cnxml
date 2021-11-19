@@ -1,0 +1,310 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Conductors and Electric Fields in Static Equilibrium</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61381</md:content-id>
+  <md:title>Conductors and Electric Fields in Static Equilibrium</md:title>
+  <md:abstract><list>
+<item>List the three properties of a conductor in electrostatic equilibrium.</item>
+<item>Explain the effect of an electric field on free charges in a conductor.</item>
+<item>Explain why no electric field may exist inside a conductor.</item>
+<item>Describe the electric field surrounding Earth.</item>
+<item>Explain what happens to an electric field applied to an irregular conductor.</item>
+<item>Describe how a lightning rod works.</item>
+<item>Explain how a metal car may protect passengers inside from the dangerous electric fields caused by a downed line touching the car.</item>
+</list></md:abstract>
+  <md:uuid>19bdd8fc-1833-40ba-90fd-ca8df2707e6e</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3081522"><term id="import-auto-id2422804">Conductors</term> contain <term id="import-auto-id1576423">free charges</term> that move easily. When excess charge is placed on a conductor or the conductor is put into a static electric field, charges in the conductor quickly respond to reach a steady state called <term id="import-auto-id2056158">electrostatic equilibrium</term>.</para>
+    <para id="import-auto-id2970817"><link target-id="import-auto-id3230544"/> shows the effect of an electric field on free charges in a conductor. The free charges move until the field is perpendicular to the conductor’s surface. There can be no component of the field parallel to the surface in electrostatic equilibrium, since, if there were, it would produce further movement of charge. A positive free charge is shown, but free charges can be either positive or negative and are, in fact, negative in metals. The motion of a positive charge is equivalent to the motion of a negative charge in the opposite direction.</para>
+ 
+      <figure id="import-auto-id3230544"><media id="import-auto-id2402594" alt="In part a, an electric field E exists at some angle with the horizontal applied on a conductor. One component of this field E parallel is along x axis represented by a vector arrow and other E perpendicular, is along y axis represented by a vector arrow. Charge inside the conductor moves along x axis so the force acting on it is F parallel, which is equal to q multiplied by E parallel. In part b, a charge is shown inside the conductor and electric field is represented by a vector arrow pointing upward starting from the surface of the conductor.">
+          <image mime-type="image/jpg" src="../../media/Figure_19_07_02a.jpg" width="200"/>
+        </media>
+        
+      <caption>When an electric field <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> is applied to a conductor, free charges inside the conductor move until the field is perpendicular to the surface. (a) The electric field is a vector quantity, with both parallel and perpendicular components. The parallel component (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">E</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math>) exerts a force (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math>) on the free charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>, which moves the charge until <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } =0} {}</m:annotation></m:semantics></m:math>. (b) The resulting field is perpendicular to the surface. The free charge has been brought to the conductor’s surface, leaving electrostatic forces in equilibrium.</caption></figure><para id="import-auto-id1420106">A conductor placed in an <term id="import-auto-id1487262">electric field</term> will be <term id="import-auto-id1561098">polarized</term>. <link target-id="import-auto-id2453144"/> shows the result of placing a neutral conductor in an originally uniform electric field. The field becomes stronger near the conductor but entirely disappears inside it.</para>
+  
+  
+    <figure id="import-auto-id2453144"><media id="import-auto-id1986389" alt="A spherical conductor is placed in the external electric field. The field lines are shown running from left to right. The field lines enter and leave the conductor at right angles. Negative charges accumulate on the left surface of the conductor and positive charges accumulate on the right surface of the conductor.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_03a.jpg" width="200"/>
+      </media>
+      
+    <caption>This illustration shows a spherical conductor in static equilibrium with an originally uniform electric field. Free charges move within the conductor, polarizing it, until the electric field lines are perpendicular to the surface. The field lines end on excess negative charge on one section of the surface and begin again on excess positive charge on the opposite side. No electric field exists inside the conductor, since free charges in the conductor would continue moving in response to any field until it was neutralized.</caption></figure><note id="fs-id2660797"><label/><title>Misconception Alert: Electric Field inside a Conductor</title>
+    
+    <para id="import-auto-id2589598">Excess charges placed on a spherical conductor repel and move until they are evenly distributed, as shown in <link target-id="import-auto-id2594136"/>. Excess charge is forced to the surface until the field inside the conductor is zero. Outside the conductor, the field is exactly the same as if the conductor were replaced by a point charge at its center equal to the excess charge.</para>
+    
+      
+    <figure id="import-auto-id2594136"><media id="import-auto-id2661903" alt="A positively charged sphere is shown and positive charges are distributed all over the surface. Electric field lines emanate from the sphere in the space shown by the vector arrow pointing outward.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_04a.jpg" width="200"/>
+      </media>
+      
+    <caption>The mutual repulsion of excess positive charges on a spherical conductor distributes them uniformly on its surface. The resulting electric field is perpendicular to the surface and zero inside. Outside the conductor, the field is identical to that of a point charge at the center equal to the excess charge.</caption></figure></note><note id="fs-id3032178"><label/>
+    <title>Properties of a Conductor in Electrostatic Equilibrium</title>
+<list id="fs-id2394081" list-type="enumerated" number-style="arabic"><item id="import-auto-id1577562">The electric field is zero inside a conductor.</item>
+    <item id="import-auto-id1575688">Just outside a conductor, the electric field lines are perpendicular to its surface, ending or beginning on charges on the surface.</item>
+    <item id="import-auto-id1236511">Any excess charge resides entirely on the surface or surfaces of a conductor.</item>
+</list>
+    </note>
+  
+    <para id="import-auto-id1446943">The properties of a conductor are consistent with the situations already discussed and can be used to analyze any conductor in electrostatic equilibrium. This can lead to some interesting new insights, such as described below.</para>
+    <para id="import-auto-id2662934">How can a very uniform electric field be created? Consider a system of two metal plates with opposite charges on them, as shown in <link target-id="import-auto-id2594161"/>. The properties of conductors in electrostatic equilibrium indicate that the electric field between the plates will be uniform in strength and direction. Except near the edges, the excess charges distribute themselves uniformly, producing field lines that are uniformly spaced (hence uniform in strength) and perpendicular to the surfaces (hence uniform in direction, since the plates are flat). The edge effects are less important when the plates are close together.</para>
+ 
+  
+    <figure id="import-auto-id2594161"><media id="import-auto-id1842860" alt="Two charged metal plates are shown. The lower plate has negative charge and the upper plate has positive charge. The electric field lines start from positive plate and enter the negative plate represented by arrows.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_05a.jpg" width="300"/>
+      </media>
+      
+    <caption>Two metal plates with equal, but opposite, excess charges. The field between them is uniform in strength and direction except near the edges. One use of such a field is to produce uniform acceleration of charges between the plates, such as in the electron gun of a TV tube.</caption></figure><section id="fs-id1993364">
+    <title>Earth’s Electric Field</title>
+    <para id="import-auto-id1562038">A near uniform electric field of approximately 150 N/C, directed downward, surrounds Earth, with the magnitude increasing slightly as we get closer to the surface. What causes the electric field? At around 100 km above the surface of Earth we have a layer of charged particles, called the <term id="import-auto-id1578229">ionosphere</term>. The ionosphere is responsible for a range of phenomena including the electric field surrounding Earth. In fair weather the ionosphere is positive and the Earth largely negative, maintaining the electric field (<link target-id="import-auto-id3162895"/>(a)).</para>
+    <para id="import-auto-id1972718">In storm conditions clouds form and localized electric fields can be larger and reversed in direction (<link target-id="import-auto-id3162895"/>(b)). The exact charge distributions depend on the local conditions, and variations of <link target-id="import-auto-id3162895"/>(b) are possible.</para>
+    <para id="import-auto-id3259486">If the electric field is sufficiently large, the insulating properties of the surrounding material break down and it becomes conducting. For air this occurs at around <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 times "10" rSup { size 8{6} } } {}</m:annotation></m:semantics></m:math> N/C. Air ionizes ions and electrons recombine, and we get discharge in the form of lightning sparks and corona discharge.</para>
+  
+  
+      <figure id="import-auto-id3162895"><media id="import-auto-id3028283" alt="In part a, a child is flying a kite with two men in an open field on a bright sunny day. In part b, lightning appears over a body of water in stormy weather.">
+          <image mime-type="image/png" src="../../media/Figure_19_07_06a.jpg" width="300"/>
+        </media>
+        
+      <caption>Earth’s electric field. (a) Fair weather field. Earth and the ionosphere (a layer of charged particles) are both conductors. They produce a uniform electric field of about 150 N/C. (credit: D. H. Parks) (b) Storm fields. In the presence of storm clouds, the local electric fields can be larger. At very high fields, the insulating properties of the air break down and lightning can occur. (credit: Jan-Joost Verhoef)</caption></figure></section>
+  
+  <section id="fs-id2669757">
+    <title>Electric Fields on Uneven Surfaces</title>
+    <para id="import-auto-id3175345">So far we have considered excess charges on a smooth, symmetrical conductor surface. What happens if a conductor has sharp corners or is pointed? Excess charges on a nonuniform conductor become concentrated at the sharpest points. Additionally, excess charge may move on or off the conductor at the sharpest points.</para>
+    <para id="import-auto-id1132467">To see how and why this happens, consider the charged conductor in <link target-id="import-auto-id2398984"/>. The electrostatic repulsion of like charges is most effective in moving them apart on the flattest surface, and so they become least concentrated there. This is because the forces between identical pairs of charges at either end of the conductor are identical, but the components of the forces parallel to the surfaces are different. The component parallel to the surface is greatest on the flattest surface and, hence, more effective in moving the charge.</para>
+    <para id="import-auto-id2400840">The same effect is produced on a conductor by an externally applied electric field, as seen in <link target-id="import-auto-id2398984"/> (c). Since the field lines must be perpendicular to the surface, more of them are concentrated on the most curved parts.</para>
+    
+    
+      <figure id="import-auto-id2398984"><media id="import-auto-id2617779" alt="In part a, a conductor is shown with the unsymmetrical shape. The identical pair of charges at opposite ends on the conductor have similar components of forces represented by arrows. In part b, the unsymmetrical object has positive charge on its surface. The electric field lines are shown emerging perpendicular from the surface of the conductor represented by vector arrow. In part c, the field lines in and around the conductor running from left to right is shown. The left surface of the conductor has negative charge and the right surface has positive charge. The field lines enter and leave the conductor at right angles.">
+          <image mime-type="image/jpg" src="../../media/Figure_19_07_07a.jpg" width="350"/>
+        </media>
+        
+      <caption>Excess charge on a nonuniform conductor becomes most concentrated at the location of greatest curvature. (a) The forces between identical pairs of charges at either end of the conductor are identical, but the components of the forces parallel to the surface are different. It is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math> that moves the charges apart once they have reached the surface. (b) <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">F</m:mtext><m:mrow><m:mo stretchy="false">∥</m:mo></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ \rdline } } } {}</m:annotation></m:semantics></m:math> is smallest at the more pointed end, the charges are left closer together, producing the electric field shown. (c) An uncharged conductor in an originally uniform electric field is polarized, with the most concentrated charge at its most pointed end.</caption></figure></section>
+  
+      <section id="fs-id2058024">
+        <title>Applications of Conductors</title>
+    <para id="import-auto-id3450035">On a very sharply curved surface, such as shown in <link target-id="import-auto-id2677542"/>, the charges are so concentrated at the point that the resulting electric field can be great enough to remove them from the surface. This can be useful.</para>
+    <para id="import-auto-id2399976">Lightning rods work best when they are most pointed. The large charges created in storm clouds induce an opposite charge on a building that can result in a lightning bolt hitting the building. The induced charge is bled away continually by a lightning rod, preventing the more dramatic lightning strike.</para>
+    <para id="import-auto-id2578321">Of course, we sometimes wish to prevent the transfer of charge rather than to facilitate it. In that case, the conductor should be very smooth and have as large a radius of curvature as possible. (See <link target-id="import-auto-id1993313"/>.) Smooth surfaces are used on high-voltage transmission lines, for example, to avoid leakage of charge into the air.</para>
+    <para id="import-auto-id3119606">Another device that makes use of some of these principles is a <term id="import-auto-id1934114">Faraday cage</term>. This is a metal shield that encloses a volume. All electrical charges will reside on the outside surface of this shield, and there will be no electrical field inside. A Faraday cage is used to prohibit stray electrical fields in the environment from interfering with sensitive measurements, such as the electrical signals inside a nerve cell.</para><para id="import-auto-id3079151">During electrical storms if you are driving a car, it is best to stay inside the car as its metal body acts as a Faraday cage with zero electrical field inside. If in the vicinity of a lightning strike, its effect is felt on the outside of the car and the inside is unaffected, provided you remain totally inside. This is also true if an active (“hot”) electrical wire was broken (in a storm or an accident) and fell on your car.</para>
+   
+  
+    <figure id="import-auto-id2677542"><media id="import-auto-id3138839" alt="A cone shaped positively charged conductor is shown where most of the positive charges are accumulated at the tip. The field lines represented by arrows emerge at right angles from the surface of the conductor in outward direction. The density of field lines is greater at the tip of the cone than at other surfaces.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_08a.jpg" width="200"/>
+      </media>
+      
+    <caption>A very pointed conductor has a large charge concentration at the point. The electric field is very strong at the point and can exert a force large enough to transfer charge on or off the conductor. Lightning rods are used to prevent the buildup of large excess charges on structures and, thus, are pointed.</caption></figure><figure id="import-auto-id1993313"><media id="import-auto-id1398675" alt="In part a, a lightning rod is shown on the roof of a house. In part b, a person is touching the metal sphere of the Van De Graaff and his hair is standing up.">
+        <image mime-type="image/png" src="../../media/Figure_19_07_09a.jpg" width="350"/>
+      </media>
+      
+    <caption>(a) A lightning rod is pointed to facilitate the transfer of charge. (credit: Romaine, Wikimedia Commons) (b) This Van de Graaff generator has a smooth surface with a large radius of curvature to prevent the transfer of charge and allow a large voltage to be generated. The mutual repulsion of like charges is evident in the person’s hair while touching the metal sphere. (credit: Jon ‘ShakataGaNai’ Davis/Wikimedia Commons).</caption></figure></section>
+  
+    <section id="fs-id2678903" class="section-summary"><title>Section Summary</title><list id="fs-id1570982"><item id="import-auto-id1517252">A conductor allows free charges to move about within it.</item>
+    <item id="import-auto-id1355895">The electrical forces around a conductor will cause free charges to move around inside the conductor until static equilibrium is reached.</item>
+    <item id="import-auto-id1355534">Any excess charge will collect along the surface of a conductor.</item>
+    <item id="import-auto-id2626177">Conductors with sharp corners or points will collect more charge at those points.</item>
+    <item id="import-auto-id2599034">A lightning rod is a conductor with sharply pointed ends that collect excess charge on the building caused by an electrical storm and allow it to dissipate back into the air.</item>
+    <item id="import-auto-id2011404">Electrical storms result when the electrical field of Earth’s surface in certain locations becomes more strongly charged, due to changes in the insulating effect of the air.</item>
+    <item id="import-auto-id2000560">A Faraday cage acts like a shield around an object, preventing electric charge from penetrating inside.</item>
+</list></section><section id="fs-id3007123" class="conceptual-questions" type="conceptual-questions">
+      <title>Conceptual Questions</title>
+    <exercise id="fs-id3201948" type="conceptual-questions"><problem id="fs-id2383370">
+<para id="import-auto-id2661187">Is the object in <link target-id="fs-id1586840"/> a conductor or an insulator? Justify your answer.</para><figure id="fs-id1586840"><media id="fs-id3223938" alt="External field lines entering the object from one end and emerging from another are shown by lines.">
+          <image mime-type="" src="../../media/Figure_19_07_11a.jpg" width="250"/>
+        </media>
+      </figure></problem></exercise>
+      
+    <exercise id="fs-id2671695" type="conceptual-questions">
+      <problem id="fs-id2597811">
+    <para id="import-auto-id1398255">If the electric field lines in the figure above were perpendicular to the object, would it necessarily be a conductor? Explain.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id3088694" type="conceptual-questions">
+      <problem id="fs-id3286331">
+    <para id="import-auto-id3290879">The discussion of the electric field between two parallel conducting plates, in this module states that edge effects are less important if the plates are close together. What does close mean? That is, is the actual plate separation crucial, or is the ratio of plate separation to plate area crucial?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id1871378" type="conceptual-questions">
+      <problem id="fs-id2423523">
+    <para id="import-auto-id3209961">Would the self-created electric field at the end of a pointed conductor, such as a lightning rod, remove positive or negative charge from the conductor? Would the same sign charge be removed from a neutral pointed conductor by the application of a similar externally created electric field? (The answers to both questions have implications for charge transfer utilizing points.)</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id1487810" type="conceptual-questions">
+      <problem id="fs-id1921676">
+    <para id="import-auto-id3177821">Why is a golfer with a metal club over her shoulder vulnerable to lightning in an open fairway? Would she be any safer under a tree?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id3228630" type="conceptual-questions">
+      <problem id="fs-id2950288">
+    <para id="import-auto-id2382867">Can the belt of a Van de Graaff accelerator be a conductor? Explain.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id3286362" type="conceptual-questions">
+      <problem id="fs-id1404645">
+    <para id="import-auto-id2032586">Are you relatively safe from lightning inside an automobile? Give two reasons.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2400128" type="conceptual-questions">
+      <problem id="fs-id2600945">
+    <para id="import-auto-id3246280">Discuss pros and cons of a lightning rod being grounded versus simply being attached to a building.</para>
+    </problem></exercise>
+      
+      <exercise id="fs-id3408279" type="conceptual-questions">
+        <problem id="fs-id3399676">
+    <para id="import-auto-id3105551">Using the symmetry of the arrangement, show that the net Coulomb force on the charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> at the center of the square below (<link target-id="import-auto-id3009601"/>) is zero if the charges on the four corners are exactly equal.</para></problem></exercise>
+      
+    
+    <figure id="import-auto-id3009601"><media id="import-auto-id1843715" alt="Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.">
+        <image mime-type="image/png" src="../../media/Figure_19_07_12a.jpg" width="200"/>
+      </media>
+      
+    <caption>Four point charges <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } } {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> lie on the corners of a square and <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> is located at its center.</caption></figure><exercise id="fs-id2678000" type="conceptual-questions">
+      <problem id="fs-id3025281">
+    <para id="import-auto-id1381531">(a) Using the symmetry of the arrangement, show that the electric field at the center of the square in <link target-id="import-auto-id3009601"/> is zero if the charges on the four corners are exactly equal. (b) Show that this is also true for any combination of charges in which <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } =q rSub { size 8{z} } } {}</m:annotation></m:semantics></m:math></para></problem></exercise>
+      
+    <exercise id="fs-id3397088" type="conceptual-questions">
+      <problem id="fs-id3260336">
+    <para id="import-auto-id1409968">(a) What is the direction of the total Coulomb force on <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id3009601"/> if <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is negative, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and both are negative, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and both are positive? (b) What is the direction of the electric field at the center of the square in this situation?</para></problem></exercise>
+
+    <exercise id="fs-id1368317" type="conceptual-questions">
+      <problem id="fs-id1448423">
+    <para id="import-auto-id1974605">Considering <link target-id="import-auto-id3009601"/>, suppose that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>. First show that <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> is in static equilibrium. (You may neglect the gravitational force.) Then discuss whether the equilibrium is stable or unstable, noting that this may depend on the signs of the charges and the direction of displacement of <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> from the center of the square.</para>
+    </problem></exercise>
+    <exercise id="fs-id1383011" type="conceptual-questions"><problem id="fs-id2421998">
+    <para id="import-auto-id2583169">If <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =0} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id3009601"/>, under what conditions will there be no net Coulomb force on <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis>?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2384303" type="conceptual-questions">
+      <problem id="fs-id3149722">
+    <para id="import-auto-id1926213">In regions of low humidity, one develops a special “grip” when opening car doors, or touching metal door knobs. This involves placing as much of the hand on the device as possible, not just the ends of one’s fingers. Discuss the induced charge and explain why this is done.</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id1985635" type="conceptual-questions">
+      <problem id="fs-id3077069">
+    <para id="import-auto-id2929998">Tollbooth stations on roadways and bridges usually have a piece of wire stuck in the pavement before them that will touch a car as it approaches. Why is this done?</para>
+    </problem></exercise>
+      
+    <exercise id="fs-id2603645" type="conceptual-questions">
+      <problem id="fs-id1616719">
+    <para id="import-auto-id2622896">Suppose a woman carries an excess charge. To maintain her charged status can she be standing on ground wearing just any pair of shoes? How would you discharge her? What are the consequences if she simply walks away?</para>
+    </problem></exercise>
+    </section>
+  
+    <section id="fs-id2400163" type="problems-exercises" class="problems-exercises">
+      <title>Problems &amp; Exercises</title>
+    <exercise id="fs-id2971512" type="problems-exercises">
+      <problem id="fs-id1198509">   
+      <para id="import-auto-id1579330">Sketch the electric field lines in the vicinity of the conductor in <link target-id="fs-id2000560"/> given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?</para>
+   
+      
+        <figure id="fs-id2000560"><media id="fs-id1339459" alt="A oblong-shaped conductor.">
+            <image mime-type="image/jpg" src="../../media/Figure_19_07_13a.jpg" width="200"/>
+          </media>
+        </figure></problem></exercise>
+      
+    <exercise id="eip-821" type="problems-exercises"><problem id="eip-934">
+  <para id="eip-647">Sketch the electric field lines in the vicinity of the conductor in <link target-id="fs-id2000561"/> given the field was originally uniform and parallel to the object’s long axis. Is the resulting field small near the long side of the object?</para>
+
+
+        <figure id="fs-id2000561"><media id="fs-id1339460" alt="A oblong-shaped conductor.">
+            <image mime-type="image/jpg" src="../../media/Figure_19_07_14a.jpg" width="200"/>
+          </media>
+        </figure></problem></exercise>
+<exercise id="fs-id2660954" type="problems-exercises"><problem id="fs-id2979596">   
+      <para id="import-auto-id1447116">Sketch the electric field between the two conducting plates shown in <link target-id="fs-id765824"/>, given the top plate is positive and an equal amount of negative charge is on the bottom plate. Be certain to indicate the distribution of charge on the plates.</para>
+ 
+      
+        <figure id="fs-id765824"><media id="fs-id1995819" alt="Two plates are shown; one is in horizontal direction and other is above the first plate with some inclination.">
+            <image mime-type="image/jpg" src="../../media/Figure_19_07_15a.jpg" width="200"/>
+          </media>
+        </figure></problem></exercise><exercise id="fs-id1848491" type="problems-exercises">
+      <problem id="fs-id3101779">  
+      <para id="import-auto-id2406000">Sketch the electric field lines in the vicinity of the charged insulator in <link target-id="import-auto-id1409558"/> noting its nonuniform charge distribution.</para>
+   
+      
+    <figure id="import-auto-id1409558"><media id="import-auto-id3014028" alt="A positively charged rod with a concentration of positive charges near the top and a few in the middle.">
+        <image mime-type="image/png" src="../../media/Figure_19_07_16a.jpg" width="200"/>
+      </media>
+      
+    <caption>A charged insulating rod such as might be used in a classroom demonstration.</caption></figure></problem></exercise>
+      
+    <exercise id="fs-id2594876" type="problems-exercises">
+      <problem id="fs-id1324041"> 
+      <para id="import-auto-id1571047">What is the force on the charge located at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>8.00 cm</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in <link target-id="fs-id1996672"/>(a) given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q=1 "." "00""μC"} {}</m:annotation></m:semantics></m:math>?</para><figure id="fs-id1996672"><media id="fs-id1995784" alt="Three point charges are shown on the scaling line. First charge plus q is at three point zero, second charge minus two q is at eight point zero, and third charge plus q is eleven point zero centimeters along the x axis. Four charges are placed on a scaling line. First is minus two q at one point zero, second is plus q at five point zero, third is plus three q is at eight point zero, and fourth is minus q placed at fourteen point zero centimeter along the x axis.">
+        <image mime-type="image/jpg" src="../../media/Figure_19_07_17a.jpg" width="275"/>
+      </media>
+      
+    <caption>(a) Point charges located at 3.00, 8.00, and 11.0 cm along the <emphasis effect="italics">x</emphasis>-axis. (b) Point charges located at 1.00, 5.00, 8.00, and 14.0 cm along the <emphasis effect="italics">x</emphasis>-axis.</caption></figure></problem></exercise>
+      
+    <exercise id="fs-id694467" type="problems-exercises"><problem id="fs-id3042556">    
+      <para id="import-auto-id2616270">(a) Find the total electric field at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1.00 cm</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in <link target-id="fs-id1996672"/>(b) given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5.00 nC</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. (b) Find the total electric field at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>11.00 cm</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in <link target-id="fs-id1996672"/>(b). (c) If the charges are allowed to move and eventually be brought to rest by friction, what will the final charge configuration be? (That is, will there be a single charge, double charge, etc., and what will its value(s) be?)</para></problem>
+<solution id="fs-id1401205">
+    <para id="import-auto-id3192257">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo></m:mrow><m:mtext>1.00 cm</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">∞</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{x=1 "." "00" ital "cm"} } = -  infinity } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2009934">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>12</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/C</m:mtext></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {underline  {2 "." "12" times "10" rSup { size 8{5} } " N/C" {underline  {}} }} } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1357926">(c) one charge of <m:math><m:semantics><m:mrow><m:mo>+</m:mo><m:mi>q</m:mi></m:mrow></m:semantics></m:math></para></solution>
+    </exercise>
+      
+    <exercise id="fs-id2691531" type="problems-exercises">
+      <problem id="fs-id1900721">    
+      <para id="import-auto-id1448873">(a) Find the electric field at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>5.00 cm</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in <link target-id="fs-id1996672"/>(a), given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1.00</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q=1 "." "00""μC"} {}</m:annotation></m:semantics></m:math>. (b) At what position between 3.00 and 8.00 cm is the total electric field the same as that for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>–2</m:mn><m:mi>q</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math> alone? (c) Can the electric field be zero anywhere between 0.00 and 8.00 cm? (d) At very large positive or negative values of <emphasis effect="italics">x</emphasis><emphasis effect="italics">,</emphasis> the electric field approaches zero in both (a) and (b). In which does it most rapidly approach zero and why? (e) At what position to the right of 11.0 cm is the total electric field zero, other than at infinity? (Hint: A graphing calculator can yield considerable insight in this problem.)</para></problem></exercise>
+      
+    <exercise id="fs-id956458" type="problems-exercises">
+      <problem id="fs-id1366643">  
+      <para id="import-auto-id1429205">(a) Find the total Coulomb force on a charge of 2.00 nC located at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>4.00 cm</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math> in <link target-id="fs-id1996672"/> (b), given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1.00</m:mn></m:mrow><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q=1 "." "00""μC"} {}</m:annotation></m:semantics></m:math>. (b) Find the <emphasis effect="italics">x</emphasis>-position at which the electric field is zero in <link target-id="fs-id1996672"/> (b).</para></problem>
+<solution id="fs-id2438220">
+    <para id="import-auto-id2588598">(a) 0.252 N to the left</para><para id="import-auto-id2684369">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6.07 cm</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para></solution>
+    </exercise>
+      
+    <exercise id="fs-id1320313" type="problems-exercises">
+      <problem id="fs-id3069851">
+      <para id="import-auto-id1431902">Using the symmetry of the arrangement, determine the direction of the force on <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> in the figure below, given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub></m:mrow><m:mtext>=+</m:mtext><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{b} } "=+"7 "." "50""μC"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{c} } =q rSub { size 8{d} } = - 7 "." "50""μC"} {}</m:annotation></m:semantics></m:math>. (b) Calculate the magnitude of the force on the charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis>, given that the square is 10.0 cm on a side and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q=2 "." "00""μC"} {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id2617305"><media id="import-auto-id2407638" alt="Four point charges, one is q a, second is q b, third is q c, and fourth is q d, lie on the corners of a square. q is located at its center.">
+        <image mime-type="image/png" src="../../media/Figure_19_07_12a.jpg" width="200"/>
+      </media>
+    </figure></problem></exercise>
+      
+    <exercise id="fs-id3091835" type="problems-exercises">
+      <problem id="fs-id3042326">    
+      <para id="import-auto-id2398651">(a) Using the symmetry of the arrangement, determine the direction of the electric field at the center of the square in <link target-id="import-auto-id2617305"/>, given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{b} } = - 1 "." "00""μC"} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow><m:mtext>=+</m:mtext><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{c} } =q rSub { size 8{d} } "=+"1 "." "00""μC"} {}</m:annotation></m:semantics></m:math>. (b) Calculate the magnitude of the electric field at the location of <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math>, given that the square is 5.00 cm on a side.</para></problem>
+<solution id="fs-id1844907">
+    <para id="import-auto-id1586780"> (a)The electric field at the center of the square will be straight up, since <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } } {}</m:annotation></m:semantics></m:math> are positive and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{d} } } {}</m:annotation></m:semantics></m:math> are negative and all have the same magnitude.</para>
+    <para id="import-auto-id3102360">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>04</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/C</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>upward</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {underline  {2 "." "04" times "10" rSup { size 8{7} } " N/C" \( "upward" \) }} } {}</m:annotation></m:semantics></m:math></para></solution>
+    </exercise>
+      
+    <exercise id="fs-id1817224" type="problems-exercises">
+      <problem id="fs-id3353110">    
+      <para id="import-auto-id1419993">Find the electric field at the location of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } } {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id2617305"/> given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub></m:mrow><m:mtext>=+</m:mtext><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>nC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } =q rSub { size 8{c} } =q rSub { size 8{d} } "=+"2 "." "00""nC"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>nC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q= - 1 "." "00""nC"} {}</m:annotation></m:semantics></m:math>, and the square is 20.0 cm on a side.</para></problem></exercise>
+      
+    <exercise id="fs-id3165180" type="problems-exercises">
+      <problem id="fs-id3354608">    
+      <para id="import-auto-id2399809">Find the total Coulomb force on the charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow></m:mrow></m:semantics></m:math> in <link target-id="import-auto-id2617305"/>, given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q=1 "." "00""μC"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =2 "." "00""μC"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } = - 3 "." "00""μC"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{c} } = - 4 "." "00""μC"} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>d</m:mi></m:mrow></m:msub><m:mtext>=+</m:mtext><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>μC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{d} } "=+"1 "." "00""μC"} {}</m:annotation></m:semantics></m:math>. The square is 50.0 cm on a side.</para></problem>
+<solution id="fs-id1080769">
+    <para id="import-auto-id3292679"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>102</m:mtext><m:mspace width="0.25em"/><m:mtext>N</m:mtext><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "102"" N",} {}</m:annotation></m:semantics></m:math> in the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>y</m:mi></m:mrow><m:mstyle fontstyle="italic"/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - y ital } {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow/><m:annotation encoding="StarMath 5.0">{}</m:annotation></m:semantics></m:math> direction</para></solution>
+    </exercise>
+      
+    <exercise id="fs-id2653996" type="problems-exercises">
+      <problem id="fs-id1609547">   
+      <para id="import-auto-id3119347">(a) Find the electric field at the location of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> in <link target-id="import-auto-id1427585"/>, given that <m:math><m:semantics><m:mrow><m:msub><m:mi>q</m:mi><m:mtext>b</m:mtext></m:msub><m:mo>=</m:mo><m:mn>+10.00</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow></m:semantics></m:math> and 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mtext>c</m:mtext></m:msub><m:mo>=</m:mo><m:mn>–5.00</m:mn><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>C</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (b) What is the force on <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, given that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mtext>a</m:mtext></m:mrow></m:msub><m:mo>=</m:mo><m:mn>+1.50</m:mn><m:mspace width="0.25em"/><m:mtext>nC</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>?</para><figure id="import-auto-id1427585"><media id="import-auto-id3138196" alt="Three point charges located at the corners of an equilateral triangle.">
+        <image mime-type="image/png" src="../../media/Figure_19_07_18a.jpg" width="200"/>
+      </media>
+      
+    <caption>Point charges located at the corners of an equilateral triangle 25.0 cm on a side.</caption></figure></problem></exercise>
+      
+    <exercise id="fs-id2625961" type="problems-exercises">
+      <problem id="fs-id3127567">    
+      <para id="import-auto-id2957537">(a) Find the electric field at the center of the triangular configuration of charges in <link target-id="import-auto-id1427585"/>, given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mtext>=+</m:mtext><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mspace width="0.25em"/><m:mtext>nC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } "=+"2 "." "50""nC"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mtext>nC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{b} } = - 8 "." "00""nC"} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub><m:mtext>=+</m:mtext><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>50</m:mtext><m:mspace width="0.25em"/><m:mtext>nC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{c} } "=+"1 "." "50""nC"} {}</m:annotation></m:semantics></m:math>. (b) Is there any combination of charges, other than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>q</m:mi><m:mrow><m:mi>a</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>b</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mi>c</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q rSub { size 8{a} } =q rSub { size 8{b} } =q rSub { size 8{c} } } {}</m:annotation></m:semantics></m:math>, that will produce a zero strength electric field at the center of the triangular configuration?</para></problem>
+<solution id="fs-id1888512">
+    <para id="import-auto-id3077466">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mi>E</m:mi><m:mo stretchy="false">→</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mn>4.36</m:mn></m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/C</m:mtext><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mn>35.0º</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, below the horizontal.</para><para id="import-auto-id2070038">(b) No</para>
+    </solution>
+    </exercise>
+    </section>
+  
+</content>
+  <glossary>
+    <definition id="import-auto-id694467"><term>conductor</term> <meaning id="fs-id3026046">an object with properties that allow charges to move about freely within it</meaning></definition>
+    <definition id="import-auto-id2689037"><term>free charge</term> <meaning id="fs-id3162269">an electrical charge (either positive or negative) which can move about separately from its base molecule</meaning></definition>
+    <definition id="import-auto-id3081941"><term>electrostatic equilibrium</term> <meaning id="fs-id3088821">an electrostatically balanced state in which all free electrical charges have stopped moving about</meaning></definition>
+    <definition id="import-auto-id1828027"><term>polarized</term> <meaning id="fs-id2453098">a state in which the positive and negative charges within an object have collected in separate locations</meaning></definition>
+    <definition id="import-auto-id2514406"><term>ionosphere</term> <meaning id="fs-id2680827">a layer of charged particles located around 100 km above the surface of Earth, which is responsible for a range of phenomena including the electric field surrounding Earth</meaning></definition>
+    <definition id="import-auto-id1864432"><term>Faraday cage</term> <meaning id="fs-id3257638">a metal shield which prevents electric charge from penetrating its surface</meaning></definition>
+  </glossary>
+</document>

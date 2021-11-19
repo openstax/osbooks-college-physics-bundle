@@ -1,0 +1,158 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Heat</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55242</md:content-id>
+  <md:title>Heat</md:title>
+  <md:abstract/>
+  <md:uuid>67ac5679-be66-46a0-a787-286c431316c7</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id2744315" class="learning-objectives">
+  <title>Learning Objectives</title>
+  <para id="fs-id2356473">By the end of this section, you will be able to:</para>
+  <list id="fs-id3259575">
+    <item>Define heat as transfer of energy.</item>
+  </list>
+  <para id="fs-id3634353">The information presented in this section supports the following AP® learning objectives and science practices:</para><list id="fs-id1956388"><item><emphasis effect="bold">4.C.3.1</emphasis> The student is able to make predictions about the direction of energy transfer due to temperature differences based on interactions at the microscopic level. <emphasis effect="bold">(S.P. 6.1)</emphasis></item>
+  </list></section>
+        <para id="import-auto-id2436704">In <link document="m55016">Work, Energy, and Energy Resources</link>, we defined work as force times distance and learned that work done on an object changes its kinetic energy. We also saw in  <link document="m55232">Temperature, Kinetic Theory, and the Gas Laws</link> that temperature is proportional to the (average) kinetic energy of atoms and molecules. We say that a thermal system has a certain internal energy: its internal energy is higher if the temperature is higher. If two objects at different temperatures are brought in contact with each other, energy is transferred from the hotter to the colder object until equilibrium is reached and the bodies reach thermal equilibrium (i.e., they are at the same temperature). No work is done by either object, because no force acts through a distance. The transfer of energy is caused by the temperature difference, and ceases once the temperatures are equal. These observations lead to the following definition of <term id="import-auto-id3392999">heat</term>: Heat is the spontaneous transfer of energy due to a temperature difference. </para><para id="import-auto-id2444862">As noted in <link document="m55232">Temperature, Kinetic Theory, and the Gas Laws</link>, heat is often confused with temperature. For example, we may say the heat was unbearable, when we actually mean that the temperature was high. Heat is a form of energy, whereas temperature is not. The misconception arises because we are sensitive to the flow of heat, rather than the temperature.</para><para id="import-auto-id2674005">Owing to the fact that heat is a form of energy, it has the SI unit of <emphasis effect="italics">joule</emphasis> (J). The <emphasis effect="italics">calorie</emphasis> (cal) is a common unit of energy, defined as the energy needed to change the temperature of 1.00 g of water by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.00ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> —specifically, between <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>14</m:mtext><m:mtext>.</m:mtext><m:mn>5ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mn>5ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, since there is a slight temperature dependence. Perhaps the most common unit of heat is the <term id="import-auto-id2679412">kilocalorie</term> (kcal), which is the energy needed to change the temperature of 1.00 kg of water by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Since mass is most often specified in kilograms, kilocalorie is commonly used. Food calories (given the notation Cal, and sometimes called “big calorie”) are actually kilocalories (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mtext>kilocalorie</m:mtext><m:mspace width="0.25em"/><m:mtext>=</m:mtext><m:mspace width="0.25em"/><m:mtext>1000 calories</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>), a fact not easily determined from package labeling.</para><para id="import-auto-id2239790"><figure id="import-auto-id862880"><media id="import-auto-id3121163" alt="In figure a there is a soft drink can and an ice cube placed on a surface at a distance from each other. The temperatures of the can and the ice cube are T one and T two, respectively, where T one is not equal to T two. In figure b, the soft drink can and the ice cube are placed in contact on the surface. The temperature of both is T prime. ">
+                    <image mime-type="image/jpg" src="../../media/Figure_15_01_01a.jpg"/>
+                </media>
+                
+            <caption>In figure (a) the soft drink and the ice have different temperatures, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and are not in thermal equilibrium. In figure (b), when the soft drink and ice are allowed to interact, energy is transferred until they reach the same temperature <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo>′</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, achieving equilibrium. Heat transfer occurs due to the difference in temperatures. In fact, since the soft drink and ice are both in contact with the surrounding air and bench, the equilibrium temperature will be the same for both.</caption></figure></para>
+
+<note id="fs-id2376231"><title>Making Connections: Heat Interpreted at the Molecular Level</title><para id="fs-id1801994">What is observed as a change in temperature of two macroscopic objects in contact, such as a warm can of liquid and an ice cube, consists of the transfer of kinetic energy from particles (atoms or molecules) with greater kinetic energy to those with lower kinetic energy. In this respect, the process can be viewed in terms of collisions, as described through classical mechanics. Consider the particles in two substances at different temperatures. The particles of each substance move with a range of speeds that are distributed around a mean value, <m:math><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">¯</m:mo></m:mover></m:mrow></m:math>. The temperature of each substance is defined in terms of the average kinetic energy of its particles, <m:math><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mi>m</m:mi><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">¯</m:mo></m:mover><m:mn>2</m:mn></m:msup></m:math>. The simplest mathematical description of this is for an ideal gas, and is given by the following equation:</para><equation id="fs-id1784476"><m:math display="block">
+ <m:mrow>
+  <m:mi>T</m:mi><m:mo>=</m:mo><m:msub>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mi>m</m:mi><m:msup>
+       <m:mrow>
+        <m:mover accent="true">
+         <m:mi>v</m:mi>
+         <m:mo stretchy="true">¯</m:mo>
+        </m:mover>
+        
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>3</m:mn><m:mi>k</m:mi>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+   <m:mo>,</m:mo>
+  </m:msub>
+  
+ </m:mrow>
+</m:math>
+</equation><para id="fs-id3157116">where <emphasis effect="italics">k</emphasis> is Boltzmann’s constant (<m:math><m:mi>k</m:mi><m:mo>=</m:mo><m:mn>1.38</m:mn><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mo>−</m:mo><m:mtext>23</m:mtext></m:mrow></m:msup><m:mtext> J/K</m:mtext></m:math>). The equations for non-ideal gases, liquids, and solids are more complicated, but the general relation between the kinetic energies of the particles and the overall temperature of the substance still holds: the particles in the substance with the higher temperature have greater average kinetic energies than do the particles of a substance with a lower temperature.</para>
+<para id="fs-id2066846">When the two substances are in thermal contact, the particles of both substances can collide with each other. In the vast majority of collisions, a particle with greater kinetic energy will transfer some of its energy to a particle with lower kinetic energy. By giving up this energy, the average kinetic energy of this particle is reduced, and therefore, the temperature of the substance associated with that particle decreases slightly. Similarly, the average kinetic energy of the particle in the second substance increases through the collision, causing that substance’s temperature to increase by a minuscule amount. In this way, through a vast number of particle collisions, thermal energy is transferred macroscopically from the substance with greater temperature (that is, greater internal energy) to the substance with lower temperature (lower internal energy).</para>
+<para id="fs-id2550033">Macroscopically, heat appears to transfer thermal energy spontaneously in only one direction. When interpreted at the microscopic level, the transfer of kinetic energy between particles occurs in both directions. This is because some of the particles in the low-temperature substance have higher kinetic energies than the particles in the high-temperature substance, so that some of the energy transfer is in the direction from the lower temperature substance to the higher temperature substance. However, much more of the energy is transferred in the other direction. When thermal equilibrium is reached, the energy transfer in either direction is, on average, the same, so that there is no further change in the internal energy, or temperature, of either substance.</para>
+</note><section id="fs-id3048394"><title>Mechanical Equivalent of Heat</title><para id="import-auto-id2641082">It is also possible to change the temperature of a substance by doing work. Work can transfer energy into or out of a system. This realization helped establish the fact that heat is a form of energy. James Prescott Joule (1818–1889) performed many experiments to establish the <term id="import-auto-id2070213">mechanical equivalent of heat</term>—<emphasis effect="italics">the work needed to produce the same effects as heat transfer</emphasis>. In terms of the units used for these two terms, the best modern value for this equivalence is</para>
+        <equation id="import-auto-id1738243"><m:math>
+                <m:semantics>
+                    <m:mrow>
+                        
+                            <m:mrow>
+                                <m:mrow>
+                                    <m:mn>1</m:mn>
+                                    <m:mtext>.</m:mtext>
+                                    <m:mtext>000</m:mtext>
+                                    <m:mi/>
+                                    <m:mrow>
+<m:mspace width="0.25em"/>
+                                        <m:mtext>kcal</m:mtext>
+                                        <m:mo stretchy="false">=</m:mo>
+                                        <m:mtext>4186</m:mtext>
+                                    </m:mrow>
+                                    <m:mi/>
+<m:mspace width="0.25em"/>
+                                    <m:mtext>J</m:mtext>
+                                    <m:mtext>.</m:mtext>
+                                </m:mrow>
+                            </m:mrow>
+                        
+                        <m:mrow/>
+                    </m:mrow>
+                    <m:annotation encoding="StarMath 5.0"> size 12{1 "." "000"`"kcal"="4186"`J "." } {}</m:annotation>
+                </m:semantics>
+            </m:math> 
+        </equation><para id="import-auto-id2672011">We consider this equation as the conversion between two different units of energy.</para>
+        
+        <figure id="import-auto-id1967963"><media id="import-auto-id2931205" alt="In the figure, there is a can of known volume full of water and fitted with a thermometer at the top. On both sides of the can two blocks of weight W each hang from cords. The cords pass over two pulleys and wind around a cylindrical roller. There is a handle attached with the roller to rotate it manually. Submerged in the water are some paddles attached to a vertical rod attached at the bottom of the roller. When the lever is rotated, the paddles move inside the water.">
+                <image mime-type="image/jpg" src="../../media/Figure_15_01_02a.jpg"/>
+            </media>
+            
+        <caption>Schematic depiction of Joule’s experiment that established the equivalence of heat and work.</caption></figure><para id="import-auto-id1594121">The figure above shows one of Joule’s most famous experimental setups for demonstrating the mechanical equivalent of heat. It demonstrated that work and heat can produce the same effects, and helped establish the principle of conservation of energy. Gravitational potential energy (PE) (work done by the gravitational force) is converted into kinetic energy (KE), and then randomized by viscosity and turbulence into increased average kinetic energy of atoms and molecules in the system, producing a temperature increase. His contributions to the field of thermodynamics were so significant that the SI unit of energy was named after him.</para>
+        <para id="import-auto-id3104671">Heat added or removed from a system changes its internal energy and thus its temperature. Such a temperature increase is observed while cooking. However, adding heat does not necessarily increase the temperature. An example is melting of ice; that is, when a substance changes from one phase to another. Work done on the system or by the system can also change the internal energy of the system. Joule demonstrated that the temperature of a system can be increased by stirring. If an ice cube is rubbed against a rough surface, work is done by the frictional force. A system has a well-defined internal energy, but we cannot say that it has a certain “heat content” or “work content”. We use the phrase “heat transfer” to emphasize its nature.</para>
+        
+        <exercise id="fs-id2410326" type="check-understanding">
+            <label/>
+            <title>Check Your Understanding</title>
+        <problem id="fs-id2639037"><para id="import-auto-id2674842">Two samples (A and B) of the same substance are kept in a lab. Someone adds 10 kilojoules (kJ) of heat to one sample, while 10 kJ of work is done on the other sample. How can you tell to which sample the heat was added?</para></problem>
+        <solution id="fs-id1522161" print-placement="here"><para id="import-auto-id1864402">Heat and work both change the internal energy of the substance. However, the properties of the sample only depend on the internal energy so that it is impossible to tell whether heat was added to sample A or B.</para></solution>
+        </exercise>
+     </section>
+
+<section id="fs-id3188002" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id1443233" type="ap-test-prep"><problem id="fs-id1912312">      
+      <para id="fs-id1816078">An ice cube is placed in a cup of hot water. Which of the following statements correctly describes energy transfer at the molecular level?</para>
+        <list id="fs-id4576874" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Kinetic energy is transferred only from the hot water molecules to the water molecules in the ice.</item>
+<item>Kinetic energy is transferred only from the water molecules in the ice to the hot water molecules.</item>
+<item>Kinetic energy is transferred mostly from the hot water molecules to the water molecules in the ice.</item>
+<item>Kinetic energy is transferred mostly from the water molecules in the ice to the hot water molecules.</item>
+	</list>
+
+   </problem>
+    <solution id="fs-id1383820">
+      <para id="fs-id2670428">(c)</para></solution>
+  </exercise><exercise id="fs-id2868495" type="ap-test-prep">
+    <problem id="fs-id1335566">      
+      <para id="fs-id1442003">The molecular description of heat transfer from higher to lower temperatures applies to ‘spontaneous’ processes, that is, processes in which no energy is added to or removed or from the systems by work or heat. Refrigeration is an example of work being done to remove energy from air within a given space, and thus lower the temperature of the air. Assume a typical kitchen refrigerator, where the air inside the unit forms the system with a temperature of 25°C, and the walls are kept at a constant temperature of 10°C. In terms of molecules and average kinetic energy, describe how the air is made colder.</para></problem>
+    <!--<solution id="fs-id1875960">
+      <para id="fs-id2855265">The various molecules in the air have a higher average kinetic energy than the particles in the walls and so give up some of that energy to those particles. This causes the temperature of the air to gradually decrease. Work is done by the refrigeration system to keep the walls at the same temperature, so the particles in the walls maintain the same average kinetic energy, even after collisions with the molecules in the air. With further collisions, more energy is given up by the air to the walls of the refrigerator, until both have the same temperature (thermal equilibrium).</para>
+    </solution>-->
+  </exercise>
+
+</section>
+
+
+<section id="fs-id2659682" class="section-summary">
+<title>Summary</title>
+<list id="fs-id2673243"><item id="import-auto-id2653643">Heat and work are the two distinct methods of energy transfer.</item>
+        <item id="import-auto-id1361482">Heat is energy transferred solely due to a temperature difference.</item>
+            <item id="import-auto-id3089537">Any energy unit can be used for heat transfer, and the most common are kilocalorie (kcal) and joule (J).</item>
+                <item id="import-auto-id3062545">Kilocalorie is defined to be the energy needed to change the temperature of 1.00 kg of water between <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>14</m:mtext><m:mtext>.</m:mtext><m:mn>5ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mn>5ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</item>
+                    <item id="import-auto-id2454069">The mechanical equivalent of this heat transfer is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.00 kcal</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/><m:mtext>4186 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></item>
+                        </list></section>
+        <section id="fs-id1997723" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1802714" type="conceptual-questions">
+            <problem id="fs-id2667972">
+        <para id="import-auto-id2662874">How is heat transfer related to temperature?</para>
+            </problem></exercise>
+            <exercise id="fs-id3385364" type="conceptual-questions">
+                <problem id="fs-id3035287"><para id="fs-id1379635">Describe a situation in which heat transfer occurs. What are the resulting forms of energy?</para>
+                    </problem></exercise>
+            <exercise id="fs-id2406920" type="conceptual-questions">
+                <problem id="fs-id2662604"><para id="fs-id2274853">When heat transfers into a system, is the energy stored as heat? Explain briefly.</para>
+</problem></exercise>
+</section> </content>
+    <glossary>
+        <definition id="import-auto-id2422542"><term>heat</term> <meaning id="fs-id3229685">the spontaneous transfer of energy due to a temperature difference</meaning></definition>
+            <definition id="import-auto-id2594553"><term>kilocalorie</term> <meaning id="fs-id3127474"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mn>1</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>kilocalorie</m:mtext><m:mspace width="0.25em"/><m:mtext>=</m:mtext><m:mspace width="0.25em"/><m:mtext>1000</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>calories</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`"kilocalorie=1000"`"calories"} {}</m:annotation></m:semantics></m:math></meaning></definition>
+                <definition id="import-auto-id1365720"><term>mechanical equivalent of heat</term> <meaning id="fs-id2653181">the work needed to produce the same effects as heat transfer</meaning></definition>
+    </glossary>
+</document>

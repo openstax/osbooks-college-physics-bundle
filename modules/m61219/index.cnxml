@@ -1,0 +1,651 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Temperature Change and Heat Capacity</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61219</md:content-id>
+  <md:title>Temperature Change and Heat Capacity</md:title>
+  <md:abstract><list>
+<item>Observe heat transfer and change in temperature and mass.</item>
+<item>Calculate final temperature after heat transfer between two objects.</item>
+</list></md:abstract>
+  <md:uuid>126dc167-76ef-41c9-a03f-4c8b1d0ac7cf</md:uuid>
+</metadata>
+
+<content>
+    <para id="import-auto-id3122646">One of the major effects of heat transfer is temperature change: heating increases the temperature while cooling decreases it. We assume that there is no phase change and that no work is done on or by the system. Experiments show that the transferred heat depends on three factors—the change in temperature, the mass of the system, and the substance and phase of the substance.</para>
+    
+    <figure id="import-auto-id2456403"><media id="import-auto-id1840530" alt="Figure a shows a copper-colored cylinder of mass m and temperature change delta T. The heat Q, shown as a wavy rightward horizontal arrow, is transferred to the cylinder from the left. To the right of this image is a similar image, except that the heat transferred Q prime is twice the heat Q. The temperature change of this second cylinder, which is also labeled m, is two delta T. This cylinder is surrounded by small black wavy lines radiating outward. Figure b shows the same two cylinders as in Figure a. The left cylinder is labeled m and delta T and has a wavy heat arrow pointing at it from the left that is labeled Q. The right cylinder is labeled two m and delta T and has a wavy heat arrow pointing to it from the left labeled Q prime equals two Q. Figure c shows the same copper cylinder of mass m and with temperature change delta T, with heat Q being transferred to it. To the right of this cylinder, Q prime equals ten point eight times Q is being transferred to another cylinder filled with water whose mass and change in temperature are the same as that of the copper cylinder.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_02_01.jpg" width="250"/>
+      </media>
+        
+    <caption>The heat <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> transferred to cause a temperature change depends on the magnitude of the temperature change, the mass of the system, and the substance and phase involved. (a) The amount of heat transferred is directly proportional to the temperature change. To double the temperature change of a mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>, you need to add twice the heat. (b) The amount of heat transferred is also directly proportional to the mass. To cause an equivalent temperature change in a doubled mass, you need to add twice the heat. (c) The amount of heat transferred depends on the substance and its phase. If it takes an amount <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> of heat to cause a temperature change <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔT} {}</m:annotation></m:semantics></m:math> in a given mass of copper, it will take 10.8 times that amount of heat to cause the equivalent temperature change in the same mass of water assuming no phase change in either substance.</caption></figure><para id="import-auto-id3051804">The dependence on temperature change and mass are easily understood. Owing to the fact that the (average) kinetic energy of an atom or molecule is proportional to the absolute temperature, the internal energy of a system is proportional to the absolute temperature and the number of atoms or molecules. Owing to the fact that the transferred heat is equal to the change in the internal energy, the heat is proportional to the mass of the substance and the temperature change. The transferred heat also depends on the substance so that, for example, the heat necessary to raise the temperature is less for alcohol than for water. For the same substance, the transferred heat also depends on the phase (gas, liquid, or solid).</para>
+    <note id="fs-id2441252"><label/>
+    <title>Heat Transfer and Temperature Change</title>
+    <para id="import-auto-id2514886">The quantitative relationship between heat transfer and temperature change contains all three factors:</para>
+    <equation id="eip-644"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>Q</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mstyle fontstyle="italic">
+                      <m:mrow>
+                        <m:mtext>mc</m:mtext>
+                      </m:mrow>
+                    </m:mstyle>
+                  </m:mrow>
+                  <m:mtext>Δ</m:mtext>
+                  <m:mi fontstyle="italic">T</m:mi>
+                  <m:mi>,</m:mi>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mc"ΔT,} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id3400307">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the symbol for heat transfer, <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the mass of the substance, and <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the change in temperature. The symbol <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> stands for <term id="import-auto-id2514377">specific heat</term> and depends on the material and phase. The specific heat is the amount of heat necessary to change the temperature of 1.00 kg of mass by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.00ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The specific heat <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is a property of the substance; its SI unit is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>J/</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>K</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>J/</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>kg</m:mtext><m:mo stretchy="false">⋅ºC</m:mo></m:mrow><m:mo stretchy="false">).</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> Recall that the temperature change <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the same in units of kelvin and degrees Celsius. If heat transfer is measured in kilocalories, then <emphasis effect="italics">the unit of specific heat</emphasis> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>kcal/</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>kg</m:mtext><m:mo stretchy="false">⋅ºC</m:mo></m:mrow><m:mo stretchy="false">).</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math></para></note>
+    <para id="import-auto-id2634585">Values of specific heat must generally be looked up in tables, because there is no simple way to calculate them. In general, the specific heat also depends on the temperature. <link target-id="import-auto-id1921148"/> lists representative values of specific heat for various substances. Except for gases, the temperature and volume dependence of the specific heat of most substances is weak. We see from this table that the specific heat of water is five times that of glass and ten times that of iron, which means that it takes five times as much heat to raise the temperature of water the same amount as for glass and ten times as much heat to raise the temperature of water as for iron. In fact, water has one of the largest specific heats of any material, which is important for sustaining life on Earth.</para><example id="fs-id3253461">
+    <title>Calculating the Required Heat: Heating Water in an Aluminum Pan</title>
+    <para id="import-auto-id3179586">A 0.500 kg aluminum pan on a stove is used to heat 0.250 liters of water from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>80.0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (a) How much heat is required? What percentage of the heat is used to raise the temperature of (b) the pan and (c) the water?</para><para id="import-auto-id2653468">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id2666703">The pan and the water are always at the same temperature. When you put the pan on the stove, the temperature of the water and the pan is increased by the same amount. We use the equation for the heat transfer for the given temperature change and mass of water and aluminum. The specific heat values for water and aluminum are given in <link target-id="import-auto-id1921148"/>.</para><para id="import-auto-id1431741">
+      <emphasis>Solution</emphasis>
+    </para>
+    <para id="import-auto-id3192576">Because water is in thermal contact with the aluminum, the pan and the water are at the same temperature.</para>
+    <list id="fs-id3255778" list-type="enumerated" number-style="arabic"><item id="import-auto-id862880">Calculate the temperature difference:
+    <equation id="eip-461"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>60.0ºC.</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation></item>
+        <item id="import-auto-id2672011">Calculate the mass of water. Because the density of water is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>1000</m:mtext><m:mspace width="0.25em"/><m:mi/><m:mspace width="0.25em"/><m:msup><m:mtext>kg/m</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, one liter of water has a mass of 1 kg, and the mass of 0.250 liters of water is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{w} } =0 "." "25"`"kg"} {}</m:annotation></m:semantics></m:math>.</item>
+    <item id="import-auto-id1848706">Calculate the heat transferred to the water. Use the specific heat of water in <link target-id="import-auto-id1921148"/>:
+    <equation id="eip-191"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mn>w</m:mn></m:mrow></m:msub><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>250</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>4186</m:mtext><m:mspace width="0.25em"/><m:mtext>J/kg</m:mtext><m:mtext>ºC</m:mtext></m:mrow></m:mfenced><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>60.0</m:mtext><m:mtext>ºC</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mtext>62</m:mtext></m:mrow><m:mn>.8 kJ.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation></item>
+        <item id="import-auto-id2973422">Calculate the heat transferred to the aluminum. Use the specific heat for aluminum in <link target-id="import-auto-id1921148"/>:
+    <equation id="eip-168"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>0.500 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>900 J/kgºC</m:mtext></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>60.0ºC</m:mtext></m:mrow></m:mfenced>
+                        <m:msup>
+                          <m:mtext>= 27.0 × 10</m:mtext>
+                              <m:mn>4</m:mn>   </m:msup>
+<m:mtext>J = 27.0 kJ.</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation></item>
+            <item id="import-auto-id1514408">Compare the percentage of heat going into the pan versus that going into the water. First, find the total transferred heat:
+    <equation id="eip-229"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Total</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>W</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>62</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>8</m:mn><m:mi/><m:mrow><m:mspace width="0.25em"/><m:mtext>kJ</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext> 27</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mtext>kJ = 89</m:mtext><m:mtext>.</m:mtext><m:mn>8</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>kJ.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{"Total"} } =Q rSub { size 8{W} } +Q rSub { size 8{"Al"} } ="62" "." 8`"kJ "+" 89" "." 5`"kJ = 152" "." 3`"kJ"} {}</m:annotation></m:semantics></m:math></equation></item>
+               </list><para id="import-auto-id1995733">Thus, the amount of heat going into heating the pan is</para>
+    <equation id="eip-508"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mtext>27</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>kJ</m:mtext></m:mrow><m:mrow><m:mtext>89</m:mtext><m:mtext>.</m:mtext><m:mn>8</m:mn><m:mi/><m:mspace width="0.25em"/><m:mtext>kJ</m:mtext></m:mrow></m:mfrac><m:mo stretchy="false">×</m:mo><m:mtext>100%</m:mtext></m:mrow><m:mrow><m:mtext/><m:mo stretchy="false">=</m:mo><m:mtext>30.1%,</m:mtext></m:mrow><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {"62" "." 8`"kJ"}  over  {"152" "." 3`"kJ"} }  times "100"%="41"%} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3286067">and the amount going into heating the water is</para>
+    <equation id="eip-686"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mtext>62</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>8</m:mn>
+                        <m:mi/>
+                        <m:mspace width="0.25em"/><m:mtext>kJ</m:mtext>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mtext>89</m:mtext>
+                        <m:mtext>.</m:mtext>
+                        <m:mn>8</m:mn>
+                        <m:mi/>
+                        <m:mspace width="0.25em"/><m:mtext>kJ</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:mtext>100%</m:mtext>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mtext/>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>69.9%</m:mtext>
+                  </m:mrow>
+                  <m:mtext/>
+                  <m:mtext>.</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {"62" "." 8`"kJ"}  over  {"89" "." 8`"kJ"} }  times "100"%="69.9"% "." } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2442496"><emphasis>Discussion</emphasis></para>
+        <para id="fs-id2919103">In this example, the heat transferred to the container is a significant fraction of the total transferred heat. Although the mass of the pan is twice that of the water, the specific heat of water is over four times greater than that of aluminum. Therefore, it takes a bit more than twice the heat to achieve the given temperature change for the water as compared to the aluminum pan.</para></example>
+    
+    <figure id="import-auto-id3026614"><media id="import-auto-id2382222" alt="The figure shows a truck coming from the left and moving on a road which is sloping downhill to the right. Smoke is coming from the area of the wheels of the truck.">
+        <image mime-type="image/jpg" src="../../media/Figure_15_02_02.jpg" width="300"/>
+      </media>
+      
+    <caption>The smoking brakes on this truck are a visible evidence of the mechanical equivalent of heat.</caption></figure><example id="fs-id3101672">
+    <title>Calculating the Temperature Increase from the Work Done on a Substance: Truck Brakes Overheat on Downhill Runs</title>
+    <para id="import-auto-id2655354">Truck brakes used to control speed on a downhill run do work, converting gravitational potential energy into increased internal energy (higher temperature) of the brake material. This conversion prevents the gravitational potential energy from being converted into kinetic energy of the truck. The problem is that the mass of the truck is large compared with that of the brake material absorbing the energy, and the temperature increase may occur too fast for sufficient heat to transfer from the brakes to the environment.</para>
+    <para id="import-auto-id2931864">Calculate the temperature increase of 100 kg of brake material with an average specific heat of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>800 J/kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> if the material retains 10% of the energy from a 10,000-kg truck descending 75.0 m (in vertical displacement) at a constant speed.</para><para id="import-auto-id2445151">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1842685">If the brakes are not applied, gravitational potential energy is converted into kinetic energy. When brakes are applied, gravitational potential energy is converted into internal energy of the brake material. We first calculate the gravitational potential energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Mgh</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  ital "Mgh" \) } {}</m:annotation></m:semantics></m:math> that the entire truck loses in its descent and then find the temperature increase produced in the brake material alone.</para>
+    <para id="import-auto-id2929041">
+      <emphasis>Solution</emphasis>
+    </para>
+    <list id="fs-id2687890" list-type="enumerated" number-style="arabic"><item id="import-auto-id3130222">Calculate the change in gravitational potential energy as the truck goes downhill
+    <equation id="eip-404"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Mgh</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mtext>10,000 kg</m:mtext></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80 m</m:mtext><m:mi/><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>75.0 m</m:mtext></m:mrow></m:mfenced><m:mo>=</m:mo><m:mtext>7.</m:mtext><m:mrow><m:mtext>35</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation></item>
+        <item id="import-auto-id3036480">Calculate the temperature from the heat transferred using <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mtext>= </m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Mgh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q"= " ital "Mgh"} {}</m:annotation></m:semantics></m:math> and
+    <equation id="eip-527"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mc</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔT= {  {Q}  over  { ital "mc"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1379925">where <m:math><m:semantics><m:mrow><m:mi>m</m:mi></m:mrow></m:semantics></m:math> is the mass of the brake material. Insert the values <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi><m:mo>=</m:mo><m:mtext>100 kg</m:mtext></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>800 J/kg</m:mtext><m:mo>⋅</m:mo><m:mtext>ºC</m:mtext></m:mrow></m:mrow></m:semantics></m:math> to find</para><equation id="eip-456"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mfenced open="(" close=")"><m:mrow>
+
+<m:mn>7</m:mn><m:mtext>.35</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>100 kg</m:mtext></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>800 J/kgºC</m:mtext></m:mrow></m:mfenced></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>9.2ºC.</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation></item>
+        </list><para id="import-auto-id3291408">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2000830">This same idea underlies the recent hybrid technology of cars, where mechanical energy (gravitational potential energy) is converted by the brakes into electrical energy (battery).</para></example>
+    
+    
+    <table id="import-auto-id1921148" summary="Specific Heats of Various Substances"><title>Specific Heats<footnote id="eip-id1590655">The values for solids and liquids are at constant volume and at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25ºC</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, except as noted.</footnote> of Various Substances</title>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+        <colspec colnum="2" colname="c2"/>
+        <colspec colnum="3" colname="c3"/>
+        <thead><row>
+            <entry align="center">
+              <emphasis>Substances</emphasis>
+            </entry>
+            <entry namest="c2" nameend="c3" align="center"><emphasis>Specific heat</emphasis> (<emphasis effect="italics">c</emphasis>)</entry>
+             </row></thead><tbody><row>
+            <entry align="center">Solids</entry>
+            <entry align="center">J/kg⋅ºC</entry>
+            <entry align="center">kcal/kg⋅ºC<footnote id="eip-id1169738163557">These values are identical in units of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>cal/g</m:mtext><m:mo stretchy="false">⋅ºC</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</footnote>
+            </entry>
+          </row><row>
+            <entry>Aluminum</entry>
+            <entry>900</entry>
+            <entry>0.215</entry>
+          </row><row>
+            <entry>Asbestos</entry>
+            <entry>800</entry>
+            <entry>0.19</entry>
+          </row><row>
+            <entry>Concrete, granite (average)</entry>
+            <entry>840</entry>
+            <entry>0.20</entry>
+          </row><row>
+            <entry>Copper</entry>
+            <entry>387</entry>
+            <entry>0.0924</entry>
+          </row><row>
+            <entry>Glass</entry>
+            <entry>840</entry>
+            <entry>0.20</entry>
+          </row><row>
+            <entry>Gold</entry>
+            <entry>129</entry>
+            <entry>0.0308</entry>
+          </row><row>
+              <entry>Human body (average at 37 °C)</entry>
+            <entry>3500</entry>
+            <entry>0.83</entry>
+          </row><row>
+              <entry>Ice (average, -50°C to 0°C)</entry>
+            <entry>2090</entry>
+            <entry>0.50</entry>
+          </row><row>
+            <entry>Iron, steel</entry>
+            <entry>452</entry>
+            <entry>0.108</entry>
+          </row><row>
+            <entry>Lead</entry>
+            <entry>128</entry>
+            <entry>0.0305</entry>
+          </row><row>
+            <entry>Silver</entry>
+            <entry>235</entry>
+            <entry>0.0562</entry>
+          </row><row>
+            <entry>Wood</entry>
+            <entry>1700</entry>
+            <entry>0.4</entry>
+          </row><row>
+            <entry>
+              <emphasis effect="italics">Liquids</emphasis>
+            </entry>
+            <entry/>
+            <entry/>
+          </row><row>
+            <entry>Benzene</entry>
+            <entry>1740</entry>
+            <entry>0.415</entry>
+          </row><row>
+            <entry>Ethanol</entry>
+            <entry>2450</entry>
+            <entry>0.586</entry>
+          </row><row>
+            <entry>Glycerin</entry>
+            <entry>2410</entry>
+            <entry>0.576</entry>
+          </row><row>
+            <entry>Mercury</entry>
+            <entry>139</entry>
+            <entry>0.0333</entry>
+          </row><row>
+              <entry>Water (15.0 °C)</entry>
+            <entry>4186</entry>
+            <entry>1.000</entry>
+          </row><row>
+            <entry>
+             <emphasis effect="italics">Gases</emphasis>
+<footnote id="eip-id2039892"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>v</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> at constant volume and at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0ºC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, except as noted, and at 1.00 atm average pressure. Values in parentheses are <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> at a constant pressure of 1.00 atm.</footnote>
+            </entry>
+            <entry/>
+            <entry/>
+          </row><row>
+            <entry>Air (dry)</entry>
+            <entry>721 (1015)</entry>
+            <entry>0.172 (0.242)</entry>
+          </row><row>
+            <entry>Ammonia</entry>
+            <entry>1670 (2190)</entry>
+            <entry>0.399 (0.523)</entry>
+          </row><row>
+            <entry>Carbon dioxide</entry>
+            <entry>638 (833)</entry>
+            <entry>0.152 (0.199)</entry>
+          </row><row>
+            <entry>Nitrogen</entry>
+            <entry>739 (1040)</entry>
+            <entry>0.177 (0.248)</entry>
+          </row><row>
+            <entry>Oxygen</entry>
+            <entry>651 (913)</entry>
+            <entry>0.156 (0.218)</entry>
+          </row><row>
+              <entry>Steam (100°C)</entry>
+            <entry>1520 (2020)</entry>
+            <entry>0.363 (0.482)</entry>
+          </row></tbody>
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><para id="import-auto-id1996752">Note that <link target-id="fs-id3101672"/> is an illustration of the mechanical equivalent of heat. Alternatively, the temperature increase could be produced by a blow torch instead of mechanically.</para><example id="fs-id2604602">
+    <title>Calculating the Final Temperature When Heat Is Transferred Between Two Bodies: Pouring Cold Water in a Hot Pan</title>
+    <para id="import-auto-id2653954">Suppose you pour 0.250 kg of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> water (about a cup) into a 0.500-kg aluminum pan off the stove with a temperature of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>150ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Assume that the pan is placed on an insulated pad and that a negligible amount of water boils off. What is the temperature when the water and pan reach thermal equilibrium a short time later?</para><para id="import-auto-id2589006">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id1525208">The pan is placed on an insulated pad so that little heat transfer occurs with the surroundings. Originally the pan and water are not in thermal equilibrium: the pan is at a higher temperature than the water. Heat transfer then restores thermal equilibrium once the water and pan are in contact. Because heat transfer between the pan and water takes place rapidly, the mass of evaporated water is negligible and the magnitude of the heat lost by the pan is equal to the heat gained by the water. The exchange of heat stops once a thermal equilibrium between the pan and the water is achieved. The heat exchange can be written as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">∣</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mrow><m:mo stretchy="false">∣</m:mo><m:mo stretchy="false">=</m:mo><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \lline Q rSub { size 8{"hot"} }  \lline =Q rSub { size 8{"cold"} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id3028762">
+      <emphasis>Solution</emphasis>
+    </para>
+    <list id="fs-id1936035" list-type="enumerated" number-style="arabic"><item id="import-auto-id3197158">Use the equation for heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mc</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mc"ΔT} {}</m:annotation></m:semantics></m:math> to express the heat lost by the aluminum pan in terms of the mass of the pan, the specific heat of aluminum, the initial temperature of the pan, and the final temperature:
+    <equation id="eip-217"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:mtext>150ºC</m:mtext></m:mrow></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation></item>
+        <item id="import-auto-id1861449">Express the heat gained by the water in terms of the mass of the water, the specific heat of water, the initial temperature of the water and the final temperature:
+    
+            <equation id="eip-242"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>W</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mn>W</m:mn></m:mrow></m:msub><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo></m:mrow><m:mtext>20.0ºC</m:mtext></m:mrow></m:mfenced></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation></item>
+    <item id="import-auto-id2382813">Note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>hot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">&lt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{"hot"} } &lt;0} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>Q</m:mi><m:mrow><m:mtext>cold</m:mtext></m:mrow></m:msub><m:mo stretchy="false">&gt;</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q rSub { size 8{"cold"} } &gt;0} {}</m:annotation></m:semantics></m:math> and that they must sum to zero because the heat lost by the hot pan must be the same as the heat gained by the cold water:
+    <equation id="eip-582"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+<m:mtd columnalign="right">
+ <m:msub>
+  <m:mi>Q</m:mi>
+  <m:mrow>
+   <m:mtext>cold</m:mtext>
+  </m:mrow>
+ </m:msub>
+ <m:mtext> + </m:mtext>
+ <m:msub>
+  <m:mi>Q</m:mi>
+  <m:mrow>
+   <m:mtext>hot</m:mtext>
+  </m:mrow>
+ </m:msub>
+</m:mtd>
+<m:mtd>
+<m:mtext>=</m:mtext>
+</m:mtd>
+<m:mtd>
+ <m:mtext>0,</m:mtext>
+</m:mtd></m:mtr>
+<m:mtr><m:mtd columnalign="right">
+ <m:msub>
+  <m:mi>Q</m:mi>
+  <m:mrow>
+   <m:mtext>cold</m:mtext>
+  </m:mrow>
+ </m:msub>
+</m:mtd>
+<m:mtd>
+ <m:mo> = </m:mo>
+</m:mtd>
+<m:mtd>
+ <m:mrow>
+  <m:msub>
+   <m:mtext>–Q</m:mtext>
+   <m:mrow>
+    <m:mtext>hot</m:mtext>
+   </m:mrow>
+  </m:msub>
+ </m:mrow>
+ <m:mi>,</m:mi>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+    <m:msub>
+        <m:mi>m</m:mi>
+        <m:mrow>
+            <m:mn>W</m:mn>
+        </m:mrow>
+    </m:msub>
+    <m:msub>
+        <m:mi>c</m:mi>
+        <m:mrow>
+            <m:mn>W</m:mn>
+        </m:mrow>
+    </m:msub>
+    <m:mrow>
+        <m:mfenced open="(" close=")">
+        <m:mrow>
+            <m:mrow>
+                <m:msub>
+                    <m:mi>T</m:mi>
+                    <m:mrow>
+                        <m:mtext>f</m:mtext>
+                    </m:mrow>
+                </m:msub>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mtext>20.0ºC</m:mtext>
+        </m:mrow> </m:mrow>
+        </m:mfenced></m:mrow>
+</m:mtd>
+<m:mtd>
+        <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+        <m:msub>
+            <m:mi>−m</m:mi>
+            <m:mrow>
+                <m:mi>Al</m:mi>
+            </m:mrow>
+        </m:msub>
+    
+    <m:msub>
+        <m:mi>c</m:mi>
+        <m:mrow>
+            <m:mi>Al</m:mi>
+        </m:mrow>
+    </m:msub>
+    <m:mfenced open="(" close=")">
+        <m:mrow>
+            <m:mrow>
+                <m:msub>
+                    <m:mi>T</m:mi>
+                    <m:mrow>
+                        <m:mtext>f</m:mtext>
+                    </m:mrow>
+                </m:msub>
+                <m:mo stretchy="false">−</m:mo>
+                <m:mtext>150ºC.</m:mtext>
+            </m:mrow>
+        </m:mrow>
+    </m:mfenced>
+</m:mtd>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation></item>
+
+    <item id="import-auto-id1570030">Bring all terms involving <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math> on the left hand side  and all other terms on the right hand side. Solve for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math>,
+    <equation id="eip-499"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>150ºC</m:mtext></m:mrow></m:mfenced><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>W</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mn>W</m:mn></m:mrow></m:msub><m:mfenced open="(" close=")"><m:mrow><m:mtext>20</m:mtext><m:mtext>.0ºC</m:mtext></m:mrow></m:mfenced></m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>W</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mi>c</m:mi><m:mrow><m:mn>W</m:mn></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id2691569">and insert the numerical values:</para> 
+    <equation id="eip-274"><m:math>
+<m:semantics>
+<m:mrow><m:mrow>
+<m:mtable columnalign="left">
+<m:mtr>
+ <m:mtd>
+  <m:msub>
+   <m:mi>T</m:mi>
+    <m:mtext>f</m:mtext>
+  </m:msub>
+ </m:mtd>
+ <m:mtd>
+  <m:mo stretchy="false">=</m:mo>
+ </m:mtd>
+ <m:mtd>
+  <m:mfrac>
+<m:mrow>
+<m:mfenced open="(" close=")">
+<m:mrow>
+<m:mtext>0.500 kg</m:mtext>
+</m:mrow>
+</m:mfenced>
+<m:mfenced open="(" close=")">
+<m:mrow>
+<m:mtext>900 J/kgºC</m:mtext>
+</m:mrow>
+</m:mfenced>
+<m:mfenced open="(" close=")">
+<m:mrow>
+<m:mtext>150ºC</m:mtext>
+</m:mrow>
+</m:mfenced>
+<m:mtext>+</m:mtext>
+<m:mfenced open="(" close=")">
+<m:mtext>0.250 kg</m:mtext>
+</m:mfenced>
+<m:mfenced open="(" close=")"><m:mtext>4186 J/kgºC</m:mtext></m:mfenced>
+<m:mfenced open="(" close=")"><m:mtext>20.0ºC</m:mtext></m:mfenced>
+</m:mrow>
+<m:mrow>
+<m:mfenced open="(" close=")"><m:mtext>0.500 kg</m:mtext></m:mfenced>
+<m:mrow>
+<m:mfenced open="(" close=")"><m:mtext>900 J/kgºC</m:mtext></m:mfenced>
+<m:mo stretchy="false">+</m:mo><m:mfenced open="(" close=")">
+<m:mrow>
+<m:mtext>0.250 kg</m:mtext>
+</m:mrow>
+</m:mfenced>
+</m:mrow>
+<m:mfenced open="(" close=")"><m:mtext>4186 J/kgºC</m:mtext></m:mfenced>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+ <m:mtd>
+</m:mtd>
+<m:mtd>
+   <m:mo stretchy="false">=</m:mo>
+</m:mtd>
+<m:mtd>
+   <m:mfrac>
+    <m:mrow>
+     <m:mtext>88430 J</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>1496.5 J/ºC</m:mtext>
+</m:mrow>
+</m:mfrac>
+</m:mtd>
+</m:mtr>
+<m:mtr>
+<m:mtd>
+</m:mtd>
+<m:mtd>
+<m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+<m:mtext>59</m:mtext>
+<m:mtext>.1ºC.</m:mtext>
+</m:mtd>
+</m:mtr></m:mtable></m:mrow>
+<m:mrow/></m:mrow></m:semantics></m:math>
+</equation></item>
+        </list><para id="import-auto-id2410374">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2446157">This is a typical <emphasis effect="italics">calorimetry</emphasis> problem—two bodies at different temperatures are brought in contact with each other and exchange heat until a common temperature is reached. Why is the final temperature so much closer to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.0ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> than <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>150ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>? The reason is that water has a greater specific heat than most common substances and thus undergoes a small temperature change for a given heat transfer. A large body of water, such as a lake, requires a large amount of heat to increase its temperature appreciably. This explains why the temperature of a lake stays relatively constant during a day even when the temperature change of the air is large. However, the water temperature does change over longer times (e.g., summer to winter).</para></example>
+    <note id="fs-id2209959"><label/><title>Take-Home Experiment: Temperature Change of Land and Water</title>
+    
+    <para id="import-auto-id3047451">What heats faster, land or water?</para>
+    <para id="import-auto-id3400298">To study differences in heat capacity:</para>
+    <list id="fs-id1607881">
+    <item id="import-auto-id1917983">Place equal masses of dry sand (or soil) and water at the same temperature into two small jars. (The average density of soil or sand is about 1.6 times that of water, so you can achieve approximately equal masses by using <m:math><m:semantics><m:mrow><m:mrow><m:mtext>50% </m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"50% "} {}</m:annotation></m:semantics></m:math> more water by volume.) </item>
+        <item id="import-auto-id3025674">Heat both (using an oven or a heat lamp) for the same amount of time.</item>
+            <item id="import-auto-id3045349">Record the final temperature of the two masses.</item>
+                <item id="import-auto-id1414223">Now bring both jars to the same temperature by heating for a longer period of time. </item>
+                    <item id="import-auto-id1930222">Remove the jars from the heat source and measure their temperature every 5 minutes for about 30 minutes. </item>
+    </list>
+    <para id="import-auto-id2970598">Which sample cools off the fastest? This activity replicates the phenomena responsible for land breezes and sea breezes.</para>
+    </note><exercise id="fs-id3345408" type="check-understanding">
+        <label/>
+        <title>Check Your Understanding</title>
+    <problem id="fs-id1485025"><para id="import-auto-id3068997">If 25 kJ is necessary to raise the temperature of a block from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>30ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, how much heat is necessary to heat the block from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>50ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>?</para></problem>
+    <solution id="fs-id1332111" print-placement="here">
+    <para id="import-auto-id2382820">The heat transfer depends only on the temperature difference. Since the temperature differences are the same in both cases, the same 25 kJ is necessary in the second case.</para>
+    </solution>
+    </exercise>
+    <section id="fs-id2407718" class="section-summary">
+<title>Summary</title>
+<list id="fs-id1909073"><item id="import-auto-id1823260">The transfer of heat <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> that leads to a change <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔT} {}</m:annotation></m:semantics></m:math> in the temperature of a body with mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mc</m:mtext></m:mrow></m:mstyle></m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q= ital "mc"ΔT} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> is the specific heat of the material. This relationship can also be considered as the definition of specific heat.</item>
+</list></section>
+    <section id="fs-id1864446" class="conceptual-questions"><title>Conceptual Questions</title>
+    <exercise id="fs-id3200990" type="conceptual-questions"><problem id="fs-id3102863">
+    <para id="import-auto-id2931996">What three factors affect the heat transfer that is necessary to change an object’s temperature?</para>
+        </problem></exercise>
+        <exercise id="fs-id3225894" type="conceptual-questions">
+            <problem id="fs-id2069893"><para id="fs-id2653832">The brakes in a car increase in temperature by <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔT} {}</m:annotation></m:semantics></m:math> when bringing the car to rest from a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. How much greater would <m:math><m:semantics><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔT} {}</m:annotation></m:semantics></m:math> be if the car initially had twice the speed? You may assume the car to stop sufficiently fast so that no heat transfers out of the brakes.</para></problem>
+        </exercise>
+        </section>
+    <section id="fs-id2448160" type="problems-exercises" class="problems-exercises">
+
+<title>Problems &amp; Exercises</title>
+    <exercise id="fs-id3109981" type="problems-exercises"><problem id="fs-id3070168"> <para id="import-auto-id1373311">On a hot day, the temperature of an 80,000-L swimming pool increases by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>50ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "50"°C} {}</m:annotation></m:semantics></m:math>. What is the net heat transfer during this heating? Ignore any complications, such as loss of water by evaporation.</para></problem>
+<solution id="fs-id3044160" type="problems-exercises">
+    <equation id="import-auto-id1418923"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>5</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>02</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>8</m:mn>
+                        </m:mrow>
+                      
+                    </m:msup>
+                  </m:mrow>
+                 <m:mspace width="0.25em"/>
+                  <m:mtext>J</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{5 "." "02" times "10" rSup { size 8{8} } `J} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation></solution></exercise><exercise id="fs-id1890173" type="problems-exercises">
+            <problem id="fs-id2402776"><para id="fs-id3250443">Show that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mi/><m:mrow><m:mspace width="0.25em"/><m:mtext>cal/g</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>ºC</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mi/><m:mrow><m:mspace width="0.25em"/><m:mtext>kcal/kg</m:mtext><m:mo stretchy="false">⋅</m:mo></m:mrow><m:mtext>ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`"cal/g" cdot °C=1`"kcal/kg" cdot °C} {}</m:annotation></m:semantics></m:math>.</para></problem>
+    </exercise>
+        <exercise id="fs-id3034501" type="problems-exercises"><problem id="fs-id2437906"><para id="import-auto-id2429280">To sterilize a 50.0-g glass baby bottle, we must raise its temperature from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>22</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>ºC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>95</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. How much heat transfer is required?</para></problem>
+            <solution id="fs-id2397565" type="problems-exercises">
+    <equation id="import-auto-id3119571"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mtext>3.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>07</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+                      
+                    </m:msup>
+                  </m:mrow>
+                  <m:mspace width="0.25em"/>
+                  <m:mtext>J</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation></solution></exercise><exercise id="fs-id2929873" type="problems-exercises">
+            <problem id="fs-id991015">
+                <para id="import-auto-id1525065">The same heat transfer into identical masses of different substances produces different temperature changes. Calculate the final temperature when 1.00 kcal of heat transfers into 1.00 kg of the following, originally at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>: (a) water; (b) concrete; (c) steel; and (d) mercury.</para></problem></exercise>
+                    <exercise id="fs-id3397911" type="problems-exercises"><problem id="fs-id1941500"><para id="fs-id3063179">Rubbing your hands together warms them by converting work into thermal energy. If a woman rubs her hands back and forth for a total of 20 rubs, at a distance of 7.50 cm per rub, and with an average frictional force of 40.0 N, what is the temperature increase? The mass of tissues warmed is only 0.100 kg, mostly in the palms and fingers.</para></problem>
+    
+        <solution id="fs-id1426951" type="problems-exercises">
+    <equation id="import-auto-id1357751"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>0</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>171º</m:mtext>
+                  <m:mtext>C</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "171"°C} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation></solution></exercise><exercise id="fs-id1547365" type="problems-exercises"><problem id="fs-id1967616"><para id="fs-id3018398">A 0.250-kg block of a pure material is heated from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>65</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"65" "." 0°C} {}</m:annotation></m:semantics></m:math> by the addition of 4.35 kJ of energy. Calculate its specific heat and identify the substance of which it is most likely composed.</para></problem></exercise>
+        <exercise id="fs-id2423610" type="problems-exercises"><problem id="fs-id1431393">    <para id="import-auto-id1771987">Suppose identical amounts of heat transfer into different masses of copper and water, causing identical changes in temperature. What is the ratio of the mass of copper to water?</para>
+    </problem>
+            <solution id="fs-id2672766" type="problems-exercises">
+    <para id="import-auto-id2057878">10.8</para>
+    </solution></exercise>
+        <exercise id="fs-id3306092" type="problems-exercises"><problem id="fs-id1999918">    <para id="import-auto-id3415325">(a) The number of kilocalories in food is determined by calorimetry techniques in which the food is burned and the amount of heat transfer is measured. How many kilocalories per gram are there in a 5.00-g peanut if the energy from burning it is transferred to 0.500 kg of water held in a 0.100-kg aluminum cup, causing a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>54</m:mtext><m:mtext>.</m:mtext><m:mn>9º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> temperature increase? (b) Compare your answer to labeling information found on a package of peanuts and comment on whether the values are consistent.</para></problem></exercise>
+        <exercise id="fs-id3449821" type="problems-exercises"><problem id="fs-id2970414"><para id="fs-id3138083">Following vigorous exercise, the body temperature of an 80.0-kg person is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. At what rate in watts must the person transfer thermal energy to reduce the the body temperature to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>37</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> in 30.0 min, assuming the body continues to produce energy at the rate of 150 W? <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mtext>1 watt = 1 joule/second or 1 W = 1 J/s</m:mtext><m:mi/><m:mspace width="0.25em"/></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:semantics></m:math>.</para></problem>
+            <solution id="fs-id1473645" type="problems-exercises">
+    <para id="import-auto-id347681">617 W</para>
+            </solution></exercise>
+        <exercise id="fs-id3382734" type="problems-exercises"><problem id="fs-id3064447"><para id="fs-id2671027">Even when shut down after a period of normal use, a large commercial nuclear reactor transfers thermal energy at the rate of 150 MW by the radioactive decay of fission products. This heat transfer causes a rapid increase in temperature if the cooling system fails <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>1 watt = 1 joule/second or 1 W = 1 J/s and 1 MW = 1 megawatt</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. (a) Calculate the rate of temperature increase in degrees Celsius per second 
+<m:math><m:semantics><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>ºC/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:semantics></m:math> if the mass of the reactor core is 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>60</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> and it has an average specific heat of 
+<m:math><m:semantics><m:mrow><m:mrow><m:mtext>0.3349 kJ/kgº</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>C</m:mtext></m:mrow></m:mrow></m:semantics></m:math>. (b) How long would it take to obtain a temperature increase of 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>2000º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, which could cause some metals holding the radioactive materials to melt? (The initial rate of temperature increase would be greater than that calculated here because the heat transfer is concentrated in a smaller mass. Later, however, the temperature increase would slow down because the 
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mtext>-kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> steel containment vessel would also begin to heat up.)</para></problem></exercise>
+        
+        <para id="import-auto-id2239890">
+            <figure id="import-auto-id864880"><media id="import-auto-id3131163" alt="The figure shows a view from above of a radioactive spent fuel pool inside a nuclear power plant.">
+                    <image mime-type="image/jpg" src="../../media/Figure_15_02_03.jpg" width="200"/>
+                </media>
+                
+            <caption>Radioactive spent-fuel pool at a nuclear power plant. Spent fuel stays hot for a long time. (credit: U.S. Department of Energy)</caption></figure></para>
+        </section>
+</content>
+    <glossary>
+        <definition id="import-auto-id1895571"><term>specific heat</term> <meaning id="fs-id2423185">the amount of heat necessary to change the temperature of 1.00 kg of a substance by 1.00 ºC</meaning></definition>
+    </glossary>
+</document>

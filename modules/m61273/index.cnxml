@@ -1,0 +1,594 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>Simple Harmonic Motion: A Special Periodic Motion</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m61273</md:content-id>
+  <md:title>Simple Harmonic Motion: A Special Periodic Motion</md:title>
+  <md:abstract><list>
+<item>Describe a simple harmonic oscillator.</item>
+<item>Explain the link between simple harmonic motion and waves.</item>
+</list></md:abstract>
+  <md:uuid>3cbdb423-0774-41fc-bec3-59c2f1480a86</md:uuid>
+</metadata>
+
+<content>
+
+    <para id="import-auto-id2444604">The oscillations of a system in which the net force can be described by Hooke’s law are of special importance, because they are very common. They are also the simplest oscillatory systems. <term id="import-auto-id1917029">Simple Harmonic Motion</term> (SHM) is the name given to oscillatory motion for a system where the net force can be described by Hooke’s law, and such a system is called a <term id="import-auto-id3009384">simple harmonic oscillator</term>. If the net force can be described by Hooke’s law and there is no <emphasis effect="italics"/><emphasis effect="italics"> damping</emphasis> (by friction or other non-conservative forces), then a simple harmonic oscillator will oscillate with equal displacement on either side of the equilibrium position, as shown for an object on a spring in <link target-id="import-auto-id1428057"/>. The maximum displacement from equilibrium is called the <term id="import-auto-id1993471">amplitude</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>. The units for amplitude and displacement are the same, but depend on the type of oscillation. For the object on the spring, the units of amplitude and displacement are meters; whereas for sound oscillations, they have units of pressure (and other types of oscillations have yet other units). Because amplitude is the maximum displacement, it is related to the energy in the oscillation.</para><note id="fs-id2402363"><label/>
+    <title>Take-Home Experiment: SHM and the Marble</title>
+    <para id="import-auto-id3042804">Find a bowl or basin that is shaped like a hemisphere on the inside. Place a marble inside the bowl and tilt the bowl periodically so the marble rolls from the bottom of the bowl to equally high points on the sides of the bowl. Get a feel for the force required to maintain this periodic motion. What is the restoring force and what role does the force you apply play in the simple harmonic motion (SHM) of the marble?</para>
+    </note>
+
+    <para id="import-auto-id3042914">
+      <figure id="import-auto-id1428057"><media id="import-auto-id3254682" alt="The figure a shows a spring on a frictionless surface attached to a bar or wall from the left side. On the right side of the spring, an object attached to it with mass m, its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, shown with left direction pointed red arrow and velocity v is equal to zero. A direction point showing the north and west direction is also given alongside this figure as well as with other four figures. In figure b, after the force has been applied the object moves to the left compressing the spring a bit. And the displaced area of the object from its initial point is shown in sketched dots. The F here is equal to zero and the v is max in negative direction. In figure c, the spring has been compressed to the maximum level, and the amplitude is negative X. Now the direction of force changes to the rightward direction, shown with right direction pointed red arrow and the velocity v is zero. In figure d the spring is shown released from the compressed level and the object has moved toward the right side up to the equilibrium level. The F is zero, and the velocity v is maximum. In figure e the spring has been stretched loose to the maximum level and the object has moved to the far right. Now again the velocity here is equal to zero and the direction of force again is to the left hand side, shown here as F is equal to zero.">
+          <image mime-type="image/jpg" src="../../media/Figure_17_03_02a.jpg" width="500"/>
+
+
+        </media>
+      <caption>An object attached to a spring sliding on a frictionless surface is an uncomplicated simple harmonic oscillator. When displaced from equilibrium, the object performs simple harmonic motion that has an amplitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> and a period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>. The object’s maximum speed occurs as it passes through equilibrium. The stiffer the spring is, the smaller the period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>. The greater the mass of the object is, the greater the period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>.</caption></figure></para>
+
+
+
+
+
+
+
+
+
+    <para id="import-auto-id2402624">What is so significant about simple harmonic motion? One special thing is that the period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> and frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> of a simple harmonic oscillator are independent of amplitude. The string of a guitar, for example, will oscillate with the same frequency whether plucked gently or hard. Because the period is constant, a simple harmonic oscillator can be used as a clock.</para>
+    <para id="import-auto-id3127573">Two important factors do affect the period of a simple harmonic oscillator. The period is related to how stiff the system is. A very stiff object has a large force constant <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math>, which causes the system to have a smaller period. For example, you can adjust a diving board’s stiffness—the stiffer it is, the faster it vibrates, and the shorter its period. Period also depends on the mass of the oscillating system. The more massive the system is, the longer the period. For example, a heavy person on a diving board bounces up and down more slowly than a light one.</para>
+    <para id="import-auto-id3028369">In fact, the mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> and the force constant <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> are the <emphasis effect="italics">only</emphasis> factors that affect the period and frequency of simple harmonic motion. </para>
+    <note id="fs-id2929144"><label/>
+    <title>Period of Simple Harmonic Oscillator</title>
+    <para id="import-auto-id2409627">The <emphasis effect="italics">period of a simple harmonic oscillator</emphasis> is given by</para><equation id="eip-41"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>T</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>2π</m:mn>
+                  </m:mrow>
+                  <m:msqrt>
+                    <m:mfrac>
+                      <m:mi>m</m:mi>
+                      <m:mi>k</m:mi>
+                    </m:mfrac>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{T=2π sqrt { {  {m}  over  {k} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1593873">and, because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>T</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f=1/T} {}</m:annotation></m:semantics></m:math>, the <emphasis effect="italics">frequency of a simple harmonic oscillator</emphasis> is</para><equation id="eip-444"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2π</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:msqrt>
+                    <m:mfrac>
+                      <m:mi>k</m:mi>
+                      <m:mi>m</m:mi>
+                    </m:mfrac>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {2π} }  sqrt { {  {k}  over  {m} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1933599">Note that neither <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> nor <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math></emphasis> has any dependence on amplitude.</para>
+    </note>
+    <note id="fs-id2692701"><label/>
+    <title>Take-Home Experiment: Mass and Ruler Oscillations </title>
+    <para id="import-auto-id2406935">Find two identical wooden or plastic rulers. Tape one end of each ruler firmly to the edge of a table so that the length of each ruler that protrudes from the table is the same. On the free end of one ruler tape a heavy object such as a few large coins. Pluck the ends of the rulers at the same time and observe which one undergoes more cycles in a time period, and measure the period of oscillation of each of the rulers.</para>
+    </note>
+
+<note id="fs-id1169082432208" class="watch-physics">
+<label/>
+<title>Watch Physics: Introduction to Harmonic Motion</title>
+<para id="fs-id1166315657239">This video explains the motion of a mass on a spring.</para>
+<media id="fs-id1166315212108" alt="This tutorial is an introduction to harmonic motion.">
+<iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02harmmotion"/>
+</media>
+</note>
+
+    <example id="fs-id1366587">
+    <title>Calculate the Frequency and Period of Oscillations: Bad Shock Absorbers in a Car </title>
+    <para id="import-auto-id3246114">If the shock absorbers in a car go bad, then the car will oscillate at the least provocation, such as when going over bumps in the road and after stopping (See <link target-id="import-auto-id1352637"/>). Calculate the frequency and period of these oscillations for such a car <emphasis effect="italics"/>if the car’s mass (including its load) is 900 kg and the force constant (<emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math></emphasis>) of the suspension system is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>53</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "53" times "10" rSup { size 8{4} } `"N/m"} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2618137">
+      <emphasis>Strategy</emphasis>
+    </para>
+    <para id="import-auto-id3032062">The frequency of the car’s oscillations will be that of a simple harmonic oscillator as given in the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2π</m:mn></m:mfrac></m:mrow><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {2π} }  sqrt { {  {k}  over  {m} } } } {}</m:annotation></m:semantics></m:math>. The mass and the force constant are both given.</para>
+    <para id="import-auto-id2956915">
+      <emphasis>Solution</emphasis>
+    </para>
+    <list id="fs-id3068651" list-type="enumerated" number-style="arabic"><item id="import-auto-id1576543">Enter the known values of <emphasis effect="italics">k</emphasis> and <emphasis effect="italics">m</emphasis>:
+    <equation id="eip-686"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>f</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2π</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mfrac>
+                        <m:mi>k</m:mi>
+                        <m:mi>m</m:mi>
+                      </m:mfrac>
+                    </m:msqrt>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mfrac>
+                      <m:mn>1</m:mn>
+                      <m:mn>2π</m:mn>
+                    </m:mfrac>
+                  </m:mrow>
+                  <m:msqrt>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>6</m:mn>
+                        <m:mtext>.</m:mtext>
+                        <m:mrow>
+                          <m:mtext>53</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>4</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow><m:mspace width="0.25em"/>
+                        <m:mtext>N/m</m:mtext>
+                      </m:mrow>
+                      <m:mrow>
+                        <m:mtext>900</m:mtext><m:mspace width="0.25em"/>
+                        <m:mtext> kg</m:mtext>
+                      </m:mrow>
+                    </m:mfrac>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{f= {  {1}  over  {2π} }  sqrt { {  {k}  over  {m} } } = {  {1}  over  {2π} }  sqrt { {  {6 "." "53" times "10" rSup { size 8{4} } "N/m"}  over  {"900"" kg"} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id1848789">Calculate the frequency:
+    <equation id="eip-465"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mn>1</m:mn>
+                    <m:mn>2π</m:mn>
+                  </m:mfrac>
+                  <m:mrow>
+                    <m:msqrt>
+                      <m:mrow>
+                        <m:mtext>72.</m:mtext>
+                        <m:mrow>
+                          <m:mn>6</m:mn>
+                          <m:mo stretchy="false">/</m:mo>
+                          <m:msup>
+                            <m:mtext>s</m:mtext>
+
+                              <m:mrow>
+                                <m:mn>–2</m:mn>
+                              </m:mrow>
+
+                          </m:msup>
+                        </m:mrow>
+                      </m:mrow>
+                    </m:msqrt>
+                    <m:mo stretchy="false">=</m:mo>
+</m:mrow>
+<m:mn>1</m:mn>
+
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+<m:msup>
+                    <m:mrow>
+                      <m:mtext>3656</m:mtext>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mtext>s</m:mtext>
+                    </m:mrow>
+<m:mtext>–1</m:mtext>
+</m:msup>
+                    <m:mo stretchy="false">≈</m:mo>
+
+</m:mrow>
+                    <m:mn>1</m:mn>
+
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+<m:msup>
+                    <m:mrow>
+                      <m:mtext>36</m:mtext>
+                      <m:mo stretchy="false">/</m:mo>
+                      <m:mtext>s</m:mtext>
+                    </m:mrow>
+<m:mtext>–1</m:mtext>
+</m:msup>
+                    <m:mo stretchy="false">=</m:mo>
+</m:mrow>
+                  <m:mtext>1.36 Hz</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2π} }  sqrt {"72" "." 6/s rSup { size 8{2} } } =1 "." "36"/s=1 "." "36 Hz"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+    <item id="import-auto-id1411067">You could use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:msqrt><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=2π sqrt { {  {m}  over  {k} } } } {}</m:annotation></m:semantics></m:math> to calculate the period, but it is simpler to use the relationship <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>f</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=1/f} {}</m:annotation></m:semantics></m:math> and substitute the value just found for <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>:
+    <equation id="eip-207"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mi>T</m:mi>
+                        <m:mo stretchy="false">=</m:mo>
+                        <m:mfrac>
+                          <m:mn>1</m:mn>
+                          <m:mi>f</m:mi>
+                        </m:mfrac>
+                      </m:mrow>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mfrac>
+                        <m:mn>1</m:mn>
+                        <m:mrow>
+                          <m:mn>1</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>356</m:mtext><m:mspace width="0.25em"/>
+                          <m:mtext> Hz</m:mtext>
+                        </m:mrow>
+                      </m:mfrac>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>738</m:mtext><m:mspace width="0.25em"/>
+                  <m:mtext> s</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{T= {  {1}  over  {f} } = {  {1}  over  {1 "." "36"" Hz"} } =0 "." "737"" s"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation></item>
+        </list>
+    <para id="import-auto-id3192561">
+      <emphasis>Discussion</emphasis>
+    </para>
+    <para id="import-auto-id2679099">The values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> both seem about right for a bouncing car. You can observe these oscillations if you push down hard on the end of a car and let go.  </para>
+    </example>
+    <section id="fs-id2681584">
+        <title>The Link between Simple Harmonic Motion and Waves</title>
+    <para id="import-auto-id2962769">If a time-exposure photograph of the bouncing car were taken as it drove by, the headlight would make a wavelike streak, as shown in <link target-id="import-auto-id1352637"/>. Similarly, <link target-id="import-auto-id1177267"/> shows an object bouncing on a spring as it leaves a wavelike "trace of its position on a moving strip of paper. Both waves are sine functions. All simple harmonic motion is intimately related to sine and cosine waves.</para><figure id="import-auto-id1352637"><media id="import-auto-id1411938" alt="The figure shows the front right side of a running car on an uneven rough surface which also shows the driver in the driving seat. There is an oscillating sine wave drawn from left to the right side horizontally throughout the figure.">
+        <image mime-type="image/jpg" src="../../media/Figure_17_03_03a.jpg" width="300"/>
+      </media>
+
+    <caption>The bouncing car makes a wavelike motion. If the restoring force in the suspension system can be described only by Hooke’s law, then the wave is a sine function. (The wave is the trace produced by the headlight as the car moves to the right.)</caption></figure><figure id="import-auto-id1177267"><media id="import-auto-id2391861" alt="There are two iron paper roll bars standing vertically with a paper strip stitched from one bar to the other. There is a vertical hanging spring just over the middle of the two bars, perpendicular to the strip of the paper, having an object with mass m tied to it. There is a line graph with amplitude scale as X, zero and negative X on the left side of the paper strip, vertically over each other with their points marked. A perpendicular line is drawn through this amplitude scale toward the right with a point T marked over it, showing the time duration of the amplitude. This line has an oscillating wave drawn through it.">
+        <image mime-type="image/jpg" src="../../media/Figure_17_03_04a.jpg" width="175"/>
+      </media>
+
+    <caption>The vertical position of an object bouncing on a spring is recorded on a strip of moving paper, leaving a sine wave.</caption></figure><para id="import-auto-id3008498">The displacement as a function of time <emphasis effect="italics">t</emphasis> in any simple harmonic motion—that is, one in which the net restoring force can be described by Hooke’s law, is given by</para><equation id="eip-555"><m:math>
+          <m:semantics>
+            <m:mrow>
+
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>x</m:mi>
+                    <m:mrow>
+                      <m:mfenced open="(" close=")">
+                        <m:mi>t</m:mi>
+                      </m:mfenced>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:mi>X</m:mi>
+                    </m:mrow><m:mspace width="0.25em"/>
+                    <m:mtext>cos</m:mtext>
+                    <m:mfrac>
+                      <m:mrow>
+                        <m:mn>2</m:mn>
+                        <m:mi fontstyle="italic">πt</m:mi>
+                      </m:mrow>
+                      <m:mi>T</m:mi>
+                    </m:mfrac>
+                  </m:mrow>
+                </m:mrow>
+                  <m:mo>,</m:mo>
+              <m:mrow/>
+            </m:mrow>
+            <m:annotation encoding="StarMath 5.0"> size 12{x left (t right )=X"cos" {  {2π`t}  over  {T} } } {}</m:annotation>
+          </m:semantics>
+        </m:math> </equation><para id="import-auto-id1403550">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is amplitude. At <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0} {}</m:annotation></m:semantics></m:math>, the initial position is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{0} } =X} {}</m:annotation></m:semantics></m:math>, and the displacement oscillates back and forth with a period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math><emphasis effect="italics">.</emphasis> (When <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>T</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, we get <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=X} {}</m:annotation></m:semantics></m:math> again because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mn>2π</m:mn><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.). Furthermore, from this expression for <emphasis effect="bold"/><emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math></emphasis>, the velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> as a function of time is given by:</para><equation id="eip-468"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mi/><m:mi>t</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mfenced></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v \( t \) = - v rSub { size 8{"max"} } "sin" left ( {  {2π`t}  over  {T} }  right )} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2666940">where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2π</m:mn><m:mi>X</m:mi><m:mo stretchy="false">/</m:mo><m:mi>T</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi></m:mrow><m:msqrt><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">/</m:mo><m:mi>m</m:mi></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"max"} } =2πX/T=X sqrt {k/m} } {}</m:annotation></m:semantics></m:math>. The object has zero velocity at maximum displacement—for example, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0} {}</m:annotation></m:semantics></m:math> when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0} {}</m:annotation></m:semantics></m:math>, and at that time <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=X} {}</m:annotation></m:semantics></m:math>. The minus sign in the first equation for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v \( t \) } {}</m:annotation></m:semantics></m:math> gives the correct direction for the velocity. Just after the start of the motion, for instance, the velocity is negative because the system is moving back toward the equilibrium point. Finally, we can get an expression for acceleration using Newton’s second law. [Then we have <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mi> v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mi> t</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x \( t \) ,v \( t \) ,t} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a \( t \) } {}</m:annotation></m:semantics></m:math>, the quantities needed for kinematics and a description of simple harmonic motion.] According to Newton’s second law, the acceleration is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">/</m:mo><m:mi>m</m:mi></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>m</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a=F/m= ital "kx"/m} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">.</emphasis> So, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a \( t \) } {}</m:annotation></m:semantics></m:math> is also a cosine function:</para><equation id="eip-987"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                        <m:mstyle fontstyle="italic">
+                          <m:mrow>
+                            <m:mtext>kX</m:mtext>
+                          </m:mrow>
+                        </m:mstyle>
+                        <m:mi>m</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mtext> cos </m:mtext>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2π</m:mn>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                    <m:mi>T</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a \( t \) = -  {  { ital "kX"}  over  {m} } " cos " {  {2π t}  over  {T} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2397669">Hence, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a \( t \) } {}</m:annotation></m:semantics></m:math> is directly proportional to and in the opposite direction to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</para><para id="import-auto-id3032532"><link target-id="import-auto-id2429266"/> shows the simple harmonic motion of an object on a spring and presents graphs of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi> x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mi> v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">),</m:mo><m:mi/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x \( t \) ,v \( t \) `} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`a \( t \) } {}</m:annotation></m:semantics></m:math> versus time.</para><figure id="import-auto-id2429266"><media id="import-auto-id2404258" alt="In the figure at the top there are ten springboards with objects of different mass values tied to them. This makes some springs highly compressed some as loosely stretched and some at equilibrium, which are shown as red spherical shaped. Alongside the figure there is a scale given for different amplitude values as x equal to positive X, zero and negative X. the upward and downward pointing arrows are shown with a few springboards.  In the second figure there are three graphs. The first graph shows distance covered in form of a sine wave starting from a point x units on positive y-axis. The height of the wave above x-axis is marked as amplitude. The gap between two consecutive crests is marked as T. Below first graph there is another graph showing velocity in form of a sine wave starting from the origin downward. In the third graph below the second one, acceleration is shown in the form of sine wave starting from x units on the negative y-axis upward. In the last figure three position of a spring are shown. The first position shows the unstretched length of a spring pendulum. A hand is holding the bob of the pendulum. In the second position the equilibrium position of the spring and bob is shown. This position is lower the first one. In the third case the up and down oscillations of the spring pendulum are shown. The bob is moving x units in upward and downward directions alternatively.">
+        <image mime-type="image/jpg" src="../../media/Figure_17_03_05a.jpg" height="575"/>
+      </media>
+    <caption>Graphs of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi>,</m:mi><m:mspace width="0.25em"/><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mi/><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x \( t \) ,v \( t \) `} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi/><m:mi>a</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{`a \( t \) } {}</m:annotation></m:semantics></m:math> versus <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> for the motion of an object on a spring. The net force on the object can be described by Hooke’s law, and so the object undergoes simple harmonic motion. Note that the initial position has the vertical displacement at its maximum value <m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math>; <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is initially zero and then negative as the object moves down; and the initial acceleration is negative, back toward the equilibrium position and becomes zero at that point.</caption></figure><para id="import-auto-id2658069">The most important point here is that these equations are mathematically straightforward and are valid for all simple harmonic motion. They are very useful in visualizing waves associated with simple harmonic motion, including visualizing how waves add with one another.</para>
+
+    <exercise id="fs-id2056610" type="check-understanding">
+        <label/>
+        <title>Check Your Understanding</title>
+    <problem id="fs-id1293481">
+        <para id="import-auto-id3149731">Suppose you pluck a banjo string. You hear a single note that starts out loud and slowly quiets over time. Describe what happens to the sound waves in terms of period, frequency and amplitude as the sound decreases in volume.</para>
+    </problem>
+    <solution id="fs-id2680599" print-placement="here"><para id="import-auto-id2930765">Frequency and period remain essentially unchanged. Only amplitude decreases as volume decreases.</para>
+    </solution>
+    </exercise>
+        <exercise id="fs-id2056612" type="check-understanding">
+            <label/>
+            <title>Check Your Understanding</title>
+        <problem id="fs-id3122227">
+            <para id="import-auto-id3149771">A babysitter is pushing a child on a swing. At the point where the swing reaches <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>, where would the corresponding point on a wave of this motion be located?</para></problem>
+    <solution id="fs-id1362944" print-placement="here">
+        <para id="import-auto-id1447563"><m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math> is the maximum deformation, which corresponds to the amplitude of the wave. The point on the wave would either be at the very top or the very bottom of the curve.</para></solution>
+        </exercise>
+        </section>
+
+<note id="fs-id2164429" class="interactive"><label/><title>PhET Explorations: Masses and Springs</title>
+<para id="eip-id1169737844972">A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.</para>
+<figure id="fs-id2164844"><media id="MassesandSprings" alt="This simulation allows you to explore a mass and spring laboratory.">
+<iframe width="660" height="371.4" src="https://openstax.org/l/02masses_springs"/>
+</media>
+</figure>
+</note>
+
+<section id="fs-id3209887" class="section-summary"><title>Section Summary</title><list id="fs-id982124"><item id="import-auto-id3093852">Simple harmonic motion is oscillatory motion for a system that can be described only by Hooke’s law. Such a system is also called a simple harmonic oscillator. </item>
+
+    <item id="import-auto-id1488427">Maximum displacement is the amplitude <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math></emphasis>. The period <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis> and frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> of a simple harmonic oscillator are given by
+    <para id="import-auto-id3358885"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:msqrt><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=2π sqrt { {  {m}  over  {k} } } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2π</m:mn></m:mfrac></m:mrow><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the mass of the system. </para></item>
+    <item id="import-auto-id1860331">Displacement in simple harmonic motion as a function of time is given by <m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>x</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>X</m:mi><m:mspace width="0.25em"/>
+                  </m:mrow>
+                  <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2π</m:mn>
+                      <m:mi/>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                    <m:mi>T</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{x \( t \) =X"cos" {  {2π`t}  over  {T} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></item>
+    <item id="import-auto-id1398723">The velocity is given by
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">(</m:mo><m:mi>t</m:mi><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">−</m:mo>
+
+<m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub>
+
+<m:mtext>sin</m:mtext><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mtext> t</m:mtext></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, where
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow>
+<m:msub>
+<m:mi>v</m:mi><m:mtext>max</m:mtext>
+</m:msub>
+<m:mo stretchy="false">=</m:mo><m:mrow><m:msqrt><m:mi>k</m:mi><m:mo stretchy="false">/</m:mo><m:mi>m</m:mi></m:msqrt></m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>.</item>
+    <item id="import-auto-id954284">The acceleration is found to be <m:math>
+
+      <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>a</m:mi>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mi>t</m:mi>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mfrac>
+                          <m:mrow>
+                            <m:mi fontstyle="italic">kX</m:mi>
+                          </m:mrow>
+                        <m:mi>m</m:mi>
+                      </m:mfrac>
+                    </m:mrow>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> cos </m:mtext><m:mspace width="0.25em"/>
+                  <m:mfrac>
+                    <m:mrow>
+                      <m:mn>2π</m:mn>
+                      <m:mi>t</m:mi>
+                    </m:mrow>
+                    <m:mi>T</m:mi>
+                  </m:mfrac>
+                </m:mrow>
+              </m:mrow>
+              <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{a \( t \) = -  {  { ital "kX"}  over  {m} } " cos " {  {2π t}  over  {T} } } {}</m:annotation>
+        </m:semantics>
+      </m:math></item></list></section>
+<section id="fs-id3143102" class="conceptual-questions" type="conceptual-questions">
+<title>Conceptual Questions</title>
+    <exercise id="fs-id2017072" type="conceptual-questions"><problem id="fs-id3025808">
+
+    <para id="import-auto-id2673447">What conditions must be met to produce simple harmonic motion?</para>
+    </problem></exercise>
+        <exercise id="fs-id1561901" type="conceptual-questions"><problem id="fs-id3063179">
+
+    <para id="import-auto-id3228419">(a) If frequency is not constant for some oscillation, can the oscillation be simple harmonic motion?</para><para id="import-auto-id2423880">(b) Can you think of any examples of harmonic motion where the frequency may depend on the amplitude?</para>
+    </problem></exercise>
+        <exercise id="fs-id2032223" type="conceptual-questions"><problem id="fs-id1571112">
+
+    <para id="import-auto-id1349762">Give an example of a simple harmonic oscillator, specifically noting how its frequency is independent of amplitude.</para>
+
+    </problem></exercise>
+        <exercise id="fs-id1888472" type="conceptual-questions"><problem id="fs-id2594604">
+
+    <para id="import-auto-id765532">Explain why you expect an object made of a stiff material to vibrate at a higher frequency than a similar object made of a spongy material.</para>
+    </problem></exercise>
+        <exercise id="fs-id3306170" type="conceptual-questions"><problem id="fs-id1815181">
+
+    <para id="import-auto-id2957194">As you pass a freight truck with a trailer on a highway, you notice that its trailer is bouncing up and down slowly. Is it more likely that the trailer is heavily loaded or nearly empty? Explain your answer.</para>
+    </problem></exercise>
+    <exercise id="fs-id3449442" type="conceptual-questions"><problem id="fs-id2053170">
+
+    <para id="import-auto-id3047367">Some people modify cars to be much closer to the ground than when manufactured. Should they install stiffer springs? Explain your answer.</para>
+    </problem></exercise>
+    </section>
+    <section id="fs-id3077105" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1587278" type="problems-exercises"><problem id="fs-id1422331">    <para id="import-auto-id1872785">A type of cuckoo clock keeps time by having a mass bouncing on a spring, usually something cute like a cherub in a chair. What force constant is needed to produce a period of 0.500 s for a 0.0150-kg mass?</para>
+    </problem>
+<solution id="fs-id2398932">
+    <para id="import-auto-id3163897"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>2</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>37</m:mtext>
+                  <m:mspace width="0.25em"/>
+                  <m:mtext>N/m</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "37"`"N/m"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+    </exercise>
+    <exercise id="fs-id3397701" type="problems-exercises"><problem id="fs-id347645">    <para id="import-auto-id3080601">If the spring constant of a simple harmonic oscillator is doubled, by what factor will the mass of the system need to change in order for the frequency of the motion to remain the same?</para>
+    </problem></exercise>
+        <exercise id="eip-800"><problem id="fs-id2697740">    <para id="import-auto-id1816394">A 0.500-kg mass suspended from a spring oscillates with a period of 1.50 s. How much mass must be added to the object to change the period to 2.00 s?</para>
+    </problem>
+<solution id="fs-id2618365">
+    <para id="import-auto-id2659905">0.389 kg</para>
+    </solution>
+    </exercise><exercise id="fs-id3062785" type="problems-exercises"><problem id="fs-id3037822">    <para id="import-auto-id3285510">By how much leeway (both percentage and mass) would you have in the selection of the mass of the object in the previous problem if you did not wish the new period to be greater than 2.01 s or less than 1.99 s?</para>
+    </problem></exercise>
+        <exercise id="fs-id1931315" type="problems-exercises"><problem id="fs-id2056751">    <para id="import-auto-id3306170">Suppose you attach the object with mass <m:math><m:semantics><m:mi>m</m:mi><m:annotation encoding="StarMath 5.0"> size 12{"m"} {}</m:annotation></m:semantics></m:math> to a vertical spring originally at rest, and let it bounce up and down. You release the object from rest at the spring’s original rest length. (a) Show that the spring exerts an upward force of
+
+
+<m:math><m:semantics><m:mrow><m:mn>2.00</m:mn><m:mstyle fontstyle="italic"><m:mspace width="0.25em"/><m:mi>mg</m:mi></m:mstyle></m:mrow></m:semantics></m:math>
+
+ on the object at its lowest point. (b) If the spring has a force constant of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mi/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" "." 0`"N/m"} {}</m:annotation></m:semantics></m:math> and a 0.25-kg-mass object is set in motion as described, find the amplitude of the oscillations. (c) Find the maximum velocity. </para></problem></exercise>
+        <exercise id="fs-id1941088" type="problems-exercises"><problem id="fs-id2010292">    <para id="import-auto-id1561696">A diver on a diving board is undergoing simple harmonic motion. Her mass is 55.0 kg and the period of her motion is 0.800 s. The next diver is a male whose period of simple harmonic oscillation is 1.05 s. What is his mass if the mass of the board is negligible? </para>
+</problem>
+
+<solution id="eip-id2503482">
+<para id="import-auto-id2659378">94.7 kg</para>
+</solution>
+
+    </exercise><exercise id="fs-id2654282" type="problems-exercises"><problem id="fs-id3068943">    <para id="import-auto-id742532">Suppose a diving board with no one on it bounces up and down in a simple harmonic motion with a frequency of 4.00 Hz. The board has an effective mass of 10.0 kg. What is the frequency of the simple harmonic motion of a 75.0-kg diver on the board? </para></problem></exercise>
+<exercise id="fs-id3032062" type="problems-exercises"><problem id="fs-id1344086">
+        <figure id="import-auto-id2023197"><media id="import-auto-id2687821" alt="The figure shows a little kid, about ten to twelve months old, standing in a toy jolly jumper, which is tied to the ceiling hook by its four spring belts.">
+        <image mime-type="image/png" src="../../media/Figure_17_02_02a.jpg" width="200"/>
+      </media>
+
+    <caption>This child’s toy relies on springs to keep infants entertained. (credit: By Humboldthead, Flickr)<newline/></caption></figure><para id="eip-id1165652466883">The device pictured in <link target-id="import-auto-id2023197"/> entertains infants while keeping them from wandering. The child bounces in a harness suspended from a door frame by a spring constant.</para>
+    <para id="eip-id1165652459177">(a) If the spring stretches 0.250 m while supporting an 8.0-kg child, what is its spring constant?</para><para id="import-auto-id2009916">(b) What is the time for one complete bounce of this child? (c) What is the child’s maximum velocity if the amplitude of her bounce is 0.200 m?</para></problem></exercise>
+        <exercise id="fs-id3035922" type="problems-exercises"><problem id="fs-id2687937">    <para id="import-auto-id2930076">A 90.0-kg skydiver hanging from a parachute bounces up and down with a period of 1.50 s. What is the new period of oscillation when a second skydiver, whose mass is 60.0 kg, hangs from the legs of the first, as seen in <link target-id="import-auto-id1282324"/>.</para><figure id="import-auto-id1282324"><media id="import-auto-id1365720" alt="The figure shows two skydivers midway through the air, with both with open having their parachutes open.">
+        <image mime-type="image/png" src="../../media/Figure_17_02_03a.jpg" width="200"/>
+      </media>
+
+    <caption>The oscillations of one skydiver are about to be affected by a second skydiver. (credit: U.S. Army, www.army.mil)</caption></figure></problem>
+<solution id="fs-id1942411">
+    <para id="import-auto-id2056190">1.94 s</para>
+    </solution></exercise>
+    </section></content>
+    <glossary>
+        <definition id="import-auto-id1439009"><term>amplitude</term> <meaning id="fs-id2648557">the maximum displacement from the equilibrium position of an object oscillating around the equilibrium position</meaning></definition>
+        <definition id="import-auto-id3149576"><term>simple harmonic motion</term> <meaning id="fs-id2438369">the oscillatory motion in a system where the net force can be described by Hooke’s law</meaning></definition>
+        <definition id="import-auto-id3123906"><term>simple harmonic oscillator</term> <meaning id="fs-id2422256">a device that implements Hooke’s law, such as a mass that is attached to a spring, with the other end of the spring being connected to a rigid support such as a wall</meaning></definition>
+    </glossary>
+</document>

@@ -1,0 +1,490 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Work: The Scientific Definition</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m55103</md:content-id>
+  <md:title>Work: The Scientific Definition</md:title>
+  <md:abstract/>
+  <md:uuid>b41a6a7a-5fa2-4400-b07e-a507e0529003</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id2059575" class="learning-objectives">
+  <title>Learning Objectives</title>
+  <para id="fs-id2970267">By the end of this section, you will be able to:</para>
+  <list id="fs-id3243120">
+    <item>Explain how an object must be displaced for a force on it to do work.</item>
+<item>Explain how relative directions of force and displacement of an object determine whether the work done on the object is positive, negative, or zero.</item>
+</list>
+<para id="fs-id1199228">The information presented in this section supports the following AP® learning objectives and science practices:</para>
+<list id="fs-id1817929">
+<item><emphasis effect="bold">5.B.5.1</emphasis> The student is able to design an experiment and analyze data to examine how a force exerted on an object or system does work on the object or system as it moves through a distance.<emphasis effect="bold"> (S.P. 4.2, 5.1)</emphasis></item>
+<item><emphasis effect="bold">5.B.5.2</emphasis> The student is able to design an experiment and analyze graphical data in which interpretations of the area under a force-distance curve are needed to determine the work done on or by the object or system.<emphasis effect="bold"> (S.P. 4.5, 5.1)</emphasis></item>
+<item><emphasis effect="bold">5.B.5.3</emphasis> The student is able to predict and calculate from graphical data the energy transfer to or work done on an object or system from information about a force exerted on the object or system through a distance.<emphasis effect="bold"> (S.P. 1.5, 2.2, 6.4)</emphasis></item>
+</list>
+</section>
+    <section id="fs-id2599769"><title>What It Means to Do Work</title>
+    <para id="import-auto-id1233935">The scientific definition of work differs in some ways from its everyday meaning. Certain things we think of as hard work, such as writing an exam or carrying a heavy load on level ground, are not work as defined by a scientist. The scientific definition of work reveals its relationship to energy—whenever work is done, energy is transferred.</para>
+    <para id="import-auto-id2626449">For work, in the scientific sense, to be done on an object, a force must be exerted on that object and there must be displacement of that object in the direction of the force.</para><para id="import-auto-id1910853">Formally, the <term id="import-auto-id1418415">work</term> done on a system by a constant force is defined to be <emphasis effect="italics">the product of the component of the force in the direction of motion and the distance through which the force acts</emphasis>. For a constant force, this is expressed in equation form as</para><equation id="eip-354"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>W</m:mi>
+                  <m:mo stretchy="false">=</m:mo><m:mspace width="0.15em"/>
+                  <m:mrow>
+                    <m:mo stretchy="false">∣</m:mo>
+                    <m:mi mathvariant="bold">F</m:mi>
+                    <m:mo stretchy="false">∣</m:mo>
+                  </m:mrow>
+                </m:mrow>
+                <m:mfenced open="(" close=")">
+                  <m:mrow>
+                    <m:mtext>cos</m:mtext><m:mspace width="0.15em"/>
+                    <m:mi>θ</m:mi>
+                  </m:mrow>
+                </m:mfenced>
+                <m:mrow>
+                  <m:mo stretchy="false">∣</m:mo>
+                  <m:mi mathvariant="bold">d</m:mi>
+                  <m:mo stretchy="false">∣</m:mo>
+                </m:mrow>
+<m:mo>,</m:mo>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{W= lline F rline  left ("cos"θ right ) lline d rline } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id1991496">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is work, <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> is the displacement of the system, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle between the force vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> and the displacement vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>, as in <link target-id="import-auto-id2495459"/>. We can also write this as</para><equation id="fs-id1536731"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext> cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd"" cos"θ} {}</m:annotation></m:semantics></m:math></equation><para id="eip-217">To find the work done on a system that undergoes motion that is not one-way or that is in two or three dimensions, we divide the motion into one-way one-dimensional segments and add up the work done over each segment.</para><note id="fs-id1289765"><label/><title>What is Work?</title>
+    <para id="import-auto-id1332825">The work done on a system by a constant force is <emphasis effect="italics">the product of the component of the force in the direction of motion times the distance through which the force acts</emphasis>. For one-way motion in one dimension, this is expressed in equation form as</para><equation id="fs-id2464056"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd"" cos"θ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1968130">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is work, <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is the magnitude of the force on the system, <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> is the magnitude of the displacement of the system, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> is the angle between the force vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> and the displacement vector <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>.</para></note>
+    <figure id="import-auto-id2495459"><media id="import-auto-id1913019" alt="Five drawings labeled a through e. In (a), person pushing a lawn mower with a force F. Force is represented by a vector making an angle theta with the horizontal and displacement of the mower is represented by vector d. The component of vector F along vector d is F cosine theta. Work done by the person W is equal to F d cosine theta. (b) A person is standing with a briefcase in his hand. The force F shown by a vector arrow pointing upwards starting from the handle of briefcase and the displacement d is equal to zero. (c) A person is walking holding the briefcase in his hand. Force vector F is in the vertical direction starting from the handle of briefcase and displacement vector d is in horizontal direction starting from the same point as vector F. The angle between F and d theta is equal to 90 degrees. Cosine theta is equal to zero. (d) A briefcase is shown in front of a set of stairs. A vector d starting from the first stair points along the incline of the stair and a force vector F is in vertical direction starting from the same point as vector d. The angle between them is theta. A component of vector F along vector d is F d cosine theta. (e) A briefcase is shown lowered vertically down from an electric generator. The displacement vector d points downwards and force vector F points upwards acting on the briefcase.">
+		<image mime-type="image/jpg" src="../../media/Figure_08_01_01.jpg"/>
+	</media>
+
+    <caption>Examples of work. (a) The work done by the force <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> on this lawn mower is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "Fd""cos"θ} {}</m:annotation></m:semantics></m:math>. Note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math> is the component of the force in the direction of motion. (b) A person holding a briefcase does no work on it, because there is no displacement. No energy is transferred to or from the briefcase. (c) The person moving the briefcase horizontally at a constant speed does no work on it, and transfers no energy to it. (d) Work <emphasis effect="italics">is</emphasis> done on the briefcase by carrying it up stairs at constant speed, because there is necessarily a component of force <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> in the direction of the motion. Energy is transferred to the briefcase and could in turn be used to do work. (e) When the briefcase is lowered, energy is transferred out of the briefcase and into an electric generator. Here the work done on the briefcase by the generator is negative, removing energy from the briefcase, because <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> are in opposite directions.</caption></figure><para id="import-auto-id2850878">To examine what the definition of work means, let us consider the other situations shown in <link target-id="import-auto-id2495459"/>. The person holding the briefcase in <link target-id="import-auto-id2495459"/>(b) does no work, for example. Here <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d=0} {}</m:annotation></m:semantics></m:math>, so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=0} {}</m:annotation></m:semantics></m:math>. Why is it you get tired just holding a load? The answer is that your muscles are doing work against one another, <emphasis effect="italics">but they are doing no work on the system of interest</emphasis> (the “briefcase-Earth system”—see <link document="m55032">Gravitational Potential Energy</link> for more details). There must be displacement for work to be done, and there must be a component of the force in the direction of the motion. For example, the person carrying the briefcase on level ground in <link target-id="import-auto-id2495459"/>(c) does no work on it, because the force is perpendicular to the motion. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mtext>90</m:mtext><m:mtext>º =</m:mtext><m:mspace width="0.25em"/><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos""90""°="0} {}</m:annotation></m:semantics></m:math>, and so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W=0} {}</m:annotation></m:semantics></m:math>. </para><para id="import-auto-id1905255">In contrast, when a force exerted on the system has a component in the direction of motion, such as in <link target-id="import-auto-id2495459"/>(d), work <emphasis effect="italics">is</emphasis> done—energy is transferred to the briefcase. Finally, in <link target-id="import-auto-id2495459"/>(e), energy is transferred from the briefcase to a generator. There are two good ways to interpret this energy transfer. One interpretation is that the briefcase’s weight does work on the generator, giving it energy. The other interpretation is that the generator does negative work on the briefcase, thus removing energy from it. The drawing shows the latter, with the force from the generator upward on the briefcase, and the displacement downward. This makes <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>180</m:mtext></m:mrow><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="180"°} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>cos 180</m:mtext><m:mrow><m:mtext>º</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>–1</m:mn></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos 180"°= +- 1} {}</m:annotation></m:semantics></m:math>; therefore, <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is negative.</para></section>
+
+<note id="fs-id1358481"><title>Real World Connections: When Work Happens</title><para id="fs-id2659460">Note that work as we define it is not the same as effort. You can push against a concrete wall all you want, but you won’t move it. While the pushing represents effort on your part, the fact that you have not changed the wall’s state in any way indicates that you haven’t done work. If you did somehow push the wall over, this would indicate a change in the wall’s state, and therefore you would have done work.</para>
+<para id="fs-id1404013">This can also be shown with  <link target-id="import-auto-id2495459"/>(a): as you push a lawnmower against friction, both you and friction are changing the lawnmower’s state. However, only the component of the force parallel to the movement is changing the lawnmower’s state. The component perpendicular to the motion is trying to push the lawnmower straight into Earth; the lawnmower does not move into Earth, and therefore the lawnmower’s state is not changing in the direction of Earth.</para>
+<para id="fs-id1385417">Similarly, in <link target-id="import-auto-id2495459"/>(c), both your hand and gravity are exerting force on the briefcase. However, they are both acting perpendicular to the direction of motion, hence they are not changing the condition of the briefcase and do no work. However, if the briefcase were dropped, then its displacement would be parallel to the force of gravity, which would do work on it, changing its state (it would fall to the ground).</para>
+</note><section id="fs-id1534905"><title>Calculating Work</title>
+    <para id="import-auto-id2573627">Work and energy have the same units. From the definition of work, we see that those units are force times distance. Thus, in SI units, work and energy are measured in <term id="import-auto-id2692776">newton-meters</term>. A newton-meter is given the special name <term id="import-auto-id2681417">joule</term> (J), and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mrow><m:mspace width="0.25em"/><m:mtext> J</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext> N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1" J"=1" N" cdot m=1" kg" cdot m rSup { size 8{2} } "/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. One joule is not a large amount of energy; it would lift a small 100-gram apple a distance of about 1 meter.  </para><example id="fs-id2150784"><title>Calculating the Work You Do to Push a Lawn Mower Across a Large Lawn</title>
+    <para id="import-auto-id2100128">How much work is done on the lawn mower by the person in <link target-id="import-auto-id2495459"/>(a) if he exerts a constant force of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>75</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"75" "." 0" N"} {}</m:annotation></m:semantics></m:math> at an angle <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35</m:mtext><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35"°} {}</m:annotation></m:semantics></m:math> below the horizontal and pushes the mower <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0" m"} {}</m:annotation></m:semantics></m:math> on level ground? Convert the amount of work from joules to kilocalories and compare it with this person’s average daily intake of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mi>,</m:mi><m:mtext>000</m:mtext><m:mspace width="0.25em"/><m:mtext>kJ</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10","000"" kJ"} {}</m:annotation></m:semantics></m:math> (about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>2400</m:mtext><m:mspace width="0.25em"/><m:mtext>kcal</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"2400"" kcal"} {}</m:annotation></m:semantics></m:math>) of food energy. One <emphasis effect="italics">calorie</emphasis> (1 cal) of heat is the amount required to warm 1 g of water by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1°C} {}</m:annotation></m:semantics></m:math>, and is equivalent to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mtext>184</m:mtext><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "184"" J"} {}</m:annotation></m:semantics></m:math>, while one <emphasis effect="italics">food calorie</emphasis> (1 kcal) is equivalent to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>4184</m:mtext><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"4184"" J"} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id2491003"><title>Strategy</title> </para>
+    <para id="import-auto-id2184380">We can solve this problem by substituting the given values into the definition of work done on a system, stated in the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd"" cos"θ} {}</m:annotation></m:semantics></m:math>. The force, angle, and displacement are given, so that only the work <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is unknown.</para><para id="import-auto-id1628046"><title>Solution</title> </para>
+    <para id="import-auto-id861148">The equation for the work is</para>
+    <equation id="fs-id1802559"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Fd</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd"" cos"θ} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1890647">Substituting the known values gives</para>
+    <equation id="fs-id1911869"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>                          <m:mi>W</m:mi></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+  <m:mtd>                <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+
+
+                          <m:mfenced open="(" close=")">
+                            <m:mrow>
+                              <m:mtext>75.0 N</m:mtext>
+                            </m:mrow>
+                          </m:mfenced>
+                        </m:mrow>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mtext>25.0 m</m:mtext>
+                          </m:mrow>
+                        </m:mfenced><m:mspace width="0.25em"/>
+                        <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                        <m:mfenced open="(" close=")">
+                          <m:mrow>
+                            <m:mtext>35.0º</m:mtext>
+                          </m:mrow>
+                        </m:mfenced>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>1536 J</m:mtext>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mtext>1.54</m:mtext>
+                          <m:mo stretchy="false">×</m:mo>
+                          <m:msup>
+                            <m:mtext>10</m:mtext>
+                            <m:mrow>
+                              <m:mn>3</m:mn>
+                            </m:mrow>
+                          </m:msup>
+                        </m:mrow><m:mspace width="0.25em"/>
+                        <m:mtext>J.</m:mtext>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{W= left ("75" "." "0 N" right ) left ("25" "." "0 m" right )"cos " left ("35" "." 0° right )}  {} #
+ size 12{"     "="1536"" J"=1 "." "54" times "10" rSup { size 8{3} } " J" "." }  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2816612">Converting the work in joules to kilocalories yields <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>1536</m:mtext><m:mspace width="0.25em"/><m:mtext>J</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mrow><m:mtext>kcal</m:mtext><m:mo stretchy="false">/</m:mo><m:mtext>4184</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>367</m:mtext><m:mspace width="0.25em"/><m:mtext>kcal</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W= \( "1536"`J \)  \( 1`"kcal"/"4184"`J \) =0 "." "367"`"kcal"} {}</m:annotation></m:semantics></m:math>. The ratio of the work done to the daily consumption is</para><equation id="fs-id1057027"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mfrac>
+                    <m:mi>W</m:mi>
+                    <m:mrow>
+                      <m:mtext>2400</m:mtext>
+                      <m:mspace width="0.25em"/>
+                      <m:mtext>kcal</m:mtext>
+                    </m:mrow>
+                  </m:mfrac>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mn>1</m:mn>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+                <m:mrow>
+                  <m:mtext>53</m:mtext>
+                  <m:mo stretchy="false">×</m:mo>
+                  <m:msup>
+                    <m:mtext>10</m:mtext>
+                    <m:mrow>
+                      <m:mrow>
+                        <m:mo stretchy="false">−</m:mo>
+                        <m:mn>4</m:mn>
+                      </m:mrow>
+                    </m:mrow>
+                  </m:msup>
+                </m:mrow>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ {  {W}  over  {"2400"`"kcal"} } =1 "." "53" times "10" rSup { size 8{ - 4} }  "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </equation><para id="import-auto-id2692676"><title>Discussion</title> </para>
+    <para id="import-auto-id1803210">This ratio is a tiny fraction of what the person consumes, but it is typical. Very little of the energy released in the consumption of food is used to do work. Even when we “work” all day long, less than 10% of our food energy intake is used to do work and more than 90% is converted to thermal energy or stored as chemical energy in fat.</para>
+    </example>
+</section>
+
+<note id="fs-id2664091"><title>Applying the Science Practices: Boxes on Floors</title>
+<para id="fs-id2679912">Plan and design an experiment to determine how much work you do on a box when you are pushing it over different floor surfaces. Make sure your experiment can help you answer the following questions: What happens on different surfaces? What happens if you take different routes across the same surface? Do you get different results with two people pushing on perpendicular surfaces of the box? What if you vary the mass in the box? Remember to think about both your effort in any given instant (a proxy for force exerted) and the total work you do. Also, when planning your experiments, remember that in any given set of trials you should only change one variable.</para>
+<para id="fs-id1758919">You should find that you have to exert more effort on surfaces that will create more friction with the box, though you might be surprised by which surfaces the box slides across easily. Longer routes result in your doing more work, even though the box ends up in the same place. Two people pushing on perpendicular sides do less work for their total effort, due to the forces and displacement not being parallel. A more massive box will take more effort to move.</para>
+</note><note id="fs-id2650053"><title>Applying the Science Practices: Force-Displacement Diagrams</title>
+<para id="fs-id1344694">Suppose you are given two carts and a track to run them on, a motion detector, a force sensor, and a computer that can record the data from the two sensors. Plan and design an experiment to measure the work done on one of the carts, and compare your results to the work-energy theorem. Note that the motion detector can measure both displacement and velocity versus time, while the force sensor measures force over time, and the carts have known masses. Recall that the work-energy theorem states that the work done on a system (force over displacement) should equal the change in kinetic energy. In your experimental design, describe and compare two possible ways to calculate the work done.</para>
+<para id="fs-id1797426">Sample Response: One possible technique is to set up the motion detector at one end of the track, and have the computer record both displacement and velocity over time. Then attach the force sensor to one of the carts, and use this cart, through the force sensor, to push the second cart toward the motion detector. Calculate the difference between the final and initial kinetic energies (the kinetic energies after and before the push), and compare this to the area of a graph of force versus displacement for the duration of the push. They should be the same.</para>
+</note><section id="fs-id1312194" type="ap-test-prep" class="ap-test-prep">
+<title>Test Prep for AP Courses</title>
+<exercise id="fs-id2527597" type="ap-test-prep">
+<problem id="fs-id3900829">
+<para id="fs-id1782508">Given <link target-id="fs-id1280037" document=""/> about how much force does the rocket engine exert on the 3.0-kg payload?</para>
+
+<table id="fs-id1280037" summary="The table has two columns: distance traveled with rocket engine firing in meters and payload final velocity in meters per second. Row 1 had 500 in the distance column and 310 in the final velocity column. Row 2 has 490 in the distance column and 300 in the final velocity column. Row 3 has 1020 in the distance column and 450 in the final velocity column. Row 4 has 505 in the distance column and 312 in the final velocity column.">
+<title/>
+<tgroup cols="2">
+
+<thead>
+<row>
+<entry>Distance traveled with rocket engine firing (m)</entry>
+<entry>Payload final velocity (m/s)</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>500 </entry>
+<entry>310</entry>
+</row>
+<row>
+<entry>490 </entry>
+<entry>300</entry>
+</row>
+<row>
+<entry>1020 </entry>
+<entry>450</entry>
+</row>
+<row>
+<entry>505 </entry>
+<entry>312</entry></row>
+</tbody></tgroup></table>
+
+<list id="fs-id1935432" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>150 N</item>
+<item>300 N</item>
+<item>450 N</item>
+<item>600 N</item>
+</list>
+</problem>
+<solution id="fs-id2353522">
+<para id="fs-id1575171">(b)</para></solution>
+</exercise>
+<exercise id="fs-id1277250" type="ap-test-prep">
+<problem id="fs-id1182208">
+<para id="fs-id2685518">You have a cart track, a cart, several masses, and a position-sensing pulley. Design an experiment to examine how the force exerted on the cart does work as it moves through a distance.</para>
+</problem>
+<!--<solution id="fs-id1843512">
+<para id="fs-id919392">Hang masses over the pulley to pull the cart. The force exerted is determined using the term <emphasis effect="italics">mg</emphasis>, and the distance is measured by the pulley. If the pulley and software can also measure velocity, compare final kinetic energy to work done, with the cart starting at rest.</para>
+</solution>-->
+</exercise>
+<exercise id="fs-id2713956" type="ap-test-prep">
+<problem id="fs-id1150021">
+<para id="fs-id797021">Look at <link target-id="fs-id1593673" document="m55076"/>(c). You compress a spring by <emphasis effect="italics">x</emphasis>, and then release it. Next you compress the spring by 2<emphasis effect="italics">x</emphasis>. How much more work did you do the second time than the first?</para><list id="fs-id2686664" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Half as much</item>
+<item>The same</item>
+<item>Twice as much</item>
+<item>Four times as much</item>
+</list>
+</problem>
+<solution id="fs-id1757293">
+<para id="fs-id1030456">(d)</para></solution>
+</exercise>
+
+<exercise id="fs-id1271091" type="ap-test-prep">
+<problem id="fs-id2019481">
+<para id="fs-id2242295">You have a cart track, two carts, several masses, a position-sensing pulley, and a piece of carpet (a rough surface) that will fit over the track. Design an experiment to examine how the force exerted on the cart does work as the cart moves through a distance.</para>
+</problem>
+<!--<solution id="fs-id1360944">
+<para id="fs-id2685132">Set up the two carts with the force sensor between them. Attach masses over the pulley to the rear cart, so the rear cart pushes on the front cart. Graph the force versus distance measured by the force-meter and pulley. You can change things up by putting extra masses in the front cart or putting the carpet on the track to see what happens in the diagrams.</para>
+</solution>-->
+</exercise>
+<exercise id="fs-id2714107" type="ap-test-prep">
+<problem id="fs-id2521814">
+<para id="fs-id824149">A crane is lifting construction materials from the ground to an elevation of 60 m. Over the first 10 m, the motor linearly increases the force it exerts from 0 to 10 kN. It exerts that constant force for the next 40 m, and then winds down to 0 N again over the last 10 m, as shown in the figure. What is the total work done on the construction materials?</para>
+<figure id="fs-id1422816"><media id="fs-id1347762" alt="The graph has meters on the x axis and newtons on the y axis. A straight line runs from the point (0, 0) to the point (10, 10). Another straight line runs from (10, 10) to (50, 10). A third straight line runs from (50, 10) to (60, 0).">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_07_M1_cranegraph_img.jpg"/>
+</media>
+</figure><list id="fs-id1403689" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>500 kJ</item>
+<item>600 kJ</item>
+<item>300 kJ</item>
+<item>18 MJ</item>
+</list>
+</problem>
+<solution id="fs-id1365937">
+<para id="fs-id3024846">(a)</para></solution>
+</exercise>
+</section>
+
+
+
+      <section id="fs-id1554101" class="section-summary"><title>Section Summary</title><list id="fs-id1144023"><item>Work is the transfer of energy by a force acting on an object as it is displaced.</item>
+    <item>The work <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> that a force <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> does on an object is the product of the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> of the force, times the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> of the displacement, times the cosine of the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> between them. In symbols,
+<equation id="eip-id3298145"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>W</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mstyle fontstyle="italic">
+                    <m:mrow>
+                      <m:mtext>Fd</m:mtext>
+                    </m:mrow>
+                  </m:mstyle>
+                </m:mrow><m:mspace width="0.25em"/>
+                <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                <m:mi>θ</m:mi>
+                <m:mtext>.</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{W= ital "Fd""cos"θ "." } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+
+</equation>
+</item>
+
+    <item>The SI unit for work and energy is the joule (J), where <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>1 kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1" J"=1" N" cdot m="1 kg" cdot m rSup { size 8{2} } "/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</item>
+<item>The work done by a force is zero if the displacement is either zero or perpendicular to the force.</item>
+    <item>The work done is positive if the force and displacement have the same direction, and negative if they have opposite direction.</item>
+    </list></section><section id="fs-id2580728" type="conceptual-questions" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id2189314" type="conceptual-questions"><problem id="fs-id1908433">
+    <para id="import-auto-id1415455">Give an example of something we think of as work in everyday circumstances that is not work in the scientific sense. Is energy transferred or changed in form in your example? If so, explain how this is accomplished without doing work. </para>
+</problem></exercise>
+<exercise id="fs-id1268060" type="conceptual-questions"><problem id="fs-id2749879">
+    <para id="import-auto-id1374143">Give an example of a situation in which there is a force and a displacement, but the force does no work. Explain why it does no work. </para>
+</problem></exercise>
+<exercise id="fs-id1913046" type="conceptual-questions"><problem id="fs-id1582258">
+    <para id="import-auto-id2165440">Describe a situation in which a force is exerted for a long time but does no work. Explain.</para>
+</problem></exercise>
+</section>
+
+<section id="fs-id2655679" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id2004860" type="problems-exercises"><problem id="fs-id1885539">
+    <para id="import-auto-id2150012">How much work does a supermarket checkout attendant do on a can of soup he pushes 0.600 m horizontally with a force of 5.00 N? Express your answer in joules and kilocalories. </para>
+</problem>
+<solution id="fs-id1941439">
+   <para id="eip-id1165350412102"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>00</m:mtext>
+                          <m:mrow>
+                            <m:mtext> J</m:mtext>
+                            <m:mo stretchy="false">=</m:mo>
+                            <m:mrow/>
+                          </m:mrow>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+
+                  <m:mrow>
+
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mn>7</m:mn>
+                          <m:mtext>.</m:mtext>
+                          <m:mrow>
+                            <m:mtext>17</m:mtext>
+                            <m:mo stretchy="false">×</m:mo>
+                            <m:msup>
+                              <m:mtext>10</m:mtext>
+
+                                <m:mrow>
+                                  <m:mrow>
+                                    <m:mo stretchy="false">−</m:mo>
+                                    <m:mn>4</m:mn>
+                                  </m:mrow>
+                                </m:mrow>
+
+                            </m:msup>
+                          </m:mrow>
+                          <m:mtext> kcal</m:mtext>
+                        </m:mrow>
+                      </m:mrow>
+
+                    <m:mrow/>
+                  </m:mrow>
+
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{3 "." "00"" J"={}}  {} #
+ size 12{7 "." "17" times "10" rSup { size 8{ - 4} } " kcal"}  {}
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+</exercise><exercise id="fs-id1911221" type="problems-exercises"><problem id="fs-id2079506">
+    <para id="import-auto-id2749879">A 75.0-kg person climbs stairs, gaining 2.50 meters in height. Find the work done to accomplish this task.</para></problem></exercise>
+<exercise id="fs-id1102777" type="problems-exercises"><problem id="fs-id1899099">
+    <para id="import-auto-id1208199">(a) Calculate the work done on a 1500-kg elevator car by its cable to lift it 40.0 m at constant speed, assuming friction averages 100 N. (b) What is the work done on the lift by the gravitational force in this process? (c) What is the total work done on the lift? </para>
+</problem>
+<solution id="fs-id1779777">
+    <para id="import-auto-id2052618">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>92</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "92" times "10" rSup { size 8{5} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1990999">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>88</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ - 5 "." "88" times "10" rSup { size 8{5} } " J"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1395481">(c) The net force is zero.</para></solution>
+</exercise>
+<exercise id="fs-id1541465" type="problems-exercises"><problem id="fs-id2092414">
+    <para id="import-auto-id2448296">Suppose a car travels 108 km at a speed of 30.0 m/s, and uses 2.0 gal of gasoline. Only 30% of the gasoline goes into useful work by the force that keeps the car moving at constant speed despite friction. (See <link document="m55049" target-id="import-auto-id2866785"/> for the energy content of gasoline.) (a) What is the magnitude of the force exerted to keep the car moving at constant speed? (b) If the required force is directly proportional to speed, how many gallons will be used to drive 108 km at a speed of 28.0 m/s?</para></problem></exercise>
+<exercise id="fs-id1648144" type="problems-exercises"><problem id="fs-id1432188">
+    <para id="import-auto-id1837454">Calculate the work done by an 85.0-kg man who pushes a crate 4.00 m up along a ramp that makes an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°} {}</m:annotation></m:semantics></m:math> with the horizontal. (See <link target-id="fs-id2047040"/>.) He exerts a force of 500 N on the crate parallel to the ramp and moves at a constant speed. Be certain to include the work he does on the crate <emphasis effect="italics">and</emphasis> on his body to get up the ramp. </para><figure id="fs-id2047040"><media id="fs-id2011060" alt="A person is pushing a heavy crate up a ramp. The force vector F applied by the person is acting parallel to the ramp.">
+        <image mime-type="image/jpg" src="../../media/Figure_08_01_02a-cd89.jpg"/>
+    </media>
+
+    <caption>A man pushes a crate up a ramp.</caption></figure></problem>
+<solution id="fs-id2012164">
+   <para id="eip-id1171681914244"><m:math>
+        <m:semantics>
+          <m:mrow>
+
+              <m:mrow>
+                <m:mrow>
+                  <m:mn>3</m:mn>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>14</m:mtext>
+                    <m:mo stretchy="false">×</m:mo>
+                    <m:msup>
+                      <m:mtext>10</m:mtext>
+
+                        <m:mrow>
+                          <m:mn>3</m:mn>
+                        </m:mrow>
+
+                    </m:msup>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext> J</m:mtext>
+                </m:mrow>
+              </m:mrow>
+
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{3 "." "14" times "10" rSup { size 8{3} } " J"} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para></solution>
+</exercise><exercise id="fs-id1537085" type="problems-exercises"><problem id="fs-id1170671">
+    <para id="import-auto-id1734146">How much work is done by the boy pulling his sister 30.0 m in a wagon as shown in <link target-id="import-auto-id1538391"/>? Assume no friction acts on the wagon.</para><figure id="import-auto-id1538391"><media id="import-auto-id1773252" alt="A child is sitting inside a wagon and being pulled by a boy with a force F at an angle thirty degrees upward from the horizontal. F is equal to fifty newtons, the displacement vector d is horizontal in the direction of motion. The magnitude of d is thirty meters.">
+		<image mime-type="image/jpg" src="../../media/Figure_08_01_03-da51.jpg"/>
+	</media>
+    <caption>The boy does work on the system of the wagon and the child when he pulls them as shown. </caption></figure></problem></exercise>
+<exercise id="fs-id1779446" type="problems-exercises"><problem id="fs-id1727526">
+    <para id="import-auto-id1796413">A shopper pushes a grocery cart 20.0 m at constant speed on level ground, against a 35.0 N frictional force. He pushes in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0°} {}</m:annotation></m:semantics></m:math> below the horizontal. (a) What is the work done on the cart by friction? (b) What is the work done on the cart by the gravitational force? (c) What is the work done on the cart by the shopper? (d) Find the force the shopper exerts, using energy considerations. (e) What is the total work done on the cart?</para></problem>
+    <solution id="fs-id1377698">
+    <para id="import-auto-id2406360">(a) <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mrow>
+                <m:mrow>
+                  <m:mo stretchy="false">−</m:mo>
+                  <m:mtext>700</m:mtext>
+                </m:mrow>
+                <m:mspace width="0.25em"/>
+                <m:mtext>J</m:mtext>
+              </m:mrow>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{ - "700"`J} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+    </para><para id="import-auto-id1745517">(b) 0</para>
+    <para id="import-auto-id1661626">(c) 700 J</para>
+    <para id="import-auto-id2496160">(d) 38.6 N</para>
+    <para id="import-auto-id1477088">(e) 0 </para>
+</solution>
+</exercise><exercise id="fs-id1548848" type="problems-exercises"><problem id="fs-id1852742">
+    <para id="import-auto-id1594315">Suppose the ski patrol lowers a rescue sled and victim, having a total mass of 90.0 kg, down a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"60" "." 0°} {}</m:annotation></m:semantics></m:math> slope at constant speed, as shown in <link target-id="import-auto-id2504152"/>. The coefficient of friction between the sled and the snow is 0.100. (a) How much work is done by friction as the sled moves 30.0 m along the hill? (b) How much work is done by the rope on the sled in this distance? (c) What is the work done by the gravitational force on the sled? (d) What is the total work done?</para><figure id="import-auto-id2504152"><media id="import-auto-id1980259" alt="A person on a rescue sled is shown being pulled up a slope. The slope makes an angle of sixty degrees from the horizontal. The weight of the person is shown by vector w acting vertically downward. The tension in the rope depicted by vector T is along the incline in the upward direction; vector f depicting frictional force is also acting in the same direction.">
+		<image mime-type="image/jpg" src="../../media/Figure_08_01_04a.jpg"/>
+	</media>
+<caption>A rescue sled and victim are lowered down a steep slope. </caption></figure></problem>
+</exercise>
+</section>
+   </content>
+    <glossary>
+   <definition id="fs-id4122053">
+<term>energy</term><meaning id="fs-id1461197">the ability to do work</meaning></definition>
+<definition id="fs-id1534511"><term id="import-auto-id1547724">work</term><meaning id="fs-id1146721">the transfer of energy by a force that causes an object to be displaced; the product of the component of the force in the direction of the displacement and the magnitude of the displacement</meaning></definition>
+<definition id="fs-id1701444"><term id="import-auto-id1858872">joule</term><meaning id="fs-id2669282">SI unit of work and energy, equal to one newton-meter</meaning></definition>
+    </glossary>
+
+</document>
