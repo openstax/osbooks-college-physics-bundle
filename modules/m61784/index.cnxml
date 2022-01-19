@@ -3,7 +3,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m61784</md:content-id>
   <md:title>Time, Velocity, and Speed</md:title>
-  <md:abstract><list>
+  <md:abstract><list id="list-00001">
 <item>Explain the relationships between instantaneous velocity, average velocity, instantaneous speed, average speed, displacement, and time.</item>
 <item>Calculate velocity and speed given initial position, initial time, final position, and final time.</item>
 <item>Derive a graph of velocity vs. time given a graph of position vs. time.</item>
@@ -17,7 +17,7 @@
 <media id="import-auto-id4016942" alt="Snails leaving slime trails as they race each other along a flat surface.">
         <image mime-type="image/png" src="../../media/Picture 6.png" width="300"/>
       </media>
-      
+
     <caption>The motion of these racing snails can be described by their speeds and their velocities. (credit: tobitasflickr, Flickr)</caption>
 </figure>
 <para id="import-auto-id2024731">There is more to motion than distance and displacement. Questions such as, “How long does a foot race take?” and “What was the runner’s speed?” cannot be answered without an understanding of other concepts. In this section we add definitions of time, velocity, and speed to expand our description of motion.</para>
@@ -248,7 +248,7 @@
     <note xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id3597968">
 <label/>
 <title>Average Velocity</title>
-    
+
     <para id="import-auto-id3538220">
 <term id="import-auto-id2596035">Average velocity</term> is <emphasis effect="italics">displacement (change in position) divided by the time of travel</emphasis>,</para>
     <equation id="import-auto-id4059844">
@@ -498,12 +498,12 @@
     </equation>
 <para id="import-auto-id3586799">The minus sign indicates the average velocity is also toward the rear of the plane. </para>
     <para id="import-auto-id4125081">The average velocity of an object does not tell us anything about what happens to it between the starting point and ending point, however. For example, we cannot tell from average velocity whether the airplane passenger stops momentarily or backs up before he goes to the back of the plane. To get more details, we must consider smaller segments of the trip over smaller time intervals. </para>
-    
+
     <figure id="import-auto-id1782958">
 <media id="import-auto-id1782959" alt="Airplane shown from the outside. Vector arrows show paths of each individual segment of the passenger’s trip to the back of the plane.">
         <image mime-type="image/jpg" src="../../media/Figure_02_02_01.jpg" width="350"/>
       </media>
-      
+
     <caption>A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. </caption>
 </figure>
 <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1411481">The smaller the time intervals considered in a motion, the more detailed the information. When we carry this process to its logical conclusion, we are left with an infinitesimally small interval. Over such an interval, the average velocity becomes the <emphasis effect="italics">instantaneous velocity</emphasis> <emphasis effect="italics"/>or the <emphasis effect="italics">velocity at a specific instant</emphasis>. A car’s speedometer, for example, shows the magnitude (but not the direction) of the instantaneous velocity of the car. (Police give tickets based on instantaneous velocity, but when calculating how long it will take to get from one place to another on a road trip, you need to use average velocity.) <term id="import-auto-id2579029">Instantaneous velocity</term> <m:math>
@@ -543,11 +543,6 @@
 <example id="fs-id1166316370923" class="example-video">
 <title>Interpreting a Graph of Velocity versus Time</title>
 <para id="fs-id1166316289882">Using the motion graph, calculate the displacement of the moving object from <emphasis effect="bold"><emphasis effect="italics">t</emphasis> = 0 s</emphasis> to <emphasis effect="bold"><emphasis effect="italics">t</emphasis> = 6 s</emphasis>.</para>
-<figure id="fs-id1166316662744">
-<media id="fs-id1166316298999" alt="">
-<image mime-type="image/jpeg" src="No-image.jpg"/>
-</media>
-</figure>
 <para id="fs-id1166316446306">Study the problem and its solution in this video:</para>
 <media id="fs-id1166316416899" alt="">
 <iframe width="660" height="371.4" src="https://www.openstaxcollege.org/l/02timeveloc"/>
@@ -563,7 +558,7 @@
 <media id="import-auto-id2593427" alt="A house and a store, with a set of arrows in between showing that the distance between them is 3 point 0 kilometers and the total distance traveled, delta x total, equals 0 kilometers.">
         <image mime-type="image/jpg" src="../../media/Figure_02_02_02.jpg" width="350"/>
       </media>
-      
+
     <caption>During a 30-minute round trip to the store, the total distance traveled is 6 km. The average speed is 12 km/h. The displacement for the round trip is zero, since there was no net change in position. Thus the average velocity is zero. </caption>
 </figure>
 <para id="import-auto-id1797764">Another way of visualizing the motion of an object is to use a graph. A plot of position or of velocity as a function of time can be very useful. For example, for this trip to the store, the position, velocity, and speed-vs.-time graphs are displayed in <link target-id="import-auto-id1806646"/>. (Note that these graphs depict a very simplified <term id="import-auto-id1510828">model</term> of the trip. We are assuming that speed is constant during the trip, which is unrealistic given that we’ll probably stop at the store. But for simplicity’s sake, we will model it with no stops or changes in speed. We are also assuming that the route between the store and the house is a perfectly straight line.)</para>
@@ -571,7 +566,7 @@
 <media id="import-auto-id1810795" alt="Three line graphs. First line graph is of position in kilometers versus time in hours. The line increases linearly from 0 kilometers to 6 kilometers in the first 0 point 25 hours. It then decreases linearly from 6 kilometers to 0 kilometers between 0 point 25 and 0 point 5 hours. Second line graph shows velocity in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time 0 to time 0 point 25. It is vertical at time 0 point 25, dropping from 12 kilometers per hour to negative 12 kilometers per hour. It is flat again at negative 12 kilometers per hour from 0 point 25 hours to 0 point 5 hours. Third line graph shows speed in kilometers per hour versus time in hours. The line is flat at 12 kilometers per hour from time equals 0 to time equals 0 point 5 hours.">
         <image mime-type="image/jpg" src="../../media/Figure_02_02_03.jpg" width="300"/>
       </media>
-      
+
     <caption>Position vs. time, velocity vs. time, and speed vs. time on a trip. Note that the velocity for the return trip is negative. </caption>
 </figure>
 <note id="fs-id4030893">
@@ -974,7 +969,7 @@ where <m:math>
             <m:annotation encoding="StarMath 5.0"> size 12{2 times "10" rSup { size 8{7} } " years"} {}</m:annotation>
           </m:semantics>
         </m:math>
-      
+
     </para>
 </solution>
     </exercise>
