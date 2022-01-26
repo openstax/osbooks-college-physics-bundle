@@ -252,10 +252,6 @@
     <equation id="eip-958"><m:math>
         <m:semantics>
           <m:mrow>
-            
-              <m:mrow>
-                <m:mrow>
-                  <m:mrow>
                     <m:mi>τ</m:mi>
                     <m:mo stretchy="false">=</m:mo>
                     <m:mstyle fontstyle="italic">
@@ -263,23 +259,17 @@
                         <m:mtext>rF</m:mtext>
                       </m:mrow>
                     </m:mstyle>
-                  </m:mrow>
                  <m:mspace width="0.25em"/>  
                   <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
-                  <m:mi>θ</m:mi>
-                </m:mrow>
-              </m:mrow>
-            
-            <m:mrow/>
-          </m:mrow>
+                  <m:mi>θ</m:mi>          </m:mrow>
           <m:annotation encoding="StarMath 5.0"> size 12{τ= ital "rF""sin"θ} {}</m:annotation>
         </m:semantics>
       </m:math> 
-    </equation><para id="import-auto-id3566203">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>τ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ} {}</m:annotation></m:semantics></m:math> is torque, <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is the distance from the pivot point to the point where the force is applied, <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is the magnitude of the force, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle between 
+    </equation><para id="import-auto-id3566203">where <m:math><m:semantics><m:mrow><m:mi>τ</m:mi></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ} {}</m:annotation></m:semantics></m:math> is torque, <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is the distance from the pivot point to the point where the force is applied, <m:math><m:semantics><m:mrow><m:mi>F</m:mi></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is the magnitude of the force, and <m:math><m:semantics><m:mrow><m:mi>θ</m:mi></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle between 
 
-<m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">F</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> and the vector directed from the point where the force acts to the pivot point. The perpendicular lever arm 
+<m:math><m:semantics><m:mrow><m:mtext mathvariant="bold">F</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> and the vector directed from the point where the force acts to the pivot point. The perpendicular lever arm 
 
-<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{ ortho } } } {}</m:annotation></m:semantics></m:math> is defined to be</para>
+<m:math><m:semantics><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{ ortho } } } {}</m:annotation></m:semantics></m:math> is defined to be</para>
     <equation id="eip-1000"><m:math>
         <m:semantics>
           <m:mrow>
@@ -306,16 +296,15 @@
         </m:semantics>
       </m:math> 
     </equation><para id="import-auto-id1220211">so that</para>
-    <equation id="eip-196"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>τ</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>F</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ=r rSub { size 8{ ortho } } F} {}</m:annotation></m:semantics></m:math></equation>
+    <equation id="eip-196"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>τ</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>F</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ=r rSub { size 8{ ortho } } F} {}</m:annotation></m:semantics></m:math></equation>
     </item>
-        <item id="import-auto-id2658945">The perpendicular lever arm <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo><m:mrow><m:mrow/></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{ ortho } } } {}</m:annotation></m:semantics></m:math> is the shortest distance from the pivot point to the line along which <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> acts. The SI unit for torque is newton-meter <m:math><m:semantics><m:mrow><m:mtext>(N·m)</m:mtext></m:mrow></m:semantics></m:math>. The second condition necessary to achieve equilibrium is that the net external torque on a system must be zero:
+        <item id="import-auto-id2658945">The perpendicular lever arm <m:math><m:semantics><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow></m:semantics></m:math> is the shortest distance from the pivot point to the line along which <m:math><m:semantics><m:mrow><m:mi>F</m:mi></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> acts. The SI unit for torque is newton-meter <m:math><m:semantics><m:mrow><m:mtext>(N·m)</m:mtext></m:mrow></m:semantics></m:math>. The second condition necessary to achieve equilibrium is that the net external torque on a system must be zero:
     <equation id="eip-28"><m:math>
         <m:semantics>
           <m:mrow>
-            
               <m:mrow>
                 <m:mrow>
-                  <m:mtext>net </m:mtext>
+                  <m:mtext>net</m:mtext>
                   <m:mspace width="0.25em"/> 
                   <m:mrow>
                     <m:mi mathvariant="bold">τ</m:mi>
