@@ -174,9 +174,31 @@
         <image mime-type="image/jpg" src="../../media/Figure_22_02_09.jpg" width="400"/>
       </media>
       
-    <caption>Batteries are multiple connections of individual cells, as shown in this modern rendition of an old print. Single cells, such as AA or C cells, are commonly called batteries, although this is technically incorrect.</caption></figure><para id="import-auto-id3177920">If the <emphasis effect="italics">series</emphasis> connection of two voltage sources is made into a complete circuit with the emfs in opposition, then a current of magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">–</m:mo><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfenced><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  { left ("emf" rSub { size 8{1} }  - "emf" rSub { size 8{2} }  right )}  over  {r rSub { size 8{1} } +r rSub { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> flows. See <link target-id="import-auto-id3077485"/>, for example, which shows a circuit exactly analogous to the battery charger discussed above. If two voltage sources in series with emfs in the same sense are connected to a load <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>load</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{"load"} } } {}</m:annotation></m:semantics></m:math>, as in <link target-id="import-auto-id1947073"/>, then 
+    <caption>Batteries are multiple connections of individual cells, as shown in this modern rendition of an old print. Single cells, such as AA or C cells, are commonly called batteries, although this is technically incorrect.</caption></figure><para id="import-auto-id3177920">If the <emphasis effect="italics">series</emphasis> connection of two voltage sources is made into a complete circuit with the emfs in opposition, then a current of magnitude <m:math><m:semantics><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mfenced open="(" close=")"><m:mrow>
+<m:msub>
+ <m:mtext>emf</m:mtext>
+ <m:mrow><m:mn>1</m:mn></m:mrow>
+</m:msub><m:mo stretchy="false">–</m:mo>
+<m:msub>
+ <m:mtext>emf</m:mtext>
+ <m:mrow><m:mn>2</m:mn></m:mrow>
+</m:msub></m:mrow></m:mfenced><m:mrow>
+<m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub>
+<m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/>
+<m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>
+</m:mrow></m:mfrac></m:mrow></m:semantics></m:math> flows. See <link target-id="import-auto-id3077485"/>, for example, which shows a circuit exactly analogous to the battery charger discussed above. If two voltage sources in series with emfs in the same sense are connected to a load <m:math><m:semantics><m:mrow>
+<m:msub><m:mi>R</m:mi><m:mrow><m:mtext>load</m:mtext></m:mrow></m:msub></m:mrow></m:semantics></m:math>, as in <link target-id="import-auto-id1947073"/>, then 
 
-<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/><m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfenced><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mtext>load</m:mtext><m:mspace width="0.25em"/></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  { left ("emf" rSub { size 8{1} }  - "emf" rSub { size 8{2} }  right )}  over  {r rSub { size 8{1} } +r rSub { size 8{2} } +R rSub { size 8{"load"} } } } } {}</m:annotation></m:semantics></m:math> flows.</para><figure id="import-auto-id3077485"><media id="import-auto-id2055450" alt="The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.">
+<m:math><m:semantics><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mfenced open="(" close=")"><m:mrow>
+<m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>1</m:mn></m:mrow></m:msub>
+<m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/>
+<m:msub><m:mtext>emf</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>
+</m:mrow></m:mfenced><m:mrow><m:mrow>
+<m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub>
+<m:mo stretchy="false">+</m:mo><m:mspace width="0.25em"/>
+<m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>
+</m:mrow><m:mo stretchy="false">+</m:mo>
+<m:msub><m:mi>R</m:mi><m:mtext>load</m:mtext></m:msub><m:mspace width="0.25em"/></m:mrow></m:mfrac></m:mrow></m:semantics></m:math> flows.</para><figure id="import-auto-id3077485"><media id="import-auto-id2055450" alt="The diagram shows a closed circuit containing series connection of two cells of e m f script E sub one and internal resistance r sub one and e m f script E sub two and internal resistance r sub two. The positive end of E sub one is connected to the positive end of E sub two.">
         <image mime-type="image/jpg" src="../../media/Figure_22_02_10.jpg" width="250"/>
       </media>
       
