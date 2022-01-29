@@ -320,36 +320,164 @@
 
 <solution id="eip-idm1030630832"><list id="eip-idm422872112" list-type="enumerated" number-style="arabic"><item><para id="eip-idm1030630704"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>γ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msup><m:mi fontstyle="italic">c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>650</m:mtext><m:mi fontstyle="italic">c</m:mi><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mi fontstyle="italic">c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:msqrt></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>32</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para></item>
 
-<item>   <para id="import-auto-id1744942">
-<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo>
-<m:mfrac>
-<m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mn>0</m:mn></m:msub></m:mrow>
-<m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo>–</m:mo>
- <m:mfrac>
-  <m:mrow><m:msup><m:mi>v</m:mi><m:mn>2</m:mn></m:msup></m:mrow>
-  <m:mrow><m:msup><m:mi>c</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac>
-</m:mrow>
-</m:msqrt></m:mrow>
-
-<m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo>
-<m:mfrac>
- <m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow>
- <m:mrow><m:msup><m:mi fontstyle="italic">c</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow>
-</m:mfrac>
-</m:mrow></m:msqrt></m:mfrac>
-
-</m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>10</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> s</m:mtext></m:mrow><m:msqrt><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">−</m:mo>
-
-<m:mfrac>
-<m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.90</m:mn>
- <m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext>
-  <m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext><m:msup><m:mo stretchy="false">)</m:mo>
-   <m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow>
-   <m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3.00</m:mn>
-    <m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow>
-</m:mfrac></m:mrow></m:msqrt>
-</m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>71</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>8</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/>
-<m:mtext> s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para></item></list></solution>
+<item>   <para id="import-auto-id1744942"><m:math>
+	<m:semantics>
+				<m:mrow>
+					<m:mrow>
+						<m:mrow>
+							<m:mrow>
+								<m:mn>Δ</m:mn>
+								<m:mi fontstyle="italic">t</m:mi>
+								<m:mo stretchy="false">=</m:mo>
+								<m:mfrac>
+									<m:mrow>
+										<m:mn>Δ</m:mn>
+										<m:msub>
+											<m:mi fontstyle="italic">t</m:mi>
+											<m:mn>0</m:mn>
+										</m:msub>
+									</m:mrow>
+									<m:mrow>
+										<m:msqrt>
+											<m:mrow>
+												<m:mn>1</m:mn>
+												<m:mo>–</m:mo>
+												<m:mfrac>
+													<m:mrow>
+														<m:msup>
+															<m:mi>v</m:mi>
+															<m:mn>2</m:mn>
+														</m:msup>
+													</m:mrow>
+													<m:mrow>
+														<m:msup>
+															<m:mi>c</m:mi>
+															<m:mn>2</m:mn>
+														</m:msup>
+													</m:mrow>
+												</m:mfrac>
+											</m:mrow>
+										</m:msqrt>
+									</m:mrow>
+									<m:mrow><m:msqrt>
+										<m:mrow>
+											<m:mn>1</m:mn>
+											<m:mo stretchy="false">−</m:mo>
+											<m:mfrac>
+												<m:mrow>
+													<m:msup>
+														<m:mi>v</m:mi>
+														<m:mrow>
+															<m:mn>2</m:mn>
+														</m:mrow>
+													</m:msup>
+												</m:mrow>
+												<m:mrow>
+													<m:msup>
+														<m:mi fontstyle="italic">c</m:mi>
+														<m:mrow>
+															<m:mn>2</m:mn>
+														</m:mrow>
+													</m:msup>
+												</m:mrow>
+											</m:mfrac>
+										</m:mrow>
+									</m:msqrt></m:mrow>
+								</m:mfrac>
+							</m:mrow>
+							<m:mo stretchy="false">=</m:mo>
+							<m:mfrac>
+								<m:mrow>
+									<m:mn>2</m:mn>
+									<m:mtext>.</m:mtext>
+									<m:mrow>
+										<m:mtext>10</m:mtext>
+										<m:mo stretchy="false">×</m:mo>
+										<m:msup>
+											<m:mtext>10</m:mtext>
+											<m:mrow>
+												<m:mrow>
+													<m:mo stretchy="false">−</m:mo>
+													<m:mn>8</m:mn>
+												</m:mrow>
+											</m:mrow>
+										</m:msup>
+									</m:mrow>
+									<m:mspace width="0.25em"/>
+									<m:mtext>s</m:mtext>
+								</m:mrow>
+								<m:mrow><m:msqrt>
+									<m:mrow>
+										<m:mn>1</m:mn>
+										<m:mo stretchy="false">−</m:mo>
+										<m:mfrac>
+											<m:mrow>
+												<m:mo stretchy="false">(</m:mo>
+												<m:mn>1.90</m:mn>
+												<m:mrow>
+													<m:mo stretchy="false">×</m:mo>
+													<m:msup>
+														<m:mtext>10</m:mtext>
+														<m:mrow>
+															<m:mn>8</m:mn>
+														</m:mrow>
+													</m:msup>
+												</m:mrow>
+												<m:mspace width="0.25em"/>
+												<m:mtext> m/s</m:mtext>
+												<m:msup>
+													<m:mo stretchy="false">)</m:mo>
+													<m:mrow>
+														<m:mn>2</m:mn>
+													</m:mrow>
+												</m:msup>
+											</m:mrow>
+											<m:mrow>
+												<m:mo stretchy="false">(</m:mo>
+												<m:mn>3.00</m:mn>
+												<m:mrow>
+													<m:mo stretchy="false">×</m:mo>
+													<m:msup>
+														<m:mtext>10</m:mtext>
+														<m:mrow>
+															<m:mn>8</m:mn>
+														</m:mrow>
+													</m:msup>
+												</m:mrow>
+												<m:mspace width="0.25em"/>
+												<m:mtext> m/s</m:mtext>
+												<m:msup>
+													<m:mo stretchy="false">)</m:mo>
+													<m:mrow>
+														<m:mn>2</m:mn>
+													</m:mrow>
+												</m:msup>
+											</m:mrow>
+										</m:mfrac>
+									</m:mrow>
+								</m:msqrt></m:mrow>
+							</m:mfrac>
+						</m:mrow>
+						<m:mo stretchy="false">=</m:mo>
+						<m:mn>2.71</m:mn>
+					</m:mrow>
+					<m:mrow>
+						<m:mo stretchy="false">×</m:mo>
+						<m:msup>
+							<m:mtext>10</m:mtext>
+							<m:mrow>
+								<m:mrow>
+									<m:mo stretchy="false">−</m:mo>
+									<m:mn>8</m:mn>
+								</m:mrow>
+							</m:mrow>
+						</m:msup>
+					</m:mrow>
+					<m:mspace width="0.25em"/>
+					<m:mtext>s</m:mtext>
+				</m:mrow>
+	</m:semantics>
+</m:math></para></item></list></solution>
 </exercise></section><section id="fs-id2911260" class="section-summary"><title>Section Summary</title><list id="fs-id1590947"><item id="import-auto-id2719975">Two events are defined to be simultaneous if an observer measures them as occurring at the same time. They are not necessarily simultaneous to all observers—simultaneity is not absolute.</item>
     <item id="import-auto-id2800636">Time dilation is the phenomenon of time passing slower for an observer who is moving relative to another observer.</item>
     <item id="import-auto-id3201037">Observers moving at a relative velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> do not measure the same elapsed time for an event. Proper time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi fontstyle="italic">t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the time measured by an observer at rest relative to the event being observed. Proper time is related to the time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> measured by an Earth-bound observer by the equation
