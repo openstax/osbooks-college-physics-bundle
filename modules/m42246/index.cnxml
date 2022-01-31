@@ -785,48 +785,25 @@ size 12{x} {}
           <m:mtr><m:mtd>
            <m:mfrac>
             <m:mrow>
-             <m:mn>
-50.0 N/m
-             </m:mn>
+             <m:mn>50.0 N/m</m:mn>
             </m:mrow>
             <m:mrow>
-             <m:mn>
-2
-             </m:mn>
+             <m:mn>2</m:mn>
              <m:mo>(</m:mo>
-               <m:mn>
-0.0800
-               </m:mn>
+               <m:mn>0.0800</m:mn>
              <m:mo>)</m:mo>
              <m:mo>(</m:mo>
-               <m:mn>
-0.200
-               </m:mn>
+               <m:mn>0.200</m:mn>
 <m:mspace width="0.25em"/>
-               <m:mtext>
-kg
-               </m:mtext>
+               <m:mtext>kg</m:mtext>
              <m:mo>)</m:mo>
              <m:mo>(</m:mo>
               <m:mrow>
-               <m:mn>
-9.80
-               </m:mn>
+               <m:mn>9.80</m:mn>
 <m:mspace width="0.25em"/>
                <m:msup>
-                <m:mtext>
-m/s
-                </m:mtext>
-                <m:mrow>
-                  <m:mrow>
-                   <m:mrow>
-                    <m:mn>
-2
-                    </m:mn>
-                   </m:mrow>
-                  </m:mrow>
-
-                </m:mrow>
+                <m:mtext>m/s</m:mtext>
+                <m:mn>2</m:mn>
                </m:msup>
               </m:mrow>
              <m:mo>)</m:mo>
@@ -836,93 +813,55 @@ m/s
           <m:mrow>
            <m:mrow>
             <m:msup>
-             <m:mo>(</m:mo>
               <m:mrow>
-               <m:mn>
-0.100
-               </m:mn>
-<m:mspace width="0.25em"/>
-               <m:mtext>
-m
-               </m:mtext><m:mo>)</m:mo>
+                <m:mo>(</m:mo>
 
+               <m:mn>0.100</m:mn>
+<m:mspace width="0.25em"/>
+               <m:mtext>m</m:mtext><m:mo>)</m:mo>
               </m:mrow>
-             <m:mrow>
-                 <m:mn>
-2
-                 </m:mn>
-             </m:mrow>
+                 <m:mn>2</m:mn>
             </m:msup>
             <m:mo stretchy="false">−</m:mo>
             <m:msup>
-             <m:mo>(</m:mo>
-               <m:mrow>
+               <m:mrow> <m:mo>(</m:mo>
                 <m:mfrac>
                  <m:mrow>
-             <m:mo>(</m:mo>
                    <m:mrow>
-                    <m:mn>
-0.0800
-                    </m:mn>
+                  <m:mo>(</m:mo><m:mn>0.0800</m:mn><m:mo>)</m:mo>
+                </m:mrow>
+                   <m:mrow>
+              <m:mo>(</m:mo><m:mn>0.200</m:mn><m:mspace width="0.25em"/>
+                    <m:mtext>kg</m:mtext>
                    </m:mrow>
              <m:mo>)</m:mo>
              <m:mo>(</m:mo>
                    <m:mrow>
-                    <m:mn>
-0.200
-                    </m:mn>
-<m:mspace width="0.25em"/>
-                    <m:mtext>
-kg
-                    </m:mtext>
-                   </m:mrow>
-             <m:mo>)</m:mo>
-             <m:mo>(</m:mo>
-                   <m:mrow>
-                    <m:mn>
-9.80
-                    </m:mn>
+                    <m:mn>9.80</m:mn>
 <m:mspace width="0.25em"/>
                     <m:msup>
-                     <m:mtext>
-m/s
-                     </m:mtext>
-                         <m:mn>
-2
-                         </m:mn>
+                     <m:mtext>m/s</m:mtext>
+                    <m:mn>2</m:mn>
                     </m:msup>
                    </m:mrow>
              <m:mo>)</m:mo>
                  </m:mrow>
                  <m:mrow>
-                  <m:mn>
-50.0
-                  </m:mn>
+                  <m:mn>50.0</m:mn>
 <m:mspace width="0.25em"/>
-                  <m:mtext>
-N/m
-                  </m:mtext>
+                  <m:mtext>N/m</m:mtext>
                  </m:mrow>
                 </m:mfrac>
+            <m:mo>)</m:mo>
               </m:mrow>
-             <m:mo>)</m:mo>
              <m:mrow>
-               <m:mrow>
-                <m:mrow>
-                 <m:mn>
-2
-                 </m:mn>
-                </m:mrow>
-               </m:mrow>
+                 <m:mn>2</m:mn>
              </m:mrow>
             </m:msup>
            </m:mrow>
           </m:mrow>
              <m:mo>)</m:mo>
 <m:mo>.</m:mo></m:mtd></m:mtr></m:mtable></m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{d= {  {"50" "." 0" N/m"}  over  {2 left (0 "." "0800" right ) left (0 "." "200"" kg" right ) left (9 "." "80"" m/s" rSup { size 8{2} }  right )} }  left ( left (0 "." "100"" m" right ) rSup { size 8{2} }  -  left ( {  { left (0 "." "0800" right ) left (0 "." "200"" kg" right ) left (9 "." "80"" m/s" rSup { size 8{2} }  right )}  over  {"50" "." 0" N/m"} }  right ) rSup { size 8{2} }  right )} {}
-     </m:annotation>
     </m:semantics>
    </m:math></equation></item>
     <item>Calculate
