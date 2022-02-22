@@ -3,7 +3,7 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m61592</md:content-id>
   <md:title>RLC Series AC Circuits</md:title>
-  <md:abstract><list>
+  <md:abstract><list id="list-00001">
 <item>Calculate the impedance, phase angle, resonant frequency, power, power factor, voltage, and/or current in a RLC series circuit.</item>
 <item>Draw the circuit diagram for an RLC series circuit.</item>
 <item>Explain the significance of the resonant frequency.</item>
@@ -16,7 +16,7 @@
         <image mime-type="image/jpg" src="../../media/Figure_24_12_01a.jpg" width="275"/>
       </media>
 
-    <caption>An <emphasis effect="italics">RLC</emphasis> series circuit with an AC voltage source.</caption></figure><para id="import-auto-id1169738181435">The combined effect of resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, inductive reactance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, and capacitive reactance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> is defined to be <term>impedance</term>, an AC analogue to resistance in a DC circuit. Current, voltage, and impedance in an <emphasis effect="italics">RLC</emphasis> circuit are related by an AC version of Ohm’s law:</para>
+    <caption>An <emphasis effect="italics">RLC</emphasis> series circuit with an AC voltage source.</caption></figure><para id="import-auto-id1169738181435">The combined effect of resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math>, inductive reactance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, and capacitive reactance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> is defined to be <term id="term-00001">impedance</term>, an AC analogue to resistance in a DC circuit. Current, voltage, and impedance in an <emphasis effect="italics">RLC</emphasis> circuit are related by an AC version of Ohm’s law:</para>
     <equation id="eip-704"><m:math>
         <m:semantics>
           <m:mrow>
