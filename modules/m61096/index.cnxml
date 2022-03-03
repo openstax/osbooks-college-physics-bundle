@@ -1,4 +1,4 @@
-<document xmlns="http://cnx.rice.edu/cnxml">
+<document xmlns="http://cnx.rice.edu/cnxml" class="appendix">
   <title>Glossary of Key Symbols and Notation</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m61096</md:content-id>
@@ -7,7 +7,7 @@
   <md:uuid>4e14dea3-428c-4028-9acf-09950810a2f5</md:uuid>
 </metadata>
 
-<content>
+<content class="appendix">
     <para id="import-auto-id1257212">In this glossary, key symbols and notation are briefly defined.</para>
     <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1688908" summary=".......">
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
@@ -30,7 +30,7 @@
                         <m:mrow>
                           <m:mtext>any symbol</m:mtext>
                           <m:mi/>
-                         
+
                         </m:mrow>
                         <m:mo>¯</m:mo>
                       </m:mover>
@@ -589,7 +589,7 @@
           </row>
           <row>
             <entry>
-            
+
                   <m:math display="block">
                     <m:semantics>
                       <m:mrow>
@@ -601,7 +601,7 @@
                       <m:annotation encoding="StarMath 5.0"> size 12{ΔV} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-             
+
             </entry>
             <entry>potential difference</entry>
           </row>
@@ -3285,7 +3285,7 @@ Joules/psi meson
             </entry>
             <entry>kinetic energy of an ejected electron</entry>
           </row>
-      
+
           <row>
             <entry>
               <m:math display="block">
@@ -3576,8 +3576,8 @@ Joules/psi meson
           <m:annotation encoding="StarMath 5.0"> size 12{L rSub { size 8{f} } " and"` L rSub { size 8{v} } } {}</m:annotation>
         </m:semantics>
       </m:math>
-    
-    
+
+
             </entry>
             <entry>latent heat coefficients</entry>
           </row>
@@ -3665,7 +3665,7 @@ Joules/psi meson
             </entry>
             <entry>
 <emphasis effect="italics">z</emphasis> - component of the angular momentum
-              
+
             </entry>
           </row>
           <row>
@@ -3822,8 +3822,8 @@ Joules/psi meson
                   <m:mrow>
                          <m:msup>
 <m:mtext/>
-<m:mrow>            
-                 <m:mi>A</m:mi>         
+<m:mrow>
+                 <m:mi>A</m:mi>
                   </m:mrow>
                 </m:msup>
                     <m:mtext>X</m:mtext>
@@ -6079,7 +6079,7 @@ Joules/psi meson
               </m:mrow>
         </m:semantics>
       </m:math>
-    
+
             </entry>
             <entry>notation for a particular nuclide</entry>
           </row>

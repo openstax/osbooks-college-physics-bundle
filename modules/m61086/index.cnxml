@@ -1,4 +1,4 @@
-<document xmlns="http://cnx.rice.edu/cnxml">
+<document xmlns="http://cnx.rice.edu/cnxml" class="appendix">
   <title>Useful Information</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m61086</md:content-id>
@@ -7,7 +7,7 @@
   <md:uuid>2a2e9be4-4347-436c-a23f-4793524d359e</md:uuid>
 </metadata>
 
-<content>
+<content class="appendix">
     <para id="import-auto-id2300397">This appendix is broken into several tables.</para>
     <list id="eip-856"><item><link target-id="import-auto-id1211982"/>, Important Constants</item>
 <item><link target-id="import-auto-id1125517"/>, Submicroscopic Masses</item>
@@ -24,8 +24,8 @@
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
         <colspec colnum="4" colname="c4"/>
-      
-         
+
+
         <thead>
           <row>
             <entry>Symbol</entry>
@@ -1123,7 +1123,7 @@
                           <m:mo stretchy="false">)</m:mo>
 <m:mspace width="0.15em"/>
                           <m:mo stretchy="false">×</m:mo>
-<m:mspace width="0.15em"/>                          
+<m:mspace width="0.15em"/>
 <m:msup>
                             <m:mtext>10</m:mtext>
                             <m:mrow>
@@ -1207,7 +1207,7 @@
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
         <colspec colnum="4" colname="c4"/>
-        
+
         <thead>
           <row>
             <entry>Symbol</entry>
@@ -1556,7 +1556,7 @@
             </entry>
           </row>
         </tbody>
-      
+
 
 
 
@@ -1564,7 +1564,7 @@
 </table><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="eip-903" summary="Three column table of solar system data. Column one has only three entries: Sun, Earth, and Moon. Column two describes various measurements for each of these heavenly bodies, and column three lists the value for each measurement."><title>Solar System Data</title><tgroup cols="3"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
         <colspec colnum="3" colname="c3"/>
-       
+
         <tbody>
           <row>
             <entry>
@@ -1904,7 +1904,7 @@
         <colspec colnum="4" colname="c4"/>
         <colspec colnum="5" colname="c5"/>
         <colspec colnum="6" colname="c6"/>
-       
+
         <thead>
           <row>
             <entry align="center">Prefix</entry>
@@ -2253,7 +2253,7 @@
             </entry>
           </row>
         </tbody>
-      
+
 
 
 
@@ -2274,7 +2274,7 @@
         <colspec colnum="10" colname="c10"/>
         <colspec colnum="11" colname="c11"/>
         <colspec colnum="12" colname="c12"/>
-       
+
         <tbody>
           <row>
             <entry>Alpha</entry>
@@ -2937,7 +2937,7 @@
             </entry>
           </row>
         </tbody>
-      
+
 
 
 
@@ -3319,7 +3319,7 @@
 </table><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2371652" summary="Two-column table listing selected British units. Column 1 lists types of measurements. Column two contains equations for the conversion of British units to metric."><title>Selected British Units</title>
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
-       
+
         <tbody>
           <row>
             <entry>Length</entry>
@@ -3580,7 +3580,7 @@
                         <m:mi/>
                        <m:mspace width="0.20em"/>
                         <m:mi/>
-                          
+
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>ly</m:mtext>
                         <m:mo stretchy="false">)</m:mo>
@@ -3664,7 +3664,7 @@
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> nautical mile</m:mtext>
                         <m:mi/>
-       
+
                         <m:mrow>
                           <m:mi/>
                           <m:mo stretchy="false">=</m:mo>
@@ -3919,7 +3919,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> U.S. gallon</m:mtext>
-          
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>gal</m:mtext>
@@ -4158,7 +4158,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> mile per hour</m:mtext>
-                 
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>mph</m:mtext>
@@ -4196,7 +4196,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> nautical mile per hour</m:mtext>
-                    
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>naut</m:mtext>
@@ -4278,7 +4278,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> minute of arc</m:mtext>
-                     
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:msup>
                           <m:mo stretchy="false">(</m:mo>
@@ -4323,7 +4323,7 @@
                           <m:mo stretchy="false">(</m:mo>
                           <m:mrow>
                             <m:mtext>''</m:mtext>
-                          
+
                           </m:mrow>
                         </m:msup>
                         <m:mo stretchy="false">)</m:mo>
@@ -4400,7 +4400,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> kiloton TNT</m:mtext>
-                  
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>kT</m:mtext>
@@ -4442,7 +4442,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> kilowatt hour</m:mtext>
-                 
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mrow>
@@ -4488,7 +4488,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> food calorie</m:mtext>
-                
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>kcal</m:mtext>
@@ -4553,7 +4553,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> electron  volt</m:mtext>
-                 
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>eV</m:mtext>
@@ -4639,7 +4639,7 @@
                         <m:mn>1</m:mn>
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mtext> millimeter of mercury</m:mtext>
-               
+
                         <m:mi/><m:mspace width="0.20em"/>
                         <m:mo stretchy="false">(</m:mo>
                         <m:mtext>mm</m:mtext>
@@ -4747,7 +4747,7 @@
             </entry>
           </row>
         </tbody>
-      
+
 
 
 
@@ -4763,7 +4763,7 @@
 </table><table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1610756" summary="Two-column table of Useful formulae. Entries in column one describe the mathematical formulae in column two."><title>Useful Formulae</title>
 <tgroup cols="2"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
-       
+
         <tbody>
           <row>
             <entry>Circumference of a circle with radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> or diameter <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math></entry>
@@ -4891,7 +4891,7 @@
             </entry>
           </row>
         </tbody>
-      
+
 
 
 

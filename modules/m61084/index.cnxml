@@ -1,4 +1,4 @@
-<document xmlns="http://cnx.rice.edu/cnxml">
+<document xmlns="http://cnx.rice.edu/cnxml" class="appendix">
   <title>Selected Radioactive Isotopes</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m61084</md:content-id>
@@ -7,7 +7,7 @@
   <md:uuid>83ee47ac-e1db-471e-967a-d134a140c6c7</md:uuid>
 </metadata>
 
-<content>
+<content class="appendix">
     <para id="import-auto-id2205639">Decay modes are <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math>, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ - {}} } } {}</m:annotation></m:semantics></m:math>, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math>, electron capture (EC) and isomeric transition (IT). EC results in the same daughter nucleus as would <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{+{}} } } {}</m:annotation></m:semantics></m:math> decay. IT is a transition from a metastable excited state. Energies for <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:msup><m:mi>β</m:mi><m:mrow><m:mrow><m:mo stretchy="false">±</m:mo><m:mrow/></m:mrow></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β rSup { size 8{ +- {}} } } {}</m:annotation></m:semantics></m:math> decays are the maxima; average energies are roughly one-half the maxima. </para>
     <table xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1923293" summary="Table_B_01"><title>Selected Radioactive Isotopes</title>
 <tgroup cols="8"><colspec colnum="1" colname="c1"/>
@@ -18,7 +18,7 @@
         <colspec colnum="6" colname="c6"/>
         <colspec colnum="7" colname="c7"/>
         <colspec colnum="8" colname="c8"/>
-      
+
         <thead>
           <row>
             <entry align="center">Isotope</entry>
@@ -2014,7 +2014,7 @@
             </entry>
             <entry align="center">138.38 d</entry>
             <entry align="center">
-         
+
                   <m:math>
                     <m:semantics>
                       <m:mrow>
@@ -2026,7 +2026,7 @@
                       <m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-             
+
             </entry>
             <entry align="center">5.41</entry>
             <entry align="center">100%</entry>
@@ -2089,7 +2089,7 @@
               </m:math>
             </entry>
             <entry align="center">
-              
+
                   <m:math>
                     <m:semantics>
                       <m:mrow>
@@ -2102,7 +2102,7 @@
                       <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-              
+
             </entry>
             <entry align="center">4.68</entry>
             <entry align="center">5%</entry>
@@ -2187,7 +2187,7 @@
               </m:math>
             </entry>
             <entry align="center">
-             
+
                   <m:math>
                     <m:semantics>
                       <m:mrow>
@@ -2199,7 +2199,7 @@
                       <m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-            
+
             </entry>
             <entry align="center">4.68</entry>
             <entry align="center">
@@ -2294,7 +2294,7 @@
               </m:math>
             </entry>
             <entry align="center">
-            
+
                   <m:math>
                     <m:semantics>
                       <m:mrow>
@@ -2307,7 +2307,7 @@
                       <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-            
+
             </entry>
             <entry align="center">4.22</entry>
             <entry align="center">23%</entry>
@@ -2393,21 +2393,21 @@
               </m:math>
             </entry>
             <entry align="center">
-             
+
                   <m:math>
                     <m:semantics>
                       <m:mrow>
                         <m:mrow>
                           <m:mi fontstyle="italic">α</m:mi>
                         </m:mrow>
-          
+
                     <m:mrow/>
                           <m:mtext>s</m:mtext>
                       </m:mrow>
                       <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-              
+
             </entry>
             <entry align="center">numerous</entry>
             <entry/>
@@ -2419,7 +2419,7 @@
                       <m:mi fontstyle="italic">γ</m:mi>
                     </m:mrow>
                       <m:mspace width="0.10em"/>
-                      
+
                     <m:mrow/>
                           <m:mtext>s</m:mtext>
                   </m:mrow>
@@ -2495,21 +2495,21 @@
               </m:math>
             </entry>
             <entry align="center">
-             
+
                   <m:math>
                     <m:semantics>
                       <m:mrow>
                         <m:mrow>
                           <m:mi fontstyle="italic">α</m:mi>
                         </m:mrow>
-                              
+
                     <m:mrow/>
                           <m:mtext>s</m:mtext>
                       </m:mrow>
                       <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-         
+
             </entry>
             <entry align="center">5.19</entry>
             <entry align="center">11%</entry>
@@ -2644,21 +2644,21 @@
               </m:math>
             </entry>
             <entry align="center">
-            
+
                   <m:math>
                     <m:semantics>
                       <m:mrow>
                         <m:mrow>
                           <m:mi fontstyle="italic">α</m:mi>
                         </m:mrow>
-                      
+
                     <m:mrow/>
                           <m:mtext>s</m:mtext>
                       </m:mrow>
                       <m:annotation encoding="StarMath 5.0"> size 12{αs} {}</m:annotation>
                     </m:semantics>
                   </m:math>
-         
+
             </entry>
             <entry align="center">Max. 5.44</entry>
             <entry/>
