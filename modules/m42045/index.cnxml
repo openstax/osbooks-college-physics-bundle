@@ -23,8 +23,11 @@
         <image mime-type="image/jpg" src="../../media/Figure_03_05_02a.jpg" width="300"/>
       </media>
 
-    <caption>An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).</caption></figure><para id="import-auto-id1469714">In each of these situations, an object has a <term id="import-auto-id1831655">velocity</term> relative to a medium (such as a river) and that medium has a velocity relative to an observer on solid ground. The velocity of the object <emphasis effect="italics">relative to the observer</emphasis> is the sum of these velocity vectors, as indicated in <link target-id="import-auto-id1635451"/> and <link target-id="import-auto-id1851600"/>. These situations are only two of many in which it is useful to add velocities. In this module, we first re-examine how to add velocities and then consider certain aspects of what relative velocity means.</para><para id="import-auto-id1667793">How do we add velocities? Velocity is a vector (it has both magnitude and direction); the rules of <term id="import-auto-id1402169">vector addition</term> discussed in <link document="m42127">Vector Addition and Subtraction: Graphical Methods</link> and <link document="m42128">Vector Addition and Subtraction: Analytical Methods</link> apply to the addition of velocities, just as they do for any other vectors. In one-dimensional motion, the addition of velocities is simple—they add like ordinary numbers. For example, if a field hockey player is moving at <m:math><m:semantics><m:mrow><m:mrow><m:mtext>5 m/s</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"5 m/s"} {}</m:annotation></m:semantics></m:math> straight toward the goal and drives the ball in the same direction with a velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mtext>30 m/s</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30 m/s"} {}</m:annotation></m:semantics></m:math> relative to her body, then the velocity of the ball is <m:math><m:semantics><m:mrow><m:mrow><m:mtext>35 m/s</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35 m/s"} {}</m:annotation></m:semantics></m:math> relative to the stationary, profusely sweating goalkeeper standing in front of the goal.</para><para id="import-auto-id1821692">In two-dimensional motion, either graphical or analytical techniques can be used to add velocities. We will concentrate on analytical techniques. The following equations give the relationships between the magnitude and direction of velocity (<m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>) and its components (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>) along the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis>-axes of an appropriately chosen coordinate system:
-
+    <caption>An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).</caption></figure>
+    <para id="import-auto-id1469714">In each of these situations, an object has a <term id="import-auto-id1831655">velocity</term> relative to a medium (such as a river) and that medium has a velocity relative to an observer on solid ground. The velocity of the object <emphasis effect="italics">relative to the observer</emphasis> is the sum of these velocity vectors, as indicated in <link target-id="import-auto-id1635451"/> and <link target-id="import-auto-id1851600"/>. These situations are only two of many in which it is useful to add velocities. In this module, we first re-examine how to add velocities and then consider certain aspects of what relative velocity means.</para>
+    <para id="import-auto-id1667793">How do we add velocities? Velocity is a vector (it has both magnitude and direction); the rules of <term id="import-auto-id1402169">vector addition</term> discussed in <link document="m42127">Vector Addition and Subtraction: Graphical Methods</link> and <link document="m42128">Vector Addition and Subtraction: Analytical Methods</link> apply to the addition of velocities, just as they do for any other vectors. In one-dimensional motion, the addition of velocities is simple—they add like ordinary numbers. For example, if a field hockey player is moving at <m:math><m:semantics><m:mrow><m:mrow><m:mtext>5 m/s</m:mtext></m:mrow></m:mrow></m:semantics></m:math> straight toward the goal and drives the ball in the same direction with a velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mtext>30 m/s</m:mtext></m:mrow></m:mrow></m:semantics></m:math> relative to her body, then the velocity of the ball is <m:math><m:semantics><m:mrow><m:mrow><m:mtext>35 m/s</m:mtext></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> relative to the stationary, profusely sweating goalkeeper standing in front of the goal.</para>
+    <para id="import-auto-id1821692">In two-dimensional motion, either graphical or analytical techniques can be used to add velocities. We will concentrate on analytical techniques. The following equations give the relationships between the magnitude and direction of velocity (<m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow></m:mrow></m:semantics></m:math>) and its components (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math>) along the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-axes of an appropriately chosen coordinate system:
+    </para>
     <equation id="eip-343"><m:math>
         <m:semantics>
           <m:mrow>
@@ -53,7 +56,8 @@
           <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{x} } =v"cos"θ} {}</m:annotation>
         </m:semantics>
       </m:math>
-    </equation><equation id="eip-859"><m:math>
+    </equation>
+    <equation id="eip-859"><m:math>
         <m:semantics>
           <m:mrow>
 
@@ -75,13 +79,11 @@
                   <m:mi>θ</m:mi>
                 </m:mrow>
               </m:mrow>
-
-            <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{y} } =v"sin"θ} {}</m:annotation>
         </m:semantics>
       </m:math>
-    </equation><equation id="eip-505"><m:math>
+    </equation>
+    <equation id="eip-505"><m:math>
         <m:semantics>
           <m:mrow>
 
@@ -125,7 +127,6 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v= sqrt {v rSub { size 8{x} }  rSup { size 8{2} } +v rSub { size 8{y} }  rSup { size 8{2} } } } {}</m:annotation>
         </m:semantics>
       </m:math>
     </equation>
@@ -175,66 +176,46 @@
                 </m:mrow>
               </m:mrow>
             <m:mo>.</m:mo>
-            <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( v rSub { size 8{y} } /v rSub { size 8{x} }  \) } {}</m:annotation>
         </m:semantics>
       </m:math>
-    </equation><figure id="import-auto-id1382383"><media id="import-auto-id1809053" alt="The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.">
+    </equation>
+
+    <figure id="import-auto-id1382383"><media id="import-auto-id1809053" alt="The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.">
         <image mime-type="image/png" src="../../media/Figure_03_05_03a.jpg" width="250"/>
       </media>
-
            <caption>The velocity, <m:math>
         <m:semantics>
-          <m:mrow>
 
               <m:mrow>
                 <m:mi>v</m:mi>
               </m:mrow>
-
-            <m:mrow/>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation>
         </m:semantics>
       </m:math>, of an object traveling at an angle <m:math>
         <m:semantics>
-          <m:mrow>
+
 
               <m:mrow>
                 <m:mi>θ</m:mi>
               </m:mrow>
-
-            <m:mrow/>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
         </m:semantics>
       </m:math>  to the horizontal axis is the sum of component vectors <m:math>
         <m:semantics>
-          <m:mrow>
-
               <m:mrow><m:msub>
                 <m:mtext mathvariant="bold">v</m:mtext><m:mi>x</m:mi>
 </m:msub>
-</m:mrow>
-
-            <m:mrow/>
-          </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v} {subx}</m:annotation>
-        </m:semantics>
+</m:mrow> </m:semantics>
       </m:math> and <m:math>
         <m:semantics>
-          <m:mrow>
 
               <m:mrow><m:msub>
                 <m:mtext mathvariant="bold">v</m:mtext><m:mi>y</m:mi>
 </m:msub>
-</m:mrow>
-
-            <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v} {suby}</m:annotation>
         </m:semantics>
-      </m:math>.</caption></figure><para id="import-auto-id1822299">These equations are valid for any vectors and are adapted specifically for velocity. The first two equations are used to find the components of a velocity when its magnitude and direction are known. The last two are used to find the magnitude and direction of velocity when its components are known.</para><note id="fs-id2187811"><label/><title>Take-Home Experiment: Relative Velocity of a Boat</title>
+      </m:math>.</caption></figure>
+<para id="import-auto-id1822299">These equations are valid for any vectors and are adapted specifically for velocity. The first two equations are used to find the components of a velocity when its magnitude and direction are known. The last two are used to find the magnitude and direction of velocity when its components are known.</para>
+      <note id="fs-id2187811"><label/><title>Take-Home Experiment: Relative Velocity of a Boat</title>
 
     <para id="import-auto-id1749948">Fill a bathtub half-full of water. Take a toy boat or some other object that floats in water. Unplug the drain so water starts to drain. Try pushing the boat from one side of the tub to the other and perpendicular to the flow of water. Which way do you need to push the boat so that it ends up immediately opposite? Compare the directions of the flow of water, heading of the boat, and actual velocity of the boat.</para>
     </note><example id="fs-id1076781">
@@ -808,7 +789,7 @@ and
       <para id="import-auto-id1327216">The wind’s speed and direction are consistent with the significant effect the wind has on the total velocity of the plane, as seen in <link target-id="import-auto-id1546060"/>. Because the plane is fighting a strong combination of crosswind and head-wind, it ends up with a total velocity significantly less than its velocity relative to the air mass as well as heading in a different direction.</para>
     </example>
     <para id="import-auto-id1819390">Note that in both of the last two examples, we were able to make the mathematics easier by choosing a coordinate system with one axis parallel to one of the velocities. We will repeatedly find that choosing an appropriate coordinate system makes problem solving easier. For example, in projectile motion we always use a coordinate system with one axis parallel to gravity.</para>
-
+  </section>
 <section id="fs-id1969463">
 <title>Relative Velocities and Classical Relativity</title>
     <para id="import-auto-id1954350">When adding velocities, we have been careful to specify that the <emphasis effect="italics">velocity is relative to some reference frame</emphasis>. These velocities are called <term id="import-auto-id1929302">relative velocities</term>. For example, the velocity of an airplane relative to an air mass is different from its velocity relative to the ground. Both are quite different from the velocity of an airplane relative to its passengers (which should be close to zero). Relative velocities are one aspect of <term id="import-auto-id1982113">relativity</term>, which is defined to be the study of how different observers moving relative to each other measure the same phenomenon.</para>
@@ -1116,7 +1097,8 @@ and
 
 <para id="eip-id1169738139034">Try the "Motion in 2D" simulation to Learn about position, velocity, and acceleration vectors. Move the ball with the mouse or let the simulation move the ball in four types of motion (2 types of linear, simple harmonic, circle).</para>
 <media id="fs-id1167062339457" alt="This simulation allows you to adjust position, velocity, and acceleration of a ball.">
-<iframe width="660" height="371.4" src="https://openstax.org/l/motion-2d"/></media></note><section id="fs-id2070835" class="section-summary">
+<iframe width="660" height="371.4" src="https://openstax.org/l/motion-2d"/></media></note>
+<section id="fs-id2070835" class="section-summary">
     <title>Summary</title>
     <list id="fs-id1922048"><item id="import-auto-id2094922">Velocities in two dimensions are added using the same analytical vector techniques, which are rewritten as
     <equation id="import-auto-id2094926"><m:math>
@@ -1228,7 +1210,8 @@ and
 </item>
 <item id="import-auto-id1847577">Relative velocity is the velocity of an object as observed from a particular reference frame, and it varies dramatically with reference frame.</item>
     <item id="import-auto-id1847580"><emphasis>Relativity</emphasis> is the study of how different observers measure the same phenomenon, particularly when the observers move relative to one another. <emphasis>Classical relativity</emphasis> is limited to situations where speed is less than about 1% of the speed of light (3000 km/s).</item>
-    </list></section>
+    </list>
+  </section>
 <section id="fs-id1894444" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1125168" type="conceptual-questions"><problem id="fs-id1125169">
     <para id="import-auto-id1819273">What frame or frames of reference do you instinctively use when driving a car? When flying in a commercial jet airplane?</para>
 </problem></exercise>
@@ -1375,7 +1358,7 @@ and
 <para id="import-auto-id1988524"><title>Construct Your Own Problem</title> Consider an airplane headed for a runway in a cross wind. Construct a problem in which you calculate the angle the airplane must fly relative to the air mass in order to have a velocity parallel to the runway. Among the things to consider are the direction of the runway, the wind speed and direction (its velocity) and the speed of the plane relative to the air mass. Also calculate the speed of the airplane relative to the ground. Discuss any last minute maneuvers the pilot might have to perform in order for the plane to land with its wheels pointing straight down the runway.</para>
 </problem></exercise>
 </section>
-  
+</content>
 <glossary>
     <definition id="import-auto-id1938465"><term>classical relativity</term> <meaning id="fs-id1919633">the study of relative velocities in situations where speeds are less than about 1% of the speed of light—that is, less than 3000 km/s</meaning></definition>
     <definition id="import-auto-id1870074"><term>relative velocity</term> <meaning id="fs-id1907659">the velocity of an object as observed from a particular reference frame</meaning></definition>
@@ -1387,4 +1370,4 @@ and
 
 
     </glossary>
-</emphasis></para></section></content></document>
+  </document>
