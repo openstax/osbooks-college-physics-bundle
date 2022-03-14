@@ -3,16 +3,19 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42211</md:content-id>
   <md:title>Motion of an Object in a Viscous Fluid</md:title>
-  <md:abstract><list id="list-00001">
-<item>Calculate the Reynolds number for an object moving through a fluid.</item>
-<item>Explain whether the Reynolds number indicates laminar or turbulent flow.</item>
-<item>Describe the conditions under which an object has a terminal speed.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>1351c941-c9c6-416a-be45-12c6a072301e</md:uuid>
 </metadata>
 
 <content>
-
+  <section class="learning-objectives"><title>Learning Objectives</title>
+    <para>By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+<item>Calculate the Reynolds number for an object moving through a fluid.</item>
+<item>Explain whether the Reynolds number indicates laminar or turbulent flow.</item>
+<item>Describe the conditions under which an object has a terminal speed.</item>
+</list>
+    </section>
     <para id="import-auto-id3399594">A moving object in a viscous fluid is equivalent to a stationary object in a flowing fluid stream. (For example, when you ride a bicycle at 10 m/s in still air, you feel the air in your face exactly as if you were stationary in a 10-m/s wind.) Flow of the stationary fluid around a moving object may be laminar, turbulent, or a combination of the two. Just as with flow in tubes, it is possible to predict when a moving object creates turbulence. We use another form of the Reynolds number <m:math><m:semantics><m:mrow><m:mrow><m:msubsup><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow><m:mtext>R</m:mtext></m:mrow><m:mo>′</m:mo></m:msubsup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {N}} sup { ' } rSub { size 8{R} } } {}</m:annotation></m:semantics></m:math>, defined for an object moving in a fluid to be</para><equation id="import-auto-id3230050"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msubsup><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow><m:mtext>R</m:mtext></m:mrow><m:mo>′</m:mo></m:msubsup><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>ρ</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vL</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>η</m:mi></m:mfrac></m:mrow></m:mrow><m:mtext>(object in fluid), </m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {N}} sup { ' } rSub { size 8{R} } = {  {ρ ital "vL"}  over  {η} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3229773">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> is a characteristic length of the object (a sphere’s diameter, for example), <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> the fluid density,
 
 <m:math><m:semantics><m:mrow><m:mrow><m:mi>η</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{η} {}</m:annotation></m:semantics></m:math> its viscosity, and

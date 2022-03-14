@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42192</md:content-id>
   <md:title>Variation of Pressure with Depth in a Fluid</md:title>
-  <md:abstract><list id="list-00001">
-<item>Define pressure in terms of weight.</item>
-<item>Explain the variation of pressure with depth in a fluid.</item>
-<item>Calculate density given pressure and altitude.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>5f0b0e0e-e825-4aeb-9c8e-1f64a6942233</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Define pressure in terms of weight.</item>
+<item>Explain the variation of pressure with depth in a fluid.</item>
+<item>Calculate density given pressure and altitude.</item>
+</list>
+  </section>
 <para id="import-auto-id3063636">If your ears have ever popped on a plane flight or ached during a deep dive in a swimming pool, you have experienced the effect of depth on pressure in a fluid. At the Earth’s surface, the air pressure exerted on you is a result of the weight of air above you. This pressure is reduced as you climb up in altitude and the weight of air above you decreases. Under water, the pressure exerted on you increases with increasing depth. In this case, the pressure being exerted upon you is a result of both the weight of water above you <emphasis effect="italics">and</emphasis> that of the atmosphere above you. You may notice an air pressure change on an elevator ride that transports you many stories, but you need only dive a meter or so below the surface of a pool to feel a pressure increase. The difference is that water is much denser than air, about 775 times as dense.</para><para id="import-auto-id3138842">Consider the container in <link target-id="import-auto-id3190423"/>. Its bottom supports the weight of the fluid in it. Let us calculate the pressure exerted on the bottom by the weight of the fluid. That <term id="import-auto-id3285931">pressure</term> is the weight of the fluid <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "mg"} {}</m:annotation></m:semantics></m:math> divided by the area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> supporting it (the area of the bottom of the container):</para>
     <equation id="eip-764"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P= {  { ital "mg"}  over  {A} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3402975">We can find the mass of the fluid from its volume and density:</para>
     <equation id="eip-675"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">ρV</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m=ρV} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2654916">The volume of the fluid <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is related to the dimensions of the container. It is</para>

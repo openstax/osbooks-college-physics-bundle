@@ -3,14 +3,17 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42377</md:content-id>
   <md:title>The Hall Effect</md:title>
-  <md:abstract><list id="list-00001">
-<item>Describe the Hall effect.</item>
-<item>Calculate the Hall emf across a current-carrying conductor.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>f048f400-4388-4969-b72b-c861f572e72f</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Describe the Hall effect.</item>
+<item>Calculate the Hall emf across a current-carrying conductor.</item>
+</list>
+  </section>
     <para id="import-auto-id1905097">We have seen effects of a magnetic field on free-moving charges. The magnetic field also affects charges moving in a conductor. One result is the Hall effect, which has important implications and applications.</para><para id="import-auto-id1525810"><link target-id="import-auto-id2821877"/> shows what happens to charges moving through a conductor in a magnetic field. The field is perpendicular to the electron drift velocity and to the width of the conductor. Note that conventional current is to the right in both parts of the figure. In part (a), electrons carry the current and move to the left. In part (b), positive charges carry the current and move to the right. Moving electrons feel a magnetic force toward one side of the conductor, leaving a net positive charge on the other side. This separation of charge <emphasis effect="italics">creates a voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math></emphasis>, known as the <term id="import-auto-id2978459">Hall emf</term>, <emphasis effect="italics">across</emphasis> the conductor. The creation of a voltage <emphasis effect="italics">across</emphasis> a current-carrying conductor by a magnetic field is known as the <term id="import-auto-id1547866">Hall effect</term>, after Edwin Hall, the American physicist who discovered it in 1879.</para><figure id="import-auto-id2821877"><media id="import-auto-id1843656" alt="Figure a shows an electron with velocity v moving toward the left. The magnetic field B is oriented out of the page. The current I is running toward the right. The force vector on the electron points downward. An illustration of the right hand rule shows the right thumb pointing left with the v vector, the fingers pointing toward 7 o’clock with the B vector, the force vector on a positive charge pointing up and the force vector on a negative charge pointing down. Figure b shows a positive charge moving toward the right. The magnetic field lines are coming out of the page. The current I is running toward the right. The force on the positive charge is down. An illustration of the right hand rule shows the thumb pointing in the direction of the charge’s velocity, the fingers pointing in the direction of B, and F pointing down away from the palm.">
         <image mime-type="image/jpg" src="../../media/Figure_23_06_01a.jpg" width="380"/>
       </media>

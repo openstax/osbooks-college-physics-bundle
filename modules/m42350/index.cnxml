@@ -3,14 +3,17 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42350</md:content-id>
   <md:title>Electric Hazards and the Human Body</md:title>
-  <md:abstract><list id="list-00001">
-<item>Define thermal hazard, shock hazard, and short circuit.</item>
-<item>Explain what effects various levels of current have on the human body.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>3facf881-302a-49af-bab8-60c569ecf7e5</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Define thermal hazard, shock hazard, and short circuit.</item>
+<item>Explain what effects various levels of current have on the human body.</item>
+</list>
+  </section>
     <para id="import-auto-id2669723">There are two known hazards of electricity—thermal and shock. A <term id="import-auto-id1985911">thermal hazard</term> is one where excessive electric power causes undesired thermal effects, such as starting a fire in the wall of a house. A <term id="import-auto-id1401812">shock hazard</term> occurs when electric current passes through a person. Shocks range in severity from painful, but otherwise harmless, to heart-stopping lethality. This section considers these hazards and the various factors affecting them in a quantitative manner. <link document="m42416">Electrical Safety: Systems and Devices</link> will consider systems and devices for preventing electrical hazards.</para><section id="fs-id1916485">
     <title>Thermal Hazards</title>
     <para id="import-auto-id3138170">Electric power causes undesired heating effects whenever electric energy is converted to thermal energy at a rate faster than it can be safely dissipated. A classic example of this is the <term id="import-auto-id3036602">short circuit</term>, a low-resistance path between terminals of a voltage source. An example of a short circuit is shown in <link target-id="import-auto-id2670067"/>. Insulation on wires leading to an appliance has worn through, allowing the two wires to come into contact. Such an undesired contact with a high voltage is called a <emphasis effect="italics">short</emphasis>. Since the resistance of the short, <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, is very small, the power dissipated in the short, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P = V rSup { size 8{2} } /r} {}</m:annotation></m:semantics></m:math>, is very large. For example, if <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is 120 V and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>100</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{0 "." "100"  %OMEGA } {}</m:annotation></m:semantics></m:math>, then the power is 144 kW, <emphasis effect="italics">much</emphasis> greater than that used by a typical household appliance. Thermal energy delivered at this rate will very quickly raise the temperature of surrounding materials, melting or perhaps igniting them.</para><figure id="import-auto-id2670067"><media id="import-auto-id1094796" alt="Part a shows an electric toaster of resistance capital R connected to an A C voltage source. The wires used to connect the toaster to the supply are worn out in one place, allowing them to come into contact with an undesired, lower resistance path, symbolized by lowercase r. Part b of the figure represents the circuit diagram for the electric connection described in part a. The voltage source is connected to two paths in parallel: the toaster with resistance capital R, and the undesired lower resistance path, symbolized by lowercase r.">

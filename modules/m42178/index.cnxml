@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42178</md:content-id>
   <md:title>Kinematics of Rotational Motion</md:title>
-  <md:abstract><list id="list-00001">
-<item>Observe the kinematics of rotational motion.</item>
-<item>Derive rotational kinematic equations.</item>
-<item>Evaluate problem solving strategies for rotational kinematics.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>1f067ea8-6cbe-463b-b672-8cd39ccfb360</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Observe the kinematics of rotational motion.</item>
+<item>Derive rotational kinematic equations.</item>
+<item>Evaluate problem solving strategies for rotational kinematics.</item>
+</list>
+  </section>
     <para id="import-auto-id3154073">Just by using our intuition, we can begin to see how rotational quantities like <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math> are related to one another. For example, if a motorcycle wheel has a large angular acceleration for a fairly long time, it ends up spinning rapidly and rotates through many revolutions. In more technical terms, if the wheel’s angular acceleration <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math> is large for a long period of time <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math>, then the final angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> and angle of rotation <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> are large. The wheel’s rotational motion is exactly analogous to the fact that the motorcycle’s large translational acceleration produces a large final velocity, and the distance traveled will also be large.</para><para id="import-auto-id1412967">Kinematics is the description of motion. The <term id="import-auto-id3025215">kinematics of rotational motion</term> describes the relationships among rotation angle, angular velocity, angular acceleration, and time. Let us start by finding an equation relating <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>. To determine this equation, we recall a familiar kinematic equation for translational, or straight-line, motion:</para>
 
     <equation id="eip-580"><m:math>

@@ -3,17 +3,20 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42103</md:content-id>
   <md:title>Graphical Analysis of One-Dimensional Motion</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract></md:abstract>
+  <md:uuid>ef1e90b2-9c2d-4d35-9faa-d1055b8d89db</md:uuid>
+</metadata>
+
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
 <item>Describe a straight-line graph in terms of its slope and <foreign>y</foreign>-intercept.</item>
 <item>Determine average velocity or instantaneous velocity from a graph of position vs. time.</item>
 <item>Determine average or instantaneous acceleration from a graph of velocity vs. time.</item>
 <item>Derive a graph of velocity vs. time from a graph of position vs. time.</item>
 <item>Derive a graph of acceleration vs. time from a graph of velocity vs. time.</item>
-</list></md:abstract>
-  <md:uuid>ef1e90b2-9c2d-4d35-9faa-d1055b8d89db</md:uuid>
-</metadata>
-
-<content>
+</list>
+  </section>
     <para id="import-auto-id1568723">A graph, like a picture, is worth a thousand words. Graphs not only contain numerical information; they also reveal relationships between physical quantities. This section uses graphs of position, velocity, and acceleration versus time to illustrate one-dimensional kinematics.</para><section id="fs-id1396690"><title>Slopes and General Relationships</title>
     <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4131770">First note that graphs in this text have perpendicular axes, one horizontal and the other vertical. When two physical quantities are plotted against one another in such a graph, the horizontal axis is usually considered to be an <term id="import-auto-id1690042">independent variable</term> and the vertical axis a <term id="import-auto-id2013112">dependent variable</term>. If we call the horizontal axis the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-axis and the vertical axis the <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>-axis, as in <link target-id="import-auto-id2359358"/>, a straight-line graph has the general form</para><equation id="import-auto-id4175150"><m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>y</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mx</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">+</m:mo><m:mi/></m:mrow></m:mrow><m:mi>b</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y= ital "mx"+`b} {}</m:annotation></m:semantics></m:math></equation>
     <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1433182">Here <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the <term id="import-auto-id1773074">slope</term>, defined to be the rise divided by the run (as seen in the figure) of the straight line. The letter <m:math><m:semantics><m:mrow><m:mrow><m:mi>b</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{b} {}</m:annotation></m:semantics></m:math> is used for the <term id="import-auto-id2955215"><emphasis effect="italics">y</emphasis>-intercept</term>, which is the point at which the line crosses the vertical axis.</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2359358"><media id="import-auto-id1534567" alt="Graph of a straight-line sloping up at about 40 degrees.">

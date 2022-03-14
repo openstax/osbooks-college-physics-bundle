@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42328</md:content-id>
   <md:title>Electrical Potential Due to a Point Charge</md:title>
-  <md:abstract><list id="list-00001">
-<item>Explain point charges and express the equation for electric potential of a point charge.</item>
-<item>Distinguish between electric potential and electric field.</item>
-<item>Determine the electric potential of a point charge given charge and distance.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>2853d33b-313d-47bf-8658-12eecf8cf548</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Explain point charges and express the equation for electric potential of a point charge.</item>
+<item>Distinguish between electric potential and electric field.</item>
+<item>Determine the electric potential of a point charge given charge and distance.</item>
+</list>
+  </section>
         <para id="import-auto-id3164604">Point charges, such as electrons, are among the fundamental building blocks of matter. Furthermore, spherical charge distributions (like on a metal sphere) create external electric fields exactly like a point charge. The electric potential due to a point charge is, thus, a case we need to consider. Using calculus to find the work needed to move a test charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> from a large distance away to a distance of <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> from a point charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis>, and noting the connection between work and potential <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">–</m:mo><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (W= - q?V right )} {}</m:annotation></m:semantics></m:math>, it can be shown that the <emphasis effect="italics">electric potential <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> of a point charge</emphasis> is </para><equation id="eip-436"><m:math>
     <m:semantics>
      <m:mrow>

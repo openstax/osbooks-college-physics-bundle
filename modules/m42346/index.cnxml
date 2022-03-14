@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42346</md:content-id>
   <md:title>Resistance and Resistivity</md:title>
-  <md:abstract><list id="list-00001">
-<item>Explain the concept of resistivity.</item>
-<item>Use resistivity to calculate the resistance of specified configurations of material.</item>
-<item>Use the thermal coefficient of resistivity to calculate the change of resistance with temperature.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>a5e2058d-3bf0-4538-9e0d-d72e24a9acfd</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Explain the concept of resistivity.</item>
+<item>Use resistivity to calculate the resistance of specified configurations of material.</item>
+<item>Use the thermal coefficient of resistivity to calculate the change of resistance with temperature.</item>
+</list>
+  </section>
     <section id="fs-id2990995">
       <title>Material and Shape Dependence of Resistance</title>
     <para id="import-auto-id1177114">The resistance of an object depends on its shape and the material of which it is composed. The cylindrical resistor in <link target-id="import-auto-id1351234"/> is easy to analyze, and, by so doing, we can gain insight into the resistance of more complicated shapes. As you might expect, the cylinder’s electric resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is directly proportional to its length <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>, similar to the resistance of a pipe to fluid flow. The longer the cylinder, the more collisions charges will make with its atoms. The greater the diameter of the cylinder, the more current it can carry (again similar to the flow of fluid through a pipe). In fact, <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is inversely proportional to the cylinder’s cross-sectional area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math>.</para>

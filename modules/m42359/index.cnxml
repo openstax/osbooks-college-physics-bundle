@@ -3,14 +3,17 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42359</md:content-id>
   <md:title>Kirchhoff’s Rules</md:title>
-  <md:abstract><list id="list-00001">
-<item>Analyze a complex circuit using Kirchhoff’s rules, using the conventions for determining the correct signs of various terms.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>b4ee3784-8339-4649-8341-5a9b2f3d1624</md:uuid>
 </metadata>
 
 <content>
-
+  <section class="learning-objectives"><title>Learning Objectives</title>
+    <para>By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+<item>Analyze a complex circuit using Kirchhoff’s rules, using the conventions for determining the correct signs of various terms.</item>
+</list>
+    </section>
   <para id="import-auto-id2677155">Many complex circuits, such as the one in <link target-id="import-auto-id1907339"/>, cannot be analyzed with the series-parallel techniques developed in <link document="m42356">Resistors in Series and Parallel</link> and <link document="m42357">Electromotive Force: Terminal Voltage</link>. There are, however, two circuit analysis rules that can be used to analyze any circuit, simple or complex. These rules are special cases of the laws of conservation of charge and conservation of energy. The rules are known as <term id="import-auto-id3202695">Kirchhoff’s rules</term>, after their inventor Gustav Kirchhoff (1824–1887).</para><figure id="import-auto-id1907339"><media id="import-auto-id2436227" alt="A complicated circuit diagram shows multiple resistances and voltage sources wired in series and in parallel. The circuit has three arms. The first has a cell of e m f script E sub one and internal resistance r sub one in series with a resistor R sub two. The second has a cell of e m f script E sub two and internal resistance r sub two in series with resistor R sub three. The third arm has a resistor R sub one. The three arms are connected in parallel.">
         <image mime-type="image/jpg" src="../../media/Figure_22_03_01.jpg" width="175"/>
       </media>

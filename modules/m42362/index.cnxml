@@ -3,14 +3,17 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42362</md:content-id>
   <md:title>Null Measurements</md:title>
-  <md:abstract><list id="list-00001">
-<item>Explain why a null measurement device is more accurate than a standard voltmeter or ammeter.</item>
-<item>Demonstrate how a Wheatstone bridge can be used to accurately calculate the resistance in a circuit.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>38b4afc9-d018-45b5-8873-1e9e0b1cd617</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Explain why a null measurement device is more accurate than a standard voltmeter or ammeter.</item>
+<item>Demonstrate how a Wheatstone bridge can be used to accurately calculate the resistance in a circuit.</item>
+</list>
+  </section>
     <para id="import-auto-id3047530">Standard measurements of voltage and current alter the circuit being measured, introducing uncertainties in the measurements. Voltmeters draw some extra current, whereas ammeters reduce current flow. <term id="import-auto-id3163834">Null measurements</term> balance voltages so that there is no current flowing through the measuring device and, therefore, no alteration of the circuit being measured.</para>
     <para id="import-auto-id3258243">Null measurements are generally more accurate but are also more complex than the use of standard voltmeters and ammeters, and they still have limits to their precision. In this module, we shall consider a few specific types of null measurements, because they are common and interesting, and they further illuminate principles of electric circuits.</para><section id="fs-id1818552">
 <title>The Potentiometer</title>

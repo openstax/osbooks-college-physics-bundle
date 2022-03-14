@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42182</md:content-id>
   <md:title>Angular Momentum and Its Conservation</md:title>
-  <md:abstract><list id="list-00001">
-<item>Understand the analogy between angular momentum and linear momentum.</item>
-<item>Observe the relationship between torque and angular momentum.</item>
-<item>Apply the law of conservation of angular momentum.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>7de5be93-09e1-4ab6-8282-bec00a3e9f3d</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Understand the analogy between angular momentum and linear momentum.</item>
+<item>Observe the relationship between torque and angular momentum.</item>
+<item>Apply the law of conservation of angular momentum.</item>
+</list>
+  </section>
     <para id="import-auto-id1488386">Why does Earth keep on spinning? What started it spinning to begin with? And how does an ice skater manage to spin faster and faster simply by pulling her arms in? Why does she not have to exert a torque to spin faster? Questions like these have answers based in angular momentum, the rotational analog to linear momentum.</para>
     <para id="import-auto-id3397406">By now the pattern is clear—every rotational phenomenon has a direct translational analog. It seems quite reasonable, then, to define <term id="import-auto-id3209780">angular momentum</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> as</para>
     <equation id="eip-337"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Iω</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=Iω} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3105554">This equation is an analog to the definition of linear momentum as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= ital "mv"} {}</m:annotation></m:semantics></m:math>. Units for linear momentum are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m</m:mtext><m:mrow/></m:mrow><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"kg" cdot m rSup { size 8{2} } "/s"} {}</m:annotation></m:semantics></m:math> while units for angular momentum are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"kg" cdot m rSup { size 8{2} } "/s"} {}</m:annotation></m:semantics></m:math>. As we would expect, an object that has a large moment of inertia <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math>, such as Earth, has a very large angular momentum. An object that has a large angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math>, such as a centrifuge, also has a rather large angular momentum.</para><note id="fs-id3088857"><label/>

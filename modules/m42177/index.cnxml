@@ -3,16 +3,19 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42177</md:content-id>
   <md:title>Angular Acceleration</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract></md:abstract>
+  <md:uuid>094852a0-7f89-4a97-b8ea-5659133fd740</md:uuid>
+</metadata>
+
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
 <item>Describe uniform circular motion.</item>
 <item>Explain non-uniform circular motion.</item>
 <item>Calculate angular acceleration of an object.</item>
 <item>Observe the link between linear and angular acceleration.</item>
-</list></md:abstract>
-  <md:uuid>094852a0-7f89-4a97-b8ea-5659133fd740</md:uuid>
-</metadata>
-
-<content>
+</list>
+  </section>
     <para id="import-auto-id2400941"><link document="m42140">Uniform Circular Motion and Gravitation</link> discussed only uniform circular motion, which is motion in a circle at constant speed and, hence, constant angular velocity. Recall that angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> was defined as the time rate of change of angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-257"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">θ</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω= {  {Δθ}  over  {Δt} } ","} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2970170">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle of rotation as seen in <link target-id="import-auto-id1941476"/>. The relationship between angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> and linear velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> was also defined in <link document="m42083">Rotation Angle and Angular Velocity</link> as</para><equation id="eip-989"><m:math>
         <m:semantics>
           <m:mrow>

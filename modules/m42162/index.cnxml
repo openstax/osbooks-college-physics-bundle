@@ -3,16 +3,19 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42162</md:content-id>
   <md:title>Conservation of Momentum</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract></md:abstract>
+  <md:uuid>007123e0-9db4-48bf-bd90-8976ff53a920</md:uuid>
+</metadata>
+
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
 <item>Describe the principle of conservation of momentum.</item>
 <item>Derive an expression for the conservation of momentum.</item>
 <item>Explain conservation of momentum with examples.</item>
 <item>Explain the principle of conservation of momentum as it relates to atomic and subatomic particles.</item>
-</list></md:abstract>
-  <md:uuid>007123e0-9db4-48bf-bd90-8976ff53a920</md:uuid>
-</metadata>
-
-<content>
+</list>
+  </section>
     <para id="import-auto-id1508104">Momentum is an important quantity because it is conserved. Yet it was not conserved in the examples in <link document="m42159">Impulse</link> and <link document="m42156">Linear Momentum and Force</link>, where large changes in momentum were produced by forces acting on the system of interest. Under what circumstances is momentum conserved?</para><para id="import-auto-id1420193">The answer to this question entails considering a sufficiently large system. It is always possible to find a larger system in which total momentum is constant, even if momentum changes for components of the system. If a football player runs into the goalpost in the end zone, there will be a force on him that causes him to bounce backward. However, the Earth also recoils —conserving momentum—because of the force applied to it through the goalpost. Because Earth is many orders of magnitude more massive than the player, its recoil is immeasurably small and can be neglected in any practical sense, but it is real nevertheless.</para><para id="import-auto-id1401948">Consider what happens if the masses of two colliding objects are more similar than the masses of a football player and Earth—for example, one car bumping into another, as shown in <link target-id="import-auto-id1686933"/>. Both cars are coasting in the same direction when the lead car (labeled <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> is bumped by the trailing car (labeled <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} }  \)  "." } {}</m:annotation></m:semantics></m:math> The only unbalanced force on each car is the force of the collision. (Assume that the effects due to friction are negligible.) Car 1 slows down as a result of the collision, losing some momentum, while car 2 speeds up and gains some momentum. We shall now show that the total momentum of the two-car system remains constant.</para><figure id="import-auto-id1686933"><media id="import-auto-id1370940" alt="A brown car with velocity V 1 and mass m 1 moves toward the right behind a tan car of velocity V 2 and mass m 2. The system of interest has a total momentum equal to the sum of individual momentums p 1 and p 2. The net force between them is zero before they collide with one another. The brown car after colliding with the tan car has velocity V 1prime and momentum p 1 prime and the light brown car moves with velocity V 2 prime and momentum p 2 prime. Both move in the same direction as before collision. This system of interest has a total momentum equal to the sum p 1 prime and p 2 prime.">
         <image mime-type="image/jpg" src="../../media/Figure_09_03_01a.jpg" width="550"/>
       </media>

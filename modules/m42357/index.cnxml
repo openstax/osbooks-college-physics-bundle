@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42357</md:content-id>
   <md:title>Electromotive Force: Terminal Voltage</md:title>
-  <md:abstract><list id="list-00001">
-<item>Compare and contrast the voltage and the electromagnetic force of an electric power source.</item>
-<item>Describe what happens to the terminal voltage, current, and power delivered to a load as internal resistance of the voltage source increases (due to aging of batteries, for example).</item>
-<item>Explain why it is beneficial to use more than one voltage source connected in parallel.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>70fce0a0-0b57-44f4-9e0f-41e9cb5d862c</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Compare and contrast the voltage and the electromagnetic force of an electric power source.</item>
+<item>Describe what happens to the terminal voltage, current, and power delivered to a load as internal resistance of the voltage source increases (due to aging of batteries, for example).</item>
+<item>Explain why it is beneficial to use more than one voltage source connected in parallel.</item>
+</list>
+  </section>
     <para id="import-auto-id1587045">When you forget to turn off your car lights, they slowly dim as the battery runs down. Why don’t they simply blink off when the battery’s energy is gone? Their gradual dimming implies that battery output voltage decreases as the battery is depleted.</para>
     <para id="import-auto-id3177109">Furthermore, if you connect an excessive number of 12-V lights in parallel to a car battery, they will be dim even when the battery is fresh and even if the wires to the lights have very low resistance. This implies that the battery’s output voltage is reduced by the overload.</para>
     <para id="import-auto-id1596418">The reason for the decrease in output voltage for depleted or overloaded batteries is that all voltage sources have two fundamental parts—a source of electrical energy and an <term id="import-auto-id3397394">internal resistance</term>. Let us examine both.</para>

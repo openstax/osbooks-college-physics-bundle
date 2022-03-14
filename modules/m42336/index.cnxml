@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42336</md:content-id>
   <md:title>Capacitors in Series and Parallel</md:title>
-  <md:abstract><list id="list-00001">
-<item>Derive expressions for total capacitance in series and in parallel.</item>
-<item>Identify series and parallel parts in the combination of connection of capacitors.</item>
-<item>Calculate the effective capacitance in series and parallel given individual capacitances.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>f090675d-b0b4-4194-a4f0-084980010b4a</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Derive expressions for total capacitance in series and in parallel.</item>
+<item>Identify series and parallel parts in the combination of connection of capacitors.</item>
+<item>Calculate the effective capacitance in series and parallel given individual capacitances.</item>
+</list>
+  </section>
     <para id="import-auto-id3093738">Several capacitors may be connected together in a variety of applications. Multiple connections of capacitors act like a single equivalent capacitor. The total capacitance of this equivalent single capacitor depends both on the individual capacitors and how they are connected. There are two simple and common types of connections, called <emphasis effect="italics">series</emphasis> and <emphasis effect="italics">parallel</emphasis>, for which we can easily calculate the total capacitance. Certain more complicated connections can also be related to combinations of series and parallel.</para>
 <section id="fs-id2991721"><title>Capacitance in Series</title>
     <para id="import-auto-id2732826"><link target-id="import-auto-id2499137"/>(a) shows a series connection of three capacitors with a voltage applied. As for any capacitor, the capacitance of the combination is related to charge and voltage by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>C</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>Q</m:mi><m:mi>V</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C= {  {Q}  over  {V} } } {}</m:annotation></m:semantics></m:math>.</para>

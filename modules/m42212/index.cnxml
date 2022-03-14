@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42212</md:content-id>
   <md:title>Molecular Transport Phenomena: Diffusion, Osmosis, and Related Processes</md:title>
-  <md:abstract><list id="list-00001">
-<item>Define diffusion, osmosis, dialysis, and active transport.</item>
-<item>Calculate diffusion rates.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>d1dec991-380c-4534-a394-14e5a7729872</md:uuid>
 </metadata>
 
 <content>
-
+  <section class="learning-objectives"><title>Learning Objectives</title>
+    <para>By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+<item>Define diffusion, osmosis, dialysis, and active transport.</item>
+<item>Calculate diffusion rates.</item>
+</list>
+    </section>
 <section id="fs-id3175803"><title>Diffusion</title><para id="import-auto-id3098526">There is something fishy about the ice cube from your freezer—how did it pick up those food odors? How does soaking a sprained ankle in Epsom salt reduce swelling? The answer to these questions are related to atomic and molecular transport phenomena—another mode of fluid motion. Atoms and molecules are in constant motion at any temperature. In fluids they move about randomly even in the absence of macroscopic flow. This motion is called a random walk and is illustrated in <link target-id="import-auto-id1538948"/>. <term id="import-auto-id2672372">Diffusion</term> is the movement of substances due to random thermal molecular motion. Fluids, like fish fumes or odors entering ice cubes, can even diffuse through solids.</para>
     <para id="import-auto-id1414300">Diffusion is a slow process over macroscopic distances. The densities of common materials are great enough that molecules cannot travel very far before having a collision that can scatter them in any direction, including straight backward. It can be shown that the average distance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> that a molecule travels is proportional to the square root of time:</para>
     <equation id="import-auto-id1917214"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:mn>2</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Dt</m:mtext></m:mrow></m:mstyle></m:mrow></m:msqrt></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{"rms"} } = sqrt {2 ital "Dt"} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3073355">where <m:math><m:semantics><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow></m:semantics></m:math> stands for the <emphasis>root-mean-square distance</emphasis> and is the statistical average for the process. The quantity <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> is the diffusion constant for the particular molecule in a specific medium. <link target-id="import-auto-id1412690"/> lists representative values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>D</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{D} {}</m:annotation></m:semantics></m:math> for various substances, in units of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mtext>/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSup { size 8{2} } "/s"} {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id1538948"><media id="import-auto-id1870947" alt="The figure shows the path of a random walk. The random thermal motion of a molecule is shown to begin at a start point and then the particles move about zigzag in all directions and end up at the finish point. The distance between the start and finish point is shown as x. Continuous arrows show various directions of motion.">

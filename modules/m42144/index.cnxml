@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42144</md:content-id>
   <md:title>Satellites and Kepler’s Laws: An Argument for Simplicity</md:title>
-  <md:abstract><list id="list-00001">
-<item>State Kepler’s laws of planetary motion.</item>
-<item>Derive the third Kepler’s law for circular orbits.</item>
-<item>Discuss the Ptolemaic model of the universe.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>4a4407ed-0969-4018-806f-6ea728d6efb4</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>State Kepler’s laws of planetary motion.</item>
+<item>Derive the third Kepler’s law for circular orbits.</item>
+<item>Discuss the Ptolemaic model of the universe.</item>
+</list>
+  </section>
     <para id="import-auto-id1818552">Examples of gravitational orbits abound. Hundreds of artificial satellites orbit Earth together with thousands of pieces of debris. The Moon’s orbit about Earth has intrigued humans from time immemorial. The orbits of planets, asteroids, meteors, and comets about the Sun are no less interesting. If we look further, we see almost unimaginable numbers of stars, galaxies, and other celestial objects orbiting one another and interacting through gravity.</para>
     <para id="import-auto-id3004537">All these motions are governed by gravitational force, and it is possible to describe them to various degrees of precision. Precise descriptions of complex systems must be made with large computers. However, we can describe an important class of orbits without the use of computers, and we shall find it instructive to study them. These orbits have the following characteristics:</para>
     <list id="fs-id2953600" list-type="enumerated" number-style="arabic"><item id="import-auto-id1405601"><emphasis effect="italics">A small mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> orbits a much larger mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math></emphasis>. This allows us to view the motion as if <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> were stationary—in fact, as if from an inertial frame of reference placed on <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> —without significant error. Mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the satellite of <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math>, if the orbit is gravitationally bound.</item>

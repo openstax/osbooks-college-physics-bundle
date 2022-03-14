@@ -3,18 +3,21 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42165</md:content-id>
   <md:title>Collisions of Point Masses in Two Dimensions</md:title>
-  <md:abstract><list id="list-00001">
+  <md:abstract></md:abstract>
+  <md:uuid>ca0b6bf0-e249-45a5-aa43-3088b4f66739</md:uuid>
+</metadata>
+
+<content>
+  <section class="learning-objectives"><title>Learning Objectives</title>
+    <para>By the end of this section, you will be able to:</para>
+    <list id="list-00001">
 <item>Discuss two dimensional collisions as an extension of one dimensional analysis.</item>
 <item>Define point masses.</item>
 <item>Derive an expression for conservation of momentum along <foreign>x</foreign>-axis and <foreign>y</foreign>-axis.</item>
 <item>Describe elastic collisions of two objects with equal mass.</item>
 <item>Determine the magnitude and direction of the final velocity given initial velocity, and scattering angle.</item>
-</list></md:abstract>
-  <md:uuid>ca0b6bf0-e249-45a5-aa43-3088b4f66739</md:uuid>
-</metadata>
-
-<content>
-
+</list>
+    </section>
     <para id="import-auto-id2555747">In the previous two sections, we considered only one-dimensional collisions; during such collisions, the incoming and outgoing velocities are all along the same line. But what about collisions, such as those between billiard balls, in which objects scatter to the side? These are two-dimensional collisions, and we shall see that their study is an extension of the one-dimensional analysis already presented. The approach taken (similar to the approach in discussing two-dimensional kinematics and dynamics) is to choose a convenient coordinate system and resolve the motion into components along perpendicular axes. Resolving the motion yields a pair of one-dimensional problems to be solved simultaneously.</para><para id="import-auto-id2549893">One complication arising in two-dimensional collisions is that the objects might rotate before or after their collision. For example, if two ice skaters hook arms as they pass by one another, they will spin in circles. We will not consider such rotation until later, and so for now we arrange things so that no rotation is possible. To avoid rotation, we consider only the scattering of <term id="import-auto-id1362764">point masses</term>—that is, structureless particles that cannot rotate or spin.</para><para id="import-auto-id2747275">We start by assuming that
 
 

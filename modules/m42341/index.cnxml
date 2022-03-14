@@ -3,16 +3,19 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42341</md:content-id>
   <md:title>Current</md:title>
-  <md:abstract><list id="list-00001">
-<item>Define electric current, ampere, and drift velocity</item>
-<item>Describe the direction of charge flow in conventional current.</item>
-<item>Use drift velocity to calculate current and vice versa.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>ddcb78bf-7739-4aea-abd2-ab6c07a16bf4</md:uuid>
 </metadata>
 
 <content>
-
+  <section class="learning-objectives"><title>Learning Objectives</title>
+    <para>By the end of this section, you will be able to:</para>
+    <list id="list-00001">
+<item>Define electric current, ampere, and drift velocity</item>
+<item>Describe the direction of charge flow in conventional current.</item>
+<item>Use drift velocity to calculate current and vice versa.</item>
+</list>
+    </section>
   <section id="fs-id3017936">
     <title>Electric Current</title>
     <para id="import-auto-id1907197">Electric current is defined to be the rate at which charge flows. A large current, such as that used to start a truck engine, moves a large amount of charge in a small time, whereas a small current, such as that used to operate a hand-held calculator, moves a small amount of charge over a long period of time. In equation form, <term id="import-auto-id2437900">electric current</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I } {}</m:annotation></m:semantics></m:math> is defined to be</para><equation id="eip-926"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Q</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I =  {  {ΔQ}  over  {Δt} } ","} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3008166">where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔQ} {}</m:annotation></m:semantics></m:math> is the amount of charge passing through a given area in time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>. (As in previous chapters, initial time is often taken to be zero, in which case <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=t} {}</m:annotation></m:semantics></m:math>.) (See <link target-id="import-auto-id1986250"/>.) The SI unit for current is the <term id="import-auto-id2058220">ampere</term> (A), named for the French physicist André-Marie Ampère (1775–1836). Since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Q</m:mi><m:mo stretchy="false">/</m:mo><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I = ΔQ/Δt} {}</m:annotation></m:semantics></m:math>, we see that an ampere is one coulomb per second:</para><equation id="eip-108"><m:math>

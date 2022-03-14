@@ -3,15 +3,18 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42431</md:content-id>
   <md:title>RLC Series AC Circuits</md:title>
-  <md:abstract><list id="list-00001">
-<item>Calculate the impedance, phase angle, resonant frequency, power, power factor, voltage, and/or current in a RLC series circuit.</item>
-<item>Draw the circuit diagram for an RLC series circuit.</item>
-<item>Explain the significance of the resonant frequency.</item>
-</list></md:abstract>
+  <md:abstract></md:abstract>
   <md:uuid>6bf1c4dd-f641-41b2-ac66-29e159880c03</md:uuid>
 </metadata>
 
-<content>
+<content>  <section class="learning-objectives"><title>Learning Objectives</title>
+  <para>By the end of this section, you will be able to:</para>
+  <list id="list-00001">
+<item>Calculate the impedance, phase angle, resonant frequency, power, power factor, voltage, and/or current in a RLC series circuit.</item>
+<item>Draw the circuit diagram for an RLC series circuit.</item>
+<item>Explain the significance of the resonant frequency.</item>
+</list>
+  </section>
     <section id="fs-id1169736628865"><title>Impedance</title><para id="fs-id1169737742205">When alone in an AC circuit, inductors, capacitors, and resistors all impede current. How do they behave when all three occur together? Interestingly, their individual resistances in ohms do not simply add. Because inductors and capacitors behave in opposite ways, they partially to totally cancel each other’s effect. <link target-id="import-auto-id1169736621511"/> shows an <emphasis effect="italics">RLC </emphasis>series circuit with an AC voltage source, the behavior of which is the subject of this section. The crux of the analysis of an <emphasis effect="italics">RLC</emphasis> circuit is the frequency dependence of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>, and the effect they have on the phase of voltage versus current (established in the preceding section). These give rise to the frequency dependence of the circuit, with important “resonance” features that are the basis of many applications, such as radio tuners.</para><figure id="import-auto-id1169736621511"><media id="import-auto-id1169737820340" alt="The figure describes an R LC series circuit. It shows a resistor R connected in series with an inductor L, connected to a capacitor C in series to an A C source V. The voltage of the A C source is given by V equals V zero sine two pi f t. The voltage across R is V R, across L is V L and across C is V C.">
         <image mime-type="image/jpg" src="../../media/Figure_24_12_01a.jpg" width="275"/>
       </media>
