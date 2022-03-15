@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42377</md:content-id>
   <md:title>The Hall Effect</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>f048f400-4388-4969-b72b-c861f572e72f</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe the Hall effect.</item>
 <item>Calculate the Hall emf across a current-carrying conductor.</item>
@@ -199,6 +199,26 @@
     </para>
     <para id="import-auto-id1465329">This is the average voltage output. Instantaneous voltage varies with pulsating blood flow. The voltage is small in this type of measurement. <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> is particularly difficult to measure, because there are voltages associated with heart action (ECG voltages) that are on the order of millivolts. In practice, this difficulty is overcome by applying an AC magnetic field, so that the Hall emf is AC with the same frequency. An amplifier can be very selective in picking out only the appropriate frequency, eliminating signals and noise at other frequencies.</para>
     </example>
+
+<section id="fs-id1887346" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2336649" type="ap-test-prep">
+  <problem id="fs-id3206269">
+  <para id="fs-id1954442">An airplane wingspan can be approximated as a conducting rod of length 35 m. As the airplane flies due north, it is flying at a rate of 82 m/s through the Earth’s magnetic field, which has a magnitude of 45 μT toward the north in a direction 57° below the horizontal plane. (a) Which end of the wingspan is positively charged, the east or west end? Explain. (b) What is the Hall emf along the wingspan?</para>
+  </problem>
+  <!--<solution id="fs-id1351789">
+  <para id="fs-id1850163">For part (a), the right-hand rule indicates positive charges will experience a force oriented toward the west, so the west end of the wing will be positively charged.
+  For part (b), use the formula
+  <m:math display="block">
+   <m:mrow>
+    <m:mtext>&#949;</m:mtext><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>B</m:mi><m:mi>l</m:mi><m:mi>v</m:mi>
+   </m:mrow>
+  </m:math>
+  
+  to find the answer 0.13 V.</para></solution>-->
+  </exercise>
+  </section>
+  
     <section id="fs-id2093608" class="section-summary"><title>Section Summary</title><list id="eip-156"><item>The Hall effect is the creation of voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>, known as the Hall emf, across a current-carrying conductor by a magnetic field. </item>
 <item>The Hall emf is given by
 <equation id="eip-id2017144"><m:math>

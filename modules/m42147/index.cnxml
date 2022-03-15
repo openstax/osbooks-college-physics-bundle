@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42147</md:content-id>
   <md:title>Kinetic Energy and the Work-Energy Theorem</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>3fffbab5-5b0d-4622-be83-eb65111f9c3e</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain work as a transfer of energy and net work as the work done by the net force.</item>
 <item>Explain and apply the work-energy theorem.</item>
@@ -891,6 +891,148 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
     <para id="import-auto-id1949121">This is a reasonable distance for a package to coast on a relatively friction-free conveyor system. Note that the work done by friction is negative (the force is in the opposite direction of motion), so it removes the kinetic energy.</para>
     </example>
     <para id="import-auto-id1617195">Some of the examples in this section can be solved without considering energy, but at the expense of missing out on gaining insights about what work and energy are doing in this situation. On the whole, solutions involving energy are generally shorter and easier than those using kinematics and dynamics alone.</para>
+
+<section id="fs-id2598659" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id3219139" type="ap-test-prep">
+  <problem id="fs-id1303737">
+  <para id="fs-id1660221">A toy car is going around a loop-the-loop. Gravity ____ the kinetic energy on the upward side of the loop, ____ the kinetic energy at the top, and ____ the kinetic energy on the downward side of the loop.</para>
+  <list id="fs-id2051501" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>increases, decreases, has no effect on</item>
+  <item>decreases, has no effect on, increases</item>
+  <item>increases, has no effect on, decreases</item>
+  <item>decreases, increases, has no effect on</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id2338942">
+  <para id="fs-id2017621">(b)</para></solution>-->
+  </exercise>
+  <exercise id="fs-id3918076" type="ap-test-prep">
+  <problem id="fs-id1403550">
+  <para id="fs-id1358615">A roller coaster is set up with a track in the form of a perfect cosine. Describe and graph what happens to the kinetic energy of a cart as it goes through the first full period of the track.</para>
+  </problem>
+  <solution id="fs-id1697846">
+  <para id="fs-id1376986">The kinetic energy should change in the form of –cos, with an initial value of 0 or slightly above, and ending at the same level.</para>
+  </solution>
+  </exercise>
+  <exercise id="fs-id1978911" type="ap-test-prep">
+  <problem id="fs-id1358838">
+  <para id="fs-id1426361">If wind is blowing horizontally toward a car with an angle of 30 degrees from the direction of travel, the kinetic energy will ____. If the wind is blowing at a car at 135 degrees from the direction of travel, the kinetic energy will ____.</para>
+  <list id="fs-id3930268" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>increase, increase</item>
+  <item>increase, decrease</item>
+  <item>decrease, increase</item>
+  <item>decrease, decrease</item>
+  </list>
+  </problem>
+  
+  <!--<solution id="fs-id2847716"><para id="fs-id2749245">(c)</para></solution>--></exercise>
+  
+  <exercise id="fs-id980483" type="ap-test-prep">
+  <problem id="fs-id2072496">
+  <para id="fs-id1286839">In what direction relative to the direction of travel can a force act on a car (traveling on level ground), and not change the kinetic energy? Can you give examples of such forces?</para>
+  </problem>
+  <solution id="fs-id860889">
+  <para id="fs-id1972560">Any force acting perpendicular will have no effect on kinetic energy. Obvious examples are gravity and the normal force, but others include wind directly from the side and rain or other precipitation falling straight down.</para>
+  </solution>
+  </exercise>
+  <exercise id="fs-id1847181" type="ap-test-prep">
+  <problem id="fs-id3075729">
+  <para id="fs-id2329637">A 2000-kg airplane is coming in for a landing, with a velocity 5 degrees below the horizontal and a drag force of 40 kN acting directly rearward. Ignoring thrust and lift on the plane, kinetic energy will ____ due to the net force of ____.</para>
+  <list id="fs-id3930227" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>increase, 20 kN</item>
+  <item>decrease, 40 kN</item>
+  <item>increase, 45 kN</item>
+  <item>decrease, 45 kN</item>
+  </list>
+  </problem>
+  
+  <!--<solution id="fs-id1250256"><para id="fs-id1362553">(d)</para></solution>-->
+  
+  </exercise>
+  <exercise id="fs-id1927755" type="ap-test-prep">
+  <problem id="fs-id1831113">
+  <para id="fs-id1377683">You are participating in the Iditarod, and your sled dogs are pulling you across a frozen lake with a force of 1200 N while a 300 N wind is blowing at you at 135 degrees from your direction of travel. What is the net force, and will your kinetic energy increase or decrease?</para>
+  </problem>
+  <solution id="fs-id2572878">
+  <para id="fs-id2032665">Note that the wind is pushing from behind and one side, so your KE will increase. The net force has components of 1400 N in the direction of travel and 212 N perpendicular to the direction of travel. So the net force is 1420 N at 8.5 degrees from the direction of travel.</para>
+  </solution>
+  </exercise>
+  <exercise id="fs-id1564751" type="ap-test-prep">
+  <problem id="fs-id1366830">
+  <para id="fs-id1346006">A model drag car is being accelerated along its track from rest by a motor with a force of 75 N, but there is a drag force of 30 N due to the track. What is the kinetic energy after 2 m of travel?</para>
+  <list id="fs-id3213876" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>90 J</item>
+  <item>150 J</item>
+  <item>210 J</item>
+  <item>60 J</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id2498060">
+  <para id="fs-id1412283">(a)</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1859034" type="ap-test-prep">
+  <problem id="fs-id1329379">
+  <para id="fs-id2976103">You are launching a 0.315-kg potato out of a potato cannon. The cannon is 1.5 m long and is aimed 30.0 degrees above the horizontal. It exerts an average 45 N force on the potato. Ignoring friction, what is the kinetic energy of the potato as it leaves the muzzle of the potato cannon?</para>
+  </problem>
+  <solution id="fs-id1344628">
+  <para id="fs-id2619716">Gravity has a component perpendicular to the cannon (and to displacement, so it is irrelevant) and has a component parallel to the cannon. The latter is equal to 9.8 N. Thus the net force in the direction of the displacement is 45 N − 9.8 N, and the kinetic energy is 53 J.</para>
+  </solution>
+  </exercise>
+  <exercise id="fs-id1130691" type="ap-test-prep">
+  <problem id="fs-id1370998">
+  <para id="fs-id1954846">When the force acting on an object is parallel to the direction of the motion of the center of mass, the mechanical energy ____. When the force acting on an object is antiparallel to the direction of the center of mass, the mechanical energy ____.</para>
+  <list id="fs-id2635179" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item id="fs-id1897511">increases, increases</item>
+  <item id="fs-id2339795">increases, decreases</item>
+  <item id="fs-id2627867">decreases, increases</item>
+  <item id="fs-id1708196">decreases, decreases</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1761512">
+  <para id="fs-id1347630">(b)</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1353464" type="ap-test-prep">
+  <problem id="fs-id1277192">
+  <para id="fs-id1315152">Describe a system in which the main forces acting are parallel or antiparallel to the center of mass, and justify your answer.</para>
+  </problem>
+  <solution id="fs-id2621835">
+  <para id="fs-id2571680">The potato cannon (and many other projectile launchers) above is an option, with a force launching the projectile, friction, potentially gravity depending on the direction it is pointed, etc. A drag (or other) car accelerating is another possibility.</para>
+  </solution>
+  </exercise>
+  <exercise id="fs-id1893751" type="ap-test-prep"><problem id="fs-id2229754">
+  <para id="fs-id1223199">A child is pulling two red wagons, with the second one tied to the first by a (non-stretching) rope. Each wagon has a mass of 10 kg. If the child exerts a force of 30 N for 5.0 m, how much has the kinetic energy of the two-wagon system changed?</para>
+  <list id="fs-id2647704" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>300 J</item>
+  <item>150 J</item>
+  <item>75 J</item>
+  <item>60 J</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1609828">
+  <para id="fs-id2809057">(c)</para>
+  </solution>-->
+  </exercise><exercise id="fs-id1396556" type="ap-test-prep">
+  <problem id="fs-id2636310">
+  <para id="fs-id2620853">A child has two red wagons, with the rear one tied to the front by a (non-stretching) rope. If the child pushes on the rear wagon, what happens to the kinetic energy of each of the wagons, and the two-wagon system?</para>
+  </problem>
+  <solution id="fs-id2658710">
+  <para id="fs-id3184291">The kinetic energy of the rear wagon increases. The front wagon does not, until the rear wagon collides with it. The total system may be treated by its center of mass, halfway between the wagons, and its energy increases by the same amount as the sum of the two individual wagons.</para>
+  </solution>
+  </exercise>
+  <exercise id="fs-id872246" type="ap-test-prep">
+  <problem id="fs-id1635593">
+  <para id="fs-id1660009">Draw a graph of the force parallel to displacement exerted on a stunt motorcycle going through a loop-the-loop versus the distance traveled around the loop. Explain the net change in energy.</para>
+  </problem>
+  <!--<solution id="fs-id1725264">
+  <para id="fs-id2872740">The force we are interested in here is gravity, which over the course of the loop is going to exhibit a shape similar to a &#8211;sin graph (exactly, if the loop is exactly a circle). The net change in energy is zero.</para>
+  </solution>-->
+  </exercise>
+  </section>
+  
+  
 <section id="fs-id1788235" class="section-summary"><title>Section Summary</title><list id="fs-id2019226"><item>The net work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the work done by the net force acting on an object.</item>
     <item>Work done on an object transfers energy to the object.</item>
     <item>The translational kinetic energy of an object of mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> moving at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</item>

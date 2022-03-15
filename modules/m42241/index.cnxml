@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42241</md:content-id>
   <md:title>Period and Frequency in Oscillations</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>33575669-8638-45a8-b8cf-17b64b35e071</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Observe the vibrations of a guitar string.</item>
 <item>Determine the frequency of oscillations.</item>
@@ -334,6 +334,52 @@ size 12{0 "." "400"`"μs"} {}
 
         </exercise>
 
+        <section id="fs-id1357054" type="ap-test-prep" class="ap-test-prep">
+          <title>Test Prep for AP Courses</title>
+          <exercise id="fs-id2524521" type="ap-test-prep">
+          <problem id="fs-id1946352">
+          <para id="fs-id1258963">A mass attached to a spring oscillates and completes 50 full cycles in 30 s. What is the time period and frequency of this system?</para></problem>
+          <solution id="fs-id1240580">
+          <para id="fs-id1567379">The frequency is given by</para>
+          <para id="fs-id1305271"><m:math display="block">
+           <m:mrow>
+            <m:mi>f</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mi>T</m:mi>
+            </m:mfrac>
+            <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+             <m:mrow>
+              <m:mn>50</m:mn><m:mtext> </m:mtext><m:mi>c</m:mi><m:mi>y</m:mi><m:mi>c</m:mi><m:mi>l</m:mi><m:mi>e</m:mi><m:mi>s</m:mi>
+             </m:mrow>
+             <m:mrow>
+              <m:mn>30</m:mn><m:mi>s</m:mi>
+             </m:mrow>
+            </m:mfrac>
+            <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1.66</m:mn><m:mtext> </m:mtext><m:mi>H</m:mi><m:mi>z</m:mi>
+           </m:mrow>
+          </m:math>
+          </para><para id="fs-id1327778">Time period is:</para>
+          <para id="fs-id1944596"><m:math display="block">
+           <m:mrow>
+            <m:mi>T</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mi>f</m:mi>
+            </m:mfrac>
+            <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+             <m:mn>1</m:mn>
+             <m:mrow>
+              <m:mn>1.66</m:mn>
+             </m:mrow>
+            </m:mfrac>
+            <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0.6</m:mn><m:mtext> </m:mtext><m:mtext>s</m:mtext>
+           </m:mrow>
+          </m:math>
+          
+          </para></solution>
+          </exercise>
+          </section>
+          
+          
     <section id="fs-id3112543" class="section-summary"><title>Section Summary</title><list id="fs-id2399846">
         <item id="import-auto-id3437496">Periodic motion is a repetitious oscillation.</item>
         <item id="import-auto-id1904875">The time for one oscillation is the period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>.</item>

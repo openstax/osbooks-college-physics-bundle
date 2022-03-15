@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42408</md:content-id>
   <md:title>Electric Generators</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>b60e7984-6740-4a1e-b202-f1ba0f263486</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Calculate the emf induced in a generator.</item>
 <item>Calculate the peak emf which can be induced in a particular generator system.</item>
@@ -242,6 +242,26 @@
       </media>
 
     <caption>Steam turbine/generator. The steam produced by burning coal impacts the turbine blades, turning the shaft which is connected to the generator. (credit: Nabonaco, Wikimedia Commons)</caption></figure><para id="import-auto-id1169736709619">Generators illustrated in this section look very much like the motors illustrated previously. This is not coincidental. In fact, a motor becomes a generator when its shaft rotates. Certain early automobiles used their starter motor as a generator. In <link document="m42411">Back Emf</link>, we shall further explore the action of a motor as a generator.</para>
+    <section id="fs-id1665991" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+      <exercise id="fs-id1518306" type="ap-test-prep"><problem id="fs-id1355595">
+      <para id="fs-id1497910">The emf induced in a coil that is rotating in a magnetic field will be at a maximum when</para><list id="fs-id1403350" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>the magnetic flux is at a maximum.</item>
+      <item>the magnetic flux is at a minimum.</item>
+      <item>the change in magnetic flux is at a maximum.</item>
+      <item>the change in magnetic flux is at a minimum.</item>
+      </list></problem>
+      <solution id="fs-id1717330">
+      <para id="fs-id2717018">(c)</para></solution>
+      </exercise>
+      <exercise id="fs-id1448465" type="ap-test-prep">
+      <problem id="fs-id1507026">
+      <para id="fs-id1530124">A coil with circular cross section and 20 turns is rotating at a rate of 400 rpm between the poles of a magnet. If the magnetic field strength is 0.6 T and peak voltage is 0.2 V, what is the radius of the coil? If the emf of the coil is zero at <emphasis effect="italics">t</emphasis> = 0 s, when will it reach its peak emf?</para></problem>
+      <!--<solution id="fs-id1497683">
+      <para id="fs-id1683174">1.1 cm, 0.04 s</para>
+      </solution>-->
+      </exercise>
+      </section>
+      
     <section id="fs-id1169737793828" class="section-summary"><title>Section Summary</title><list id="fs-id1169735522958">
     <item id="import-auto-id1169737786699">An electric generator rotates a coil in a magnetic field, inducing an emfgiven as a function of time by
       <equation id="eip-841"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NAB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mi>ω</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi fontstyle="italic">ωt</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"emf"= ital "NAB"ω"sin"ωt} {}</m:annotation></m:semantics></m:math></equation>

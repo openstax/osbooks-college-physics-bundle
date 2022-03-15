@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42414</md:content-id>
   <md:title>Transformers</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>fe7dcf9b-c537-4574-b596-6ce8d33f240b</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain how a transformer works.</item>
 <item>Calculate voltage, current, and/or number of turns given the other quantities.</item>
@@ -189,7 +189,28 @@ is the same on either side. The input primary voltage <m:math><m:semantics><m:mr
   <figure id="eip-idm469665872"><media id="eip-id1167066993771" alt="This simulation explores generating electricity with a bar magnet.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28gen"/>
 </media>
-</figure></para></note><section id="fs-id1169737988916" class="section-summary"><title>Section Summary</title><list id="eip-676"><item id="import-auto-id1169738188774">Transformers use induction to transform voltages from one value to another.</item>
+</figure></para></note>
+<section id="fs-id1930977" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1645806" type="ap-test-prep"><problem id="fs-id1643401">
+  <para id="fs-id1740471">Which of the following statements is true for a step-down transformer? Select <emphasis effect="italics">two</emphasis> answers.</para><list id="fs-id1608569" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>Primary voltage is higher than secondary voltage.</item>
+  <item>Primary voltage is lower than secondary voltage.</item>
+  <item>Primary current is higher than secondary current.</item>
+  <item>Primary current is lower than secondary current.</item>
+  </list></problem>
+  <solution id="fs-id1798813">
+  <para id="fs-id1595177">(a), (d)</para></solution>
+  </exercise>
+  <exercise id="fs-id1313520" type="ap-test-prep">
+  <problem id="fs-id1606771">
+  <para id="fs-id1479687">An ideal step-up transformer with turn ratio 1:30 is supplied with an input power of 120 W. If the output voltage is 210 V, calculate the output power and input current.</para></problem>
+  <!--<solution id="fs-id1803784">
+  <para id="fs-id1988198">120 W, 17.14 A</para>
+  </solution>-->
+  </exercise>
+  </section>
+  
+<section id="fs-id1169737988916" class="section-summary"><title>Section Summary</title><list id="eip-676"><item id="import-auto-id1169738188774">Transformers use induction to transform voltages from one value to another.</item>
     <item id="import-auto-id1169738046970">For a transformer, the voltages across the primary and secondary coils are related by
     <equation id="eip-779"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:msub><m:mi>V</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:msub><m:mi>N</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {V rSub { size 8{s} } }  over  {V rSub { size 8{p} } } } = {  {N rSub { size 8{s} } }  over  {N rSub { size 8{p} } } } } {}</m:annotation></m:semantics></m:math></equation>
 

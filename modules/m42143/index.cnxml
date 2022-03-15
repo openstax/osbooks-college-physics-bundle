@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42143</md:content-id>
   <md:title>Newton’s Universal Law of Gravitation</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>df3cd28b-1aba-4abc-84d7-54224fbd2a78</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain Earth’s gravitational force.</item>
 <item>Describe the gravitational effect of the Moon on Earth.</item>
@@ -510,6 +510,376 @@ a rSub { size 8{c} } =rω rSup { size 8{2} }
 
       <caption>Cavendish used an apparatus like this to measure the gravitational attraction between the two suspended spheres (<m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>) and the two on the stand (<m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math>) by observing the amount of torsion (twisting) created in the fiber. Distance between the masses can be varied to check the dependence of the force on distance. Modern experiments of this type continue to explore gravity.</caption></figure></para>
     </section>
+
+<section id="fs-id2222494" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1372020" type="ap-test-prep">
+  <problem id="fs-id1433479">
+  <para id="fs-id1676409">Jupiter has a mass approximately 300 times greater than Earth's and a radius about 11 times greater. How will the gravitational acceleration at the surface of Jupiter compare to that at the surface of the Earth?</para>
+  <list id="fs-id1904899" list-type="enumerated" number-style="lower-alpha"><item>Greater</item>
+  <item>Less</item>
+  <item>About the same</item>
+  <item>Not enough information</item>
+  </list></problem>
+  <solution id="fs-id1692844">
+  <para id="fs-id1420073">(a)</para></solution>
+  </exercise>
+  <exercise id="fs-id674030" type="ap-test-prep">
+  <problem id="fs-id1324152">
+  <para id="fs-id1443138">Given Newton's universal law of gravitation (Equation 6.40), under what circumstances is the force due to gravity maximized?</para>
+  </problem>
+  <!--<solution id="fs-id1594490">
+  <para id="fs-id1884820"><emphasis effect="italics">G</emphasis> is a constant, but the other terms in the equation are all controllable. Maximizing the masses of the objects and minimizing the radius between them results in larger forces.</para>
+  </solution>-->
+  </exercise>
+  <exercise id="fs-id1110266" type="ap-test-prep">
+  <problem id="fs-id1459111">
+  <para id="fs-id1651420">In the formula
+  <m:math display="inline">
+  <m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac>
+  <m:mrow>
+  <m:mi>G</m:mi><m:mi>M</m:mi>
+  </m:mrow>
+  <m:mrow>
+  <m:msup>
+  <m:mi>r</m:mi>
+  <m:mn>2</m:mn>
+  </m:msup>
+  </m:mrow>
+  </m:mfrac>
+  </m:math>, what does <emphasis effect="italics">G</emphasis> represent?</para><list id="fs-id1253502" list-type="enumerated" number-style="lower-alpha"><item>The acceleration due to gravity</item>
+  <item>A gravitational constant that is the same everywhere in the universe</item>
+  <item>A gravitational constant that is inversely proportional to the radius</item>
+  <item>The factor by which you multiply the inertial mass to obtain the gravitational mass</item>
+  </list></problem>
+  <solution id="fs-id1371742">
+  <para id="fs-id1870230">(b)</para></solution>
+  </exercise>
+  <exercise id="fs-id1678996" type="ap-test-prep"><problem id="fs-id1499246">
+  <para id="fs-id1701551">Saturn's moon Titan has a radius of 2.58 × 10<sup>6</sup> m and a measured gravitational field of 1.35 m/s<sup>2</sup>. What is its mass?</para></problem>
+  <!--<solution id="fs-id1381317">
+  <para id="fs-id2514819"><m:math display="block">
+   <m:mrow>
+    <m:mi>g</m:mi><m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mi>G</m:mi><m:mi>M</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mi>r</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math>
+  </para>
+  <para id="eip-id2310281">
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>M</m:mi><m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mi>g</m:mi><m:msup>
+       <m:mi>r</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+     <m:mi>G</m:mi>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math>
+  </para>
+  <para id="eip-id1435304"><m:math display="block">
+   <m:mrow>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1.35</m:mn><m:mtext>&#8201;</m:mtext><m:mfrac>
+         <m:mtext>m</m:mtext>
+         <m:mrow>
+          <m:msup>
+           <m:mtext>s</m:mtext>
+           <m:mtext>2</m:mtext>
+          </m:msup>
+  
+         </m:mrow>
+        </m:mfrac>
+  
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>&#8226;</m:mo><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>2.58</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mn>6</m:mn>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+     <m:mrow>
+      <m:mn>6.673</m:mn><m:mo>&#215;</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>&#8722;</m:mo><m:mn>11</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>&#8201;</m:mtext><m:mtext>N</m:mtext><m:mo>&#8226;</m:mo><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mfrac>
+           <m:mtext>m</m:mtext>
+           <m:mrow>
+            <m:mtext>kg</m:mtext>
+           </m:mrow>
+          </m:mfrac>
+  
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math>
+  </para><para id="eip-id2304741">
+  <m:math display="block">
+   <m:mrow>
+    <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mn>1.35</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>23</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+   </m:mrow>
+  </m:math>
+  </para><para id="fs-id2893216">Titan's mass is 1.35 &#215; 10<sup>23</sup> kg.</para></solution>-->
+  </exercise>
+  <exercise id="fs-id1841502" type="ap-test-prep">
+  <problem id="fs-id1673724">
+  <para id="fs-id1797173">A recently discovered planet has a mass twice as great as Earth's and a radius twice as large as Earth's. What will be the approximate size of its gravitational field?</para><list id="fs-id2482198" list-type="enumerated" number-style="lower-alpha"><item>19 m/s<sup>2</sup></item>
+  <item>4.9 m/s<sup>2</sup></item>
+  <item>2.5 m/s<sup>2</sup></item>
+  <item>9.8 m/s<sup>2</sup></item>
+  </list></problem>
+  <solution id="fs-id882163">
+  <para id="fs-id1416871">(b)</para></solution>
+  </exercise>
+  <exercise id="fs-id1545601" type="ap-test-prep"><problem id="fs-id1436551">
+  <para id="fs-id1102611">4. Earth is 1.5 × 10<sup>11</sup> m from the Sun. Mercury is 5.7 × 10<sup>10</sup> m from the Sun. How does the gravitational field of the Sun on Mercury (<emphasis effect="italics">g<sub>SM</sub></emphasis>) compare to the gravitational field of the Sun on Earth (<emphasis effect="italics">g<sub>SE</sub></emphasis>)?</para></problem>
+  <!--<solution id="fs-id1593799">
+  <para id="fs-id1478253">For convenience, represent the strength of the Sun's gravitational field on Earth as 1.</para>
+  <para id="fs-id1872258">The gravitational field is inversely proportional to the square of the radius (or the square of the distance from the center of the Sun's mass).</para>
+  <para id="fs-id1691143">For Earth,</para>
+  <para id="fs-id1403834"><m:math display="block">
+   <m:mrow>
+    <m:mtext>&#8201;</m:mtext><m:mtext>&#8201;</m:mtext><m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:mo>&#215;</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>11</m:mn><m:mtext>&#8201;</m:mtext>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+  
+   </m:mrow>
+  </m:math>
+  </para><para id="eip-id2693366"><m:math display="block">
+   <m:mrow>
+    <m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>2.25</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>22</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>&#8201;</m:mtext>
+     </m:mrow>
+    </m:msup>
+    <m:msup>
+     <m:mtext>m</m:mtext>
+     <m:mn>2</m:mn>
+    </m:msup>
+  
+   </m:mrow>
+  </m:math>
+  </para><para id="fs-id2403434">For Mercury,</para>
+  <para id="fs-id1639221"><m:math display="block">
+   <m:mrow>
+    <m:msup>
+     <m:mi>r</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>=</m:mo><m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>5.7</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+  
+   </m:mrow>
+  </m:math>
+  </para>
+  <para id="eip-id2712817">
+  <m:math display="block">
+   <m:mrow>
+    <m:mo>=</m:mo><m:mn>3.25</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>21</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:msup>
+     <m:mtext>m</m:mtext>
+     <m:mn>2</m:mn>
+    </m:msup>
+  
+   </m:mrow>
+  </m:math>
+  </para>
+  <para id="eip-id2806110"><m:math display="block">
+   <m:mfrac>
+    <m:mrow>
+     <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mi>E</m:mi>
+      <m:mn>2</m:mn>
+     </m:msubsup>
+  
+    </m:mrow>
+    <m:mrow>
+     <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mi>M</m:mi>
+      <m:mn>2</m:mn>
+     </m:msubsup>
+  
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mrow>
+     <m:msub>
+      <m:mi>g</m:mi>
+      <m:mrow>
+       <m:mi>S</m:mi><m:mi>M</m:mi>
+      </m:mrow>
+     </m:msub>
+  
+    </m:mrow>
+    <m:mrow>
+     <m:msub>
+      <m:mi>g</m:mi>
+      <m:mrow>
+       <m:mi>S</m:mi><m:mi>E</m:mi>
+      </m:mrow>
+     </m:msub>
+  
+    </m:mrow>
+   </m:mfrac>
+  
+  </m:math>
+  </para><para id="eip-id1890744"><m:math display="block">
+   <m:mfrac>
+    <m:mrow>
+     <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mi>E</m:mi>
+      <m:mn>2</m:mn>
+     </m:msubsup>
+     <m:mo>&#8901;</m:mo><m:msub>
+      <m:mi>g</m:mi>
+      <m:mrow>
+       <m:mi>S</m:mi><m:mi>E</m:mi>
+      </m:mrow>
+     </m:msub>
+  
+    </m:mrow>
+    <m:mrow>
+     <m:msubsup>
+      <m:mi>r</m:mi>
+      <m:mi>M</m:mi>
+      <m:mn>2</m:mn>
+     </m:msubsup>
+  
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:msub>
+    <m:mi>g</m:mi>
+    <m:mrow>
+     <m:mi>S</m:mi><m:mi>M</m:mi>
+    </m:mrow>
+   </m:msub>
+  
+  </m:math>
+  </para><para id="eip-id2719397"><m:math display="block">
+   <m:mfrac>
+    <m:mrow>
+     <m:mn>2.25</m:mn><m:mo>&#215;</m:mo><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>22</m:mn>
+      </m:mrow>
+     </m:msup>
+     <m:mo>&#8901;</m:mo><m:mn>1</m:mn>
+    </m:mrow>
+    <m:mrow>
+     <m:mn>3.25</m:mn><m:mo>&#215;</m:mo><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>21</m:mn>
+      </m:mrow>
+     </m:msup>
+  
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mn>6.9</m:mn>
+  </m:math>
+  </para><para id="fs-id1445969">The gravitational field of the Sun is 6.9 times as strong on Mercury as it is on Earth.</para></solution>-->
+  </exercise>
+  </section>
     <section id="fs-id3081284" class="section-summary"><title>Section Summary</title><list id="fs-id1903962">
     <item id="import-auto-id3449413">Newton’s universal law of gravitation: Every particle in the universe attracts every other particle with a force along a line joining them. The force is directly proportional to the product of their masses and inversely proportional to the square of the distance between them. In equation form, this is
     <equation id="eip-143"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>G</m:mi></m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mM</m:mtext></m:mrow></m:mstyle><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=G {  { ital "mM"}  over  {r rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2032016">where F is the magnitude of the gravitational force. <m:math><m:semantics><m:mrow><m:mrow><m:mi>G</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G} {}</m:annotation></m:semantics></m:math> is the gravitational constant, given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>674</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>–11</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mi/><m:mrow><m:mtext>N</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mtext>/kg</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G=6 "." "673" times "10" rSup { size 8{"-11"} } `N cdot m rSup { size 8{2} } "/kg" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para></item>

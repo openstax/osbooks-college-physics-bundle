@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42714</md:content-id>
   <md:title>Electric Power and Energy</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>449b1cf7-592e-4625-8269-280bfa10d7ec</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Calculate the power dissipated by a resistor and power supplied by a power supply.</item>
 <item>Calculate the cost of electricity under various circumstances.</item>
@@ -196,7 +196,56 @@
     <note id="fs-id2621583"><label/><title>Making Connections: Take-Home Experiment—Electrical Energy Use Inventory</title>
 
     <para id="import-auto-id3120094">1) Make a list of the power ratings on a range of appliances in your home or room. Explain why something like a toaster has a higher rating than a digital clock. Estimate the energy consumed by these appliances in an average day (by estimating their time of use). Some appliances might only state the operating current. If the household voltage is 120 V, then use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>P</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>IV</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P =  ital "IV"} {}</m:annotation></m:semantics></m:math>. 2) Check out the total wattage used in the rest rooms of your school’s floor or building. (You might need to assume the long fluorescent lights in use are rated at 32 W.) Suppose that the building was closed all weekend and that these lights were left on from 6 p.m. Friday until 8 a.m. Monday. What would this oversight cost? How about for an entire year of weekends?</para></note></section>
-
+    <section id="fs-id1743735" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+    
+      <exercise id="fs-id3270504" type="ap-test-prep"><problem id="fs-id1444464">
+          <figure id="fs-id2861871"><label/><media id="fs-id2876011" alt="The illustration shows a circuit drawn in a rectangle with a long and short parallel on the left and jagged line resistor labeled R on the right side. To the right of the circuit diagram is a graph with and arrow pointing up on the y axis and labeled E. The horizontal axis is represented by an arrow pointing to the right and labeled t. There is a straight diagonal line originating a the origin labeled 0 and ending at t1 on the x-axis (indicated with a dotted line going from t1 to the tip of the line) and E1 on the y-axis (also indicated with a dotted line).">
+              <image mime-type="image/jpg" src="../../media/CNX_APPhysics_20_M4_S05_img.jpg"/>
+            </media>
+    
+          </figure>
+          <para id="fs-id2009554">The circuit shown contains a resistor <emphasis effect="italics">R</emphasis> connected to a voltage supply. The graph shows the total energy <emphasis effect="italics">E</emphasis> dissipated by the resistance as a function of time. Which of the following shows the corresponding graph for double resistance, i.e., if <emphasis effect="italics">R</emphasis> is replaced by 2<emphasis effect="italics">R</emphasis>?</para>
+          <list id="fs-id3310876" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>
+          <figure id="fs-id2648692"><label/><media id="fs-id2020383" alt="There are four graphs with the same x-axis (t) and y-axis (E) shown in figure Ch20S05. All four graphs have straight, diagonal lines ending at t1 (with a dotted line) on the x-axis. The slopes of the line vary; however because they end at different values on the y-axis. Graph A has the steepest slope and the y-ending value for the line is 2E1. Graph B has the second steepest slope and the y-ending value is E1. Graph C's slope is less steep still and ends at E1 over 2. Graph D has the flattest slop and ends at E1 over 4.">
+              <image mime-type="image/jpg" src="../../media/CNX_APPhysics_20_M4_S06a_img.jpg"/>
+            </media>
+    
+          </figure></item>
+          <item>
+          <figure id="fs-id2254561"><label/>
+      <media id="fs-id1488110" alt="There are four graphs with the same x-axis (t) and y-axis (E) shown in figure Ch20S05. All four graphs have straight, diagonal lines ending at t1 (with a dotted line) on the x-axis. The slopes of the line vary; however because they end at different values on the y-axis. Graph A has the steepest slope and the y-ending value for the line is 2E1. Graph B has the second steepest slope and the y-ending value is E1. Graph C's slope is less steep still and ends at E1 over 2. Graph D has the flattest slop and ends at E1 over 4.">
+              <image mime-type="image/jpg" src="../../media/CNX_APPhysics_20_M4_S06b_img.jpg"/>
+            </media>
+    
+          </figure></item>
+          <item>
+          <figure id="fs-id2867043"><label/>
+      <media id="fs-id1497975" alt="There are four graphs with the same x-axis (t) and y-axis (E) shown in figure Ch20S05. All four graphs have straight, diagonal lines ending at t1 (with a dotted line) on the x-axis. The slopes of the line vary; however because they end at different values on the y-axis. Graph A has the steepest slope and the y-ending value for the line is 2E1. Graph B has the second steepest slope and the y-ending value is E1. Graph C's slope is less steep still and ends at E1 over 2. Graph D has the flattest slop and ends at E1 over 4.">
+              <image mime-type="image/jpg" src="../../media/CNX_APPhysics_20_M4_S06c_img.jpg"/>
+            </media>
+    
+          </figure></item>
+          <item>
+          <figure id="fs-id2035612"><label/><media id="fs-id2222748" alt="There are four graphs with the same x-axis (t) and y-axis (E) shown in figure Ch20S05. All four graphs have straight, diagonal lines ending at t1 (with a dotted line) on the x-axis. The slopes of the line vary; however because they end at different values on the y-axis. Graph A has the steepest slope and the y-ending value for the line is 2E1. Graph B has the second steepest slope and the y-ending value is E1. Graph C's slope is less steep still and ends at E1 over 2. Graph D has the flattest slop and ends at E1 over 4.">
+              <image mime-type="image/jpg" src="../../media/CNX_APPhysics_20_M4_S06d_img.jpg"/>
+            </media>
+    
+          </figure></item>
+         </list></problem>
+        <!--<solution id="fs-id2313397">
+          <para id="fs-id1727915">(c)</para></solution>-->
+      </exercise><exercise id="fs-id2032037" type="ap-test-prep">
+        <problem id="fs-id1810797">
+          <para id="fs-id2346530">What will be the ratio of the resistance of a 120 W, 220 V lamp to that of a 100 W, 110 V lamp?</para>
+        </problem>
+        <solution id="fs-id2861956">
+          <para id="fs-id1473913">10:3 or 3.33</para>
+        </solution>
+      </exercise>
+    
+    </section>
+    
     <section id="fs-id2401134" class="section-summary" type="section-summary"><title>Section Summary</title><list id="fs-id1598978"><item id="import-auto-id3126830">Electric power <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is the rate (in watts) that energy is supplied by a source or dissipated by a device.</item>
     <item id="import-auto-id3172811">Three expressions for electrical power are
 

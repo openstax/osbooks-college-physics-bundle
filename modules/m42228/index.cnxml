@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42228</md:content-id>
   <md:title>Conduction</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>a7beda43-2f3a-4d12-adfe-2e19c20b5e14</md:uuid>
 </metadata>
 
 <content>
-    <section class="learning-objectives"><title>Learning Objectives</title>
-        <para>By the end of this section, you will be able to:</para>
+    <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+        <para id="para-00001">By the end of this section, you will be able to:</para>
         <list id="list-00001">
 <item>Calculate thermal conductivity.</item>
 <item>Observe conduction of heat in collisions.</item>
@@ -302,7 +302,78 @@
     <solution id="fs-id2590834">
         <para id="fs-id2000866">Because area is the product of two spatial dimensions, it increases by a factor of four when each dimension is doubled  <m:math><m:semantics><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mi>d</m:mi><m:mrow><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn><m:msup><m:mi>d</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>4</m:mn><m:msub><m:mi>A</m:mi><m:mrow><m:mrow><m:mi>initial</m:mi></m:mrow></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced><m:annotation encoding="StarMath 5.0"> size 12{A rSub { size 8{"final"} } = \( 2d \)  rSup { size 8{2} } =4d rSup { size 8{2} } =4A rSub { size 8{i"nitial"} } } {}</m:annotation></m:semantics></m:math>. The distance, however, simply doubles. Because the temperature difference and the coefficient of thermal conductivity are independent of the spatial dimensions, the rate of heat transfer by conduction increases by a factor of four divided by two, or two:</para><equation id="fs-id723408"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mfenced open="(" close=")"><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mfenced><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>kA</m:mtext></m:mstyle><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>final</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>k</m:mi><m:mfenced open="(" close=")"><m:msub><m:mtext>4A</m:mtext><m:mtext>initial</m:mtext></m:msub></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:msub><m:mn>2d</m:mn><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mrow><m:mfrac><m:mrow><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>kA</m:mtext></m:mstyle><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mfenced></m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:msub><m:mfenced open="(" close=")"><m:mfrac><m:mi>Q</m:mi><m:mi>t</m:mi></m:mfrac></m:mfenced><m:mrow><m:mtext>initial</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ( {  {Q}  over  {t} }  right ) rSub { size 8{"final"} } = {  { ital "kA" rSub { size 8{"final"} }  left (T rSub { size 8{2} }  - T rSub { size 8{1} }  right )}  over  {d rSub { size 8{"final"} } } } = {  {k left (4A rSub { size 8{"initial"} }  right ) left (T rSub { size 8{2} }  - T rSub { size 8{1} }  right )}  over  {2d rSub { size 8{"initial"} } } } =2 {  { ital "kA" rSub { size 8{"initial"} }  left (T rSub { size 8{2} }  - T rSub { size 8{1} }  right )}  over  {d rSub { size 8{"initial"} } } } =2 left ( {  {Q}  over  {t} }  right ) rSub { size 8{"initial"} } } {}</m:annotation></m:semantics></m:math>
      </equation></solution>
-        </exercise><section id="fs-id3063733" class="section-summary">
+        </exercise>
+        <section id="fs-id1773940" type="ap-test-prep" class="ap-test-prep">
+            <title>Test Prep for AP Courses</title>
+          
+            <exercise id="fs-id2327968" type="ap-test-prep"><problem id="fs-id2502945">
+                <para id="fs-id2409127">For the experiment that you devised <link target-id="fs-id3253461" document="m55244"/>, which variables can be changed, and how should they be changed, so as to shorten the time in which a measurement is made?</para><list id="fs-id1863721" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+                  <item>Use a smaller quantity of ice (smaller <emphasis effect="italics">m</emphasis>).</item>
+              <item>Use containers with greater thickness (larger <emphasis effect="italics">d</emphasis>).</item>
+              <item>Use containers with smaller surface areas (smaller <emphasis effect="italics">A</emphasis>).</item>
+              <item>Use a lower ambient temperature outside the container (smaller <emphasis effect="italics">T</emphasis><sub>2</sub>).</item>
+                 </list>
+              </problem>
+              <solution id="fs-id1336936">
+                <para id="fs-id3930596">(a)</para></solution>
+            </exercise><exercise id="fs-id3634426" type="ap-test-prep">
+              <problem id="fs-id2865458">
+                <para id="fs-id2515565">With reference to <link target-id="fs-id3253461" document="m55244"/>, why does the change in the temperature of the ice indicate that it has entirely melted?</para></problem>
+              <!--<solution id="fs-id2555237">
+                <para id="fs-id2168207">All energy transfer by heat from the incubator to the ice is used to change the phase of the ice from solid to liquid water. Only when all of the bonds that hold the water molecules in the solid state are broken (as indicated by the mass of the ice and the latent heat of fusion for ice) can energy be absorbed by the liquid water to increase the kinetic energy of the water molecules. This increase in the average kinetic energy of the molecules is measured as an increase in temperature.</para>
+              </solution>-->
+            </exercise>
+          
+            <exercise id="fs-id2508436" type="ap-test-prep"><problem id="fs-id1279850">
+                <para id="fs-id1736611">Which of the following correctly describes the rate of conductive heat transfer for a substance?</para>
+              <list id="fs-id3213906" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+               <item>The rate decreases with increased surface area and decreased thickness.</item>
+               <item>The rate increases with increased temperature difference and surface area.</item>
+               <item>The rate increases with decreased temperature difference and increased thickness.</item>
+               <item>The rate decreases with decreased temperature difference and increased surface area.</item>
+                 </list>
+              </problem>
+              <solution id="fs-id2496400">
+                <para id="fs-id3938379">(b)</para></solution>
+            </exercise><exercise id="fs-id2387891" type="ap-test-prep">
+              <problem id="fs-id3312124">
+                <para id="fs-id1929979">You wish to design a saucepan that has the same rate of thermal conduction as a pan made of silver. You need to use a less costly material, and limit the size of the pan so that the surface area in contact with a range heating element is no more than 50% greater than that of the hypothetical silver pan. Explain what other factor(s) can be adjusted, and by how much, so that your design will be successful. Use <link target-id="import-auto-id1245788"/> to obtain thermal conductivity values for different substances.</para></problem>
+              <!--<solution id="fs-id1528503">
+                <para id="fs-id1400714">Answers use the equation for thermal conductivity for silver and for an alternate metal, noting that <emphasis effect="italics">Q</emphasis>/<emphasis effect="italics">t</emphasis> and (<emphasis effect="italics">T</emphasis><sub>2</sub> &#8210; <emphasis effect="italics">T</emphasis><sub>1</sub>) are the same for both metals. Possible answers include (1) use copper for the pan, because it is cheaper than silver (though not as cheap as aluminum or iron), and it only needs to be 1.08 times as large in surface area, with the same thickness as the silver pan; (2) design the copper pan to have the same area and be 0.93 times as thick as the silver pan; (3) use aluminum for the pan, make the area 1.5 times as large as that of the silver pan, and reduce the thickness to <m:math><m:mfrac><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>d</m:mi><m:mrow><m:mtext>Ag</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>A1</m:mtext></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>Ag</m:mtext></m:mrow></m:msub><m:msub><m:mi>K</m:mi><m:mrow><m:mtext>Ag</m:mtext></m:mrow></m:msub></m:mrow></m:mfrac><m:mo>=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>Ag</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>220</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:mtext>Ag</m:mtext></m:mrow></m:msub><m:mo stretchy="false">(</m:mo><m:mn>420</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac><m:mo>=</m:mo><m:mn>0.79</m:mn></m:math> times that of the silver pan; and (4) use steel iron for the pan, make the area 1.5 times as large as that of the silver pan, and reduce the thickness to <m:math>
+           <m:mrow>
+            <m:msub>
+             <m:mi>d</m:mi>
+             <m:mrow>
+              <m:mtext>Fe</m:mtext>
+             </m:mrow>
+            </m:msub>
+            <m:mo>=</m:mo><m:msub>
+             <m:mi>A</m:mi>
+             <m:mrow>
+              <m:mtext>Fe</m:mtext>
+             </m:mrow>
+            </m:msub>
+            <m:msub>
+             <m:mi>k</m:mi>
+             <m:mrow>
+              <m:mtext>Fe</m:mtext>
+             </m:mrow>
+            </m:msub>
+            <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.5</m:mn><m:msub>
+             <m:mi>A</m:mi>
+             <m:mrow>
+              <m:mtext>Ag</m:mtext>
+             </m:mrow>
+            </m:msub>
+            <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>80</m:mn><m:mo stretchy="false">)</m:mo>
+           </m:mrow>
+          </m:math>
+           times that of the silver pan.</para>
+              </solution>-->
+            </exercise>
+          </section>
+          
+        <section id="fs-id3063733" class="section-summary">
 <title>Summary</title>
     <list id="fs-id3385715"><item id="import-auto-id3028815">Heat conduction is the transfer of heat between two objects in direct contact with each other.</item>
     <item id="import-auto-id2590834">The rate of heat transfer <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">/</m:mo><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q/t} {}</m:annotation></m:semantics></m:math> (energy per unit time) is proportional to the temperature difference <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} }  - T rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and the contact area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> and inversely proportional to the distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> between the objects:

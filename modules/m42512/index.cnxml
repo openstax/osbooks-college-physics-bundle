@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42512</md:content-id>
   <md:title>Multiple Slit Diffraction</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>86bcf046-c6db-4096-a9de-2e16ea076c84</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Discuss the pattern obtained from diffraction grating.</item>
 <item>Explain diffraction grating effects.</item>
@@ -136,6 +136,24 @@
     <equation id="eip-352"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>y</m:mi><m:mrow><m:mtext>R</m:mtext></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>y</m:mi><m:mrow><m:mtext>V</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo></m:mrow><m:mn>1.52 m.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y rSub { size 8{R} }  - y rSub { size 8{V} } =1 "." 52`m} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737050460"><title>Discussion</title> </para>
     <para id="eip-853">The large distance between the red and violet ends of the rainbow produced from the white light indicates the potential this diffraction grating has as a spectroscopic tool. The more it can spread out the wavelengths (greater dispersion), the more detail can be seen in a spectrum. This depends on the quality of the diffraction grating—it must be very precisely made in addition to having closely spaced lines.</para></example>
 
+    <section id="fs-id1469028" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+    
+      <exercise id="fs-id1817479" type="ap-test-prep"><problem id="fs-id1795090">
+          <para id="fs-id1471439">Which of the following cannot be a possible outcome of passing white light through several evenly spaced parallel slits?</para>
+      <list id="fs-id1773459" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>The central maximum will be white but the higher-order maxima will disperse into a rainbow of colors.</item>
+        <item>The central maximum and higher-order maxima will be of equal widths.</item>
+        <item>The lower wavelength components of light will have less diffraction compared to higher wavelength components for all maxima except the central one.</item>
+        <item>None of the above.</item>
+      </list></problem>
+        <solution id="fs-id2164298">
+          <para id="fs-id1405140">(b)</para>
+        </solution>
+      </exercise><exercise id="fs-id2315626" type="ap-test-prep"><problem id="fs-id1286429">
+          <para id="fs-id2426238">White light is passed through a diffraction grating to a screen some distance away. The <emphasis effect="italics">n</emphasis>th-order diffraction angle for the longest wavelength (760 nm) is 53.13º. Find the <emphasis effect="italics">n</emphasis>th-order diffraction angle for the shortest wavelength (380 nm). What will be the change in the two angles if the distance between the screen and the grating is doubled?</para>
+        </problem>
+      </exercise></section>
+    
   <section id="fs-id1169738145376" class="section-summary">
 <title>Section Summary</title><list id="fs-id1169736611509"><item id="import-auto-id1169738250544">A diffraction grating is a large collection of evenly spaced parallel slits that produces an interference pattern similar to but sharper than that of a double slit.</item>
     <item id="import-auto-id1169737979528">There is constructive interference for a diffraction grating when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">d</m:mo><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">mλ</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>(for</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>0,</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>1,</m:mtext><m:mspace width="0.25em"/><m:mtext>–1,</m:mtext><m:mspace width="0.25em"/><m:mtext>2,</m:mtext><m:mspace width="0.25em"/><m:mtext>–2,</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">…)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d"sin"θ=mλ,`m="0,"`"1,"`"2,"` dotslow } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> is the distance between slits in the grating, <m:math><m:semantics><m:mi>λ</m:mi></m:semantics></m:math>  is the wavelength of light, and <m:math><m:semantics><m:mi>m</m:mi></m:semantics></m:math>  is the order of the maximum.</item>

@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42249</md:content-id>
   <md:title>Superposition and Interference</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>f1b5b000-de07-4a0e-9078-4620a3bc7c34</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Explain standing waves.</item>
 <item>Describe the mathematical representation of overtones and beat frequency.</item>
@@ -141,6 +141,91 @@
 <iframe width="660" height="371.4" src="https://openstax.org/l/28interference"/>
 </media>
 </figure></note>
+
+<section id="fs-id1182588" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1255212" type="ap-test-prep">
+  <problem id="fs-id1390613">
+  <para id="fs-id1174443">A guitar string has a number of frequencies at which it vibrates naturally. Which of the following is true in this context?</para>
+  <list id="fs-id1493209" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>The resonant frequencies of the string are integer multiples of fundamental frequencies.</item>
+  <item>The resonant frequencies of the string are not integer multiples of fundamental frequencies.</item>
+  <item>They have harmonic overtones.</item>
+  <item>None of the above</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1195150">
+  <para id="fs-id2752536">(a)</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id2327948" type="ap-test-prep">
+  <problem id="fs-id1175876">
+  <para id="fs-id1385766">Explain the principle of superposition with figures that show the changes in the wave amplitude.</para>
+  </problem>
+  <solution id="fs-id1190857">
+  <para id="fs-id1360491">The student explains the principle of superposition and then shows two waves adding up to form a bigger wave when a crest adds with a crest and a trough with another trough. Also the student shows a wave getting cancelled out when a crest meets a trough and vice versa.</para>
+  </solution>
+  </exercise>
+  
+  <exercise id="fs-id1946682" type="ap-test-prep">
+  <problem id="fs-id1493098">
+  <para id="fs-id1411060">In this figure which points represent the points of constructive interference?</para>
+  <figure id="fs-id1872150"><media id="fs-id1365218" alt="Two wave generators are shown with their resulting rarefaction and compression marked. Points A, C, D, and E are at the intersection of two compression lines. Point B is at the intersection of two rarefaction lines. Point F is at the intersection of a compression line and a rarefaction line.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_16_M10_rarefaction_img.jpg"/>
+  </media>
+  </figure><list id="fs-id1942751" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>A, B, F</item>
+  <item>A, B, C, D, E, F</item>
+  <item>A, C, D, E</item>
+  <item>A, B, D</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1375337">
+  <para id="fs-id1309483">(c)</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1341180" type="ap-test-prep">
+  <problem id="fs-id3157866">
+  <para id="fs-id1179762">A string is fixed on both sides. It is snapped from both ends at the same time by applying an equal force. What happens to the shape of the waves generated in the string? Also, will you observe an overlap of waves?</para>
+  </problem>
+  <solution id="fs-id814816">
+  <para id="fs-id1318692">The student must note that the shape of the wave remains the same and there is first an overlap and then receding of the waves.</para>
+  </solution>
+  </exercise>
+  
+  <exercise id="fs-id1697572" type="ap-test-prep">
+  <problem id="fs-id1240012">
+  <para id="fs-id2675942">In the preceding question, what would happen to the amplitude of the waves generated in this way? Also, consider another scenario where the string is snapped up from one end and down from the other end. What will happen in this situation?</para>
+  </problem>
+  <!--<solution id="fs-id1802045">
+  <para id="fs-id2319221">In the first case, constructive interference will take place and the amplitudes of the waves will add up to give bigger amplitude. In the second case, destructive interference will take place and the amplitude of the resultant wave will be less.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id2043966" type="ap-test-prep">
+  <problem id="fs-id1873037">
+  <para id="fs-id1326582">Two sine waves travel in the same direction in a medium. The amplitude of each wave is <emphasis effect="italics">A</emphasis>, and the phase difference between the two is 180°. What is the resultant amplitude?</para>
+  <list id="fs-id2048138" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>2<emphasis effect="italics">A</emphasis></item>
+  <item>3<emphasis effect="italics">A</emphasis></item>
+  <item>0</item>
+  <item>9<emphasis effect="italics">A</emphasis></item>
+  </list>
+  </problem>
+  <solution id="fs-id1818312">
+  <para id="fs-id2551091">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1009420" type="ap-test-prep">
+  <problem id="fs-id2535597">
+  <para id="fs-id2352968">Standing wave patterns consist of nodes and antinodes formed by repeated interference between two waves of the same frequency traveling in opposite directions. What are nodes and antinodes and how are they produced?</para>
+  </problem>
+  <!--<solution id="fs-id1343355">
+  <para id="fs-id1977380">Nodes are points of no displacement formed due to destructive interference of the two waves that interfere to produce a standing wave pattern. Antinodes are points of maximum displacement produced as a result of constructive interference between two waves.</para>
+  </solution>-->
+  </exercise>
+  </section>
 <section id="fs-id1412682" class="section-summary"><title>Section Summary</title><list id="fs-id1304434"><item id="import-auto-id2054185">Superposition is the combination of two waves at the same location.</item>
     <item id="import-auto-id1941066">Constructive interference occurs when two identical waves are superimposed in phase.</item>
     <item id="import-auto-id3358537">Destructive interference occurs when two identical waves are superimposed exactly out of phase.</item>

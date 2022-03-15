@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42462</md:content-id>
   <md:title>Total Internal Reflection</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>00b1a523-3d56-49c4-bee1-dbb68cd25660</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain the phenomenon of total internal reflection.</item>
 <item>Describe the workings and uses of fiber optics.</item>
@@ -198,7 +198,30 @@
 <para id="import-auto-id1169737991768">Explore bending of light between two media with different indices of refraction. See how changing from air to water to glass changes the bending angle. Play with prisms of different shapes and make rainbows. <newline/>
 <figure id="eip-idm548198864"><media id="fs-id1167065851428" alt="This simulation allows you to explore bending of light between two media with different indices of refraction">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28Bendinglight"/></media>
-</figure></para></note><section id="fs-id3096337" class="section-summary"><title>Section Summary</title><list id="import-auto-id2637388" list-type="bulleted"><item>The incident angle that produces an angle of refraction of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90"°} {}</m:annotation></m:semantics></m:math> is called critical angle.</item>
+</figure></para></note>
+<section id="fs-id2432948" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2269119" type="ap-test-prep"><problem id="fs-id1816523">
+  <para id="fs-id2716961">As light travels from air into water, what happens to the frequency of the light? Consider how the wavelength and speed of light change; then use the relationship between speed, wavelength, and frequency for a wave. What about light that is reflected off the surface of water? What happens to its wavelength, speed, and frequency?</para>
+  </problem>
+  <!--<solution id="fs-id1539297">
+  <para id="fs-id1524798">Both the speed and wavelength of light decrease by a factor n, where n is the index of refraction of the water. Since the frequency depends on <math display="inline">
+   <mrow>
+    <mfrac>
+     <mrow>
+      <mtext>speed</mtext>
+     </mrow>
+     <mrow>
+      <mtext>wavelength</mtext>
+     </mrow>
+    </mfrac>
+  
+   </mrow>
+  </math>, and both decrease by the same amount, the frequency remains constant.</para>
+  <para id="fs-id2562384">Since light reflecting off of water does not move into a new medium, its wavelength, speed, and frequency remain the same.</para>
+  </solution>--></exercise></section>
+  
+<section id="fs-id3096337" class="section-summary"><title>Section Summary</title><list id="import-auto-id2637388" list-type="bulleted"><item>The incident angle that produces an angle of refraction of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90"°} {}</m:annotation></m:semantics></m:math> is called critical angle.</item>
 <item>Total internal reflection is a phenomenon that occurs at the boundary between two mediums, such that if the incident angle in the first medium is greater than the critical angle, then all the light is reflected back into that medium.</item>
 <item>Fiber optics involves the transmission of light down fibers of plastic or glass, applying the principle of total internal reflection.</item>
 <item>Endoscopes are used to explore the body through various orifices or minor incisions, based on the transmission of light through optical fibers.</item>

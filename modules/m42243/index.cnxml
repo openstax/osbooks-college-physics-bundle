@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42243</md:content-id>
   <md:title>The Simple Pendulum</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>1b81c792-239f-4107-9e94-37233e6f7e92</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Measure acceleration due to gravity.</item>
 </list>
@@ -434,6 +434,173 @@ g
 <iframe width="660" height="371.4" src="https://openstax.org/l/02pendulum"/>
 </media>
 </figure></note>
+
+<section id="fs-id2530681" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1382257" type="ap-test-prep">
+  <problem id="fs-id2007215">
+  <para id="fs-id1679857">A ball is attached to a string of length 4 m to make a pendulum. The pendulum is placed at a location that is away from the Earth’s surface by twice the radius of the Earth. What is the acceleration due to gravity at that height and what is the period of the oscillations?</para>
+  </problem>
+  <!--<solution id="fs-id1511100">
+  <para id="fs-id1909097">The acceleration due to gravity is given by</para>
+  <para id="fs-id2616355">
+  <m:math display="block">
+   <m:mi>g</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mi>G</m:mi><m:mi>M</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mrow>
+       <m:mo stretchy="false">(</m:mo><m:mi>R</m:mi><m:mo>+</m:mo><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo>
+      </m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+  
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>9</m:mn>
+   </m:mfrac>
+   <m:mfrac>
+    <m:mrow>
+     <m:mi>G</m:mi><m:mi>M</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>R</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+  
+    </m:mrow>
+   </m:mfrac>
+   <m:mo>=</m:mo><m:mfrac>
+    <m:mi>g</m:mi>
+    <m:mn>9</m:mn>
+   </m:mfrac>
+  
+  </m:math>
+  </para>
+  
+  
+  <para id="fs-id1739646">The period of the pendulum is given by:</para>
+  <para id="fs-id1962179">
+  <m:math display="block">
+   <m:mi>T</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>2</m:mn><m:mi>&#960;</m:mi><m:msqrt>
+    <m:mrow>
+     <m:mfrac>
+      <m:mi>L</m:mi>
+      <m:mi>g</m:mi>
+     </m:mfrac>
+  
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>=</m:mo><m:mn>2</m:mn><m:mi>&#960;</m:mi><m:msqrt>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mn>4</m:mn><m:mi>m</m:mi><m:mo>&#215;</m:mo><m:mn>9</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mn>9.8</m:mn><m:mi>m</m:mi><m:mo>&#8901;</m:mo><m:msup>
+        <m:mi>s</m:mi>
+        <m:mrow>
+         <m:mo>&#8722;</m:mo><m:mn>2</m:mn>
+        </m:mrow>
+       </m:msup>
+  
+      </m:mrow>
+     </m:mfrac>
+  
+    </m:mrow>
+   </m:msqrt>
+   <m:mo>=</m:mo><m:mn>12</m:mn><m:mi>s</m:mi>
+  </m:math>
+  </para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1877058" type="ap-test-prep">
+  <problem id="fs-id3933942">
+  <para id="fs-id1865709">Which of the following gives the correct relation between the acceleration due to gravity and period of a pendulum?</para>
+  <list id="fs-id3914186" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item><m:math>
+   <m:mi>g</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>L</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+  
+    </m:mrow>
+   </m:mfrac>
+  
+  </m:math>
+  </item>
+  <item><m:math>
+   <m:mi>g</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mn>4</m:mn><m:msup>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mi>L</m:mi>
+    </m:mrow>
+    <m:mrow>
+     <m:msup>
+      <m:mi>T</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+  
+    </m:mrow>
+   </m:mfrac>
+  
+  </m:math>
+  </item>
+  <item><m:math>
+   <m:mi>g</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:mi>π</m:mi><m:mi>L</m:mi>
+    </m:mrow>
+    <m:mi>T</m:mi>
+   </m:mfrac>
+  
+  </m:math>
+  </item>
+  <item><m:math>
+   <m:mi>g</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msup>
+      <m:mi>π</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mi>L</m:mi>
+    </m:mrow>
+    <m:mi>T</m:mi>
+   </m:mfrac>
+  
+  </m:math>
+  </item>
+  </list></problem>
+  
+  <solution id="fs-id2716491">
+  <para id="fs-id1382475">(b)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1348247" type="ap-test-prep">
+  <problem id="fs-id1618085">
+  <para id="fs-id1512694">Tom has two pendulums with him. Pendulum 1 has a ball of mass 0.1 kg attached to it and has a length of 5 m. Pendulum 2 has a ball of mass 0.5 kg attached to a string of length 1 m. How does mass of the ball affect the frequency of the pendulum? Which pendulum will have a higher frequency and why?</para>
+  </problem>
+  <!--<solution id="fs-id1929583">
+  <para id="fs-id1271400">The mass of the ball of the pendulum will not affect the period; hence it will not affect the frequency of the pendulum. Only the length of the pendulum matters. Pendulum 2 will have higher frequency as it has a shorter string. A shorter string oscillates with smaller period and hence will have higher frequency.</para>
+  </solution>-->
+  </exercise>
+  </section>
+  
+  
 <section id="fs-id3189523" class="section-summary"><title>Section Summary</title><list id="fs-id1909628"><item id="import-auto-id3008898">A mass <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math></emphasis> suspended by a wire of length <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> is a simple pendulum and undergoes simple harmonic motion for amplitudes less than about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>15º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"15"°} {}</m:annotation></m:semantics><m:mo>.</m:mo></m:math>
     <para id="import-auto-id1516413">The period of a simple pendulum is</para>
     <equation id="eip-362"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:msqrt><m:mfrac><m:mi>L</m:mi><m:mi>g</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=2π sqrt { {  {L}  over  {g} } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2459109">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> is the length of the string and <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the acceleration due to gravity.</para>

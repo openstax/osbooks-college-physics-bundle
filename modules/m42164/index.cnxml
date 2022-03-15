@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42164</md:content-id>
   <md:title>Inelastic Collisions in One Dimension</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>9f4cace5-1963-43b0-bfca-2ab221ed2c7a</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Define inelastic collision.</item>
 <item>Explain perfectly inelastic collision.</item>
@@ -812,6 +812,106 @@ The coefficient of restitution <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:m
         </m:semantics>
       </m:math>
     </equation><para id="eip-127"><title>Discussion</title></para><para id="import-auto-id1811301">The final velocity of cart 2 is large and positive, meaning that it is moving to the right after the collision. The internal kinetic energy in this collision increases by 5.46 J. That energy was released by the spring.</para></example>
+
+<section id="fs-id1742917" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2060437" type="ap-test-prep">
+    <problem id="fs-id2401475">
+<para id="fs-id2716253">Mass A (2.0 kg) has an initial velocity of 4 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Mass B (2.0 kg) has an initial velocity of 5 m/s in the –<emphasis effect="italics">x</emphasis>-direction. If the two masses have an elastic collision, what will be the final velocities of the masses after the collision?</para>
+<list id="fs-id1845484" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>Both will move 0.5 m/s in the –<emphasis effect="italics">x</emphasis>-direction.</item>
+<item>Mass A will stop; mass B will move 9 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+<item>Mass B will stop; mass A will move 9 m/s in the –<emphasis effect="italics">x</emphasis>-direction.</item>
+<item>Mass A will move 5 m/s in the –<emphasis effect="italics">x</emphasis>-direction; mass B will move 4 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+</list></problem>
+<solution id="fs-id1495726"><para id="fs-id1811938">(d)</para></solution>
+</exercise>
+  <exercise id="fs-id1367751" type="ap-test-prep"><problem id="fs-id2867675">
+<para id="fs-id1736858">Mass A has an initial velocity of 22 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Mass B is three times more massive than mass A and has an initial velocity of 22 m/s in the –<emphasis effect="italics">x</emphasis>-direction. If the two masses have an elastic collision, what will be the final velocities of the masses after the collision?</para>
+</problem>
+</exercise><exercise id="fs-id2025404" type="ap-test-prep">
+    <problem id="fs-id2345876">
+<para id="fs-id1925661">Mass A (2.0 kg) is moving with an initial velocity of 15 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and it collides with mass B (5.0 kg), initially at rest. After the collision, the two objects stick together and move as one. What is the change in kinetic energy of the system as a result of the collision?</para>
+<list id="fs-id3201754" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>no change</item>
+<item>decrease by 225 J</item>
+<item>decrease by 161 J</item>
+<item>decrease by 64 J</item>
+</list>
+</problem>
+<solution id="fs-id2222842"><para id="fs-id2328541">(c). Because of conservation of momentum, the final velocity of the combined mass must be 4.286 m/s. The initial kinetic energy is <m:math display="inline">
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.0</m:mn><m:mo stretchy="false">)</m:mo><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>15</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>225</m:mn><m:mtext> J</m:mtext>
+ </m:mrow>
+</m:math>
+. The final kinetic energy is <m:math display="inline">
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>7.0</m:mn><m:mo stretchy="false">)</m:mo><m:msup>
+   <m:mrow>
+    <m:mo stretchy="false">(</m:mo><m:mn>4.286</m:mn><m:mo stretchy="false">)</m:mo>
+   </m:mrow>
+   <m:mn>2</m:mn>
+  </m:msup>
+  <m:mo>=</m:mo><m:mn>64</m:mn><m:mtext> J</m:mtext>
+ </m:mrow>
+</m:math>
+, so the difference is −161 J.</para></solution>
+</exercise>
+  <exercise id="fs-id2702942" type="ap-test-prep"><problem id="fs-id1965703">
+<para id="fs-id2699524">Mass A (2.0 kg) is moving with an initial velocity of 15 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and it collides with mass B (4.0 kg), initially moving 7.0 m/s in the +<emphasis effect="italics">x</emphasis>-direction. After the collision, the two objects stick together and move as one. What is the change in kinetic energy of the system as a result of the collision?</para>
+</problem>
+</exercise><exercise id="fs-id1414077" type="ap-test-prep">
+    <problem id="fs-id890724">
+<para id="fs-id2167027">Mass A slides across a rough table with an initial velocity of 12 m/s in the +<emphasis effect="italics">x</emphasis>-direction. By the time mass A collides with mass B (a stationary object with equal mass), mass A has slowed to 10 m/s. After the collision, the two objects stick together and move as one. Immediately after the collision, the velocity of the system is measured to be 5 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and the system eventually slides to a stop. Which of the following statements is true about this motion?</para>
+<list id="fs-id2714238" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Momentum is conserved during the collision, but it is not conserved during the motion before and after the collision.</item>
+<item>Momentum is not conserved at any time during this analysis.</item>
+<item>Momentum is conserved at all times during this analysis.</item>
+<item>Momentum is not conserved during the collision, but it is conserved during the motion before and after the collision.</item>
+</list>
+</problem>
+<solution id="fs-id1408418"><para id="fs-id1408419">(a)</para></solution>
+</exercise>
+  <exercise id="fs-id2427911" type="ap-test-prep"><problem id="fs-id1473150">
+<para id="fs-id2721766">Mass A is initially moving with a velocity of 12 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Mass B is twice as massive as mass A and is initially at rest. After the two objects collide, the two masses move together as one with a velocity of 4 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Is momentum conserved in this collision?</para>
+</problem>
+</exercise><exercise id="fs-id2061215" type="ap-test-prep">
+    <problem id="fs-id2399717">
+<para id="fs-id1799107">Mass A is initially moving with a velocity of 24 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Mass B is twice as massive as mass A and is initially at rest. The two objects experience a totally inelastic collision. What is the final speed of both objects after the collision?</para>
+<list id="fs-id1454406" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>A is not moving; B is moving 24 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+<item>Neither A nor B is moving.</item>
+<item>A is moving 24 m/s in the –<emphasis effect="italics">x</emphasis>-direction. B is not moving.</item>
+<item>Both A and B are moving together 8 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+</list>
+</problem>
+<solution id="fs-id1850308"><para id="fs-id1546775">(d)</para></solution>
+</exercise>
+  <exercise id="fs-id1422524" type="ap-test-prep"><problem id="fs-id2518523">
+<para id="fs-id2388023">Mass A is initially moving with some unknown velocity in the +<emphasis effect="italics">x</emphasis>-direction. Mass B is twice as massive as mass A and initially at rest. The two objects collide, and after the collision, they move together with a speed of 6 m/s in the +<emphasis effect="italics">x</emphasis>-direction. (a) Is this collision elastic or inelastic? Explain. (b) Determine the initial velocity of mass A.</para>
+</problem>
+</exercise><exercise id="fs-id1538341" type="ap-test-prep">
+    <problem id="fs-id2663222">
+<para id="fs-id2871940">Mass A is initially moving with a velocity of 2 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Mass B is initially moving with a velocity of 6 m/s in the –<emphasis effect="italics">x</emphasis>-direction. The two objects have equal masses. After they collide, mass A moves with a speed of 4 m/s in the –<emphasis effect="italics">x</emphasis>-direction. What is the final velocity of mass B after the collision?</para>
+<list id="fs-id1321180" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>6 m/s in the +<emphasis effect="italics">x</emphasis>-direction</item>
+<item>4 m/s in the +<emphasis effect="italics">x</emphasis>-direction</item>
+<item>zero</item>
+<item>4 m/s in the –<emphasis effect="italics">x</emphasis>-direction</item>
+</list>
+</problem>
+<solution id="fs-id2715196"><para id="fs-id2715197">(c)</para></solution>
+</exercise>
+  <exercise id="fs-id1886734" type="ap-test-prep"><problem id="fs-id1925559">
+<para id="fs-id3207046">Mass A is initially moving with a velocity of 15 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Mass B is twice as massive and is initially moving with a velocity of 10 m/s in the –<emphasis effect="italics">x</emphasis>-direction. The two objects collide, and after the collision, mass A moves with a speed of 15 m/s in the –<emphasis effect="italics">x</emphasis>-direction. (a) What is the final velocity of mass B after the collision? (b) Calculate the change in kinetic energy as a result of the collision, assuming mass A is 5.0 kg.</para>
+</problem>
+</exercise></section>
+
 <section id="fs-id2209262" class="section-summary">
     <title>Section Summary</title><list id="fs-id2648571"><item id="import-auto-id1657908">An inelastic collision is one in which the internal kinetic energy changes (it is not conserved).</item>
     <item id="import-auto-id1497618">A collision in which the objects stick together is sometimes called perfectly inelastic because it reduces internal kinetic energy more than does any other type of inelastic collision.</item>

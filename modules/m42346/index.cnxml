@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42346</md:content-id>
   <md:title>Resistance and Resistivity</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>a5e2058d-3bf0-4538-9e0d-d72e24a9acfd</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain the concept of resistivity.</item>
 <item>Use resistivity to calculate the resistance of specified configurations of material.</item>
@@ -1798,6 +1798,91 @@
 <media id="eip-idm669429680" alt="This simulation shows you the physics of resistance in a wire.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/21resistwire"/>
 </media></figure></note></section>
+
+<section id="fs-id1973756" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id1973763" type="ap-test-prep">
+    <problem id="fs-id2518581">
+      <para id="fs-id2518583">Which of the following affect the resistivity of a wire?</para>
+      <list id="fs-id2518586" list-type="enumerated" number-style="lower-alpha">
+        <item>length</item>
+	<item>area of cross section</item>
+	<item>material</item>
+	<item>all of the above</item>
+      </list>
+    </problem>
+    <!--<solution id="fs-id2868483">
+      <para id="fs-id2868485">(c)</para></solution>-->
+  </exercise>
+
+  <exercise id="fs-id2856008" type="ap-test-prep">
+    <problem id="fs-id2856011">
+      <para id="fs-id2856013">The lengths and diameters of four wires are given as shown.</para><figure id="fs-id2856016"><label/><media id="fs-id3189530" alt="The figure shows four cylinders representing sections of wire. The length and diameter of the wires are indicated graphically and with labels below. The wires labeled 2L are the same length and twice as long as the wires labeled L. The wires labeled 2D are twice as thick as the wires labeled D. Wire 1: 2L, D (long, thin). Wire 2: L, D (short, thin). Wire 3: 2L, 2D (long, thick). Wire 4: L, 2D (short, thick).">
+          <image mime-type="image/jpg" src="../../media/CNX_APPhysics_20_M3_S03_img.jpg"/>
+        </media>
+
+      </figure><para id="fs-id1743880">If the four wires are made from the same material, which of the following is true? Select <emphasis effect="italics">two</emphasis> answers.</para>
+      <list id="fs-id2305884" list-type="enumerated" number-style="lower-alpha">
+	<item>Resistance of Wire 3 > Resistance of Wire 2</item>
+	<item>Resistance of Wire 1 > Resistance of Wire 2</item>
+	<item>Resistance of Wire 1 &lt; Resistance of Wire 4 </item>
+	<item>Resistance of Wire 4 &lt; Resistance of Wire 3</item>
+      </list>
+    </problem>
+    <solution id="fs-id1981693">
+      <para id="fs-id1981695">(b), (d)</para></solution>
+  </exercise>
+  <exercise id="fs-id1981700" type="ap-test-prep">
+    <problem id="fs-id1941579">
+      <para id="fs-id1941582">Suppose the resistance of a wire is <emphasis effect="italics">R</emphasis> Ω. What will be the resistance of another wire of the same material having the same length but double the diameter?</para>
+	<list id="fs-id3170463" list-type="enumerated" number-style="lower-alpha">
+	<item><emphasis effect="italics">R</emphasis>/2</item>
+	<item>2<emphasis effect="italics">R</emphasis></item>
+	<item><emphasis effect="italics">R</emphasis>/4</item>
+	<item>4<emphasis effect="italics">R</emphasis></item>
+	</list>
+    </problem>
+    <!--<solution id="fs-id1742946">
+      <para id="fs-id1742948">(c)</para></solution>-->
+  </exercise>
+  <exercise id="fs-id1742954" type="ap-test-prep">
+    <problem id="fs-id2422095">
+      <para id="fs-id2422097">The resistances of two wires having the same lengths and cross section areas are 3 Ω and 11 Ω. If the resistivity of the 3 Ω wire is 2.65 × 10<sup>−8</sup> Ω∙m, find the resistivity of the 1 Ω wire.</para></problem>
+    <solution id="fs-id2089046">
+      <para id="fs-id2089048">9.72 × 10<sup>−8</sup> Ω∙m</para>
+    </solution>
+  </exercise>
+  <exercise id="fs-id2387820" type="ap-test-prep">
+    <problem id="fs-id2387823">
+      <para id="fs-id2387825">The lengths and diameters of three wires are given below. If they all have the same resistance, find the ratio of their resistivities.</para>
+<table id="fs-id2161493" summary="The table has three columns labeled Wire, Length, and Diameter. The rows underneath the columns show Wire 1, 2m length, 1 cm diameter; Wire 2, 1 m length, 0.5 cm diameter; and Wire 3, 1m length, 1 cm diameter.">
+<tgroup cols="3"><tbody>
+<row><entry><emphasis effect="italics">Wire</emphasis></entry><entry><emphasis effect="italics">Length</emphasis></entry><entry><emphasis effect="italics">Diameter</emphasis></entry></row>
+<row><entry>Wire 1</entry><entry>2 m</entry><entry>1 cm</entry></row>
+<row><entry>Wire 2</entry><entry>1 m</entry><entry>0.5 cm</entry></row>
+<row><entry>Wire 3</entry><entry>1 m</entry><entry>1 cm</entry></row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+    <!--<solution id="fs-id2369781">
+      <para id="fs-id2595779">2:1:4</para>
+    </solution>-->
+  </exercise>
+
+  <exercise id="fs-id2595784" type="ap-test-prep">
+    <problem id="fs-id2595788">
+      <para id="fs-id4526642">Suppose the resistance of a wire is 2 Ω. If the wire is stretched to three times its length, what will be its resistance? Assume that the volume does not change.</para>
+    </problem>
+    <solution id="fs-id4526649">
+      <para id="fs-id4526651">18 Ω</para>
+    </solution>
+  </exercise>
+
+</section>
+
     <section id="fs-id2423329" class="section-summary"><title>Section Summary</title><list id="fs-id3176599"><item id="import-auto-id3017858">The resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> of a cylinder of length <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> and cross-sectional area <m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>R</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi fontstyle="italic">ρL</m:mi><m:mi>A</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R =  {  {ρL}  over  {A} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> is the resistivity of the material.</item>
     <item id="import-auto-id2684104">Values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>ρ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ} {}</m:annotation></m:semantics></m:math> in <link target-id="import-auto-id1375921"/> show that materials fall into three groups—<emphasis effect="italics">conductors, semiconductors, and insulators</emphasis>.</item>
     <item id="import-auto-id3008174">Temperature affects resistivity; for relatively small temperature changes <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{DT} {}</m:annotation></m:semantics></m:math>, resistivity is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>ρ</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>ρ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mtext>1 </m:mtext><m:mo stretchy="false">+</m:mo><m:mi fontstyle="italic">α</m:mi><m:mn>Δ</m:mn><m:mi>T</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ = ρ rSub { size 8{0} }  \( "1 "+ αΔT \) } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>ρ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ρ rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the original resistivity and <m:math>

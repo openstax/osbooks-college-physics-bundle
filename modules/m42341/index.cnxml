@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42341</md:content-id>
   <md:title>Current</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>ddcb78bf-7739-4aea-abd2-ab6c07a16bf4</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Define electric current, ampere, and drift velocity</item>
 <item>Describe the direction of charge flow in conventional current.</item>
@@ -1208,6 +1208,49 @@ m/s.
     </para>
     <para id="import-auto-id1910951">The minus sign indicates that the negative charges are moving in the direction opposite to conventional current. The small value for drift velocity (on the order of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{ - 4} } `"m/s"} {}</m:annotation></m:semantics></m:math>) confirms that the signal moves on the order of <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>12</m:mtext></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{"12"} } } {}</m:annotation></m:semantics></m:math> times faster (about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"10" rSup { size 8{8} } `"m/s"} {}</m:annotation></m:semantics></m:math>) than the charges that carry it.</para></example></section>
 
+    <section id="fs-id1849132" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+    
+      <exercise id="fs-id2221393" type="ap-test-prep"><problem id="fs-id2221396">
+          <para id="fs-id2316582">Which of the following can be explained on the basis of conservation of charge in a closed circuit consisting of a battery, resistor, and metal wires?</para>
+    <list id="fs-id2316587" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+    <item>The number of electrons leaving the battery will be equal to the number of electrons entering the battery.</item>
+    <item>The number of electrons leaving the battery will be less than the number of electrons entering the battery.</item>
+    <item>The number of protons leaving the battery will be equal to the number of protons entering the battery.</item>
+    <item>The number of protons leaving the battery will be less than the number of protons entering the battery.</item>
+    </list>
+        </problem>
+        <solution id="fs-id2305886">
+          <para id="fs-id2305888">(a)</para></solution>
+      </exercise><exercise id="fs-id2408913" type="ap-test-prep"><problem id="fs-id2408916">
+          <para id="fs-id2408918">When a battery is connected to a bulb, there is 2.5 A of current in the circuit. What amount of charge will flow though the circuit in a time of 0.5 s?</para>
+          <list id="fs-id2719643" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+            <item>0.5 C</item>
+      <item>1 C</item>
+      <item>1.25 C</item>
+      <item>1.5 C</item>
+          </list>
+        </problem>
+        <!--<solution id="fs-id2300412">
+          <para id="fs-id2826582">(c)</para></solution>-->
+      </exercise><exercise id="fs-id2826587" type="ap-test-prep">
+        <problem id="fs-id2826590">
+          <para id="fs-id2576151">If 0.625 × 10<sup>20</sup> electrons flow through a circuit each second, what is the current in the circuit?</para>
+        </problem>
+        <solution id="fs-id2576159">
+          <para id="fs-id3741385">10 A</para>
+        </solution>
+      </exercise>
+      <exercise id="fs-id3741390" type="ap-test-prep">
+        <problem id="fs-id3741394">
+          <para id="fs-id2518580">Two students calculate the charge flowing through a circuit. The first student concludes that 300 C of charge flows in 1 minute. The second student concludes that 3.125 × 10<sup>19</sup> electrons flow per second. If the current measured in the circuit is 5 A, which of the two students (if any) have performed the calculations correctly?</para>
+        </problem>
+        <!--<solution id="fs-id2549910">
+          <para id="fs-id2549912">Both students are correct.</para>
+        </solution>-->
+      </exercise>
+    </section>
+    
     <section id="fs-id2206674" class="section-summary"><title>Section Summary</title><list id="fs-id3080846"><item id="import-auto-id2210060">Electric current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I } {}</m:annotation></m:semantics></m:math> is the rate at which charge flows, given by
 
 <equation id="eip-id2583201"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Q</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow>

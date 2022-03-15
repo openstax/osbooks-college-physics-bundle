@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42540</md:content-id>
   <md:title>Relativistic Addition of Velocities</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>e3a41220-af3f-40c6-b8ba-1a5d1bcbed92</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Calculate relativistic velocity addition.</item>
 <item>Explain when relativistic velocity addition should be used instead of classical addition of velocities.</item>
@@ -533,7 +533,36 @@
         </m:semantics>
       </m:math>
     </equation>
-</solution>    </exercise><section id="fs-id2507047" class="section-summary"><title>Section Summary</title><list id="fs-id2801138"><item id="import-auto-id1562297">With classical velocity addition, velocities add like regular numbers in one-dimensional motion: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">u=v+u</m:mtext><m:mrow><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "u=v+u" rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the velocity between two observers,
+</solution>    </exercise>
+
+<section id="fs-id2402576" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id3762172" type="ap-test-prep"><problem id="fs-id2665202">
+      <para id="fs-id1477037">What happens when velocities comparable to the speed of light are involved in an observation?</para>
+<list id="fs-id1477040" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Newton’s second law of motion, <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi>
+ </m:mrow>
+</m:math>
+, governs the motion of the object.</item>
+<item>Newton’s second law of motion, <m:math>
+ <m:mrow>
+  <m:mi>F</m:mi><m:mo>=</m:mo><m:mi>m</m:mi><m:mi>a</m:mi>
+ </m:mrow>
+</m:math>
+, no longer governs the dynamics of the object.</item>
+<item>Such velocities cannot be determined mathematically.</item>
+<item>None of the above</item>
+</list>
+</problem>
+</exercise><exercise id="fs-id2630419" type="ap-test-prep">
+    <problem id="fs-id2630422">
+<para id="fs-id2329790">How is the relativistic Doppler effect different from the classical Doppler effect?</para>
+</problem>
+<solution id="fs-id1862343"><para id="fs-id1862344">The relativistic Doppler effect takes into account the special relativity concept of time dilation and also does not require a medium of propagation to be used as a point of reference (light does not require a medium for propagation).</para></solution></exercise>
+</section>
+<section id="fs-id2507047" class="section-summary"><title>Section Summary</title><list id="fs-id2801138"><item id="import-auto-id1562297">With classical velocity addition, velocities add like regular numbers in one-dimensional motion: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext fontstyle="italic">u=v+u</m:mtext><m:mrow><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "u=v+u" rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the velocity between two observers,
 
 <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u} {}</m:annotation></m:semantics></m:math> is the velocity of an object relative to one observer, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>u</m:mi><m:mo>′</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{u rSup { size 8{'} } } {}</m:annotation></m:semantics></m:math> is the velocity relative to the other observer.</item>
     <item id="import-auto-id1618594">Velocities cannot add to be greater than the speed of light. Relativistic velocity addition describes the velocities of an object moving at a relativistic speed:

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42132</md:content-id>
   <md:title>Further Applications of Newton’s Laws of Motion</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>c372561e-08e8-41a1-ba72-9b4c00394c2d</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Apply problem-solving techniques to solve for quantities in more complex systems of forces.</item>
 <item>Integrate concepts from kinematics to solve problems using Newton's laws of motion.</item>
@@ -654,6 +654,43 @@ F rSub { size 8{s} } ="735"" N" "."  {}
       </example>
   </section>
 
+  <section id="fs-id1925843" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id1471760" type="ap-test-prep">
+    <problem id="fs-id1910401">
+    <para id="fs-id882223">A basketball player jumps as he shoots the ball. Describe the forces that are acting on the ball and on the basketball player. What are the results?</para></problem>
+    <!--<solution id="fs-id2159182">
+    <para id="fs-id1056667">As the player jumps, he exerts a force on Earth. Earth exerts an equal force upward on the player. Since the player is holding the ball, this upward force is also exerted on the ball. As the player shoots the ball, the muscles and bones in his arms are causing a force that propels the ball upward. The ball exerts a force equal in magnitude but opposite in direction on the player, pushing him downward.</para>
+    <para id="fs-id2302819">As a result, the player accelerates upward, and the ball also accelerates upward. The ball accelerates faster than it would if the player were not also jumping. The player accelerates slower than he would if he were not shooting the ball while he jumps.</para>
+    </solution>-->
+    </exercise>
+    
+    <exercise id="fs-id1669265" type="ap-test-prep">
+    <problem id="fs-id1797000">
+    <para id="fs-id1592863">Two people push on a boulder to try to move it. The mass of the boulder is 825 kg. One person pushes north with a force of 64 N. The other pushes west with a force of 38 N. Predict the magnitude of the acceleration of the boulder. Assume that friction is negligible.</para></problem>
+    <solution id="fs-id1481814">
+    <para id="fs-id1689746">A free-body diagram would show a northward force of 64 N and a westward force of 38 N. The net force is equal to the sum of the two applied forces. It can be found using the Pythagorean theorem:</para>
+    <para id="fs-id1607775"><m:math><m:mrow><m:mtable><m:mtr><m:mtd><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo>=</m:mo></m:mrow></m:mtd><m:mtd><m:mrow><m:msqrt><m:mrow><m:msub><m:mi>F</m:mi><m:mi>x</m:mi></m:msub><m:msup><m:mrow/><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msub><m:mi>F</m:mi><m:mi>y</m:mi></m:msub><m:msup><m:mrow/><m:mi>w</m:mi></m:msup></m:mrow></m:msqrt></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow/></m:mtd><m:mtd><m:mrow><m:mo>=</m:mo><m:msqrt><m:mrow><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>38</m:mn><m:mtext> </m:mtext><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup><m:mo>+</m:mo><m:msup><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>64</m:mn><m:mtext>​</m:mtext><m:mtext> </m:mtext><m:mtext>N</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow/></m:mtd><m:mtd><m:mrow><m:mo>=</m:mo><m:mn>74.4</m:mn><m:mtext> </m:mtext><m:mtext>N</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+    <para id="fs-id1472190">Since <m:math><m:mrow><m:mi>a</m:mi><m:mo>=</m:mo><m:mfrac><m:mi>F</m:mi><m:mi>m</m:mi></m:mfrac></m:mrow></m:math>,</para>
+    <para id="fs-id1620032"><m:math><m:mrow><m:mtable><m:mtr><m:mtd><m:mi>a</m:mi></m:mtd><m:mtd><m:mrow><m:mo>=</m:mo><m:mfrac><m:mrow><m:mn>74.4</m:mn><m:mtext> </m:mtext><m:mtext>N</m:mtext></m:mrow><m:mrow><m:mn>825</m:mn><m:mtext> </m:mtext><m:mtext>kg</m:mtext></m:mrow></m:mfrac></m:mrow></m:mtd></m:mtr><m:mtr><m:mtd><m:mrow/></m:mtd><m:mtd><m:mrow><m:mo>=</m:mo><m:mn>0.09</m:mn><m:mtext> </m:mtext><m:msup><m:mrow><m:mtext>m/s</m:mtext></m:mrow><m:mtext>2</m:mtext></m:msup></m:mrow></m:mtd></m:mtr></m:mtable></m:mrow></m:math></para>
+    <para id="fs-id2162649">The boulder will accelerate at 0.09 m/s<sup>2</sup>.</para>
+    </solution>
+    </exercise>
+    
+    <exercise id="fs-id1046422" type="ap-test-prep">
+    <problem id="fs-id881529">
+    <figure id="fs-id1437542"><media id="fs-id935973" alt="The diagram has a black rectangle that is slightly longer than it is tall with three solid arrows pointing from the edge of the rectangle. An arrow pointing up is labeled 40 N. A same size arrow pointing down is labeled 40 N. The third arrow f about half the size of the other two is pointing toward the left."><image mime-type="image/jpg" src="../../media/Figure_04_07_09.jpg"/></media>
+    </figure><para id="fs-id1450804">The figure shows the forces exerted on a block that is sliding on a horizontal surface: the gravitational force of 40 N, the 40 N normal force exerted by the surface, and a frictional force exerted to the left. The coefficient of friction between the block and the surface is 0.20. The acceleration of the block is most nearly</para><list id="fs-id1444278" list-type="enumerated" number-style="lower-alpha"><item>1.0 m/s<sup>2</sup> to the right</item>
+    <item>1.0 m/s<sup>2</sup> to the left</item>
+    <item>2.0 m/s<sup>2</sup> to the right</item>
+    <item>2.0 m/s<sup>2</sup> to the left</item>
+    </list></problem>
+    <!--<solution id="fs-id1497935">
+    <para id="fs-id1433602">(d)</para></solution>-->
+    </exercise>
+    </section>
+    
+    
       <section id="fs-id1596051" class="section-summary">
 <title>Summary</title>
 <list id="fs-id2446096"><item id="import-auto-id1586681">Newton’s laws of motion can be applied in numerous situations to solve problems of motion.</item>

@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42238</md:content-id>
   <md:title>Statistical Interpretation of Entropy and the Second Law of Thermodynamics: The Underlying Explanation</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>d9b9681a-d5d8-4640-91bd-68268ccebf33</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Identify probabilities in entropy.</item>
 <item>Analyze statistical probabilities in entropic systems.</item>
@@ -787,7 +787,30 @@
     <item id="import-auto-id1169736622277"><emphasis effect="italics">Solve the appropriate equation for the quantity to be determined (the unknown).</emphasis> Note that the change in entropy can be determined between any states by calculating it for a reversible process.</item>
     <item id="import-auto-id1169737951074"><emphasis effect="italics">Substitute the known value along with their units into the appropriate equation, and obtain numerical solutions complete with units.</emphasis></item>
     <item id="import-auto-id1169738138484"><emphasis effect="italics">To see if it is reasonable: Does it make sense?</emphasis> For example, total entropy should increase for any real process or be constant for a reversible process. Disordered states should be more probable and have greater entropy than ordered states.</item>
-    </list></note><section id="fs-id1169737728173" class="section-summary"><title>Section Summary</title><list id="fs-id1169737713969"><item id="import-auto-id1169737780420">Disorder is far more likely than order, which can be seen statistically.</item>
+    </list></note>
+    
+<section id="fs-id3270527" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2253927" type="ap-test-prep"><problem id="fs-id675935">
+  <para id="fs-id1345044">A piston is resting halfway into a cylinder containing gas in thermal equilibrium. The layer of molecules next to the closed end of the cylinder is suddenly flash-heated to a very high temperature. Which best describes what happens next?</para>
+  <list id="fs-id1383676" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>The high temperature molecules push out the piston until their energy is reduced enough that the system is in equilibrium.</item>
+  <item>The molecules with the highest temperature bounce off their neighbors, losing energy to them, and so on until the system is at a new equilibrium with the piston moved out.</item>
+  <item>The molecules with the highest temperature bounce off their neighbors, losing energy to them, and so on until the system is at a new equilibrium with the piston where it started.</item>
+  <item>The high temperature molecules push out the piston until their energy is reduced enough that the system is in equilibrium, and then the piston gets sucked back in.</item>
+  </list>
+  </problem>
+  <solution id="fs-id2400145">
+  <para id="fs-id1465822">(b)</para></solution></exercise><exercise id="fs-id3590952" type="ap-test-prep">
+  <problem id="fs-id1442937">
+  <para id="fs-id2544420">Design a macroscopic simulation using reasonably common materials to represent one very high energy particle gradually transferring energy to a bunch of lower energy particles, and determine if you end up with some sort of equilibrium.</para></problem>
+  <!--<solution id="fs-id2315056">
+  <para id="fs-id3921332">Using a checkers set, place all of the black pieces onto the board. Stack all of the red pieces on one of the black pieces. All pieces move one space each turn. If they would bump into each other, they each move to the nearest open space. When this happens, if one has more red pieces than the other, give the piece with fewer red pieces one from the piece with more.</para>
+  </solution>-->
+  </exercise></section>
+  
+  
+    <section id="fs-id1169737728173" class="section-summary"><title>Section Summary</title><list id="fs-id1169737713969"><item id="import-auto-id1169737780420">Disorder is far more likely than order, which can be seen statistically.</item>
 
 <item>The entropy of a system in a given state (a macrostate) can be written as <equation id="eip-id1923841"><m:math><m:semantics><m:mrow><m:mi>S</m:mi><m:mo>=</m:mo><m:mi>k</m:mi><m:mn>ln</m:mn><m:mi>W</m:mi><m:mo>,</m:mo></m:mrow></m:semantics></m:math></equation>
 where

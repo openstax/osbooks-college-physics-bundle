@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42159</md:content-id>
   <md:title>Impulse</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>0b3a0e16-bd31-4349-af57-dcdacbfab7ce</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Define impulse.</item>
 <item>Describe effects of impulses in everyday life.</item>
@@ -222,6 +222,134 @@
     </note><note id="fs-id1331347"><label/>
     <title>Making Connections: Constant Force and Constant Acceleration</title>
     <para id="import-auto-id1646476">The assumption of a constant force in the definition of impulse is analogous to the assumption of a constant acceleration in kinematics. In both cases, nature is adequately described without the use of calculus.</para></note>
+    <section id="fs-id1255760" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+      <exercise id="fs-id2018730" type="ap-test-prep"><problem id="fs-id1560946">
+      <para id="fs-id1322039">A 1.0-kg ball of putty is released from rest and falls vertically 1.5 m until it strikes a hard floor, where it comes to rest in a 0.045-s time interval. What is the magnitude and direction of the average force exerted on the ball by the floor during the collision?</para>
+      <list id="fs-id2274444" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>33 N, up</item>
+      <item>120 N, up</item>
+      <item>120 N, down</item>
+      <item>240 N, down</item>
+      </list>
+      </problem>
+      <solution id="fs-id2114645"><para id="fs-id1341755">(b)</para></solution>
+      </exercise><exercise id="fs-id1463188" type="ap-test-prep"><problem id="fs-id1844557">
+      <para id="fs-id2715172">A 75-g ball is dropped from rest from a height of 2.2 m. It bounces off the floor and rebounds to a maximum height of 1.7 m. If the ball is in contact with the floor for 0.024 s, what is the magnitude and direction of the average force exerted on the ball by the floor during the collision?</para>
+      </problem>
+      </exercise><exercise id="fs-id3561525" type="ap-test-prep">
+          <problem id="fs-id1468569">
+      <para id="fs-id1922279">A 2.4-kg ceramic bowl falls to the floor. During the 0.018-s impact, the bowl experiences an average force of 750 N from the floor. The bowl is at rest after the impact. From what initial height did the bowl fall?</para>
+      <list id="fs-id2089390" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>1.6 m</item>
+      <item>2.8 m</item>
+      <item>3.2 m</item>
+      <item>5.6 m</item>
+      </list>
+      </problem>
+      <solution id="fs-id2501076">
+      <para id="fs-id2805998">(a)</para></solution>
+      </exercise>
+        <exercise id="fs-id2377967" type="ap-test-prep"><problem id="fs-id1368050">
+      <para id="fs-id2495709">Whether or not an object (such as a plate, glass, or bone) breaks upon impact depends on the average force exerted on that object by the surface. When a 1.2-kg glass figure hits the floor, it will break if it experiences an average force of 330 N. When it hits a tile floor, the glass comes to a stop in 0.015 s. From what minimum height must the glass fall to experience sufficient force to break? How would your answer change if the figure were falling to a padded or carpeted surface? Explain.</para>
+      </problem>
+      </exercise><exercise id="fs-id2871828" type="ap-test-prep"><problem id="fs-id1822289">
+      <para id="eip-id1577501">A 2.5-kg block slides across a frictionless table toward a horizontal spring.As the block bounces off the spring, a probe measures the velocity of the block (initially negative, moving away from the probe) over time as follows:</para>
+      <table id="fs-id2204590" summary="The first row has velocity negative twelve and time zero. The second row has velocity negative ten and time point ten. The third row has velocity negative six and time point two. The fourth row has velocity zero and time point three. The fifth row has velocity six and time point four. The sixth row has velocity ten and time point five. The seventh row has velocity twelve and time point six.">
+      <tgroup cols="2"><thead>
+      <row>
+      <entry>Velocity (m/s)</entry>
+      <entry>Time (s)</entry>
+      </row>
+      </thead>
+      <tbody>
+      <row><entry>−12.0</entry><entry>0</entry></row>
+      <row><entry>−10.0</entry><entry>0.10</entry></row>
+      <row><entry>−6.0</entry><entry>0.20</entry></row>
+      <row><entry>0</entry><entry>0.30</entry></row>
+      <row><entry>6.0</entry><entry>0.40</entry></row>
+      <row><entry>10.0</entry><entry>0.50</entry></row>
+      <row><entry>12.0</entry><entry>0.60</entry></row>
+      </tbody>
+      
+      </tgroup>
+      </table><para id="fs-id1464957">What is the average force exerted on the block by the spring over the entire 0.60-s time interval of the collision?</para>
+      <list id="fs-id1538265" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>50 N</item>
+      <item>60 N</item>
+      <item>100 N</item>
+      <item>120 N</item>
+      </list>
+      </problem>
+      <solution id="fs-id1468931"><para id="fs-id1289913">(c) (based on calculation of <m:math>
+       <m:mi>F</m:mi><m:mo>=</m:mo><m:mfrac>
+        <m:mrow>
+         <m:mi>m</m:mi><m:mtext>Δ</m:mtext><m:mi>v</m:mi>
+        </m:mrow>
+        <m:mrow>
+         <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+        </m:mrow>
+       </m:mfrac>
+      
+      </m:math>)</para></solution>
+      </exercise><exercise id="fs-id938074" type="ap-test-prep"><problem id="fs-id2537862">
+      <para id="fs-id2102666">During an automobile crash test, the average force exerted by a solid wall on a 2500-kg car that hits the wall is measured to be 740,000 N over a 0.22-s time interval. What was the initial speed of the car prior to the collision, assuming the car is at rest at the end of the time interval?</para>
+      </problem>
+      </exercise><exercise id="fs-id2498125" type="ap-test-prep">
+          <problem id="fs-id2012980">
+      <para id="fs-id2548203">A test car is driving toward a solid crash-test barrier with a speed of 45 mi/h. Two seconds prior to impact, the car begins to brake, but it is still moving when it hits the wall. After the collision with the wall, the car crumples somewhat and comes to a complete stop. In order to estimate the average force exerted by the wall on the car, what information would you need to collect?</para>
+      <list id="fs-id1307011" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>The (negative) acceleration of the car before it hits the wall and the distance the car travels while braking.</item>
+      <item>The (negative) acceleration of the car before it hits the wall and the velocity of the car just before impact.</item>
+      <item>The velocity of the car just before impact and the duration of the collision with the wall.</item>
+      <item>The duration of the collision with the wall and the distance the car travels while braking.</item>
+      </list>
+      </problem>
+      <solution id="fs-id2060016"><para id="fs-id1476383">(c)</para></solution>
+      </exercise>
+        <exercise id="fs-id1515775" type="ap-test-prep"><problem id="fs-id2379310">
+      <para id="fs-id2867675">Design an experiment to verify the relationship between the average force exerted on an object and the change in momentum of that object. As part of your explanation, list the equipment you would use and describe your experimental setup. What would you measure and how? How exactly would you verify the relationship? Explain.</para>
+      </problem>
+      </exercise><exercise id="fs-id3187844" type="ap-test-prep">
+          <problem id="fs-id991688">
+      <para id="fs-id3541760">A 22-g puck hits the wall of an air hockey table perpendicular to the wall with an initial speed of 14 m/s.The puck is in contact with the wall for 0.0055 s, and it rebounds from the wall with a speed of 14 m/s in the opposite direction.What is the magnitude of the average force exerted by the wall on the puck?</para>
+      <list id="fs-id1997106" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>0.308 N</item>
+      <item>0.616 N</item>
+      <item>56 N</item>
+      <item>112 N</item>
+      </list>
+      </problem>
+      <solution id="fs-id2721586"><para id="fs-id1326443">(d)</para></solution>
+      </exercise>
+        <exercise id="fs-id1478146" type="ap-test-prep"><problem id="fs-id1743699">
+      <para id="fs-id1551410">A 22-g puck hits the wall of an air hockey table perpendicular to the wall with an initial speed of 7 m/s. The puck is in contact with the wall for 0.011 s, and the wall exerts an average force of 28 N on the puck during that time. Calculate the magnitude and direction of the change in momentum of the puck.</para>
+      </problem>
+      </exercise><exercise id="fs-id3327236" type="ap-test-prep">
+      <problem id="fs-id2664736">
+      <figure id="fs-id1442922"><media id="fs-id1852104" alt="The force exerted by the wall on the object is a constant 15 N from t =0.080 s until t=0.24 s, at which time the force drops to zero.">
+      <image mime-type="image/png" src="../../media/Figure_08_M2_Bounce.jpg"/></media>
+      
+      <caption>This is a graph showing the force exerted by a rigid wall versus time.</caption></figure><para id="fs-id2178136">The graph in <link target-id="fs-id1442922"/> represents the force exerted on a particle during a collision. What is the magnitude of the change in momentum of the particle as a result of the collision?</para>
+      <list id="fs-id1811869" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>1.2 kg • m/s</item>
+      <item>2.4 kg • m/s</item>
+      <item>3.6 kg • m/s</item>
+      <item>4.8 kg • m/s</item>
+      </list>
+      </problem>
+      <solution id="fs-id2014721"><para id="fs-id2314902">(b)</para></solution>
+      </exercise>
+      
+        <exercise id="fs-id2014894" type="ap-test-prep"><problem id="fs-id1390600">
+      <figure id="fs-id1914218"><media id="fs-id2871846" alt="The force exerted by the wall on the object is zero at t=0 and rises in a linear fashion to 15 N at a time t=0.080 s. The force remains constant at 15 N until a time t=0.24 s. From 0.24 s to 0.32 s, the force drops from 15 N to zero in a linear fashion.">
+      <image mime-type="image/png" src="../../media/Figure_08_M2_Collision.jpg"/>
+      </media>
+      
+      <caption>This is a graph showing the force exerted by a rigid wall versus time.</caption></figure><para id="fs-id1286209">The graph in <link target-id="fs-id1914218"/> represents the force exerted on a particle during a collision. What is the magnitude of the change in momentum of the particle as a result of the collision?</para>
+      </problem>
+      </exercise></section>
+      
 <section id="fs-id1488213" class="section-summary">
     <title>Section Summary</title><list id="fs-id1251100"><item id="import-auto-id1419457">Impulse, or change in momentum, equals the average net external force multiplied by the time this force acts:
 

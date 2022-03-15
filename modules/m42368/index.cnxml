@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42368</md:content-id>
   <md:title>Ferromagnets and Electromagnets</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>51c5169a-7d39-4279-9baa-625410c2546f</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Define ferromagnet.</item>
 <item>Describe the role of magnetic domains in magnetization.</item>
@@ -64,6 +64,139 @@
 <media id="fs-id1167062389771" alt="This simulation explores the interactions between a compass and bar magnet.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28elec_magnet"/></media>
 </figure></note></section>
+
+<section id="fs-id1471752" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id2861834" type="ap-test-prep"><problem id="fs-id1484771">
+  <para id="fs-id2347087">A bar magnet is oriented so that the north pole of the bar magnet points north. A compass needle is placed to the north of the bar magnet. In which direction does the north pole of the compass needle point?</para>
+  <list id="fs-id2512637" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+    <item>North</item>
+<item>East</item>
+<item>South</item>
+<item>West</item>
+  </list>
+</problem>
+<solution id="fs-id1457677">
+  <para id="fs-id1861904">(a)</para>
+</solution>
+</exercise><exercise id="fs-id2254072" type="ap-test-prep">
+<problem id="fs-id2317215">
+  <para id="fs-id3163374">Assume for simplicity that the Earth’s magnetic north pole is at the same location as its geographic north pole. If you are in an airplane flying due west along the equator, as you cross the prime meridian (0° longitude) facing west and look down at a compass you are carrying, you see that the compass needle is perpendicular to your direction of motion, and the north pole of the needle dipole points to your right. As you continue flying due west, describe how and why the orientation of the needle will (or will not) change.</para>
+</problem>
+<!--<solution id="fs-id2181202">
+  <para id="fs-id2339916">The needle&#8217;s orientation should remain constant. As you travel west around the equator, the direction of Earth&#8217;s north pole will always be exactly on your right. The compass needle will always be perpendicular to the direction of your motion.</para>
+</solution>-->
+</exercise>
+
+<exercise id="fs-id2440351" type="ap-test-prep"><problem id="fs-id2431504">
+  <para id="fs-id1499110">Describe how the magnetic domains in an unmagnetized iron rod will respond to the presence of a strong external magnetic field.</para>
+<list id="fs-id2012023" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The domains will split into monopoles.</item>
+<item>The domains will tend to align with the external field.</item>
+<item>The domains will tend to orient themselves perpendicular to the external field.</item>
+<item>The domains will tend to align so as to cancel out the external field.</item>
+</list>
+</problem>
+<solution id="fs-id3260787">
+  <para id="fs-id2791088">(b)</para>
+</solution>
+</exercise><exercise id="fs-id1422695" type="ap-test-prep">
+<problem id="fs-id2103686">
+  <para id="fs-id1414809">Describe what steps must be undertaken in order to convert an unmagnetized iron rod into a permanently magnetized state. As part of your answer, explain what a magnetic domain is and how it responds to the steps described.</para>
+</problem>
+<!--<solution id="fs-id4517959">
+  <para id="fs-id1734250">First, expose the unmagnetized rod to a strong external magnetic field, then expose the rod to significant heat (but do not raise the temperature of the rod above the Curie temperature). Magnetic domains are small regions with magnetic dipole properties within the rod, initially oriented randomly. Upon exposure to the external magnetic field, the domains tend to align their dipoles with the external field. Exposure to heat allows the dipoles to change their structure slightly so as to make the alignment permanent.</para>
+</solution>-->
+</exercise>
+
+
+
+<exercise id="fs-id2820823" type="ap-test-prep"><problem id="fs-id2387338">
+  <para id="fs-id2591336">Iron is ferromagnetic and lead is diamagnetic, which means its magnetic domains respond in the opposite direction of ferromagnets but many orders of magnitude more weakly. The two blocks are placed in a magnetic field that points to the right. Which of the following best represents the orientations of the dipoles when the field is present?</para>
+<table id="eip-id3862565" summary="There are two columns. Iron is on the left and Lead on the right. For each of the columns there are rectangles with red arrows. Row a’s red arrows in both the iron and lead rectangles are pointing in all different directions and the two rectangles are identical. In row b, all of the arrows for iron are pointing toward the right and the arrows in the lead rectangle are pointing in different directions. In row c, the arrows in the iron rectangle are pointing in different directions and all arrows in the lead rectangle are pointing toward the right. In row d, the arrows are pointing to the right in both the iron and lead rectangles." class="labeled"><label/>
+<tgroup cols="3"><colspec colnum="1" colname="c1"/>
+<colspec colnum="2" colname="c2"/>
+<colspec colnum="3" colname="c3"/>
+<tbody>
+<row>
+<entry/>
+<entry>Iron</entry>
+<entry>Lead</entry>
+</row>
+
+<row>
+<entry>(a)</entry>
+<entry>
+<figure id="fs-id2026887"><label/>
+<media id="fs-id24954491" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(a2)_img.jpg"/>
+</media>
+</figure></entry>
+
+<entry>
+<figure id="fs-id20268871"><label/>
+<media id="eip-id1804105" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(a3)_img.jpg"/>
+</media>
+</figure></entry>
+</row>
+
+<row>
+<entry>(b)</entry>
+<entry>
+<figure id="fs-id3256549"><label/>
+<media id="fs-id1971078" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(b2)_img.jpg"/>
+</media>
+</figure></entry>
+
+<entry>
+<figure id="fs-id32565491"><label/>
+<media id="eip-id1224076" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(b3)_img.jpg"/>
+</media>
+</figure></entry>
+</row>
+
+<row>
+<entry>(c)</entry>
+<entry>
+<figure id="fs-id3365022"><label/>
+<media id="fs-id3199975" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(c2)_img.jpg"/>
+</media>
+</figure></entry>
+<entry>
+<figure id="fs-id33650221"><label/>
+<media id="eip-id1934116" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(c3)_img.jpg"/>
+</media>
+</figure></entry>
+</row>
+
+<row>
+<entry>(d)</entry>
+
+<entry>
+<figure id="fs-id1297572"><label/>
+<media id="fs-id3682809" alt="">
+<image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(d2)_img.jpg"/></media></figure></entry>
+
+<entry>
+<figure id="fs-id12975721"><label/><media id="eip-id2266204" alt=""><image mime-type="image/jpg" src="../../media/CNX_APPhysics_22_M2_arrows(d3)_img.jpg"/></media></figure></entry>
+</row>
+
+</tbody>
+
+</tgroup>
+</table></problem>
+<solution id="fs-id2177908">
+<para id="fs-id1559822">(b)</para></solution>
+</exercise><exercise id="fs-id2379626" type="ap-test-prep">
+<problem id="fs-id1406954">
+  <para id="fs-id3191282">A weather vane is some sort of directional arrow parallel to the ground that may rotate freely in a horizontal plane. A typical weather vane has a large cross-sectional area perpendicular to the direction the arrow is pointing, like a “One Way” street sign. The purpose of the weather vane is to indicate the direction of the wind. As wind blows past the weather vane, it tends to orient the arrow in the same direction as the wind. Consider a weather vane’s response to a strong wind. Explain how this is both similar to and different from a magnetic domain’s response to an external magnetic field. How does each affect its surroundings?</para></problem>
+<!--<solution id="fs-id3205583">
+<para id="fs-id1845001">Like a magnetic domain responding to an external field, the weather vane will align itself with the wind, but the alignment is very rapid and precise. Magnetic domains tend to align themselves with an external field, but the alignment is often not precise. Also, with heating or tapping, a magnetic domain alignment can be permanent whereas the alignment of a weather vane is always variable and subject to the wind direction at any given moment. Additionally, the ferromagnet itself is now the source of a magnetic field and can affect other ferromagnets around it. The weather vane, although aligned with the wind, is not itself a source of wind, and it does not affect other weather vanes around it.</para>
+</solution>-->
+</exercise></section>
 <section id="fs-id2086001" class="section-summary"><title>Section Summary</title><list id="import-auto-id1904768" list-type="bulleted">
       <item>Magnetic poles always occur in pairs of north and south—it is not possible to isolate north and south poles. </item>
       <item>All magnetism is created by electric current.</item>

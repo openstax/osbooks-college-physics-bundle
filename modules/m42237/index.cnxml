@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42237</md:content-id>
   <md:title>Entropy and the Second Law of Thermodynamics: Disorder and the Unavailability of Energy</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>15a50194-9cf1-4848-8d68-dcce5788433e</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item> Define entropy and calculate the increase of entropy in a system with reversible and irreversible processes. </item>
 <item>Explain the expected fate of the universe in entropic terms.</item>
@@ -604,7 +604,28 @@
   <media id="eip-idm994508048" alt="This simulation allows you to watch a reaction proceed over time.">
   <iframe width="660" height="371.4" src="https://openstax.org/l/21reversereact"/>
   </media>
-</note><section id="fs-id1169738042930" class="section-summary"><title>Section Summary</title><list id="fs-id1169737967765">
+</note>
+
+<section id="fs-id2547215" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2322666" type="ap-test-prep"><problem id="fs-id2496621">
+  <para id="fs-id1496190">Equal masses of steam (100 degrees C) and ice (0 degrees C) are placed in contact with each other in an otherwise insulated container. They both end up as liquid water at a common temperature. The steam ___ entropy and ___ order, while the ice ___ entropy and ___ order.</para>
+  <list id="fs-id2543896" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>gained, gained, lost, lost</item>
+  <item>gained, lost, lost, gained</item>
+  <item>lost, gained, gained, lost</item>
+  <item>lost, lost, gained, gained</item>
+  </list></problem>
+  <solution id="fs-id2375962">
+  <para id="fs-id1913045">(c)</para></solution></exercise><exercise id="fs-id2401812" type="ap-test-prep">
+  <problem id="fs-id3196253">
+  <para id="fs-id2254951">A high temperature reservoir losing heat and hence entropy is a reversible process. A low temperature reservoir gaining a certain amount of heat and hence entropy is a reversible process. But a high temperature reservoir losing heat to a low temperature reservoir is irreversible. Why?</para>
+  </problem>
+  <!--<solution id="fs-id2212385">
+  <para id="fs-id1366870">Entropy is calculated as heat per temperature. So while the amount of heat is the same in all cases, in the irreversible case we have the low temperature reservoir gaining more entropy than the high temperature one loses, and no way to reverse this, within just this system.</para>
+  </solution>--></exercise>
+  </section>
+  <section id="fs-id1169738042930" class="section-summary"><title>Section Summary</title><list id="fs-id1169737967765">
     <item id="import-auto-id1169737973962">Entropy is the loss of energy available to do work.</item>
     <item id="import-auto-id1169737973964" fo:font-style="normal">Another form of the second law of thermodynamics states that the total entropy of a system either increases or remains constant; it never decreases.</item>
     <item id="import-auto-id1169737940509">Entropy is zero in a reversible process; it increases in an irreversible process.</item>

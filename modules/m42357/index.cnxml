@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42357</md:content-id>
   <md:title>Electromotive Force: Terminal Voltage</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>70fce0a0-0b57-44f4-9e0f-41e9cb5d862c</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Compare and contrast the voltage and the electromagnetic force of an electric power source.</item>
 <item>Describe what happens to the terminal voltage, current, and power delivered to a load as internal resistance of the voltage source increases (due to aging of batteries, for example).</item>
@@ -219,6 +219,31 @@
     </note>
   </section>
 
+  <section id="fs-id1374085" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id1798228" type="ap-test-prep">
+    <problem id="fs-id1975532"><para id="fs-id2977609">Suppose there are two voltage sources – Sources A and B – with the same emfs but different internal resistances, i.e., the internal resistance of Source A is lower than Source B. If they both supply the same current in their circuits, which of the following statements is true?</para>
+    <list id="fs-id2526125" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+    <item>External resistance in Source A’s circuit is more than Source B’s circuit.</item>
+    <item>External resistance in Source A’s circuit is less than Source B’s circuit.</item>
+    <item>External resistance in Source A’s circuit is the same as Source B’s circuit.</item>
+    <item>The relationship between external resistances in the two circuits can’t be determined.</item>
+    </list>
+    </problem>
+    <!--<solution id="fs-id2609623">
+    <para id="fs-id1672957">(a)</para></solution>-->
+    </exercise>
+    
+    <exercise id="fs-id1801021" type="ap-test-prep">
+    <problem id="fs-id2496055">
+    <para id="fs-id1609613">Calculate the internal resistance of a voltage source if the terminal voltage of the source increases by 1 V when the current supplied decreases by 4 A? Suppose this source is connected in series (in the same direction) to another source with a different voltage but same internal resistance. What will be the total internal resistance? How will the total internal resistance change if the sources are connected in the opposite direction?</para>
+    </problem>
+    <solution id="fs-id1230786">
+    <para id="fs-id1313905">0.25 Ω, 0.50 Ω, no change</para>
+    </solution>
+    </exercise>
+    </section>
+    
     <section id="fs-id1986022" class="section-summary"><title>Section Summary</title><list id="fs-id3025819"><item id="import-auto-id1817697">All voltage sources have two fundamental parts—a source of electrical energy that has a characteristic electromotive force (emf), and an internal resistance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>.</item>
     <item id="import-auto-id3191546">The emf is the potential difference of a source when no current is flowing.</item>
     <item id="import-auto-id2421568">The numerical value of the emf depends on the source of potential difference.</item>

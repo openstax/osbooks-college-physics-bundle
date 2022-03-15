@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42183</md:content-id>
   <md:title>Collisions of Extended Bodies in Two Dimensions</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>9b497f46-c979-43cd-a431-be855ec76d47</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Observe collisions of extended bodies in two dimensions.</item>
 <item>Examine collision at the point of percussion.</item>
@@ -205,6 +205,275 @@
     <problem id="fs-id2680762"><para id="import-auto-id2973765">Is rotational kinetic energy a vector? Justify your answer.</para></problem>
     <solution id="fs-id1409689" print-placement="here"><para id="import-auto-id2398762">No, energy is always scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion.</para></solution>
     </exercise>
+
+<section id="fs-id1350335" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1664450" type="ap-test-prep">
+  <problem id="fs-id1536064">
+  <para id="fs-id1931773">A box with a mass of 2.0 kg rests on one end of a seesaw. The seesaw is 6.0 m long, and we can assume it has negligible mass. Approximately what angular momentum will the box have if someone with a mass of 65 kg sits on the other end of the seesaw quickly, with a velocity of 1.2 m/s?</para><list id="fs-id1838365" list-type="enumerated" number-style="lower-alpha"><item>702 kg•m<sup>2</sup>/s</item>
+  <item>39 kg•m<sup>2</sup>/s</item>
+  <item>18 kg•m<sup>2</sup>/s</item>
+  <item>1.2 kg•m<sup>2</sup>/s</item>
+  </list></problem>
+  <solution id="fs-id1513218">
+  <para id="fs-id1564356">(b)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1623831" type="ap-test-prep">
+  <problem id="fs-id1523247">
+  <para id="fs-id1719075">A spinner in a board game can be thought of as a thin rod that spins about an axis at its center. The spinner in a certain game is 12 cm long and has a mass of 10 g. How will its angular velocity change when it is flicked at one end with a force equivalent to 15 g travelling at 5.0 m/s if all the energy of the collision is transferred to the spinner? (You can use the table in <link document="m55186" target-id="fs-id1838666">Figure 10.12</link> to estimate the rotational inertia of the spinner.)</para></problem>
+  <!--<solution id="fs-id2009368">
+  <para id="fs-id2011491">From <link document="m55186" target-id="fs-id1838666">Figure 10.12</link>, the rotational inertia of the spinner can be calculated using
+  <m:math display="inline">
+   <m:mrow>
+    <m:mi>I</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mi>M</m:mi><m:msup>
+       <m:mi>&#8467;</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:math>
+  
+  , where <emphasis effect="italics">M</emphasis> is the mass of the spinner and <emphasis effect="italics">R</emphasis> is the radius of the circle it creates when it spins.</para><para id="fs-id1447980">Since angular momentum is conserved,
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>L</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>L</m:mi><m:mo>&#8242;</m:mo>
+   </m:mrow>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>I</m:mi><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>I</m:mi><m:mo>&#8242;</m:mo><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+   </m:mrow>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>m</m:mi><m:msup>
+       <m:mi>&#8467;</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mi>m</m:mi><m:msup>
+       <m:mi>&#8467;</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+   </m:mrow>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>m</m:mi><m:msup>
+       <m:mi>&#8467;</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mtext>&#8201;</m:mtext><m:mfrac>
+     <m:mi>v</m:mi>
+     <m:mi>r</m:mi>
+    </m:mfrac>
+    <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mi>m</m:mi><m:msup>
+       <m:mi>&#8467;</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+   </m:mrow>
+  </m:math>
+  
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>0.015</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.12</m:mn><m:mtext>&#8201;</m:mtext><m:msup>
+         <m:mtext>m</m:mtext>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+        
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>&#8901;</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>5.0</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m/s</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>0.06</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>0.01</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.12</m:mn><m:mtext>&#8201;</m:mtext><m:msup>
+         <m:mtext>m</m:mtext>
+         <m:mtext>2</m:mtext>
+        </m:msup>
+        
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>12</m:mn>
+     </m:mrow>
+    </m:mfrac>
+    <m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+   </m:mrow>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo><m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mn>0.015</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:mn>5.0</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>s</m:mtext>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>0.01</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+     </m:mrow>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mo>=</m:mo><m:mn>7.5</m:mn><m:msup>
+     <m:mtext>&#8201;</m:mtext>
+     <m:mrow>
+      <m:mtext>rad/s</m:mtext>
+     </m:mrow>
+    </m:msup>
+    
+   </m:mrow>
+  </m:math></para><para id="fs-id1635885">The angular momentum of the spinner is 7.5 rad/s.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id2159515" type="ap-test-prep">
+  <problem id="fs-id1297087">
+  <para id="fs-id1548820">A cyclist pedals to exert a torque on the rear wheel of the bicycle. When the cyclist changes to a higher gear, the torque increases. Which of the following would be the most effective strategy to help you determine the change in angular momentum of the bicycle wheel?</para>
+  <list id="fs-id2137662" list-type="enumerated" number-style="lower-alpha"><item>multiplying the ratio between the two torques by the mass of the bicycle and rider</item>
+  <item>adding the two torques together, and multiplying by the time for which both torques are applied</item>
+  <item>multiplying the difference in the two torques by the time for which the new torque is applied</item>
+  <item>multiplying both torques by the mass of the bicycle and rider</item>
+  </list></problem>
+  <solution id="fs-id2161839">
+  <para id="fs-id1383559">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1526286" type="ap-test-prep">
+  <problem id="fs-id1608790">
+  <para id="fs-id1559470">An electric screwdriver has two speeds, each of which exerts a different torque on a screw. Describe what calculations you could use to help you compare the angular momentum of a screw at each speed. What measurements would you need to make in order to calculate this?</para>
+  </problem>
+  <!--<solution id="fs-id1568492">
+  <para id="fs-id1619499">Angular momentum is directly proportional to the torque exerted on the object. In the case of the electric screwdriver, the torque provided at each speed is probably unknown. Angular momentum is also the product of rotational inertia and angular velocity. It would be possible to calculate it from these two values. </para>
+  <para id="fs-id1481256">Although it is an approximation, a screw can be thought of as a solid cylinder, spinning about the cylinder axis. From <link document="m55186" target-id="fs-id1838666">Figure 10.12</link>, the rotational inertia of such a shape can be found using 
+  <m:math display="inline">
+   <m:mrow>
+    <m:mi>I</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mi>M</m:mi><m:msup>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    
+   </m:mrow>
+  </m:math>
+  
+  
+  . You would need to measure the radius and the mass of the screw.</para><para id="fs-id1402483">Angular velocity in rad/s could be calculated from a measure of revolutions per second. While this might be difficult to measure directly, it could be measured by analyzing a videotape of the screwdriver in motion. It could also be measured by how many threads of the screw were buried in wood after 1 s.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1519591" type="ap-test-prep">
+  <problem id="fs-id2174977">
+  <para id="fs-id1354575">Why is it important to consider the shape of an object when determining the object's angular momentum?</para>
+  <list id="fs-id1390414" list-type="enumerated" number-style="lower-alpha"><item>The shape determines the location of the center of mass. The location of the center of mass in turn determines the angular velocity of the object.</item>
+  <item>The shape helps you determine the location of the object's outer edge, where rotational velocity will be greatest.</item>
+  <item>The shape helps you determine the location of the center of rotation.</item>
+  <item>The shape determines the location of the center of mass. The location of the center of mass contributes to the object's rotational inertia, which contributes to its angular momentum.</item>
+  </list></problem>
+  <solution id="fs-id1880102">
+  <para id="fs-id1355595">(d)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1581467" type="ap-test-prep">
+  <problem id="fs-id1901971">
+  <para id="fs-id1583738">How could you collect and analyze data to test the difference between the torques provided by two speeds on a tabletop fan?</para>
+  </problem>
+  <!--<solution id="fs-id1308975">
+  <para id="fs-id2137540">Since torque is equal to change in angular momentum over time, you could collect data to determine the average angular momentum of the fan blades at both speeds over a controlled period of time. Counting the revolutions of a marked fan blade for the first 2 s of revolution and dividing by 2 would help you determine their angular velocity. Since the fan blades themselves have very little mass, you could attach a mass to the end of one blade for both tests, and calculate angular momentum as the product of mass, radius, and angular velocity. If the times in both tests are the same, then you could compare the angular momenta for both speeds to compare the torques.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1686879" type="ap-test-prep">
+  <problem id="fs-id1372436">
+  <para id="fs-id1454531">Describe a rotational system you could use to demonstrate the effect on the system's angular momentum of applying different amounts of external torque.</para>
+  </problem>
+  <solution id="fs-id1530124">
+  <para id="fs-id1482538">A door on hinges is a rotational system. When you push or pull on the door handle, the angular momentum of the system changes. If a weight is hung on the door handle, then pushing on the door with the same force will cause a different increase in angular momentum. If you push or pull near the hinges with the same force, the resulting angular momentum of the system will also be different.</para>
+  </solution>
+  </exercise>
+  
+  <exercise id="fs-id1501033" type="ap-test-prep">
+  <problem id="fs-id1860091">
+  <para id="fs-id1152548">How could you use simple equipment such as balls and string to study the changes in angular momentum of a system when it interacts with another system?</para>
+  </problem>
+  <!--<solution id="fs-id1482669">
+  <para id="fs-id1653649">You could suspend two balls from the same point to act as a double pendulum. Lifting ball A and releasing it would cause it to strike ball B. You could measure the mass of ball A, the radius of the pendulum, and the height from which you dropped ball A to calculate the torque that was applied to ball B. You could measure time and the arc length to calculate the rotational velocity of ball B and then calculate its angular momentum. By varying the mass of ball A you could test how the angular momentum of ball B varied when different amounts of torque were applied to it.</para>
+  </solution>-->
+  </exercise>
+  </section>
+  
       <section id="fs-id2396853" class="section-summary"><title>Section Summary</title><list id="fs-id2420457"><item id="import-auto-id3089539">Angular momentum <m:math><m:semantics><m:mrow><m:mi>L</m:mi></m:mrow></m:semantics></m:math> is analogous to linear momentum and is given by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Iω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=Iω} {}</m:annotation></m:semantics></m:math>.</item>
 
 <item>Angular momentum is changed by torque, following the relationship

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42386</md:content-id>
   <md:title>Magnetic Force between Two Parallel Conductors</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>af9c25bf-4412-44c4-aadd-39450a5aa757</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe the effects of the magnetic force between two conductors.</item>
 <item>Calculate the force between two parallel conductors.</item>
@@ -187,7 +187,57 @@
     <title>The Ampere</title>
     <para id="import-auto-id1484016">The official definition of the ampere is:</para>
     <para id="import-auto-id1744601">One ampere of current through each of two parallel conductors of infinite length, separated by one meter in empty space free of other magnetic fields, causes a force of exactly <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 times "10" rSup { size 8{ - 7} } " N/m"} {}</m:annotation></m:semantics></m:math> on each conductor.</para></note>
-    <para id="import-auto-id2021393">Infinite-length straight wires are impractical and so, in practice, a current balance is constructed with coils of wire separated by a few centimeters. Force is measured to determine current. This also provides us with a method for measuring the coulomb. We measure the charge that flows for a current of one ampere in one second. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1 C</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1 A</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`C=1`A cdot s} {}</m:annotation></m:semantics></m:math>. For both the ampere and the coulomb, the method of measuring force between conductors is the most accurate in practice.</para><section id="fs-id2265366" class="section-summary"><title>Section Summary</title><list id="eip-92"><item>The force between two parallel currents <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, separated by a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, has a magnitude per unit length given by
+    <para id="import-auto-id2021393">Infinite-length straight wires are impractical and so, in practice, a current balance is constructed with coils of wire separated by a few centimeters. Force is measured to determine current. This also provides us with a method for measuring the coulomb. We measure the charge that flows for a current of one ampere in one second. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1 C</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1 A</m:mn><m:mo stretchy="false">⋅</m:mo><m:mn>s</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`C=1`A cdot s} {}</m:annotation></m:semantics></m:math>. For both the ampere and the coulomb, the method of measuring force between conductors is the most accurate in practice.</para>
+    
+<section id="fs-id2377008" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1555084" type="ap-test-prep">
+  <problem id="fs-id2008807">
+  <para id="fs-id2432274">Two parallel wires carry equal currents in the same direction and are separated by a small distance. What is the direction of the magnetic force exerted by the two wires on each other?</para>
+  <list id="fs-id2762912" list-type="enumerated" number-style="lower-alpha">
+  <item>No force since the wires are parallel.</item>
+  <item>No force since the currents are in the same direction.</item>
+  <item>The force is attractive.</item>
+  <item>The force is repulsive.</item>
+  </list>
+  </problem>
+  <solution id="fs-id3976635">
+  <para id="fs-id2203249">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id3298204" type="ap-test-prep"><problem id="fs-id3332339">
+  <para id="fs-id3156668">A wire along the <emphasis effect="italics">y</emphasis>-axis carries current in the +<emphasis effect="italics">y</emphasis>-direction. An experimenter would like to arrange a second wire parallel to the first wire and crossing the <emphasis effect="italics">x</emphasis>-axis at the coordinate
+  
+  <m:math>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>2.0 </m:mn><m:mtext> m</m:mtext>
+   </m:mrow>
+  </m:math>
+  
+   so that the total magnetic field at the coordinate
+  
+  <m:math>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1.0</m:mn><m:mtext> m</m:mtext>
+   </m:mrow>
+  </m:math>
+  
+  
+   is zero. In what direction must the current flow in the second wire, assuming it is equal in magnitude to the current in the first wire? Explain.</para></problem>
+  <!--<solution id="fs-id1928512">
+  <para id="fs-id2623450">The second wire must carry a current in the same direction as the first wire. The magnetic field at
+  
+  <m:math>
+   <m:mrow>
+    <m:mi>x</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>1.0</m:mn><m:mtext>m</m:mtext>
+   </m:mrow>
+  </m:math>
+  
+   due to the first wire points into the page. In order to have a net magnetic field of zero, the magnetic field of the second wire to the left of the second wire must point out of the page, which implies a current flowing in the +<emphasis effect="italics">y</emphasis>-direction.</para>
+  </solution>-->
+  </exercise></section>
+  
+    <section id="fs-id2265366" class="section-summary"><title>Section Summary</title><list id="eip-92"><item>The force between two parallel currents <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, separated by a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, has a magnitude per unit length given by
 
 <equation id="eip-id1168951408757"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mi>F</m:mi><m:mi>l</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {F}  over  {l} } = {  {μ rSub { size 8{0} } I rSub { size 8{1} } I rSub { size 8{2} } }  over  {2πr} } } {}</m:annotation></m:semantics></m:math></equation></item>
 <item>The force is attractive if the currents are in the same direction, repulsive if they are in opposite directions.</item>

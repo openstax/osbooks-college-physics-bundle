@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42446</md:content-id>
   <md:title>Energy in Electromagnetic Waves</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>1f423843-0a03-4075-ba33-23fe18eaaaf4</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain how the energy and amplitude of an electromagnetic wave are related.</item>
 <item>Given its power output and the heating area, calculate the intensity of a microwave oven’s electromagnetic field, as well as its peak electric and magnetic field strengths</item>
@@ -289,6 +289,30 @@
     </para>
     <para id="import-auto-id1169737860448">As before, a relatively strong electric field is accompanied by a relatively weak magnetic field in an electromagnetic wave, since <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">/</m:mo><m:mi>c</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B= {E} slash {c} } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> is a large number.</para>
     </example>
+
+<section id="fs-id2759729" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2008455" type="ap-test-prep"><problem id="fs-id1525488">
+  <para id="fs-id2747856">An old microwave oven outputs only half the electric field it used to. How much longer does it take to cook things in this microwave oven?</para>
+  <list id="fs-id2221164" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Four times as long</item>
+  <item>Twice as long</item>
+  <item>Half the time </item>
+  <item>One fourth the time</item>
+  </list>
+  </problem>
+  <solution id="fs-id2596164">
+  <para id="fs-id2402444">(a)</para>
+  </solution>
+  </exercise><exercise id="fs-id3156214" type="ap-test-prep"><problem id="fs-id1975072">
+  <para id="fs-id1926176">Describe at least two improvements you could make to a radar set to make it more sensitive (able to detect things at longer ranges). Explain why these would work.</para>
+  </problem>
+  <!--<solution id="fs-id2028210">
+  <para id="fs-id2379133">Make the radar set more powerful, so that it emits at a higher intensity. Give it a larger antenna, so that it can collect more energy from lower-intensity return signals.</para>
+  </solution>
+  --></exercise></section>
+  
+  
     <section id="fs-id1169738092573" class="section-summary"><title>Section Summary</title><list id="fs-id1169738061327">
     <item id="import-auto-id1169737923902">The energy carried by any wave is proportional to its amplitude squared. For electromagnetic waves, this means intensity can be expressed as
     <equation id="eip-612"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi fontstyle="italic">cε</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:msubsup><m:mi>E</m:mi><m:mrow><m:mn>0</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"ave"} } = {  {ce rSub { size 8{0} } E rSub { size 8{0} }  rSup { size 8{2} } }  over  {2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737880090">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>I</m:mi><m:mrow><m:mtext>ave</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I rSub { size 8{"ave"} } } {}</m:annotation></m:semantics></m:math> is the average intensity in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>W/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"W/m" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the maximum electric field strength of a continuous sinusoidal wave. </para>

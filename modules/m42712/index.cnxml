@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42712</md:content-id>
   <md:title>Doppler Effect and Sonic Booms</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>37891e98-ce8b-4a6a-8e5e-d9889126d53a</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Define Doppler effect, Doppler shift, and sonic boom.</item>
 <item>Calculate the frequency of a sound heard by someone observing Doppler shift.</item>
@@ -296,6 +296,49 @@
 <solution id="fs-id2424141" print-placement="here">    <para id="import-auto-id1823777">If I am driving and I hear Doppler shift in an ambulance siren, I would be able to tell when it was getting closer and also if it has passed by. This would help me to know whether I needed to pull over and let the ambulance through.</para></solution>
 
         </exercise></section>
+
+<section id="fs-id2518518" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id3078306" type="ap-test-prep">
+    <problem id="fs-id1272047">
+      <para id="fs-id1502060">A baggage handler stands on the edge of a runway as a landing plane approaches. Compared to the pitch of the plane as heard by the plane’s pilot, which of the following correctly describes the sensation experienced by the handler?</para>
+      <list id="fs-id824149" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+        <item>The frequency of the plane will be lower pitched according to the baggage handler and will become even lower pitched as the plane slows to a stop.</item>
+	<item>The frequency of the plane will be lower pitched according to the baggage handler but will increase in pitch as the plane slows to a stop.</item>
+	<item>The frequency of the plane will be higher pitched according to the baggage handler but will decrease in pitch as the plane slows to a stop.</item>
+	<item>The frequency of the plane will be higher pitched according to the baggage handler and will further increase in pitch as the plane slows to a stop.</item>
+      </list>
+    </problem>
+    <solution id="fs-id1303992">
+      <para id="fs-id1385238">(c)</para>
+    </solution>
+  </exercise>
+
+  <exercise id="fs-id1937370" type="ap-test-prep">
+    <problem id="fs-id2350873">
+      <para id="fs-id1161691">The following graph represents the perceived frequency of a car as it passes a student.</para>
+      <figure id="fs-id1262530">
+	<media id="fs-id2007004" alt="A graph of time in seconds on the x-axis versus perceived frequency in hertz on the y-axis. The line is flat at 218 hertz from 0 to about 0.5 seconds, then declines linearly from (0.5, 218) to (0.8, 181), and then is flat at 181 hertz until the line ends.">
+          <image mime-type="image/jpg" src="../../media/CNX_APPhysics_17_M4_graph_img.jpg"/>
+        </media>
+	<caption>Plot of time versus perceived frequency to illustrate the Doppler effect.</caption>
+      </figure>
+      <list id="fs-id2304547" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+        <item>If the true frequency of the car’s horn is 200 Hz, how fast was the car traveling?</item>
+	<item>On the graph above, draw a line demonstrating the perceived frequency for a car traveling twice as fast. Label all intercepts, maximums, and minimums on the graph.</item>
+      </list>
+    </problem>
+    <!--<solution id="fs-id2262830">
+      <list id="fs-id1380179" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+        <item>Approximately 30 m/s.</item>
+        <item>The graph should shrink in vertical direction, with a changing slope between 0.3 and 0.35 s. The maximum of the graph should be between 240 Hz and 245 Hz. The minimum of the graph should be between 170 Hz and 165 Hz.</item>
+      </list>
+    </solution>-->
+  </exercise>
+
+</section>
+
         <section id="fs-id2009308" class="section-summary"><title>Section Summary</title><list id="fs-id1993467"><item id="import-auto-id3082035">The Doppler effect is an alteration in the observed frequency of a sound due to motion of either the source or the observer.</item>
         <item id="import-auto-id2449719">The actual change in frequency is called the Doppler shift.</item>
             <item id="import-auto-id3090099">A sonic boom is constructive interference of sound created by an object moving faster than sound.</item>

@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42165</md:content-id>
   <md:title>Collisions of Point Masses in Two Dimensions</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>ca0b6bf0-e249-45a5-aa43-3088b4f66739</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Discuss two dimensional collisions as an extension of one dimensional analysis.</item>
 <item>Define point masses.</item>
@@ -1149,6 +1149,25 @@ is the momentum of the incoming particle. Both facts simplify the analysis. (Eve
     <title>Connections to Nuclear and Particle Physics</title>
     <para id="import-auto-id2785946">Two-dimensional collision experiments have revealed much of what we know about subatomic particles, as we shall see in <link document="m42646">Medical Applications of Nuclear Physics</link> and <link document="m42667">Particle Physics</link>. Ernest Rutherford, for example, discovered the nature of the atomic nucleus from such experiments.</para></note>
     </section>
+
+<section id="fs-id2856983" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2039335" type="ap-test-prep"><problem id="fs-id3182665">
+<para id="fs-id2542992">Two cars of equal mass approach an intersection. Car A is moving east at a speed of 45 m/s. Car B is moving south at a speed of 35 m/s. They collide inelastically and stick together after the collision, moving as one object. Which of the following statements is true about the center-of-mass velocity of this system?</para>
+<list id="fs-id2376205" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The center-of-mass velocity will decrease after the collision as a result of lost energy (but not drop to zero).</item>
+<item>The center-of-mass velocity will remain the same after the collision since momentum is conserved.</item>
+<item>The center-of-mass velocity will drop to zero since the two objects stick together.</item>
+<item>The magnitude of the center-of-mass velocity will remain the same, but the direction of the velocity will change.</item>
+</list>
+</problem>
+<solution id="fs-id2388032"><para id="fs-id2624755">(b)</para></solution>
+</exercise><exercise id="fs-id2218337" type="ap-test-prep"><problem id="fs-id2337354">
+<para id="fs-id1822233">Car A has a mass of 2000 kg and approaches an intersection with a velocity of 38 m/s directed to the east. Car B has a mass of 3500 kg and approaches the intersection with a velocity of 53 m/s directed 63° north of east. The two cars collide and stick together after the collision. Will the center-of-mass velocity change as a result of the collision? Explain why or why not. Calculate the center-of-mass velocity before and after the collision.</para>
+</problem>
+</exercise></section>
+
+
     <section id="fs-id2976431" class="section-summary"><title>Section Summary</title><list id="import-auto-id2068233" list-type="bulleted"><item>The approach to two-dimensional collisions is to choose a convenient coordinate system and break the motion into components along perpendicular axes. Choose a coordinate system with the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:semantics></m:math>-axis parallel to the velocity of the incoming particle.</item>
 <item>
 Two-dimensional collisions of point masses where mass 2 is initially at rest conserve momentum along the initial direction of mass 1 (the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:semantics></m:math>-axis), stated by

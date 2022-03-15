@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42333</md:content-id>
   <md:title>Capacitors and Dielectrics</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>56d8ca48-ab11-477d-b800-31b812b036b2</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe the action of a capacitor and define capacitance.</item>
 <item>Explain parallel plate capacitors and their capacitances.</item>
@@ -991,6 +991,90 @@ V
       <para id="eip-743">Explore how a capacitor works! Change the size of the plates and add a dielectric to see the effect on capacitance. Change the voltage and see charges built up on the plates. Observe the electric field in the capacitor. Measure the voltage and the electric field.
         <media id="fs-id1167066202649" alt="This simulation allows you to explore how a capacitor works.">
         <iframe width="660" height="371.4" src="https://openstax.org/l/28charge-cap"/></media></para></note>
+        <section id="fs-id1347072" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id1793317" type="ap-test-prep">
+          <problem id="fs-id1366229">
+            <para id="fs-id1313963">Two parallel plate capacitors are otherwise identical, except the second one has twice the distance between the plates of the first. If placed in otherwise identical circuits, how much charge will the second plate have on it compared to the first?</para>
+      <list id="eip-id1976420" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item id="fs-id2579925">four times as much</item>
+      <item id="fs-id1632935">twice as much</item>
+      <item id="fs-id1892245">the same</item>
+      <item id="fs-id1293018">half as much</item>
+      </list>
+          </problem>
+          <solution id="fs-id3392200">
+            <para id="fs-id1396378">(d)</para>
+          </solution>
+        </exercise>
+      
+      <exercise id="fs-id1669592" type="ap-test-prep">
+          <problem id="fs-id1975648">
+           <para id="fs-id1879006">In a very simple circuit consisting of a battery and a capacitor with an adjustable distance between the plates, how does the voltage vary as the distance is altered?</para>
+          </problem>
+          <!--<solution id="fs-id1240702">
+            <para id="fs-id758182">It doesn&#8217;t. The capacitance and charge will vary, but the voltage will remain a constant, so long as the battery retains internal energy.</para>
+          </solution>-->
+        </exercise>
+      <exercise id="fs-id1673098" type="ap-test-prep">
+          <problem id="fs-id1312413">
+            <para id="fs-id2501742">A parallel plate capacitor with adjustable-size square plates is placed in a circuit. How does the charge on the capacitor change as the length of the sides of the plates is increased?</para><list id="eip-id1408010" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item id="fs-id1235725">it grows proportional to length<sup>2</sup></item>
+      <item id="fs-id1977218">it grows proportional to length</item>
+      <item id="fs-id1894830">it shrinks proportional to length</item>
+      <item id="fs-id1651908">it shrinks proportional to length<sup>2</sup></item>
+      </list>
+          </problem>
+          <solution id="fs-id2684455">
+            <para id="fs-id2653152">(a)</para>
+          </solution>
+        </exercise>
+      <exercise id="fs-id1742648" type="ap-test-prep">
+          <problem id="fs-id2684703">
+      <para id="fs-id1382044">Design an experiment to test the relative permittivities of various materials, and briefly describe some basic features of the results.</para>
+          </problem>
+          <!--<solution id="fs-id3223255">
+           <para id="fs-id1633189">Have a parallel plate capacitor with a fixed, equal amount of charge on each plate, and a fixed distance between the plates. Then put in different materials cut in identical shapes to fit between the plates, and measure the drop in voltage. Then use <emphasis effect="italics">V</emphasis> = <emphasis effect="italics">Ed</emphasis> and <emphasis effect="italics">&#954;</emphasis>=<emphasis effect="italics">E</emphasis><sub>0</sub>/<emphasis effect="italics">E</emphasis> to calculate the relative permittivities. Note that they should all be greater than one.</para>
+          </solution>-->
+        </exercise>
+      
+        <exercise id="fs-id1622873" type="ap-test-prep"><problem id="fs-id1325547">
+      <para id="eip-id2522084">A student was changing one of the dimensions of a square parallel plate capacitor and measuring the resultant charge in a circuit with a battery. However, the student forgot which dimension was being varied, and didn’t write it or any units down. Given the table, which dimension was it?</para>
+      <table id="fs-id2230664" summary="The table has 5 columns and two rows. The first row is labeled Dimension and has 1.00, 1.10, 1.20, and 1.30 for values. The second row is labeled Charge in microcoulombs and has 0.50, 0.61, 0.71, and 0.86 for values.">
+      <tgroup cols="5"><tbody>
+      <row>
+      <entry>Dimension</entry>
+      <entry>1.00</entry>
+      <entry>1.10</entry>
+      <entry>1.20</entry>
+      <entry>1.30</entry>
+      </row>
+      <row>
+      <entry>Charge(µC)</entry>
+      <entry>0.50</entry>
+      <entry>0.61</entry>
+      <entry>0.71</entry>
+      <entry>0.86</entry>
+      </row>
+      </tbody>
+      
+      </tgroup>
+      </table><list id="eip-id1927367" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item id="fs-id3337999">The distance between the plates</item>
+      <item id="fs-id1403627">The area</item>
+      <item id="fs-id2018250">The length of a side</item>
+      <item id="fs-id1400793">Both the area and the length of a side</item>
+      </list>
+       </problem>
+      <solution id="fs-id1976793">
+            <para id="fs-id1327086">(c)</para>
+          </solution>
+        </exercise><exercise id="fs-id1768328" type="ap-test-prep">
+          <problem id="fs-id2033825">
+            <para id="fs-id1313905">In an experiment in which a circular parallel plate capacitor in a circuit with a battery has the radius and plate separation grow at the same relative rate, what will happen to the total charge on the capacitor?</para>
+          </problem>
+          <!--<solution id="fs-id1312530">
+      <para id="fs-id2336751">In the experiment, having a battery means that the voltage is constant, so the charge and capacitance are exactly proportional. The area and capacitance increase as the square of the radius. The capacitance decreases with the distance. So the capacitance (and hence charge) will go up linearly with the increase in dimensions.</para>
+          </solution>-->
+        </exercise>
+      </section>
 <section id="fs-id1309916" class="section-summary"><title>Section Summary</title><list id="fs-id1310256"><item id="import-auto-id2607317">A <emphasis effect="bold"/>capacitor <emphasis effect="bold"/>is a device used to store charge.</item>
     <item id="import-auto-id1737462">The amount of charge <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> a capacitor can store depends on two major factors—the voltage applied and the capacitor’s physical characteristics, such as its size.</item>
     <item id="import-auto-id2719243">The capacitance <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> is the amount of charge stored per volt<emphasis effect="italics">,</emphasis> or

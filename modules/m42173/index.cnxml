@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42173</md:content-id>
   <md:title>Applications of Statics, Including Problem-Solving Strategies</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>d3c30b71-3b67-41b1-9e1e-5accd05f159d</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Discuss the applications of Statics in real life.</item>
 <item>State and discuss various problem-solving strategies in Statics.</item>
@@ -259,6 +259,61 @@
 <iframe width="660" height="371.4" src="https://openstax.org/l/02balanactphet"/>
 </media>
 </figure></note>
+
+<section id="fs-id1534585" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+  
+    <exercise id="fs-id1383310" type="ap-test-prep"><problem id="fs-id1434037">
+        <para id="fs-id1049226">A child sits on the end of a playground see-saw. Which of the following values is the most appropriate estimate of the torque created by the child?</para>
+        <list id="fs-id1858847" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>6 N•m</item>
+      <item>60 N•m</item>
+      <item>600 N•m</item>
+      <item>6000 N•m</item>
+        </list></problem>
+  </exercise><exercise id="fs-id1362521" type="ap-test-prep"><problem id="fs-id1382666">
+        <para id="fs-id1399986">A group of students is stacking a set of identical books, each one overhanging the one below it by 1 inch. They would like to estimate how many books they could place on top of each other before the stack tipped. What information below would they need to know to make this calculation?</para>
+  
+        <figure id="fs-id1439516"><media id="fs-id1773101" alt="Three rectangles with thick blue borders on the bottom, left, and right side and a think black slightly indented line of the right indicate three books. There are two short black vertical lines going down on the left and right of the bottom book with a double-headed black arrow and the label Width below. On the left side of the bottom book are two short horizontal lines with a black vertical double-headed short arrow labeled Depth. The three books are stacked with the second book offset to the right and the third offset even more to the right on the second book. The edge of the second book is marked with a double-headed arrow marked 1” between a vertical line above the left edge of the bottom book and a vertical line above the left edge of the second book.">
+            <image mime-type="image/jpg" src="../../media/Figure 09_S3_03.jpg"/>
+          </media>
+  
+        <caption>3 overlapping stacked books.</caption></figure><list id="fs-id1777162" list-type="enumerated" number-style="upper-roman"><item>The mass of each book</item>
+      <item>The width of each book</item>
+      <item>The depth of each book</item>
+        </list><list id="fs-id1741748" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>I only</item>
+      <item>I and II only</item>
+      <item>I and III only</item>
+      <item>II only</item>
+      <item>I, II, and III</item>
+        </list></problem>
+      <solution id="fs-id1529326">
+        <para id="fs-id2013951">(d)</para></solution>
+    </exercise><exercise id="fs-id1743606" type="ap-test-prep"><problem id="fs-id1305053">
+        <para id="fs-id1431858">A 10 N board of uniform density is 5 meters long. It is supported on the left by a string bearing a 3 N upward force. In order to prevent the string from breaking, a person must place an upward force of 7 N at a position along the bottom surface of the board. At what distance from its left edge would they need to place this force in order for the board to be in static equilibrium?</para>
+        <list id="fs-id1867324" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item><m:math> <m:mrow>  <m:mfrac>   <m:mn>3</m:mn>   <m:mn>7</m:mn>  </m:mfrac> </m:mrow></m:math> m</item>
+      <item><m:math> <m:mrow>  <m:mfrac>   <m:mn>5</m:mn>   <m:mn>2</m:mn>  </m:mfrac> </m:mrow></m:math> m</item>
+      <item><m:math> <m:mrow>  <m:mfrac>   <m:mrow>    <m:mn>25</m:mn>   </m:mrow>   <m:mn>7</m:mn>  </m:mfrac> </m:mrow></m:math> m</item>
+      <item><m:math> <m:mrow>  <m:mfrac>   <m:mrow>    <m:mn>30</m:mn>   </m:mrow>   <m:mn>7</m:mn>  </m:mfrac> </m:mrow></m:math> m</item>
+      <item>5 m</item>
+        </list></problem>
+    </exercise><exercise id="fs-id1892207" type="ap-test-prep"><problem id="fs-id1475294">
+        <para id="fs-id1539526">A bridge is supported by two piers located 20 meters apart. Both the left and right piers provide an upward force on the bridge, labeled <emphasis effect="bold">F</emphasis><sub>L</sub> and <emphasis effect="bold">F</emphasis><sub>R</sub> respectively.</para>
+        <list id="fs-id981176" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>If a 1000 kg car comes to rest at a point 5 meters from the left pier, how much force will the bridge provide to the left and right piers?</item>
+      <item>How will <emphasis effect="bold">F</emphasis><sub>L</sub> and <emphasis effect="bold">F</emphasis><sub>R</sub> change as the car drives to the right side of the bridge?</item>
+        </list>
+      </problem>
+      <solution id="fs-id1497935">
+        <list id="fs-id1861733" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item><emphasis effect="bold">F</emphasis><sub>L</sub> = 7350 N, <emphasis effect="bold">F</emphasis><sub>R</sub> = 2450 N</item>
+      <item>As the car moves to the right side of the bridge, <emphasis effect="bold">F</emphasis><sub>L</sub> will decrease and <emphasis effect="bold">F</emphasis><sub>R</sub> will increase. (At exactly halfway across the bridge, <emphasis effect="bold">F</emphasis><sub>L</sub> and <emphasis effect="bold">F</emphasis><sub>R</sub> will both be 4900 N.)</item>
+        </list>
+      </solution>
+    </exercise><exercise id="fs-id1249019" type="ap-test-prep"><problem id="fs-id1668920">
+        <para id="fs-id3168259">An object of unknown mass is provided to a student. Without using a scale, design an experimental procedure detailing how the magnitude of this mass could be experimentally found. Your explanation must include the concept of torque and all steps should be provided in an orderly sequence. You may include a labeled diagram of your setup to help in your description. Include enough detail so that another student could carry out your procedure.</para>
+      </problem>
+    </exercise></section>
+  
 <section id="fs-id2659297" class="section-summary">
             <title>Summary</title>
             <list id="fs-id1328930"><item id="import-auto-id2581915">Statics can be applied to a variety of situations, ranging from raising a drawbridge to bad posture and back strain. We have discussed the problem-solving strategies specifically useful for statics. Statics is a special case of Newton’s laws, both the general problem-solving strategies and the special strategies for Newton’s laws, discussed in <link document="m42076">Problem-Solving Strategies</link>, still apply.</item>

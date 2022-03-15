@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42184</md:content-id>
   <md:title>Gyroscopic Effects: Vector Aspects of Angular Momentum</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>041effb0-5b88-46e0-895e-4b9f804607df</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Describe the right-hand rule to find the direction of angular velocity, momentum, and torque.</item>
 <item>Explain the gyroscopic effect.</item>
@@ -83,6 +83,68 @@
         <para id="import-auto-id3145532">No, energy is always a scalar whether motion is involved or not. No form of energy has a direction in space and you can see that rotational kinetic energy does not depend on the direction of motion just as linear kinetic energy is independent of the direction of motion.</para>
         </solution>
         </exercise>
+
+<section id="fs-id1926847" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id1645907" type="ap-test-prep">
+    <problem id="fs-id1601348">
+    <para id="fs-id1891167">A globe (model of the Earth) is a hollow sphere with a radius of 16 cm. By wrapping a cord around the equator of a globe and pulling on it, a person exerts a torque on the globe of 120 N • m for 1.2 s. What angular momentum does the globe have after 1.2 s?</para></problem>
+    <solution id="fs-id1576627">
+    <para id="fs-id1526119">Since the globe is stationary to start with,</para>
+    <para id="fs-id2083508"><m:math>
+     <m:mrow>
+      <m:mi>τ</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mtext>Δ</m:mtext><m:mi>L</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:mtext>Δ</m:mtext><m:mi>t</m:mi>
+       </m:mrow>
+      </m:mfrac>
+    </m:mrow></m:math></para>
+    <para id="fs-id1551848"><m:math>
+     <m:mrow>
+      <m:mi>τ</m:mi><m:mo>⋅</m:mo><m:mtext>Δ</m:mtext><m:mi>t</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mtext>Δ</m:mtext><m:mi>L</m:mi>
+     </m:mrow>
+    </m:math></para>
+    <para id="fs-id1525715">By substituting, </para>
+    <para id="fs-id1630469">120 N•m • 1.2 s = 144 N•m•s.</para>
+    <para id="fs-id1479436">The angular momentum of the globe after 1.2 s is 144 N•m•s.</para>
+    </solution>
+    </exercise>
+    
+    <exercise id="fs-id1533695" type="ap-test-prep">
+    <problem id="fs-id1797785">
+    <para id="fs-id1574483">How could you use a fishing reel to test the relationship between the torque applied to a system, the time for which the torque was applied, and the resulting angular momentum of the system? How would you measure angular momentum?</para>
+    </problem>
+    <!--<solution id="fs-id1859088">
+    <para id="fs-id1350335">You could suspend a known mass from the fishing line. Since the mass is known, you could calculate the force due to gravity exerted on the line and multiply that by the radius of the reel to determine the torque exerted on the reel. You could time the experiment to control the time for which the torque is exerted. Since the mass of the fishing line that leaves the spool is negligible, the angular momentum of the system is equal to the reel's moment of inertia multiplied by its angular velocity. You could use the formula</para>
+    <para id="fs-id1624755"><m:math display="inline">
+     <m:mrow>
+      <m:mi>I</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+       <m:mi>M</m:mi>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:msubsup>
+         <m:mi>R</m:mi>
+         <m:mn>1</m:mn>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+        <m:mo>+</m:mo><m:msubsup>
+         <m:mi>R</m:mi>
+         <m:mn>2</m:mn>
+         <m:mn>2</m:mn>
+        </m:msubsup>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+    </m:math>
+    (from <link document="m55186" target-id="fs-id1838666">Figure 10.12</link>) to estimate the reel's moment of inertia. You could measure the length of fishing line that spooled off the reel to determine the number of revolutions the reel had made and calculate the reel's angular velocity.</para></solution>-->
+    </exercise>
+    </section>
+    
         <section id="fs-id694467" class="section-summary"><title>Section Summary</title><list id="fs-id3258118"><item id="import-auto-id1350863">Torque is perpendicular to the plane formed by <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">F</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> and is the direction your right thumb would point if you curled the fingers of your right hand in the direction of <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">F</m:mtext> </m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math>. The direction of the torque is thus the same as that of the angular momentum it produces.</item>
         <item id="import-auto-id2682421">The gyroscope precesses around a vertical axis, since the torque is always horizontal and perpendicular to <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">L</m:mtext> </m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>. If the gyroscope is not spinning, it acquires angular momentum in the direction of the torque (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext mathvariant="bold">L</m:mtext> <m:mo stretchy="false">=</m:mo><m:mrow><m:mtext>Δ</m:mtext><m:mtext mathvariant="bold">L</m:mtext> </m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=ΔL} {}</m:annotation></m:semantics></m:math>), and it rotates about a horizontal axis, falling over just as we would expect.</item>
         <item id="import-auto-id3076022">Earth itself acts like a gigantic gyroscope. Its angular momentum is along its axis and points at Polaris, the North Star.</item>

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42146</md:content-id>
   <md:title>Work: The Scientific Definition</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>364a282d-6278-46df-83c1-1df19d673b51</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain how an object must be displaced for a force on it to do work.</item>
 <item>Explain how relative directions of force and displacement determine whether the work done is positive, negative, or zero.</item>
@@ -172,6 +172,98 @@
     <para id="import-auto-id1803210">This ratio is a tiny fraction of what the person consumes, but it is typical. Very little of the energy released in the consumption of food is used to do work. Even when we “work” all day long, less than 10% of our food energy intake is used to do work and more than 90% is converted to thermal energy or stored as chemical energy in fat.</para>
     </example>
 </section>
+<section id="fs-id1312194" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2527597" type="ap-test-prep">
+  <problem id="fs-id3900829">
+  <para id="fs-id1782508">Given <link target-id="fs-id1280037" document=""/> about how much force does the rocket engine exert on the 3.0-kg payload?</para>
+  
+  <table id="fs-id1280037" summary="The table has two columns: distance traveled with rocket engine firing in meters and payload final velocity in meters per second. Row 1 had 500 in the distance column and 310 in the final velocity column. Row 2 has 490 in the distance column and 300 in the final velocity column. Row 3 has 1020 in the distance column and 450 in the final velocity column. Row 4 has 505 in the distance column and 312 in the final velocity column.">
+  <title/>
+  <tgroup cols="2">
+  
+  <thead>
+  <row>
+  <entry>Distance traveled with rocket engine firing (m)</entry>
+  <entry>Payload final velocity (m/s)</entry>
+  </row>
+  </thead>
+  <tbody>
+  <row>
+  <entry>500 </entry>
+  <entry>310</entry>
+  </row>
+  <row>
+  <entry>490 </entry>
+  <entry>300</entry>
+  </row>
+  <row>
+  <entry>1020 </entry>
+  <entry>450</entry>
+  </row>
+  <row>
+  <entry>505 </entry>
+  <entry>312</entry></row>
+  </tbody></tgroup></table>
+  
+  <list id="fs-id1935432" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>150 N</item>
+  <item>300 N</item>
+  <item>450 N</item>
+  <item>600 N</item>
+  </list>
+  </problem>
+  <solution id="fs-id2353522">
+  <para id="fs-id1575171">(b)</para></solution>
+  </exercise>
+  <exercise id="fs-id1277250" type="ap-test-prep">
+  <problem id="fs-id1182208">
+  <para id="fs-id2685518">You have a cart track, a cart, several masses, and a position-sensing pulley. Design an experiment to examine how the force exerted on the cart does work as it moves through a distance.</para>
+  </problem>
+  <!--<solution id="fs-id1843512">
+  <para id="fs-id919392">Hang masses over the pulley to pull the cart. The force exerted is determined using the term <emphasis effect="italics">mg</emphasis>, and the distance is measured by the pulley. If the pulley and software can also measure velocity, compare final kinetic energy to work done, with the cart starting at rest.</para>
+  </solution>-->
+  </exercise>
+  <exercise id="fs-id2713956" type="ap-test-prep">
+  <problem id="fs-id1150021">
+  <para id="fs-id797021">Look at <link target-id="fs-id1593673" document="m55076"/>(c). You compress a spring by <emphasis effect="italics">x</emphasis>, and then release it. Next you compress the spring by 2<emphasis effect="italics">x</emphasis>. How much more work did you do the second time than the first?</para><list id="fs-id2686664" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Half as much</item>
+  <item>The same</item>
+  <item>Twice as much</item>
+  <item>Four times as much</item>
+  </list>
+  </problem>
+  <solution id="fs-id1757293">
+  <para id="fs-id1030456">(d)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1271091" type="ap-test-prep">
+  <problem id="fs-id2019481">
+  <para id="fs-id2242295">You have a cart track, two carts, several masses, a position-sensing pulley, and a piece of carpet (a rough surface) that will fit over the track. Design an experiment to examine how the force exerted on the cart does work as the cart moves through a distance.</para>
+  </problem>
+  <!--<solution id="fs-id1360944">
+  <para id="fs-id2685132">Set up the two carts with the force sensor between them. Attach masses over the pulley to the rear cart, so the rear cart pushes on the front cart. Graph the force versus distance measured by the force-meter and pulley. You can change things up by putting extra masses in the front cart or putting the carpet on the track to see what happens in the diagrams.</para>
+  </solution>-->
+  </exercise>
+  <exercise id="fs-id2714107" type="ap-test-prep">
+  <problem id="fs-id2521814">
+  <para id="fs-id824149">A crane is lifting construction materials from the ground to an elevation of 60 m. Over the first 10 m, the motor linearly increases the force it exerts from 0 to 10 kN. It exerts that constant force for the next 40 m, and then winds down to 0 N again over the last 10 m, as shown in the figure. What is the total work done on the construction materials?</para>
+  <figure id="fs-id1422816"><media id="fs-id1347762" alt="The graph has meters on the x axis and newtons on the y axis. A straight line runs from the point (0, 0) to the point (10, 10). Another straight line runs from (10, 10) to (50, 10). A third straight line runs from (50, 10) to (60, 0).">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_07_M1_cranegraph_img.jpg"/>
+  </media>
+  </figure><list id="fs-id1403689" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>500 kJ</item>
+  <item>600 kJ</item>
+  <item>300 kJ</item>
+  <item>18 MJ</item>
+  </list>
+  </problem>
+  <solution id="fs-id1365937">
+  <para id="fs-id3024846">(a)</para></solution>
+  </exercise>
+  </section>
+  
+  
       <section id="fs-id1554101" class="section-summary"><title>Section Summary</title><list id="fs-id1144023"><item>Work is the transfer of energy by a force acting on an object as it is displaced.</item>
     <item>The work <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> that a force <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> does on an object is the product of the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> of the force, times the magnitude <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> of the displacement, times the cosine of the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math> between them. In symbols,
 <equation id="eip-id3298145"><m:math>

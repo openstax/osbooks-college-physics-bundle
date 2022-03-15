@@ -592,7 +592,420 @@
 <media id="fs-id1167067184393" alt="This simulation allows you to try out different models by shooting light at the atom to figure out its structure.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28atom_model"/>
 </media>
-</figure></note><section id="fs-id3064103" class="section-summary"><title>Section Summary</title><list id="fs-id3292637"><item>The planetary model of the atom pictures electrons orbiting the nucleus in the way that planets orbit the sun. Bohr used the planetary model to develop the first reasonable theory of hydrogen, the simplest atom. Atomic and molecular spectra are quantized, with hydrogen spectrum wavelengths given by the formula
+</figure></note>
+
+<section id="fs-id1301060" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2653153" type="ap-test-prep">
+  <problem id="fs-id1830875">
+  <para id="fs-id2239133">A hypothetical one-electron atom in its highest excited state can only emit photons of energy 2<emphasis effect="italics">E</emphasis>, 3<emphasis effect="italics">E</emphasis>, and 5<emphasis effect="italics">E</emphasis> before reaching the ground state. Which of the following represents the complete set of energy levels for this atom?</para><list id="fs-id1759209" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>0, 3<emphasis effect="italics">E</emphasis>, 5<emphasis effect="italics">E</emphasis></item>
+  <item>0, 2<emphasis effect="italics">E</emphasis>, 3<emphasis effect="italics">E</emphasis></item>
+  <item>0, 2<emphasis effect="italics">E</emphasis>, 3<emphasis effect="italics">E</emphasis>, 5<emphasis effect="italics">E</emphasis></item>
+  <item>0, 5<emphasis effect="italics">E</emphasis>, 8<emphasis effect="italics">E</emphasis>, 10<emphasis effect="italics">E</emphasis></item>
+  </list>
+  </problem>
+  <solution id="fs-id1345616">
+  <para id="fs-id1616155">(a)</para>
+  </solution>
+  </exercise>
+  
+  <exercise id="fs-id1595568" type="ap-test-prep">
+  <problem id="fs-id2769926">
+  <para id="fs-id2770737">The Lyman series of photons each have an energy capable of exciting the electron of a hydrogen atom from the ground state (energy level 1) to energy levels 2, 3, 4, etc. The wavelengths of the first five photons in this series are 121.6 nm, 102.6 nm, 97.3 nm, 95.0 nm, and 93.8 nm. The ground state energy of hydrogen is −13.6 eV. Based on the wavelengths of the Lyman series, calculate the energies of the first five excited states above ground level for a hydrogen atom to the nearest 0.1 eV.</para>
+  </problem>
+  <!--<solution id="fs-id2812620">
+  <para id="fs-id2530975">The energy of each photon can be calculated using the formula</para>
+  <para id="fs-id1417774"><m:math>
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mi>h</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+     <m:mi>&#955;</m:mi>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math></para>
+  <para id="fs-id1630533">and then converting the energy from Joules to eV. This energy is equal to the difference between levels of the hydrogen atom.</para>
+  <para id="fs-id822290">For a wavelength of 121.6 nm,</para>
+  <para id="fs-id2052069"><m:math display="block">
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+     <m:mrow>
+      <m:mi>h</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+     <m:mi>&#955;</m:mi>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math>
+  <m:math display="block">
+   <m:mrow>
+    <m:mn>1.634</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>18</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext><m:mo>&#215;</m:mo><m:mo>&#160;</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>1</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>1.6</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mo>&#8722;</m:mo><m:mn>19</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext>
+       </m:mrow>
+      </m:mfrac>
+  
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>10.2</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mo>&#160;</m:mo>
+   </m:mrow>
+  </m:math></para>
+  <para id="fs-id2686456">So based on the difference between levels, we can find the energy of level 2.</para>
+  <para id="fs-id2716729"><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>10.2</m:mn>
+   </m:mrow>
+  </m:math></para>
+  
+  <para id="fs-id2708311"><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>10.2</m:mn>
+   </m:mrow>
+  </m:math></para>
+  
+  <para id="fs-id1206151"><m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mn>10.2</m:mn>
+   </m:mrow>
+  </m:math></para>
+  <para id="fs-id1395113">Similarly, for the other levels:</para>
+  <para id="fs-id1945286">For 102.6 nm, <m:math>
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mn>1.937</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>18</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>12.1</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mo>&#8594;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mn>1.5</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext>
+   </m:mrow>
+  </m:math></para>
+  
+  <para id="fs-id1307816">For 97.3 nm, <m:math>
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2.042</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>18</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>12.8</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mo>&#8594;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>4</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mn>0.8</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext>
+   </m:mrow>
+  </m:math></para>
+  
+  <para id="fs-id2340636">For 95.0 nm, <m:math>
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2.092</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>18</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>13.1</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mo>&#8594;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>5</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mn>0.5</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext>
+   </m:mrow>
+  </m:math></para>
+  
+  <para id="fs-id1271112">For 93.8 nm, <m:math>
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mn>2.118</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>18</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mn>13.2</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mo>&#8594;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>6</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mo>&#8722;</m:mo><m:mn>0.4</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext>
+   </m:mrow>
+  </m:math></para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1746170" type="ap-test-prep">
+  <problem id="fs-id3921928">
+  <para id="fs-id2650134">The ground state of a certain type of atom has energy –<emphasis effect="italics">E</emphasis><sub>0</sub>. What is the wavelength of a photon with enough energy to ionize an atom in the ground state and give the ejected electron a kinetic energy of 2<emphasis effect="italics">E</emphasis><sub>0</sub>?</para>
+  <list id="fs-id3366171" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><m:math>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>h</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>3</m:mn><m:msub>
+       <m:mi>E</m:mi>
+       <m:mn>0</m:mn>
+      </m:msub>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math></item>
+  <item><m:math>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>h</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>2</m:mn><m:msub>
+       <m:mi>E</m:mi>
+       <m:mn>0</m:mn>
+      </m:msub>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math></item>
+  <item><m:math>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mi>h</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>E</m:mi>
+       <m:mn>0</m:mn>
+      </m:msub>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math></item>
+  <item><m:math>
+   <m:mrow>
+    <m:mfrac>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mi>h</m:mi><m:mi>c</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:msub>
+       <m:mi>E</m:mi>
+       <m:mn>0</m:mn>
+      </m:msub>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math></item>
+  </list>
+  </problem>
+  <solution id="fs-id1336044">
+  <para id="fs-id1302091">(a)</para>
+  </solution>
+  </exercise>
+  
+  <exercise id="fs-id1344350" type="ap-test-prep">
+  <problem id="fs-id2534272">
+  <para id="fs-id1165897">An electron in a hydrogen atom is initially in energy level 2 (<emphasis effect="italics">E</emphasis><sub>2</sub> = -3.4 eV). (a) What frequency of photon must be absorbed by the atom in order for the electron to transition to energy level 3 (<emphasis effect="italics">E</emphasis><sub>3</sub> = -1.5 eV)? (b) What frequency of photon must be emitted by the atom in order for the electron to transition to energy level 1 (<emphasis effect="italics">E</emphasis><sub>1</sub> = -13.6 eV)?</para></problem>
+  <!--<solution id="fs-id1338810">
+  <para id="fs-id2675478">(a) In absorption, the electron must gain energy equal to the difference between energy levels. In this case, the gain is</para>
+  <para id="fs-id1271821"><m:math>
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>3</m:mn>
+    </m:msub>
+    <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mo>&#8722;</m:mo><m:mn>1.5</m:mn><m:mo>&#8722;</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>3.4</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mn>1.9</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>or</m:mtext><m:mtext>&#8201;</m:mtext><m:mn>3.04</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>19</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext>
+   </m:mrow>
+  </m:math></para>
+  
+  <para id="fs-id3531281">To find the frequency, use</para>
+  <para id="fs-id1317841"><m:math display="block">
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mi>h</m:mi><m:mi>f</m:mi>
+   </m:mrow>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mn>3.04</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>19</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mn>6.626</m:mn><m:mo>&#215;</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>&#8722;</m:mo><m:mn>34</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext><m:mo>&#183;</m:mo><m:mtext>s</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mi>f</m:mi>
+   </m:mrow>
+  </m:math>
+  
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>f</m:mi><m:mo>=</m:mo><m:mn>4.6</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mn>14</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>Hz</m:mtext>
+   </m:mrow>
+  </m:math>
+  </para>
+  <para id="fs-id1977379">(b) In emission, the electron loses energy equal to the difference between energy levels and releases that energy in the form of a photon. The energy loss is</para>
+  <para id="fs-id3900852"><m:math display="block">
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mo>&#8722;</m:mo><m:mn>3.4</m:mn><m:mo>&#8722;</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>13.6</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>10.2</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>or</m:mtext><m:mtext>&#8201;</m:mtext><m:mn>1.63</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>18</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext>
+   </m:mrow>
+  </m:math>
+  </para>
+  <para id="fs-id4300410">The frequency can then be found as above:</para>
+  <para id="fs-id3014368">
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>E</m:mi><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>2</m:mn>
+    </m:msub>
+    <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+     <m:mi>E</m:mi>
+     <m:mn>1</m:mn>
+    </m:msub>
+    <m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mo>&#8722;</m:mo><m:mn>3.4</m:mn><m:mo>&#8722;</m:mo><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>13.6</m:mn>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>10.2</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>eV</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>or</m:mtext><m:mtext>&#8201;</m:mtext><m:mn>1.63</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>18</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>J</m:mtext>
+   </m:mrow>
+  </m:math></para>
+  </solution>-->
+  </exercise>
+  </section>
+  <section id="fs-id3064103" class="section-summary"><title>Section Summary</title><list id="fs-id3292637"><item>The planetary model of the atom pictures electrons orbiting the nucleus in the way that planets orbit the sun. Bohr used the planetary model to develop the first reasonable theory of hydrogen, the simplest atom. Atomic and molecular spectra are quantized, with hydrogen spectrum wavelengths given by the formula
       <equation id="eip-59"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mi>λ</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:mi>R</m:mi></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mfrac><m:mn>1</m:mn><m:msubsup><m:mi>n</m:mi><m:mrow><m:mtext>f</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mfrac><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:msubsup><m:mi>n</m:mi><m:mrow><m:mtext>i</m:mtext></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mfrac></m:mrow></m:mfenced></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {λ} } =R left ( {  {1}  over  {n rSub { size 8{f} }  rSup { size 8{2} } } }  -  {  {1}  over  {n rSub { size 8{i} }  rSup { size 8{2} } } }  right )} {}</m:annotation></m:semantics></m:math></equation>
     where <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math> is the wavelength of the emitted EM radiation and <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is the Rydberg constant, which has the value
     <equation id="eip-144"><m:math>

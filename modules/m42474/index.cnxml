@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42474</md:content-id>
   <md:title>Image Formation by Mirrors</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>7254e46e-21b9-4466-81fe-a80923efa461</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Illustrate image formation in a flat mirror.</item>
 <item>Explain with ray diagrams the formation of an image using spherical mirrors.</item>
@@ -231,6 +231,46 @@
     </note><section id="fs-id2757582">
     <title>Problem-Solving Strategy for Mirrors</title><para id="import-auto-id2807061">Step 1. Examine the situation to determine that image formation by a mirror is involved.</para>
     <para id="import-auto-id1553115">Step 2. Refer to the <link document="m42470" target-id="fs-id2212849">Problem-Solving Strategies for Lenses</link>. The same strategies are valid for mirrors as for lenses with one qualification—use the ray tracing rules for mirrors listed earlier in this section.</para></section>
+    <section id="fs-id2758815" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+      <exercise id="fs-id1998480" type="ap-test-prep"><problem id="fs-id1811949">
+      <para id="fs-id2403567">A student is testing the properties of a mirror with an unknown radius of curvature. The student notices that no matter how far an object is placed from the mirror, the image seen in the mirror is always upright and smaller than the object. What can the student deduce about this mirror?</para>
+      <list id="fs-id2716484" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>The mirror is convex.</item>
+      <item>The mirror is flat.</item>
+      <item>The mirror is concave.</item>
+      <item>More information is required to deduce the shape of the mirror.</item>
+      </list>
+      </problem>
+      <solution id="fs-id1405017">
+      <para id="fs-id3184161">(a)</para></solution>
+      </exercise><exercise id="fs-id2381022" type="ap-test-prep"><problem id="fs-id2718938">
+      <para id="fs-id1525403">A student notices a small printed sentence at the bottom of the driver’s side mirror on her car. It reads, “Objects in the mirror are closer than they appear.” Which type of mirror is this (convex, concave, or flat)? How could you confirm the shape of the mirror experimentally?</para>
+      </problem>
+      <!--<solution id="fs-id2531740">
+      <para id="fs-id1968990">It must be a convex mirror. The student could place a test object at various distances from the mirror using a ruler. For each distance, the student could note that the image is always upright. This means that the object and the image are both always in front of the mirror (and therefore positive). According to the thin lens equation, the focal length of the mirror must also be positive, which indicates a convex mirror.</para>
+      </solution>-->
+      </exercise><exercise id="fs-id1560818" type="ap-test-prep"><problem id="fs-id1775577">
+      <para id="fs-id1279774">A mirror shows an upright image twice as large as the object when the object is 10 cm away from the mirror. What is the focal length of the mirror?</para>
+      <list id="fs-id1497883" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>-10 cm</item>
+      <item>10 cm</item>
+      <item>20 cm</item>
+      <item>40 cm</item>
+      </list>
+      </problem>
+      <solution id="fs-id2315794">
+      <para id="fs-id2432249">(b)</para>
+      </solution>
+      </exercise><exercise id="fs-id1859234" type="ap-test-prep"><problem id="fs-id3260774">
+      <para id="fs-id1846269">A mirror shows an inverted image that is equal in size to the object when the object is 20 cm away from the mirror. Describe the image that will be formed if this object is moved to a distance of 5 cm away from the mirror.</para>
+      </problem>
+      <!--<solution id="fs-id2242043">
+      <para id="fs-id2750622">An inverted image of equal size to the object indicates a magnification of -1. So the image distance is equal to the object distance for the mirror. Thus, the focal length of the mirror is 10 cm.</para>
+      <para id="fs-id1894600">Solving for the image distance for this mirror when the object distance is 5 cm results in an image distance of -10 cm. Thus, the image will be twice as large as the object and upright, since the magnification is now +2.</para>
+      </solution>
+      --></exercise></section>
+      
   <section id="fs-id2506528" class="section-summary"><title>Section Summary</title><list id="fs-id2923821"><item id="import-auto-id1956251">The characteristics of an image formed by a flat mirror are: (a) The image and object are the same distance from the mirror, (b) The image is a virtual image, and (c) The image is situated behind the mirror.</item>
       <item>Image length is half the radius of curvature. <equation id="eip-id4368080"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>R</m:mi><m:mn>2</m:mn></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f= {  {R}  over  {2} } } {}</m:annotation></m:semantics></m:math></equation></item>
     <item>A convex mirror is a diverging mirror and forms only one type of image, namely a virtual image.</item>

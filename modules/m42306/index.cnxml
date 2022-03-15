@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42306</md:content-id>
   <md:title>Conductors and Insulators</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>f2f59eb2-3373-4243-85f7-03c5e71a4258</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Define conductor and insulator, explain the difference, and give examples of each.</item>
 <item>Describe three methods for charging an object.</item>
@@ -63,7 +63,147 @@
 <media id="eip-idm388879792" alt="This simulation allows you to discover models for common static electricity concepts (transfer of charge, attraction, repulsion, and grounding).">
 <iframe width="660" height="371.4" src="https://openstax.org/l/02john_travoltage"/>
 </media>
-</figure></para></note><section id="fs-id2261945" class="section-summary"><title>Section Summary</title><list id="import-auto-id1840790" list-type="bulleted"><item>Polarization is the separation of positive and negative charges in a neutral object.</item>
+</figure></para></note>
+
+<section id="fs-id2306111" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id1741542" type="ap-test-prep"><problem id="fs-id1743744">
+  <para id="fs-id2721705">Some students experimenting with an uncharged metal sphere want to give the sphere a net charge using a charged aluminum pie plate. Which of the following steps would give the sphere a net charge of the same sign as the pie plate?</para>
+    <list id="fs-id2214258" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>bringing the pie plate close to, but not touching, the metal sphere, then moving the pie plate away.</item>
+<item>bringing the pie plate close to, but not touching, the metal sphere, then momentarily touching a grounding wire to the metal sphere.</item>
+<item>bringing the pie plate close to, but not touching, the metal sphere, then momentarily touching a grounding wire to the pie plate.</item>
+<item>touching the pie plate to the metal sphere.</item>
+</list>
+</problem>
+<!--    <solution id="fs-id2214197">
+  <para id="fs-id1341630">(d)</para>
+<para id="fs-id2505228">Questions 2-6 are based on an experiment performed using a positively charged balloon and a neutral metal sphere. The setup is shown in the figure below.</para>
+<para id="eip-id1598757"/>
+</solution>
+--></exercise><exercise id="fs-id2066915" type="ap-test-prep">
+<problem id="fs-id1115184">
+<para id="eip-id2584055"><figure id="fs-id1795315">
+<media id="fs-id1894606" alt="An elliptical with 3 pluses and a curvy line below represents a balloon. The second object shows a 3d sphere on a pedestal with the label x on the left side and y on the right side.">
+      <image mime-type="image/jpg" src="../../media/Figure_Ch18_S01.jpg"/>
+    </media>
+<caption>Balloon and sphere.</caption>
+  </figure>   </para>
+  <para id="fs-id2181724">When the balloon is brought closer to the sphere, there will be a redistribution of charges. What is this phenomenon called?</para>
+    <list id="fs-id2314167" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>electrostatic repulsion</item>
+<item>conduction</item>
+<item>polarization</item>
+<item>none of the above</item>
+</list>
+</problem>
+<solution id="fs-id2023719">
+  <para id="fs-id2187070">(c)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id2058933" type="ap-test-prep"><problem id="fs-id2114755">
+  <para id="fs-id3189586">What will be the charge at Y (i.e., the part of the sphere furthest from the balloon)?</para>
+    <list id="fs-id2380208" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>positive</item>
+<item>negative</item>
+<item>zero</item>
+<item>It can be positive or negative depending on the material.</item>
+</list>
+</problem>
+<!--    <solution id="fs-id945394">
+  <para id="fs-id1978861">(a)</para>
+<para id="eip-id1205270"/>
+</solution>
+-->  </exercise><exercise id="fs-id2026590" type="ap-test-prep">
+<problem id="fs-id1862190">
+  <para id="fs-id2216759">What will be the net charge on the sphere?</para>
+    <list id="fs-id2066063" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>positive</item>
+<item>negative</item>
+<item>zero</item>
+<item>It can be positive or negative depending on the material.</item>
+</list>
+</problem>
+<solution id="fs-id1736777">
+  <para id="fs-id1461863">(c)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id2008081" type="ap-test-prep"><problem id="fs-id2061850">
+  <para id="fs-id1776267">If Y is grounded while the balloon is still close to X, which of the following will be true?</para>
+<list id="fs-id2387512" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Electrons will flow from the sphere to the ground.</item>
+<item>Electrons will flow from the ground to the sphere.</item>
+<item>Protons will flow from the sphere to the ground.</item>
+<item>Protons will flow from the ground to the sphere.</item>
+</list>
+</problem>
+<!--    <solution id="fs-id2691012">
+  <para id="fs-id1437481">(b)</para>
+<para id="eip-id1944220"/>
+</solution>
+-->  </exercise><exercise id="fs-id2143149" type="ap-test-prep">
+<problem id="fs-id2065961">
+  <para id="fs-id2060357">If the balloon is moved away after grounding, what will be the net charge on the sphere?</para>
+  <list id="fs-id2221598" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>positive</item>
+<item>negative</item>
+<item>zero</item>
+<item>It can be positive or negative depending on the material.</item>
+  </list>
+</problem>
+<solution id="fs-id1535687">
+  <para id="fs-id2867156">(b)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1737616" type="ap-test-prep"><problem id="fs-id1492307">
+  <para id="fs-id1816638">A positively charged rod is used to charge a sphere by induction. Which of the following is true?</para>
+  <list id="fs-id2563766" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+    <item>The sphere must be a conductor.</item>
+<item>The sphere must be an insulator.</item>
+<item>The sphere can be a conductor or insulator but must be connected to ground.</item>
+<item>The sphere can be a conductor or insulator but must be already charged.</item>
+  </list>
+</problem>
+<!--    <solution id="fs-id2766133">
+  <para id="fs-id2432229">(a)</para>
+<para id="eip-id1166760302405"/>
+</solution>
+--></exercise><exercise id="fs-id1929188" type="ap-test-prep">
+<problem id="fs-id2026981">      <para id="eip-id1377464">
+<figure id="fs-id2067672">
+<media id="fs-id1272882" alt="A rod is represented by a long oval with a circle on the end. The brown rod has 6 minus signs. Two hanging spheres are shown to the right of the rod.">
+      <image mime-type="image/jpg" src="../../media/Figure_Ch18_S02.jpg"/>
+    </media>
+<caption>Rod and metal balls.</caption>
+  </figure></para>
+  <para id="fs-id1787292">As shown in the figure above, two metal balls are suspended and a negatively charged rod is brought close to them.</para>
+    <list id="fs-id1443521" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>If the two balls are in contact with each other what will be the charges on each ball?</item>
+<item>Explain how the balls get these charges.</item>
+<item>What will happen to the charge on the second ball (i.e., the ball further away from the rod) if it is momentarily grounded while the rod is still there?</item>
+<item>If (instead of grounding) the second ball is moved away and then the rod is removed from the first ball, will the two balls have induced charges? If yes, what will be the charges? If no, why not?</item>
+</list>
+</problem>
+<solution id="fs-id1441143">
+  <para id="fs-id1851333">a) Ball 1 will have positive charge and Ball 2 will have negative charge. b) The negatively charged rod attracts positive charge of Ball 1. The electrons of Ball 1 are transferred to Ball 2, making it negatively charged. c) If Ball 2 is grounded while the rod is still there, it will lose its negative charge to the ground. d) Yes, Ball 1 will be positively charged and Ball 2 will be negatively charge.</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1527236" type="ap-test-prep"><problem id="fs-id1415308">
+  <para id="fs-id2844226">Two experiments are performed using positively charged glass rods and neutral electroscopes. In the first experiment the rod is brought in contact with the electroscope. In the second experiment the rod is only brought close to the electroscope but not in contact. However, while the rod is close, the electroscope is momentarily grounded and then the rod is removed. In both experiments the needles of the electroscopes deflect, which indicates the presence of charges.</para>
+    <list id="fs-id1722082" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>What is the charging method in each of the two experiments?</item>
+<item>What is the net charge on the electroscope in the first experiment? Explain how the electroscope obtains that charge.</item>
+<item>Is the net charge on the electroscope in the second experiment different from that of the first experiment? Explain why.</item>
+</list>
+</problem>
+<!--    <solution id="fs-id2018760">
+  <para id="fs-id2182432">a) The charging in the first experiment is by contact and the charging in the second experiment is by induction. b) The electroscope has a positive charge. When the positively charged rod is touched against the electroscope, electrons are attracted and transferred to the rod, reducing the net charge on the glass rod and leaving the electroscope positively charged. c) Yes, the electroscope has a negative charge. When the positively charged rod is brought close to the electroscope, electrons are attracted close to the rod. When the electroscope is grounded, electrons are attracted from the earth to the electroscope. When the ground connection is broken and the rod is removed, the electroscope has an induced negative charge.</para>
+<para id="eip-id1405562"/>
+</solution>
+-->  </exercise></section>
+<section id="fs-id2261945" class="section-summary"><title>Section Summary</title><list id="import-auto-id1840790" list-type="bulleted"><item>Polarization is the separation of positive and negative charges in a neutral object.</item>
       <item>A conductor is a substance that allows charge to flow freely through its atomic structure.</item>
       <item>An insulator holds charge within its atomic structure.</item>
       <item>Objects with like charges repel each other, while those with unlike charges attract each other.</item>

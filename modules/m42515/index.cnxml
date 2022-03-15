@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42515</md:content-id>
   <md:title>Single Slit Diffraction</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>aac8ebd2-2db5-4b82-a4b2-4f2005643abe</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001"><item>Discuss the single slit diffraction pattern.</item></list>
   </section>
     <para id="import-auto-id1169737846310">Light passing through a single slit forms a diffraction pattern somewhat different from those formed by double slits or diffraction gratings. <link target-id="import-auto-id1169737803391"/> shows a single slit diffraction pattern. Note that the central maximum is larger than those on either side, and that the intensity decreases rapidly on either side. In contrast, a diffraction grating produces evenly spaced lines that dim slowly on either side of center.</para>
@@ -137,6 +137,26 @@
     </para>
     <para id="import-auto-id1169737706061">We see that the slit is narrow (it is only a few times greater than the wavelength of light). This is consistent with the fact that light must interact with an object comparable in size to its wavelength in order to exhibit significant wave effects such as this single slit diffraction pattern. We also see that the central maximum extends <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20.7º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> on either side of the original beam, for a width of about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>41º</m:mtext><m:mspace width="0.25em"/></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The angle between the first and second minima is only about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>24º</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">(</m:mo><m:mtext>45.0º</m:mtext><m:mrow><m:mo stretchy="false">−</m:mo></m:mrow><m:mn>20.7º</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"24"°` \( "45" "." 0° - "20" "." 7° \) } {}</m:annotation></m:semantics></m:math>. Thus the second maximum is only about half as wide as the central maximum.</para></example>
 
+    <section id="fs-id1313167" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+    
+      <exercise id="fs-id1549484" type="ap-test-prep"><problem id="fs-id2067950">
+          <para id="fs-id3558865">A diffraction pattern is formed on a screen when light of wavelength 410 nm is passed through a single slit of width 1 μm. If the source light is replaced by another light of wavelength 700 nm, what should be the width of the slit so that the new light produces a pattern with the same spacing?</para>
+          <list id="fs-id708457" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+            <item>0.6 μm</item>
+            <item>1 μm</item>
+      <item>1.4 μm</item>
+      <item>1.7 μm</item>
+          </list>
+        </problem>
+        <solution id="fs-id1422526">
+          <para id="fs-id1337042">(d)</para>
+        </solution>
+      </exercise><exercise id="fs-id2504051" type="ap-test-prep"><problem id="fs-id1320975">
+          <para id="fs-id1400254">Monochromatic light passing through a single slit forms a diffraction pattern on a screen. If the second minimum occurs at an angle of 15º, find the angle for the fourth minimum.</para>
+        </problem>
+      </exercise></section>
+    
     <section id="fs-id1169737786359" class="section-summary">
 <title>Section Summary</title><list id="fs-id1169737711904"><item id="import-auto-id1169735535460">A single slit produces an interference pattern characterized by a broad central maximum with narrower and dimmer maxima to the sides.</item>
     <item id="import-auto-id1169738249784">There is destructive interference for a single slit when

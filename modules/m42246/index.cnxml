@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42246</md:content-id>
   <md:title>Damped Harmonic Motion</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>667fb406-3de7-4ecd-93f5-aedd38351567</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Compare and discuss underdamped and overdamped oscillating systems.</item>
 <item>Explain critically damped system.</item>
@@ -1007,6 +1007,192 @@ size 12{d/X= \( 1 "." "59"`m \) / \( 0 "." "100"`m \) ="15" "." 9} {}
   <exercise id="fs-id2611418" type="check-understanding"><label/><title>Check Your Understanding</title><problem id="fs-id2688697"><para id="import-auto-id3095290">Describe the difference between overdamping, underdamping, and critical damping.</para></problem>
 <solution id="fs-id2949982" print-placement="here">  <para id="fs-id1282984">An overdamped system moves slowly toward equilibrium. An underdamped system moves quickly to equilibrium, but will oscillate about the equilibrium point as it does so. A critically damped system moves as quickly as possible toward equilibrium without oscillating about the equilibrium.</para></solution>
 </exercise>
+
+<section id="fs-id2871932" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1927486" type="ap-test-prep">
+  <problem id="fs-id4206434">
+  <para id="fs-id1752563">The non-conservative damping force removes energy from a system in which form?</para>
+  <list id="fs-id1886746" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Mechanical energy</item>
+  <item>Electrical energy</item>
+  <item>Thermal energy</item>
+  <item>None of the above</item>
+  </list>
+  </problem>
+  <solution id="fs-id850307">
+  <para id="fs-id2496206">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id3337953" type="ap-test-prep">
+  <problem id="fs-id1954313">
+  <para id="fs-id1545330">The time rate of change of mechanical energy for a damped oscillator is always:</para>
+  <list id="fs-id1400717" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>0</item>
+  <item>Negative</item>
+  <item>Positive</item>
+  <item>Undefined</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1250726">
+  <para id="fs-id2723060">(b)</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1548549" type="ap-test-prep">
+  <problem id="fs-id2558090">
+  <para id="fs-id1791157">A 0.5-kg object is connected to a spring that undergoes oscillatory motion. There is friction between the object and the surface it is kept on given by coefficient of friction
+  <m:math>
+   <m:msub>
+    <m:mi>μ</m:mi>
+    <m:mi>k</m:mi>
+   </m:msub>
+   <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0.06</m:mn>
+  </m:math>. If the object is released 0.2 m from equilibrium, what is the distance that the object travels? Given that the force constant of the spring is 50 N m<sup>-1</sup> and the frictional force between the objects is 0.294 N.</para>
+  </problem>
+  <solution id="fs-id2610859">
+  <para id="fs-id2674574"><m:math display="block">
+   <m:mi>d</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mi>k</m:mi>
+    <m:mrow>
+     <m:mn>2</m:mn><m:msub>
+      <m:mi>μ</m:mi>
+      <m:mi>K</m:mi>
+     </m:msub>
+     <m:mi>m</m:mi><m:mi>g</m:mi>
+    </m:mrow>
+   </m:mfrac>
+   <m:msup>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:msup>
+       <m:mi>X</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>−</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>μ</m:mi>
+         <m:mi>K</m:mi>
+        </m:msub>
+        <m:mi>m</m:mi><m:mi>g</m:mi>
+       </m:mrow>
+       <m:mi>k</m:mi>
+      </m:mfrac>
+  
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow>
+    <m:mn>2</m:mn>
+   </m:msup>
+  
+  </m:math>
+  
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>w</m:mi><m:mi>h</m:mi><m:mi>e</m:mi><m:mi>r</m:mi><m:mi>e</m:mi><m:mtext> </m:mtext><m:mi>k</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>50</m:mn><m:mtext> </m:mtext><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+     <m:mtext>m</m:mtext>
+     <m:mrow>
+      <m:mo>−</m:mo><m:mn>1</m:mn>
+     </m:mrow>
+    </m:msup>
+  
+   </m:mrow>
+  </m:math>
+  
+  
+  
+  <m:math display="block">
+   <m:msub>
+    <m:mi>μ</m:mi>
+    <m:mi>k</m:mi>
+   </m:msub>
+   <m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0.06</m:mn>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>m</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>0.5</m:mn><m:mtext>kg</m:mtext>
+   </m:mrow>
+  </m:math>
+  
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mi>d</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mn>50</m:mn><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+  
+     </m:mrow>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mo>×</m:mo><m:mn>0.06</m:mn><m:mo>×</m:mo><m:mn>9.8</m:mn><m:mtext>m</m:mtext><m:mo>⋅</m:mo><m:msup>
+       <m:mtext>s</m:mtext>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>2</m:mn>
+       </m:mrow>
+      </m:msup>
+  
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>(</m:mo><m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>0.2</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>−</m:mo><m:mo>(</m:mo><m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo>(</m:mo><m:mn>0.06</m:mn><m:mo>×</m:mo><m:mn>0.5</m:mn><m:mtext>kg</m:mtext><m:mo>×</m:mo><m:mn>9.8</m:mn><m:mtext>m</m:mtext><m:mo>⋅</m:mo><m:msup>
+         <m:mtext>s</m:mtext>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>2</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>50</m:mn><m:mtext>N</m:mtext><m:mo>⋅</m:mo><m:msup>
+         <m:mtext>m</m:mtext>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>1</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+    </m:mfrac>
+    <m:mo>)</m:mo><m:mo>)</m:mo>
+   </m:mrow>
+  </m:math>
+  
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>1.698</m:mn><m:mtext> </m:mtext><m:mtext>m</m:mtext>
+   </m:mrow>
+  </m:math>
+  
+  
+  </para></solution>
+  </exercise>
+  </section>
+  
+  
     <section id="fs-id3032234" class="section-summary"><title>Section Summary</title><list id="fs-id1995832"><item>Damped harmonic oscillators have non-conservative forces that dissipate their energy. </item>
     <item>Critical damping returns the system to equilibrium as fast as possible without overshooting. </item>
     <item>An underdamped system will oscillate through the equilibrium position.</item>

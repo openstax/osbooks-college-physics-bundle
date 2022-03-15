@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42390</md:content-id>
   <md:title>Induced Emf and Magnetic Flux</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>b1e5d043-94b4-4741-a738-e5bf547b76de</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Calculate the flux of a uniform magnetic field through a loop of arbitrary orientation.</item>
 <item>Describe methods to produce an electromotive force (emf) with a magnetic field or magnet and a loop of wire.</item>
@@ -37,7 +37,27 @@
         </media>
 
         <caption>Magnetic flux <m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math> is related to the magnetic field and the area over which it exists. The flux <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Φ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BA</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ= ital "BA""cos"θ} {}</m:annotation></m:semantics></m:math> is related to induction; any change in <m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math> induces an emf.</caption></figure><para id="import-auto-id1169738074843">All induction, including the examples given so far, arises from some change in magnetic flux <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math></emphasis>. For example, Faraday changed <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math></emphasis> and hence <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math></emphasis> when opening and closing the switch in his apparatus (shown in <link target-id="import-auto-id1169738208118"/>). This is also true for the bar magnet and coil shown in <link target-id="import-auto-id1169738076827"/>. When rotating the coil of a generator, the angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> and, hence, <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math></emphasis> is changed. Just how great an emf and what direction it takes depend on the change in <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math></emphasis> and how rapidly the change is made, as examined in the next section.</para>
-
+        <section id="fs-id2133657" type="ap-test-prep" class="ap-test-prep">
+            <title>Test Prep for AP Courses</title>
+            <exercise id="fs-id1457853" type="ap-test-prep"><problem id="fs-id1299736">  
+            <para id="fs-id1663720">To produce current with a coil and bar magnet you can:</para>
+            <list id="fs-id1518894" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>move the coil but not the magnet.</item>
+            <item>move the magnet but not the coil.</item>
+            <item>move either the coil or the magnet.</item>
+            <item>It is not possible to produce current.</item>
+            </list></problem>
+            <solution id="fs-id1643401">
+            <para id="fs-id1542491">(c)</para><figure id="fs-id1352057"><media id="fs-id1682895" alt=""><image mime-type="image/jpg" src="../../media/CNX_APPhysics_23_M1_S01_img.jpg"/></media></figure></solution>
+            </exercise>
+            <exercise id="fs-id1583528" type="ap-test-prep">
+            <problem id="fs-id1467725">
+            <para id="fs-id1559075">Calculate the magnetic flux for a coil of area 0.2 m<sup>2</sup> placed at an angle of <emphasis effect="italics">θ</emphasis>=60º (as shown in the figure above) to a magnetic field of strength 1.5×10<sup>-3</sup> T. At what angle will the flux be at its maximum?</para></problem>
+            <!--<solution id="fs-id1555219">
+            <para id="fs-id1326312">1.5&#215;10<sup>-4</sup> Wb, 0&#186;</para>
+            </solution>-->
+            </exercise>
+            </section>
+            
         <section id="fs-id1169737933312" class="section-summary"><title>Section Summary</title><list id="fs-id1169738114187"><item id="import-auto-id1169736614770">The crucial quantity in induction is magnetic flux <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math></emphasis>, defined to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>Φ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>BA</m:mtext><m:mspace width="0.25em"/></m:mrow></m:mstyle></m:mrow><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ= ital "BA""cos"θ} {}</m:annotation></m:semantics></m:math>, where <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math></emphasis> is the magnetic field strength over an area <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>A</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A} {}</m:annotation></m:semantics></m:math></emphasis> at an angle <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> with the perpendicular to the area.</item>
         <item id="import-auto-id1169737777500">Units of magnetic flux <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math></emphasis> are <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T cdot m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</item>
         <item id="import-auto-id1169738117029">Any change in magnetic flux <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Φ} {}</m:annotation></m:semantics></m:math></emphasis> induces an emf—the process is defined to be electromagnetic induction.</item>

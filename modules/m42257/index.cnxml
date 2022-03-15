@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42257</md:content-id>
   <md:title>Sound Intensity and Sound Level</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>6205f327-1b6e-4bbe-a4b2-f6d0b5df29d5</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Define intensity, sound intensity, and sound pressure level.</item>
 <item>Calculate sound intensity levels in decibels (dB).</item>
@@ -264,6 +264,44 @@
     </exercise><exercise id="fs-id1282140" type="check-understanding"><label/><title>Check Your Understanding</title><problem id="fs-id2591382"><para id="import-auto-id3046289" fo:font-weight="normal">Identify common sounds at the levels of 10 dB, 50 dB, and 100 dB.</para></problem>
     <solution id="fs-id2663390"><para id="import-auto-id1562524" fo:font-weight="normal">10 dB: Running fingers through your hair.</para><para id="eip-id2373999">50 dB: Inside a quiet home with no television or radio.</para><para id="eip-id2374002">100 dB: Take-off of a jet plane.</para></solution>
 </exercise>
+
+<section id="fs-id1153169" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id1373955" type="ap-test-prep">
+    <problem id="fs-id931991">
+      <para id="fs-id2626440">In order to waken a sleeping child, the volume on an alarm clock is tripled. Under this new scenario, how much more energy will be striking the child’s ear drums each second?</para>
+<list id="fs-id2668670" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>twice as much</item>
+<item>three times as much</item>
+<item>approximately 4.8 times as much</item>
+<item>six times as much</item>
+<item>nine times as much</item>
+</list>
+    </problem>
+    <solution id="fs-id1845274">
+      <para id="fs-id1336078">(e)</para>
+    </solution>
+  </exercise>
+
+  <exercise id="fs-id1725922" type="ap-test-prep">
+    <problem id="fs-id2327870">
+      <para id="fs-id2658793">A musician strikes the strings of a guitar such that they vibrate with twice the amplitude.</para>
+      <list id="fs-id2696171" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+        <item>Explain why this requires an energy input greater than twice the original value.</item>
+	<item>Explain why the sound leaving the string will not result in a decibel level that is twice as great.</item>
+      </list>
+    </problem>
+    <!--<solution id="fs-id1999853">
+      <list id="fs-id2620734" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+        <item>The energy transported by a sound wave is proportional to the square of the wave amplitude. As a result, a sound wave with twice its original amplitude requires an energy input equal to four times its original value.</item>
+        <item>Decibel levels are related to sound amplitude through the logarithmic scale. By setting up a ratio of the two sound amplitudes, it can be found that the sound level will only increase by 3 dB. (see example 17.3)</item>
+      </list>
+    </solution>-->
+  </exercise>
+
+</section>
+
 
 <section id="fs-id2666762" class="section-summary"><title>Section Summary</title><list id="fs-id1420870">
     <item id="import-auto-id1438955">

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42324</md:content-id>
   <md:title>Electric Potential Energy: Potential Difference</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>650c4bb3-d190-44fd-9f2f-445a783abdec</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Define electric potential and electric potential energy.</item>
 <item>Describe the relationship between potential difference and electrical potential energy.</item>
@@ -809,6 +809,170 @@ size 12{1" V=1 " {  {J}  over  {C} } } {}
       <title>Discussion</title>
     </para>
     <para id="import-auto-id2560073">Note that both the charge and the initial voltage are negative, as in <link target-id="fs-id1493012"/>. From the discussions in <link document="m42299">Electric Charge and Electric Field</link>, we know that electrostatic forces on small particles are generally very large compared with the gravitational force. The large final speed confirms that the gravitational force is indeed negligible here. The large speed also indicates how easy it is to accelerate electrons with small voltages because of their very small mass. Voltages much higher than the 100 V in this problem are typically used in electron guns. Those higher voltages produce electron speeds so great that relativistic effects must be taken into account. That is why a low voltage is considered (accurately) in this example. </para></example></section>
+
+<section id="fs-id3292485" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  
+  <exercise id="fs-id1345616" type="ap-test-prep"><problem id="fs-id1553935">
+  <para id="fs-id1630211">An electron is placed in an electric field of 12.0 N/C to the right. What is the resulting force on the electron?</para>
+  <list id="fs-id1837559" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>1.33×10<sup>-20</sup> N right</item>
+  <item>1.33×10<sup>-20</sup> N left</item>
+  <item>1.92×10<sup>-18</sup> N right</item>
+  <item>1.92×10<sup>-18</sup> N left</item>
+  </list>
+  </problem>
+  <solution id="fs-id1725873"><para id="fs-id1725874">(d)</para></solution>
+  </exercise><exercise id="fs-id1368476" type="ap-test-prep">
+  <problem id="fs-id1350441">
+  <para id="fs-id2728394">A positively charged object in a certain electric field is currently being pushed west by the resulting force. How will the force change if the charge grows? What if it becomes negative?</para>
+  </problem>
+  <!--<solution id="fs-id1595568"><para id="fs-id1595569">If the charge grows, the force will grow in proportion. If the charge becomes negative, the direction will change to east.</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id2627165" type="ap-test-prep">
+  <problem id="fs-id1553703">
+  <para id="fs-id2933012">A −5.0 C charge is being forced south by a 60 N force. What are the magnitude and direction of the local electric field?</para>
+  <list id="fs-id2007375" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>12 N/C south</item>
+  <item>12 N/C north</item>
+  <item>300 N/C south</item>
+  <item>300 N/C north</item>
+  </list>
+  </problem>
+  <solution id="fs-id1405757"><para id="fs-id1299828">(b)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1649035" type="ap-test-prep">
+  <problem id="fs-id1902993">
+  <para id="fs-id2771066">A charged object has a net force of 100 N east acting on it due to an electric field of 50 N/C pointing north. How is this possible? If not, why not?</para>
+  </problem>
+  <!--<solution id="fs-id1221969"><para id="fs-id1908469">We could claim that there are other forces not listed in this problem; but with the given information, this is impossible as forces due to an electric field have to be either parallel or antiparallel with it.</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id3080988" type="ap-test-prep">
+  <problem id="fs-id2052069">
+  <para id="fs-id2541354">How many electrons have to be moved by a car battery containing 7.20×10<sup>5 </sup>J at 12 V to reduce the energy by 1%?</para>
+  <list id="fs-id3926732" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>4.80×10<sup>27</sup></item>
+  <item>4.00×10<sup>26</sup></item>
+  <item>3.75×10<sup>21</sup></item>
+  <item>3.13×10<sup>20</sup></item>
+  </list>
+  </problem>
+  <solution id="fs-id2540947"><para id="fs-id1700964">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2544423" type="ap-test-prep">
+  <problem id="fs-id1313963">
+  <para id="fs-id1865850">Most of the electricity in the power grid is generated by powerful turbines spinning around. Why don’t these turbines slow down from the work they do moving electrons?</para>
+  </problem>
+  <!--<solution id="fs-id1774252"><para id="fs-id1876440">They would, except more energy is continually put in, generally in the form of more steam (requiring either nuclear power or fossil fuel) or water flow in the case of hydroelectricity.</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id2013214" type="ap-test-prep">
+  <problem id="fs-id1330006">
+  <para id="fs-id2020586">A typical AAA battery can move 2000 C of charge at 1.5 V. How long will this run a 50 mW LED?</para>
+  <list id="fs-id1701187" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>1000 minutes</item>
+  <item>120,000 seconds</item>
+  <item>15 hours</item>
+  <item>250 minutes</item>
+  </list>
+  </problem>
+  <solution id="fs-id3243130"><para id="fs-id3243131">(a)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1935369" type="ap-test-prep">
+  <problem id="fs-id1864559">
+  <para id="fs-id1908689">Find an example car (or other vehicle) battery, and compute how many of the AAA batteries in the previous problem it would take to equal the energy stored in it. Which is more compact?</para>
+  </problem>
+  <!--<solution id="fs-id822290"><para id="fs-id822291">Using the car battery from Example 19.1, which has 7.20&#215;10<sup>5 </sup>J, compute the AAA battery as 3.0 kJ. So 240 AAA batteries have the same amount of stored potential energy. Compactness will depend on the car battery, but could go either way.</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1830876" type="ap-test-prep">
+  <problem id="fs-id2706453">
+  <para id="fs-id1801019">What is the internal energy of a system consisting of two point charges, one 2.0 µC, and the other −3.0 µC, placed 1.2 m away from each other?</para>
+  <list id="fs-id3172527" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>−3.8×10<sup>-2</sup> J</item>
+  <item>−4.5×10<sup>-2</sup> J</item>
+  <item>4.5×10<sup>-2</sup> J</item>
+  <item>3.8×10<sup>-2</sup> J</item>
+  </list>
+  </problem>
+  <solution id="fs-id1745153"><para id="fs-id3926766">(b)</para></solution>
+  </exercise>
+  
+  
+  <exercise id="fs-id1773635" type="ap-test-prep">
+  <problem id="fs-id1334198">
+  <para id="fs-id2580214">A system of three point charges has a 1.00 µC charge at the origin, a −2.00 µC charge at <emphasis effect="italics">x</emphasis>=30 cm, and a 3.00 µC charge at <emphasis effect="italics">x</emphasis>=70 cm. What is the total stored potential energy of this configuration?</para>
+  </problem>
+  <!--<solution id="fs-id3103722"><para id="fs-id1548704">&#8722;1.56&#215;10<sup>-1</sup>J</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1872138" type="ap-test-prep">
+  <problem id="fs-id1342407">
+  <para id="fs-id824837">A system has 2.00 µC charges at (50 cm, 0) and (−50 cm, 0) and a −1.00 µC charge at (0, 70 cm). As the <emphasis effect="italics">y</emphasis>-coordinate of the −1.00 µC charge increases, the potential energy ___. As the <emphasis effect="italics">y</emphasis>-coordinate of the −1.00 µC charge decreases, the potential energy ___.</para><list id="fs-id1314322" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>increases, increases</item>
+  <item>increases, decreases</item>
+  <item>decreases, increases</item>
+  <item>decreases, decreases</item>
+  </list>
+  </problem>
+  <solution id="fs-id1877235"><para id="fs-id1313904">(b)</para></solution>
+  </exercise>
+  
+  
+  <exercise id="fs-id1944533" type="ap-test-prep">
+  <problem id="fs-id1332990">
+  <para id="fs-id1417950">A system of three point charges has a 1.00 µC charge at the origin, a −2.00 µC charge at <emphasis effect="italics">x</emphasis>=30 cm, and a 3.00 µC charge at <emphasis effect="italics">x</emphasis>=70 cm. What happens to the total potential energy of this system if the −2.00 µC charge and the 3.00 µC charge trade places?</para>
+  </problem>
+  <!--<solution id="fs-id3348924"><para id="fs-id2556454">It increases by 8.6&#215;10<sup>-2</sup>J</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id3081143" type="ap-test-prep">
+  <problem id="fs-id2627171">
+  <para id="fs-id1391484">Take a square configuration of point charges, two positive and two negative, all of the same magnitude, with like charges sharing diagonals. What will happen to the internal energy of this system if one of the negative charges becomes a positive charge of the same magnitude?</para>
+  <list id="fs-id1361756" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>increase</item>
+  <item>decrease</item>
+  <item>no change</item>
+  <item>not enough information</item>
+  </list>
+  </problem>
+  <solution id="fs-id986978"><para id="fs-id1427022">(a)</para></solution>
+  </exercise>
+  
+  
+  <exercise id="fs-id2794286" type="ap-test-prep">
+  <problem id="fs-id1362511">
+  <para id="fs-id1360289">Take a square configuration of point charges, two positive and two negative, all of the same magnitude, with like charges sharing diagonals. What will happen to the internal energy of this system if the sides of the square decrease in length?</para>
+  </problem>
+  <!--<solution id="fs-id2020032"><para id="fs-id2566529">The original system had net negative potential energy, due to unlike charges being closer to each other than like charges. So, with the alteration described above, the net potential energy will decrease (become more negative).</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id3350954" type="ap-test-prep">
+  <problem id="fs-id1412857">
+  <para id="fs-id1320420">A system has 2.00 µC charges at (50 cm, 0) and (−50 cm, 0) and a −1.00 µC charge at (0, 70 cm), with a velocity in the –<emphasis effect="italics">y</emphasis>-direction. When the −1.00 µC charge is at (0, 0) the potential energy is at a ___ and the kinetic energy is ___.</para>
+  <list id="fs-id2051818" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>maximum, maximum</item>
+  <item>maximum, minimum</item>
+  <item>minimum, maximum</item>
+  <item>minimum, minimum</item>
+  </list>
+  </problem>
+  <solution id="fs-id1406272"><para id="fs-id1406274">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2506228" type="ap-test-prep">
+  <problem id="fs-id1774877">
+  <para id="fs-id3429864">What is the velocity of an electron that goes through a 10 V potential after initially being at rest?</para>
+  </problem>
+  <!--<solution id="fs-id1336708"><para id="fs-id1336709">1.9&#215;10<sup>6</sup> m/s.</para></solution>-->
+  </exercise>
+  </section>
+  
     <section id="fs-id2605865" class="section-summary"><title>Section Summary</title><list id="import-auto-id2694245"><item id="import-auto-id2694247">Electric potential is potential energy per unit charge.<emphasis effect="bold"/></item>
     <item id="import-auto-id2694252">The potential difference between points A and B, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>B</m:mn></m:mrow></m:msub><m:mo stretchy="false">–</m:mo><m:msub><m:mi>V</m:mi><m:mrow><m:mn>A</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{B} } -V rSub { size 8{A} } } {}</m:annotation></m:semantics></m:math>, defined to be the change in potential energy of a charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> moved from A to B, is equal to the change in potential energy divided by the charge, Potential difference is commonly called voltage, represented by the symbol
 <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>V</m:mi></m:mrow></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= {  {"PE"}  over  {q} }  "." } {}</m:annotation></m:semantics></m:math>.<equation id="eip-id1820754"><m:math>

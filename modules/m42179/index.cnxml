@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42179</md:content-id>
   <md:title>Dynamics of Rotational Motion: Rotational Inertia</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>db59f656-e708-4094-a742-1e5560fe97c9</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Understand the relationship between force, mass and acceleration.</item>
 <item>Study the turning effect of force.</item>
@@ -225,6 +225,144 @@
     </solution>
         </exercise>
         </section>
+
+<section id="fs-id1891167" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1721000" type="ap-test-prep">
+  <problem id="fs-id1359339">
+  <para id="fs-id1460151">A piece of wood can be carved by spinning it on a motorized lathe and holding a sharp chisel to the edge of the wood as it spins. How does the angular velocity of a piece of wood with a radius of 0.2 m spinning on a lathe change when a chisel is held to the wood's edge with a force of 50 N?</para>
+  <list id="fs-id1542478" list-type="enumerated" number-style="lower-alpha"><item>It increases by 0.1 N•m multiplied by the moment of inertia of the wood.</item>
+  <item>It decreases by 0.1 N•m divided by the moment of inertia of the wood-and-lathe system.</item>
+  <item>It decreases by 0.1 N•m multiplied by the moment of inertia of the wood.</item>
+  <item>It decreases by 0.1 m/s<sup>2</sup>.</item>
+  </list></problem>
+  <solution id="fs-id1401093">
+  <para id="fs-id1301639">(b)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id438270" type="ap-test-prep">
+  <problem id="fs-id1480021">
+  <para id="fs-id1542741">A Ferris wheel is loaded with people in the chairs at the following positions: 4 o'clock, 1 o'clock, 9 o'clock, and 6 o'clock. As the wheel begins to turn, what forces are acting on the system? How will each force affect the angular velocity and angular momentum?</para>
+  </problem>
+  <!--<solution id="fs-id1402612">
+  <para id="fs-id1656469">As the wheel begins to turn, the motor and gears exert a force on it. We will assume we are viewing the Ferris wheel from the side and this force is counterclockwise. Gravity is exerting a force on the people in the chairs of the Ferris wheel. The gravitational force on the people in the chairs at 1 o'clock and 4 o'clock as the wheel begins to turn will be clockwise and will decrease the angular velocity and angular momentum. The gravitational force on the people in the chairs at 6 o'clock and 9 o'clock when the wheel begins to turn will be counterclockwise and will increase the angular velocity and angular momentum.</para>
+  <para></para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1500072" type="ap-test-prep">
+  <problem id="fs-id1578274">
+  <para id="fs-id1619755">A lever is placed on a fulcrum. A rock is placed on the left end of the lever and a downward (clockwise) force is applied to the right end of the lever. What measurements would be most effective to help you determine the angular momentum of the system? (Assume the lever itself has negligible mass.)</para>
+  <list id="fs-id1551064" list-type="enumerated" number-style="lower-alpha"><item>the angular velocity and mass of the rock</item>
+  <item>the angular velocity and mass of the rock, and the radius of the lever</item>
+  <item>the velocity of the force, the radius of the lever, and the mass of the rock</item>
+  <item>the mass of the rock, the length of the lever on both sides of the fulcrum, and the force applied on the right side of the lever</item>
+  </list></problem>
+  <solution id="fs-id1748518">
+  <para id="fs-id1273483">(d)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2003821" type="ap-test-prep">
+  <problem id="fs-id1858003">
+  <para id="fs-id1520689">You can use the following setup to determine angular acceleration and angular momentum: A lever is placed on a fulcrum. A rock is placed on the left end of the lever and a known downward (clockwise) force is applied to the right end of the lever. What calculations would you perform? How would you account for gravity in your calculations?</para>
+  </problem>
+  <!--<solution id="fs-id1499663">
+  <para id="fs-id1580646">Since the lever has negligible mass the only mass in the system is the rock on the left end of the lever. To determine angular velocity, you can use the equation
+  <m:math display="inline">
+  
+   <m:mrow>
+    <m:mi>&#945;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mtext>net&#160;</m:mtext><m:mi>&#964;</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mi>m</m:mi><m:msup>
+       <m:mi>r</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math>
+  , where <emphasis effect="italics">m</emphasis> is the mass of the rock and <emphasis effect="italics">r</emphasis> is the length of the lever to the left of the fulcrum. Torque is the product of the force and the radius. In this case, you would use the length of the lever on the right side of the fulcrum to calculate torque. While the applied force results in a torque in a clockwise direction, the force of gravity on the rock results in a counterclockwise torque. The force you use in the calculations should be the applied force minus the force due to gravity (that is, the weight of the rock in newtons).</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1669125" type="ap-test-prep">
+  <problem id="fs-id1502129">
+  <para id="fs-id1565156">Consider two sizes of disk, both of mass <emphasis effect="italics">M</emphasis>. One size of disk has radius <emphasis effect="italics">R</emphasis>; the other has radius 2<emphasis effect="italics">R</emphasis>. System A consists of two of the larger disks rigidly connected to each other with a common axis of rotation. System B consists of one of the larger disks and a number of the smaller disks rigidly connected with a common axis of rotation. If the moment of inertia for system A equals the moment of inertia for system B, how many of the smaller disks are in system B?</para>
+  <list id="fs-id1505371" list-type="enumerated" number-style="lower-alpha"><item>1</item>
+  <item>2</item>
+  <item>3</item>
+  <item>4</item>
+  </list></problem>
+  <solution id="fs-id1669506">
+  <para id="fs-id1660972">(d)</para><para id="fs-id1499299">You are given a thin rod of length 1.0 m and mass 2.0 kg, a small lead weight of 0.50 kg, and a not-so-small lead weight of 1.0 kg. The rod has three holes, one in each end and one through the middle, which may either hold a pivot point or one of the small lead weights.</para>
+  </solution>
+  </exercise>
+  
+  <exercise id="fs-id1338880" type="ap-test-prep">
+  <problem id="fs-id1588964">
+  <para id="fs-id1624563">You are given a thin rod of length 1.0 m and mass 2.0 kg, a small lead weight of 0.50 kg, and a not-so-small lead weight of 1.0 kg. The rod has three holes, one in each end and one through the middle, which may either hold a pivot point or one of the small lead weights. How do you arrange these objects so that the resulting system has the maximum possible moment of inertia? What is that moment of inertia? do you arrange these objects so that the resulting system has the maximum possible moment of inertia? What is that moment of inertia?</para></problem>
+  <!--<solution id="fs-id1295098">
+  <para id="fs-id1313399">Place the pivot point in one end, the 0.50 kg lead weight in the middle, and the 1.0 kg lead weight at the end furthest from the pivot. The result is
+  
+  <m:math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+   <m:mrow>
+    <m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mfrac>
+       <m:mtext>1</m:mtext>
+       <m:mtext>3</m:mtext>
+      </m:mfrac>
+  
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mtext>2</m:mtext><m:mtext>.0</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mtext>1</m:mtext><m:mtext>.0</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+    <m:mtext>+</m:mtext><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mtext>0</m:mtext><m:mtext>.50</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mtext>0</m:mtext><m:mtext>.50</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+     </m:mrow>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+    <m:mtext>+</m:mtext><m:mrow><m:mo>(</m:mo>
+     <m:mrow>
+      <m:mtext>1</m:mtext><m:mtext>.0</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+     </m:mrow>
+    <m:mo>)</m:mo></m:mrow><m:msup>
+     <m:mrow>
+      <m:mtext>(1</m:mtext><m:mtext>.0</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>m)</m:mtext>
+     </m:mrow>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+    <m:mtext>&#8201;</m:mtext><m:mtext>=</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>1</m:mtext><m:mtext>.8</m:mtext><m:mtext>&#8201;</m:mtext><m:msup>
+     <m:mrow>
+      <m:mtext>kg&#8226;m</m:mtext>
+     </m:mrow>
+     <m:mtext>2</m:mtext>
+    </m:msup>
+  </m:mrow></m:math>.</para></solution>--></exercise></section>
     <section id="fs-id1941660" class="section-summary"><title>Section Summary</title><list id="fs-id3113938"><item id="import-auto-id3170008">The farther the force is applied from the pivot, the greater is the angular acceleration; angular acceleration is inversely proportional to mass.</item>
         <item id="import-auto-id2684041">If we exert a force <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> on a point mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> that is at a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> from a pivot point and because the force is perpendicular to <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, an acceleration <m:math><m:semantics><m:mrow><m:mrow><m:mtext fontstyle="italic">a = F/m</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> is obtained in the direction of <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math>. We can rearrange this equation such that             <equation id="fs-id3125934"><m:math><m:semantics><m:mrow><m:mrow><m:mi fontstyle="italic">F = ma</m:mi></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {","}</m:annotation></m:semantics></m:math>
 </equation>

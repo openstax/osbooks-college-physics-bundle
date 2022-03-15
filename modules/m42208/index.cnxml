@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42208</md:content-id>
   <md:title>The Most General Applications of Bernoulli’s Equation</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>fcfe29e0-3fcf-4f9a-a269-51b8bb710f2f</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-        <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+        <para id="para-00001">By the end of this section, you will be able to:</para>
         <list id="list-00001">
 <item>Calculate using Torricelli’s theorem.</item>
 <item>Calculate power in fluid flow.</item>
@@ -208,6 +208,440 @@
         </example>
         </section>
 
+	<section id="fs-id2014293" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id2174516" type="ap-test-prep">
+                <problem id="fs-id2376127">
+                  <para id="fs-id1744833">A horizontally oriented pipe has a diameter of 5.6 cm and is filled with water. The pipe draws water from a reservoir that is initially at rest. A manually operated plunger provides a force of 440 N in the pipe. Assuming that the other end of the pipe is open to the air, with what speed does the water emerge from the pipe?</para>
+                  <list id="fs-id2036035" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>12 m/s</item>
+                    <item>19 m/s</item>
+                    <item>150 m/s</item>
+                    <item>190 m/s</item>
+                  </list></problem>
+                <solution id="fs-id1518094">
+                  <para id="fs-id1538710">(a)</para></solution>
+              </exercise>
+    
+              <exercise id="fs-id1527124" type="ap-test-prep"><problem id="fs-id2834556">
+    <para id="fs-id1366699">A 3.5-cm-diameter pipe contains a pumping mechanism that provides a force of 320 N to push water up into a tall building. Upon entering the piston mechanism, the water is flowing at a rate of 2.5 m/s. The water is then pumped to a level 21 m higher where the other end of the pipe is open to the air. With what speed does water leave the pipe?</para>
+                </problem>
+    <!--	    <solution id="fs-id1442138">
+                <equation id="fs-id2181527"><m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>P</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mi>&#961;</m:mi><m:msub>
+       <m:mi>v</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mi>&#961;</m:mi><m:mi>g</m:mi><m:msub>
+       <m:mi>h</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:mo>&#160;</m:mo><m:msub>
+       <m:mi>P</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mi>&#961;</m:mi><m:msub>
+       <m:mi>v</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mi>&#961;</m:mi><m:mi>g</m:mi><m:msub>
+       <m:mi>h</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+    
+     </m:mrow>
+    </m:math>
+    </equation>
+                <equation id="fs-id2015031"><m:math>
+     <m:mrow>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mn>320</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mi>&#960;</m:mi><m:msup>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>0.0175</m:mn><m:mo stretchy="false">)</m:mo>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+    
+         </m:mrow>
+        </m:mfrac>
+    
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.5</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1000</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>2.5</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1000</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>9.8</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mn>0</m:mn>
+      <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mn>101</m:mn><m:mo>,</m:mo><m:mn>300</m:mn><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>0.5</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1000</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msub>
+       <m:mi>v</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:msup>
+       <m:mrow/>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1000</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>21</m:mn><m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+    </m:math>
+    </equation>
+                <equation id="fs-id2173872"><m:math>
+     <m:mrow>
+      <m:mn>332</m:mn><m:mo>,</m:mo><m:mn>600</m:mn><m:mo>+</m:mo><m:mn>3125</m:mn><m:mo>+</m:mo><m:mn>0</m:mn><m:mo>=</m:mo><m:mn>101</m:mn><m:mo>,</m:mo><m:mn>300</m:mn><m:mo>+</m:mo><m:mn>500</m:mn><m:msubsup>
+       <m:mi>v</m:mi>
+       <m:mn>2</m:mn>
+       <m:mn>2</m:mn>
+      </m:msubsup>
+      <m:mo>+</m:mo><m:mn>205</m:mn><m:mo>,</m:mo><m:mn>800</m:mn><m:mo>&#160;</m:mo>
+     </m:mrow>
+    </m:math>
+    </equation>
+                <equation id="fs-id2193233"><m:math>
+     <m:mrow>
+      <m:msubsup>
+       <m:mi>v</m:mi>
+       <m:mn>2</m:mn>
+       <m:mn>2</m:mn>
+      </m:msubsup>
+      <m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>332</m:mn><m:mo>,</m:mo><m:mn>600</m:mn><m:mo>&#8722;</m:mo><m:mn>101</m:mn><m:mo>,</m:mo><m:mn>300</m:mn><m:mo>&#8722;</m:mo><m:mn>205</m:mn><m:mo>,</m:mo><m:mn>800</m:mn><m:mo stretchy="false">)</m:mo>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>500</m:mn>
+       </m:mrow>
+      </m:mfrac>
+    
+     </m:mrow>
+    </m:math>
+    </equation>
+    <equation id="fs-id1327397"><m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:mn>7.1</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m/s</m:mtext><m:mo>&#160;</m:mo>
+     </m:mrow>
+    </m:math>
+    </equation>
+    <para id="eip-id770716"/>
+                </solution>
+    -->
+              </exercise><exercise id="fs-id2103327" type="ap-test-prep">
+                <problem id="fs-id1812715">
+                  <para id="fs-id2402439">A large container of water is open to the air, and it develops a hole of area 10 cm<sup>2</sup> at a point 5 m below the surface of the water. What is the flow rate (m<sup>3</sup>⁄s) of the water emerging from this hole?</para>
+                    <list id="fs-id2035750" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>99 m<sup>3</sup>⁄s</item>
+                      <item>9.9 m<sup>3</sup>⁄s</item>
+                      <item>0.099 m<sup>3</sup>⁄s</item>
+                      <item>0.0099 m<sup>3</sup>⁄s</item>
+                    </list></problem>
+                <solution id="fs-id1864796">
+                  <para id="fs-id1498050">(d)</para></solution>
+              </exercise>
+    
+              <exercise id="fs-id1816086" type="ap-test-prep"><problem id="fs-id2011008">
+    <para id="fs-id1368429">A pipe is tapered so that the large end has a diameter twice as large as the small end. What must be the gauge pressure (the difference between pressure at the large end and pressure at the small end) in order for water to emerge from the small end with a speed of 12 m/s if the small end is elevated 8 m above the large end of the pipe?</para>
+    
+                </problem>
+    <!--	    <solution id="fs-id1923652">
+                  <para id="fs-id1766096">We will treat the large end of the pipe as part 1 of the pipe and apply Bernoulli's equation as follows:</para>
+                    <equation id="fs-id1364015"><m:math>
+                     <m:mrow>
+                      <m:mo stretchy="false">(</m:mo><m:msub>
+                       <m:mi>P</m:mi>
+                       <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+                       <m:mi>P</m:mi>
+                       <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+                       <m:mn>1</m:mn>
+                       <m:mn>2</m:mn>
+                      </m:mfrac>
+                      <m:mi>&#961;</m:mi><m:mo stretchy="false">(</m:mo><m:msub>
+                       <m:mi>v</m:mi>
+                       <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:msup>
+                       <m:mrow/>
+                       <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+                       <m:mi>v</m:mi>
+                       <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:msup>
+                       <m:mrow/>
+                       <m:mn>2</m:mn>
+                      </m:msup>
+                      <m:mo stretchy="false">)</m:mo><m:mo>&#160;</m:mo><m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mi>&#961;</m:mi><m:mi>g</m:mi><m:mo stretchy="false">(</m:mo><m:msub>
+                       <m:mi>h</m:mi>
+                       <m:mn>2</m:mn>
+                      </m:msub>
+                      <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+                       <m:mi>h</m:mi>
+                       <m:mn>1</m:mn>
+                      </m:msub>
+                      <m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mn>0</m:mn>
+                     </m:mrow>
+                    </m:math>
+                    </equation>
+                      <para id="fs-id1823555">Since the gauge pressure and the initial velocity are both unknown, we need another equation to solve for one of these unknowns, namely, the continuity equation:</para>
+                      <equation id="fs-id2502477"><m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+    
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>v</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+    
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>A</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+    
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>A</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+    
+       </m:mrow>
+      </m:mfrac>
+    
+     </m:mrow>
+    </m:math>
+    </equation>
+    <equation id="fs-id1363966"><m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+    
+       </m:mrow>
+       <m:mrow>
+        <m:msub>
+         <m:mi>v</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+    
+       </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mi>&#960;</m:mi><m:msup>
+           <m:mrow>
+            <m:mrow><m:mo>(</m:mo>
+             <m:mrow>
+              <m:mfrac>
+               <m:mrow>
+                <m:msub>
+                 <m:mi>d</m:mi>
+                 <m:mn>1</m:mn>
+                </m:msub>
+    
+               </m:mrow>
+               <m:mn>2</m:mn>
+              </m:mfrac>
+    
+             </m:mrow>
+            <m:mo>)</m:mo></m:mrow>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+    
+         </m:mrow>
+         <m:mrow>
+          <m:mi>&#960;</m:mi><m:msup>
+           <m:mrow>
+            <m:mrow><m:mo>(</m:mo>
+             <m:mrow>
+              <m:mfrac>
+               <m:mrow>
+                <m:msub>
+                 <m:mi>d</m:mi>
+                 <m:mn>2</m:mn>
+                </m:msub>
+    
+               </m:mrow>
+               <m:mn>2</m:mn>
+              </m:mfrac>
+    
+             </m:mrow>
+            <m:mo>)</m:mo></m:mrow>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+    
+         </m:mrow>
+        </m:mfrac>
+    
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:msub>
+             <m:mi>d</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+    
+           </m:mrow>
+           <m:mrow>
+            <m:msub>
+             <m:mi>d</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+    
+           </m:mrow>
+          </m:mfrac>
+    
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>=</m:mo><m:mn>4</m:mn>
+     </m:mrow>
+    </m:math>
+    </equation>
+    <equation id="fs-id2664326"><m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msub>
+    
+       </m:mrow>
+       <m:mn>4</m:mn>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>3</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m/s</m:mtext><m:mo>&#160;</m:mo>
+     </m:mrow>
+    </m:math>
+    </equation>
+    <para id="fs-id1549589">The gauge pressure can now be found:</para>
+    
+            <equation id="fs-id1531384"><m:math>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:msub>
+       <m:mi>P</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+       <m:mi>P</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0.5</m:mn><m:mo stretchy="false">)</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1000</m:mn>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mo stretchy="false">(</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>12</m:mn>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msup>
+       <m:mn>3</m:mn>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo stretchy="false">)</m:mo><m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1000</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>8</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mn>0</m:mn>
+     </m:mrow>
+    </m:math>
+    </equation>
+            <equation id="fs-id2013954"><m:math>
+     <m:mrow>
+      <m:mtext>&#916;P</m:mtext><m:mo>=</m:mo><m:mn>67</m:mn><m:mo>,</m:mo><m:mn>500</m:mn><m:mo>+</m:mo><m:mn>78</m:mn><m:mo>,</m:mo><m:mn>400</m:mn><m:mo>=</m:mo><m:mn>146</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mtext>&#160;N</m:mtext><m:mo>/</m:mo><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+    
+     </m:mrow>
+    </m:math>
+    </equation>
+    <para id="fs-id1812072">The pressure at the lower, larger end of the pipe (<m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:math>) must be 146,000 N&#8260;m<sup>2</sup>  greater than the pressure at the upper, smaller end of the pipe (<m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:math>).</para>
+    
+    <para id="eip-id1221728"/>
+      </solution>
+    -->
+              </exercise></section>
         <section id="fs-id1578038" class="section-summary"><title>Summary</title><list id="eip-id1756430"><item id="import-auto-id2384811">Power in fluid flow is given by the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:msup><m:mi fontstyle="italic">ρv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mi>ρ</m:mi></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>gh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfenced><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>power</m:mtext></m:mrow></m:mrow></m:mrow><m:mtext>,</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (P rSub { size 8{1} } + {  {1}  over  {2} } ρv rSup { size 8{2} } +ρ ital "gh" right )Q="power"} {}</m:annotation></m:semantics></m:math> where the first term is power associated with pressure, the second is power associated with velocity, and the third is power associated with height.</item>
 </list></section><section id="fs-id2667128" class="conceptual-questions" type="conceptual-questions">
         <title>Conceptual Questions</title>

@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42233</md:content-id>
   <md:title>The First Law of Thermodynamics and Some Simple Processes</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>c54309db-5b78-4a77-9e4f-61adc778cb50</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Describe the processes of a simple heat engine.</item>
 <item>Explain the differences among the simple thermodynamic processes—isobaric, isochoric, isothermal, and adiabatic.</item>
@@ -763,7 +763,63 @@ size 12{ΔU=Q+W} {}
 <media id="eip-idm994508048" alt="This simulation allows you to explore how different types of molecules form a solid, liquid, or gas.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/02statematter"/>
 </media>
-</figure></note><section id="fs-id1169737779631" class="section-summary"><title>Section Summary</title><list id="fs-id1169738077844"><item id="import-auto-id1169736609278">One of the important implications of the first law of thermodynamics is that machines can be harnessed to do work that humans previously did by hand or by external energy supplies such as running water or the heat of the Sun. A machine that uses heat transfer to do work is known as a heat engine.</item>
+</figure></note>
+
+<section id="fs-id2543930" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2539531" type="ap-test-prep"><problem id="fs-id2142842">
+  <para id="fs-id2023760">In <link target-id="import-auto-id1169737882796"/>, how much work is done by the system in process AB?</para><list id="fs-id1436268" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>4.5 × 10<sup>3</sup> J</item>
+  <item>6.0 × 10<sup>3</sup> J</item>
+  <item>6.9 × 10<sup>3</sup> J</item>
+  <item>7.8 × 10<sup>3</sup> J</item>
+  </list>
+  </problem>
+  <solution id="fs-id3585429">
+  <para id="fs-id3563725">(c)</para></solution>
+  </exercise><exercise id="fs-id2328663" type="ap-test-prep">
+  <problem id="fs-id2805363">
+  <para id="fs-id2703231">Consider process CD in <link target-id="import-auto-id1169737882796"/>. Does this represent work done by or on the system, and how much?</para></problem>
+  <!--<solution id="fs-id1407544">
+  <para id="fs-id3237963">This represents work done on the system, 2.4 &#215; 10<sup>3</sup> J</para>
+  </solution>--></exercise>
+  
+  <exercise id="fs-id2200650" type="ap-test-prep"><problem id="fs-id2040265">
+  <para id="fs-id1973991">A thermodynamic process begins at 1.2 × 10<sup>6</sup> N/m<sup>2</sup> and 5 L. The state then changes to 1.2 × 10<sup>6</sup> N/m<sup>2</sup> and 2 L. Next it becomes 2.2 × 10<sup>6</sup> N/m<sup>2</sup> and 2 L. The next change is 2.2 × 10<sup>6</sup> N/m<sup>2</sup> and 5 L. Finally, the system ends at 1.0 × 10<sup>6</sup> N/m<sup>2</sup> and 5 L.</para><para id="fs-id1810714">On <link target-id="import-auto-id1169737933362"/>, this process is best described by</para><list id="fs-id1765748" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>EFCDB</item>
+  <item>DEFCD</item>
+  <item>CFABC</item>
+  <item>CFABD</item>
+  </list>
+  </problem>
+  <solution id="fs-id1948521">
+  <para id="fs-id3652609">(d)</para>
+  </solution>
+  </exercise><exercise id="fs-id2150466" type="ap-test-prep">
+  <problem id="fs-id2869175">
+  <para id="fs-id2717714">The first step of a thermodynamic cycle is an isobaric process with increasing volume. The second is an isochoric process, with decreasing pressure. The last step may be either an isothermal or adiabatic process, ending at the starting point of the isobaric process. Sketch a graph of these two possibilities, and comment on which will have greater net work per cycle.</para>
+  </problem>
+  <!--<solution id="fs-id2691042">
+  <para id="fs-id2181571">The sketch should have an upper right corner and a lower left curve on a P&#8211;V graph. The isothermal process curve is inside the adiabatic curve. Hence the cycle with the adiabatic process covers more area and does more work per cycle.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1738036" type="ap-test-prep"><problem id="fs-id2718774">
+  <para id="fs-id2563820">In <link target-id="import-auto-id1169737882796"/>, which of the following cycles has the greatest net work output?</para><list id="fs-id2169967" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>ABDA</item>
+  <item>BCDB</item>
+  <item>(a) and (b) are equal</item>
+  <item>ADCBA</item>
+  </list></problem>
+  <solution id="fs-id1382192">
+  <para id="fs-id1891937">(a)</para></solution>
+  </exercise><exercise id="fs-id2537938" type="ap-test-prep">
+  <problem id="fs-id1476177">
+  <para id="fs-id2374987">Look at <link target-id="import-auto-id1169737933362"/>, and assign values to the three pressures and two volumes given in the graph. Then calculate the net work for the cycle ABCFEDCFA using those values. How does this work compare to the heat output or input of the system? Which value(s) would you change to maximize the net work per cycle?</para></problem>
+  <!--<solution id="fs-id2328018"><para id="fs-id2328020">Actual calculations should be straightforward given that we have two rectangles. Note that the result is ABCF &#8211; FCDE. The heat input should be equal to the net work. To maximize net work, increase AB, make FC=ED, and decrease ED.</para></solution>-->
+  </exercise>
+  </section>
+  
+  <section id="fs-id1169737779631" class="section-summary"><title>Section Summary</title><list id="fs-id1169738077844"><item id="import-auto-id1169736609278">One of the important implications of the first law of thermodynamics is that machines can be harnessed to do work that humans previously did by hand or by external energy supplies such as running water or the heat of the Sun. A machine that uses heat transfer to do work is known as a heat engine.</item>
     <item id="import-auto-id1169737050912">There are several simple processes, used by heat engines, that flow from the first law of thermodynamics. Among them are the isobaric, isochoric, isothermal and adiabatic processes.</item>
     <item id="import-auto-id1169737846866">These processes differ from one another based on how they affect pressure, volume, temperature, and heat transfer.</item>
     <item id="import-auto-id1169737988065">If the work done is performed on the outside environment, work (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) will be a positive value. If the work done is done to the heat engine system, work (<m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math>) will be a negative value.</item>

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42395</md:content-id>
   <md:title>Energy Stored in Capacitors</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>7429b93d-106e-417e-b01f-a68c04312d93</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>List some uses of capacitors.</item>
 <item>Express in equation form the energy stored in a capacitor.</item>
@@ -314,6 +314,102 @@
   </m:mrow>
  </m:semantics>
 </m:math>.</para></example>
+</section>
+
+<section id="fs-id2686355" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id1679446" type="ap-test-prep">
+    <problem id="fs-id1258934">
+<para id="fs-id1838077">Consider a parallel plate capacitor, with no dielectric material, attached to a battery with a fixed voltage. What happens when a dielectric is inserted into the capacitor?</para>
+
+<list id="fs-id1965212" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item id="fs-id1705181">Nothing changes, except now there is a dielectric in the capacitor.</item>
+<item id="fs-id1895900">The energy in the system decreases, making it very easy to move the dielectric in.</item>
+<item id="fs-id772532">You have to do work to move the dielectric, increasing the energy in the system.</item>
+<item id="fs-id1072748">The reversed polarity destroys the battery.</item>
+</list>
+    </problem>
+    <solution id="fs-id1943417">
+      <para id="fs-id2724191">(c)</para>
+    </solution>
+  </exercise>
+<exercise id="fs-id1635118" type="ap-test-prep">
+    <problem id="fs-id2642959">
+      <para id="fs-id2511789">Consider a parallel plate capacitor with no dielectric material. It was attached to a battery with a fixed voltage to charge up, but now the battery has been disconnected. What happens to the energy of the system and the dielectric material when a dielectric is inserted into the capacitor?</para>
+    </problem>
+    <!--<solution id="fs-id2664896">
+      <para id="fs-id1935076">We increase the capacitance. However, the charge is now fixed. This means that the voltage and energy both decrease. The capacitor actually does work on the dielectric, pulling it in.</para>
+    </solution>-->
+  </exercise>
+
+<exercise id="fs-id1381555" type="ap-test-prep">
+    <problem id="fs-id2334472">
+<para id="fs-id1372326">What happens to the energy stored in a circuit as you increase the number of capacitors connected in parallel? Series?</para><list id="fs-id1190978" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item id="fs-id755043">increases, increases</item>
+<item id="fs-id1293509">increases, decreases</item>
+<item id="fs-id2684821">decreases, increases</item>
+<item id="fs-id1374380">decreases, decreases</item>
+</list>
+    </problem>
+    <solution id="fs-id2723036">
+      <para id="fs-id1356040">(b)</para>
+    </solution>
+  </exercise>
+<exercise id="fs-id2643905" type="ap-test-prep">
+    <problem id="fs-id1386136">
+<para id="fs-id1281616">What would the capacitance of a capacitor with the same total internal energy as the car battery in Example 19.1 have to be? Can you explain why we use batteries instead of capacitors for this application?</para>
+    </problem>
+    <!--<solution id="fs-id2681282">
+ <para id="fs-id1149441">10<sup>4</sup> Farads, which is an enormous capacitance, probably beyond our capability to manufacture in that size.</para>
+    </solution>-->
+  </exercise>
+
+<exercise id="fs-id2646945" type="ap-test-prep">
+    <problem id="fs-id1093752">
+<para id="fs-id1377444">Consider a parallel plate capacitor with metal plates, each of square shape of 1.00 m on a side, separated by 1.00 mm. What is the energy of this capacitor with 3.00×10<sup>3</sup> V applied to it?</para><list id="fs-id3019562" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item id="fs-id2647815">3.98×10<sup>-2</sup> J</item>
+<item id="fs-id2700545">5.08×10<sup>14</sup> J</item>
+<item id="fs-id2978843">1.33×10<sup>-5</sup> J</item>
+<item id="fs-id2020870">1.69×10<sup>11</sup> J</item>
+</list>
+    </problem>
+    <solution id="fs-id1349111">
+      <para id="fs-id1372151">(a)</para>
+    </solution>
+  </exercise>
+<exercise id="fs-id1222456" type="ap-test-prep">
+    <problem id="fs-id2001647">
+      <para id="fs-id1231091">Consider a parallel plate capacitor with metal plates, each of square shape of 1.00 m on a side, separated by 1.00 mm. What is the internal energy stored in this system if the charge on the capacitor is 30.0 µC?</para>
+    </problem>
+    <!--<solution id="fs-id2670085">
+      <para id="fs-id1318877">5.08&#215;10<sup>-2</sup> J</para>
+    </solution>-->
+  </exercise>
+<exercise id="fs-id1368915" type="ap-test-prep">
+    <problem id="fs-id2658301">
+     <para id="fs-id2350750">Consider a parallel plate capacitor with metal plates, each of square shape of 1.00 m on a side, separated by 1.00 mm. If the plates grow in area while the voltage is held fixed, the capacitance ___ and the stored energy ___.</para>
+
+<list id="fs-id1407214" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item id="fs-id2685762">decreases, decreases</item>
+<item id="fs-id2353373">decreases, increases</item>
+<item id="fs-id1858776">increases, decreases</item>
+<item id="fs-id2669904">increases, increases</item>
+</list>
+    </problem>
+    <solution id="fs-id2071524">
+      <para id="fs-id1790668">(d)</para>
+    </solution>
+  </exercise>
+
+<exercise id="fs-id3530911" type="ap-test-prep">
+    <problem id="fs-id2695013">
+<para id="fs-id2647247">Consider a parallel plate capacitor with metal plates, each of square shape of 1.00 m on a side, separated by 1.00 mm. What happens to the energy of this system if the area of the plates increases while the charge remains fixed?</para>
+    </problem>
+    <!--<solution id="fs-id1304596">
+      <para id="fs-id2754859">The capacitance increases, but because the charge is fixed, the internal energy drops.</para>
+    </solution>-->
+  </exercise>
 </section>
 <section id="fs-id1502616" class="section-summary"><title>Section Summary</title><list id="fs-id1010245"><item id="import-auto-id1534698">Capacitors are used in a variety of devices, including defibrillators, microelectronics such as calculators, and flash lamps, to supply energy.</item>
     <item id="import-auto-id1611426">The energy stored in a capacitor can be expressed in three ways:

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42372</md:content-id>
   <md:title>Magnetic Field Strength: Force on a Moving Charge in a Magnetic Field</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>59d52989-6db1-42f9-83f9-6d9b29c901e7</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe the effects of magnetic fields on moving charges.</item>
 <item>Use the right hand rule 1 to determine the velocity of a charge, the direction of the magnetic field, and the direction of the magnetic force on a moving charge.</item>
@@ -197,6 +197,66 @@
     </equation><para id="import-auto-id1752970"><title>Discussion</title></para>
     <para id="fs-id2551470">This force is completely negligible on any macroscopic object, consistent with experience. (It is calculated to only one digit, since the Earth’s field varies with location and is given to only one digit.) The Earth’s magnetic field, however, does produce very important effects, particularly on submicroscopic particles. Some of these are explored in <link document="m42375">Force on a Moving Charge in a Magnetic Field: Examples and Applications</link>.</para></example>
 </section>
+
+<section id="fs-id1882220" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1822638" type="ap-test-prep"><problem id="fs-id2207266">
+  <para id="fs-id2657083">A proton moves in the –<emphasis effect="italics">x</emphasis>-direction and encounters a uniform magnetic field pointing in the +<emphasis effect="italics">x</emphasis>-direction. In what direction is the resulting magnetic force on the proton?</para>
+  <list id="fs-id2402309" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>The proton experiences no magnetic force.</item>
+  <item>+<emphasis effect="italics">x</emphasis>-direction</item>
+  <item>−<emphasis effect="italics">y</emphasis>-direction</item>
+  <item>+<emphasis effect="italics">y</emphasis>-direction</item>
+  </list>
+  </problem>
+  <solution id="fs-id1891076">
+  <para id="fs-id2543588">(a)</para>
+  </solution>
+  </exercise><exercise id="fs-id2770151" type="ap-test-prep">
+  <problem id="fs-id2235232">
+  <para id="fs-id3263904">A proton moves with a speed of 240 m/s in the +<emphasis effect="italics">x</emphasis>-direction into a region of a 4.5-T uniform magnetic field directed 62° above the +<emphasis effect="italics">x</emphasis>-direction in the <emphasis effect="italics">x</emphasis>,<emphasis effect="italics">y</emphasis>-plane. Calculate the magnitude of the magnetic force on the proton.</para>
+  </problem>
+  <!--<solution id="fs-id1880659">
+  <para id="fs-id1683191">The magnitude of the force can be found using the formula
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mo>|</m:mo><m:mi>F</m:mi><m:mo>|</m:mo><m:mo>=</m:mo><m:mo>|</m:mo><m:mi>q</m:mi><m:mtext>vB</m:mtext><m:mo>|</m:mo><m:mtext>sin&#160;&#952;</m:mtext>
+   </m:mrow>
+  </m:math>
+  
+  </para><para id="fs-id2819258">In this case,
+  <m:math>
+   <m:semantics>
+    <m:mrow>
+     <m:mi>F</m:mi><m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1.60</m:mn><m:mo>&#215;</m:mo><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mrow>
+       <m:mo>&#8722;</m:mo><m:mn>19</m:mn>
+      </m:mrow>
+     </m:msup>
+     <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>240</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>4.5</m:mn><m:mo stretchy="false">)</m:mo><m:mi>sin</m:mi><m:mn>62</m:mn><m:mtext>&#176;</m:mtext>
+    </m:mrow>
+    <m:annotation encoding="MathType-MTEF">MathType@MTEF@5@5@+=feaagyart1ev2aqatCvAUfeBSjuyZL2yd9gzLbvyNv2CaerbuLwBLnhiov2DGi1BTfMBaeXatLxBI9gBaerbd9wDYLwzYbItLDharqqr1ngBPrgifHhDYfgasaacH8srps0lbbf9q8WrFfeuY=Hhbbf9v8qqaqFr0xc9pk0xbba9q8WqFfea0=yr0RYxir=Jbba9q8aq0=yq=He9q8qqQ8frFve9Fve9Ff0dmeaabaqaciGacaGaaeqabaWaaeaaeaaakeaacaWGgbGaeyypa0JaaiikaiaaigdacaGGUaGaaGOnaiaaicdacqGHxdaTcaaIXaGaaGimamaaCaaaleqabaGaeyOeI0IaaGymaiaaiMdaaaGccaGGPaGaaiikaiaaikdacaaI0aGaaGimaiaacMcacaGGOaGaaGinaiaac6cacaaI1aGaaiykaiGacohacaGGPbGaaiOBaiaaiAdacaaIYaGaaeiSaaaa@5084@</m:annotation>
+   </m:semantics>
+  </m:math>, so <m:math>
+   <m:mrow>
+    <m:mi>F</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>1.5</m:mn><m:mo>&#215;</m:mo><m:msup>
+     <m:mrow>
+      <m:mn>10</m:mn>
+     </m:mrow>
+     <m:mrow>
+      <m:mo>&#8722;</m:mo><m:mn>16</m:mn>
+     </m:mrow>
+    </m:msup>
+    <m:mtext>N</m:mtext>
+   </m:mrow>
+  </m:math>
+  </para></solution>-->
+  </exercise></section>
+  
 <section id="fs-id1907447" class="section-summary"><title>Section Summary</title><list id="import-auto-id2165913" list-type="bulleted"><item>Magnetic fields exert a force on a moving charge <emphasis effect="italics">q</emphasis>, the magnitude of which is
     <equation id="import-auto-id1758727"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qvB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "qvB""sin"θ} {}</m:annotation></m:semantics></m:math></equation>
 where <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle between the directions of <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>.

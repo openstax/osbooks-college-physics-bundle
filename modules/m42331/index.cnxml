@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42331</md:content-id>
   <md:title>Equipotential Lines</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>038b3dc5-0d7f-451b-aac0-94d4bd413b45</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain equipotential lines and equipotential surfaces.</item>
 <item>Describe the action of grounding an electrical appliance.</item>
@@ -94,7 +94,79 @@
 <para id="eip-idm395886480">Move point charges around on the playing field and then view the electric field, voltages, equipotential lines, and more. It's colorful, it's dynamic, it's free.<newline/><figure id="eip-idm229666704">
 <media id="fs-id1167066831384" alt="This simulation allows you to arrange positive and negative charges in space and view the resulting electric field and electrostatic potential.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28charge-field"/></media>
-</figure></para></note><section id="fs-id2629382" class="section-summary"><title>Section Summary</title><list id="import-auto-id3146766"><item>An equipotential line is a line along which the electric potential is constant.</item>
+</figure></para></note>
+
+<section id="fs-id3279146" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1249875" type="ap-test-prep">
+  <problem id="fs-id1872917">
+  <para id="fs-id1669682">How would <link target-id="import-auto-id2757381"/> be different with two positive charges replacing the two negative charges?</para>
+  <list id="fs-id2691598" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>The equipotential lines would have positive values.</item>
+  <item>It would actually resemble <link target-id="import-auto-id2749788"/>.</item>
+  <item>no change</item>
+  <item>not enough information</item>
+  </list>
+  </problem>
+  <solution id="fs-id1326108"><para id="fs-id2669570">(a)</para></solution>
+  </exercise>
+  <exercise id="fs-id1299780" type="ap-test-prep">
+      <problem id="fs-id1493330">
+        <para id="fs-id2017799">Consider two conducting plates, placed on adjacent sides of a square, but with a 1-m space between the corner of the square and the plate. These plates are not touching, not centered on each other, but are at right angles. Each plate is 1 m wide. If the plates are held at a fixed potential difference Δ<emphasis effect="italics">V</emphasis>, draw the equipotential lines for this system.</para></problem>
+      <!--<solution id="fs-id1408096">
+        <para id="fs-id1721147">The lines need to be evenly spaced at any given point between the plates, though opening up just as the plates are. This is similar to Problem 19.42.</para>
+      </solution>-->
+    </exercise>
+  
+  <exercise id="fs-id751083" type="ap-test-prep">
+      <problem id="fs-id2968479">
+        <para id="fs-id2657870">As isolines of electric potential get closer together, the electric field gets stronger. What shape would a hill have as the isolines of gravitational potential get closer together?</para>
+  <list id="fs-id1791142" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>constant slope</item>
+  <item>steeper slope</item>
+  <item>shallower slope</item>
+  <item>a U-shape</item>
+  </list>
+      </problem>
+      <solution id="fs-id2534710">
+       <para id="fs-id2810803">(b)</para>
+      </solution>
+    </exercise>
+  
+  <exercise id="fs-id2011505" type="ap-test-prep">
+      <problem id="fs-id2021381">
+        <para id="fs-id1709359">Between <link target-id="import-auto-id2749788"/> and <link target-id="import-auto-id2757381"/>, which more closely resembles the gravitational field between two equal masses, and why?</para>
+      </problem>
+      <!--<solution id="fs-id1998351">
+        <para id="fs-id1378237"><link target-id="import-auto-id2757381"/> does, because gravity is always attractive and this diagrams a same-charge situation. We also know this because, if an object is exactly centered between the two masses, this should result in no movement, which resembles <link target-id="import-auto-id2757381"/>. <link target-id="import-auto-id2749788"/> is not nearly so clear.</para>
+      </solution>-->
+    </exercise>
+  
+  <exercise id="fs-id1892187" type="ap-test-prep">
+      <problem id="fs-id1999166">
+        <para id="fs-id1381110">How much work is necessary to keep a positive point charge in orbit around a negative point charge?</para>
+  <list id="fs-id1270837" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>A lot; this system is unstable.</item>
+  <item>Just a little; the isolines are far enough apart that crossing them doesn’t take much work.</item>
+  <item>None; we’re traveling along an isoline, which requires no work.</item>
+  <item>There’s not enough information to tell.</item>
+  </list>
+      </problem>
+      <solution id="fs-id1502126">
+        <para id="fs-id2574952">(c)</para>
+      </solution>
+    </exercise>
+  
+  <exercise id="fs-id2063319" type="ap-test-prep">
+      <problem id="fs-id2637501">
+        <para id="fs-id1338393">Consider two conducting plates, placed on adjacent sides of a square, but with a 1-m space between the corner of the square and the plate. These plates are not touching, not centered on each other, but are at right angles. Each plate is 1 m wide. If the plates are held at a fixed potential difference Δ<emphasis effect="italics">V</emphasis>, sketch the path of both a positively charged object placed between the near ends, and a negatively charged object placed near the open ends.</para>
+      </problem>
+      <!--<solution id="fs-id1926157">
+        <para id="fs-id1887738">The negatively charged object will go toward the higher potential plate, the positively charged toward the lower potential plate, both describing arcs that are sections of circles.</para>
+      </solution>-->
+    </exercise>
+  </section>
+  <section id="fs-id2629382" class="section-summary"><title>Section Summary</title><list id="import-auto-id3146766"><item>An equipotential line is a line along which the electric potential is constant.</item>
 <item>An equipotential surface is a three-dimensional version of equipotential lines.</item>
 
 <item id="import-auto-id2908098">Equipotential lines are always perpendicular to electric field lines.</item>

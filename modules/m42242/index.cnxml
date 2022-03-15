@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42242</md:content-id>
   <md:title>Simple Harmonic Motion: A Special Periodic Motion</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>2a1ffd48-03ba-45d0-94bc-8afc38ebad19</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Describe a simple harmonic oscillator.</item>
 <item>Explain the link between simple harmonic motion and waves.</item>
@@ -394,7 +394,105 @@
 <media id="masses_springs" alt="Masses and Springs">
 <iframe width="660" height="371.4" src="https://openstax.org/l/02masses_springs"/>
 </media>
-</figure></para></note><section id="fs-id3209887" class="section-summary"><title>Section Summary</title><list id="fs-id982124"><item id="import-auto-id3093852">Simple harmonic motion is oscillatory motion for a system that can be described only by Hooke’s law. Such a system is also called a simple harmonic oscillator. </item>
+</figure></para></note>
+
+
+<section id="fs-id1170241052853" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1170241052863" type="ap-test-prep">
+  <problem id="fs-id1170241052867">
+  <para id="fs-id1170241052869">Use these figures to answer the following questions.</para>
+  <figure id="fs-id1170241019478"><media id="fs-id1170241019481" alt="The image shows two graphs with oscillating lines. The top graph has amplitude from negative A to positive A on the y axis, and time 0 to 8 pi on the x axis. The line starts at 0, A, curves down to cross amplitude 0, and then meet pi, negative A. It curves up, and passes through amplitude 0 again, and then meets 2 pi, A. It curves down, passing through amplitude 0 again, and then meets 3 pi, negative A. It continues this way, finally passing through 8 pi, A. The bottom graph has displacement from negative 3 A over 2 to positive 3 A over 2 on the y-axis, and time 0 to 24 pi on the x-axis. The line starts at 0, 3 A over two curves down through amplitude 0, and meets negative 3 A over 2 at an unmarked x-value. It curves up, passes through amplitude 0 again, and meets 3 pi, 3 A over 2. It goes on in this way, finally meeting 24 pi, 3 A over 2.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_16_M3_pendulum_img.jpg"/>
+  </media>
+  </figure><para id="fs-id1170241114894"/>
+  <list id="fs-id1170241114897" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Which of the two pendulums oscillates with larger amplitude?</item>
+  <item>Which of the two pendulums oscillates at a higher frequency?</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1170241114916">
+  <para id="fs-id1170241149007">(a) Pendulum B oscillates with larger amplitude.</para><para id="fs-id1170241149010">(b) Pendulum A oscillates with higher frequency.</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1170241149016" type="ap-test-prep">
+  <problem id="fs-id1170241149020">
+  <para id="fs-id1170241149022">A particle of mass 100 g undergoes a simple harmonic motion. The restoring force is provided by a spring with a spring constant of 40 N∙m<sup>−1</sup>. What is the period of oscillation?</para>
+  <list id="fs-id1170241149031" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>10π</item>
+  <item>0.5π</item>
+  <item>0.1π</item>
+  <item>1π</item>
+  </list></problem>
+  <solution id="fs-id1170241117700">
+  <para id="fs-id1170241024699">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1170241024705" type="ap-test-prep">
+  <problem id="fs-id1170241024709">
+  <para id="fs-id1170241024711">The graph shows the simple harmonic motion of a mass <emphasis effect="italics">m</emphasis> attached to a spring with spring constant <emphasis effect="italics">k</emphasis>.</para>
+  <figure id="fs-id1170241018127"><media id="fs-id1170241018129" alt="The image shows a graph of an oscillating line. The y-axis has amplitude from negative 1 meter to positive 1 meter. The x-axis has time from 0 seconds to 8 pi seconds. The line starts at 0, positive 1, curves down to pass through amplitude 0, and meets pi, negative one. The line curves up and passes through amplitude equals 0 again, and then meets 2 pi, positive 1. It continues this way, finally meeting 8 pi, positive 1.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_16_M3_spring_img.jpg"/>
+  </media>
+  </figure><para id="fs-id1170241018148">What is the displacement at time 8<emphasis effect="italics">π</emphasis>?</para>
+  <list id="fs-id1170241018151" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>1 m</item>
+  <item>0 m</item>
+  <item>Not defined</item>
+  <item>−1 m</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1170241142528">
+  <para id="fs-id1170241022642">(a)</para></solution>-->
+  </exercise>
+  
+  
+  <exercise id="fs-id1170241022648" type="ap-test-prep">
+  <problem id="fs-id1170241022652">
+  <para id="fs-id1170241022654">A pendulum of mass 200 g undergoes simple harmonic motion when acted upon by a force of 15 N. The pendulum crosses the point of equilibrium at a speed of 5 m∙s<sup>−1</sup>. What is the energy of the pendulum at the center of the oscillation?</para>
+  </problem>
+  <solution id="fs-id1170241022664">
+  <para id="fs-id1170241053144">The energy of the particle at the center of the oscillation is given by</para>
+  <para id="fs-id1170241053147"><m:math display="block">
+   <m:mi>E</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+    <m:mn>1</m:mn>
+    <m:mn>2</m:mn>
+   </m:mfrac>
+   <m:mi>m</m:mi><m:msup>
+    <m:mi>v</m:mi>
+    <m:mn>2</m:mn>
+   </m:msup>
+  
+  </m:math>
+  
+  <m:math display="block">
+   <m:mrow>
+    <m:mo>=</m:mo><m:mtext> </m:mtext><m:mfrac>
+     <m:mn>1</m:mn>
+     <m:mn>2</m:mn>
+    </m:mfrac>
+    <m:mo>×</m:mo><m:mn>0.2</m:mn><m:mtext> </m:mtext><m:mtext>kg</m:mtext><m:mo>×</m:mo><m:msup>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:msup>
+       <m:mrow>
+        <m:mtext> m·s</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>−</m:mo><m:mn>1</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mo stretchy="false">)</m:mo>
+     </m:mrow>
+     <m:mn>2</m:mn>
+    </m:msup>
+  
+   </m:mrow>
+  </m:math>
+  
+  <m:math display="block">
+   <m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>2.5</m:mn><m:mtext> </m:mtext><m:mtext>J</m:mtext>
+  </m:math></para></solution></exercise></section>
+  
+<section id="fs-id3209887" class="section-summary"><title>Section Summary</title><list id="fs-id982124"><item id="import-auto-id3093852">Simple harmonic motion is oscillatory motion for a system that can be described only by Hooke’s law. Such a system is also called a simple harmonic oscillator. </item>
 
     <item id="import-auto-id1488427">Maximum displacement is the amplitude <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math></emphasis>. The period <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math></emphasis> and frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> of a simple harmonic oscillator are given by
     <para id="import-auto-id3358885"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:msqrt><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T=2π sqrt { {  {m}  over  {k} } } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2π</m:mn></m:mfrac></m:mrow><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the mass of the system. </para></item>

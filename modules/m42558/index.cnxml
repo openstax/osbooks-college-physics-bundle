@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42558</md:content-id>
   <md:title>The Photoelectric Effect</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>c7deb632-6222-4c11-8ee8-45758b396ed3</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Describe a typical photoelectric-effect experiment.</item>
 <item>Determine the maximum kinetic energy of photoelectrons ejected by photons of one energy or wavelength, when given the maximum kinetic energy of photoelectrons for a different photon energy or wavelength.</item>
@@ -78,7 +78,31 @@
 <figure id="eip-idm345562448"><media id="fs-id1167066060245" alt="This simulation allows you to see how light knocks electrons off a metal target, and recreate the experiment that spawned the field of quantum mechanics.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28photoelectric"/>
 </media>
-</figure></para></note><section id="fs-id1602437" class="section-summary">
+</figure></para></note>
+
+<section id="fs-id2668732" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1705205" type="ap-test-prep">
+    <problem id="fs-id2338444">
+      <para id="fs-id2703421">A metal exposed to a beam of light with a wavelength equal to or shorter than a specific wavelength emits electrons. What property of light, as described in the quantum explanation of blackbody radiation, accounts for this photoelectric process?</para>
+<list id="fs-id2685570" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The energy of light increases as its speed increases.</item>
+<item>The energy of light increases as its intensity increases.</item>
+<item>The energy of light increases as its frequency increases.</item>
+<item>The energy of light increases as its wavelength increases.</item>
+</list>
+</problem>
+<solution id="fs-id1346710"><para id="fs-id2028864">(c)</para></solution>
+</exercise>
+  <exercise id="fs-id1766785" type="ap-test-prep">
+    <problem id="fs-id1422967">
+<para id="fs-id2669198">During his experiments that confirmed the existence of electromagnetic waves, Heinrich Hertz used a spark across a gap between two electrodes to provide the rapidly changing electric current that produced electromagnetic waves. He noticed, however, that production of the spark required a lower voltage in a well-lighted laboratory than when the room was dark. Describe how this curious event can be explained in terms of the quantum interpretation of the photoelectric effect.</para>
+</problem>
+<!--<solution id="fs-id2335970"><para id="fs-id1348075">High-energy (high-frequency) photons in the light caused electrons to be dislodged from the metal in the electrodes. This made it easier for a spark to cross the gap at a lower voltage. This is consistent with the quantum theory of light, but not the classical model. Electromagnetic waves were regarded as mechanical waves, and the energy of mechanical waves is associated with their intensity, which depends on amplitude. However, experimental evidence revealed that the energy of electromagnetic waves depends on their frequency. This could be explained only by the quantum theory of light.</para>
+</solution>-->
+</exercise>
+</section>
+<section id="fs-id1602437" class="section-summary">
 <title>Section Summary</title><list id="fs-id1231918"><item id="import-auto-id1607517">The photoelectric effect is the process in which EM radiation ejects electrons from a material. </item>
     <item id="import-auto-id1607520">Einstein proposed photons to be quanta of EM radiation having energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>hf</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E =  ital "hf"} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> is the frequency of the radiation.</item>
     <item id="import-auto-id1607579">All EM radiation is composed of photons. As Einstein explained, all characteristics of the photoelectric effect are due to the interaction of individual photons with individual electrons. </item>

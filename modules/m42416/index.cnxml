@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42416</md:content-id>
   <md:title>Electrical Safety: Systems and Devices</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>8f205833-26b8-4eb4-98bb-936aad728cc6</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Explain how various modern safety features in electric circuits work, with an emphasis on how induction is employed.</item>
 </list>
@@ -60,7 +60,29 @@
             <image mime-type="image/jpg" src="../../media/Figure_24_08_08.jpg" width="400"/>
         </media>
 
-        <caption>An isolation transformer puts a large resistance between the original voltage source and the device, preventing a complete circuit between them.</caption></figure><para id="import-auto-id1169738257745">The basics of electrical safety presented here help prevent many electrical hazards. Electrical safety can be pursued to greater depths. There are, for example, problems related to different earth/ground connections for appliances in close proximity. Many other examples are found in hospitals. Microshock-sensitive patients, for instance, require special protection. For these people, currents as low as 0.1 mA may cause ventricular fibrillation. The interested reader can use the material presented here as a basis for further study.</para><section id="fs-id1169738007717" class="section-summary"><title>Section Summary</title><list id="fs-id1169736696969"><item id="import-auto-id1169736745007">Electrical safety systems and devices are employed to prevent thermal and shock hazards.</item>
+        <caption>An isolation transformer puts a large resistance between the original voltage source and the device, preventing a complete circuit between them.</caption></figure><para id="import-auto-id1169738257745">The basics of electrical safety presented here help prevent many electrical hazards. Electrical safety can be pursued to greater depths. There are, for example, problems related to different earth/ground connections for appliances in close proximity. Many other examples are found in hospitals. Microshock-sensitive patients, for instance, require special protection. For these people, currents as low as 0.1 mA may cause ventricular fibrillation. The interested reader can use the material presented here as a basis for further study.</para>
+        
+<section id="fs-id1855735" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id1516027" type="ap-test-prep"><problem id="fs-id1468991">  
+    <para id="fs-id1988502">Which of the following statements is true for an isolation transformer?</para><list id="fs-id2468686" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>It has more primary turns than secondary turns.</item>
+    <item>It has fewer primary turns than secondary turns.</item>
+    <item>It has an equal number of primary and secondary turns.</item>
+    <item>It can have more, fewer, or an equal number of primary and secondary turns.</item>
+    </list></problem>
+    <solution id="fs-id1525715">
+    <para id="fs-id1739508">(c)</para></solution>
+    </exercise>
+    <exercise id="fs-id1449525" type="ap-test-prep">
+    <problem id="fs-id1271861">
+    <para id="fs-id1377458">Explain the working of a ground fault interrupter (GFI).</para></problem>
+    <!--<solution id="fs-id1621889">
+    <para id="fs-id1704055">A GFI compares the currents in the live/hot and neutral wires. When it detects leakage current (i.e., a current returning to the voltage source by a path other than through the neutral wire) greater than 5 mA, it assumes it to be a hazard and interrupts the circuit.]</para>
+    </solution>-->
+    </exercise>
+    </section>
+    
+        <section id="fs-id1169738007717" class="section-summary"><title>Section Summary</title><list id="fs-id1169736696969"><item id="import-auto-id1169736745007">Electrical safety systems and devices are employed to prevent thermal and shock hazards.</item>
         <item id="import-auto-id1169737757892">Circuit breakers and fuses interrupt excessive currents to prevent thermal hazards.</item>
         <item id="import-auto-id1169736621767">The three-wire system guards against thermal and shock hazards, utilizing live/hot, neutral, and earth/ground wires, and grounding the neutral wire and case of the appliance.</item>
         <item id="import-auto-id1169736902663">A ground fault interrupter (GFI) prevents shock by detecting the loss of current to unintentional paths.</item>

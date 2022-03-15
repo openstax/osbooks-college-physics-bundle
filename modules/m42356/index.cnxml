@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42356</md:content-id>
   <md:title>Resistors in Series and Parallel</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>14ba80ad-f75c-4bdf-900e-b8c8ef4e4057</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Draw a circuit with resistors in parallel and in series.</item>
 <item>Calculate the voltage drop of a current across a resistor using Ohm’s law.</item>
@@ -705,6 +705,88 @@
     <item id="import-auto-id3217069">Check to see whether the answers are reasonable and consistent. Units and numerical results must be reasonable. Total series resistance should be greater, whereas total parallel resistance should be smaller, for example. Power should be greater for the same devices in parallel compared with series, and so on.</item>
 </list></note>
 
+<section id="fs-id1009719" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1825729" type="ap-test-prep">
+  <problem id="fs-id1825733">
+  <figure id="fs-id1825735"><media id="fs-id1874017" alt="A circuit is shown as a rectangle with an extra line connecting the top and bottom having resistor Y. The top of this circuit has a 2-volt battery to the left of the Y resistor line, the left side of this circuit has a point P marked and then a 14-volt battery, the bottom has a resistor X to the left of the Y resistor line, and the right side has a resistor Z.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M1_S01_img.jpg"/>
+  </media>
+  </figure><para id="fs-id1708236">The figure above shows a circuit containing two batteries and three identical resistors with resistance <emphasis effect="italics">R</emphasis>. Which of the following changes to the circuit will result in an increase in the current at point <emphasis effect="italics">P</emphasis>? Select <emphasis effect="italics">two</emphasis> answers.</para>
+  <list id="fs-id1327610" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Reversing the connections to the 14 V battery.</item>
+  <item>Removing the 2 V battery and connecting the wires to close the left loop.</item>
+  <item>Rearranging the resistors so all three are in series.</item>
+  <item>Removing the branch containing resistor <emphasis effect="italics">Z</emphasis>.</item>
+  </list>
+  </problem>
+  <solution id="fs-id1279128">
+  <para id="fs-id1279130">(a), (b)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2716433" type="ap-test-prep">
+  <problem id="fs-id2716436">
+  <para id="fs-id1725971">In a circuit, a parallel combination of six 1.6-kΩ resistors is connected in series with a parallel combination of four 2.4-kΩ resistors. If the source voltage is 24 V, what will be the percentage of total current in one of the 2.4-kΩ resistors?</para>
+  <list id="fs-id1312609" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>10%</item>
+  <item>12%</item>
+  <item>20%</item>
+  <item>25%</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1882764">
+  <para id="fs-id1882766">(d)</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1635797" type="ap-test-prep">
+  <problem id="fs-id1850297">
+  <para id="fs-id1850299">If the circuit in the previous question is modified by removing some of the 1.6 kΩ resistors, the total current in the circuit is 24 mA. How many resistors were removed?</para>
+  <list id="fs-id4175386" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>1</item>
+  <item>2</item>
+  <item>3</item>
+  <item>4</item>
+  </list>
+  </problem>
+  <solution id="fs-id2571258">
+  <para id="fs-id2336377">(b)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2337395" type="ap-test-prep">
+  <problem id="fs-id2337399">
+  <figure id="fs-id2337401"><media id="fs-id2691798" alt="A circuit is shown that has nothing on the top or bottom, a battery to the left, and 2R resistor on the right. Additionally, there is an R resistor connecting the top and bottom of the circuit between the left and right sides of the circuit.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M1_S02_img.jpg"/>
+  </media>
+  </figure><para id="fs-id1251696">Two resistors, with resistances <emphasis effect="italics">R</emphasis> and 2<emphasis effect="italics">R</emphasis> are connected to a voltage source as shown in this figure. If the power dissipated in <emphasis effect="italics">R</emphasis> is 10 W, what is the power dissipated in 2<emphasis effect="italics">R</emphasis>?</para>
+  <list id="fs-id1998460" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>1 W</item>
+  <item>2.5 W</item>
+  <item>5 W</item>
+  <item>10 W</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id2728582">
+  <para id="fs-id1843345">(c)</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1843350" type="ap-test-prep">
+  <problem id="fs-id1820108">
+  <para id="fs-id1820110">In a circuit, a parallel combination of two 20-Ω and one 10-Ω resistors is connected in series with a 4-Ω resistor. The source voltage is 36 V.</para>
+  <list id="fs-id2011724" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Find the resistor(s) with the maximum current.</item>
+  <item>Find the resistor(s) with the maximum voltage drop.</item>
+  <item>Find the power dissipated in each resistor and hence the total power dissipated in all the resistors. Also find the power output of the source. Are they equal or not? Justify your answer.</item>
+  <item>Will the answers for questions (a) and (b) differ if a 3 Ω resistor is added in series to the 4 Ω resistor? If yes, repeat the question(s) for the new resistor combination.</item>
+  <item>If the values of all the resistors and the source voltage are doubled, what will be the effect on the current?</item>
+  </list>
+  </problem>
+  <solution id="fs-id2329067">
+  <para id="fs-id2329069">(a) 4-Ω resistor; (b) combination of 20-Ω, 20-Ω, and 10-Ω resistors; (c) 20 W in each 20-Ω resistor, 40 W in 10-Ω resistor, 64 W in 4-Ω resistor, total 144W total in resistors, output power is 144 W, yes they are equal (law of conservation of energy); (d) 4 Ω and 3 Ω for part (a) and no change for part (b); (e) no effect, it will remain the same.</para>
+  </solution>
+  </exercise>
+  </section>
+  
+  
     <section id="fs-id2663783" class="section-summary"><title>Section Summary</title><list id="fs-id1439066"><item>The total resistance of an electrical circuit with resistors wired in a series is the sum of the individual resistances: <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R rSub { size 8{s} } =R rSub { size 8{1} } +R rSub { size 8{2} } +R rSub { size 8{3} } + "."   "."   "."   "." } {}</m:annotation></m:semantics></m:math></item>
     <item>Each resistor in a series circuit has the same amount of current flowing through it.</item>
 <item>The voltage drop, or power dissipation, across each individual resistor in a series is different, and their combined total adds up to the power source input.</item>

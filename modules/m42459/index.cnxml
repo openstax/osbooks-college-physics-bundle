@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42459</md:content-id>
   <md:title>The Law of Refraction</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>18eef263-8513-4954-bcc8-07aa263f0a50</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Determine the index of refraction, given the speed of light in a medium.</item>
 </list>
@@ -219,6 +219,88 @@
                 <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1163675081869"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>θ</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>sin</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>207</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>11</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>9º</m:mn></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ rSub { size 8{2} } ="sin" rSup { size 8{ - 1} } 0 "." "207"="11" "." 9°} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1163675078736"><title>Discussion</title></para>
                 <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1163675081929">For the same <m:math><m:semantics><m:mrow><m:mn>30º</m:mn></m:mrow></m:semantics></m:math> angle of incidence, the angle of refraction in diamond is significantly smaller than in water (<m:math><m:semantics><m:mrow><m:mn>11.9º</m:mn></m:mrow></m:semantics></m:math> rather than <m:math><m:semantics><m:mrow><m:mn>22º</m:mn></m:mrow></m:semantics></m:math>—see the preceding example). This means there is a larger change in direction in diamond. The cause of a large change in direction is a large change in the index of refraction (or speed). In general, the larger the change in speed, the greater the effect on the direction of the ray.                </para></example>
             </section>
+
+            <section id="fs-id2377052" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id2040860" type="ap-test-prep">
+                <problem id="fs-id1458563">
+                <para id="fs-id1461975">When light travels from air into water, which of the following statements is accurate?</para>
+                <list id="fs-id1500194" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+                <item>The wavelength decreases, and the speed decreases.</item>
+                <item>The wavelength decreases, and the speed increases.</item>
+                <item>The wavelength increases, and the speed decreases.</item>
+                <item>The wavelength increases, and the speed increases.</item>
+                </list>
+                </problem>
+                <solution id="fs-id2313472">
+                <para id="fs-id1337079">(a)</para>
+                </solution>
+                </exercise>
+                
+                <exercise id="fs-id1292246" type="ap-test-prep"><problem id="fs-id1514279">
+                <para id="fs-id1420743">When a light ray travels from air into glass, which of the following statements is accurate after the light enters the glass?</para>
+                <list id="fs-id1338098" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+                <item>The ray bends away from the normal, and the speed decreases.</item>
+                <item>The ray bends away from the normal, and the speed increases.</item>
+                <item>The ray bends toward the normal, and the speed increases.</item>
+                <item>The ray bends toward the normal, and the speed decreases.</item>
+                </list>
+                </problem>
+                <!--
+                <solution id="fs-id2253928">
+                <para id="fs-id2427276">(d)</para></solution>
+                -->
+                </exercise><exercise id="fs-id1723704" type="ap-test-prep"><problem id="fs-id1457598">
+                <figure id="fs-id2165022"><media id="fs-id1844919" alt="Diagram shows two arrows running from point A to the top of a shaded box. Where they meet the shaded box, two new arrows emerge inside the box. These arrows meet at a point B inside the box.">
+                <image mime-type="image/jpg" src="../../media/CNX_APPhysics_25_M3_twopaths_img.jpg"/>
+                </media></figure>
+                <para id="fs-id1321181">Two different potential paths from point A to point B are shown. Point A is in the air, and point B is in water. For which of these paths (upper or lower) would light travel from point A to point B faster? Which of the paths more accurately represents how a light ray would travel from point A to point B? Explain.</para>
+                </problem>
+                <solution id="fs-id1383677">
+                <para id="fs-id1525966">Since light bends toward the normal upon entering a medium with a higher index of refraction, the upper path is a more accurate representation of a light ray moving from A to B.</para></solution></exercise><exercise id="fs-id2702712" type="ap-test-prep"><problem id="fs-id3247148">
+                <para id="fs-id1458239">Students in a lab group are given a plastic cube with a hollow cube-shaped space in the middle that fills about half the volume of the cube. The index of refraction of the plastic is known. The hollow space is filled with a gas, and the students are asked to collect the data needed to find the index of refraction of the gas. The students take the following set of measurements:</para>
+                <para id="fs-id1469667">Angle of incidence of the light in the air above the plastic block: 30°</para>
+                <para id="fs-id2025573">Angle of refraction of the beam as it enters the plastic from the air: 45°</para>
+                <para id="fs-id3186554">Angle of refraction of the beam as it enters the plastic from the gas: 45°</para>
+                <para id="fs-id1407228">The three measurements are shared with a second lab group. Can the second group determine a value for the index of refraction of the gas from only this data?</para>
+                <list id="fs-id2321202" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+                <item>Yes, because they have information about the beam in air and in the plastic above the gas.</item>
+                <item>Yes, because they have information about the beam on both sides of the gas.</item>
+                <item>No, because they need additional information to determine the angle of the beam in the gas.</item>
+                <item>No, because they do not have multiple data points to analyze.</item>
+                </list>
+                </problem>
+                <!--<solution id="fs-id1419072">
+                <para id="fs-id2315057">(c)</para>
+                </solution>
+                --></exercise><exercise id="fs-id1757613" type="ap-test-prep">
+                <problem id="fs-id2035424">
+                <para id="fs-id2831532">Students in a lab group are given a plastic cube with a hollow cube-shaped space in the middle that fills about half the volume of the cube. The index of refraction of the plastic is known. The hollow space is filled with a gas, and the students are asked to collect the data needed to find the index of refraction of the gas. What information would you need to collect, and how would you use this information in order to deduce the index of refraction of the gas in the cube?</para>
+                </problem>
+                <solution id="fs-id3163076">
+                <para id="fs-id1546148">First, measure the angle of incidence and the angle of refraction for light entering the plastic from air. Since the two angles can be measured and the index of refraction of air is known, the student can solve for the index of refraction of the plastic.</para>
+                <para id="fs-id1851516">Next, measure the angle of incidence and the angle of refraction for light entering the gas from the plastic. Since the two angles can be measured and the index of refraction of the plastic is known, the student can solve for the index of refraction of the gas.</para>
+                </solution>
+                </exercise>
+                
+                
+                <exercise id="fs-id1379992" type="ap-test-prep"><problem id="fs-id1446724">
+                <para id="fs-id1741954">Light travels through water and crosses a boundary at a non-normal angle into a different fluid with an unknown index of refraction. Which of the following is true about the path of the light after crossing the boundary?</para>
+                <list id="fs-id3584677" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+                <item>If the index of refraction of the fluid is higher than that of water, the light will speed up and turn toward the normal.</item>
+                <item>If the index of refraction of the fluid is higher than that of water, the light will slow down and turn away from the normal.</item>
+                <item>If the index of refraction of the fluid is lower than that of water, the light will speed up and turn away from the normal.</item>
+                <item>If the index of refraction of the fluid is lower than that of water, the light will slow down and turn toward the normal.</item>
+                </list>
+                </problem>
+                <!--<solution id="fs-id1433554">
+                <para id="fs-id1474714">(c)</para>
+                </solution>
+                --></exercise><exercise id="fs-id2377940" type="ap-test-prep"><problem id="fs-id1371846">
+                <para id="fs-id1750144">A laser is fired from a submarine beneath the surface of a lake (<emphasis effect="italics">n</emphasis> = 1.33). The laser emerges from the lake into air with an angle of refraction of 67°. How fast is the light moving through the water? What is the angle of incidence of the laser light when it crosses the boundary between the lake and the air?</para>
+                </problem>
+                <solution id="fs-id1330102">
+                <para id="fs-id1523127">The speed of light in a medium is simply <emphasis effect="italics">c</emphasis>/<emphasis effect="italics">n</emphasis>, so the speed of light in water is 2.25 × 10<sup>8</sup> m/s. From Snell’s law, the angle of incidence is 44°.</para></solution>
+                </exercise></section>
+
             <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id2100956" class="section-summary"><title>Section Summary</title><list id="fs-id954984"><item id="import-auto-id1163675086602">The changing of a light ray’s direction when it passes through variations in matter is called refraction.</item>
                 <item id="import-auto-id1163675086606">The speed of light in vacuum <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>c</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2.99792458</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext><m:mo stretchy="false">≈</m:mo><m:mn>3.00</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></item>
                 <item id="import-auto-id1163675083293">Index of refraction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>c</m:mi><m:mi>v</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n= {  {c}  over  {v} } } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the speed of light in the material, <m:math><m:semantics><m:mrow><m:mrow><m:mi>c</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{c} {}</m:annotation></m:semantics></m:math> is the speed of light in vacuum, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> is the index of refraction.</item>

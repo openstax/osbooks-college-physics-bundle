@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42149</md:content-id>
   <md:title>Conservative Forces and Potential Energy</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>32fa5f4a-677f-455a-b767-8711ee4bf7a8</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Define conservative force, potential energy, and mechanical energy.</item>
 <item>Explain the potential energy of a spring in terms of its compression when Hooke’s law applies.</item>
@@ -519,6 +519,110 @@
 <iframe width="660" height="371.4" src="https://openstax.org/l/28skatepark"/></media>
 </figure></para></note></section>
 
+<section id="fs-id2569627" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1843533" type="ap-test-prep">
+  <problem id="fs-id1313558">
+  <para id="fs-id2667906">Two 4.0 kg masses are connected to each other by a spring with a force constant of 25 N/m and a rest length of 1.0 m. If the spring has been compressed to 0.80 m in length and the masses are traveling toward each other at 0.50 m/s (each), what is the total energy in the system?</para>
+  <list id="fs-id1360071" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>1.0 J</item>
+  <item>1.5 J</item>
+  <item>9.0 J</item>
+  <item>8.0 J</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id2304486">
+  <para id="fs-id2637521">(b)</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1632979" type="ap-test-prep">
+  <problem id="fs-id3922893">
+  <para id="fs-id1167396">A spring with a force constant of 5000 N/m and a rest length of 3.0 m is used in a catapult. When compressed to 1.0 m, it is used to launch a 50 kg rock. However, there is an error in the release mechanism, so the rock gets launched almost straight up. How high does it go, and how fast is it going when it hits the ground?</para>
+  </problem>
+  <solution id="fs-id1375106">
+  <para id="fs-id2646945">20 m high, 20 m/s.</para>
+  </solution>
+  </exercise>
+  
+  <exercise id="fs-id2319062" type="ap-test-prep">
+  <problem id="fs-id1791142">
+  <para id="fs-id1791775">What information do you need to calculate the kinetic energy and potential energy of a spring? Potential energy due to gravity? How many objects do you need information about for each of these cases?</para>
+  </problem>
+  <!--<solution id="fs-id2668657">
+  <para id="fs-id1298449"><emphasis effect="italics">KE</emphasis>: mass and velocity; <emphasis effect="italics">PE</emphasis><sub>s</sub>: force constant and displacement; displacement above Earth (or other massive body); in the first case you only need the object itself; the other two require position relative to something else.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id2328776" type="ap-test-prep">
+  <problem id="fs-id3119250">
+  <para id="fs-id1161691">You are loading a toy dart gun, which has two settings, the more powerful with the spring compressed twice as far as the lower setting. If it takes 5.0 J of work to compress the dart gun to the lower setting, how much work does it take for the higher setting?</para>
+  <list id="fs-id1976701" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>20 J</item>
+  <item>10 J</item>
+  <item>2.5 J</item>
+  <item>40 J</item>
+  </list>
+  </problem>
+  <solution id="fs-id1367770">
+  <para id="fs-id2754622">(a)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2524398" type="ap-test-prep">
+  <problem id="fs-id1332345">
+  <para id="fs-id1641738">Describe a system you use daily with internal potential energy.</para>
+  </problem>
+  <!--<solution id="fs-id1376075">
+  <para id="fs-id501438">Springs in a car&#8217;s suspension, counterweights in an elevator, batteries in hybrid cars, or anything with a rechargeable battery.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id2987264" type="ap-test-prep">
+  <problem id="fs-id1947251">
+  <para id="fs-id1286535">Old-fashioned pendulum clocks are powered by masses that need to be wound back to the top of the clock about once a week to counteract energy lost due to friction and to the chimes. One particular clock has three masses: 4.0 kg, 4.0 kg, and 6.0 kg. They can drop 1.3 meters. How much energy does the clock use in a week?</para>
+  <list id="fs-id1318756" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>51 J</item>
+  <item>76 J</item>
+  <item>127 J</item>
+  <item>178 J</item>
+  </list>
+  </problem>
+  <solution id="fs-id2662781">
+  <para id="fs-id1380021">(d)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1360944" type="ap-test-prep">
+  <problem id="fs-id2352851">
+  <para id="fs-id2567523">A water tower stores not only water, but (at least part of) the energy to move the water. How much? Make reasonable estimates for how much water is in the tower, and other quantities you need.</para>
+  </problem>
+  <!--<solution id="fs-id2680599">
+  <para id="fs-id1837966">A Fermi estimate would be a town of 10,000 people, 10 kg/day/person, 10 m tall tower to get roughly 10 MJ of stored energy.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1759232" type="ap-test-prep">
+  <problem id="fs-id1405527">
+  <para id="fs-id1758908">Old-fashioned pocket watches needed to be wound daily so they wouldn’t run down and lose time, due to the friction in the internal components. This required a large number of turns of the winding key, but not much force per turn, and it was possible to overwind and break the watch. How was the energy stored?</para>
+  <list id="fs-id1927221" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>A small mass raised a long distance</item>
+  <item>A large mass raised a short distance</item>
+  <item>A weak spring deformed a long way</item>
+  <item>A strong spring deformed a short way</item>
+  </list>
+  </problem>
+  <solution id="fs-id2668195">
+  <para id="fs-id1865888">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1811319" type="ap-test-prep">
+  <problem id="fs-id2719498">
+  <para id="fs-id2640239">Some of the very first clocks invented in China were powered by water. Describe how you think this was done.</para>
+  </problem>
+  <!--<solution id="fs-id1189311">
+  <para id="fs-id1955636">Basically, the mechanism was similar to that of a pendulum clock, but instead of weights, which need to be raised, there was a stream of water flowing into cups or buckets.</para>
+  </solution>-->
+  </exercise>
+  </section>
+  
       <section id="fs-id2026635" class="section-summary"><title>Section Summary</title><list id="fs-id1337667"><item>A conservative force is one for which work depends only on the starting and ending points of a motion, not on the path taken.</item>
     <item>We can define potential energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>PE</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( "PE" \) } {}</m:annotation></m:semantics></m:math> for any conservative force, just as we defined <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mn>g</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{g} } } {}</m:annotation></m:semantics></m:math> for the gravitational force. </item>
 

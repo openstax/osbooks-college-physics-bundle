@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42317</md:content-id>
   <md:title>Conductors and Electric Fields in Static Equilibrium</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>6bcb560d-d0eb-4c91-9ac0-5ef46b68fd05</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>List the three properties of a conductor in electrostatic equilibrium.</item>
 <item>Explain the effect of an electric field on free charges in a conductor.</item>
@@ -102,6 +102,61 @@
       
     <caption>(a) A lightning rod is pointed to facilitate the transfer of charge. (credit: Romaine, Wikimedia Commons) (b) This Van de Graaff generator has a smooth surface with a large radius of curvature to prevent the transfer of charge and allow a large voltage to be generated. The mutual repulsion of like charges is evident in the person’s hair while touching the metal sphere. (credit: Jon ‘ShakataGaNai’ Davis/Wikimedia Commons).</caption></figure></section>
   
+ <section id="fs-id2374500" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id1329828" type="ap-test-prep">
+  <problem id="fs-id1463377">
+  <para id="eip-id1830874"><figure id="fs-id2163862"><media id="fs-id1743080" alt="A gold sphere with eight equally spaced black +'s around the outside of the sphere point to eight blue arrows pointing outward. Four of the arrows point directly up, right, down, and left of the sphere and four arrows are equally spaced between these other four arrows at 45 degree angles. The arrow between the left and top arrow is labeled A. The arrow between the top and right arrow is labeled B. The arrow between the right and down arrow is labeled C.">
+  <image mime-type="image/png" src="../../media/image040.jpg"/>
+  </media>
+  
+  <caption>A sphere conductor.</caption></figure></para><para id="fs-id1757247">An electric field due to a positively charged spherical conductor is shown above. Where will the electric field be weakest?</para>
+  <list id="fs-id3366056" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Point A</item>
+  <item>Point B</item>
+  <item>Point C</item>
+  <item>Same at all points</item>
+  </list>
+  </problem>
+  
+  <solution id="fs-id1734255"><para id="fs-id3202764">(c)</para></solution>
+  </exercise>
+    <exercise id="fs-id1773817" type="ap-test-prep"><problem id="fs-id2543156"><para id="eip-id2711137">
+  <figure id="fs-id2059223"><media id="fs-id2699734" alt="There is a gray long thin rectangle at the top of the figure with black pluses. The same size gray long thin rectangle is at the bottom of the figure with minuses below the positives. There are blue lines with an arrow in the middle connecting each + to each -. The two arrows on the left start at the same first + are curved toward the left and hit the first bottom -. The two lines on the right are curved toward the right and connect the last + and -. The six center arrows are vertical. Between line three and four near the + rectangle is an A. A B is between lines four and five near the – rectangle. C is halfway between the + and – rectangle between lines six and seven.">
+  <image mime-type="image/png" src="../../media/image042.jpg"/>
+  </media>
+  
+  <caption>Electric field between two parallel metal plates.</caption></figure></para><para id="fs-id3157759">The electric field created by two parallel metal plates is shown above. Where will the electric field be strongest?</para>
+  <list id="fs-id2432952" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Point A</item>
+  <item>Point B</item>
+  <item>Point C</item>
+  <item>Same at all points</item>
+  </list>
+  </problem>
+  <!--
+  <solution id="fs-id2328562">
+  <para id="fs-id1524618">(d)</para>
+  <para id="eip-id1523417"/>
+  </solution>
+  --></exercise><exercise id="fs-id1909331" type="ap-test-prep">
+      <problem id="fs-id2387653">
+  <para id="fs-id1551107">Suppose that the electric field experienced due to a positively charged small spherical conductor at a certain distance is <emphasis effect="italics">E</emphasis>. What will be the percentage change in electric field experienced at thrice the distance if the charge on the conductor is doubled?</para>
+  </problem>
+  <solution id="fs-id1775380"><para id="fs-id1996829">decrease by 77.78%.</para>
+  </solution>
+  </exercise>
+    <exercise id="fs-id2149406" type="ap-test-prep"><problem id="fs-id2431665"><para id="eip-id1654332">
+  <figure id="fs-id1867457"><media id="fs-id2145555" alt="The diagram shows an eye, microscope and then a gray bar with five +'s at the top, 5 arrows pointing directly down to 5 –‘s in a gray bar. In the center of the bars between the + and – bars is a gold drop.">
+  <image mime-type="image/png" src="../../media/image044.jpg"/>
+  </media>
+  
+  <caption>Millikan oil drop experiment.</caption></figure></para><para id="fs-id1279759">The classic Millikan oil drop experiment setup is shown above. In this experiment oil drops are suspended in a vertical electric field against the gravitational force to measure their charge. If the mass of a negatively charged drop suspended in an electric field of 1.18×10<sup>−4</sup> N/C strength is 3.85×10<sup>−21</sup> g, find the number of excess electrons in the drop.</para>
+  </problem>
+  <!--
+  <solution id="fs-id2664531">
+  <para id="fs-id2387432">2</para>
+  <para id="eip-id1524986"/>
+  </solution>
+  --></exercise></section>
     <section id="fs-id2678903" class="section-summary"><title>Section Summary</title><list id="fs-id1570982"><item id="import-auto-id1517252">A conductor allows free charges to move about within it.</item>
     <item id="import-auto-id1355895">The electrical forces around a conductor will cause free charges to move around inside the conductor until static equilibrium is reached.</item>
     <item id="import-auto-id1355534">Any excess charge will collect along the surface of a conductor.</item>

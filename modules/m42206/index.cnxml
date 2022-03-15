@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42206</md:content-id>
   <md:title>Bernoulli’s Equation</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>0c8ac66c-a41b-4861-8fc6-e9633182091f</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain the terms in Bernoulli’s equation.</item>
 <item>Explain how Bernoulli’s equation is related to conservation of energy.</item>
@@ -551,6 +551,218 @@
 </m:math> is proportional to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:msubsup><m:mi fontstyle="italic">ρv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{2} } } ρv rSub { size 8{2} }  rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. (b) This type of velocity measuring device is a Prandtl tube, also known as a pitot tube.</caption></figure></section>
 </section>
 
+<section id="fs-id1381316" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id1292491" type="ap-test-prep">
+  <problem id="fs-id1422554">      
+    <para id="fs-id1277336">At what depth beneath the surface of the lake is the pressure in the water equal to twice atmospheric pressure?</para>
+    <list id="fs-id1784594" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>10 m</item>
+<item>100 m</item>
+<item>1000 m</item>
+<item>10,000 m</item>
+    </list></problem>
+  <solution id="fs-id3157059">
+    <para id="fs-id1522861">(a)</para></solution>
+</exercise>
+
+<exercise id="fs-id1479037" type="ap-test-prep"><problem id="fs-id1515007">      
+    <para id="fs-id3207047">A pump provides pressure to the lower end of a long pipeline that supplies water from a reservoir to a house located on a hill 150 m vertically upward from the lower end of the pipe (where the water is initially at rest before being pumped). The pipeline has a constant diameter of 3.5 cm, and the upper end of the pipeline is open to the atmosphere. What pressure must the pump provide for water to flow from the upper end of the pipeline at a rate of 5.0 m/s?</para>
+  </problem>
+<!--    <solution id="fs-id2066006">
+    <para id="fs-id1321657">Take the surface of the lake to be at a height of 0.</para>
+    <equation id="fs-id1321180"><m:math display="block">
+<m:mrow>
+<m:msub>
+ <m:mi>P</m:mi>
+ <m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+ <m:mn>1</m:mn>
+ <m:mn>2</m:mn>
+</m:mfrac>
+<m:mi>&#961;</m:mi><m:msub>
+ <m:mi>v</m:mi>
+ <m:mn>1</m:mn>
+</m:msub>
+<m:msup>
+ <m:mrow/>
+ <m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mi>&#961;</m:mi><m:mi>g</m:mi><m:msub>
+ <m:mi>h</m:mi>
+ <m:mn>1</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mo>&#160;</m:mo><m:msub>
+ <m:mi>P</m:mi>
+ <m:mn>2</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mfrac>
+ <m:mn>1</m:mn>
+ <m:mn>2</m:mn>
+</m:mfrac>
+<m:mi>&#961;</m:mi><m:msub>
+ <m:mi>v</m:mi>
+ <m:mn>2</m:mn>
+</m:msub>
+<m:msup>
+ <m:mrow/>
+ <m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mo>&#160;</m:mo><m:mi>&#961;</m:mi><m:mi>g</m:mi><m:msub>
+ <m:mi>h</m:mi>
+ <m:mn>2</m:mn>
+</m:msub>
+
+</m:mrow>
+</m:math>
+</equation>
+<equation id="fs-id1322590"><m:math>
+<m:mrow>
+<m:msub>
+ <m:mi>P</m:mi>
+ <m:mn>1</m:mn>
+</m:msub>
+<m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mn>0.5</m:mn>
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mn>1000</m:mn>
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:msup>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+ <m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mn>1000</m:mn>
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mn>9.8</m:mn>
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+ <m:mn>0</m:mn>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mn>101</m:mn><m:mo>,</m:mo><m:mn>300</m:mn>
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mn>0.500</m:mn>
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mn>1000</m:mn>
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:msup>
+ <m:mrow>
+  <m:mo stretchy="false">(</m:mo><m:mn>5.0</m:mn><m:mo stretchy="false">)</m:mo>
+ </m:mrow>
+ <m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1000</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>9.8</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>150</m:mn><m:mo stretchy="false">)</m:mo>
+</m:mrow>
+</m:math>
+</equation>
+<equation id="fs-id1722331"><m:math>
+<m:mrow>
+<m:msub>
+ <m:mi>P</m:mi>
+ <m:mn>1</m:mn>
+</m:msub>
+<m:mo>=</m:mo><m:mn>101</m:mn><m:mo>,</m:mo><m:mn>300</m:mn><m:mo>+</m:mo><m:mn>12</m:mn><m:mo>,</m:mo><m:mn>500</m:mn><m:mo>+</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mn>470</m:mn><m:mo>,</m:mo><m:mn>000</m:mn><m:mo>=</m:mo><m:mn>1.58</m:mn><m:mtext>&#215;</m:mtext><m:msup>
+ <m:mrow>
+  <m:mn>10</m:mn>
+ </m:mrow>
+ <m:mn>6</m:mn>
+</m:msup>
+<m:mo>&#160;</m:mo><m:mtext>N</m:mtext><m:mo>/</m:mo><m:msup>
+ <m:mtext>m</m:mtext>
+ <m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:math>
+</equation>
+<para id="eip-id1166761547306"/>
+</solution>
+-->
+</exercise><exercise id="fs-id1497466" type="ap-test-prep">
+  <problem id="fs-id1310041">      
+    <para id="fs-id1532159">According to Bernoulli's equation, if the pressure in a given fluid is constant and the kinetic energy per unit volume of a fluid increases, which of the following is true?</para>
+<list id="fs-id1442834" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>The potential energy per unit volume of the fluid decreases.</item>
+<item>The potential energy per unit volume of the fluid increases.</item>
+<item>The fluid must no longer be considered incompressible.</item>
+<item>The flow rate of the fluid increases.</item>
+</list></problem>
+  <solution id="fs-id1851675">
+    <para id="fs-id2548044">(a)</para></solution>
+</exercise>
+
+<exercise id="fs-id1727123" type="ap-test-prep"><problem id="fs-id1358608">      
+    <para id="fs-id890094">Consider the following circumstances within a fluid, and determine the answer using Bernoulli's equation. (a) The pressure and kinetic energy per unit volume along a fluid path increases. What must be true about the potential energy per unit volume of the fluid along the fluid path? Explain. (b) The pressure along a fluid path increases, and the kinetic energy per unit volume remains constant. What must be true about the potential energy per unit volume of the fluid along the fluid path? Explain.</para>
+  </problem>
+<!--    <solution id="fs-id2634880">
+    <para id="fs-id1469198">(a) Since Bernoulli's equation represents energy conservation, we can write it as:</para>
+    <equation id="fs-id1372818"><m:math>
+<m:mrow>
+<m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:msub>
+   <m:mi>P</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:msub>
+   <m:mi>P</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>&#961;</m:mi><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>2</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  <m:mo>&#8722;</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:mfrac>
+  <m:mi>&#961;</m:mi><m:msubsup>
+   <m:mi>v</m:mi>
+   <m:mn>1</m:mn>
+   <m:mn>2</m:mn>
+  </m:msubsup>
+  
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>+</m:mo><m:mrow><m:mo>(</m:mo>
+ <m:mrow>
+  <m:mi>&#961;</m:mi><m:mi>g</m:mi><m:msub>
+   <m:mi>h</m:mi>
+   <m:mn>2</m:mn>
+  </m:msub>
+  <m:mo>&#8722;</m:mo><m:mo>&#160;</m:mo><m:mi>&#961;</m:mi><m:mi>g</m:mi><m:msub>
+   <m:mi>h</m:mi>
+   <m:mn>1</m:mn>
+  </m:msub>
+  
+ </m:mrow>
+<m:mo>)</m:mo></m:mrow><m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mn>0</m:mn>
+</m:mrow>
+</m:math>
+</equation>
+<para id="fs-id1435769">If the pressure increases and the kinetic energy per unit volume increases along a fluid path, then the first two terms of Bernoulli's equation must both be positive. For the equation to be true, then the third term must be negative. This means that the potential energy per unit volume is lower at location 2 in the fluid, so the potential energy per unit volume must decrease.</para>
+<para id="fs-id2431887">For (b), if the pressure increases and the kinetic energy per unit volume remains constant, then the first term of the equation must be positive and the second term is zero. This means again that the third term must be negative. So again, potential energy per unit volume must decrease.</para>
+<para id="eip-id1562022"/>
+  </solution>-->
+</exercise></section> 
 <section id="fs-id3408182" class="section-summary"><title>Summary</title><list id="fs-id1386075"><item id="import-auto-id2678174">Bernoulli’s equation states that the sum on each side of the following equation is constant, or the same at any two points in an incompressible frictionless fluid:
 <equation id="eip-id1907714"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow><m:mrow><m:msubsup><m:mi fontstyle="italic">ρv</m:mi><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mi>ρ</m:mi></m:mrow><m:mrow><m:mrow><m:msub><m:mi fontstyle="italic">gh</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>P</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:msubsup><m:mi fontstyle="italic">ρv</m:mi><m:mrow><m:mn>2</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:mi>ρ</m:mi></m:mrow><m:mrow><m:msub><m:mstyle fontstyle="italic"><m:mtext>gh</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P rSub { size 8{1} } + {  { size 8{1} }  over  { size 8{2} } } ρv rSub { size 8{1} }  rSup { size 8{2} } +ρ ital "gh" rSub { size 8{1} } =P rSub { size 8{2} } + {  { size 8{1} }  over  { size 8{2} } } ρv rSub { size 8{2} }  rSup { size 8{2} } +ρ ital "gh" rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation></item>
 <item id="import-auto-id3105417">Bernoulli’s principle is Bernoulli’s equation applied to situations in which depth is constant. The terms involving depth (or height <emphasis effect="italics">h</emphasis> ) subtract out, yielding

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42508</md:content-id>
   <md:title>Young’s Double Slit Experiment</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>c53f413f-75b6-44bd-b723-599d49a505fc</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Explain the phenomena of interference.</item>
 <item>Define constructive interference for a double slit and destructive interference for a double slit.</item>
@@ -81,7 +81,58 @@
     <para id="eip-406">The equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">d</m:mo><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">mλ</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>(for</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mn>1,</m:mn><m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mn>2,</m:mn><m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mn>2,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">…</m:mo><m:mo>)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> describes constructive interference. For fixed values of <m:math><m:semantics><m:mrow><m:mrow><m:mo fontstyle="italic">d</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{λ} {}</m:annotation></m:semantics></m:math>, the larger <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is, the larger <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"`θ} {}</m:annotation></m:semantics></m:math> is. However, the maximum value that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"θ} {}</m:annotation></m:semantics></m:math> can have is 1, for an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>90º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90"°} {}</m:annotation></m:semantics></m:math>. (Larger angles imply that light goes backward and does not reach the screen at all.) Let us find which <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> corresponds to this maximum diffraction angle.</para><para id="import-auto-id1169736598419"><title>Solution</title> </para>
     <para id="eip-559">Solving the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">d</m:mo><m:mi/><m:mtext>sin</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">mλ</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d`"sin"θ=mλ} {}</m:annotation></m:semantics></m:math> for <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> gives</para><equation id="eip-624"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow><m:mi>λ</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  {d`"sin"θ}  over  {λ} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736660183">Taking <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"sin"θ=1} {}</m:annotation></m:semantics></m:math> and substituting the values of <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>λ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> from the preceding example gives</para><equation id="eip-717"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0100 mm</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo></m:mrow><m:mrow><m:mtext>633 nm</m:mtext></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo>≈</m:mo><m:mtext>15.8.</m:mtext></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  { \( 0 "." "0100"`"mm" \)  \( 1 \) }  over  {"633"`"nm"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737713832">Therefore, the largest integer <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> can be is 15, or</para>
     <equation id="eip-305"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>15</m:mtext></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m="15"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737883669"><title>Discussion</title> </para>
-    <para id="eip-94">The number of fringes depends on the wavelength and slit separation. The number of fringes will be very large for large slit separations. However, if the slit separation becomes much greater than the wavelength, the intensity of the interference pattern changes so that the screen has two bright lines cast by the slits, as expected when light behaves like a ray. We also note that the fringes get fainter further away from the center. Consequently, not all 15 fringes may be observable.</para></example><section id="fs-id1169735585040" class="section-summary">
+    <para id="eip-94">The number of fringes depends on the wavelength and slit separation. The number of fringes will be very large for large slit separations. However, if the slit separation becomes much greater than the wavelength, the intensity of the interference pattern changes so that the screen has two bright lines cast by the slits, as expected when light behaves like a ray. We also note that the fringes get fainter further away from the center. Consequently, not all 15 fringes may be observable.</para></example>
+    <section id="fs-id2274647" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+    
+      <exercise id="fs-id2431746" type="ap-test-prep"><problem id="fs-id1891079">
+          <para id="fs-id2217029">Superposition of which of the following light waves may produce interference fringes? Select <emphasis effect="italics">two</emphasis> answers.</para>
+        <para id="fs-id3257267">Wave<sub>1</sub> = A<sub>1</sub>sin(2<emphasis effect="italics">ωt</emphasis>)</para>
+        <para id="fs-id2387499">Wave<sub>2</sub> = A<sub>2</sub>sin(4<emphasis effect="italics">ωt</emphasis>)</para>
+        <para id="fs-id2542650">Wave<sub>3</sub> = A<sub>3</sub>sin(2<emphasis effect="italics">ωt</emphasis> + <emphasis effect="italics">θ</emphasis>)</para>
+        <para id="fs-id2518743">Wave<sub>4</sub> = A<sub>4</sub>sin(4<emphasis effect="italics">ωt</emphasis> + <emphasis effect="italics">θ</emphasis>).</para>
+        <list id="fs-id1366634" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+         <item>Wave<sub>1</sub> and Wave<sub>2</sub></item>
+         <item>Wave<sub>2</sub> and Wave<sub>4</sub></item>
+               <item>Wave<sub>3</sub> and Wave<sub>1</sub></item>
+         <item>Wave<sub>4</sub> and Wave<sub>3</sub></item>
+        </list>
+        </problem>
+        <solution id="fs-id2186931">
+          <para id="fs-id1408291">(b) and (c)</para></solution>
+      </exercise><exercise id="fs-id2013916" type="ap-test-prep"><problem id="fs-id1487107">
+          <para id="fs-id2040349">In a double slit experiment with monochromatic light, the separation between the slits is 2 mm. If the screen is moved by 100 mm toward the slits, the distance between the central bright line and the second bright line changes by 32 μm. Calculate the wavelength of the light used for the experiment.</para>
+          </problem>
+      </exercise><exercise id="fs-id2427771" type="ap-test-prep"><problem id="fs-id2204093">
+          <para id="fs-id2039927">In a double slit experiment, a student measures the maximum and minimum intensities when two waves with equal amplitudes are used. The student then doubles the amplitudes of the two waves and performs the measurements again. Which of the following will remain unchanged?</para>
+    <list id="fs-id1725513" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>The intensity of the bright fringe</item>
+    <item>The intensity of the dark fringe</item>
+    <item>The difference in the intensities of consecutive bright and dark fringes</item>
+    <item>None of the above</item>
+    </list></problem>
+        <solution id="fs-id1433717">
+          <para id="fs-id3163785">(b)</para>
+        </solution>
+      </exercise><exercise id="fs-id1741687" type="ap-test-prep"><problem id="fs-id1811604">
+          <para id="fs-id1472303">Draw a figure to show the resultant wave produced when two coherent waves (with equal amplitudes <emphasis effect="italics">x</emphasis>) interact in phase. What is the amplitude of the resultant wave? If the phase difference between the coherent waves is changed to 60º, what will be new amplitude?</para>
+        </problem>
+    </exercise><exercise id="fs-id1924302" type="ap-test-prep"><problem id="fs-id2751473">
+          <para id="fs-id1473796">What will be the amplitude of the central fringe if the amplitudes of the two waves in a double slit experiment are <emphasis effect="italics">a</emphasis> and 3<emphasis effect="italics">a</emphasis>?</para>
+      <list id="fs-id2377003" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+       <item>2<emphasis effect="italics">a</emphasis></item>
+       <item>4<emphasis effect="italics">a</emphasis></item>
+       <item>8<emphasis effect="italics">a</emphasis><sup>2</sup></item>
+       <item>16<emphasis effect="italics">a</emphasis><sup>2</sup></item>
+      </list>
+        </problem>
+        <solution id="fs-id2699579">
+          <para id="fs-id1482135">(b)</para>
+        </solution>
+      </exercise><exercise id="fs-id3276560" type="ap-test-prep"><problem id="fs-id1903829">
+          <para id="fs-id2166911">If the ratio of amplitudes of the two waves in a double slit experiment is 3:4, calculate the ratio of minimum intensity (dark fringe) to maximum intensity (bright fringe).</para>
+        </problem>
+    </exercise></section>
+    <section id="fs-id1169735585040" class="section-summary">
 <title>Section Summary</title><list id="fs-id1169737756392"><item id="import-auto-id1169738214644">Young’s double slit experiment gave definitive proof of the wave character of light.</item>
     <item id="import-auto-id1169738249730">An interference pattern is obtained by the superposition of light from two slits.</item>
     <item id="import-auto-id1169738043537">There is constructive interference when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo fontstyle="italic">d</m:mo><m:mi/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">mλ</m:mi></m:mrow><m:mspace width="0.25em"/><m:mtext>(for</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mn>1,</m:mn><m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mn>1,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mn>2,</m:mn><m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">−</m:mo><m:mn>2,</m:mn></m:mrow><m:mspace width="0.25em"/><m:mo stretchy="false">…)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d`"sin"θ=mλ,`m=0,`1,` - 1,`2,` - 2,` dotslow } {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> is the distance between the slits, <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle relative to the incident direction, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the order of the interference.</item>

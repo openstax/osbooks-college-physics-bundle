@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42310</md:content-id>
   <md:title>Electric Field: Concept of a Field Revisited</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>db918015-7645-42cf-8bf7-64d09ad7b838</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe a force field and calculate the strength of an electric field due to a point charge.</item>
 <item>Calculate the force exerted on a test charge by an electric field.</item>
@@ -425,7 +425,96 @@
 <media id="eip-idm304222304" alt="This simulation allows you to turn on a background electric field and adjust the direction and magnitude, and explore the relationship between charged particles.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/02electric_field_dreams"/>
 </media>
-</figure></note><section id="fs-id2684001" class="section-summary"><title>Section Summary</title><list id="fs-id2957147"><item id="import-auto-id3389125">The electrostatic force field surrounding a charged object extends out into space in all directions.</item>
+</figure></note>
+
+
+<section id="fs-id1495558" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id1541667" type="ap-test-prep">
+  <problem id="fs-id2539802">
+  <para id="fs-id1184926">Two particles with charges +2<emphasis effect="italics">q</emphasis> and +<emphasis effect="italics">q</emphasis> are separated by a distance <emphasis effect="italics">r</emphasis>. The +2<emphasis effect="italics">q</emphasis> particle has an electric field <emphasis effect="italics">E</emphasis> at distance <emphasis effect="italics">r</emphasis> and exerts a force <emphasis effect="italics">F</emphasis> on the +<emphasis effect="italics">q</emphasis> particle. Use this information to answer questions 31–32.</para>
+  
+  <para id="fs-id1299506">What is the electric field of the +<emphasis effect="italics">q</emphasis> particle at the same distance and what force does it exert on the +2<emphasis effect="italics">q</emphasis> particle?</para>
+  <list id="fs-id1439817" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><emphasis effect="italics">E</emphasis>/2, <emphasis effect="italics">F</emphasis>/2</item>
+  <item><emphasis effect="italics">E</emphasis>, <emphasis effect="italics">F</emphasis>/2</item>
+  <item><emphasis effect="italics">E</emphasis>/2, <emphasis effect="italics">F</emphasis></item>
+  <item><emphasis effect="italics">E</emphasis>, <emphasis effect="italics">F</emphasis></item>
+  </list>
+  </problem>
+  <solution id="fs-id1453362"><para id="fs-id1328864">(c)</para></solution>
+  </exercise>
+    <exercise id="fs-id2454673" type="ap-test-prep"><problem id="fs-id1064577">
+  <para id="fs-id1284137">When the +<emphasis effect="italics">q</emphasis> particle is replaced by a +3<emphasis effect="italics">q</emphasis> particle, what will be the electric field and force from the +2<emphasis effect="italics">q</emphasis> particle experienced by the +3<emphasis effect="italics">q</emphasis> particle?</para>
+  <list id="fs-id1823689" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><emphasis effect="italics">E</emphasis>/3, 3<emphasis effect="italics">F</emphasis></item>
+  <item><emphasis effect="italics">E</emphasis>, 3<emphasis effect="italics">F</emphasis></item>
+  <item><emphasis effect="italics">E</emphasis>/3, <emphasis effect="italics">F</emphasis></item>
+  <item><emphasis effect="italics">E</emphasis>, <emphasis effect="italics">F</emphasis></item>
+  </list>
+  </problem>
+  <!--
+  <solution id="fs-id1382864">
+  <para id="fs-id1373482">(b)</para>
+  <para id="eip-id1752414"/>
+  </solution>
+  --></exercise><exercise id="fs-id1451013" type="ap-test-prep">
+      <problem id="fs-id2221217">
+  <para id="fs-id1439000">The direction of the electric field of a negative charge is</para>
+  <list id="fs-id1481628" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>inward for both positive and negative charges.</item>
+  <item>outward for both positive and negative charges.</item>
+  <item>inward for other positive charges and outward for other negative charges.</item>
+  <item>outward for other positive charges and inward for other negative charges.</item>
+  </list>
+  </problem>
+  <solution id="fs-id1213696"><para id="fs-id1345234">(a)</para></solution>
+  </exercise>
+    <exercise id="fs-id1737728" type="ap-test-prep"><problem id="fs-id1810610">
+  <para id="fs-id1344936">The force responsible for holding an atom together is</para>
+  <list id="fs-id1539034" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>frictional</item>
+  <item>electric</item>
+  <item>gravitational</item>
+  <item>magnetic</item>
+  </list>
+  </problem>
+  <!--<solution id="fs-id1497506">
+  <para id="fs-id2178136">(b)</para>
+  <para id="eip-id1227652"/>
+  </solution>
+  --></exercise><exercise id="fs-id2204572" type="ap-test-prep">
+      <problem id="fs-id1683092">
+  <para id="fs-id1282783">When a positively charged particle exerts an inward force on another particle <emphasis effect="italics">P</emphasis>, what will be the charge of <emphasis effect="italics">P</emphasis>?</para>
+  <list id="fs-id2067726" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>positive</item>
+  <item>negative</item>
+  <item>neutral</item>
+  <item>cannot be determined</item>
+  </list>
+  </problem>
+  <solution id="fs-id2328619"><para id="fs-id1773212">(b)</para></solution>
+  </exercise>
+    <exercise id="fs-id1105673" type="ap-test-prep"><problem id="fs-id1965708">
+  <para id="fs-id1437733">Find the force exerted due to a particle having a charge of 3.2×10<sup>−19</sup> C on another identical particle 5 cm away.</para>
+  </problem>
+  <!--
+  <solution id="fs-id2307079">
+  <para id="fs-id1754644">3.68&#215;10<sup>&#8722;25</sup> N</para>
+  <para id="eip-id1826931"/>
+  </solution>
+  --></exercise><exercise id="fs-id1434631" type="ap-test-prep">
+      <problem id="fs-id993834">
+  <para id="fs-id2868325">Suppose that the force exerted on an electron is 5.6×10<sup>−17</sup> N, directed to the east.</para>
+  <list id="fs-id2592511" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Find the magnitude of the electric field that exerts the force.</item>
+  <item>What will be the direction of the electric field?</item>
+  <item>If the electron is replaced by a proton, what will be the magnitude of force exerted?</item>
+  <item>What will be the direction of force on the proton?</item>
+  </list>
+  </problem>
+  <solution id="fs-id1816376"><para id="fs-id1306958">(a) 350 N/C, (b) west, (c) 5.6×10−17 N, (d) west.</para></solution>
+  </exercise>
+  </section>
+  <section id="fs-id2684001" class="section-summary"><title>Section Summary</title><list id="fs-id2957147"><item id="import-auto-id3389125">The electrostatic force field surrounding a charged object extends out into space in all directions.</item>
         <item id="import-auto-id3054736">The electrostatic force exerted by a point charge on a test charge at a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> depends on the charge of both charges, as well as the distance between the two.</item>
             <item id="import-auto-id1427738">The electric field <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> is defined to be
     <equation id="eip-652"><m:math>

@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42163</md:content-id>
   <md:title>Elastic Collisions in One Dimension</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>e9d1f538-7368-4465-ab33-94ba72cd1872</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe an elastic collision of two objects in one dimension.</item>
 <item>Define internal kinetic energy.</item>
@@ -472,7 +472,189 @@
     </note><note id="eip-732" class="interactive"><title>Collision Lab</title><para id="eip-id1169738155680">Investigate collisions on an air hockey table. Set up your own experiments: vary the number of discs, masses and initial conditions. Is momentum conserved? Is kinetic energy conserved? Vary the elasticity and see what happens.
 <newline/><figure id="eip-idm350542736"><media id="fs-id1167067199002" alt="This simulation allows you to experiment with an online air hockey table in order to investigate simple collisions.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28collisionlab"/></media>
-</figure></para></note><section id="fs-id1552669" class="section-summary">
+</figure></para></note><section id="fs-id3168328" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id2208648" type="ap-test-prep">
+      <problem id="fs-id1442922">
+  <para id="fs-id2327545">Two cars (A and B) of mass 1.5 kg collide. Car A is initially moving at 12 m/s, and car B is initially moving in the same direction with a speed of 6 m/s. The two cars are moving along a straight line before and after the collision. What will be the change in momentum of this system after the collision?</para>
+  <list id="fs-id1447509" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>−27 kg • m/s</item>
+  <item>zero</item>
+  <item>+27 kg • m/s</item>
+  <item>It depends on whether the collision is elastic or inelastic.</item>
+  </list>
+  </problem>
+  <solution id="fs-id1382444"><para id="fs-id1915571">(b)</para></solution>
+  </exercise>
+    <exercise id="fs-id1342061" type="ap-test-prep"><problem id="fs-id1037414">
+  <para id="fs-id2493663">Two cars (A and B) of mass 1.5 kg collide. Car A is initially moving at 24 m/s, and car B is initially moving in the opposite direction with a speed of 12 m/s. The two cars are moving along a straight line before and after the collision. (a) If the two cars have an elastic collision, calculate the change in momentum of the two-car system. (b) If the two cars have a completely inelastic collision, calculate the change in momentum of the two-car system.</para>
+  </problem>
+  </exercise><exercise id="fs-id1478642" type="ap-test-prep">
+      <problem id="fs-id1403802">
+  <para id="fs-id1050312">Puck A (200 g) slides across a frictionless surface to collide with puck B (800 g), initially at rest. The velocity of each puck is measured during the experiment as follows:</para>
+  <table id="fs-id1165124545950" summary="The first row has time is 0 seconds, velocity a is plus 8 meters per second, and velocity b is zero. The second row has time is 1 second, velocity a is plus 8 meters per second, and velocity b is zero. The third row has time is 2 seconds, velocity a is negative 2 meters per second, and velocity b is plus 2.5 meters per second. The fourth row has time is 3 seconds, velocity a is negative 2 meters per second, and velocity b is plus 2.5 meters per second.">
+  <tgroup cols="3"><thead>
+  <row>
+  <entry>Time</entry><entry>Velocity A</entry><entry>Velocity B</entry>
+  </row>
+  </thead>
+  <tbody>
+  <row>
+  <entry>0</entry><entry>+8.0 m/s</entry><entry>0</entry>
+  </row>
+  <row>
+  <entry>1.0 s</entry><entry>+8.0 m/s</entry><entry>0</entry>
+  </row>
+  <row>
+  <entry>2.0 s</entry><entry>−2.0 m/s</entry><entry>+2.5 m/s</entry>
+  </row>
+  <row>
+  <entry>3.0 s</entry><entry>−2.0 m/s</entry><entry>+2.5 m/s</entry>
+  </row>
+  </tbody>
+  
+  
+  </tgroup>
+  </table><para id="fs-id1480227">What is the change in momentum of the center of mass of the system as a result of the collision?</para>
+  <list id="fs-id1515471" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>+1.6 kg•m/s</item>
+  <item>+0.8 kg•m/s</item>
+  <item>0</item>
+  <item>−1.6 kg•m/s</item>
+  </list>
+  </problem>
+  <solution id="fs-id1537732"><para id="fs-id1329516">(c)</para></solution>
+  </exercise>
+    <exercise id="fs-id1364045" type="ap-test-prep"><problem id="fs-id3322973">
+  <para id="fs-id1514109">For the table above, calculate the center-of-mass velocity of the system both before and after the collision, then calculate the center-of-mass momentum of the system both before and after the collision. From this, determine the change in the momentum of the system as a result of the collision.</para>
+  </problem>
+  </exercise><exercise id="fs-id2432045" type="ap-test-prep">
+      <problem id="fs-id2396126">
+  <para id="fs-id1954798">Two cars (A and B) of equal mass have an elastic collision. Prior to the collision, car A is moving at 15 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and car B is moving at 10 m/s in the –<emphasis effect="italics">x</emphasis>-direction. Assuming that both cars continue moving along the <emphasis effect="italics">x</emphasis>-axis after the collision, what will be the velocity of car A after the collision?</para>
+  <list id="fs-id2376363" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>same as the original 15 m/s speed, opposite direction</item>
+  <item>equal to car B’s velocity prior to the collision</item>
+  <item>equal to the average of the two velocities, in its original direction</item>
+  <item>equal to the average of the two velocities, in the opposite direction</item>
+  </list>
+  </problem>
+  <solution id="fs-id1909074"><para id="fs-id2003244">(b)</para></solution>
+  </exercise>
+    <exercise id="fs-id3206663" type="ap-test-prep"><problem id="fs-id2375962">
+  <para id="fs-id1845492">Two cars (A and B) of equal mass have an elastic collision. Prior to the collision, car A is moving at 20 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and car B is moving at 10 m/s in the –<emphasis effect="italics">x</emphasis>-direction. Assuming that both cars continue moving along the <emphasis effect="italics">x</emphasis>-axis after the collision, what will be the velocities of each car after the collision?</para>
+  </problem>
+  </exercise><exercise id="fs-id1683789" type="ap-test-prep">
+      <problem id="fs-id2721767">
+  <para id="fs-id1862346">A rubber ball is dropped from rest at a fixed height. It bounces off a hard floor and rebounds upward, but it only reaches 90% of its original fixed height. What is the best way to explain the loss of kinetic energy of the ball during the collision?</para>
+  <list id="fs-id1922651" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Energy was required to deform the ball’s shape during the collision with the floor.</item>
+  <item>Energy was lost due to work done by the ball pushing on the floor during the collision.</item>
+  <item>Energy was lost due to friction between the ball and the floor.</item>
+  <item>Energy was lost due to the work done by gravity during the motion.</item>
+  </list>
+  </problem>
+  <solution id="fs-id1382027"><para id="fs-id1382028">(a)</para></solution>
+  </exercise>
+    <exercise id="fs-id1514509" type="ap-test-prep"><problem id="fs-id1292287">
+  <para id="fs-id1308476">A tennis ball strikes a wall with an initial speed of 15 m/s. The ball bounces off the wall but rebounds with slightly less speed (14 m/s) after the collision. Explain (a) what else changed its momentum in response to the ball’s change in momentum so that overall momentum is conserved, and (b) how some of the ball’s kinetic energy was lost.</para>
+  </problem>
+  </exercise><exercise id="fs-id1442938" type="ap-test-prep">
+      <problem id="fs-id1524971">
+  <para id="fs-id2064548">Two objects, A and B, have equal mass. Prior to the collision, mass A is moving 10 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and mass B is moving 4 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Which of the following results represents an inelastic collision between A and B?</para>
+  <list id="fs-id1296758" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>After the collision, mass A is at rest, and mass B moves 14 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+  <item>After the collision, mass A moves 4 m/s in the –<emphasis effect="italics">x</emphasis>-direction, and mass B moves 18 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+  <item>After the collision, the two masses stick together and move 7 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+  <item>After the collision, mass A moves 4 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and mass B moves 10 m/s in the +<emphasis effect="italics">x</emphasis>-direction.</item>
+  </list>
+  </problem>
+  <solution id="fs-id2544242"><para id="fs-id2377902">(c)</para></solution>
+  </exercise>
+    <exercise id="fs-id1321180" type="ap-test-prep"><problem id="fs-id1357632">
+  <para id="fs-id1318577">Mass A is three times more massive than mass B. Mass A is initially moving 12 m/s in the +<emphasis effect="italics">x</emphasis>-direction. Mass B is initially moving 12 m/s in the –<emphasis effect="italics">x</emphasis>-direction. Assuming that the collision is elastic, calculate the final velocity of both masses after the collision. Show that your results are consistent with conservation of momentum and conservation of kinetic energy.</para>
+  </problem>
+  </exercise><exercise id="fs-id1487248" type="ap-test-prep">
+      <problem id="fs-id1540163">
+  <para id="fs-id1725542">Two objects (A and B) of equal mass collide elastically. Mass A is initially moving 5.0 m/s in the +<emphasis effect="italics">x</emphasis>-direction prior to the collision. Mass B is initially moving 3.0 m/s in the –<emphasis effect="italics">x</emphasis>-direction prior to the collision. After the collision, mass A will be moving with a velocity of 3.0 m/s in the –<emphasis effect="italics">x</emphasis>-direction. What will be the velocity of mass B after the collision?</para>
+  <list id="fs-id1544285" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>3.0 m/s in the +<emphasis effect="italics">x</emphasis>-direction</item>
+  <item>5.0 m/s in the +<emphasis effect="italics">x</emphasis>-direction</item>
+  <item>3.0 m/s in the –<emphasis effect="italics">x</emphasis>-direction</item>
+  <item>5.0 m/s in the –<emphasis effect="italics">x</emphasis>-direction</item>
+  </list>
+  </problem>
+  <solution id="fs-id2182442"><para id="fs-id2182443">(b)</para></solution>
+  </exercise>
+    <exercise id="fs-id3182581" type="ap-test-prep"><problem id="fs-id1922626">
+  <para id="fs-id1299101">Two objects (A and B) of equal mass collide elastically. Mass A is initially moving 4.0 m/s in the +<emphasis effect="italics">x</emphasis>-direction prior to the collision. Mass B is initially moving 8.0 m/s in the –<emphasis effect="italics">x</emphasis>-direction prior to the collision. After the collision, mass A will be moving with a velocity of 8.0 m/s in the –<emphasis effect="italics">x</emphasis>-direction. (a) Use the principle of conservation of momentum to predict the velocity of mass B after the collision. (b) Use the fact that kinetic energy is conserved in elastic collisions to predict the velocity of mass B after the collision.</para>
+  </problem>
+  </exercise><exercise id="fs-id2332080" type="ap-test-prep">
+      <problem id="fs-id2185537">
+  <para id="fs-id2185539">Two objects of equal mass collide. Object A is initially moving in the +<emphasis effect="italics">x</emphasis>-direction with a speed of 12 m/s, and object B is initially at rest. After the collision, object A is at rest, and object B is moving away with some unknown velocity. There are no external forces acting on the system of two masses. What statement can we make about this collision?</para>
+  <list id="fs-id2061812" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Both momentum and kinetic energy are conserved.</item>
+  <item>Momentum is conserved, but kinetic energy is not conserved.</item>
+  <item>Neither momentum nor kinetic energy is conserved.</item>
+  <item>More information is needed in order to determine which is conserved.</item>
+  </list>
+  </problem>
+  <solution id="fs-id2009806"><para id="fs-id2663258">(a)</para></solution>
+  </exercise>
+    <exercise id="fs-id2494812" type="ap-test-prep"><problem id="fs-id1846238">
+  <para id="fs-id1533456">Two objects of equal mass collide. Object A is initially moving with a velocity of 15 m/s in the +<emphasis effect="italics">x</emphasis>-direction, and object B is initially at rest. After the collision, object A is at rest. There are no external forces acting on the system of two masses. (a) Use momentum conservation to deduce the velocity of object B after the collision. (b) Is this collision elastic? Justify your answer.</para>
+  </problem>
+  </exercise><exercise id="fs-id1862350" type="ap-test-prep">
+      <problem id="fs-id2387771">
+  <para id="fs-id2387773">Which of the following statements is true about an inelastic collision?</para>
+  <list id="fs-id2543842" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Momentum is conserved, and kinetic energy is conserved.</item>
+  <item>Momentum is conserved, and kinetic energy is not conserved.</item>
+  <item>Momentum is not conserved, and kinetic energy is conserved.</item>
+  <item>Momentum is not conserved, and kinetic energy is not conserved.</item>
+  </list>
+  </problem>
+  <solution id="fs-id2505301"><para id="fs-id2544168">(b)</para></solution>
+  </exercise>
+    <exercise id="fs-id2389032" type="ap-test-prep"><problem id="fs-id2389036">
+  <para id="fs-id1859363">Explain how the momentum and kinetic energy of a system of two colliding objects changes as a result of (a) an elastic collision and (b) an inelastic collision.</para>
+  </problem>
+  </exercise><exercise id="fs-id1165124579546" type="ap-test-prep">
+      <problem id="fs-id1165124579550">
+  <para id="fs-id1849450"><media id="fs-34234342" alt=".">
+  
+    <image mime-type="image/jpeg" src="../../media/CNX_APPhysics_08_M3_aircars.jpeg"/>
+  
+  </media><newline/>This figure shows the positions of two colliding objects measured before, during, and after a collision. Mass A is 1.0 kg. Mass B is 3.0 kg. Which of the following statements is true?</para><list id="fs-id2313947" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>This is an elastic collision, with a total momentum of 0 kg • m/s.</item>
+  <item>This is an elastic collision, with a total momentum of 1.67 kg • m/s.</item>
+  <item>This is an inelastic collision, with a total momentum of 0 kg • m/s.</item>
+  <item>This is an inelastic collision, with a total momentum of 1.67 kg • m/s.</item>
+  </list>
+  </problem>
+  <solution id="fs-id2169851"><para id="fs-id2169852">(a)</para></solution>
+  </exercise>
+  
+    <exercise id="fs-id2378587" type="ap-test-prep"><problem id="fs-id2378590">
+  <para id="fs-id2537639">For the above graph, determine the initial and final momentum for both objects, assuming mass A is 1.0 kg and mass B is 3.0 kg. Also, determine the initial and final kinetic energies for both objects. Based on your results, explain whether momentum is conserved in this collision, and state whether the collision is elastic or inelastic.</para>
+  </problem>
+  </exercise><exercise id="fs-id1741049" type="ap-test-prep">
+      <problem id="fs-id1741052">
+  <para id="fs-id2182072">Mass A (1.0 kg) slides across a frictionless surface with a velocity of 8 m/s in the positive direction. Mass B (3.0 kg) is initially at rest. The two objects collide and stick together. What will be the change in the center-of-mass velocity of the system as a result of the collision?</para>
+  <list id="fs-id2374939" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>There will be no change in the center-of-mass velocity.</item>
+  <item>The center-of-mass velocity will decrease by 2 m/s.</item>
+  <item>The center-of-mass velocity will decrease by 6 m/s.</item>
+  <item>The center-of-mass velocity will decrease by 8 m/s.</item>
+  </list>
+  </problem>
+  <solution id="fs-id1971154"><para id="fs-id1971155">(a)</para></solution>
+  </exercise>
+    <exercise id="fs-id1971159" type="ap-test-prep"><problem id="fs-id2035192">
+  <para id="fs-id2035195">Mass A (1.0 kg) slides across a frictionless surface with a velocity of 4 m/s in the positive direction. Mass B (1.0 kg) slides across the same surface in the opposite direction with a velocity of −8 m/s. The two objects collide and stick together after the collision. Predict how the center-of-mass velocity will change as a result of the collision, and explain your prediction. Calculate the center-of-mass velocity of the system both before and after the collision and explain why it remains the same or why it has changed.</para>
+  </problem>
+  </exercise></section>
+  
+  <section id="fs-id1552669" class="section-summary">
     <title>Section Summary</title><list id="fs-id1488664"><item id="import-auto-id1681073">An elastic collision is one that conserves internal kinetic energy.</item>
     <item id="import-auto-id1296338">Conservation of kinetic energy and momentum together allow the final velocities to be calculated in terms of initial velocities and masses in one dimensional two-body collisions.</item>
     </list></section>

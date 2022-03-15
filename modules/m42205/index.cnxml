@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42205</md:content-id>
   <md:title>Flow Rate and Its Relation to Velocity</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>83d270f5-baa0-4bf9-a22a-539025b29180</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Calculate flow rate.</item>
 <item>Define units of volume.</item>
@@ -750,6 +750,163 @@ size 12{n rSub { size 8{2} } = {  { left (1 right ) left (π right ) left ("10" 
 
 
 
+        <section id="fs-id1914328" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id1500776" type="ap-test-prep"><problem id="fs-id2027893">      
+          <para id="fs-id2035480">Water flows through a small horizontal pipe with a speed of 12 m/s into a larger part of the pipe for which the diameter of the pipe is doubled. What is the speed of the water in the larger part of the pipe?</para>
+          <list id="fs-id1929296" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>0.75 m/s</item>
+      <item>3.0 m/s</item>
+      <item>6.0 m/s</item>
+      <item>12 m/s</item>
+          </list></problem>
+        <solution id="fs-id1498949">
+          <para id="fs-id2624573">(c)</para></solution>
+      </exercise>
+    
+      <exercise id="fs-id2019349" type="ap-test-prep"><problem id="fs-id1955139">      
+          <para id="fs-id1244462">A popular pool toy allows the user to push a plunger to compress water in a barrel with a diameter of 3.0 cm. The water is compressed with a speed of 1.2 m/s and emerges from a small opening with a speed of 15 m/s. What is the diameter of the opening? Assume the toy is oriented horizontally.</para>
+        </problem>
+    <!--    <solution id="fs-id1303530">
+        <equation id="fs-id3162149"><m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>A</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:msub>
+       <m:mi>A</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:msub>
+       <m:mi>v</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      
+     </m:mrow>
+    </m:math>
+    </equation>
+        <equation id="fs-id1515824"><m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>A</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:msub>
+           <m:mi>v</m:mi>
+           <m:mn>1</m:mn>
+          </m:msub>
+          
+         </m:mrow>
+         <m:mrow>
+          <m:msub>
+           <m:mi>v</m:mi>
+           <m:mn>2</m:mn>
+          </m:msub>
+          
+         </m:mrow>
+        </m:mfrac>
+        
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:msub>
+       <m:mi>A</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mfrac>
+         <m:mrow>
+          <m:mn>1.2</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mn>15</m:mn>
+         </m:mrow>
+        </m:mfrac>
+        
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow><m:mi>&#960;</m:mi><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mn>0.03</m:mn>
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      <m:mo>=</m:mo><m:mn>5.65</m:mn><m:mo>&#215;</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>&#8722;</m:mo><m:mn>5</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>&#8201;</m:mtext><m:msup>
+       <m:mtext>m</m:mtext>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:math>
+    </equation>
+        <equation id="fs-id2035736"><m:math>
+     <m:mrow>
+      <m:mn>5.65</m:mn><m:mo>&#215;</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>&#8722;</m:mo><m:mn>5</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mo>=</m:mo><m:mo>&#160;</m:mo><m:mi>&#960;</m:mi><m:msup>
+       <m:mrow>
+        <m:mrow><m:mo>(</m:mo>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:msub>
+             <m:mi>d</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            
+           </m:mrow>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          
+         </m:mrow>
+        <m:mo>)</m:mo></m:mrow>
+       </m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      
+     </m:mrow>
+    </m:math>
+    </equation>
+        <equation id="fs-id2036035"><m:math>
+     <m:mrow>
+      <m:msub>
+       <m:mi>d</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:mn>8.5</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>mm</m:mtext>
+     </m:mrow>
+    </m:math>
+    </equation><para id="eip-id1950080"/>
+        </solution>-->
+      </exercise></section> 
         <section id="eip-299" class="section-summary"><title>Section Summary</title><list id="eip-id2616738"><item>Flow rate <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis> is defined to be the volume <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math></emphasis> flowing past a point in time
 
 <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math></emphasis>, or

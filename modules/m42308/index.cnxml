@@ -3,13 +3,13 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42308</md:content-id>
   <md:title>Coulomb’s Law</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>e3e62326-ebb7-4810-a202-e4e690745b76</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>State Coulomb’s law in terms of how the electrostatic force changes with the distance between two objects.</item>
 <item>Calculate the electrostatic force between two charged point forces, such as electrons or protons.</item>
@@ -467,6 +467,82 @@
             <para id="import-auto-id2000788">This is a remarkably large ratio! Note that this will be the ratio of electrostatic force to gravitational force for an electron and a proton at any distance (taking the ratio before entering numerical values shows that the distance cancels). This ratio gives some indication of just how much larger the Coulomb force is than the gravitational force between two of the most common particles in nature.</para>
         </example><para id="import-auto-id1431660">As the example implies, gravitational force is completely negligible on a small scale, where the interactions of individual charged particles are important. On a large scale, such as between the Earth and a person, the reverse is true. Most objects are nearly electrically neutral, and so attractive and repulsive <term id="import-auto-id1844389">Coulomb forces</term> nearly cancel. Gravitational force on a large scale dominates interactions between large objects because it is always attractive, while Coulomb forces tend to cancel.</para>
 
+        <section id="fs-id2169417" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id2543029" type="ap-test-prep">
+          <problem id="fs-id3184354">
+      <para id="fs-id2317824">For questions 25–27, suppose that the electrostatics force between two charges is <emphasis effect="italics">F</emphasis>.</para><para id="fs-id2799717">What will be the force if the distance between them is halved?</para>
+      <list id="fs-id2066826" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>4<emphasis effect="italics">F</emphasis></item>
+      <item>2<emphasis effect="italics">F</emphasis></item>
+      <item><emphasis effect="italics">F</emphasis>/4</item>
+      <item><emphasis effect="italics">F</emphasis>/2</item>
+      </list>
+      </problem>
+      <solution id="fs-id2217893"><para id="fs-id1722068">(a)</para></solution>
+      </exercise>
+        <exercise id="fs-id2453947" type="ap-test-prep"><problem id="fs-id1812620">
+      <para id="fs-id1908965">Which of the following is false?</para>
+      <list id="fs-id1478456" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>If the charge of one of the particles is doubled and that of the second is unchanged, the force will become 2<emphasis effect="italics">F</emphasis>.</item>
+      <item>If the charge of one of the particles is doubled and that of the second is halved, the force will remain <emphasis effect="italics">F</emphasis>.</item>
+      <item>If the charge of both the particles is doubled, the force will become 4<emphasis effect="italics">F</emphasis>.</item>
+      <item>None of the above.</item>
+      </list>
+      </problem>
+      <!--
+      <solution id="fs-id1539897">
+      <para id="fs-id2186815">(d)</para>
+      <para id="eip-id1364458"/>
+      </solution>
+      --></exercise><exercise id="fs-id1185370" type="ap-test-prep">
+          <problem id="fs-id2221070">
+      <para id="fs-id1550933">Which of the following is true about the gravitational force between the particles?</para>
+      <list id="fs-id1908871" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>It will be 3.25×10<sup>−38</sup> <emphasis effect="italics">F</emphasis>.</item>
+      <item>It will be 3.25×10<sup>38</sup> <emphasis effect="italics">F</emphasis>.</item>
+      <item>It will be equal to <emphasis effect="italics">F</emphasis>.</item>
+      <item>It is not possible to determine the gravitational force as the masses of the particles are not given.</item>
+      </list>
+      </problem>
+      <solution id="fs-id2543314"><para id="fs-id3219419">(d)</para>
+      </solution>
+      </exercise>
+        <exercise id="fs-id1758033" type="ap-test-prep"><problem id="fs-id1496968">
+      <para id="fs-id2547520">Two massive, positively charged particles are initially held a fixed distance apart. When they are moved farther apart, the magnitude of their mutual gravitational force changes by a factor of <emphasis effect="italics">n</emphasis>. Which of the following indicates the factor by which the magnitude of their mutual electrostatic force changes?</para>
+      
+      <list id="fs-id2400850" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>1/<emphasis effect="italics">n</emphasis><sup>2</sup></item>
+      <item>1/<emphasis effect="italics">n</emphasis></item>
+      <item><emphasis effect="italics">n</emphasis></item>
+      <item><emphasis effect="italics">n</emphasis><sup>2</sup></item>
+      </list>
+      </problem>
+      <!--
+      <solution id="fs-id1850934">
+      <para id="fs-id2380208">(c)</para>
+      <para id="eip-id2268726"/>
+      </solution>
+      --></exercise><exercise id="fs-id1469886" type="ap-test-prep">
+          <problem id="fs-id1538265">
+      <list id="fs-id1366541" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>What is the electrostatic force between two charges of 1 C each, separated by a distance of 0.5 m?</item>
+      <item>How will this force change if the distance is increased to 1 m?</item>
+      </list>
+      </problem>
+      <solution id="fs-id1886859"><para id="fs-id2664736">(a) 3.60×10<sup>10</sup> N, (b) It will become 1/4 of the original value; hence it will be equal to 8.99×10<sup>9</sup> N</para>
+      </solution>
+      </exercise>
+        <exercise id="fs-id3202845" type="ap-test-prep"><problem id="fs-id1257761">
+      <list id="fs-id1866476" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>Find the ratio of the electrostatic force to the gravitational force between two electrons.</item>
+      <item>Will this ratio change if the two electrons are replaced by protons? If yes, find the new ratio.</item>
+      </list>
+      </problem>
+      <!--
+      <solution id="fs-id2869478">
+      <para id="fs-id1419916">a) 4.16&#215;10<sup>42</sup>, b) yes, because the masses are different, 1.24&#215;10<sup>36</sup></para>
+      <para id="eip-id1826054"/>
+      </solution>
+      --></exercise></section>
         <section id="fs-id3122801" class="section-summary"><title>Section Summary</title><list id="fs-id1587020"><item id="import-auto-id1355992">Frenchman Charles Coulomb was the first to publish the mathematical equation that describes the electrostatic force between two objects.</item>
                 <item id="import-auto-id3081048">Coulomb’s law gives the magnitude of the force between point charges. It is
                 <equation id="eip-467"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mi>k</m:mi></m:mrow><m:mfrac><m:mrow><m:mo>|</m:mo><m:msub><m:mi>q</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>q</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo>|</m:mo></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=k {  {q rSub { size 8{1} } q rSub { size 8{2} } }  over  {r rSup { size 8{2} } } } } {}</m:annotation></m:semantics></m:math> </equation><para id="import-auto-id1818591">where <m:math><m:semantics><m:mrow><m:msub><m:mi>q</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:msub><m:mi>q</m:mi><m:mn>2</m:mn></m:msub></m:mrow></m:semantics></m:math> are two point charges separated by a distance <m:math><m:semantics><m:mrow><m:mi>r</m:mi></m:mrow></m:semantics></m:math>, and

@@ -3,13 +3,13 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42300</md:content-id>
   <md:title>Static Electricity and Charge: Conservation of Charge</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>bb7dc37b-5a71-4f4d-b83f-524e0f1b3c74</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Define electric charge, and describe how the two types of charge interact.</item>
 <item>Describe three common situations that generate static electricity.</item>
@@ -139,7 +139,190 @@
 <para id="eip-idm1078899952">Why does a balloon stick to your sweater? Rub a balloon on a sweater, then let go of the balloon and it flies over and sticks to the sweater. View the charges in the sweater, balloons, and the wall.<newline/><figure id="eip-idm353623840">
 <media id="fs-id1167063779678" alt="This simulation allows you to explore concepts of static electricity such as charge transfer, attraction, repulsion, and induced charge.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28balloons"/></media>
-</figure></para></note><section id="fs-id2261971" class="section-summary"><title>Section Summary</title><list id="import-auto-id2062444" list-type="bulleted"><item>There are only two types of charge, which we call positive and negative.</item>
+</figure></para></note>
+<section id="fs-id2868362" type="ap-test-prep" class="ap-test-prep"><title>Test Prep for AP Courses</title><exercise id="fs-id1943517" type="ap-test-prep"><problem id="fs-id1536765">
+  <para id="fs-id1555300">When a glass rod is rubbed against silk, which of the following statements is true?</para>
+<list id="fs-id2399914" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Electrons are removed from the silk.</item>
+<item>Electrons are removed from the rod.</item>
+<item>Protons are removed from the silk.</item>
+<item>Protons are removed from the rod.</item>
+</list>
+</problem>
+<solution id="fs-id2019282">
+  <para id="fs-id2547584">(b)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id3322928" type="ap-test-prep"><problem id="fs-id1812834">
+  <para id="fs-id2163862">In an experiment, three microscopic latex spheres are sprayed into a chamber and become charged with +3<emphasis effect="italics">e</emphasis>, +5<emphasis effect="italics">e</emphasis>, and −3<emphasis effect="italics">e</emphasis>, respectively. Later, all three spheres collide simultaneously and then separate. Which of the following are possible values for the final charges on the spheres? Select <emphasis effect="italics">two</emphasis> answers.</para>
+<table id="fs-id1765932" summary="" class="unnumbered"><label/>
+<tgroup cols="4"><thead>
+<row>
+<entry/>
+<entry>X</entry>
+<entry>Y</entry>
+<entry>Z</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry>(a)</entry>
+<entry>+4<emphasis effect="italics">e</emphasis></entry>
+<entry>−4<emphasis effect="italics">e</emphasis></entry>
+<entry>+5<emphasis effect="italics">e</emphasis></entry>
+</row>
+<row>
+<entry>(b)</entry>
+<entry>−4<emphasis effect="italics">e</emphasis></entry>
+<entry>+4.5<emphasis effect="italics">e</emphasis></entry>
+<entry>+5.5<emphasis effect="italics">e</emphasis></entry>
+</row>
+<row>
+<entry>(c)</entry>
+<entry>+5<emphasis effect="italics">e</emphasis></entry>
+<entry>−8<emphasis effect="italics">e</emphasis></entry>
+<entry>+7<emphasis effect="italics">e</emphasis></entry>
+</row>
+<row>
+<entry>(d)</entry>
+<entry>+6<emphasis effect="italics">e</emphasis></entry>
+<entry>+6<emphasis effect="italics">e</emphasis></entry>
+<entry>−7<emphasis effect="italics">e</emphasis></entry>
+</row>
+</tbody>
+
+
+</tgroup>
+</table></problem>
+<!--    <solution id="fs-id1415783">
+
+  <para id="fs-id1740810">(a), (d)</para>
+
+<para id="eip-id1578473"/>
+</solution>
+-->  </exercise><exercise id="fs-id2013498" type="ap-test-prep"><problem id="fs-id2203563">
+  <para id="fs-id1538194">If objects X and Y attract each other, which of the following will be false?</para>
+<list id="fs-id2642234" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>X has positive charge and Y has negative charge.</item>
+<item>X has negative charge and Y has positive charge.</item>
+<item>X and Y both have positive charge.</item>
+<item>X is neutral and Y has a charge.</item>
+</list>
+</problem>
+<solution id="fs-id3327216">
+  <para id="fs-id1453522">(c)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1456969" type="ap-test-prep"><problem id="fs-id1810691">
+  <para id="fs-id3202690">Suppose a positively charged object A is brought in contact with an uncharged object B in a closed system. What type of charge will be left on object B?</para>
+<list id="fs-id1521850" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>negative</item>
+<item>positive</item>
+<item>neutral</item>
+<item>cannot be determined</item>
+</list>
+</problem>
+<!--    <solution id="fs-id1179336">
+
+  <para id="fs-id1497086">(b)</para>
+<para id="eip-id1340314"/>
+</solution>
+--></exercise><exercise id="fs-id1306825" type="ap-test-prep">
+<problem id="fs-id1823628">
+  <para id="fs-id1753477">What will be the net charge on an object which attracts neutral pieces of paper but repels a negatively charged balloon?</para>
+<list id="fs-id1862340" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>negative</item>
+<item>positive</item>
+<item>neutral</item>
+<item>cannot be determined</item>
+</list>
+</problem>
+<solution id="fs-id2831866">
+  <para id="fs-id1054404">(a)</para>
+</solution>
+</exercise>
+<exercise id="fs-id1450214" type="ap-test-prep"><problem id="fs-id2378963">
+  <para id="fs-id2641681">When two neutral objects are rubbed against each other, the first one gains a net charge of 3<emphasis effect="italics">e.</emphasis> Which of the following statements is true?</para>
+<list id="fs-id2833483" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>The second object gains 3<emphasis effect="italics">e</emphasis> and is negatively charged.</item>
+<item>The second object loses 3<emphasis effect="italics">e</emphasis> and is negatively charged.</item>
+<item>The second object gains 3<emphasis effect="italics">e</emphasis> and is positively charged.</item>
+<item>The second object loses 3<emphasis effect="italics">e</emphasis> and is positively charged.</item>
+</list>
+</problem>
+<!--    <solution id="fs-id2030115">
+
+  <para id="fs-id1915126">(d)</para>
+<para id="eip-id1360628"/>
+</solution>
+--></exercise><exercise id="fs-id1049967" type="ap-test-prep">
+<problem id="fs-id3318421">
+  <para id="fs-id3187677">In an experiment, a student runs a comb through his hair several times and brings it close to small pieces of paper. Which of the following will he observe?</para>
+<list id="fs-id2066441" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Pieces of paper repel the comb.</item>
+<item>Pieces of paper are attracted to the comb.</item>
+<item>Some pieces of paper are attracted and some repel the comb.</item>
+<item>There is no attraction or repulsion between the pieces of paper and the comb.</item>
+</list>
+</problem>
+<solution id="fs-id2396874">
+  <para id="fs-id2009162">(b)</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id2399594" type="ap-test-prep"><problem id="fs-id1742414">
+  <para id="fs-id1467442">In an experiment a negatively charged balloon (balloon X) is repelled by another charged balloon Y. However, an object Z is attracted to balloon Y. Which of the following can be the charge on Z? Select <emphasis effect="italics">two</emphasis> answers.</para>
+<list id="fs-id2432256" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>negative</item>
+<item>positive</item>
+<item>neutral</item>
+<item>cannot be determined</item>
+</list>
+</problem>
+<!--    <solution id="fs-id1223754">
+  <para id="fs-id2315844">(b), (c)</para>
+<para id="eip-id1166761420518"/>
+</solution>
+-->  </exercise><exercise id="fs-id1337782" type="ap-test-prep">
+<problem id="fs-id1420048">
+  <para id="fs-id944357">Suppose an object has a charge of 1 C and gains 6.88×10<sup>18</sup> electrons.</para>
+  <list id="fs-id2064826" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>What will be the net charge of the object? </item>
+<item>If the object has gained electrons from a neutral object, what will be the charge on the neutral object? </item>
+<item>Find and explain the relationship between the total charges of the two objects before and after the transfer. </item>
+<item>When a third object is brought in contact with the first object (after it gains the electrons), the resulting charge on the third object is 0.4 C. What was its initial charge? </item>
+  </list>
+</problem>
+<solution id="fs-id2718071">
+  <para id="fs-id1455347">(a) -0.1 C, (b) 1.1 C, (c) Both charges will be equal to 1 C, law of conservation of charge, (d) 0.9 C</para>
+</solution>
+</exercise>
+
+<exercise id="fs-id1860256" type="ap-test-prep"><problem id="fs-id1924498">
+  <para id="fs-id2334790">The charges on two identical metal spheres (placed in a closed system) are -2.4×10<sup>−17</sup> C and -4.8×10<sup>−17</sup> C.</para>
+<list id="fs-id3182661" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>How many electrons will be equivalent to the charge on each sphere?</item>
+<item>If the two spheres are brought in contact and then separated, find the charge on each sphere.</item>
+<item>Calculate the number of electrons that would be equivalent to the resulting charge on each sphere.</item>
+</list>
+</problem>
+<!--    <solution id="fs-id1864602">
+  <para id="fs-id1440962">a) 150 electrons and 300 electrons, b) -3.6&#215;10<sup>&#8722;17</sup>, c) 225 electrons</para>
+<para id="eip-id1166760318593"/>
+</solution>
+--></exercise><exercise id="fs-id1409750" type="ap-test-prep"><problem id="fs-id1477944">
+  <para id="fs-id2260215">In an experiment the following observations are made by a student for four charged objects W, X, Y, and Z:</para>
+<list id="fs-id2170080" list-type="bulleted"><item>A glass rod rubbed with silk attracts W.</item>
+<item>W attracts Z but repels X.</item>
+<item>X attracts Z but repels Y.</item>
+<item>Y attracts W and Z.</item>
+</list><para id="fs-id1422695">Estimate whether the charges on each of the four objects are positive, negative, or neutral.</para>
+</problem>
+<solution id="fs-id1754280"><para id="fs-id3277333">W is negative, X is positive, Y is negative, Z is neutral.</para></solution>
+</exercise></section>
+<section id="fs-id2261971" class="section-summary"><title>Section Summary</title><list id="import-auto-id2062444" list-type="bulleted"><item>There are only two types of charge, which we call positive and negative.</item>
             <item>Like charges repel, unlike charges attract, and the force between charges decreases with the square of the distance.</item>
             <item>The vast majority of positive charge in nature is carried by protons, while the vast majority of negative charge is carried by electrons.</item>
             <item>The electric charge of one electron is equal in magnitude and opposite in sign to the charge of one proton.</item>

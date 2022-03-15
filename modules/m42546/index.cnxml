@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42546</md:content-id>
   <md:title>Relativistic Energy</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>95b46f76-3199-4411-94ca-5318fff41746</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Compute total energy of a relativistic object.</item>
 <item>Compute the kinetic energy of a relativistic object.</item>
@@ -1415,7 +1415,332 @@
         </m:semantics>
       </m:math>
     </equation></solution>
-</exercise><section id="fs-id3107783" class="section-summary"><title>Section Summary</title><list id="fs-id2999106"><item id="import-auto-id2747191">Relativistic energy is conserved as long as we define it to include the possibility of mass changing to energy.</item>
+</exercise>
+
+<section id="fs-id2173268" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2015058" type="ap-test-prep"><problem id="fs-id2389290">
+<para id="fs-id3677192">A mass of 50 g is completely converted into energy. What is the energy that will be obtained when such a conversion takes place?</para>
+</problem>
+
+</exercise><exercise id="fs-id3365158" type="ap-test-prep"><problem id="fs-id2228468">
+<para id="fs-id2228470">Show that relativistic kinetic energy becomes the same as classical kinetic energy when <m:math>
+<m:mrow>
+<m:mi>v</m:mi><m:mo>=</m:mo><m:mi>c</m:mi>
+</m:mrow>
+</m:math>
+ .</para></problem>
+<solution id="fs-id2145163">
+<para id="fs-id1719202">Relativistic kinetic energy is given as <m:math>
+ <m:mrow>
+  <m:msub>
+   <m:mrow>
+    <m:mtext>KE</m:mtext>
+   </m:mrow>
+   <m:mrow>
+    <m:mtext>rel</m:mtext>
+   </m:mrow>
+  </m:msub>
+  <m:mo>=</m:mo><m:mo stretchy="false">(</m:mo><m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo stretchy="false">)</m:mo><m:mi>m</m:mi><m:msup>
+   <m:mi>c</m:mi>
+   <m:mn>2</m:mn>
+  </m:msup>
+
+ </m:mrow>
+</m:math></para>
+<para id="fs-id2741232">where <m:math>
+ <m:mrow>
+  <m:mi>γ</m:mi><m:mo>=</m:mo><m:mfrac>
+   <m:mn>1</m:mn>
+   <m:mrow>
+    <m:msqrt>
+     <m:mrow>
+      <m:mn>1</m:mn><m:mo>−</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>v</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mi>c</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+
+       </m:mrow>
+      </m:mfrac>
+
+     </m:mrow>
+    </m:msqrt>
+
+   </m:mrow>
+  </m:mfrac>
+
+ </m:mrow>
+</m:math>
+ </para>
+<para id="fs-id3550736">Classical kinetic energy is given as <m:math>
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mtext>KE</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>class</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mi>m</m:mi><m:msup>
+<m:mi>v</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:math>
+ </para>
+<para id="fs-id1891936">At low velocities <m:math>
+<m:mrow>
+<m:mi>v</m:mi><m:mo>=</m:mo><m:mn>0</m:mn>
+</m:mrow>
+</m:math>, a binomial expansion and subsequent approximation of <m:math>
+ <m:mi>γ</m:mi>
+</m:math> gives:</para>
+<para id="fs-id1964210"><m:math>
+<m:mrow>
+<m:mi>γ</m:mi><m:mo>=</m:mo><m:mn>1</m:mn><m:mo>+</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn><m:msup>
+<m:mi>v</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math> or <m:math>
+<m:mrow>
+<m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn><m:mo>=</m:mo><m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn><m:msup>
+<m:mi>v</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow>
+</m:math></para>
+<para id="fs-id2402639">Substituting <m:math>
+<m:mrow>
+<m:mi>γ</m:mi><m:mo>−</m:mo><m:mn>1</m:mn>
+</m:mrow>
+</m:math> in the expression for <m:math>
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mtext>KE</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>rel</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math> gives</para>
+<para id="fs-id1891722"><m:math>
+<m:mrow>
+<m:msub>
+<m:mrow>
+<m:mtext>KE</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>rel</m:mtext>
+</m:mrow>
+</m:msub>
+<m:mo>=</m:mo><m:mrow><m:mo>[</m:mo><m:mrow>
+<m:mfrac>
+<m:mrow>
+<m:mn>1</m:mn><m:msup>
+<m:mi>v</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+<m:mrow>
+<m:mn>2</m:mn><m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:mfrac>
+
+</m:mrow><m:mo>]</m:mo></m:mrow><m:mi>m</m:mi><m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo><m:mfrac>
+<m:mn>1</m:mn>
+<m:mn>2</m:mn>
+</m:mfrac>
+<m:mi>m</m:mi><m:msup>
+<m:mi>v</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>=</m:mo><m:msub>
+<m:mrow>
+<m:mtext>KE</m:mtext>
+</m:mrow>
+<m:mrow>
+<m:mtext>class</m:mtext>
+</m:mrow>
+</m:msub>
+
+</m:mrow>
+</m:math>
+</para>
+<para id="fs-id4576821">Hence, relativistic kinetic energy becomes classical kinetic energy when <m:math>
+<m:mrow>
+<m:mi>v</m:mi><m:mo>≪</m:mo><m:mi>c</m:mi>
+</m:mrow>
+</m:math>.</para></solution>
+</exercise><exercise id="fs-id2691530" type="ap-test-prep"><problem id="fs-id3187486">
+<para id="fs-id3187488">The relativistic energy of a particle in terms of momentum is given by:</para>
+<list id="fs-id1796635" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item><m:math>
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:msup>
+<m:mi>p</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msubsup>
+<m:mi>m</m:mi>
+<m:mn>0</m:mn>
+<m:mn>2</m:mn>
+</m:msubsup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:msup>
+<m:mi>p</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msubsup>
+<m:mi>m</m:mi>
+<m:mn>0</m:mn>
+<m:mn>4</m:mn>
+</m:msubsup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:msup>
+<m:mi>p</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msubsup>
+<m:mi>m</m:mi>
+<m:mn>0</m:mn>
+<m:mn>2</m:mn>
+</m:msubsup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:math></item>
+<item><m:math>
+<m:mrow>
+<m:mi>E</m:mi><m:mo>=</m:mo><m:msqrt>
+<m:mrow>
+<m:msup>
+<m:mi>p</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>4</m:mn>
+</m:msup>
+<m:mo>+</m:mo><m:msubsup>
+<m:mi>m</m:mi>
+<m:mn>0</m:mn>
+<m:mn>2</m:mn>
+</m:msubsup>
+<m:msup>
+<m:mi>c</m:mi>
+<m:mn>2</m:mn>
+</m:msup>
+
+</m:mrow>
+</m:msqrt>
+
+</m:mrow>
+</m:math></item>
+</list>
+</problem>
+
+</exercise></section>
+<section id="fs-id3107783" class="section-summary"><title>Section Summary</title><list id="fs-id2999106"><item id="import-auto-id2747191">Relativistic energy is conserved as long as we define it to include the possibility of mass changing to energy.</item>
     <item id="import-auto-id2944323">Total Energy is defined as:
 <m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">γmc</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mrow></m:semantics></m:math>, where
 

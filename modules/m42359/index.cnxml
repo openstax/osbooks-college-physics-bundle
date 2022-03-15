@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42359</md:content-id>
   <md:title>Kirchhoff’s Rules</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>b4ee3784-8339-4649-8341-5a9b2f3d1624</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Analyze a complex circuit using Kirchhoff’s rules, using the conventions for determining the correct signs of various terms.</item>
 </list>
@@ -215,7 +215,174 @@
 </solution>
 </exercise>
 </section>
-
+<section id="fs-id1417284" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  
+  <exercise id="fs-id1561181" type="ap-test-prep"><problem id="fs-id3171563">
+  <para id="fs-id741153">An experiment was set up with the circuit diagram shown. Assume <emphasis effect="italics">R<sub>1</sub></emphasis> = 10 Ω, <emphasis effect="italics">R<sub>2</sub></emphasis> = <emphasis effect="italics">R<sub>3</sub></emphasis> = 5 Ω,<emphasis effect="italics"> r</emphasis> = 0 Ω and <emphasis effect="italics">E</emphasis> = 6 V.</para>
+  <figure id="fs-id2570729"><media id="fs-id1328360" alt="A circuit is drawn with points a, b, and c across the top from left to right and points h, g, and f across the bottom from left to right. Segment ah from top to bottom has a battery with voltage E and a resistor with resistance r. Segment bg from top to bottom has point i, a resistor marked R1, and point j. Segment cf from top to bottom has resistor with resistance R2, point d, point e, and a resistor with resistance R3.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S06.jpg"/>
+  </media>
+  </figure>
+  
+  <list id="fs-id3941761" list-type="enumerated" number-style="lower-alpha">
+  <item>
+  <para id="fs-id1975573">One of the steps to examine the set-up is to test points with the same potential. Which of the following points can be tested?</para>
+  <list id="fs-id2794040" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Points <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>.</item>
+  <item>Points <emphasis effect="italics">d</emphasis>, <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">f</emphasis>.</item>
+  <item>Points <emphasis effect="italics">f</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">j</emphasis>.</item>
+  <item>Points <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">i</emphasis>.</item>
+  </list>
+  </item>
+  <item><para id="fs-id1361445">At which three points should the currents be measured so that Kirchhoff’s junction rule can be directly confirmed?</para>
+  <list id="fs-id1334177" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Points <emphasis effect="italics">b</emphasis>, <emphasis effect="italics">c</emphasis> and <emphasis effect="italics">d</emphasis>.</item>
+  <item>Points <emphasis effect="italics">d</emphasis>, <emphasis effect="italics">e</emphasis> and <emphasis effect="italics">f</emphasis>.</item>
+  <item>Points <emphasis effect="italics">f</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">j</emphasis>.</item>
+  <item>Points <emphasis effect="italics">a</emphasis>, <emphasis effect="italics">h</emphasis> and <emphasis effect="italics">i</emphasis>.</item>
+  </list>
+  </item>
+  
+  <item>
+  <para id="fs-id1391524">If the current in the branch with the voltage source is upward and currents in the other two branches are downward, i.e. <emphasis effect="italics">I<sub>a</sub> = I<sub>i</sub> + I<sub>c</sub></emphasis>, identify which of the following can be true? Select <emphasis effect="italics">two</emphasis> answers.</para>
+  <list id="fs-id1686931" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><emphasis effect="italics"> I<sub>i</sub> = I<sub>j</sub> - I<sub>f</sub></emphasis></item>
+  <item><emphasis effect="italics"> I<sub>e</sub> = I<sub>h</sub> - I<sub>i</sub></emphasis></item>
+  <item><emphasis effect="italics"> I<sub>c</sub> = I<sub>j</sub> - I<sub>a</sub></emphasis></item>
+  <item><emphasis effect="italics"> I<sub>d</sub> = I<sub>h</sub> - I<sub>j</sub></emphasis></item>
+  </list>
+  </item>
+  
+  <item>
+  <para id="fs-id1394702">The measurements reveal that the current through <emphasis effect="italics">R</emphasis><sub>1</sub> is 0.5 A and <emphasis effect="italics">R</emphasis><sub>3</sub> is 0.6 A. Based on your knowledge of Kirchoff’s laws, confirm which of the following statements are true.</para>
+  <list id="fs-id1747210" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>The measured current for <emphasis effect="italics">R</emphasis><sub>1</sub> is correct but for <emphasis effect="italics">R</emphasis><sub>3</sub> is incorrect.</item>
+  <item>The measured current for <emphasis effect="italics">R</emphasis><sub>3</sub> is correct but for <emphasis effect="italics">R</emphasis><sub>1</sub> is incorrect.</item>
+  <item>Both the measured currents are correct.</item>
+  <item>Both the measured currents are incorrect.</item>
+  </list>
+  </item>
+  
+  <item>
+  <para id="fs-id1581085">The graph shown in the following figure is the energy dissipated at <emphasis effect="italics">R</emphasis><sub>1</sub> as a function of time.</para><figure id="fs-id1673098"><media id="fs-id1251325" alt="Plot of t versus E with a solid line drawn from the origin O to (E1, t1).">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S07_img.jpg"/>
+  </media>
+  </figure><para id="fs-id1595569">Which of the following shows the graph for energy dissipated at <emphasis effect="italics">R</emphasis><sub>2</sub> as a function of time?</para>
+  <list id="fs-id1244945" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>
+  <figure id="fs-id2020388"><media id="fs-id1240982" alt="Plot of t versus E with a solid line drawn from the origin O to (2E1, t1).">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08a_img.jpg"/>
+  </media>
+  </figure></item>
+  <item>
+  <figure id="fs-id1869983"><media id="fs-id1303018" alt="Plot of t versus E with a solid line drawn from the origin O to (E1, t1).">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08b_img.jpg"/>
+  </media>
+  </figure></item>
+  <item>
+  <figure id="fs-id1241643"><media id="fs-id2000004" alt="Plot of t versus E with a solid line drawn from the origin O to (E1/2, t1).">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08c_img.jpg"/>
+  </media>
+  </figure></item>
+  <item>
+  <figure id="fs-id1648620"><media id="fs-id3485727" alt="Plot of t versus E with a solid line drawn from the origin O to (E1/4, t1).">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S08d_img.jpg"/>
+  </media>
+  </figure></item>
+  </list>
+  </item>
+  </list>
+  </problem></exercise><exercise id="fs-id1222161" type="ap-test-prep"><problem id="fs-id2338713">
+  <para id="fs-id2978282">For this question, consider the circuit shown in the following figure.</para><figure id="fs-id3917009"><media id="fs-id2043967" alt="Circuit that across the top from left to right goes point b, battery with voltage E1, point c, resistor with resistance r1, and point d; across the middle goes point a, battery with voltage E2, point k, resistor with resistance r2, point l, resistor with resistance R2, and point e; across the bottom goes point j, battery with voltage E3, point i, resistor with resistance r3, and point h; along the left side from top to bottom goes a resistor with resistance R1, point a, and a resistor with resistance R3; and along the right side goes a resistor with resistance R5, point e, a resistor with resistance r4, point f, a battery with voltage E4, and point g. Additionally, there are three arrows showing the direction of the current: one between point a and the resistor with resistance R1 pointing up; another between point a and the battery with voltage E2 pointing right; and another between point j and the resistor with resistance R3 pointing up.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S09_img.jpg"/>
+  </media>
+  </figure>
+  <list id="fs-id1182192" list-type="enumerated" number-style="lower-alpha">
+  <item>
+  <para id="fs-id1975359">Assuming that none of the three currents (<emphasis effect="italics">I</emphasis><sub>1</sub>, <emphasis effect="italics">I</emphasis><sub>2</sub>, and <emphasis effect="italics">I</emphasis><sub>3</sub>) are equal to zero, which of the following statements is false?</para>
+  <list id="fs-id3003668" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><emphasis effect="italics"> I</emphasis><sub>3</sub> = <emphasis effect="italics">I</emphasis><sub>1</sub> + <emphasis effect="italics">I</emphasis><sub>2</sub> at point <emphasis effect="italics">a</emphasis>.</item>
+  <item><emphasis effect="italics"> I</emphasis><sub>2</sub> = <emphasis effect="italics">I</emphasis><sub>3</sub> <emphasis effect="bold">-</emphasis> <emphasis effect="italics">I</emphasis><sub>1</sub> at point <emphasis effect="italics">e</emphasis>.</item>
+  <item>The current through <emphasis effect="italics">R<sub>3</sub></emphasis> is equal to the current through <emphasis effect="italics">R<sub>5.</sub></emphasis></item>
+  <item>The current through <emphasis effect="italics">R<sub>1</sub></emphasis> is equal to the current through <emphasis effect="italics">R</emphasis><sub>5.</sub></item>
+  </list>
+  </item>
+  <item>
+  <para id="fs-id3304953">Which of the following statements is true?</para>
+  <list id="fs-id1762004" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><emphasis effect="italics"> E<sub>1</sub> + E<sub>2</sub> + I<sub>1</sub>R<sub>1</sub> - I<sub>2</sub>R<sub>2</sub> + I<sub>1</sub>r<sub>1</sub> - I<sub>2</sub>r<sub>2</sub> + I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+  <item><emphasis effect="italics"> - E<sub>1</sub> + E<sub>2</sub> + I<sub>1</sub>R<sub>1</sub> - I<sub>2</sub>R<sub>2</sub> + I<sub>1</sub>r<sub>1</sub> - I<sub>2</sub>r<sub>2</sub> - I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+  <item><emphasis effect="italics"> E<sub>1</sub> - E<sub>2</sub> - I<sub>1</sub>R<sub>1</sub> + I<sub>2</sub>R<sub>2</sub> - I<sub>1</sub>r<sub>1</sub> +<sub/> I<sub>2</sub>r<sub>2</sub> - I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+  <item><emphasis effect="italics"> E<sub>1</sub> + E<sub>2</sub> - I<sub>1</sub>R<sub>1</sub> + I<sub>2</sub>R<sub>2</sub> - I<sub>1</sub>r<sub>1</sub> + I<sub>2</sub>r<sub>2</sub> + I<sub>1</sub>R<sub>5</sub></emphasis> = 0</item>
+  </list>
+  </item>
+  <item>
+  <para id="fs-id1795105">If <emphasis effect="italics">I</emphasis><sub>1</sub> = 5 A and <emphasis effect="italics">I</emphasis><sub>3</sub> = -2 A, which of the following statements is false?</para>
+  <list id="fs-id4173166" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>The current through <emphasis effect="italics">R<sub>1</sub></emphasis> will flow from <emphasis effect="italics">a</emphasis> to <emphasis effect="italics">b</emphasis> and will be equal to 5 A.</item>
+  <item>The current through <emphasis effect="italics">R<sub>3</sub></emphasis> will flow from <emphasis effect="italics">a</emphasis> to <emphasis effect="italics">j</emphasis> and will be equal to 2 A.</item>
+  <item>The current through <emphasis effect="italics">R<sub>5</sub></emphasis> will flow from <emphasis effect="italics">d</emphasis> to <emphasis effect="italics">e</emphasis> and will be equal to 5 A.</item>
+  <item>None of the above.</item>
+  </list>
+  </item>
+  <item>
+  <para id="fs-id1825494">If <emphasis effect="italics">I<sub>1</sub></emphasis> = 5 A and <emphasis effect="italics">I<sub>3</sub></emphasis> = -2 A, <emphasis effect="italics">I<sub>2</sub></emphasis> will be equal to</para>
+  <list id="fs-id1404199" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>3 A</item>
+  <item>-3 A</item>
+  <item>7 A</item>
+  <item>-7 A</item>
+  </list>
+  </item>
+  </list>
+  </problem>
+  <solution id="fs-id1641070">
+  <para id="fs-id1394205">a. (c)</para>
+  <para id="fs-id998606">b. (c)</para>
+  <para id="fs-id1182842">c. (d)</para>
+  <para id="fs-id1549411">d. (d)</para>
+  </solution>
+  </exercise><exercise id="fs-id4214079" type="ap-test-prep">
+  <problem id="fs-id1226067">
+  <figure id="fs-id2538394"><media id="fs-id3916166" alt="A circuit with nothing on the top or bottom, but a battery marked E on the left, a resistor marked R1 in the middle, and a resistor marked R2 on the right.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S10.jpg"/>
+  </media>
+  </figure><para id="fs-id1875798">In an experiment this circuit is set up. Three ammeters are used to record the currents in the three vertical branches (with <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, and <emphasis effect="italics">E)</emphasis>. The readings of the ammeters in the resistor branches (i.e. currents in <emphasis effect="italics">R</emphasis><sub>1</sub> and <emphasis effect="italics">R</emphasis><sub>2</sub>) are 2 A and 3 A respectively.</para><list id="fs-id1272232" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>Find the equation obtained by applying Kirchhoff’s loop rule in the loop involving <emphasis effect="italics">R</emphasis><sub>1</sub> and <emphasis effect="italics">R</emphasis><sub>2</sub>.</item>
+  <item>What will be the reading of the third ammeter (i.e. the branch with <emphasis effect="italics">E</emphasis>)? If <emphasis effect="italics">E</emphasis> were replaced by 3<emphasis effect="italics">E</emphasis>, how would this reading change?</item>
+  <item>If the original circuit is modified by adding another voltage source (as shown in the following circuit), find the readings of the three ammeters.</item>
+  </list><figure id="fs-id1956475"><media id="fs-id544674" alt="A circuit a battery marked E on the left, a resistor marked R1 in the middle, and a resistor marked R2 on the right. There is nothing on the bottom, and on the top, there is a battery marked 2E between the two resistors.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S11.jpg"/>
+  </media>
+  </figure></problem>
+  <!--<solution id="fs-id1140635">
+  <para id="fs-id1177607">a) 2<emphasis effect="italics">R</emphasis><sub>1</sub><emphasis effect="italics"> =</emphasis> 3<emphasis effect="italics">R</emphasis><sub>2</sub>, b) 5 A, it will become 15 A, c) 2 A in branch with <emphasis effect="italics">R</emphasis><sub>1</sub>, 9 A in branch with <emphasis effect="italics">R</emphasis><sub>2</sub>, 11 A in branch with <emphasis effect="italics">E</emphasis></para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1175790" type="ap-test-prep"><problem id="fs-id823771">
+  <figure id="fs-id1698711"><media id="fs-id2037926" alt="Circuit with a battery with voltage E1 and resistor with resistance r1 across the top from left to right; point A, a resistor with resistance R1, and point B across the middle; and a battery marked E2 and a resistor with resistance r2 across the bottom. Additionally, on the left, from top to bottom there is a resistor with resistance R2 and point A; on the right, from top to bottom there is point B and a resistor with resistance R3.">
+  <image mime-type="image/jpg" src="../../media/CNX_APPhysics_21_M3_S12_img.jpg"/>
+  </media>
+  </figure>
+  <para id="fs-id1224003">In this circuit, assume the currents through <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub> and <emphasis effect="italics">R</emphasis><sub>3</sub> are <emphasis effect="italics">I</emphasis><sub>1</sub>, <emphasis effect="italics">I</emphasis><sub>2</sub> and <emphasis effect="italics">I</emphasis><sub>3</sub> respectively and all are flowing in the clockwise direction.</para><list id="fs-id1182587" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>Find the equation obtained by applying Kirchhoff’s junction rule at point A.</item>
+  <item>Find the equations obtained by applying Kirchhoff’s loop rule in the upper and lower loops.</item>
+  <item>Assume <emphasis effect="italics">R</emphasis><sub>1</sub> = <emphasis effect="italics">R</emphasis><sub>2</sub> = 6 Ω, <emphasis effect="italics">R</emphasis><sub>3</sub> = 12 Ω, <emphasis effect="italics">r</emphasis><sub>1</sub> = <emphasis effect="italics">r</emphasis><sub>2</sub> = 0 Ω, <emphasis effect="italics">E</emphasis><sub>1</sub> = 6 V and <emphasis effect="italics">E</emphasis><sub>2</sub> = 4 V. Calculate <emphasis effect="italics">I</emphasis><sub>1</sub>, <emphasis effect="italics">I</emphasis><sub>2</sub> and <emphasis effect="italics">I</emphasis><sub>3</sub>.</item>
+  <item>For the situation in which <emphasis effect="italics">E</emphasis><sub>2</sub> is replaced by a closed switch, repeat parts (a) and (b). Using the values for <emphasis effect="italics">R</emphasis><sub>1</sub>, <emphasis effect="italics">R</emphasis><sub>2</sub>, <emphasis effect="italics">R</emphasis><sub>3</sub>, <emphasis effect="italics">r</emphasis><sub>1</sub> and <emphasis effect="italics">E</emphasis><sub>1</sub> from part (c) calculate the currents through the three resistors.</item>
+  <item>For the circuit in part (d) calculate the output power of the voltage source and across all the resistors. Examine if energy is conserved in the circuit.</item>
+  <item>A student implemented the circuit of part (d) in the lab and measured the current though one of the resistors as 0.19 A. According to the results calculated in part (d) identify the resistor(s). Justify any difference in measured and calculated value.</item>
+  </list></problem>
+  <solution id="fs-id2871827">
+  <list id="fs-id1292284" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><emphasis effect="italics">I<sub>1</sub> + I<sub>3</sub> = I<sub>2</sub></emphasis></item>
+  <item><emphasis effect="italics">E<sub>1</sub> - I<sub>1</sub>R<sub>1</sub> - I<sub>2</sub>R<sub>2</sub> - I<sub>1</sub>r<sub>1</sub></emphasis> = 0; <emphasis effect="bold">-</emphasis> <emphasis effect="italics">E<sub>2</sub> + I<sub>1</sub>R<sub>1</sub> - I<sub>3</sub>R<sub>3</sub> - I<sub>3</sub>r<sub>2</sub></emphasis> = 0</item>
+  <item><emphasis effect="italics">I<sub>1</sub></emphasis> = 8/15 A, <emphasis effect="italics">I<sub>2</sub></emphasis> = 7/15 A and <emphasis effect="italics">I<sub>3</sub></emphasis> = <emphasis effect="bold">-</emphasis>1/15 A</item>
+  <item><emphasis effect="italics">I<sub>1</sub></emphasis> = 2/5 A, <emphasis effect="italics">I<sub>2</sub></emphasis> = 3/5 A and <emphasis effect="italics">I<sub>3</sub></emphasis> = 1/5 A</item>
+  <item><emphasis effect="italics">P<sub>E1</sub></emphasis> = 18/5 W and <emphasis effect="italics">P<sub>R1</sub></emphasis> = 24/25 W, <emphasis effect="italics">P<sub>R2</sub></emphasis> = 54/25 W, <emphasis effect="italics">P<sub>R3</sub></emphasis> = 12/25 W. Yes, <emphasis effect="italics">P<sub>E1</sub></emphasis> =<emphasis effect="italics"> P<sub>R1</sub></emphasis>+<emphasis effect="italics"> P<sub>R2</sub></emphasis> +<emphasis effect="italics"> P<sub>R3</sub></emphasis></item>
+  <item><emphasis effect="italics">R<sub>3,</sub></emphasis> losses in the circuit</item>
+  </list>
+  </solution></exercise></section>
+  
 <section id="fs-id1909383" class="section-summary"><title>Section Summary</title><list id="fs-id2599702">
     <item id="import-auto-id1899657">Kirchhoff’s rules can be used to analyze any circuit, simple or complex.</item>
     <item id="import-auto-id1954890" fo:font-weight="normal">Kirchhoff’s first rule—the junction rule: The sum of all currents entering a junction must equal the sum of all currents leaving the junction.</item>

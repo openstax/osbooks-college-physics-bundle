@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42326</md:content-id>
   <md:title>Electric Potential in a Uniform Electric Field</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>c793cc2b-c0ab-4089-a452-677700c3f9ac</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe the relationship between voltage and electric field.</item>
 <item>Derive an expression for the electric potential and electric field.</item>
@@ -394,6 +394,92 @@ size 12{ΔV=V rSub { size 8{"AB"} } } {}
     <title>Relationship between Voltage and Electric Field</title>
     <para id="import-auto-id1951129">In equation form, the general relationship between voltage and electric field is</para>
     <equation id="eip-984"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">–</m:mo><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">V</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">s</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo>,</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E= -  {  {ΔV}  over  {Δs} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2822109">where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?s} {}</m:annotation></m:semantics></m:math> is the distance over which the change in potential, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi/><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{?`V} {}</m:annotation></m:semantics></m:math>, takes place. The minus sign tells us that <m:math><m:semantics><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow></m:semantics></m:math> points in the direction of decreasing potential. The electric field is said to be the <emphasis effect="italics">gradient</emphasis> (as in grade or slope) of the electric potential. </para></note><para id="eip-907">For continually changing potentials, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ`V} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">s</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δs} {}</m:annotation></m:semantics></m:math> become infinitesimals and differential calculus must be employed to determine the electric field.</para>
+
+<section id="fs-id1705016" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  
+  <exercise id="fs-id1418320" type="ap-test-prep">
+  <problem id="fs-id3287543">
+  <para id="fs-id2531536">A negatively charged massive particle is dropped from above the two plates in <link target-id="import-auto-id671952"/> into the space between them. Which best describes the trajectory it takes?</para>
+  <list id="fs-id1613222" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>A rightward-curving parabola</item>
+  <item>A leftward-curving parabola</item>
+  <item>A rightward-curving section of a circle</item>
+  <item>A leftward-curving section of a circle</item>
+  </list>
+  </problem>
+  <solution id="fs-id1229908"><para id="fs-id1272674">(b)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1392626" type="ap-test-prep">
+  <problem id="fs-id2627124">
+  <para id="fs-id1272820">Two massive particles with identical charge are launched into the uniform field between two plates from the same launch point with the same velocity. They both impact the positively charged plate, but the second one does so four times as far as the first. What sign is the charge? What physical difference would give them different impact points (quantify as a relative percent)? How does this compare to the gravitational projectile motion case?</para>
+  </problem>
+  <!--<solution id="fs-id2512383"><para id="fs-id1893520">Negative. The second one has 100% more mass. Differences in mass have no effect on gravitational projectile motion.</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1837856" type="ap-test-prep">
+  <problem id="fs-id2939772">
+  <para id="fs-id1359426">Two plates are lying horizontally, but stacked with one 10.0 cm above the other. If the upper plate is held at +100 V, what is the magnitude and direction of the electric field between the plates if the lower is held at +50.0 V? -50.0 V?</para>
+  <list id="fs-id2545976" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>500 V/m, 1500 V/m, down</item>
+  <item>500 V/m, 1500 V/m, up</item>
+  <item>1500 V/m, 500 V/m, down</item>
+  <item>1500 V/m, 500 V/m, up</item>
+  </list>
+  </problem>
+  <solution id="fs-id2573777"><para id="fs-id2620827">(a)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2337566" type="ap-test-prep">
+  <problem id="fs-id2546241">
+  <para id="fs-id2351104">Two parallel conducting plates are 15 cm apart, each with an area of 0.75 m<sup>2</sup>. The left one has a charge of -0.225 C placed on it, while the right has a charge of 0.225 C. What is the magnitude and direction of the electric field between the two?</para>
+  </problem>
+  <!--<solution id="fs-id1813101"><para id="fs-id2318325">3.4&#215;10<sup>10</sup> N/C to the left</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1764873" type="ap-test-prep">
+  <problem id="fs-id2525347">
+  <para id="fs-id2333706">Consider three parallel conducting plates, with a space of 3.0 cm between them. The leftmost one is at a potential of +45 V, the middle one is held at ground, and the rightmost is at a potential of -75 V. What is the magnitude of the average electric field on an electron traveling between the plates? (Assume that the middle one has holes for the electron to go through.)</para>
+  <list id="fs-id1808908" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>1500 V/m</item>
+  <item>2500 V/m</item>
+  <item>4000 V/m</item>
+  <item>2000 V/m</item>
+  </list>
+  </problem>
+  <solution id="fs-id1692513"><para id="fs-id1782822">(d)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1893948" type="ap-test-prep">
+  <problem id="fs-id1230795">
+  <para id="fs-id1355739">A new kind of electron gun has a rear plate at −25.0 kV, a grounded plate 2.00 cm in front of that, and a +25.0 kV plate 4.00 cm in front of that. What is the magnitude of the average electric field?</para>
+  </problem>
+  <!--<solution id="fs-id1392378"><para id="fs-id2071829">8.33&#215;10<sup>5</sup> V/m</para></solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1426361" type="ap-test-prep">
+  <problem id="fs-id2631140">
+  <para id="fs-id3350985">A certain electric potential isoline graph has isolines every 5.0 V. If six of these lines cross a 40 cm path drawn between two points of interest, what is the (magnitude of the average) electric field along this path?</para>
+  <list id="fs-id1967072" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>750 V/m</item>
+  <item>150 V/m</item>
+  <item>38 V/m</item>
+  <item>75 V/m</item>
+  </list>
+  </problem>
+  <solution id="fs-id1610242"><para id="fs-id2052575">(d)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id2573348" type="ap-test-prep">
+  <problem id="fs-id1738079">
+  <para id="fs-id2883750">Given a system of two parallel conducting plates held at a fixed potential difference, describe what happens to the isolines of the electric potential between them as the distance between them is changed. How does this relate to the electric field strength?</para>
+  </problem>
+  <!--<solution id="fs-id1358838"><para id="fs-id1413293">Assuming fixed values for the potentials that the isolines represent, these lines get closer together the closer the plates are, and spread out as the plates are moved farther apart. The closer the isolines are to each other, the greater the field strength.</para></solution>-->
+  </exercise>
+  
+  </section>
+  
        <section id="fs-id3051945" class="section-summary"><title>Section Summary</title><list id="import-auto-id2915369"><item id="import-auto-id1551715">The voltage between points A and B is
       <equation id="eip-157"><m:math>
 <m:mtable>

@@ -3,13 +3,13 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42247</md:content-id>
   <md:title>Forced Oscillations and Resonance</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>51dcd05d-d69a-4107-8193-f3e95cd96ef1</md:uuid>
 </metadata>
 
 <content>
-    <section class="learning-objectives"><title>Learning Objectives</title>
-        <para>By the end of this section, you will be able to:</para>
+    <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+        <para id="para-00001">By the end of this section, you will be able to:</para>
         <list id="list-00001">
 <item>Observe resonance of a paddle ball on a string.</item>
 <item>Observe amplitude of a damped harmonic oscillator.</item>
@@ -43,6 +43,21 @@
             <problem id="fs-id1955370"><para id="import-auto-id3358585">A famous magic trick involves a performer singing a note toward a crystal glass until the glass shatters. Explain why the trick works in terms of resonance and natural frequency.</para></problem>
             <solution id="fs-id2407017" print-placement="here"><para id="fs-id3105553">The performer must be singing a note that corresponds to the natural frequency of the glass. As the sound wave is directed at the glass, the glass responds by resonating at the same frequency as the sound wave. With enough energy introduced into the system, the glass begins to vibrate and eventually shatters.</para></solution>
         </exercise>
+
+
+<section id="fs-id2573392" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id3527682" type="ap-test-prep">
+    <problem id="fs-id1874113">
+    <para id="fs-id2531272">How is constant amplitude sustained in forced oscillations?</para>
+    </problem>
+    <!--<solution id="fs-id1698634">
+    <para id="fs-id2714301">In forced oscillations energy lost due to damping is compensated for by the work done by the applied force. This is how constant-amplitude oscillations are sustained.</para>
+    </solution>-->
+    </exercise>
+    </section>
+    
+    
         <section id="fs-id1344655" class="section-summary"><title>Section Summary</title><list id="fs-id2437096"><item id="import-auto-id3146084">A system’s natural frequency is the frequency at which the system will oscillate if not affected by driving or damping forces.</item>
                 <item id="import-auto-id2677409">A periodic force driving a harmonic oscillator at its natural frequency produces resonance. The system is said to resonate.</item>
                 <item id="import-auto-id2404453">The less damping a system has, the higher the amplitude of the forced oscillations near resonance. The more damping a system has, the broader response it has to varying driving frequencies.</item>

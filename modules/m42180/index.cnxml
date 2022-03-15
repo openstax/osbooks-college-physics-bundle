@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42180</md:content-id>
   <md:title>Rotational Kinetic Energy: Work and Energy Revisited</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>b328b5a2-79ea-4faa-9674-8d62df2f288e</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Derive the equation for rotational work.</item>
 <item>Calculate rotational kinetic energy.</item>
@@ -809,7 +809,70 @@
     <note id="eip-216" class="interactive"><title>My Solar System</title><para id="eip-id1169738171827">Build your own system of heavenly bodies and watch the gravitational ballet. With this orbit simulator, you can set initial positions, velocities, and masses of 2, 3, or 4 bodies, and then see them orbit each other.
 <newline/><figure id="eip-idm476568560"><media id="fs-id1167063525612" alt="This simulation allows you to build your own solar system and then watch how the gravitational forces impact them in their orbits." class="os-embed">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28mysolar"/></media>
-</figure></para></note><section id="fs-id3176558" class="section-summary"><title>Section Summary</title><list id="fs-id1917137"><item id="import-auto-id1360816">The rotational kinetic energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE" rSub { size 8{ ital "rot"} } } {}</m:annotation></m:semantics></m:math> for an object with a moment of inertia <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> and an angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> is given by
+</figure></para></note>
+<section id="fs-id1498800" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2004322" type="ap-test-prep">
+  <problem id="fs-id1846006">
+  <para id="fs-id1295590">Gear A, which turns clockwise, meshes with gear B, which turns counterclockwise. When more force is applied through gear A, torque is created. How does the angular velocity of gear B change as a result?</para>
+  <list id="fs-id1570602" list-type="enumerated" number-style="lower-alpha"><item>It increases in magnitude.</item>
+  <item>It decreases in magnitude.</item>
+  <item>It changes direction.</item>
+  <item>It stays the same.</item>
+  </list></problem>
+  <solution id="fs-id1993387">
+  <para id="fs-id1555167">(a)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1292713" type="ap-test-prep">
+  <problem id="fs-id1496863">
+  <para id="fs-id1654110">Which will cause a greater increase in the angular velocity of a disk: doubling the torque applied or halving the radius at which the torque is applied? Explain.</para>
+  </problem>
+  <!--<solution id="fs-id1536338">
+  <para id="fs-id1621997">Change in angular velocity can be expressed as
+  
+  <m:math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+   <m:mrow>
+    <m:mtext>&#916;</m:mtext><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+     <m:mrow>
+      <m:mi>&#964;</m:mi><m:mtext>&#916;</m:mtext><m:mi>t</m:mi>
+     </m:mrow>
+     <m:mrow>
+      <m:mi>m</m:mi><m:msup>
+       <m:mi>r</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+  
+     </m:mrow>
+    </m:mfrac>
+  
+   </m:mrow>
+  </m:math>. This tells us that it is proportional to torque, and inversely proportional to the square of the radius at which the torque is applied. Doubling the torque will double the change in angular velocity, but halving the radius will quadruple the change in angular velocity, a greater change.</para>
+  </solution>-->
+  </exercise>
+  
+  <exercise id="fs-id1543406" type="ap-test-prep">
+  <problem id="fs-id1684134">
+  <para id="fs-id1925218">Which measure would not be useful to help you determine the change in angular velocity when the torque on a fishing reel is increased?</para>
+  <list id="fs-id1399572" list-type="enumerated" number-style="lower-alpha"><item>the radius of the reel</item>
+  <item>the amount of line that unspools</item>
+  <item>the angular momentum of the fishing line</item>
+  <item>the time it takes the line to unspool</item>
+  </list></problem>
+  <solution id="fs-id1934238">
+  <para id="fs-id977238">(c)</para></solution>
+  </exercise>
+  
+  <exercise id="fs-id1628274" type="ap-test-prep">
+  <problem id="fs-id1675174">
+  <para id="fs-id1498244">What data could you collect to study the change in angular velocity when two people push a merry-go-round instead of one, providing twice as much torque? How would you use the data you collect?</para>
+  </problem>
+  <!--<solution id="fs-id1964392">
+  <para id="fs-id2451703">Angular velocity is measured in radians per second (rad/s). You could count the number of revolutions in a certain number of seconds with one person pushing and again with two people pushing. You could use the fact that there are 2&#960;	 radians in one full revolution to write each angular velocity with the units rad/s. You could then compare the two angular velocities.</para>
+  </solution>-->
+  </exercise>
+  </section>
+  <section id="fs-id3176558" class="section-summary"><title>Section Summary</title><list id="fs-id1917137"><item id="import-auto-id1360816">The rotational kinetic energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE" rSub { size 8{ ital "rot"} } } {}</m:annotation></m:semantics></m:math> for an object with a moment of inertia <m:math><m:semantics><m:mrow><m:mi>I</m:mi></m:mrow></m:semantics></m:math> and an angular velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> is given by
 <equation id="eip-595"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>KE</m:mtext><m:mrow><m:mtext>rot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msup><m:mi fontstyle="italic">Iω</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE" rSub { size 8{"rot"} } = {  {1}  over  {2} } Iω rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation></item>
     <item id="import-auto-id1972580">Helicopters store large amounts of rotational kinetic energy in their blades. This energy must be put into the blades before takeoff and maintained until the end of the flight. The engines do not have enough power to simultaneously provide lift and put significant rotational energy into the blades.</item>
     <item id="import-auto-id3224025">Work and energy in rotational motion are completely analogous to work and energy in translational motion.</item>

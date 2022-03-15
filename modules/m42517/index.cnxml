@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42517</md:content-id>
   <md:title>Limits of Resolution: The Rayleigh Criterion</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>f403618a-c8e1-4b20-8737-6164df697aea</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Discuss the Rayleigh criterion.</item>
 </list>
@@ -100,7 +100,29 @@
             <image mime-type="image/jpg" src="../../media/Figure_28_06_07a.jpg" width="300"/>
         </media>
 
-  <caption>(a) In geometric optics, the focus is a point, but it is not physically possible to produce such a point because it implies infinite intensity. (b) In wave optics, the focus is an extended region.</caption></figure><section id="fs-id1169736809898" class="section-summary">
+  <caption>(a) In geometric optics, the focus is a point, but it is not physically possible to produce such a point because it implies infinite intensity. (b) In wave optics, the focus is an extended region.</caption></figure>
+  
+<section id="fs-id1743752" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+  
+    <exercise id="fs-id2328847" type="ap-test-prep"><problem id="fs-id1408636">
+        <para id="fs-id1812012">What is the relationship between the width (<emphasis effect="italics">W</emphasis>) of the central diffraction maximum formed through a circular aperture and the size (<emphasis effect="italics">S</emphasis>) of the aperture?</para>
+        <list id="fs-id1523935" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+          <item><emphasis effect="italics">W</emphasis> increases as <emphasis effect="italics">S</emphasis> increases.</item>
+          <item><emphasis effect="italics">W</emphasis> decreases as <emphasis effect="italics">S</emphasis> increases.</item>
+          <item><emphasis effect="italics">W</emphasis> can increase or decrease as <emphasis effect="italics">S</emphasis> decreases.</item>
+          <item><emphasis effect="italics">W</emphasis> can neither increase nor decrease as <emphasis effect="italics">S</emphasis> decreases.</item>
+        </list>
+      </problem>
+      <solution id="fs-id3194449">
+        <para id="fs-id1338414">(b)</para>
+      </solution>
+    </exercise><exercise id="fs-id1526437" type="ap-test-prep"><problem id="fs-id2114675">
+        <para id="fs-id2493249">Light from two sources passes through a circular aperture to form images on a screen. State the Rayleigh criterion for the images to be just resolvable and draw a figure to visually explain it.</para>
+      </problem>
+    </exercise></section>
+  
+  <section id="fs-id1169736809898" class="section-summary">
 <title>Section Summary</title><list id="fs-id1169736655386">
         <item id="import-auto-id1169735533162">Diffraction limits resolution.</item>
         <item id="import-auto-id1169738175810">For a circular aperture, lens, or mirror, the Rayleigh criterion states that two images are just resolvable when the center of the diffraction pattern of one is directly over the first minimum of the diffraction pattern of the other.</item>

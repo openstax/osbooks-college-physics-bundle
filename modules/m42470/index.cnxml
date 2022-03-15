@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42470</md:content-id>
   <md:title>Image Formation by Lenses</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>d977ddf6-69bf-46fd-8be6-5c41df45b092</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>List the rules for ray tracking for thin lenses.</item>
 <item>Illustrate the formation of images using the technique of ray tracking.</item>
@@ -455,6 +455,47 @@
     <para id="import-auto-id2692624">We do not realize that light rays are coming from every part of the object, passing through every part of the lens, and all can be used to form the final image.</para>
     <para id="import-auto-id2555653">We generally feel the entire lens, or mirror, is needed to form an image. Actually, half a lens will form the same, though a fainter, image.</para>
     </note></section>
+    <section id="fs-id1795080" type="ap-test-prep" class="ap-test-prep">
+      <title>Test Prep for AP Courses</title>
+      <exercise id="fs-id2793635" type="ap-test-prep"><problem id="fs-id2103331">
+      <para id="fs-id2216588">An object is 25 cm in front of a converging lens with a focal length of 25 cm. Where will the resulting image be located?</para>
+      <list id="fs-id2406962" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>25 cm in front of the lens</item>
+      <item>25 cm behind the lens</item>
+      <item>50 cm behind the lens</item>
+      <item>at infinity (either in front of or behind the lens)</item>
+      </list>
+      </problem>
+      <solution id="fs-id2329444">
+      <para id="fs-id2013495">(d)</para>
+      </solution>
+      </exercise><exercise id="fs-id1303826" type="ap-test-prep"><problem id="fs-id1795525">
+      <para id="fs-id3279469">A detective holds a magnifying glass 5.0 cm above an object he is studying, creating an upright image twice as large as the object. What is the focal length of the lens used for the magnifying glass?</para>
+      </problem>
+      <!--<solution id="fs-id1992863">
+      <para id="fs-id2027779">Assume &#8220;below the lens&#8221; corresponds to &#8220;in front of the lens,&#8221; so that the object distance is 5.0 cm. The magnification is +2 since the image is upright and twice as large. This means the image distance is twice the object distance and the image is also in front of the lens, so the image distance is -10 cm. From the thin lens equation, the focal length is 10 cm.</para>
+      </solution>
+      --></exercise><exercise id="fs-id1487694" type="ap-test-prep"><problem id="fs-id3168121">
+      <para id="fs-id1447214">A student wishes to predict the magnification of an image given the distance from the object to a converging lens with an unknown index of refraction. What data must the student collect in order to make such a prediction for any object distance?</para>
+      <list id="fs-id1438441" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+      <item>A specific object distance and the image distance associated with that object distance.</item>
+      <item>A specific image distance and a determination of whether the image formed is upright or inverted.</item>
+      <item>The diameter and index of refraction of the lens.</item>
+      <item>The radius of curvature of each side of the lens.</item>
+      </list>
+      </problem>
+      <solution id="fs-id2634982">
+      <para id="fs-id2506051">(a)</para></solution>
+      </exercise><exercise id="fs-id1463977" type="ap-test-prep"><problem id="fs-id1817358">
+      <para id="fs-id2061212">Given a converging lens of unknown focal length and unknown index of refraction, explain what materials you would need and what procedure you would follow in order to experimentally determine the focal length of the lens.</para>
+      </problem>
+      <!--<solution id="fs-id1791414">
+      <para id="fs-id2040221">The student would need some kind of light source (like a small battery-powered light bulb), a screen on which to project an image, a ruler to measure distances, and a device to hold the lens in place.</para>
+      <para id="fs-id2767614">The student could place the object at various distances from the converging lens until a clear image of the object formed on the screen. The student could then measure the object distance and image distance, and from this information deduce the focal length of the lens.</para>
+      </solution>
+      --></exercise></section>
+      
+      
  <section id="fs-id1551041" class="section-summary"><title>Section Summary</title><list id="fs-id1949629"><item id="import-auto-id3163834">Light rays entering a converging lens parallel to its axis cross one another at a single point on the opposite side.</item>
     <item id="import-auto-id2773095">For a converging lens, the focal point is the point at which converging light rays cross; for a diverging lens, the focal point is the point from which diverging light rays appear to originate.</item>
     <item id="import-auto-id1636863">The distance from the center of the lens to its focal point is called the focal length <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>.</item>

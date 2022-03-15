@@ -3,12 +3,12 @@
     <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42344</md:content-id>
   <md:title>Ohm’s Law: Resistance and Simple Circuits</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>c8b9a2f8-cb8f-484f-b53c-72459218c189</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Explain the origin of Ohm’s law.</item>
 <item>Calculate voltages, currents, or resistances with Ohm’s law.</item>
@@ -67,7 +67,50 @@
 <para id="eip-idm275368432">See how the equation form of Ohm's law relates to a simple circuit. Adjust the voltage and resistance, and see the current change according to Ohm's law. The sizes of the symbols in the equation change to match the circuit diagram.<newline/><figure id="eip-idm676676544">
 <media id="fs-id1167067184393" alt="This simulation mimics a simple circuit with batteries providing the voltage source and a resistor connected across the batteries.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28ohms_law"/></media>
-</figure></para></note><section id="fs-id1427157" class="section-summary"><title>Section Summary</title><list id="fs-id1972775"><item id="import-auto-id1170614029780">A simple circuit <emphasis effect="italics">is</emphasis> one in which there is a single voltage source and a single resistance.</item>
+</figure></para></note>
+<section id="fs-id1795986" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+  
+    <exercise id="fs-id2556054" type="ap-test-prep"><problem id="fs-id3641361">
+        <para id="fs-id1754220">If the voltage across a fixed resistance is doubled, what happens to the current?</para>
+  <list id="fs-id1890698" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>It doubles.</item>
+  <item>It halves.</item>
+  <item>It stays the same.</item>
+  <item>The current cannot be determined.</item>
+  </list>
+      </problem>
+      <solution id="fs-id2027798">
+        <para id="fs-id2203934">(a)</para></solution>
+    </exercise><exercise id="fs-id2382064" type="ap-test-prep"><problem id="fs-id1678453">
+        <para id="fs-id2175130">The table below gives the voltages and currents recorded across a resistor.</para>
+        <table id="fs-id1532059" summary="The table has two rows and six columns. The first row is labeled Voltage (V) with the following vales: 2.50, 5.00, 7.50, 10.00, and 12.50. The second row of the table is labeled Current (A) with the following values; 0.69, 1.38, 2.09, 2.76, and 3.49.">
+  <tgroup cols="6"><tbody>
+        <row><entry>Voltage (V)</entry><entry>2.50</entry><entry>5.00</entry><entry>7.50</entry><entry>10.00</entry><entry>12.50</entry></row>
+        <row><entry>Current (A)</entry><entry>0.69</entry><entry>1.38</entry><entry>2.09</entry><entry>2.76</entry><entry>3.49</entry></row>
+  
+  </tbody>
+  
+  </tgroup>
+  </table><list id="fs-id1343212" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+        <item>Plot the graph and comment on the shape. </item>
+        <item>Calculate the value of the resistor.</item>
+        </list>
+      </problem>
+      <!--<solution id="fs-id2713879">
+        <para id="fs-id3206786">(a) the shape is linear because of Ohm's law; (b) 3.6 &#937;</para></solution>-->
+    </exercise><exercise id="fs-id2314598" type="ap-test-prep">
+      <problem id="fs-id3162057">
+        <para id="fs-id1783867">What is the resistance of a bulb if the current in it is 1.25 A when a 4 V voltage supply is connected to it? If the voltage supply is increased to 7 V, what will be the current in the bulb?</para>
+      </problem>
+      <solution id="fs-id2640743">
+        <para id="fs-id1927513">3.2 Ω, 2.19 A</para>
+      </solution>
+    </exercise>
+  
+  </section>
+  
+<section id="fs-id1427157" class="section-summary"><title>Section Summary</title><list id="fs-id1972775"><item id="import-auto-id1170614029780">A simple circuit <emphasis effect="italics">is</emphasis> one in which there is a single voltage source and a single resistance.</item>
 
         <item id="import-auto-id1170614029788">One statement of Ohm’s law gives the relationship between current
 <m:math>

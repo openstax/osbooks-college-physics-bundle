@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42440</md:content-id>
   <md:title>Production of Electromagnetic Waves</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>47f5c05f-e68c-4218-9f5b-89e0b11d1e2d</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Describe the electric and magnetic waves as they move out from a source, such as an AC generator.</item>
 <item>Explain the mathematical relationship between the magnetic field strength and the electrical field strength.</item>
@@ -108,6 +108,252 @@
   <media id="fs-id1167065661124" alt="This simulation demonstrates EM wave propagation">
   <iframe width="660" height="371.4" src="https://openstax.org/l/28Radiowaves"/></media>
 </figure></para></note></section>
+
+
+<section id="fs-id2831674" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id2508048" type="ap-test-prep"><problem id="fs-id3179185">
+  <para id="fs-id1925494">If an electromagnetic wave is described as having a frequency of 3 GHz, what are its period and wavelength (in a vacuum)?</para>
+  <list id="fs-id2829668" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item>3.0 × 10<sup>9</sup>s, 10 cm</item>
+  <item>3.3 × 10<sup>−10</sup>s, 10 cm</item>
+  <item>3.3 × 10<sup>−10</sup>s, 10 m</item>
+  <item>3.0 × 10<sup>9</sup>s, 10 m</item>
+  </list></problem>
+  <solution id="fs-id2260082">
+  <para id="fs-id1454700">(b)</para>
+  </solution>
+  </exercise><exercise id="fs-id955131" type="ap-test-prep"><problem id="fs-id2719208">
+  <para id="fs-id2494908">Describe the outcome if you attempt to produce a longitudinal electromagnetic wave.</para>
+  </problem>
+  <!--<solution id="fs-id1475577">
+  <para id="fs-id1560555">It will not work. You&#8217;ll simply produce transverse electromagnetic waves that propagate perpendicular to the direction of the desired longitudinal wave.</para>
+  </solution>-->
+  </exercise><exercise id="fs-id2150257" type="ap-test-prep"><problem id="fs-id1421434">
+  <para id="fs-id1784416">A wave is travelling through a medium until it hits the end of the medium and there is nothing but vacuum beyond. What happens to a mechanical wave? Electromagnetic wave?</para><list id="fs-id1546801" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>reflects backward, continues on</item>
+  <item>reflects backward, reflects backward</item>
+  <item>continues on, continues on</item>
+  <item>stops, continues on</item>
+  </list>
+  </problem>
+  <solution id="fs-id3245873">
+  <para id="fs-id3172414">(a)</para>
+  </solution>
+  </exercise><exercise id="fs-id1921736" type="ap-test-prep"><problem id="fs-id2400634">
+  <para id="fs-id1862152">You’re on the moon, skipping around, and your radio breaks. What would be the best way to communicate this problem to your friend, who is also skipping around on the moon: yelling or flashing a light? Why?</para>
+  </problem>
+  <!--<solution id="fs-id3194600">
+  <para id="fs-id1454324">Flashing a light. There is no atmosphere on the moon, so sound will not propagate, except through the moon itself. Light, on the other hand, can travel through the airless vacuum.</para>
+  </solution>
+  --></exercise><exercise id="fs-id2769744" type="ap-test-prep"><problem id="fs-id1457090">
+  <para id="fs-id3327333">Given the waveform in <link target-id="import-auto-id1169737994355"/>(d), if <m:math>
+   <m:mi>T</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>3.0</m:mn><m:mo>×</m:mo><m:msup>
+    <m:mn>10</m:mn>
+    <m:mrow>
+     <m:mo>−</m:mo><m:mn>9</m:mn>
+    </m:mrow>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mtext>s</m:mtext>
+  </m:math> and <m:math>
+   <m:mi>E</m:mi><m:mtext> </m:mtext><m:mo>=</m:mo><m:mtext> </m:mtext><m:mn>5.0</m:mn><m:mo>×</m:mo><m:msup>
+    <m:mn>10</m:mn>
+    <m:mn>5</m:mn>
+   </m:msup>
+   <m:mtext> </m:mtext><m:mtext>N / C</m:mtext>
+  </m:math>, which of the following is the correct equation for the wave at the antenna?</para>
+  <list id="fs-id2495219" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item><m:math>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>5</m:mtext><m:mtext>.0</m:mtext><m:mo>×</m:mo><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mtext> </m:mtext><m:mtext>N / C</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mtext>sin</m:mtext><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>2</m:mtext><m:mi>π</m:mi><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mtext>3</m:mtext><m:mtext>.0</m:mtext><m:mtext> </m:mtext><m:mo>×</m:mo><m:msup>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>9</m:mn>
+        </m:mrow>
+       </m:msup>
+       <m:mtext> </m:mtext><m:mtext>s</m:mtext>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mi>t</m:mi>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:math>
+  </item>
+  
+  <item><m:math>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>5</m:mtext><m:mtext>.0</m:mtext><m:mo>×</m:mo><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mtext> </m:mtext><m:mtext>N / C</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mtext>sin</m:mtext><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mtext>2</m:mtext><m:mi>π</m:mi><m:mi> </m:mi><m:mi>t</m:mi>
+      </m:mrow>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mtext>3</m:mtext><m:mtext>.0</m:mtext><m:mtext> </m:mtext><m:mo>×</m:mo><m:msup>
+          <m:mrow>
+           <m:mn>10</m:mn>
+          </m:mrow>
+          <m:mrow>
+           <m:mo>−</m:mo><m:mn>9</m:mn>
+          </m:mrow>
+         </m:msup>
+         <m:mtext> </m:mtext><m:mtext>s</m:mtext>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mfrac>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:math>
+  </item>
+  
+  <item>
+  <m:math>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>5</m:mtext><m:mtext>.0</m:mtext><m:mo>×</m:mo><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mtext> </m:mtext><m:mtext>N / C</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mtext>cos</m:mtext><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>2</m:mtext><m:mi>π</m:mi><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mtext>3</m:mtext><m:mtext>.0</m:mtext><m:mtext> </m:mtext><m:mo>×</m:mo><m:msup>
+        <m:mrow>
+         <m:mn>10</m:mn>
+        </m:mrow>
+        <m:mrow>
+         <m:mo>−</m:mo><m:mn>9</m:mn>
+        </m:mrow>
+       </m:msup>
+       <m:mtext> </m:mtext><m:mtext>s</m:mtext>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mi>t</m:mi>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:math>
+  </item>
+  
+  <item><m:math>
+   <m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mtext>5</m:mtext><m:mtext>.0</m:mtext><m:mo>×</m:mo><m:msup>
+      <m:mrow>
+       <m:mn>10</m:mn>
+      </m:mrow>
+      <m:mn>5</m:mn>
+     </m:msup>
+     <m:mtext> </m:mtext><m:mtext>N / C</m:mtext>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow><m:mtext> </m:mtext><m:mtext>cos</m:mtext><m:mtext> </m:mtext><m:mrow><m:mo>(</m:mo>
+    <m:mrow>
+     <m:mfrac>
+      <m:mrow>
+       <m:mtext>2</m:mtext><m:mi>π</m:mi><m:mi> </m:mi><m:mi>t</m:mi>
+      </m:mrow>
+      <m:mrow>
+       <m:mrow><m:mo>(</m:mo>
+        <m:mrow>
+         <m:mtext>3</m:mtext><m:mtext>.0</m:mtext><m:mtext> </m:mtext><m:mo>×</m:mo><m:msup>
+          <m:mrow>
+           <m:mn>10</m:mn>
+          </m:mrow>
+          <m:mrow>
+           <m:mo>−</m:mo><m:mn>9</m:mn>
+          </m:mrow>
+         </m:msup>
+         <m:mtext> </m:mtext><m:mtext>s</m:mtext>
+        </m:mrow>
+       <m:mo>)</m:mo></m:mrow>
+      </m:mrow>
+     </m:mfrac>
+    </m:mrow>
+   <m:mo>)</m:mo></m:mrow>
+  </m:math>
+  </item>
+  </list></problem>
+  <solution id="fs-id2834732">
+  <para id="fs-id2721832">(d)</para></solution>
+  </exercise><exercise id="fs-id2203616" type="ap-test-prep">
+  <problem id="fs-id2183154">
+  <para id="fs-id2059647">Given the waveform in <link target-id="import-auto-id1169737994355"/>(d), if <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+   <mi>f</mi><mtext> </mtext><mo>=</mo><mtext> </mtext><mn>2.0</mn>
+  </math> GHz and <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+   <mi>E</mi><mtext> </mtext><mo>=</mo><mtext> </mtext><mn>6.0</mn><mo>×</mo><msup>
+    <mn>10</mn>
+    <mn>5</mn>
+   </msup>
+   <mtext> </mtext><mtext>N/C</mtext>
+  </math>, what is the correct equation for the magnetic field wave at the antenna?</para>
+  </problem>
+  <!--<solution id="fs-id1368407">
+  <para id="fs-id2014577">
+  <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+   <mo stretchy="false">(</mo><mn>2.0</mn><mo>&#215;</mo><msup>
+    <mn>10</mn>
+    <mrow>
+     <mo>&#8722;</mo><mn>3</mn>
+    </mrow>
+   </msup>
+   <mtext>&#8201;</mtext><mtext>T)&#160;cos&#160;(2</mtext><mi>&#960;</mi><mo stretchy="false">(</mo><mn>2.0</mn><mo>&#215;</mo><msup>
+    <mn>10</mn>
+    <mn>9</mn>
+   </msup>
+   <mtext>&#8201;</mtext><mtext>Hz)</mtext><mi>t</mi><mtext>)</mtext>
+  </math>
+  </para></solution>--></exercise>
+  
+  <exercise id="fs-id3179292" type="ap-test-prep" xmlns="http://cnx.rice.edu/cnxml"><problem id="fs-id2703019">
+  <para id="fs-id1864430">In Heinrich Hertz’s spark gap experiment (<link document="m55426" target-id="import-auto-id1169738181556"/>), how will the induced sparks in Loop 2 compare to those created in Loop 1?</para><list id="fs-id1798703" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Stronger</item>
+  <item>Weaker</item>
+  <item>Need to know the tuner settings to tell</item>
+  <item>Weaker, but how much depends on the tuner settings.</item>
+  </list>
+  </problem>
+  <solution id="fs-id1757368">
+  <para id="fs-id2514999">(d)</para>
+  </solution>
+  </exercise><exercise id="fs-id1832456" type="ap-test-prep">
+  <problem id="fs-id1467447">
+  <para id="fs-id2193233">The sun is far away from the Earth, and the intervening space is very close to empty. Yet the tilt of the Earth’s axis of rotation relative to the sun results in seasons. Explain why, given what you have learned in this section.</para>
+  </problem>
+  <!--<solution id="fs-id1431903">
+  <para id="fs-id1880576">The sun emits electromagnetic radiation, which does not need a medium to travel through. The tilt of Earth&#8217;s axis means that the electromagnetic radiation hits more or less directly (i.e., more or less energy per square meter), depending on the latitude (Latitude has a lot to do with the energy per area) and time of year, with more radiation per square meter creating heating and summer and less radiation leading to winter.</para>
+  </solution>-->
+  </exercise>
+  </section>
+  
+  
     <section id="fs-id1169738181556" class="section-summary"><title>Section Summary</title><list id="fs-id1169737822145">
     <item id="import-auto-id1169738111021">Electromagnetic waves are created by oscillating charges (which radiate whenever accelerated) and have the same frequency as the oscillation.</item>
     <item id="import-auto-id1169737724680">Since the electric and magnetic fields in most electromagnetic waves are perpendicular to the direction in which the wave moves, it is ordinarily a transverse wave.</item>

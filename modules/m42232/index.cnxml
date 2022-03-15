@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42232</md:content-id>
   <md:title>The First Law of Thermodynamics</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>fb11b483-b85f-4cda-bec7-4dfd136dba60</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Define the first law of thermodynamics.</item>
 <item>Describe how conservation of energy relates to the first law of thermodynamics.</item>
@@ -154,6 +154,65 @@
 </table></section>
   </section>
 
+
+  <section id="fs-id1832467" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id2216854" type="ap-test-prep"><problem id="fs-id2216858">
+    <para id="fs-id2216860">A cylinder is divided in half by a movable disk in the middle. Each half is filled with an equal number of gas molecules, but one half is at a higher temperature than the other. Which choice best describes what happens next?</para>
+    <list id="fs-id1859997" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>Nothing.</item>
+    <item>The high temperature side expands, compressing the low temperature side.</item>
+    <item>Heat moves from hot to cold, so the low temperature side will gradually increase in temperature and expand</item>
+    <item>(b) happens quickly, but after that (c) happens more slowly.</item>
+    </list></problem>
+    <solution id="fs-id3179586">
+    <para id="fs-id3179588">(d)</para></solution>
+    </exercise><exercise id="fs-id2211820" type="ap-test-prep">
+    <problem id="fs-id2211823">
+    <para id="fs-id2663508">Imagine a solid material at the molecular level as consisting of a bunch of billiard balls connected to each other by springs (this is actually a surprisingly useful approximation). If we have two blocks of the same material, but in one the billiard balls are shaking back and forth on their springs a great deal, and in the other they are barely moving, which block is at the higher temperature? Using what you know about conservation of momentum in collisions, describe which block will transfer energy to the other, and justify your answer.</para>
+    </problem>
+    <!--<solution id="fs-id2329353">
+    <para id="fs-id2329356">The block with the balls shaking a lot is at a higher temperature. From conservation of momentum and energy, we know that when a moving mass hits a stationary (or slower) one, energy gets transferred to the ball with less kinetic energy. When the two blocks are in contact, the process transfers energy from the higher temperature one to the lower temperature one.</para>
+    </solution>-->
+    </exercise>
+    <exercise id="fs-id2218737" type="ap-test-prep"><problem id="fs-id2218740">
+    <para id="fs-id2061280">A system has 300 J of work done on it, and has a heat transfer of -320 J. Compared to prior to these processes, the internal energy is:</para>
+    <list id="fs-id2061284" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+    <item>20 J less</item>
+    <item>20 J more</item>
+    <item>620 J more</item>
+    <item>620 J less</item>
+    </list>
+    </problem>
+    <solution id="fs-id1897307">
+    <para id="fs-id884481">(a)</para></solution>
+    </exercise><exercise id="fs-id884487" type="ap-test-prep">
+    <problem id="fs-id1533768">
+    <para id="fs-id1533770">Find a snack or drink item in the classroom, or at your next meal. Find the total Calories (kilocalories) in the item, and calculate how long it would take exercising at 150 W (moderately, climbing stairs) at 20% efficiency to burn off this energy.</para>
+    </problem>
+    <!--<solution id="fs-id3184148">
+    <para id="fs-id3184150">A 350 kcal item would be 1470 kJ, which would take ~ 32 minutes.</para>
+    </solution>-->
+    </exercise>
+    
+    <exercise id="fs-id3184155" type="ap-test-prep"><problem id="fs-id2402283">
+    <para id="fs-id2402285">A potato cannon has the fuel combusted, generating a lot of heat and pressure, which launch a potato. The combustion process _____ the internal energy, while launching the potato _____ the internal energy of the potato cannon.</para>
+    <list id="fs-id2834318" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+    <item>increases, increases</item>
+    <item>increases, decreases</item>
+    <item>decreases, increases</item>
+    <item>decreases, decreases</item>
+    </list>
+    </problem>
+    <solution id="fs-id2462305">
+    <para id="fs-id2462307">(b)</para></solution>
+    </exercise><exercise id="fs-id3826091" type="ap-test-prep"><problem id="fs-id3826094">
+    <para id="fs-id3826096">Describe what happens to the system inside of a refrigerator or freezer in terms of heat transfer, work, and conservation of energy. Confine yourself to time periods in which the door is closed.</para>
+    </problem>
+    <!--<solution id="fs-id2642010">
+    <para id="fs-id2642012">Work is done on this system, to transfer even more heat out, for a net reduction in internal energy.</para></solution>-->
+    </exercise></section>
+    
+    
     <section id="fs-id1169738146732" class="section-summary"><title>Section Summary</title><list id="fs-id1169737724456"><item id="import-auto-id1169737723973">The first law of thermodynamics is given as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU=Q - W} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> is the change in internal energy of a system, <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> is the net heat transfer (the sum of all heat transfer into and out of the system), and <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> is the net work done (the sum of all work done on or by the system).</item>
     <item id="import-auto-id1169738082355">Both <m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W} {}</m:annotation></m:semantics></m:math> are energy in transit; only <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔU} {}</m:annotation></m:semantics></m:math> represents an independent quantity capable of being stored.</item>
     <item id="import-auto-id1169738068753">The internal energy <m:math><m:semantics><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{U} {}</m:annotation></m:semantics></m:math> of a system depends only on the state of the system and not how it reached that state.</item>

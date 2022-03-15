@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42216</md:content-id>
   <md:title>The Ideal Gas Law</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>8f4cb076-9f5f-4a21-966e-079d768f7a98</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>State the ideal gas law in terms of molecules and in terms of moles.</item>
 <item>Use the ideal gas law to calculate pressure change, temperature change, volume change, or the number of molecules or moles in a given volume.</item>
@@ -1510,6 +1510,87 @@ R=8 "." "31"" J/mol" cdot K {}
     <para id="import-auto-id2688965">Atoms and molecules are close together in solids and liquids. In gases they are separated by empty space. Thus gases have lower densities than liquids and solids. Density is mass per unit volume, and volume is related to the size of a body (such as a sphere) cubed. So if the distance between atoms and molecules increases by a factor of 10, then the volume occupied increases by a factor of 1000, and the density decreases by a factor of 1000.</para>
     </solution>
     </exercise></section>
+
+<section id="fs-id1728626" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id1320035" type="ap-test-prep"><problem id="fs-id2059730">      
+      <para id="fs-id2433593">A fixed amount of ideal gas is kept in a container of fixed volume. The absolute pressure <emphasis effect="italics">P</emphasis>, in pascals, of the gas is plotted as a function of its temperature <emphasis effect="italics">T</emphasis>, in degrees Celsius. Which of the following are properties of a best fit curve to the data? Select <emphasis effect="italics">two</emphasis> answers.	</para>
+<list id="fs-id3163460" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Having a positive slope</item>
+<item>Passing through the origin</item>
+<item>Having zero pressure at a certain negative temperature</item>
+<item>Approaching zero pressure as temperature approaches infinity</item>
+</list>
+    </problem>
+    <solution id="fs-id2868393">
+      <para id="fs-id2663175">(a), (c)</para></solution>
+  </exercise><exercise id="fs-id1390822" type="ap-test-prep"><problem id="fs-id1489531">    
+     <figure id="fs-id1996966"><media id="fs-id1927200" alt="A black rectangle with bottom 2/3 grayed out and the word Gas shows. A thick solid black upside down T appears above the Gas area with the vertical part of the T extending past the edge of the box on the top. It is white inside the rectangle above the T at the top part of the rectangle.">
+          <image mime-type="image/jpg" src="../../media/Figure_Ch13_S01.jpg"/>
+        </media>
+	
+      </figure><para id="fs-id2027364">This figure shows a clear plastic container with a movable piston that contains a fixed amount of gas. A group of students is asked to determine whether the gas is ideal. The students design and conduct an experiment. They measure the three quantities recorded in the data table below.</para>
+<table id="fs-id889511" summary="The table shows the first four columns filled in and two blank columns at the right. The first column is labeled Trial and includes numbers from 1 to 15 on each of the rows. The values in the second column are Absolute Gas Pressure (times 10 to the fifth Pa) and are as follows from rows 1-15: 1.1, 1.4, 1.9, 2.2, 2.8, 1.2, 1.5, 2.0, 2.4, 3.0, 1.3, 1.6, 2.1, 2.6, and 3.2. The third column is labeled Volume (m cubed) and have the following values: 0.020, 0.016, 0.012, 0.010, , 0.008, 0.020, 0.016, 0.012, 0.010, , 0.008, 0.020, , 0.016, 0.012, 0.010, 0.008. The values in the fourth column, Temperature K are 270 for rows 1-5, 290 for rows 6-10, and 310 for rows 11-15.">
+<tgroup cols="6"><colspec colname="col1" colnum="1" colwidth="72pt"/>
+<colspec colname="col1" colnum="2" colwidth="72pt"/>
+<colspec colname="col1" colnum="3" colwidth="42pt"/>
+<colspec colname="col1" colnum="4" colwidth="42pt"/>
+<thead>
+<row>
+<entry namest="col1">Trial</entry>
+<entry namest="col2">Absolute Gas Pressure (x10m<sup>5</sup> Pa)</entry>
+<entry namest="col3">Volume (m<sup>3</sup>)</entry>
+<entry namest="col4">Temp. (K)</entry>
+<entry/>
+<entry/>
+</row>
+</thead>
+<tbody>
+<row><entry>1</entry><entry>1.1</entry><entry>0.020</entry><entry>270</entry><entry/><entry/></row>
+	       <row><entry>2</entry><entry>1.4</entry><entry>0.016</entry><entry>270</entry><entry/><entry/></row>
+	       <row><entry>3</entry><entry>1.9</entry><entry>0.012</entry><entry>270</entry><entry/><entry/></row>
+	       <row><entry>4</entry><entry>2.2</entry><entry>0.010</entry><entry>270</entry><entry/><entry/></row>
+	       <row><entry>5</entry><entry>2.8</entry><entry>0.008</entry><entry>270</entry><entry/><entry/></row>
+	       <row><entry>6</entry><entry>1.2</entry><entry>0.020</entry><entry>290</entry><entry/><entry/></row>
+	       <row><entry>7</entry><entry>1.5</entry><entry>0.016</entry><entry>290</entry><entry/><entry/></row>
+	       <row><entry>8</entry><entry>2.0</entry><entry>0.012</entry><entry>290</entry><entry/><entry/></row>
+	       <row><entry>9</entry><entry>2.4</entry><entry>0.010</entry><entry>290</entry><entry/><entry/></row>
+	       <row><entry>10</entry><entry>3.0</entry><entry>0.008</entry><entry>290</entry><entry/><entry/></row>
+	       <row><entry>11</entry><entry>1.3</entry><entry>0.020</entry><entry>310</entry><entry/><entry/></row>
+	       <row><entry>12</entry><entry>1.6</entry><entry>0.016</entry><entry>310</entry><entry/><entry/></row>
+	       <row><entry>13</entry><entry>2.1</entry><entry>0.012</entry><entry>310</entry><entry/><entry/></row>
+	       <row><entry>14</entry><entry>2.6</entry><entry>0.010</entry><entry>310</entry><entry/><entry/></row>
+	       <row><entry>15</entry><entry>3.2</entry><entry>0.008</entry><entry>310</entry><entry/><entry/></row>
+
+</tbody>
+
+
+
+
+
+
+
+
+
+
+
+
+</tgroup>
+</table><list id="fs-id2675181" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+<item>Select a set of data points from the table and plot those points on a graph to determine whether the gas exhibits properties of an ideal gas. Fill in blank columns in the table for any quantities you graph other than the given data. Label the axes and indicate the scale for each. Draw a best-fit line or curve through your data points.</item>
+<item>Indicate whether the gas exhibits properties of an ideal gas, and explain what characteristic of your graph provides the evidence.</item>
+<item>The students repeat their experiment with an identical container that contains half as much gas. They take data for the same values of volume and temperature as in the table. Would the new data result in a different conclusion about whether the gas is ideal? Justify your answer in terms of interactions between the molecules of the gas and the container walls.</item>
+</list>
+    </problem>
+    <!--<solution id="fs-id1533677">
+<list id="fs-id2246276" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>Plot <emphasis effect="italics">P</emphasis> as a function of 1/<emphasis effect="italics">V</emphasis> for a single value of <emphasis effect="italics">T</emphasis>. Draw a best-fit line through the data.</item>
+<item>Graph of <emphasis effect="italics">P</emphasis> versus 1/<emphasis effect="italics">V</emphasis> for an ideal gas should be linear if <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">T</emphasis> are held constant. In the graphed set of data, <emphasis effect="italics">n</emphasis> and <emphasis effect="italics">T</emphasis> are held constant and the graph is linear, so there is evidence that the gas is ideal.</item>
+<item>No, the conclusion would be the same. Reducing the amount of gas by half would result in there being half the rate of collisions with the container walls and half as much pressure needed to compress the gas to the same volume at the same temperature. The graph of <emphasis effect="italics">P</emphasis> as a function of 1/<emphasis effect="italics">V</emphasis> would still be linear, but with half the slope.</item>
+</list></solution>-->
+  </exercise></section>
+
+
     <section id="fs-id1698840" class="section-summary"><title>Section Summary</title><list id="fs-id2398625">
     <item id="import-auto-id739591">The ideal gas law relates the pressure and volume of a gas to the number of gas molecules and the temperature of the gas.</item>
     <item id="import-auto-id739594">The ideal gas law can be written in terms of the number of molecules of gas:

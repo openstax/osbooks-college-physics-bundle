@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42182</md:content-id>
   <md:title>Angular Momentum and Its Conservation</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>7de5be93-09e1-4ab6-8282-bec00a3e9f3d</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Understand the analogy between angular momentum and linear momentum.</item>
 <item>Observe the relationship between torque and angular momentum.</item>
@@ -646,6 +646,477 @@
         </solution>
    </exercise></section>
 
+   <section id="fs-id1315806" type="ap-test-prep" class="ap-test-prep">
+    <title>Test Prep for AP Courses</title>
+    <exercise id="fs-id1520916" type="ap-test-prep">
+    <problem id="fs-id1965734">
+    <para id="fs-id1873224">Which rotational system would be best to use as a model to measure how angular momentum changes when forces on the system are changed?</para>
+    <list id="fs-id1619044" list-type="enumerated" number-style="lower-alpha"><item>a fishing reel</item>
+    <item>a planet and its moon</item>
+    <item>a figure skater spinning</item>
+    <item>a person's lower leg</item>
+    </list></problem>
+    <solution id="fs-id1522055">
+    <para id="fs-id1664913">(a)</para></solution>
+    </exercise>
+    
+    <exercise id="fs-id1798043" type="ap-test-prep">
+    <problem id="fs-id2181118">
+    <para id="fs-id1565550">You are collecting data to study changes in the angular momentum of a bicycle wheel when a force is applied to it. Which of the following measurements would be least helpful to you?</para>
+    <list id="fs-id2076562" list-type="enumerated" number-style="lower-alpha"><item>the time for which the force is applied</item>
+    <item>the radius at which the force is applied</item>
+    <item>the angular velocity of the wheel when the force is applied</item>
+    <item>the direction of the force</item>
+    </list></problem>
+    <!--<solution id="fs-id2473120">
+    <para id="fs-id2269316">(c)</para></solution>-->
+    </exercise>
+    
+    <exercise id="fs-id1545671" type="ap-test-prep">
+    <problem id="fs-id1600600">
+    <para id="fs-id1881738">Which torque applied to a disk with radius 7.0 cm for 3.5 s will produce an angular momentum of 25 N•m•s?</para>
+    <list id="fs-id1652774" list-type="enumerated" number-style="lower-alpha"><item>7.1 N•m</item>
+    <item>357.1 N•m</item>
+    <item>3.6 N•m</item>
+    <item>612.5 N•m</item>
+    </list></problem>
+    <solution id="fs-id1535825">
+    <para id="fs-id925411">(a)</para></solution>
+    </exercise>
+    
+    <exercise id="fs-id2840694" type="ap-test-prep">
+    <problem id="fs-id1639489">
+    <para id="fs-id1892345">Which of the following would be the best way to produce measurable amounts of torque on a system to test the relationship between the angular momentum of the system, the average torque applied to the system, and the time for which the torque is applied?</para>
+    <list id="fs-id2124876" list-type="enumerated" number-style="lower-alpha"><item>having different numbers of people push on a merry-go-round</item>
+    <item>placing known masses on one end of a seesaw</item>
+    <item>touching the outer edge of a bicycle wheel to a treadmill that is moving at different speeds</item>
+    <item>hanging known masses from a string that is wound around a spool suspended horizontally on an axle</item>
+    </list></problem>
+    <!--<solution id="fs-id1673792">
+    <para id="fs-id1843298">(d)</para></solution>-->
+    </exercise>
+    
+    <exercise id="fs-id1597661" type="ap-test-prep"><problem id="fs-id2010389">
+    <figure id="fs-id1172066"><media id="fs-id895198" alt=""><image mime-type="image/jpg" src="../../media/Figure_11_05_08a.jpg"/></media>
+    <caption>A curved arrow lies at the side of a gray disk. There is a point at the center of the disk, and around the point there is a dashed circle. There is a point labeled “Child” on the dashed circle. Below the disc is a label saying “Top View”.</caption></figure>
+    <para id="fs-id1329147">The diagram above shows a top view of a child of mass <emphasis effect="italics">M</emphasis> on a circular platform of mass 2<emphasis effect="italics">M</emphasis> that is rotating counterclockwise. Assume the platform rotates without friction. Which of the following describes an action by the child that will increase the angular speed of the platform-child system and why?</para>
+    <list id="fs-id1639100" list-type="enumerated" number-style="lower-alpha"><item>The child moves toward the center of the platform, increasing the total angular momentum of the system. </item>
+    <item>The child moves toward the center of the platform, decreasing the rotational inertia of the system. </item>
+    <item>The child moves away from the center of the platform, increasing the total angular momentum of the system. </item>
+    <item>The child moves away from the center of the platform, decreasing the rotational inertia of the system.</item>
+    </list></problem>
+    <solution id="fs-id1981761">
+    <para id="fs-id1141009">(b)</para></solution>
+    </exercise>
+    <exercise id="fs-id1631548" type="ap-test-prep">
+    <problem id="fs-id2368065">
+    <figure id="fs-id1685605"><media id="fs-id1440295" alt=""><image mime-type="image/jpg" src="../../media/Figure_11_05_09a.jpg"/></media>
+    <caption>A point labeled “Moon” lies on a dashed ellipse. Two other points, labeled “A” and “B”, lie at opposite ends of the ellipse. A point labeled “Planet” lies inside the ellipse.</caption></figure>
+    <para id="fs-id2160290">A moon is in an elliptical orbit about a planet as shown above. At point <emphasis effect="italics">A</emphasis> the moon has speed <emphasis effect="italics">uA</emphasis> and is at distance <emphasis effect="italics">RA</emphasis> from the planet. At point <emphasis effect="italics">B</emphasis> the moon has speed <emphasis effect="italics">uB</emphasis>. Has the moon's angular momentum changed? Explain your answer.</para>
+    </problem>
+    <!--<solution id="fs-id1596871">
+    <para id="fs-id2137746">The moon's angular momentum has not changed. There is no external torque on this system. When there is no external torque, angular momentum is directly proportional to the planet's mass, the radius of its orbit, and the planet's angular velocity. None of these quantities changes as the moon orbits the planet, so the moon's angular momentum will not change.</para>
+    </solution>-->
+    </exercise>
+    
+    <exercise id="fs-id1445572" type="ap-test-prep"><problem id="fs-id1660078">
+    <para id="fs-id1658754">A hamster sits 0.10 m from the center of a lazy Susan of negligible mass. The wheel spins with a frequency of 1.0 rev/s. How will the frequency of the lazy Susan change if the hamster walks to 0.30 m from the center of rotation? Assume zero friction and no external torque.</para><list id="fs-id1623811" list-type="enumerated" number-style="lower-alpha"><item>It will speed up to 2.0 rev/s.</item>
+    <item>It will speed up to 9.0 rev/s.</item>
+    <item>It will slow to 0.11 rev/s.</item>
+    <item>It will slow to 0.22 rev/s.</item>
+    </list></problem>
+    <solution id="fs-id1517962">
+    <para id="fs-id1479208">(c)</para>
+    </solution>
+    </exercise>
+    <exercise id="fs-id1722786" type="ap-test-prep"><problem id="fs-id1586064">
+    <para id="fs-id1511704">Earth has a mass of 6.0 × 10<sup>24</sup> kg, a radius of 6.4 × 10<sup>6</sup> m, and a rotational frequency of 1.2 × 10<sup>–5</sup> rev/s. How would the planet's rotational frequency change if a layer of Earth with mass 1.0 × 10<sup>23</sup> kg broke off of the Earth, decreasing Earth's radius by 0.2 × 10<sup>6</sup> m? Assume no friction.</para></problem>
+    <!--<solution id="fs-id2501766">
+    <para id="fs-id1417838">Since angular momentum is conserved,
+    <m:math>
+     <m:mrow>
+      <m:mi>I</m:mi><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>I</m:mi><m:mo>&#8242;</m:mo><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+     </m:mrow>
+    </m:math>, where <m:math>
+     <m:mrow>
+      <m:mi>I</m:mi><m:mo>&#8242;</m:mo>
+     </m:mrow>
+    </m:math> and <m:math>
+     <m:mrow>
+      <m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+     </m:mrow>
+    </m:math> represent the moment of inertia and the angular velocity after the piece has broken off.</para>
+    <para id="fs-id1423575">For a sphere,
+    
+    <m:math>
+     <m:mrow>
+      <m:mi>I</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mi>M</m:mi><m:msup>
+         <m:mi>R</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+    
+       </m:mrow>
+       <m:mn>5</m:mn>
+      </m:mfrac>
+    
+     </m:mrow>
+    </m:math>
+    , so
+    
+    <m:math>
+     <m:mrow>
+      <m:mfrac>
+       <m:mrow>
+        <m:mn>2</m:mn><m:mi>M</m:mi><m:msup>
+         <m:mi>R</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+    
+       </m:mrow>
+       <m:mn>5</m:mn>
+      </m:mfrac>
+      <m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mn>2</m:mn><m:msup>
+         <m:mi>M</m:mi>
+         <m:mo>&#8242;</m:mo>
+        </m:msup>
+        <m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:msup>
+             <m:mi>R</m:mi>
+             <m:mo>&#8242;</m:mo>
+            </m:msup>
+           </m:mrow>
+          <m:mo>)</m:mo></m:mrow>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+    
+       </m:mrow>
+       <m:mn>5</m:mn>
+      </m:mfrac>
+      <m:mtext>&#8201;</m:mtext><m:mtext>&#8201;</m:mtext><m:mi>&#969;</m:mi><m:mo>&#8242;</m:mo>
+     </m:mrow>
+    </m:math>
+    
+    <m:math>
+     <m:mrow>
+      <m:msup>
+       <m:mi>&#969;</m:mi>
+       <m:mo>&#8242;</m:mo>
+      </m:msup>
+      <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mi>M</m:mi><m:msup>
+         <m:mi>R</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mi>&#969;</m:mi>
+       </m:mrow>
+       <m:mrow>
+        <m:msup>
+         <m:mi>M</m:mi>
+         <m:mo>&#8242;</m:mo>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:msup>
+             <m:mi>R</m:mi>
+             <m:mo>&#8242;</m:mo>
+            </m:msup>
+    
+           </m:mrow>
+          <m:mo>)</m:mo></m:mrow>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+    
+       </m:mrow>
+      </m:mfrac>
+    
+     </m:mrow>
+    </m:math></para>
+    
+    <para id="fs-id1873705"><m:math>
+     <m:mrow>
+      <m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mn>6.0</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mn>24</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>6.4</m:mn><m:mo>&#215;</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn>
+             </m:mrow>
+             <m:mn>6</m:mn>
+            </m:msup>
+            <m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+           </m:mrow>
+          <m:mo>)</m:mo></m:mrow>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo>&#8901;</m:mo><m:mn>1.2</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mo>&#8722;</m:mo><m:mn>5</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:mtext>rev/s</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>5.9</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mn>24</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:msup>
+         <m:mrow>
+          <m:mrow><m:mo>(</m:mo>
+           <m:mrow>
+            <m:mn>6.2</m:mn><m:mo>&#215;</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn>
+             </m:mrow>
+             <m:mn>6</m:mn>
+            </m:msup>
+            <m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+           </m:mrow>
+          <m:mo>)</m:mo></m:mrow>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+    
+       </m:mrow>
+      </m:mfrac>
+    
+     </m:mrow>
+    </m:math>
+    </para>
+    
+    <para id="fs-id2265622">
+    <m:math>
+     <m:mrow>
+      <m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mfrac>
+       <m:mrow>
+        <m:mn>2.9</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mrow>
+          <m:mo>&#8722;</m:mo><m:mn>7</m:mn>
+         </m:mrow>
+        </m:msup>
+        <m:mtext>&#8201;</m:mtext><m:mtext>rev/s</m:mtext>
+       </m:mrow>
+       <m:mrow>
+        <m:mn>2.3</m:mn><m:mo>&#215;</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn>
+         </m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+    
+       </m:mrow>
+      </m:mfrac>
+    
+     </m:mrow>
+    </m:math>
+    </para>
+    <para id="fs-id1736742">
+    <m:math>
+     <m:mrow>
+      <m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>1.3</m:mn><m:mo>&#215;</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn>
+       </m:mrow>
+       <m:mrow>
+        <m:mo>&#8722;</m:mo><m:mn>5</m:mn>
+       </m:mrow>
+      </m:msup>
+      <m:mtext>&#8201;</m:mtext><m:mtext>rev/s</m:mtext>
+     </m:mrow>
+    </m:math>
+    </para>
+    
+    <para id="fs-id1583115">Earth's angular velocity would increase to 1.3 &#215; 10<sup>&#8211;5</sup> rev/s.</para>
+    <para id="fs-id1299675">Earth's decrease in mass would tend to decrease the angular velocity, but the decrease in radius would tend to increase the angular velocity, resulting in a small increase.</para>
+    </solution>-->
+    </exercise>
+    <exercise id="fs-id1665126" type="ap-test-prep">
+    <problem id="fs-id1640437">
+    <para id="fs-id1964149">Consider system A, consisting of two disks of radius <emphasis effect="italics">R</emphasis>, with both rotating clockwise. Now consider system B, consisting of one disk of radius <emphasis effect="italics">R</emphasis> rotating counterclockwise and another disk of radius 2<emphasis effect="italics">R</emphasis> rotating clockwise. All of the disks have the same mass, and all have the same magnitude of angular velocity.</para>
+    <para id="fs-id1979168">Which system has the greatest angular momentum?</para>
+    <list id="fs-id1932805" list-type="enumerated" number-style="lower-alpha"><item>A</item>
+    <item>B</item>
+    <item>They're equal.</item>
+    <item>Not enough information</item>
+    </list></problem>
+    <solution id="fs-id1670585">
+    <para id="fs-id2257551">(b)</para></solution>
+    </exercise>
+    
+    <exercise id="fs-id2019185" type="ap-test-prep">
+    <problem id="fs-id1474321">
+    <para id="fs-id1639258">Assume that a baseball bat being swung at 3π rad/s by a batting machine is equivalent to a 1.1 m thin rod with a mass of 1.0 kg. How fast would a 0.15 kg baseball that squarely hits the very tip of the bat have to be going for the net angular momentum of the bat-ball system to be zero?</para></problem>
+    <!--<solution id="fs-id1521035">
+    <para id="fs-id1557949"><m:math>
+     <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+       <m:mtext>bat</m:mtext>
+      </m:mrow>
+     </m:msub>
+     <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+    
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mi>m</m:mi><m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mfrac>
+        <m:mn>1</m:mn>
+        <m:mn>3</m:mn>
+       </m:mfrac>
+    
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>1.0</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1.1</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+      <m:mrow>
+       <m:mn>2</m:mn><m:mtext>&#8201;</m:mtext>
+      </m:mrow>
+     </m:msup>
+     <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>0.40</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:msup>
+      <m:mtext>m</m:mtext>
+      <m:mtext>2</m:mtext>
+     </m:msup>
+    
+    </m:math>.
+    
+    <m:math>
+     <m:msub>
+      <m:mi>L</m:mi>
+      <m:mrow>
+       <m:mtext>bat</m:mtext>
+      </m:mrow>
+     </m:msub>
+     <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>I</m:mi><m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>0.40</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:msup>
+        <m:mtext>m</m:mtext>
+        <m:mtext>2</m:mtext>
+       </m:msup>
+    
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>3</m:mn><m:mi>&#960;</m:mi><m:mtext>&#8201;</m:mtext><m:mtext>rad/s</m:mtext>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>3.8</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:msup>
+      <m:mtext>m</m:mtext>
+      <m:mtext>2</m:mtext>
+     </m:msup>
+     <m:mtext>/s</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>=</m:mtext><m:mtext>&#8201;</m:mtext><m:msub>
+      <m:mi>L</m:mi>
+      <m:mrow>
+       <m:mtext>ball</m:mtext>
+      </m:mrow>
+     </m:msub>
+    
+    </m:math>.</para><para id="fs-id2170670"><m:math>
+     <m:msub>
+      <m:mi>I</m:mi>
+      <m:mrow>
+       <m:mtext>ball</m:mtext>
+      </m:mrow>
+     </m:msub>
+     <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>m</m:mi><m:msup>
+      <m:mi>r</m:mi>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>0.15</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:msup>
+      <m:mrow><m:mo>(</m:mo>
+       <m:mrow>
+        <m:mn>1.1</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+       </m:mrow>
+      <m:mo>)</m:mo></m:mrow>
+      <m:mn>2</m:mn>
+     </m:msup>
+     <m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>0.18</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:msup>
+      <m:mtext>m</m:mtext>
+      <m:mtext>2</m:mtext>
+     </m:msup>
+    </m:math>. The angular velocity of the ball at the point of impact is
+    <m:math>
+     <m:mi>&#969;</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>v</m:mi><m:mo>/</m:mo><m:mi>r</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>L</m:mi><m:mo>/</m:mo><m:mi>I</m:mi>
+    </m:math>, so <m:math>
+     <m:mi>v</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mi>r</m:mi><m:mi>L</m:mi><m:mo>/</m:mo><m:mi>I</m:mi><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>1.1</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m</m:mtext>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mtext>3</m:mtext><m:mtext>.8</m:mtext><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:msup>
+        <m:mtext>m</m:mtext>
+        <m:mtext>2</m:mtext>
+       </m:msup>
+       <m:mtext>/s</m:mtext>
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mo>/</m:mo><m:mrow><m:mo>(</m:mo>
+      <m:mrow>
+       <m:mn>0.18</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>kg</m:mtext><m:mo>&#8901;</m:mo><m:msup>
+        <m:mtext>m</m:mtext>
+        <m:mtext>2</m:mtext>
+       </m:msup>
+    
+      </m:mrow>
+     <m:mo>)</m:mo></m:mrow><m:mtext>&#8201;</m:mtext><m:mo>=</m:mo><m:mtext>&#8201;</m:mtext><m:mn>23</m:mn><m:mtext>&#8201;</m:mtext><m:mtext>m/s</m:mtext>
+    </m:math>
+    </para></solution>-->
+    </exercise>
+    </section>
+    
+    
     <section id="fs-id1446936" class="section-summary"><title>Section Summary</title><list id="fs-id742248"><item id="import-auto-id1381663">Every rotational phenomenon has a direct translational analog , likewise angular momentum <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> can be defined as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>L</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Iω</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L=Iω} {}</m:annotation></m:semantics></m:math></item>
     <item id="import-auto-id2625259">This equation is an analog to the definition of linear momentum as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>p</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{p= ital "mv"} {}</m:annotation></m:semantics></m:math>. The relationship between torque and angular momentum is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>net </m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>τ</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow>
 <m:mtext>Δ</m:mtext>

@@ -230,6 +230,42 @@
 <figure id="eip-idm1195599520"><media id="eip-idm415114672" alt="This simulation is electronics kit in your computer.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/21cirphysbascur"/>
 </media></figure></note>
+
+<section id="fs-id1552526" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+  <exercise id="fs-id1673724" type="ap-test-prep"><problem id="fs-id1787707">
+  <para id="fs-id2977607">A battery is connected to a resistor and an uncharged capacitor. The switch for the circuit is closed at <emphasis effect="italics">t</emphasis> = 0 s.</para>
+  <list id="fs-id1878434" list-type="enumerated" number-style="lower-alpha">
+  <item><para id="fs-id2572873">While the capacitor is being charged, which of the following is true?</para>
+  <list id="fs-id1985884" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Current through and voltage across the resistor increase.</item>
+  <item>Current through and voltage across the resistor decrease.</item>
+  <item>Current through and voltage across the resistor first increase and then decrease.</item>
+  <item>Current through and voltage across the resistor first decrease and then increase.</item>
+  </list>
+  </item>
+  <item>
+  <para id="fs-id3011323">When the capacitor is fully charged, which of the following is NOT zero?</para>
+  <list id="fs-id1955275" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>Current in the resistor.</item>
+  <item>Voltage across the resistor.</item>
+  <item>Current in the capacitor.</item>
+  <item>None of the above.</item>
+  </list>
+  </item>
+  </list>
+  </problem></exercise><exercise id="fs-id3552653" type="ap-test-prep">
+  <problem id="fs-id1972248">
+  <para id="fs-id1972250">An uncharged capacitor <emphasis effect="italics">C</emphasis> is connected in series (with a switch) to a resistor <emphasis effect="italics">R<sub>1</sub></emphasis> and a voltage source <emphasis effect="italics">E</emphasis>. Assume <emphasis effect="italics">E</emphasis> = 24 V, <emphasis effect="italics">R<sub>1</sub></emphasis> = 1.2 kΩ and <emphasis effect="italics">C</emphasis> = 1 mF.</para><list id="fs-id3859598" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")">
+  <item>What will be the current through the circuit as the switch is closed? Draw a circuit diagram and show the direction of current after the switch is closed. How long will it take for the capacitor to be 99% charged?</item>
+  <item>After full charging, this capacitor is connected in series to another resistor, <emphasis effect="italics">R<sub>2</sub></emphasis> = 1 kΩ. What will be the current in the circuit as soon as it’s connected? Draw a circuit diagram and show the direction of current. How long will it take for the capacitor voltage to reach 3.24 V?</item>
+  </list>
+  </problem>
+  <solution id="fs-id1944594">
+  <para id="fs-id2770038">(a) 20 mA, <link target-id="import-auto-id1907896"/>, 5.5 s; (b) 24 mA, <link target-id="import-auto-id1404084" document="m55368"/>, 2 s</para></solution>
+  </exercise>
+  </section>
+  
 <section id="fs-id1570905" class="section-summary"><title>Section Summary</title><list id="fs-id1993750"><item id="import-auto-id2626248">An <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>RC</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "RC"} {}</m:annotation></m:semantics></m:math> circuit is one that has both a resistor and a capacitor.</item>
     <item id="import-auto-id2639676">The time constant <m:math><m:semantics><m:mrow><m:mrow><m:mi>τ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ} {}</m:annotation></m:semantics></m:math> for an <m:math><m:semantics><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>RC</m:mtext></m:mrow></m:mstyle></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "RC"} {}</m:annotation></m:semantics></m:math> circuit is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>τ</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>RC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{τ= ital "RC"} {}</m:annotation></m:semantics></m:math>.</item>
     <item id="import-auto-id3079513">When an initially uncharged (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>V</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V rSub { size 8{0} } =0} {}</m:annotation></m:semantics></m:math> at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t=0} {}</m:annotation></m:semantics></m:math>) capacitor in series with a resistor is charged by a DC voltage source, the voltage rises, asymptotically approaching the emf of the voltage source; as a function of time,

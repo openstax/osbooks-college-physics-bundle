@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42171</md:content-id>
   <md:title>The Second Condition for Equilibrium</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>11aac25a-551d-4c47-8524-1a98414470b3</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>State the second condition that is necessary to achieve equilibrium.</item>
 <item>Explain torque and the factors on which it depends.</item>
@@ -251,7 +251,34 @@
     <para id="import-auto-id1427077">Third, the weight of each child is distributed over an area of the seesaw, yet we treated the weights as if each force were exerted at a single point. This is not an approximation—the distances <m:math><m:semantics><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>1</m:mtext></m:msub></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:msub><m:mi>r</m:mi><m:mtext>2</m:mtext></m:msub></m:mrow></m:semantics></m:math> are the distances to points directly below the <term id="import-auto-id2628264">center of gravity</term> of each child. As we shall see in the next section, the mass and weight of a system can act as if they are located at a single point.</para><para id="import-auto-id892738">Finally, note that the concept of torque has an importance beyond static equilibrium. <emphasis effect="italics">Torque plays the same role in rotational motion that force plays in linear motion.</emphasis> We will examine this in the next chapter.</para>
     <note id="fs-id3028976"><label/><title>Take-Home Experiment</title>
 
-    <para id="import-auto-id3514264">Take a piece of modeling clay and put it on a table, then mash a cylinder down into it so that a ruler can balance on the round side of the cylinder while everything remains still. Put a penny 8 cm away from the pivot. Where would you need to put two pennies to balance? Three pennies?</para></note><section id="fs-id2125333" class="section-summary"><title>Section Summary</title><list id="fs-id3597888"><item id="import-auto-id3580915">The second condition assures those torques are also balanced. Torque is the rotational equivalent of a force in producing a rotation and is defined to be
+    <para id="import-auto-id3514264">Take a piece of modeling clay and put it on a table, then mash a cylinder down into it so that a ruler can balance on the round side of the cylinder while everything remains still. Put a penny 8 cm away from the pivot. Where would you need to put two pennies to balance? Three pennies?</para></note>
+    
+<section id="fs-id1329078" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id1330781" type="ap-test-prep"><problem id="fs-id2376070">
+      <para id="fs-id2379210">Which of the following is not an example of an object undergoing a torque? </para>
+      <list id="fs-id1313957" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>A car is rounding a bend at a constant speed.</item>
+	<item>A merry-go-round increases from rest to a constant rotational speed.</item>
+	<item>A pendulum swings back and forth.</item>
+	<item>A bowling ball rolls down a bowling alley.</item>
+      </list></problem>
+    <solution id="fs-id1912405">
+      <para id="fs-id1352221">(a)</para></solution>
+  </exercise><exercise id="fs-id1495433" type="ap-test-prep"><problem id="fs-id3260973">
+      <para id="fs-id2793994">Five forces of equal magnitude, labeled <emphasis effect="bold"><emphasis effect="italics">A</emphasis></emphasis>–<emphasis effect="bold"><emphasis effect="italics">E</emphasis></emphasis>, are applied to the object shown below. If the object is anchored at point <emphasis effect="bold"><emphasis effect="italics">P</emphasis></emphasis>, which force will provide the greatest torque?</para><figure id="fs-id1774614"><media id="fs-id1292491" alt="The diagram shows a gray that is a rounded shape of a shoe. Slightly to the right of center is a black dot labeled P. There are 5 red arrows nearly perpendicular to the curved line representing the edge of the object. Arrow A is pointing straight down toward where the line curves around the top. Arrow B is a horizontal line pointing away from the object as the edge curves slightly in an almost vertical line. Arrow C is pointing directly below the P from the edge down. At this point the object begins to curve up from the horizontal. Arrow D is pointing toward straight up toward the object's edge where the object is curving upward more than point C. Arrow E is pointing toward the left edge at around a 45 degree angle toward the object and is approximately perpendicular to the object again.">
+          <image mime-type="image/jpg" src="../../media/Figure 09_S2_02.jpg"/>
+        </media>
+
+      <caption>Five forces acting on an object.</caption></figure><list id="fs-id1277184" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item>Force <emphasis effect="bold"><emphasis effect="italics">A</emphasis></emphasis></item>
+	<item>Force <emphasis effect="bold"><emphasis effect="italics">B</emphasis></emphasis></item>
+	<item>Force <emphasis effect="bold"><emphasis effect="italics">C</emphasis></emphasis></item>
+	<item>Force <emphasis effect="bold"><emphasis effect="italics">D</emphasis></emphasis></item>
+	<item>Force <emphasis effect="bold"><emphasis effect="italics">E</emphasis></emphasis></item>
+      </list></problem>
+</exercise></section>
+
+<section id="fs-id2125333" class="section-summary"><title>Section Summary</title><list id="fs-id3597888"><item id="import-auto-id3580915">The second condition assures those torques are also balanced. Torque is the rotational equivalent of a force in producing a rotation and is defined to be
     <equation id="eip-958"><m:math>
         <m:semantics>
           <m:mrow>
