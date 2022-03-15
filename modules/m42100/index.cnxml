@@ -741,7 +741,40 @@
       </exercise><note id="fs-id4128084" class="interactive"><title>Moving Man Simulation</title><para id="import-auto-id2338731">Learn about position, velocity, and acceleration graphs. Move the little man back and forth with the mouse and plot his motion. Set the position, velocity, or acceleration and let the simulation move the man for you. <newline/>
 <figure id="eip-idm812698640">
 <media id="MovingMan" alt=""><iframe width="660" height="371.4" src="https://openstax.org/l/02moving_man"/></media></figure></para></note></section>
-      <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id4131829" class="section-summary"><title>Section Summary</title><list id="fs-id1644411"><item id="import-auto-id2412645">Acceleration is the rate at which velocity changes. In symbols, <term id="term-00001">average acceleration</term> <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {a}}} {}</m:annotation></m:semantics></m:math> is
+      
+<section id="fs-id1922895" type="ap-test-prep" class="ap-test-prep">
+  <title>Test Prep for AP Courses</title>
+
+  <exercise id="fs-id1454119" type="ap-test-prep"><problem id="fs-id3184331">
+
+<figure id="fs-id3184333">
+	<media id="fs-id2335809" alt="The picture is a graph grid showing v (ms) along the vertical y-axis and t (s) near the center of the graph for the horizontal x-axis. The v(ms) axis is labeled from top to bottom, 10, 8, 6, 4, 2, 0 (t axis), -2, -4, -6. Each of the even numbers has a horizontal gray line running the width of the grid. The t axis is labeled with a vertical tic, a second vertical tic and 1.0 at the third vertical tic. There are two more vertical tics and then 2.0 at the sixth vertical tic. Each tic has a vertical gray line running the height of the grid.  There are 5 black points labeled A-E on the grid with a solid black line connecting the points. The points on the graph are as follows along the t, V (or x-y grid): A is at the origin (0,0). B is at the second tic (2/3 second) and 8 v/s. The line between A and B rises quickly: It is past half-way between 6 and 8 in the first tic and is a very short curve between the first and second tic. C is at the third tic (1.0) and 8 v/s. The line between B and C is horizontal and goes from the second to third tics on the grid. D is on the horizontal axis in the middle of the grid (V of 0 m/s) at a point just slightly past the first tic after 1. The from C to D is straight. E is at -4 on the vertical axis and 2.0 on the horizontal axis. The line is straight between D and E and moves to gray boxes right and two gray boxes down.">
+          <image mime-type="image/jpg" src="../../media/Figure_Ch2_M4_14.jpg"/>
+        </media>
+	<caption>Graph showing Velocity vs. Time of a cart.</caption>
+</figure>
+
+<para id="fs-id1857723">A cart is constrained to move along a straight line. A varying net force along the direction of motion is exerted on the cart. The cart's velocity <emphasis effect="italics">v</emphasis> as a function of time <emphasis effect="italics">t</emphasis> is shown in the graph. The five labeled points divide the graph into four sections. </para><para id="fs-id1550872">Which of the following correctly ranks the magnitude of the average acceleration of the cart during the four sections of the graph?</para>
+<list id="fs-id3158853" list-type="enumerated" number-style="lower-alpha" mark-prefix="(" mark-suffix=")"><item><emphasis effect="italics">a<sub>CD</sub></emphasis> > <emphasis effect="italics">a<sub>AB</sub></emphasis> > <emphasis effect="italics">a<sub>BC</sub></emphasis> > <emphasis effect="italics">a<sub>DE</sub></emphasis></item>
+<item><emphasis effect="italics">a<sub>BC</sub></emphasis> > <emphasis effect="italics">a<sub>AB</sub></emphasis> > <emphasis effect="italics">a<sub>CD</sub></emphasis> > <emphasis effect="italics">a<sub>DE</sub></emphasis></item>
+<item><emphasis effect="italics">a<sub>AB</sub></emphasis> > <emphasis effect="italics">a<sub>BC</sub></emphasis> > <emphasis effect="italics">a<sub>DE</sub></emphasis> > <emphasis effect="italics">a<sub>CD</sub></emphasis></item>
+<item><emphasis effect="italics">a<sub>CD</sub></emphasis> > <emphasis effect="italics">a<sub>AB</sub></emphasis> > <emphasis effect="italics">a<sub>DE</sub></emphasis> > <emphasis effect="italics">a<sub>BC</sub></emphasis></item>
+</list></problem>
+ </exercise><exercise id="fs-id1860126" type="ap-test-prep">
+    <problem id="fs-id2388387">
+    <para id="fs-id2626177">Push a book across a table and observe it slow to a stop.</para>
+    <para id="fs-id3169058">Draw graphs showing the book's position vs. time and velocity vs. time if the direction of its motion is considered positive. </para>
+    <para id="fs-id3169061">Draw graphs showing the book's position vs. time and velocity vs. time if the direction of its motion is considered negative.</para>
+    </problem>
+    <solution id="fs-id2548115">
+    <para id="fs-id3225863">The position vs. time graph should be represented with a positively sloped line whose slope steadily decreases to zero. The <emphasis effect="italics">y</emphasis>-intercept of the graph may be any value. The line on the velocity vs. time graph should have a positive <emphasis effect="italics">y</emphasis>-intercept and a negative slope. Because the final velocity of the book is zero, the line should finish on the <emphasis effect="italics">x</emphasis>-axis.</para>
+    <para id="fs-id2503464">The position vs. time graph should be represented with a negatively sloped line whose slope steadily decreases to zero. The <emphasis effect="italics">y</emphasis>-intercept of the graph may be any value. The line on the velocity vs. time graph should have a negative <emphasis effect="italics">y</emphasis>-intercept and a positive slope. Because the final velocity of the book is zero, the line should finish on the <emphasis effect="italics">x</emphasis>-axis.]</para>
+    </solution>
+  </exercise>
+
+</section>
+
+<section xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id4131829" class="section-summary"><title>Section Summary</title><list id="fs-id1644411"><item id="import-auto-id2412645">Acceleration is the rate at which velocity changes. In symbols, <term id="term-00001">average acceleration</term> <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>a</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {a}}} {}</m:annotation></m:semantics></m:math> is
       <equation id="import-auto-id2412659"><m:math>
           <m:semantics>
             <m:mrow>
@@ -866,6 +899,8 @@
       <exercise id="fs-id4124470" type="problems-exercises"><problem id="fs-id4124472">
 <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2412358">Assume that an intercontinental ballistic missile goes from rest to a suborbital speed of 6.50 km/s in 60.0 s (the actual speed and time are classified). What is its average acceleration in <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mtext>m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"m/s" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> and in multiples of <m:math><m:semantics><m:mrow><m:mrow><m:mi>g</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mtext>80 m</m:mtext><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">)</m:mo></m:mrow><m:mo>?</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para></problem></exercise>
       </section>
+
+
  </content>
 
 
