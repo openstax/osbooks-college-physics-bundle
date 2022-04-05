@@ -15,8 +15,8 @@
 <item>Determine the electric potential of a point charge given charge and distance.</item>
 </list>
   </section>
-        <para id="import-auto-id3164604">Point charges, such as electrons, are among the fundamental building blocks of matter. Furthermore, spherical charge distributions (like on a metal sphere) create external electric fields exactly like a point charge. The electric potential due to a point charge is, thus, a case we need to consider. Using calculus to find the work needed to move a test charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{q} {}</m:annotation></m:semantics></m:math></emphasis> from a large distance away to a distance of <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> from a point charge <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q} {}</m:annotation></m:semantics></m:math></emphasis>, and noting the connection between work and potential <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">–</m:mo><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (W= - q?V right )} {}</m:annotation></m:semantics></m:math>, it can be shown that the <emphasis effect="italics">electric potential <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> of a point charge</emphasis> is </para><equation id="eip-436"><m:math>
-    <m:semantics>
+        <para id="import-auto-id3164604">Point charges, such as electrons, are among the fundamental building blocks of matter. Furthermore, spherical charge distributions (like on a metal sphere) create external electric fields exactly like a point charge. The electric potential due to a point charge is, thus, a case we need to consider. Using calculus to find the work needed to move a test charge <emphasis effect="italics"><m:math><m:mrow><m:mrow><m:mi>q</m:mi></m:mrow></m:mrow></m:math></emphasis> from a large distance away to a distance of <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> from a point charge <emphasis effect="italics"><m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math></emphasis>, and noting the connection between work and potential <m:math><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>W</m:mi><m:mo stretchy="false">=</m:mo><m:mspace width="0.25em"/><m:mrow><m:mo stretchy="false">–</m:mo><m:mi fontstyle="italic">q</m:mi><m:mn>Δ</m:mn><m:mi>V</m:mi></m:mrow></m:mrow></m:mfenced></m:mrow><m:mrow/></m:mrow></m:math>, it can be shown that the <emphasis effect="italics">electric potential <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> of a point charge</emphasis> is </para><equation id="eip-436"><m:math>
+    
      <m:mrow>
        <m:mrow>
         <m:mrow>
@@ -62,13 +62,11 @@ Point Charge
        </m:mrow>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math></equation><para id="eip-41">where <emphasis effect="italics">k</emphasis> is a constant equal to
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
     <m:mn>9.0</m:mn>
     <m:mo>×</m:mo>
@@ -89,11 +87,11 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
     <m:mtext>2</m:mtext>
    </m:msup>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.</para><note id="fs-id2601528"><label/>
-    <title>Electric Potential <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> of a Point Charge</title>
-    <para id="import-auto-id2550748">The electric potential <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> of a point charge is given by</para><equation id="eip-235"><m:math>
-    <m:semantics>
+    <title>Electric Potential <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> of a Point Charge</title>
+    <para id="import-auto-id2550748">The electric potential <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> of a point charge is given by</para><equation id="eip-235"><m:math>
+    
      <m:mrow>
        <m:mrow>
         <m:mrow>
@@ -139,13 +137,11 @@ Point Charge
        </m:mrow>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math></equation></note>
-    <para id="import-auto-id3099833">The potential at infinity is chosen to be zero. Thus <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> for a point charge decreases with distance, whereas <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> for a point charge decreases with distance squared:</para><equation id="eip-277"><m:math>
-<m:semantics>
+    <para id="import-auto-id3099833">The potential at infinity is chosen to be zero. Thus <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> for a point charge decreases with distance, whereas <m:math><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow></m:mrow></m:math> for a point charge decreases with distance squared:</para><equation id="eip-277"><m:math>
+
 <m:mrow>
 <m:mrow>
 <m:mrow>
@@ -167,25 +163,25 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 </m:mfrac>
 <m:mo>.</m:mo>
 
-</m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (E=F/q right )= ital "kQ/r" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1358149">Recall that the electric potential <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is a scalar and has no direction, whereas the electric field <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> is a vector. To find the voltage due to a combination of point charges, you add the individual voltages as numbers. To find the total electric field, you must add the individual fields as <emphasis effect="italics">vectors</emphasis>, taking magnitude and direction into account. This is consistent with the fact that <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is closely associated with energy, a scalar, whereas <m:math><m:semantics><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> is closely associated with force, a vector.</para><example id="fs-id3084387"><title>What Voltage Is Produced by a Small Charge on a Metal Sphere?</title><para id="import-auto-id1538032">Charges in static electricity are typically in the nanocoulomb <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mtext>nC</m:mtext></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left ("nC" right )} {}</m:annotation></m:semantics></m:math> to microcoulomb <m:math><m:semantics><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mtext>µC</m:mtext></m:mfenced></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (µC right )} {}</m:annotation></m:semantics></m:math> range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a <m:math>
- <m:semantics>
+</m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1358149">Recall that the electric potential <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is a scalar and has no direction, whereas the electric field <m:math><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow></m:mrow></m:math> is a vector. To find the voltage due to a combination of point charges, you add the individual voltages as numbers. To find the total electric field, you must add the individual fields as <emphasis effect="italics">vectors</emphasis>, taking magnitude and direction into account. This is consistent with the fact that <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is closely associated with energy, a scalar, whereas <m:math><m:mrow><m:mrow><m:mtext mathvariant="bold">E</m:mtext></m:mrow></m:mrow></m:math> is closely associated with force, a vector.</para><example id="fs-id3084387"><title>What Voltage Is Produced by a Small Charge on a Metal Sphere?</title><para id="import-auto-id1538032">Charges in static electricity are typically in the nanocoulomb <m:math><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mtext>nC</m:mtext></m:mfenced></m:mrow><m:mrow/></m:mrow></m:math> to microcoulomb <m:math><m:mrow><m:mrow><m:mfenced open="(" close=")"><m:mtext>µC</m:mtext></m:mfenced></m:mrow><m:mrow/></m:mrow></m:math> range. What is the voltage 5.00 cm away from the center of a 1-cm diameter metal sphere that has a <m:math>
+ 
   <m:mrow>
     <m:mn>−3.00</m:mn>
    <m:mspace width="0.25em"/>
    <m:mtext>nC</m:mtext>
   </m:mrow>
- </m:semantics>
+ 
 </m:math> static charge?</para><para id="import-auto-id2921047">
       <title>Strategy</title>
       
     </para>
-    <para id="import-auto-id967675">As we have discussed in <link document="m42299">Electric Charge and Electric Field</link>, charge on a metal sphere spreads out uniformly and produces a field like that of a point charge located at its center. Thus we can find the voltage using the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kQ</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "kQ"/r} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1951323">
+    <para id="import-auto-id967675">As we have discussed in <link document="m42299">Electric Charge and Electric Field</link>, charge on a metal sphere spreads out uniformly and produces a field like that of a point charge located at its center. Thus we can find the voltage using the equation <m:math><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kQ</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para><para id="import-auto-id1951323">
       <title>Solution</title>
       
     </para>
     <para id="import-auto-id2949583">Entering known values into the expression for the potential of a point charge, we obtain</para>
     <equation id="eip-174"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -305,11 +301,7 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
               </m:mtable>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{V=k {  {Q}  over  {r} } = left (9 "." "00" times "10" rSup { size 8{9} } " N" cdot m rSup { size 8{2} } /C rSup { size 8{2} }  right ) {  { - 3 "." "00" times "10" rSup { size 8{ - 9} } " C"}  over  {5 "." "00" times "10" rSup { size 8{"–2"} } " m"} } }  {} #
-= - "540"" V" "."  {}
-} } {}</m:annotation>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id1553592">
       <title>Discussion</title>
@@ -325,7 +317,7 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
       
     </para>
     <para id="import-auto-id1600063">The potential on the surface will be the same as that of a point charge at the center of the sphere, 12.5 cm away. (The radius of the sphere is 12.5 cm.) We can thus determine the excess charge using the equation</para><equation id="eip-992"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -347,19 +339,19 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{V= ital "kQ"/r} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id2712206">
       <title>Solution</title>
       
     </para>
     <para id="import-auto-id1597012">Solving for <m:math>
- <m:semantics>
+ 
   <m:mi>Q</m:mi>
- </m:semantics>
+ 
 </m:math> and entering known values gives</para><equation id="eip-939"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -452,23 +444,17 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
                     </m:msup><m:mspace width="0.25em"/>
                     <m:mtext>C</m:mtext><m:mo>=</m:mo><m:mtext>1.39 µC.</m:mtext></m:mtd>
                 </m:mtr>
-              </m:mtable>
-              <m:mrow/>
-            </m:mrow>
+              </m:mtable>            </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{Q= {  { ital "rV"}  over  {k} } = {  { left (0 "." "12"" m" right ) left ("100"´"10" rSup { size 8{3} } " V" right )}  over  {9 "." "00"´"10" rSup { size 8{9} } " N" cdot m rSup { size 8{2} } /C rSup { size 8{2} } } } }  {} #
-=1 "." "39"´"10" rSup { size 8{-6} } " C=1" "." "39 "mC "."  {}
-} } {}</m:annotation>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id3083966">
       <title>Discussion</title>
       
     </para>
     <para id="import-auto-id2679258">This is a relatively small charge, but it produces a rather large voltage. We have another indication here that it is difficult to store isolated charges.</para>
-    </example><para id="import-auto-id1033689">The voltages in both of these examples could be measured with a meter that compares the measured potential with ground potential. Ground potential is often taken to be zero (instead of taking the potential at infinity to be zero). It is the potential difference between two points that is of importance, and very often there is a tacit assumption that some reference point, such as Earth or a very distant point, is at zero potential. As noted in <link document="m42324">Electric Potential Energy: Potential Difference</link>, this is analogous to taking sea level as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mi>0</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{h=0} {}</m:annotation></m:semantics></m:math> when considering gravitational potential energy, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mn>g</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"PE" rSub { size 8{g} } = ital "mgh"} {}</m:annotation></m:semantics></m:math>.</para>
-    <section id="fs-id1577454" class="section-summary"><title>Section Summary</title><list id="fs-id1559445"><item id="import-auto-id1058734"> Electric potential of a point charge is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kQ</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "kQ"/r} {}</m:annotation></m:semantics></m:math>.</item>
+    </example><para id="import-auto-id1033689">The voltages in both of these examples could be measured with a meter that compares the measured potential with ground potential. Ground potential is often taken to be zero (instead of taking the potential at infinity to be zero). It is the potential difference between two points that is of importance, and very often there is a tacit assumption that some reference point, such as Earth or a very distant point, is at zero potential. As noted in <link document="m42324">Electric Potential Energy: Potential Difference</link>, this is analogous to taking sea level as <m:math><m:mrow><m:mrow><m:mrow><m:mi>h</m:mi><m:mo stretchy="false">=</m:mo><m:mi>0</m:mi></m:mrow></m:mrow></m:mrow></m:math> when considering gravitational potential energy, <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mn>g</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mgh</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para>
+    <section id="fs-id1577454" class="section-summary"><title>Section Summary</title><list id="fs-id1559445"><item id="import-auto-id1058734"> Electric potential of a point charge is <m:math><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kQ</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>r</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</item>
     <item id="import-auto-id1597061">Electric potential is a scalar, and electric field is a vector. Addition of voltages as numbers gives the voltage due to a combination of point charges, whereas addition of individual fields as vectors gives the total electric field.</item>
         </list></section><section id="fs-id1534662" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
     <exercise id="fs-id2705937" type="conceptual-questions"><problem id="fs-id3164411">
@@ -484,7 +470,7 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 <para id="eip-id2758657">144 V</para></solution></exercise><exercise id="fs-id1318401" type="problems-exercises"><problem id="fs-id1563750">    <para id="import-auto-id2911404">What is the potential
 
 <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -512,8 +498,8 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{0 "." "530" times "10" rSup { size 8{ - 10} } `m} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
 
  from a proton (the average distance between the proton and electron in a hydrogen atom)?</para></problem>    </exercise><exercise id="fs-id1516605" type="problems-exercises"><problem id="fs-id2975408">    <para id="import-auto-id1591409" fo:font-weight="normal">(a) A sphere has a surface uniformly charged with 1.00 C. At what distance from its center is the potential 5.00 MV? (b) What does your answer imply about the practical aspect of isolating such a large charge?</para>
@@ -527,8 +513,8 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 <para id="eip-id2518659">
 (b) A charge of 1 C is a very large amount of charge; a sphere of radius 1.80 km is not practical.
 </para>
-</solution></exercise><exercise id="fs-id1281542" type="problems-exercises"><problem id="fs-id2834320">    <para id="import-auto-id2574621">How far from a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 µC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00" mC} {}</m:annotation></m:semantics></m:math> point charge will the potential be 100 V? At what distance will it be <m:math>
-        <m:semantics>
+</solution></exercise><exercise id="fs-id1281542" type="problems-exercises"><problem id="fs-id2834320">    <para id="import-auto-id2574621">How far from a <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 µC</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> point charge will the potential be 100 V? At what distance will it be <m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -554,18 +540,18 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
               </m:mrow>
 
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "00" times "10" rSup { size 8{ 2} } `V} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math></para></problem></exercise><exercise id="fs-id963449" type="problems-exercises"><problem id="fs-id1637628">    <para id="import-auto-id2985150" fo:font-weight="normal">What are the sign and magnitude of a point charge that produces a potential of <m:math>
- <m:semantics>
+ 
   <m:mtext>–2.00 V</m:mtext>
- </m:semantics>
+ 
 </m:math> at a distance of 1.00 mm?</para></problem>
 
 <solution id="eip-id2188544">
 
 <para id="eip-id930683"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -594,13 +580,13 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "22" times "10" rSup { size 8{ - 13} } `C} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
 </para></solution></exercise><exercise id="fs-id1281900" type="problems-exercises"><problem id="fs-id1363380">    <para id="import-auto-id3039700" fo:font-weight="normal">If the potential due to a point charge is
 
 <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -628,15 +614,15 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{ 2} } `V} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
 
  at a distance of 15.0 m, what are the sign and magnitude of the charge?</para></problem>
     </exercise><exercise id="fs-id2554432" type="problems-exercises"><problem id="fs-id1151542">    <para id="import-auto-id2957851">In nuclear fission, a nucleus splits roughly in half. (a) What is the potential
 
 <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -665,8 +651,8 @@ size 12{V= {  { ital "kQ"}  over  {r} }  \( "Point Charge" \) ,} {}
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "00" times "10" rSup { size 8{ - 14} } `m} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
 
 from a fragment that has 46 protons in it? (b) What is the potential energy in MeV of a similarly charged fragment at this distance?</para></problem>
@@ -674,7 +660,7 @@ from a fragment that has 46 protons in it? (b) What is the potential energy in M
 <solution id="eip-id1775233">
 
 <para id="eip-id1775235">(a) <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -702,8 +688,8 @@ from a fragment that has 46 protons in it? (b) What is the potential energy in M
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{3 "." "31" times "10" rSup { size 8{6} } `V} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
 
 
@@ -714,7 +700,7 @@ from a fragment that has 46 protons in it? (b) What is the potential energy in M
 
 <solution id="eip-id2570849">
 <para id="eip-id2570852">(a) <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -743,10 +729,10 @@ from a fragment that has 46 protons in it? (b) What is the potential energy in M
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "78" times "10" rSup { size 8{-7} } `C} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math> </para><para id="eip-id2343580">(b) <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -775,10 +761,10 @@ from a fragment that has 46 protons in it? (b) What is the potential energy in M
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{2 "." "00" times "10" rSup { size 8{-10} } `C} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math> </para></solution></exercise><exercise id="fs-id1497489" type="problems-exercises"><problem id="fs-id1033446">    <para id="import-auto-id3167781">In one of the classic nuclear physics experiments at the beginning of the 20th century, an alpha particle was accelerated toward a gold nucleus, and its path was substantially deflected by the Coulomb interaction. If the energy of the doubly charged alpha nucleus was 5.00 MeV, how close to the gold nucleus (79 protons) could it come before being deflected?</para></problem></exercise>
-    <exercise id="fs-id1183848" type="problems-exercises"><problem id="fs-id2984651">    <para id="import-auto-id1540980">(a) What is the potential between two points situated 10 cm and 20 cm from a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>0 µC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 0 mC} {}</m:annotation></m:semantics></m:math> point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?</para></problem></exercise>
+    <exercise id="fs-id1183848" type="problems-exercises"><problem id="fs-id2984651">    <para id="import-auto-id1540980">(a) What is the potential between two points situated 10 cm and 20 cm from a <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>0 µC</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> point charge? (b) To what location should the point at 20 cm be moved to increase this potential difference by a factor of two?</para></problem></exercise>
 
 <exercise id="eip-200" type="problems-exercises"><problem id="eip-35">
 <para id="eip-id2640726"> <title>Unreasonable Results</title></para>
@@ -789,7 +775,7 @@ from a fragment that has 46 protons in it? (b) What is the potential energy in M
 </problem>
 
 <solution id="eip-647">
-<para id="eip-id1598912">(a)  <m:math><m:semantics><m:mrow><m:mn>2.96</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:semantics></m:math></para><para id="eip-id1305472">(b) This velocity is far too great. It is faster than the speed of light.</para>
+<para id="eip-id1598912">(a)  <m:math><m:mrow><m:mn>2.96</m:mn><m:mo>×</m:mo><m:msup><m:mn>10</m:mn><m:mn>9</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:math></para><para id="eip-id1305472">(b) This velocity is far too great. It is faster than the speed of light.</para>
 <para id="eip-id2223518">(c) The assumption that the speed of the electron is far less than that of light and that the problem does not require a relativistic treatment produces an answer greater than the speed of light. </para>
 </solution>
 </exercise>

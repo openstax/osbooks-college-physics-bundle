@@ -18,27 +18,27 @@
     <para id="import-auto-id2746082">What happens to the work done on a system? Energy is transferred into the system, but in what form? Does it remain in the system or move on? The answers depend on the situation. For example, if the lawn mower in <link document="m42146" target-id="import-auto-id2495459"/>(a) is pushed just hard enough to keep it going at a constant speed, then energy put into the mower by the person is removed continuously by friction, and eventually leaves the system in the form of heat transfer. In contrast, work done on the briefcase by the person carrying it up stairs in <link document="m42146" target-id="import-auto-id2495459"/>(d) is stored in the briefcase-Earth system and can be recovered at any time, as shown in <link document="m42146" target-id="import-auto-id2495459"/>(e). In fact, the building of the pyramids in ancient Egypt is an example of storing energy in a system by doing work on the system. Some of the energy imparted to the stone blocks in lifting them during construction of the pyramids remains in the stone-Earth system and has the potential to do work.</para><para id="import-auto-id1635812">In this section we begin the study of various types of work and forms of energy. We will find that some types of work leave the energy of a system constant, for example, whereas others change the system in some way, such as making it move. We will also develop definitions of important forms of energy, such as the energy of motion.</para></section>
 <section id="fs-id2004741"><title>Net Work and the Work-Energy Theorem</title>
     <para id="import-auto-id1046274">We know from the study of Newton’s laws in <link document="m42129">Dynamics: Force and Newton's Laws of Motion</link> that net force causes acceleration. We will see in this section that work done by the net force gives a system energy of motion, and in the process we will also find an expression for the energy of motion.
-</para><para id="import-auto-id2010722">Let us start by considering the total, or net, work done on a system. Net work is defined to be the sum of work on an object. The net work can be written in terms of the net force on an object. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math>. In equation form, this is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } =F rSub { size 8{"net"} } d"cos"θ} {}</m:annotation></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math> is the angle between the force vector and the displacement vector.</para><para id="import-auto-id1664782"><link target-id="import-auto-id1046634"/>(a) shows a graph of force versus displacement for the component of the force in the direction of the displacement—that is, an <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math> vs. <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> graph. In this case, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math> is constant. You can see that the area under the graph is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math>, or the work done. <link target-id="import-auto-id1046634"/>(b) shows a more general process where the force varies. The area under the curve is divided into strips, each having an average force <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:msub><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( F"cos"θ \)  rSub { size 8{i \( "ave" \) } } } {}</m:annotation></m:semantics></m:math>. The work done is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:msub><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( F"cos"θ \)  rSub { size 8{i \( "ave" \) } } d rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math> for each strip, and the total work done is the sum of the <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{i} } } {}</m:annotation></m:semantics></m:math>. Thus the total work done is the total area under the curve, a useful property to which we shall refer later.</para><figure id="import-auto-id1046634"><media id="import-auto-id1663873" alt="Two drawings labele a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.">
+</para><para id="import-auto-id2010722">Let us start by considering the total, or net, work done on a system. Net work is defined to be the sum of work on an object. The net work can be written in terms of the net force on an object. <m:math><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. In equation form, this is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> where <m:math><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow></m:mrow></m:math> is the angle between the force vector and the displacement vector.</para><para id="import-auto-id1664782"><link target-id="import-auto-id1046634"/>(a) shows a graph of force versus displacement for the component of the force in the direction of the displacement—that is, an <m:math><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> vs. <m:math><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow></m:mrow></m:math> graph. In this case, <m:math><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is constant. You can see that the area under the graph is <m:math><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mi>d</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, or the work done. <link target-id="import-auto-id1046634"/>(b) shows a more general process where the force varies. The area under the curve is divided into strips, each having an average force <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:msub><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. The work done is <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:msub><m:mo stretchy="false">)</m:mo><m:mrow><m:mrow><m:mi>i</m:mi><m:mo stretchy="false">(</m:mo><m:mtext>ave</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:msub><m:msub><m:mi>d</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> for each strip, and the total work done is the sum of the <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mi>i</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. Thus the total work done is the total area under the curve, a useful property to which we shall refer later.</para><figure id="import-auto-id1046634"><media id="import-auto-id1663873" alt="Two drawings labele a and b. (a) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. A line of length d is drawn parallel to the horizontal axis for some value of F cosine theta. Area under this line in the graph is shaded and is equal to F cosine theta multiplied by d. F d cosine theta is equal to work W. (b) A graph of force component F cosine theta versus distance d. d is along the x axis and F cosine theta is along the y axis. There is an inclined line and the area under it is divided into many thin vertical strips of width d sub i. The area of one vertical stripe is equal to average value of F cosine theta times d sub i which equals to work W sub i.">
         <image mime-type="image/jpg" src="../../media/Figure_08_02_02a.jpg" width="250"/>
       </media>
 
-<caption>(a) A graph of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> vs. <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math>, when <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"θ} {}</m:annotation></m:semantics></m:math> is constant. The area under the curve represents the work done by the force. (b) A graph of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F"cos"q} {}</m:annotation></m:semantics></m:math> vs. <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.</caption></figure><para id="import-auto-id1891263">Net work will be simpler to examine if we consider a one-dimensional situation where a force is used to accelerate an object in a direction parallel to its initial velocity. Such a situation occurs for the package on the roller belt conveyor system shown in <link target-id="import-auto-id1803210"/>.</para><figure id="import-auto-id1803210"><media id="import-auto-id1221995" alt="A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.">
+<caption>(a) A graph of <m:math><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow></m:mrow></m:math> vs. <m:math><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow></m:mrow></m:math>, when <m:math><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is constant. The area under the curve represents the work done by the force. (b) A graph of <m:math><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> vs. <m:math><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow></m:mrow></m:math> in which the force varies. The work done for each interval is the area of each strip; thus, the total area under the curve equals the total work done.</caption></figure><para id="import-auto-id1891263">Net work will be simpler to examine if we consider a one-dimensional situation where a force is used to accelerate an object in a direction parallel to its initial velocity. Such a situation occurs for the package on the roller belt conveyor system shown in <link target-id="import-auto-id1803210"/>.</para><figure id="import-auto-id1803210"><media id="import-auto-id1221995" alt="A package shown on a roller belt pushed with a force F towards the right shown by a vector F sub app equal to one hundred and twenty newtons. A vector w is in the downward direction starting from the bottom of the package and the reaction force N on the package is shown by the vector N pointing upwards at the bottom of the package. A frictional force vector of five point zero zero newtons acts on the package leftwards. The displacement d is shown by the vector pointing to the right with a value of zero point eight zero zero meters.">
         <image mime-type="image/jpg" src="../../media/Figure_08_02_03a.jpg" width="400"/>
       </media>
 
     <caption>A package on a roller belt is pushed horizontally through a distance <m:math>
- <m:semantics>
+ 
    <m:mi mathvariant="bold">d</m:mi>
- </m:semantics>
-</m:math>. </caption></figure><para id="import-auto-id2039965">The force of gravity and the normal force acting on the package are perpendicular to the displacement and do no work. Moreover, they are also equal in magnitude and opposite in direction so they cancel in calculating the net force. The net force arises solely from the horizontal applied force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and the horizontal friction force <m:math><m:semantics><m:mrow><m:mrow><m:mi mathvariant="bold">f</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Thus, as expected, the net force is parallel to the displacement, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0º</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"cos"q=1} {}</m:annotation></m:semantics></m:math>, and the net work is given by</para><equation id="fs-id1799354"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mi>d</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } =F rSub { size 8{"net"} } d} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1526244">The effect of the net force <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math> is to accelerate the package from <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. The kinetic energy of the package increases, indicating that the net work done on the system is positive. (See <link target-id="fs-id1703845"/>.) By using Newton’s second law, and doing some algebra, we can reach an interesting conclusion. Substituting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } = ital "ma"} {}</m:annotation></m:semantics></m:math> from Newton’s second law gives</para><equation id="fs-id2448434"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mad.</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } = ital "mad"} {}</m:annotation></m:semantics></m:math></equation>
-    <para id="import-auto-id1809184">To get a relationship between net work and the speed given to a system by the net force acting on it, we take <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d=x - x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> and use the equation studied in <link document="m42099">Motion Equations for Constant Acceleration in One Dimension</link> for the change in speed over a distance <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> if the acceleration has the constant value
-<m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>; namely,
-<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ad</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> (note that
-<m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mrow></m:semantics></m:math> appears in the expression for the net work). Solving for acceleration gives
-<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. When
-<m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is substituted into the preceding expression for
-<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, we obtain</para><equation id="fs-id1648912"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi></m:mrow></m:mfrac></m:mfenced><m:mi>d</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1545484">The <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{d} {}</m:annotation></m:semantics></m:math> cancels, and we rearrange this to obtain</para><equation id="fs-id1549793"><m:math>
-        <m:semantics>
+ 
+</m:math>. </caption></figure><para id="import-auto-id2039965">The force of gravity and the normal force acting on the package are perpendicular to the displacement and do no work. Moreover, they are also equal in magnitude and opposite in direction so they cancel in calculating the net force. The net force arises solely from the horizontal applied force <m:math><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:math> and the horizontal friction force <m:math><m:mrow><m:mrow><m:mi mathvariant="bold">f</m:mi></m:mrow></m:mrow></m:math>. Thus, as expected, the net force is parallel to the displacement, so that <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0º</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and the net work is given by</para><equation id="fs-id1799354"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mi>d</m:mi></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1526244">The effect of the net force <m:math><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is to accelerate the package from <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> to <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>. The kinetic energy of the package increases, indicating that the net work done on the system is positive. (See <link target-id="fs-id1703845"/>.) By using Newton’s second law, and doing some algebra, we can reach an interesting conclusion. Substituting <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ma</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> from Newton’s second law gives</para><equation id="fs-id2448434"><m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mad.</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation>
+    <para id="import-auto-id1809184">To get a relationship between net work and the speed given to a system by the net force acting on it, we take <m:math><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">−</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> and use the equation studied in <link document="m42099">Motion Equations for Constant Acceleration in One Dimension</link> for the change in speed over a distance <m:math><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow></m:mrow></m:math> if the acceleration has the constant value
+<m:math><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mrow></m:math>; namely,
+<m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mrow><m:msup><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">+</m:mo><m:mn>2</m:mn></m:mrow></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>ad</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:math> (note that
+<m:math><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mrow></m:math> appears in the expression for the net work). Solving for acceleration gives
+<m:math><m:mrow><m:mrow><m:mrow><m:mi>a</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:math>. When
+<m:math><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mrow></m:math> is substituted into the preceding expression for
+<m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:math>, we obtain</para><equation id="fs-id1648912"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow><m:mfenced open="(" close=")"><m:mfrac><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">−</m:mo><m:msup><m:msub><m:mi>v</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>d</m:mi></m:mrow></m:mfrac></m:mfenced><m:mi>d</m:mi></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation><para id="import-auto-id1545484">The <m:math><m:mrow><m:mrow><m:mi>d</m:mi></m:mrow></m:mrow></m:math> cancels, and we rearrange this to obtain</para><equation id="fs-id1549793"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -110,15 +110,15 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{w"" lSub { size 8{ ital "net"} }  =  {  {1}  over  {2} }   ital "mv" rSup { size 8{2} }   -   {  {1}  over  {2} }   ital "mv""" lSub { size 8{0} } "" lSup { size 8{2} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id1698320">This expression is called the <term id="import-auto-id1555482">work-energy theorem</term>, and it actually applies <emphasis effect="italics">in general</emphasis> (even for forces that vary in direction and magnitude), although we have derived it for the special case of a constant force parallel to the displacement. The theorem implies that the net work on a system equals the change in the quantity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. This quantity is our first example of a form of energy.
+    <para id="import-auto-id1698320">This expression is called the <term id="import-auto-id1555482">work-energy theorem</term>, and it actually applies <emphasis effect="italics">in general</emphasis> (even for forces that vary in direction and magnitude), although we have derived it for the special case of a constant force parallel to the displacement. The theorem implies that the net work on a system equals the change in the quantity <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. This quantity is our first example of a form of energy.
 </para><note id="fs-id1911578"><label/><title>The Work-Energy Theorem</title>
-<para id="import-auto-id1772892">The net work on a system equals the change in the quantity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{2} } }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para>
+<para id="import-auto-id1772892">The net work on a system equals the change in the quantity <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para>
     <equation id="fs-id2771768"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
 
@@ -183,13 +183,13 @@
 
           </m:mrow>
 
-          <m:annotation encoding="StarMath 5.0"> size 12{w"" lSub { size 8{ ital "net"} }  =  {  {1}  over  {2} }   ital "mv" rSup { size 8{2} }   -   {  {1}  over  {2} }   ital "mv""" lSub { size 8{0} } "" lSup { size 8{2} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
 
-    </note><para id="import-auto-id1474106">The quantity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> in the work-energy theorem is defined to be the translational <term id="term-00001">kinetic energy</term> (KE) of a mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> moving at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. (<emphasis effect="italics">Translational</emphasis> kinetic energy is distinct from <emphasis effect="italics">rotational</emphasis> kinetic energy, which is considered later.) In equation form, the translational kinetic energy,</para><equation id="fs-id2016892"><m:math>
-        <m:semantics>
+    </note><para id="import-auto-id1474106">The quantity <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> in the work-energy theorem is defined to be the translational <term id="term-00001">kinetic energy</term> (KE) of a mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> moving at a speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>. (<emphasis effect="italics">Translational</emphasis> kinetic energy is distinct from <emphasis effect="italics">rotational</emphasis> kinetic energy, which is considered later.) In equation form, the translational kinetic energy,</para><equation id="fs-id2016892"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -216,17 +216,17 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"KE"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id2069888">is the energy associated with translational motion. Kinetic energy is a form of energy associated with the motion of a particle, single body, or system of objects moving together. </para><para id="import-auto-id2255651">We are aware that it takes energy to get an object, like a car or the package in <link target-id="import-auto-id1803210"/>, up to speed, but it may be a bit surprising that kinetic energy is proportional to speed squared. This proportionality means, for example, that a car traveling at 100 km/h has four times the kinetic energy it has at 50 km/h, helping to explain why high-speed collisions are so devastating. We will now consider a series of examples to illustrate various aspects of work and energy.</para>
 </section>
     <example id="fs-id1703845"><title>Calculating the Kinetic Energy of a Package</title>
     <para id="import-auto-id1745178">Suppose a 30.0-kg package on the roller belt conveyor system in <link target-id="import-auto-id1803210"/> is moving at 0.500 m/s. What is its kinetic energy?</para>
     <para id="import-auto-id1573963"><title>Strategy</title> </para>
-    <para id="import-auto-id1450997">Because the mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> are given, the kinetic energy can be calculated from its definition as given in the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1617374"><title>Solution</title> </para><para id="import-auto-id1554978">The kinetic energy is given by</para>
+    <para id="import-auto-id1450997">Because the mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> and speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math> are given, the kinetic energy can be calculated from its definition as given in the equation <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para><para id="import-auto-id1617374"><title>Solution</title> </para><para id="import-auto-id1554978">The kinetic energy is given by</para>
     <equation id="fs-id1904785"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -253,12 +253,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"KE"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1314302">Entering known values gives</para>
     <equation id="fs-id1426633"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -285,12 +285,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"KE"=0 "." 5 \( "30" "." 0" kg" \)  \( 0 "." "500"" m/s" \)  rSup { size 8{2} } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1945682">which yields</para>
     <equation id="eip-261"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -321,15 +321,15 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"KE"=3 "." "75"`"kg" cdot m rSup { size 8{2} } "/s" rSup { size 8{2} } =3 "." "75"`J "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id2095395"><title>Discussion</title> </para>
     <para id="import-auto-id1413114">Note that the unit of kinetic energy is the joule, the same as the unit of work, as mentioned when work was first defined. It is also interesting that, although this is a fairly massive package, its kinetic energy is not large at this relatively low speed. This fact is consistent with the observation that people can move packages like this without exhausting themselves.</para></example>
     <example id="fs-id1751928"><title> Determining the Work to Accelerate a Package</title>
     <para id="import-auto-id1993448">Suppose that you push on the 30.0-kg package in <link target-id="import-auto-id1803210"/> with a constant force of 120 N through a distance of 0.800 m, and that the opposing friction force averages 5.00 N.</para><para id="import-auto-id2521056">(a) Calculate the net work done on the package. (b) Solve the same problem as in part (a), this time by finding the work done by each force that contributes to the net force.</para><para id="import-auto-id1907927"><title>Strategy and Concept for (a)</title> </para><para id="import-auto-id1857717">This is a motion in one dimension problem, because the downward force (from the weight of the package) and the normal force have equal magnitude and opposite direction, so that they cancel in calculating the net force, while the applied force, friction, and the displacement are all horizontal. (See <link target-id="import-auto-id1803210"/>.) As expected, the net work is the net force times distance.
-</para><para id="import-auto-id1524628"><title>Solution for (a)</title> </para><para id="import-auto-id2017772">The net force is the push force minus friction, or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mtext> = 120 N – 5</m:mtext><m:mtext>.</m:mtext><m:mtext>00 N = 115 N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{"net"} } " = 120 N – 5" "." "00 N = 115 N"} {}</m:annotation></m:semantics></m:math>. Thus the net work is</para><equation id="fs-id1702963"><m:math>
-        <m:semantics>
+</para><para id="import-auto-id1524628"><title>Solution for (a)</title> </para><para id="import-auto-id2017772">The net force is the push force minus friction, or <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mtext> = 120 N – 5</m:mtext><m:mtext>.</m:mtext><m:mtext>00 N = 115 N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Thus the net work is</para><equation id="fs-id1702963"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -383,16 +383,12 @@
               </m:mtable>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{W rSub { size 8{"net"} } =F rSub { size 8{"net"} } d= left ("115"`N right ) left (0 "." "800"`m right )}  {} #
-"          "="92" "." 0`N cdot m="92" "." 0`J "."  {}
-} } {}</m:annotation>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id2086196"><title>Discussion for (a)</title> </para><para id="import-auto-id2068982">This value is the net work done on the package. The person actually does more work than this, because friction opposes the motion. Friction does negative work and removes some of the energy the person expends and converts it to thermal energy. The net work equals the sum of the work done by each individual force.</para>
     <para id="import-auto-id1182138"><title>Strategy and Concept for (b)</title> </para><para id="import-auto-id1115429">The forces acting on the package are gravity, the normal force, the force of friction, and the applied force. The normal force and force of gravity are each perpendicular to the displacement, and therefore do no work. </para>
     <para id="import-auto-id1528959"><title>Solution for (b)</title> </para><para id="import-auto-id2569265">The applied force does work.</para><equation id="fs-id2516843"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -469,18 +465,12 @@
                   </m:mrow></m:mtd>
                 </m:mtr>
               </m:mtable>
-              <m:mrow/>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{W rSub { size 8{"app"} } =F rSub { size 8{"app"} } d"cos" left (0° right )=F rSub { size 8{"app"} } d}  {} #
-"        "= left ("120 N" right ) left (0 "." "800"" m" right ) {} #
-"        "=" 96" "." "0 J" "."  {}
-} } {}</m:annotation>
-        </m:semantics>
+        
       </m:math>
-    </equation><para id="import-auto-id1997856">The friction force and displacement are in opposite directions, so that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>180º</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="180"°} {}</m:annotation></m:semantics></m:math>, and the work done by friction is</para><equation id="fs-id2817408"><m:math>
-        <m:semantics>
+    </equation><para id="import-auto-id1997856">The friction force and displacement are in opposite directions, so that <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>180º</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and the work done by friction is</para><equation id="fs-id2817408"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -563,15 +553,10 @@
               </m:mtable>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{W rSub { size 8{"fr"} } =F rSub { size 8{"fr"} } d"cos" left ("180"° right )= - F rSub { size 8{"fr"} } d}  {} #
-"       "= -  left (5 "." "00 N" right ) left (0 "." "800"" m" right ) {} #
- ital "       "=  - 4 "." "00" J "."  {}
-} } {}</m:annotation>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id1925786">So the amounts of work done by gravity, by the normal force, by the applied force, and by friction are, respectively,</para><equation id="fs-id1515421"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -645,26 +630,19 @@
                   </m:mrow></m:mtd>
                 </m:mtr>
               </m:mtable>
-              <m:mrow/>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{W rSub { size 8{"gr"} } =0,}  {} #
-W rSub { size 8{N} } =0, {} #
-W rSub { size 8{"app"} } ="96" "." 0" J," {} #
-W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
-} } {}</m:annotation>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id1620275">The total work done as the sum of the work done by each force is then seen to be </para>
-    <equation id="fs-id1404959"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>gr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mn>N</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mtext>.0 J</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"total"} } =W rSub { size 8{"gr"} } +W rSub { size 8{N} } +W rSub { size 8{"app"} } +W rSub { size 8{"fr"} } ="92" "." 0" J"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2881511"><title>Discussion for (b)</title> </para><para id="eip-600">The calculated total work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"total"} } } {}</m:annotation></m:semantics></m:math> as the sum of the work by each force agrees, as expected, with the work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math> done by the net force. The work done by a collection of forces acting on an object can be calculated by either approach.</para>
+    <equation id="fs-id1404959"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>gr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mn>N</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>app</m:mtext></m:mrow></m:msub></m:mrow><m:mo stretchy="false">+</m:mo><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mtext>.0 J</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id2881511"><title>Discussion for (b)</title> </para><para id="eip-600">The calculated total work <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>total</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> as the sum of the work by each force agrees, as expected, with the work <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> done by the net force. The work done by a collection of forces acting on an object can be calculated by either approach.</para>
     </example>
     <example id="fs-id1534836"><title>Determining Speed from Work and Energy </title>
     <para id="import-auto-id1803359">Find the speed of the package in <link target-id="import-auto-id1803210"/> at the end of the push, using work and energy concepts.</para>
     <para id="import-auto-id2163114"><title>Strategy</title> </para>
-    <para id="import-auto-id1519467">Here the work-energy theorem can be used, because we have just calculated the net work, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math>, and the initial kinetic energy,
+    <para id="import-auto-id1519467">Here the work-energy theorem can be used, because we have just calculated the net work, <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>, and the initial kinetic energy,
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:mrow>
     <m:mrow>
@@ -687,10 +665,10 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
    </m:mrow>
   </m:mrow>
  </m:mrow>
- <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSub { size 8{0}   rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math>. These calculations allow us to find the final kinetic energy, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, and thus the final speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1414547"><title>Solution</title> </para>
+ </m:math>. These calculations allow us to find the final kinetic energy, <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and thus the final speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>.</para><para id="import-auto-id1414547"><title>Solution</title> </para>
     <para id="import-auto-id2208836">The work-energy theorem in equation form is </para>
     <equation id="fs-id2854741"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -741,11 +719,11 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } = {  {1}  over  {2} }  ital "mv" rSup { size 8{2} }  -  {  {1}  over  {2} }  ital "mv" rSub { size 8{0}   rSup { size 8{2} } }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1395481">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> gives</para><equation id="fs-id2164953"><m:math>
-        <m:semantics>
+    </equation><para id="import-auto-id1395481">Solving for <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> gives</para><equation id="fs-id2164953"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -809,13 +787,13 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }   ital "mv""" lSup { size 8{2} }  =w rSub { size 8{ ital "net"} }  +  {  {1}  over  {2} }  ital "mv""" lSub { size 8{0} } "" lSup { size 8{2} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1524972">Thus,</para>
-    <equation id="fs-id1616561"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 J</m:mn><m:mi/><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>75 J</m:mtext><m:mi/><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>95.</m:mtext></m:mrow><m:mtext>75 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } ="92" "." 0`J+3 "." "75"`J="95" "." "75"`J} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1529753">Solving for the final speed as requested and entering known values gives</para>
+    <equation id="fs-id1616561"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mtext>92</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 J</m:mn><m:mi/><m:mrow><m:mo stretchy="false">+</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>75 J</m:mtext><m:mi/><m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>95.</m:mtext></m:mrow><m:mtext>75 J.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1529753">Solving for the final speed as requested and entering known values gives</para>
     <equation id="fs-id1474808"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -878,7 +856,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
               </m:mtable>
             </m:mrow>
           </m:mrow>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id1525269"><title>Discussion</title> </para>
     <para id="import-auto-id946798">Using work and energy, we not only arrive at an answer, we see that the final kinetic energy is the sum of the initial kinetic energy and the net work done on the package. This means that the work indeed adds to the energy of the package.</para></example>
@@ -886,8 +864,8 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
     <para id="import-auto-id2050373">How far does the package in <link target-id="import-auto-id1803210"/> coast after the push, assuming friction remains constant? Use work and energy considerations.</para>
     <para id="import-auto-id1518770"><title>Strategy</title> </para>
     <para id="import-auto-id1838220">We know that once the person stops pushing, friction will bring the package to rest. In terms of energy, friction does negative work until it has removed all of the package’s kinetic energy. The work done by friction is the force of friction times the distance traveled times the cosine of the angle between the friction force and displacement; hence, this gives us a way of finding the distance traveled after the person stops pushing.</para><para id="import-auto-id1745138"><title>Solution</title> </para>
-    <para id="import-auto-id2822725">The normal force and force of gravity cancel in calculating the net force. The horizontal friction force is then the net force, and it acts opposite to the displacement, so <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>180º</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. To reduce the kinetic energy of the package to zero, the work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> by friction must be minus the kinetic energy that the package started with plus what the package accumulated due to the pushing. Thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>95</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>75 J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Furthermore, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mi>d</m:mi><m:mo>′</m:mo><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mspace width="0.25em"/><m:mtext>= –</m:mtext><m:mi>f</m:mi><m:mi>d</m:mi><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>d</m:mi><m:mo>′</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the distance it takes to stop. Thus,</para><equation id="fs-id2413224"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mi>f</m:mi></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>95.75 J</m:mtext></m:mrow></m:mrow><m:mrow><m:mtext>5.00 N</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {d}} sup { ' }= -  {  {W rSub { size 8{"fr"} } }  over  {f} } = -  {  { - "95" "." "75"`J}  over  {5 "." "00 N"} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1539154">and so</para>
-    <equation id="fs-id1907466"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>19</m:mtext></m:mrow><m:mtext>.2 m</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {d}} sup { ' }="19" "." 2" m"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1466934"><title>Discussion</title> </para>
+    <para id="import-auto-id2822725">The normal force and force of gravity cancel in calculating the net force. The horizontal friction force is then the net force, and it acts opposite to the displacement, so <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>180º</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math>. To reduce the kinetic energy of the package to zero, the work <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:math> by friction must be minus the kinetic energy that the package started with plus what the package accumulated due to the pushing. Thus <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>95</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>75 J</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. Furthermore, <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mi>f</m:mi></m:mrow><m:mi>d</m:mi><m:mo>′</m:mo><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mspace width="0.25em"/><m:mtext>= –</m:mtext><m:mi>f</m:mi><m:mi>d</m:mi><m:mo>′</m:mo></m:mrow></m:mrow></m:mrow></m:math>, where <m:math><m:mrow><m:mrow><m:mi>d</m:mi><m:mo>′</m:mo></m:mrow></m:mrow></m:math> is the distance it takes to stop. Thus,</para><equation id="fs-id2413224"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>fr</m:mtext></m:mrow></m:msub><m:mi>f</m:mi></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mfrac><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>95.75 J</m:mtext></m:mrow></m:mrow><m:mrow><m:mtext>5.00 N</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1539154">and so</para>
+    <equation id="fs-id1907466"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>d</m:mi><m:mo>′</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>19</m:mtext></m:mrow><m:mtext>.2 m</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1466934"><title>Discussion</title> </para>
     <para id="import-auto-id1949121">This is a reasonable distance for a package to coast on a relatively friction-free conveyor system. Note that the work done by friction is negative (the force is in the opposite direction of motion), so it removes the kinetic energy.</para>
     </example>
     <para id="import-auto-id1617195">Some of the examples in this section can be solved without considering energy, but at the expense of missing out on gaining insights about what work and energy are doing in this situation. On the whole, solutions involving energy are generally shorter and easier than those using kinematics and dynamics alone.</para>
@@ -1033,10 +1011,10 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
   </section>
   
   
-<section id="fs-id1788235" class="section-summary"><title>Section Summary</title><list id="fs-id2019226"><item>The net work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the work done by the net force acting on an object.</item>
+<section id="fs-id1788235" class="section-summary"><title>Section Summary</title><list id="fs-id2019226"><item>The net work <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:math> is the work done by the net force acting on an object.</item>
     <item>Work done on an object transfers energy to the object.</item>
-    <item>The translational kinetic energy of an object of mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> moving at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"KE"= {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>.</item>
-    <item>The work-energy theorem states that the net work <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{"net"} } } {}</m:annotation></m:semantics></m:math> on a system changes its kinetic energy, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow>
+    <item>The translational kinetic energy of an object of mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> moving at speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math> is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</item>
+    <item>The work-energy theorem states that the net work <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> on a system changes its kinetic energy, <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle><m:mo stretchy="false">−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mrow>
       <m:msup>
        <m:mrow>
         <m:mi>m</m:mi>
@@ -1047,7 +1025,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
        </m:mrow>
        <m:mn>2</m:mn>
       </m:msup>
-     </m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.
+     </m:mrow></m:mrow></m:mrow></m:mrow></m:math>.
     </item>
 </list></section><section id="fs-id1318331" class="conceptual-questions" type="conceptual-questions">
 <title>Conceptual Questions</title><exercise id="fs-id2008777" type="conceptual-questions"><problem id="fs-id2008778">
@@ -1068,7 +1046,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
     <para id="import-auto-id1896627">Compare the kinetic energy of a 20,000-kg truck moving at 110 km/h with that of an 80.0-kg astronaut in orbit moving at 27,500 km/h.</para>
     </problem><solution id="fs-id1545812">
     <para id="fs-id1549911"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1079,8 +1057,8 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{1/"250"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para>
     </solution>
@@ -1090,7 +1068,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
     <exercise id="fs-id2628495" type="problems-exercises"><problem id="fs-id1909433">
     <para id="import-auto-id1892358">Confirm the value given for the kinetic energy of an aircraft carrier in <link document="m42151" target-id="import-auto-id2866785"/>. You will need to look up the definition of a nautical mile (1 knot = 1 nautical mile/h).</para></problem><solution id="fs-id2187131">
     <para id="fs-id1508531"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -1116,8 +1094,8 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{1 "." 1 times "10" rSup { size 8{"10"} } " J"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para>
     </solution>
@@ -1128,7 +1106,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
     <para id="import-auto-id1857508">A car’s bumper is designed to withstand a 4.0-km/h (1.12-m/s) collision with an immovable object without damage to the body of the car. The bumper cushions the shock by absorbing the force over a distance. Calculate the magnitude of the average force on a bumper that collapses 0.200 m while bringing a 900-kg car to rest from an initial speed of 1.12 m/s.</para></problem><solution id="fs-id1653442">
     <para id="fs-id1410927"><emphasis effect="bold">
         <m:math>
-          <m:semantics>
+          
             <m:mrow>
               <m:mrow>
                 <m:mrow>
@@ -1146,11 +1124,9 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
                   </m:mrow><m:mspace width="0.25em"/>
                   <m:mtext> N</m:mtext>
                 </m:mrow>
-              </m:mrow>
-              <m:mrow/>
-            </m:mrow>
-            <m:annotation encoding="StarMath 5.0"> size 12{2 "." 8 times "10" rSup { size 8{3} } " N"} {}</m:annotation>
-          </m:semantics>
+              </m:mrow>            </m:mrow>
+            
+          
         </m:math>
       </emphasis>
     </para></solution>
@@ -1167,7 +1143,7 @@ W rSub { size 8{"fr"} } = - 4 "." "00"" J" "."  {}
     <glossary>
     <definition id="fs-id1426604"><term id="import-auto-id1943070">net work</term> <meaning id="fs-id1889936">work done by the net force, or vector sum of all the forces, acting on an object</meaning></definition>
     <definition id="fs-id1586150"><term id="import-auto-id2580266">work-energy theorem</term> <meaning id="fs-id2208726">the result, based on Newton’s laws, that the net work done on an object is equal to its change in kinetic energy</meaning></definition>
-    <definition id="fs-id1377292"><term id="import-auto-id1704244">kinetic energy</term> <meaning id="fs-id1368978">the energy an object has by reason of its motion, equal to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> for the translational (i.e., non-rotational) motion of an object of mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> moving at speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="fs-id1377292"><term id="import-auto-id1704244">kinetic energy</term> <meaning id="fs-id1368978">the energy an object has by reason of its motion, equal to <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> for the translational (i.e., non-rotational) motion of an object of mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> moving at speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math></meaning></definition>
     </glossary>
 
 </document>

@@ -18,7 +18,7 @@
 </section>
 
         <para id="import-auto-id1355852">To study the energy of a simple harmonic oscillator, we first consider all the forms of energy it can have We know from <link document="m55271">Hooke’s Law: Stress and Strain Revisited</link> that the energy stored in the deformation of a simple harmonic oscillator is a form of potential energy given by:</para><equation id="eip-663"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -51,11 +51,11 @@
             <m:mrow/>
 <m:mo>.</m:mo>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"PE" size 8{"el"}= {  {1}  over  {2} }  ital "kx" rSup { size 8{2} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id2672337">Because a simple harmonic oscillator has no dissipative forces, the other important form of energy is kinetic energy <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "KE"} {}</m:annotation></m:semantics></m:math>. Conservation of energy for these two forms is:</para><equation id="eip-716"><m:math>
-        <m:semantics>
+    </equation><para id="import-auto-id2672337">Because a simple harmonic oscillator has no dissipative forces, the other important form of energy is kinetic energy <m:math><m:mrow><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Conservation of energy for these two forms is:</para><equation id="eip-716"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -86,12 +86,12 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ ital "KE"+ ital "PE" rSub { size 8{e1} } ="constant"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1921710">or</para>
     <equation id="eip-969"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -140,12 +140,12 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } + {  {1}  over  {2} }  ital "kx" rSup { size 8{2} } ="constant"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1272247">This statement of conservation of energy is valid for <emphasis effect="italics">all</emphasis> simple harmonic oscillators, including ones where the gravitational force plays a role</para>
-    <para id="import-auto-id2010343">Namely, for a simple pendulum we replace the velocity with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Lω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=Lω} {}</m:annotation></m:semantics></m:math>, the spring constant with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>L</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k= ital "mg"/L} {}</m:annotation></m:semantics></m:math>, and the displacement term with <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Lθ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=Lθ} {}</m:annotation></m:semantics></m:math>. Thus</para><equation id="eip-721"><m:math>
-        <m:semantics>
+    <para id="import-auto-id2010343">Namely, for a simple pendulum we replace the velocity with <m:math><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Lω</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, the spring constant with <m:math><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mi>L</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and the displacement term with <m:math><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi fontstyle="italic">Lθ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Thus</para><equation id="eip-721"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -203,8 +203,8 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mL" rSup { size 8{2} } ω rSup { size 8{2} } + {  {1}  over  {2} }  ital "mgL"θ rSup { size 8{2} } ="constant"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1429215">In the case of undamped simple harmonic motion, the energy oscillates back and forth between kinetic and potential, going completely from one to the other as the system oscillates. So for the simple example of an object on a frictionless surface attached to a spring, as shown again in <link target-id="import-auto-id3062499"/>, the motion starts with all of the energy stored in the spring. As the object starts to move, the elastic potential energy is converted to kinetic energy, becoming entirely kinetic energy at the equilibrium position. It is then converted back into elastic potential energy by the spring, the velocity becomes zero when the kinetic energy is completely converted, and so on. This concept provides extra insight here and in later applications of simple harmonic motion, such as alternating current circuits.</para>
 
@@ -214,9 +214,9 @@
         </media>
 
       <caption>The transformation of energy in simple harmonic motion is illustrated for an object attached to a spring on a frictionless surface.</caption></figure></para>
-       <para id="import-auto-id1588234">The conservation of energy principle can be used to derive an expression for velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. If we start our simple harmonic motion with zero velocity and maximum displacement (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=X} {}</m:annotation></m:semantics></m:math>), then the total energy is </para><equation id="eip-792"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mtext>kX</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "kX" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1060501">This total energy is constant and is shifted back and forth between kinetic energy and potential energy, at most times being shared by each. The conservation of energy for this system in equation form is thus:</para>
+       <para id="import-auto-id1588234">The conservation of energy principle can be used to derive an expression for velocity <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>. If we start our simple harmonic motion with zero velocity and maximum displacement (<m:math><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi></m:mrow></m:mrow></m:mrow></m:math>), then the total energy is </para><equation id="eip-792"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mtext>kX</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow></m:math></equation><para id="import-auto-id1060501">This total energy is constant and is shifted back and forth between kinetic energy and potential energy, at most times being shared by each. The conservation of energy for this system in equation form is thus:</para>
     <equation id="eip-446"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -280,12 +280,12 @@
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } + {  {1}  over  {2} }  ital "kx" rSup { size 8{2} } = {  {1}  over  {2} }  ital "kX" rSup { size 8{2} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id2968360">Solving this equation for <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math></emphasis> yields:</para>
+    </equation><para id="import-auto-id2968360">Solving this equation for <emphasis effect="italics"><m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math></emphasis> yields:</para>
     <equation id="eip-404"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -329,12 +329,12 @@
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v= +-  sqrt { {  {k}  over  {m} }  left (X rSup { size 8{2} }  - x rSup { size 8{2} }  right )} } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1890521">Manipulating this expression algebraically gives:</para>
     <equation id="eip-559"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -382,12 +382,12 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v= +-  sqrt { {  {k}  over  {m} } } X sqrt {1 -  {  {x rSup { size 8{2} } }  over  {X rSup { size 8{2} } } } } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id3090287">and so</para>
     <equation id="eip-932"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -439,12 +439,12 @@
             <m:mo>,</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v= +- v size 8{"max" sqrt {1 -  {  {x rSup { size 8{2} } }  over  {X rSup { size 8{2} } } } } }} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1411419">where</para>
     <equation id="eip-582"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -471,12 +471,12 @@
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v size 8{"max"}= sqrt { {  {k}  over  {m} } } X} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id2680435">From this expression, we see that the velocity is a maximum (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>) at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>, as stated earlier in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mrow><m:mfenced open="(" close=")"><m:mi>t</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo></m:mrow></m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mi>t</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Notice that the maximum velocity depends on three factors. Maximum velocity is directly proportional to amplitude. As you might guess, the greater the maximum displacement the greater the maximum velocity. Maximum velocity is also greater for stiffer systems, because they exert greater force for the same displacement. This observation is seen in the expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>;</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> it is proportional to the square root of the force constant <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Finally, the maximum velocity is smaller for objects that have larger masses, because the maximum velocity is inversely proportional to the square root of <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. For a given force, objects that have large masses accelerate more slowly.</para><para id="import-auto-id3032330">A similar calculation for the simple pendulum produces a similar result, namely:</para>
+    </equation><para id="import-auto-id2680435">From this expression, we see that the velocity is a maximum (<m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub></m:mrow></m:mrow></m:math>) at <m:math><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math>, as stated earlier in <m:math><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mrow><m:mfenced open="(" close=")"><m:mi>t</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo></m:mrow></m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mi>t</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:math>. Notice that the maximum velocity depends on three factors. Maximum velocity is directly proportional to amplitude. As you might guess, the greater the maximum displacement the greater the maximum velocity. Maximum velocity is also greater for stiffer systems, because they exert greater force for the same displacement. This observation is seen in the expression for <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>;</m:mo></m:mrow></m:mrow></m:math> it is proportional to the square root of the force constant <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math>. Finally, the maximum velocity is smaller for objects that have larger masses, because the maximum velocity is inversely proportional to the square root of <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math>. For a given force, objects that have large masses accelerate more slowly.</para><para id="import-auto-id3032330">A similar calculation for the simple pendulum produces a similar result, namely:</para>
     <equation id="eip-468"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -512,8 +512,8 @@
             <m:mrow/>
 <m:mo>.</m:mo>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ω rSub { size 8{"max"} } = sqrt { {  {g}  over  {L} } } θ rSub { size 8{"max"} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
 
@@ -537,16 +537,16 @@
 </note>
 <example id="fs-id3424702">
     <title>Determine the Maximum Speed of an Oscillating System: A Bumpy Road</title>
-    <para id="import-auto-id2404667">Suppose that a car is 900 kg and has a suspension system that has a force constant <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>53</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k=6 "." "53" times "10" rSup { size 8{4} } `"N/m"} {}</m:annotation></m:semantics></m:math>. The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?</para><para id="import-auto-id1916813">
+    <para id="import-auto-id2404667">Suppose that a car is 900 kg and has a suspension system that has a force constant <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>53</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?</para><para id="import-auto-id1916813">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id3073556">We can use the expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"max"} } } {}</m:annotation></m:semantics></m:math> given in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{"max"}= sqrt { {  {k}  over  {m} } } X} {}</m:annotation></m:semantics></m:math> to determine the maximum vertical velocity. The variables <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> are given in the problem statement, and the maximum displacement <m:math><m:semantics><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X} {}</m:annotation></m:semantics></m:math> is 0.100 m.</para><para id="import-auto-id953457">
+    <para id="import-auto-id3073556">We can use the expression for <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> given in <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> to determine the maximum vertical velocity. The variables <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math> are given in the problem statement, and the maximum displacement <m:math><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:math> is 0.100 m.</para><para id="import-auto-id953457">
       <title>Solution</title>
     </para>
     <list id="fs-id1366090" list-type="enumerated" number-style="arabic"><item id="import-auto-id1355203">Identify known.</item>
-    <item id="import-auto-id1985542">Substitute known values into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v size 8{"max"}= sqrt { {  {k}  over  {m} } } X} {}</m:annotation></m:semantics></m:math>:
+    <item id="import-auto-id1985542">Substitute known values into <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow><m:mi>X</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>:
     <equation id="eip-52"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -600,20 +600,20 @@
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v size 8{"max"}= sqrt { {  {6 "." "53" times "10" rSup { size 8{4} } "N/m"}  over  {"900"" kg"} } } 0 "." "100"" m"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></item>
-    <item id="import-auto-id3449442">Calculate to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>= 0.852 m/s</m:mtext><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"max"} } } {}</m:annotation></m:semantics></m:math> </item>
+    <item id="import-auto-id3449442">Calculate to find <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>= 0.852 m/s</m:mtext><m:mrow/><m:mo>.</m:mo></m:mrow></m:math> </item>
     </list><para id="import-auto-id3112469">
       <title>Discussion</title>
     </para>
-    <para id="import-auto-id2600992">This answer seems reasonable for a bouncing car. There are other ways to use conservation of energy to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"max"} } } {}</m:annotation></m:semantics></m:math>. We could use it directly, as was done in the example featured in <link document="m55271">Hooke’s Law: Stress and Strain Revisited</link>.</para><para id="import-auto-id3103185">The small vertical displacement
+    <para id="import-auto-id2600992">This answer seems reasonable for a bouncing car. There are other ways to use conservation of energy to find <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. We could use it directly, as was done in the example featured in <link document="m55271">Hooke’s Law: Stress and Strain Revisited</link>.</para><para id="import-auto-id3103185">The small vertical displacement
 
-<m:math><m:semantics><m:mrow><m:mi>y</m:mi><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"max"} } } {}</m:annotation></m:semantics></m:math>
+<m:math><m:mrow><m:mi>y</m:mi><m:mrow/></m:mrow></m:math>
 
 of an oscillating simple pendulum, starting from its equilibrium position, is given as</para><equation id="eip-329"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -633,11 +633,11 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
             <m:mo>,</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{y \( t \) =a"sin"ωt} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id3398758">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{a} {}</m:annotation></m:semantics></m:math> is the amplitude, <m:math><m:semantics><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω} {}</m:annotation></m:semantics></m:math> is the angular velocity and <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is the time taken. Substituting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>2π</m:mn><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ω= {  {2π}  over  {T} } } {}</m:annotation></m:semantics></m:math>, we have</para><equation id="eip-589"><m:math>
-        <m:semantics>
+    </equation><para id="import-auto-id3398758">where <m:math><m:mrow><m:mrow><m:mi>a</m:mi></m:mrow></m:mrow></m:math> is the amplitude, <m:math><m:mrow><m:mrow><m:mi>ω</m:mi></m:mrow></m:mrow></m:math> is the angular velocity and <m:math><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:math> is the time taken. Substituting <m:math><m:mrow><m:mrow><m:mrow><m:mi>ω</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>2π</m:mn><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, we have</para><equation id="eip-589"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -663,12 +663,12 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{y left (t right )=a"sin" left ( {  {2πt}  over  {T} }  right )} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id900980">Thus, the displacement of pendulum is a function of time as shown above. </para><para id="import-auto-id2394106">Also the velocity of the pendulum is given by </para>
     <equation id="eip-264"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -696,8 +696,8 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
             <m:mo>,</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v \( t \) = {  {2aπ}  over  {T} } "cos" left ( {  {2πt}  over  {T} }  right )} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id2990636">so the motion of the pendulum is a function of time.</para></example>
     <exercise id="fs-id3399175" type="check-understanding">
@@ -727,7 +727,7 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
 
     <section id="fs-id3079647" class="section-summary"><title>Section Summary</title><list id="fs-id1187842"><item id="import-auto-id2052115">Energy in the simple harmonic oscillator is shared between elastic potential energy and kinetic energy, with the total being constant:
     <equation id="eip-963"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -777,13 +777,13 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} }  ital "mv" rSup { size 8{2} } + {  {1}  over  {2} }  ital "kx" rSup { size 8{2} } =" constant"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></item>
     <item id="import-auto-id3013472">Maximum velocity depends on three factors: it is directly proportional to amplitude, it is greater for stiffer systems, and it is smaller for objects that have larger masses:
     <equation id="eip-996"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -811,8 +811,8 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"max"} } = sqrt { {  {k}  over  {m} } } X} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></item>
         </list></section><section id="fs-id3153855" class="conceptual-questions" type="conceptual-questions">
@@ -822,19 +822,19 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
     </problem></exercise>
     </section>
 <section id="eip-103" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="eip-863" type="problems-exercises"><problem id="eip-782">
-  <para id="eip-672">The length of nylon rope from which a mountain climber is suspended has a force constant of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>40</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "40" times "10" rSup { size 8{4} } "N/m"} {}</m:annotation></m:semantics></m:math>.
+  <para id="eip-672">The length of nylon rope from which a mountain climber is suspended has a force constant of <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>40</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.
   </para><para id="eip-id2263170">(a) What is the frequency at which he bounces, given his mass plus and the mass of his equipment are 90.0 kg?</para>
   <para id="eip-id2929812">(b) How much would this rope stretch to break the climber’s fall if he free-falls 2.00 m before the rope runs out of slack? Hint: Use conservation of energy. Ignore the energy the climber gains as the rope stretches.</para></problem>
 
 <solution id="eip-724">
-  <para id="eip-96">(a) <m:math><m:semantics><m:mtext>1.99 Hz</m:mtext><m:annotation encoding="StarMath 5.0"> size 12{ "1.99 Hz" } {}</m:annotation></m:semantics></m:math></para>
+  <para id="eip-96">(a) <m:math><m:mtext>1.99 Hz</m:mtext></m:math></para>
   <para id="eip-id1959413">(b) 50.2 cm</para></solution>
 </exercise><exercise id="eip-217" type="problems-exercises"><problem id="eip-954">
   <para id="eip-653"><title>Engineering Application</title></para>
-<para id="eip-id1752901">Near the top of the Citigroup Center building in New York City, there is an object with mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "00" times "10" rSup { size 8{5} } "kg"} {}</m:annotation></m:semantics></m:math> on springs that have adjustable force constants. Its function is to dampen wind-driven oscillations of the building by oscillating at the same frequency as the building is being driven—the driving force is transferred to the object, which oscillates instead of the entire building. (a) What effective force constant should the springs have to make the object oscillate with a period of 2.00 s? (b) What energy is stored in the springs for a 2.00-m displacement from equilibrium?</para></problem>
+<para id="eip-id1752901">Near the top of the Citigroup Center building in New York City, there is an object with mass of <m:math><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> on springs that have adjustable force constants. Its function is to dampen wind-driven oscillations of the building by oscillating at the same frequency as the building is being driven—the driving force is transferred to the object, which oscillates instead of the entire building. (a) What effective force constant should the springs have to make the object oscillate with a period of 2.00 s? (b) What energy is stored in the springs for a 2.00-m displacement from equilibrium?</para></problem>
 
 <solution id="eip-148">
-  <para id="eip-453">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>95</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "95" times "10" rSup { size 8{6} } "N/m"} {}</m:annotation></m:semantics></m:math></para><para id="eip-id1169611875324">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>90</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "90" times "10" rSup { size 8{6} } "J"} {}</m:annotation></m:semantics></m:math></para></solution>
+  <para id="eip-453">(a) <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>95</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para id="eip-id1169611875324">(b) <m:math><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>90</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para></solution>
 </exercise></section> </content>
 
 </document>

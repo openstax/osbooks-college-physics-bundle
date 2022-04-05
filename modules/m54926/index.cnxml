@@ -21,7 +21,7 @@
 
 <section id="fs-id3017872">
     <title>Human Application</title>
-        <para id="import-auto-id3165264">The first direct detection of radiation was Becquerel’s fogged photographic plate. Photographic film is still the most common detector of ionizing radiation, being used routinely in medical and dental x rays. Nuclear radiation is also captured on film, such as seen in <link target-id="import-auto-id3076369"/>. The mechanism for film exposure by ionizing radiation is similar to that by photons. A quantum of energy interacts with the emulsion and alters it chemically, thus exposing the film. The quantum  come from an <m:math><m:semantics><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{α} {}</m:annotation></m:semantics></m:math>-particle, <m:math><m:semantics><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{β} {}</m:annotation></m:semantics></m:math>-particle, or photon, provided it has more than the few eV of energy needed to induce the chemical change (as does all ionizing radiation). The process is not 100% efficient, since not all incident radiation interacts and not all interactions produce the chemical change. The amount of film darkening is related to exposure, but the darkening also depends on the type of radiation, so that absorbers and other devices must be used to obtain energy, charge, and particle-identification information.</para><figure id="import-auto-id3076369"><media id="import-auto-id1561600" alt="Image shows fingers holding a black strip of film on a radioactive rock.">
+        <para id="import-auto-id3165264">The first direct detection of radiation was Becquerel’s fogged photographic plate. Photographic film is still the most common detector of ionizing radiation, being used routinely in medical and dental x rays. Nuclear radiation is also captured on film, such as seen in <link target-id="import-auto-id3076369"/>. The mechanism for film exposure by ionizing radiation is similar to that by photons. A quantum of energy interacts with the emulsion and alters it chemically, thus exposing the film. The quantum  come from an <m:math><m:mrow><m:mrow><m:mi>α</m:mi></m:mrow></m:mrow></m:math>-particle, <m:math><m:mrow><m:mrow><m:mi>β</m:mi></m:mrow></m:mrow></m:math>-particle, or photon, provided it has more than the few eV of energy needed to induce the chemical change (as does all ionizing radiation). The process is not 100% efficient, since not all incident radiation interacts and not all interactions produce the chemical change. The amount of film darkening is related to exposure, but the darkening also depends on the type of radiation, so that absorbers and other devices must be used to obtain energy, charge, and particle-identification information.</para><figure id="import-auto-id3076369"><media id="import-auto-id1561600" alt="Image shows fingers holding a black strip of film on a radioactive rock.">
                 <image mime-type="image/png" src="../../media/Figure_32_02_01a.jpg"/>
             </media>
 
@@ -61,10 +61,10 @@
             <title>Problems &amp; Exercises</title>
             <exercise id="fs-id2437827" type="problems-exercises">
             <problem id="fs-id1549236">
-            <para id="import-auto-id1823725">The energy of 30.0 <m:math><m:semantics><m:mrow><m:mtext>eV</m:mtext></m:mrow></m:semantics></m:math> is required to ionize a molecule of the gas inside a Geiger tube, thereby producing an ion pair. Suppose a particle of ionizing radiation deposits 0.500 MeV of energy in this Geiger tube. What maximum number of ion pairs can it create?</para></problem>
+            <para id="import-auto-id1823725">The energy of 30.0 <m:math><m:mrow><m:mtext>eV</m:mtext></m:mrow></m:math> is required to ionize a molecule of the gas inside a Geiger tube, thereby producing an ion pair. Suppose a particle of ionizing radiation deposits 0.500 MeV of energy in this Geiger tube. What maximum number of ion pairs can it create?</para></problem>
 <solution id="fs-id1864068">
         <para id="import-auto-id3177731"><m:math>
-                <m:semantics>
+                
                                     <m:mrow>
                                         <m:mn>1.67</m:mn>
                                             <m:mo stretchy="false">×</m:mo>
@@ -77,21 +77,21 @@
 
                                             </m:msup>
                     </m:mrow>
-                </m:semantics>
+                
             </m:math>
         </para></solution>
         </exercise>
 
             <exercise id="eip-144" type="problems-exercises"><problem id="eip-573">
-  <para id="eip-437">A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geiger tube as it passes through. What minimum energy was deposited, if 30.0 <m:math><m:semantics><m:mrow><m:mtext>eV</m:mtext></m:mrow></m:semantics></m:math>  is required to create each ion pair?
+  <para id="eip-437">A particle of ionizing radiation creates 4000 ion pairs in the gas inside a Geiger tube as it passes through. What minimum energy was deposited, if 30.0 <m:math><m:mrow><m:mtext>eV</m:mtext></m:mrow></m:math>  is required to create each ion pair?
   </para></problem>
 
 </exercise><exercise id="eip-811" type="problems-exercises"><problem id="eip-572">
-  <para id="eip-588">(a) Repeat <link target-id="eip-144"/>, and convert the energy to joules or calories. (b) If all of this energy is converted to thermal energy in the gas, what is its temperature increase, assuming <m:math><m:semantics><m:mrow><m:mtext>50.0 c</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:semantics></m:math>  of ideal gas at 0.250-atm pressure? (The small answer is consistent with the fact that the energy is large on a quantum mechanical scale but small on a macroscopic scale.)
+  <para id="eip-588">(a) Repeat <link target-id="eip-144"/>, and convert the energy to joules or calories. (b) If all of this energy is converted to thermal energy in the gas, what is its temperature increase, assuming <m:math><m:mrow><m:mtext>50.0 c</m:mtext><m:msup><m:mtext>m</m:mtext><m:mn>3</m:mn></m:msup></m:mrow></m:math>  of ideal gas at 0.250-atm pressure? (The small answer is consistent with the fact that the energy is large on a quantum mechanical scale but small on a macroscopic scale.)
   </para></problem>
 
 </exercise><exercise id="eip-405" type="problems-exercises"><problem id="eip-351">
-  <para id="eip-691">Suppose a particle of ionizing radiation deposits 1.0 MeV in the gas of a Geiger tube, all of which goes to creating ion pairs. Each ion pair requires 30.0 eV of energy. (a) The applied voltage sweeps the ions out of the gas in  <m:math><m:semantics><m:mrow><m:mtext>1.00</m:mtext><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:mrow></m:semantics></m:math>. What is the current? (b) This current is smaller than the actual current since the applied voltage in the Geiger tube accelerates the separated ions, which then create other ion pairs in subsequent collisions. What is the current if this last effect multiplies the number of ion pairs by 900?</para></problem>
+  <para id="eip-691">Suppose a particle of ionizing radiation deposits 1.0 MeV in the gas of a Geiger tube, all of which goes to creating ion pairs. Each ion pair requires 30.0 eV of energy. (a) The applied voltage sweeps the ions out of the gas in  <m:math><m:mrow><m:mtext>1.00</m:mtext><m:mspace width="0.25em"/><m:mi>μ</m:mi><m:mtext>s</m:mtext></m:mrow></m:math>. What is the current? (b) This current is smaller than the actual current since the applied voltage in the Geiger tube accelerates the separated ions, which then create other ion pairs in subsequent collisions. What is the current if this last effect multiplies the number of ion pairs by 900?</para></problem>
 
 </exercise></section>
 

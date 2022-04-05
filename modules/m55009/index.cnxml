@@ -23,7 +23,7 @@
 
     <para id="import-auto-id1818552">Examples of gravitational orbits abound. Hundreds of artificial satellites orbit Earth together with thousands of pieces of debris. The Moon's orbit about Earth has intrigued humans from time immemorial. The orbits of planets, asteroids, meteors, and comets about the Sun are no less interesting. If we look further, we see almost unimaginable numbers of stars, galaxies, and other celestial objects orbiting one another and interacting through gravity.</para>
     <para id="import-auto-id3004537">All these motions are governed by gravitational force, and it is possible to describe them to various degrees of precision. Precise descriptions of complex systems must be made with large computers. However, we can describe an important class of orbits without the use of computers, and we shall find it instructive to study them. These orbits have the following characteristics:</para>
-    <list id="fs-id2953600" list-type="enumerated" number-style="arabic"><item id="import-auto-id1405601"><emphasis effect="italics">A small mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> orbits a much larger mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math></emphasis>. This allows us to view the motion as if <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> were stationary—in fact, as if from an inertial frame of reference placed on <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> —without significant error. Mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the satellite of <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math>, if the orbit is gravitationally bound.</item>
+    <list id="fs-id2953600" list-type="enumerated" number-style="arabic"><item id="import-auto-id1405601"><emphasis effect="italics">A small mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> orbits a much larger mass <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math></emphasis>. This allows us to view the motion as if <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> were stationary—in fact, as if from an inertial frame of reference placed on <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> —without significant error. Mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the satellite of <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math>, if the orbit is gravitationally bound.</item>
 <item><emphasis effect="italics">The system is isolated from other masses</emphasis>. This allows us to neglect any small effects due to outside masses.</item>
     </list><para id="import-auto-id2437647">The conditions are satisfied, to good approximation, by Earth's satellites (including the Moon), by objects orbiting the Sun, and by the satellites of other planets. Historically, planets were studied first, and there is a classical set of three laws, called Kepler's laws of planetary motion, that describe the orbits of all bodies satisfying the two previous conditions (not just planets in our solar system). These descriptive laws are named for the German astronomer Johannes Kepler (1571–1630), who devised them after careful study (over some 20 years) of a large amount of meticulously recorded observations of planetary motion done by Tycho Brahe (1546–1601). Such careful collection and detailed recording of methods and data are hallmarks of good science. Data constitute the evidence from which new interpretations and meanings can be constructed.</para><section id="fs-id1996819">
     <title>Kepler's Laws of Planetary Motion</title>
@@ -36,7 +36,7 @@
         <figure id="import-auto-id1519172"><media id="import-auto-id1569955" alt="In figure a, an ellipse is shown on the coordinate axes. Two foci of the ellipse are joined to a point m on the ellipse. A pencil is shown at the point m. In figure b the elliptical path of a planet is shown. At the left focus f-one of the path the Sun is shown. The planet is shown just above the Sun on the elliptical path.">
                 <image mime-type="image/jpg" src="../../media/Figure_07_06_01a.jpg"/></media>
 
-        <caption>(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>) is a constant. You can draw an ellipse as shown by putting a pin at each focus, and then placing a string around a pencil and the pins and tracing a line on paper. A circle is a special case of an ellipse in which the two foci coincide (thus any point on the circle is the same distance from the center). (b) For any closed gravitational orbit, <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> follows an elliptical path with <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> at one focus. Kepler's first law states this fact for planets orbiting the Sun.</caption></figure></para>
+        <caption>(a) An ellipse is a closed curve such that the sum of the distances from a point on the curve to the two foci (<m:math><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:msub><m:mi>f</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>) is a constant. You can draw an ellipse as shown by putting a pin at each focus, and then placing a string around a pencil and the pins and tracing a line on paper. A circle is a special case of an ellipse in which the two foci coincide (thus any point on the circle is the same distance from the center). (b) For any closed gravitational orbit, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> follows an elliptical path with <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> at one focus. Kepler's first law states this fact for planets orbiting the Sun.</caption></figure></para>
         <para id="import-auto-id3199790">
       <emphasis>Kepler's Second Law</emphasis>
     </para>
@@ -45,7 +45,7 @@
     </para>
     <para id="import-auto-id3176881">The ratio of the squares of the periods of any two planets about the Sun is equal to the ratio of the cubes of their average distances from the Sun. In equation form, this is</para>
     <equation id="eip-976"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -112,22 +112,22 @@
 
             <m:mrow><m:mtext>,</m:mtext></m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {T rSub { size 8{1} }  rSup { size 8{2} } }  over  {T rSub { size 8{2} }  rSup { size 8{2} } } } = {  {r rSub { size 8{1} }  rSup { size 8{3} } }  over  {r rSub { size 8{2} }  rSup { size 8{3} } } } } {}</m:annotation>
-        </m:semantics>
-      </m:math></equation><para id="import-auto-id2030306">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> is the period (time for one orbit) and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is the average radius. This equation is valid only for comparing two small masses orbiting the same large one. Most importantly, this is a descriptive equation only, giving no information as to the cause of the equality.</para>
+          
+        
+      </m:math></equation><para id="import-auto-id2030306">where <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> is the period (time for one orbit) and <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> is the average radius. This equation is valid only for comparing two small masses orbiting the same large one. Most importantly, this is a descriptive equation only, giving no information as to the cause of the equality.</para>
 
     <figure id="import-auto-id1318502"><media id="import-auto-id1531870" alt="In the figure, the elliptical path of a planet is shown. The Sun is at the left focus. Three shaded regions M A B, M C D and M E F are marked on the figure by joining the Sun to the three pairs of points A B, C D, and E F on the elliptical path. The velocity of the planet is shown on the planet in a direction tangential to the path.">
         <image mime-type="image/jpg" src="../../media/Figure_07_06_02a.jpg"/>
       </media>
 
-    <caption>The shaded regions have equal areas. It takes equal times for <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> to go from A to B, from C to D, and from E to F. The mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> moves fastest when it is closest to <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math>. Kepler's second law was originally devised for planets orbiting the Sun, but it has broader validity. </caption></figure><para id="import-auto-id3449928">Note again that while, for historical reasons, Kepler's laws are stated for planets orbiting the Sun, they are actually valid for all bodies satisfying the two previously stated conditions.</para>
+    <caption>The shaded regions have equal areas. It takes equal times for <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> to go from A to B, from C to D, and from E to F. The mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> moves fastest when it is closest to <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math>. Kepler's second law was originally devised for planets orbiting the Sun, but it has broader validity. </caption></figure><para id="import-auto-id3449928">Note again that while, for historical reasons, Kepler's laws are stated for planets orbiting the Sun, they are actually valid for all bodies satisfying the two previously stated conditions.</para>
     <example id="fs-id3008247">
     <title>Find the Time for One Orbit of an Earth Satellite</title>
-    <para id="import-auto-id3018158">Given that the Moon orbits Earth each 27.3 d and that it is an average distance of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3.84</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "84" times "10" rSup { size 8{8} } m} {}</m:annotation></m:semantics></m:math> from the center of Earth, calculate the period of an artificial satellite orbiting at an average altitude of 1500 km above Earth's surface.</para><para id="import-auto-id2031914">
+    <para id="import-auto-id3018158">Given that the Moon orbits Earth each 27.3 d and that it is an average distance of <m:math><m:mrow><m:mrow><m:mrow><m:mn>3.84</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> from the center of Earth, calculate the period of an artificial satellite orbiting at an average altitude of 1500 km above Earth's surface.</para><para id="import-auto-id2031914">
       <title>Strategy</title>
     </para>
     <para id="import-auto-id1890433">The period, or time for one orbit, is related to the radius of the orbit by Kepler's third law, given in mathematical form in <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -194,14 +194,14 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {T rSub { size 8{1} }  rSup { size 8{2} } }  over  {T rSub { size 8{2} }  rSup { size 8{2} } } } = {  {r rSub { size 8{1} }  rSup { size 8{3} } }  over  {r rSub { size 8{2} }  rSup { size 8{3} } } } } {}</m:annotation>
-        </m:semantics>
-      </m:math>. Let us use the subscript 1 for the Moon and the subscript 2 for the satellite. We are asked to find <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>. The given information tells us that the orbital radius of the Moon is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>84</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{1} } =3 "." "84" times "10" rSup { size 8{8} } m} {}</m:annotation></m:semantics></m:math>, and that the period of the Moon is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>27.3 d</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{1} } ="27" "." 3} {}</m:annotation></m:semantics></m:math>. The height of the artificial satellite above Earth's surface is given, and so we must add the radius of Earth (6380 km) to get <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mtext>1500</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>6380</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mspace width="0.25em"/><m:mtext>km</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>7880</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSub { size 8{2} } = \( "1500"+"6380" \) "km"="7880"`"km"} {}</m:annotation></m:semantics></m:math>. Now all quantities are known, and so <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> can be found.</para><para id="import-auto-id1413147">
+          
+        
+      </m:math>. Let us use the subscript 1 for the Moon and the subscript 2 for the satellite. We are asked to find <m:math><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. The given information tells us that the orbital radius of the Moon is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>84</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and that the period of the Moon is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>27.3 d</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. The height of the artificial satellite above Earth's surface is given, and so we must add the radius of Earth (6380 km) to get <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mtext>1500</m:mtext><m:mo stretchy="false">+</m:mo><m:mtext>6380</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:mspace width="0.25em"/><m:mtext>km</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>7880</m:mtext></m:mrow><m:mspace width="0.25em"/><m:mtext>km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Now all quantities are known, and so <m:math><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> can be found.</para><para id="import-auto-id1413147">
       <title>Solution</title>
     </para>
     <para id="import-auto-id3068820">Kepler's third law is</para>
     <equation id="eip-618"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -268,11 +268,11 @@
 
 <m:mrow><m:mtext>.</m:mtext></m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {T rSub { size 8{1} }  rSup { size 8{2} } }  over  {T rSub { size 8{2} }  rSup { size 8{2} } } } = {  {r rSub { size 8{1} }  rSup { size 8{3} } }  over  {r rSub { size 8{2} }  rSup { size 8{3} } } } } {}</m:annotation>
-        </m:semantics>
-      </m:math></equation><para id="import-auto-id2599970">To solve for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, we cross-multiply and take the square root, yielding</para>
-    <equation id="eip-113"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msubsup><m:mi>T</m:mi><m:mn>2</m:mn><m:mrow><m:mn> 2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>T</m:mi><m:mn>1</m:mn><m:mn> 2</m:mn></m:msubsup><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced><m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } =T rSub { size 8{1} }  times  left ( {  {r rSub { size 8{2} } }  over  {r rSub { size 8{1} } } }  right ) rSup { size 8{3/2} } } {}</m:annotation></m:semantics></m:math></equation><equation id="eip-925"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSub { size 8{2} } =T rSub { size 8{1} }  times  left ( {  {r rSub { size 8{2} } }  over  {r rSub { size 8{1} } } }  right ) rSup { size 8{3/2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1324788">Substituting known values yields</para>
-    <equation id="eip-552"><m:math><m:semantics><m:mrow><m:mrow>
+          
+        
+      </m:math></equation><para id="import-auto-id2599970">To solve for <m:math><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>, we cross-multiply and take the square root, yielding</para>
+    <equation id="eip-113"><m:math><m:mrow><m:mrow><m:mrow><m:msubsup><m:mi>T</m:mi><m:mn>2</m:mn><m:mrow><m:mn> 2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">=</m:mo><m:mrow><m:msubsup><m:mi>T</m:mi><m:mn>1</m:mn><m:mn> 2</m:mn></m:msubsup><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced><m:mrow><m:mrow><m:mn>3</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation><equation id="eip-925"><m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>T</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msup><m:mfenced open="(" close=")"><m:mfrac><m:msub><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:msub><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac></m:mfenced><m:mrow><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id1324788">Substituting known values yields</para>
+    <equation id="eip-552"><m:math><m:mrow><m:mrow>
 <m:mtable columnalign="left">
 <m:mtr><m:mtd><m:msub><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mtd>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
@@ -282,19 +282,19 @@
 <m:mtr><m:mtd/>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd><m:mrow><m:mtext>1.93 h.</m:mtext></m:mrow></m:mtd>
-</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id3112710"><title>Discussion</title> This is a reasonable period for a satellite in a fairly low orbit. It is interesting that any satellite at this altitude will orbit in the same amount of time. This fact is related to the condition that the satellite's mass is small compared with that of Earth. </para>
+</m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:math></equation><para id="import-auto-id3112710"><title>Discussion</title> This is a reasonable period for a satellite in a fairly low orbit. It is interesting that any satellite at this altitude will orbit in the same amount of time. This fact is related to the condition that the satellite's mass is small compared with that of Earth. </para>
     </example>
     <para id="import-auto-id2991832">People immediately search for deeper meaning when broadly applicable laws, like Kepler's, are discovered. It was Newton who took the next giant step when he proposed the law of universal gravitation. While Kepler was able to discover <emphasis effect="italics">what</emphasis> was happening, Newton discovered that gravitational force was the cause.</para></section>
     <section id="fs-id982181">
     <title>Derivation of Kepler's Third Law for Circular Orbits</title>
     <para id="import-auto-id2661224">We shall derive Kepler's third law, starting with Newton's laws of motion and his universal law of gravitation. The point is to demonstrate that the force of gravity is the cause for Kepler's laws (although we will only derive the third one).</para>
-    <para id="import-auto-id3112857">Let us consider a circular orbit of a small mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> around a large mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>, satisfying the two conditions stated at the beginning of this section. Gravity supplies the centripetal force to mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math>. Starting with Newton's second law applied to circular motion,</para><equation id="eip-729"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mrow><m:mtext>net</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">ma</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "net"} } = ital "ma" rSub { size 8{c} } =m {  {v rSup { size 8{2} } }  over  {r} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3093322">The net external force on mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is gravity, and so we substitute the force of gravity for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mrow><m:mtext>net</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{ ital "net"} } } {}</m:annotation></m:semantics></m:math>:</para><equation id="eip-623"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mM</m:mtext></m:mrow></m:mstyle><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G {  { ital "mM"}  over  {r rSup { size 8{2} } } } =m {  {v rSup { size 8{2} } }  over  {r} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2953376">The mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> cancels, yielding</para>
-    <equation id="eip-457"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mrow><m:mfrac><m:mi>M</m:mi><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G {  {M}  over  {r} } =v rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2601035">The fact that <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> cancels out is another aspect of the oft-noted fact that at a given location all masses fall with the same acceleration. Here we see that at a given orbital radius <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, all masses orbit at the same speed. (This was implied by the result of the preceding worked example.) Now, to get at Kepler's third law, we must get the period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> into the equation. By definition, period <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> is the time for one complete orbit. Now the average speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the circumference divided by the period—that is,</para>
-    <equation id="eip-519"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mi/><m:mi>r</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v= {  {2π`r}  over  {T} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3163870">Substituting this into the previous equation gives</para>
-     <equation id="eip-362"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>M</m:mtext></m:mrow></m:mstyle><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo></m:mrow><m:mfrac><m:mrow><m:msup><m:mi>4π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{G {  { ital "mM"}  over  {r rSup { size 8{2} } } } =m {  {v rSup { size 8{2} } }  over  {r} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2423172">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> yields</para>
-    <equation id="eip-444"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GM</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T rSup { size 8{2} } = {  {4π rSup { size 8{2} } }  over  { ital "GM"} } r rSup { size 8{3} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2680923">Using subscripts 1 and 2 to denote two different satellites, and taking the ratio of the last equation for satellite 1 to satellite 2 yields</para>
+    <para id="import-auto-id3112857">Let us consider a circular orbit of a small mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> around a large mass <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math>, satisfying the two conditions stated at the beginning of this section. Gravity supplies the centripetal force to mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math>. Starting with Newton's second law applied to circular motion,</para><equation id="eip-729"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mrow><m:mtext>net</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">ma</m:mtext><m:mrow><m:mtext>c</m:mtext></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id3093322">The net external force on mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is gravity, and so we substitute the force of gravity for <m:math><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mrow><m:mtext>net</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>:</para><equation id="eip-623"><m:math><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mM</m:mtext></m:mrow></m:mstyle><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mi>m</m:mi></m:mrow><m:mfrac><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mi>r</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id2953376">The mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> cancels, yielding</para>
+    <equation id="eip-457"><m:math><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mrow><m:mfrac><m:mi>M</m:mi><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id2601035">The fact that <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> cancels out is another aspect of the oft-noted fact that at a given location all masses fall with the same acceleration. Here we see that at a given orbital radius <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math>, all masses orbit at the same speed. (This was implied by the result of the preceding worked example.) Now, to get at Kepler's third law, we must get the period <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> into the equation. By definition, period <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> is the time for one complete orbit. Now the average speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math> is the circumference divided by the period—that is,</para>
+    <equation id="eip-519"><m:math><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mi/><m:mi>r</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id3163870">Substituting this into the previous equation gives</para>
+     <equation id="eip-362"><m:math><m:mrow><m:mrow><m:mrow><m:mi>G</m:mi><m:mrow><m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>M</m:mtext></m:mrow></m:mstyle><m:mi>r</m:mi></m:mfrac><m:mo stretchy="false">=</m:mo></m:mrow><m:mfrac><m:mrow><m:msup><m:mi>4π</m:mi><m:mn>2</m:mn></m:msup><m:msup><m:mi>r</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id2423172">Solving for <m:math><m:mrow><m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow></m:math> yields</para>
+    <equation id="eip-444"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GM</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id2680923">Using subscripts 1 and 2 to denote two different satellites, and taking the ratio of the last equation for satellite 1 to satellite 2 yields</para>
     <equation id="eip-209"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -361,11 +361,11 @@
 
            <m:mrow><m:mtext>.</m:mtext></m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {T rSub { size 8{1} }  rSup { size 8{2} } }  over  {T rSub { size 8{2} }  rSup { size 8{2} } } } = {  {r rSub { size 8{1} }  rSup { size 8{3} } }  over  {r rSub { size 8{2} }  rSup { size 8{3} } } } } {}</m:annotation>
-        </m:semantics>
-      </m:math></equation><para id="import-auto-id3258221">This is Kepler's third law. Note that Kepler's third law is valid only for comparing satellites of the same parent body, because only then does the mass of the parent body <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> cancel.</para>
-    <para id="import-auto-id1397083">Now consider what we get if we solve <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GM</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> for the ratio <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSup { size 8{3} } /T rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. We obtain a relationship that can be used to determine the mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> of a parent body from the orbits of its satellites:</para><equation id="eip-658"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>G</m:mi><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mi>M</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {r rSup { size 8{3} } }  over  {T rSup { size 8{2} } } } = {  {G}  over  {4π rSup { size 8{2} } } } M} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id3103939">If <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> are known for a satellite, then the mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> of the parent can be calculated. This principle has been used extensively to find the masses of heavenly bodies that have satellites. Furthermore, the ratio <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSup { size 8{3} } /T rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> should be a constant for all satellites of the same parent body (because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GM</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSup { size 8{3} } /T rSup { size 8{2} } = ital "GM"/4π rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>). (See <link target-id="import-auto-id2453905"/>). </para>
-    <para id="import-auto-id1980230">It is clear from <link target-id="import-auto-id2453905"/> that the ratio of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r rSup { size 8{3} } /T rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math> is constant, at least to the third digit, for all listed satellites of the Sun, and for those of Jupiter. Small variations in that ratio have two causes—uncertainties in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math> data, and perturbations of the orbits due to other bodies. Interestingly, those perturbations can be—and have been—used to predict the location of new planets and moons. This is another verification of Newton's universal law of gravitation.</para>
+          
+        
+      </m:math></equation><para id="import-auto-id3258221">This is Kepler's third law. Note that Kepler's third law is valid only for comparing satellites of the same parent body, because only then does the mass of the parent body <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> cancel.</para>
+    <para id="import-auto-id1397083">Now consider what we get if we solve <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mfrac><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GM</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> for the ratio <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. We obtain a relationship that can be used to determine the mass <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> of a parent body from the orbits of its satellites:</para><equation id="eip-658"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>G</m:mi><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mi>M</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id3103939">If <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> are known for a satellite, then the mass <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> of the parent can be calculated. This principle has been used extensively to find the masses of heavenly bodies that have satellites. Furthermore, the ratio <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> should be a constant for all satellites of the same parent body (because <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>GM</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>). (See <link target-id="import-auto-id2453905"/>). </para>
+    <para id="import-auto-id1980230">It is clear from <link target-id="import-auto-id2453905"/> that the ratio of <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:mo stretchy="false">/</m:mo><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is constant, at least to the third digit, for all listed satellites of the Sun, and for those of Jupiter. Small variations in that ratio have two causes—uncertainties in the <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> data, and perturbations of the orbits due to other bodies. Interestingly, those perturbations can be—and have been—used to predict the location of new planets and moons. This is another verification of Newton's universal law of gravitation.</para>
     <note id="fs-id3184618"><label/><title>Making Connections: General Relativity and Mercury</title>
 
     <para id="import-auto-id2407026">Newton's universal law of gravitation is modified by Einstein's general theory of relativity, as we shall see in <link document="m54854">Particle Physics</link>. Newton's gravity is not seriously in error—it was and still is an extremely good approximation for most situations. Einstein's modification is most noticeable in extremely large gravitational fields, such as near black holes. However, general relativity also explains such phenomena as small but long-known deviations of the orbit of the planet Mercury from classical predictions.</para></note></section>
@@ -405,7 +405,7 @@
             <entry>Moon</entry>
             <entry>
               <m:math display="block">
-                <m:semantics>
+                
                   <m:mrow>
 
                       <m:mrow>
@@ -429,14 +429,14 @@
 
                     <m:mrow/>
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." "84" times "10" rSup { size 8{5} } } {}</m:annotation>
-                </m:semantics>
+                  
+                
               </m:math>
             </entry>
             <entry>0.07481</entry>
             <entry>
               <m:math display="block">
-                <m:semantics>
+                
                   <m:mrow>
 
                       <m:mrow>
@@ -461,8 +461,8 @@
 
                     <m:mrow/>
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{1 "." "01" times  times "10" rSup { size 8{"18"} } } {}</m:annotation>
-                </m:semantics>
+                  
+                
               </m:math>
             </entry>
           </row><row>
@@ -470,7 +470,7 @@
             <entry>Mercury</entry>
             <entry>
               <m:math display="block">
-                <m:semantics>
+                
                   <m:mrow>
 
                       <m:mrow>
@@ -494,14 +494,14 @@
 
                     <m:mrow/>
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{5 "." "79" times "10" rSup { size 8{7} } } {}</m:annotation>
-                </m:semantics>
+                  
+                
               </m:math>
             </entry>
             <entry>0.2409</entry>
             <entry>
               <m:math display="block">
-                <m:semantics>
+                
                   <m:mrow>
 
                       <m:mrow>
@@ -525,8 +525,8 @@
 
                     <m:mrow/>
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." "34" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                </m:semantics>
+                  
+                
               </m:math>
             </entry>
           </row>
@@ -539,7 +539,7 @@
                   <entry>Venus</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -563,14 +563,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{1 "." "082" times "10" rSup { size 8{8} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>0.6150</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -594,8 +594,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "35" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -604,7 +604,7 @@
                   <entry>Earth</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -628,14 +628,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{1 "." "496" times "10" rSup { size 8{8} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>1.000</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -659,8 +659,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "35" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -669,7 +669,7 @@
                   <entry>Mars</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -693,14 +693,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{2 "." "279" times "10" rSup { size 8{8} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>1.881</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -724,8 +724,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "35" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -734,7 +734,7 @@
                   <entry>Jupiter</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -758,14 +758,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{7 "." "783" times "10" rSup { size 8{8} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>11.86</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -789,8 +789,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "35" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -799,7 +799,7 @@
                   <entry>Saturn</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -823,14 +823,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{1 "." "427" times "10" rSup { size 8{9} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>29.46</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -854,8 +854,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "35" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -864,7 +864,7 @@
                   <entry>Neptune</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -888,14 +888,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{4 "." "497" times "10" rSup { size 8{9} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>164.8</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -919,8 +919,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "35" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -929,7 +929,7 @@
                   <entry>Pluto</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -953,14 +953,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{5 "." "90" times "10" rSup { size 8{9} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>248.3</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -984,8 +984,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "33" times "10" rSup { size 8{"24"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -997,7 +997,7 @@
             <entry>Io</entry>
             <entry>
               <m:math display="block">
-                <m:semantics>
+                
                   <m:mrow>
 
                       <m:mrow>
@@ -1021,14 +1021,14 @@
 
                     <m:mrow/>
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{4 "." "22" times "10" rSup { size 8{5} } } {}</m:annotation>
-                </m:semantics>
+                  
+                
               </m:math>
             </entry>
             <entry>0.00485 (1.77 d)</entry>
             <entry>
               <m:math display="block">
-                <m:semantics>
+                
                   <m:mrow>
 
                       <m:mrow>
@@ -1052,8 +1052,8 @@
 
                     <m:mrow/>
                   </m:mrow>
-                  <m:annotation encoding="StarMath 5.0"> size 12{3 "." "19" times "10" rSup { size 8{"21"} } } {}</m:annotation>
-                </m:semantics>
+                  
+                
               </m:math>
             </entry>
           </row>
@@ -1065,7 +1065,7 @@
                   <entry>Europa</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -1089,14 +1089,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{6 "." "71" times "10" rSup { size 8{5} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>0.00972 (3.55 d)</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -1120,8 +1120,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "20" times "10" rSup { size 8{"21"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -1130,7 +1130,7 @@
                   <entry>Ganymede</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -1154,14 +1154,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{1 "." "07" times "10" rSup { size 8{6} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>0.0196 (7.16 d)</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -1185,8 +1185,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "19" times "10" rSup { size 8{"21"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -1195,7 +1195,7 @@
                   <entry>Callisto</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -1219,14 +1219,14 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{1 "." "88" times "10" rSup { size 8{6} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                   <entry>0.0457 (16.19 d)</entry>
                   <entry>
                     <m:math display="block">
-                      <m:semantics>
+                      
                         <m:mrow>
 
                             <m:mrow>
@@ -1250,8 +1250,8 @@
 
                           <m:mrow/>
                         </m:mrow>
-                        <m:annotation encoding="StarMath 5.0"> size 12{3 "." "20" times "10" rSup { size 8{"21"} } } {}</m:annotation>
-                      </m:semantics>
+                        
+                      
                     </m:math>
                   </entry>
                 </row>
@@ -1270,17 +1270,17 @@
 
       <caption>(a) The Ptolemaic model of the universe has Earth at the center with the Moon, the planets, the Sun, and the stars revolving about it in complex superpositions of circular paths. This geocentric model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints as to what are the causes of these motions. (b) The Copernican model has the Sun at the center of the solar system. It is fully explained by a small number of laws of physics, including Newton's universal law of gravitation.</caption></figure></para>
         </section>
-     <section id="fs-id3028914" class="section-summary"><title>Section Summary</title><list id="fs-id2920738"><item id="import-auto-id1917658">Kepler's laws are stated for a small mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> orbiting a larger mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{M} {}</m:annotation></m:semantics></m:math> in near-isolation. Kepler's laws of planetary motion are then as follows:
+     <section id="fs-id3028914" class="section-summary"><title>Section Summary</title><list id="fs-id2920738"><item id="import-auto-id1917658">Kepler's laws are stated for a small mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> orbiting a larger mass <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> in near-isolation. Kepler's laws of planetary motion are then as follows:
     <para id="import-auto-id3089576">Kepler's first law</para>
     <para id="import-auto-id1473158">The orbit of each planet about the Sun is an ellipse with the Sun at one focus.</para>
     <para id="import-auto-id1616197">Kepler's second law</para>
     <para id="import-auto-id2057954">Each planet moves so that an imaginary line drawn from the Sun to the planet sweeps out equal areas in equal times.</para>
     <para id="import-auto-id2424236">Kepler's third law</para>
     <para id="eip-id2449935">The ratio of the squares of the periods of any two planets about the Sun is equal to the ratio of the cubes of their average distances from the Sun:</para>
-    <equation id="eip-233"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:msubsup><m:mi>T</m:mi><m:mn>1</m:mn><m:mn> 2</m:mn></m:msubsup><m:msubsup><m:mi>T</m:mi><m:mn>2</m:mn><m:mn> 2</m:mn></m:msubsup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn> 3</m:mn></m:msubsup><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn> 3</m:mn></m:msubsup></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {T rSub { size 8{1}   rSup { size 8{2} } } }  over  {T rSub { size 8{2}   rSup { size 8{2} } } } } = {  {r rSub { size 8{1}   rSup { size 8{3} } } }  over  {r rSub { size 8{2}   rSup { size 8{3} } } } } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2692252">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the period (time for one orbit) and <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the average radius of the orbit.</para></item>
-    <item id="import-auto-id2492446">The period and radius of a satellite's orbit about a larger body <m:math><m:semantics><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> are related by
+    <equation id="eip-233"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:msubsup><m:mi>T</m:mi><m:mn>1</m:mn><m:mn> 2</m:mn></m:msubsup><m:msubsup><m:mi>T</m:mi><m:mn>2</m:mn><m:mn> 2</m:mn></m:msubsup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn> 3</m:mn></m:msubsup><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn> 3</m:mn></m:msubsup></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id2692252">where <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> is the period (time for one orbit) and <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> is the average radius of the orbit.</para></item>
+    <item id="import-auto-id2492446">The period and radius of a satellite's orbit about a larger body <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> are related by
     <equation id="eip-395"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -1324,11 +1324,11 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{T rSup { size 8{2} } = {  {4π rSup { size 8{2} } }  over  { ital "GM"} } r rSup { size 8{3} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id2622168">or</para><equation id="eip-839"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>G</m:mi><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mi>M</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {r rSup { size 8{3} } }  over  {T rSup { size 8{2} } } } = {  {G}  over  {4π rSup { size 8{2} } } } M} {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id2622168">or</para><equation id="eip-839"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>r</m:mi><m:mrow><m:mn>3</m:mn></m:mrow></m:msup><m:msup><m:mi>T</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>G</m:mi><m:msup><m:mn>4π</m:mn><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mfrac></m:mrow><m:mi>M</m:mi></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:math></equation>
     </item>
     </list></section><section id="fs-id1479191" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title>
     <exercise id="fs-id1864324" type="conceptual-questions"><problem id="fs-id2402950">
@@ -1344,7 +1344,7 @@
     </problem>
             <solution id="fs-id783596" type="problems-exercises">
     <para id="import-auto-id2930062"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -1365,8 +1365,8 @@
                 </m:mrow>
               </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "98" times "10" rSup { size 8{"30"} } "kg"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para></solution>
     </exercise>
@@ -1379,7 +1379,7 @@
             <solution id="fs-id3104405" type="problems-exercises">
     <para id="import-auto-id1442948">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -1409,22 +1409,22 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {M rSub { size 8{J} } }  over  {M rSub { size 8{E} } } } ="316"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para>
     </solution>
     </exercise>
         <exercise id="fs-id1060579" type="problems-exercises"><problem id="fs-id3449842">
 
-    <para id="import-auto-id3044868">Astronomical observations of our Milky Way galaxy indicate that it has a mass of about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>11</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." 0 times "10" rSup { size 8{"11"} } } {}</m:annotation></m:semantics></m:math> solar masses. A star orbiting on the galaxy's periphery is about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." 0 times "10" rSup { size 8{4} } } {}</m:annotation></m:semantics></m:math> light years from its center. (a) What should the orbital period of that star be? (b) If its period is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." 0 times "10" rSup { size 8{7} } } {}</m:annotation></m:semantics></m:math> instead, what is the mass of the galaxy? Such calculations are used to imply the existence of “dark matter” in the universe and have indicated, for example, the existence of very massive black holes at the centers of some galaxies.</para>
+    <para id="import-auto-id3044868">Astronomical observations of our Milky Way galaxy indicate that it has a mass of about <m:math><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>11</m:mtext></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> solar masses. A star orbiting on the galaxy's periphery is about <m:math><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> light years from its center. (a) What should the orbital period of that star be? (b) If its period is <m:math><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> instead, what is the mass of the galaxy? Such calculations are used to imply the existence of “dark matter” in the universe and have indicated, for example, the existence of very massive black holes at the centers of some galaxies.</para>
     </problem></exercise>
         <exercise id="fs-id2639693" type="problems-exercises"><problem id="fs-id3145598"><para id="import-auto-id3077878">
       <title>Integrated Concepts</title>
     </para>
-    <para id="import-auto-id3416500">Space debris left from old satellites and their launchers is becoming a hazard to other satellites. (a) Calculate the speed of a satellite in an orbit 900 km above Earth's surface. (b) Suppose a loose rivet is in an orbit of the same radius that intersects the satellite's orbit at an angle of <m:math><m:semantics><m:mrow><m:mrow><m:mtext>90º</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90" rSup { size 8{ circ } } } {}</m:annotation></m:semantics></m:math> relative to Earth. What is the velocity of the rivet relative to the satellite just before striking it? (c) Given the rivet is 3.00 mm in size, how long will its collision with the satellite last? (d) If its mass is 0.500 g, what is the average force it exerts on the satellite? (e) How much energy in joules is generated by the collision? (The satellite's velocity does not change appreciably, because its mass is much greater than the rivet's.)</para></problem>
+    <para id="import-auto-id3416500">Space debris left from old satellites and their launchers is becoming a hazard to other satellites. (a) Calculate the speed of a satellite in an orbit 900 km above Earth's surface. (b) Suppose a loose rivet is in an orbit of the same radius that intersects the satellite's orbit at an angle of <m:math><m:mrow><m:mrow><m:mtext>90º</m:mtext></m:mrow><m:mrow/></m:mrow></m:math> relative to Earth. What is the velocity of the rivet relative to the satellite just before striking it? (c) Given the rivet is 3.00 mm in size, how long will its collision with the satellite last? (d) If its mass is 0.500 g, what is the average force it exerts on the satellite? (e) How much energy in joules is generated by the collision? (The satellite's velocity does not change appreciably, because its mass is much greater than the rivet's.)</para></problem>
             <solution id="fs-id2990817" type="problems-exercises">
-    <para id="import-auto-id2410483">a) <m:math><m:semantics><m:mrow><m:mn>7400</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow/><m:annotation encoding="StarMath 5.0"> size 12{2 "." "11" times "10" rSup { size 8{4} } `"m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3300864">b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>05</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "98" times "10" rSup { size 8{4} } `"m/s"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id2590051">c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>86</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "01" times "10" rSup { size 8{ - 7} } s} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1579414">d) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>84</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "48" times "10" rSup { size 8{3} } s} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id3422557">e) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>76</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "22" times "10" rSup { size 8{5} } J} {}</m:annotation></m:semantics></m:math></para></solution>
+    <para id="import-auto-id2410483">a) <m:math><m:mrow><m:mn>7400</m:mn><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow><m:mrow/></m:math></para><para id="import-auto-id3300864">b) <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>05</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para id="import-auto-id2590051">c) <m:math><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>86</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para><para id="import-auto-id1579414">d) <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>84</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>N</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para id="import-auto-id3422557">e) <m:math><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>76</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para></solution>
     </exercise>
         <exercise id="fs-id2932002" type="problems-exercises"><problem id="fs-id2973459"><para id="import-auto-id1486732">
       <title>Unreasonable Results</title>
@@ -1432,7 +1432,7 @@
     <para id="import-auto-id3249996">(a) Based on Kepler's laws and information on the orbital characteristics of the Moon, calculate the orbital radius for an Earth satellite having a period of 1.00 h. (b) What is unreasonable about this result? (c) What is unreasonable or inconsistent about the premise of a 1.00 h orbit?</para>
     </problem>
             <solution id="fs-id1922186" type="problems-exercises">
-    <para id="import-auto-id3010187">a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>08</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "08" times "10" rSup { size 8{3} } `"km"} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1977688">b) This radius is unreasonable because it is less than the radius of earth.</para>
+    <para id="import-auto-id3010187">a) <m:math><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>08</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>km</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para id="import-auto-id1977688">b) This radius is unreasonable because it is less than the radius of earth.</para>
     <para id="import-auto-id3158945">c) The premise of a one-hour orbit is inconsistent with the known radius of the earth.</para>
     </solution>
     </exercise>

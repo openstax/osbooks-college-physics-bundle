@@ -28,7 +28,7 @@
 
     <caption>When a molecule collides with a rigid wall, the component of its momentum perpendicular to the wall is reversed. A force is thus exerted on the wall, creating pressure.</caption></figure><para id="import-auto-id2351450"><link target-id="import-auto-id2722950"/> shows an elastic collision of a gas molecule with the wall of a container, so that it exerts a force on the wall (by Newton’s third law). Because a huge number of molecules will collide with the wall in a short time, we observe an average force per unit area. These collisions are the source of pressure in a gas. As the number of molecules increases, the number of collisions and thus the pressure increase. Similarly, the gas pressure is higher if the average velocity of molecules is higher. The actual relationship is derived in the <link target-id="fs-id1855032">Things Great and Small</link> feature below. The following relationship is found:</para><equation id="import-auto-id2724876">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -63,15 +63,15 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= {  {1}  over  {3} }  ital "Nm" {overline  {v rSup { size 8{2} } }} ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id2711749">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is the pressure (average force per unit area), <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is the volume of gas in the container, <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> is the number of molecules in the container, <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the mass of a molecule, and <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSup { size 8{2} } }} } {}</m:annotation></m:semantics></m:math> is the average of the molecular speed squared.</para>
+    <para id="import-auto-id2711749">where <m:math><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mrow></m:math> is the pressure (average force per unit area), <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the volume of gas in the container, <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> is the number of molecules in the container, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a molecule, and <m:math><m:mrow><m:mrow><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math> is the average of the molecular speed squared.</para>
     <para id="import-auto-id1564828">What can we learn from this atomic and molecular version of the ideal gas law? We can derive a relationship between temperature and the average translational kinetic energy of molecules in a gas. Recall the previous expression of the ideal gas law:</para>
-    <equation id="import-auto-id1668609"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= ital "NkT"} {}</m:annotation></m:semantics></m:math></equation>
-    <para id="import-auto-id1861832">Equating the right-hand side of this equation with the right-hand side of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= {  {1}  over  {3} }  ital "Nm" {overline  {v rSup { size 8{2} } }} } {}</m:annotation></m:semantics></m:math> gives</para>
-    <equation id="import-auto-id1856370"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:mrow><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3} }  ital "Nm" {overline  {v rSup { size 8{2} } }} = ital "NkT"} {}</m:annotation></m:semantics></m:math></equation>
+    <equation id="import-auto-id1668609"><m:math><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation>
+    <para id="import-auto-id1861832">Equating the right-hand side of this equation with the right-hand side of <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> gives</para>
+    <equation id="import-auto-id1856370"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:mrow><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation>
     <note id="fs-id1855032"><label/>
     <title>Making Connections: Things Great and Small—Atomic and Molecular Origin of Pressure in a Gas</title>
     <para id="import-auto-id2591427"><link target-id="import-auto-id2721592"/> shows a box filled with a gas. We know from our previous discussions that putting more gas into the box produces greater pressure, and that increasing the temperature of the gas also produces a greater pressure. But why should increasing the temperature of the gas increase the pressure in the box? A look at the atomic and molecular scale gives us some answers, and an alternative expression for the ideal gas law.</para>
@@ -81,9 +81,9 @@
         <image mime-type="image/jpg" src="../../media/Figure_14_04_02.jpg"/>
       </media>
 
-    <caption>Gas in a box exerts an outward pressure on its walls. A molecule colliding with a rigid wall has the direction of its velocity and momentum in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-direction reversed. This direction is perpendicular to the wall. The components of its velocity momentum in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation></m:semantics></m:math>- and <m:math><m:semantics><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{z} {}</m:annotation></m:semantics></m:math>-directions are not changed, which means there is no force parallel to the wall.</caption></figure><para id="import-auto-id1645134">If the molecule’s velocity changes in the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-direction, its momentum changes from <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{– ital "mv" rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{+ ital "mv" rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>. Thus, its change in momentum is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle><m:mspace width="0.20em"/><m:mtext>= +</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:mi>–</m:mi><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>–</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ ital "mv""=+" ital "mv" rSub { size 8{x} } – left (– ital "mv" rSub { size 8{x} }  right )=2 ital "mv" rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>. The force exerted on the molecule is given by </para><equation id="import-auto-id1168465433118">
+    <caption>Gas in a box exerts an outward pressure on its walls. A molecule colliding with a rigid wall has the direction of its velocity and momentum in the <m:math><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:math>-direction reversed. This direction is perpendicular to the wall. The components of its velocity momentum in the <m:math><m:mrow><m:mrow><m:mi>y</m:mi></m:mrow></m:mrow></m:math>- and <m:math><m:mrow><m:mrow><m:mi>z</m:mi></m:mrow></m:mrow></m:math>-directions are not changed, which means there is no force parallel to the wall.</caption></figure><para id="import-auto-id1645134">If the molecule’s velocity changes in the <m:math><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:math>-direction, its momentum changes from <m:math><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> to <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">+</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Thus, its change in momentum is <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mv</m:mtext></m:mrow></m:mstyle><m:mspace width="0.20em"/><m:mtext>= +</m:mtext><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle><m:mi>–</m:mi><m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mi>–</m:mi><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mfenced><m:mo stretchy="false">=</m:mo><m:mn>2</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:msub><m:mtext>mv</m:mtext><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. The force exerted on the molecule is given by </para><equation id="import-auto-id1168465433118">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -119,12 +119,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{F= {  {Δp}  over  {Δt} } = {  {2 ital "mv" rSub { size 8{x} } }  over  {Δt} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id1168465433050">There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Dt} {}</m:annotation></m:semantics></m:math> to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2l \) } {}</m:annotation></m:semantics></m:math> at a speed of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>. Thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2</m:mn><m:mi>l</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=2l/v rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math>, and the expression for the force becomes</para><equation id="import-auto-id1168465439413"><m:math>
-        <m:semantics>
+    <para id="import-auto-id1168465433050">There is no force between the wall and the molecule until the molecule hits the wall. During the short time of the collision, the force between the molecule and wall is relatively large. We are looking for an average force; we take <m:math><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math> to be the average time between collisions of the molecule with this wall. It is the time it would take the molecule to go across the box and back (a distance <m:math><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mi>l</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> at a speed of <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. Thus <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>Δ</m:mtext><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>2</m:mn><m:mi>l</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and the expression for the force becomes</para><equation id="import-auto-id1168465439413"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -182,13 +182,13 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{F= {  {2 ital "mv" rSub { size 8{x} } }  over  { {2l} slash {v rSub { size 8{x} } } } } = {  { ital "mv" rSub { size 8{x} }  rSup { size 8{2} } }  over  {l} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id2302824">This force is due to <emphasis effect="italics">one</emphasis> molecule. We multiply by the number of molecules <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> and use their average squared velocity to find the force</para>
+    </equation><para id="import-auto-id2302824">This force is due to <emphasis effect="italics">one</emphasis> molecule. We multiply by the number of molecules <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> and use their average squared velocity to find the force</para>
     <equation id="import-auto-id1168465426507">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -220,14 +220,14 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{F=N {  {m {overline  {v rSub { size 8{x} }  rSup { size 8{2} } }} }  over  {l} } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id2721740">where the bar over a quantity means its average value. We would like to have the force in terms of the speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, rather than the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-component of the velocity. We note that the total velocity squared is the sum of the squares of its components, so that</para>
+    <para id="import-auto-id2721740">where the bar over a quantity means its average value. We would like to have the force in terms of the speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>, rather than the <m:math><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:math>-component of the velocity. We note that the total velocity squared is the sum of the squares of its components, so that</para>
     <equation id="import-auto-id2678150">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -290,14 +290,14 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSup { size 8{2} } }} = {overline  {v rSub { size 8{x} }  rSup { size 8{2} } }} + {overline  {v rSub { size 8{y} }  rSup { size 8{2} } }} + {overline  {v rSub { size 8{z} }  rSup { size 8{2} } }}  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <para id="import-auto-id1677915">Because the velocities are random, their average components in all directions are the same:</para>
     <equation id="import-auto-id2722120">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -348,14 +348,14 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{x} }  rSup { size 8{2} } }} = {overline  {v rSub { size 8{y} }  rSup { size 8{2} } }} = {overline  {v rSub { size 8{z} }  rSup { size 8{2} } }}  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <para id="import-auto-id2637288">Thus,</para>
     <equation id="import-auto-id2710051">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -389,13 +389,13 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSup { size 8{2} } }} =3 {overline  {v rSub { size 8{x} }  rSup { size 8{2} } }} ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <para id="import-auto-id1168465432798">or</para>
     <equation id="import-auto-id1168465438621"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -431,12 +431,12 @@
             </m:mrow><m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSub { size 8{x} }  rSup { size 8{2} } }} = {  {1}  over  {3} }  {overline  {v rSup { size 8{2} } }} } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1168465432639">Substituting <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {3} }  {overline  {v rSup { size 8{2} } }} } {}</m:annotation></m:semantics></m:math> into the expression for <m:math><m:semantics><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F} {}</m:annotation></m:semantics></m:math> gives</para>
+    </equation><para id="import-auto-id1168465432639">Substituting <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> into the expression for <m:math><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow></m:mrow></m:math> gives</para>
     <equation id="import-auto-id1168465431989"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -465,13 +465,13 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{F=N {  {m {overline  {v rSup { size 8{2} } }} }  over  {3l} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1168465431996">The pressure is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">/</m:mo><m:mi>A</m:mi></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F/A,} {}</m:annotation></m:semantics></m:math> so that we obtain</para>
+    </equation><para id="import-auto-id1168465431996">The pressure is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">/</m:mo><m:mi>A</m:mi></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> so that we obtain</para>
     <equation id="import-auto-id1168465432010">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -540,14 +540,14 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{P= {  {F}  over  {A} } =N {  {m {overline  {v rSup { size 8{2} } }} }  over  {3 ital "Al"} } = {  {1}  over  {3} }  {  { ital "Nm" {overline  {v rSup { size 8{2} } }} }  over  {V} } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id1168465435699">where we used <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= ital "Al"} {}</m:annotation></m:semantics></m:math> for the volume. This gives the important result.</para>
+    <para id="import-auto-id1168465435699">where we used <m:math><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> for the volume. This gives the important result.</para>
     <equation id="import-auto-id1168465435715">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -581,15 +581,15 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= {  {1}  over  {3} }  ital "Nm" {overline  {v rSup { size 8{2} } }} } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <para id="import-auto-id1168465435706">This equation is another expression of the ideal gas law.</para>
     </note>
-    <para id="import-auto-id1168465439592">We can get the average kinetic energy of a molecule, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  { size 8{1} }  over  { size 8{2} } }  ital "mv" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>, from the right-hand side of the equation by canceling <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> and multiplying by 3/2. This calculation produces the result that the average kinetic energy of a molecule is directly related to absolute temperature.</para><equation id="import-auto-id1437306">
+    <para id="import-auto-id1168465439592">We can get the average kinetic energy of a molecule, <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mrow><m:mn>1</m:mn></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:mfrac><m:mstyle><m:mrow><m:msup><m:mtext fontstyle="italic">mv</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, from the right-hand side of the equation by canceling <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> and multiplying by 3/2. This calculation produces the result that the average kinetic energy of a molecule is directly related to absolute temperature.</para><equation id="import-auto-id1437306">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -630,15 +630,15 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"KE"}} = {  {1}  over  {2} } m {overline  {v rSup { size 8{2} } }} = {  {3}  over  {2} }  ital "kT"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id1168465439605">The average translational kinetic energy of a molecule, <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mtext>KE</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"KE"}} } {}</m:annotation></m:semantics></m:math>, is called <term id="import-auto-id1168465432457">thermal energy</term><emphasis effect="bold">.</emphasis> The equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>m</m:mi><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { size 11{"KE"}}} = {  {1}  over  {2} } m {overline  { size 11{v rSup { size 8{2} } }}} = {  {3}  over  {2} }  ital "kT"} {}</m:annotation></m:semantics></m:math> is a molecular interpretation of temperature, and it has been found to be valid for gases and reasonably accurate in liquids and solids. It is another definition of temperature based on an expression of the molecular energy.</para>
-    <para id="import-auto-id1168465432578">It is sometimes useful to rearrange <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>m</m:mi><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  { size 11{"KE"}}} = {  {1}  over  {2} } m {overline  { size 11{v rSup { size 8{2} } }}} = {  {3}  over  {2} }  ital "kT"} {}</m:annotation></m:semantics></m:math><emphasis effect="bold">,</emphasis> and solve for the average speed of molecules in a gas in terms of temperature, </para>
+    <para id="import-auto-id1168465439605">The average translational kinetic energy of a molecule, <m:math><m:mrow><m:mrow><m:mover accent="true"><m:mtext>KE</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math>, is called <term id="import-auto-id1168465432457">thermal energy</term><emphasis effect="bold">.</emphasis> The equation <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>m</m:mi><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is a molecular interpretation of temperature, and it has been found to be valid for gases and reasonably accurate in liquids and solids. It is another definition of temperature based on an expression of the molecular energy.</para>
+    <para id="import-auto-id1168465432578">It is sometimes useful to rearrange <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>m</m:mi><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math><emphasis effect="bold">,</emphasis> and solve for the average speed of molecules in a gas in terms of temperature, </para>
     <equation id="import-auto-id1168465432540">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -683,20 +683,20 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ sqrt { {overline  {v rSup { size 8{2} } }} } =v rSub { size 8{"rms"} } = sqrt { {  {3 ital "kT"}  over  {m} } } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id1168465432560">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> stands for root-mean-square (rms) speed. </para>
+    <para id="import-auto-id1168465432560">where <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> stands for root-mean-square (rms) speed. </para>
     <example id="fs-id1349012">
     <title>Calculating Kinetic Energy and Speed of a Gas Molecule</title>
-    <para id="import-auto-id1168465432594">(a) What is the average kinetic energy of a gas molecule at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0°C} {}</m:annotation></m:semantics></m:math> (room temperature)? (b) Find the rms speed of a nitrogen molecule <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mtext>N</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( N rSub { size 8{2} }  \) } {}</m:annotation></m:semantics></m:math> at this temperature.</para><para id="import-auto-id1168465432312">
+    <para id="import-auto-id1168465432594">(a) What is the average kinetic energy of a gas molecule at <m:math><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> (room temperature)? (b) Find the rms speed of a nitrogen molecule <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mtext>N</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> at this temperature.</para><para id="import-auto-id1168465432312">
       <title>Strategy for (a)</title>
     </para>
     <para id="import-auto-id1168465432316">The known in the equation for the average kinetic energy is the temperature.</para>
     <equation id="import-auto-id1168465432340">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -737,16 +737,16 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"KE"}} = {  {1}  over  {2} } m {overline  {v rSup { size 8{2} } }} = {  {3}  over  {2} }  ital "kT"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id1168465431639">Before substituting values into this equation, we must convert the given temperature to kelvins. This conversion gives <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>273</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mspace width="0.25em"/><m:mtext>K = 293</m:mtext><m:mspace width="0.25em"/><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T= \( "20" "." 0+"273" \) " K=293 K" "." } {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1168465431618">
+    <para id="import-auto-id1168465431639">Before substituting values into this equation, we must convert the given temperature to kelvins. This conversion gives <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>20</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">+</m:mo><m:mtext>273</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mspace width="0.25em"/><m:mtext>K = 293</m:mtext><m:mspace width="0.25em"/><m:mtext>K</m:mtext><m:mo>.</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para id="import-auto-id1168465431618">
       <title>Solution for (a)</title>
     </para>
     <para id="import-auto-id1168465431655">The temperature alone is sufficient to find the average translational kinetic energy. Substituting the temperature into the translational kinetic energy equation gives</para>
     <equation id="import-auto-id1168465431659"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -824,8 +824,8 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"KE"}} = {  {3}  over  {2} }  ital "kT"= {  {3}  over  {2} }  left (1 "." "38" times "10" rSup { size 8{ - "23"} } " J/K" right ) left ("293"" K" right )=6 "." "07" times "10" rSup { size 8{ - "21"} } `J "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1168465431805">
       <title>Strategy for (b)</title>
@@ -833,7 +833,7 @@
     <para id="import-auto-id1168465431852">Finding the rms speed of a nitrogen molecule involves a straightforward calculation using the equation</para>
     <equation id="import-auto-id1168465431854">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -878,12 +878,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ sqrt { {overline  {v rSup { size 8{2} } }} } =v rSub { size 8{"rms"} } = sqrt { {  {3 ital "kT"}  over  {m} } } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-    <para id="import-auto-id1168465431762">but we must first find the mass of a nitrogen molecule. Using the molecular mass of nitrogen <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>N</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math> from the periodic table,</para><equation id="import-auto-id1168465431776"><m:math>
-        <m:semantics>
+    <para id="import-auto-id1168465431762">but we must first find the mass of a nitrogen molecule. Using the molecular mass of nitrogen <m:math><m:mrow><m:mrow><m:msub><m:mtext>N</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> from the periodic table,</para><equation id="import-auto-id1168465431776"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -966,15 +966,15 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{m= {  {2 left ("14" "." "0067" right ) times "10" rSup { size 8{ - 3} } `"kg/mol"}  over  {6 "." "02" times "10" rSup { size 8{"23"} } `"mol" rSup { size 8{ - 1} } } } =4 "." "65" times "10" rSup { size 8{ - "26"} } `"kg" "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1168465428261">
       <title>Solution for (b)</title>
     </para>
-    <para id="import-auto-id1168465428276">Substituting this mass and the value for <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> into the equation for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> yields </para>
+    <para id="import-auto-id1168465428276">Substituting this mass and the value for <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math> into the equation for <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> yields </para>
     <equation id="import-auto-id3108905"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1058,8 +1058,8 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } = sqrt { {  {3 ital "kT"}  over  {m} } } = sqrt { {  {3 left (1 "." "38" times "10" rSup { size 8{–"23"} } " J/K" right ) left ("293 K" right )}  over  {4 "." "65" times "10" rSup { size 8{"–26"} } " kg"} } } ="511"" m/s" "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1168465428271">
       <title>Discussion</title>
@@ -1077,11 +1077,11 @@
     </note>
 <section id="fs-id1617393">
     <title>Distribution of Molecular Speeds</title>
-    <para id="import-auto-id1168465439858">The motion of molecules in a gas is random in magnitude and direction for individual molecules, but a gas of many molecules has a predictable distribution of molecular speeds. This distribution is called the <emphasis effect="italics">Maxwell-Boltzmann distribution</emphasis>, after its originators, who calculated it based on kinetic theory, and has since been confirmed experimentally. (See <link target-id="import-auto-id1168465439946"/>.) The distribution has a long tail, because a few molecules may go several times the rms speed. The most probable speed <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math> is less than the rms speed <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math>. <link target-id="import-auto-id2765975"/> shows that the curve is shifted to higher speeds at higher temperatures, with a broader range of speeds.</para><figure id="import-auto-id1168465439946"><media id="import-auto-id1168465439947" alt="A line graph of probability versus velocity in meters per second of oxygen gas at 300 kelvin. The graph is skewed to the right, with a peak probability just under 400 meters per second and a root-mean-square probability of about 500 meters per second.">
+    <para id="import-auto-id1168465439858">The motion of molecules in a gas is random in magnitude and direction for individual molecules, but a gas of many molecules has a predictable distribution of molecular speeds. This distribution is called the <emphasis effect="italics">Maxwell-Boltzmann distribution</emphasis>, after its originators, who calculated it based on kinetic theory, and has since been confirmed experimentally. (See <link target-id="import-auto-id1168465439946"/>.) The distribution has a long tail, because a few molecules may go several times the rms speed. The most probable speed <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is less than the rms speed <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. <link target-id="import-auto-id2765975"/> shows that the curve is shifted to higher speeds at higher temperatures, with a broader range of speeds.</para><figure id="import-auto-id1168465439946"><media id="import-auto-id1168465439947" alt="A line graph of probability versus velocity in meters per second of oxygen gas at 300 kelvin. The graph is skewed to the right, with a peak probability just under 400 meters per second and a root-mean-square probability of about 500 meters per second.">
         <image mime-type="image/jpg" src="../../media/Figure_14_04_04.jpg"/>
       </media>
 
-    <caption>The Maxwell-Boltzmann distribution of molecular speeds in an ideal gas. The most likely speed <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math> is less than the rms speed <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math>. Although very high speeds are possible, only a tiny fraction of the molecules have speeds that are an order of magnitude greater than <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math>.</caption></figure><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2715072" fo:font-weight="normal">The distribution of thermal speeds depends strongly on temperature. As temperature increases, the speeds are shifted to higher values and the distribution is broadened.</para>
+    <caption>The Maxwell-Boltzmann distribution of molecular speeds in an ideal gas. The most likely speed <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is less than the rms speed <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. Although very high speeds are possible, only a tiny fraction of the molecules have speeds that are an order of magnitude greater than <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>.</caption></figure><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id2715072" fo:font-weight="normal">The distribution of thermal speeds depends strongly on temperature. As temperature increases, the speeds are shifted to higher values and the distribution is broadened.</para>
     <figure id="import-auto-id2765975">
       <media id="import-auto-id2765976" alt="Two distributions of probability versus velocity at two different temperatures plotted on the same graph. Temperature two is greater than Temperature one. The distribution for Temperature two has a peak with a lower probability, but a higher velocity than the distribution for Temperature one. The T sub two graph has a more normal distribution and is broader while the T sub one graph is more narrow and has a tail extending to the right.">
         <image mime-type="image/jpg" src="../../media/Figure_14_04_05.jpg"/>
@@ -1098,16 +1098,16 @@
     <para id="import-auto-id2715259">
       <title>Solution</title>
     </para>
-    <para id="import-auto-id2715262">1. Identify the knowns: <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the escape velocity, 11.1 km/s.</para>
-    <para id="import-auto-id3075683">2. Identify the unknowns: We need to solve for temperature, <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>. We also need to solve for the mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> of the helium atom.</para>
+    <para id="import-auto-id2715262">1. Identify the knowns: <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math> is the escape velocity, 11.1 km/s.</para>
+    <para id="import-auto-id3075683">2. Identify the unknowns: We need to solve for temperature, <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math>. We also need to solve for the mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> of the helium atom.</para>
     <para id="import-auto-id1168465438837">3. Determine which equations are needed. </para>
-    <list id="fs-id2681045"><item id="import-auto-id1168465438841">To solve for mass <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> of the helium atom, we can use information from the periodic table:
-    <equation id="import-auto-id1168465438861"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>molar mass</m:mtext></m:mrow><m:mrow><m:mtext>number of atoms per mole</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m= {  { size 11{"molar mass"}}  over  { size 11{"number of atoms per mole"}} } } {}</m:annotation></m:semantics></m:math></equation>
+    <list id="fs-id2681045"><item id="import-auto-id1168465438841">To solve for mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> of the helium atom, we can use information from the periodic table:
+    <equation id="import-auto-id1168465438861"><m:math><m:mrow><m:mrow><m:mrow><m:mi>m</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>molar mass</m:mtext></m:mrow><m:mrow><m:mtext>number of atoms per mole</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation>
     </item>
-    <item id="import-auto-id1168465438893">To solve for temperature <m:math><m:semantics><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{T} {}</m:annotation></m:semantics></m:math>, we can rearrange either
+    <item id="import-auto-id1168465438893">To solve for temperature <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math>, we can rearrange either
     <equation id="import-auto-id1168465438916">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1148,14 +1148,14 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"KE"}} = {  {1}  over  {2} } m {overline  {v rSup { size 8{2} } }} = {  {3}  over  {2} }  ital "kT"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <para id="import-auto-id1168465438951">or</para>
     <equation id="import-auto-id1168465438957">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1197,13 +1197,13 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ sqrt { {overline  {v rSup { size 8{2} } }} } =v rSub { size 8{"rms"} } = sqrt { {  {3 ital "kT"}  over  {m} } } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <para id="import-auto-id1168465439046">to yield</para>
     <equation id="import-auto-id1168465438978"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1231,15 +1231,15 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{T= {  {m {overline  {v rSup { size 8{2} } }} }  over  {3k} } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-where <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k} {}</m:annotation></m:semantics></m:math> is the Boltzmann constant and <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the mass of a helium atom.
+where <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math> is the Boltzmann constant and <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a helium atom.
     </item>
 </list><para id="import-auto-id1168465439140">4. Plug the known values into the equations and solve for the unknowns.</para>
     <equation id="import-auto-id1168465439144"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1320,11 +1320,11 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{m= {  { size 11{"molar mass"}}  over  { size 11{"number of atoms per mole"}} } = {  { size 11{4 "." "0026" times "10" rSup { size 8{ - 3} } " kg/mol"}}  over  { size 12{6 "." "02" times "10" rSup { size 8{"23"} } " mol"} } } =6 "." "65" times "10" rSup { size 8{ - "27"} } " kg"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><equation id="import-auto-id3423579"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1425,13 +1425,13 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{T= {  { left (6 "." "65" times "10" rSup { size 8{ - "27"} } `"kg" right ) left ("11" "." 1 times "10" rSup { size 8{3} } `"m/s" right ) rSup { size 8{2} } }  over  {3 left (1 "." "38" times "10" rSup { size 8{ - "23"} } `"J/K" right )} } =1 "." "98" times "10" rSup { size 8{4} } `K} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1168465434425">
       <title>Discussion</title>
     </para>
-    <para id="import-auto-id1168465439200">This temperature is much higher than atmospheric temperature, which is approximately 250 K <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>–</m:mi><m:mtext>25</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( –"25"°C} {}</m:annotation></m:semantics></m:math> or <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mtext>10</m:mtext><m:mtext>º</m:mtext><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{–"10"°F \) } {}</m:annotation></m:semantics></m:math> at high altitude. Very few helium atoms are left in the atmosphere, but there were many when the atmosphere was formed. The reason for the loss of helium atoms is that there are a small number of helium atoms with speeds higher than Earth’s escape velocity even at normal temperatures. The speed of a helium atom changes from one instant to the next, so that at any instant, there is a small, but nonzero chance that the speed is greater than the escape speed and the molecule escapes from Earth’s gravitational pull. Heavier molecules, such as oxygen, nitrogen, and water (very little of which reach a very high altitude), have smaller rms speeds, and so it is much less likely that any of them will have speeds greater than the escape velocity. In fact, so few have speeds above the escape velocity that billions of years are required to lose significant amounts of the atmosphere. <link target-id="import-auto-id1168465434619"/> shows the impact of a lack of an atmosphere on the Moon. Because the gravitational pull of the Moon is much weaker, it has lost almost its entire atmosphere. The comparison between Earth and the Moon is discussed in this chapter’s Problems and Exercises.</para></example>
+    <para id="import-auto-id1168465439200">This temperature is much higher than atmospheric temperature, which is approximately 250 K <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mi>–</m:mi><m:mtext>25</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> or <m:math><m:mrow><m:mrow><m:mrow><m:mi>–</m:mi><m:mtext>10</m:mtext><m:mtext>º</m:mtext><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> at high altitude. Very few helium atoms are left in the atmosphere, but there were many when the atmosphere was formed. The reason for the loss of helium atoms is that there are a small number of helium atoms with speeds higher than Earth’s escape velocity even at normal temperatures. The speed of a helium atom changes from one instant to the next, so that at any instant, there is a small, but nonzero chance that the speed is greater than the escape speed and the molecule escapes from Earth’s gravitational pull. Heavier molecules, such as oxygen, nitrogen, and water (very little of which reach a very high altitude), have smaller rms speeds, and so it is much less likely that any of them will have speeds greater than the escape velocity. In fact, so few have speeds above the escape velocity that billions of years are required to lose significant amounts of the atmosphere. <link target-id="import-auto-id1168465434619"/> shows the impact of a lack of an atmosphere on the Moon. Because the gravitational pull of the Moon is much weaker, it has lost almost its entire atmosphere. The comparison between Earth and the Moon is discussed in this chapter’s Problems and Exercises.</para></example>
     <figure id="import-auto-id1168465434619"><media id="import-auto-id1168465434620" alt="Photograph of the lunar rover on the Moon. The photo looks like it was taken at night with a powerful spotlight shining on the rover from the left: light reflects off the rover, the astronaut, and the Moon’s surface, but the sky is black. The shadow of the rover is very sharp.">
         <image mime-type="image/jpg" src="../../media/Figure_14_04_06.jpg"/>
       </media>
@@ -1525,7 +1525,7 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:m
     <item id="import-auto-id1168465434777">The ideal gas law can also be expressed as
     <equation id="import-auto-id1168465434779">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1560,17 +1560,17 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ ital "PV"= {  {1}  over  {3} }  ital "Nm" {overline  {v rSup { size 8{2} } }} ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{P} {}</m:annotation></m:semantics></m:math> is the pressure (average force per unit area), <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is the volume of gas in the container, <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> is the number of molecules in the container, <m:math><m:semantics><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m} {}</m:annotation></m:semantics></m:math> is the mass of a molecule, and <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {v rSup { size 8{2} } }} } {}</m:annotation></m:semantics></m:math> is the average of the molecular speed squared.
+where <m:math><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mrow></m:math> is the pressure (average force per unit area), <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the volume of gas in the container, <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> is the number of molecules in the container, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a molecule, and <m:math><m:mrow><m:mrow><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math> is the average of the molecular speed squared.
     </item>
-    <item id="import-auto-id1168465434827">Thermal energy is defined to be the average translational kinetic energy <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mtext>KE</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"KE"}} } {}</m:annotation></m:semantics></m:math> of an atom or molecule.</item>
+    <item id="import-auto-id1168465434827">Thermal energy is defined to be the average translational kinetic energy <m:math><m:mrow><m:mrow><m:mover accent="true"><m:mtext>KE</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math> of an atom or molecule.</item>
     <item id="import-auto-id1168465434957">The temperature of gases is proportional to the average translational kinetic energy of atoms and molecules.
     <equation id="import-auto-id1168465434968">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1611,14 +1611,14 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {overline  {"KE"}} = {  {1}  over  {2} } m {overline  {v rSup { size 8{2} } }} = {  {3}  over  {2} }  ital "kT"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <para id="import-auto-id1168465434975">or</para>
     <equation id="import-auto-id1168465434976">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1663,8 +1663,8 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ sqrt { {overline  {v rSup { size 8{2} } }} } =v rSub { size 8{"rms"} } = sqrt { {  {3 ital "kT"}  over  {m} } }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
 </item>
@@ -1677,11 +1677,11 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:m
     </problem></exercise>
     </section>
     <section id="fs-id1672744" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id1358201" type="problems-exercises"><problem id="fs-id2720759">
-<para id="import-auto-id1168465435094">Some incandescent light bulbs are filled with argon gas. What is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> for argon atoms near the filament, assuming their temperature is 2500 K?</para>
+<para id="import-auto-id1168465435094">Some incandescent light bulbs are filled with argon gas. What is <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> for argon atoms near the filament, assuming their temperature is 2500 K?</para>
     </problem>
 <solution id="fs-id1527020">
     <para id="import-auto-id1168465429496"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1705,25 +1705,25 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ size 11{1 "." "25" times "10" rSup { size 8{3} } `"m/s"}} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para></solution>
     </exercise>
-    <exercise id="fs-id1807059" type="problems-exercises"><problem id="fs-id1802891"><para id="import-auto-id3423806">Average atomic and molecular speeds <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( v rSub { size 8{"rms"} }  \) } {}</m:annotation></m:semantics></m:math> are large, even at low temperatures. What is <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> for helium atoms at 5.00 K, just one degree above helium’s liquefaction temperature? </para>
+    <exercise id="fs-id1807059" type="problems-exercises"><problem id="fs-id1802891"><para id="import-auto-id3423806">Average atomic and molecular speeds <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> are large, even at low temperatures. What is <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> for helium atoms at 5.00 K, just one degree above helium’s liquefaction temperature? </para>
     </problem></exercise>
     <exercise id="fs-id1472510" type="problems-exercises"><problem id="fs-id1810942">
-<para id="import-auto-id1168465429557">(a) What is the average kinetic energy in joules of hydrogen atoms on the <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>5500</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"5500"°C} {}</m:annotation></m:semantics></m:math> surface of the Sun? (b) What is the average kinetic energy of helium atoms in a region of the solar corona where the temperature is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "00"´"10" rSup { size 8{5} } " K"} {}</m:annotation></m:semantics></m:math>?</para></problem>
+<para id="import-auto-id1168465429557">(a) What is the average kinetic energy in joules of hydrogen atoms on the <m:math><m:mrow><m:mrow><m:mrow><m:mtext>5500</m:mtext><m:mtext>º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> surface of the Sun? (b) What is the average kinetic energy of helium atoms in a region of the solar corona where the temperature is <m:math><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>?</para></problem>
 <solution id="fs-id1473152">
-    <para id="import-auto-id1168465429615">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ size 11{1 "." "20" times "10" rSup { size 8{ - "19"} } `J}} {}</m:annotation></m:semantics></m:math></para><para id="import-auto-id1168465429665">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>24</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>17</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ size 11{1 "." "24" times "10" rSup { size 8{ - "17"} } `J}} {}</m:annotation></m:semantics></m:math></para></solution>
+    <para id="import-auto-id1168465429615">(a) <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>19</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para id="import-auto-id1168465429665">(b) <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>24</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>17</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para></solution>
     </exercise>
-    <exercise id="fs-id1509348" type="problems-exercises"><problem id="fs-id2811391"><para id="import-auto-id1168465429751">The escape velocity of any object from Earth is 11.2 km/s. (a) Express this speed in m/s and km/h. (b) At what temperature would oxygen molecules (molecular mass is equal to 32.0 g/mol) have an average velocity <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> equal to Earth’s escape velocity of 11.1 km/s? </para>
+    <exercise id="fs-id1509348" type="problems-exercises"><problem id="fs-id2811391"><para id="import-auto-id1168465429751">The escape velocity of any object from Earth is 11.2 km/s. (a) Express this speed in m/s and km/h. (b) At what temperature would oxygen molecules (molecular mass is equal to 32.0 g/mol) have an average velocity <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> equal to Earth’s escape velocity of 11.1 km/s? </para>
     </problem></exercise>
-    <exercise id="fs-id1213414" type="problems-exercises"><problem id="fs-id1428685"><para id="import-auto-id1168465429762">The escape velocity from the Moon is much smaller than from Earth and is only 2.38 km/s. At what temperature would hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> equal to the Moon’s escape velocity?</para>
+    <exercise id="fs-id1213414" type="problems-exercises"><problem id="fs-id1428685"><para id="import-auto-id1168465429762">The escape velocity from the Moon is much smaller than from Earth and is only 2.38 km/s. At what temperature would hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> equal to the Moon’s escape velocity?</para>
     </problem>
 <solution id="fs-id2721353">
     <para id="import-auto-id1168465429793"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1736,16 +1736,16 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ size 11{"458"`K}} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para></solution>
     </exercise>
-    <exercise id="fs-id1592552" type="problems-exercises"><problem id="fs-id2695156"><para id="import-auto-id1168465429824">Nuclear fusion, the energy source of the Sun, hydrogen bombs, and fusion reactors, occurs much more readily when the average kinetic energy of the atoms is high—that is, at high temperatures. Suppose you want the atoms in your fusion experiment to have average kinetic energies of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>14</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "40"´"10" rSup { size 8{ +- "14"} } " J"} {}</m:annotation></m:semantics></m:math>. What temperature is needed?</para></problem></exercise>
-    <exercise id="fs-id1616491" type="problems-exercises"><problem id="fs-id2278262"><para id="import-auto-id1168465429870">Suppose that the average velocity <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( v rSub { size 8{"rms"} }  \) } {}</m:annotation></m:semantics></m:math> of carbon dioxide molecules (molecular mass is equal to 44.0 g/mol) in a flame is found to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>05</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "05"´"10" rSup { size 8{5} } " m/s"} {}</m:annotation></m:semantics></m:math>. What temperature does this represent?</para></problem>
+    <exercise id="fs-id1592552" type="problems-exercises"><problem id="fs-id2695156"><para id="import-auto-id1168465429824">Nuclear fusion, the energy source of the Sun, hydrogen bombs, and fusion reactors, occurs much more readily when the average kinetic energy of the atoms is high—that is, at high temperatures. Suppose you want the atoms in your fusion experiment to have average kinetic energies of <m:math><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>40</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">–</m:mo><m:mtext>14</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>J</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. What temperature is needed?</para></problem></exercise>
+    <exercise id="fs-id1616491" type="problems-exercises"><problem id="fs-id2278262"><para id="import-auto-id1168465429870">Suppose that the average velocity <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> of carbon dioxide molecules (molecular mass is equal to 44.0 g/mol) in a flame is found to be <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>05</m:mtext><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>5</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. What temperature does this represent?</para></problem>
 <solution id="fs-id1609625">
     <para id="eip-id2650270"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1769,16 +1769,16 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ size 11{1 "." "95" times "10" rSup { size 8{7} } `K}} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para></solution>
-    </exercise><exercise id="fs-id2705174" type="problems-exercises"><problem id="fs-id2705176"><para id="import-auto-id1168465430004">Hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> equal to 193 m/s. What is the temperature?</para>
+    </exercise><exercise id="fs-id2705174" type="problems-exercises"><problem id="fs-id2705176"><para id="import-auto-id1168465430004">Hydrogen molecules (molecular mass is equal to 2.016 g/mol) have an average velocity <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> equal to 193 m/s. What is the temperature?</para>
     </problem></exercise>
-    <exercise id="fs-id2720605" type="problems-exercises"><problem id="fs-id952848"><para id="import-auto-id1168465430034">Much of the gas near the Sun is atomic hydrogen. Its temperature would have to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mn>5</m:mn><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." 5´"10" rSup { size 8{7} } " K"} {}</m:annotation></m:semantics></m:math> for the average velocity <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> to equal the escape velocity from the Sun. What is that velocity?</para></problem>
+    <exercise id="fs-id2720605" type="problems-exercises"><problem id="fs-id952848"><para id="import-auto-id1168465430034">Much of the gas near the Sun is atomic hydrogen. Its temperature would have to be <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mn>5</m:mn><m:mo>×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext>K</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> for the average velocity <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> to equal the escape velocity from the Sun. What is that velocity?</para></problem>
 <solution id="fs-id1494479">
     <para id="eip-id2412712"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -1802,20 +1802,20 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow><m:mrow/></m:m
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ size 11{6 "." "09" times "10" rSup { size 8{5} } `"m/s"}} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para></solution>
-    </exercise><exercise id="fs-id1653384" type="problems-exercises"><problem id="fs-id2194900"><para id="import-auto-id1168465430113">There are two important isotopes of uranium— <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>235</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"235"} } U} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>238</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"238"} } U} {}</m:annotation></m:semantics></m:math>; these isotopes are nearly identical chemically but have different atomic masses. Only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>235</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"235"} } U} {}</m:annotation></m:semantics></m:math> is very useful in nuclear reactors. One of the techniques for separating them (gas diffusion) is based on the different average velocities <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"rms"} } } {}</m:annotation></m:semantics></m:math> of uranium hexafluoride gas, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>UF</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"UF" rSub { size 8{6} } } {}</m:annotation></m:semantics></m:math>. (a) The molecular masses for <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>235</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"235"} } U} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext>UF</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"UF" rSub { size 8{6} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>238</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {} rSup { size 8{"238"} } U} {}</m:annotation></m:semantics></m:math><m:math><m:semantics><m:mrow><m:mrow><m:mspace width="0.25em"/><m:msub><m:mtext>UF</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"UF" rSub { size 8{6} } } {}</m:annotation></m:semantics></m:math> are 349.0 g/mol and 352.0 g/mol, respectively. What is the ratio of their average velocities? (b) At what temperature would their average velocities differ by 1.00 m/s? (c) Do your answers in this problem imply that this technique may be difficult? </para></problem></exercise>
+    </exercise><exercise id="fs-id1653384" type="problems-exercises"><problem id="fs-id2194900"><para id="import-auto-id1168465430113">There are two important isotopes of uranium— <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>235</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>238</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>; these isotopes are nearly identical chemically but have different atomic masses. Only <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>235</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is very useful in nuclear reactors. One of the techniques for separating them (gas diffusion) is based on the different average velocities <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> of uranium hexafluoride gas, <m:math><m:mrow><m:mrow><m:msub><m:mtext>UF</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. (a) The molecular masses for <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>235</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow/></m:mrow></m:math><m:math><m:mrow><m:mrow><m:msub><m:mtext>UF</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mrow/><m:mrow><m:mtext>238</m:mtext></m:mrow></m:msup><m:mtext>U</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math><m:math><m:mrow><m:mrow><m:mspace width="0.25em"/><m:msub><m:mtext>UF</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> are 349.0 g/mol and 352.0 g/mol, respectively. What is the ratio of their average velocities? (b) At what temperature would their average velocities differ by 1.00 m/s? (c) Do your answers in this problem imply that this technique may be difficult? </para></problem></exercise>
     </section> </content>
     <glossary>
     <definition id="import-auto-id1168465434723"><term>thermal energy</term> <meaning id="fs-id2322064"><m:math>
- <m:semantics><m:mrow>
+ <m:mrow>
  <m:mover>
   <m:mtext>KE</m:mtext>
   <m:mo>¯</m:mo>
  </m:mover>
-</m:mrow> </m:semantics>
+</m:mrow> 
 </m:math>, the average translational kinetic energy of a molecule</meaning></definition>
     </glossary>
 </document>

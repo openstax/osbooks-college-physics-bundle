@@ -48,7 +48,7 @@
 
     <caption>An elastic one-dimensional two-object collision. Momentum and internal kinetic energy are conserved.</caption></figure><para id="import-auto-id1543119">Now, to solve problems involving one-dimensional elastic collisions between two objects we can use the equations for conservation of momentum and conservation of internal kinetic energy. First, the equation for conservation of momentum for two objects in a one-dimensional collision is </para>
     <equation id="eip-545"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -89,8 +89,8 @@
               </m:mrow>
             </m:mrow>
           </m:mrow>
-        </m:semantics>
-        <m:semantics>
+        
+        
           <m:mrow>
             <m:mrow><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mspace width="0.25em"/>
               <m:mfenced open="(" close=")">
@@ -108,15 +108,15 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ left (F rSub { size 8{"net"} } =0 right )} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
 </equation>
 <para id="import-auto-id1535439">or</para>
-    <equation id="eip-485"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics><m:semantics><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mfenced></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ left (F rSub { size 8{"net"} } =0 right )} {}</m:annotation></m:semantics></m:math>
+    <equation id="eip-485"><m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:mrow><m:mrow><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mtext>net</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mfenced></m:mrow><m:mrow/><m:mo>,</m:mo></m:mrow></m:math>
 </equation>
 <para id="import-auto-id1572722">where the primes (') indicate values after the collision. By definition, an elastic collision conserves internal kinetic energy, and so the sum of kinetic energies before the collision equals the sum after the collision. Thus,</para>
-    <equation id="eip-940"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msup><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:mo stretchy="false">+</m:mo>
+    <equation id="eip-940"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msup><m:msub><m:mi>v</m:mi><m:mn>1</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:mo stretchy="false">+</m:mo>
 <m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mrow>
 <m:msup><m:msub><m:mi>v</m:mi><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup>
 <m:mo stretchy="false">=</m:mo>
@@ -126,7 +126,7 @@
 <m:mo stretchy="false">+</m:mo>
 <m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow>
 <m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub>
-<m:msup><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mtext> (two-object elastic collision)</m:mtext></m:mrow></m:mrow></m:semantics></m:math>
+<m:msup><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub><m:mn>2</m:mn></m:msup><m:mspace width="0.25em"/><m:mspace width="0.25em"/><m:mtext> (two-object elastic collision)</m:mtext></m:mrow></m:mrow></m:math>
 </equation>
 <para id="import-auto-id1704032">expresses the equation for conservation of internal kinetic energy in a one-dimensional collision.</para>
 
@@ -321,7 +321,7 @@
     <title>Calculating Velocities Following an Elastic Collision</title>
     <para id="import-auto-id1331877">Calculate the velocities of two objects following an elastic collision, given that </para>
     <equation id="eip-634"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -386,13 +386,13 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } =0 "." "500"" kg, "m rSub { size 8{2} } =3 "." "50"" kg, "v rSub { size 8{1} } =4 "." "00"" m/s, and "v rSub { size 8{2} } =0 "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="eip-570"><emphasis>Strategy and Concept</emphasis> </para><para id="import-auto-id1372454">First, visualize what the initial conditions mean—a small object strikes a larger object that is initially at rest. This situation is slightly simpler than the situation shown in <link target-id="import-auto-id1121320"/> where both objects are initially moving. We are asked to find two unknowns (the final velocities <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{2} } '} {}</m:annotation></m:semantics></m:math>). To find two unknowns, we must use two independent equations. Because this collision is elastic, we can use the above two equations. Both can be simplified by the fact that object 2 is initially at rest, and thus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math>. Once we simplify these equations, we combine them algebraically to solve for the unknowns.
-    </para><para id="eip-900"><title>Solution</title> </para><para id="import-auto-id1772140">For this problem, note that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0 </m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math> and use conservation of momentum. Thus,
+    </equation><para id="eip-570"><emphasis>Strategy and Concept</emphasis> </para><para id="import-auto-id1372454">First, visualize what the initial conditions mean—a small object strikes a larger object that is initially at rest. This situation is slightly simpler than the situation shown in <link target-id="import-auto-id1121320"/> where both objects are initially moving. We are asked to find two unknowns (the final velocities <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>). To find two unknowns, we must use two independent equations. Because this collision is elastic, we can use the above two equations. Both can be simplified by the fact that object 2 is initially at rest, and thus <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Once we simplify these equations, we combine them algebraically to solve for the unknowns.
+    </para><para id="eip-900"><title>Solution</title> </para><para id="import-auto-id1772140">For this problem, note that <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0 </m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> and use conservation of momentum. Thus,
     </para><equation id="eip-773"><m:math>
-          <m:semantics>
+          
             <m:mrow>
 
                 <m:mrow>
@@ -431,16 +431,14 @@
                     </m:msub>
                   </m:mrow>
                 </m:mrow>
-
-              <m:mrow/>
             </m:mrow>
-            <m:annotation encoding="StarMath 5.0"> size 12{p rSub { size 8{1} } =p' rSub { size 8{1} } +p' rSub { size 8{2} } } {}</m:annotation>
-          </m:semantics>
+            
+          
         </m:math>
 </equation><para id="import-auto-id1650781">or
-    </para><equation id="eip-832"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{m rSub { size 8{1} } v rSub { size 8{1} } =m rSub { size 8{1} }  { {v}} sup { ' } rSub { size 8{1} } +m rSub { size 8{2} }  { {v}} sup { ' } rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1348227">Using conservation of internal kinetic energy and that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{2} } =0} {}</m:annotation></m:semantics></m:math>,
+    </para><equation id="eip-832"><m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>m</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1348227">Using conservation of internal kinetic energy and that <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>,
     </para><equation id="eip-901"><m:math>
-          <m:semantics>
+          
             <m:mrow>
 
                 <m:mrow>
@@ -526,13 +524,13 @@
               <m:mrow/>
 <m:mo>.</m:mo>
             </m:mrow>
-            <m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  {2} } m rSub { size 8{1} } v rSub { size 8{1}   rSup { size 8{2} } } = {  {1}  over  {2} } m rSub { size 8{1} } v"" lSub { size 8{1} } ' rSup { size 8{2} } + {  {1}  over  {2} } m rSub { size 8{2} } v rSub { size 8{2} } ' rSup { size 8{2} } } {}</m:annotation>
-          </m:semantics>
+            
+          
         </m:math>
 
-    </equation><para id="import-auto-id1750008">Solving the first equation (momentum equation) for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, we obtain
+    </equation><para id="import-auto-id1750008">Solving the first equation (momentum equation) for <m:math><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub></m:mrow><m:mrow/></m:mrow></m:math>, we obtain
     </para><equation id="eip-436"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -571,11 +569,11 @@
             <m:mrow/>
 <m:mo>.</m:mo>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{2} } = {  {m rSub { size 8{1} } }  over  {m rSub { size 8{2} } } }  left (v rSub { size 8{1} }  -  { {v}} sup { ' } rSub { size 8{1} }  right )} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1229983">Substituting this expression into the second equation (internal kinetic energy equation) eliminates the variable <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{2} } } {}</m:annotation></m:semantics></m:math>, leaving only <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> as an unknown (the algebra is left as an exercise for the reader). There are two solutions to any quadratic equation; in this example, they are</para><equation id="eip-464"><m:math>
-        <m:semantics>
+    </equation><para id="import-auto-id1229983">Substituting this expression into the second equation (internal kinetic energy equation) eliminates the variable <m:math><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub></m:mrow><m:mrow/></m:mrow></m:math>, leaving only <m:math><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub></m:mrow><m:mrow/></m:mrow></m:math> as an unknown (the algebra is left as an exercise for the reader). There are two solutions to any quadratic equation; in this example, they are</para><equation id="eip-464"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -589,13 +587,13 @@
               </m:mrow>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{1} } =4 "." "00"`"m/s"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1237091">and
     </para>
-    <equation id="eip-990"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{1} } = - 3 "." "00"" m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1465889">As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  { {v}} sup { ' } rSub { size 8{1} } = - 3 "." "00"`"m/s" \) } {}</m:annotation></m:semantics></m:math> is negative, meaning that the first object bounces backward. When this negative value of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{1} } } {}</m:annotation></m:semantics></m:math> is used to find the velocity of the second object after the collision, we get</para><equation id="eip-560"><m:math>
-        <m:semantics>
+    <equation id="eip-990"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1465889">As noted when quadratic equations were encountered in earlier chapters, both solutions may or may not be meaningful. In this case, the first solution is the same as the initial condition. The first solution thus represents the situation before the collision and is discarded. The second solution <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>3</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is negative, meaning that the first object bounces backward. When this negative value of <m:math><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>1</m:mn></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is used to find the velocity of the second object after the collision, we get</para><equation id="eip-560"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -670,12 +668,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{2} } = {  {m rSub { size 8{1} } }  over  {m rSub { size 8{2} } } }  left (v rSub { size 8{1} }  -  { {v}} sup { ' } rSub { size 8{1} }  right )= {  {0 "." "500"`"kg"}  over  {3 "." "50"`"kg"} }  left [4 "." "00" -  left ( - 3 "." "00" right ) right ]`"m/s"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1764017">or
     </para>
-    <equation id="eip-819"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { {v}} sup { ' } rSub { size 8{2} } =1 "." "00"`"m/s"} {}</m:annotation></m:semantics></m:math></equation><para id="eip-341"><title>Discussion</title></para><para id="import-auto-id1305253">The result of this example is intuitively reasonable. A small object strikes a larger one at rest and bounces backward. The larger one is knocked forward, but with a low speed. (This is like a compact car bouncing backward off a full-size SUV that is initially at rest.) As a check, try calculating the internal kinetic energy before and after the collision. You will see that the internal kinetic energy is unchanged at 4.00 J. Also check the total momentum before and after the collision; you will find it, too, is unchanged.</para>
+    <equation id="eip-819"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mrow><m:mi>v</m:mi><m:mo>′</m:mo></m:mrow><m:mn>2</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="eip-341"><title>Discussion</title></para><para id="import-auto-id1305253">The result of this example is intuitively reasonable. A small object strikes a larger one at rest and bounces backward. The larger one is knocked forward, but with a low speed. (This is like a compact car bouncing backward off a full-size SUV that is initially at rest.) As a check, try calculating the internal kinetic energy before and after the collision. You will see that the internal kinetic energy is unchanged at 4.00 J. Also check the total momentum before and after the collision; you will find it, too, is unchanged.</para>
     <para id="import-auto-id1600785">The equations for conservation of momentum and internal kinetic energy as written above can be used to describe any one-dimensional elastic collision of two objects. These equations can be extended to more objects if needed.</para>
     </example>
     <note id="fs-id1354788"><label/><title>Making Connections: Take-Home Investigation—Ice Cubes and Elastic Collision</title>
@@ -882,7 +880,7 @@
     </problem></exercise>
     <exercise id="fs-id1319285" type="problems-exercises"><problem id="fs-id1349458">
 <para id="eip-id2978613"><title>Professional Application</title></para>
-    <para id="import-auto-id1677107">Two manned satellites approach one another at a relative speed of 0.250 m/s, intending to dock. The first has a mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{4 "." "00" times "10" rSup { size 8{3} } " kg"} {}</m:annotation></m:semantics></m:math>, and the second a mass of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "50" times "10" rSup { size 8{3} } " kg"} {}</m:annotation></m:semantics></m:math>. If the two satellites collide elastically rather than dock, what is their final relative velocity? </para></problem>
+    <para id="import-auto-id1677107">Two manned satellites approach one another at a relative speed of 0.250 m/s, intending to dock. The first has a mass of <m:math><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and the second a mass of <m:math><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>50</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. If the two satellites collide elastically rather than dock, what is their final relative velocity? </para></problem>
     <solution id="fs-id2499433">
    <para id="eip-id1362706"> 0.250 m/s</para>
     </solution></exercise><exercise id="fs-id898804" type="problems-exercises"><problem id="fs-id2512576">

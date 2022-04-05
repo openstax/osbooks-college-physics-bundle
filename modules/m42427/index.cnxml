@@ -29,34 +29,34 @@
     
     <para id="import-auto-id1169738084033">When a sinusoidal voltage is applied to an inductor, the voltage leads the current by one-fourth of a cycle, or by a 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>90º</m:mtext>
- </m:semantics>
+ 
 </m:math> phase angle.</para></note>
       
-    <para id="import-auto-id1169738086892">Current lags behind voltage, since inductors oppose change in current. Changing current induces a back emf <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>L</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>Δ</m:mn><m:mi>I</m:mi><m:mo stretchy="false">/</m:mo><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V= - L \( ΔI/Δt \) } {}</m:annotation></m:semantics></m:math>. This is considered to be an effective resistance of the inductor to AC. The rms current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> through an inductor <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math> is given by a version of Ohm’s law:</para><equation id="eip-683"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {V}  over  {X rSub { size 8{L} } } } } {}</m:annotation></m:semantics></m:math></equation>
+    <para id="import-auto-id1169738086892">Current lags behind voltage, since inductors oppose change in current. Changing current induces a back emf <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>L</m:mi></m:mrow></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mn>Δ</m:mn><m:mi>I</m:mi><m:mo stretchy="false">/</m:mo><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. This is considered to be an effective resistance of the inductor to AC. The rms current <m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math> through an inductor <m:math><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow></m:mrow></m:math> is given by a version of Ohm’s law:</para><equation id="eip-683"><m:math><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow></m:math></equation>
     <para id="import-auto-id1169738061327">where 
 <m:math>
- <m:semantics>
+ 
   <m:mi>V</m:mi>
- </m:semantics>
-</m:math> is the rms voltage across the inductor and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> is defined to be</para><equation id="eip-267"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =2π ital "fL"} {}</m:annotation></m:semantics></m:math></equation>
-    <para id="import-auto-id1169737988958">with <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> the frequency of the AC voltage source in hertz (An analysis of the circuit using Kirchhoff’s loop rule and calculus actually produces this expression). <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> is called the <term id="import-auto-id1169737804525">inductive reactance</term>, because the inductor reacts to impede the current. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> has units of ohms (<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1 H</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1 Ω</m:mn></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, so that frequency times inductance has units of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>cycles/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi/><m:mrow><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( "cycles/s" \)  \( ` %OMEGA  cdot s \) = %OMEGA } {}</m:annotation></m:semantics></m:math>), consistent with its role as an effective resistance. It makes sense that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> is proportional to <m:math><m:semantics><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{L} {}</m:annotation></m:semantics></m:math>, since the greater the induction the greater its resistance to change. It is also reasonable that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> is proportional to frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>, since greater frequency means greater change in current. That is, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>I</m:mi><m:mn>/Δ</m:mn><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔI} {}</m:annotation></m:semantics></m:math> is large for large frequencies (large <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math><emphasis effect="italics">,</emphasis> small <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>). The greater the change, the greater the opposition of an inductor.</para><example id="fs-id1169736972664">
+ 
+</m:math> is the rms voltage across the inductor and <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is defined to be</para><equation id="eip-267"><m:math><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow></m:math></equation>
+    <para id="import-auto-id1169737988958">with <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math> the frequency of the AC voltage source in hertz (An analysis of the circuit using Kirchhoff’s loop rule and calculus actually produces this expression). <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is called the <term id="import-auto-id1169737804525">inductive reactance</term>, because the inductor reacts to impede the current. <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> has units of ohms (<m:math><m:mrow><m:mrow><m:mrow><m:mn>1 H</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1 Ω</m:mn></m:mrow><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>, so that frequency times inductance has units of <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mtext>cycles/s</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mi/><m:mrow><m:mo stretchy="false">Ω</m:mo><m:mo stretchy="false">⋅</m:mo><m:mtext>s</m:mtext></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>), consistent with its role as an effective resistance. It makes sense that <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is proportional to <m:math><m:mrow><m:mrow><m:mi>L</m:mi></m:mrow></m:mrow></m:math>, since the greater the induction the greater its resistance to change. It is also reasonable that <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is proportional to frequency <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math>, since greater frequency means greater change in current. That is, <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>I</m:mi><m:mn>/Δ</m:mn><m:mi>t</m:mi></m:mrow></m:mrow></m:math> is large for large frequencies (large <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math><emphasis effect="italics">,</emphasis> small <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>t</m:mi></m:mrow></m:mrow></m:math>). The greater the change, the greater the opposition of an inductor.</para><example id="fs-id1169736972664">
     <title>Calculating Inductive Reactance and then Current</title>
     <para id="import-auto-id1169738234775">(a) Calculate the inductive reactance of a 3.00 mH inductor when 60.0 Hz and 10.0 kHz AC voltages are applied. (b) What is the rms current at each frequency if the applied rms voltage is 120 V?</para>
   
         <para id="import-auto-id1169737771210">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id1169738010624">The inductive reactance is found directly from the expression <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =2π ital "fL"} {}</m:annotation></m:semantics></m:math>. Once <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> has been found at each frequency, Ohm’s law as stated in the Equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I=V/X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> can be used to find the current at each frequency.</para>
+    <para id="import-auto-id1169738010624">The inductive reactance is found directly from the expression <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Once <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> has been found at each frequency, Ohm’s law as stated in the Equation <m:math><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> can be used to find the current at each frequency.</para>
    
         <para id="import-auto-id1169738082082">
       <title>Solution for (a)</title>
     </para>
-    <para id="import-auto-id1169736659051">Entering the frequency and inductance into Equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =2π ital "fL"} {}</m:annotation></m:semantics></m:math> gives</para>
+    <para id="import-auto-id1169736659051">Entering the frequency and inductance into Equation <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> gives</para>
     
     <equation id="eip-54"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             
               <m:mrow>
@@ -98,13 +98,13 @@
                   </m:mrow>
                 </m:mrow>
               </m:mrow><m:mo>.</m:mo></m:mrow>
-        </m:semantics>
+        
       </m:math> 
     </equation><para id="import-auto-id1169737806696">Similarly, at 10 kHz,</para>
     
     
         
-        <equation id="eip-126"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>28</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow>
+        <equation id="eip-126"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>28</m:mtext><m:mo stretchy="false">(</m:mo><m:mrow>
     <m:mn>1.00</m:mn>
     <m:mo>×</m:mo>
    <m:msup>
@@ -112,12 +112,12 @@
     <m:mtext>4</m:mtext>
    </m:msup>
    <m:mtext>/s</m:mtext>
-  </m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00 mH</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>188 Ω at 10 kHz</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =2π ital "fL"=6 "." "28" \( 3 "." "00"" mH" \) ="188"  %OMEGA } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736864032">
+  </m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>00 mH</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mtext>188 Ω at 10 kHz</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1169736864032">
       <title>Solution for (b)</title>
     </para>
-    <para id="import-auto-id1169736584158">The rms current is now found using the version of Ohm’s law in Equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I=V/X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, given the applied rms voltage is 120 V. For the first frequency, this yields</para>
-    <equation id="eip-333"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mn>1.13 Ω</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>106 A at 60 Hz</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1169738134009">Similarly, at 10 kHz,</para>
-    <equation id="eip-900"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mtext>188 Ω</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0.637 A at 10 kHz</m:mn></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {V}  over  {X rSub { size 8{L} } } } = {  {"120"" V"}  over  {"188 " %OMEGA } } =0 "." "637"" A"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737711680">
+    <para id="import-auto-id1169736584158">The rms current is now found using the version of Ohm’s law in Equation <m:math><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, given the applied rms voltage is 120 V. For the first frequency, this yields</para>
+    <equation id="eip-333"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mn>1.13 Ω</m:mn></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>106 A at 60 Hz</m:mtext></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation><para id="import-auto-id1169738134009">Similarly, at 10 kHz,</para>
+    <equation id="eip-900"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mtext>188 Ω</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0.637 A at 10 kHz</m:mn></m:mrow></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1169737711680">
       <title>Discussion</title>
     </para>
     <para id="import-auto-id1169738145157">The inductor reacts very differently at the two different frequencies. At the higher frequency, its reactance is large and the current is small, consistent with how an inductor impedes rapid change. Thus high frequencies are impeded the most. Inductors can be used to filter out high frequencies; for example, a large inductor can be put in series with a sound reproduction system or in series with your home computer to reduce high-frequency sound output from your speakers or high-frequency power spikes into your computer.</para>
@@ -134,74 +134,68 @@
           <image mime-type="image/jpg" src="../../media/Figure_24_11_02a.jpg" width="400"/>
         </media>
 
-      <caption>(a) An AC voltage source in series with a capacitor <emphasis effect="italics">C</emphasis> having negligible resistance. (b) Graph of current and voltage across the capacitor as functions of time.</caption></figure><para id="import-auto-id1169737765333">The graph in <link target-id="import-auto-id1169738082254"/> starts with voltage across the capacitor at a maximum. The current is zero at this point, because the capacitor is fully charged and halts the flow. Then voltage drops and the current becomes negative as the capacitor discharges. At point a, the capacitor has fully discharged (<emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Q=0} {}</m:annotation></m:semantics></m:math></emphasis> on it) and the voltage across it is zero. The current remains negative between points a and b, causing the voltage on the capacitor to reverse. This is complete at point b, where the current is zero and the voltage has its most negative value. The current becomes positive after point b, neutralizing the charge on the capacitor and bringing the voltage to zero at point c, which allows the current to reach its maximum. Between points c and d, the current drops to zero as the voltage rises to its peak, and the process starts to repeat. Throughout the cycle, the voltage follows what the current is doing by one-fourth of a cycle:</para>
+      <caption>(a) An AC voltage source in series with a capacitor <emphasis effect="italics">C</emphasis> having negligible resistance. (b) Graph of current and voltage across the capacitor as functions of time.</caption></figure><para id="import-auto-id1169737765333">The graph in <link target-id="import-auto-id1169738082254"/> starts with voltage across the capacitor at a maximum. The current is zero at this point, because the capacitor is fully charged and halts the flow. Then voltage drops and the current becomes negative as the capacitor discharges. At point a, the capacitor has fully discharged (<emphasis effect="italics"><m:math><m:mrow><m:mrow><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math></emphasis> on it) and the voltage across it is zero. The current remains negative between points a and b, causing the voltage on the capacitor to reverse. This is complete at point b, where the current is zero and the voltage has its most negative value. The current becomes positive after point b, neutralizing the charge on the capacitor and bringing the voltage to zero at point c, which allows the current to reach its maximum. Between points c and d, the current drops to zero as the voltage rises to its peak, and the process starts to repeat. Throughout the cycle, the voltage follows what the current is doing by one-fourth of a cycle:</para>
     
     <note id="fs-id1169737784517"><label/>
     <title>AC Voltage in a Capacitor</title>
     <para id="import-auto-id1169737796643">When a sinusoidal voltage is applied to a capacitor, the voltage follows the current by one-fourth of a cycle, or by a 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>90º</m:mtext>
- </m:semantics>
+ 
 </m:math>
  phase angle.</para></note>
     
-    <para id="import-auto-id1169738224715">The capacitor is affecting the current, having the ability to stop it altogether when fully charged. Since an AC voltage is applied, there is an rms current, but it is limited by the capacitor. This is considered to be an effective resistance of the capacitor to AC, and so the rms current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> in the circuit containing only a capacitor <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math> is given by another version of Ohm’s law to be</para>
-    <equation id="eip-604"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {V}  over  {X rSub { size 8{C} } } } } {}</m:annotation></m:semantics></m:math></equation>
-    <para id="import-auto-id1169737917721">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is the rms voltage and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> is defined (As with <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math>, this expression for <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> results from an analysis of the circuit using Kirchhoff’s rules and calculus)<sup/> to be</para>
-    <equation id="eip-455"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } = {  {1}  over  {2π ital "fC"} } } {}</m:annotation></m:semantics></m:math></equation>
-    <para id="import-auto-id1169736615624">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> is called the <term id="import-auto-id1169737819555">capacitive reactance</term>, because the capacitor reacts to impede the current. <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> has units of ohms (verification left as an exercise for the reader). <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> is inversely proportional to the capacitance <m:math><m:semantics><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{C} {}</m:annotation></m:semantics></m:math>; the larger the capacitor, the greater the charge it can store and the greater the current that can flow. It is also inversely proportional to the frequency <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math>; the greater the frequency, the less time there is to fully charge the capacitor, and so it impedes current less.</para>
+    <para id="import-auto-id1169738224715">The capacitor is affecting the current, having the ability to stop it altogether when fully charged. Since an AC voltage is applied, there is an rms current, but it is limited by the capacitor. This is considered to be an effective resistance of the capacitor to AC, and so the rms current <m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math> in the circuit containing only a capacitor <m:math><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow></m:mrow></m:math> is given by another version of Ohm’s law to be</para>
+    <equation id="eip-604"><m:math><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow></m:math></equation>
+    <para id="import-auto-id1169737917721">where <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the rms voltage and <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is defined (As with <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>, this expression for <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> results from an analysis of the circuit using Kirchhoff’s rules and calculus)<sup/> to be</para>
+    <equation id="eip-455"><m:math><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></mml:mrow><m:mrow/></m:mrow></m:math></equation>
+    <para id="import-auto-id1169736615624">where <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is called the <term id="import-auto-id1169737819555">capacitive reactance</term>, because the capacitor reacts to impede the current. <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> has units of ohms (verification left as an exercise for the reader). <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is inversely proportional to the capacitance <m:math><m:mrow><m:mrow><m:mi>C</m:mi></m:mrow></m:mrow></m:math>; the larger the capacitor, the greater the charge it can store and the greater the current that can flow. It is also inversely proportional to the frequency <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math>; the greater the frequency, the less time there is to fully charge the capacitor, and so it impedes current less.</para>
    
     <example id="fs-id1169736597928">
     <title>Calculating Capacitive Reactance and then Current</title>
     <para id="import-auto-id1169737895572">(a) Calculate the capacitive reactance of a 5.00 µF capacitor when 60.0 Hz and 10.0 kHz AC voltages are applied. (b) What is the rms current if the applied rms voltage is 120 V?</para><para id="import-auto-id1169737939050">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id1169737714880">The capacitive reactance is found directly from the expression in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } = {  {1}  over  {2π ital "fC"} } } {}</m:annotation></m:semantics></m:math>. Once 
+    <para id="import-auto-id1169737714880">The capacitive reactance is found directly from the expression in <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Once 
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
    <m:msub>
     <m:mi>X</m:mi>
     <m:mi>C</m:mi>
    </m:msub>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>
 
-has been found at each frequency, Ohm’s law stated as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I=V/X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> can be used to find the current at each frequency.</para><para id="import-auto-id1169738179315">
+has been found at each frequency, Ohm’s law stated as <m:math><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> can be used to find the current at each frequency.</para><para id="import-auto-id1169738179315">
       <title>Solution for (a)</title>
     </para>
-    <para id="import-auto-id1169738094747">Entering the frequency and capacitance into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } = {  {1}  over  {2π ital "fC"} } } {}</m:annotation></m:semantics></m:math> gives</para>
-    <equation id="eip-29"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
+    <para id="import-auto-id1169738094747">Entering the frequency and capacitance into <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> gives</para>
+    <equation id="eip-29"><m:math><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr>
 <m:mtd><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mtd>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle><m:mrow><m:mtext fontstyle="italic">fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
 <m:mtr><m:mtd/>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
-<m:mtd><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>28</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi fontstyle="italic"> μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>531 Ω at 60 Hz</m:mtext><m:mtext>.</m:mtext><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/><m:mrow/></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{X rSub { size 8{C} } = {  {1}  over  {2π ital "fC"} } }  {} # 
-"      "= {  {1}  over  {6 "." "28" \( "60" "." 0/s \)  \( 5 "." "00" μF \) } } ="531 " %OMEGA " at 60 Hz" {} 
-} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169738052092">Similarly, at 10 kHz,</para>
-    <equation id="eip-399"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mtd>
+<m:mtd><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>28</m:mtext><m:mo stretchy="false">(</m:mo><m:mtext>60</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi fontstyle="italic"> μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mtext>531 Ω at 60 Hz</m:mtext><m:mtext>.</m:mtext><m:mrow/></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/><m:mrow/></m:mrow></m:mrow></m:math></equation><para id="import-auto-id1169738052092">Similarly, at 10 kHz,</para>
+    <equation id="eip-399"><m:math><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mtd>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mtext>28</m:mtext><m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mi fontstyle="italic"> μ</m:mi><m:mtext>F</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtd></m:mtr>
 <m:mtr><m:mtd/>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
-<m:mtd><m:mrow><m:mrow/><m:mtext>3.18 Ω at 10 kHz</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{X rSub { size 8{C} } = {  {1}  over  {2π ital "fC"} } = {  {1}  over  {6 "." "28" \( 1 "." "00" times "10" rSup { size 8{4} } /s \)  \( 5 "." "00" μF \) } } }  {} # 
-"       "=3 "." "18"  %OMEGA " at 10 kHz" {} 
-} } {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736590721">
+<m:mtd><m:mrow><m:mrow/><m:mtext>3.18 Ω at 10 kHz</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mrow></m:math></equation><para id="import-auto-id1169736590721">
       <title>Solution for (b)</title>
     </para>
-    <para id="import-auto-id1169738251850">The rms current is now found using the version of Ohm’s law in <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I=V/X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math>, given the applied rms voltage is 120 V. For the first frequency, this yields</para>
-    <equation id="eip-356"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mtext>531 Ω</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo></m:mrow><m:mtext>0.226 A at 60 Hz</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {V}  over  {X rSub { size 8{C} } } } = {  {"120"" V"}  over  {"531 " %OMEGA } } =0 "." "226"" A"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169736894272">Similarly, at 10 kHz,</para>
-    <equation id="eip-633"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mtext>3.18 Ω</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo></m:mrow><m:mn>37.7 A at 10 kHz</m:mn></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {V}  over  {X rSub { size 8{C} } } } = {  {"120"" V"}  over  {3 "." "18 " %OMEGA } } ="37" "." 7" A"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1169737827258">
+    <para id="import-auto-id1169738251850">The rms current is now found using the version of Ohm’s law in <m:math><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">/</m:mo><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, given the applied rms voltage is 120 V. For the first frequency, this yields</para>
+    <equation id="eip-356"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mtext>531 Ω</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo></m:mrow><m:mtext>0.226 A at 60 Hz</m:mtext></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:math></equation><para id="import-auto-id1169736894272">Similarly, at 10 kHz,</para>
+    <equation id="eip-633"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:mtext>120 V</m:mtext></m:mrow><m:mrow><m:mtext>3.18 Ω</m:mtext></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo></m:mrow><m:mn>37.7 A at 10 kHz</m:mn></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1169737827258">
       <title>Discussion</title>
     </para>
     <para id="import-auto-id1169737734480">The capacitor reacts very differently at the two different frequencies, and in exactly the opposite way an inductor reacts. At the higher frequency, its reactance is small and the current is large. Capacitors favor change, whereas inductors oppose change. Capacitors impede low frequencies the most, since low frequency allows them time to become charged and stop the current. Capacitors can be used to filter out low frequencies. For example, a capacitor in series with a sound reproduction system rids it of the 60 Hz hum.</para>
     </example>
-    <para id="import-auto-id1169738176743">Although a capacitor is basically an open circuit, there is an rms current in a circuit with an AC voltage applied to a capacitor. This is because the voltage is continually reversing, charging and discharging the capacitor. If the frequency goes to zero (DC), <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> tends to infinity, and the current is zero once the capacitor is charged. At very high frequencies, the capacitor’s reactance tends to zero—it has a negligible reactance and does not impede the current (it acts like a simple wire). <emphasis effect="italics">Capacitors have the opposite effect on AC circuits that inductors have</emphasis>.</para>
+    <para id="import-auto-id1169738176743">Although a capacitor is basically an open circuit, there is an rms current in a circuit with an AC voltage applied to a capacitor. This is because the voltage is continually reversing, charging and discharging the capacitor. If the frequency goes to zero (DC), <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> tends to infinity, and the current is zero once the capacitor is charged. At very high frequencies, the capacitor’s reactance tends to zero—it has a negligible reactance and does not impede the current (it acts like a simple wire). <emphasis effect="italics">Capacitors have the opposite effect on AC circuits that inductors have</emphasis>.</para>
   </section>
   
   <section id="fs-id1169737961091">
@@ -215,40 +209,40 @@ has been found at each frequency, Ohm’s law stated as <m:math><m:semantics><m:
       <caption>(a) An AC voltage source in series with a resistor. (b) Graph of current and voltage across the resistor as functions of time, showing them to be exactly in phase.  </caption></figure><note id="fs-id1169737730746"><label/>
     <title>AC Voltage in a Resistor</title>
     <para id="import-auto-id1169736702911">When a sinusoidal voltage is applied to a resistor, the voltage is exactly in phase with the current—they have a <m:math>
- <m:semantics>
+ 
   <m:mtext>0º</m:mtext>
- </m:semantics>
+ 
 </m:math> phase angle.</para></note>
     </section>
     
     <section id="fs-id1169737784611" class="section-summary"><title>Section Summary</title><list id="fs-id1169738048183"><item id="import-auto-id1169737725415">For inductors in AC circuits, we find that when a sinusoidal voltage is applied to an inductor, the voltage leads the current by one-fourth of a cycle, or by a <m:math>
- <m:semantics>
+ 
   <m:mtext>90º</m:mtext>
- </m:semantics>
+ 
 </m:math> phase angle.</item>
     <item id="import-auto-id1169736844107">The opposition of an inductor to a change in current is expressed as a type of AC resistance.</item>
     <item id="import-auto-id1169736583869">Ohm’s law for an inductor is
-    <equation id="eip-50"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {V}  over  {X rSub { size 8{L} } } } } {}</m:annotation></m:semantics></m:math></equation>
+    <equation id="eip-50"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation>
 
-where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is the rms voltage across the inductor.</item>
-    <item id="import-auto-id1169737882424"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> is defined to be the inductive reactance, given by
-    <equation id="eip-853"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =2π ital "fL"} {}</m:annotation></m:semantics></m:math></equation> 
+where <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the rms voltage across the inductor.</item>
+    <item id="import-auto-id1169737882424"><m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is defined to be the inductive reactance, given by
+    <equation id="eip-853"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation> 
 
-with <m:math><m:semantics><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f} {}</m:annotation></m:semantics></m:math> the frequency of the AC voltage source in hertz.</item>
-    <item id="import-auto-id1169738208811">Inductive reactance <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } } {}</m:annotation></m:semantics></m:math> has units of ohms and is greatest at high frequencies.</item>
+with <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math> the frequency of the AC voltage source in hertz.</item>
+    <item id="import-auto-id1169738208811">Inductive reactance <m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> has units of ohms and is greatest at high frequencies.</item>
     <item id="import-auto-id1169736713656">For capacitors, we find that when a sinusoidal voltage is applied to a capacitor, the voltage follows the current by one-fourth of a cycle, or by a <m:math>
- <m:semantics>
+ 
   <m:mtext>90º</m:mtext>
- </m:semantics>
+ 
 </m:math> phase angle.</item>
     <item id="import-auto-id1169738012850">Since a capacitor can stop current when fully charged, it limits current and offers another form of AC resistance; Ohm’s law for a capacitor is
-    <equation id="eip-230"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I= {  {V}  over  {X rSub { size 8{C} } } } } {}</m:annotation></m:semantics></m:math></equation>
+    <equation id="eip-230"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mi>V</m:mi><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation>
 
-where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{V} {}</m:annotation></m:semantics></m:math> is the rms voltage across the capacitor.</item>
-    <item id="import-auto-id1169737821215"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> is defined to be the capacitive reactance, given by
-    <equation id="eip-632"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } = {  {1}  over  {2π ital "fC"} } } {}</m:annotation></m:semantics></m:math></equation> 
+where <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the rms voltage across the capacitor.</item>
+    <item id="import-auto-id1169737821215"><m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is defined to be the capacitive reactance, given by
+    <equation id="eip-632"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation> 
     </item>
-      <item id="import-auto-id1169738016153"><m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } } {}</m:annotation></m:semantics></m:math> has units of ohms and is greatest at low frequencies.</item>
+      <item id="import-auto-id1169738016153"><m:math><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> has units of ohms and is greatest at low frequencies.</item>
     </list></section><section id="fs-id1169738011145" class="conceptual-questions" type="conceptual-questions">
     <title>Conceptual Questions</title>
       
@@ -290,9 +284,9 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
         <problem id="fs-id1169737793629">
           <para id="import-auto-id1169738200256">At what frequency will a 30.0 mH inductor have a reactance of 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>100 Ω</m:mtext>
- </m:semantics>
+ 
 </m:math>?</para></problem>
 <solution id="fs-id1169737917875">
     <para id="import-auto-id1169737728465">531 Hz</para>
@@ -302,9 +296,9 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
       <exercise id="fs-id1169737786419" type="problems-exercises"><problem id="fs-id1169736656664">
           <para id="import-auto-id1169737812535">What value of inductance should be used if a 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>20.0 kΩ</m:mtext>
- </m:semantics>
+ 
 </m:math>
  reactance is needed at a frequency of 500 Hz?</para></problem></exercise>
       
@@ -312,9 +306,9 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
         <problem id="fs-id1169738072176">
           <para id="import-auto-id1169736606594">What capacitance should be used to produce a 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>2.00 MΩ</m:mtext>
- </m:semantics>
+ 
 </m:math> reactance at 60.0 Hz?</para></problem>
 <solution id="fs-id1169737909282">
     <para id="import-auto-id1169738045746">1.33 nF</para></solution>
@@ -323,9 +317,9 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
       <exercise id="fs-id1169738198876" type="problems-exercises">
         <problem id="fs-id1169737757642">
           <para id="import-auto-id1169738036322">At what frequency will an 80.0 mF capacitor have a reactance of <m:math>
- <m:semantics>
+ 
   <m:mtext>0.250 Ω</m:mtext>
- </m:semantics>
+ 
 </m:math>?</para></problem></exercise>
       
       <exercise id="fs-id1169737729245" type="problems-exercises">
@@ -342,9 +336,9 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
         <problem id="fs-id1169737812738">
           <para id="import-auto-id1169737825035">(a) What current flows when a 60.0 Hz, 480 V AC source is connected to a 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>0.250 μF</m:mtext>
- </m:semantics>
+ 
 </m:math>
  capacitor? (b) What would the current be at 25.0 kHz?</para></problem></exercise>
       
@@ -354,9 +348,9 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
     </problem>
 <solution id="fs-id1169738077151">
     <para id="import-auto-id1169737804161"><m:math>
- <m:semantics>
+ 
   <m:mtext>63.7 µH</m:mtext>
- </m:semantics>
+ 
 </m:math></para></solution>
     </exercise>
       
@@ -369,15 +363,15 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
         <problem id="fs-id1169737802646">
           <para id="import-auto-id1169737734640">(a) An inductor designed to filter high-frequency noise from power supplied to a personal computer is placed in series with the computer. What minimum inductance should it have to produce a 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>2.00 kΩ</m:mtext>
- </m:semantics>
+ 
 </m:math> reactance for 15.0 kHz noise? (b) What is its reactance at 60.0 Hz?</para></problem>
 <solution id="fs-id1169736983958">
     <para id="import-auto-id1169737814409">(a) 21.2 mH</para><para id="import-auto-id1169737854280">(b) <m:math>
- <m:semantics>
+ 
   <m:mtext>8.00 Ω</m:mtext>
- </m:semantics>
+ 
 </m:math></para></solution>
     </exercise>
       
@@ -385,25 +379,25 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
         <problem id="fs-id1169736713656">
           <para id="import-auto-id1169736583393">The capacitor in <link target-id="import-auto-id1169738245387"/>(a) is designed to filter low-frequency signals, impeding their transmission between circuits. (a) What capacitance is needed to produce a 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>100 kΩ</m:mtext>
- </m:semantics>
+ 
 </m:math> reactance at a frequency of 120 Hz? (b) What would its reactance be at 1.00 MHz? (c) Discuss the implications of your answers to (a) and (b).</para></problem></exercise>
       
       <exercise id="fs-id1169736611033" type="problems-exercises">
         <problem id="fs-id1169736583899">
           <para id="import-auto-id1169738116034">The capacitor in <link target-id="import-auto-id1169738245387"/>(b) will filter high-frequency signals by shorting them to earth/ground. (a) What capacitance is needed to produce a reactance of 
 <m:math>
- <m:semantics>
+ 
   <m:mtext>10.0 mΩ</m:mtext>
- </m:semantics>
+ 
 </m:math> for a 5.00 kHz signal? (b) What would its reactance be at 3.00 Hz? (c) Discuss the implications of your answers to (a) and (b).</para></problem>
 <solution id="fs-id1169738110286">
     <para id="import-auto-id1169738138113">(a) 3.18 mF</para>
     <para id="import-auto-id1169737965361">(b) <m:math>
- <m:semantics>
+ 
   <m:mtext>16.7 Ω</m:mtext>
- </m:semantics>
+ 
 </m:math></para></solution>
     </exercise>
       
@@ -418,7 +412,7 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow><m:mrow/></m:m
     <para id="eip-187">Consider the use of an inductor in series with a computer operating on 60 Hz electricity. Construct a problem in which you calculate the relative reduction in voltage of incoming high frequency noise compared to 60 Hz voltage. Among the things to consider are the acceptable series reactance of the inductor for 60 Hz power and the likely frequencies of noise coming through the power lines.</para></problem></exercise>
     </section> </content>
   <glossary>
-    <definition id="import-auto-id1169738074090"><term>inductive reactance</term> <meaning id="fs-id1169737818461">the opposition of an inductor to a change in current; calculated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{L} } =2π ital "fL"} {}</m:annotation></m:semantics></m:math></meaning></definition>
-    <definition id="import-auto-id1169736611323"><term>capacitive reactance</term> <meaning id="fs-id1169737724984">the opposition of a capacitor to a change in current; calculated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X rSub { size 8{C} } = {  {1}  over  {2π ital "fC"} } } {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id1169738074090"><term>inductive reactance</term> <meaning id="fs-id1169737818461">the opposition of an inductor to a change in current; calculated by <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>L</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fL</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></meaning></definition>
+    <definition id="import-auto-id1169736611323"><term>capacitive reactance</term> <meaning id="fs-id1169737724984">the opposition of a capacitor to a change in current; calculated by <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>X</m:mi><m:mrow><m:mi>C</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2π</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext>fC</m:mtext></m:mrow></m:mstyle></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></meaning></definition>
   </glossary>
 </document>

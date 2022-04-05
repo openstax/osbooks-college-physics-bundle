@@ -38,14 +38,14 @@
 
 
 <note id="fs-id2023620"><title>Making Connections: Notation</title><para id="fs-id3206434">For a wire oriented perpendicular to the page, if the current in the wire is directed out of the page, the right-hand rule tells us that the magnetic field lines will be oriented in a counterclockwise direction around the wire. If the current in the wire is directed into the page, the magnetic field lines will be oriented in a clockwise direction around the wire. We use <m:math>
- <m:semantics>
+ 
   <m:mo>⊙</m:mo>
- </m:semantics>
+ 
 </m:math>
  to indicate that the direction of the current in the wire is out of the page, and <m:math>
- <m:semantics>
+ 
   <m:mo>⊗</m:mo>
-   </m:semantics>
+   
 </m:math>
 for the direction into the page.</para><figure id="fs-id1465821">
 <media id="fs-id1744430" alt="The diagram on the left shows a small circle with a dot in the center. There are three progressively larger circles on the outside of the small circle with arrows pointing in the counter-clockwise direction representing magnetic fields. The diagram on the right has a small circle with an x in the middle. The three progressively larger circles have arrows pointing in the clockwise direction.">
@@ -55,7 +55,7 @@ for the direction into the page.</para><figure id="fs-id1465821">
 </figure>
 </note><para id="import-auto-id1166991831575">The <term id="import-auto-id1166991858913">magnetic field strength (magnitude) produced by a long straight current-carrying wire</term> is found by experiment to be</para>
     <equation id="eip-525"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -83,22 +83,22 @@ for the direction into the page.</para><figure id="fs-id1465821">
               </m:mrow>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{B= {  {μ rSub { size 8{0} } I}  over  {2πr} } `` \( "long straight wire" \) ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1166991828100">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> is the current, <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is the shortest distance to the wire, and the constant <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4π</m:mn><m:mspace width="0.15em"/><m:mo stretchy="false">×</m:mo><m:mspace width="0.15em"/><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the <term id="import-auto-id1166991829590">permeability of free space</term>.
-<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( μ rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is one of the basic constants in nature. We will see later that <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is related to the speed of light.) Since the wire is very long, the magnitude of the field depends only on distance from the wire <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math>, not on position along the wire.</para><example id="fs-id1707512">
+    </equation><para id="import-auto-id1166991828100">where <m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math> is the current, <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> is the shortest distance to the wire, and the constant <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4π</m:mn><m:mspace width="0.15em"/><m:mo stretchy="false">×</m:mo><m:mspace width="0.15em"/><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> is the <term id="import-auto-id1166991829590">permeability of free space</term>.
+<m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is one of the basic constants in nature. We will see later that <m:math><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is related to the speed of light.) Since the wire is very long, the magnitude of the field depends only on distance from the wire <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math>, not on position along the wire.</para><example id="fs-id1707512">
     <title>Calculating Current that Produces a Magnetic Field</title>
     <para id="import-auto-id1166991829079">Find the current in a long straight wire that would produce a magnetic field twice the strength of the Earth’s at a distance of 5.0 cm from the wire.</para>
     <para id="import-auto-id1166991871974">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id1166991871978">The Earth’s field is about <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>T</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, and so here <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> due to the wire is taken to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>T</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. The equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:semantics></m:math> can be used to find
-<m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:semantics></m:math>, since all other quantities are known.</para><para id="import-auto-id1166991828270">
+    <para id="import-auto-id1166991871978">The Earth’s field is about <m:math><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>T</m:mn></m:mrow></m:mrow></m:mrow></m:math>, and so here <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math> due to the wire is taken to be <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>0</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>4</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>T</m:mn></m:mrow></m:mrow></m:mrow></m:math>. The equation <m:math><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:math> can be used to find
+<m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math>, since all other quantities are known.</para><para id="import-auto-id1166991828270">
       <title>Solution</title>
     </para>
-    <para id="import-auto-id1166991828274">Solving for <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> and entering known values gives</para><equation id="eip-887"><m:math>
-        <m:semantics>
+    <para id="import-auto-id1166991828274">Solving for <m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math> and entering known values gives</para><equation id="eip-887"><m:math>
+        
             <m:mrow>
               <m:mtable columnalign="left">
                 <m:mtr><m:mtd>                          <m:mi>I</m:mi></m:mtd>
@@ -199,7 +199,7 @@ for the direction into the page.</para><figure id="fs-id1465821">
                 </m:mtr>
               </m:mtable>
             </m:mrow>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id1166991829809">
       <title>Discussion</title>
@@ -217,7 +217,7 @@ for the direction into the page.</para><figure id="fs-id1465821">
 <section id="fs-id1925590">
     <title>Magnetic Field Produced by a Current-Carrying Circular Loop</title>
     <para id="import-auto-id1166991833939">The magnetic field near a current-carrying loop of wire is shown in <link target-id="import-auto-id1166991829247"/>. Both the direction and the magnitude of the magnetic field produced by a current-carrying loop are complex. RHR-2 can be used to give the direction of the field near the loop, but mapping with compasses and the rules about field lines given in <link document="m55377">Magnetic Fields and Magnetic Field Lines</link> are needed for more detail. There is a simple formula for the <term id="import-auto-id1166991833945">magnetic field strength at the center of a circular loop</term>. It is</para><equation id="eip-305"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -246,10 +246,10 @@ for the direction into the page.</para><figure id="fs-id1465821">
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{B= {  {μ rSub { size 8{0} } I}  over  {2R} } ` \( "at center of loop" \) ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1166991833146">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is the radius of the loop. This equation is very similar to that for a straight wire, but it is valid <emphasis effect="italics">only</emphasis> at the center of a circular loop of wire. The similarity of the equations does indicate that similar field strength can be obtained at the center of a loop. One way to get a larger field is to have <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> loops; then, the field is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi fontstyle="italic">Nμ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. Note that the larger the loop, the smaller the field at its center, because the current is farther away.</para><figure id="import-auto-id1166991829247"><media id="import-auto-id1166991829248" alt="Figure a illustrates use of the right hand rule 2 to determine the direction of the magnetic field around a current-carrying loop. The right hand thumb points in the direction of I while the fingers curl around in the direction of B. Figure b shows the magnetic field lines circling the wire, as viewed from the side.">
+    </equation><para id="import-auto-id1166991833146">where <m:math><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow></m:mrow></m:math> is the radius of the loop. This equation is very similar to that for a straight wire, but it is valid <emphasis effect="italics">only</emphasis> at the center of a circular loop of wire. The similarity of the equations does indicate that similar field strength can be obtained at the center of a loop. One way to get a larger field is to have <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> loops; then, the field is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi fontstyle="italic">Nμ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mi>I</m:mi><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>. Note that the larger the loop, the smaller the field at its center, because the current is farther away.</para><figure id="import-auto-id1166991829247"><media id="import-auto-id1166991829248" alt="Figure a illustrates use of the right hand rule 2 to determine the direction of the magnetic field around a current-carrying loop. The right hand thumb points in the direction of I while the fingers curl around in the direction of B. Figure b shows the magnetic field lines circling the wire, as viewed from the side.">
         <image mime-type="image/jpg" src="../../media/Figure_23_09_02a.jpg"/>
       </media>
 
@@ -261,9 +261,9 @@ for the direction into the page.</para><figure id="fs-id1465821">
         <image mime-type="image/jpg" src="../../media/Figure_23_09_03a.jpg"/>
       </media>
 
-    <caption>(a) Because of its shape, the field inside a solenoid of length <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> is remarkably uniform in magnitude and direction, as indicated by the straight and uniformly spaced field lines. The field outside the coils is nearly zero. (b) This cutaway shows the magnetic field generated by the current in the solenoid.</caption></figure><para id="import-auto-id1166991833130">The magnetic field inside of a current-carrying solenoid is very uniform in direction and magnitude. Only near the ends does it begin to weaken and change direction. The field outside has similar complexities to flat loops and bar magnets, but the <term id="import-auto-id1166991865464">magnetic field strength inside a solenoid</term> is simply</para>
+    <caption>(a) Because of its shape, the field inside a solenoid of length <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> is remarkably uniform in magnitude and direction, as indicated by the straight and uniformly spaced field lines. The field outside the coils is nearly zero. (b) This cutaway shows the magnetic field generated by the current in the solenoid.</caption></figure><para id="import-auto-id1166991833130">The magnetic field inside of a current-carrying solenoid is very uniform in direction and magnitude. Only near the ends does it begin to weaken and change direction. The field outside has similar complexities to flat loops and bar magnets, but the <term id="import-auto-id1166991865464">magnetic field strength inside a solenoid</term> is simply</para>
     <equation id="eip-34"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -291,16 +291,16 @@ for the direction into the page.</para><figure id="fs-id1465821">
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{B=μ rSub { size 8{0} }  ital "nI"` \( "inside a solenoid" \) ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1166991830400">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> is the number of loops per unit length of the solenoid <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( n=N/l} {}</m:annotation></m:semantics></m:math>, with <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> being the number of loops and <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> the length). Note that <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> is the field strength anywhere in the uniform region of the interior and not just at the center. Large uniform fields spread over a large volume are possible with solenoids, as <link target-id="fs-id2566108"/> implies.</para><example id="fs-id2566108"><title>Calculating Field Strength inside a Solenoid</title><para id="import-auto-id1166991829194">What is the field inside a 2.00-m-long solenoid that has 2000 loops and carries a 1600-A current?</para>
+    </equation><para id="import-auto-id1166991830400">where <m:math><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mrow></m:math> is the number of loops per unit length of the solenoid <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, with <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> being the number of loops and <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> the length). Note that <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math> is the field strength anywhere in the uniform region of the interior and not just at the center. Large uniform fields spread over a large volume are possible with solenoids, as <link target-id="fs-id2566108"/> implies.</para><example id="fs-id2566108"><title>Calculating Field Strength inside a Solenoid</title><para id="import-auto-id1166991829194">What is the field inside a 2.00-m-long solenoid that has 2000 loops and carries a 1600-A current?</para>
     <para id="import-auto-id1166991829197">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id1166991829200">To find the field strength inside a solenoid, we use <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nI</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=μ rSub { size 8{0} }  ital "nI"} {}</m:annotation></m:semantics></m:math>. First, we note the number of loops per unit length is</para>
+    <para id="import-auto-id1166991829200">To find the field strength inside a solenoid, we use <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nI</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. First, we note the number of loops per unit length is</para>
     <equation id="eip-509"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -351,19 +351,19 @@ for the direction into the page.</para><figure id="fs-id1465821">
               </m:mrow>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{n rSup { size 8{ - 1} } = {  {N}  over  {l} } = {  {"2000"}  over  {2 "." "00" m} } ="1000"" m" rSup { size 8{ - 1} } ="10"" cm" rSup { size 8{ - 1} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1166991865630">
       <title>Solution</title>
     </para>
     <para id="import-auto-id1166991865634">Substituting known values gives</para>
-    <equation id="eip-760"><m:math><m:semantics><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mi>B</m:mi></m:mtd>
+    <equation id="eip-760"><m:math><m:mrow><m:mrow><m:mtable columnalign="left"><m:mtr><m:mtd><m:mi>B</m:mi></m:mtd>
 <m:mtd><m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nI</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mn>4π</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mfenced></m:mrow><m:mfenced open="(" close=")"><m:mrow><m:mtext>1000</m:mtext><m:mspace width="0.25em"/><m:msup><m:mn>m</m:mn><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mfenced><m:mfenced open="(" close=")"><m:mrow><m:mtext>1600 A</m:mtext></m:mrow></m:mfenced></m:mrow></m:mrow></m:mrow></m:mtd></m:mtr>
 <m:mtr><m:mtd/>
 <m:mtd><m:mo>=</m:mo></m:mtd>
-<m:mtd><m:mrow><m:mn>2</m:mn><m:mtext>.01 T.</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:semantics></m:math></equation><para id="import-auto-id1166991830044">
+<m:mtd><m:mrow><m:mn>2</m:mn><m:mtext>.01 T.</m:mtext></m:mrow></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:math></equation><para id="import-auto-id1166991830044">
       <title>Discussion</title>
     </para>
     <para id="import-auto-id1166991830048">This is a large field strength that could be established over a large-diameter solenoid, such as in medical uses of magnetic resonance imaging (MRI). The very large current is an indication that the fields of this strength are not easily achieved, however. Such a large current through 1000 loops squeezed into a meter’s length would produce significant heating. Higher currents can be achieved by using superconducting wires, although this is expensive. There is an upper limit to the current, since the superconducting state is disrupted by very large magnetic fields.</para>
@@ -556,7 +556,7 @@ for the direction into the page.</para><figure id="fs-id1465821">
 
 <section id="fs-id1575069" class="section-summary"><title>Section Summary</title><list id="fs-id1993527"><item id="import-auto-id1166991829458">The strength of the magnetic field created by current in a long straight wire is given by
     <equation id="eip-807"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -584,14 +584,14 @@ for the direction into the page.</para><figure id="fs-id1465821">
               </m:mrow>
             </m:mrow>
           </m:mrow>
-        </m:semantics>
+        
       </m:math>
-    </equation><m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> is the current, <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{r} {}</m:annotation></m:semantics></m:math> is the shortest distance to the wire, and the constant <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4π</m:mn><m:mspace width="0.15em"/><m:mo stretchy="false">×</m:mo><m:mspace width="0.15em"/><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow></m:mrow><m:mrow><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{0} } =4π times "10" rSup { size 8{ - 7} } `T cdot "m/A"} {}</m:annotation></m:semantics></m:math> is the permeability of free space.</item>
+    </equation><m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math> is the current, <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> is the shortest distance to the wire, and the constant <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4π</m:mn><m:mspace width="0.15em"/><m:mo stretchy="false">×</m:mo><m:mspace width="0.15em"/><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow></m:mrow><m:mrow><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is the permeability of free space.</item>
 <item id="import-auto-id1166991832857">The direction of the magnetic field created by a long straight wire is given by right hand rule 2 (RHR-2): <emphasis effect="italics">Point the thumb of the right hand in the direction of current, and the fingers curl in the direction of the magnetic field loops</emphasis> created by it.</item>
     <item id="import-auto-id1166991832290">The magnetic field created by current following any path is the sum (or integral) of the fields due to segments along the path (magnitude and direction as for a straight wire), resulting in a general relationship between current and field known as Ampere’s law.</item>
     <item id="import-auto-id1166991832296">The magnetic field strength at the center of a circular loop is given by
     <equation id="eip-430"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -622,13 +622,13 @@ for the direction into the page.</para><figure id="fs-id1465821">
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{B= {  {μ rSub { size 8{0} } I}  over  {2R} } "  " \( "at center of loop" \) ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{R} {}</m:annotation></m:semantics></m:math> is the radius of the loop. This equation becomes <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nI</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B=μ rSub { size 8{0} }  ital "nI"/ \( 2R \) } {}</m:annotation></m:semantics></m:math> for a flat coil of <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> loops. RHR-2 gives the direction of the field about the loop. A long coil is called a solenoid.</item>
+    </equation><m:math><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow></m:mrow></m:math> is the radius of the loop. This equation becomes <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>nI</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">/</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>2</m:mn><m:mi>R</m:mi><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> for a flat coil of <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> loops. RHR-2 gives the direction of the field about the loop. A long coil is called a solenoid.</item>
     <item id="import-auto-id1166991835359">The magnetic field strength inside a solenoid is
     <equation id="eip-942"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -656,11 +656,11 @@ for the direction into the page.</para><figure id="fs-id1465821">
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{B=μ rSub { size 8{0} }  ital "nI""  " \( "inside a solenoid" \) ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
-where <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{n} {}</m:annotation></m:semantics></m:math> is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction.</item>
+where <m:math><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mrow></m:math> is the number of loops per unit length of the solenoid. The field inside is very uniform in magnitude and direction.</item>
     </list></section><section id="eip-123" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="eip-401"><problem id="eip-214" type="conceptual-questions">
   <para id="eip-299">Make a drawing and use RHR-2 to find the direction of the magnetic field of a current loop in a motor (such as in <link document="m55396" target-id="import-auto-id1615457"/>). Then show that the direction of the torque on the loop is the same as produced by like poles repelling and unlike poles attracting.
   </para></problem>
@@ -668,11 +668,11 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:m
  </content>
   <glossary>
       <definition id="fs-id1669726"><term>right hand rule 2 (RHR-2)</term><meaning id="fs-id2667471">a rule to determine the direction of the magnetic field induced by a current-carrying wire: Point the thumb of the right hand in the direction of current, and the fingers curl in the direction of the magnetic field loops</meaning></definition>
-      <definition id="fs-id2426811"><term>magnetic field strength (magnitude) produced by a long straight current-carrying wire</term><meaning id="fs-id1376401">defined as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:semantics></m:math> is the current, <m:math><m:semantics><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the shortest distance to the wire, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> is the permeability of free space</meaning></definition>
-      <definition id="fs-id2889673"><term>permeability of free space</term><meaning id="fs-id2145756">the measure of the ability of a material, in this case free space, to support a magnetic field; the constant <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4π</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></meaning></definition>
-      <definition id="fs-id3032371"><term>magnetic field strength at the center of a circular loop</term><meaning id="fs-id1996502">defined as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the radius of the loop</meaning></definition>
+      <definition id="fs-id2426811"><term>magnetic field strength (magnitude) produced by a long straight current-carrying wire</term><meaning id="fs-id1376401">defined as <m:math><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi fontstyle="italic">πr</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:math>, where <m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math> is the current, <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> is the shortest distance to the wire, and <m:math><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> is the permeability of free space</meaning></definition>
+      <definition id="fs-id2889673"><term>permeability of free space</term><meaning id="fs-id2145756">the measure of the ability of a material, in this case free space, to support a magnetic field; the constant <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>4π</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>7</m:mn></m:mrow></m:mrow></m:msup></m:mrow></m:mrow><m:mspace width="0.25em"/><m:mrow><m:mn>T</m:mn><m:mo stretchy="false">⋅</m:mo><m:mtext>m/A</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math></meaning></definition>
+      <definition id="fs-id3032371"><term>magnetic field strength at the center of a circular loop</term><meaning id="fs-id1996502">defined as <m:math><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mi>I</m:mi></m:mrow><m:mrow><m:mn>2</m:mn><m:mi>R</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mrow><m:mi>R</m:mi></m:mrow></m:mrow></m:math> is the radius of the loop</meaning></definition>
       <definition id="fs-id1739104"><term>solenoid</term><meaning id="fs-id1698803">a thin wire wound into a coil that produces a magnetic field when an electric current is passed through it</meaning></definition>
-      <definition id="fs-id1556787"><term>magnetic field strength inside a solenoid</term><meaning id="fs-id2264814">defined as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mtext fontstyle="italic">nI</m:mtext></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> where <m:math><m:semantics><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the number of loops per unit length of the solenoid <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, with <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:semantics></m:math> being the number of loops and <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:semantics></m:math> the length)</meaning></definition>
+      <definition id="fs-id1556787"><term>magnetic field strength inside a solenoid</term><meaning id="fs-id2264814">defined as <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:mtext fontstyle="italic">nI</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> where <m:math><m:mrow><m:mrow><m:mi>n</m:mi></m:mrow></m:mrow></m:math> is the number of loops per unit length of the solenoid <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mi>n</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:mrow></m:math>, with <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> being the number of loops and <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> the length)</meaning></definition>
       <definition id="fs-id1648191"><term>Biot-Savart law</term><meaning id="fs-id2057126">a physical law that describes the magnetic field generated by an electric current in terms of a specific equation</meaning></definition>
       <definition id="fs-id1653687"><term>Ampere’s law</term><meaning id="fs-id1728575">the physical law that states that the magnetic field around an electric current is proportional to the current; each segment of current produces a magnetic field like that of a long straight wire, and the total field of any shape current is the vector sum of the fields due to each segment</meaning></definition>
       <definition id="fs-id1782508"><term>Maxwell’s equations</term><meaning id="fs-id1871206">a set of four equations that describe electromagnetic phenomena</meaning></definition>

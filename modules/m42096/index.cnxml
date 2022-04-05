@@ -24,9 +24,9 @@
     <section id="fs-id1568419">
 <title>Time</title>
     <para id="import-auto-id1644233">As discussed in <link document="m42091">Physical Quantities and Units</link>, the most fundamental physical quantities are defined by how they are measured. This is the case with time. Every measurement of time involves measuring a change in some physical quantity. It may be a number on a digital clock, a heartbeat, or the position of the Sun in the sky. In physics, the definition of time is simple—<term id="import-auto-id2588516">time</term> is <emphasis effect="italics">change</emphasis>, or the interval over which change occurs. It is impossible to know that time has passed unless something changes. </para><para id="import-auto-id4131193">The amount of time or change is calibrated by comparison with a standard. The SI unit for time is the second, abbreviated s. We might, for example, observe that a certain pendulum makes one full swing every 0.75 s. We could then use the pendulum to measure time by counting its swings or, of course, by connecting the pendulum to a clock mechanism that registers time on a dial. This allows us to not only measure the amount of time, but also to determine a sequence of events.</para>
-    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1771018">How does time relate to motion? We are usually interested in elapsed time for a particular motion, such as how long it takes an airplane passenger to get from his seat to the back of the plane. To find elapsed time, we note the time at the beginning and end of the motion and subtract the two. For example, a lecture may start at 11:00 <emphasis effect="smallcaps">A.M.</emphasis> and end at 11:50 <emphasis effect="smallcaps">A.M.</emphasis>, so that the elapsed time would be 50 min. <term id="import-auto-id4083152">Elapsed time</term> <emphasis effect="bold"><m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></emphasis> is the difference between the ending time and beginning time,</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1757927"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:semantics></m:math></equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2577772">where <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> is the change in time or elapsed time, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the time at the end of the motion, and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the time at the beginning of the motion. (As usual, the delta symbol, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ} {}</m:annotation></m:semantics></m:math>, means the change in the quantity that follows it.)</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4128710">Life is simpler if the beginning time <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is taken to be zero, as when we use a stopwatch. If we were using a stopwatch, it would simply read zero at the start of the lecture and 50 min at the end. If <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, then <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">≡</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:semantics></m:math>. </para><para id="import-auto-id1225219">In this text, for simplicity’s sake, </para>
-    <list xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1611737"><item id="import-auto-id2571110">motion starts at time equal to zero <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( t rSub { size 8{0} } =0 \) } {}</m:annotation></m:semantics></m:math></item>
-    <item id="import-auto-id4047929">the symbol <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> is used for elapsed time unless otherwise specified <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">≡</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( Δt=t rSub { size 8{f} }  equiv t \) } {}</m:annotation></m:semantics></m:math></item>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1771018">How does time relate to motion? We are usually interested in elapsed time for a particular motion, such as how long it takes an airplane passenger to get from his seat to the back of the plane. To find elapsed time, we note the time at the beginning and end of the motion and subtract the two. For example, a lecture may start at 11:00 <emphasis effect="smallcaps">A.M.</emphasis> and end at 11:50 <emphasis effect="smallcaps">A.M.</emphasis>, so that the elapsed time would be 50 min. <term id="import-auto-id4083152">Elapsed time</term> <emphasis effect="bold"><m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:math></emphasis> is the difference between the ending time and beginning time,</para><equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1757927"><m:math><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow></m:mrow></m:math></equation><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2577772">where <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:math> is the change in time or elapsed time, <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> is the time at the end of the motion, and <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> is the time at the beginning of the motion. (As usual, the delta symbol, <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn></m:mrow></m:mrow></m:math>, means the change in the quantity that follows it.)</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4128710">Life is simpler if the beginning time <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> is taken to be zero, as when we use a stopwatch. If we were using a stopwatch, it would simply read zero at the start of the lecture and 50 min at the end. If <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math>, then <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">≡</m:mo><m:mi>t</m:mi></m:mrow></m:mrow></m:mrow></m:math>. </para><para id="import-auto-id1225219">In this text, for simplicity’s sake, </para>
+    <list xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1611737"><item id="import-auto-id2571110">motion starts at time equal to zero <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></item>
+    <item id="import-auto-id4047929">the symbol <m:math><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:math> is used for elapsed time unless otherwise specified <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mo stretchy="false">≡</m:mo><m:mi>t</m:mi></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></item>
     </list></section>
 <section id="fs-id1850777">
 <title>Velocity</title>
@@ -36,7 +36,7 @@
 
     <para id="import-auto-id3538220"><term id="import-auto-id2596035">Average velocity</term> is <emphasis effect="italics">displacement (change in position) divided by the time of travel</emphasis>,</para>
     <equation id="import-auto-id4059844"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -91,11 +91,11 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {Δt} } = {  {x rSub { size 8{f} }  - x rSub { size 8{0} } }  over  {t rSub { size 8{f} }  - t rSub { size 8{0} } } } ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id3602083">where <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math> is the <emphasis effect="italics">average</emphasis> (indicated by the bar over the <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>) velocity, <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> is the change in position (or displacement), and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> are the final and beginning positions at times <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math>, respectively. If the starting time <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:semantics></m:math> is taken to be zero, then the average velocity is simply </para><equation id="import-auto-id2027122"><m:math>
-        <m:semantics>
+    </equation><para id="import-auto-id3602083">where <m:math><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math> is the <emphasis effect="italics">average</emphasis> (indicated by the bar over the <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>) velocity, <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">x</m:mi></m:mrow></m:mrow></m:math> is the change in position (or displacement), and <m:math><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> are the final and beginning positions at times <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math>, respectively. If the starting time <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:math> is taken to be zero, then the average velocity is simply </para><equation id="import-auto-id2027122"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -115,12 +115,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {t} }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></note><para id="import-auto-id4132060">Notice that this definition indicates that <emphasis effect="italics">velocity is a vector because displacement is a vector</emphasis>. It has both magnitude and direction. The SI unit for velocity is meters per second or m/s, but many other units, such as km/h, mi/h (also written as mph), and cm/s, are in common use. Suppose, for example, an airplane passenger took 5 seconds to move −4 m (the negative sign indicates that displacement is toward the back of the plane). His average velocity would be </para>
     <equation xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4051374"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -155,8 +155,8 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {t} } = {  { - 4`m}  over  {5`s} } = - 0 "." 8`"m/s" "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id3586799">The minus sign indicates the average velocity is also toward the rear of the plane. </para>
     <para id="import-auto-id4125081">The average velocity of an object does not tell us anything about what happens to it between the starting point and ending point, however. For example, we cannot tell from average velocity whether the airplane passenger stops momentarily or backs up before he goes to the back of the plane. To get more details, we must consider smaller segments of the trip over smaller time intervals. </para>
@@ -165,7 +165,7 @@
         <image mime-type="image/jpg" src="../../media/Figure_02_02_01.jpg" width="350"/>
       </media>
 
-    <caption>A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. </caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1411481">The smaller the time intervals considered in a motion, the more detailed the information. When we carry this process to its logical conclusion, we are left with an infinitesimally small interval. Over such an interval, the average velocity becomes the <emphasis effect="italics">instantaneous velocity</emphasis> or the <emphasis effect="italics">velocity at a specific instant</emphasis>. A car’s speedometer, for example, shows the magnitude (but not the direction) of the instantaneous velocity of the car. (Police give tickets based on instantaneous velocity, but when calculating how long it will take to get from one place to another on a road trip, you need to use average velocity.) <term id="import-auto-id2579029">Instantaneous velocity</term> <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the average velocity at a specific instant in time (or over an infinitesimally small time interval). </para><para id="import-auto-id4042507">Mathematically, finding instantaneous velocity, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, at a precise instant <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math> can involve taking a limit, a calculus operation beyond the scope of this text. However, under many circumstances, we can find precise values for instantaneous velocity without calculus.</para>
+    <caption>A more detailed record of an airplane passenger heading toward the back of the plane, showing smaller segments of his trip. </caption></figure><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1411481">The smaller the time intervals considered in a motion, the more detailed the information. When we carry this process to its logical conclusion, we are left with an infinitesimally small interval. Over such an interval, the average velocity becomes the <emphasis effect="italics">instantaneous velocity</emphasis> or the <emphasis effect="italics">velocity at a specific instant</emphasis>. A car’s speedometer, for example, shows the magnitude (but not the direction) of the instantaneous velocity of the car. (Police give tickets based on instantaneous velocity, but when calculating how long it will take to get from one place to another on a road trip, you need to use average velocity.) <term id="import-auto-id2579029">Instantaneous velocity</term> <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math> is the average velocity at a specific instant in time (or over an infinitesimally small time interval). </para><para id="import-auto-id4042507">Mathematically, finding instantaneous velocity, <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>, at a precise instant <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:math> can involve taking a limit, a calculus operation beyond the scope of this text. However, under many circumstances, we can find precise values for instantaneous velocity without calculus.</para>
    </section>
 <section id="fs-id3597726">
 <title>Speed</title>
@@ -192,10 +192,10 @@
 <problem id="fs-id1744684">
     <para id="import-auto-id1988298">A commuter train travels from Baltimore to Washington, DC, and back in 1 hour and 45 minutes. The distance between the two stations is approximately 40 miles. What is (a) the average velocity of the train, and (b) the average speed of the train in m/s?</para></problem>
     <solution id="fs-id1384034">
-    <para id="import-auto-id3584121">(a) The average velocity of the train is zero because <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x rSub { size 8{f} } =x rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math>; the train ends up at the same place it starts.</para><para id="import-auto-id4131960">(b) The average speed of the train is calculated below. Note that the train travels 40 miles one way and 40 miles back, for a total distance of 80 miles.</para>
+    <para id="import-auto-id3584121">(a) The average velocity of the train is zero because <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>x</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>x</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>; the train ends up at the same place it starts.</para><para id="import-auto-id4131960">(b) The average speed of the train is calculated below. Note that the train travels 40 miles one way and 40 miles back, for a total distance of 80 miles.</para>
     <equation id="import-auto-id4070756">
       <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -212,12 +212,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {"distance"}  over  {"time"} } = {  {"80 miles"}  over  {"105 minutes"} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation>
     <equation id="import-auto-id1750086"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -255,7 +255,7 @@
                   <m:mtext>20 m/s</m:mtext></m:mrow></m:mrow>
             </m:mrow>
           </m:mrow>
-        </m:semantics>
+        
       </m:math>
     </equation></solution></exercise></section>
     <section id="fs-id1283687" type="ap-test-prep" class="ap-test-prep">
@@ -277,11 +277,11 @@
       </exercise></section>
 
     <section xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1345097" class="section-summary"><title>Section Summary</title><list id="fs-id3525421"><item id="import-auto-id4070541">Time is measured in terms of change, and its SI unit is the second (s). Elapsed time for an event is
-    <equation id="import-auto-id4146177"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt=t rSub { size 8{f} }  - t rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math></equation>
-where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{f} } } {}</m:annotation></m:semantics></m:math> is the final time and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t rSub { size 8{0} } } {}</m:annotation></m:semantics></m:math> is the initial time. The initial time is often taken to be zero, as if measured with a stopwatch; the elapsed time is then just <m:math><m:semantics><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{t} {}</m:annotation></m:semantics></m:math>.</item>
-    <item id="import-auto-id1770783">Average velocity <m:math><m:semantics><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}} {}</m:annotation></m:semantics></m:math> is defined as displacement divided by the travel time. In symbols, average velocity is
+    <equation id="import-auto-id4146177"><m:math><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub><m:mo stretchy="false">−</m:mo><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mo>,</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation>
+where <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is the final time and <m:math><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>0</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is the initial time. The initial time is often taken to be zero, as if measured with a stopwatch; the elapsed time is then just <m:math><m:mrow><m:mrow><m:mi>t</m:mi></m:mrow></m:mrow></m:math>.</item>
+    <item id="import-auto-id1770783">Average velocity <m:math><m:mrow><m:mrow><m:mover accent="true"><m:mi>v</m:mi><m:mo stretchy="true">-</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math> is defined as displacement divided by the travel time. In symbols, average velocity is
     <equation id="import-auto-id4086565"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -336,13 +336,13 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ { bar  {v}}= {  {Δx}  over  {Δt} } = {  {x rSub { size 8{f} }  - x rSub { size 8{0} } }  over  {t rSub { size 8{f} }  - t rSub { size 8{0} } } }  "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></item>
     <item id="import-auto-id1795857">The SI unit for velocity is m/s. </item>
     <item id="import-auto-id1795847">Velocity is a vector and thus has a direction. </item>
-    <item id="import-auto-id4097170">Instantaneous velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> is the velocity at a specific instant or the average velocity for an infinitesimal interval. </item>
+    <item id="import-auto-id4097170">Instantaneous velocity <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math> is the velocity at a specific instant or the average velocity for an infinitesimal interval. </item>
     <item id="import-auto-id4097153">Instantaneous speed is the magnitude of the instantaneous velocity.</item>
     <item id="import-auto-id4097155">Instantaneous speed is a scalar quantity, as it has no direction specified.</item>
     <item id="import-auto-id4097159">Average speed is the total distance traveled divided by the elapsed time. (Average speed is <emphasis effect="italics">not</emphasis> the magnitude of the average velocity.) Speed is a scalar quantity; it has no direction associated with it.</item>
@@ -367,7 +367,7 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f
     <exercise id="fs-id4131776" type="problems-exercises"><problem id="fs-id1489911">    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4102268" fo:font-weight="normal">(a) Calculate Earth’s average speed relative to the Sun. (b) What is its average velocity over a period of one year?</para>
     </problem>
 <solution id="fs-id3602083">
-    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4102277">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>0 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mtext> m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "0 " times "10" rSup { size 8{4} } " m/s"} {}</m:annotation></m:semantics></m:math></para><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4138028" fo:font-weight="normal">(b) 0 m/s</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4102277">(a) <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>0 </m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mtext> m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4138028" fo:font-weight="normal">(b) 0 m/s</para>
     </solution>
     </exercise>
     <exercise id="fs-id3514248" type="problems-exercises"><problem id="fs-id1773543">    <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4138020" fo:font-weight="normal">A helicopter blade spins at exactly 100 revolutions per minute. Its tip is 5.00 m from the center of rotation. (a) Calculate the average speed of the blade tip in the helicopter’s frame of reference. (b) What is its average velocity over one revolution?</para>
@@ -376,7 +376,7 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f
     </problem>
 <solution id="fs-id2587370">
     <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4138068"><m:math>
-          <m:semantics>
+          
             <m:mrow>
               <m:mrow>
                 <m:mrow>
@@ -392,11 +392,9 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f
                   </m:mrow><m:mspace width="0.25em"/>
                   <m:mtext> years</m:mtext>
                 </m:mrow>
-              </m:mrow>
-              <m:mrow/>
-            </m:mrow>
-            <m:annotation encoding="StarMath 5.0"> size 12{2 times "10" rSup { size 8{7} } " years"} {}</m:annotation>
-          </m:semantics>
+              </m:mrow>            </m:mrow>
+            
+          
         </m:math>
 
     </para></solution>
@@ -407,7 +405,7 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f
     </problem>
 <solution id="fs-id4081588">
     <para xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4128445" fo:font-weight="normal"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -421,28 +419,28 @@ where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>t</m:mi><m:mrow><m:mn>f
               </m:mrow>
             </m:mrow>
           </m:mrow>
-        </m:semantics>
+        
       </m:math>
     </para></solution>
     </exercise>
-    <exercise id="fs-id951583" type="problems-exercises"><problem id="fs-id1535186">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4128469">Tidal friction is slowing the rotation of the Earth. As a result, the orbit of the Moon is increasing in radius at a rate of approximately 4 cm/year. Assuming this to be a constant rate, how many years will pass before the radius of the Moon’s orbit increases by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>84</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>m</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." "84" times "10" rSup { size 8{6} } `m} {}</m:annotation></m:semantics></m:math> (1%)?</para></problem></exercise>
-    <exercise id="fs-id1271475" type="problems-exercises"><problem id="fs-id1544659">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4146127">A student drove to the university from her home and noted that the odometer reading of her car increased by 12.0 km. The trip took 18.0 min. (a) What was her average speed? (b) If the straight-line distance from her home to the university is 10.3 km in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25" "." 0°} {}</m:annotation></m:semantics></m:math> south of east, what was her average velocity? (c) If she returned home by the same path 7 h 30 min after she left, what were her average speed and velocity for the entire trip?</para></problem>
+    <exercise id="fs-id951583" type="problems-exercises"><problem id="fs-id1535186">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4128469">Tidal friction is slowing the rotation of the Earth. As a result, the orbit of the Moon is increasing in radius at a rate of approximately 4 cm/year. Assuming this to be a constant rate, how many years will pass before the radius of the Moon’s orbit increases by <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>84</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mn>m</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> (1%)?</para></problem></exercise>
+    <exercise id="fs-id1271475" type="problems-exercises"><problem id="fs-id1544659">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4146127">A student drove to the university from her home and noted that the odometer reading of her car increased by 12.0 km. The trip took 18.0 min. (a) What was her average speed? (b) If the straight-line distance from her home to the university is 10.3 km in a direction <m:math><m:mrow><m:mrow><m:mrow><m:mtext>25</m:mtext><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> south of east, what was her average velocity? (c) If she returned home by the same path 7 h 30 min after she left, what were her average speed and velocity for the entire trip?</para></problem>
 <solution id="fs-id1780671">
-    <para id="import-auto-id4146164">(a) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mtext>0 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40" "." "0 km/h"} {}</m:annotation></m:semantics></m:math></para>
-    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141793">(b) 34.3 km/h, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>25º</m:mtext><m:mspace width="0.25em"/><m:mtext> S of E</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"25"°" S of E" "." } {}</m:annotation></m:semantics></m:math></para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141815">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>average speed</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>3.20 km/h,</m:mtext><m:mspace width="0.25em"/><m:mover accent="true"><m:mrow><m:mi>v</m:mi></m:mrow><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0.</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math></para></solution>
+    <para id="import-auto-id4146164">(a) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mtext>40</m:mtext><m:mtext>.</m:mtext><m:mtext>0 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141793">(b) 34.3 km/h, <m:math><m:mrow><m:mrow><m:mrow><m:mtext>25º</m:mtext><m:mspace width="0.25em"/><m:mtext> S of E</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141815">(c) <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>average speed</m:mtext><m:mo stretchy="false">=</m:mo><m:mtext>3.20 km/h,</m:mtext><m:mspace width="0.25em"/><m:mover accent="true"><m:mrow><m:mi>v</m:mi></m:mrow><m:mo stretchy="true">-</m:mo></m:mover></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0.</m:mn></m:mrow></m:mrow></m:mrow></m:math></para></solution>
     </exercise>
     <exercise id="fs-id1644060" type="problems-exercises"><problem id="fs-id1742458">    <para id="import-auto-id4141848">The speed of propagation of the action potential (an electrical signal) in a nerve cell depends (inversely) on the diameter of the axon (nerve fiber). If the nerve cell connecting the spinal cord to your feet is 1.1 m long, and the nerve impulse speed is 18 m/s, how long does it take for the nerve signal to travel this distance?</para>
     </problem></exercise>
-    <exercise id="fs-id1638875" type="problems-exercises"><problem id="fs-id2015498">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141909">Conversations with astronauts on the lunar surface were characterized by a kind of echo in which the earthbound person’s voice was so loud in the astronaut’s space helmet that it was picked up by the astronaut’s microphone and transmitted back to Earth. It is reasonable to assume that the echo time equals the time necessary for the radio wave to travel from the Earth to the Moon and back (that is, neglecting any time delays in the electronic equipment). Calculate the distance from Earth to the Moon given that the echo time was 2.56 s and that radio waves travel at the speed of light <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mtext> m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \( 3 "." "00" times "10" rSup { size 8{8} } " m/s" \) } {}</m:annotation></m:semantics></m:math>.</para></problem>
+    <exercise id="fs-id1638875" type="problems-exercises"><problem id="fs-id2015498">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141909">Conversations with astronauts on the lunar surface were characterized by a kind of echo in which the earthbound person’s voice was so loud in the astronaut’s space helmet that it was picked up by the astronaut’s microphone and transmitted back to Earth. It is reasonable to assume that the echo time equals the time necessary for the radio wave to travel from the Earth to the Moon and back (that is, neglecting any time delays in the electronic equipment). Calculate the distance from Earth to the Moon given that the echo time was 2.56 s and that radio waves travel at the speed of light <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>8</m:mn></m:mrow></m:msup><m:mspace width="0.25em"/></m:mrow><m:mtext> m/s</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>.</para></problem>
 <solution id="fs-id1659453">
     <para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4123350" fo:font-weight="normal">384,000 km</para>
     </solution>
     </exercise>
     <exercise id="fs-id2577314" type="problems-exercises"><problem id="fs-id4044402">    <para id="import-auto-id4123407">A football quarterback runs 15.0 m straight down the playing field in 2.50 s. He is then hit and pushed 3.00 m straight backward in 1.75 s. He breaks the tackle and runs straight forward another 21.0 m in 5.20 s. Calculate his average velocity (a) for each of the three intervals and (b) for the entire motion.</para>
     </problem></exercise>
-    <exercise id="fs-id4047255" type="problems-exercises"><problem id="fs-id4047256">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4123414">The planetary model of the atom pictures electrons orbiting the atomic nucleus much as planets orbit the Sun. In this model you can view hydrogen, the simplest atom, as having a single electron in a circular orbit <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>06</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> m</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> in diameter. (a) If the average speed of the electron in this orbit is known to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math>, calculate the number of revolutions per second it makes about the nucleus. (b) What is the electron’s average velocity per revolution?</para></problem>
+    <exercise id="fs-id4047255" type="problems-exercises"><problem id="fs-id4047256">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4123414">The planetary model of the atom pictures electrons orbiting the atomic nucleus much as planets orbit the Sun. In this model you can view hydrogen, the simplest atom, as having a single electron in a circular orbit <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>06</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>10</m:mtext></m:mrow></m:mrow></m:msup><m:mspace width="0.25em"/><m:mtext> m</m:mtext></m:mrow></m:mrow></m:mrow></m:math> in diameter. (a) If the average speed of the electron in this orbit is known to be <m:math><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> m/s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>, calculate the number of revolutions per second it makes about the nucleus. (b) What is the electron’s average velocity per revolution?</para></problem>
 <solution id="fs-id2580487">
-    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141187">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>61</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>15</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>rev/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{6 "." "61" times "10" rSup { size 8{"15"} } `"rev/s"} {}</m:annotation></m:semantics></m:math></para><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4141237" fo:font-weight="normal">(b) 0 m/s</para>
+    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id4141187">(a) <m:math><m:mrow><m:mrow><m:mrow><m:mn>6</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>61</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>15</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>rev/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" id="import-auto-id4141237" fo:font-weight="normal">(b) 0 m/s</para>
     </solution>
     </exercise>
     </section>

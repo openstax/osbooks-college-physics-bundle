@@ -23,7 +23,7 @@
       </media>
 
     <caption>In order to counteract dampening forces, this mom needs to keep pushing the swing. (credit: Mohd Fazlin Mohd Effendy Ooi, Flickr)</caption></figure><para id="import-auto-id2404453">A guitar string stops oscillating a few seconds after being plucked. To keep a child happy on a swing, you must keep pushing. Although we can often make friction and other non-conservative forces negligibly small, completely undamped motion is rare. In fact, we may even want to damp oscillations, such as with car shock absorbers.</para>
-    <para id="import-auto-id2435854">For a system that has a small amount of damping, the period and frequency are nearly the same as for simple harmonic motion, but the amplitude gradually decreases as shown in <link target-id="import-auto-id1577776"/>. This occurs because the non-conservative damping force removes energy from the system, usually in the form of thermal energy. In general, energy removal by non-conservative forces is described as </para><equation id="eip-478"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>Δ</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{ ital "nc"} } =Δ \(  ital "KE"+ ital "PE" \) ","} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2667440">where <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{ ital "nc"} } } {}</m:annotation></m:semantics></m:math> is work done by a non-conservative force (here the damping force). For a damped harmonic oscillator, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{ ital "nc"} } } {}</m:annotation></m:semantics></m:math> is negative because it removes mechanical energy (KE + PE) from the system.</para><figure id="import-auto-id1577776"><media id="import-auto-id3006746" alt="The figure shows a graph of displacement, along y axis, versus time for a harmonic oscillator, running along the x axis, equally in positive as well as negative quadrants. The amplitude, X, of the oscillations is shown by a green wave which is decreasing gradually as we move far from the y axis, but the time, T, shown here as the distance between adjacent crests remains the same throughout.">
+    <para id="import-auto-id2435854">For a system that has a small amount of damping, the period and frequency are nearly the same as for simple harmonic motion, but the amplitude gradually decreases as shown in <link target-id="import-auto-id1577776"/>. This occurs because the non-conservative damping force removes energy from the system, usually in the form of thermal energy. In general, energy removal by non-conservative forces is described as </para><equation id="eip-478"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>Δ</m:mn></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo stretchy="false">+</m:mo><m:mrow><m:mtext>PE</m:mtext></m:mrow></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mtext>,</m:mtext><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id2667440">where <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is work done by a non-conservative force (here the damping force). For a damped harmonic oscillator, <m:math><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is negative because it removes mechanical energy (KE + PE) from the system.</para><figure id="import-auto-id1577776"><media id="import-auto-id3006746" alt="The figure shows a graph of displacement, along y axis, versus time for a harmonic oscillator, running along the x axis, equally in positive as well as negative quadrants. The amplitude, X, of the oscillations is shown by a green wave which is decreasing gradually as we move far from the y axis, but the time, T, shown here as the distance between adjacent crests remains the same throughout.">
         <image mime-type="image/jpg" src="../../media/Figure_17_07_02a.jpg"/>
       </media>
 
@@ -31,13 +31,13 @@
         <image mime-type="image/jpg" src="../../media/Figure_17_07_03a.jpg"/>
       </media>
 
-    <caption>Displacement versus time for a critically damped harmonic oscillator (A) and an overdamped harmonic oscillator (B). The critically damped oscillator returns to equilibrium at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{X=0} {}</m:annotation></m:semantics></m:math> in the smallest time possible without overshooting.</caption></figure><para id="import-auto-id2666765">Critical damping is often desired, because such a system returns to equilibrium rapidly and remains at equilibrium as well. In addition, a constant force applied to a critically damped system moves the system to a new equilibrium position in the shortest time possible without overshooting or oscillating about the new position. For example, when you stand on bathroom scales that have a needle gauge, the needle moves to its equilibrium position without oscillating. It would be quite inconvenient if the needle oscillated about the new equilibrium position for a long time before settling. Damping forces can vary greatly in character. Friction, for example, is sometimes independent of velocity (as assumed in most places in this text). But many damping forces depend on velocity—sometimes in complex ways, sometimes simply being proportional to velocity.</para>
+    <caption>Displacement versus time for a critically damped harmonic oscillator (A) and an overdamped harmonic oscillator (B). The critically damped oscillator returns to equilibrium at <m:math><m:mrow><m:mrow><m:mrow><m:mi>X</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math> in the smallest time possible without overshooting.</caption></figure><para id="import-auto-id2666765">Critical damping is often desired, because such a system returns to equilibrium rapidly and remains at equilibrium as well. In addition, a constant force applied to a critically damped system moves the system to a new equilibrium position in the shortest time possible without overshooting or oscillating about the new position. For example, when you stand on bathroom scales that have a needle gauge, the needle moves to its equilibrium position without oscillating. It would be quite inconvenient if the needle oscillated about the new equilibrium position for a long time before settling. Damping forces can vary greatly in character. Friction, for example, is sometimes independent of velocity (as assumed in most places in this text). But many damping forces depend on velocity—sometimes in complex ways, sometimes simply being proportional to velocity.</para>
 
 <note id="fs-id2224545">
 <title>Making Connections: Damped Oscillator</title>
 <para id="fs-id1356220">Consider a mass attached to a spring. This system oscillates when in air because air exerts almost no force on the spring. Now put this system in a liquid, say, water. You will see that the system hardly oscillates when in water. When the system is submerged in water an external force acts on the oscillator. This force is exerted by the liquid against the motion of the spring-mass oscillator and is responsible for the inhibition of oscillations. A force that inhibits oscillations is called a “damping force,” and the system that experiences it is called a “damped oscillator." A damped oscillator sees a change in its energy. With time the total energy of the oscillator, which would be its mechanical energy, decreases. Since energy has to be conserved, the energy gets converted into thermal energy, which is stored in the water and the spring.</para>
 </note>
-<example id="fs-id1427684"><title>Damping an Oscillatory Motion: Friction on an Object Connected to a Spring</title><para id="import-auto-id3013339">Damping oscillatory motion is important in many systems, and the ability to control the damping is even more so. This is generally attained using non-conservative forces such as the friction between surfaces, and viscosity for objects moving through fluids. The following example considers friction. Suppose a 0.200-kg object is connected to a spring as shown in <link target-id="import-auto-id2598999"/>, but there is simple friction between the object and the surface, and the coefficient of friction <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mi>k</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{μ rSub { size 8{k} } } {}</m:annotation></m:semantics></m:math> is equal to 0.0800. (a) What is the frictional force between the surfaces? (b) What total distance does the object travel if it is released 0.100 m from equilibrium, starting at <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v=0} {}</m:annotation></m:semantics></m:math>? The force constant of the spring is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>50</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 N/m</m:mn><m:mi/><m:mo stretchy="false"> </m:mo><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{k="50" "." 0`"N/m"} {}</m:annotation></m:semantics></m:math>.</para><figure id="import-auto-id2598999"><media id="import-auto-id1996812" alt=" The given figure (a) shows a spring on a frictionless surface attached to a bar or wall from the left side and on the right side of the spring, there is an object attached with mass m. Its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, represented by a red arrow pointing toward the left and velocity v is equal to zero. An arrow showing the direction of force is also given alongside this figure as well as with the other four figures. The energy of the object is half k x squared.           In the given figure (b), after force is applied, the object moves to the left, compressing the spring slightly. The displacement of the object from its initial position is indicated by dots. The force F, here is equal to zero and velocity v, is maximum in the negative direction or the left. The energy of the object in this case is half m times negative v-max whole squared.           In the given figure (c), the spring has been compressed the maximum limit, and the amplitude is minus X. Now the force is toward the right, indicated here with a red arrow pointing to the right and the velocity, v, is zero. The energy of the object now is half k times negative x whole squared.           In the given figure (d), the spring is shown released from its compressed position and the object has moved toward the right side to reach the equilibrium level. Here, F is equal to zero, and the velocity, v, is the maximum. The energy of the object becomes half k times v max squared.           In the given figure (e), the spring has been stretched loose to the maximum possible limit and the object has moved to the far right. Now the velocity v, here is equal to zero and the direction of force is toward the left. As shown here, F is equal to zero. The energy of the object in this case is half k times x squared.">
+<example id="fs-id1427684"><title>Damping an Oscillatory Motion: Friction on an Object Connected to a Spring</title><para id="import-auto-id3013339">Damping oscillatory motion is important in many systems, and the ability to control the damping is even more so. This is generally attained using non-conservative forces such as the friction between surfaces, and viscosity for objects moving through fluids. The following example considers friction. Suppose a 0.200-kg object is connected to a spring as shown in <link target-id="import-auto-id2598999"/>, but there is simple friction between the object and the surface, and the coefficient of friction <m:math><m:mrow><m:mrow><m:msub><m:mi>μ</m:mi><m:mrow><m:mi>k</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is equal to 0.0800. (a) What is the frictional force between the surfaces? (b) What total distance does the object travel if it is released 0.100 m from equilibrium, starting at <m:math><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math>? The force constant of the spring is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>50</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 N/m</m:mn><m:mi/><m:mo stretchy="false"> </m:mo><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para><figure id="import-auto-id2598999"><media id="import-auto-id1996812" alt=" The given figure (a) shows a spring on a frictionless surface attached to a bar or wall from the left side and on the right side of the spring, there is an object attached with mass m. Its amplitude is given by X, and X is equal to zero at the equilibrium level. Force F is applied to it from the right side, represented by a red arrow pointing toward the left and velocity v is equal to zero. An arrow showing the direction of force is also given alongside this figure as well as with the other four figures. The energy of the object is half k x squared.           In the given figure (b), after force is applied, the object moves to the left, compressing the spring slightly. The displacement of the object from its initial position is indicated by dots. The force F, here is equal to zero and velocity v, is maximum in the negative direction or the left. The energy of the object in this case is half m times negative v-max whole squared.           In the given figure (c), the spring has been compressed the maximum limit, and the amplitude is minus X. Now the force is toward the right, indicated here with a red arrow pointing to the right and the velocity, v, is zero. The energy of the object now is half k times negative x whole squared.           In the given figure (d), the spring is shown released from its compressed position and the object has moved toward the right side to reach the equilibrium level. Here, F is equal to zero, and the velocity, v, is the maximum. The energy of the object becomes half k times v max squared.           In the given figure (e), the spring has been stretched loose to the maximum possible limit and the object has moved to the far right. Now the velocity v, here is equal to zero and the direction of force is toward the left. As shown here, F is equal to zero. The energy of the object in this case is half k times x squared.">
           <image mime-type="image/jpg" src="../../media/Figure_17_07_04a.jpg"/>
         </media>
 
@@ -48,11 +48,11 @@
     <para id="import-auto-id2384409">
       <title>Solution (a)</title></para>
 
-    <list id="fs-id2583588" list-type="enumerated" number-style="arabic"><item>Choose the proper equation: Friction is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=μ rSub { size 8{k} }  ital "mg"} {}</m:annotation></m:semantics></m:math>.</item>
+    <list id="fs-id2583588" list-type="enumerated" number-style="arabic"><item>Choose the proper equation: Friction is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mn>k</m:mn></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</item>
     <item id="import-auto-id1844089">Identify the known values.</item>
     <item id="import-auto-id2399993">Enter the known values into the equation:
     <equation id="import-auto-id1393391"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -77,11 +77,11 @@
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{f=0 "." "0800" times 0 "." "200"`"kg" times 9 "." 8`"ms" rSup { size 8{"-2"} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math></equation></item>
     <item id="import-auto-id2673391">Calculate and convert units:
-<m:math><m:semantics>
+<m:math>
  <m:mrow>
   <m:mrow>
    <m:mrow>
@@ -95,8 +95,8 @@
 <m:mo>.</m:mo>
 </m:mrow>
 
-<m:annotation encoding="StarMath 5.0"> size 12{F=μ rSub { size 8{k} }  ital "mg"} {}</m:annotation>
-</m:semantics></m:math>
+
+</m:math>
 
 
 </item>
@@ -109,9 +109,9 @@
 <list id="fs-id2673470"><item>The system involves elastic potential energy as the spring compresses and expands, friction that is related to the work done, and the kinetic energy as the body speeds up and slows down. </item>
     <item>Energy is not conserved as the mass oscillates because friction is a non-conservative force.</item>
     <item>The motion is horizontal, so gravitational potential energy does not need to be considered. </item>
-    <item>Because the motion starts from rest, the energy in the system is initially <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mi>el,i</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mtext>kX</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ ital "PE" rSub { size 8{e1} } = \( 1/2 \)  ital "kX" rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. This energy is removed by work done by friction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">–</m:mo><m:mstyle fontstyle="italic"><m:mtext>fd</m:mtext></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{ ital "nc"} } = ital "fd"} {}</m:annotation></m:semantics></m:math>, where
+    <item>Because the motion starts from rest, the energy in the system is initially <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mtext>PE</m:mtext><m:mrow><m:mi>el,i</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mn>2</m:mn></m:mrow><m:mo stretchy="false">)</m:mo><m:mrow><m:msup><m:mstyle fontstyle="italic"><m:mtext>kX</m:mtext></m:mstyle><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. This energy is removed by work done by friction <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">–</m:mo><m:mstyle fontstyle="italic"><m:mtext>fd</m:mtext></m:mstyle></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, where
 <m:math>
-    <m:semantics>
+    
      <m:mrow>
 
        <m:mrow>
@@ -124,13 +124,11 @@ d
 
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{x} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math>
- is the total distance traveled and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{f=μk ital "mg"} {}</m:annotation></m:semantics></m:math> is the force of friction.  When the system stops moving, the friction force will balance the force exerted by the spring, so  <m:math>
-    <m:semantics>
+ is the total distance traveled and <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mtext>k</m:mtext></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> is the force of friction.  When the system stops moving, the friction force will balance the force exerted by the spring, so  <m:math>
+    
      <m:mrow>
 
        <m:mrow>
@@ -198,12 +196,10 @@ kx
 
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{"PE" rSub { size 8{"e1,f"} } = \( 1/2 \)  ital "kx" rSup { size 8{2} } } {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math> where  <m:math>
-    <m:semantics>
+    
      <m:mrow>
       <m:mstyle mathsize="12pt">
        <m:mrow>
@@ -216,14 +212,12 @@ x
       </m:mstyle>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{x} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math> is the final position and is given by
 
 <equation id="eip-id2653335"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -303,23 +297,16 @@ size 12{x} {}
 
                 </m:mtr>
               </m:mtable>
-              <m:mrow/>
 <m:mo>.</m:mo>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{F rSub { size 8{"el"} } =f}  {} #
- ital "kx"=μ rSub { size 8{k} }  ital "mg" {} #
-x= {  {μ rSub { size 8{k} }  ital "mg"}  over  {k} }  {}
-} } {}</m:annotation>
-        </m:semantics>
       </m:math>
 </equation></item></list>
 
 
 <list id="fs-id1999753" list-type="enumerated" number-style="arabic"><item>By equating the work done to the energy removed, solve for the distance
 <m:math>
-    <m:semantics>
+    
      <m:mrow>
       <m:mstyle mathsize="12pt">
        <m:mrow>
@@ -332,15 +319,13 @@ d
       </m:mstyle>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{x} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math>
 .</item>
     <item>The work done by the non-conservative forces equals the initial, stored elastic potential energy. Identify the correct equation to use:
     <equation id="import-auto-id1432098"><m:math>
-    <m:semantics>
+    
      <m:mrow>
 
        <m:mrow>
@@ -527,15 +512,13 @@ X
 <m:mo>.</m:mo>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{W rSub { size 8{"nc"} } =Δ left ("KE"+"PE" right )="PE" rSub { size 8{"el,f"} }  - "PE" rSub { size 8{"el,i"} } = {  {1}  over  {2} } k left ( left ( {  {μ rSub { size 8{k} }  ital "mg"}  over  {k} }  right ) rSup { size 8{2} }  - X rSup { size 8{2} }  right )} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math></equation></item>
-    <item>Recall that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mo>–</m:mo><m:mtext>fd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{ ital "nc"} } = ital "Fd"} {}</m:annotation></m:semantics></m:math>.</item>
-    <item>Enter the friction as <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F=μ rSub { size 8{k} }  ital "mg"} {}</m:annotation></m:semantics></m:math> into <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mo>–</m:mo><m:mtext>fd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{W rSub { size 8{ ital "nc"} } = ital "Fd"} {}</m:annotation></m:semantics></m:math>, thus
+    <item>Recall that <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mo>–</m:mo><m:mtext>fd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</item>
+    <item>Enter the friction as <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>f</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>μ</m:mi><m:mrow><m:mtext>k</m:mtext></m:mrow></m:msub></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>mg</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> into <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>W</m:mi><m:mrow><m:mrow><m:mtext>nc</m:mtext></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mo>–</m:mo><m:mtext>fd</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, thus
     <equation id="import-auto-id3080578"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -564,13 +547,13 @@ size 12{W rSub { size 8{"nc"} } =Δ left ("KE"+"PE" right )="PE" rSub { size 8{"
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{W size 8{"nc"}=μ rSub { size 8{k} }  ital "mgd"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></item>
     <item>Combine these two equations to find
     <equation id="import-auto-id2591277"><m:math>
-    <m:semantics>
+    
      <m:mrow>
       <m:mstyle mathsize="12pt">
        <m:mrow>
@@ -707,14 +690,12 @@ mgd
 <m:mo>.</m:mo>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{ {  {1}  over  {2} } k left ( left ( {  {μ rSub { size 8{k} } }  over  {k} }  right ) rSup { size 8{2} }  - X rSup { size 8{2} }  right )= - μ rSub { size 8{k} } } {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math></equation></item>
     <item>Solve the equation for
 <m:math>
-    <m:semantics>
+    
      <m:mrow>
       <m:mstyle mathsize="12pt">
        <m:mrow>
@@ -727,14 +708,12 @@ d
       </m:mstyle>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{x} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math>
 :
     <equation id="import-auto-id3209867"><m:math>
-        <m:semantics>
+        
           <m:mrow>
               <m:mrow>
                 <m:mrow>
@@ -796,13 +775,13 @@ size 12{x} {}
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{d= {  { {  {1}  over  {2} }  ital "kX" rSup { size 8{2} } }  over  {μ rSub { size 8{k} } } } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></item>
     <item>Enter the known values into the resulting equation:
     <equation id="eip-873"><m:math>
-	<m:semantics>
+	
 		<m:mrow><m:mtable><m:mrow><m:mtd>
        <m:mrow>
         <m:mrow>
@@ -1034,11 +1013,11 @@ N/m
          </m:mfenced>
 <m:mo>.</m:mo>
      </m:mtd></m:mtable></m:mrow>
-    </m:semantics>
+    
    </m:math></equation></item>
     <item>Calculate
 <m:math>
-    <m:semantics>
+    
      <m:mrow>
       <m:mstyle mathsize="12pt">
        <m:mrow>
@@ -1051,14 +1030,12 @@ d
       </m:mstyle>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{x} {}
-     </m:annotation>
-    </m:semantics>
+     
+    
    </m:math>
  and convert units:
     <equation id="import-auto-id3164118"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -1078,12 +1055,12 @@ size 12{x} {}
             <m:mo>.</m:mo>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{d=1 "." "59"`m} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation></item></list><para id="import-auto-id490321"><title>Discussion (b)</title></para>
-    <para id="fs-id1409377">This is the total distance traveled back and forth across <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math>, which is the undamped equilibrium position. The number of oscillations about the equilibrium position will be more than <m:math>
-    <m:semantics>
+    <para id="fs-id1409377">This is the total distance traveled back and forth across <m:math><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math>, which is the undamped equilibrium position. The number of oscillations about the equilibrium position will be more than <m:math>
+    
      <m:mrow>
 
        <m:mrow>
@@ -1166,11 +1143,9 @@ m
        </m:mrow>
       <m:mrow/>
      </m:mrow>
-     <m:annotation encoding="StarMath 5.0">
-size 12{d/X= \( 1 "." "59"`m \) / \( 0 "." "100"`m \) ="15" "." 9} {}
-     </m:annotation>
-    </m:semantics>
-   </m:math> because the amplitude of the oscillations is decreasing with time. At the end of the motion, this system will not return to <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> for this type of damping force, because static friction will exceed the restoring force. This system is underdamped. In contrast, an overdamped system with a simple constant damping force would not cross the equilibrium position <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x=0} {}</m:annotation></m:semantics></m:math> a single time. For example, if this system had a damping force 20 times greater, it would only move 0.0484 m toward the equilibrium position from its original 0.100-m position.</para><para id="import-auto-id3008839">This worked example illustrates how to apply problem-solving strategies to situations that integrate the different concepts you have learned. The first step is to identify the physical principles involved in the problem. The second step is to solve for the unknowns using familiar problem-solving strategies. These are found throughout the text, and many worked examples show how to use them for single topics. In this integrated concepts example, you can see how to apply them across several topics. You will find these techniques useful in applications of physics outside a physics course, such as in your profession, in other science disciplines, and in everyday life.</para>
+     
+    
+   </m:math> because the amplitude of the oscillations is decreasing with time. At the end of the motion, this system will not return to <m:math><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math> for this type of damping force, because static friction will exceed the restoring force. This system is underdamped. In contrast, an overdamped system with a simple constant damping force would not cross the equilibrium position <m:math><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math> a single time. For example, if this system had a damping force 20 times greater, it would only move 0.0484 m toward the equilibrium position from its original 0.100-m position.</para><para id="import-auto-id3008839">This worked example illustrates how to apply problem-solving strategies to situations that integrate the different concepts you have learned. The first step is to identify the physical principles involved in the problem. The second step is to solve for the unknowns using familiar problem-solving strategies. These are found throughout the text, and many worked examples show how to use them for single topics. In this integrated concepts example, you can see how to apply them across several topics. You will find these techniques useful in applications of physics outside a physics course, such as in your profession, in other science disciplines, and in everyday life.</para>
   </example><exercise id="fs-id3256580" type="check-understanding">
     <label/>
   <title>Check Your Understanding</title>
@@ -1391,7 +1366,7 @@ size 12{d/X= \( 1 "." "59"`m \) / \( 0 "." "100"`m \) ="15" "." 9} {}
     <section id="fs-id1314393" type="problems-exercises" class="problems-exercises">
       <title>Problems &amp; Exercises</title>
     <exercise id="fs-id1941607" type="problems-exercises"><problem id="fs-id3032077">
-    <para id="import-auto-id2616752">The amplitude of a lightly damped oscillator decreases by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>0%</m:mn><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{3 "." 0%} {}</m:annotation></m:semantics></m:math> during each cycle. What percentage of the mechanical energy of the oscillator is lost in each cycle?</para></problem></exercise>
+    <para id="import-auto-id2616752">The amplitude of a lightly damped oscillator decreases by <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>0%</m:mn><m:mtext/></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> during each cycle. What percentage of the mechanical energy of the oscillator is lost in each cycle?</para></problem></exercise>
     </section>
 
  </content>

@@ -14,20 +14,20 @@
 <item>Calculate the Hall emf across a current-carrying conductor.</item>
 </list>
   </section>
-    <para id="import-auto-id1905097">We have seen effects of a magnetic field on free-moving charges. The magnetic field also affects charges moving in a conductor. One result is the Hall effect, which has important implications and applications.</para><para id="import-auto-id1525810"><link target-id="import-auto-id2821877"/> shows what happens to charges moving through a conductor in a magnetic field. The field is perpendicular to the electron drift velocity and to the width of the conductor. Note that conventional current is to the right in both parts of the figure. In part (a), electrons carry the current and move to the left. In part (b), positive charges carry the current and move to the right. Moving electrons feel a magnetic force toward one side of the conductor, leaving a net positive charge on the other side. This separation of charge <emphasis effect="italics">creates a voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math></emphasis>, known as the <term id="import-auto-id2978459">Hall emf</term>, <emphasis effect="italics">across</emphasis> the conductor. The creation of a voltage <emphasis effect="italics">across</emphasis> a current-carrying conductor by a magnetic field is known as the <term id="import-auto-id1547866">Hall effect</term>, after Edwin Hall, the American physicist who discovered it in 1879.</para><figure id="import-auto-id2821877"><media id="import-auto-id1843656" alt="Figure a shows an electron with velocity v moving toward the left. The magnetic field B is oriented out of the page. The current I is running toward the right. The force vector on the electron points downward. An illustration of the right hand rule shows the right thumb pointing left with the v vector, the fingers pointing toward 7 o’clock with the B vector, the force vector on a positive charge pointing up and the force vector on a negative charge pointing down. Figure b shows a positive charge moving toward the right. The magnetic field lines are coming out of the page. The current I is running toward the right. The force on the positive charge is down. An illustration of the right hand rule shows the thumb pointing in the direction of the charge’s velocity, the fingers pointing in the direction of B, and F pointing down away from the palm.">
+    <para id="import-auto-id1905097">We have seen effects of a magnetic field on free-moving charges. The magnetic field also affects charges moving in a conductor. One result is the Hall effect, which has important implications and applications.</para><para id="import-auto-id1525810"><link target-id="import-auto-id2821877"/> shows what happens to charges moving through a conductor in a magnetic field. The field is perpendicular to the electron drift velocity and to the width of the conductor. Note that conventional current is to the right in both parts of the figure. In part (a), electrons carry the current and move to the left. In part (b), positive charges carry the current and move to the right. Moving electrons feel a magnetic force toward one side of the conductor, leaving a net positive charge on the other side. This separation of charge <emphasis effect="italics">creates a voltage <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math></emphasis>, known as the <term id="import-auto-id2978459">Hall emf</term>, <emphasis effect="italics">across</emphasis> the conductor. The creation of a voltage <emphasis effect="italics">across</emphasis> a current-carrying conductor by a magnetic field is known as the <term id="import-auto-id1547866">Hall effect</term>, after Edwin Hall, the American physicist who discovered it in 1879.</para><figure id="import-auto-id2821877"><media id="import-auto-id1843656" alt="Figure a shows an electron with velocity v moving toward the left. The magnetic field B is oriented out of the page. The current I is running toward the right. The force vector on the electron points downward. An illustration of the right hand rule shows the right thumb pointing left with the v vector, the fingers pointing toward 7 o’clock with the B vector, the force vector on a positive charge pointing up and the force vector on a negative charge pointing down. Figure b shows a positive charge moving toward the right. The magnetic field lines are coming out of the page. The current I is running toward the right. The force on the positive charge is down. An illustration of the right hand rule shows the thumb pointing in the direction of the charge’s velocity, the fingers pointing in the direction of B, and F pointing down away from the palm.">
         <image mime-type="image/jpg" src="../../media/Figure_23_06_01a.jpg" width="380"/>
       </media>
      
     <caption>The Hall effect. (a) Electrons move to the left in this flat conductor (conventional current to the right). The magnetic field is directly out of the page, represented by circled dots; it exerts a force on the moving charges, causing a voltage  <m:math>
- <m:semantics>
+ 
    <m:mi>ε</m:mi>
- </m:semantics>
+ 
 </m:math>, the Hall emf, across the conductor. (b) Positive charges moving to the right (conventional current also to the right) are moved to the side, producing a Hall emf of the opposite sign, <m:math>
- <m:semantics>
+ 
    <m:mi>–ε</m:mi>
- </m:semantics>
-</m:math>. Thus, if the direction of the field and current are known, the sign of the charge carriers can be determined from the Hall effect.</caption></figure><para id="import-auto-id1550354">One very important use of the Hall effect is to determine whether positive or negative charges carries the current. Note that in <link target-id="import-auto-id2821877"/>(b), where positive charges carry the current, the Hall emf has the sign opposite to when negative charges carry the current. Historically, the Hall effect was used to show that electrons carry current in metals and it also shows that positive charges carry current in some semiconductors. The Hall effect is used today as a research tool to probe the movement of charges, their drift velocities and densities, and so on, in materials. In 1980, it was discovered that the Hall effect is quantized, an example of quantum behavior in a macroscopic object.</para><para id="import-auto-id2414678">The Hall effect has other uses that range from the determination of blood flow rate to precision measurement of magnetic field strength. To examine these quantitatively, we need an expression for the Hall emf, <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>, across a conductor. Consider the balance of forces on a moving charge in a situation where <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> are mutually perpendicular, such as shown in <link target-id="import-auto-id1648625"/>. Although the magnetic force moves negative charges to one side, they cannot build up without limit. The electric field caused by their separation opposes the magnetic force, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qvB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F= ital "qvB"} {}</m:annotation></m:semantics></m:math>, and the electric force, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>e</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{F rSub { size 8{e} } = ital "qE"} {}</m:annotation></m:semantics></m:math>, eventually grows to equal it. That is,</para><equation id="eip-987"><m:math>
-        <m:semantics>
+ 
+</m:math>. Thus, if the direction of the field and current are known, the sign of the charge carriers can be determined from the Hall effect.</caption></figure><para id="import-auto-id1550354">One very important use of the Hall effect is to determine whether positive or negative charges carries the current. Note that in <link target-id="import-auto-id2821877"/>(b), where positive charges carry the current, the Hall emf has the sign opposite to when negative charges carry the current. Historically, the Hall effect was used to show that electrons carry current in metals and it also shows that positive charges carry current in some semiconductors. The Hall effect is used today as a research tool to probe the movement of charges, their drift velocities and densities, and so on, in materials. In 1980, it was discovered that the Hall effect is quantized, an example of quantum behavior in a macroscopic object.</para><para id="import-auto-id2414678">The Hall effect has other uses that range from the determination of blood flow rate to precision measurement of magnetic field strength. To examine these quantitatively, we need an expression for the Hall emf, <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math>, across a conductor. Consider the balance of forces on a moving charge in a situation where <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>, and <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> are mutually perpendicular, such as shown in <link target-id="import-auto-id1648625"/>. Although the magnetic force moves negative charges to one side, they cannot build up without limit. The electric field caused by their separation opposes the magnetic force, <m:math><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qvB</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, and the electric force, <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>F</m:mi><m:mrow><m:mn>e</m:mn></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>qE</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, eventually grows to equal it. That is,</para><equation id="eip-987"><m:math>
+        
           <m:mrow>
             
               <m:mrow>
@@ -48,13 +48,13 @@
             
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ ital "qE"= ital "qvB"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math> 
     </equation><para id="import-auto-id1751324">or</para>
-    <equation id="eip-263"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E= ital "vB"} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1565037">Note that the electric field <m:math><m:semantics><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E} {}</m:annotation></m:semantics></m:math> is uniform across the conductor because the magnetic field <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> is uniform, as is the conductor. For a uniform electric field, the relationship between electric field and voltage is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{E=ε/l} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> is the width of the conductor and <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> is the Hall emf. Entering this into the last expression gives</para>
+    <equation id="eip-263"><m:math><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>vB</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id1565037">Note that the electric field <m:math><m:mrow><m:mrow><m:mi>E</m:mi></m:mrow></m:mrow></m:math> is uniform across the conductor because the magnetic field <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math> is uniform, as is the conductor. For a uniform electric field, the relationship between electric field and voltage is <m:math><m:mrow><m:mrow><m:mrow><m:mi>E</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">/</m:mo><m:mi>l</m:mi></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, where <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> is the width of the conductor and <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> is the Hall emf. Entering this into the last expression gives</para>
     <equation id="eip-449"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -75,12 +75,12 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ {  {ε}  over  {l} } = ital "vB" "." } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id2096508">Solving this for the Hall emf yields</para>
     <equation id="eip-471"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -107,29 +107,29 @@
               </m:mrow>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ε= ital "Blv"``` \( B,`v,`"and"`l,`"mutually perpendicular" \) ,} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1699325">where <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> is the Hall effect voltage across a conductor of width <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> through which charges move at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>.</para>
+    </equation><para id="import-auto-id1699325">where <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> is the Hall effect voltage across a conductor of width <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> through which charges move at a speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>.</para>
     
     <figure id="import-auto-id1648625"><media id="import-auto-id2010690" alt="Diagram showing an electron moving to the left in a three-dimensional rectangular space with velocity v. The magnetic field is oriented out of the page. The electric field is down. The electric force on the charge is up while the magnetic force on the charge is down. An illustration of the right hand rule shows the thumb pointing to the left with v, the fingers out of the page with B, and the force on a positive charge up and away from the palm.">
         <image mime-type="image/jpg" src="../../media/Figure_23_06_02a.jpg" width="300"/>
       </media>
       
-    <caption>The Hall emf <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> produces an electric force that balances the magnetic force on the moving charges. The magnetic force produces charge separation, which builds up until it is balanced by the electric force, an equilibrium that is quickly reached.</caption></figure><para id="import-auto-id1422576">One of the most common uses of the Hall effect is in the measurement of magnetic field strength <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>. Such devices, called <emphasis effect="italics">Hall probes</emphasis>, can be made very small, allowing fine position mapping. Hall probes can also be made very accurate, usually accomplished by careful calibration. Another application of the Hall effect is to measure fluid flow in any fluid that has free charges (most do). (See <link target-id="import-auto-id1320873"/>.) A magnetic field applied perpendicular to the flow direction produces a Hall emf <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> as shown. Note that the sign of <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> depends not on the sign of the charges, but only on the directions of <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>. The magnitude of the Hall emf is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Blv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε= ital "Blv"} {}</m:annotation></m:semantics></m:math>, where <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> is the pipe diameter, so that the average velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> can be determined from <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> providing the other factors are known.</para><figure id="import-auto-id1320873"><media id="import-auto-id1542617" alt="Diagram showing a tube with diameter l with one end between the north and south poles of a magnet. The charges are moving with velocity v within the tube and out of the page. The magnetic field B is oriented across the tube, from the north to the south pole of the magnet. The force on the charges is up for positive charges and down for negative charges. e m f = B l v.">
+    <caption>The Hall emf <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> produces an electric force that balances the magnetic force on the moving charges. The magnetic force produces charge separation, which builds up until it is balanced by the electric force, an equilibrium that is quickly reached.</caption></figure><para id="import-auto-id1422576">One of the most common uses of the Hall effect is in the measurement of magnetic field strength <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math>. Such devices, called <emphasis effect="italics">Hall probes</emphasis>, can be made very small, allowing fine position mapping. Hall probes can also be made very accurate, usually accomplished by careful calibration. Another application of the Hall effect is to measure fluid flow in any fluid that has free charges (most do). (See <link target-id="import-auto-id1320873"/>.) A magnetic field applied perpendicular to the flow direction produces a Hall emf <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> as shown. Note that the sign of <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> depends not on the sign of the charges, but only on the directions of <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>. The magnitude of the Hall emf is <m:math><m:mrow><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Blv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, where <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> is the pipe diameter, so that the average velocity <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math> can be determined from <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> providing the other factors are known.</para><figure id="import-auto-id1320873"><media id="import-auto-id1542617" alt="Diagram showing a tube with diameter l with one end between the north and south poles of a magnet. The charges are moving with velocity v within the tube and out of the page. The magnetic field B is oriented across the tube, from the north to the south pole of the magnet. The force on the charges is up for positive charges and down for negative charges. e m f = B l v.">
         <image mime-type="image/jpg" src="../../media/Figure_23_06_03a.jpg" width="350"/>
       </media>
       
-    <caption>The Hall effect can be used to measure fluid flow in any fluid having free charges, such as blood. The Hall emf <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> is measured across the tube perpendicular to the applied magnetic field and is proportional to the average velocity <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>.</caption></figure><example id="fs-id2241844"><title>Calculating the Hall emf: Hall Effect for Blood Flow</title>
+    <caption>The Hall effect can be used to measure fluid flow in any fluid having free charges, such as blood. The Hall emf <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> is measured across the tube perpendicular to the applied magnetic field and is proportional to the average velocity <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>.</caption></figure><example id="fs-id2241844"><title>Calculating the Hall emf: Hall Effect for Blood Flow</title>
     <para id="import-auto-id1452723">A Hall effect flow probe is placed on an artery, applying a 0.100-T magnetic field across it, in a setup similar to that in <link target-id="import-auto-id1320873"/>. What is the Hall emf, given the vessel’s inside diameter is 4.00 mm and the average blood velocity is 20.0 cm/s?</para>
     <para id="import-auto-id2812308">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id1616771">Because <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, and <m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math> are mutually perpendicular, the equation <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Blv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε= ital "Blv"} {}</m:annotation></m:semantics></m:math> can be used to find <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>.</para><para id="import-auto-id1543446">
+    <para id="import-auto-id1616771">Because <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>, and <m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math> are mutually perpendicular, the equation <m:math><m:mrow><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Blv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> can be used to find <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math>.</para><para id="import-auto-id1543446">
       <title>Solution</title>
     </para>
-    <para id="import-auto-id1853017">Entering the given values for <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>, and <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math></emphasis> gives</para><equation id="eip-219"><m:math>
-        <m:semantics>
+    <para id="import-auto-id1853017">Entering the given values for <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math>, <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>, and <emphasis effect="italics"><m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math></emphasis> gives</para><equation id="eip-219"><m:math>
+        
           <m:mrow>
             <m:mrow>
               <m:mtable columnalign="left">
@@ -188,16 +188,12 @@
               </m:mtable>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0">alignl { stack {
- size 12{ε= ital "Blv"= left (0 "." "100"`T right ) left (4 "." "00" times "10" rSup { size 8{ - 3} } `m right ) left (0 "." "200"`"m/s" right )}  {} # 
-="80" "." 0`"μV" {} 
-} } {}</m:annotation>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id1484417">
       <title>Discussion</title>
     </para>
-    <para id="import-auto-id1465329">This is the average voltage output. Instantaneous voltage varies with pulsating blood flow. The voltage is small in this type of measurement. <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math> is particularly difficult to measure, because there are voltages associated with heart action (ECG voltages) that are on the order of millivolts. In practice, this difficulty is overcome by applying an AC magnetic field, so that the Hall emf is AC with the same frequency. An amplifier can be very selective in picking out only the appropriate frequency, eliminating signals and noise at other frequencies.</para>
+    <para id="import-auto-id1465329">This is the average voltage output. Instantaneous voltage varies with pulsating blood flow. The voltage is small in this type of measurement. <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math> is particularly difficult to measure, because there are voltages associated with heart action (ECG voltages) that are on the order of millivolts. In practice, this difficulty is overcome by applying an AC magnetic field, so that the Hall emf is AC with the same frequency. An amplifier can be very selective in picking out only the appropriate frequency, eliminating signals and noise at other frequencies.</para>
     </example>
 
 <section id="fs-id1887346" type="ap-test-prep" class="ap-test-prep">
@@ -219,10 +215,10 @@
   </exercise>
   </section>
   
-    <section id="fs-id2093608" class="section-summary"><title>Section Summary</title><list id="eip-156"><item>The Hall effect is the creation of voltage <m:math><m:semantics><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε} {}</m:annotation></m:semantics></m:math>, known as the Hall emf, across a current-carrying conductor by a magnetic field. </item>
+    <section id="fs-id2093608" class="section-summary"><title>Section Summary</title><list id="eip-156"><item>The Hall effect is the creation of voltage <m:math><m:mrow><m:mrow><m:mi>ε</m:mi></m:mrow></m:mrow></m:math>, known as the Hall emf, across a current-carrying conductor by a magnetic field. </item>
 <item>The Hall emf is given by
 <equation id="eip-id2017144"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -246,21 +242,21 @@
               </m:mrow>
             </m:mrow>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ε= ital "Blv"``` \( B,`v,`"and"`l,`"mutually perpendicular" \) } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
 </equation>
-for a conductor of width <emphasis effect="italics"><m:math><m:semantics><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{l} {}</m:annotation></m:semantics></m:math></emphasis> through which charges move at a speed <m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math>.</item>
+for a conductor of width <emphasis effect="italics"><m:math><m:mrow><m:mrow><m:mi>l</m:mi></m:mrow></m:mrow></m:math></emphasis> through which charges move at a speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>.</item>
 </list></section><section id="fs-id1523583" type="conceptual-questions" class="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1564685" type="conceptual-questions"><problem id="fs-id2098332">
         <para id="import-auto-id1616406">Discuss how the Hall effect could be used to obtain information on free charge density in a conductor. (Hint: Consider how drift velocity and current are related.)</para>
     </problem></exercise>
     </section>
     <section id="fs-id1544499" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title><exercise id="fs-id2114109" type="problems-exercises"><problem id="fs-id2025369">
-<para id="import-auto-id1416915">A large water main is 2.50 m in diameter and the average water velocity is 6.00 m/s. Find the Hall voltage produced if the pipe runs perpendicular to the Earth’s <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mtext>-T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{ - 5} } "-T"} {}</m:annotation></m:semantics></m:math> field.</para>
+<para id="import-auto-id1416915">A large water main is 2.50 m in diameter and the average water velocity is 6.00 m/s. Find the Hall voltage produced if the pipe runs perpendicular to the Earth’s <m:math><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mtext>-T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> field.</para>
     </problem>
 <solution id="fs-id1399045">
     <para id="import-auto-id1773192"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -284,7 +280,7 @@ for a conductor of width <emphasis effect="italics"><m:math><m:semantics><m:mrow
               </m:mrow>
             </m:mrow>
           </m:mrow>
-        </m:semantics>
+        
       </m:math>
     </para></solution>
     </exercise>
@@ -292,7 +288,7 @@ for a conductor of width <emphasis effect="italics"><m:math><m:semantics><m:mrow
 <para id="import-auto-id1988652">What Hall voltage is produced by a 0.200-T field applied across a 2.60-cm-diameter aorta when blood velocity is 60.0 cm/s?</para>
     </problem></exercise>
     <exercise id="fs-id1527365" type="problems-exercises"><problem id="fs-id1066850">
-<para id="import-auto-id2025116">(a) What is the speed of a supersonic aircraft with a 17.0-m wingspan, if it experiences a 1.60-V Hall voltage between its wing tips when in level flight over the north magnetic pole, where the Earth’s field strength is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>T?</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{8 "." "00" times "10" rSup { size 8{ - 5} } `"T?"} {}</m:annotation></m:semantics></m:math> (b) Explain why very little current flows as a result of this Hall voltage.</para></problem>
+<para id="import-auto-id2025116">(a) What is the speed of a supersonic aircraft with a 17.0-m wingspan, if it experiences a 1.60-V Hall voltage between its wing tips when in level flight over the north magnetic pole, where the Earth’s field strength is <m:math><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>T?</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> (b) Explain why very little current flows as a result of this Hall voltage.</para></problem>
 <solution id="fs-id1395400">
     <para id="import-auto-id2229613">(a) 1.18 × 10 <sup>3</sup> m/s</para><para id="import-auto-id1377755">(b) Once established, the Hall emf pushes charges one direction and the magnetic force acts in the opposite direction resulting in no net force on the charges. Therefore, no current flows in the direction of the Hall emf. This is the same as in a current-carrying conductor—current does not flow in the direction of the Hall emf.</para>
     </solution>
@@ -308,13 +304,13 @@ for a conductor of width <emphasis effect="italics"><m:math><m:semantics><m:mrow
     </solution>
     </exercise>
     <exercise id="fs-id976138" type="problems-exercises"><problem id="fs-id1495708">
-<para id="import-auto-id1158161">A Hall probe calibrated to read <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 μV</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1 "." "00"`"μV"} {}</m:annotation></m:semantics></m:math> when placed in a 2.00-T field is placed in a 0.150-T field. What is its output voltage?</para></problem></exercise>
+<para id="import-auto-id1158161">A Hall probe calibrated to read <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mtext>00 μV</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> when placed in a 2.00-T field is placed in a 0.150-T field. What is its output voltage?</para></problem></exercise>
     <exercise id="fs-id1797808" type="problems-exercises"><problem id="fs-id1733233">
 <para id="import-auto-id2194387">Using information in <link document="m42346" target-id="fs-id1889050"/>, what would the Hall voltage be if a 2.00-T field is applied across a 10-gauge copper wire (2.588 mm in diameter) carrying a 20.0-A current?
 </para></problem>
 <solution id="fs-id1399884">
     <para id="import-auto-id2080944"><m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -325,8 +321,8 @@ for a conductor of width <emphasis effect="italics"><m:math><m:semantics><m:mrow
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{1 "." "47"`"μV"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </para></solution>
     </exercise>
@@ -342,7 +338,7 @@ for a conductor of width <emphasis effect="italics"><m:math><m:semantics><m:mrow
     </exercise></section> </content>
     <glossary>
     <definition id="import-auto-id1648144"><term>Hall effect</term> <meaning id="fs-id1981047">the creation of voltage across a current-carrying conductor by a magnetic field</meaning></definition>
-    <definition id="import-auto-id2654894"><term>Hall emf</term> <meaning id="fs-id1534496">the electromotive force created by a current-carrying conductor by a magnetic field, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Blv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ε= ital "Blv"} {}</m:annotation></m:semantics></m:math></meaning></definition>
+    <definition id="import-auto-id2654894"><term>Hall emf</term> <meaning id="fs-id1534496">the electromotive force created by a current-carrying conductor by a magnetic field, <m:math><m:mrow><m:mrow><m:mrow><m:mi>ε</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Blv</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></meaning></definition>
     </glossary>
 
 </document>

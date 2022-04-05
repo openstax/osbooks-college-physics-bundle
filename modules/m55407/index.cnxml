@@ -19,12 +19,12 @@
 
   <section id="fs-id1169738086530">
     <title>Faraday’s and Lenz’s Law</title>
-    <para id="import-auto-id1169737994358">Faraday’s experiments showed that the emf induced by a change in magnetic flux depends on only a few factors. First, emf is directly proportional to the change in flux <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ} {}</m:annotation></m:semantics></m:math>. Second, emf  is greatest when the change in time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> is smallest—that is, emf  is inversely proportional to <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>. Finally, if a coil has <m:math>
- <m:semantics>
+    <para id="import-auto-id1169737994358">Faraday’s experiments showed that the emf induced by a change in magnetic flux depends on only a few factors. First, emf is directly proportional to the change in flux <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow></m:mrow></m:math>. Second, emf  is greatest when the change in time <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:math> is smallest—that is, emf  is inversely proportional to <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:math>. Finally, if a coil has <m:math>
+ 
   <m:mi>N</m:mi>
- </m:semantics>
-</m:math>  turns, an emf will be produced that is <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math> times greater than for a single coil, so that emf  is directly proportional to <m:math><m:semantics><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N} {}</m:annotation></m:semantics></m:math>. The equation for the emf induced by a change in magnetic flux is</para><equation id="eip-734"><m:math>
-        <m:semantics>
+ 
+</m:math>  turns, an emf will be produced that is <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> times greater than for a single coil, so that emf  is directly proportional to <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math>. The equation for the emf induced by a change in magnetic flux is</para><equation id="eip-734"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -46,15 +46,15 @@
 
             <m:mrow/><m:mtext>.</m:mtext>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"emf"= - N {  {ΔΦ}  over  {Δt} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1169737769368">This relationship is known as <term id="import-auto-id1169738138663">Faraday’s law of induction</term>. The units for emf are volts, as is usual.</para>
-    <para id="import-auto-id1169738093820">The minus sign in Faraday’s law of induction is very important. The minus means that <emphasis effect="italics">the emf creates a current I and magnetic field B that oppose the change in flux <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ} {}</m:annotation></m:semantics></m:math>—this is known as Lenz’s law</emphasis>. The direction (given by the minus sign) of the emf is so important that it is called <term id="import-auto-id1169735548777">Lenz’s law</term> after the Russian Heinrich Lenz (1804–1865), who, like Faraday and Henry,<emphasis effect="bold"/>independently investigated aspects of induction. Faraday was aware of the direction, but Lenz stated it so clearly that he is credited for its discovery. (See <link target-id="import-auto-id1169738048273"/>.)</para><figure id="import-auto-id1169738048273"><media id="import-auto-id1169738116402" alt="Part a of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The strength of the magnetic field increases in the coil. The current induced in the coil I creates another field B coil, in the opposite direction of the bar magnet to oppose the increase. So B mag and B coil are in opposite directions. In part b of the diagram, the magnet is moved away from the coil. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I creates another field B coil, in the same direction as the field of the bar magnet. So B mag and B coil are in same directions. Part c of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the south pole of the magnet is shown to face the coil. The magnetic lines of force are shown to merge into the South Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I, creates another field B coil, in the opposite direction of field of the bar magnet. So B mag and B coil are in opposite directions.">
+    <para id="import-auto-id1169738093820">The minus sign in Faraday’s law of induction is very important. The minus means that <emphasis effect="italics">the emf creates a current I and magnetic field B that oppose the change in flux <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow></m:mrow></m:math>—this is known as Lenz’s law</emphasis>. The direction (given by the minus sign) of the emf is so important that it is called <term id="import-auto-id1169735548777">Lenz’s law</term> after the Russian Heinrich Lenz (1804–1865), who, like Faraday and Henry,<emphasis effect="bold"/>independently investigated aspects of induction. Faraday was aware of the direction, but Lenz stated it so clearly that he is credited for its discovery. (See <link target-id="import-auto-id1169738048273"/>.)</para><figure id="import-auto-id1169738048273"><media id="import-auto-id1169738116402" alt="Part a of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The strength of the magnetic field increases in the coil. The current induced in the coil I creates another field B coil, in the opposite direction of the bar magnet to oppose the increase. So B mag and B coil are in opposite directions. In part b of the diagram, the magnet is moved away from the coil. The magnet is moved in such a way that the north pole of the magnet is shown to face the coil. The magnetic lines of force are shown to emerge out from the North Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I creates another field B coil, in the same direction as the field of the bar magnet. So B mag and B coil are in same directions. Part c of the figure shows a bar magnet held horizontal and moved into a coil held in the same plane. The magnet is moved in such a way that the south pole of the magnet is shown to face the coil. The magnetic lines of force are shown to merge into the South Pole. The magnetic field associated with the bar magnet is given as B mag. The current induced in the coil I, creates another field B coil, in the opposite direction of field of the bar magnet. So B mag and B coil are in opposite directions.">
         <image mime-type="image/jpg" src="../../media/Figure_24_02_01.jpg"/>
       </media>
 
-    <caption>(a) When this bar magnet is thrust into the coil, the strength of the magnetic field increases in the coil. The current induced in the coil creates another field, in the opposite direction of the bar magnet’s to oppose the increase. This is one aspect of <emphasis effect="italics">Lenz’s law—induction opposes any change in flux</emphasis>. (b) and (c) are two other situations. Verify for yourself that the direction of the induced <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>coil</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B rSub { size 8{"coil"} } } {}</m:annotation></m:semantics></m:math> shown indeed opposes the change in flux and that the current direction shown is consistent with RHR-2. </caption></figure><note id="fs-id1169738211904"><label/><title>Problem-Solving Strategy for Lenz’s Law</title>
+    <caption>(a) When this bar magnet is thrust into the coil, the strength of the magnetic field increases in the coil. The current induced in the coil creates another field, in the opposite direction of the bar magnet’s to oppose the increase. This is one aspect of <emphasis effect="italics">Lenz’s law—induction opposes any change in flux</emphasis>. (b) and (c) are two other situations. Verify for yourself that the direction of the induced <m:math><m:mrow><m:mrow><m:msub><m:mi>B</m:mi><m:mrow><m:mtext>coil</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> shown indeed opposes the change in flux and that the current direction shown is consistent with RHR-2. </caption></figure><note id="fs-id1169738211904"><label/><title>Problem-Solving Strategy for Lenz’s Law</title>
 
     <para id="import-auto-id1169737917974">To use Lenz’s law to determine the directions of the induced magnetic fields, currents, and emfs:</para>
     <list id="eip-544" list-type="enumerated" number-style="arabic"><item>Make a sketch of the situation for use in visualizing and recording directions.
@@ -81,11 +81,11 @@
     <para id="import-auto-id1169738025450">Lenz’s law is a manifestation of the conservation of energy. The induced emf produces a current that opposes the change in flux, because a change in flux means a change in energy. Energy can enter or leave, but not instantaneously. Lenz’s law is a consequence. As the change begins, the law says induction opposes and, thus, slows the change. In fact, if the induced emf were in the same direction as the change in flux, there would be a positive feedback that would give us free energy from no apparent source—conservation of energy would be violated.</para>
     </note>
 
-    <example id="fs-id1169737968113"><title>Calculating Emf: How Great Is the Induced Emf? </title><para id="import-auto-id1169737907393">Calculate the magnitude of the induced emf when the magnet in <link target-id="import-auto-id1169738048273"/>(a) is thrust into the coil, given the following information: the single loop coil has a radius of 6.00 cm and the average value of <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B"cos"θ} {}</m:annotation></m:semantics></m:math> (this is given, since the bar magnet’s field is complex) increases from 0.0500 T to 0.250 T in 0.100 s.</para><para id="import-auto-id1169738076695">
+    <example id="fs-id1169737968113"><title>Calculating Emf: How Great Is the Induced Emf? </title><para id="import-auto-id1169737907393">Calculate the magnitude of the induced emf when the magnet in <link target-id="import-auto-id1169738048273"/>(a) is thrust into the coil, given the following information: the single loop coil has a radius of 6.00 cm and the average value of <m:math><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> (this is given, since the bar magnet’s field is complex) increases from 0.0500 T to 0.250 T in 0.100 s.</para><para id="import-auto-id1169738076695">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id1169738138071">To find the <emphasis effect="italics">magnitude</emphasis> of emf, we use Faraday’s law of induction as stated by <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>N</m:mi></m:mrow></m:mrow><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, but without the minus sign that indicates direction:</para><equation id="eip-174"><m:math>
-        <m:semantics>
+    <para id="import-auto-id1169738138071">To find the <emphasis effect="italics">magnitude</emphasis> of emf, we use Faraday’s law of induction as stated by <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mtext>emf</m:mtext><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mi>N</m:mi></m:mrow></m:mrow><m:mfrac><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mfrac></m:mrow></m:mrow></m:mrow></m:math>, but without the minus sign that indicates direction:</para><equation id="eip-174"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -102,13 +102,13 @@
                 </m:mrow>
               </m:mrow><m:mtext>.</m:mtext>
           </m:mrow>
-        </m:semantics>
+        
       </m:math>
     </equation><para id="import-auto-id1169736809931">
       <title>Solution</title>
     </para>
-    <para id="import-auto-id1169738223653">We are given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{N=1} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>100</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, but we must determine the change in flux <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ} {}</m:annotation></m:semantics></m:math> before we can find emf. Since the area of the loop is fixed, we see that</para><equation id="eip-477"><m:math>
-        <m:semantics>
+    <para id="import-auto-id1169738223653">We are given that <m:math><m:mrow><m:mrow><m:mrow><m:mi>N</m:mi><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>100</m:mtext><m:mi/><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>, but we must determine the change in flux <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow></m:mrow></m:math> before we can find emf. Since the area of the loop is fixed, we see that</para><equation id="eip-477"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -139,11 +139,11 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ΔΦ=Δ \( BA"cos"θ \) =AΔ \( B"cos"θ \) } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
-    </equation><para id="import-auto-id1169738091352">Now <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>200 T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δ \( B"cos"θ \) =0 "." "200"`T} {}</m:annotation></m:semantics></m:math>, since it was given that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B"cos"θ} {}</m:annotation></m:semantics></m:math> changes from 0.0500 to 0.250 T. The area of the loop is <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>14</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>060 m</m:mtext><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>13</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{A=πr rSup { size 8{2} } = \( 3 "." "14" "."  "."  "."  \)  \( 0 "." "060"`m \)  rSup { size 8{2} } =1 "." "13" times "10" rSup { size 8{ - 2} } `m rSup { size 8{2} } } {}</m:annotation></m:semantics></m:math>. Thus,</para><equation id="eip-403"><m:math>
-        <m:semantics>
+    </equation><para id="import-auto-id1169738091352">Now <m:math><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mo stretchy="false">(</m:mo><m:mi>B</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>200 T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>, since it was given that <m:math><m:mrow><m:mrow><m:mrow><m:mi>B</m:mi><m:mspace width="0.25em"/><m:mtext>cos</m:mtext><m:mspace width="0.25em"/><m:mi>θ</m:mi></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> changes from 0.0500 to 0.250 T. The area of the loop is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mi fontstyle="italic">πr</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mtext>14</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mtext>.</m:mtext><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>060 m</m:mtext><m:mrow><m:msup><m:mo stretchy="false">)</m:mo><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>13</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>2</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Thus,</para><equation id="eip-403"><m:math>
+        
           <m:mrow>
 
               <m:mrow>
@@ -185,11 +185,11 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ΔΦ= \( 1 "." "13" times "10" rSup { size 8{ - 2} } " m" rSup { size 8{2} }  \)  \( 0 "." "200"" T" \) } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1169737789547">Entering the determined values into the expression for emf gives</para><equation id="eip-984"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -263,8 +263,8 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{E=N {  {ΔΦ}  over  {Δt} } = {  { \( 1 "." "13" times "10" rSup { size 8{ - 2} } " m" rSup { size 8{2} }  \)  \( 0 "." "200"" T" \) }  over  {0 "." "100"" s"} } ="22" "." 6" mV"} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </equation><para id="import-auto-id1169737910244">
       <title>Discussion</title>
@@ -280,7 +280,7 @@
 </media>
 </figure></para></note><section id="fs-id1169738257666" class="section-summary"><title>Section Summary</title><list id="fs-id1169737762374"><item id="import-auto-id1169738186862">Faraday’s law of induction states that the emfinduced by a change in magnetic flux is
     <equation id="eip-550"><m:math>
-        <m:semantics>
+        
           <m:mrow>
 
               <m:mrow>
@@ -302,16 +302,16 @@
 
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"emf"= - N {  {ΔΦ}  over  {Δt} } } {}</m:annotation>
-        </m:semantics>
-      </m:math></equation><para id="import-auto-id1169738250846">when flux changes by <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ} {}</m:annotation></m:semantics></m:math> in a time <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math>.</para>
+          
+        
+      </m:math></equation><para id="import-auto-id1169738250846">when flux changes by <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow></m:mrow></m:math> in a time <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:math>.</para>
     </item>
     <item id="import-auto-id1169738092786">If emf is induced in a coil,  <m:math>
- <m:semantics>
+ 
   <m:mi>N</m:mi>
- </m:semantics>
+ 
 </m:math> is its number of turns.</item>
-    <item id="import-auto-id1169737778129">The minus sign means that the emf creates a current <m:math><m:semantics><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{I} {}</m:annotation></m:semantics></m:math> and magnetic field <m:math><m:semantics><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{B} {}</m:annotation></m:semantics></m:math> that <emphasis effect="italics">oppose the change in flux</emphasis> <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ} {}</m:annotation></m:semantics></m:math> —this opposition is known as Lenz’s law.</item>
+    <item id="import-auto-id1169737778129">The minus sign means that the emf creates a current <m:math><m:mrow><m:mrow><m:mi>I</m:mi></m:mrow></m:mrow></m:math> and magnetic field <m:math><m:mrow><m:mrow><m:mi>B</m:mi></m:mrow></m:mrow></m:math> that <emphasis effect="italics">oppose the change in flux</emphasis> <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow></m:mrow></m:math> —this opposition is known as Lenz’s law.</item>
     </list></section><section id="fs-id1169737705843" class="conceptual-questions" type="conceptual-questions">
     <title>Conceptual Questions</title>
 
@@ -363,11 +363,11 @@
     </problem></exercise>
 
       <exercise id="fs-id1169738162964" type="problems-exercises"><problem id="fs-id1169736994002">
-          <para id="import-auto-id1169737965301">Verify that the units of <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ΔΦ} {}</m:annotation></m:semantics></m:math>/ <m:math><m:semantics><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{Δt} {}</m:annotation></m:semantics></m:math> are volts. That is, show that <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mrow><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1 V</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{1`T cdot m rSup { size 8{2} } /s=1`V} {}</m:annotation></m:semantics></m:math>.</para></problem></exercise><exercise id="fs-id1169738145077" type="problems-exercises">
+          <para id="import-auto-id1169737965301">Verify that the units of <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">Φ</m:mi></m:mrow></m:mrow></m:math>/ <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi fontstyle="italic">t</m:mi></m:mrow></m:mrow></m:math> are volts. That is, show that <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mspace width="0.25em"/><m:mrow><m:mrow><m:mrow><m:mtext>T</m:mtext><m:mo stretchy="false">⋅</m:mo><m:msup><m:mtext>m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">/</m:mo><m:mtext>s</m:mtext></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>1 V</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para></problem></exercise><exercise id="fs-id1169738145077" type="problems-exercises">
         <problem id="fs-id1169738164160">
           <para id="import-auto-id1169738110631">Suppose a 50-turn coil lies in the plane of the page in a uniform magnetic field that is directed into the page. The coil originally has an area of
 <m:math>
- <m:semantics>
+ 
   <m:mrow>
     <m:mn>0.250</m:mn><m:mspace width="0.25em"/>
    <m:msup>
@@ -375,7 +375,7 @@
     <m:mtext>2</m:mtext>
    </m:msup>
   </m:mrow>
- </m:semantics>
+ 
 </m:math>.
  It is stretched to have no area in 0.100 s. What is the direction and magnitude of the induced emf if the uniform magnetic field has a strength of 1.50 T?</para></problem></exercise>
 
@@ -391,8 +391,8 @@
       <exercise id="fs-id1169738045244" type="problems-exercises">
         <problem id="fs-id1169737966038">
           <para id="import-auto-id1169737820562"><title>Integrated Concepts</title> </para>
-    <para id="eip-739">Referring to the situation in the previous problem: (a) What current is induced in the ring if its resistance is 0.0100 <m:math><m:semantics><m:mrow><m:mrow><m:mo stretchy="false">Ω</m:mo></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ %OMEGA } {}</m:annotation></m:semantics></m:math>? (b) What average power is dissipated? (c) What magnetic field is induced at the center of the ring? (d) What is the direction of the induced magnetic field relative to the MRI’s field?</para></problem></exercise>
-    <exercise id="fs-id1169738060612"><problem id="fs-id1169738060613"><para id="import-auto-id1169738036172">An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "00" times "10" rSup { size 8{ - 5} } `T} {}</m:annotation></m:semantics></m:math> magnetic field. What average emf is induced, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?</para></problem>
+    <para id="eip-739">Referring to the situation in the previous problem: (a) What current is induced in the ring if its resistance is 0.0100 <m:math><m:mrow><m:mrow><m:mo stretchy="false">Ω</m:mo></m:mrow><m:mrow/></m:mrow></m:math>? (b) What average power is dissipated? (c) What magnetic field is induced at the center of the ring? (d) What is the direction of the induced magnetic field relative to the MRI’s field?</para></problem></exercise>
+    <exercise id="fs-id1169738060612"><problem id="fs-id1169738060613"><para id="import-auto-id1169738036172">An emf is induced by rotating a 1000-turn, 20.0 cm diameter coil in the Earth’s <m:math><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>T</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> magnetic field. What average emf is induced, given the plane of the coil is originally perpendicular to the Earth’s field and is rotated to be parallel to the field in 10.0 ms?</para></problem>
 <solution id="fs-id1169736655375">
     <para id="import-auto-id1169737718755">0.157 V</para>
     </solution>
@@ -408,24 +408,24 @@
           <para id="import-auto-id1169738251802"><title>Integrated Concepts</title> </para>
     <para id="eip-977">Approximately how does the emf induced in the loop in <link target-id="import-auto-id1169736838607"/>(b) depend on the distance of the center of the loop from the wire?</para></problem>
 <solution id="fs-id1169737998370">
-    <para id="import-auto-id1169738250276">proportional to <m:math><m:semantics><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext> r</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ {  {1}  over  { ital " r"} } } {}</m:annotation></m:semantics></m:math></para>
+    <para id="import-auto-id1169738250276">proportional to <m:math><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mstyle fontstyle="italic"><m:mrow><m:mtext> r</m:mtext></m:mrow></m:mstyle></m:mfrac></m:mrow><m:mrow/></m:mrow></m:math></para>
     </solution>
     </exercise>
 
       <exercise id="fs-id1169737739858" type="problems-exercises">
         <problem id="fs-id1169737780734">
           <para id="import-auto-id1169737754442"><title>Integrated Concepts</title> </para>
-    <para id="eip-667">(a) A lightning bolt produces a rapidly varying magnetic field. If the bolt strikes the earth vertically and acts like a current in a long straight wire, it will induce a voltage in a loop aligned like that in <link target-id="import-auto-id1169736838607"/>(b). What voltage is induced in a 1.00 m diameter loop 50.0 m from a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{2 "." "00" times "10" rSup { size 8{6} } `A} {}</m:annotation></m:semantics></m:math> lightning strike, if the current falls to zero in
+    <para id="eip-667">(a) A lightning bolt produces a rapidly varying magnetic field. If the bolt strikes the earth vertically and acts like a current in a long straight wire, it will induce a voltage in a loop aligned like that in <link target-id="import-auto-id1169736838607"/>(b). What voltage is induced in a 1.00 m diameter loop 50.0 m from a <m:math><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>00</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>A</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> lightning strike, if the current falls to zero in
 <m:math>
- <m:semantics>
+ 
   <m:mi>25.0 μs</m:mi>
- </m:semantics>
+ 
 </m:math>?
 (b) Discuss circumstances under which such a voltage would produce noticeable consequences.</para></problem></exercise>
     </section> </content>
   <glossary>
     <definition id="import-auto-id1169738011926"><term>Faraday’s law of induction</term> <meaning id="fs-id1169738080367">the means of calculating the emf in a coil due to changing magnetic flux, given by <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -445,8 +445,8 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{"emf"= - N {  {ΔΦ}  over  {Δt} } } {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>
     </meaning></definition>
     <definition id="import-auto-id1169738198396"><term>Lenz’s law</term> <meaning id="fs-id1169737812264">the minus sign in Faraday’s law, signifying that the emf induced in a coil opposes the change in magnetic flux</meaning></definition>

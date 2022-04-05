@@ -18,9 +18,9 @@
         <image mime-type="image/jpg" src="../../media/Figure_02_02_00.jpg" width="300"/>
       </media>
 
-    <caption>The motion of this Eclipse Concept jet can be described in terms of the distance it has traveled (a scalar quantity) or its displacement in a specific direction (a vector quantity). In order to specify the direction of motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the <m:math><m:semantics><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{x} {}</m:annotation></m:semantics></m:math>-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)</caption></figure><para id="import-auto-id1731308">What is the difference between distance and displacement? Whereas displacement is defined by both direction and magnitude, distance is defined only by magnitude. Displacement is an example of a vector quantity. Distance is an example of a scalar quantity. A <term id="import-auto-id1738434">vector</term> is any quantity with both <emphasis effect="italics">magnitude and direction</emphasis>. Other examples of vectors include a velocity of 90 km/h east and a force of 500 newtons straight down. </para>
+    <caption>The motion of this Eclipse Concept jet can be described in terms of the distance it has traveled (a scalar quantity) or its displacement in a specific direction (a vector quantity). In order to specify the direction of motion, its displacement must be described based on a coordinate system. In this case, it may be convenient to choose motion toward the left as positive motion (it is the forward direction for the plane), although in many cases, the <m:math><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:math>-coordinate runs from left to right, with motion to the right as positive and motion to the left as negative. (credit: Armchair Aviator, Flickr)</caption></figure><para id="import-auto-id1731308">What is the difference between distance and displacement? Whereas displacement is defined by both direction and magnitude, distance is defined only by magnitude. Displacement is an example of a vector quantity. Distance is an example of a scalar quantity. A <term id="import-auto-id1738434">vector</term> is any quantity with both <emphasis effect="italics">magnitude and direction</emphasis>. Other examples of vectors include a velocity of 90 km/h east and a force of 500 newtons straight down. </para>
     <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id952090">The direction of a vector in one-dimensional motion is given simply by a plus <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -31,9 +31,9 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ \( + \) } {}</m:annotation>
-        </m:semantics>
-      </m:math> or minus <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{ \(  -  \) } {}</m:annotation></m:semantics></m:math> sign. Vectors are represented graphically by arrows. An arrow used to represent a vector has a length proportional to the vector’s magnitude (e.g., the larger the magnitude, the longer the length of the vector) and points in the same direction as the vector.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1354682">Some physical quantities, like distance, either have no direction or none is specified. A <term id="import-auto-id1759638">scalar</term> is any quantity that has a magnitude, but no direction. For example, a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20ºC</m:mtext></m:mrow></m:mrow></m:mrow></m:semantics></m:math> temperature, the 250 kilocalories (250 Calories) of energy in a candy bar, a 90 km/h speed limit, a person’s 1.8 m height, and a distance of 2.0 m are all scalars—quantities with no specified direction. Note, however, that a scalar can be negative, such as a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>20ºC</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:semantics></m:math> temperature. In this case, the minus sign indicates a point on a scale rather than a direction. Scalars are never represented by arrows.</para><section id="fs-id1655694">
+          
+        
+      </m:math> or minus <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> sign. Vectors are represented graphically by arrows. An arrow used to represent a vector has a length proportional to the vector’s magnitude (e.g., the larger the magnitude, the longer the length of the vector) and points in the same direction as the vector.</para><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1354682">Some physical quantities, like distance, either have no direction or none is specified. A <term id="import-auto-id1759638">scalar</term> is any quantity that has a magnitude, but no direction. For example, a <m:math><m:mrow><m:mrow><m:mrow><m:mtext>20ºC</m:mtext></m:mrow></m:mrow></m:mrow></m:math> temperature, the 250 kilocalories (250 Calories) of energy in a candy bar, a 90 km/h speed limit, a person’s 1.8 m height, and a distance of 2.0 m are all scalars—quantities with no specified direction. Note, however, that a scalar can be negative, such as a <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>20ºC</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> temperature. In this case, the minus sign indicates a point on a scale rather than a direction. Scalars are never represented by arrows.</para><section id="fs-id1655694">
 <title>Coordinate Systems for One-Dimensional Motion</title>
 
     <para id="import-auto-id1789071">In order to describe the direction of a vector quantity, you must designate a coordinate system within the reference frame. For one-dimensional motion, this is a simple coordinate system consisting of a one-dimensional coordinate line. In general, when describing horizontal motion, motion to the right is usually considered positive, and motion to the left is considered negative. With vertical motion, motion up is usually positive and motion down is negative. In some cases, however, as with the jet in <link target-id="import-auto-id1778274"/>, it can be more convenient to switch the positive and negative directions. For example, if you are analyzing the motion of falling objects, it can be useful to define downwards as the positive direction. If people in a race are running to the left, it is useful to define left as the positive direction. It does not matter as long as the system is clear and consistent. Once you assign a positive direction and start solving a problem, you cannot change it.</para><figure xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1758074"><media id="import-auto-id1760648" alt="An x y coordinate system. An arrow pointing toward the right shows the positive x direction. Negative x is toward the left. An arrow pointing up shows the positive y direction. Negative y points downward.">
@@ -41,7 +41,7 @@
         </media>
 
       <caption>It is usually convenient to consider motion upward or to the right as positive <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -52,9 +52,9 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ \( + \) } {}</m:annotation>
-        </m:semantics>
-      </m:math> and motion downward or to the left as negative <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>.</caption></figure>
+          
+        
+      </m:math> and motion downward or to the left as negative <m:math><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">(</m:mo><m:mo stretchy="false">−</m:mo><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow></m:mrow></m:math>.</caption></figure>
       <exercise id="fs-id1788025" type="check-understanding"><label/><title>Check Your Understanding</title>
 <problem id="fs-id1765357">
     <para id="import-auto-id1731331">A person’s speed can stay the same as he or she rounds a corner and changes direction. Given this information, is speed a scalar or a vector quantity? Explain.</para>
@@ -85,7 +85,7 @@
     <exercise id="fs-id1364975" type="conceptual-questions"><problem id="fs-id1770280">
 <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1730117">A student writes, “<emphasis effect="italics">A bird that is diving for prey has a speed of</emphasis>
  <m:math>
-        <m:semantics>
+        
           <m:mrow>
             <m:mrow>
               <m:mrow>
@@ -103,8 +103,8 @@
             </m:mrow>
             <m:mrow/>
           </m:mrow>
-          <m:annotation encoding="StarMath 5.0"> size 12{ - "10"m/s} {}</m:annotation>
-        </m:semantics>
+          
+        
       </m:math>.” What is wrong with the student’s statement? What has the student actually described? Explain. </para></problem></exercise>
     <exercise id="fs-id1773292" type="conceptual-questions"><problem id="fs-id1706742">
 <para id="import-auto-id1768462">What is the speed of the bird in <link target-id="fs-id1364975"/>?</para></problem></exercise>
@@ -112,7 +112,7 @@
 <para id="import-auto-id1655589">Acceleration is the change in velocity over time. Given this information, is acceleration a vector or a scalar quantity? Explain. </para>
     </problem></exercise>
     <exercise id="fs-id1548043" type="conceptual-questions"><problem id="fs-id1778185">
-<para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1611951">A weather forecast states that the temperature is predicted to be <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5ºC</m:mn></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> the following day. Is this temperature a vector or a scalar quantity? Explain. </para></problem></exercise>
+<para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1611951">A weather forecast states that the temperature is predicted to be <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>5ºC</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:math> the following day. Is this temperature a vector or a scalar quantity? Explain. </para></problem></exercise>
     </section>
     
    </content>
