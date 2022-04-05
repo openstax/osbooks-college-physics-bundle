@@ -3,12 +3,12 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42121</md:content-id>
   <md:title>Approximation</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>eb75b532-91ca-4c3d-b803-db329981914a</md:uuid>
 </metadata>
 
-<content>  <section class="learning-objectives"><title>Learning Objectives</title>
-  <para>By the end of this section, you will be able to:</para>
+<content>  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+  <para id="para-00001">By the end of this section, you will be able to:</para>
   <list id="list-00001">
 <item>Make reasonable approximations based on given data.</item>
 </list>
@@ -36,9 +36,7 @@
             <m:mrow>
               <m:mtable columnalign="left">
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mtext>volume of stack</m:mtext>
                           <m:mo stretchy="false">=</m:mo>
@@ -55,12 +53,9 @@
                       </m:mrow>
 
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mrow>
                             <m:mtext>volume of stack</m:mtext>
@@ -85,12 +80,9 @@
                       </m:mrow>
 
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mrow>
                             <m:mtext>volume of stack</m:mtext>
@@ -110,8 +102,7 @@
                       </m:mrow>
 
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
               </m:mtable>            </m:mrow>
           </m:mrow>
       </m:math>
@@ -172,9 +163,7 @@
             <m:mrow>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mrow>
                             <m:mrow>
@@ -256,11 +245,9 @@
                       </m:mrow>
 
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-                    <m:mrow>
+                  <m:mtd><m:mrow>
                       <m:mtext>Area</m:mtext>
                       <m:mo stretchy="false">≈</m:mo>
                       <m:mrow>
@@ -288,8 +275,7 @@
                     </m:msup>
                     <m:mtext>.</m:mtext>
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
               </m:mtable>            </m:mrow>
           </m:mrow>
       </m:math>

@@ -338,7 +338,7 @@
     </equation><para id="import-auto-id1220211">so that</para>
     <equation id="eip-196"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>τ</m:mi><m:mo stretchy="false">=</m:mo><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mi>F</m:mi></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow></m:math></equation>
     </item>
-        <item id="import-auto-id2658945">The perpendicular lever arm <m:math><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo><m:mrow><m:mrow/></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is the shortest distance from the pivot point to the line along which <m:math><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow></m:mrow></m:math> acts. The SI unit for torque is newton-meter <m:math><m:mrow><m:mtext>(N·m)</m:mtext></m:mrow></m:math>. The second condition necessary to achieve equilibrium is that the net external torque on a system must be zero:
+        <item id="import-auto-id2658945">The perpendicular lever arm <m:math><m:mrow><m:mrow><m:msub><m:mi>r</m:mi><m:mo>⊥</m:mo></m:msub></m:mrow><m:mrow/></m:mrow></m:math> is the shortest distance from the pivot point to the line along which <m:math><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow></m:mrow></m:math> acts. The SI unit for torque is newton-meter <m:math><m:mrow><m:mtext>(N·m)</m:mtext></m:mrow></m:math>. The second condition necessary to achieve equilibrium is that the net external torque on a system must be zero:
     <equation id="eip-28"><m:math>
         
           <m:mrow>
@@ -434,9 +434,7 @@
             <m:mrow>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mtext>net </m:mtext><m:mspace width="0.25em"/>
                           <m:mrow>
@@ -462,11 +460,9 @@
                           </m:msub>
                         </m:mrow>
                       </m:mrow>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-                    <m:mo stretchy="false">⇒</m:mo>
+                  <m:mtd><m:mo stretchy="false">⇒</m:mo>
                     <m:msub>
                       <m:mi>w</m:mi>
 
@@ -525,11 +521,9 @@
 
                     </m:msub>
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow/>
-                </m:mtr>
+                  <m:mtd/></m:mtr>
               </m:mtable>            </m:mrow>
           </m:mrow>
       </m:math>
@@ -581,9 +575,7 @@
             <m:mrow>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mtext>net </m:mtext><m:mspace width="0.25em"/>
                           <m:mrow>
@@ -638,11 +630,9 @@
                         </m:mrow>
                       </m:mrow>
 
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-                    <m:mo stretchy="false">⇒</m:mo>
+                  <m:mtd><m:mo stretchy="false">⇒</m:mo>
                     <m:mrow>
                       <m:msub>
                         <m:mi>F</m:mi>
@@ -684,8 +674,7 @@
                         </m:msub>
                       </m:mrow>
                     </m:mrow>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
               </m:mtable>
             </m:mrow>
           </m:mrow>

@@ -218,8 +218,7 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
               <m:mtable>
   <!-- 7.56 kg -->
   <m:mtr>
-    <m:mrow>
-<m:mphantom>
+    <m:mtd><m:mphantom>
 <m:mo stretchy="false">+</m:mo>
 <m:mn>1</m:mn>
 </m:mphantom>
@@ -236,13 +235,11 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
       <m:mtext>kg</m:mtext>
       <m:mtext>.</m:mtext>
 </m:mphantom>
-    </m:mrow>
-  </m:mtr>
+    </m:mtd></m:mtr>
 
   <!-- &#8212;6.052 kg -->
   <m:mtr>
-    <m:mrow>
-          <m:mo>-</m:mo>
+    <m:mtd><m:mo>-</m:mo>
 <m:mphantom>
 <m:mn>1</m:mn>
 </m:mphantom>
@@ -256,12 +253,10 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
       <m:mtext>kg</m:mtext>
       <m:mtext>.</m:mtext>
 </m:mphantom>
-    </m:mrow>
-  </m:mtr>
+    </m:mtd></m:mtr>
   <!-- +13.7 kg / 15.208 kg = 15.2 kg -->
   <m:mtr>
-    <m:mrow>
-      <m:mfrac>
+    <m:mtd><m:mfrac>
         <m:mrow>
           <m:mo stretchy="false">+</m:mo>
           <m:mn>13.7</m:mn>
@@ -284,8 +279,7 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
       <m:mn>15.2</m:mn>
       <m:mspace width="0.25em"/>
       <m:mtext>kg.</m:mtext>
-    </m:mrow>
-  </m:mtr>
+    </m:mtd></m:mtr>
               </m:mtable>
             </m:mrow>
           </m:mrow>

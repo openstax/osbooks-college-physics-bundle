@@ -372,9 +372,7 @@
             <m:mrow>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mi>d</m:mi>
                           <m:mrow>
@@ -426,11 +424,9 @@
                         </m:mrow>
                       </m:mrow>
 
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-                    <m:mi>d</m:mi>
+                  <m:mtd><m:mi>d</m:mi>
                     <m:mrow>
                       <m:mfenced open="(" close=")">
                         <m:mrow>
@@ -460,11 +456,9 @@
                       <m:mo stretchy="false">=</m:mo>
                       <m:mi>λ</m:mi>
                     </m:mrow>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-                    <m:mtext>tan</m:mtext>
+                  <m:mtd><m:mtext>tan</m:mtext>
                     <m:mrow>
                       <m:mrow><m:mspace width="0.25em"/>
                         <m:msub>
@@ -533,11 +527,9 @@
                       <m:mo stretchy="false">=</m:mo>
                       <m:mi>λ</m:mi>
                     </m:mrow>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
                 <m:mtr>
-                  <m:mrow>
-                    <m:mi>d</m:mi>
+                  <m:mtd><m:mi>d</m:mi>
                     <m:mrow>
                       <m:mfrac><m:mrow><m:mn>Δ</m:mn>
                         <m:mi fontstyle="italic">y</m:mi></m:mrow>
@@ -558,8 +550,7 @@
                       </m:mrow>
 
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
               </m:mtable>            </m:mrow>
           </m:mrow>
       </m:math>

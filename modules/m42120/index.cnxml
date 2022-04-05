@@ -3,13 +3,13 @@
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42120</md:content-id>
   <md:title>Accuracy, Precision, and Significant Figures</md:title>
-  <md:abstract></md:abstract>
+  <md:abstract/>
   <md:uuid>4bba6a1c-a0e6-45c0-988c-0d5c23425670</md:uuid>
 </metadata>
 
 <content>
-  <section class="learning-objectives"><title>Learning Objectives</title>
-    <para>By the end of this section, you will be able to:</para>
+  <section class="learning-objectives" id="sect-00001"><title>Learning Objectives</title>
+    <para id="para-00001">By the end of this section, you will be able to:</para>
     <list id="list-00001">
 <item>Determine the appropriate number of significant figures in both addition and subtraction, as well as multiplication and division calculations.
 </item>
@@ -214,8 +214,7 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
               <m:mtable>
   <!-- 7.56 kg -->
   <m:mtr>
-    <m:mrow>
-<m:mphantom>
+    <m:mtd><m:mphantom>
 <m:mo stretchy="false">+</m:mo>
 <m:mn>1</m:mn>
 </m:mphantom>
@@ -232,13 +231,11 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
       <m:mtext>kg</m:mtext>
       <m:mtext>.</m:mtext>
 </m:mphantom>
-    </m:mrow>
-  </m:mtr>
+    </m:mtd></m:mtr>
 
   <!-- -6.052 kg -->
   <m:mtr>
-    <m:mrow>
-          <m:mo stretchy="false">-</m:mo>
+    <m:mtd><m:mo stretchy="false">-</m:mo>
 <m:mphantom>
 <m:mn>1</m:mn>
 </m:mphantom>
@@ -252,12 +249,10 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
       <m:mtext>kg</m:mtext>
       <m:mtext>.</m:mtext>
 </m:mphantom>
-    </m:mrow>
-  </m:mtr>
+    </m:mtd></m:mtr>
   <!-- +13.7 kg / 15.208 kg = 15.2 kg -->
   <m:mtr>
-    <m:mrow>
-      <m:mfrac>
+    <m:mtd><m:mfrac>
         <m:mrow>
           <m:mo stretchy="false">+</m:mo>
           <m:mn>13.7</m:mn>
@@ -281,8 +276,7 @@ We can conclude that the weight of the apple bag is <m:math><m:mrow><m:mrow><m:m
       <m:mspace width="0.25em"/>
       <m:mtext>kg</m:mtext>
       <m:mtext>.</m:mtext>
-    </m:mrow>
-  </m:mtr>
+    </m:mtd></m:mtr>
               </m:mtable>
             </m:mrow>
           </m:mrow>

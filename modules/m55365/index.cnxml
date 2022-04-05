@@ -1034,7 +1034,7 @@
       <para id="import-auto-id1352159">Show that if two resistors <m:math><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> are combined and one is much greater than the other (<m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext>>></m:mtext><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>): (a) Their series resistance is very nearly equal to the greater resistance <m:math><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>. (b) Their parallel resistance is very nearly equal to smaller resistance <m:math><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>.</para>
     </problem>
 <solution id="fs-id3181635">
-    <para id="import-auto-id3018314">(a) <m:math><m:mrow><m:mrow><m:mtable><m:mtr><m:mrow><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mrow></m:mtr><m:mtr><m:mrow><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mspace width="0.25em"/><m:mi>≈</m:mi><m:mspace width="0.25em"/><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext>>></m:mtext><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfenced><m:mrow/></m:mrow></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:math></para>
+    <para id="import-auto-id3018314">(a) <m:math><m:mrow><m:mrow><m:mtable><m:mtr><m:mtd><m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mrow/></m:mtd></m:mtr><m:mtr><m:mtd><m:mo stretchy="false">⇒</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>s</m:mtext></m:mrow></m:msub><m:mspace width="0.25em"/><m:mi>≈</m:mi><m:mspace width="0.25em"/><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mfenced open="(" close=")"><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mtext>>></m:mtext><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfenced><m:mrow/></m:mtd></m:mtr></m:mtable><m:mrow/></m:mrow></m:mrow></m:math></para>
     <para id="import-auto-id2449704">(b) <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>R</m:mi><m:mrow><m:mn>p</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">=</m:mo><m:mrow><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub></m:mfrac><m:mo stretchy="false">+</m:mo><m:mfrac><m:mn>1</m:mn><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mfrac></m:mrow></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow><m:mrow><m:msub><m:mi>R</m:mi><m:mrow><m:mn>1</m:mn></m:mrow></m:msub><m:msub><m:mi>R</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mfrac></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>,</para><para id="import-auto-id2617240">so that</para>
     <para id="import-auto-id3398124"><m:math>
         
@@ -1042,9 +1042,7 @@
             <m:mrow>
               <m:mtable>
                 <m:mtr>
-                  <m:mrow>
-
-                      <m:mrow>
+                  <m:mtd><m:mrow>
                         <m:mrow>
                           <m:mrow>
                             <m:msub>
@@ -1158,8 +1156,7 @@
                     </m:mfenced>
                     <m:mtext>.</m:mtext>
                     <m:mrow/>
-                  </m:mrow>
-                </m:mtr>
+                  </m:mtd></m:mtr>
               </m:mtable>            </m:mrow>
           </m:mrow>
       </m:math>
