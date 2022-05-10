@@ -1073,7 +1073,7 @@
     <para id="import-auto-id1595008">The first thing to do is to list the units that you have and the units that you want to convert to. In this case, we have units in <emphasis effect="italics">meters</emphasis> and we want to convert to <emphasis effect="italics">kilometers</emphasis>.</para>
     <para id="import-auto-id3083046">Next, we need to determine a <term id="import-auto-id2657858">conversion factor</term> relating meters to kilometers. A conversion factor is a ratio expressing how many of one unit are equal to another unit. For example, there are 12 inches in 1 foot, 100 centimeters in 1 meter, 60 seconds in 1 minute, and so on. In this case, we know that there are 1,000 meters in 1 kilometer.</para>
     <para id="import-auto-id2675967">Now we can set up our unit conversion. We will write the units that we have and then multiply them by the conversion factor so that the units cancel out, as shown:</para>
-    <equation id="eip-442"><m:math><m:mrow><m:mrow><m:mrow><m:mn>80</m:mn> <m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose><m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:mfrac><m:mtext>1 km</m:mtext><m:mrow><m:mn>1000</m:mn><m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.080 km.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id3150430">Note that the unwanted m unit cancels, leaving only the desired km unit. You can use this method to convert between any types of unit.</para>
+    <equation id="eip-442"><m:math><m:mrow><m:mrow><m:mrow><m:mn>80</m:mn> <m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose><m:mrow><m:mrow><m:mo stretchy="false">×</m:mo><m:mfrac><m:mtext>1 km</m:mtext><m:mrow><m:mn>1000</m:mn><m:menclose notation="updiagonalstrike"><m:mtext>m</m:mtext></m:menclose></m:mrow></m:mfrac></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.080 km.</m:mtext></m:mrow></m:mrow></m:mrow></m:math></equation><para id="import-auto-id3150430">Note that the unwanted m unit cancels, leaving only the desired km unit. You can use this method to convert between any types of unit.</para>
     <para id="import-auto-id2635975">Click <link document="m42720">Appendix C</link> for a more complete list of conversion factors.</para><table id="import-auto-id1677589" summary="A table is listing approximate values of length, mass, and time with each row containing an example of these."><title>Approximate Values of Length, Mass, and Time</title>
 <tgroup cols="6"><colspec colnum="1" colname="c1"/>
         <colspec colnum="2" colname="c2"/>
@@ -1143,7 +1143,7 @@
             </entry>
             <entry>Mass of an electron <m:math>
 <m:mfenced open="(" close=")">
-<m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>11</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>31</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:math></entry>
+<m:mrow><m:mrow><m:mrow><m:mn>9</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>11</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>31</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow></m:mrow></m:mfenced></m:math></entry>
             <entry>
               <m:math display="block">
                 
@@ -1221,7 +1221,7 @@
                 
               </m:math>
             </entry>
-            <entry>Mass of a hydrogen atom <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>67</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>27</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:math> </entry>
+            <entry>Mass of a hydrogen atom <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>67</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mtext>27</m:mtext></m:mrow></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow></m:mrow></m:mfenced></m:math> </entry>
             <entry>
               <m:math display="block">
                 
@@ -1649,7 +1649,7 @@
                 
               </m:math>
             </entry>
-            <entry>One day <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>64</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:math></entry>
+            <entry>One day <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>8</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>64</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:mfenced></m:math></entry>
           </row>
           <row>
             <entry>
@@ -1720,7 +1720,7 @@
                 
               </m:math>
             </entry>
-            <entry>One year (y) <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>16</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:math></entry>
+            <entry>One year (y) <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>16</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>7</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>s</m:mtext></m:mrow></m:mrow></m:mrow></m:mfenced></m:math></entry>
           </row>
           <row>
             <entry>
@@ -1910,7 +1910,7 @@
                 
               </m:math>
             </entry>
-            <entry>Mass of the Moon <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>35</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:math></entry>
+            <entry>Mass of the Moon <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>35</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>22</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow></m:mrow></m:mfenced></m:math></entry>
             <entry>
               <m:math display="block">
                 
@@ -1981,7 +1981,7 @@
                 
               </m:math>
             </entry>
-            <entry>Mass of the Earth <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>97</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:math></entry>
+            <entry>Mass of the Earth <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>97</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow></m:mrow></m:mfenced></m:math></entry>
             <entry>
               <m:math display="block">
                 
@@ -2051,7 +2051,7 @@
                 
               </m:math>
             </entry>
-            <entry>Mass of the Sun <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>99</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:mfenced></m:math></entry>
+            <entry>Mass of the Sun <m:math><m:mfenced open="(" close=")"><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>99</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>30</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow></m:mrow></m:mfenced></m:math></entry>
             <entry/>
             <entry/>
           </row>
@@ -2252,15 +2252,15 @@
         </m:math>
       </item>
 <item>
- <m:math><m:mrow><m:mrow><m:mrow><m:mtext>62</m:mtext><m:mtext>.</m:mtext><m:mtext>1 mph</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>
+ <m:math><m:mrow><m:mrow><m:mrow><m:mtext>62</m:mtext><m:mtext>.</m:mtext><m:mtext>1 mph</m:mtext></m:mrow></m:mrow></m:mrow></m:math>
 </item>    </list>
 
     </solution>
     </exercise>
         <exercise id="fs-id1544895" type="problems-exercises"><problem id="fs-id1544896">
-    <para id="import-auto-id3146737">A car is traveling at a speed of <m:math><m:mrow><m:mrow><m:mrow><m:mtext>33 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. (a) What is its speed in kilometers per hour? (b) Is it exceeding the <m:math><m:mrow><m:mrow><m:mrow><m:mtext>90 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> speed limit?</para></problem></exercise>
+    <para id="import-auto-id3146737">A car is traveling at a speed of <m:math><m:mrow><m:mrow><m:mrow><m:mtext>33 m/s</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. (a) What is its speed in kilometers per hour? (b) Is it exceeding the <m:math><m:mrow><m:mrow><m:mrow><m:mtext>90 km/h</m:mtext></m:mrow></m:mrow></m:mrow></m:math> speed limit?</para></problem></exercise>
         <exercise id="fs-id1433050" type="problems-exercises"><problem id="fs-id1433051">
-    <para id="import-auto-id3195918">Show that <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mi/><m:mrow><m:mtext>0 m/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>. Hint: Show the explicit steps involved in converting <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mi/><m:mrow><m:mtext>0 m/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para></problem>
+    <para id="import-auto-id3195918">Show that <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mi/><m:mrow><m:mtext>0 m/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. Hint: Show the explicit steps involved in converting <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mi/><m:mrow><m:mtext>0 m/s</m:mtext><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h.</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para></problem>
     <solution id="fs-id1441485">
     <para id="import-auto-id1430228"><m:math>
         
@@ -2307,7 +2307,7 @@
           
         
       </m:math>
-    </para><para id="import-auto-id2629093"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para>
+    </para><para id="import-auto-id2629093"><m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:mn>3</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>6 km/h</m:mtext></m:mrow></m:mrow></m:mrow></m:math>.</para>
     </solution></exercise>
         <exercise id="fs-id1434985" type="problems-exercises"><problem id="fs-id1434986">
     <para id="import-auto-id3358370">American football is played on a 100-yd-long field, excluding the end zones. How long is the field in meters? (Assume that 1 meter equals 3.281 feet.)</para>
@@ -2316,7 +2316,7 @@
     <para id="import-auto-id1327449">Soccer fields vary in size. A large soccer field is 115 m long and 85 m wide. What are its dimensions in feet and inches? (Assume that 1 meter equals 3.281 feet.)</para>
     </problem>
     <solution id="fs-id1484623">
-    <para id="import-auto-id2559751">length: <m:math><m:mrow><m:mrow><m:mrow><m:mtext>377 ft</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>; <m:math><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>53</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mtext> in</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> width: <m:math><m:mrow><m:mrow><m:mrow><m:mtext>280 ft</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>; <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mtext> in</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math>.</para></solution>
+    <para id="import-auto-id2559751">length: <m:math><m:mrow><m:mrow><m:mrow><m:mtext>377 ft</m:mtext></m:mrow></m:mrow></m:mrow></m:math>; <m:math><m:mrow><m:mrow><m:mrow><m:mn>4</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>53</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mtext> in</m:mtext><m:mtext>.</m:mtext></m:mrow></m:mrow></m:mrow></m:math> width: <m:math><m:mrow><m:mrow><m:mrow><m:mtext>280 ft</m:mtext></m:mrow></m:mrow></m:mrow></m:math>; <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>3</m:mn></m:mrow></m:msup></m:mrow><m:mtext> in</m:mtext></m:mrow></m:mrow></m:mrow></m:math>.</para></solution>
     </exercise>
         <exercise id="fs-id3159821" type="problems-exercises"><problem id="fs-id3159822">
     <para id="import-auto-id2723769">What is the height in meters of a person who is 6 ft 1.0 in. tall? (Assume that 1 meter equals 39.37 in.)</para>
@@ -2346,13 +2346,13 @@
     </solution>
     </exercise>
         <exercise id="fs-id3158542" type="problems-exercises"><problem id="fs-id3158543">
-    <para id="import-auto-id2912855">The speed of sound is measured to be <m:math><m:mrow><m:mrow><m:mrow><m:mtext>342 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math> on a certain day. What is this in km/h?</para>
+    <para id="import-auto-id2912855">The speed of sound is measured to be <m:math><m:mrow><m:mrow><m:mrow><m:mtext>342 m/s</m:mtext></m:mrow></m:mrow></m:mrow></m:math> on a certain day. What is this in km/h?</para>
     </problem></exercise>
         <exercise id="fs-id3180898" type="problems-exercises"><problem id="fs-id3180900">
     <para id="import-auto-id3164687">Tectonic plates are large segments of the Earth’s crust that move slowly. Suppose that one such plate has an average speed of 4.0 cm/year. (a) What distance does it move in 1 s at this speed? (b) What is its speed in kilometers per million years?</para>
 </problem>
 <solution id="fs-id2637777">
-    <para id="import-auto-id1951052">(a) <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mtext> m</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para><para id="import-auto-id2632722">(b) <m:math><m:mrow><m:mrow><m:mrow><m:mtext>40 km/My</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow></m:math></para></solution></exercise>
+    <para id="import-auto-id1951052">(a) <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mn>3</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mtext> m</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para><para id="import-auto-id2632722">(b) <m:math><m:mrow><m:mrow><m:mrow><m:mtext>40 km/My</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para></solution></exercise>
         <exercise id="fs-id1564148" type="problems-exercises"><problem id="fs-id1564149">
     <para id="import-auto-id3143596">(a) Refer to <link target-id="import-auto-id1677589"/> to determine the average distance between the Earth and the Sun. Then calculate the average speed of the Earth in its orbit in kilometers per second. (b) What is this in meters per second?</para>
 </problem></exercise>
