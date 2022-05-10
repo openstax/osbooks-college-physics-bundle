@@ -1098,15 +1098,11 @@
     <item id="import-auto-id1168465538190">The saturation vapor density can be determined from the vapor pressure for a given temperature.</item>
     <item id="import-auto-id1168465538193">Percent relative humidity is defined to be
     <equation id="import-auto-id1168465538195">
-      <m:math>
-        
-          <m:mrow>
-            <m:mrow>
-              <m:mrow>
-                <m:mrow>
+      <m:math><m:mtable><m:mtr><m:mtd>
                   <m:mrow>
                     <m:mtext>percent relative humidity</m:mtext>
-                    <m:mo stretchy="false">=</m:mo>
+                    <m:mo stretchy="false">=</m:mo></m:mrow></m:mtd></m:mtr>
+                    <m:mtr><m:mtd>
                     <m:mrow>
                       <m:mfrac>
                         <m:mrow>
@@ -1118,16 +1114,8 @@
                       </m:mfrac>
                       <m:mo stretchy="false">×</m:mo>
                       <m:mtext>100</m:mtext>
-                    </m:mrow>
-                  </m:mrow>
                   <m:mtext>.</m:mtext>
-                </m:mrow>
-              </m:mrow>
-            </m:mrow>
-            <m:mrow/>
-          </m:mrow>
-          
-        
+                </m:mrow></m:mtd></m:mtr></m:mtable>
       </m:math>
     </equation></item>
     <item id="import-auto-id1168465551772">The dew point is the temperature at which air reaches 100% relative humidity.</item>
