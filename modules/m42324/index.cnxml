@@ -1012,9 +1012,7 @@ C
                 <m:mtr><m:mtd><m:mtext>1 eV</m:mtext></m:mtd>
 <m:mtd>                            <m:mo stretchy="false">=</m:mo></m:mtd>
 <m:mtd>
-                  <m:mrow>
-                      <m:mrow>
-                        <m:mrow>
+                 
                           <m:mfenced open="(" close=")">
                             <m:mrow>
                               <m:mn>1.60</m:mn>
@@ -1026,11 +1024,14 @@ C
                               <m:mtext> C</m:mtext>
                             </m:mrow>
                           </m:mfenced>
-                          <m:mrow>
                             <m:mfenced open="(" close=")">
                                 <m:mn>1 V</m:mn>
                             </m:mfenced>
+
                             <m:mo stretchy="false">=</m:mo>
+                          </m:mtd></m:mtr>
+                          <m:mtr><m:mtd/><m:mtd>
+
                             <m:mfenced open="(" close=")">
                               <m:mrow>
                                 <m:mn>1.60</m:mn>
@@ -1047,10 +1048,7 @@ C
                                 <m:mn>1 J/C</m:mn>
                               </m:mrow>
                             </m:mfenced>
-                          </m:mrow>
-                        </m:mrow>
-                      </m:mrow>
-                  </m:mrow></m:mtd>
+                       </m:mtd>
                 </m:mtr>
                 <m:mtr><m:mtd/>
 <m:mtd>
