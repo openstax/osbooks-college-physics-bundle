@@ -172,75 +172,7 @@
       </m:math>
     </equation></item>
     <item id="import-auto-id1848789">Calculate the frequency:
-    <equation id="eip-465"><m:math>
-        
-          <m:mrow>
-
-              <m:mrow>
-                <m:mrow>
-                  <m:mfrac>
-                    <m:mn>1</m:mn>
-                    <m:mn>2π</m:mn>
-                  </m:mfrac>
-                  <m:mrow>
-                    <m:msqrt>
-                      <m:mrow>
-                        <m:mtext>72.</m:mtext>
-                        <m:mrow>
-                          <m:mn>6</m:mn>
-                          <m:mo stretchy="false">/</m:mo>
-                          <m:msup>
-                            <m:mtext>s</m:mtext>
-
-                              <m:mrow>
-                                <m:mn>–2</m:mn>
-                              </m:mrow>
-
-                          </m:msup>
-                        </m:mrow>
-                      </m:mrow>
-                    </m:msqrt>
-                    <m:mo stretchy="false">=</m:mo>
-</m:mrow>
-<m:mn>1</m:mn>
-
-                  <m:mtext>.</m:mtext>
-                  <m:mrow>
-<m:msup>
-                    <m:mrow>
-                      <m:mtext>3656</m:mtext>
-                      <m:mo stretchy="false">/</m:mo>
-                      <m:mtext>s</m:mtext>
-                    </m:mrow>
-<m:mtext>–1</m:mtext>
-</m:msup>
-                    <m:mo stretchy="false">≈</m:mo>
-
-</m:mrow>
-                    <m:mn>1</m:mn>
-
-                  <m:mtext>.</m:mtext>
-                  <m:mrow>
-<m:msup>
-                    <m:mrow>
-                      <m:mtext>36</m:mtext>
-                      <m:mo stretchy="false">/</m:mo>
-                      <m:mtext>s</m:mtext>
-                    </m:mrow>
-<m:mtext>–1</m:mtext>
-</m:msup>
-                    <m:mo stretchy="false">=</m:mo>
-</m:mrow>
-                  <m:mtext>1.36 Hz</m:mtext>
-                </m:mrow>
-              </m:mrow>
-            <m:mo>.</m:mo>
-            <m:mrow/>
-          </m:mrow>
-          
-        
-      </m:math>
-    </equation></item>
+    <equation id="eip-465"><m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mrow><m:mn>2</m:mn><m:mi>π</m:mi></m:mrow></m:mfrac><m:msqrt><m:mrow><m:mn>72.6</m:mn><m:mo>/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>2</m:mn></m:msup></m:mrow></m:msqrt><m:mo>=</m:mo><m:mn>1.3656</m:mn><m:mo>/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>1</m:mn></m:msup><m:mo>≈</m:mo><m:mn>1.36</m:mn><m:mo>/</m:mo><m:msup><m:mtext>s</m:mtext><m:mn>1</m:mn></m:msup><m:mo>=</m:mo><m:mn>1.36</m:mn><m:mtext>Hz</m:mtext><m:mtext>.</m:mtext></m:mrow></m:math></equation></item>
     <item id="import-auto-id1411067">You could use <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mn>2π</m:mn></m:mrow><m:msqrt><m:mfrac><m:mi>m</m:mi><m:mi>k</m:mi></m:mfrac></m:msqrt></m:mrow></m:mrow></m:mrow></m:math> to calculate the period, but it is simpler to use the relationship <m:math><m:mrow><m:mrow><m:mrow><m:mi>T</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mn>1</m:mn><m:mo stretchy="false">/</m:mo><m:mi>f</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:math> and substitute the value just found for <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math>:
     <equation id="eip-207"><m:math>
         
@@ -381,18 +313,18 @@
     </exercise>
         <exercise id="fs-id2056612" type="check-understanding"><label/><title>Check Your Understanding</title>
         <problem id="fs-id3122227">
-            <para id="import-auto-id3149771">A babysitter is pushing a child on a swing. At the point where the swing reaches <m:math><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:math>, where would the corresponding point on a wave of this motion be located?</para></problem>
+            <para id="import-auto-id3149771">A babysitter is pushing a child on a swing. At the point where the swing reaches <m:math><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:math>, where would the corresponding point on a wave of this motion be located?</para></problem>
     <solution id="fs-id1362944" print-placement="here">
-        <para id="import-auto-id1447563"><m:math><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:math> is the maximum deformation, which corresponds to the amplitude of the wave. The point on the wave would either be at the very top or the very bottom of the curve.</para></solution>
+        <para id="import-auto-id1447563"><m:math><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:math> is the maximum deformation, which corresponds to the amplitude of the wave. The point on the wave would either be at the very top or the very bottom of the curve.</para></solution>
         </exercise>
         </section>
 
     <note id="eip-432" class="interactive"><label/><title>Masses and Springs</title>
-<para id="eip-idm370502160">A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.<newline/><figure id="eip-idm976094928">
+<para id="eip-idm370502160">A realistic mass and spring laboratory. Hang masses from springs and adjust the spring stiffness and damping. You can even slow time. Transport the lab to different planets. A chart shows the kinetic, potential, and thermal energy for each spring.<newline/>
 <media id="masses_springs" alt="Masses and Springs">
 <iframe width="660" height="371.4" src="https://openstax.org/l/02masses_springs"/>
 </media>
-</figure></para></note>
+</para></note>
 
 
 <section id="fs-id1170241052853" type="ap-test-prep" class="ap-test-prep">
