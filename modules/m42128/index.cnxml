@@ -177,7 +177,32 @@
           </m:mrow>
           
         
-      </m:math> of a vector from its perpendicular components <m:math><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>, relative to the <emphasis effect="italics">x</emphasis>-axis, we use the following relationships:</para><equation id="eip-109"><m:math><m:mrow><m:mrow><m:mrow><m:mi>A</m:mi><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msub><m:mi>A</m:mi><m:mrow><m:msup><m:mi>x</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>A</m:mi><m:mrow><m:msup><m:mi>y</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:msub></m:mrow></m:msqrt></m:mrow></m:mrow></m:mrow></m:math></equation>
+      </m:math> of a vector from its perpendicular components <m:math><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:msub><m:mi mathvariant="bold">A</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math>, relative to the <emphasis effect="italics">x</emphasis>-axis, we use the following relationships:</para>
+<equation id="eip-109"><m:math>
+ <m:mrow>
+  <m:mi>A</m:mi><m:mo>=</m:mo><m:msqrt>
+   <m:mrow>
+    <m:msub>
+     <m:mi>A</m:mi>
+     <m:mi>x</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>+</m:mo><m:msub>
+     <m:mi>A</m:mi>
+     <m:mi>y</m:mi>
+    </m:msub>
+    <m:msup>
+     <m:mrow/>
+     <m:mn>2</m:mn>
+    </m:msup>
+    </m:mrow>
+  </m:msqrt>
+  </m:mrow>
+</m:math>
+</equation>
 
     <equation id="eip-750"><m:math>
         
@@ -1123,13 +1148,14 @@ y
       </m:math>
     </equation><para id="import-auto-id1165296249538">and the rest of the method outlined above is identical to that for addition. (See <link target-id="import-auto-id1165298841604"/>.)</para>
     </example>
-    <para id="import-auto-id1165296249543">Analyzing vectors using perpendicular components is very useful in many areas of physics, because perpendicular quantities are often independent of one another. The next module, <link document="m42042">Projectile Motion</link>, is one of many in which using perpendicular components helps make the picture clear and simplifies the physics.</para><figure id="import-auto-id1165298841604"><media id="import-auto-id1165298841605" alt="In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.">
+    <para id="import-auto-id1165296249543">Analyzing vectors using perpendicular components is very useful in many areas of physics, because perpendicular quantities are often independent of one another. The next module, <link document="m42042">Projectile Motion</link>, is one of many in which using perpendicular components helps make the picture clear and simplifies the physics.</para>
+    <figure id="import-auto-id1165298841604"><media id="import-auto-id1165298841605" alt="In this figure, the subtraction of two vectors A and B is shown. A red colored vector A is inclined at an angle theta A to the positive of x axis. From the head of vector A a blue vector negative B is drawn. Vector B is in west of south direction. The resultant of the vector A and vector negative B is shown as a black vector R from the tail of vector A to the head of vector negative B. The resultant R is inclined to x axis at an angle theta below the x axis. The components of the vectors are also shown along the coordinate axes as dotted lines of their respective colors.">
         <image mime-type="image/jpg" src="../../media/Figure_03_03_10a.jpg" width="300"/>
       </media>
 
     <caption>The subtraction of the two vectors shown in <link target-id="import-auto-id1165298839640"/>. The components of <m:math><m:mrow><m:mrow><m:mtext mathvariant="bold">–B</m:mtext></m:mrow></m:mrow></m:math> are the negatives of the components of <m:math><m:mrow><m:mrow><m:mi mathvariant="bold">B</m:mi></m:mrow></m:mrow></m:math>. The method of subtraction is the same as that for addition.</caption></figure></section>
 <note id="eip-948" class="interactive"><title>Vector Addition</title>
-<para id="eip-id1169737855449"> Learn how to add vectors. Drag vectors onto a graph, change their length and angle, and sum them together. The magnitude, angle, and components of each vector can be displayed in several formats.
+<para id="eip-id1169737855449">Learn how to add vectors. Drag vectors onto a graph, change their length and angle, and sum them together. The magnitude, angle, and components of each vector can be displayed in several formats.
 <newline/><media id="fs-id1167066847646" alt="This simulation provides the tools to experiment with adding vectors graphically.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/28vectoradd/"/></media>
 </para>
@@ -1370,7 +1396,7 @@ y
 <m:math><m:mrow><m:mrow><m:mrow><m:mn>45.0º</m:mn></m:mrow></m:mrow></m:mrow></m:math> south of west, then 5.56 km at
 <m:math><m:mrow><m:mrow><m:mrow><m:mn>45.0º</m:mn></m:mrow></m:mrow></m:mrow></m:math> west of north</para></solution></exercise>
 <exercise id="eip-379" type="problems-exercises"><problem id="eip-201">
-  <para id="eip-222">A farmer wants to fence off his four-sided plot of flat land. He measures the first three sides, shown as <m:math>
+  <para id="eip-222">A farmer wants to fence off a four-sided plot of flat land. They measure the first three sides, shown as <m:math>
         
           <m:mrow>
 
@@ -1415,8 +1441,8 @@ y
           </m:mrow>
           
         
-      </m:math> in <link target-id="import-auto-id1165298543237"/>, and then correctly calculates the length and orientation of the fourth side <m:math><m:mrow><m:mrow><m:mi mathvariant="bold">D</m:mi></m:mrow></m:mrow></m:math>.
-  What is his result?</para>
+      </m:math> in <link target-id="import-auto-id1165298543237"/>, and then correctly calculate the length and orientation of the fourth side <m:math><m:mrow><m:mrow><m:mi mathvariant="bold">D</m:mi></m:mrow></m:mrow></m:math>.
+  What is their result?</para>
   <para id="eip-68"><figure id="import-auto-id1165298543237"><media id="import-auto-id1165298608985" alt="A quadrilateral with sides A, B, C, and D. A begins at the end of D and is 4 point seven zero kilometers  at an angle of 7 point 5 degrees south of west. B begins at the end of A and is 2 point four eight kilometers in a direction sixteen degrees west of north. C begins at the end of B and is 3 point zero 2 kilometers in a direction nineteen degrees north of west. D begins at the end of C and runs distance and direction that must be calculated"><image mime-type="image/wmf" src="../../media/Figure_03_03_12a-2f84.jpg"/></media></figure></para>
 </problem>
 </exercise><exercise id="fs-id1849688" type="problems-exercises"><problem id="fs-id1849689">
