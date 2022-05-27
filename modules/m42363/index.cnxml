@@ -227,9 +227,9 @@
 
     <note id="eip-450" class="interactive"><label/><title>Circuit Construction Kit (DC only)</title>
 <para id="eip-idm676814080">An electronics kit in your computer! Build circuits with resistors, light bulbs, batteries, and switches. Take measurements with the realistic ammeter and voltmeter. View the circuit as a schematic diagram, or switch to a life-like view.</para>
-<figure id="eip-idm1195599520"><media id="eip-idm415114672" alt="This simulation is electronics kit in your computer.">
+<media id="eip-idm415114672" alt="This simulation is electronics kit in your computer.">
 <iframe width="660" height="371.4" src="https://openstax.org/l/21cirphysbascur"/>
-</media></figure></note>
+</media></note>
 
 <section id="fs-id1552526" type="ap-test-prep" class="ap-test-prep">
   <title>Test Prep for AP Courses</title>
@@ -522,7 +522,13 @@
 <para id="eip-id1428011"> Consider a rechargeable lithium cell that is to be used to power a camcorder. Construct a problem in which you calculate the internal resistance of the cell during normal operation. Also, calculate the minimum voltage output of a battery charger to be used to recharge your lithium cell. Among the things to be considered are the emf and useful terminal voltage of a lithium cell and the current it should be able to supply to a camcorder.</para>
     </problem></exercise>
 
-</section>
+     <exercise id="exer-12347" type="problems-exercises"><problem id="prob-12456">
+  <para id="para-12348"><title>Critical Thinking</title></para>
+<para id="para-78963">A circuit has a voltage source producing
+   <m:math><m:mrow><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and a <m:math><m:mrow><m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mi>Ω</m:mi></m:mrow></m:math> resistor. (a) If the circuit contains nothing else, how much power is dissipated by the resistor? (b) A second <m:math><m:mrow><m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mi>Ω</m:mi></m:mrow></m:math> resistor is added in parallel to the first resistor. Now how much power is dissipated by the resistors? (c) Now place the two resistors in series. How much power is dissipated by the resistors? (d) Why would a parallel arrangement of resistors dissipate more power than a series arrangement of resistors of the same value? (e) Which delivers more energy in a given time period, the parallel combination of resistors, the series combination of resistors, or is the energy delivered in a given time period the same?</para>
+</problem>
+</exercise>
+  </section>
    </content>
 <glossary>
     <definition id="import-auto-id2616425"><term>RC circuit</term> <meaning id="fs-id3089555">a circuit that contains both a resistor and a capacitor</meaning></definition>
