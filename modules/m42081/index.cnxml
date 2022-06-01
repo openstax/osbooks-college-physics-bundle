@@ -1169,7 +1169,22 @@
       <exercise id="exer-86622" type="problem-exercises"><problem id="prob-84560">
         <para id="para-25412"><title>Critical Thinking</title></para>
         <para id="para-25442">Two spherical beads of the same mass fall at a constant speed due to a drag force. Bead A takes twice as long to fall the same distance as bead B. (a) Which of these beads has the larger radius? (b) Based on experimental data, an equation that fits the data is suggested for radius of a bead, <emphasis effect="italics">r</emphasis>, which may not be correct: <m:math><m:mrow><m:mi>r</m:mi><m:mo>=</m:mo><m:mi>K</m:mi><m:mi>t</m:mi><m:mo>−</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow></m:math>, where <emphasis effect="italics">K</emphasis> is a constant with appropriate units and <emphasis effect="italics">t</emphasis> is the time it takes for a bead to reach a determined distance. Is this equation consistent with your answer from part a? Explain why or why not. Does this equation make sense? Explain why or why not. (c) Beads of different radii are selected and the time it takes to fall a set distance is recorded. Graph the radius of these beads as a function of the time it takes to fall a determined distance.</para>
-</problem></exercise>
+</problem>
+<solution id="sol-00001">
+  <para id="para-00003">a. Bead A has the larger radius because both have the same weight and drag force. Since A takes longer to fall, its speed is less and, therefore, it must have larger area or radius.</para>
+  
+  <para id="para-00004">b. <list number-style="lower-roman" id="list-00002">
+  <item>This equation is not consistent because it shows that the bead that took longer to fall has a smaller radius.</item>
+  <item>It does not make sense, because <emphasis effect="italics">r</emphasis> is proportional to <emphasis effect="italics">t</emphasis>.</item>
+  </list></para>
+  
+  <para id="para-00005">c. <figure id="fig-00001">
+  <media alt="The figure is a plot of r as a function of t. The plot is a straight line through the origin with a positive slope.">
+  <image mime-type="image/jpg" src="../../media/OSX_CP2e_Figure_05_03Sol_CTQ01c.jpg" width="200"/>
+  </media>
+  </figure></para>
+  </solution>
+</exercise>
           </section>
      </content>
     <glossary>
