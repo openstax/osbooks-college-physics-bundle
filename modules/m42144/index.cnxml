@@ -1435,8 +1435,31 @@
       <exercise id="exer-86626" type="problem-exercises"><problem id="prob-84563">
         <para id="para-25422"><title>Critical Thinking</title></para>
         <para id="para-25448">A car travels around a loop with negligible friction at a constant speed and never loses contact with the loop. The top of the loop is labeled A and the bottom of the loop is labeled B. (a) At what point would the normal force be greatest? Briefly explain your reasoning. (b) Based on experimental data, an equation that fits the data is suggested for the normal force, <emphasis effect="italics">FN</emphasis>, which may not be correct: <m:math><m:mrow><m:msub><m:mi>F</m:mi><m:mi>N</m:mi></m:msub><m:mo>=</m:mo><m:mi>K</m:mi><m:msup><m:mi>r</m:mi><m:mrow><m:mn>1</m:mn><m:mo>/</m:mo><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:math>, where <emphasis effect="italics">K</emphasis> is a constant with appropriate units and <emphasis effect="italics">r</emphasis> is the radius of the loop. Is this equation consistent with your answer from part a? Explain why or why not. Does this equation make sense? Explain why or why not. (c) Now the car travels around loops of various radii and the speed at which the car barely makes it around the loop is measured. Graph that speed vs. the radius of the loop.</para>
-</problem></exercise>
-
+</problem>
+<solution id="sol-00001">
+  <para id="para-00002">a. The normal force is greatest at point B. At point A, the normal force and the weight are the net force; at point B, only the normal force points in the same direction as the net force.</para>
+    <para id="para-00003">b. <list number-style="lower-roman" id="list-00002">
+  <item>This is not consistent because a larger radius should decease the net force and tension, not increase it.</item>
+  <item>This does not make sense because <m:math>
+   <m:mrow>
+    <m:msub>
+     <m:mi>F</m:mi>
+     <m:mi>c</m:mi>
+    </m:msub>
+    <m:mo>=</m:mo><m:mi>m</m:mi><m:msup>
+     <m:mi>v</m:mi>
+     <m:mn>2</m:mn>
+    </m:msup>
+    <m:mo>/</m:mo><m:mi>r</m:mi></m:mrow>
+  </m:math>.</item>
+  </list></para>
+    <para id="para-00004">c. <figure id="fig-00001">
+  <media alt="The figure is a plot of v as a function of r. The function starts at the origin and increases monotonically, with decreasing slope.">
+  <image mime-type="image/jpg" src="../../media/OSX_CP2e_Figure_06_06Sol_CTQ01c.jpg" width="200"/>
+  </media>
+  </figure></para>
+  </solution>
+</exercise>
     </section>
    </content>
 </document>
