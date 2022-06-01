@@ -526,6 +526,205 @@
 <para id="para-78963">A circuit has a voltage source producing
    <m:math><m:mrow><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>2</m:mn></m:msup><m:mspace width="0.2em"/><m:mtext>V</m:mtext></m:mrow></m:math> and a <m:math><m:mrow><m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor. (a) If the circuit contains nothing else, how much power is dissipated by the resistor? (b) A second <m:math><m:mrow><m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mn>3</m:mn></m:msup><m:mtext>Ω</m:mtext></m:mrow></m:math> resistor is added in parallel to the first resistor. Now how much power is dissipated by the resistors? (c) Now place the two resistors in series. How much power is dissipated by the resistors? (d) Why would a parallel arrangement of resistors dissipate more power than a series arrangement of resistors of the same value? (e) Which delivers more energy in a given time period, the parallel combination of resistors, the series combination of resistors, or is the energy delivered in a given time period the same?</para>
 </problem>
+
+<solution id="sol-00001">
+  <para id="para-00002">a. <m:math>
+   <m:mrow>
+    <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mi>V</m:mi>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+     <m:mi>R</m:mi>
+    </m:mfrac>
+    <m:mo>=</m:mo><m:mfrac>
+     <m:mrow>
+      <m:msup>
+       <m:mrow>
+        <m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        <m:mo stretchy="false">)</m:mo></m:mrow>
+       <m:mn>2</m:mn>
+      </m:msup>
+      </m:mrow>
+     <m:mrow>
+      <m:mn>2.50</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mrow>
+        <m:mn>10</m:mn></m:mrow>
+       <m:mn>3</m:mn>
+      </m:msup>
+      </m:mrow>
+    </m:mfrac>
+    <m:mtext>w</m:mtext><m:mo>=</m:mo><m:mn>4.00</m:mn><m:mtext> W</m:mtext></m:mrow>
+  </m:math>
+  
+  
+  </para>
+  
+  <para id="para-00003">b. <m:math>
+   <m:mtable columnalign="left">
+    <m:mtr>
+     <m:mtd>
+      <m:mfrac>
+       <m:mn>1</m:mn>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mrow>
+          <m:mi>e</m:mi><m:mi>q</m:mi></m:mrow>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mn>2</m:mn>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        </m:mrow>
+      </m:mfrac>
+      
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mi>e</m:mi><m:mi>q</m:mi></m:mrow>
+      </m:msub>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msub>
+         <m:mi>R</m:mi>
+         <m:mn>1</m:mn>
+        </m:msub>
+        </m:mrow>
+       <m:mn>2</m:mn>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mn>1.25</m:mn><m:mo>×</m:mo><m:msup>
+       <m:mn>10</m:mn>
+       <m:mn>3</m:mn>
+      </m:msup>
+      <m:mi>Ω</m:mi>
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>V</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>R</m:mi>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo stretchy="false">)</m:mo></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>1.25</m:mn><m:mo>×</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mn>3</m:mn>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      <m:mtext> W</m:mtext><m:mo>=</m:mo><m:mn>8</m:mn><m:mtext>W</m:mtext>
+     </m:mtd>
+    </m:mtr>
+   </m:mtable>
+   
+  </m:math>
+  </para>
+  
+  <para id="para-00004">c. <m:math>
+   <m:mtable columnalign="left">
+    <m:mtr>
+     <m:mtd>
+      <m:msub>
+       <m:mi>R</m:mi>
+       <m:mrow>
+        <m:mi>e</m:mi><m:mi>q</m:mi></m:mrow>
+      </m:msub>
+      <m:mo>=</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      <m:mo>+</m:mo><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>2</m:mn>
+      </m:msub>
+      <m:mo>=</m:mo><m:mn>2</m:mn><m:msub>
+       <m:mi>R</m:mi>
+       <m:mn>1</m:mn>
+      </m:msub>
+      
+     </m:mtd>
+    </m:mtr>
+    <m:mtr>
+     <m:mtd>
+      <m:mi>P</m:mi><m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mi>V</m:mi>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mi>R</m:mi>
+      </m:mfrac>
+      <m:mo>=</m:mo><m:mfrac>
+       <m:mrow>
+        <m:msup>
+         <m:mrow>
+          <m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mn>2</m:mn>
+          </m:msup>
+          <m:mo stretchy="false">)</m:mo></m:mrow>
+         <m:mn>2</m:mn>
+        </m:msup>
+        </m:mrow>
+       <m:mrow>
+        <m:mn>5.00</m:mn><m:mo>×</m:mo><m:msup>
+         <m:mrow>
+          <m:mn>10</m:mn></m:mrow>
+         <m:mn>3</m:mn>
+        </m:msup>
+        </m:mrow>
+      </m:mfrac>
+      <m:mtext>W</m:mtext><m:mo>=</m:mo><m:mn>2</m:mn><m:mtext>W</m:mtext>
+     </m:mtd>
+    </m:mtr>
+   </m:mtable>
+   
+  </m:math>
+  </para>
+  <para id="para-00005">d. In the parallel case current passes through each branch, so more current is passed through the resistor system. In the series, the higher resistance of the circuit allows less current to flow. <m:math>
+   <m:mrow>
+    <m:mi>P</m:mi><m:mo>=</m:mo><m:mi>I</m:mi><m:mi>V</m:mi></m:mrow>
+  </m:math> is proportional to the current when the voltage does not change.</para>
+  <para id="para-00006">e. The parallel combination delivers more energy in a given time period.</para>
+  </solution>
+  
 </exercise>
   </section>
    </content>
