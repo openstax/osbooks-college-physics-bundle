@@ -377,6 +377,33 @@
 <problem id="prob-14158">
 <para id="para-89057"><title>Critical Thinking</title></para>
 <para id="para-89357">Two boxes of equal mass slide start from rest and slide with different horizontal applied forces across frictionless surfaces to reach the same distance away. Box A has a horizontal force of three times that of box B. (a) Which box is traveling faster at this distance away from the starting point? Briefly explain your reasoning. (b) Based on experimental data, an equation that fits the data is suggested for the final speed, <emphasis effect="italics">V</emphasis>, which may not be correct: <m:math><m:mrow><m:mi>V</m:mi><m:mo>=</m:mo><m:mi>K</m:mi><m:mi>F</m:mi></m:mrow></m:math>, where <emphasis effect="italics">K</emphasis> is a constant with appropriate units and <emphasis effect="italics">F</emphasis> is the horizontal applied force. Is this equation consistent with your answer from part a? Explain why or why not. Does this equation make sense? Explain why or why not. (c) Now the applied force can be any value and the distance from the starting point is measured when the speed gets to a consistent value. Graph the distance the box gets to at a given speed as a function of the applied force.</para></problem>
+
+<solution id="sol-00001">
+  <para id="para-00002">a. Box A travels faster at the finishing distance since a greater force with equal mass results in a greater acceleration. Also, a greater acceleration over the same distance results in a greater final speed.</para>
+  <para id="para-00003">b. <list number-style="lower-roman" id="list-00002">
+  <item>Yes, it is consistent because a greater force results in a greater final speed.</item>
+  <item>It does not make sense because
+  <m:math>
+   <m:mrow>
+    <m:mi>V</m:mi><m:mo>=</m:mo><m:msqrt>
+     <m:mrow>
+      <m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mi>f</m:mi><m:mo>/</m:mo><m:mi>m</m:mi><m:mo stretchy="false">)</m:mo><m:mi>x</m:mi></m:mrow>
+    </m:msqrt>
+    <m:mo>=</m:mo><m:mtext>K</m:mtext><m:msqrt>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mi>F</m:mi><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:msqrt>
+    </m:mrow>
+  </m:math></item>
+  </list></para>
+  
+  <para id="para-00004">c. <figure id="fig-00001">
+  <media alt="The figure is a plot of x as a function of F. The curve starts at a high value of x just to the right of the x axis and decreases in both value and slope, tending asymptotically to the F axis. Under the graph it is noted that x is proportional to 1 over F.">
+  <image mime-type="image/jpg" src="../../media/OSX_CP2e_Figure_04_08Sol_CTQ01c.jpg" width="200"/>
+  </media>
+  </figure></para>
+  
+  </solution>
 </exercise>
       </section>
  </content>
