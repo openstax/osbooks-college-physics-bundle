@@ -551,7 +551,543 @@ Consider identical spherical conducting space ships in deep space where gravitat
 <problem id="prob-45679">
 <para id="para-12466"><title>Critical Thinking</title></para>
 <para id="para-12467">A frictionless circular track with a diameter
-   of 4.00 m has two spheres of 10.0 kg each anchored very near it. The track is oriented with a diameter along the <emphasis effect="italics">x</emphasis>-axis. The anchored spheres are just outside the track. One of the anchored spheres is just left of the origin at a distance of <m:math><m:mrow><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> from it, and the other is on the <emphasis effect="italics">x</emphasis>-axis just right of the track at a distance of <m:math><m:mrow><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> past <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Each sphere carries a charge of <m:math><m:mrow><m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:msup><m:mtext> C</m:mtext></m:mrow></m:math>. (Note: The slight distance from the track is so the particles cannot collide, and does not enter into the calculations for three significant figures.) (a) A third sphere has a mass of 10.00 kg and carries a charge of <m:math><m:mrow><m:mo>−</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:msup><m:mtext> C</m:mtext></m:mrow></m:math>. It is free to move on the track. It is initially placed an equal length from the two anchored spheres at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo>,</m:mo><m:mn>2.00</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What is the total force on the third sphere? (Be certain to include gravity between the spheres.) (b) Will the third sphere move? (c) Label the first two spheres A and B, and the movable sphere C. Now start sphere C at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>,</m:mo><m:mn>2.00</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What are the forces on sphere C? (d) Will sphere C now move? (e) If it does, where will it stop moving and reverse course? If it does not move, you may skip this part. (f) How many equilibrium points are there on the track at which the movable sphere will remain stationary? Where are they?</para></problem></exercise>
+   of 4.00 m has two spheres of 10.0 kg each anchored very near it. The track is oriented with a diameter along the <emphasis effect="italics">x</emphasis>-axis. The anchored spheres are just outside the track. One of the anchored spheres is just left of the origin at a distance of <m:math><m:mrow><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> from it, and the other is on the <emphasis effect="italics">x</emphasis>-axis just right of the track at a distance of <m:math><m:mrow><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>15</m:mn></m:mrow></m:msup><m:mtext>m</m:mtext></m:mrow></m:math> past <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. Each sphere carries a charge of <m:math><m:mrow><m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:msup><m:mtext> C</m:mtext></m:mrow></m:math>. (Note: The slight distance from the track is so the particles cannot collide, and does not enter into the calculations for three significant figures.) (a) A third sphere has a mass of 10.00 kg and carries a charge of <m:math><m:mrow><m:mo>−</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup><m:mrow><m:mn>10</m:mn></m:mrow><m:mrow><m:mo>−</m:mo><m:mn>9</m:mn></m:mrow></m:msup><m:mtext> C</m:mtext></m:mrow></m:math>. It is free to move on the track. It is initially placed an equal length from the two anchored spheres at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo>,</m:mo><m:mn>2.00</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What is the total force on the third sphere? (Be certain to include gravity between the spheres.) (b) Will the third sphere move? (c) Label the first two spheres A and B, and the movable sphere C. Now start sphere C at <m:math><m:mrow><m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>,</m:mo><m:mn>2.00</m:mn><m:mo stretchy="false">)</m:mo></m:mrow></m:math>. What are the forces on sphere C? (d) Will sphere C now move? (e) If it does, where will it stop moving and reverse course? If it does not move, you may skip this part. (f) How many equilibrium points are there on the track at which the movable sphere will remain stationary? Where are they?</para></problem>
+   <solution id="sol-00001">
+    <para id="para-00002">a. The forces are balanced in the <emphasis effect="italics">x</emphasis>-direction, so the net force is vertical. It is composed of the sum of the vertical components of the Coulomb force and the gravitational force. <m:math>
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+         <m:mi>y</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mi>k</m:mi><m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mrow>
+            <m:msup>
+             <m:mi>r</m:mi>
+             <m:mn>2</m:mn>
+            </m:msup>
+            </m:mrow>
+          </m:mfrac>
+          <m:mo>+</m:mo><m:mi>G</m:mi><m:mfrac>
+           <m:mrow>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mrow>
+            <m:msup>
+             <m:mi>r</m:mi>
+             <m:mn>2</m:mn>
+            </m:msup>
+            </m:mrow>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced><m:mi>cos</m:mi><m:mn>45</m:mn><m:mo>°</m:mo><m:mo>=</m:mo>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mo>−</m:mo><m:mn>2</m:mn><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mn>8.99</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mn>9</m:mn>
+            </m:msup>
+            <m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mn>8</m:mn>
+          </m:mfrac>
+          <m:mo>+</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+          </m:msup>
+          <m:mfrac>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mn>8</m:mn>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mi>cos</m:mi><m:mn>45</m:mn><m:mo>°</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4.36</m:mn><m:mo>×</m:mo><m:msup>
+         <m:mn>10</m:mn>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext> N</m:mtext>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+     
+    </m:math>
+    </para>
+    
+    <para id="para-00003">b. No, it is in a metastable position. Since it cannot move horizontally, it cannot traverse any part of the track.</para>
+    
+    <para id="para-00004">c. <m:math>
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+         <m:mi>x</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mi>k</m:mi><m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          <m:mo>+</m:mo><m:mi>G</m:mi><m:mfrac>
+           <m:mrow>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>+</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mi>k</m:mi><m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          <m:mo>+</m:mo><m:mi>G</m:mi><m:mfrac>
+           <m:mrow>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced><m:mfrac>
+         <m:mrow>
+          <m:msqrt>
+           <m:mn>3</m:mn>
+          </m:msqrt>
+          </m:mrow>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>=</m:mo>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mo>−</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mn>8.99</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mn>9</m:mn>
+            </m:msup>
+            <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          <m:mo>−</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+          </m:msup>
+          <m:mfrac>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mo>+</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mn>8.99</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mn>9</m:mn>
+            </m:msup>
+            <m:mo stretchy="false">(</m:mo><m:mo>−</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mrow>
+            <m:msqrt>
+             <m:mn>3</m:mn>
+            </m:msqrt>
+            </m:mrow>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          <m:mo>−</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+          </m:msup>
+          <m:mfrac>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mrow>
+            <m:msqrt>
+             <m:mn>3</m:mn>
+            </m:msqrt>
+            </m:mrow>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced><m:mtext>N</m:mtext><m:mo>=</m:mo><m:mtext>2</m:mtext><m:mtext>.60</m:mtext><m:mo>×</m:mo><m:msup>
+         <m:mtext>10</m:mtext>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext> N</m:mtext>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+     
+    </m:math>
+    <m:math>
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mstyle mathvariant="bold" mathsize="normal"><m:mi>F</m:mi></m:mstyle>
+         <m:mi>y</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mi>k</m:mi><m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          <m:mo>+</m:mo><m:mi>G</m:mi><m:mfrac>
+           <m:mrow>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced><m:mfrac>
+         <m:mrow>
+          <m:msqrt>
+           <m:mn>3</m:mn>
+          </m:msqrt>
+          </m:mrow>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mi>k</m:mi><m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>q</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          <m:mo>+</m:mo><m:mi>G</m:mi><m:mfrac>
+           <m:mrow>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>1</m:mn>
+            </m:msub>
+            <m:msub>
+             <m:mi>m</m:mi>
+             <m:mn>2</m:mn>
+            </m:msub>
+            </m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mn>2</m:mn>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.08</m:mn><m:mo>×</m:mo><m:msup>
+         <m:mn>10</m:mn>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext> N</m:mtext>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mo>−</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mn>8.99</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mn>9</m:mn>
+            </m:msup>
+            <m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mrow>
+            <m:msqrt>
+             <m:mn>3</m:mn>
+            </m:msqrt>
+            </m:mrow>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          <m:mo>−</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+          </m:msup>
+          <m:mfrac>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mn>4</m:mn>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mrow>
+            <m:msqrt>
+             <m:mn>3</m:mn>
+            </m:msqrt>
+            </m:mrow>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mo>−</m:mo><m:mfenced>
+         <m:mrow>
+          <m:mfrac>
+           <m:mrow>
+            <m:mn>8.99</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mn>9</m:mn>
+            </m:msup>
+            <m:mo stretchy="false">(</m:mo><m:mn>1.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>2.00</m:mn><m:mo>×</m:mo><m:msup>
+             <m:mrow>
+              <m:mn>10</m:mn></m:mrow>
+             <m:mrow>
+              <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+            </m:msup>
+            <m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          <m:mo>+</m:mo><m:mn>6.67</m:mn><m:mo>×</m:mo><m:msup>
+           <m:mrow>
+            <m:mn>10</m:mn></m:mrow>
+           <m:mrow>
+            <m:mo>−</m:mo><m:mn>11</m:mn></m:mrow>
+          </m:msup>
+          <m:mfrac>
+           <m:mrow>
+            <m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>10.0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+           <m:mrow>
+            <m:mn>12</m:mn></m:mrow>
+          </m:mfrac>
+          <m:mfrac>
+           <m:mn>1</m:mn>
+           <m:mn>2</m:mn>
+          </m:mfrac>
+          </m:mrow>
+        </m:mfenced><m:mtext>N</m:mtext><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>6.36</m:mn><m:mo>×</m:mo><m:msup>
+         <m:mtext>10</m:mtext>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>9</m:mn></m:mrow>
+        </m:msup>
+        <m:mtext> N</m:mtext>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+    </m:math>
+    </para>
+    <para id="para-00005">d. Yes.</para>
+    <para id="para-00006">e. It will reach <m:math>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>1</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:msqrt>
+       <m:mrow>
+        <m:mn>3</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+      </m:msqrt>
+      </m:mrow>
+    </m:math> before it will change direction.</para>
+    <para id="para-00007">f. The metastable positions where there is no component in one direction are <m:math>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:math>, <m:math>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>4</m:mn><m:mo>,</m:mo><m:mn>0</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:math>, <m:math>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:math>, and <m:math>
+     <m:mrow>
+      <m:mo stretchy="false">(</m:mo><m:mn>2</m:mn><m:mo>,</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">)</m:mo></m:mrow>
+    </m:math>. They number 4.</para>
+    </solution>
+  </exercise>
 </section> </content>
   <glossary>
     <definition id="import-auto-id1868551"><term>Van de Graaff generator</term> <meaning id="fs-id2671037">a machine that produces a large amount of excess charge, used for experiments with high voltage</meaning></definition>
