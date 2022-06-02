@@ -55,6 +55,440 @@
 <para id="para-00002"><title>Critical Thinking</title></para>
 <para id="para-00003">A microscope has the objective lens 6.00 mm from an object. The focal length of the objective lens is 4.00 mm. The eyepiece has a focal length of 50.0 mm and is initially 25.0 mm from the objective lens. (a) The objective lens is moved to 5.00 mm from the objective, effectively lengthening the microscope. How does this affect the magnification of the microscope? (b) Does moving the objective increase closer to the object increase or decrease the magnification, or does it remain the same? (c) Do you think moving the objective from 6 mm to 7 mm from the object will increase or decrease the magnification of the microscope, or will it likely remain the same? (d) What indicates whether the image is upright or inverted?</para>
 </problem>
+<solution id="sol-00001">
+    <para id="para-00004">a. <m:math>
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>4.00</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>6.00</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mi>d</m:mi>
+         <m:mi>i</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mn>12.0</m:mn><m:mtext> mm</m:mtext>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mi>m</m:mi>
+         <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mn>12.0</m:mn></m:mrow>
+         <m:mrow>
+          <m:mn>6.00</m:mn></m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.00</m:mn>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>50</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>13.0</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:msup>
+          <m:mi>d</m:mi>
+          <m:mo>′</m:mo>
+         </m:msup>
+         
+         <m:mi>i</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>17.6</m:mn><m:mtext> mm</m:mtext>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+     
+    </m:math>
+    <m:math display="block">
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mi>m</m:mi>
+         <m:mi>e</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>17.6</m:mn></m:mrow>
+         <m:mrow>
+          <m:mn>13</m:mn></m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mn>1.35</m:mn>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.35</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>2.70</m:mn>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>4.00</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>5.00</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mi>d</m:mi>
+         <m:mi>i</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mn>20.0</m:mn><m:mtext> mm</m:mtext>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+     
+    </m:math>
+    <m:math display="block">
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mi>m</m:mi>
+         <m:mn>0</m:mn>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+         <m:mrow>
+          <m:msub>
+           <m:mi>d</m:mi>
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mn>20.0</m:mn></m:mrow>
+         <m:mrow>
+          <m:mn>5.00</m:mn></m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4.00</m:mn>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>+</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mi>i</m:mi>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mi>f</m:mi>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:msub>
+           <m:msup>
+            <m:mi>d</m:mi>
+            <m:mo>′</m:mo>
+           </m:msup>
+           
+           <m:mn>0</m:mn>
+          </m:msub>
+          </m:mrow>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>50</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        <m:mo>−</m:mo><m:mfrac>
+         <m:mn>1</m:mn>
+         <m:mrow>
+          <m:mn>5.00</m:mn><m:mtext> mm</m:mtext></m:mrow>
+        </m:mfrac>
+        
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:msup>
+          <m:mi>d</m:mi>
+          <m:mo>′</m:mo>
+         </m:msup>
+         
+         <m:mi>i</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mn>5.56</m:mn><m:mtext> mm</m:mtext>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+     
+    </m:math>
+    <m:math>
+     <m:mtable columnalign="left">
+      <m:mtr>
+       <m:mtd>
+        <m:msub>
+         <m:mi>m</m:mi>
+         <m:mi>e</m:mi>
+        </m:msub>
+        <m:mo>=</m:mo><m:mo>−</m:mo><m:mfrac>
+         <m:mrow>
+          <m:mo>−</m:mo><m:mn>5.56</m:mn></m:mrow>
+         <m:mn>5</m:mn>
+        </m:mfrac>
+        <m:mo>=</m:mo><m:mn>1.11</m:mn>
+       </m:mtd>
+      </m:mtr>
+      <m:mtr>
+       <m:mtd>
+        <m:mi>m</m:mi><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4</m:mn><m:mo stretchy="false">(</m:mo><m:mn>1.11</m:mn><m:mo stretchy="false">)</m:mo><m:mo>=</m:mo><m:mo>−</m:mo><m:mn>4.44</m:mn>
+       </m:mtd>
+      </m:mtr>
+     </m:mtable>
+        </m:math>
+        </para>
+    <para id="para-00005">b. It increased.</para>
+    <para id="para-00006">c. The magnification should decrease.</para>
+    <para id="para-00007">d. In both cases the image is inverted.</para>
+    </solution>
 </exercise>
       </section>
      </content>
