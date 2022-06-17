@@ -18,7 +18,6 @@
     <para id="import-auto-id1587045">When you forget to turn off your car lights, they slowly dim as the battery runs down. Why don’t they simply blink off when the battery’s energy is gone? Their gradual dimming implies that battery output voltage decreases as the battery is depleted.</para>
     <para id="import-auto-id3177109">Furthermore, if you connect an excessive number of 12-V lights in parallel to a car battery, they will be dim even when the battery is fresh and even if the wires to the lights have very low resistance. This implies that the battery’s output voltage is reduced by the overload.</para>
     <para id="import-auto-id1596418">The reason for the decrease in output voltage for depleted or overloaded batteries is that all voltage sources have two fundamental parts—a source of electrical energy and an <term id="import-auto-id3397394">internal resistance</term>. Let us examine both.</para>
-
   <section id="fs-id1995800">
     <title>Electromotive Force</title>
     <para id="import-auto-id2684662">You can think of many different types of voltage sources. Batteries themselves come in many varieties. There are many types of mechanical/electrical generators, driven by many different energy sources, ranging from nuclear to wind. Solar cells create voltages directly from light, while thermoelectric devices create voltage from temperature differences.</para>
@@ -233,8 +232,7 @@
     <!--<solution id="fs-id2609623">
     <para id="fs-id1672957">(a)</para></solution>-->
     </exercise>
-    
-    <exercise id="fs-id1801021" type="ap-test-prep">
+        <exercise id="fs-id1801021" type="ap-test-prep">
     <problem id="fs-id2496055">
     <para id="fs-id1609613">Calculate the internal resistance of a voltage source if the terminal voltage of the source increases by 1 V when the current supplied decreases by 4 A? Suppose this source is connected in series (in the same direction) to another source with a different voltage but same internal resistance. What will be the total internal resistance? How will the total internal resistance change if the sources are connected in the opposite direction?</para>
     </problem>
@@ -243,8 +241,7 @@
     </solution>
     </exercise>
     </section>
-    
-    <section id="fs-id1986022" class="section-summary"><title>Section Summary</title><list id="fs-id3025819"><item id="import-auto-id1817697">All voltage sources have two fundamental parts—a source of electrical energy that has a characteristic electromotive force (emf), and an internal resistance <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math>.</item>
+        <section id="fs-id1986022" class="section-summary"><title>Section Summary</title><list id="fs-id3025819"><item id="import-auto-id1817697">All voltage sources have two fundamental parts—a source of electrical energy that has a characteristic electromotive force (emf), and an internal resistance <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math>.</item>
     <item id="import-auto-id3191546">The emf is the potential difference of a source when no current is flowing.</item>
     <item id="import-auto-id2421568">The numerical value of the emf depends on the source of potential difference.</item>
     <item id="import-auto-id1863983">The internal resistance <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> of a voltage source affects the output voltage when a current flows.</item>
@@ -256,34 +253,25 @@
     <exercise id="fs-id3188757" type="conceptual-questions"><problem id="fs-id3127378">
     <para id="import-auto-id3092069">Is every emf a potential difference? Is every potential difference an emf? Explain.</para>
     </problem></exercise>
-
     <exercise id="fs-id2968688" type="conceptual-questions"><problem id="fs-id1868010">
     <para id="import-auto-id2041531">Explain which battery is doing the charging and which is being charged in <link target-id="import-auto-id3159456"/>.</para>
     </problem></exercise>
-
-
     <figure id="import-auto-id3159456"><media id="import-auto-id3229238" alt="The diagram shows two cells of e m f script E sub one equals twelve volts and internal resistance r sub one equals one ohm, and e m f script E sub two equals eighteen volts and internal resistance r sub two equals zero point five ohms, connected. The cells are connected with their positive terminals facing each other in a closed circuit.">
         <image mime-type="image/jpg" src="../../media/Figure_22_02_14.jpg" width="300"/>
       </media>
-
     </figure><exercise id="fs-id3199702" type="conceptual-questions"><problem id="fs-id1548219">
     <para id="import-auto-id2000027">Given a battery, an assortment of resistors, and a variety of voltage and current measuring devices, describe how you would determine the internal resistance of the battery.</para>
     </problem></exercise>
-
     <exercise id="fs-id2017484" type="conceptual-questions"><problem id="fs-id1933563">
     <para id="import-auto-id2617165">Two different 12-V automobile batteries on a store shelf are rated at 600 and 850 “cold cranking amps.” Which has the smallest internal resistance?</para>
     </problem></exercise>
-
     <exercise id="fs-id3192560" type="conceptual-questions"><problem id="fs-id1926483">
     <para id="import-auto-id1617157">What are the advantages and disadvantages of connecting batteries in series? In parallel?</para>
     </problem></exercise>
-
     <exercise id="fs-id2406665" type="conceptual-questions"><problem id="fs-id3109100">
     <para id="import-auto-id3122742">Semitractor trucks use four large 12-V batteries. The starter system requires 24 V, while normal operation of the truck’s other electrical components utilizes 12 V. How could the four batteries be connected to produce 24 V? To produce 12 V? Why is 24 V better than 12 V for starting the truck’s engine (a very heavy load)?</para>
     </problem></exercise>
-
     </section>
-
     <section id="fs-id2590576" type="problems-exercises" class="problems-exercises">
       <title>Problem Exercises</title>
     <exercise id="fs-id2035108" type="problems-exercises">
@@ -297,7 +285,6 @@
       <problem id="fs-id1869328">
       <para id="import-auto-id2604534">Carbon-zinc dry cells (sometimes referred to as non-alkaline cells) have an emf of 1.54 V, and they are produced as single cells or in various combinations to form other voltages. (a) How many 1.54-V cells are needed to make the common 9-V battery used in many small electronic devices? (b) What is the actual emf of the approximately 9-V battery? (c) Discuss how internal resistance in the series connection of cells will affect the terminal voltage of this approximately 9-V battery.</para>
       </problem></exercise>
-
     <exercise id="fs-id3258411" type="problems-exercises">
       <problem id="fs-id2442889">
 <para id="import-auto-id1970058">What is the output voltage of a 3.0000-V lithium cell in a digital wristwatch that draws 0.300 mA, if the cell’s internal resistance is <m:math><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>00</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math>?</para></problem>
@@ -305,21 +292,17 @@
     <para id="import-auto-id1526631">2.9994 V</para>
     </solution>
     </exercise>
-
     <exercise id="fs-id1899442" type="problems-exercises">
       <problem id="fs-id1910081">
       <para id="import-auto-id2589627">(a) What is the terminal voltage of a large 1.54-V carbon-zinc dry cell used in a physics lab to supply 2.00 A to a circuit, if the cell’s internal resistance is <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>100 Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:math>? (b) How much electrical power does the cell produce? (c) What power goes to its load?</para></problem>
     </exercise>
-
     <exercise id="fs-id2449779" type="problems-exercises">
       <problem id="fs-id1518432">
       <para id="import-auto-id2453853">What is the internal resistance of an automobile battery that has an emf of 12.0 V and a terminal voltage of 15.0 V while a current of 8.00 A is charging it?</para>
     </problem>
 <solution id="fs-id3080741">
     <para id="import-auto-id2674652"><m:math>
-        
-          <m:mrow>
-
+                  <m:mrow>
               <m:mrow>
                 <m:mrow>
                   <m:mn>0</m:mn>
@@ -328,21 +311,15 @@
                   <m:mo stretchy="false">Ω</m:mo>
                 </m:mrow>
               </m:mrow>
-
             <m:mrow/>
-          </m:mrow>
-          
-        
+          </m:mrow>                
       </m:math>
     </para></solution>
     </exercise>
-
     <exercise id="fs-id2206793" type="problems-exercises"><problem id="fs-id2421179">
       <para id="import-auto-id1403613">(a) Find the terminal voltage of a 12.0-V motorcycle battery having a <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>600-Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> internal resistance, if it is being charged by a current of 10.0 A. (b) What is the output voltage of the battery charger?</para></problem></exercise>
-
     <exercise id="fs-id347681" type="problems-exercises"><problem id="fs-id3078642">
       <para id="import-auto-id3104915">A car battery with a 12-V emf and an internal resistance of <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>050</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math> is being charged with a current of 60 A. Note that in this process the battery is being charged. (a) What is the potential difference across its terminals? (b) At what rate is thermal energy being dissipated in the battery? (c) At what rate is electric energy being converted to chemical energy? (d) What are the answers to (a) and (b) when the battery is used to supply 60 A to the starter motor?</para></problem></exercise>
-
     <exercise id="fs-id1245690" type="problems-exercises"><problem id="fs-id1571836">
       <para id="import-auto-id2680563">The hot resistance of a flashlight bulb is <m:math><m:mrow><m:mrow><m:mrow><m:mn>2</m:mn><m:mtext>.</m:mtext><m:mtext>30</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math>, and it is run by a 1.58-V alkaline cell having a <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>100-Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> internal resistance. (a) What current flows? (b) Calculate the power supplied to the bulb using <m:math><m:mrow><m:mrow><m:mrow><m:msup><m:mi>I</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>bulb</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow></m:math>. (c) Is this power the same as calculated using <m:math><m:mrow><m:mrow><m:mfrac><m:msup><m:mi>V</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:msub><m:mi>R</m:mi><m:mrow><m:mtext>bulb</m:mtext></m:mrow></m:msub></m:mfrac></m:mrow><m:mrow/></m:mrow></m:math>?</para></problem>
 <solution id="fs-id3358609">
@@ -351,10 +328,8 @@
     <para id="import-auto-id1998718">(c) 0.997 W; yes</para>
     </solution>
     </exercise>
-
     <exercise id="fs-id2682937" type="problems-exercises"><problem id="fs-id3286331">
       <para id="import-auto-id3418228">The label on a portable radio recommends the use of rechargeable nickel-cadmium cells (nicads), although they have a 1.25-V emf while alkaline cells have a 1.58-V emf. The radio has a <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>20-Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> resistance. (a) Draw a circuit diagram of the radio and its batteries. Now, calculate the power delivered to the radio. (b) When using Nicad cells each having an internal resistance of <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0400 Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. (c) When using alkaline cells each having an internal resistance of <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>200 Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. (d) Does this difference seem significant, considering that the radio’s effective resistance is lowered when its volume is turned up?</para></problem></exercise>
-
     <exercise id="fs-id1997028" type="problems-exercises"><problem id="fs-id1344571">
       <para id="import-auto-id3260760">An automobile starter motor has an equivalent resistance of <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0500</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math> and is supplied by a 12.0-V battery with a <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>0100-Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> internal resistance. (a) What is the current to the motor? (b) What voltage is applied to it? (c) What power is supplied to the motor? (d) Repeat these calculations for when the battery connections are corroded and add <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0900</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math> to the circuit. (Significant problems are caused by even small amounts of unwanted resistance in low-voltage, high-current applications.)</para></problem>
 <solution id="fs-id3076693">
@@ -363,10 +338,8 @@
     <para id="import-auto-id1824395">(c) 2.00 kW</para>
     <para id="import-auto-id1507126">(d) <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>1000</m:mtext><m:mspace width="0.25em"/><m:mo stretchy="false">Ω</m:mo><m:mi>;</m:mi><m:mspace width="0.25em"/><m:mtext> 80</m:mtext><m:mtext>.</m:mtext><m:mtext>0 A, 4</m:mtext><m:mtext>.</m:mtext><m:mtext>0 V, 320 W</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para></solution>
     </exercise>
-
     <exercise id="fs-id1413786" type="problems-exercises"><problem id="fs-id1562534">
       <para id="import-auto-id3095027">A child’s electronic toy is supplied by three 1.58-V alkaline cells having internal resistances of <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>0200</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math> in series with a 1.53-V carbon-zinc dry cell having a <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>100-Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> internal resistance. The load resistance is <m:math><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math>. (a) Draw a circuit diagram of the toy and its batteries. (b) What current flows? (c) How much power is supplied to the load? (d) What is the internal resistance of the dry cell if it goes bad, resulting in only 0.500 W being supplied to the load?</para></problem></exercise>
-
     <exercise id="fs-id1845197" type="problems-exercises"><problem id="fs-id3422070">
       <para id="import-auto-id1900556">(a) What is the internal resistance of a voltage source if its terminal voltage drops by 2.00 V when the current supplied increases by 5.00 A? (b) Can the emf of the voltage source be found with the information supplied?</para>
     </problem>
@@ -374,17 +347,13 @@
     <para id="import-auto-id3210078">(a) <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>400 Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para><para id="import-auto-id990298">(b) No, there is only one independent equation, so only <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> can be found.</para>
     </solution>
     </exercise>
-
     <exercise id="fs-id1922758" type="problems-exercises"><problem id="fs-id3357103">
       <para id="import-auto-id3063263">A person with body resistance between his hands of <m:math><m:mrow><m:mrow><m:mrow><m:mtext>10</m:mtext><m:mtext>.</m:mtext><m:mn>0</m:mn><m:mspace width="0.25em"/><m:mtext> k</m:mtext><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math> accidentally grasps the terminals of a 20.0-kV power supply. (Do NOT do this!)  (a) Draw a circuit diagram to represent the situation. (b) If the internal resistance of the power supply is <m:math><m:mrow><m:mrow><m:mrow><m:mtext>2000</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math>, what is the current through his body? (c) What is the power dissipated in his body? (d) If the power supply is to be made safe by increasing its internal resistance, what should the internal resistance be for the maximum current in this situation to be 1.00 mA or less? (e) Will this modification compromise the effectiveness of the power supply for driving low-resistance devices? Explain your reasoning.</para></problem></exercise>
-
     <exercise id="fs-id1920415" type="problems-exercises"><problem id="fs-id3037515">
       <para id="import-auto-id2460235">Electric fish generate current with biological cells called electroplaques, which are physiological emf devices. The electroplaques in the South American eel are arranged in 140 rows, each row stretching horizontally along the body and each containing 5000 electroplaques. Each electroplaque has an emf of 0.15 V and internal resistance of <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>25</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math>. If the water surrounding the fish has resistance of <m:math><m:mrow><m:mrow><m:mrow><m:mtext>800</m:mtext><m:mspace width="0.15em"/><m:mo stretchy="false">Ω</m:mo></m:mrow></m:mrow></m:mrow></m:math>, how much current can the eel produce in water from near its head to near its tail?</para></problem></exercise>
-
     <exercise id="fs-id2612929" type="problems-exercises"><problem id="fs-id1579143">
       <para id="import-auto-id1985964"><title>Integrated Concepts</title></para>
 <para id="eip-id1517319">A 12.0-V emf automobile battery has a terminal voltage of 16.0 V when being charged by a current of 10.0 A. (a) What is the battery’s internal resistance? (b) What power is dissipated inside the battery? (c) At what rate (in <m:math><m:mrow><m:mrow><m:mrow><m:mtext>º</m:mtext><m:mtext>C/min</m:mtext></m:mrow></m:mrow></m:mrow></m:math>) will its temperature increase if its mass is 20.0 kg and it has a specific heat of <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>300</m:mtext><m:mrow><m:mspace width="0.25em"/><m:mtext> kcal/kg</m:mtext><m:mo stretchy="false">⋅</m:mo><m:mtext>º</m:mtext></m:mrow><m:mtext>C</m:mtext></m:mrow></m:mrow></m:mrow></m:math>, assuming no heat escapes?</para></problem></exercise>
-
     <exercise id="fs-id1386234" type="problems-exercises"><problem id="fs-id1916631">
       <para id="import-auto-id2429738"><title>Unreasonable Results</title></para>
 <para id="eip-id2668363">A 1.58-V alkaline cell with a <m:math><m:mrow><m:mrow><m:mrow><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>200-Ω</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> internal resistance is supplying 8.50 A to a load. (a) What is its terminal voltage? (b) What is the value of the load resistance? (c) What is unreasonable about these results? (d) Which assumptions are unreasonable or inconsistent?</para></problem>
@@ -394,13 +363,10 @@
     <para id="import-auto-id2979411">(d) The assumption that such a cell could provide 8.50 A is inconsistent with its internal resistance.</para>
     </solution>
     </exercise>
-
     <exercise id="fs-id1864003" type="problems-exercises"><problem id="fs-id1186704">
       <para id="import-auto-id1869328"><title>Unreasonable Results</title></para>
 <para id="eip-id2669992">(a) What is the internal resistance of a 1.54-V dry cell that supplies 1.00 W of power to a <m:math><m:mrow><m:mrow><m:mrow><m:mtext>15</m:mtext><m:mtext>.</m:mtext><m:mrow><m:mn>0-Ω</m:mn></m:mrow></m:mrow></m:mrow></m:mrow></m:math> bulb? (b) What is unreasonable about this result? (c) Which assumptions are unreasonable or inconsistent?</para></problem></exercise>
-
     </section>
-
  </content>
   <glossary>
     <definition id="import-auto-id1294552"><term>electromotive force (emf)</term> <meaning id="fs-id2957214">the potential difference of a source of electricity when no current is flowing; measured in volts</meaning></definition>
