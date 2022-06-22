@@ -1035,21 +1035,27 @@ V
       <table id="fs-id2230664" summary="The table has 5 columns and two rows. The first row is labeled Dimension and has 1.00, 1.10, 1.20, and 1.30 for values. The second row is labeled Charge in microcoulombs and has 0.50, 0.61, 0.71, and 0.86 for values.">
       <tgroup cols="5">
         <tbody>
-      <row>
-      <entry>Dimension</entry>
-      <entry>1.00</entry>
-      <entry>1.10</entry>
-      <entry>1.20</entry>
-      <entry>1.30</entry>
-      </row>
-      <row>
-      <entry>Charge(µC)</entry>
-      <entry>0.50</entry>
-      <entry>0.61</entry>
-      <entry>0.71</entry>
-      <entry>0.86</entry>
-      </row>
-      </tbody>
+          <row>
+          <entry>Dimension</entry>
+          <entry>Charge(µC)</entry>
+          </row>
+          <row>      
+          <entry>1.00</entry>
+          <entry>0.50</entry>
+          </row>
+          <row>
+          <entry>1.10</entry>
+          <entry>0.61</entry>
+          </row>
+          <row>     
+          <entry>1.20</entry>
+          <entry>0.71</entry>
+          </row>
+          <row>
+          <entry>1.30</entry>
+          <entry>0.86</entry>    
+          </row>
+          </tbody>
       </tgroup>
       </table><list id="eip-id1927367" mark-prefix="(" mark-suffix=")" list-type="enumerated" number-style="lower-alpha"><item id="fs-id3337999">The distance between the plates</item>
       <item id="fs-id1403627">The area</item>
