@@ -882,9 +882,27 @@
       <section id="fs-id1411128" type="problems-exercises" class="problems-exercises"><title>Problem Exercises</title>
     <exercise id="fs-id1845493" type="problems-exercises">
       <problem id="fs-id2937101">
-        <para id="import-auto-id368329">(a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is <m:math><m:mrow><m:mrow><m:mrow><m:mn>9.830 m</m:mn><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> and the radius of the Earth is 6371 km from center to pole.</para><para id="fs-id3430235">(b) Compare this with the accepted value of <m:math><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>979</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow></m:mrow></m:math>.</para></problem>
+        <para id="import-auto-id368329">Earth is not a perfect sphere. Its radius as well as the value of <emphasis effect="italics">g</emphasis> vary with latitude. (a) Calculate Earth’s mass given the acceleration due to gravity at the North Pole is <m:math><m:mrow><m:mrow><m:mrow><m:mn>9.807 m</m:mn><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> and the radius of the Earth at the pole is 6356.8 km.</para><para id="fs-id3430235">(b) Compare this with the accepted value of <m:math><m:mrow><m:mrow><m:mrow><m:mn>5.972</m:mn><m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:mrow></m:mrow></m:math>.</para></problem>
       <solution id="fs-id2399023" type="problems-exercises">
-        <para id="fs-id2989950">a) <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mn>5.979</m:mn></m:mrow><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mtext>24</m:mtext></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:mtext> kg</m:mtext></m:mrow></m:mrow></m:mrow></m:math></para><para id="fs-id2595260">b) This is identical to the best value to three significant figures.</para></solution></exercise>
+        <para id="fs-id2989950">
+          
+          a) <m:math><m:mrow>
+            <m:mi>g</m:mi>
+            <m:mo>=</m:mo>  
+            <m:mfrac>
+              <m:mrow><m:mi>G</m:mi><m:mi>M</m:mi></m:mrow>
+              <m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup></m:mrow></m:mfrac>
+            <m:mo>⇒</m:mo>
+            <m:mi>M</m:mi>
+          <m:mo>=</m:mo>  
+          <m:mfrac>
+              <m:mrow><m:msup><m:mi>r</m:mi><m:mn>2</m:mn></m:msup><m:mi>g</m:mi></m:mrow>
+              <m:mrow><m:mi>G</m:mi></m:mrow></m:mfrac>
+          <m:mo>=</m:mo>  
+          <m:mn>5.95296</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mn>10</m:mn><m:mn>24</m:mn></m:msup><m:mspace width="0.25em"/><m:mtext>kg</m:mtext></m:mrow></m:math></para>
+          
+          
+          <para id="fs-id2595260">b) This is slightly, but measurably, smaller than the accepted value, differing in the third significant digit. The equation we used to find <emphasis effect="italics">g</emphasis> assumes a sphere, but we already noted that the radius at the pole is smaller than at the equator. The calculation gives the mass for a sphere of the radius we used—and ignores the additional mass outside that radius.</para></solution></exercise>
       <exercise id="fs-id2991154" type="problems-exercises">
         <problem id="fs-id3073242">
           <para id="fs-id954422">(a) Calculate the magnitude of the acceleration due to gravity on the surface of Earth due to the Moon.</para><para id="fs-id3149527">(b) Calculate the magnitude of the acceleration due to gravity at Earth due to the Sun.</para><para id="fs-id1917983">(c) Take the ratio of the Moon’s acceleration to the Sun’s and comment on why the tides are predominantly due to the Moon in spite of this number.</para>
