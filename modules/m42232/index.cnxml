@@ -113,37 +113,23 @@
              <row>
               <entry>
                 <m:math>
-                  
                     <m:mrow>
-
-                        <m:mrow>
                           <m:mi>Q</m:mi>
-                        </m:mrow>
-
-                      <m:mrow/>
                     </m:mrow>
-                    
-                  
                 </m:math>
               </entry>
               <entry>Heat—energy transferred because of a temperature difference. Characterized by random molecular motion. Highly dependent on path. <m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math> entering a system is positive.</entry>
             </row><row>
               <entry>
                 <m:math>
-                  
-                    <m:mrow>
-
                         <m:mrow>
                           <m:mi>W</m:mi>
                         </m:mrow>
 
-                      <m:mrow/>
-                    </m:mrow>
-                    
-                  
+
                 </m:math>
               </entry>
-              <entry>Work—energy transferred by a force moving through a distance. An organized, orderly process. Path dependent. <m:math><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow></m:mrow></m:math> done by a system (either against an external force or to increase the volume of the system) is positive.</entry>
+              <entry>Work—energy transferred by a force moving through a distance. An organized, orderly process. Path dependent. <m:math><m:mrow><m:mi>W</m:mi></m:mrow></m:math> done by a system (either against an external force or to increase the volume of the system) is positive.</entry>
             </row></tbody>
 
 
@@ -218,9 +204,9 @@
     </exercise></section>
     
     
-    <section id="fs-id1169738146732" class="section-summary"><title>Section Summary</title><list id="fs-id1169737724456"><item id="import-auto-id1169737723973">The first law of thermodynamics is given as <m:math><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:math>, where <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow></m:mrow></m:math> is the change in internal energy of a system, <m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math> is the net heat transfer (the sum of all heat transfer into and out of the system), and <m:math><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow></m:mrow></m:math> is the net work done (the sum of all work done on or by the system).</item>
-    <item id="import-auto-id1169738082355">Both <m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow></m:mrow></m:math> are energy in transit; only <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:mi>U</m:mi></m:mrow></m:mrow></m:math> represents an independent quantity capable of being stored.</item>
-    <item id="import-auto-id1169738068753">The internal energy <m:math><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow></m:mrow></m:math> of a system depends only on the state of the system and not how it reached that state.</item>
+    <section id="fs-id1169738146732" class="section-summary"><title>Section Summary</title><list id="fs-id1169737724456"><item id="import-auto-id1169737723973">The first law of thermodynamics is given as <m:math><m:mrow><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>E</m:mi><m:mtext>int</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:mi>Q</m:mi><m:mo stretchy="false">−</m:mo><m:mi>W</m:mi></m:mrow></m:mrow></m:mrow></m:mrow></m:math>, where <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>E</m:mi><m:mtext>int</m:mtext></m:msub></m:mrow></m:mrow></m:math> is the change in internal energy of a system, <m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math> is the net heat transfer (the sum of all heat transfer into and out of the system), and <m:math><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow></m:mrow></m:math> is the net work done (the sum of all work done on or by the system).</item>
+    <item id="import-auto-id1169738082355">Both <m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow></m:mrow></m:math> are energy in transit; only <m:math><m:mrow><m:mrow><m:mn>Δ</m:mn><m:msub><m:mi>E</m:mi><m:mtext>int</m:mtext></m:msub></m:mrow></m:mrow></m:math> represents an independent quantity capable of being stored.</item>
+    <item id="import-auto-id1169738068753">The internal energy <m:math><m:mrow><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>int</m:mtext></m:msub></m:mrow></m:mrow></m:math> of a system depends only on the state of the system and not how it reached that state.</item>
     <item id="import-auto-id1169737826464">Metabolism of living organisms, and photosynthesis of plants, are specialized types of heat transfer, doing work, and internal energy of systems.</item>
     </list></section><section id="fs-id1169737972465" class="conceptual-questions" type="conceptual-questions">
       <title>Conceptual Questions</title>
@@ -237,7 +223,7 @@
 
           <exercise id="fs-id1169737795632" type="conceptual-questions">
             <problem id="fs-id1169738146713">
-    <para id="import-auto-id1169738081394">Heat transfer <m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math> and work done <m:math><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow></m:mrow></m:math> are always energy in transit, whereas internal energy <m:math><m:mrow><m:mrow><m:mi>U</m:mi></m:mrow></m:mrow></m:math> is energy stored in a system. Give an example of each type of energy, and state specifically how it is either in transit or resides in a system.</para>
+    <para id="import-auto-id1169738081394">Heat transfer <m:math><m:mrow><m:mrow><m:mi>Q</m:mi></m:mrow></m:mrow></m:math> and work done <m:math><m:mrow><m:mrow><m:mi>W</m:mi></m:mrow></m:mrow></m:math> are always energy in transit, whereas internal energy <m:math><m:mrow><m:msub><m:mi>E</m:mi><m:mtext>int</m:mtext></m:msub></m:mrow></m:math> is energy stored in a system. Give an example of each type of energy, and state specifically how it is either in transit or resides in a system.</para>
             </problem>
           </exercise>
 
