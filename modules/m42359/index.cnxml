@@ -1,4 +1,4 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:m="http://www.w3.org/1998/Math/MathML">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Kirchhoff’s Rules</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42359</md:content-id>
@@ -21,8 +21,8 @@
     <caption>This circuit cannot be reduced to a combination of series and parallel connections. Kirchhoff’s rules, special applications of the laws of conservation of charge and energy, can be used to analyze it. (Note: The script E in the figure represents electromotive force, emf.)</caption></figure><note id="fs-id3042736"><label/>
     <title>Kirchhoff’s Rules</title>
     <list id="fs-id3010984">
-    <item id="import-auto-id953301" fo:font-weight="normal">Kirchhoff’s first rule—the junction rule. The sum of all currents entering a junction must equal the sum of all currents leaving the junction.</item>
-    <item id="import-auto-id2971586" fo:font-weight="normal">Kirchhoff’s second rule—the loop rule. The algebraic sum of changes in potential around any closed circuit path (loop) must be zero.</item>
+    <item id="import-auto-id953301">Kirchhoff’s first rule—the junction rule. The sum of all currents entering a junction must equal the sum of all currents leaving the junction.</item>
+    <item id="import-auto-id2971586">Kirchhoff’s second rule—the loop rule. The algebraic sum of changes in potential around any closed circuit path (loop) must be zero.</item>
 </list>
     </note>
     <para id="import-auto-id2447320">Explanations of the two rules will now be given, followed by problem-solving hints for applying Kirchhoff’s rules, and a worked example that uses them.</para>
@@ -378,8 +378,8 @@
   </solution></exercise></section>  
 <section id="fs-id1909383" class="section-summary"><title>Section Summary</title><list id="fs-id2599702">
     <item id="import-auto-id1899657">Kirchhoff’s rules can be used to analyze any circuit, simple or complex.</item>
-    <item id="import-auto-id1954890" fo:font-weight="normal">Kirchhoff’s first rule—the junction rule: The sum of all currents entering a junction must equal the sum of all currents leaving the junction.</item>
-    <item id="import-auto-id2670222" fo:font-weight="normal">Kirchhoff’s second rule—the loop rule: The algebraic sum of changes in potential around any closed circuit path (loop) must be zero.</item>
+    <item id="import-auto-id1954890">Kirchhoff’s first rule—the junction rule: The sum of all currents entering a junction must equal the sum of all currents leaving the junction.</item>
+    <item id="import-auto-id2670222">Kirchhoff’s second rule—the loop rule: The algebraic sum of changes in potential around any closed circuit path (loop) must be zero.</item>
     <item id="import-auto-id2683482">The two rules are based, respectively, on the laws of conservation of charge and energy.</item>
     <item id="import-auto-id2595427">When calculating potential and current using Kirchhoff’s rules, a set of conventions must be followed for determining the correct signs of various terms.</item>
     <item id="import-auto-id2639010">The simpler series and parallel rules are special cases of Kirchhoff’s rules.</item>

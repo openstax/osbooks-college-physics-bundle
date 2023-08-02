@@ -1,4 +1,4 @@
-<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0">
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
   <title>Satellites and Kepler’s Laws: An Argument for Simplicity</title>
 <metadata xmlns:md="http://cnx.rice.edu/mdml">
   <md:content-id>m42144</md:content-id>
@@ -24,7 +24,7 @@
     <para id="import-auto-id1864170">
       <emphasis>Kepler’s First Law</emphasis>
     </para>
-    <para id="import-auto-id2971620" fo:font-weight="normal">The orbit of each planet about the Sun is an ellipse with the Sun at one focus.</para>
+    <para id="import-auto-id2971620">The orbit of each planet about the Sun is an ellipse with the Sun at one focus.</para>
 
     <para id="import-auto-id3081901">
         <figure id="import-auto-id1519172"><media id="import-auto-id1569955" alt="In figure a, an ellipse is shown on the coordinate axes. Two foci of the ellipse are joined to a point m on the ellipse. A pencil is shown at the point m. In figure b the elliptical path of a planet is shown. At the left focus f-one of the path the Sun is shown. The planet is shown just above the Sun on the elliptical path.">
@@ -37,7 +37,7 @@
     <para id="import-auto-id3197156">Each planet moves so that an imaginary line drawn from the Sun to the planet sweeps out equal areas in equal times (see <link target-id="import-auto-id1318502"/>).</para><para id="import-auto-id3210216">
       <emphasis>Kepler’s Third Law</emphasis>
     </para>
-    <para id="import-auto-id3176881" fo:font-weight="normal">The ratio of the squares of the periods of any two planets about the Sun is equal to the ratio of the cubes of their average distances from the Sun. In equation form, this is</para>
+    <para id="import-auto-id3176881">The ratio of the squares of the periods of any two planets about the Sun is equal to the ratio of the cubes of their average distances from the Sun. In equation form, this is</para>
     <equation id="eip-976"><m:math>
         
           <m:mrow>
@@ -1265,13 +1265,13 @@
       <caption>(a) The Ptolemaic model of the universe has Earth at the center with the Moon, the planets, the Sun, and the stars revolving about it in complex superpositions of circular paths. This geocentric model, which can be made progressively more accurate by adding more circles, is purely descriptive, containing no hints as to what are the causes of these motions. (b) The Copernican model has the Sun at the center of the solar system. It is fully explained by a small number of laws of physics, including Newton’s universal law of gravitation.</caption></figure></para>
         </section>
      <section id="fs-id3028914" class="section-summary"><title>Section Summary</title><list id="fs-id2920738"><item id="import-auto-id1917658">Kepler’s laws are stated for a small mass <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> orbiting a larger mass <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> in near-isolation. Kepler’s laws of planetary motion are then as follows:
-    <para id="import-auto-id3089576" fo:font-weight="normal">Kepler’s first law</para>
-    <para id="import-auto-id1473158" fo:font-weight="normal">The orbit of each planet about the Sun is an ellipse with the Sun at one focus.</para>
-    <para id="import-auto-id1616197" fo:font-weight="normal">Kepler’s second law</para>
-    <para id="import-auto-id2057954" fo:font-weight="normal">Each planet moves so that an imaginary line drawn from the Sun to the planet sweeps out equal areas in equal times.</para>
-    <para id="import-auto-id2424236" fo:font-weight="normal">Kepler’s third law</para>
+    <para id="import-auto-id3089576">Kepler’s first law</para>
+    <para id="import-auto-id1473158">The orbit of each planet about the Sun is an ellipse with the Sun at one focus.</para>
+    <para id="import-auto-id1616197">Kepler’s second law</para>
+    <para id="import-auto-id2057954">Each planet moves so that an imaginary line drawn from the Sun to the planet sweeps out equal areas in equal times.</para>
+    <para id="import-auto-id2424236">Kepler’s third law</para>
     <para id="eip-id2449935">The ratio of the squares of the periods of any two planets about the Sun is equal to the ratio of the cubes of their average distances from the Sun:</para>
-    <equation id="eip-233"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:msubsup><m:mi>T</m:mi><m:mn>1</m:mn><m:mn> 2</m:mn></m:msubsup><m:msubsup><m:mi>T</m:mi><m:mn>2</m:mn><m:mn> 2</m:mn></m:msubsup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn> 3</m:mn></m:msubsup><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn> 3</m:mn></m:msubsup></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id2692252" fo:font-weight="normal">where <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> is the period (time for one orbit) and <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> is the average radius of the orbit.</para></item>
+    <equation id="eip-233"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:msubsup><m:mi>T</m:mi><m:mn>1</m:mn><m:mn> 2</m:mn></m:msubsup><m:msubsup><m:mi>T</m:mi><m:mn>2</m:mn><m:mn> 2</m:mn></m:msubsup></m:mfrac><m:mo stretchy="false">=</m:mo><m:mfrac><m:msubsup><m:mi>r</m:mi><m:mn>1</m:mn><m:mn> 3</m:mn></m:msubsup><m:msubsup><m:mi>r</m:mi><m:mn>2</m:mn><m:mn> 3</m:mn></m:msubsup></m:mfrac></m:mrow></m:mrow><m:mrow><m:mtext>,</m:mtext></m:mrow></m:mrow></m:math></equation><para id="import-auto-id2692252">where <m:math><m:mrow><m:mrow><m:mi>T</m:mi></m:mrow></m:mrow></m:math> is the period (time for one orbit) and <m:math><m:mrow><m:mrow><m:mi>r</m:mi></m:mrow></m:mrow></m:math> is the average radius of the orbit.</para></item>
     <item id="import-auto-id2492446">The period and radius of a satellite’s orbit about a larger body <m:math><m:mrow><m:mrow><m:mi>M</m:mi></m:mrow></m:mrow></m:math> are related by
     <equation id="eip-395"><m:math>
         
