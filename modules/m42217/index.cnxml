@@ -24,9 +24,6 @@
 
     <caption>When a molecule collides with a rigid wall, the component of its momentum perpendicular to the wall is reversed. A force is thus exerted on the wall, creating pressure.</caption></figure><para id="import-auto-id2351450"><link target-id="import-auto-id2722950"/> shows an elastic collision of a gas molecule with the wall of a container, so that it exerts a force on the wall (by Newton’s third law). Because a huge number of molecules will collide with the wall in a short time, we observe an average force per unit area. These collisions are the source of pressure in a gas. As the number of molecules increases, the number of collisions and thus the pressure increase. Similarly, the gas pressure is higher if the average velocity of molecules is higher. The actual relationship is derived in the <link target-id="fs-id1855032">Things Great and Small</link> feature below. The following relationship is found:</para><equation id="import-auto-id2724876">
       <m:math>
-        
-          <m:mrow>
-            <m:mrow>
               <m:mrow>
                 <m:mrow>
                   <m:mstyle fontstyle="italic">
@@ -48,16 +45,12 @@
                 <m:mover accent="true">
                   <m:msup>
                     <m:mi>v</m:mi>
-                    <m:mrow>
                       <m:mn>2</m:mn>
-                    </m:mrow>
                   </m:msup>
                   <m:mo>¯</m:mo>
                 </m:mover>
                                <m:mi>,</m:mi>
               </m:mrow>
-            </m:mrow>
-          </m:mrow>
       </m:math>
     </equation>
     <para id="import-auto-id2711749">where <m:math><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mrow></m:math> is the pressure (average force per unit area), <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the volume of gas in the container, <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> is the number of molecules in the container, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a molecule, and  <m:math><m:mrow><m:mover accent="true">
@@ -226,22 +219,15 @@
     <para id="import-auto-id2721740">where the bar over a quantity means its average value. We would like to have the force in terms of the speed <m:math><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow></m:mrow></m:math>, rather than the <m:math><m:mrow><m:mrow><m:mi>x</m:mi></m:mrow></m:mrow></m:math>-component of the velocity. We note that the total velocity squared is the sum of the squares of its components, so that</para>
     <equation id="import-auto-id2678150">
       <m:math>
-        
-          <m:mrow>
-            <m:mrow>
-              <m:mrow>
                 <m:mrow>
                   <m:mover accent="true">
                     <m:msup>
                       <m:mi>v</m:mi>
-                      <m:mrow>
                         <m:mn>2</m:mn>
-                      </m:mrow>
                     </m:msup>
                     <m:mo>¯</m:mo>
                   </m:mover>
                   <m:mo stretchy="false">=</m:mo>
-                  <m:mrow>
                     <m:mrow>
                       <m:mover accent="true"><m:msubsup>
                         <m:mi>v</m:mi>
@@ -256,27 +242,13 @@
                        </m:msubsup><m:mo>¯</m:mo></m:mover>
                     </m:mrow>
                     <m:mo stretchy="false">+</m:mo>
-                      <m:msubsup>
-                    <m:mover accent="true">
-                        <m:mi>v</m:mi>
-                      <m:mo>¯</m:mo>
-                    </m:mover>
-                        <m:mrow>
-                          <m:mi>z</m:mi>
-                        </m:mrow>
-                        <m:mrow>
-                          <m:mn>2</m:mn>
-                        </m:mrow>
-                      </m:msubsup>
-                  </m:mrow>
-                </m:mrow>
+                    <m:mover accent="true"><m:msubsup>
+                      <m:mi>v</m:mi>
+                         <m:mi>z</m:mi>
+                         <m:mn>2</m:mn>
+                     </m:msubsup><m:mo>¯</m:mo></m:mover>
                 <m:mtext>.</m:mtext>
-              </m:mrow>
-            </m:mrow>
-            <m:mrow/>
           </m:mrow>
-          
-        
       </m:math>
     </equation>
     <para id="import-auto-id1677915">Because the velocities are random, their average components in all directions are the same:</para>
@@ -296,18 +268,11 @@
                          <m:mn>2</m:mn>
                      </m:msubsup><m:mo>¯</m:mo></m:mover>
                   <m:mo stretchy="false">=</m:mo>
-                    <m:msubsup>
-                  <m:mover accent="true">
-                      <m:mi>v</m:mi>
-                    <m:mo>¯</m:mo>
-                  </m:mover>
-                      <m:mrow>
-                        <m:mi>z</m:mi>
-                      </m:mrow>
-                      <m:mrow>
-                        <m:mn>2</m:mn>
-                      </m:mrow>
-                    </m:msubsup>
+                  <m:mover accent="true"><m:msubsup>
+                    <m:mi>v</m:mi>
+                       <m:mi>z</m:mi>
+                       <m:mn>2</m:mn>
+                   </m:msubsup><m:mo>¯</m:mo></m:mover>
                 </m:mrow>
                 <m:mtext>.</m:mtext>
           </m:mrow>
