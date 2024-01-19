@@ -249,18 +249,11 @@
                            <m:mn>2</m:mn>
                        </m:msubsup><m:mo>¯</m:mo></m:mover>
                       <m:mo stretchy="false">+</m:mo>
-                        <m:msubsup>
-                      <m:mover accent="true">
-                          <m:mi>v</m:mi>
-                        <m:mo>¯</m:mo>
-                      </m:mover>
-                          <m:mrow>
-                            <m:mi>y</m:mi>
-                          </m:mrow>
-                          <m:mrow>
-                            <m:mn>2</m:mn>
-                          </m:mrow>
-                        </m:msubsup>
+                      <m:mover accent="true"><m:msubsup>
+                        <m:mi>v</m:mi>
+                           <m:mi>y</m:mi>
+                           <m:mn>2</m:mn>
+                       </m:msubsup><m:mo>¯</m:mo></m:mover>
                     </m:mrow>
                     <m:mo stretchy="false">+</m:mo>
                       <m:msubsup>
@@ -289,31 +282,19 @@
     <para id="import-auto-id1677915">Because the velocities are random, their average components in all directions are the same:</para>
     <equation id="import-auto-id2722120">
       <m:math>
-        
-          <m:mrow>
-            <m:mrow>
               <m:mrow>
                 <m:mrow>
-                  <m:mrow>
                     <m:mover accent="true"><m:msubsup>
                       <m:mi>v</m:mi>
                          <m:mi>x</m:mi>
                          <m:mn>2</m:mn>
                      </m:msubsup><m:mo>¯</m:mo></m:mover>
                     <m:mo stretchy="false">=</m:mo>
-                      <m:msubsup>
-                    <m:mover accent="true">
-                        <m:mi>v</m:mi>
-                      <m:mo>¯</m:mo>
-                    </m:mover>
-                        <m:mrow>
-                          <m:mi>y</m:mi>
-                        </m:mrow>
-                        <m:mrow>
-                          <m:mn>2</m:mn>
-                        </m:mrow>
-                      </m:msubsup>
-                  </m:mrow>
+                    <m:mover accent="true"><m:msubsup>
+                      <m:mi>v</m:mi>
+                         <m:mi>y</m:mi>
+                         <m:mn>2</m:mn>
+                     </m:msubsup><m:mo>¯</m:mo></m:mover>
                   <m:mo stretchy="false">=</m:mo>
                     <m:msubsup>
                   <m:mover accent="true">
@@ -329,8 +310,6 @@
                     </m:msubsup>
                 </m:mrow>
                 <m:mtext>.</m:mtext>
-              </m:mrow>
-            </m:mrow>
           </m:mrow>
       </m:math>
     </equation>
