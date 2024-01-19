@@ -45,29 +45,50 @@
                     <m:mtext>Nm</m:mtext>
                   </m:mrow>
                 </m:mstyle>
+                <m:mover accent="true">
                   <m:msup>
-           <m:mover accent="true">
-  <m:mi>v</m:mi>
-                       <m:mo>¯</m:mo>
-                </m:mover>
-<m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
                       <m:mn>2</m:mn>
                     </m:mrow>
                   </m:msup>
+                  <m:mo>¯</m:mo>
+                </m:mover>
                                <m:mi>,</m:mi>
               </m:mrow>
             </m:mrow>
-            <m:mrow/>
           </m:mrow>
-          
-        
       </m:math>
     </equation>
-    <para id="import-auto-id2711749">where <m:math><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mrow></m:math> is the pressure (average force per unit area), <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the volume of gas in the container, <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> is the number of molecules in the container, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a molecule, and <m:math><m:mrow><m:mrow><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mrow/></m:mrow></m:math> is the average of the molecular speed squared.</para>
+    <para id="import-auto-id2711749">where <m:math><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mrow></m:math> is the pressure (average force per unit area), <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the volume of gas in the container, <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> is the number of molecules in the container, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a molecule, and  <m:math><m:mrow><m:mover accent="true">
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mrow>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mo>¯</m:mo>
+    </m:mover></m:mrow></m:math> is the average of the molecular speed squared.</para>
     <para id="import-auto-id1564828">What can we learn from this atomic and molecular version of the ideal gas law? We can derive a relationship between temperature and the average translational kinetic energy of molecules in a gas. Recall the previous expression of the ideal gas law:</para>
     <equation id="import-auto-id1668609"><m:math><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow><m:mrow/></m:mrow></m:math></equation>
-    <para id="import-auto-id1861832">Equating the right-hand side of this equation with the right-hand side of <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> gives</para>
-    <equation id="import-auto-id1856370"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:mrow><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math></equation>
+    <para id="import-auto-id1861832">Equating the right-hand side of this equation with the right-hand side of <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>PV</m:mtext></m:mrow></m:mstyle><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:mover accent="true">
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mrow>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mo>¯</m:mo>
+    </m:mover></m:mrow></m:mrow></m:mrow></m:math> gives</para>
+    <equation id="import-auto-id1856370"><m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Nm</m:mtext></m:mrow></m:mstyle><m:mrow><m:mover accent="true">
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mrow>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mo>¯</m:mo>
+    </m:mover><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>NkT</m:mtext></m:mrow></m:mstyle></m:mrow><m:mo>.</m:mo></m:mrow></m:mrow></m:mrow></m:math></equation>
     <note id="fs-id1855032"><label/>
     <title>Making Connections: Things Great and Small—Atomic and Molecular Origin of Pressure in a Gas</title>
     <para id="import-auto-id2591427"><link target-id="import-auto-id2721592"/> shows a box filled with a gas. We know from our previous discussions that putting more gas into the box produces greater pressure, and that increasing the temperature of the gas also produces a greater pressure. But why should increasing the temperature of the gas increase the pressure in the box? A look at the atomic and molecular scale gives us some answers, and an alternative expression for the ideal gas law.</para>
@@ -228,17 +249,15 @@
             <m:mrow>
               <m:mrow>
                 <m:mrow>
-                    <m:msup>
                   <m:mover accent="true">
-
+                    <m:msup>
                       <m:mi>v</m:mi>
-
-                    <m:mo>¯</m:mo>
-                  </m:mover>
                       <m:mrow>
                         <m:mn>2</m:mn>
                       </m:mrow>
                     </m:msup>
+                    <m:mo>¯</m:mo>
+                  </m:mover>
                   <m:mo stretchy="false">=</m:mo>
                   <m:mrow>
                     <m:mrow>
@@ -353,20 +372,17 @@
     <para id="import-auto-id2637288">Thus,</para>
     <equation id="import-auto-id2710051">
       <m:math>
-        
-          <m:mrow>
-            <m:mrow>
               <m:mrow>
                 <m:mrow>
-                    <m:msup>
                   <m:mover accent="true">
+                    <m:msup>
                       <m:mi>v</m:mi>
-                    <m:mo>¯</m:mo>
-                  </m:mover>
                       <m:mrow>
                         <m:mn>2</m:mn>
                       </m:mrow>
                     </m:msup>
+                    <m:mo>¯</m:mo>
+                  </m:mover>
                   <m:mo stretchy="false">=</m:mo>
                   <m:mn>3</m:mn>
                 </m:mrow>
@@ -384,11 +400,6 @@
                   </m:msubsup>
                 <m:mi>,</m:mi>
               </m:mrow>
-            </m:mrow>
-            <m:mrow/>
-          </m:mrow>
-          
-        
       </m:math>
     </equation>
     <para id="import-auto-id1168465432798">or</para>
@@ -416,23 +427,28 @@
                     <m:mn>3</m:mn>
                   </m:mfrac>
                 </m:mrow>
-                  <m:msup>
                 <m:mover accent="true">
+                  <m:msup>
                     <m:mi>v</m:mi>
-                  <m:mo>¯</m:mo>
-                </m:mover>
                     <m:mrow>
                       <m:mn>2</m:mn>
                     </m:mrow>
                   </m:msup>
+                  <m:mo>¯</m:mo>
+                </m:mover>
               </m:mrow>
             </m:mrow><m:mo>.</m:mo>
-            <m:mrow/>
           </m:mrow>
-          
-        
       </m:math>
-    </equation><para id="import-auto-id1168465432639">Substituting <m:math><m:mrow><m:mrow><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> into the expression for <m:math><m:mrow><m:mrow><m:mi>F</m:mi></m:mrow></m:mrow></m:math> gives</para>
+    </equation><para id="import-auto-id1168465432639">Substituting <m:math><m:mrow><m:mfrac><m:mn>1</m:mn><m:mn>3</m:mn></m:mfrac><m:mover accent="true">
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mrow>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mo>¯</m:mo>
+    </m:mover></m:mrow></m:math> into the expression for <m:math><m:mrow><m:mi>F</m:mi></m:mrow></m:math> gives</para>
     <equation id="import-auto-id1168465431989"><m:math>
         
           <m:mrow>
@@ -446,25 +462,22 @@
                 <m:mfrac>
                   <m:mrow>
                     <m:mi>m</m:mi>
-                      <m:msup>
                     <m:mover accent="true">
-                        <m:mi>v</m:mi>
-                      <m:mo>¯</m:mo>
-                    </m:mover>
-                        <m:mrow>
-                          <m:mn>2</m:mn>
-                        </m:mrow>
-                      </m:msup>
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>¯</m:mo>
+                </m:mover>
                   </m:mrow>
                   <m:mrow><m:mn>3</m:mn><m:mi>l</m:mi></m:mrow>
                 </m:mfrac>
                 <m:mtext>.</m:mtext>
               </m:mrow>
             </m:mrow>
-            <m:mrow/>
           </m:mrow>
-          
-        
       </m:math>
     </equation><para id="import-auto-id1168465431996">The pressure is <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>F</m:mi><m:mo stretchy="false">/</m:mo><m:mi>A</m:mi></m:mrow><m:mi>,</m:mi></m:mrow></m:mrow></m:mrow></m:math> so that we obtain</para>
     <equation id="import-auto-id1168465432010">
@@ -489,15 +502,15 @@
                   <m:mfrac>
                     <m:mrow>
                       <m:mi>m</m:mi>
-                        <m:msup>
                       <m:mover accent="true">
+                        <m:msup>
                           <m:mi>v</m:mi>
-                        <m:mo>¯</m:mo>
-                      </m:mover>
                           <m:mrow>
                             <m:mn>2</m:mn>
                           </m:mrow>
                         </m:msup>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
                     </m:mrow>
                     <m:mrow>
                       <m:mn>3</m:mn>
@@ -521,15 +534,15 @@
                         <m:mtext>Nm</m:mtext>
                       </m:mrow>
                     </m:mstyle>
-                      <m:msup>
                     <m:mover accent="true">
+                      <m:msup>
                         <m:mi>v</m:mi>
-                      <m:mo>¯</m:mo>
-                    </m:mover>
                         <m:mrow>
                           <m:mn>2</m:mn>
                         </m:mrow>
                       </m:msup>
+                      <m:mo>¯</m:mo>
+                    </m:mover>
                   </m:mrow>
                   <m:mi>V</m:mi>
                 </m:mfrac>
@@ -545,9 +558,6 @@
     <para id="import-auto-id1168465435699">where we used <m:math><m:mrow><m:mrow><m:mrow><m:mi>V</m:mi><m:mo stretchy="false">=</m:mo><m:mstyle fontstyle="italic"><m:mrow><m:mtext>Al</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:math> for the volume. This gives the important result.</para>
     <equation id="import-auto-id1168465435715">
       <m:math>
-        
-          <m:mrow>
-            <m:mrow>
               <m:mrow>
                 <m:mrow>
                   <m:mstyle fontstyle="italic">
@@ -566,18 +576,16 @@
                     <m:mtext>Nm</m:mtext>
                   </m:mrow>
                 </m:mstyle>
-                  <m:msup>
                 <m:mover accent="true">
+                  <m:msup>
                     <m:mi>v</m:mi>
-                  <m:mo>¯</m:mo>
-                </m:mover>
                     <m:mrow>
                       <m:mn>2</m:mn>
                     </m:mrow>
                   </m:msup>
+                  <m:mo>¯</m:mo>
+                </m:mover>
               </m:mrow>
-            </m:mrow>
-          </m:mrow>
       </m:math>
     </equation>
     <para id="import-auto-id1168465435706">This equation is another expression of the ideal gas law.</para>
@@ -600,16 +608,15 @@
                   </m:mfrac>
                 </m:mrow>
                 <m:mi>m</m:mi>
-                <m:mrow>
-                    <m:msup>                  <m:mover accent="true">
-
-                      <m:mi>v</m:mi>
-                    <m:mo>¯</m:mo>
-                  </m:mover>
-                      <m:mrow>
-                        <m:mn>2</m:mn>
-                      </m:mrow>
-                    </m:msup>
+                <m:mrow><m:mover accent="true">
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>¯</m:mo>
+                </m:mover>
                   <m:mo stretchy="false">=</m:mo>
                   <m:mfrac>
                     <m:mn>3</m:mn>
@@ -624,30 +631,32 @@
               </m:mrow>
             </m:mrow>
           </m:mrow>
-          
-        
       </m:math>
     </equation>
-    <para id="import-auto-id1168465439605">The average translational kinetic energy of a molecule, <m:math><m:mrow><m:mrow><m:mover accent="true"><m:mtext>KE</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow></m:mrow></m:math>, is called <term id="import-auto-id1168465432457">thermal energy</term><emphasis effect="bold">.</emphasis> The equation <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>m</m:mi><m:mrow><m:mrow><m:msup><m:mover accent="true"><m:mi>v</m:mi><m:mo>¯</m:mo></m:mover><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:math> is a molecular interpretation of temperature, and it has been found to be valid for gases and reasonably accurate in liquids and solids. It is another definition of temperature based on an expression of the molecular energy.</para>
+    <para id="import-auto-id1168465439605">The average translational kinetic energy of a molecule, <m:math><m:mrow><m:mover accent="true"><m:mtext>KE</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow></m:math>, is called <term id="import-auto-id1168465432457">thermal energy</term>. The equation <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>m</m:mi><m:mrow><m:mrow><m:mover accent="true">
+      <m:msup>
+        <m:mi>v</m:mi>
+        <m:mrow>
+          <m:mn>2</m:mn>
+        </m:mrow>
+      </m:msup>
+      <m:mo>¯</m:mo>
+    </m:mover></m:mrow><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:math> is a molecular interpretation of temperature, and it has been found to be valid for gases and reasonably accurate in liquids and solids. It is another definition of temperature based on an expression of the molecular energy.</para>
     <para id="import-auto-id1168465432578">It is sometimes useful to rearrange <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mover accent="true"><m:mrow><m:mtext>KE</m:mtext></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mi>m</m:mi><m:mrow><m:mover accent="true"><m:mrow><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow><m:mo>¯</m:mo></m:mover><m:mo stretchy="false">=</m:mo><m:mfrac><m:mn>3</m:mn><m:mn>2</m:mn></m:mfrac></m:mrow><m:mstyle fontstyle="italic"><m:mrow><m:mtext>kT</m:mtext></m:mrow></m:mstyle></m:mrow></m:mrow></m:mrow></m:math><emphasis effect="bold">,</emphasis> and solve for the average speed of molecules in a gas in terms of temperature, </para>
     <equation id="import-auto-id1168465432540">
       <m:math>
-        
-          <m:mrow>
-            <m:mrow>
-              <m:mrow>
                 <m:mrow>
                   <m:mrow>
                     <m:msqrt>
-                        <m:msup>
                       <m:mover accent="true">
+                        <m:msup>
                           <m:mi>v</m:mi>
-                        <m:mo>¯</m:mo>
-                      </m:mover>
                           <m:mrow>
                             <m:mn>2</m:mn>
                           </m:mrow>
                         </m:msup>
+                        <m:mo>¯</m:mo>
+                      </m:mover>
                     </m:msqrt>
                     <m:mo stretchy="false">=</m:mo>
                     <m:msub>
@@ -671,13 +680,8 @@
                       <m:mi>m</m:mi>
                     </m:mfrac>
                   </m:msqrt>
-                </m:mrow>
                 <m:mi>,</m:mi>
               </m:mrow>
-            </m:mrow>
-          </m:mrow>
-          
-        
       </m:math>
     </equation>
     <para id="import-auto-id1168465432560">where <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>rms</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> stands for root-mean-square (rms) speed. </para>
@@ -705,16 +709,15 @@
                   </m:mfrac>
                 </m:mrow>
                 <m:mi>m</m:mi>
-                <m:mrow>
-                    <m:msup>
-                  <m:mover accent="true">
-                      <m:mi>v</m:mi>
-                    <m:mo>¯</m:mo>
-                  </m:mover>
-                      <m:mrow>
-                        <m:mn>2</m:mn>
-                      </m:mrow>
-                    </m:msup>
+                <m:mrow><m:mover accent="true">
+                  <m:msup>
+                    <m:mi>v</m:mi>
+                    <m:mrow>
+                      <m:mn>2</m:mn>
+                    </m:mrow>
+                  </m:msup>
+                  <m:mo>¯</m:mo>
+                </m:mover>
                   <m:mo stretchy="false">=</m:mo>
                   <m:mfrac>
                     <m:mn>3</m:mn>
@@ -765,10 +768,8 @@
                 </m:mrow>
                 <m:mfenced open="(" close=")">
                   <m:mrow>
-                    <m:mn>1</m:mn>
-                    <m:mtext>.</m:mtext>
+                    <m:mn>1.38</m:mn>
                     <m:mrow>
-                      <m:mtext>38</m:mtext>
                       <m:mo stretchy="false">×</m:mo>
                       <m:msup>
                         <m:mtext>10</m:mtext>
@@ -791,11 +792,9 @@
                     </m:mrow>
                   </m:mfenced>
                   <m:mo stretchy="false">=</m:mo>
-                  <m:mn>6</m:mn>
+                  <m:mn>6.07</m:mn>
                 </m:mrow>
-                <m:mtext>.</m:mtext>
                 <m:mrow>
-                  <m:mtext>07</m:mtext>
                   <m:mo stretchy="false">×</m:mo>
                   <m:msup>
                     <m:mtext>10</m:mtext>
@@ -823,22 +822,17 @@
     <para id="import-auto-id1168465431852">Finding the rms speed of a nitrogen molecule involves a straightforward calculation using the equation</para>
     <equation id="import-auto-id1168465431854">
       <m:math>
-        
-          <m:mrow>
-            <m:mrow>
-              <m:mrow>
                 <m:mrow>
                   <m:mrow>
-                    <m:msqrt>
-                        <m:msup>
-                      <m:mover accent="true">
-                          <m:mi>v</m:mi>
-                        <m:mo>¯</m:mo>
-                      </m:mover>
-                          <m:mrow>
-                            <m:mn>2</m:mn>
-                          </m:mrow>
-                        </m:msup>
+                    <m:msqrt><m:mover accent="true">
+                      <m:msup>
+                        <m:mi>v</m:mi>
+                        <m:mrow>
+                          <m:mn>2</m:mn>
+                        </m:mrow>
+                      </m:msup>
+                      <m:mo>¯</m:mo>
+                    </m:mover>
                     </m:msqrt>
                     <m:mo stretchy="false">=</m:mo>
                     <m:msub>
@@ -862,10 +856,7 @@
                       <m:mi>m</m:mi>
                     </m:mfrac>
                   </m:msqrt>
-                </m:mrow>
                 <m:mi>,</m:mi>
-              </m:mrow>
-            </m:mrow>
           </m:mrow>          
       </m:math>
     </equation>
@@ -1541,13 +1532,18 @@ where <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math> is the B
                 <m:mi>,</m:mi>
               </m:mrow>
             </m:mrow>
-            <m:mrow/>
           </m:mrow>
-          
-        
       </m:math>
     </equation>
-where <m:math><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mrow></m:math> is the pressure (average force per unit area), <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the volume of gas in the container, <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> is the number of molecules in the container, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a molecule, and <m:math><m:mrow><m:mrow><m:mover accent="true"><m:msup><m:mi>v</m:mi><m:mrow><m:mn>2</m:mn></m:mrow></m:msup><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math> is the average of the molecular speed squared.
+where <m:math><m:mrow><m:mrow><m:mi>P</m:mi></m:mrow></m:mrow></m:math> is the pressure (average force per unit area), <m:math><m:mrow><m:mrow><m:mi>V</m:mi></m:mrow></m:mrow></m:math> is the volume of gas in the container, <m:math><m:mrow><m:mrow><m:mi>N</m:mi></m:mrow></m:mrow></m:math> is the number of molecules in the container, <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> is the mass of a molecule, and <m:math><m:mrow><m:mover accent="true">
+  <m:msup>
+    <m:mi>v</m:mi>
+    <m:mrow>
+      <m:mn>2</m:mn>
+    </m:mrow>
+  </m:msup>
+  <m:mo>¯</m:mo>
+</m:mover></m:mrow></m:math> is the average of the molecular speed squared.
     </item>
     <item id="import-auto-id1168465434827">Thermal energy is defined to be the average translational kinetic energy <m:math><m:mrow><m:mrow><m:mover accent="true"><m:mtext>KE</m:mtext><m:mo>¯</m:mo></m:mover></m:mrow><m:mrow/></m:mrow></m:math> of an atom or molecule.</item>
     <item id="import-auto-id1168465434957">The temperature of gases is proportional to the average translational kinetic energy of atoms and molecules.
