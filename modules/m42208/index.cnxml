@@ -40,7 +40,7 @@
 
 <example id="fs-id3098210">
         <title>Calculating Pressure: A Fire Hose Nozzle</title>
-        <para id="import-auto-id3449786">Fire hoses used in major structure fires have inside diameters of 6.40 cm. Suppose such a hose carries a flow of 40.0 L/s starting at a gauge pressure of <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>62</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math>. The hose goes 10.0 m up a ladder to a nozzle having an inside diameter of 3.00 cm. Assuming negligible resistance, what is the pressure in the nozzle?</para><para id="import-auto-id2444947">
+        <para id="import-auto-id3449786">Fire hoses used in major structure fires have inside diameters of 6.40 cm. Suppose such a hose carries a flow of 40.0 L/s starting at a gauge pressure of <m:math><m:mrow><m:mrow><m:mrow><m:mn>1</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>62</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>6</m:mn></m:mrow></m:msup></m:mrow><m:mspace width="0.25em"/><m:msup><m:mtext>N/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math>. The hose goes 10.0 m up a ladder to a nozzle having an inside diameter of 3.00 cm. Assuming negligible resistance, what is the initial water pressure at the base of the hose?</para><para id="import-auto-id2444947">
             <title>Strategy</title>
         </para>
         <para id="import-auto-id3437366">Here we must use Bernoulli’s equation to solve for the pressure, since depth is not constant. </para>
@@ -121,18 +121,16 @@
   </m:msubsup>
  </m:mrow>
 </m:mfenced>
-<m:mrow><m:mo stretchy="false">−</m:mo><m:mi>ρ</m:mi></m:mrow><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">gh</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow></m:math></equation><para id="import-auto-id2423968">Substituting known values yields</para>
+<m:mrow><m:mo stretchy="false">−</m:mo><m:mi>ρ</m:mi></m:mrow><m:mstyle><m:mrow><m:msub><m:mtext fontstyle="italic">gh</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msub></m:mrow></m:mstyle></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow></m:math></equation>
+<para id="import-auto-id2423968">In the proposed solution, <m:math><m:mrow><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo>=</m:mo><m:mn>0</m:mn></m:mrow></m:math>, so</para>
         <equation id="fs-id1890319"><m:math>
 
 	<m:mrow>
 <m:mtable><m:mtr><m:mtd>
-	<m:mrow><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">=</m:mo></m:mrow></m:mtd></m:mtr>
+	<m:mrow><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub><m:mo>–</m:mo><m:msub><m:mi>P</m:mi><m:mn>2</m:mn></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>P</m:mi><m:mn>1</m:mn></m:msub></m:mrow></m:mtd></m:mtr>
 
-<m:mtr><m:mtd><m:mn>1.62</m:mn>
-<m:mo stretchy="false">×</m:mo>
-<m:msup><m:mtext>10</m:mtext><m:mn>6</m:mn></m:msup><m:mspace width="0.2em"/>
-<m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup>
-<m:mo stretchy="false">+</m:mo>
+<m:mtr><m:mtd>
+<m:mo stretchy="false">=</m:mo>
 <m:mfrac><m:mn>1</m:mn><m:mn>2</m:mn></m:mfrac>
 <m:mo stretchy="false">(</m:mo><m:mtext>1000</m:mtext><m:mspace width="0.2em"/>
 <m:msup><m:mtext>kg/m</m:mtext><m:mn>3</m:mn></m:msup>
@@ -149,7 +147,7 @@
 <m:mtext>m</m:mtext><m:mo stretchy="false">)</m:mo></m:mtd></m:mtr>
 
 <m:mtr><m:mtd>
-<m:mo stretchy="false">≈</m:mo><m:mn>1800</m:mn><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>.</m:mtext></m:mtd></m:mtr>
+<m:mo stretchy="false">≈</m:mo><m:mn>1.62</m:mn><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mtext>6</m:mtext></m:msup><m:mspace width="0.2em"/><m:msup><m:mtext>N/m</m:mtext><m:mn>2</m:mn></m:msup><m:mtext>.</m:mtext></m:mtd></m:mtr>
 
 	</m:mtable>
 		</m:mrow>
