@@ -66,7 +66,8 @@
     <para id="import-auto-id1559154">One of the solar technologies used today for generating electricity is a device (called a parabolic trough or concentrating collector) that concentrates the sunlight onto a blackened pipe that contains a fluid. This heated fluid is pumped to a heat exchanger, where its heat energy is transferred to another system that is used to generate steam—and so generate electricity through a conventional steam cycle. <link target-id="import-auto-id1946017"/> shows such a working system in southern California. Concave mirrors are used to concentrate the sunlight onto the pipe. The mirror has the approximate shape of a section of a cylinder. For the problem, assume that the mirror is exactly one-quarter of a full cylinder.</para><list id="fs-id1973036" list-type="enumerated" number-style="lower-alpha"><item id="import-auto-id1672348">If we wish to place the fluid-carrying pipe 40.0 cm from the concave mirror at the mirror’s focal point, what will be the radius of curvature of the mirror?</item>
     <item id="import-auto-id2635573">Per meter of pipe, what will be the amount of sunlight concentrated onto the pipe, assuming the insolation (incident solar radiation) is <m:math><m:mrow><m:mrow><m:mrow><m:mtext>0.900 k</m:mtext><m:msup><m:mtext> W/m</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math>? </item>
     <item id="import-auto-id2555045">If the fluid-carrying pipe has a 2.00-cm diameter, what will be the temperature increase of the fluid per meter of pipe over a period of one minute? Assume all the solar radiation incident on the reflector is absorbed by the pipe, and that the fluid is mineral oil.</item>
-    </list><para id="import-auto-id2997634">
+    </list>
+    <para id="import-auto-id2997634">
       <title>Strategy</title>
     </para>
     <para id="import-auto-id2636709">To solve an <emphasis effect="italics">Integrated Concept Problem</emphasis> we must first identify the physical principles involved. Part (a) is related to the current topic. Part (b) involves a little math, primarily geometry. Part (c) requires an understanding of heat and density. </para><para id="import-auto-id2727760">
@@ -138,7 +139,8 @@
 </m:mtd>
 </m:mtr>
 </m:mtable>
-</m:mrow></m:math></equation><para id="import-auto-id2559675">
+</m:mrow></m:math></equation>
+<para id="import-auto-id2559675">
       <title>Discussion for (c)</title>
     </para>
     <para id="import-auto-id2996485">An array of such pipes in the California desert can provide a thermal output of 250 MW on a sunny day, with fluids reaching temperatures as high as <m:math><m:mrow><m:mrow><m:mrow><m:mtext>400º</m:mtext><m:mtext>C</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. We are considering only one meter of pipe here, and ignoring heat losses along the pipe. </para><figure id="import-auto-id1946017"><media id="import-auto-id2634221" alt="A parabolic trough solar thermal electric power plant located at Kramer Junction, California">
@@ -146,14 +148,19 @@
       </media>
 
     <caption>Parabolic trough collectors are used to generate electricity in southern California. (credit: kjkolb, Wikimedia Commons)
-      </caption></figure><para id="import-auto-id1954944">What happens if an object is closer to a concave mirror than its focal length? This is analogous to a case 2 image for lenses (
+      </caption></figure>
+      
+      </example>
+<para id="import-auto-id1954944">What happens if an object is closer to a concave mirror than its focal length? This is analogous to a case 2 image for lenses (
 <m:math>
 <m:mrow>
 <m:msub>
 <m:mi>d</m:mi><m:mtext>o</m:mtext>
 </m:msub>
 <m:mo>	&lt;</m:mo><m:mi>f</m:mi>
-</m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math> positive), which is a magnifier. In fact, this is how makeup mirrors act as magnifiers. <link target-id="import-auto-id1221857"/>(a) uses ray tracing to locate the image of an object placed close to a concave mirror. Rays from a common point on the object are reflected in such a manner that they appear to be coming from behind the mirror, meaning that the image is virtual and cannot be projected. As with a magnifying glass, the image is upright and larger than the object. This is a <emphasis effect="italics">case 2 image for mirrors</emphasis> and is exactly analogous to that for lenses.</para><figure id="import-auto-id1221857"><media id="import-auto-id1351569" alt="Figure (a) shows three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 is from focal point F. These rays after reflection appear to come from a point above the axis. The image is erect and enlarged, and falls above the axis behind the mirror. Here, the distance from the center of the mirror to F is focal length small f, distances of the object and the image from the mirror are d sub o  and d sub I, respectively. The heights of the object and the image are h sub o and h sub i, respectively. Figure (b) shows a woman applying makeup looking into her magnified reflection in the concave mirror.">
+</m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math> positive), which is a magnifier. In fact, this is how makeup mirrors act as magnifiers. <link target-id="import-auto-id1221857"/>(a) uses ray tracing to locate the image of an object placed close to a concave mirror. Rays from a common point on the object are reflected in such a manner that they appear to be coming from behind the mirror, meaning that the image is virtual and cannot be projected. As with a magnifying glass, the image is upright and larger than the object. This is a <emphasis effect="italics">case 2 image for mirrors</emphasis> and is exactly analogous to that for lenses.</para>
+
+<figure id="import-auto-id1221857"><media id="import-auto-id1351569" alt="Figure (a) shows three incident rays, 1, 2, and 3, falling on a concave mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 is from focal point F. These rays after reflection appear to come from a point above the axis. The image is erect and enlarged, and falls above the axis behind the mirror. Here, the distance from the center of the mirror to F is focal length small f, distances of the object and the image from the mirror are d sub o  and d sub I, respectively. The heights of the object and the image are h sub o and h sub i, respectively. Figure (b) shows a woman applying makeup looking into her magnified reflection in the concave mirror.">
         <image mime-type="image/png" src="../../media/Figure 26_07_06.jpg" width="350"/>
       </media>
 
@@ -161,8 +168,7 @@
     <para id="import-auto-id2749249">A convex mirror is a diverging mirror (<m:math><m:mrow><m:mrow><m:mi>f</m:mi></m:mrow></m:mrow></m:math> is negative) and forms only one type of image. It is a <emphasis effect="italics">case 3</emphasis> image—one that is upright and smaller than the object, just as for diverging lenses. <link target-id="import-auto-id2979645"/>(a) uses ray tracing to illustrate the location and size of the case 3 image for mirrors. Since the image is behind the mirror, it cannot be projected and is thus a virtual image. It is also seen to be smaller than the object.</para><figure id="import-auto-id2979645"><media id="import-auto-id3088567" alt="Figure (a) shows three incident rays, 1, 2, and 3, falling on a convex mirror. Ray 1 falls parallel, ray 2 falls making an angle with the axis, and ray 3 falls obliquely. These rays after reflection appear to come from a point above the axis. The image is erect and diminished and falls above the axis behind the mirror. Here, the distance from the center of the mirror to focal point F is the focal length small f behind the mirror; the distances of the object and the image from the mirror are d sub o and d sub I, respectively. The heights of the object and the image are h sub o and h sub I, respectively. Figure (b) shows an image of a apparel and clothing show room as viewed in a convex mirror; the image appears to be small in size.">
         <image mime-type="image/jpg" src="../../media/Figure 26_07_07.jpg" width="275"/>
       </media>
-    <caption>Case 3 images for mirrors are formed by any convex mirror. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 approaches toward the focal point. All three rays appear to originate from the same point after being reflected, locating the upright virtual image behind the mirror and showing it to be smaller than the object. (b) Security mirrors are convex, producing a smaller, upright image. Because the image is smaller, a larger area is imaged compared to what would be observed for a flat mirror (and hence security is improved). (credit: Laura D’Alessandro, Flickr)</caption></figure></example>
-
+    <caption>Case 3 images for mirrors are formed by any convex mirror. Ray 1 approaches parallel to the axis, ray 2 strikes the center of the mirror, and ray 3 approaches toward the focal point. All three rays appear to originate from the same point after being reflected, locating the upright virtual image behind the mirror and showing it to be smaller than the object. (b) Security mirrors are convex, producing a smaller, upright image. Because the image is smaller, a larger area is imaged compared to what would be observed for a flat mirror (and hence security is improved). (credit: Laura D’Alessandro, Flickr)</caption></figure>
     <example id="fs-id2837614">
     <title>Image in a Convex Mirror</title>
     <para id="import-auto-id3040127">A keratometer is a device used to measure the curvature of the cornea, particularly for fitting contact lenses. Light is reflected from the cornea, which acts like a convex mirror, and the keratometer measures the magnification of the image. The smaller the magnification, the smaller the radius of curvature of the cornea. If the light source is 12.0 cm from the cornea and the image’s magnification is 0.0320, what is the cornea’s radius of curvature?</para>
