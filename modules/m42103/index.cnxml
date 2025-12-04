@@ -412,56 +412,44 @@
     <para id="import-auto-id1510856">(b) <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:msup><m:mtext>0 m/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math></para>
     </solution>
     </exercise>
-    <exercise id="fs-id4012994" type="problems-exercises"><problem id="fs-id4012996"><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2006034">Using approximate values, calculate the slope of the curve in <link target-id="import-auto-id4122996"/> to verify that the velocity at <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>30.0 s</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> is approximately 0.24 m/s. Assume all values are known to 2 significant figures.</para><figure id="import-auto-id4122996"><media id="import-auto-id2015268" alt="Line graph of position versus time. Line is straight with a positive slope.">
+    <exercise id="fs-id4012994" type="problems-exercises"><problem id="fs-id4012996">    <para id="import-auto-id1761648">(a) Using approximate values, calculate the slope of the curve in <link target-id="import-auto-id4122996"/> to verify that the velocity at <m:math xmlns:m="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10 s</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> is approximately 0.21 m/s.</para></problem></exercise>
+
+    <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1770908" type="problems-exercises"><problem id="fs-id1770911"><para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id2006034">Using approximate values, calculate the slope of the curve in <link target-id="import-auto-id4122996"/> at <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10.0 s</m:mtext></m:mrow></m:math> and at <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>30 s</m:mtext></m:mrow></m:math> find the velocity at these times. (b) Using your answer to part a, find the approximate acceleration at <m:math><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>20 s</m:mtext></m:mrow></m:math>. Assume all values are known to 2 significant figures.</para><figure id="import-auto-id4122996"><media id="import-auto-id2015268" alt="Line graph of position versus time. Line is straight with a positive slope.">
         <image mime-type="image/jpg" src="../../media/Figure_02_08Sol_13-ecd0.jpg"/>
       </media>
-    </figure></problem></exercise>
-    <exercise xmlns:m="http://www.w3.org/1998/Math/MathML" id="fs-id1770908" type="problems-exercises"><problem id="fs-id1770911">    <para id="import-auto-id1761648">Using approximate values, calculate the slope of the curve in <link target-id="import-auto-id4122996"/> to verify that the velocity at <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>30.0 s</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math> is approximately 0.24 m/s.</para></problem>
+    </figure></problem>
 <solution id="fs-id1707522">
-    <equation id="eip-id2453534"><m:math>
-
-          <m:mrow>
-            <m:mrow>
-              <m:mrow>
-                <m:mrow>
+    <equation id="eip-id2453534">
+      (a)At <m:math>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>10</m:mn>
+                  </m:mrow>
+      </m:math>,  
+      <m:math>
                   <m:mrow>
                     <m:mi>v</m:mi>
                     <m:mo stretchy="false">=</m:mo>
-                    <m:mfrac>
-                      <m:mrow>
-                        <m:mo stretchy="false">(</m:mo>
-                        <m:mtext>11.7</m:mtext>
-                          <m:mo stretchy="false">−</m:mo>
-                          <m:mn>6.95</m:mn>
-                          <m:mo stretchy="false">)</m:mo>
-                          <m:mo stretchy="false">×</m:mo>
-                          <m:msup>
-                            <m:mtext>10</m:mtext>
-                            <m:mrow>
-                              <m:mn>3</m:mn>
-                            </m:mrow>
-                          </m:msup><m:mspace width="0.25em"/>
-                        <m:mtext> m</m:mtext>
-                      </m:mrow>
-                      <m:mrow>
-                        <m:mo stretchy="false">(</m:mo>
-                        <m:mn>40</m:mn>
-                        <m:mtext>.</m:mtext>
-                        <m:mtext>0 – 20</m:mtext>
-                        <m:mn>.0</m:mn>
-                        <m:mo stretchy="false">)</m:mo><m:mspace width="0.25em"/>
-                        <m:mtext> s</m:mtext>
-                      </m:mrow>
-                    </m:mfrac>
+                    <m:mn>0.208</m:mn><m:mspace width="0.2em"/>
+                    <m:mtext>m/s</m:mtext>
                   </m:mrow>
-                  <m:mo stretchy="false">=</m:mo>
-                  <m:mtext>238 m/s</m:mtext>
-                </m:mrow>
-              </m:mrow>
-            </m:mrow>
-          </m:mrow>
+      </m:math>; at <m:math>
+                  <m:mrow>
+                    <m:mi>t</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>30</m:mn>
+                  </m:mrow>
+      </m:math>,  
+      <m:math>
+                  <m:mrow>
+                    <m:mi>v</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>0.238</m:mn><m:mspace width="0.2em"/>
+                    <m:mtext>m/s</m:mtext>
+                  </m:mrow>
+      </m:math>. (b) 0.0015 m/s<sup>2</sup>
 
-      </m:math>
     </equation></solution>
     </exercise><exercise id="fs-id2475925" type="problems-exercises"><problem id="fs-id1744756">    <para xmlns:m="http://www.w3.org/1998/Math/MathML" id="import-auto-id1743717">By taking the slope of the curve in <link target-id="import-auto-id3552017"/>, verify that the acceleration is <m:math><m:mrow><m:mrow><m:mrow><m:mn>3</m:mn><m:mtext>.</m:mtext><m:mn>2 m</m:mn><m:msup><m:mtext>/s</m:mtext><m:mrow><m:mn>2</m:mn></m:mrow></m:msup></m:mrow></m:mrow></m:mrow></m:math> at <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>t</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>10 s</m:mtext></m:mrow></m:mrow></m:mrow></m:mrow></m:math>.</para><figure id="import-auto-id3552017"><media id="import-auto-id3552018" alt="Line graph of velocity versus time. Line has a positive slope that decreases over time until the line flattens out.">
         <image mime-type="image/jpg" src="../../media/Figure_02_08Sol_14-c77c.jpg"/>
