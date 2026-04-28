@@ -439,36 +439,23 @@
 
       </m:math>
     </equation><para id="import-auto-id1411419">where</para>
-    <equation id="eip-582"><m:math>
-
-          <m:mrow>
-
-              <m:mrow>
-                <m:mrow>
+    <equation id="eip-582"><m:math><m:mrow>
 <m:msub>
                   <m:mi>v</m:mi>
 <m:mtext>max</m:mtext>
 </m:msub>
-                  <m:mrow>
-
-
 
                     <m:mo stretchy="false">=</m:mo>
+                                      <m:mi>X</m:mi>
+
                     <m:msqrt>
                       <m:mfrac>
                         <m:mi>k</m:mi>
                         <m:mi>m</m:mi>
                       </m:mfrac>
                     </m:msqrt>
-                  </m:mrow>
-                  <m:mi>X</m:mi>
-                </m:mrow>
-              </m:mrow>
             <m:mo>.</m:mo>
-            <m:mrow/>
-          </m:mrow>
-
-
+                  </m:mrow>
       </m:math>
     </equation><para id="import-auto-id2680435">From this expression, we see that the velocity is a maximum (<m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub></m:mrow></m:mrow></m:math>) at <m:math><m:mrow><m:mrow><m:mrow><m:mi>x</m:mi><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow></m:mrow></m:math>, as stated earlier in <m:math><m:mrow><m:mrow><m:mrow><m:mi>v</m:mi><m:mrow><m:mfenced open="(" close=")"><m:mi>t</m:mi></m:mfenced><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo></m:mrow></m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mspace width="0.25em"/><m:mtext>sin</m:mtext><m:mspace width="0.25em"/><m:mfrac><m:mrow><m:mn>2π</m:mn><m:mi>t</m:mi></m:mrow><m:mi>T</m:mi></m:mfrac></m:mrow></m:mrow></m:mrow></m:math><emphasis effect="italics">.</emphasis> Notice that the maximum velocity depends on three factors. Maximum velocity is directly proportional to amplitude. As you might guess, the greater the maximum displacement the greater the maximum velocity. Maximum velocity is also greater for stiffer systems, because they exert greater force for the same displacement. This observation is seen in the expression for <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub><m:mo>;</m:mo></m:mrow></m:mrow></m:math> it is proportional to the square root of the force constant <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math>. Finally, the maximum velocity is smaller for objects that have larger masses, because the maximum velocity is inversely proportional to the square root of <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math>. For a given force, objects that have large masses accelerate more slowly.</para><para id="import-auto-id3032330">A similar calculation for the simple pendulum produces a similar result, namely:</para>
     <equation id="eip-468"><m:math>
@@ -516,7 +503,7 @@
     <para id="import-auto-id2404667">Suppose that a car is 900 kg and has a suspension system that has a force constant <m:math><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>k</m:mi><m:mo stretchy="false">=</m:mo><m:mn>6</m:mn></m:mrow><m:mtext>.</m:mtext><m:mrow><m:mtext>53</m:mtext><m:mo stretchy="false">×</m:mo><m:msup><m:mtext>10</m:mtext><m:mrow><m:mn>4</m:mn></m:mrow></m:msup></m:mrow><m:mi/><m:mspace width="0.25em"/><m:mtext>N/m</m:mtext></m:mrow></m:mrow></m:mrow></m:math>. The car hits a bump and bounces with an amplitude of 0.100 m. What is its maximum vertical velocity if you assume no damping occurs?</para><para id="import-auto-id1916813">
       <title>Strategy</title>
     </para>
-    <para id="import-auto-id3073556">We can use the expression for <m:math><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:math> given in <m:math><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mrow><m:mrow/><m:mo stretchy="false">=</m:mo><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:mrow></m:math> to determine the maximum vertical velocity. The variables <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math> are given in the problem statement, and the maximum displacement <m:math><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:math> is 0.100 m.</para><para id="import-auto-id953457">
+    <para id="import-auto-id3073556">We can use the expression for <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>max</m:mtext></m:mrow></m:msub></m:mrow></m:math> given in <m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow></m:math> to determine the maximum vertical velocity. The variables <m:math><m:mrow><m:mrow><m:mi>m</m:mi></m:mrow></m:mrow></m:math> and <m:math><m:mrow><m:mrow><m:mi>k</m:mi></m:mrow></m:mrow></m:math> are given in the problem statement, and the maximum displacement <m:math><m:mrow><m:mrow><m:mi>X</m:mi></m:mrow></m:mrow></m:math> is 0.100 m.</para><para id="import-auto-id953457">
       <title>Solution</title>
     </para>
     <list id="fs-id1366090" list-type="enumerated" number-style="arabic"><item id="import-auto-id1355203">Identify known.</item>
@@ -754,38 +741,7 @@ of an oscillating simple pendulum, starting from its equilibrium position, is gi
       </m:math>
     </equation></item>
     <item id="import-auto-id3013472">Maximum velocity depends on three factors: it is directly proportional to amplitude, it is greater for stiffer systems, and it is smaller for objects that have larger masses:
-    <equation id="eip-996"><m:math>
-
-          <m:mrow>
-
-              <m:mrow>
-                <m:mrow>
-                  <m:mrow>
-                    <m:msub>
-                      <m:mi>v</m:mi>
-
-                        <m:mrow>
-                          <m:mtext>max</m:mtext>
-                        </m:mrow>
-
-                    </m:msub>
-                    <m:mo stretchy="false">=</m:mo>
-                    <m:msqrt>
-                      <m:mfrac>
-                        <m:mi>k</m:mi>
-                        <m:mi>m</m:mi>
-                      </m:mfrac>
-                    </m:msqrt>
-                  </m:mrow>
-                  <m:mi>X</m:mi>
-                </m:mrow>
-              </m:mrow>
-            <m:mo>.</m:mo>
-            <m:mrow/>
-          </m:mrow>
-
-
-      </m:math>
+    <equation id="eip-996"><m:math><m:mrow><m:msub><m:mi>v</m:mi><m:mtext>max</m:mtext></m:msub><m:mo stretchy="false">=</m:mo><m:mi>X</m:mi><m:msqrt><m:mfrac><m:mi>k</m:mi><m:mi>m</m:mi></m:mfrac></m:msqrt></m:mrow></m:math>
     </equation></item>
         </list></section><section id="fs-id3153855" class="conceptual-questions" type="conceptual-questions">
         <title>Conceptual Questions</title>
